@@ -18,5 +18,5 @@ api:
 deploy:
 	./bin/instance_details.js yaml > ./api/ec2instances.yaml
 	./bin/instance_details.js json > ./api/ec2instances.json
-	git diff --quiet HEAD || git commit -m "Automated API update from CircleCI"
-	git push
+	git add api/*
+	git diff --quiet HEAD || git commit -m "Automated API update from CircleCI"; git push
