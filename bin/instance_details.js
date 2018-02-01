@@ -48,7 +48,11 @@ async function getInstanceDetails () {
 
     for (const field of fields) {
       if (serviceDetails[field] && serviceDetails[field] !== 'NA') {
-        instances[instanceType][field] = serviceDetails[field]
+        if (serviceDetails[field] === 'Yes' || serviceDetails[field] === 'No') {
+          instances[instanceType][field] = serviceDetails[field] === 'Yes'
+        } else {
+          instances[instanceType][field] = serviceDetails[field]
+        }
       }
     }
   }
