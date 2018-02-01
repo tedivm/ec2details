@@ -1,0 +1,19 @@
+{
+  "name": "voightkampff",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/instance_details.js"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "commander": "^2.13.0",
+    "js-yaml": "^3.10.0",
+    "mz": "^2.7.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
