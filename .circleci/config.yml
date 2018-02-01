@@ -68,6 +68,8 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
+      - run: git config --global user.email "tedivm@tedivm.com"
+      - run: git config --global user.name "Robert Hafner"
       - run: git config --global push.default simple
       - run: make deploy
 
@@ -81,7 +83,7 @@ workflows:
       - deploy
     triggers:
       - schedule:
-          cron: "17 * * * *"
+          cron: "20 * * * *"
           filters:
             branches:
               only:
