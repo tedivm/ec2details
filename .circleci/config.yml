@@ -71,7 +71,6 @@ jobs:
       - run: git config --global user.email "tedivm@tedivm.com"
       - run: git config --global user.name "Robert Hafner"
       - run: git config --global push.default simple
-      - run: git checkout -- yarn.lock
       - run: make deploy
 
 workflows:
