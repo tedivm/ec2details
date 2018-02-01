@@ -49,9 +49,7 @@ jobs:
     working_directory: ~/repo
 
     steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "ef:c4:4b:ae:fb:2b:3c:7d:89:ea:4f:b8:4a:ac:27:6a"
+      - add_ssh_keys
 
       - checkout
 
@@ -70,6 +68,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
+      - run: git config --global push.default simple
       - run: make deploy
 
 workflows:
@@ -82,7 +81,7 @@ workflows:
       - deploy
     triggers:
       - schedule:
-          cron: "8 * * * *"
+          cron: "11 * * * *"
           filters:
             branches:
               only:
