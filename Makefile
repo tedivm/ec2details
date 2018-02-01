@@ -1,3 +1,4 @@
+SHELL := /bin/bash
 .PHONY: dependencies api clean fresh deploy
 
 dependencies:
@@ -17,5 +18,5 @@ api:
 deploy:
 	./bin/instance_details.js yaml > ./api/ec2instances.yaml
 	./bin/instance_details.js json > ./api/ec2instances.json
-	git commit -m "Automated API update from CircleCI"
+	git diff --quiet HEAD || git commit -m "Automated API update from CircleCI"
 	git push
