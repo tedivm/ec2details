@@ -81,7 +81,7 @@ workflows:
       - deploy
     triggers:
       - schedule:
-          cron: "11 * * * *"
+          cron: "17 * * * *"
           filters:
             branches:
               only:
