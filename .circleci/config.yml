@@ -71,6 +71,7 @@ jobs:
       - run: git config --global user.email "tedivm@tedivm.com"
       - run: git config --global user.name "Robert Hafner"
       - run: git config --global push.default simple
+      - run: echo 'yarn.lock' >> .git/info/exclude
       - run: make deploy
 
 workflows:
@@ -83,7 +84,7 @@ workflows:
       - deploy
     triggers:
       - schedule:
-          cron: "36 * * * *"
+          cron: "42 * * * *"
           filters:
             branches:
               only:
