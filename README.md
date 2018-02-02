@@ -11,9 +11,9 @@ The data is regenerated at least once a day using a scheduled [CircleCI job](htt
 
 The API currently serves the data in two formats (each using the same data structure).
 
-- json: https://tedivm.github.io/ec2details/api/ec2instances.json
+- json: [https://tedivm.github.io/ec2details/api/ec2instances.json](https://tedivm.github.io/ec2details/api/ec2instances.json)
 
-- yaml: https://tedivm.github.io/ec2details/api/ec2instances.yaml
+- yaml: [https://tedivm.github.io/ec2details/api/ec2instances.yaml](https://tedivm.github.io/ec2details/api/ec2instances.yaml)
 
 In both cases the instance type is the key, with attributes existing under that. Not every instance fill have every attribute (as an example, only the `p2`, `p3`, `g2` and `g3` instances have a `gpu` field).
 
