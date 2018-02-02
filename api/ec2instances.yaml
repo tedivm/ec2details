@@ -1,5 +1,5 @@
 c1.medium:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '5'
   memory: 1.7 GiB
   networkPerformance: Moderate
@@ -8,7 +8,7 @@ c1.medium:
   storage: 1 x 350
   vcpu: '2'
 c1.xlarge:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '20'
   memory: 7 GiB
   networkPerformance: High
@@ -18,9 +18,9 @@ c1.xlarge:
   vcpu: '8'
 c3.2xlarge:
   clockSpeed: 2.8 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '28'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 15 GiB
   networkPerformance: High
   normalizationSizeFactor: '16'
@@ -29,9 +29,9 @@ c3.2xlarge:
   vcpu: '8'
 c3.4xlarge:
   clockSpeed: 2.8 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '55'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 30 GiB
   networkPerformance: High
   normalizationSizeFactor: '32'
@@ -40,9 +40,9 @@ c3.4xlarge:
   vcpu: '16'
 c3.8xlarge:
   clockSpeed: 2.8 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '108'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 60 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '64'
@@ -51,9 +51,9 @@ c3.8xlarge:
   vcpu: '32'
 c3.large:
   clockSpeed: 2.8 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '7'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 3.75 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: '4'
@@ -62,9 +62,9 @@ c3.large:
   vcpu: '2'
 c3.xlarge:
   clockSpeed: 2.8 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '14'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 7.5 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: '8'
@@ -73,10 +73,10 @@ c3.xlarge:
   vcpu: '4'
 c4.2xlarge:
   clockSpeed: 2.9 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 1000 Mbps
   ecu: '31'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 15 GiB
   networkPerformance: High
   normalizationSizeFactor: '16'
@@ -85,10 +85,10 @@ c4.2xlarge:
   vcpu: '8'
 c4.4xlarge:
   clockSpeed: 2.9 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 2000 Mbps
   ecu: '62'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 30 GiB
   networkPerformance: High
   normalizationSizeFactor: '32'
@@ -97,10 +97,10 @@ c4.4xlarge:
   vcpu: '16'
 c4.8xlarge:
   clockSpeed: 2.9 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 4000 Mbps
   ecu: '132'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 60 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '64'
@@ -109,10 +109,10 @@ c4.8xlarge:
   vcpu: '36'
 c4.large:
   clockSpeed: 2.9 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 500 Mbps
   ecu: '8'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 3.75 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: '4'
@@ -121,10 +121,10 @@ c4.large:
   vcpu: '2'
 c4.xlarge:
   clockSpeed: 2.9 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 750 Mbps
   ecu: '16'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 7.5 GiB
   networkPerformance: High
   normalizationSizeFactor: '8'
@@ -133,10 +133,10 @@ c4.xlarge:
   vcpu: '4'
 c5.18xlarge:
   clockSpeed: 3.0 Ghz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 9000 Mbps
   ecu: '278'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 144 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: '144'
@@ -145,10 +145,10 @@ c5.18xlarge:
   vcpu: '72'
 c5.2xlarge:
   clockSpeed: 3.0 Ghz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
   ecu: '31'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '16'
@@ -157,10 +157,10 @@ c5.2xlarge:
   vcpu: '8'
 c5.4xlarge:
   clockSpeed: 3.0 Ghz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
   ecu: '62'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '32'
@@ -169,10 +169,10 @@ c5.4xlarge:
   vcpu: '16'
 c5.9xlarge:
   clockSpeed: 3.0 Ghz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 4500 Mbps
   ecu: '139'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 72 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '72'
@@ -181,10 +181,10 @@ c5.9xlarge:
   vcpu: '36'
 c5.large:
   clockSpeed: 3.0 Ghz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
   ecu: '8'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 4 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '4'
@@ -193,10 +193,10 @@ c5.large:
   vcpu: '2'
 c5.xlarge:
   clockSpeed: 3.0 Ghz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
   ecu: '16'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '8'
@@ -205,7 +205,7 @@ c5.xlarge:
   vcpu: '4'
 cc2.8xlarge:
   clockSpeed: 2.6 GHz
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '88'
   memory: 60.5 GiB
   networkPerformance: 10 Gigabit
@@ -214,7 +214,7 @@ cc2.8xlarge:
   storage: 4 x 840
   vcpu: '32'
 cg1.4xlarge:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '33.5'
   memory: 22.5 GiB
   networkPerformance: 10 Gigabit
@@ -223,7 +223,7 @@ cg1.4xlarge:
   storage: 2 x 840
   vcpu: '16'
 cr1.8xlarge:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '88'
   memory: 244 GiB
   networkPerformance: 10 Gigabit
@@ -233,9 +233,9 @@ cr1.8xlarge:
   vcpu: '32'
 d2.2xlarge:
   clockSpeed: 2.4 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '28'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 61 GiB
   networkPerformance: High
   normalizationSizeFactor: '16'
@@ -244,9 +244,9 @@ d2.2xlarge:
   vcpu: '8'
 d2.4xlarge:
   clockSpeed: 2.4 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '56'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 122 GiB
   networkPerformance: High
   normalizationSizeFactor: '32'
@@ -255,9 +255,9 @@ d2.4xlarge:
   vcpu: '16'
 d2.8xlarge:
   clockSpeed: 2.4 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '116'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 244 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '64'
@@ -266,9 +266,9 @@ d2.8xlarge:
   vcpu: '36'
 d2.xlarge:
   clockSpeed: 2.4 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '14'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 30.5 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: '8'
@@ -276,7 +276,7 @@ d2.xlarge:
   storage: 3 x 2000 HDD
   vcpu: '4'
 f1.16xlarge:
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '188'
   memory: 976 GiB
   networkPerformance: 20 Gigabit
@@ -285,7 +285,7 @@ f1.16xlarge:
   storage: EBS only
   vcpu: '64'
 f1.2xlarge:
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '26'
   memory: 122 GiB
   networkPerformance: Up to 10 Gigabit
@@ -295,7 +295,7 @@ f1.2xlarge:
   vcpu: '8'
 g2.2xlarge:
   clockSpeed: 2.6 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '26'
   gpu: '1'
   memory: 15 GiB
@@ -306,7 +306,7 @@ g2.2xlarge:
   vcpu: '8'
 g2.8xlarge:
   clockSpeed: 2.6 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '104'
   gpu: '4'
   memory: 60 GiB
@@ -317,10 +317,10 @@ g2.8xlarge:
   vcpu: '32'
 g3.16xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
   ecu: '188'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   gpu: '4'
   memory: 488 GiB
   networkPerformance: 20 Gigabit
@@ -330,10 +330,10 @@ g3.16xlarge:
   vcpu: '64'
 g3.4xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 3500 Mbps
   ecu: '47'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   gpu: '1'
   memory: 122 GiB
   networkPerformance: Up to 10 Gigabit
@@ -343,10 +343,10 @@ g3.4xlarge:
   vcpu: '16'
 g3.8xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 7000 Mbps
   ecu: '94'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   gpu: '2'
   memory: 244 GiB
   networkPerformance: 10 Gigabit
@@ -356,10 +356,10 @@ g3.8xlarge:
   vcpu: '32'
 h1.16xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 12000 Mbps
   ecu: '188'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 256 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: '128'
@@ -368,10 +368,10 @@ h1.16xlarge:
   vcpu: '64'
 h1.2xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 1600 Mbps
   ecu: '26'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '16'
@@ -380,10 +380,10 @@ h1.2xlarge:
   vcpu: '8'
 h1.4xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 3000 Mbps
   ecu: '53.5'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '32'
@@ -392,10 +392,10 @@ h1.4xlarge:
   vcpu: '16'
 h1.8xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 6000 Mbps
   ecu: '99'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 128 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '64'
@@ -404,7 +404,7 @@ h1.8xlarge:
   vcpu: '32'
 hs1.8xlarge:
   clockSpeed: 2 GHz
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '35'
   memory: 117 GiB
   networkPerformance: 10 Gigabit
@@ -414,9 +414,9 @@ hs1.8xlarge:
   vcpu: '17'
 i2.2xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '27'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 61 GiB
   networkPerformance: High
   normalizationSizeFactor: '16'
@@ -425,9 +425,9 @@ i2.2xlarge:
   vcpu: '8'
 i2.4xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '53'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 122 GiB
   networkPerformance: High
   normalizationSizeFactor: '32'
@@ -436,9 +436,9 @@ i2.4xlarge:
   vcpu: '16'
 i2.8xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '104'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 244 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '64'
@@ -447,9 +447,9 @@ i2.8xlarge:
   vcpu: '32'
 i2.xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '14'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 30.5 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: '8'
@@ -458,10 +458,10 @@ i2.xlarge:
   vcpu: '4'
 i3.16xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
   ecu: '200'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 488 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: '128'
@@ -470,10 +470,10 @@ i3.16xlarge:
   vcpu: '64'
 i3.2xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 1750 Mbps
   ecu: '27'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 61 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '16'
@@ -482,10 +482,10 @@ i3.2xlarge:
   vcpu: '8'
 i3.4xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 3500 Mbps
   ecu: '53'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 122 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '32'
@@ -494,10 +494,10 @@ i3.4xlarge:
   vcpu: '16'
 i3.8xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 7000 Mbps
   ecu: '99'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 244 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '64'
@@ -506,10 +506,10 @@ i3.8xlarge:
   vcpu: '32'
 i3.large:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 425 Mbps
   ecu: '7'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 15.25 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '4'
@@ -518,10 +518,10 @@ i3.large:
   vcpu: '2'
 i3.xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 850 Mbps
   ecu: '13'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 30.5 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '8'
@@ -529,7 +529,7 @@ i3.xlarge:
   storage: 1 x 0.95 NVMe SSD
   vcpu: '4'
 m1.large:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '4'
   memory: 7.5 GiB
   networkPerformance: Moderate
@@ -538,7 +538,7 @@ m1.large:
   storage: 2 x 420
   vcpu: '2'
 m1.medium:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '2'
   memory: 3.75 GiB
   networkPerformance: Moderate
@@ -547,7 +547,7 @@ m1.medium:
   storage: 1 x 410
   vcpu: '1'
 m1.small:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '1'
   memory: 1.7 GiB
   networkPerformance: Low
@@ -556,7 +556,7 @@ m1.small:
   storage: 1 x 160
   vcpu: '1'
 m1.xlarge:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '8'
   memory: 15 GiB
   networkPerformance: High
@@ -565,7 +565,7 @@ m1.xlarge:
   storage: 4 x 420
   vcpu: '4'
 m2.2xlarge:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '13'
   memory: 34.2 GiB
   networkPerformance: Moderate
@@ -574,7 +574,7 @@ m2.2xlarge:
   storage: 1 x 850
   vcpu: '4'
 m2.4xlarge:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '26'
   memory: 68.4 GiB
   networkPerformance: High
@@ -583,7 +583,7 @@ m2.4xlarge:
   storage: 2 x 840
   vcpu: '8'
 m2.xlarge:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: '6.5'
   memory: 17.1 GiB
   networkPerformance: Moderate
@@ -593,7 +593,7 @@ m2.xlarge:
   vcpu: '2'
 m3.2xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '26'
   memory: 30 GiB
   networkPerformance: High
@@ -603,7 +603,7 @@ m3.2xlarge:
   vcpu: '8'
 m3.large:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '6.5'
   memory: 7.5 GiB
   networkPerformance: Moderate
@@ -613,7 +613,7 @@ m3.large:
   vcpu: '2'
 m3.medium:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '3'
   memory: 3.75 GiB
   networkPerformance: Moderate
@@ -623,7 +623,7 @@ m3.medium:
   vcpu: '1'
 m3.xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '13'
   memory: 15 GiB
   networkPerformance: High
@@ -633,10 +633,10 @@ m3.xlarge:
   vcpu: '4'
 m4.10xlarge:
   clockSpeed: 2.4 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 4000 Mbps
   ecu: '124.5'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 160 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '80'
@@ -645,10 +645,10 @@ m4.10xlarge:
   vcpu: '40'
 m4.16xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 10000 Mbps
   ecu: '188'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 256 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: '128'
@@ -657,10 +657,10 @@ m4.16xlarge:
   vcpu: '64'
 m4.2xlarge:
   clockSpeed: 2.4 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 1000 Mbps
   ecu: '26'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: High
   normalizationSizeFactor: '16'
@@ -669,10 +669,10 @@ m4.2xlarge:
   vcpu: '8'
 m4.4xlarge:
   clockSpeed: 2.4 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 2000 Mbps
   ecu: '53.5'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: High
   normalizationSizeFactor: '32'
@@ -681,10 +681,10 @@ m4.4xlarge:
   vcpu: '16'
 m4.large:
   clockSpeed: 2.4 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 450 Mbps
   ecu: '6.5'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: '4'
@@ -693,10 +693,10 @@ m4.large:
   vcpu: '2'
 m4.xlarge:
   clockSpeed: 2.4  GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 750 Mbps
   ecu: '13'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: High
   normalizationSizeFactor: '8'
@@ -705,10 +705,10 @@ m4.xlarge:
   vcpu: '4'
 m5.12xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 6000 Mbps
   ecu: '173'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 192 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '96'
@@ -717,10 +717,10 @@ m5.12xlarge:
   vcpu: '48'
 m5.24xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 12000 Mbps
   ecu: '345'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 384 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: '192'
@@ -729,10 +729,10 @@ m5.24xlarge:
   vcpu: '96'
 m5.2xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: Upto 2120 Mbps
   ecu: '31'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '16'
@@ -741,10 +741,10 @@ m5.2xlarge:
   vcpu: '8'
 m5.4xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 2120 Mbps
   ecu: '61'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '32'
@@ -753,10 +753,10 @@ m5.4xlarge:
   vcpu: '16'
 m5.large:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: Upto 2120 Mbps
   ecu: '10'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '4'
@@ -765,10 +765,10 @@ m5.large:
   vcpu: '2'
 m5.xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: Upto 2120 Mbps
   ecu: '15'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '8'
@@ -777,9 +777,9 @@ m5.xlarge:
   vcpu: '4'
 p2.16xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '188'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   gpu: '16'
   memory: 768 GiB
   networkPerformance: 20 Gigabit
@@ -789,9 +789,9 @@ p2.16xlarge:
   vcpu: '64'
 p2.8xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '94'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   gpu: '8'
   memory: 488 GiB
   networkPerformance: 10 Gigabit
@@ -801,9 +801,9 @@ p2.8xlarge:
   vcpu: '32'
 p2.xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '12'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   gpu: '1'
   memory: 61 GiB
   networkPerformance: High
@@ -813,10 +813,10 @@ p2.xlarge:
   vcpu: '4'
 p3.16xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
   ecu: '188'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   gpu: '8'
   memory: 488 GiB
   networkPerformance: 25 Gigabit
@@ -826,10 +826,10 @@ p3.16xlarge:
   vcpu: '64'
 p3.2xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 1750 Mbps
   ecu: '26'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   gpu: '1'
   memory: 61 GiB
   networkPerformance: Up to 10 Gigabit
@@ -839,10 +839,10 @@ p3.2xlarge:
   vcpu: '8'
 p3.8xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 7000 Mbps
   ecu: '94'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   gpu: '4'
   memory: 244 GiB
   networkPerformance: 10 Gigabit
@@ -852,9 +852,9 @@ p3.8xlarge:
   vcpu: '32'
 r3.2xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '26'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 61 GiB
   networkPerformance: High
   normalizationSizeFactor: '16'
@@ -863,9 +863,9 @@ r3.2xlarge:
   vcpu: '8'
 r3.4xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '52'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 122 GiB
   networkPerformance: High
   normalizationSizeFactor: '32'
@@ -874,9 +874,9 @@ r3.4xlarge:
   vcpu: '16'
 r3.8xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '104'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 244 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '64'
@@ -885,9 +885,9 @@ r3.8xlarge:
   vcpu: '32'
 r3.large:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '6.5'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 15.25 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: '4'
@@ -896,9 +896,9 @@ r3.large:
   vcpu: '2'
 r3.xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '13'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 30.5 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: '8'
@@ -907,10 +907,10 @@ r3.xlarge:
   vcpu: '4'
 r4.16xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 12000 Mbps
   ecu: '195'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 488 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: '128'
@@ -919,10 +919,10 @@ r4.16xlarge:
   vcpu: '64'
 r4.2xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 1600 Mbps
   ecu: '27'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 61 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '16'
@@ -931,10 +931,10 @@ r4.2xlarge:
   vcpu: '8'
 r4.4xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 3000 Mbps
   ecu: '53'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 122 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '32'
@@ -943,10 +943,10 @@ r4.4xlarge:
   vcpu: '16'
 r4.8xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 6000 Mbps
   ecu: '99'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 244 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '64'
@@ -955,10 +955,10 @@ r4.8xlarge:
   vcpu: '32'
 r4.large:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 400 Mbps
   ecu: '7'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 15.25 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '4'
@@ -967,10 +967,10 @@ r4.large:
   vcpu: '2'
 r4.xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 800 Mbps
   ecu: '13.5'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 30.5 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '8'
@@ -978,7 +978,7 @@ r4.xlarge:
   storage: EBS only
   vcpu: '4'
 t1.micro:
-  currentGeneration: 'No'
+  currentGeneration: false
   ecu: Variable
   memory: 0.613 GiB
   networkPerformance: Very Low
@@ -988,7 +988,7 @@ t1.micro:
   vcpu: '1'
 t2.2xlarge:
   clockSpeed: Up to 3.0 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: Variable
   memory: 32 GiB
   networkPerformance: Moderate
@@ -998,7 +998,7 @@ t2.2xlarge:
   vcpu: '8'
 t2.large:
   clockSpeed: Up to 3.0 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: Variable
   memory: 8 GiB
   networkPerformance: Low to Moderate
@@ -1008,7 +1008,7 @@ t2.large:
   vcpu: '2'
 t2.medium:
   clockSpeed: Up to 3.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: Variable
   memory: 4 GiB
   networkPerformance: Low to Moderate
@@ -1018,7 +1018,7 @@ t2.medium:
   vcpu: '2'
 t2.micro:
   clockSpeed: Up to 3.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: Variable
   memory: 1 GiB
   networkPerformance: Low to Moderate
@@ -1028,7 +1028,7 @@ t2.micro:
   vcpu: '1'
 t2.nano:
   clockSpeed: Up to 3.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: Variable
   memory: 0.5 GiB
   networkPerformance: Low
@@ -1038,7 +1038,7 @@ t2.nano:
   vcpu: '1'
 t2.small:
   clockSpeed: Up to 3.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: Variable
   memory: 2 GiB
   networkPerformance: Low to Moderate
@@ -1048,7 +1048,7 @@ t2.small:
   vcpu: '1'
 t2.xlarge:
   clockSpeed: Up to 3.0 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: Variable
   memory: 16 GiB
   networkPerformance: Moderate
@@ -1058,9 +1058,9 @@ t2.xlarge:
   vcpu: '4'
 x1.16xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '174.5'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 976 GiB
   networkPerformance: High
   normalizationSizeFactor: '128'
@@ -1069,9 +1069,9 @@ x1.16xlarge:
   vcpu: '64'
 x1.32xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   ecu: '349'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: '1,952 GiB'
   networkPerformance: High
   normalizationSizeFactor: '256'
@@ -1080,10 +1080,10 @@ x1.32xlarge:
   vcpu: '128'
 x1e.16xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 7000 Mbps
   ecu: '179'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: '1,952 GiB'
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: '128'
@@ -1092,10 +1092,10 @@ x1e.16xlarge:
   vcpu: '64'
 x1e.2xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 1000 Mbps
   ecu: '23'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 244 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '16'
@@ -1104,10 +1104,10 @@ x1e.2xlarge:
   vcpu: '8'
 x1e.32xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
   ecu: '340'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: '3,904 GiB'
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: '256'
@@ -1116,10 +1116,10 @@ x1e.32xlarge:
   vcpu: '128'
 x1e.4xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 1750 Mbps
   ecu: '47'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 488 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '32'
@@ -1128,10 +1128,10 @@ x1e.4xlarge:
   vcpu: '16'
 x1e.8xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 3500 Mbps
   ecu: '91'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 976 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '64'
@@ -1140,10 +1140,10 @@ x1e.8xlarge:
   vcpu: '32'
 x1e.xlarge:
   clockSpeed: 2.3 GHz
-  currentGeneration: 'Yes'
+  currentGeneration: true
   dedicatedEbsThroughput: 500 Mbps
   ecu: '12'
-  enhancedNetworkingSupported: 'Yes'
+  enhancedNetworkingSupported: true
   memory: 122 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: '8'
