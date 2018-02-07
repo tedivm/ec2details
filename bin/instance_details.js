@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const program = require('commander')
+const stringify = require('json-stable-stringify')
 const rp = require('request-promise-native')
 const fs = require('mz/fs')
 const offers = 'https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/index.json'
@@ -60,12 +61,12 @@ async function getInstanceDetails () {
 }
 
 function instanceSort (a, b) {
-  const familyA = a.substring(0, a.indexOf('.'))
-  const familyB = b.substring(0, b.indexOf('.'))
-  if (familyA === familyB) {
+  const aCompare = typeof a === 'string' ? a.substring(0, a.indexOf('.')) : a.key
+  const bCompare = typeof b === 'string' ? b.substring(0, b.indexOf('.')) : b.key
+  if (aCompare === bCompare) {
     return a.localeCompare(b)
   }
-  return familyA.localeCompare(familyB)
+  return aCompare.localeCompare(bCompare)
 }
 
 program
@@ -111,7 +112,7 @@ program
   .description('Output instance details as JSON.')
   .action(async function () {
     const instances = await getInstanceDetails()
-    console.log(JSON.stringify(instances))
+    console.log(stringify(instances, instanceSort))
   })
 
 program
