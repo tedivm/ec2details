@@ -1,6 +1,6 @@
 # ec2details
 
-This service provides details about AWS EC2 Instance Typs available in a variety of formats.
+This service provides details about AWS EC2 Instance Types available in a variety of formats.
 
 The data is generated from the EC2 services published in the [AWS Bulk API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/using-ppslong.html), which is a giant (>195M) json file AWS updates regularly. The problem with this file is that it is horribly obtuse (requiring [custom tools](http://blog.tedivm.com/open-source/2017/05/introducing-jsonsmash-work-with-large-json-files-easily/) simply to read it) and takes a lot of memory to parse (over 2gb using python). This service transforms that to make it much easier to use and access.
 
