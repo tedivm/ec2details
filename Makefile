@@ -11,13 +11,13 @@ clean:
 
 fresh: clean dependencies
 
+download:
+	./bin/instance_details.js download
+
 api:
 	./bin/instance_details.js yaml > ./api/ec2instances.yaml
 	./bin/instance_details.js json > ./api/ec2instances.json
 
-deploy:
-	./bin/instance_details.js download
-	./bin/instance_details.js yaml > ./api/ec2instances.yaml
-	./bin/instance_details.js json > ./api/ec2instances.json
+deploy: download api
 	git add api/*
 	git diff --quiet HEAD api/ || git commit -m "Automated API update from CircleCI"; git push
