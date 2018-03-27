@@ -7,6 +7,28 @@ const offers = 'https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC
 const offersFile = '/tmp/aws_ec2_services.json'
 const yaml = require('js-yaml')
 
+const regionMap = {
+  'US East (Ohio)': 'us-east-2',
+  'US East (N. Virginia)': 'us-east-1',
+  'US West (N. California)': 'us-west-1',
+  'US West (Oregon)': 'us-west-2',
+  'Asia Pacific (Tokyo)': 'ap-northeast-1',
+  'Asia Pacific (Seoul)': 'ap-northeast-2',
+  'Asia Pacific (Osaka-Local)': 'ap-northeast-3',
+  'Asia Pacific (Mumbai)': 'ap-south-1',
+  'Asia Pacific (Singapore)': 'ap-southeast-1',
+  'Asia Pacific (Sydney)': 'ap-southeast-2',
+  'Canada (Central)': 'ca-central-1',
+  'China (Beijing)': 'cn-north-1',
+  'China (Ningxia)': 'cn-northwest-1',
+  'EU (Frankfurt)': 'eu-central-1',
+  'EU (Ireland)': 'eu-west-1',
+  'EU (London)': 'eu-west-2',
+  'EU (Paris)': 'eu-west-3',
+  'South America (Sao Paulo)': 'sa-east-1',
+  'AWS GovCloud (US)': 'us-gov-west-1'
+}
+
 async function downloadFile (forceDownload = false) {
   if (forceDownload || !await fs.existsSync(offersFile)) {
     const offersString = await rp(offers)
@@ -33,24 +55,64 @@ async function getInstanceDetails () {
     'normalizationSizeFactor'
   ]
 
+  const intFields = [
+    'normalizationSizeFactor',
+    'vcpu',
+    'gpu'
+  ]
+
   const json = await downloadFile()
   const keys = Object.keys(json.products)
   const instances = {}
 
   for (const key of keys) {
+    const sku = json.products[key].sku
     const serviceDetails = json.products[key].attributes
     if (!serviceDetails['instanceType'] || !serviceDetails['instanceType'].includes('.')) {
       continue
     }
     const instanceType = serviceDetails['instanceType']
     if (!instances[instanceType]) {
-      instances[instanceType] = {}
+      instances[instanceType] = {
+        'regions': [],
+        'prices': {}
+      }
+    }
+
+    const region = regionMap[serviceDetails['location']] ? regionMap[serviceDetails['location']] : serviceDetails['location']
+    const operatingSystem = serviceDetails['operatingSystem']
+    const tenancy = serviceDetails['tenancy']
+
+    if (!instances[instanceType]['regions'].includes(region)) {
+      instances[instanceType]['regions'].push(region)
+    }
+
+    if (operatingSystem !== 'NA' && tenancy !== 'Host' && json.terms.OnDemand[sku]) {
+      const priceBlock = json.terms.OnDemand[sku]
+      const offerCodes = Object.keys(priceBlock)
+      const offerCode = offerCodes[0]
+      const priceCode = Object.keys(priceBlock[offerCode]['priceDimensions'])[0]
+      const price = priceBlock[offerCode]['priceDimensions'][priceCode]['pricePerUnit']['USD']
+      if (price > 0) {
+        if (!Object.keys(instances[instanceType]['prices']).includes(operatingSystem)) {
+          instances[instanceType]['prices'][operatingSystem] = {}
+        }
+        if (!instances[instanceType]['prices'][operatingSystem][region]) {
+          instances[instanceType]['prices'][operatingSystem][region] = {}
+        }
+        instances[instanceType]['prices'][operatingSystem][region][tenancy] = parseFloat(price)
+      }
+    }
+
+    if (serviceDetails['location']) {
     }
 
     for (const field of fields) {
       if (serviceDetails[field] && serviceDetails[field] !== 'NA') {
         if (serviceDetails[field] === 'Yes' || serviceDetails[field] === 'No') {
           instances[instanceType][field] = serviceDetails[field] === 'Yes'
+        } else if (intFields.includes(field)) {
+          instances[instanceType][field] = parseInt(serviceDetails[field])
         } else {
           instances[instanceType][field] = serviceDetails[field]
         }

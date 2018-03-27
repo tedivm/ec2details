@@ -18,19 +18,89 @@ The API currently serves the data in two formats (each using the same data struc
 In both cases the instance type is the key, with attributes existing under that. Not every instance fill have every attribute (as an example, only the `p2`, `p3`, `g2` and `g3` instances have a `gpu` field).
 
 ```yaml
-p3.16xlarge:
+x1e.xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 14000 Mbps
-  ecu: '188'
+  dedicatedEbsThroughput: 500 Mbps
+  ecu: '12'
   enhancedNetworkingSupported: true
-  gpu: '8'
-  memory: 488 GiB
-  networkPerformance: 25 Gigabit
-  normalizationSizeFactor: '128'
-  physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
-  storage: EBS only
-  vcpu: '64'
+  memory: 122 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 8
+  physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
+  prices:
+    Linux:
+      ap-northeast-1:
+        Dedicated: 1.33
+        Shared: 1.209
+      ap-southeast-2:
+        Dedicated: 1.33
+        Shared: 1.209
+      eu-west-1:
+        Dedicated: 1.1
+        Shared: 1
+      us-east-1:
+        Dedicated: 0.917
+        Shared: 0.834
+      us-west-2:
+        Dedicated: 0.917
+        Shared: 0.834
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 1.39
+        Shared: 1.269
+      ap-southeast-2:
+        Dedicated: 1.39
+        Shared: 1.269
+      eu-west-1:
+        Dedicated: 1.16
+        Shared: 1.06
+      us-east-1:
+        Dedicated: 0.977
+        Shared: 0.894
+      us-west-2:
+        Dedicated: 0.977
+        Shared: 0.894
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 1.43
+        Shared: 1.309
+      ap-southeast-2:
+        Dedicated: 1.43
+        Shared: 1.309
+      eu-west-1:
+        Dedicated: 1.2
+        Shared: 1.1
+      us-east-1:
+        Dedicated: 1.017
+        Shared: 0.934
+      us-west-2:
+        Dedicated: 1.017
+        Shared: 0.934
+    Windows:
+      ap-northeast-1:
+        Dedicated: 1.582
+        Shared: 1.461
+      ap-southeast-2:
+        Dedicated: 3.014
+        Shared: 1.393
+      eu-west-1:
+        Dedicated: 1.764
+        Shared: 1.184
+      us-east-1:
+        Dedicated: 1.101
+        Shared: 0.834
+      us-west-2:
+        Dedicated: 1.101
+        Shared: 1.086
+  regions:
+    - us-east-1
+    - eu-west-1
+    - ap-southeast-2
+    - us-west-2
+    - ap-northeast-1
+  storage: 1 x 120
+  vcpu: 4
 ```
 
 
