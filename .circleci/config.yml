@@ -78,7 +78,7 @@ workflows:
   commit:
     jobs:
       - build
-  nightly:
+  api:
     jobs:
       - deploy
     triggers:
