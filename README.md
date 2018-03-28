@@ -105,7 +105,8 @@ x1e.xlarge:
   vcpu: 4
 ```
 
+## About
 
-## Author
+This project is [hosted on Github](https://github.com/tedivm/ec2details) under the [MIT License](https://github.com/tedivm/ec2details/blob/master/LICENSE).
 
-This project was created by [Robert Hafner](https://blog.tedivm.com/), who you can find on [Github](https://github.com/tedivm) and [Twitter](https://twitter.com/tedivm).
+It was created by [Robert Hafner](https://blog.tedivm.com/), who you can find on [Github](https://github.com/tedivm) and [Twitter](https://twitter.com/tedivm).
