@@ -4534,7 +4534,7 @@ f1.2xlarge:
   vcpu: 8
 g2.2xlarge:
   clockSpeed: 2.6 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: '26'
   gpu: 1
   memory: 15 GiB
@@ -4669,7 +4669,7 @@ g2.2xlarge:
   vcpu: 8
 g2.8xlarge:
   clockSpeed: 2.6 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: '104'
   gpu: 4
   memory: 60 GiB
