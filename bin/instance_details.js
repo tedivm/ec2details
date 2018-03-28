@@ -61,6 +61,10 @@ async function getInstanceDetails () {
     'gpu'
   ]
 
+  const floatFields = [
+    'ecu'
+  ]
+
   const json = await downloadFile()
   const keys = Object.keys(json.products)
   const instances = {}
@@ -113,6 +117,8 @@ async function getInstanceDetails () {
           instances[instanceType][field] = serviceDetails[field] === 'Yes'
         } else if (intFields.includes(field)) {
           instances[instanceType][field] = parseInt(serviceDetails[field])
+        } else if (floatFields.includes(field)) {
+          instances[instanceType][field] = parseFloat(serviceDetails[field])
         } else {
           instances[instanceType][field] = serviceDetails[field]
         }
