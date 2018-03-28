@@ -2,27 +2,29 @@
 
 This service provides details about AWS EC2 Instance Types available in a variety of formats.
 
-The data is generated from the EC2 services published in the [AWS Bulk API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/using-ppslong.html), which is a giant (>195M) json file AWS updates regularly. The problem with this file is that it is horribly obtuse (requiring [custom tools](http://blog.tedivm.com/open-source/2017/05/introducing-jsonsmash-work-with-large-json-files-easily/) simply to read it) and takes a lot of memory to parse (over 2gb using python). This service transforms that to make it much easier to use and access.
+The data is generated from the EC2 services published in the [AWS Bulk API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/using-ppslong.html), which is a giant (>218M) json file AWS that gets updated anytime there's a change in the ec2 service (new instances, price reductions, additional regions, etc). The problem with this file is that it is horribly obtuse (requiring [custom tools](http://blog.tedivm.com/open-source/2017/05/introducing-jsonsmash-work-with-large-json-files-easily/) simply to read it) and takes a lot of memory to parse (over 2gb using python, although significantly less when using node). This service uses that file to create a simplified version to make accessing EC2 instance type data far easier.
 
-The data is regenerated at least once a day using a scheduled [CircleCI job](https://circleci.com/gh/tedivm/ec2details) and published using [Github pages](https://tedivm.github.io/ec2details/).
+The data is regenerated at least once a day using a scheduled [CircleCI job](https://circleci.com/gh/tedivm/ec2details) and published using [Github pages](https://tedivm.github.io/ec2details/). Four times a day the scheduled CircleCI job regenerates the static API files and, if there is a change, pushes those files back up to the master branch of the git repository to update the Github Pages site.
 
 
 ## The API
 
-The API currently serves the data in two formats (each using the same data structure).
+The API currently serves the data in two formats, with each using the same data structure.
 
 - json: [https://tedivm.github.io/ec2details/api/ec2instances.json](https://tedivm.github.io/ec2details/api/ec2instances.json)
 
 - yaml: [https://tedivm.github.io/ec2details/api/ec2instances.yaml](https://tedivm.github.io/ec2details/api/ec2instances.yaml)
 
-In both cases the instance type is the key, with attributes existing under that. Not every instance fill have every attribute (as an example, only the `p2`, `p3`, `g2` and `g3` instances have a `gpu` field).
+In both cases the instance type is the key, with attributes existing under that. Not every instance fill have every attribute (as an example, only the `p2`, `p3`, `g2` and `g3` instances have a `gpu` field), so it is important to check for both the existence of the field as well as the value.
+
+Pricing is in USD and is broken down by region, operating system (Linux, RHEL, SUSE, or Windows), and tenancy (Dedicated or Shared).
 
 ```yaml
 x1e.xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 500 Mbps
-  ecu: '12'
+  ecu: 12
   enhancedNetworkingSupported: true
   memory: 122 GiB
   networkPerformance: Up to 10 Gigabit
