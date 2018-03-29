@@ -10731,6 +10731,9 @@ m5.12xlarge:
       eu-central-1:
         Dedicated: 3.047
         Shared: 2.86
+      eu-west-1:
+        Dedicated: 2.84
+        Shared: 2.668
       eu-west-2:
         Dedicated: 2.942
         Shared: 2.764
@@ -10738,6 +10741,7 @@ m5.12xlarge:
         Dedicated: 2.968
         Shared: 2.788
       us-east-1:
+        Dedicated: 2.544
         Shared: 2.404
       us-east-2:
         Dedicated: 2.544
@@ -10746,6 +10750,7 @@ m5.12xlarge:
         Dedicated: 2.98
         Shared: 2.788
       us-west-2:
+        Dedicated: 2.544
         Shared: 2.404
     Windows:
       ap-northeast-2:
@@ -10913,18 +10918,27 @@ m5.24xlarge:
       eu-central-1:
         Dedicated: 5.62
         Shared: 5.62
+      eu-west-1:
+        Dedicated: 5.236
+        Shared: 5.236
       eu-west-2:
         Dedicated: 5.428
         Shared: 5.428
       eu-west-3:
         Dedicated: 5.476
         Shared: 5.476
+      us-east-1:
+        Dedicated: 4.708
+        Shared: 4.708
       us-east-2:
         Dedicated: 4.708
         Shared: 4.708
       us-west-1:
         Dedicated: 5.476
         Shared: 5.476
+      us-west-2:
+        Dedicated: 4.708
+        Shared: 4.708
     Windows:
       ap-northeast-2:
         Dedicated: 21.6
@@ -11091,6 +11105,9 @@ m5.2xlarge:
       eu-central-1:
         Dedicated: 0.591
         Shared: 0.56
+      eu-west-1:
+        Dedicated: 0.557
+        Shared: 0.528
       eu-west-2:
         Dedicated: 0.574
         Shared: 0.544
@@ -11098,6 +11115,7 @@ m5.2xlarge:
         Dedicated: 0.578
         Shared: 0.548
       us-east-1:
+        Dedicated: 0.507
         Shared: 0.484
       us-east-2:
         Dedicated: 0.507
@@ -11106,6 +11124,7 @@ m5.2xlarge:
         Dedicated: 0.58
         Shared: 0.548
       us-west-2:
+        Dedicated: 0.507
         Shared: 0.484
     Windows:
       ap-northeast-2:
@@ -11273,6 +11292,9 @@ m5.4xlarge:
       eu-central-1:
         Dedicated: 1.082
         Shared: 1.02
+      eu-west-1:
+        Dedicated: 1.013
+        Shared: 0.956
       eu-west-2:
         Dedicated: 1.047
         Shared: 0.988
@@ -11280,6 +11302,7 @@ m5.4xlarge:
         Dedicated: 1.056
         Shared: 0.996
       us-east-1:
+        Dedicated: 0.915
         Shared: 0.868
       us-east-2:
         Dedicated: 0.915
@@ -11288,6 +11311,7 @@ m5.4xlarge:
         Dedicated: 1.06
         Shared: 0.996
       us-west-2:
+        Dedicated: 0.915
         Shared: 0.868
     Windows:
       ap-northeast-2:
@@ -11456,6 +11480,7 @@ m5.large:
         Dedicated: 0.223
         Shared: 0.215
       eu-west-1:
+        Dedicated: 0.214
         Shared: 0.207
       eu-west-2:
         Dedicated: 0.218
@@ -11464,6 +11489,7 @@ m5.large:
         Dedicated: 0.219
         Shared: 0.212
       us-east-1:
+        Dedicated: 0.202
         Shared: 0.196
       us-east-2:
         Dedicated: 0.202
@@ -11472,6 +11498,7 @@ m5.large:
         Dedicated: 0.22
         Shared: 0.212
       us-west-2:
+        Dedicated: 0.202
         Shared: 0.196
     Windows:
       ap-northeast-2:
@@ -11640,6 +11667,7 @@ m5.xlarge:
         Dedicated: 0.346
         Shared: 0.33
       eu-west-1:
+        Dedicated: 0.328
         Shared: 0.314
       eu-west-2:
         Dedicated: 0.337
@@ -11647,12 +11675,18 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.339
         Shared: 0.324
+      us-east-1:
+        Dedicated: 0.304
+        Shared: 0.292
       us-east-2:
         Dedicated: 0.304
         Shared: 0.292
       us-west-1:
         Dedicated: 0.34
         Shared: 0.324
+      us-west-2:
+        Dedicated: 0.304
+        Shared: 0.292
     Windows:
       ap-northeast-2:
         Dedicated: 0.914
