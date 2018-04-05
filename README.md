@@ -1,4 +1,6 @@
 # ec2details
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftedivm%2Fec2details.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftedivm%2Fec2details?ref=badge_shield)
+
 
 This service provides details about AWS EC2 Instance Types available in a variety of formats.
 
@@ -110,3 +112,7 @@ x1e.xlarge:
 This project is [hosted on Github](https://github.com/tedivm/ec2details) under the [MIT License](https://github.com/tedivm/ec2details/blob/master/LICENSE).
 
 It was created by [Robert Hafner](https://blog.tedivm.com/), who you can find on [Github](https://github.com/tedivm) and [Twitter](https://twitter.com/tedivm).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftedivm%2Fec2details.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftedivm%2Fec2details?ref=badge_large)
