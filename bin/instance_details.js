@@ -86,12 +86,13 @@ async function getInstanceDetails () {
     const region = regionMap[serviceDetails['location']] ? regionMap[serviceDetails['location']] : serviceDetails['location']
     const operatingSystem = serviceDetails['operatingSystem']
     const tenancy = serviceDetails['tenancy']
+    const preInstalledSw = serviceDetails['preInstalledSw']
 
     if (!instances[instanceType]['regions'].includes(region)) {
       instances[instanceType]['regions'].push(region)
     }
 
-    if (operatingSystem !== 'NA' && tenancy !== 'Host' && json.terms.OnDemand[sku]) {
+    if (operatingSystem !== 'NA' && tenancy !== 'Host' && preInstalledSw == 'NA' && json.terms.OnDemand[sku]) {
       const priceBlock = json.terms.OnDemand[sku]
       const offerCodes = Object.keys(priceBlock)
       const offerCode = offerCodes[0]
