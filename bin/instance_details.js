@@ -92,7 +92,7 @@ async function getInstanceDetails () {
       instances[instanceType]['regions'].push(region)
     }
 
-    if (operatingSystem !== 'NA' && tenancy !== 'Host' && preInstalledSw == 'NA' && json.terms.OnDemand[sku]) {
+    if (operatingSystem !== 'NA' && tenancy !== 'Host' && preInstalledSw === 'NA' && json.terms.OnDemand[sku]) {
       const priceBlock = json.terms.OnDemand[sku]
       const offerCodes = Object.keys(priceBlock)
       const offerCode = offerCodes[0]
