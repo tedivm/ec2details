@@ -264,7 +264,7 @@ c1.xlarge:
   vcpu: 8
 c3.2xlarge:
   clockSpeed: 2.8 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 28
   enhancedNetworkingSupported: true
   memory: 15 GiB
@@ -425,7 +425,7 @@ c3.2xlarge:
   vcpu: 8
 c3.4xlarge:
   clockSpeed: 2.8 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 55
   enhancedNetworkingSupported: true
   memory: 30 GiB
@@ -585,7 +585,7 @@ c3.4xlarge:
   vcpu: 16
 c3.8xlarge:
   clockSpeed: 2.8 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 108
   enhancedNetworkingSupported: true
   memory: 60 GiB
@@ -746,7 +746,7 @@ c3.8xlarge:
   vcpu: 32
 c3.large:
   clockSpeed: 2.8 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 7
   enhancedNetworkingSupported: true
   memory: 3.75 GiB
@@ -907,7 +907,7 @@ c3.large:
   vcpu: 2
 c3.xlarge:
   clockSpeed: 2.8 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 14
   enhancedNetworkingSupported: true
   memory: 7.5 GiB
@@ -8801,7 +8801,7 @@ m2.xlarge:
   vcpu: 2
 m3.2xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 26
   memory: 30 GiB
   networkPerformance: High
@@ -8961,7 +8961,7 @@ m3.2xlarge:
   vcpu: 8
 m3.large:
   clockSpeed: 2.5 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 6.5
   memory: 7.5 GiB
   networkPerformance: Moderate
@@ -9121,7 +9121,7 @@ m3.large:
   vcpu: 2
 m3.medium:
   clockSpeed: 2.5 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 3
   memory: 3.75 GiB
   networkPerformance: Moderate
@@ -9281,7 +9281,7 @@ m3.medium:
   vcpu: 1
 m3.xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 13
   memory: 15 GiB
   networkPerformance: High
@@ -12383,8 +12383,8 @@ p2.8xlarge:
     - us-west-2
     - ap-northeast-1
     - ap-southeast-2
-    - ap-northeast-2
     - ap-south-1
+    - ap-northeast-2
     - ap-southeast-1
     - eu-west-1
     - us-east-1
@@ -12538,11 +12538,11 @@ p2.xlarge:
     - ap-south-1
     - ap-southeast-1
     - eu-central-1
-    - ap-northeast-2
     - us-east-1
-    - ap-southeast-2
     - eu-west-1
+    - ap-northeast-2
     - us-gov-west-1
+    - ap-southeast-2
     - us-west-2
     - ap-northeast-1
     - us-east-2
@@ -12880,7 +12880,7 @@ p3.8xlarge:
   vcpu: 32
 r3.2xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 26
   enhancedNetworkingSupported: true
   memory: 61 GiB
@@ -13067,7 +13067,7 @@ r3.2xlarge:
   vcpu: 8
 r3.4xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 52
   enhancedNetworkingSupported: true
   memory: 122 GiB
@@ -13254,7 +13254,7 @@ r3.4xlarge:
   vcpu: 16
 r3.8xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 104
   enhancedNetworkingSupported: true
   memory: 244 GiB
@@ -13441,7 +13441,7 @@ r3.8xlarge:
   vcpu: 32
 r3.large:
   clockSpeed: 2.5 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 6.5
   enhancedNetworkingSupported: true
   memory: 15.25 GiB
@@ -13628,7 +13628,7 @@ r3.large:
   vcpu: 2
 r3.xlarge:
   clockSpeed: 2.5 GHz
-  currentGeneration: true
+  currentGeneration: false
   ecu: 13
   enhancedNetworkingSupported: true
   memory: 30.5 GiB
