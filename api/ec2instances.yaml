@@ -3474,6 +3474,504 @@ c5.xlarge:
     - ap-northeast-2
   storage: EBS only
   vcpu: 4
+c5d.18xlarge:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: 9000 Mbps
+  ecu: 278
+  enhancedNetworkingSupported: true
+  memory: 144 GiB
+  networkPerformance: 25 Gigabit
+  normalizationSizeFactor: 144
+  physicalProcessor: Intel Xeon Platinum 8124M
+  prices:
+    Linux:
+      ca-central-1:
+        Dedicated: 3.816
+        Shared: 3.816
+      eu-west-1:
+        Dedicated: 3.924
+        Shared: 3.924
+      us-east-1:
+        Dedicated: 3.456
+        Shared: 3.456
+      us-east-2:
+        Dedicated: 3.456
+        Shared: 3.456
+      us-west-2:
+        Dedicated: 3.456
+        Shared: 3.456
+    RHEL:
+      ca-central-1:
+        Dedicated: 3.946
+        Shared: 3.946
+      eu-west-1:
+        Dedicated: 4.054
+        Shared: 4.054
+      us-east-1:
+        Dedicated: 3.586
+        Shared: 3.586
+      us-east-2:
+        Dedicated: 3.586
+        Shared: 3.586
+      us-west-2:
+        Dedicated: 3.586
+        Shared: 3.586
+    SUSE:
+      ca-central-1:
+        Dedicated: 3.916
+        Shared: 3.916
+      eu-west-1:
+        Dedicated: 4.024
+        Shared: 4.024
+      us-east-1:
+        Dedicated: 3.556
+        Shared: 3.556
+      us-east-2:
+        Dedicated: 3.556
+        Shared: 3.556
+      us-west-2:
+        Dedicated: 3.556
+        Shared: 3.556
+    Windows:
+      ca-central-1:
+        Dedicated: 3.816
+        Shared: 3.816
+      eu-west-1:
+        Dedicated: 7.236
+        Shared: 7.236
+      us-east-1:
+        Dedicated: 3.456
+        Shared: 3.456
+      us-east-2:
+        Dedicated: 3.456
+        Shared: 6.768
+      us-west-2:
+        Dedicated: 6.768
+        Shared: 6.768
+  regions:
+    - us-east-1
+    - eu-west-1
+    - us-west-2
+    - ca-central-1
+    - us-east-2
+  storage: 1 x 1800
+  vcpu: 72
+c5d.2xlarge:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2250 Mbps
+  ecu: 31
+  enhancedNetworkingSupported: true
+  memory: 16 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 16
+  physicalProcessor: Intel Xeon Platinum 8124M
+  prices:
+    Linux:
+      ca-central-1:
+        Dedicated: 0.451
+        Shared: 0.424
+      eu-west-1:
+        Dedicated: 0.465
+        Shared: 0.436
+      us-east-1:
+        Dedicated: 0.407
+        Shared: 0.384
+      us-east-2:
+        Dedicated: 0.407
+        Shared: 0.384
+      us-west-2:
+        Dedicated: 0.407
+        Shared: 0.384
+    RHEL:
+      ca-central-1:
+        Dedicated: 0.581
+        Shared: 0.554
+      eu-west-1:
+        Dedicated: 0.595
+        Shared: 0.566
+      us-east-1:
+        Dedicated: 0.537
+        Shared: 0.514
+      us-east-2:
+        Dedicated: 0.537
+        Shared: 0.514
+      us-west-2:
+        Dedicated: 0.537
+        Shared: 0.514
+    SUSE:
+      ca-central-1:
+        Dedicated: 0.551
+        Shared: 0.524
+      eu-west-1:
+        Dedicated: 0.565
+        Shared: 0.536
+      us-east-1:
+        Dedicated: 0.507
+        Shared: 0.484
+      us-east-2:
+        Dedicated: 0.507
+        Shared: 0.484
+      us-west-2:
+        Dedicated: 0.507
+        Shared: 0.484
+    Windows:
+      ca-central-1:
+        Dedicated: 0.451
+        Shared: 0.792
+      eu-west-1:
+        Dedicated: 0.465
+        Shared: 0.436
+      us-east-1:
+        Dedicated: 0.407
+        Shared: 0.752
+      us-east-2:
+        Dedicated: 0.775
+        Shared: 0.752
+      us-west-2:
+        Dedicated: 0.775
+        Shared: 0.384
+  regions:
+    - us-east-1
+    - ca-central-1
+    - eu-west-1
+    - us-east-2
+    - us-west-2
+  storage: 1 x 200
+  vcpu: 8
+c5d.4xlarge:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2250 Mbps
+  ecu: 62
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 32
+  physicalProcessor: Intel Xeon Platinum 8124M
+  prices:
+    Linux:
+      ca-central-1:
+        Dedicated: 0.902
+        Shared: 0.848
+      eu-west-1:
+        Dedicated: 0.929
+        Shared: 0.872
+      us-east-1:
+        Dedicated: 0.814
+        Shared: 0.768
+      us-east-2:
+        Dedicated: 0.814
+        Shared: 0.768
+      us-west-2:
+        Dedicated: 0.814
+        Shared: 0.768
+    RHEL:
+      ca-central-1:
+        Dedicated: 1.032
+        Shared: 0.978
+      eu-west-1:
+        Dedicated: 1.059
+        Shared: 1.002
+      us-east-1:
+        Dedicated: 0.944
+        Shared: 0.898
+      us-east-2:
+        Dedicated: 0.944
+        Shared: 0.898
+      us-west-2:
+        Dedicated: 0.944
+        Shared: 0.898
+    SUSE:
+      ca-central-1:
+        Dedicated: 1.002
+        Shared: 0.948
+      eu-west-1:
+        Dedicated: 1.029
+        Shared: 0.972
+      us-east-1:
+        Dedicated: 0.914
+        Shared: 0.868
+      us-east-2:
+        Dedicated: 0.914
+        Shared: 0.868
+      us-west-2:
+        Dedicated: 0.914
+        Shared: 0.868
+    Windows:
+      ca-central-1:
+        Dedicated: 0.902
+        Shared: 1.584
+      eu-west-1:
+        Dedicated: 1.665
+        Shared: 1.608
+      us-east-1:
+        Dedicated: 0.814
+        Shared: 1.504
+      us-east-2:
+        Dedicated: 0.814
+        Shared: 1.504
+      us-west-2:
+        Dedicated: 0.814
+        Shared: 0.768
+  regions:
+    - eu-west-1
+    - us-east-2
+    - us-east-1
+    - ca-central-1
+    - us-west-2
+  storage: 1 x 400
+  vcpu: 16
+c5d.9xlarge:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: 4500 Mbps
+  ecu: 139
+  enhancedNetworkingSupported: true
+  memory: 72 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 72
+  physicalProcessor: Intel Xeon Platinum 8124M
+  prices:
+    Linux:
+      ca-central-1:
+        Dedicated: 2.03
+        Shared: 1.908
+      eu-west-1:
+        Dedicated: 2.091
+        Shared: 1.962
+      us-east-1:
+        Dedicated: 1.832
+        Shared: 1.728
+      us-east-2:
+        Dedicated: 1.832
+        Shared: 1.728
+      us-west-2:
+        Dedicated: 1.832
+        Shared: 1.728
+    RHEL:
+      ca-central-1:
+        Dedicated: 2.16
+        Shared: 2.038
+      eu-west-1:
+        Dedicated: 2.221
+        Shared: 2.092
+      us-east-1:
+        Dedicated: 1.962
+        Shared: 1.858
+      us-east-2:
+        Dedicated: 1.962
+        Shared: 1.858
+      us-west-2:
+        Dedicated: 1.962
+        Shared: 1.858
+    SUSE:
+      ca-central-1:
+        Dedicated: 2.13
+        Shared: 2.008
+      eu-west-1:
+        Dedicated: 2.191
+        Shared: 2.062
+      us-east-1:
+        Dedicated: 1.932
+        Shared: 1.828
+      us-east-2:
+        Dedicated: 1.932
+        Shared: 1.828
+      us-west-2:
+        Dedicated: 1.932
+        Shared: 1.828
+    Windows:
+      ca-central-1:
+        Dedicated: 2.03
+        Shared: 1.908
+      eu-west-1:
+        Dedicated: 2.091
+        Shared: 1.962
+      us-east-1:
+        Dedicated: 3.488
+        Shared: 3.384
+      us-east-2:
+        Dedicated: 1.832
+        Shared: 1.728
+      us-west-2:
+        Dedicated: 3.488
+        Shared: 3.384
+  regions:
+    - us-east-2
+    - us-east-1
+    - us-west-2
+    - ca-central-1
+    - eu-west-1
+  storage: 1 x 900
+  vcpu: 36
+c5d.large:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2250 Mbps
+  ecu: 8
+  enhancedNetworkingSupported: true
+  memory: 4 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 4
+  physicalProcessor: Intel Xeon Platinum 8124M
+  prices:
+    Linux:
+      ca-central-1:
+        Dedicated: 0.113
+        Shared: 0.106
+      eu-west-1:
+        Dedicated: 0.116
+        Shared: 0.109
+      us-east-1:
+        Dedicated: 0.102
+        Shared: 0.096
+      us-east-2:
+        Dedicated: 0.102
+        Shared: 0.096
+      us-west-2:
+        Dedicated: 0.102
+        Shared: 0.096
+    RHEL:
+      ca-central-1:
+        Dedicated: 0.173
+        Shared: 0.166
+      eu-west-1:
+        Dedicated: 0.176
+        Shared: 0.169
+      us-east-1:
+        Dedicated: 0.162
+        Shared: 0.156
+      us-east-2:
+        Dedicated: 0.162
+        Shared: 0.156
+      us-west-2:
+        Dedicated: 0.162
+        Shared: 0.156
+    SUSE:
+      ca-central-1:
+        Dedicated: 0.213
+        Shared: 0.206
+      eu-west-1:
+        Dedicated: 0.216
+        Shared: 0.209
+      us-east-1:
+        Dedicated: 0.202
+        Shared: 0.196
+      us-east-2:
+        Dedicated: 0.202
+        Shared: 0.196
+      us-west-2:
+        Dedicated: 0.202
+        Shared: 0.196
+    Windows:
+      ca-central-1:
+        Dedicated: 0.205
+        Shared: 0.106
+      eu-west-1:
+        Dedicated: 0.116
+        Shared: 0.109
+      us-east-1:
+        Dedicated: 0.194
+        Shared: 0.096
+      us-east-2:
+        Dedicated: 0.194
+        Shared: 0.096
+      us-west-2:
+        Dedicated: 0.194
+        Shared: 0.096
+  regions:
+    - us-east-2
+    - eu-west-1
+    - us-east-1
+    - ca-central-1
+    - us-west-2
+  storage: 1 x 50
+  vcpu: 2
+c5d.xlarge:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2250 Mbps
+  ecu: 16
+  enhancedNetworkingSupported: true
+  memory: 8 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 8
+  physicalProcessor: Intel Xeon Platinum 8124M
+  prices:
+    Linux:
+      ca-central-1:
+        Dedicated: 0.226
+        Shared: 0.212
+      eu-west-1:
+        Dedicated: 0.232
+        Shared: 0.218
+      us-east-1:
+        Dedicated: 0.204
+        Shared: 0.192
+      us-east-2:
+        Dedicated: 0.204
+        Shared: 0.192
+      us-west-2:
+        Dedicated: 0.204
+        Shared: 0.192
+    RHEL:
+      ca-central-1:
+        Dedicated: 0.286
+        Shared: 0.272
+      eu-west-1:
+        Dedicated: 0.292
+        Shared: 0.278
+      us-east-1:
+        Dedicated: 0.264
+        Shared: 0.252
+      us-east-2:
+        Dedicated: 0.264
+        Shared: 0.252
+      us-west-2:
+        Dedicated: 0.264
+        Shared: 0.252
+    SUSE:
+      ca-central-1:
+        Dedicated: 0.326
+        Shared: 0.312
+      eu-west-1:
+        Dedicated: 0.332
+        Shared: 0.318
+      us-east-1:
+        Dedicated: 0.304
+        Shared: 0.292
+      us-east-2:
+        Dedicated: 0.304
+        Shared: 0.292
+      us-west-2:
+        Dedicated: 0.304
+        Shared: 0.292
+    Windows:
+      ca-central-1:
+        Dedicated: 0.41
+        Shared: 0.396
+      eu-west-1:
+        Dedicated: 0.416
+        Shared: 0.402
+      us-east-1:
+        Dedicated: 0.204
+        Shared: 0.192
+      us-east-2:
+        Dedicated: 0.388
+        Shared: 0.376
+      us-west-2:
+        Dedicated: 0.388
+        Shared: 0.192
+  regions:
+    - us-east-1
+    - eu-west-1
+    - ca-central-1
+    - us-east-2
+    - us-west-2
+  storage: 1 x 100
+  vcpu: 4
 cc2.8xlarge:
   clockSpeed: 2.6 GHz
   currentGeneration: false
@@ -7680,6 +8178,85 @@ i3.large:
     - sa-east-1
   storage: 1 x 0.475 NVMe SSD
   vcpu: 2
+i3.metal:
+  ecu: 208
+  memory: 512 GiB
+  networkPerformance: 25 Gigabit
+  normalizationSizeFactor: 128
+  physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
+  prices:
+    Linux:
+      eu-central-1:
+        Dedicated: 5.952
+        Shared: 5.952
+      eu-west-1:
+        Dedicated: 5.504
+        Shared: 5.504
+      us-east-1:
+        Dedicated: 4.992
+        Shared: 4.992
+      us-east-2:
+        Dedicated: 4.992
+        Shared: 4.992
+      us-west-2:
+        Dedicated: 4.992
+        Shared: 4.992
+    RHEL:
+      eu-central-1:
+        Dedicated: 6.082
+        Shared: 6.082
+      eu-west-1:
+        Dedicated: 5.634
+        Shared: 5.634
+      us-east-1:
+        Dedicated: 5.122
+        Shared: 5.122
+      us-east-2:
+        Dedicated: 5.122
+        Shared: 5.122
+      us-west-2:
+        Dedicated: 5.122
+        Shared: 5.122
+    SUSE:
+      eu-central-1:
+        Dedicated: 6.052
+        Shared: 6.052
+      eu-west-1:
+        Dedicated: 5.604
+        Shared: 5.604
+      us-east-1:
+        Dedicated: 5.092
+        Shared: 5.092
+      us-east-2:
+        Dedicated: 5.092
+        Shared: 5.092
+      us-west-2:
+        Dedicated: 5.092
+        Shared: 5.092
+    Windows:
+      eu-central-1:
+        Dedicated: 5.952
+        Shared: 5.952
+      eu-west-1:
+        Dedicated: 8.448
+        Shared: 5.504
+      us-east-1:
+        Dedicated: 7.936
+        Shared: 7.936
+      us-east-2:
+        Dedicated: 4.992
+        Shared: 7.936
+      us-west-2:
+        Dedicated: 4.992
+        Shared: 7.936
+  regions:
+    - eu-central-1
+    - us-west-2
+    - eu-west-1
+    - us-east-1
+    - us-east-2
+  storage: 8 x 1900 NVMe SSD
+  vcpu: 72
 i3.xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
