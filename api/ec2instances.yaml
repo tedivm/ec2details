@@ -2247,6 +2247,9 @@ c5.18xlarge:
       us-east-2:
         Dedicated: 3.06
         Shared: 3.06
+      us-gov-west-1:
+        Dedicated: 3.672
+        Shared: 3.672
       us-west-1:
         Dedicated: 3.816
         Shared: 3.816
@@ -2293,6 +2296,9 @@ c5.18xlarge:
       us-east-2:
         Dedicated: 3.19
         Shared: 3.19
+      us-gov-west-1:
+        Dedicated: 3.802
+        Shared: 3.802
       us-west-1:
         Dedicated: 3.946
         Shared: 3.946
@@ -2339,6 +2345,9 @@ c5.18xlarge:
       us-east-2:
         Dedicated: 3.16
         Shared: 3.16
+      us-gov-west-1:
+        Dedicated: 3.772
+        Shared: 3.772
       us-west-1:
         Dedicated: 3.916
         Shared: 3.916
@@ -2385,6 +2394,9 @@ c5.18xlarge:
       us-east-2:
         Dedicated: 3.06
         Shared: 3.06
+      us-gov-west-1:
+        Dedicated: 6.984
+        Shared: 3.672
       us-west-1:
         Dedicated: 3.816
         Shared: 3.816
@@ -2400,6 +2412,7 @@ c5.18xlarge:
     - ap-southeast-2
     - us-east-2
     - ca-central-1
+    - us-gov-west-1
     - eu-west-1
     - us-west-2
     - eu-central-1
@@ -2460,6 +2473,9 @@ c5.2xlarge:
       us-east-2:
         Dedicated: 0.361
         Shared: 0.34
+      us-gov-west-1:
+        Dedicated: 0.433
+        Shared: 0.408
       us-west-1:
         Dedicated: 0.452
         Shared: 0.424
@@ -2506,6 +2522,9 @@ c5.2xlarge:
       us-east-2:
         Dedicated: 0.491
         Shared: 0.47
+      us-gov-west-1:
+        Dedicated: 0.563
+        Shared: 0.538
       us-west-1:
         Dedicated: 0.582
         Shared: 0.554
@@ -2552,6 +2571,9 @@ c5.2xlarge:
       us-east-2:
         Dedicated: 0.461
         Shared: 0.44
+      us-gov-west-1:
+        Dedicated: 0.533
+        Shared: 0.508
       us-west-1:
         Dedicated: 0.552
         Shared: 0.524
@@ -2598,6 +2620,9 @@ c5.2xlarge:
       us-east-2:
         Dedicated: 0.361
         Shared: 0.34
+      us-gov-west-1:
+        Dedicated: 0.433
+        Shared: 0.776
       us-west-1:
         Dedicated: 0.452
         Shared: 0.424
@@ -2611,6 +2636,7 @@ c5.2xlarge:
     - ap-southeast-1
     - eu-west-2
     - eu-central-1
+    - us-gov-west-1
     - ca-central-1
     - ap-northeast-1
     - eu-west-3
@@ -2673,6 +2699,9 @@ c5.4xlarge:
       us-east-2:
         Dedicated: 0.721
         Shared: 0.68
+      us-gov-west-1:
+        Dedicated: 0.865
+        Shared: 0.816
       us-west-1:
         Dedicated: 0.903
         Shared: 0.848
@@ -2719,6 +2748,9 @@ c5.4xlarge:
       us-east-2:
         Dedicated: 0.851
         Shared: 0.81
+      us-gov-west-1:
+        Dedicated: 0.995
+        Shared: 0.946
       us-west-1:
         Dedicated: 1.033
         Shared: 0.978
@@ -2765,6 +2797,9 @@ c5.4xlarge:
       us-east-2:
         Dedicated: 0.821
         Shared: 0.78
+      us-gov-west-1:
+        Dedicated: 0.965
+        Shared: 0.916
       us-west-1:
         Dedicated: 1.003
         Shared: 0.948
@@ -2811,6 +2846,9 @@ c5.4xlarge:
       us-east-2:
         Dedicated: 0.721
         Shared: 1.416
+      us-gov-west-1:
+        Dedicated: 0.865
+        Shared: 1.552
       us-west-1:
         Dedicated: 0.903
         Shared: 1.584
@@ -2831,6 +2869,7 @@ c5.4xlarge:
     - ca-central-1
     - ap-south-1
     - eu-west-1
+    - us-gov-west-1
     - us-west-1
     - eu-west-2
   storage: EBS only
@@ -2886,6 +2925,9 @@ c5.9xlarge:
       us-east-2:
         Dedicated: 1.622
         Shared: 1.53
+      us-gov-west-1:
+        Dedicated: 1.946
+        Shared: 1.836
       us-west-1:
         Dedicated: 2.032
         Shared: 1.908
@@ -2932,6 +2974,9 @@ c5.9xlarge:
       us-east-2:
         Dedicated: 1.752
         Shared: 1.66
+      us-gov-west-1:
+        Dedicated: 2.076
+        Shared: 1.966
       us-west-1:
         Dedicated: 2.162
         Shared: 2.038
@@ -2978,6 +3023,9 @@ c5.9xlarge:
       us-east-2:
         Dedicated: 1.722
         Shared: 1.63
+      us-gov-west-1:
+        Dedicated: 2.046
+        Shared: 1.936
       us-west-1:
         Dedicated: 2.132
         Shared: 2.008
@@ -3024,6 +3072,9 @@ c5.9xlarge:
       us-east-2:
         Dedicated: 3.278
         Shared: 3.186
+      us-gov-west-1:
+        Dedicated: 1.946
+        Shared: 3.492
       us-west-1:
         Dedicated: 2.032
         Shared: 1.908
@@ -3044,6 +3095,7 @@ c5.9xlarge:
     - us-east-2
     - us-west-1
     - ap-northeast-1
+    - us-gov-west-1
     - eu-west-3
     - us-west-2
   storage: EBS only
@@ -3099,6 +3151,9 @@ c5.large:
       us-east-2:
         Dedicated: 0.09
         Shared: 0.085
+      us-gov-west-1:
+        Dedicated: 0.108
+        Shared: 0.102
       us-west-1:
         Dedicated: 0.113
         Shared: 0.106
@@ -3145,6 +3200,9 @@ c5.large:
       us-east-2:
         Dedicated: 0.15
         Shared: 0.145
+      us-gov-west-1:
+        Dedicated: 0.168
+        Shared: 0.162
       us-west-1:
         Dedicated: 0.173
         Shared: 0.166
@@ -3191,6 +3249,9 @@ c5.large:
       us-east-2:
         Dedicated: 0.19
         Shared: 0.185
+      us-gov-west-1:
+        Dedicated: 0.208
+        Shared: 0.202
       us-west-1:
         Dedicated: 0.213
         Shared: 0.206
@@ -3237,6 +3298,9 @@ c5.large:
       us-east-2:
         Dedicated: 0.09
         Shared: 0.177
+      us-gov-west-1:
+        Dedicated: 0.108
+        Shared: 0.102
       us-west-1:
         Dedicated: 0.113
         Shared: 0.198
@@ -3255,6 +3319,7 @@ c5.large:
     - eu-west-2
     - ap-southeast-1
     - sa-east-1
+    - us-gov-west-1
     - us-east-1
     - ap-northeast-1
     - us-west-1
@@ -3312,6 +3377,9 @@ c5.xlarge:
       us-east-2:
         Dedicated: 0.18
         Shared: 0.17
+      us-gov-west-1:
+        Dedicated: 0.216
+        Shared: 0.204
       us-west-1:
         Dedicated: 0.226
         Shared: 0.212
@@ -3358,6 +3426,9 @@ c5.xlarge:
       us-east-2:
         Dedicated: 0.24
         Shared: 0.23
+      us-gov-west-1:
+        Dedicated: 0.276
+        Shared: 0.264
       us-west-1:
         Dedicated: 0.286
         Shared: 0.272
@@ -3404,6 +3475,9 @@ c5.xlarge:
       us-east-2:
         Dedicated: 0.28
         Shared: 0.27
+      us-gov-west-1:
+        Dedicated: 0.316
+        Shared: 0.304
       us-west-1:
         Dedicated: 0.326
         Shared: 0.312
@@ -3450,6 +3524,9 @@ c5.xlarge:
       us-east-2:
         Dedicated: 0.364
         Shared: 0.17
+      us-gov-west-1:
+        Dedicated: 0.216
+        Shared: 0.388
       us-west-1:
         Dedicated: 0.41
         Shared: 0.212
@@ -3467,6 +3544,7 @@ c5.xlarge:
     - ap-northeast-1
     - ca-central-1
     - us-east-2
+    - us-gov-west-1
     - ap-southeast-1
     - ap-southeast-2
     - us-east-1
@@ -11426,6 +11504,9 @@ m5.12xlarge:
       us-east-2:
         Dedicated: 2.444
         Shared: 2.304
+      us-gov-west-1:
+        Dedicated: 3.094
+        Shared: 2.904
       us-west-1:
         Dedicated: 2.88
         Shared: 2.688
@@ -11472,6 +11553,9 @@ m5.12xlarge:
       us-east-2:
         Dedicated: 2.574
         Shared: 2.434
+      us-gov-west-1:
+        Dedicated: 3.224
+        Shared: 3.034
       us-west-1:
         Dedicated: 3.01
         Shared: 2.818
@@ -11518,6 +11602,9 @@ m5.12xlarge:
       us-east-2:
         Dedicated: 2.544
         Shared: 2.404
+      us-gov-west-1:
+        Dedicated: 3.194
+        Shared: 3.004
       us-west-1:
         Dedicated: 2.98
         Shared: 2.788
@@ -11564,6 +11651,9 @@ m5.12xlarge:
       us-east-2:
         Dedicated: 2.444
         Shared: 2.304
+      us-gov-west-1:
+        Dedicated: 3.094
+        Shared: 5.112
       us-west-1:
         Dedicated: 2.88
         Shared: 4.896
@@ -11578,6 +11668,7 @@ m5.12xlarge:
     - us-east-2
     - ap-southeast-2
     - ap-northeast-2
+    - us-gov-west-1
     - eu-west-2
     - us-west-2
     - ca-central-1
@@ -11639,6 +11730,9 @@ m5.24xlarge:
       us-east-2:
         Dedicated: 4.608
         Shared: 4.608
+      us-gov-west-1:
+        Dedicated: 5.808
+        Shared: 5.808
       us-west-1:
         Dedicated: 5.376
         Shared: 5.376
@@ -11685,6 +11779,9 @@ m5.24xlarge:
       us-east-2:
         Dedicated: 4.738
         Shared: 4.738
+      us-gov-west-1:
+        Dedicated: 5.938
+        Shared: 5.938
       us-west-1:
         Dedicated: 5.506
         Shared: 5.506
@@ -11731,6 +11828,9 @@ m5.24xlarge:
       us-east-2:
         Dedicated: 4.708
         Shared: 4.708
+      us-gov-west-1:
+        Dedicated: 5.908
+        Shared: 5.908
       us-west-1:
         Dedicated: 5.476
         Shared: 5.476
@@ -11777,6 +11877,9 @@ m5.24xlarge:
       us-east-2:
         Dedicated: 9.024
         Shared: 4.608
+      us-gov-west-1:
+        Dedicated: 5.808
+        Shared: 10.224
       us-west-1:
         Dedicated: 5.376
         Shared: 9.792
@@ -11797,6 +11900,7 @@ m5.24xlarge:
     - eu-central-1
     - ca-central-1
     - eu-west-3
+    - us-gov-west-1
     - ap-northeast-1
     - us-east-1
   storage: EBS only
@@ -11852,6 +11956,9 @@ m5.2xlarge:
       us-east-2:
         Dedicated: 0.407
         Shared: 0.384
+      us-gov-west-1:
+        Dedicated: 0.516
+        Shared: 0.484
       us-west-1:
         Dedicated: 0.48
         Shared: 0.448
@@ -11898,6 +12005,9 @@ m5.2xlarge:
       us-east-2:
         Dedicated: 0.537
         Shared: 0.514
+      us-gov-west-1:
+        Dedicated: 0.646
+        Shared: 0.614
       us-west-1:
         Dedicated: 0.61
         Shared: 0.578
@@ -11944,6 +12054,9 @@ m5.2xlarge:
       us-east-2:
         Dedicated: 0.507
         Shared: 0.484
+      us-gov-west-1:
+        Dedicated: 0.616
+        Shared: 0.584
       us-west-1:
         Dedicated: 0.58
         Shared: 0.548
@@ -11990,6 +12103,9 @@ m5.2xlarge:
       us-east-2:
         Dedicated: 0.407
         Shared: 0.384
+      us-gov-west-1:
+        Dedicated: 0.884
+        Shared: 0.484
       us-west-1:
         Dedicated: 0.848
         Shared: 0.816
@@ -11998,6 +12114,7 @@ m5.2xlarge:
         Shared: 0.384
   regions:
     - eu-central-1
+    - us-gov-west-1
     - ca-central-1
     - eu-west-2
     - eu-west-1
@@ -12065,6 +12182,9 @@ m5.4xlarge:
       us-east-2:
         Dedicated: 0.815
         Shared: 0.768
+      us-gov-west-1:
+        Dedicated: 1.031
+        Shared: 0.968
       us-west-1:
         Dedicated: 0.96
         Shared: 0.896
@@ -12111,6 +12231,9 @@ m5.4xlarge:
       us-east-2:
         Dedicated: 0.945
         Shared: 0.898
+      us-gov-west-1:
+        Dedicated: 1.161
+        Shared: 1.098
       us-west-1:
         Dedicated: 1.09
         Shared: 1.026
@@ -12157,6 +12280,9 @@ m5.4xlarge:
       us-east-2:
         Dedicated: 0.915
         Shared: 0.868
+      us-gov-west-1:
+        Dedicated: 1.131
+        Shared: 1.068
       us-west-1:
         Dedicated: 1.06
         Shared: 0.996
@@ -12203,6 +12329,9 @@ m5.4xlarge:
       us-east-2:
         Dedicated: 0.815
         Shared: 1.504
+      us-gov-west-1:
+        Dedicated: 1.031
+        Shared: 0.968
       us-west-1:
         Dedicated: 0.96
         Shared: 1.632
@@ -12218,6 +12347,7 @@ m5.4xlarge:
     - eu-central-1
     - eu-west-2
     - ca-central-1
+    - us-gov-west-1
     - sa-east-1
     - eu-west-1
     - ap-southeast-1
@@ -12278,6 +12408,9 @@ m5.large:
       us-east-2:
         Dedicated: 0.102
         Shared: 0.096
+      us-gov-west-1:
+        Dedicated: 0.129
+        Shared: 0.121
       us-west-1:
         Dedicated: 0.12
         Shared: 0.112
@@ -12324,6 +12457,9 @@ m5.large:
       us-east-2:
         Dedicated: 0.162
         Shared: 0.156
+      us-gov-west-1:
+        Dedicated: 0.189
+        Shared: 0.181
       us-west-1:
         Dedicated: 0.18
         Shared: 0.172
@@ -12370,6 +12506,9 @@ m5.large:
       us-east-2:
         Dedicated: 0.202
         Shared: 0.196
+      us-gov-west-1:
+        Dedicated: 0.229
+        Shared: 0.221
       us-west-1:
         Dedicated: 0.22
         Shared: 0.212
@@ -12416,6 +12555,9 @@ m5.large:
       us-east-2:
         Dedicated: 0.102
         Shared: 0.188
+      us-gov-west-1:
+        Dedicated: 0.221
+        Shared: 0.213
       us-west-1:
         Dedicated: 0.212
         Shared: 0.204
@@ -12432,6 +12574,7 @@ m5.large:
     - ap-south-1
     - ap-northeast-2
     - eu-central-1
+    - us-gov-west-1
     - ap-northeast-1
     - us-west-1
     - sa-east-1
@@ -12491,6 +12634,9 @@ m5.xlarge:
       us-east-2:
         Dedicated: 0.204
         Shared: 0.192
+      us-gov-west-1:
+        Dedicated: 0.258
+        Shared: 0.242
       us-west-1:
         Dedicated: 0.24
         Shared: 0.224
@@ -12537,6 +12683,9 @@ m5.xlarge:
       us-east-2:
         Dedicated: 0.264
         Shared: 0.252
+      us-gov-west-1:
+        Dedicated: 0.318
+        Shared: 0.302
       us-west-1:
         Dedicated: 0.3
         Shared: 0.284
@@ -12583,6 +12732,9 @@ m5.xlarge:
       us-east-2:
         Dedicated: 0.304
         Shared: 0.292
+      us-gov-west-1:
+        Dedicated: 0.358
+        Shared: 0.342
       us-west-1:
         Dedicated: 0.34
         Shared: 0.324
@@ -12629,6 +12781,9 @@ m5.xlarge:
       us-east-2:
         Dedicated: 0.204
         Shared: 0.376
+      us-gov-west-1:
+        Dedicated: 0.258
+        Shared: 0.426
       us-west-1:
         Dedicated: 0.424
         Shared: 0.224
@@ -12636,6 +12791,7 @@ m5.xlarge:
         Dedicated: 0.204
         Shared: 0.192
   regions:
+    - us-gov-west-1
     - us-west-1
     - ap-northeast-2
     - ap-northeast-1
