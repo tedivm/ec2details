@@ -12890,7 +12890,7 @@ m5d.12xlarge:
     - us-east-2
     - ca-central-1
     - us-east-1
-  storage: 2 x 900
+  storage: 2 x 900 NVMe SSD
   vcpu: 48
 m5d.24xlarge:
   clockSpeed: 2.5 GHz
@@ -12973,7 +12973,7 @@ m5d.24xlarge:
     - ca-central-1
     - us-east-2
     - us-west-2
-  storage: 4 x 900
+  storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5d.2xlarge:
   clockSpeed: 2.5 GHz
@@ -13056,7 +13056,7 @@ m5d.2xlarge:
     - ca-central-1
     - us-east-2
     - us-west-2
-  storage: 1 x 300
+  storage: 1 x 300 NVMe SSD
   vcpu: 8
 m5d.4xlarge:
   clockSpeed: 2.5 GHz
@@ -13139,7 +13139,7 @@ m5d.4xlarge:
     - us-east-1
     - ca-central-1
     - eu-west-1
-  storage: 2 x 300
+  storage: 2 x 300 NVMe SSD
   vcpu: 16
 m5d.large:
   clockSpeed: 2.5 GHz
@@ -13222,7 +13222,7 @@ m5d.large:
     - us-west-2
     - us-east-2
     - ca-central-1
-  storage: 1 x 75
+  storage: 1 x 75 NVMe SSD
   vcpu: 2
 m5d.xlarge:
   clockSpeed: 2.5 GHz
@@ -13305,7 +13305,7 @@ m5d.xlarge:
     - ca-central-1
     - us-east-1
     - us-east-2
-  storage: 1 x 150
+  storage: 1 x 150 NVMe SSD
   vcpu: 4
 p2.16xlarge:
   clockSpeed: 2.3 GHz
