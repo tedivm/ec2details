@@ -8216,6 +8216,7 @@ i3.large:
   storage: 1 x 475 NVMe SSD
   vcpu: 2
 i3.metal:
+  currentGeneration: true
   ecu: 208
   memory: 512 GiB
   networkPerformance: 25 Gigabit
