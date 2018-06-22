@@ -2200,7 +2200,7 @@ c5.18xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: 9000 Mbps
-  ecu: 278
+  ecu: 281
   enhancedNetworkingSupported: true
   memory: 144 GiB
   networkPerformance: 25 Gigabit
@@ -2426,7 +2426,7 @@ c5.2xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 31
+  ecu: 34
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
@@ -2652,7 +2652,7 @@ c5.4xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 62
+  ecu: 68
   enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
@@ -2878,7 +2878,7 @@ c5.9xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: 4500 Mbps
-  ecu: 139
+  ecu: 141
   enhancedNetworkingSupported: true
   memory: 72 GiB
   networkPerformance: 10 Gigabit
@@ -3104,7 +3104,7 @@ c5.large:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 8
+  ecu: 9
   enhancedNetworkingSupported: true
   memory: 4 GiB
   networkPerformance: Up to 10 Gigabit
@@ -3330,7 +3330,7 @@ c5.xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 16
+  ecu: 17
   enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
@@ -3556,7 +3556,7 @@ c5d.18xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: 9000 Mbps
-  ecu: 278
+  ecu: 281
   enhancedNetworkingSupported: true
   memory: 144 GiB
   networkPerformance: 25 Gigabit
@@ -3639,7 +3639,7 @@ c5d.2xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 31
+  ecu: 34
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
@@ -3722,7 +3722,7 @@ c5d.4xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 62
+  ecu: 68
   enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
@@ -3805,7 +3805,7 @@ c5d.9xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: 4500 Mbps
-  ecu: 139
+  ecu: 141
   enhancedNetworkingSupported: true
   memory: 72 GiB
   networkPerformance: 10 Gigabit
@@ -3888,7 +3888,7 @@ c5d.large:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 8
+  ecu: 9
   enhancedNetworkingSupported: true
   memory: 4 GiB
   networkPerformance: Up to 10 Gigabit
@@ -3971,7 +3971,7 @@ c5d.xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 16
+  ecu: 17
   enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
@@ -12136,7 +12136,7 @@ m5.4xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 2120 Mbps
-  ecu: 61
+  ecu: 60
   enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
@@ -12362,7 +12362,7 @@ m5.large:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2120 Mbps
-  ecu: 10
+  ecu: 8
   enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
@@ -12588,7 +12588,7 @@ m5.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2120 Mbps
-  ecu: 15
+  ecu: 16
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
@@ -13063,7 +13063,7 @@ m5d.4xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 2120 Mbps
-  ecu: 61
+  ecu: 60
   enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
@@ -13146,7 +13146,7 @@ m5d.large:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2120 Mbps
-  ecu: 10
+  ecu: 8
   enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
@@ -13229,7 +13229,7 @@ m5d.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Upto 2120 Mbps
-  ecu: 15
+  ecu: 16
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
@@ -18176,6 +18176,9 @@ x1e.16xlarge:
       us-east-1:
         Dedicated: 14.678
         Shared: 13.344
+      us-gov-west-1:
+        Dedicated: 17.6
+        Shared: 16
       us-west-2:
         Dedicated: 14.678
         Shared: 13.344
@@ -18195,6 +18198,9 @@ x1e.16xlarge:
       us-east-1:
         Dedicated: 14.808
         Shared: 13.474
+      us-gov-west-1:
+        Dedicated: 17.73
+        Shared: 16.13
       us-west-2:
         Dedicated: 14.808
         Shared: 13.474
@@ -18214,6 +18220,9 @@ x1e.16xlarge:
       us-east-1:
         Dedicated: 14.778
         Shared: 13.444
+      us-gov-west-1:
+        Dedicated: 17.7
+        Shared: 16.1
       us-west-2:
         Dedicated: 14.778
         Shared: 13.444
@@ -18233,11 +18242,15 @@ x1e.16xlarge:
       us-east-1:
         Dedicated: 14.678
         Shared: 16.288
+      us-gov-west-1:
+        Dedicated: 17.6
+        Shared: 16
       us-west-2:
         Dedicated: 17.622
         Shared: 13.344
   regions:
     - ap-southeast-2
+    - us-gov-west-1
     - ap-northeast-1
     - eu-central-1
     - us-east-1
@@ -18272,6 +18285,9 @@ x1e.2xlarge:
       us-east-1:
         Dedicated: 1.835
         Shared: 1.668
+      us-gov-west-1:
+        Dedicated: 2.2
+        Shared: 2
       us-west-2:
         Dedicated: 1.835
         Shared: 1.668
@@ -18291,6 +18307,9 @@ x1e.2xlarge:
       us-east-1:
         Dedicated: 1.965
         Shared: 1.798
+      us-gov-west-1:
+        Dedicated: 2.33
+        Shared: 2.13
       us-west-2:
         Dedicated: 1.965
         Shared: 1.798
@@ -18310,6 +18329,9 @@ x1e.2xlarge:
       us-east-1:
         Dedicated: 1.935
         Shared: 1.768
+      us-gov-west-1:
+        Dedicated: 2.3
+        Shared: 2.1
       us-west-2:
         Dedicated: 1.935
         Shared: 1.768
@@ -18329,6 +18351,9 @@ x1e.2xlarge:
       us-east-1:
         Dedicated: 1.835
         Shared: 1.668
+      us-gov-west-1:
+        Dedicated: 2.568
+        Shared: 2.368
       us-west-2:
         Dedicated: 2.203
         Shared: 1.668
@@ -18337,6 +18362,7 @@ x1e.2xlarge:
     - ap-northeast-1
     - us-east-1
     - ap-southeast-2
+    - us-gov-west-1
     - eu-west-1
     - us-west-2
   storage: 1 x 240 SSD
@@ -18368,6 +18394,9 @@ x1e.32xlarge:
       us-east-1:
         Dedicated: 26.688
         Shared: 26.688
+      us-gov-west-1:
+        Dedicated: 32
+        Shared: 32
       us-west-2:
         Dedicated: 26.688
         Shared: 26.688
@@ -18387,6 +18416,9 @@ x1e.32xlarge:
       us-east-1:
         Dedicated: 26.818
         Shared: 26.818
+      us-gov-west-1:
+        Dedicated: 32.13
+        Shared: 32.13
       us-west-2:
         Dedicated: 26.818
         Shared: 26.818
@@ -18406,6 +18438,9 @@ x1e.32xlarge:
       us-east-1:
         Dedicated: 26.788
         Shared: 26.788
+      us-gov-west-1:
+        Dedicated: 32.1
+        Shared: 32.1
       us-west-2:
         Dedicated: 26.788
         Shared: 26.788
@@ -18425,12 +18460,16 @@ x1e.32xlarge:
       us-east-1:
         Dedicated: 26.688
         Shared: 26.688
+      us-gov-west-1:
+        Dedicated: 32
+        Shared: 37.888
       us-west-2:
         Dedicated: 32.576
         Shared: 32.576
   regions:
     - us-west-2
     - eu-west-1
+    - us-gov-west-1
     - us-east-1
     - ap-southeast-2
     - eu-central-1
@@ -18464,6 +18503,9 @@ x1e.4xlarge:
       us-east-1:
         Dedicated: 3.67
         Shared: 3.336
+      us-gov-west-1:
+        Dedicated: 4.4
+        Shared: 4
       us-west-2:
         Dedicated: 3.67
         Shared: 3.336
@@ -18483,6 +18525,9 @@ x1e.4xlarge:
       us-east-1:
         Dedicated: 3.8
         Shared: 3.466
+      us-gov-west-1:
+        Dedicated: 4.53
+        Shared: 4.13
       us-west-2:
         Dedicated: 3.8
         Shared: 3.466
@@ -18502,6 +18547,9 @@ x1e.4xlarge:
       us-east-1:
         Dedicated: 3.77
         Shared: 3.436
+      us-gov-west-1:
+        Dedicated: 4.5
+        Shared: 4.1
       us-west-2:
         Dedicated: 3.77
         Shared: 3.436
@@ -18521,12 +18569,16 @@ x1e.4xlarge:
       us-east-1:
         Dedicated: 3.67
         Shared: 3.336
+      us-gov-west-1:
+        Dedicated: 5.136
+        Shared: 4.736
       us-west-2:
         Dedicated: 3.67
         Shared: 3.336
   regions:
     - eu-central-1
     - us-east-1
+    - us-gov-west-1
     - eu-west-1
     - ap-northeast-1
     - us-west-2
@@ -18560,6 +18612,9 @@ x1e.8xlarge:
       us-east-1:
         Dedicated: 7.339
         Shared: 6.672
+      us-gov-west-1:
+        Dedicated: 8.8
+        Shared: 8
       us-west-2:
         Dedicated: 7.339
         Shared: 6.672
@@ -18579,6 +18634,9 @@ x1e.8xlarge:
       us-east-1:
         Dedicated: 7.469
         Shared: 6.802
+      us-gov-west-1:
+        Dedicated: 8.93
+        Shared: 8.13
       us-west-2:
         Dedicated: 7.469
         Shared: 6.802
@@ -18598,6 +18656,9 @@ x1e.8xlarge:
       us-east-1:
         Dedicated: 7.439
         Shared: 6.772
+      us-gov-west-1:
+        Dedicated: 8.9
+        Shared: 8.1
       us-west-2:
         Dedicated: 7.439
         Shared: 6.772
@@ -18617,6 +18678,9 @@ x1e.8xlarge:
       us-east-1:
         Dedicated: 8.811
         Shared: 6.672
+      us-gov-west-1:
+        Dedicated: 8.8
+        Shared: 9.472
       us-west-2:
         Dedicated: 8.811
         Shared: 6.672
@@ -18627,6 +18691,7 @@ x1e.8xlarge:
     - us-east-1
     - eu-central-1
     - ap-southeast-2
+    - us-gov-west-1
   storage: 1 x 960 SSD
   vcpu: 32
 x1e.xlarge:
@@ -18656,6 +18721,9 @@ x1e.xlarge:
       us-east-1:
         Dedicated: 0.917
         Shared: 0.834
+      us-gov-west-1:
+        Dedicated: 1.1
+        Shared: 1
       us-west-2:
         Dedicated: 0.917
         Shared: 0.834
@@ -18675,6 +18743,9 @@ x1e.xlarge:
       us-east-1:
         Dedicated: 0.977
         Shared: 0.894
+      us-gov-west-1:
+        Dedicated: 1.16
+        Shared: 1.06
       us-west-2:
         Dedicated: 0.977
         Shared: 0.894
@@ -18694,6 +18765,9 @@ x1e.xlarge:
       us-east-1:
         Dedicated: 1.017
         Shared: 0.934
+      us-gov-west-1:
+        Dedicated: 1.2
+        Shared: 1.1
       us-west-2:
         Dedicated: 1.017
         Shared: 0.934
@@ -18713,6 +18787,9 @@ x1e.xlarge:
       us-east-1:
         Dedicated: 1.101
         Shared: 0.834
+      us-gov-west-1:
+        Dedicated: 1.1
+        Shared: 1
       us-west-2:
         Dedicated: 1.101
         Shared: 1.018
@@ -18723,6 +18800,7 @@ x1e.xlarge:
     - us-west-2
     - eu-central-1
     - ap-northeast-1
+    - us-gov-west-1
   storage: 1 x 120 SSD
   vcpu: 4
 
