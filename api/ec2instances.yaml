@@ -15648,8 +15648,8 @@ r4.2xlarge:
         Shared: 0.9
   regions:
     - us-west-1
-    - ap-southeast-2
     - ap-northeast-2
+    - ap-southeast-2
     - sa-east-1
     - us-east-1
     - ap-southeast-1
