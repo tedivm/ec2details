@@ -16957,28 +16957,6 @@ r5.large:
     - us-east-1
   storage: EBS only
   vcpu: 2
-r5.metal:
-  currentGeneration: true
-  ecu: 345
-  memory: 768 GiB
-  networkPerformance: 25 Gigabit
-  normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
-  prices:
-    Linux:
-      us-east-1:
-        Shared: 6.048
-    RHEL:
-      eu-west-1:
-        Dedicated: 6.898
-    Windows:
-      us-east-1:
-        Shared: 10.464
-  regions:
-    - eu-west-1
-    - us-east-1
-  storage: EBS only
-  vcpu: 96
 r5.xlarge:
   currentGeneration: true
   ecu: 16
@@ -17316,60 +17294,6 @@ r5d.large:
     - us-west-2
   storage: 1 x 75 NVMe SSD
   vcpu: 2
-r5d.metal:
-  currentGeneration: true
-  ecu: 345
-  memory: 768 GiB
-  networkPerformance: 25 Gigabit
-  normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
-  prices:
-    Linux:
-      us-east-1:
-        Dedicated: 6.912
-        Shared: 6.912
-      us-east-2:
-        Dedicated: 6.912
-        Shared: 6.912
-      us-west-2:
-        Dedicated: 6.912
-        Shared: 6.912
-    RHEL:
-      us-east-1:
-        Dedicated: 7.042
-        Shared: 7.042
-      us-east-2:
-        Dedicated: 7.042
-        Shared: 7.042
-      us-west-2:
-        Dedicated: 7.042
-        Shared: 7.042
-    SUSE:
-      us-east-1:
-        Dedicated: 7.062
-        Shared: 7.062
-      us-east-2:
-        Dedicated: 7.062
-        Shared: 7.062
-      us-west-2:
-        Dedicated: 7.062
-        Shared: 7.062
-    Windows:
-      us-east-1:
-        Dedicated: 6.912
-        Shared: 6.912
-      us-east-2:
-        Dedicated: 11.328
-        Shared: 6.912
-      us-west-2:
-        Dedicated: 11.328
-        Shared: 6.912
-  regions:
-    - us-east-1
-    - us-east-2
-    - us-west-2
-  storage: 4 x 900 NVMe SSD
-  vcpu: 96
 r5d.xlarge:
   currentGeneration: true
   ecu: 16
