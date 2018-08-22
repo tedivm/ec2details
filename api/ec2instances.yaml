@@ -19336,6 +19336,842 @@ t2.xlarge:
     - us-west-1
   storage: EBS only
   vcpu: 4
+t3.2xlarge:
+  currentGeneration: true
+  ecu: .nan
+  memory: 32 GiB
+  networkPerformance: Moderate
+  normalizationSizeFactor: 16
+  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.4352
+      ap-southeast-1:
+        Shared: 0.4224
+      ap-southeast-2:
+        Shared: 0.4224
+      ca-central-1:
+        Shared: 0.3712
+      eu-central-1:
+        Shared: 0.384
+      eu-west-1:
+        Shared: 0.3648
+      eu-west-2:
+        Shared: 0.3776
+      sa-east-1:
+        Shared: 0.5376
+      us-east-1:
+        Shared: 0.3328
+      us-east-2:
+        Shared: 0.3328
+      us-west-1:
+        Shared: 0.3968
+      us-west-2:
+        Shared: 0.3328
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.5652
+      ap-southeast-1:
+        Shared: 0.5524
+      ap-southeast-2:
+        Shared: 0.5524
+      ca-central-1:
+        Shared: 0.5012
+      eu-central-1:
+        Shared: 0.514
+      eu-west-1:
+        Shared: 0.4948
+      eu-west-2:
+        Shared: 0.5076
+      sa-east-1:
+        Shared: 0.6676
+      us-east-1:
+        Shared: 0.4628
+      us-east-2:
+        Shared: 0.4628
+      us-west-1:
+        Shared: 0.5268
+      us-west-2:
+        Shared: 0.4628
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.5852
+      ap-southeast-1:
+        Shared: 0.5724
+      ap-southeast-2:
+        Shared: 0.5724
+      ca-central-1:
+        Shared: 0.5212
+      eu-central-1:
+        Shared: 0.534
+      eu-west-1:
+        Shared: 0.5148
+      eu-west-2:
+        Shared: 0.5276
+      sa-east-1:
+        Shared: 0.6876
+      us-east-1:
+        Shared: 0.4828
+      us-east-2:
+        Shared: 0.4828
+      us-west-1:
+        Shared: 0.5468
+      us-west-2:
+        Shared: 0.4828
+    Windows:
+      ap-northeast-1:
+        Shared: 0.4352
+      ap-southeast-1:
+        Shared: 0.5696
+      ap-southeast-2:
+        Shared: 0.5696
+      ca-central-1:
+        Shared: 0.3712
+      eu-central-1:
+        Shared: 0.384
+      eu-west-1:
+        Shared: 0.512
+      eu-west-2:
+        Shared: 0.3776
+      sa-east-1:
+        Shared: 0.5376
+      us-east-1:
+        Shared: 0.48
+      us-east-2:
+        Shared: 0.3328
+      us-west-1:
+        Shared: 0.544
+      us-west-2:
+        Shared: 0.3328
+  regions:
+    - us-west-2
+    - eu-central-1
+    - ap-northeast-1
+    - ap-southeast-1
+    - sa-east-1
+    - us-east-2
+    - us-west-1
+    - ap-southeast-2
+    - eu-west-1
+    - us-east-1
+    - eu-west-2
+    - ca-central-1
+  storage: EBS only
+  vcpu: 8
+t3.large:
+  currentGeneration: true
+  ecu: .nan
+  memory: 8 GiB
+  networkPerformance: Low to Moderate
+  normalizationSizeFactor: 4
+  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.1088
+      ap-southeast-1:
+        Shared: 0.1056
+      ap-southeast-2:
+        Shared: 0.1056
+      ca-central-1:
+        Shared: 0.0928
+      eu-central-1:
+        Shared: 0.096
+      eu-west-1:
+        Shared: 0.0912
+      eu-west-2:
+        Shared: 0.0944
+      sa-east-1:
+        Shared: 0.1344
+      us-east-1:
+        Shared: 0.0832
+      us-east-2:
+        Shared: 0.0832
+      us-west-1:
+        Shared: 0.0992
+      us-west-2:
+        Shared: 0.0832
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.1688
+      ap-southeast-1:
+        Shared: 0.1656
+      ap-southeast-2:
+        Shared: 0.1656
+      ca-central-1:
+        Shared: 0.1528
+      eu-central-1:
+        Shared: 0.156
+      eu-west-1:
+        Shared: 0.1512
+      eu-west-2:
+        Shared: 0.1544
+      sa-east-1:
+        Shared: 0.1944
+      us-east-1:
+        Shared: 0.1432
+      us-east-2:
+        Shared: 0.1432
+      us-west-1:
+        Shared: 0.1592
+      us-west-2:
+        Shared: 0.1432
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.1718
+      ap-southeast-1:
+        Shared: 0.1686
+      ap-southeast-2:
+        Shared: 0.1686
+      ca-central-1:
+        Shared: 0.1558
+      eu-central-1:
+        Shared: 0.159
+      eu-west-1:
+        Shared: 0.1542
+      eu-west-2:
+        Shared: 0.1574
+      sa-east-1:
+        Shared: 0.1974
+      us-east-1:
+        Shared: 0.1462
+      us-east-2:
+        Shared: 0.1462
+      us-west-1:
+        Shared: 0.1622
+      us-west-2:
+        Shared: 0.1462
+    Windows:
+      ap-northeast-1:
+        Shared: 0.1088
+      ap-southeast-1:
+        Shared: 0.1332
+      ap-southeast-2:
+        Shared: 0.1056
+      ca-central-1:
+        Shared: 0.1204
+      eu-central-1:
+        Shared: 0.096
+      eu-west-1:
+        Shared: 0.1188
+      eu-west-2:
+        Shared: 0.122
+      sa-east-1:
+        Shared: 0.1344
+      us-east-1:
+        Shared: 0.0832
+      us-east-2:
+        Shared: 0.0832
+      us-west-1:
+        Shared: 0.1268
+      us-west-2:
+        Shared: 0.1108
+  regions:
+    - eu-central-1
+    - us-west-2
+    - eu-west-1
+    - us-west-1
+    - sa-east-1
+    - us-east-1
+    - ca-central-1
+    - ap-northeast-1
+    - eu-west-2
+    - ap-southeast-1
+    - us-east-2
+    - ap-southeast-2
+  storage: EBS only
+  vcpu: 2
+t3.medium:
+  currentGeneration: true
+  ecu: .nan
+  memory: 4 GiB
+  networkPerformance: Low to Moderate
+  normalizationSizeFactor: 2
+  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.0544
+      ap-southeast-1:
+        Shared: 0.0528
+      ap-southeast-2:
+        Shared: 0.0528
+      ca-central-1:
+        Shared: 0.0464
+      eu-central-1:
+        Shared: 0.048
+      eu-west-1:
+        Shared: 0.0456
+      eu-west-2:
+        Shared: 0.0472
+      sa-east-1:
+        Shared: 0.0672
+      us-east-1:
+        Shared: 0.0416
+      us-east-2:
+        Shared: 0.0416
+      us-west-1:
+        Shared: 0.0496
+      us-west-2:
+        Shared: 0.0416
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.1144
+      ap-southeast-1:
+        Shared: 0.1128
+      ap-southeast-2:
+        Shared: 0.1128
+      ca-central-1:
+        Shared: 0.1064
+      eu-central-1:
+        Shared: 0.108
+      eu-west-1:
+        Shared: 0.1056
+      eu-west-2:
+        Shared: 0.1072
+      sa-east-1:
+        Shared: 0.1272
+      us-east-1:
+        Shared: 0.1016
+      us-east-2:
+        Shared: 0.1016
+      us-west-1:
+        Shared: 0.1096
+      us-west-2:
+        Shared: 0.1016
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.1174
+      ap-southeast-1:
+        Shared: 0.1158
+      ap-southeast-2:
+        Shared: 0.1158
+      ca-central-1:
+        Shared: 0.1094
+      eu-central-1:
+        Shared: 0.111
+      eu-west-1:
+        Shared: 0.1086
+      eu-west-2:
+        Shared: 0.1102
+      sa-east-1:
+        Shared: 0.1302
+      us-east-1:
+        Shared: 0.1046
+      us-east-2:
+        Shared: 0.1046
+      us-west-1:
+        Shared: 0.1126
+      us-west-2:
+        Shared: 0.1046
+    Windows:
+      ap-northeast-1:
+        Shared: 0.0728
+      ap-southeast-1:
+        Shared: 0.0712
+      ap-southeast-2:
+        Shared: 0.0712
+      ca-central-1:
+        Shared: 0.0464
+      eu-central-1:
+        Shared: 0.0664
+      eu-west-1:
+        Shared: 0.0456
+      eu-west-2:
+        Shared: 0.0656
+      sa-east-1:
+        Shared: 0.0856
+      us-east-1:
+        Shared: 0.06
+      us-east-2:
+        Shared: 0.0416
+      us-west-1:
+        Shared: 0.068
+      us-west-2:
+        Shared: 0.0416
+  regions:
+    - ap-southeast-2
+    - us-west-2
+    - ap-southeast-1
+    - ca-central-1
+    - us-east-2
+    - sa-east-1
+    - eu-west-1
+    - us-west-1
+    - eu-west-2
+    - eu-central-1
+    - us-east-1
+    - ap-northeast-1
+  storage: EBS only
+  vcpu: 2
+t3.micro:
+  currentGeneration: true
+  ecu: .nan
+  memory: 1 GiB
+  networkPerformance: Low to Moderate
+  normalizationSizeFactor: 0
+  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.0136
+      ap-southeast-1:
+        Shared: 0.0132
+      ap-southeast-2:
+        Shared: 0.0132
+      ca-central-1:
+        Shared: 0.0116
+      eu-central-1:
+        Shared: 0.012
+      eu-west-1:
+        Shared: 0.0114
+      eu-west-2:
+        Shared: 0.0118
+      sa-east-1:
+        Shared: 0.0168
+      us-east-1:
+        Shared: 0.0104
+      us-east-2:
+        Shared: 0.0104
+      us-west-1:
+        Shared: 0.0124
+      us-west-2:
+        Shared: 0.0104
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.0736
+      ap-southeast-1:
+        Shared: 0.0732
+      ap-southeast-2:
+        Shared: 0.0732
+      ca-central-1:
+        Shared: 0.0716
+      eu-central-1:
+        Shared: 0.072
+      eu-west-1:
+        Shared: 0.0714
+      eu-west-2:
+        Shared: 0.0718
+      sa-east-1:
+        Shared: 0.0768
+      us-east-1:
+        Shared: 0.0704
+      us-east-2:
+        Shared: 0.0704
+      us-west-1:
+        Shared: 0.0724
+      us-west-2:
+        Shared: 0.0704
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.0136
+      ap-southeast-1:
+        Shared: 0.0132
+      ap-southeast-2:
+        Shared: 0.0132
+      ca-central-1:
+        Shared: 0.0116
+      eu-central-1:
+        Shared: 0.012
+      eu-west-1:
+        Shared: 0.0114
+      eu-west-2:
+        Shared: 0.0118
+      sa-east-1:
+        Shared: 0.0168
+      us-east-1:
+        Shared: 0.0104
+      us-east-2:
+        Shared: 0.0104
+      us-west-1:
+        Shared: 0.0124
+      us-west-2:
+        Shared: 0.0104
+    Windows:
+      ap-northeast-1:
+        Shared: 0.0136
+      ap-southeast-1:
+        Shared: 0.0224
+      ap-southeast-2:
+        Shared: 0.0224
+      ca-central-1:
+        Shared: 0.0208
+      eu-central-1:
+        Shared: 0.012
+      eu-west-1:
+        Shared: 0.0206
+      eu-west-2:
+        Shared: 0.021
+      sa-east-1:
+        Shared: 0.026
+      us-east-1:
+        Shared: 0.0196
+      us-east-2:
+        Shared: 0.0104
+      us-west-1:
+        Shared: 0.0216
+      us-west-2:
+        Shared: 0.0196
+  regions:
+    - ap-northeast-1
+    - eu-west-2
+    - ca-central-1
+    - eu-west-1
+    - us-west-1
+    - sa-east-1
+    - us-west-2
+    - ap-southeast-2
+    - us-east-2
+    - eu-central-1
+    - ap-southeast-1
+    - us-east-1
+  storage: EBS only
+  vcpu: 2
+t3.nano:
+  currentGeneration: true
+  ecu: .nan
+  memory: 0.5 GiB
+  networkPerformance: Low
+  normalizationSizeFactor: 0
+  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.0068
+      ap-southeast-1:
+        Shared: 0.0066
+      ap-southeast-2:
+        Shared: 0.0066
+      ca-central-1:
+        Shared: 0.0058
+      eu-central-1:
+        Shared: 0.006
+      eu-west-1:
+        Shared: 0.0057
+      eu-west-2:
+        Shared: 0.0059
+      sa-east-1:
+        Shared: 0.0084
+      us-east-1:
+        Shared: 0.0052
+      us-east-2:
+        Shared: 0.0052
+      us-west-1:
+        Shared: 0.0062
+      us-west-2:
+        Shared: 0.0052
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.0068
+      ap-southeast-1:
+        Shared: 0.0066
+      ap-southeast-2:
+        Shared: 0.0066
+      ca-central-1:
+        Shared: 0.0058
+      eu-central-1:
+        Shared: 0.006
+      eu-west-1:
+        Shared: 0.0057
+      eu-west-2:
+        Shared: 0.0059
+      sa-east-1:
+        Shared: 0.0084
+      us-east-1:
+        Shared: 0.0052
+      us-east-2:
+        Shared: 0.0052
+      us-west-1:
+        Shared: 0.0062
+      us-west-2:
+        Shared: 0.0052
+    Windows:
+      ap-northeast-1:
+        Shared: 0.0068
+      ap-southeast-1:
+        Shared: 0.0112
+      ap-southeast-2:
+        Shared: 0.0066
+      ca-central-1:
+        Shared: 0.0058
+      eu-central-1:
+        Shared: 0.006
+      eu-west-1:
+        Shared: 0.0103
+      eu-west-2:
+        Shared: 0.0059
+      sa-east-1:
+        Shared: 0.0084
+      us-east-1:
+        Shared: 0.0052
+      us-east-2:
+        Shared: 0.0052
+      us-west-1:
+        Shared: 0.0062
+      us-west-2:
+        Shared: 0.0052
+  regions:
+    - ap-southeast-1
+    - ap-southeast-2
+    - eu-west-1
+    - us-east-2
+    - sa-east-1
+    - ca-central-1
+    - us-west-1
+    - us-east-1
+    - ap-northeast-1
+    - eu-west-2
+    - us-west-2
+    - eu-central-1
+  storage: EBS only
+  vcpu: 2
+t3.small:
+  currentGeneration: true
+  ecu: .nan
+  memory: 2 GiB
+  networkPerformance: Low to Moderate
+  normalizationSizeFactor: 1
+  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.0272
+      ap-southeast-1:
+        Shared: 0.0264
+      ap-southeast-2:
+        Shared: 0.0264
+      ca-central-1:
+        Shared: 0.0232
+      eu-central-1:
+        Shared: 0.024
+      eu-west-1:
+        Shared: 0.0228
+      eu-west-2:
+        Shared: 0.0236
+      sa-east-1:
+        Shared: 0.0336
+      us-east-1:
+        Shared: 0.0208
+      us-east-2:
+        Shared: 0.0208
+      us-west-1:
+        Shared: 0.0248
+      us-west-2:
+        Shared: 0.0208
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.0872
+      ap-southeast-1:
+        Shared: 0.0864
+      ap-southeast-2:
+        Shared: 0.0864
+      ca-central-1:
+        Shared: 0.0832
+      eu-central-1:
+        Shared: 0.084
+      eu-west-1:
+        Shared: 0.0828
+      eu-west-2:
+        Shared: 0.0836
+      sa-east-1:
+        Shared: 0.0936
+      us-east-1:
+        Shared: 0.0808
+      us-east-2:
+        Shared: 0.0808
+      us-west-1:
+        Shared: 0.0848
+      us-west-2:
+        Shared: 0.0808
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.0582
+      ap-southeast-1:
+        Shared: 0.0574
+      ap-southeast-2:
+        Shared: 0.0574
+      ca-central-1:
+        Shared: 0.0542
+      eu-central-1:
+        Shared: 0.055
+      eu-west-1:
+        Shared: 0.0538
+      eu-west-2:
+        Shared: 0.0546
+      sa-east-1:
+        Shared: 0.0646
+      us-east-1:
+        Shared: 0.0518
+      us-east-2:
+        Shared: 0.0518
+      us-west-1:
+        Shared: 0.0558
+      us-west-2:
+        Shared: 0.0518
+    Windows:
+      ap-northeast-1:
+        Shared: 0.0456
+      ap-southeast-1:
+        Shared: 0.0264
+      ap-southeast-2:
+        Shared: 0.0264
+      ca-central-1:
+        Shared: 0.0416
+      eu-central-1:
+        Shared: 0.0424
+      eu-west-1:
+        Shared: 0.0228
+      eu-west-2:
+        Shared: 0.0236
+      sa-east-1:
+        Shared: 0.052
+      us-east-1:
+        Shared: 0.0392
+      us-east-2:
+        Shared: 0.0208
+      us-west-1:
+        Shared: 0.0432
+      us-west-2:
+        Shared: 0.0208
+  regions:
+    - ap-southeast-2
+    - eu-west-2
+    - us-east-2
+    - eu-west-1
+    - ca-central-1
+    - us-east-1
+    - us-west-2
+    - ap-northeast-1
+    - eu-central-1
+    - sa-east-1
+    - us-west-1
+    - ap-southeast-1
+  storage: EBS only
+  vcpu: 2
+t3.xlarge:
+  currentGeneration: true
+  ecu: .nan
+  memory: 16 GiB
+  networkPerformance: Moderate
+  normalizationSizeFactor: 8
+  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.2176
+      ap-southeast-1:
+        Shared: 0.2112
+      ap-southeast-2:
+        Shared: 0.2112
+      ca-central-1:
+        Shared: 0.1856
+      eu-central-1:
+        Shared: 0.192
+      eu-west-1:
+        Shared: 0.1824
+      eu-west-2:
+        Shared: 0.1888
+      sa-east-1:
+        Shared: 0.2688
+      us-east-1:
+        Shared: 0.1664
+      us-east-2:
+        Shared: 0.1664
+      us-west-1:
+        Shared: 0.1984
+      us-west-2:
+        Shared: 0.1664
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.2776
+      ap-southeast-1:
+        Shared: 0.2712
+      ap-southeast-2:
+        Shared: 0.2712
+      ca-central-1:
+        Shared: 0.2456
+      eu-central-1:
+        Shared: 0.252
+      eu-west-1:
+        Shared: 0.2424
+      eu-west-2:
+        Shared: 0.2488
+      sa-east-1:
+        Shared: 0.3288
+      us-east-1:
+        Shared: 0.2264
+      us-east-2:
+        Shared: 0.2264
+      us-west-1:
+        Shared: 0.2584
+      us-west-2:
+        Shared: 0.2264
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.3426
+      ap-southeast-1:
+        Shared: 0.3362
+      ap-southeast-2:
+        Shared: 0.3362
+      ca-central-1:
+        Shared: 0.3106
+      eu-central-1:
+        Shared: 0.317
+      eu-west-1:
+        Shared: 0.3074
+      eu-west-2:
+        Shared: 0.3138
+      sa-east-1:
+        Shared: 0.3938
+      us-east-1:
+        Shared: 0.2914
+      us-east-2:
+        Shared: 0.2914
+      us-west-1:
+        Shared: 0.3234
+      us-west-2:
+        Shared: 0.2914
+    Windows:
+      ap-northeast-1:
+        Shared: 0.2912
+      ap-southeast-1:
+        Shared: 0.2112
+      ap-southeast-2:
+        Shared: 0.2848
+      ca-central-1:
+        Shared: 0.2592
+      eu-central-1:
+        Shared: 0.2656
+      eu-west-1:
+        Shared: 0.1824
+      eu-west-2:
+        Shared: 0.1888
+      sa-east-1:
+        Shared: 0.2688
+      us-east-1:
+        Shared: 0.1664
+      us-east-2:
+        Shared: 0.24
+      us-west-1:
+        Shared: 0.1984
+      us-west-2:
+        Shared: 0.1664
+  regions:
+    - us-east-1
+    - ap-northeast-1
+    - ap-southeast-1
+    - eu-central-1
+    - sa-east-1
+    - us-west-1
+    - eu-west-1
+    - us-west-2
+    - ap-southeast-2
+    - eu-west-2
+    - us-east-2
+    - ca-central-1
+  storage: EBS only
+  vcpu: 4
 x1.16xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
