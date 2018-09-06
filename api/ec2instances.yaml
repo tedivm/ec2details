@@ -3599,12 +3599,18 @@ c5d.18xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 4.392
+        Shared: 4.392
       ap-northeast-2:
         Dedicated: 3.96
         Shared: 3.96
       ap-southeast-1:
         Dedicated: 4.032
         Shared: 4.032
+      ap-southeast-2:
+        Dedicated: 4.536
+        Shared: 4.536
       ca-central-1:
         Dedicated: 3.816
         Shared: 3.816
@@ -3630,12 +3636,18 @@ c5d.18xlarge:
         Dedicated: 3.456
         Shared: 3.456
     RHEL:
+      ap-northeast-1:
+        Dedicated: 4.522
+        Shared: 4.522
       ap-northeast-2:
         Dedicated: 4.09
         Shared: 4.09
       ap-southeast-1:
         Dedicated: 4.162
         Shared: 4.162
+      ap-southeast-2:
+        Dedicated: 4.666
+        Shared: 4.666
       ca-central-1:
         Dedicated: 3.946
         Shared: 3.946
@@ -3661,12 +3673,18 @@ c5d.18xlarge:
         Dedicated: 3.586
         Shared: 3.586
     SUSE:
+      ap-northeast-1:
+        Dedicated: 4.492
+        Shared: 4.492
       ap-northeast-2:
         Dedicated: 4.06
         Shared: 4.06
       ap-southeast-1:
         Dedicated: 4.132
         Shared: 4.132
+      ap-southeast-2:
+        Dedicated: 4.636
+        Shared: 4.636
       ca-central-1:
         Dedicated: 3.916
         Shared: 3.916
@@ -3692,12 +3710,18 @@ c5d.18xlarge:
         Dedicated: 3.556
         Shared: 3.556
     Windows:
+      ap-northeast-1:
+        Dedicated: 7.704
+        Shared: 7.704
       ap-northeast-2:
         Dedicated: 3.96
         Shared: 3.96
       ap-southeast-1:
         Dedicated: 7.344
         Shared: 4.032
+      ap-southeast-2:
+        Dedicated: 7.848
+        Shared: 7.848
       ca-central-1:
         Dedicated: 3.816
         Shared: 3.816
@@ -3728,10 +3752,12 @@ c5d.18xlarge:
     - us-west-1
     - eu-central-1
     - eu-west-2
+    - ap-southeast-2
     - us-west-2
     - ap-southeast-1
     - ap-northeast-2
     - ca-central-1
+    - ap-northeast-1
     - us-east-2
   storage: 1 x 1800 NVMe SSD
   vcpu: 72
@@ -3747,12 +3773,18 @@ c5d.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.521
+        Shared: 0.488
       ap-northeast-2:
         Dedicated: 0.468
         Shared: 0.44
       ap-southeast-1:
         Dedicated: 0.477
         Shared: 0.448
+      ap-southeast-2:
+        Dedicated: 0.535
+        Shared: 0.504
       ca-central-1:
         Dedicated: 0.451
         Shared: 0.424
@@ -3778,12 +3810,18 @@ c5d.2xlarge:
         Dedicated: 0.407
         Shared: 0.384
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.651
+        Shared: 0.618
       ap-northeast-2:
         Dedicated: 0.598
         Shared: 0.57
       ap-southeast-1:
         Dedicated: 0.607
         Shared: 0.578
+      ap-southeast-2:
+        Dedicated: 0.665
+        Shared: 0.634
       ca-central-1:
         Dedicated: 0.581
         Shared: 0.554
@@ -3809,12 +3847,18 @@ c5d.2xlarge:
         Dedicated: 0.537
         Shared: 0.514
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.621
+        Shared: 0.588
       ap-northeast-2:
         Dedicated: 0.568
         Shared: 0.54
       ap-southeast-1:
         Dedicated: 0.577
         Shared: 0.548
+      ap-southeast-2:
+        Dedicated: 0.635
+        Shared: 0.604
       ca-central-1:
         Dedicated: 0.551
         Shared: 0.524
@@ -3840,12 +3884,18 @@ c5d.2xlarge:
         Dedicated: 0.507
         Shared: 0.484
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.889
+        Shared: 0.856
       ap-northeast-2:
         Dedicated: 0.468
         Shared: 0.808
       ap-southeast-1:
         Dedicated: 0.845
         Shared: 0.448
+      ap-southeast-2:
+        Dedicated: 0.903
+        Shared: 0.872
       ca-central-1:
         Dedicated: 0.451
         Shared: 0.792
@@ -3872,6 +3922,7 @@ c5d.2xlarge:
         Shared: 0.384
   regions:
     - eu-west-2
+    - ap-northeast-1
     - us-east-1
     - ca-central-1
     - ap-northeast-2
@@ -3879,6 +3930,7 @@ c5d.2xlarge:
     - us-east-2
     - us-west-1
     - us-west-2
+    - ap-southeast-2
     - eu-central-1
     - ap-southeast-1
   storage: 1 x 200 NVMe SSD
@@ -3895,12 +3947,18 @@ c5d.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.042
+        Shared: 0.976
       ap-northeast-2:
         Dedicated: 0.936
         Shared: 0.88
       ap-southeast-1:
         Dedicated: 0.953
         Shared: 0.896
+      ap-southeast-2:
+        Dedicated: 1.07
+        Shared: 1.008
       ca-central-1:
         Dedicated: 0.902
         Shared: 0.848
@@ -3926,12 +3984,18 @@ c5d.4xlarge:
         Dedicated: 0.814
         Shared: 0.768
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.172
+        Shared: 1.106
       ap-northeast-2:
         Dedicated: 1.066
         Shared: 1.01
       ap-southeast-1:
         Dedicated: 1.083
         Shared: 1.026
+      ap-southeast-2:
+        Dedicated: 1.2
+        Shared: 1.138
       ca-central-1:
         Dedicated: 1.032
         Shared: 0.978
@@ -3957,12 +4021,18 @@ c5d.4xlarge:
         Dedicated: 0.944
         Shared: 0.898
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.142
+        Shared: 1.076
       ap-northeast-2:
         Dedicated: 1.036
         Shared: 0.98
       ap-southeast-1:
         Dedicated: 1.053
         Shared: 0.996
+      ap-southeast-2:
+        Dedicated: 1.17
+        Shared: 1.108
       ca-central-1:
         Dedicated: 1.002
         Shared: 0.948
@@ -3988,12 +4058,18 @@ c5d.4xlarge:
         Dedicated: 0.914
         Shared: 0.868
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.778
+        Shared: 1.712
       ap-northeast-2:
         Dedicated: 0.936
         Shared: 1.616
       ap-southeast-1:
         Dedicated: 0.953
         Shared: 1.632
+      ap-southeast-2:
+        Dedicated: 1.806
+        Shared: 1.744
       ca-central-1:
         Dedicated: 0.902
         Shared: 1.584
@@ -4021,11 +4097,13 @@ c5d.4xlarge:
   regions:
     - ap-northeast-2
     - eu-west-1
+    - ap-southeast-2
     - us-east-2
     - us-east-1
     - ap-southeast-1
     - eu-central-1
     - eu-west-2
+    - ap-northeast-1
     - ca-central-1
     - us-west-2
     - us-west-1
@@ -4043,12 +4121,18 @@ c5d.9xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 2.345
+        Shared: 2.196
       ap-northeast-2:
         Dedicated: 2.107
         Shared: 1.98
       ap-southeast-1:
         Dedicated: 2.145
         Shared: 2.016
+      ap-southeast-2:
+        Dedicated: 2.406
+        Shared: 2.268
       ca-central-1:
         Dedicated: 2.03
         Shared: 1.908
@@ -4074,12 +4158,18 @@ c5d.9xlarge:
         Dedicated: 1.832
         Shared: 1.728
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.475
+        Shared: 2.326
       ap-northeast-2:
         Dedicated: 2.237
         Shared: 2.11
       ap-southeast-1:
         Dedicated: 2.275
         Shared: 2.146
+      ap-southeast-2:
+        Dedicated: 2.536
+        Shared: 2.398
       ca-central-1:
         Dedicated: 2.16
         Shared: 2.038
@@ -4105,12 +4195,18 @@ c5d.9xlarge:
         Dedicated: 1.962
         Shared: 1.858
     SUSE:
+      ap-northeast-1:
+        Dedicated: 2.445
+        Shared: 2.296
       ap-northeast-2:
         Dedicated: 2.207
         Shared: 2.08
       ap-southeast-1:
         Dedicated: 2.245
         Shared: 2.116
+      ap-southeast-2:
+        Dedicated: 2.506
+        Shared: 2.368
       ca-central-1:
         Dedicated: 2.13
         Shared: 2.008
@@ -4136,12 +4232,18 @@ c5d.9xlarge:
         Dedicated: 1.932
         Shared: 1.828
     Windows:
+      ap-northeast-1:
+        Dedicated: 4.001
+        Shared: 3.852
       ap-northeast-2:
         Dedicated: 3.763
         Shared: 1.98
       ap-southeast-1:
         Dedicated: 2.145
         Shared: 3.672
+      ap-southeast-2:
+        Dedicated: 4.062
+        Shared: 3.924
       ca-central-1:
         Dedicated: 2.03
         Shared: 1.908
@@ -4174,7 +4276,9 @@ c5d.9xlarge:
     - eu-west-2
     - us-west-2
     - ca-central-1
+    - ap-northeast-1
     - eu-west-1
+    - ap-southeast-2
     - ap-southeast-1
     - us-west-1
   storage: 1 x 900 NVMe SSD
@@ -4191,12 +4295,18 @@ c5d.large:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.13
+        Shared: 0.122
       ap-northeast-2:
         Dedicated: 0.117
         Shared: 0.11
       ap-southeast-1:
         Dedicated: 0.119
         Shared: 0.112
+      ap-southeast-2:
+        Dedicated: 0.134
+        Shared: 0.126
       ca-central-1:
         Dedicated: 0.113
         Shared: 0.106
@@ -4222,12 +4332,18 @@ c5d.large:
         Dedicated: 0.102
         Shared: 0.096
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.19
+        Shared: 0.182
       ap-northeast-2:
         Dedicated: 0.177
         Shared: 0.17
       ap-southeast-1:
         Dedicated: 0.179
         Shared: 0.172
+      ap-southeast-2:
+        Dedicated: 0.194
+        Shared: 0.186
       ca-central-1:
         Dedicated: 0.173
         Shared: 0.166
@@ -4253,12 +4369,18 @@ c5d.large:
         Dedicated: 0.162
         Shared: 0.156
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.23
+        Shared: 0.222
       ap-northeast-2:
         Dedicated: 0.217
         Shared: 0.21
       ap-southeast-1:
         Dedicated: 0.219
         Shared: 0.212
+      ap-southeast-2:
+        Dedicated: 0.234
+        Shared: 0.226
       ca-central-1:
         Dedicated: 0.213
         Shared: 0.206
@@ -4284,12 +4406,18 @@ c5d.large:
         Dedicated: 0.202
         Shared: 0.196
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.222
+        Shared: 0.214
       ap-northeast-2:
         Dedicated: 0.117
         Shared: 0.11
       ap-southeast-1:
         Dedicated: 0.211
         Shared: 0.204
+      ap-southeast-2:
+        Dedicated: 0.226
+        Shared: 0.218
       ca-central-1:
         Dedicated: 0.205
         Shared: 0.106
@@ -4319,11 +4447,13 @@ c5d.large:
     - eu-west-1
     - ap-southeast-1
     - eu-west-2
+    - ap-northeast-1
     - eu-central-1
     - us-east-1
     - us-west-1
     - ap-northeast-2
     - ca-central-1
+    - ap-southeast-2
     - us-west-2
   storage: 1 x 50 NVMe SSD
   vcpu: 2
@@ -4339,12 +4469,18 @@ c5d.xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.261
+        Shared: 0.244
       ap-northeast-2:
         Dedicated: 0.234
         Shared: 0.22
       ap-southeast-1:
         Dedicated: 0.238
         Shared: 0.224
+      ap-southeast-2:
+        Dedicated: 0.267
+        Shared: 0.252
       ca-central-1:
         Dedicated: 0.226
         Shared: 0.212
@@ -4370,12 +4506,18 @@ c5d.xlarge:
         Dedicated: 0.204
         Shared: 0.192
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.321
+        Shared: 0.304
       ap-northeast-2:
         Dedicated: 0.294
         Shared: 0.28
       ap-southeast-1:
         Dedicated: 0.298
         Shared: 0.284
+      ap-southeast-2:
+        Dedicated: 0.327
+        Shared: 0.312
       ca-central-1:
         Dedicated: 0.286
         Shared: 0.272
@@ -4401,12 +4543,18 @@ c5d.xlarge:
         Dedicated: 0.264
         Shared: 0.252
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.361
+        Shared: 0.344
       ap-northeast-2:
         Dedicated: 0.334
         Shared: 0.32
       ap-southeast-1:
         Dedicated: 0.338
         Shared: 0.324
+      ap-southeast-2:
+        Dedicated: 0.367
+        Shared: 0.352
       ca-central-1:
         Dedicated: 0.326
         Shared: 0.312
@@ -4432,12 +4580,18 @@ c5d.xlarge:
         Dedicated: 0.304
         Shared: 0.292
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.445
+        Shared: 0.428
       ap-northeast-2:
         Dedicated: 0.418
         Shared: 0.22
       ap-southeast-1:
         Dedicated: 0.238
         Shared: 0.408
+      ap-southeast-2:
+        Dedicated: 0.451
+        Shared: 0.436
       ca-central-1:
         Dedicated: 0.41
         Shared: 0.396
@@ -4470,6 +4624,8 @@ c5d.xlarge:
     - ap-northeast-2
     - ca-central-1
     - eu-west-2
+    - ap-northeast-1
+    - ap-southeast-2
     - us-east-2
     - us-west-2
     - us-west-1
@@ -13317,6 +13473,18 @@ m5d.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 3.736
+        Shared: 3.504
+      ap-northeast-2:
+        Dedicated: 3.534
+        Shared: 3.336
+      ap-southeast-1:
+        Dedicated: 3.592
+        Shared: 3.384
+      ap-southeast-2:
+        Dedicated: 3.631
+        Shared: 3.408
       ca-central-1:
         Dedicated: 3.208
         Shared: 3.024
@@ -13326,6 +13494,9 @@ m5d.12xlarge:
       eu-west-1:
         Dedicated: 3.227
         Shared: 3.024
+      eu-west-2:
+        Dedicated: 3.353
+        Shared: 3.144
       us-east-1:
         Dedicated: 2.876
         Shared: 2.712
@@ -13339,6 +13510,18 @@ m5d.12xlarge:
         Dedicated: 2.876
         Shared: 2.712
     RHEL:
+      ap-northeast-1:
+        Dedicated: 3.866
+        Shared: 3.634
+      ap-northeast-2:
+        Dedicated: 3.664
+        Shared: 3.466
+      ap-southeast-1:
+        Dedicated: 3.722
+        Shared: 3.514
+      ap-southeast-2:
+        Dedicated: 3.761
+        Shared: 3.538
       ca-central-1:
         Dedicated: 3.338
         Shared: 3.154
@@ -13348,6 +13531,9 @@ m5d.12xlarge:
       eu-west-1:
         Dedicated: 3.357
         Shared: 3.154
+      eu-west-2:
+        Dedicated: 3.483
+        Shared: 3.274
       us-east-1:
         Dedicated: 3.006
         Shared: 2.842
@@ -13361,6 +13547,18 @@ m5d.12xlarge:
         Dedicated: 3.006
         Shared: 2.842
     SUSE:
+      ap-northeast-1:
+        Dedicated: 3.836
+        Shared: 3.604
+      ap-northeast-2:
+        Dedicated: 3.634
+        Shared: 3.436
+      ap-southeast-1:
+        Dedicated: 3.692
+        Shared: 3.484
+      ap-southeast-2:
+        Dedicated: 3.731
+        Shared: 3.508
       ca-central-1:
         Dedicated: 3.308
         Shared: 3.124
@@ -13370,6 +13568,9 @@ m5d.12xlarge:
       eu-west-1:
         Dedicated: 3.327
         Shared: 3.124
+      eu-west-2:
+        Dedicated: 3.453
+        Shared: 3.244
       us-east-1:
         Dedicated: 2.976
         Shared: 2.812
@@ -13383,6 +13584,18 @@ m5d.12xlarge:
         Dedicated: 2.976
         Shared: 2.812
     Windows:
+      ap-northeast-1:
+        Dedicated: 5.944
+        Shared: 5.712
+      ap-northeast-2:
+        Dedicated: 5.742
+        Shared: 5.544
+      ap-southeast-1:
+        Dedicated: 5.8
+        Shared: 5.592
+      ap-southeast-2:
+        Dedicated: 5.839
+        Shared: 5.616
       ca-central-1:
         Dedicated: 3.208
         Shared: 5.232
@@ -13392,6 +13605,9 @@ m5d.12xlarge:
       eu-west-1:
         Dedicated: 5.435
         Shared: 3.024
+      eu-west-2:
+        Dedicated: 5.561
+        Shared: 5.352
       us-east-1:
         Dedicated: 5.084
         Shared: 4.92
@@ -13407,10 +13623,15 @@ m5d.12xlarge:
   regions:
     - eu-central-1
     - us-west-2
+    - ap-southeast-2
+    - eu-west-2
+    - ap-southeast-1
     - us-west-1
     - eu-west-1
+    - ap-northeast-1
     - us-east-2
     - ca-central-1
+    - ap-northeast-2
     - us-east-1
   storage: 2 x 900 NVMe SSD
   vcpu: 48
@@ -13426,6 +13647,18 @@ m5d.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 7.008
+        Shared: 7.008
+      ap-northeast-2:
+        Dedicated: 6.672
+        Shared: 6.672
+      ap-southeast-1:
+        Dedicated: 6.768
+        Shared: 6.768
+      ap-southeast-2:
+        Dedicated: 6.816
+        Shared: 6.816
       ca-central-1:
         Dedicated: 6.048
         Shared: 6.048
@@ -13435,6 +13668,9 @@ m5d.24xlarge:
       eu-west-1:
         Dedicated: 6.048
         Shared: 6.048
+      eu-west-2:
+        Dedicated: 6.288
+        Shared: 6.288
       us-east-1:
         Dedicated: 5.424
         Shared: 5.424
@@ -13448,6 +13684,18 @@ m5d.24xlarge:
         Dedicated: 5.424
         Shared: 5.424
     RHEL:
+      ap-northeast-1:
+        Dedicated: 7.138
+        Shared: 7.138
+      ap-northeast-2:
+        Dedicated: 6.802
+        Shared: 6.802
+      ap-southeast-1:
+        Dedicated: 6.898
+        Shared: 6.898
+      ap-southeast-2:
+        Dedicated: 6.946
+        Shared: 6.946
       ca-central-1:
         Dedicated: 6.178
         Shared: 6.178
@@ -13457,6 +13705,9 @@ m5d.24xlarge:
       eu-west-1:
         Dedicated: 6.178
         Shared: 6.178
+      eu-west-2:
+        Dedicated: 6.418
+        Shared: 6.418
       us-east-1:
         Dedicated: 5.554
         Shared: 5.554
@@ -13470,6 +13721,18 @@ m5d.24xlarge:
         Dedicated: 5.554
         Shared: 5.554
     SUSE:
+      ap-northeast-1:
+        Dedicated: 7.108
+        Shared: 7.108
+      ap-northeast-2:
+        Dedicated: 6.772
+        Shared: 6.772
+      ap-southeast-1:
+        Dedicated: 6.868
+        Shared: 6.868
+      ap-southeast-2:
+        Dedicated: 6.916
+        Shared: 6.916
       ca-central-1:
         Dedicated: 6.148
         Shared: 6.148
@@ -13479,6 +13742,9 @@ m5d.24xlarge:
       eu-west-1:
         Dedicated: 6.148
         Shared: 6.148
+      eu-west-2:
+        Dedicated: 6.388
+        Shared: 6.388
       us-east-1:
         Dedicated: 5.524
         Shared: 5.524
@@ -13492,6 +13758,18 @@ m5d.24xlarge:
         Dedicated: 5.524
         Shared: 5.524
     Windows:
+      ap-northeast-1:
+        Dedicated: 11.424
+        Shared: 11.424
+      ap-northeast-2:
+        Dedicated: 11.088
+        Shared: 11.088
+      ap-southeast-1:
+        Dedicated: 11.184
+        Shared: 11.184
+      ap-southeast-2:
+        Dedicated: 11.232
+        Shared: 11.232
       ca-central-1:
         Dedicated: 6.048
         Shared: 10.464
@@ -13501,6 +13779,9 @@ m5d.24xlarge:
       eu-west-1:
         Dedicated: 10.464
         Shared: 10.464
+      eu-west-2:
+        Dedicated: 10.704
+        Shared: 10.704
       us-east-1:
         Dedicated: 9.84
         Shared: 5.424
@@ -13514,13 +13795,18 @@ m5d.24xlarge:
         Dedicated: 9.84
         Shared: 5.424
   regions:
+    - eu-west-2
+    - ap-northeast-1
     - eu-west-1
     - eu-central-1
     - us-east-1
+    - ap-southeast-2
     - ca-central-1
     - us-east-2
+    - ap-southeast-1
     - us-west-1
     - us-west-2
+    - ap-northeast-2
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5d.2xlarge:
@@ -13535,6 +13821,18 @@ m5d.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.623
+        Shared: 0.584
+      ap-northeast-2:
+        Dedicated: 0.589
+        Shared: 0.556
+      ap-southeast-1:
+        Dedicated: 0.599
+        Shared: 0.564
+      ap-southeast-2:
+        Dedicated: 0.605
+        Shared: 0.568
       ca-central-1:
         Dedicated: 0.535
         Shared: 0.504
@@ -13544,6 +13842,9 @@ m5d.2xlarge:
       eu-west-1:
         Dedicated: 0.538
         Shared: 0.504
+      eu-west-2:
+        Dedicated: 0.559
+        Shared: 0.524
       us-east-1:
         Dedicated: 0.479
         Shared: 0.452
@@ -13557,6 +13858,18 @@ m5d.2xlarge:
         Dedicated: 0.479
         Shared: 0.452
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.753
+        Shared: 0.714
+      ap-northeast-2:
+        Dedicated: 0.719
+        Shared: 0.686
+      ap-southeast-1:
+        Dedicated: 0.729
+        Shared: 0.694
+      ap-southeast-2:
+        Dedicated: 0.735
+        Shared: 0.698
       ca-central-1:
         Dedicated: 0.665
         Shared: 0.634
@@ -13566,6 +13879,9 @@ m5d.2xlarge:
       eu-west-1:
         Dedicated: 0.668
         Shared: 0.634
+      eu-west-2:
+        Dedicated: 0.689
+        Shared: 0.654
       us-east-1:
         Dedicated: 0.609
         Shared: 0.582
@@ -13579,6 +13895,18 @@ m5d.2xlarge:
         Dedicated: 0.609
         Shared: 0.582
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.723
+        Shared: 0.684
+      ap-northeast-2:
+        Dedicated: 0.689
+        Shared: 0.656
+      ap-southeast-1:
+        Dedicated: 0.699
+        Shared: 0.664
+      ap-southeast-2:
+        Dedicated: 0.705
+        Shared: 0.668
       ca-central-1:
         Dedicated: 0.635
         Shared: 0.604
@@ -13588,6 +13916,9 @@ m5d.2xlarge:
       eu-west-1:
         Dedicated: 0.638
         Shared: 0.604
+      eu-west-2:
+        Dedicated: 0.659
+        Shared: 0.624
       us-east-1:
         Dedicated: 0.579
         Shared: 0.552
@@ -13601,6 +13932,18 @@ m5d.2xlarge:
         Dedicated: 0.579
         Shared: 0.552
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.991
+        Shared: 0.952
+      ap-northeast-2:
+        Dedicated: 0.957
+        Shared: 0.924
+      ap-southeast-1:
+        Dedicated: 0.967
+        Shared: 0.932
+      ap-southeast-2:
+        Dedicated: 0.973
+        Shared: 0.936
       ca-central-1:
         Dedicated: 0.535
         Shared: 0.872
@@ -13610,6 +13953,9 @@ m5d.2xlarge:
       eu-west-1:
         Dedicated: 0.906
         Shared: 0.872
+      eu-west-2:
+        Dedicated: 0.927
+        Shared: 0.892
       us-east-1:
         Dedicated: 0.847
         Shared: 0.82
@@ -13625,10 +13971,15 @@ m5d.2xlarge:
   regions:
     - eu-central-1
     - us-west-1
+    - ap-northeast-1
     - eu-west-1
     - us-east-1
     - ca-central-1
     - us-east-2
+    - eu-west-2
+    - ap-northeast-2
+    - ap-southeast-2
+    - ap-southeast-1
     - us-west-2
   storage: 1 x 300 NVMe SSD
   vcpu: 8
@@ -13644,6 +13995,18 @@ m5d.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.245
+        Shared: 1.168
+      ap-northeast-2:
+        Dedicated: 1.178
+        Shared: 1.112
+      ap-southeast-1:
+        Dedicated: 1.197
+        Shared: 1.128
+      ap-southeast-2:
+        Dedicated: 1.21
+        Shared: 1.136
       ca-central-1:
         Dedicated: 1.069
         Shared: 1.008
@@ -13653,6 +14016,9 @@ m5d.4xlarge:
       eu-west-1:
         Dedicated: 1.076
         Shared: 1.008
+      eu-west-2:
+        Dedicated: 1.118
+        Shared: 1.048
       us-east-1:
         Dedicated: 0.959
         Shared: 0.904
@@ -13666,6 +14032,18 @@ m5d.4xlarge:
         Dedicated: 0.959
         Shared: 0.904
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.375
+        Shared: 1.298
+      ap-northeast-2:
+        Dedicated: 1.308
+        Shared: 1.242
+      ap-southeast-1:
+        Dedicated: 1.327
+        Shared: 1.258
+      ap-southeast-2:
+        Dedicated: 1.34
+        Shared: 1.266
       ca-central-1:
         Dedicated: 1.199
         Shared: 1.138
@@ -13675,6 +14053,9 @@ m5d.4xlarge:
       eu-west-1:
         Dedicated: 1.206
         Shared: 1.138
+      eu-west-2:
+        Dedicated: 1.248
+        Shared: 1.178
       us-east-1:
         Dedicated: 1.089
         Shared: 1.034
@@ -13688,6 +14069,18 @@ m5d.4xlarge:
         Dedicated: 1.089
         Shared: 1.034
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.345
+        Shared: 1.268
+      ap-northeast-2:
+        Dedicated: 1.278
+        Shared: 1.212
+      ap-southeast-1:
+        Dedicated: 1.297
+        Shared: 1.228
+      ap-southeast-2:
+        Dedicated: 1.31
+        Shared: 1.236
       ca-central-1:
         Dedicated: 1.169
         Shared: 1.108
@@ -13697,6 +14090,9 @@ m5d.4xlarge:
       eu-west-1:
         Dedicated: 1.176
         Shared: 1.108
+      eu-west-2:
+        Dedicated: 1.218
+        Shared: 1.148
       us-east-1:
         Dedicated: 1.059
         Shared: 1.004
@@ -13710,6 +14106,18 @@ m5d.4xlarge:
         Dedicated: 1.059
         Shared: 1.004
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.981
+        Shared: 1.904
+      ap-northeast-2:
+        Dedicated: 1.914
+        Shared: 1.848
+      ap-southeast-1:
+        Dedicated: 1.933
+        Shared: 1.864
+      ap-southeast-2:
+        Dedicated: 1.946
+        Shared: 1.872
       ca-central-1:
         Dedicated: 1.805
         Shared: 1.744
@@ -13719,6 +14127,9 @@ m5d.4xlarge:
       eu-west-1:
         Dedicated: 1.076
         Shared: 1.744
+      eu-west-2:
+        Dedicated: 1.854
+        Shared: 1.784
       us-east-1:
         Dedicated: 1.695
         Shared: 1.64
@@ -13732,12 +14143,17 @@ m5d.4xlarge:
         Dedicated: 0.959
         Shared: 1.64
   regions:
+    - ap-northeast-2
+    - eu-west-2
     - us-east-2
     - us-west-2
     - us-east-1
+    - ap-southeast-1
     - us-west-1
+    - ap-northeast-1
     - eu-central-1
     - ca-central-1
+    - ap-southeast-2
     - eu-west-1
   storage: 2 x 300 NVMe SSD
   vcpu: 16
@@ -13753,6 +14169,18 @@ m5d.large:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.156
+        Shared: 0.146
+      ap-northeast-2:
+        Dedicated: 0.147
+        Shared: 0.139
+      ap-southeast-1:
+        Dedicated: 0.15
+        Shared: 0.141
+      ap-southeast-2:
+        Dedicated: 0.151
+        Shared: 0.142
       ca-central-1:
         Dedicated: 0.134
         Shared: 0.126
@@ -13762,6 +14190,9 @@ m5d.large:
       eu-west-1:
         Dedicated: 0.134
         Shared: 0.126
+      eu-west-2:
+        Dedicated: 0.14
+        Shared: 0.131
       us-east-1:
         Dedicated: 0.12
         Shared: 0.113
@@ -13775,6 +14206,18 @@ m5d.large:
         Dedicated: 0.12
         Shared: 0.113
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.216
+        Shared: 0.206
+      ap-northeast-2:
+        Dedicated: 0.207
+        Shared: 0.199
+      ap-southeast-1:
+        Dedicated: 0.21
+        Shared: 0.201
+      ap-southeast-2:
+        Dedicated: 0.211
+        Shared: 0.202
       ca-central-1:
         Dedicated: 0.194
         Shared: 0.186
@@ -13784,6 +14227,9 @@ m5d.large:
       eu-west-1:
         Dedicated: 0.194
         Shared: 0.186
+      eu-west-2:
+        Dedicated: 0.2
+        Shared: 0.191
       us-east-1:
         Dedicated: 0.18
         Shared: 0.173
@@ -13797,6 +14243,18 @@ m5d.large:
         Dedicated: 0.18
         Shared: 0.173
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.256
+        Shared: 0.246
+      ap-northeast-2:
+        Dedicated: 0.247
+        Shared: 0.239
+      ap-southeast-1:
+        Dedicated: 0.25
+        Shared: 0.241
+      ap-southeast-2:
+        Dedicated: 0.251
+        Shared: 0.242
       ca-central-1:
         Dedicated: 0.234
         Shared: 0.226
@@ -13806,6 +14264,9 @@ m5d.large:
       eu-west-1:
         Dedicated: 0.234
         Shared: 0.226
+      eu-west-2:
+        Dedicated: 0.24
+        Shared: 0.231
       us-east-1:
         Dedicated: 0.22
         Shared: 0.213
@@ -13819,6 +14280,18 @@ m5d.large:
         Dedicated: 0.22
         Shared: 0.213
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.248
+        Shared: 0.238
+      ap-northeast-2:
+        Dedicated: 0.239
+        Shared: 0.231
+      ap-southeast-1:
+        Dedicated: 0.242
+        Shared: 0.233
+      ap-southeast-2:
+        Dedicated: 0.243
+        Shared: 0.234
       ca-central-1:
         Dedicated: 0.226
         Shared: 0.126
@@ -13828,6 +14301,9 @@ m5d.large:
       eu-west-1:
         Dedicated: 0.134
         Shared: 0.218
+      eu-west-2:
+        Dedicated: 0.232
+        Shared: 0.223
       us-east-1:
         Dedicated: 0.12
         Shared: 0.113
@@ -13843,10 +14319,15 @@ m5d.large:
   regions:
     - us-east-1
     - eu-west-1
+    - ap-northeast-2
     - us-west-1
+    - ap-southeast-1
+    - ap-southeast-2
     - us-west-2
+    - eu-west-2
     - us-east-2
     - eu-central-1
+    - ap-northeast-1
     - ca-central-1
   storage: 1 x 75 NVMe SSD
   vcpu: 2
@@ -13862,6 +14343,18 @@ m5d.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.311
+        Shared: 0.292
+      ap-northeast-2:
+        Dedicated: 0.295
+        Shared: 0.278
+      ap-southeast-1:
+        Dedicated: 0.299
+        Shared: 0.282
+      ap-southeast-2:
+        Dedicated: 0.303
+        Shared: 0.284
       ca-central-1:
         Dedicated: 0.267
         Shared: 0.252
@@ -13871,6 +14364,9 @@ m5d.xlarge:
       eu-west-1:
         Dedicated: 0.269
         Shared: 0.252
+      eu-west-2:
+        Dedicated: 0.279
+        Shared: 0.262
       us-east-1:
         Dedicated: 0.24
         Shared: 0.226
@@ -13884,6 +14380,18 @@ m5d.xlarge:
         Dedicated: 0.24
         Shared: 0.226
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.371
+        Shared: 0.352
+      ap-northeast-2:
+        Dedicated: 0.355
+        Shared: 0.338
+      ap-southeast-1:
+        Dedicated: 0.359
+        Shared: 0.342
+      ap-southeast-2:
+        Dedicated: 0.363
+        Shared: 0.344
       ca-central-1:
         Dedicated: 0.327
         Shared: 0.312
@@ -13893,6 +14401,9 @@ m5d.xlarge:
       eu-west-1:
         Dedicated: 0.329
         Shared: 0.312
+      eu-west-2:
+        Dedicated: 0.339
+        Shared: 0.322
       us-east-1:
         Dedicated: 0.3
         Shared: 0.286
@@ -13906,6 +14417,18 @@ m5d.xlarge:
         Dedicated: 0.3
         Shared: 0.286
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.411
+        Shared: 0.392
+      ap-northeast-2:
+        Dedicated: 0.395
+        Shared: 0.378
+      ap-southeast-1:
+        Dedicated: 0.399
+        Shared: 0.382
+      ap-southeast-2:
+        Dedicated: 0.403
+        Shared: 0.384
       ca-central-1:
         Dedicated: 0.367
         Shared: 0.352
@@ -13915,6 +14438,9 @@ m5d.xlarge:
       eu-west-1:
         Dedicated: 0.369
         Shared: 0.352
+      eu-west-2:
+        Dedicated: 0.379
+        Shared: 0.362
       us-east-1:
         Dedicated: 0.34
         Shared: 0.326
@@ -13928,6 +14454,18 @@ m5d.xlarge:
         Dedicated: 0.34
         Shared: 0.326
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.495
+        Shared: 0.476
+      ap-northeast-2:
+        Dedicated: 0.479
+        Shared: 0.462
+      ap-southeast-1:
+        Dedicated: 0.483
+        Shared: 0.466
+      ap-southeast-2:
+        Dedicated: 0.487
+        Shared: 0.468
       ca-central-1:
         Dedicated: 0.451
         Shared: 0.436
@@ -13937,6 +14475,9 @@ m5d.xlarge:
       eu-west-1:
         Dedicated: 0.453
         Shared: 0.436
+      eu-west-2:
+        Dedicated: 0.463
+        Shared: 0.446
       us-east-1:
         Dedicated: 0.24
         Shared: 0.226
@@ -13952,9 +14493,14 @@ m5d.xlarge:
   regions:
     - eu-west-1
     - us-west-2
+    - ap-southeast-2
     - eu-central-1
     - ca-central-1
+    - eu-west-2
     - us-east-1
+    - ap-northeast-2
+    - ap-southeast-1
+    - ap-northeast-1
     - us-east-2
     - us-west-1
   storage: 1 x 150 NVMe SSD
