@@ -17978,7 +17978,7 @@ r5.12xlarge:
   vcpu: 48
 r5.24xlarge:
   currentGeneration: true
-  ecu: 345
+  ecu: 347
   memory: 768 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
@@ -18045,7 +18045,7 @@ r5.24xlarge:
   vcpu: 96
 r5.2xlarge:
   currentGeneration: true
-  ecu: 31
+  ecu: 38
   memory: 64 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 16
@@ -18112,7 +18112,7 @@ r5.2xlarge:
   vcpu: 8
 r5.4xlarge:
   currentGeneration: true
-  ecu: 60
+  ecu: 71
   memory: 128 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 32
@@ -18179,7 +18179,7 @@ r5.4xlarge:
   vcpu: 16
 r5.large:
   currentGeneration: true
-  ecu: 8
+  ecu: 10
   memory: 16 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 4
@@ -18246,7 +18246,7 @@ r5.large:
   vcpu: 2
 r5.xlarge:
   currentGeneration: true
-  ecu: 16
+  ecu: 19
   memory: 32 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 8
@@ -18367,7 +18367,7 @@ r5d.12xlarge:
   vcpu: 48
 r5d.24xlarge:
   currentGeneration: true
-  ecu: 345
+  ecu: 347
   memory: 768 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
@@ -18421,7 +18421,7 @@ r5d.24xlarge:
   vcpu: 96
 r5d.2xlarge:
   currentGeneration: true
-  ecu: 31
+  ecu: 38
   memory: 64 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 16
@@ -18475,7 +18475,7 @@ r5d.2xlarge:
   vcpu: 8
 r5d.4xlarge:
   currentGeneration: true
-  ecu: 60
+  ecu: 71
   memory: 128 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 32
@@ -18529,7 +18529,7 @@ r5d.4xlarge:
   vcpu: 16
 r5d.large:
   currentGeneration: true
-  ecu: 8
+  ecu: 10
   memory: 16 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 4
@@ -18583,7 +18583,7 @@ r5d.large:
   vcpu: 2
 r5d.xlarge:
   currentGeneration: true
-  ecu: 16
+  ecu: 19
   memory: 32 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 8
@@ -19451,9 +19451,6 @@ t2.nano:
         Shared: 0.0069
       us-west-2:
         Shared: 0.0058
-    RHEL:
-      us-east-2:
-        Shared: 0.0665
     SUSE:
       ap-northeast-1:
         Shared: 0.0176
@@ -21798,7 +21795,7 @@ x1e.xlarge:
   vcpu: 4
 z1d.12xlarge:
   currentGeneration: true
-  ecu: 235
+  ecu: 271
   memory: 384 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 96
@@ -21891,7 +21888,7 @@ z1d.12xlarge:
   vcpu: 48
 z1d.2xlarge:
   currentGeneration: true
-  ecu: 43
+  ecu: 53
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
@@ -21984,7 +21981,7 @@ z1d.2xlarge:
   vcpu: 8
 z1d.3xlarge:
   currentGeneration: true
-  ecu: 65
+  ecu: 75
   memory: 96 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 24
@@ -22077,7 +22074,7 @@ z1d.3xlarge:
   vcpu: 12
 z1d.6xlarge:
   currentGeneration: true
-  ecu: 128
+  ecu: 134
   memory: 192 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 48
@@ -22170,7 +22167,7 @@ z1d.6xlarge:
   vcpu: 24
 z1d.large:
   currentGeneration: true
-  ecu: 11
+  ecu: 15
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
@@ -22263,7 +22260,7 @@ z1d.large:
   vcpu: 2
 z1d.xlarge:
   currentGeneration: true
-  ecu: 21
+  ecu: 28
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
