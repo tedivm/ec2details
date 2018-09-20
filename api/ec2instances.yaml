@@ -6097,6 +6097,9 @@ g3.16xlarge:
       ap-southeast-2:
         Dedicated: 7.016
         Shared: 7.016
+      ca-central-1:
+        Dedicated: 5.664
+        Shared: 5.664
       eu-central-1:
         Dedicated: 5.7
         Shared: 5.7
@@ -6128,6 +6131,9 @@ g3.16xlarge:
       ap-southeast-2:
         Dedicated: 7.146
         Shared: 7.146
+      ca-central-1:
+        Dedicated: 5.794
+        Shared: 5.794
       eu-central-1:
         Dedicated: 5.83
         Shared: 5.83
@@ -6159,6 +6165,9 @@ g3.16xlarge:
       ap-southeast-2:
         Dedicated: 7.116
         Shared: 7.116
+      ca-central-1:
+        Dedicated: 5.764
+        Shared: 5.764
       eu-central-1:
         Dedicated: 5.8
         Shared: 5.8
@@ -6190,6 +6199,9 @@ g3.16xlarge:
       ap-southeast-2:
         Dedicated: 7.016
         Shared: 7.016
+      ca-central-1:
+        Dedicated: 8.608
+        Shared: 8.608
       eu-central-1:
         Dedicated: 8.644
         Shared: 5.7
@@ -6217,6 +6229,7 @@ g3.16xlarge:
     - ap-southeast-1
     - eu-central-1
     - ap-northeast-1
+    - ca-central-1
     - us-west-2
     - us-east-2
     - ap-southeast-2
@@ -6246,6 +6259,9 @@ g3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.9294
         Shared: 1.754
+      ca-central-1:
+        Dedicated: 1.5576
+        Shared: 1.416
       eu-central-1:
         Dedicated: 1.5675
         Shared: 1.425
@@ -6277,6 +6293,9 @@ g3.4xlarge:
       ap-southeast-2:
         Dedicated: 2.0594
         Shared: 1.884
+      ca-central-1:
+        Dedicated: 1.6876
+        Shared: 1.546
       eu-central-1:
         Dedicated: 1.6975
         Shared: 1.555
@@ -6308,6 +6327,9 @@ g3.4xlarge:
       ap-southeast-2:
         Dedicated: 2.0294
         Shared: 1.854
+      ca-central-1:
+        Dedicated: 1.6576
+        Shared: 1.516
       eu-central-1:
         Dedicated: 1.6675
         Shared: 1.525
@@ -6339,6 +6361,9 @@ g3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.9294
         Shared: 1.754
+      ca-central-1:
+        Dedicated: 2.2936
+        Shared: 2.152
       eu-central-1:
         Dedicated: 2.3035
         Shared: 1.425
@@ -6364,6 +6389,7 @@ g3.4xlarge:
     - us-east-2
     - us-gov-west-1
     - us-west-2
+    - ca-central-1
     - ap-southeast-1
     - us-east-1
     - us-west-1
@@ -6395,6 +6421,9 @@ g3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.8588
         Shared: 3.508
+      ca-central-1:
+        Dedicated: 3.1152
+        Shared: 2.832
       eu-central-1:
         Dedicated: 3.135
         Shared: 2.85
@@ -6426,6 +6455,9 @@ g3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.9888
         Shared: 3.638
+      ca-central-1:
+        Dedicated: 3.2452
+        Shared: 2.962
       eu-central-1:
         Dedicated: 3.265
         Shared: 2.98
@@ -6457,6 +6489,9 @@ g3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.9588
         Shared: 3.608
+      ca-central-1:
+        Dedicated: 3.2152
+        Shared: 2.932
       eu-central-1:
         Dedicated: 3.235
         Shared: 2.95
@@ -6488,6 +6523,9 @@ g3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.8588
         Shared: 3.508
+      ca-central-1:
+        Dedicated: 4.5872
+        Shared: 4.304
       eu-central-1:
         Dedicated: 4.607
         Shared: 4.322
@@ -6514,6 +6552,7 @@ g3.8xlarge:
     - ap-northeast-1
     - us-west-1
     - us-west-2
+    - ca-central-1
     - us-gov-west-1
     - ap-southeast-1
     - eu-west-1
