@@ -5809,6 +5809,60 @@ f1.2xlarge:
     - us-gov-west-1
   storage: EBS only
   vcpu: 8
+f1.4xlarge:
+  currentGeneration: true
+  ecu: 52
+  memory: 244 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 32
+  physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 3.993
+        Shared: 3.63
+      us-east-1:
+        Dedicated: 3.63
+        Shared: 3.3
+      us-gov-west-1:
+        Dedicated: 4.356
+        Shared: 3.96
+      us-west-2:
+        Dedicated: 3.63
+        Shared: 3.3
+    RHEL:
+      eu-west-1:
+        Dedicated: 4.123
+        Shared: 3.76
+      us-east-1:
+        Dedicated: 3.76
+        Shared: 3.43
+      us-gov-west-1:
+        Dedicated: 4.486
+        Shared: 4.09
+      us-west-2:
+        Dedicated: 3.76
+        Shared: 3.43
+    SUSE:
+      eu-west-1:
+        Dedicated: 4.093
+        Shared: 3.73
+      us-east-1:
+        Dedicated: 3.73
+        Shared: 3.4
+      us-gov-west-1:
+        Dedicated: 4.456
+        Shared: 4.06
+      us-west-2:
+        Dedicated: 3.73
+        Shared: 3.4
+  regions:
+    - us-east-1
+    - us-gov-west-1
+    - eu-west-1
+    - us-west-2
+  storage: 1 x 940 GB
+  vcpu: 16
 g2.2xlarge:
   clockSpeed: 2.6 GHz
   currentGeneration: false
