@@ -6693,6 +6693,112 @@ g3.8xlarge:
     - us-east-2
   storage: EBS only
   vcpu: 32
+g3s.xlarge:
+  currentGeneration: true
+  ecu: 13
+  memory: 30.5 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 1
+  physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
+  prices:
+    Linux:
+      ap-northeast-1:
+        Dedicated: 1.123
+        Shared: 1.04
+      ap-southeast-2:
+        Dedicated: 1.237
+        Shared: 1.154
+      eu-central-1:
+        Dedicated: 1.008
+        Shared: 0.938
+      eu-west-1:
+        Dedicated: 0.854
+        Shared: 0.796
+      us-east-1:
+        Dedicated: 0.803
+        Shared: 0.75
+      us-east-2:
+        Dedicated: 0.803
+        Shared: 0.75
+      us-west-2:
+        Dedicated: 0.803
+        Shared: 0.75
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 1.183
+        Shared: 1.1
+      ap-southeast-2:
+        Dedicated: 1.297
+        Shared: 1.214
+      eu-central-1:
+        Dedicated: 1.068
+        Shared: 0.998
+      eu-west-1:
+        Dedicated: 0.914
+        Shared: 0.856
+      us-east-1:
+        Dedicated: 0.863
+        Shared: 0.81
+      us-east-2:
+        Dedicated: 0.863
+        Shared: 0.81
+      us-west-2:
+        Dedicated: 0.863
+        Shared: 0.81
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 1.248
+        Shared: 1.165
+      ap-southeast-2:
+        Dedicated: 1.362
+        Shared: 1.279
+      eu-central-1:
+        Dedicated: 1.133
+        Shared: 1.063
+      eu-west-1:
+        Dedicated: 0.979
+        Shared: 0.921
+      us-east-1:
+        Dedicated: 0.928
+        Shared: 0.875
+      us-east-2:
+        Dedicated: 0.928
+        Shared: 0.875
+      us-west-2:
+        Dedicated: 0.928
+        Shared: 0.875
+    Windows:
+      ap-northeast-1:
+        Dedicated: 1.307
+        Shared: 1.224
+      ap-southeast-2:
+        Dedicated: 1.421
+        Shared: 1.338
+      eu-central-1:
+        Dedicated: 1.192
+        Shared: 1.122
+      eu-west-1:
+        Dedicated: 1.038
+        Shared: 0.98
+      us-east-1:
+        Dedicated: 0.987
+        Shared: 0.934
+      us-east-2:
+        Dedicated: 0.987
+        Shared: 0.934
+      us-west-2:
+        Dedicated: 0.987
+        Shared: 0.934
+  regions:
+    - ap-southeast-2
+    - ap-northeast-1
+    - us-west-2
+    - us-east-1
+    - us-east-2
+    - eu-west-1
+    - eu-central-1
+  storage: EBS only
+  vcpu: 4
 h1.16xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
