@@ -18279,6 +18279,9 @@ r5.12xlarge:
       ap-northeast-2:
         Dedicated: 3.867
         Shared: 3.648
+      ap-southeast-1:
+        Dedicated: 3.867
+        Shared: 3.648
       ap-southeast-2:
         Dedicated: 3.841
         Shared: 3.624
@@ -18292,6 +18295,9 @@ r5.12xlarge:
         Dedicated: 3.587
         Shared: 3.384
       eu-west-2:
+        Dedicated: 3.765
+        Shared: 3.552
+      eu-west-3:
         Dedicated: 3.765
         Shared: 3.552
       us-east-1:
@@ -18316,6 +18322,9 @@ r5.12xlarge:
       ap-northeast-2:
         Dedicated: 3.997
         Shared: 3.778
+      ap-southeast-1:
+        Dedicated: 3.997
+        Shared: 3.778
       ap-southeast-2:
         Dedicated: 3.971
         Shared: 3.754
@@ -18329,6 +18338,9 @@ r5.12xlarge:
         Dedicated: 3.717
         Shared: 3.514
       eu-west-2:
+        Dedicated: 3.895
+        Shared: 3.682
+      eu-west-3:
         Dedicated: 3.895
         Shared: 3.682
       us-east-1:
@@ -18353,6 +18365,9 @@ r5.12xlarge:
       ap-northeast-2:
         Dedicated: 4.017
         Shared: 3.798
+      ap-southeast-1:
+        Dedicated: 4.017
+        Shared: 3.798
       ap-southeast-2:
         Dedicated: 3.991
         Shared: 3.774
@@ -18366,6 +18381,9 @@ r5.12xlarge:
         Dedicated: 3.737
         Shared: 3.534
       eu-west-2:
+        Dedicated: 3.915
+        Shared: 3.702
+      eu-west-3:
         Dedicated: 3.915
         Shared: 3.702
       us-east-1:
@@ -18390,6 +18408,9 @@ r5.12xlarge:
       ap-northeast-2:
         Dedicated: 6.075
         Shared: 5.856
+      ap-southeast-1:
+        Dedicated: 6.075
+        Shared: 5.856
       ap-southeast-2:
         Dedicated: 6.049
         Shared: 5.832
@@ -18403,6 +18424,9 @@ r5.12xlarge:
         Dedicated: 5.795
         Shared: 3.384
       eu-west-2:
+        Dedicated: 5.973
+        Shared: 5.76
+      eu-west-3:
         Dedicated: 5.973
         Shared: 5.76
       us-east-1:
@@ -18422,6 +18446,7 @@ r5.12xlarge:
         Shared: 5.232
   regions:
     - us-gov-west-1
+    - ap-southeast-1
     - ca-central-1
     - ap-northeast-1
     - us-east-2
@@ -18433,6 +18458,7 @@ r5.12xlarge:
     - ap-northeast-2
     - us-west-1
     - eu-central-1
+    - eu-west-3
   storage: EBS only
   vcpu: 48
 r5.24xlarge:
@@ -18450,6 +18476,9 @@ r5.24xlarge:
       ap-northeast-2:
         Dedicated: 7.296
         Shared: 7.296
+      ap-southeast-1:
+        Dedicated: 7.296
+        Shared: 7.296
       ap-southeast-2:
         Dedicated: 7.248
         Shared: 7.248
@@ -18463,6 +18492,9 @@ r5.24xlarge:
         Dedicated: 6.768
         Shared: 6.768
       eu-west-2:
+        Dedicated: 7.104
+        Shared: 7.104
+      eu-west-3:
         Dedicated: 7.104
         Shared: 7.104
       us-east-1:
@@ -18487,6 +18519,9 @@ r5.24xlarge:
       ap-northeast-2:
         Dedicated: 7.426
         Shared: 7.426
+      ap-southeast-1:
+        Dedicated: 7.426
+        Shared: 7.426
       ap-southeast-2:
         Dedicated: 7.378
         Shared: 7.378
@@ -18500,6 +18535,9 @@ r5.24xlarge:
         Dedicated: 6.898
         Shared: 6.898
       eu-west-2:
+        Dedicated: 7.234
+        Shared: 7.234
+      eu-west-3:
         Dedicated: 7.234
         Shared: 7.234
       us-east-1:
@@ -18524,6 +18562,9 @@ r5.24xlarge:
       ap-northeast-2:
         Dedicated: 7.446
         Shared: 7.446
+      ap-southeast-1:
+        Dedicated: 7.446
+        Shared: 7.446
       ap-southeast-2:
         Dedicated: 7.398
         Shared: 7.398
@@ -18537,6 +18578,9 @@ r5.24xlarge:
         Dedicated: 6.918
         Shared: 6.918
       eu-west-2:
+        Dedicated: 7.254
+        Shared: 7.254
+      eu-west-3:
         Dedicated: 7.254
         Shared: 7.254
       us-east-1:
@@ -18561,6 +18605,9 @@ r5.24xlarge:
       ap-northeast-2:
         Dedicated: 11.712
         Shared: 11.712
+      ap-southeast-1:
+        Dedicated: 11.712
+        Shared: 11.712
       ap-southeast-2:
         Dedicated: 11.664
         Shared: 11.664
@@ -18574,6 +18621,9 @@ r5.24xlarge:
         Dedicated: 6.768
         Shared: 11.184
       eu-west-2:
+        Dedicated: 11.52
+        Shared: 11.52
+      eu-west-3:
         Dedicated: 11.52
         Shared: 11.52
       us-east-1:
@@ -18592,8 +18642,10 @@ r5.24xlarge:
         Dedicated: 10.464
         Shared: 6.048
   regions:
+    - ap-southeast-1
     - us-east-1
     - us-east-2
+    - eu-west-3
     - eu-west-1
     - us-west-1
     - us-gov-west-1
@@ -18621,6 +18673,9 @@ r5.2xlarge:
       ap-northeast-2:
         Dedicated: 0.644
         Shared: 0.608
+      ap-southeast-1:
+        Dedicated: 0.644
+        Shared: 0.608
       ap-southeast-2:
         Dedicated: 0.64
         Shared: 0.604
@@ -18634,6 +18689,9 @@ r5.2xlarge:
         Dedicated: 0.598
         Shared: 0.564
       eu-west-2:
+        Dedicated: 0.628
+        Shared: 0.592
+      eu-west-3:
         Dedicated: 0.628
         Shared: 0.592
       us-east-1:
@@ -18658,6 +18716,9 @@ r5.2xlarge:
       ap-northeast-2:
         Dedicated: 0.774
         Shared: 0.738
+      ap-southeast-1:
+        Dedicated: 0.774
+        Shared: 0.738
       ap-southeast-2:
         Dedicated: 0.77
         Shared: 0.734
@@ -18671,6 +18732,9 @@ r5.2xlarge:
         Dedicated: 0.728
         Shared: 0.694
       eu-west-2:
+        Dedicated: 0.758
+        Shared: 0.722
+      eu-west-3:
         Dedicated: 0.758
         Shared: 0.722
       us-east-1:
@@ -18695,6 +18759,9 @@ r5.2xlarge:
       ap-northeast-2:
         Dedicated: 0.794
         Shared: 0.758
+      ap-southeast-1:
+        Dedicated: 0.794
+        Shared: 0.758
       ap-southeast-2:
         Dedicated: 0.79
         Shared: 0.754
@@ -18708,6 +18775,9 @@ r5.2xlarge:
         Dedicated: 0.748
         Shared: 0.714
       eu-west-2:
+        Dedicated: 0.778
+        Shared: 0.742
+      eu-west-3:
         Dedicated: 0.778
         Shared: 0.742
       us-east-1:
@@ -18732,6 +18802,9 @@ r5.2xlarge:
       ap-northeast-2:
         Dedicated: 1.012
         Shared: 0.976
+      ap-southeast-1:
+        Dedicated: 1.012
+        Shared: 0.976
       ap-southeast-2:
         Dedicated: 1.008
         Shared: 0.972
@@ -18745,6 +18818,9 @@ r5.2xlarge:
         Dedicated: 0.598
         Shared: 0.564
       eu-west-2:
+        Dedicated: 0.996
+        Shared: 0.96
+      eu-west-3:
         Dedicated: 0.996
         Shared: 0.96
       us-east-1:
@@ -18764,6 +18840,7 @@ r5.2xlarge:
         Shared: 0.504
   regions:
     - eu-west-2
+    - eu-west-3
     - us-west-2
     - ap-southeast-2
     - ap-northeast-2
@@ -18773,6 +18850,7 @@ r5.2xlarge:
     - eu-west-1
     - us-east-2
     - us-east-1
+    - ap-southeast-1
     - us-west-1
     - ap-northeast-1
   storage: EBS only
@@ -18792,6 +18870,9 @@ r5.4xlarge:
       ap-northeast-2:
         Dedicated: 1.289
         Shared: 1.216
+      ap-southeast-1:
+        Dedicated: 1.289
+        Shared: 1.216
       ap-southeast-2:
         Dedicated: 1.28
         Shared: 1.208
@@ -18805,6 +18886,9 @@ r5.4xlarge:
         Dedicated: 1.196
         Shared: 1.128
       eu-west-2:
+        Dedicated: 1.255
+        Shared: 1.184
+      eu-west-3:
         Dedicated: 1.255
         Shared: 1.184
       us-east-1:
@@ -18829,6 +18913,9 @@ r5.4xlarge:
       ap-northeast-2:
         Dedicated: 1.419
         Shared: 1.346
+      ap-southeast-1:
+        Dedicated: 1.419
+        Shared: 1.346
       ap-southeast-2:
         Dedicated: 1.41
         Shared: 1.338
@@ -18842,6 +18929,9 @@ r5.4xlarge:
         Dedicated: 1.326
         Shared: 1.258
       eu-west-2:
+        Dedicated: 1.385
+        Shared: 1.314
+      eu-west-3:
         Dedicated: 1.385
         Shared: 1.314
       us-east-1:
@@ -18866,6 +18956,9 @@ r5.4xlarge:
       ap-northeast-2:
         Dedicated: 1.439
         Shared: 1.366
+      ap-southeast-1:
+        Dedicated: 1.439
+        Shared: 1.366
       ap-southeast-2:
         Dedicated: 1.43
         Shared: 1.358
@@ -18879,6 +18972,9 @@ r5.4xlarge:
         Dedicated: 1.346
         Shared: 1.278
       eu-west-2:
+        Dedicated: 1.405
+        Shared: 1.334
+      eu-west-3:
         Dedicated: 1.405
         Shared: 1.334
       us-east-1:
@@ -18903,6 +18999,9 @@ r5.4xlarge:
       ap-northeast-2:
         Dedicated: 2.025
         Shared: 1.952
+      ap-southeast-1:
+        Dedicated: 2.025
+        Shared: 1.952
       ap-southeast-2:
         Dedicated: 2.016
         Shared: 1.944
@@ -18916,6 +19015,9 @@ r5.4xlarge:
         Dedicated: 1.196
         Shared: 1.128
       eu-west-2:
+        Dedicated: 1.991
+        Shared: 1.92
+      eu-west-3:
         Dedicated: 1.991
         Shared: 1.92
       us-east-1:
@@ -18939,7 +19041,9 @@ r5.4xlarge:
     - ca-central-1
     - us-east-1
     - us-east-2
+    - eu-west-3
     - us-west-1
+    - ap-southeast-1
     - us-west-2
     - eu-west-1
     - ap-southeast-2
@@ -18963,6 +19067,9 @@ r5.large:
       ap-northeast-2:
         Dedicated: 0.161
         Shared: 0.152
+      ap-southeast-1:
+        Dedicated: 0.161
+        Shared: 0.152
       ap-southeast-2:
         Dedicated: 0.16
         Shared: 0.151
@@ -18976,6 +19083,9 @@ r5.large:
         Dedicated: 0.149
         Shared: 0.141
       eu-west-2:
+        Dedicated: 0.157
+        Shared: 0.148
+      eu-west-3:
         Dedicated: 0.157
         Shared: 0.148
       us-east-1:
@@ -19000,6 +19110,9 @@ r5.large:
       ap-northeast-2:
         Dedicated: 0.221
         Shared: 0.212
+      ap-southeast-1:
+        Dedicated: 0.221
+        Shared: 0.212
       ap-southeast-2:
         Dedicated: 0.22
         Shared: 0.211
@@ -19013,6 +19126,9 @@ r5.large:
         Dedicated: 0.209
         Shared: 0.201
       eu-west-2:
+        Dedicated: 0.217
+        Shared: 0.208
+      eu-west-3:
         Dedicated: 0.217
         Shared: 0.208
       us-east-1:
@@ -19037,6 +19153,9 @@ r5.large:
       ap-northeast-2:
         Dedicated: 0.224
         Shared: 0.215
+      ap-southeast-1:
+        Dedicated: 0.224
+        Shared: 0.215
       ap-southeast-2:
         Dedicated: 0.223
         Shared: 0.214
@@ -19050,6 +19169,9 @@ r5.large:
         Dedicated: 0.212
         Shared: 0.204
       eu-west-2:
+        Dedicated: 0.22
+        Shared: 0.211
+      eu-west-3:
         Dedicated: 0.22
         Shared: 0.211
       us-east-1:
@@ -19074,6 +19196,9 @@ r5.large:
       ap-northeast-2:
         Dedicated: 0.253
         Shared: 0.244
+      ap-southeast-1:
+        Dedicated: 0.253
+        Shared: 0.244
       ap-southeast-2:
         Dedicated: 0.252
         Shared: 0.243
@@ -19087,6 +19212,9 @@ r5.large:
         Dedicated: 0.149
         Shared: 0.233
       eu-west-2:
+        Dedicated: 0.249
+        Shared: 0.24
+      eu-west-3:
         Dedicated: 0.249
         Shared: 0.24
       us-east-1:
@@ -19108,9 +19236,11 @@ r5.large:
     - us-gov-west-1
     - ap-northeast-2
     - us-west-1
+    - eu-west-3
     - us-west-2
     - eu-central-1
     - eu-west-1
+    - ap-southeast-1
     - ap-northeast-1
     - us-east-2
     - ca-central-1
@@ -19134,6 +19264,9 @@ r5.xlarge:
       ap-northeast-2:
         Dedicated: 0.322
         Shared: 0.304
+      ap-southeast-1:
+        Dedicated: 0.322
+        Shared: 0.304
       ap-southeast-2:
         Dedicated: 0.32
         Shared: 0.302
@@ -19147,6 +19280,9 @@ r5.xlarge:
         Dedicated: 0.299
         Shared: 0.282
       eu-west-2:
+        Dedicated: 0.314
+        Shared: 0.296
+      eu-west-3:
         Dedicated: 0.314
         Shared: 0.296
       us-east-1:
@@ -19171,6 +19307,9 @@ r5.xlarge:
       ap-northeast-2:
         Dedicated: 0.382
         Shared: 0.364
+      ap-southeast-1:
+        Dedicated: 0.382
+        Shared: 0.364
       ap-southeast-2:
         Dedicated: 0.38
         Shared: 0.362
@@ -19184,6 +19323,9 @@ r5.xlarge:
         Dedicated: 0.359
         Shared: 0.342
       eu-west-2:
+        Dedicated: 0.374
+        Shared: 0.356
+      eu-west-3:
         Dedicated: 0.374
         Shared: 0.356
       us-east-1:
@@ -19208,6 +19350,9 @@ r5.xlarge:
       ap-northeast-2:
         Dedicated: 0.447
         Shared: 0.429
+      ap-southeast-1:
+        Dedicated: 0.447
+        Shared: 0.429
       ap-southeast-2:
         Dedicated: 0.445
         Shared: 0.427
@@ -19221,6 +19366,9 @@ r5.xlarge:
         Dedicated: 0.424
         Shared: 0.407
       eu-west-2:
+        Dedicated: 0.439
+        Shared: 0.421
+      eu-west-3:
         Dedicated: 0.439
         Shared: 0.421
       us-east-1:
@@ -19245,6 +19393,9 @@ r5.xlarge:
       ap-northeast-2:
         Dedicated: 0.506
         Shared: 0.488
+      ap-southeast-1:
+        Dedicated: 0.506
+        Shared: 0.488
       ap-southeast-2:
         Dedicated: 0.504
         Shared: 0.486
@@ -19258,6 +19409,9 @@ r5.xlarge:
         Dedicated: 0.299
         Shared: 0.282
       eu-west-2:
+        Dedicated: 0.498
+        Shared: 0.48
+      eu-west-3:
         Dedicated: 0.498
         Shared: 0.48
       us-east-1:
@@ -19279,6 +19433,8 @@ r5.xlarge:
     - ap-southeast-2
     - us-west-2
     - eu-west-1
+    - ap-southeast-1
+    - eu-west-3
     - eu-west-2
     - us-east-1
     - us-west-1
@@ -19299,9 +19455,15 @@ r5d.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 4.43
+        Shared: 4.176
       ap-northeast-2:
         Dedicated: 4.401
         Shared: 4.152
+      ap-southeast-1:
+        Dedicated: 4.427
+        Shared: 4.176
       ap-southeast-2:
         Dedicated: 4.429
         Shared: 4.176
@@ -19330,9 +19492,15 @@ r5d.12xlarge:
         Dedicated: 3.664
         Shared: 3.456
     RHEL:
+      ap-northeast-1:
+        Dedicated: 4.56
+        Shared: 4.306
       ap-northeast-2:
         Dedicated: 4.531
         Shared: 4.282
+      ap-southeast-1:
+        Dedicated: 4.557
+        Shared: 4.306
       ap-southeast-2:
         Dedicated: 4.559
         Shared: 4.306
@@ -19361,9 +19529,15 @@ r5d.12xlarge:
         Dedicated: 3.794
         Shared: 3.586
     SUSE:
+      ap-northeast-1:
+        Dedicated: 4.58
+        Shared: 4.326
       ap-northeast-2:
         Dedicated: 4.551
         Shared: 4.302
+      ap-southeast-1:
+        Dedicated: 4.577
+        Shared: 4.326
       ap-southeast-2:
         Dedicated: 4.579
         Shared: 4.326
@@ -19392,9 +19566,15 @@ r5d.12xlarge:
         Dedicated: 3.814
         Shared: 3.606
     Windows:
+      ap-northeast-1:
+        Dedicated: 6.638
+        Shared: 6.384
       ap-northeast-2:
         Dedicated: 6.609
         Shared: 6.36
+      ap-southeast-1:
+        Dedicated: 6.635
+        Shared: 6.384
       ap-southeast-2:
         Dedicated: 6.637
         Shared: 6.384
@@ -19426,8 +19606,10 @@ r5d.12xlarge:
     - eu-west-1
     - us-east-2
     - us-west-2
+    - ap-southeast-1
     - eu-west-2
     - ca-central-1
+    - ap-northeast-1
     - ap-northeast-2
     - ap-southeast-2
     - eu-central-1
@@ -19444,9 +19626,15 @@ r5d.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 8.352
+        Shared: 8.352
       ap-northeast-2:
         Dedicated: 8.304
         Shared: 8.304
+      ap-southeast-1:
+        Dedicated: 8.352
+        Shared: 8.352
       ap-southeast-2:
         Dedicated: 8.352
         Shared: 8.352
@@ -19475,9 +19663,15 @@ r5d.24xlarge:
         Dedicated: 6.912
         Shared: 6.912
     RHEL:
+      ap-northeast-1:
+        Dedicated: 8.482
+        Shared: 8.482
       ap-northeast-2:
         Dedicated: 8.434
         Shared: 8.434
+      ap-southeast-1:
+        Dedicated: 8.482
+        Shared: 8.482
       ap-southeast-2:
         Dedicated: 8.482
         Shared: 8.482
@@ -19506,9 +19700,15 @@ r5d.24xlarge:
         Dedicated: 7.042
         Shared: 7.042
     SUSE:
+      ap-northeast-1:
+        Dedicated: 8.502
+        Shared: 8.502
       ap-northeast-2:
         Dedicated: 8.454
         Shared: 8.454
+      ap-southeast-1:
+        Dedicated: 8.502
+        Shared: 8.502
       ap-southeast-2:
         Dedicated: 8.502
         Shared: 8.502
@@ -19537,9 +19737,15 @@ r5d.24xlarge:
         Dedicated: 7.062
         Shared: 7.062
     Windows:
+      ap-northeast-1:
+        Dedicated: 12.768
+        Shared: 12.768
       ap-northeast-2:
         Dedicated: 12.72
         Shared: 12.72
+      ap-southeast-1:
+        Dedicated: 12.768
+        Shared: 12.768
       ap-southeast-2:
         Dedicated: 12.768
         Shared: 12.768
@@ -19570,12 +19776,14 @@ r5d.24xlarge:
   regions:
     - ap-southeast-2
     - us-east-1
+    - ap-southeast-1
     - eu-central-1
     - ca-central-1
     - eu-west-2
     - eu-west-1
     - us-east-2
     - us-west-2
+    - ap-northeast-1
     - ap-northeast-2
     - us-west-1
   storage: 4 x 900 NVMe SSD
@@ -19589,9 +19797,15 @@ r5d.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.738
+        Shared: 0.696
       ap-northeast-2:
         Dedicated: 0.733
         Shared: 0.692
+      ap-southeast-1:
+        Dedicated: 0.738
+        Shared: 0.696
       ap-southeast-2:
         Dedicated: 0.738
         Shared: 0.696
@@ -19620,9 +19834,15 @@ r5d.2xlarge:
         Dedicated: 0.611
         Shared: 0.576
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.868
+        Shared: 0.826
       ap-northeast-2:
         Dedicated: 0.863
         Shared: 0.822
+      ap-southeast-1:
+        Dedicated: 0.868
+        Shared: 0.826
       ap-southeast-2:
         Dedicated: 0.868
         Shared: 0.826
@@ -19651,9 +19871,15 @@ r5d.2xlarge:
         Dedicated: 0.741
         Shared: 0.706
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.888
+        Shared: 0.846
       ap-northeast-2:
         Dedicated: 0.883
         Shared: 0.842
+      ap-southeast-1:
+        Dedicated: 0.888
+        Shared: 0.846
       ap-southeast-2:
         Dedicated: 0.888
         Shared: 0.846
@@ -19682,9 +19908,15 @@ r5d.2xlarge:
         Dedicated: 0.761
         Shared: 0.726
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.106
+        Shared: 1.064
       ap-northeast-2:
         Dedicated: 1.101
         Shared: 1.06
+      ap-southeast-1:
+        Dedicated: 1.106
+        Shared: 1.064
       ap-southeast-2:
         Dedicated: 1.106
         Shared: 1.064
@@ -19718,7 +19950,9 @@ r5d.2xlarge:
     - ap-northeast-2
     - us-east-1
     - eu-central-1
+    - ap-southeast-1
     - us-west-2
+    - ap-northeast-1
     - ca-central-1
     - ap-southeast-2
     - eu-west-2
@@ -19734,9 +19968,15 @@ r5d.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.477
+        Shared: 1.392
       ap-northeast-2:
         Dedicated: 1.467
         Shared: 1.384
+      ap-southeast-1:
+        Dedicated: 1.476
+        Shared: 1.392
       ap-southeast-2:
         Dedicated: 1.476
         Shared: 1.392
@@ -19765,9 +20005,15 @@ r5d.4xlarge:
         Dedicated: 1.221
         Shared: 1.152
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.607
+        Shared: 1.522
       ap-northeast-2:
         Dedicated: 1.597
         Shared: 1.514
+      ap-southeast-1:
+        Dedicated: 1.606
+        Shared: 1.522
       ap-southeast-2:
         Dedicated: 1.606
         Shared: 1.522
@@ -19796,9 +20042,15 @@ r5d.4xlarge:
         Dedicated: 1.351
         Shared: 1.282
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.627
+        Shared: 1.542
       ap-northeast-2:
         Dedicated: 1.617
         Shared: 1.534
+      ap-southeast-1:
+        Dedicated: 1.626
+        Shared: 1.542
       ap-southeast-2:
         Dedicated: 1.626
         Shared: 1.542
@@ -19827,9 +20079,15 @@ r5d.4xlarge:
         Dedicated: 1.371
         Shared: 1.302
     Windows:
+      ap-northeast-1:
+        Dedicated: 2.213
+        Shared: 2.128
       ap-northeast-2:
         Dedicated: 2.203
         Shared: 2.12
+      ap-southeast-1:
+        Dedicated: 2.212
+        Shared: 2.128
       ap-southeast-2:
         Dedicated: 2.212
         Shared: 2.128
@@ -19858,6 +20116,7 @@ r5d.4xlarge:
         Dedicated: 1.957
         Shared: 1.888
   regions:
+    - ap-southeast-1
     - us-east-1
     - us-west-2
     - us-west-1
@@ -19867,6 +20126,7 @@ r5d.4xlarge:
     - eu-west-1
     - eu-west-2
     - eu-central-1
+    - ap-northeast-1
     - ap-southeast-2
   storage: 2 x 300 NVMe SSD
   vcpu: 16
@@ -19879,9 +20139,15 @@ r5d.large:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.185
+        Shared: 0.174
       ap-northeast-2:
         Dedicated: 0.183
         Shared: 0.173
+      ap-southeast-1:
+        Dedicated: 0.184
+        Shared: 0.174
       ap-southeast-2:
         Dedicated: 0.185
         Shared: 0.174
@@ -19910,9 +20176,15 @@ r5d.large:
         Dedicated: 0.153
         Shared: 0.144
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.245
+        Shared: 0.234
       ap-northeast-2:
         Dedicated: 0.243
         Shared: 0.233
+      ap-southeast-1:
+        Dedicated: 0.244
+        Shared: 0.234
       ap-southeast-2:
         Dedicated: 0.245
         Shared: 0.234
@@ -19941,9 +20213,15 @@ r5d.large:
         Dedicated: 0.213
         Shared: 0.204
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.248
+        Shared: 0.237
       ap-northeast-2:
         Dedicated: 0.246
         Shared: 0.236
+      ap-southeast-1:
+        Dedicated: 0.247
+        Shared: 0.237
       ap-southeast-2:
         Dedicated: 0.248
         Shared: 0.237
@@ -19972,9 +20250,15 @@ r5d.large:
         Dedicated: 0.216
         Shared: 0.207
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.277
+        Shared: 0.266
       ap-northeast-2:
         Dedicated: 0.275
         Shared: 0.265
+      ap-southeast-1:
+        Dedicated: 0.276
+        Shared: 0.266
       ap-southeast-2:
         Dedicated: 0.277
         Shared: 0.266
@@ -20006,11 +20290,13 @@ r5d.large:
     - us-east-2
     - us-east-1
     - eu-west-1
+    - ap-northeast-1
     - eu-west-2
     - eu-central-1
     - ap-southeast-2
     - us-west-1
     - us-west-2
+    - ap-southeast-1
     - ap-northeast-2
     - ca-central-1
   storage: 1 x 75 NVMe SSD
@@ -20024,9 +20310,15 @@ r5d.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.369
+        Shared: 0.348
       ap-northeast-2:
         Dedicated: 0.367
         Shared: 0.346
+      ap-southeast-1:
+        Dedicated: 0.369
+        Shared: 0.348
       ap-southeast-2:
         Dedicated: 0.369
         Shared: 0.348
@@ -20055,9 +20347,15 @@ r5d.xlarge:
         Dedicated: 0.305
         Shared: 0.288
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.429
+        Shared: 0.408
       ap-northeast-2:
         Dedicated: 0.427
         Shared: 0.406
+      ap-southeast-1:
+        Dedicated: 0.429
+        Shared: 0.408
       ap-southeast-2:
         Dedicated: 0.429
         Shared: 0.408
@@ -20086,9 +20384,15 @@ r5d.xlarge:
         Dedicated: 0.365
         Shared: 0.348
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.494
+        Shared: 0.473
       ap-northeast-2:
         Dedicated: 0.492
         Shared: 0.471
+      ap-southeast-1:
+        Dedicated: 0.494
+        Shared: 0.473
       ap-southeast-2:
         Dedicated: 0.494
         Shared: 0.473
@@ -20117,9 +20421,15 @@ r5d.xlarge:
         Dedicated: 0.43
         Shared: 0.413
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.553
+        Shared: 0.532
       ap-northeast-2:
         Dedicated: 0.551
         Shared: 0.53
+      ap-southeast-1:
+        Dedicated: 0.553
+        Shared: 0.532
       ap-southeast-2:
         Dedicated: 0.553
         Shared: 0.532
@@ -20148,6 +20458,7 @@ r5d.xlarge:
         Dedicated: 0.489
         Shared: 0.288
   regions:
+    - ap-southeast-1
     - ap-northeast-2
     - eu-west-1
     - us-east-1
@@ -20156,6 +20467,7 @@ r5d.xlarge:
     - ca-central-1
     - ap-southeast-2
     - us-west-2
+    - ap-northeast-1
     - us-east-2
     - us-west-1
   storage: 1 x 150 NVMe SSD
