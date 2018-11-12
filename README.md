@@ -15,7 +15,7 @@ The API currently serves the data in two formats, with each using the same data 
 
 - yaml: [https://tedivm.github.io/ec2details/api/ec2instances.yaml](https://tedivm.github.io/ec2details/api/ec2instances.yaml)
 
-In both cases the instance type is the key, with attributes existing under that. Not every instance fill have every attribute (as an example, only the `p2`, `p3`, `g2` and `g3` instances have a `gpu` field), so it is important to check for both the existence of the field as well as the value.
+In both cases the instance type is the key, with attributes existing under that. Not every instance will have every attribute (as an example, only the `p2`, `p3`, `g2` and `g3` instances have a `gpu` field), so it is important to check for both the existence of the field as well as the value.
 
 Pricing is in USD and is broken down by region, operating system (Linux, RHEL, SUSE, or Windows), and tenancy (Dedicated or Shared).
 
