@@ -92,17 +92,17 @@ c1.medium:
         Shared: 0.23
     Windows:
       ap-northeast-1:
-        Dedicated: 0.174
+        Dedicated: 0.284
         Shared: 0.258
       ap-southeast-1:
-        Dedicated: 0.293
+        Dedicated: 0.18
         Shared: 0.266
       ap-southeast-2:
         Dedicated: 0.293
-        Shared: 0.164
+        Shared: 0.266
       eu-west-1:
         Dedicated: 0.163
-        Shared: 0.21
+        Shared: 0.148
       sa-east-1:
         Dedicated: 0.197
         Shared: 0.259
@@ -117,17 +117,17 @@ c1.medium:
         Shared: 0.228
       us-west-2:
         Dedicated: 0.231
-        Shared: 0.21
+        Shared: 0.13
   regions:
     - us-gov-west-1
-    - us-west-2
     - us-west-1
     - ap-southeast-1
-    - ap-northeast-1
-    - eu-west-1
     - sa-east-1
-    - ap-southeast-2
+    - eu-west-1
+    - us-west-2
     - us-east-1
+    - ap-southeast-2
+    - ap-northeast-1
   storage: 1 x 350
   vcpu: 2
 c1.xlarge:
@@ -225,7 +225,7 @@ c1.xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 0.695
-        Shared: 1.032
+        Shared: 0.632
       ap-southeast-1:
         Dedicated: 1.172
         Shared: 1.065
@@ -236,20 +236,20 @@ c1.xlarge:
         Dedicated: 0.651
         Shared: 0.84
       sa-east-1:
-        Dedicated: 0.79
+        Dedicated: 1.142
         Shared: 0.718
       us-east-1:
-        Dedicated: 0.924
-        Shared: 0.52
+        Dedicated: 0.572
+        Shared: 0.84
       us-gov-west-1:
         Dedicated: 0.691
-        Shared: 0.948
+        Shared: 0.628
       us-west-1:
         Dedicated: 1.003
         Shared: 0.592
       us-west-2:
         Dedicated: 0.572
-        Shared: 0.84
+        Shared: 0.52
   regions:
     - ap-southeast-2
     - us-gov-west-1
@@ -258,8 +258,8 @@ c1.xlarge:
     - ap-southeast-1
     - us-west-1
     - eu-west-1
-    - us-east-1
     - sa-east-1
+    - us-east-1
   storage: 4 x 420
   vcpu: 8
 c3.2xlarge:
@@ -395,20 +395,20 @@ c3.2xlarge:
         Dedicated: 0.582
         Shared: 0.953
       ap-southeast-2:
-        Dedicated: 0.582
+        Dedicated: 1.048
         Shared: 0.953
       eu-central-1:
         Dedicated: 0.932
         Shared: 0.848
       eu-west-1:
-        Dedicated: 0.526
+        Dedicated: 0.827
         Shared: 0.752
       sa-east-1:
         Dedicated: 0.715
         Shared: 0.65
       us-east-1:
-        Dedicated: 0.827
-        Shared: 0.752
+        Dedicated: 0.462
+        Shared: 0.42
       us-gov-west-1:
         Dedicated: 0.919
         Shared: 0.836
@@ -419,16 +419,16 @@ c3.2xlarge:
         Dedicated: 0.827
         Shared: 0.752
   regions:
-    - us-east-1
     - us-west-1
     - eu-west-1
-    - ap-southeast-1
-    - us-west-2
-    - sa-east-1
+    - eu-central-1
     - ap-northeast-1
     - ap-southeast-2
-    - eu-central-1
+    - us-east-1
+    - sa-east-1
+    - us-west-2
     - ap-northeast-2
+    - ap-southeast-1
     - ap-northeast-3
     - us-gov-west-1
   storage: 2 x 80 SSD
@@ -566,7 +566,7 @@ c3.4xlarge:
         Shared: 1.906
       ap-southeast-2:
         Dedicated: 2.097
-        Shared: 1.906
+        Shared: 1.058
       eu-central-1:
         Dedicated: 1.865
         Shared: 1.032
@@ -575,7 +575,7 @@ c3.4xlarge:
         Shared: 1.504
       sa-east-1:
         Dedicated: 1.43
-        Shared: 1.3
+        Shared: 1.964
       us-east-1:
         Dedicated: 1.654
         Shared: 1.504
@@ -590,17 +590,17 @@ c3.4xlarge:
         Shared: 1.504
   regions:
     - us-west-1
-    - ap-northeast-2
     - eu-west-1
     - ap-southeast-2
-    - sa-east-1
-    - ap-southeast-1
     - ap-northeast-3
     - us-east-1
-    - us-west-2
     - eu-central-1
     - ap-northeast-1
+    - us-west-2
+    - ap-southeast-1
+    - sa-east-1
     - us-gov-west-1
+    - ap-northeast-2
   storage: 2 x 160 SSD
   vcpu: 16
 c3.8xlarge:
@@ -727,7 +727,7 @@ c3.8xlarge:
         Shared: 2.117
       ap-southeast-2:
         Dedicated: 3.813
-        Shared: 3.813
+        Shared: 2.117
       eu-central-1:
         Dedicated: 3.392
         Shared: 2.064
@@ -750,15 +750,15 @@ c3.8xlarge:
         Dedicated: 3.008
         Shared: 3.008
   regions:
-    - ap-northeast-3
     - sa-east-1
     - ap-northeast-2
     - us-west-2
     - ap-southeast-2
-    - us-west-1
     - ap-southeast-1
-    - us-east-1
     - ap-northeast-1
+    - us-east-1
+    - us-west-1
+    - ap-northeast-3
     - eu-west-1
     - eu-central-1
     - us-gov-west-1
@@ -897,7 +897,7 @@ c3.large:
         Shared: 0.188
       sa-east-1:
         Dedicated: 0.179
-        Shared: 0.163
+        Shared: 0.246
       us-east-1:
         Dedicated: 0.207
         Shared: 0.105
@@ -911,16 +911,16 @@ c3.large:
         Dedicated: 0.116
         Shared: 0.188
   regions:
-    - ap-northeast-2
     - us-east-1
-    - us-west-2
-    - ap-southeast-2
     - us-west-1
+    - ap-northeast-2
     - ap-southeast-1
-    - eu-west-1
+    - ap-southeast-2
     - ap-northeast-1
     - eu-central-1
+    - eu-west-1
     - sa-east-1
+    - us-west-2
     - us-gov-west-1
     - ap-northeast-3
   storage: 2 x 16 SSD
@@ -1050,13 +1050,13 @@ c3.xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 0.508
-        Shared: 0.255
+        Shared: 0.462
       ap-northeast-2:
         Dedicated: 0.43645
         Shared: 0.414
       ap-southeast-1:
         Dedicated: 0.525
-        Shared: 0.477
+        Shared: 0.265
       ap-southeast-2:
         Dedicated: 0.525
         Shared: 0.265
@@ -1065,35 +1065,35 @@ c3.xlarge:
         Shared: 0.424
       eu-west-1:
         Dedicated: 0.414
-        Shared: 0.376
+        Shared: 0.239
       sa-east-1:
         Dedicated: 0.54
         Shared: 0.491
       us-east-1:
         Dedicated: 0.414
-        Shared: 0.376
+        Shared: 0.21
       us-gov-west-1:
         Dedicated: 0.459
         Shared: 0.252
       us-west-1:
-        Dedicated: 0.414
+        Dedicated: 0.263
         Shared: 0.376
       us-west-2:
-        Dedicated: 0.231
+        Dedicated: 0.414
         Shared: 0.376
   regions:
     - us-east-1
-    - ap-southeast-1
-    - ap-northeast-2
     - eu-west-1
+    - ap-northeast-2
     - us-west-1
-    - ap-northeast-1
     - ap-southeast-2
-    - eu-central-1
-    - us-west-2
-    - us-gov-west-1
-    - ap-northeast-3
     - sa-east-1
+    - us-west-2
+    - ap-northeast-1
+    - ap-southeast-1
+    - us-gov-west-1
+    - eu-central-1
+    - ap-northeast-3
   storage: 2 x 40 SSD
   vcpu: 4
 c4.2xlarge:
@@ -1256,13 +1256,13 @@ c4.2xlarge:
         Shared: 0.498
     Windows:
       ap-northeast-1:
-        Dedicated: 0.922
-        Shared: 0.504
+        Dedicated: 0.554
+        Shared: 0.872
       ap-northeast-2:
         Dedicated: 0.499
         Shared: 0.454
       ap-northeast-3:
-        Dedicated: 0.922
+        Dedicated: 0.554
         Shared: 0.504
       ap-south-1:
         Dedicated: 0.44
@@ -1275,7 +1275,7 @@ c4.2xlarge:
         Shared: 0.89
       ca-central-1:
         Dedicated: 0.482
-        Shared: 0.438
+        Shared: 0.806
       eu-central-1:
         Dedicated: 0.499
         Shared: 0.822
@@ -1284,12 +1284,12 @@ c4.2xlarge:
         Shared: 0.821
       eu-west-2:
         Dedicated: 0.524
-        Shared: 0.476
+        Shared: 0.844
       sa-east-1:
         Dedicated: 1.048
         Shared: 0.618
       us-east-1:
-        Dedicated: 0.438
+        Dedicated: 0.806
         Shared: 0.766
       us-east-2:
         Dedicated: 0.806
@@ -1298,28 +1298,28 @@ c4.2xlarge:
         Dedicated: 0.527
         Shared: 0.847
       us-west-1:
-        Dedicated: 0.916
-        Shared: 0.866
+        Dedicated: 0.548
+        Shared: 0.498
       us-west-2:
-        Dedicated: 0.438
-        Shared: 0.766
+        Dedicated: 0.806
+        Shared: 0.398
   regions:
     - us-gov-west-1
     - us-west-2
-    - eu-west-1
-    - us-west-1
     - ap-northeast-2
     - ap-southeast-2
-    - ap-northeast-1
     - ap-northeast-3
     - ap-southeast-1
+    - ap-northeast-1
     - ap-south-1
-    - us-east-1
-    - us-east-2
+    - us-west-1
+    - eu-west-2
+    - eu-west-1
     - sa-east-1
+    - us-east-2
+    - us-east-1
     - ca-central-1
     - eu-central-1
-    - eu-west-2
     - eu-west-3
   storage: EBS only
   vcpu: 8
@@ -1493,7 +1493,7 @@ c4.4xlarge:
         Shared: 1.008
       ap-south-1:
         Dedicated: 1.616
-        Shared: 0.8
+        Shared: 1.536
       ap-southeast-1:
         Dedicated: 1.752
         Shared: 1.66
@@ -1501,7 +1501,7 @@ c4.4xlarge:
         Dedicated: 1.882
         Shared: 1.778
       ca-central-1:
-        Dedicated: 1.7
+        Dedicated: 0.964
         Shared: 1.612
       eu-central-1:
         Dedicated: 1.736
@@ -1514,39 +1514,39 @@ c4.4xlarge:
         Shared: 0.95
       sa-east-1:
         Dedicated: 1.359
-        Shared: 1.971
+        Shared: 1.235
       us-east-1:
-        Dedicated: 0.876
+        Dedicated: 1.612
         Shared: 1.532
       us-east-2:
         Dedicated: 1.612
-        Shared: 1.532
+        Shared: 0.796
       us-gov-west-1:
         Dedicated: 1.79
-        Shared: 0.958
+        Shared: 1.694
       us-west-1:
         Dedicated: 1.833
         Shared: 1.733
       us-west-2:
         Dedicated: 0.876
-        Shared: 1.532
+        Shared: 0.796
   regions:
     - ap-northeast-1
-    - ap-northeast-2
     - eu-west-2
-    - eu-central-1
+    - sa-east-1
     - us-west-2
     - ap-southeast-1
-    - eu-west-1
-    - ap-south-1
-    - us-gov-west-1
+    - ap-northeast-2
     - ap-southeast-2
     - us-east-1
     - us-east-2
-    - ap-northeast-3
-    - sa-east-1
-    - us-west-1
     - ca-central-1
+    - eu-west-1
+    - ap-northeast-3
+    - us-west-1
+    - ap-south-1
+    - eu-central-1
+    - us-gov-west-1
     - eu-west-3
   storage: EBS only
   vcpu: 16
@@ -1713,14 +1713,14 @@ c4.8xlarge:
         Dedicated: 3.672
         Shared: 3.672
       ap-northeast-2:
-        Dedicated: 1.815
+        Dedicated: 3.471
         Shared: 3.471
       ap-northeast-3:
         Dedicated: 3.672
         Shared: 2.016
       ap-south-1:
-        Dedicated: 3.256
-        Shared: 1.6
+        Dedicated: 1.6
+        Shared: 3.256
       ap-southeast-1:
         Dedicated: 1.848
         Shared: 3.504
@@ -1728,26 +1728,26 @@ c4.8xlarge:
         Dedicated: 3.741
         Shared: 3.741
       ca-central-1:
-        Dedicated: 3.406
+        Dedicated: 1.75
         Shared: 3.406
       eu-central-1:
         Dedicated: 3.473
-        Shared: 1.817
+        Shared: 3.473
       eu-west-1:
         Dedicated: 3.334
-        Shared: 1.811
+        Shared: 3.334
       eu-west-2:
         Dedicated: 3.558
         Shared: 1.902
       sa-east-1:
-        Dedicated: 2.47
+        Dedicated: 4.126
         Shared: 4.126
       us-east-1:
         Dedicated: 3.091
         Shared: 3.091
       us-east-2:
         Dedicated: 3.091
-        Shared: 1.591
+        Shared: 3.091
       us-gov-west-1:
         Dedicated: 1.915
         Shared: 3.571
@@ -1762,18 +1762,18 @@ c4.8xlarge:
     - ap-southeast-1
     - eu-central-1
     - ap-northeast-1
-    - ap-northeast-3
     - eu-west-2
-    - us-east-1
-    - ap-southeast-2
-    - us-east-2
-    - ap-northeast-2
-    - us-west-1
-    - sa-east-1
     - ca-central-1
+    - ap-northeast-2
+    - sa-east-1
+    - ap-southeast-2
     - eu-west-1
+    - us-west-1
+    - ap-northeast-3
     - ap-south-1
     - us-gov-west-1
+    - us-east-1
+    - us-east-2
     - eu-west-3
   storage: EBS only
   vcpu: 36
@@ -1938,7 +1938,7 @@ c4.large:
     Windows:
       ap-northeast-1:
         Dedicated: 0.139
-        Shared: 0.218
+        Shared: 0.126
       ap-northeast-2:
         Dedicated: 0.217
         Shared: 0.206
@@ -1950,16 +1950,16 @@ c4.large:
         Shared: 0.1
       ap-southeast-1:
         Dedicated: 0.219
-        Shared: 0.115
+        Shared: 0.207
       ap-southeast-2:
         Dedicated: 0.143
-        Shared: 0.13
+        Shared: 0.222
       ca-central-1:
         Dedicated: 0.121
         Shared: 0.202
       eu-central-1:
-        Dedicated: 0.217
-        Shared: 0.206
+        Dedicated: 0.125
+        Shared: 0.114
       eu-west-1:
         Dedicated: 0.124
         Shared: 0.113
@@ -1967,8 +1967,8 @@ c4.large:
         Dedicated: 0.131
         Shared: 0.211
       sa-east-1:
-        Dedicated: 0.17
-        Shared: 0.155
+        Dedicated: 0.262
+        Shared: 0.247
       us-east-1:
         Dedicated: 0.202
         Shared: 0.1
@@ -1977,30 +1977,30 @@ c4.large:
         Shared: 0.1
       us-gov-west-1:
         Dedicated: 0.132
-        Shared: 0.212
+        Shared: 0.12
       us-west-1:
         Dedicated: 0.228
         Shared: 0.216
       us-west-2:
-        Dedicated: 0.11
+        Dedicated: 0.202
         Shared: 0.1
   regions:
-    - ap-south-1
     - us-gov-west-1
     - ap-southeast-1
-    - us-west-1
-    - ap-southeast-2
-    - us-west-2
-    - sa-east-1
-    - eu-west-1
     - ca-central-1
-    - ap-northeast-1
+    - us-west-2
+    - ap-south-1
+    - sa-east-1
+    - us-west-1
     - eu-west-2
+    - eu-west-1
     - ap-northeast-2
-    - eu-central-1
     - ap-northeast-3
     - us-east-1
     - us-east-2
+    - eu-central-1
+    - ap-northeast-1
+    - ap-southeast-2
     - eu-west-3
   storage: EBS only
   vcpu: 2
@@ -2165,33 +2165,33 @@ c4.xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 0.277
-        Shared: 0.436
+        Shared: 0.252
       ap-northeast-2:
-        Dedicated: 0.25
+        Dedicated: 0.434
         Shared: 0.411
       ap-northeast-3:
         Dedicated: 0.277
-        Shared: 0.436
+        Shared: 0.252
       ap-south-1:
-        Dedicated: 0.22
+        Dedicated: 0.404
         Shared: 0.384
       ap-southeast-1:
         Dedicated: 0.438
         Shared: 0.415
       ap-southeast-2:
-        Dedicated: 0.287
+        Dedicated: 0.471
         Shared: 0.445
       ca-central-1:
         Dedicated: 0.24
         Shared: 0.218
       eu-central-1:
-        Dedicated: 0.25
+        Dedicated: 0.434
         Shared: 0.227
       eu-west-1:
         Dedicated: 0.433
         Shared: 0.41
       eu-west-2:
-        Dedicated: 0.261
+        Dedicated: 0.445
         Shared: 0.237
       sa-east-1:
         Dedicated: 0.34
@@ -2201,33 +2201,33 @@ c4.xlarge:
         Shared: 0.383
       us-east-2:
         Dedicated: 0.403
-        Shared: 0.199
+        Shared: 0.383
       us-gov-west-1:
-        Dedicated: 0.263
+        Dedicated: 0.447
         Shared: 0.423
       us-west-1:
         Dedicated: 0.274
         Shared: 0.249
       us-west-2:
         Dedicated: 0.403
-        Shared: 0.383
+        Shared: 0.199
   regions:
-    - ap-southeast-1
     - us-west-1
-    - ap-southeast-2
-    - ca-central-1
     - us-west-2
     - ap-northeast-3
-    - eu-central-1
     - us-gov-west-1
-    - ap-northeast-2
     - us-east-2
     - eu-west-1
-    - us-east-1
-    - sa-east-1
+    - eu-central-1
     - ap-south-1
-    - ap-northeast-1
+    - ap-northeast-2
+    - ap-southeast-1
+    - ca-central-1
+    - sa-east-1
     - eu-west-2
+    - ap-southeast-2
+    - ap-northeast-1
+    - us-east-1
     - eu-west-3
   storage: EBS only
   vcpu: 4
@@ -2394,19 +2394,19 @@ c5.18xlarge:
         Dedicated: 3.852
         Shared: 7.164
       ap-northeast-2:
-        Dedicated: 3.456
+        Dedicated: 6.768
         Shared: 6.768
       ap-south-1:
         Dedicated: 3.06
         Shared: 3.06
       ap-southeast-1:
-        Dedicated: 6.84
+        Dedicated: 3.528
         Shared: 6.84
       ap-southeast-2:
         Dedicated: 3.996
         Shared: 7.308
       ca-central-1:
-        Dedicated: 6.66
+        Dedicated: 3.348
         Shared: 6.66
       eu-central-1:
         Dedicated: 3.492
@@ -2415,7 +2415,7 @@ c5.18xlarge:
         Dedicated: 6.768
         Shared: 6.768
       eu-west-2:
-        Dedicated: 6.948
+        Dedicated: 3.636
         Shared: 6.948
       eu-west-3:
         Dedicated: 3.636
@@ -2424,11 +2424,11 @@ c5.18xlarge:
         Dedicated: 4.716
         Shared: 4.716
       us-east-1:
-        Dedicated: 6.372
+        Dedicated: 3.06
         Shared: 6.372
       us-east-2:
         Dedicated: 6.372
-        Shared: 6.372
+        Shared: 3.06
       us-gov-west-1:
         Dedicated: 6.984
         Shared: 3.672
@@ -2439,22 +2439,22 @@ c5.18xlarge:
         Dedicated: 6.372
         Shared: 6.372
   regions:
+    - eu-west-2
     - ap-northeast-2
     - us-west-1
     - eu-west-1
-    - ap-southeast-2
-    - eu-west-3
-    - ap-south-1
-    - us-west-2
-    - eu-central-1
-    - ap-southeast-1
-    - us-east-1
-    - eu-west-2
-    - us-east-2
-    - ap-northeast-1
     - ca-central-1
-    - us-gov-west-1
+    - ap-southeast-2
+    - us-west-2
+    - ap-southeast-1
+    - us-east-2
+    - eu-central-1
+    - us-east-1
+    - ap-south-1
+    - ap-northeast-1
     - sa-east-1
+    - eu-west-3
+    - us-gov-west-1
   storage: EBS only
   vcpu: 72
 c5.2xlarge:
@@ -2627,7 +2627,7 @@ c5.2xlarge:
         Shared: 0.708
       ap-southeast-1:
         Dedicated: 0.785
-        Shared: 0.76
+        Shared: 0.392
       ap-southeast-2:
         Dedicated: 0.471
         Shared: 0.812
@@ -2636,21 +2636,21 @@ c5.2xlarge:
         Shared: 0.74
       eu-central-1:
         Dedicated: 0.781
-        Shared: 0.388
+        Shared: 0.756
       eu-west-1:
-        Dedicated: 0.409
+        Dedicated: 0.777
         Shared: 0.384
       eu-west-2:
-        Dedicated: 0.43
+        Dedicated: 0.798
         Shared: 0.404
       eu-west-3:
         Dedicated: 0.43
-        Shared: 0.404
+        Shared: 0.772
       sa-east-1:
-        Dedicated: 0.56
+        Dedicated: 0.928
         Shared: 0.892
       us-east-1:
-        Dedicated: 0.36
+        Dedicated: 0.728
         Shared: 0.34
       us-east-2:
         Dedicated: 0.729
@@ -2666,21 +2666,21 @@ c5.2xlarge:
         Shared: 0.708
   regions:
     - ap-northeast-2
-    - us-west-2
     - ap-southeast-1
-    - eu-west-2
+    - us-west-2
     - ap-southeast-2
     - us-east-1
     - eu-central-1
-    - us-gov-west-1
-    - ca-central-1
-    - eu-west-1
-    - us-east-2
-    - ap-northeast-1
     - ap-south-1
+    - us-east-2
+    - sa-east-1
+    - eu-west-2
+    - ap-northeast-1
     - us-west-1
     - eu-west-3
-    - sa-east-1
+    - us-gov-west-1
+    - eu-west-1
+    - ca-central-1
   storage: EBS only
   vcpu: 8
 c5.4xlarge:
@@ -2847,13 +2847,13 @@ c5.4xlarge:
         Shared: 0.856
       ap-northeast-2:
         Dedicated: 1.554
-        Shared: 0.768
+        Shared: 1.504
       ap-south-1:
-        Dedicated: 0.724
-        Shared: 0.68
+        Dedicated: 1.46
+        Shared: 1.416
       ap-southeast-1:
-        Dedicated: 0.834
-        Shared: 1.52
+        Dedicated: 1.57
+        Shared: 0.784
       ap-southeast-2:
         Dedicated: 1.678
         Shared: 1.624
@@ -2861,7 +2861,7 @@ c5.4xlarge:
         Dedicated: 1.528
         Shared: 1.48
       eu-central-1:
-        Dedicated: 1.563
+        Dedicated: 0.827
         Shared: 1.512
       eu-west-1:
         Dedicated: 0.818
@@ -2893,20 +2893,20 @@ c5.4xlarge:
   regions:
     - eu-west-1
     - ap-southeast-2
-    - us-east-1
     - ap-southeast-1
     - us-east-2
-    - ap-northeast-1
-    - sa-east-1
-    - ap-northeast-2
-    - eu-central-1
-    - us-west-2
-    - us-west-1
     - eu-west-3
-    - ap-south-1
-    - us-gov-west-1
-    - eu-west-2
+    - ap-northeast-2
+    - us-west-2
+    - ap-northeast-1
     - ca-central-1
+    - ap-south-1
+    - us-west-1
+    - eu-west-2
+    - us-east-1
+    - sa-east-1
+    - eu-central-1
+    - us-gov-west-1
   storage: EBS only
   vcpu: 16
 c5.9xlarge:
@@ -3072,8 +3072,8 @@ c5.9xlarge:
         Dedicated: 3.714
         Shared: 3.582
       ap-northeast-2:
-        Dedicated: 1.84
-        Shared: 3.384
+        Dedicated: 3.496
+        Shared: 1.728
       ap-south-1:
         Dedicated: 3.285
         Shared: 1.53
@@ -3081,13 +3081,13 @@ c5.9xlarge:
         Dedicated: 3.533
         Shared: 3.42
       ap-southeast-2:
-        Dedicated: 3.775
+        Dedicated: 2.119
         Shared: 1.998
       ca-central-1:
         Dedicated: 1.781
         Shared: 3.33
       eu-central-1:
-        Dedicated: 1.861
+        Dedicated: 3.517
         Shared: 1.746
       eu-west-1:
         Dedicated: 3.497
@@ -3100,10 +3100,10 @@ c5.9xlarge:
         Shared: 1.818
       sa-east-1:
         Dedicated: 4.174
-        Shared: 2.358
+        Shared: 4.014
       us-east-1:
         Dedicated: 3.278
-        Shared: 3.186
+        Shared: 1.53
       us-east-2:
         Dedicated: 3.278
         Shared: 3.186
@@ -3117,22 +3117,22 @@ c5.9xlarge:
         Dedicated: 3.278
         Shared: 3.186
   regions:
-    - ap-southeast-2
-    - us-east-1
-    - ap-south-1
     - ap-northeast-1
-    - ap-northeast-2
-    - ca-central-1
-    - ap-southeast-1
+    - ap-south-1
+    - ap-southeast-2
     - us-west-1
     - eu-west-2
     - us-east-2
-    - us-west-2
+    - ap-southeast-1
     - eu-west-1
-    - eu-central-1
+    - us-west-2
+    - us-east-1
+    - ap-northeast-2
     - eu-west-3
     - sa-east-1
+    - eu-central-1
     - us-gov-west-1
+    - ca-central-1
   storage: EBS only
   vcpu: 36
 c5.large:
@@ -3302,7 +3302,7 @@ c5.large:
         Shared: 0.188
       ap-south-1:
         Dedicated: 0.182
-        Shared: 0.085
+        Shared: 0.177
       ap-southeast-1:
         Dedicated: 0.196
         Shared: 0.098
@@ -3310,13 +3310,13 @@ c5.large:
         Dedicated: 0.118
         Shared: 0.203
       ca-central-1:
-        Dedicated: 0.191
+        Dedicated: 0.099
         Shared: 0.093
       eu-central-1:
         Dedicated: 0.103
-        Shared: 0.097
+        Shared: 0.189
       eu-west-1:
-        Dedicated: 0.194
+        Dedicated: 0.102
         Shared: 0.188
       eu-west-2:
         Dedicated: 0.2
@@ -3325,10 +3325,10 @@ c5.large:
         Dedicated: 0.2
         Shared: 0.193
       sa-east-1:
-        Dedicated: 0.232
-        Shared: 0.131
+        Dedicated: 0.14
+        Shared: 0.223
       us-east-1:
-        Dedicated: 0.182
+        Dedicated: 0.09
         Shared: 0.177
       us-east-2:
         Dedicated: 0.182
@@ -3344,21 +3344,21 @@ c5.large:
         Shared: 0.177
   regions:
     - eu-west-3
-    - us-west-2
     - ap-southeast-2
     - us-east-2
-    - ap-southeast-1
     - ca-central-1
+    - us-west-2
     - eu-central-1
-    - eu-west-1
-    - ap-northeast-2
-    - us-west-1
-    - ap-northeast-1
-    - eu-west-2
-    - sa-east-1
-    - us-gov-west-1
-    - us-east-1
     - ap-south-1
+    - eu-west-1
+    - sa-east-1
+    - us-west-1
+    - us-gov-west-1
+    - eu-west-2
+    - us-east-1
+    - ap-northeast-1
+    - ap-northeast-2
+    - ap-southeast-1
   storage: EBS only
   vcpu: 2
 c5.xlarge:
@@ -3521,37 +3521,37 @@ c5.xlarge:
         Shared: 0.27
     Windows:
       ap-northeast-1:
-        Dedicated: 0.413
+        Dedicated: 0.229
         Shared: 0.398
       ap-northeast-2:
-        Dedicated: 0.388
+        Dedicated: 0.204
         Shared: 0.376
       ap-south-1:
         Dedicated: 0.181
         Shared: 0.354
       ap-southeast-1:
         Dedicated: 0.393
-        Shared: 0.38
+        Shared: 0.196
       ap-southeast-2:
         Dedicated: 0.419
-        Shared: 0.222
+        Shared: 0.406
       ca-central-1:
-        Dedicated: 0.198
-        Shared: 0.186
+        Dedicated: 0.382
+        Shared: 0.37
       eu-central-1:
         Dedicated: 0.207
-        Shared: 0.194
+        Shared: 0.378
       eu-west-1:
         Dedicated: 0.205
         Shared: 0.376
       eu-west-2:
-        Dedicated: 0.399
+        Dedicated: 0.215
         Shared: 0.386
       eu-west-3:
         Dedicated: 0.399
-        Shared: 0.202
+        Shared: 0.386
       sa-east-1:
-        Dedicated: 0.28
+        Dedicated: 0.464
         Shared: 0.446
       us-east-1:
         Dedicated: 0.18
@@ -3560,30 +3560,30 @@ c5.xlarge:
         Dedicated: 0.364
         Shared: 0.354
       us-gov-west-1:
-        Dedicated: 0.216
+        Dedicated: 0.4
         Shared: 0.388
       us-west-1:
         Dedicated: 0.226
         Shared: 0.212
       us-west-2:
-        Dedicated: 0.18
-        Shared: 0.354
+        Dedicated: 0.364
+        Shared: 0.17
   regions:
-    - us-west-2
     - eu-central-1
-    - ap-south-1
-    - eu-west-1
     - us-west-1
-    - ca-central-1
     - eu-west-3
-    - sa-east-1
+    - ca-central-1
     - ap-southeast-1
+    - sa-east-1
     - us-east-1
-    - ap-northeast-1
     - eu-west-2
-    - ap-northeast-2
+    - ap-northeast-1
+    - us-west-2
     - us-east-2
     - ap-southeast-2
+    - eu-west-1
+    - ap-south-1
+    - ap-northeast-2
     - us-gov-west-1
   storage: EBS only
   vcpu: 4
@@ -3732,11 +3732,11 @@ c5d.18xlarge:
         Dedicated: 7.848
         Shared: 7.848
       ca-central-1:
-        Dedicated: 3.816
+        Dedicated: 7.128
         Shared: 7.128
       eu-central-1:
         Dedicated: 7.308
-        Shared: 3.996
+        Shared: 7.308
       eu-west-1:
         Dedicated: 7.236
         Shared: 7.236
@@ -3760,19 +3760,19 @@ c5d.18xlarge:
         Shared: 6.768
   regions:
     - us-east-1
-    - eu-west-1
-    - us-west-1
     - eu-central-1
     - ap-southeast-2
     - eu-west-2
-    - ap-northeast-1
-    - us-west-2
     - ap-southeast-1
     - us-gov-west-1
+    - us-west-2
+    - us-west-1
     - ap-northeast-2
     - ca-central-1
+    - eu-west-1
     - us-east-2
-  storage: 1 x 1800 NVMe SSD
+    - ap-northeast-1
+  storage: 2 x 900 NVMe SSD
   vcpu: 72
 c5d.2xlarge:
   clockSpeed: 3.0 Ghz
@@ -3919,46 +3919,46 @@ c5d.2xlarge:
         Dedicated: 0.903
         Shared: 0.872
       ca-central-1:
-        Dedicated: 0.451
+        Dedicated: 0.819
         Shared: 0.792
       eu-central-1:
         Dedicated: 0.473
-        Shared: 0.444
+        Shared: 0.812
       eu-west-1:
-        Dedicated: 0.833
+        Dedicated: 0.465
         Shared: 0.436
       eu-west-2:
         Dedicated: 0.49
-        Shared: 0.46
+        Shared: 0.828
       us-east-1:
         Dedicated: 0.775
-        Shared: 0.752
+        Shared: 0.384
       us-east-2:
         Dedicated: 0.775
-        Shared: 0.752
+        Shared: 0.384
       us-gov-west-1:
         Dedicated: 0.86
         Shared: 0.832
       us-west-1:
-        Dedicated: 0.511
+        Dedicated: 0.879
         Shared: 0.848
       us-west-2:
         Dedicated: 0.775
-        Shared: 0.384
+        Shared: 0.752
   regions:
     - ap-northeast-1
-    - us-west-1
-    - us-gov-west-1
-    - ap-northeast-2
-    - ca-central-1
-    - eu-west-1
     - ap-southeast-1
+    - eu-west-1
+    - eu-central-1
     - us-east-2
     - us-west-2
     - us-east-1
     - eu-west-2
-    - eu-central-1
+    - ca-central-1
+    - ap-northeast-2
+    - us-west-1
     - ap-southeast-2
+    - us-gov-west-1
   storage: 1 x 200 NVMe SSD
   vcpu: 8
 c5d.4xlarge:
@@ -4112,39 +4112,39 @@ c5d.4xlarge:
         Dedicated: 0.947
         Shared: 0.888
       eu-west-1:
-        Dedicated: 0.929
+        Dedicated: 1.665
         Shared: 1.608
       eu-west-2:
-        Dedicated: 0.98
-        Shared: 1.656
+        Dedicated: 1.716
+        Shared: 0.92
       us-east-1:
-        Dedicated: 0.814
+        Dedicated: 1.55
         Shared: 1.504
       us-east-2:
-        Dedicated: 0.814
+        Dedicated: 1.55
         Shared: 1.504
       us-gov-west-1:
         Dedicated: 1.72
         Shared: 1.664
       us-west-1:
         Dedicated: 1.759
-        Shared: 0.96
+        Shared: 1.696
       us-west-2:
         Dedicated: 1.55
-        Shared: 0.768
+        Shared: 1.504
   regions:
     - us-east-2
-    - us-west-1
+    - ca-central-1
     - ap-southeast-2
-    - us-east-1
-    - ap-northeast-2
-    - us-west-2
     - ap-southeast-1
     - eu-central-1
-    - eu-west-2
-    - ap-northeast-1
+    - ap-northeast-2
+    - us-west-1
     - eu-west-1
-    - ca-central-1
+    - us-east-1
+    - ap-northeast-1
+    - us-west-2
+    - eu-west-2
     - us-gov-west-1
   storage: 1 x 400 NVMe SSD
   vcpu: 16
@@ -4285,7 +4285,7 @@ c5d.9xlarge:
         Shared: 3.852
       ap-northeast-2:
         Dedicated: 3.763
-        Shared: 3.636
+        Shared: 1.98
       ap-southeast-1:
         Dedicated: 3.801
         Shared: 3.672
@@ -4303,9 +4303,9 @@ c5d.9xlarge:
         Shared: 1.962
       eu-west-2:
         Dedicated: 3.862
-        Shared: 2.07
+        Shared: 3.726
       us-east-1:
-        Dedicated: 3.488
+        Dedicated: 1.832
         Shared: 3.384
       us-east-2:
         Dedicated: 1.832
@@ -4322,17 +4322,17 @@ c5d.9xlarge:
   regions:
     - us-east-2
     - us-east-1
-    - us-west-2
     - eu-west-2
     - ap-southeast-1
     - us-west-1
     - us-gov-west-1
-    - ca-central-1
-    - ap-northeast-2
-    - eu-central-1
     - ap-northeast-1
     - eu-west-1
+    - eu-central-1
+    - ca-central-1
     - ap-southeast-2
+    - ap-northeast-2
+    - us-west-2
   storage: 1 x 900 NVMe SSD
   vcpu: 36
 c5d.large:
@@ -4474,7 +4474,7 @@ c5d.large:
         Dedicated: 0.209
         Shared: 0.11
       ap-southeast-1:
-        Dedicated: 0.211
+        Dedicated: 0.119
         Shared: 0.204
       ap-southeast-2:
         Dedicated: 0.226
@@ -4484,13 +4484,13 @@ c5d.large:
         Shared: 0.198
       eu-central-1:
         Dedicated: 0.21
-        Shared: 0.203
+        Shared: 0.111
       eu-west-1:
         Dedicated: 0.208
         Shared: 0.109
       eu-west-2:
-        Dedicated: 0.123
-        Shared: 0.115
+        Dedicated: 0.215
+        Shared: 0.207
       us-east-1:
         Dedicated: 0.194
         Shared: 0.188
@@ -4501,24 +4501,24 @@ c5d.large:
         Dedicated: 0.215
         Shared: 0.208
       us-west-1:
-        Dedicated: 0.22
+        Dedicated: 0.128
         Shared: 0.12
       us-west-2:
-        Dedicated: 0.194
+        Dedicated: 0.102
         Shared: 0.188
   regions:
     - ap-southeast-1
-    - ap-northeast-2
     - eu-west-2
     - eu-central-1
     - eu-west-1
     - ap-northeast-1
     - us-east-1
-    - us-west-1
     - us-east-2
+    - us-west-1
     - ca-central-1
     - us-west-2
     - ap-southeast-2
+    - ap-northeast-2
     - us-gov-west-1
   storage: 1 x 50 NVMe SSD
   vcpu: 2
@@ -4673,14 +4673,14 @@ c5d.xlarge:
         Dedicated: 0.421
         Shared: 0.406
       eu-west-1:
-        Dedicated: 0.416
+        Dedicated: 0.232
         Shared: 0.402
       eu-west-2:
-        Dedicated: 0.245
+        Dedicated: 0.429
         Shared: 0.23
       us-east-1:
-        Dedicated: 0.388
-        Shared: 0.376
+        Dedicated: 0.204
+        Shared: 0.192
       us-east-2:
         Dedicated: 0.388
         Shared: 0.376
@@ -4689,24 +4689,24 @@ c5d.xlarge:
         Shared: 0.416
       us-west-1:
         Dedicated: 0.44
-        Shared: 0.424
+        Shared: 0.24
       us-west-2:
         Dedicated: 0.388
         Shared: 0.192
   regions:
     - us-east-1
-    - ap-southeast-2
     - ap-southeast-1
     - ap-northeast-1
     - us-west-1
     - ca-central-1
-    - eu-west-2
     - ap-northeast-2
     - us-east-2
     - eu-west-1
-    - eu-central-1
+    - eu-west-2
     - us-west-2
+    - ap-southeast-2
     - us-gov-west-1
+    - eu-central-1
   storage: 1 x 100 NVMe SSD
   vcpu: 4
 cc2.8xlarge:
@@ -4768,14 +4768,14 @@ cc2.8xlarge:
         Shared: 2.1
     Windows:
       ap-northeast-1:
-        Dedicated: 2.349
+        Dedicated: 2.919
         Shared: 2.349
       eu-west-1:
         Dedicated: 2.57
         Shared: 2.25
       us-east-1:
-        Dedicated: 2.57
-        Shared: 2.57
+        Dedicated: 2
+        Shared: 2
       us-gov-west-1:
         Dedicated: 2.57
         Shared: 2.25
@@ -4784,10 +4784,10 @@ cc2.8xlarge:
         Shared: 2
   regions:
     - eu-west-1
-    - us-gov-west-1
     - ap-northeast-1
-    - us-west-2
+    - us-gov-west-1
     - us-east-1
+    - us-west-2
   storage: 4 x 840
   vcpu: 32
 cr1.8xlarge:
@@ -4842,7 +4842,7 @@ cr1.8xlarge:
         Dedicated: 4.105
         Shared: 4.42
       eu-west-1:
-        Dedicated: 3.75
+        Dedicated: 3.831
         Shared: 3.75
       us-east-1:
         Dedicated: 3.5
@@ -5016,10 +5016,10 @@ d2.2xlarge:
         Shared: 1.48
     Windows:
       ap-northeast-1:
-        Dedicated: 1.857
+        Dedicated: 2.1
         Shared: 1.688
       ap-northeast-2:
-        Dedicated: 1.8568
+        Dedicated: 2.2248
         Shared: 1.688
       ap-northeast-3:
         Dedicated: 2.225
@@ -5029,12 +5029,12 @@ d2.2xlarge:
         Shared: 2.021
       ap-southeast-1:
         Dedicated: 1.914
-        Shared: 1.74
+        Shared: 1.961
       ap-southeast-2:
         Dedicated: 2.157
-        Shared: 1.961
+        Shared: 1.74
       ca-central-1:
-        Dedicated: 1.67
+        Dedicated: 2.038
         Shared: 1.886
       eu-central-1:
         Dedicated: 1.99
@@ -5044,12 +5044,12 @@ d2.2xlarge:
         Shared: 1.691
       eu-west-2:
         Dedicated: 1.698
-        Shared: 1.544
+        Shared: 1.912
       eu-west-3:
         Dedicated: 2.066
-        Shared: 1.544
+        Shared: 1.912
       us-east-1:
-        Dedicated: 1.518
+        Dedicated: 1.761
         Shared: 1.38
       us-east-2:
         Dedicated: 1.761
@@ -5059,28 +5059,28 @@ d2.2xlarge:
         Shared: 1.952
       us-west-1:
         Dedicated: 2.087
-        Shared: 1.563
+        Shared: 1.931
       us-west-2:
         Dedicated: 1.761
         Shared: 1.601
   regions:
     - us-east-2
-    - ap-northeast-3
     - ca-central-1
     - ap-southeast-2
-    - ap-northeast-1
-    - us-east-1
-    - ap-southeast-1
-    - eu-west-3
-    - ap-northeast-2
     - eu-central-1
-    - us-west-1
-    - us-west-2
+    - eu-west-3
+    - us-east-1
     - us-gov-west-1
-    - sa-east-1
-    - eu-west-1
-    - eu-west-2
+    - us-west-1
     - ap-south-1
+    - eu-west-1
+    - ap-northeast-1
+    - us-west-2
+    - ap-northeast-3
+    - eu-west-2
+    - ap-southeast-1
+    - ap-northeast-2
+    - sa-east-1
   storage: 6 x 2000 HDD
   vcpu: 8
 d2.4xlarge:
@@ -5245,7 +5245,7 @@ d2.4xlarge:
         Shared: 3.678
       ap-northeast-2:
         Dedicated: 4.4496
-        Shared: 4.112
+        Shared: 3.376
       ap-northeast-3:
         Dedicated: 4.45
         Shared: 3.376
@@ -5265,16 +5265,16 @@ d2.4xlarge:
         Dedicated: 3.826
         Shared: 3.176
       eu-west-1:
-        Dedicated: 3.234
+        Dedicated: 3.566
         Shared: 2.94
       eu-west-2:
         Dedicated: 4.132
         Shared: 3.087
       eu-west-3:
         Dedicated: 4.133
-        Shared: 3.088
+        Shared: 3.824
       us-east-1:
-        Dedicated: 3.368
+        Dedicated: 3.036
         Shared: 3.062
       us-east-2:
         Dedicated: 3.368
@@ -5291,21 +5291,21 @@ d2.4xlarge:
   regions:
     - ap-northeast-1
     - us-east-2
-    - ca-central-1
     - ap-northeast-2
-    - ap-southeast-2
     - us-west-1
-    - us-east-1
-    - us-west-2
+    - ca-central-1
+    - ap-southeast-2
     - eu-west-3
-    - eu-west-1
-    - ap-southeast-1
+    - us-east-1
     - ap-northeast-3
     - eu-west-2
-    - ap-south-1
-    - us-gov-west-1
-    - sa-east-1
+    - ap-southeast-1
     - eu-central-1
+    - us-west-2
+    - eu-west-1
+    - ap-south-1
+    - sa-east-1
+    - us-gov-west-1
   storage: 12 x 2000 HDD
   vcpu: 16
 d2.8xlarge:
@@ -5483,15 +5483,15 @@ d2.8xlarge:
         Shared: 7.638
       ap-southeast-2:
         Dedicated: 7.638
-        Shared: 7.638
+        Shared: 6.96
       ca-central-1:
-        Dedicated: 6.072
-        Shared: 6.072
+        Dedicated: 7.728
+        Shared: 7.728
       eu-central-1:
         Dedicated: 7.03
         Shared: 6.352
       eu-west-1:
-        Dedicated: 5.88
+        Dedicated: 6.558
         Shared: 6.558
       eu-west-2:
         Dedicated: 6.174
@@ -5507,31 +5507,31 @@ d2.8xlarge:
         Shared: 6.198
       us-gov-west-1:
         Dedicated: 8.28
-        Shared: 7.956
+        Shared: 6.624
       us-west-1:
         Dedicated: 7.906
         Shared: 6.25
       us-west-2:
-        Dedicated: 5.52
+        Dedicated: 6.198
         Shared: 6.198
   regions:
     - ap-northeast-3
-    - ap-southeast-1
     - us-east-2
     - us-west-2
     - us-east-1
     - eu-west-1
-    - ap-northeast-2
-    - ap-northeast-1
-    - us-gov-west-1
-    - eu-central-1
-    - ap-southeast-2
-    - eu-west-2
+    - ap-southeast-1
     - ap-south-1
-    - us-west-1
+    - ap-northeast-2
+    - ap-southeast-2
+    - ap-northeast-1
+    - eu-central-1
     - ca-central-1
-    - sa-east-1
+    - us-west-1
     - eu-west-3
+    - sa-east-1
+    - eu-west-2
+    - us-gov-west-1
   storage: 24 x 2000 HDD
   vcpu: 36
 d2.xlarge:
@@ -5714,16 +5714,16 @@ d2.xlarge:
         Shared: 0.943
       eu-central-1:
         Dedicated: 1.018
-        Shared: 0.794
+        Shared: 0.925
       eu-west-1:
-        Dedicated: 0.953
+        Dedicated: 0.809
         Shared: 0.866
       eu-west-2:
         Dedicated: 0.849
         Shared: 0.956
       eu-west-3:
         Dedicated: 0.849
-        Shared: 0.772
+        Shared: 0.956
       us-east-1:
         Dedicated: 0.903
         Shared: 0.821
@@ -5732,31 +5732,31 @@ d2.xlarge:
         Shared: 0.821
       us-gov-west-1:
         Dedicated: 1.095
-        Shared: 0.976
+        Shared: 0.828
       us-west-1:
         Dedicated: 0.859
         Shared: 0.781
       us-west-2:
-        Dedicated: 0.759
+        Dedicated: 0.903
         Shared: 0.821
   regions:
     - us-west-1
-    - ap-northeast-2
     - us-east-2
+    - ap-northeast-2
     - eu-west-3
-    - sa-east-1
     - ap-southeast-2
-    - eu-central-1
-    - ap-northeast-3
-    - us-west-2
     - ca-central-1
+    - eu-central-1
     - ap-northeast-1
-    - eu-west-1
     - ap-south-1
     - us-east-1
     - eu-west-2
+    - eu-west-1
     - us-gov-west-1
     - ap-southeast-1
+    - ap-northeast-3
+    - us-west-2
+    - sa-east-1
   storage: 3 x 2000 HDD
   vcpu: 4
 f1.16xlarge:
@@ -5827,9 +5827,9 @@ f1.16xlarge:
         Shared: 13.2
   regions:
     - us-gov-west-1
-    - us-west-2
     - eu-west-1
     - us-east-1
+    - us-west-2
     - us-west-1
   storage: EBS only
   vcpu: 64
@@ -5900,11 +5900,11 @@ f1.2xlarge:
         Dedicated: 1.815
         Shared: 1.65
   regions:
-    - us-west-2
     - us-gov-west-1
     - eu-west-1
-    - us-east-1
     - us-west-1
+    - us-east-1
+    - us-west-2
   storage: EBS only
   vcpu: 8
 f1.4xlarge:
@@ -5966,9 +5966,9 @@ f1.4xlarge:
   regions:
     - us-west-1
     - us-west-2
+    - us-gov-west-1
     - eu-west-1
     - us-east-1
-    - us-gov-west-1
   storage: 1 x 940 GB
   vcpu: 16
 g2.2xlarge:
@@ -6075,8 +6075,8 @@ g2.2xlarge:
         Shared: 0.75
     Windows:
       ap-northeast-1:
-        Dedicated: 0.988
-        Shared: 0.898
+        Dedicated: 1.111
+        Shared: 1.01
       ap-northeast-2:
         Dedicated: 1.3558
         Shared: 0.898
@@ -6104,11 +6104,11 @@ g2.2xlarge:
   regions:
     - eu-west-1
     - ap-southeast-1
-    - us-west-1
     - ap-southeast-2
     - us-west-2
     - eu-central-1
     - us-east-1
+    - us-west-1
     - ap-northeast-1
     - sa-east-1
     - ap-northeast-2
@@ -6210,14 +6210,14 @@ g2.8xlarge:
         Shared: 2.7
     Windows:
       ap-northeast-1:
-        Dedicated: 0.988
+        Dedicated: 3.87
         Shared: 3.87
       ap-northeast-2:
         Dedicated: 5.064
         Shared: 5.064
       ap-southeast-1:
-        Dedicated: 4
-        Shared: 4.278
+        Dedicated: 4.278
+        Shared: 4
       ap-southeast-2:
         Dedicated: 3.87
         Shared: 3.87
@@ -6235,17 +6235,17 @@ g2.8xlarge:
         Shared: 3.086
       us-west-2:
         Dedicated: 2.878
-        Shared: 2.878
+        Shared: 2.6
   regions:
-    - us-west-2
-    - ap-northeast-1
     - ap-southeast-2
-    - ap-southeast-1
     - us-east-1
+    - ap-southeast-1
+    - ap-northeast-1
     - us-west-1
-    - eu-west-1
     - ap-northeast-2
+    - us-west-2
     - eu-central-1
+    - eu-west-1
     - sa-east-1
   storage: 2 x 120 SSD
   vcpu: 32
@@ -6365,14 +6365,14 @@ g3.16xlarge:
         Shared: 4.66
     Windows:
       ap-northeast-1:
-        Dedicated: 9.264
-        Shared: 9.264
+        Dedicated: 6.32
+        Shared: 6.32
       ap-southeast-1:
         Dedicated: 6.68
         Shared: 9.624
       ap-southeast-2:
-        Dedicated: 7.016
-        Shared: 7.016
+        Dedicated: 9.96
+        Shared: 9.96
       ca-central-1:
         Dedicated: 8.608
         Shared: 8.608
@@ -6393,22 +6393,22 @@ g3.16xlarge:
         Shared: 8.224
       us-west-1:
         Dedicated: 6.136
-        Shared: 6.136
+        Shared: 9.08
       us-west-2:
         Dedicated: 7.504
-        Shared: 7.504
+        Shared: 4.56
   regions:
     - ap-southeast-1
     - eu-central-1
-    - ap-northeast-1
-    - ap-southeast-2
     - us-east-2
     - us-west-1
     - ca-central-1
     - eu-west-1
-    - us-east-1
+    - ap-southeast-2
+    - ap-northeast-1
     - us-west-2
     - us-gov-west-1
+    - us-east-1
   storage: EBS only
   vcpu: 64
 g3.4xlarge:
@@ -6530,7 +6530,7 @@ g3.4xlarge:
         Dedicated: 2.474
         Shared: 2.316
       ap-southeast-1:
-        Dedicated: 2.573
+        Dedicated: 1.837
         Shared: 2.406
       ap-southeast-2:
         Dedicated: 2.6654
@@ -6539,11 +6539,11 @@ g3.4xlarge:
         Dedicated: 2.2936
         Shared: 2.152
       eu-central-1:
-        Dedicated: 1.5675
-        Shared: 1.425
+        Dedicated: 2.3035
+        Shared: 2.161
       eu-west-1:
         Dedicated: 2.067
-        Shared: 1.946
+        Shared: 1.21
       us-east-1:
         Dedicated: 1.99
         Shared: 1.876
@@ -6562,15 +6562,15 @@ g3.4xlarge:
   regions:
     - us-east-2
     - us-west-2
+    - eu-central-1
     - us-west-1
     - ap-southeast-2
     - eu-west-1
-    - us-east-1
-    - eu-central-1
     - ap-northeast-1
-    - ap-southeast-1
-    - us-gov-west-1
     - ca-central-1
+    - ap-southeast-1
+    - us-east-1
+    - us-gov-west-1
   storage: EBS only
   vcpu: 16
 g3.8xlarge:
@@ -6689,14 +6689,14 @@ g3.8xlarge:
         Shared: 2.38
     Windows:
       ap-northeast-1:
-        Dedicated: 3.476
+        Dedicated: 4.948
         Shared: 3.16
       ap-southeast-1:
         Dedicated: 3.674
         Shared: 3.34
       ap-southeast-2:
-        Dedicated: 3.8588
-        Shared: 3.508
+        Dedicated: 5.3308
+        Shared: 4.98
       ca-central-1:
         Dedicated: 4.5872
         Shared: 4.304
@@ -6711,28 +6711,28 @@ g3.8xlarge:
         Shared: 3.752
       us-east-2:
         Dedicated: 3.98
-        Shared: 3.752
+        Shared: 2.28
       us-gov-west-1:
         Dedicated: 4.376
         Shared: 4.112
       us-west-1:
-        Dedicated: 3.3748
+        Dedicated: 4.8468
         Shared: 3.068
       us-west-2:
         Dedicated: 3.98
         Shared: 3.752
   regions:
+    - ca-central-1
     - us-west-2
     - ap-southeast-1
-    - us-west-1
-    - us-east-1
     - ap-northeast-1
-    - ca-central-1
-    - ap-southeast-2
+    - us-west-1
     - us-gov-west-1
-    - us-east-2
     - eu-west-1
+    - ap-southeast-2
     - eu-central-1
+    - us-east-2
+    - us-east-1
   storage: EBS only
   vcpu: 32
 g3s.xlarge:
@@ -6844,14 +6844,14 @@ g3s.xlarge:
         Dedicated: 0.987
         Shared: 0.934
   regions:
-    - ap-southeast-2
-    - eu-west-1
-    - us-east-1
     - ap-northeast-1
-    - us-west-2
     - us-west-1
-    - us-east-2
     - eu-central-1
+    - eu-west-1
+    - us-west-2
+    - ap-southeast-2
+    - us-east-2
+    - us-east-1
   storage: EBS only
   vcpu: 4
 h1.16xlarge:
@@ -6867,21 +6867,21 @@ h1.16xlarge:
   prices:
     Linux:
       eu-west-1:
-        Dedicated: 4.888
+        Dedicated: 4.152
         Shared: 4.888
       us-east-1:
-        Dedicated: 3.744
+        Dedicated: 4.4
         Shared: 3.744
       us-east-2:
         Dedicated: 4.4
-        Shared: 4.4
+        Shared: 3.744
       us-west-2:
         Dedicated: 4.4
         Shared: 4.4
     RHEL:
       eu-west-1:
         Dedicated: 4.282
-        Shared: 5.018
+        Shared: 4.282
       us-east-1:
         Dedicated: 3.874
         Shared: 3.874
@@ -6890,7 +6890,7 @@ h1.16xlarge:
         Shared: 4.53
       us-west-2:
         Dedicated: 4.53
-        Shared: 4.53
+        Shared: 3.874
     SUSE:
       eu-west-1:
         Dedicated: 4.252
@@ -6907,21 +6907,21 @@ h1.16xlarge:
     Windows:
       eu-west-1:
         Dedicated: 7.832
-        Shared: 7.096
+        Shared: 7.832
       us-east-1:
         Dedicated: 7.344
         Shared: 3.744
       us-east-2:
-        Dedicated: 6.688
-        Shared: 6.688
+        Dedicated: 3.744
+        Shared: 7.344
       us-west-2:
-        Dedicated: 7.344
+        Dedicated: 6.688
         Shared: 7.344
   regions:
-    - us-west-2
     - us-east-1
     - us-east-2
     - eu-west-1
+    - us-west-2
   storage: 8 x 2000 HDD
   vcpu: 64
 h1.2xlarge:
@@ -6951,20 +6951,20 @@ h1.2xlarge:
     RHEL:
       eu-west-1:
         Dedicated: 0.783
-        Shared: 0.741
+        Shared: 0.649
       us-east-1:
-        Dedicated: 0.628
-        Shared: 0.598
+        Dedicated: 0.716
+        Shared: 0.68
       us-east-2:
         Dedicated: 0.716
         Shared: 0.68
       us-west-2:
-        Dedicated: 0.716
+        Dedicated: 0.628
         Shared: 0.68
     SUSE:
       eu-west-1:
         Dedicated: 0.655
-        Shared: 0.619
+        Shared: 0.711
       us-east-1:
         Dedicated: 0.598
         Shared: 0.568
@@ -6977,16 +6977,16 @@ h1.2xlarge:
     Windows:
       eu-west-1:
         Dedicated: 1.021
-        Shared: 0.887
+        Shared: 0.519
       us-east-1:
         Dedicated: 0.954
         Shared: 0.918
       us-east-2:
         Dedicated: 0.498
-        Shared: 0.468
+        Shared: 0.918
       us-west-2:
         Dedicated: 0.498
-        Shared: 0.468
+        Shared: 0.918
   regions:
     - us-east-2
     - us-west-2
@@ -7008,7 +7008,7 @@ h1.4xlarge:
     Linux:
       eu-west-1:
         Dedicated: 1.306
-        Shared: 1.222
+        Shared: 1.038
       us-east-1:
         Dedicated: 1.171
         Shared: 1.1
@@ -7023,13 +7023,13 @@ h1.4xlarge:
         Dedicated: 1.24
         Shared: 1.168
       us-east-1:
-        Dedicated: 1.127
+        Dedicated: 1.301
         Shared: 1.066
       us-east-2:
         Dedicated: 1.301
         Shared: 1.066
       us-west-2:
-        Dedicated: 1.127
+        Dedicated: 1.301
         Shared: 1.23
     SUSE:
       eu-west-1:
@@ -7050,13 +7050,13 @@ h1.4xlarge:
         Shared: 1.038
       us-east-1:
         Dedicated: 1.907
-        Shared: 0.936
+        Shared: 1.672
       us-east-2:
-        Dedicated: 1.733
+        Dedicated: 1.907
         Shared: 0.936
       us-west-2:
         Dedicated: 1.907
-        Shared: 1.672
+        Shared: 1.836
   regions:
     - eu-west-1
     - us-west-2
@@ -7081,10 +7081,10 @@ h1.8xlarge:
         Shared: 2.444
       us-east-1:
         Dedicated: 2.342
-        Shared: 1.872
+        Shared: 2.2
       us-east-2:
         Dedicated: 1.993
-        Shared: 2.2
+        Shared: 1.872
       us-west-2:
         Dedicated: 1.993
         Shared: 1.872
@@ -7119,19 +7119,19 @@ h1.8xlarge:
         Dedicated: 2.219
         Shared: 3.548
       us-east-1:
-        Dedicated: 1.993
+        Dedicated: 3.814
         Shared: 1.872
       us-east-2:
-        Dedicated: 1.993
-        Shared: 3.344
-      us-west-2:
         Dedicated: 3.465
         Shared: 3.344
+      us-west-2:
+        Dedicated: 1.993
+        Shared: 1.872
   regions:
     - us-east-2
     - us-east-1
-    - us-west-2
     - eu-west-1
+    - us-west-2
   storage: 4 x 2000 HDD
   vcpu: 32
 hs1.8xlarge:
@@ -7211,17 +7211,17 @@ hs1.8xlarge:
         Shared: 4.7
     Windows:
       ap-northeast-1:
-        Dedicated: 5.714
+        Dedicated: 5.4
         Shared: 5.4
       ap-southeast-1:
         Dedicated: 5.901
         Shared: 5.57
       ap-southeast-2:
         Dedicated: 5.57
-        Shared: 5.57
+        Shared: 5.901
       eu-west-1:
         Dedicated: 4.931
-        Shared: 4.931
+        Shared: 4.9
       us-east-1:
         Dedicated: 4.6
         Shared: 4.931
@@ -7230,15 +7230,15 @@ hs1.8xlarge:
         Shared: 6.126
       us-west-2:
         Dedicated: 4.931
-        Shared: 4.6
+        Shared: 4.931
   regions:
     - ap-southeast-2
     - us-gov-west-1
     - us-west-2
+    - eu-west-1
     - ap-southeast-1
     - ap-northeast-1
     - us-east-1
-    - eu-west-1
   storage: 24 x 2000
   vcpu: 17
 i2.2xlarge:
@@ -7385,19 +7385,19 @@ i2.2xlarge:
         Dedicated: 2.126
         Shared: 2.301
       ap-southeast-1:
-        Dedicated: 2.239
+        Dedicated: 2.571
         Shared: 2.337
       ap-southeast-2:
         Dedicated: 2.239
         Shared: 2.035
       eu-central-1:
         Dedicated: 2.493
-        Shared: 2.026
+        Shared: 2.267
       eu-west-1:
         Dedicated: 2.141
         Shared: 1.946
       us-east-1:
-        Dedicated: 1.876
+        Dedicated: 2.141
         Shared: 1.946
       us-east-2:
         Dedicated: 2.141
@@ -7412,17 +7412,17 @@ i2.2xlarge:
         Dedicated: 2.141
         Shared: 1.705
   regions:
-    - us-east-1
     - ap-northeast-1
     - ap-northeast-2
-    - us-west-2
+    - us-east-1
     - us-west-1
-    - ap-southeast-2
+    - us-west-2
     - ap-south-1
     - us-gov-west-1
-    - eu-west-1
-    - eu-central-1
     - us-east-2
+    - ap-southeast-2
+    - eu-central-1
+    - eu-west-1
     - ap-southeast-1
     - sa-east-1
   storage: 2 x 800 SSD
@@ -7562,14 +7562,14 @@ i2.4xlarge:
         Shared: 3.51
     Windows:
       ap-northeast-1:
-        Dedicated: 4.896
+        Dedicated: 4.402
         Shared: 4.451
       ap-northeast-2:
         Dedicated: 5.1382
         Shared: 4.002
       ap-south-1:
-        Dedicated: 4.254
-        Shared: 3.867
+        Dedicated: 5.063
+        Shared: 4.603
       ap-southeast-1:
         Dedicated: 4.477
         Shared: 4.07
@@ -7592,25 +7592,25 @@ i2.4xlarge:
         Dedicated: 5.03
         Shared: 4.573
       us-west-1:
-        Dedicated: 4.126
+        Dedicated: 4.655
         Shared: 4.232
       us-west-2:
         Dedicated: 4.28
         Shared: 3.891
   regions:
-    - eu-west-1
-    - ap-southeast-2
     - us-west-2
-    - us-east-2
     - ap-northeast-1
+    - ap-south-1
+    - us-east-2
+    - us-west-1
+    - ap-southeast-2
+    - eu-central-1
+    - us-east-1
     - ap-southeast-1
     - ap-northeast-2
-    - eu-central-1
-    - us-west-1
-    - us-east-1
     - us-gov-west-1
+    - eu-west-1
     - sa-east-1
-    - ap-south-1
   storage: 4 x 800 SSD
   vcpu: 16
 i2.8xlarge:
@@ -7736,17 +7736,17 @@ i2.8xlarge:
         Shared: 6.92
     Windows:
       ap-northeast-1:
-        Dedicated: 8.903
+        Dedicated: 8.004
         Shared: 8.903
       ap-northeast-2:
         Dedicated: 8.004
         Shared: 8.004
       ap-south-1:
-        Dedicated: 9.205
+        Dedicated: 7.733
         Shared: 7.733
       ap-southeast-1:
         Dedicated: 8.14
-        Shared: 9.348
+        Shared: 8.14
       ap-southeast-2:
         Dedicated: 9.348
         Shared: 8.14
@@ -7757,8 +7757,8 @@ i2.8xlarge:
         Dedicated: 7.502
         Shared: 7.782
       us-east-1:
-        Dedicated: 7.782
-        Shared: 7.782
+        Dedicated: 6.82
+        Shared: 6.82
       us-east-2:
         Dedicated: 7.782
         Shared: 6.82
@@ -7766,7 +7766,7 @@ i2.8xlarge:
         Dedicated: 9.146
         Shared: 9.146
       us-west-1:
-        Dedicated: 8.464
+        Dedicated: 7.502
         Shared: 7.502
       us-west-2:
         Dedicated: 7.782
@@ -7774,17 +7774,17 @@ i2.8xlarge:
   regions:
     - ap-southeast-1
     - ap-northeast-1
-    - ap-southeast-2
     - us-west-2
-    - us-east-1
     - ap-south-1
-    - us-west-1
+    - ap-southeast-2
     - ap-northeast-2
-    - eu-west-1
-    - us-east-2
     - eu-central-1
-    - sa-east-1
+    - us-east-1
+    - us-east-2
+    - us-west-1
+    - eu-west-1
     - us-gov-west-1
+    - sa-east-1
   storage: 8 x 800 SSD
   vcpu: 32
 i2.xlarge:
@@ -7923,7 +7923,7 @@ i2.xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 1.224
-        Shared: 1.113
+        Shared: 1.001
       ap-northeast-2:
         Dedicated: 1.2851
         Shared: 1.185
@@ -7931,11 +7931,11 @@ i2.xlarge:
         Dedicated: 1.266
         Shared: 0.967
       ap-southeast-1:
-        Dedicated: 1.12
-        Shared: 1.018
-      ap-southeast-2:
         Dedicated: 1.286
         Shared: 1.018
+      ap-southeast-2:
+        Dedicated: 1.12
+        Shared: 1.169
       eu-central-1:
         Dedicated: 1.246
         Shared: 1.133
@@ -7953,24 +7953,24 @@ i2.xlarge:
         Shared: 1.144
       us-west-1:
         Dedicated: 1.032
-        Shared: 1.058
+        Shared: 0.938
       us-west-2:
         Dedicated: 1.07
         Shared: 0.973
   regions:
-    - ap-southeast-1
-    - ap-southeast-2
-    - us-gov-west-1
-    - us-west-2
     - ap-south-1
-    - us-east-2
+    - us-west-2
     - us-east-1
     - us-west-1
-    - ap-northeast-1
-    - eu-west-1
+    - us-east-2
     - ap-northeast-2
-    - sa-east-1
+    - ap-northeast-1
+    - ap-southeast-1
     - eu-central-1
+    - us-gov-west-1
+    - eu-west-1
+    - ap-southeast-2
+    - sa-east-1
   storage: 1 x 800 SSD
   vcpu: 4
 i3.16xlarge:
@@ -8151,14 +8151,14 @@ i3.16xlarge:
         Dedicated: 5.856
         Shared: 5.856
       ap-south-1:
-        Dedicated: 5.664
+        Dedicated: 8.608
         Shared: 5.664
       ap-southeast-1:
         Dedicated: 5.984
         Shared: 8.928
       ap-southeast-2:
         Dedicated: 8.928
-        Shared: 8.928
+        Shared: 5.984
       ca-central-1:
         Dedicated: 5.504
         Shared: 8.448
@@ -8166,50 +8166,50 @@ i3.16xlarge:
         Dedicated: 8.896
         Shared: 8.896
       eu-west-1:
-        Dedicated: 5.504
+        Dedicated: 8.448
         Shared: 8.448
       eu-west-2:
-        Dedicated: 8.736
-        Shared: 8.736
+        Dedicated: 5.792
+        Shared: 5.792
       eu-west-3:
         Dedicated: 8.736
         Shared: 8.736
       sa-east-1:
-        Dedicated: 9.152
-        Shared: 9.152
+        Dedicated: 12.096
+        Shared: 12.096
       us-east-1:
-        Dedicated: 7.936
+        Dedicated: 4.992
         Shared: 4.992
       us-east-2:
         Dedicated: 7.936
         Shared: 7.936
       us-gov-west-1:
         Dedicated: 6.016
-        Shared: 8.96
+        Shared: 6.016
       us-west-1:
-        Dedicated: 8.448
+        Dedicated: 5.504
         Shared: 8.448
       us-west-2:
-        Dedicated: 4.992
+        Dedicated: 7.936
         Shared: 7.936
   regions:
-    - ap-southeast-2
     - ap-south-1
     - ca-central-1
     - ap-northeast-1
-    - us-east-1
     - ap-southeast-1
     - eu-west-1
     - ap-northeast-3
     - us-east-2
-    - us-west-2
     - eu-west-3
-    - us-west-1
+    - us-west-2
+    - ap-southeast-2
+    - us-east-1
     - ap-northeast-2
-    - us-gov-west-1
     - eu-central-1
     - sa-east-1
     - eu-west-2
+    - us-west-1
+    - us-gov-west-1
   storage: 8 x 1900 NVMe SSD
   vcpu: 64
 i3.2xlarge:
@@ -8388,7 +8388,7 @@ i3.2xlarge:
         Shared: 1.1
       ap-northeast-3:
         Dedicated: 0.805
-        Shared: 0.732
+        Shared: 1.1
       ap-south-1:
         Dedicated: 0.779
         Shared: 0.708
@@ -8397,34 +8397,34 @@ i3.2xlarge:
         Shared: 1.116
       ap-southeast-2:
         Dedicated: 1.191
-        Shared: 1.116
+        Shared: 0.748
       ca-central-1:
-        Dedicated: 0.757
-        Shared: 0.688
+        Dedicated: 1.125
+        Shared: 1.056
       eu-central-1:
         Dedicated: 1.186
-        Shared: 0.744
+        Shared: 1.112
       eu-west-1:
         Dedicated: 1.125
         Shared: 1.056
       eu-west-2:
         Dedicated: 1.164
-        Shared: 0.724
+        Shared: 1.092
       eu-west-3:
-        Dedicated: 0.796
+        Dedicated: 1.164
         Shared: 1.092
       sa-east-1:
-        Dedicated: 1.258
-        Shared: 1.144
+        Dedicated: 1.626
+        Shared: 1.512
       us-east-1:
         Dedicated: 1.054
         Shared: 0.992
       us-east-2:
-        Dedicated: 0.686
-        Shared: 0.624
+        Dedicated: 1.054
+        Shared: 0.992
       us-gov-west-1:
         Dedicated: 0.827
-        Shared: 0.752
+        Shared: 1.12
       us-west-1:
         Dedicated: 0.757
         Shared: 1.056
@@ -8433,20 +8433,20 @@ i3.2xlarge:
         Shared: 0.992
   regions:
     - us-west-1
-    - us-west-2
-    - sa-east-1
     - ap-northeast-1
-    - us-east-1
     - us-east-2
+    - us-east-1
     - ap-northeast-2
-    - eu-west-3
-    - eu-west-1
-    - ap-southeast-2
+    - us-west-2
     - ap-south-1
     - eu-central-1
+    - sa-east-1
     - us-gov-west-1
+    - ap-southeast-2
+    - eu-west-3
     - ap-southeast-1
     - eu-west-2
+    - eu-west-1
     - ca-central-1
     - ap-northeast-3
   storage: 1 x 1900 NVMe SSD
@@ -8623,38 +8623,38 @@ i3.4xlarge:
         Dedicated: 1.61
         Shared: 2.2
       ap-northeast-2:
-        Dedicated: 1.61
+        Dedicated: 2.346
         Shared: 2.2
       ap-northeast-3:
-        Dedicated: 2.346
+        Dedicated: 1.61
         Shared: 1.464
       ap-south-1:
         Dedicated: 2.294
         Shared: 1.416
       ap-southeast-1:
         Dedicated: 2.382
-        Shared: 1.496
+        Shared: 2.232
       ap-southeast-2:
         Dedicated: 2.382
         Shared: 2.232
       ca-central-1:
-        Dedicated: 2.25
+        Dedicated: 1.514
         Shared: 1.376
       eu-central-1:
-        Dedicated: 1.637
+        Dedicated: 2.373
         Shared: 1.488
       eu-west-1:
         Dedicated: 2.25
         Shared: 2.112
       eu-west-2:
-        Dedicated: 2.329
-        Shared: 1.448
+        Dedicated: 1.593
+        Shared: 2.184
       eu-west-3:
         Dedicated: 2.329
         Shared: 1.448
       sa-east-1:
         Dedicated: 2.517
-        Shared: 2.288
+        Shared: 3.024
       us-east-1:
         Dedicated: 2.109
         Shared: 1.248
@@ -8666,28 +8666,28 @@ i3.4xlarge:
         Shared: 2.24
       us-west-1:
         Dedicated: 2.25
-        Shared: 2.112
+        Shared: 1.376
       us-west-2:
         Dedicated: 1.373
-        Shared: 1.248
+        Shared: 1.984
   regions:
     - ap-northeast-3
-    - us-west-2
+    - eu-west-2
     - ap-northeast-1
     - us-west-1
     - ap-south-1
-    - eu-west-3
-    - ap-southeast-1
+    - us-west-2
+    - ca-central-1
     - ap-southeast-2
-    - ap-northeast-2
-    - eu-west-1
     - sa-east-1
+    - eu-west-1
+    - ap-northeast-2
     - us-east-1
+    - ap-southeast-1
+    - us-east-2
     - us-gov-west-1
     - eu-central-1
-    - us-east-2
-    - ca-central-1
-    - eu-west-2
+    - eu-west-3
   storage: 2 x 1900 NVMe SSD
   vcpu: 16
 i3.8xlarge:
@@ -8881,19 +8881,19 @@ i3.8xlarge:
         Shared: 4.224
       eu-central-1:
         Dedicated: 4.746
-        Shared: 2.976
+        Shared: 4.448
       eu-west-1:
-        Dedicated: 4.499
-        Shared: 4.224
+        Dedicated: 3.027
+        Shared: 2.752
       eu-west-2:
-        Dedicated: 4.658
+        Dedicated: 3.186
         Shared: 2.896
       eu-west-3:
         Dedicated: 3.186
         Shared: 2.896
       sa-east-1:
         Dedicated: 5.034
-        Shared: 4.576
+        Shared: 6.048
       us-east-1:
         Dedicated: 4.218
         Shared: 2.496
@@ -8901,32 +8901,32 @@ i3.8xlarge:
         Dedicated: 2.746
         Shared: 3.968
       us-gov-west-1:
-        Dedicated: 3.309
+        Dedicated: 4.781
         Shared: 3.008
       us-west-1:
         Dedicated: 4.499
         Shared: 2.752
       us-west-2:
-        Dedicated: 4.218
+        Dedicated: 2.746
         Shared: 3.968
   regions:
     - us-east-1
     - ap-northeast-1
     - ap-southeast-2
-    - ca-central-1
-    - us-east-2
-    - eu-west-1
     - ap-northeast-2
-    - us-west-2
-    - us-west-1
-    - us-gov-west-1
-    - eu-central-1
+    - eu-west-1
+    - eu-west-3
+    - us-east-2
+    - ca-central-1
     - eu-west-2
     - ap-southeast-1
-    - eu-west-3
-    - sa-east-1
     - ap-south-1
+    - sa-east-1
+    - us-west-1
     - ap-northeast-3
+    - us-west-2
+    - eu-central-1
+    - us-gov-west-1
   storage: 4 x 1900 NVMe SSD
   vcpu: 32
 i3.large:
@@ -9114,31 +9114,31 @@ i3.large:
         Shared: 0.279
       ap-southeast-2:
         Dedicated: 0.298
-        Shared: 0.187
+        Shared: 0.279
       ca-central-1:
         Dedicated: 0.189
         Shared: 0.172
       eu-central-1:
-        Dedicated: 0.205
-        Shared: 0.278
+        Dedicated: 0.297
+        Shared: 0.186
       eu-west-1:
         Dedicated: 0.189
         Shared: 0.264
       eu-west-2:
         Dedicated: 0.291
-        Shared: 0.273
+        Shared: 0.181
       eu-west-3:
         Dedicated: 0.199
-        Shared: 0.181
+        Shared: 0.273
       sa-east-1:
         Dedicated: 0.407
         Shared: 0.378
       us-east-1:
         Dedicated: 0.264
-        Shared: 0.248
+        Shared: 0.156
       us-east-2:
         Dedicated: 0.264
-        Shared: 0.248
+        Shared: 0.156
       us-gov-west-1:
         Dedicated: 0.207
         Shared: 0.188
@@ -9146,7 +9146,7 @@ i3.large:
         Dedicated: 0.281
         Shared: 0.172
       us-west-2:
-        Dedicated: 0.264
+        Dedicated: 0.172
         Shared: 0.248
   regions:
     - ap-southeast-2
@@ -9154,18 +9154,18 @@ i3.large:
     - us-west-1
     - eu-west-1
     - us-east-2
+    - sa-east-1
     - ap-southeast-1
-    - eu-west-3
     - us-west-2
-    - ap-northeast-1
+    - eu-west-3
     - ap-south-1
+    - eu-west-2
+    - ap-northeast-1
     - ap-northeast-3
     - us-east-1
     - us-gov-west-1
     - ap-northeast-2
     - ca-central-1
-    - eu-west-2
-    - sa-east-1
   storage: 1 x 475 NVMe SSD
   vcpu: 2
 i3.metal:
@@ -9183,6 +9183,9 @@ i3.metal:
       eu-west-1:
         Dedicated: 5.504
         Shared: 5.504
+      eu-west-2:
+        Dedicated: 5.792
+        Shared: 5.792
       us-east-1:
         Dedicated: 4.992
         Shared: 4.992
@@ -9199,6 +9202,9 @@ i3.metal:
       eu-west-1:
         Dedicated: 5.634
         Shared: 5.634
+      eu-west-2:
+        Dedicated: 5.922
+        Shared: 5.922
       us-east-1:
         Dedicated: 5.122
         Shared: 5.122
@@ -9215,6 +9221,9 @@ i3.metal:
       eu-west-1:
         Dedicated: 5.604
         Shared: 5.604
+      eu-west-2:
+        Dedicated: 5.892
+        Shared: 5.892
       us-east-1:
         Dedicated: 5.092
         Shared: 5.092
@@ -9227,28 +9236,31 @@ i3.metal:
     Windows:
       eu-central-1:
         Dedicated: 5.952
-        Shared: 5.952
+        Shared: 8.896
       eu-west-1:
         Dedicated: 8.448
         Shared: 5.504
+      eu-west-2:
+        Dedicated: 8.736
+        Shared: 8.736
       us-east-1:
-        Dedicated: 7.936
+        Dedicated: 4.992
         Shared: 7.936
       us-east-2:
         Dedicated: 7.936
         Shared: 7.936
       us-west-2:
-        Dedicated: 7.936
+        Dedicated: 4.992
         Shared: 7.936
   regions:
     - eu-central-1
-    - eu-west-1
     - us-west-2
+    - eu-west-1
     - us-east-1
+    - eu-west-2
     - us-east-2
     - ap-southeast-2
     - ap-northeast-1
-    - eu-west-2
     - us-gov-west-1
   storage: 8 x 1900 NVMe SSD
   vcpu: 72
@@ -9422,7 +9434,7 @@ i3.xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 0.587
-        Shared: 0.366
+        Shared: 0.55
       ap-northeast-2:
         Dedicated: 0.403
         Shared: 0.55
@@ -9430,7 +9442,7 @@ i3.xlarge:
         Dedicated: 0.587
         Shared: 0.366
       ap-south-1:
-        Dedicated: 0.389
+        Dedicated: 0.573
         Shared: 0.354
       ap-southeast-1:
         Dedicated: 0.595
@@ -9439,10 +9451,10 @@ i3.xlarge:
         Dedicated: 0.595
         Shared: 0.558
       ca-central-1:
-        Dedicated: 0.378
+        Dedicated: 0.562
         Shared: 0.344
       eu-central-1:
-        Dedicated: 0.593
+        Dedicated: 0.409
         Shared: 0.556
       eu-west-1:
         Dedicated: 0.562
@@ -9452,13 +9464,13 @@ i3.xlarge:
         Shared: 0.546
       eu-west-3:
         Dedicated: 0.582
-        Shared: 0.362
+        Shared: 0.546
       sa-east-1:
         Dedicated: 0.813
         Shared: 0.756
       us-east-1:
         Dedicated: 0.527
-        Shared: 0.312
+        Shared: 0.496
       us-east-2:
         Dedicated: 0.343
         Shared: 0.312
@@ -9469,26 +9481,26 @@ i3.xlarge:
         Dedicated: 0.378
         Shared: 0.528
       us-west-2:
-        Dedicated: 0.343
+        Dedicated: 0.527
         Shared: 0.496
   regions:
     - us-east-2
-    - ap-northeast-2
     - ap-southeast-1
-    - eu-west-3
-    - ap-southeast-2
+    - ap-northeast-2
     - us-east-1
-    - sa-east-1
-    - ca-central-1
-    - eu-west-1
-    - ap-northeast-1
+    - ap-southeast-2
     - eu-west-2
+    - eu-west-1
+    - sa-east-1
     - us-west-1
+    - ap-south-1
     - eu-central-1
     - ap-northeast-3
+    - ap-northeast-1
+    - eu-west-3
     - us-gov-west-1
     - us-west-2
-    - ap-south-1
+    - ca-central-1
   storage: 1 x 950 NVMe SSD
   vcpu: 4
 m1.large:
@@ -9591,8 +9603,8 @@ m1.large:
         Dedicated: 0.256
         Shared: 0.373
       ap-southeast-2:
-        Dedicated: 0.256
-        Shared: 0.233
+        Dedicated: 0.41
+        Shared: 0.373
       eu-west-1:
         Dedicated: 0.209
         Shared: 0.299
@@ -9607,17 +9619,17 @@ m1.large:
         Shared: 0.335
       us-west-1:
         Dedicated: 0.209
-        Shared: 0.19
+        Shared: 0.314
       us-west-2:
-        Dedicated: 0.193
+        Dedicated: 0.329
         Shared: 0.299
   regions:
     - eu-west-1
     - us-west-1
     - us-west-2
     - ap-southeast-1
-    - us-east-1
     - us-gov-west-1
+    - us-east-1
     - sa-east-1
     - ap-southeast-2
     - ap-northeast-1
@@ -9717,7 +9729,7 @@ m1.medium:
         Shared: 0.187
     Windows:
       ap-northeast-1:
-        Dedicated: 0.134
+        Dedicated: 0.195
         Shared: 0.177
       ap-southeast-1:
         Dedicated: 0.129
@@ -9733,10 +9745,10 @@ m1.medium:
         Shared: 0.117
       us-east-1:
         Dedicated: 0.096
-        Shared: 0.087
+        Shared: 0.149
       us-gov-west-1:
         Dedicated: 0.117
-        Shared: 0.106
+        Shared: 0.168
       us-west-1:
         Dedicated: 0.173
         Shared: 0.095
@@ -9746,13 +9758,13 @@ m1.medium:
   regions:
     - us-west-2
     - ap-northeast-1
-    - eu-west-1
-    - us-west-1
     - us-east-1
-    - us-gov-west-1
-    - ap-southeast-1
+    - eu-west-1
     - sa-east-1
+    - us-gov-west-1
+    - us-west-1
     - ap-southeast-2
+    - ap-southeast-1
   storage: 1 x 410
   vcpu: 1
 m1.small:
@@ -9849,10 +9861,10 @@ m1.small:
         Shared: 0.074
     Windows:
       ap-northeast-1:
-        Dedicated: 0.067
-        Shared: 0.088
+        Dedicated: 0.097
+        Shared: 0.061
       ap-southeast-1:
-        Dedicated: 0.064
+        Dedicated: 0.102
         Shared: 0.058
       ap-southeast-2:
         Dedicated: 0.102
@@ -9861,11 +9873,11 @@ m1.small:
         Dedicated: 0.052
         Shared: 0.047
       sa-east-1:
-        Dedicated: 0.098
+        Dedicated: 0.064
         Shared: 0.058
       us-east-1:
         Dedicated: 0.048
-        Shared: 0.075
+        Shared: 0.044
       us-gov-west-1:
         Dedicated: 0.092
         Shared: 0.053
@@ -9874,17 +9886,17 @@ m1.small:
         Shared: 0.078
       us-west-2:
         Dedicated: 0.083
-        Shared: 0.044
+        Shared: 0.075
   regions:
     - us-east-1
-    - us-gov-west-1
-    - us-west-2
     - ap-southeast-2
+    - us-gov-west-1
     - us-west-1
-    - ap-southeast-1
-    - eu-west-1
-    - ap-northeast-1
     - sa-east-1
+    - eu-west-1
+    - us-west-2
+    - ap-southeast-1
+    - ap-northeast-1
   storage: 1 x 160
   vcpu: 1
 m1.xlarge:
@@ -9985,7 +9997,7 @@ m1.xlarge:
         Shared: 0.706
       ap-southeast-1:
         Dedicated: 0.514
-        Shared: 0.467
+        Shared: 0.747
       ap-southeast-2:
         Dedicated: 0.514
         Shared: 0.467
@@ -9999,7 +10011,7 @@ m1.xlarge:
         Dedicated: 0.385
         Shared: 0.35
       us-gov-west-1:
-        Dedicated: 0.465
+        Dedicated: 0.738
         Shared: 0.671
       us-west-1:
         Dedicated: 0.417
@@ -10008,15 +10020,15 @@ m1.xlarge:
         Dedicated: 0.658
         Shared: 0.598
   regions:
-    - ap-northeast-1
     - us-gov-west-1
     - sa-east-1
-    - us-west-2
     - us-east-1
     - us-west-1
-    - ap-southeast-2
+    - us-west-2
     - eu-west-1
     - ap-southeast-1
+    - ap-southeast-2
+    - ap-northeast-1
   storage: 4 x 420
   vcpu: 4
 m2.2xlarge:
@@ -10122,10 +10134,10 @@ m2.2xlarge:
         Dedicated: 0.651
         Shared: 0.742
       eu-west-1:
-        Dedicated: 0.759
+        Dedicated: 0.605
         Shared: 0.69
       sa-east-1:
-        Dedicated: 0.93
+        Dedicated: 0.71
         Shared: 0.645
       us-east-1:
         Dedicated: 0.539
@@ -10137,16 +10149,16 @@ m2.2xlarge:
         Dedicated: 0.605
         Shared: 0.75
       us-west-2:
-        Dedicated: 0.759
-        Shared: 0.69
+        Dedicated: 0.539
+        Shared: 0.49
   regions:
     - ap-northeast-1
     - eu-west-1
     - us-gov-west-1
     - sa-east-1
     - us-west-1
-    - ap-southeast-2
     - ap-southeast-1
+    - ap-southeast-2
     - us-east-1
     - us-west-2
   storage: 1 x 850
@@ -10248,17 +10260,17 @@ m2.4xlarge:
         Dedicated: 1.551
         Shared: 1.41
       ap-southeast-1:
-        Dedicated: 1.301
+        Dedicated: 1.631
         Shared: 1.483
       ap-southeast-2:
         Dedicated: 1.301
         Shared: 1.483
       eu-west-1:
         Dedicated: 1.518
-        Shared: 1.1
+        Shared: 1.38
       sa-east-1:
         Dedicated: 1.42
-        Shared: 1.691
+        Shared: 1.291
       us-east-1:
         Dedicated: 1.518
         Shared: 1.38
@@ -10270,16 +10282,16 @@ m2.4xlarge:
         Shared: 1.5
       us-west-2:
         Dedicated: 1.078
-        Shared: 1.38
+        Shared: 0.98
   regions:
     - us-east-1
-    - sa-east-1
-    - us-west-1
-    - ap-southeast-2
     - us-gov-west-1
     - ap-southeast-1
-    - ap-northeast-1
+    - sa-east-1
+    - us-west-1
     - us-west-2
+    - ap-southeast-2
+    - ap-northeast-1
     - eu-west-1
   storage: 2 x 840
   vcpu: 8
@@ -10377,8 +10389,8 @@ m2.xlarge:
         Shared: 0.345
     Windows:
       ap-northeast-1:
-        Dedicated: 0.316
-        Shared: 0.287
+        Dedicated: 0.387
+        Shared: 0.352
       ap-southeast-1:
         Dedicated: 0.326
         Shared: 0.371
@@ -10390,29 +10402,29 @@ m2.xlarge:
         Shared: 0.275
       sa-east-1:
         Dedicated: 0.465
-        Shared: 0.323
+        Shared: 0.423
       us-east-1:
         Dedicated: 0.27
         Shared: 0.245
       us-gov-west-1:
         Dedicated: 0.432
-        Shared: 0.293
+        Shared: 0.393
       us-west-1:
         Dedicated: 0.413
-        Shared: 0.275
+        Shared: 0.375
       us-west-2:
         Dedicated: 0.38
         Shared: 0.245
   regions:
-    - sa-east-1
     - eu-west-1
     - ap-southeast-1
     - us-west-1
     - us-west-2
-    - us-gov-west-1
+    - sa-east-1
     - ap-northeast-1
     - ap-southeast-2
     - us-east-1
+    - us-gov-west-1
   storage: 1 x 420
   vcpu: 2
 m3.2xlarge:
@@ -10539,12 +10551,12 @@ m3.2xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 1.283
-        Shared: 1.166
+        Shared: 0.77
       ap-northeast-2:
         Dedicated: 1.17265
         Shared: 1.1
       ap-southeast-1:
-        Dedicated: 0.862
+        Dedicated: 1.417
         Shared: 1.288
       ap-southeast-2:
         Dedicated: 1.374
@@ -10553,7 +10565,7 @@ m3.2xlarge:
         Dedicated: 0.695
         Shared: 0.632
       eu-west-1:
-        Dedicated: 1.136
+        Dedicated: 0.644
         Shared: 1.033
       sa-east-1:
         Dedicated: 1.392
@@ -10563,25 +10575,25 @@ m3.2xlarge:
         Shared: 1.036
       us-gov-west-1:
         Dedicated: 1.294
-        Shared: 0.672
+        Shared: 1.176
       us-west-1:
-        Dedicated: 0.678
+        Dedicated: 1.232
         Shared: 1.12
       us-west-2:
         Dedicated: 1.14
         Shared: 0.532
   regions:
-    - ap-northeast-2
+    - eu-central-1
     - ap-southeast-2
     - ap-northeast-1
     - us-west-2
     - ap-southeast-1
     - us-east-1
     - us-west-1
-    - sa-east-1
     - us-gov-west-1
+    - sa-east-1
     - eu-west-1
-    - eu-central-1
+    - ap-northeast-2
     - ap-northeast-3
   storage: 2 x 80 SSD
   vcpu: 8
@@ -10704,10 +10716,10 @@ m3.large:
         Dedicated: 0.201685
         Shared: 0.275
       ap-southeast-1:
-        Dedicated: 0.216
+        Dedicated: 0.354
         Shared: 0.322
       ap-southeast-2:
-        Dedicated: 0.205
+        Dedicated: 0.343
         Shared: 0.312
       eu-central-1:
         Dedicated: 0.174
@@ -10716,11 +10728,11 @@ m3.large:
         Dedicated: 0.284
         Shared: 0.258
       sa-east-1:
-        Dedicated: 0.209
+        Dedicated: 0.348
         Shared: 0.316
       us-east-1:
         Dedicated: 0.285
-        Shared: 0.133
+        Shared: 0.259
       us-gov-west-1:
         Dedicated: 0.185
         Shared: 0.294
@@ -10732,17 +10744,17 @@ m3.large:
         Shared: 0.259
   regions:
     - sa-east-1
-    - ap-southeast-1
-    - ap-southeast-2
     - ap-northeast-1
     - us-west-2
+    - ap-southeast-1
     - eu-west-1
-    - us-west-1
     - us-east-1
-    - us-gov-west-1
+    - ap-southeast-2
     - ap-northeast-3
+    - us-west-1
     - eu-central-1
     - ap-northeast-2
+    - us-gov-west-1
   storage: 1 x 32 SSD
   vcpu: 2
 m3.medium:
@@ -10864,44 +10876,44 @@ m3.medium:
         Dedicated: 0.14632
         Shared: 0.137
       ap-southeast-1:
-        Dedicated: 0.177
+        Dedicated: 0.108
         Shared: 0.161
       ap-southeast-2:
-        Dedicated: 0.172
-        Shared: 0.156
+        Dedicated: 0.102
+        Shared: 0.093
       eu-central-1:
         Dedicated: 0.087
         Shared: 0.142
       eu-west-1:
-        Dedicated: 0.142
+        Dedicated: 0.08
         Shared: 0.129
       sa-east-1:
         Dedicated: 0.105
-        Shared: 0.095
+        Shared: 0.158
       us-east-1:
         Dedicated: 0.143
         Shared: 0.067
       us-gov-west-1:
-        Dedicated: 0.162
+        Dedicated: 0.092
         Shared: 0.147
       us-west-1:
         Dedicated: 0.154
-        Shared: 0.077
+        Shared: 0.14
       us-west-2:
         Dedicated: 0.143
         Shared: 0.067
   regions:
-    - eu-west-1
     - us-gov-west-1
+    - eu-west-1
     - ap-northeast-1
     - ap-southeast-2
     - ap-northeast-3
-    - us-west-1
-    - us-west-2
     - us-east-1
     - eu-central-1
+    - us-west-1
     - ap-northeast-2
     - ap-southeast-1
+    - us-west-2
     - sa-east-1
   storage: 1 x 4 SSD
   vcpu: 1
@@ -11032,46 +11044,46 @@ m3.xlarge:
         Shared: 0.583
       ap-northeast-2:
         Dedicated: 0.586325
-        Shared: 0.366
+        Shared: 0.55
       ap-southeast-1:
         Dedicated: 0.431
         Shared: 0.644
       ap-southeast-2:
-        Dedicated: 0.686
+        Dedicated: 0.409
         Shared: 0.624
       eu-central-1:
         Dedicated: 0.347
-        Shared: 0.567
+        Shared: 0.315
       eu-west-1:
-        Dedicated: 0.322
-        Shared: 0.293
+        Dedicated: 0.569
+        Shared: 0.517
       sa-east-1:
         Dedicated: 0.419
-        Shared: 0.381
+        Shared: 0.633
       us-east-1:
         Dedicated: 0.57
         Shared: 0.518
       us-gov-west-1:
-        Dedicated: 0.647
+        Dedicated: 0.37
         Shared: 0.588
       us-west-1:
         Dedicated: 0.616
         Shared: 0.56
       us-west-2:
-        Dedicated: 0.57
+        Dedicated: 0.293
         Shared: 0.518
   regions:
-    - ap-northeast-1
-    - ap-northeast-2
-    - ap-southeast-1
-    - us-east-1
-    - ap-northeast-3
     - eu-central-1
-    - eu-west-1
+    - ap-northeast-2
+    - ap-northeast-3
+    - sa-east-1
+    - ap-southeast-1
     - ap-southeast-2
     - us-west-1
+    - ap-northeast-1
     - us-west-2
-    - sa-east-1
+    - eu-west-1
+    - us-east-1
     - us-gov-west-1
   storage: 2 x 40 SSD
   vcpu: 4
@@ -11235,31 +11247,31 @@ m4.10xlarge:
         Shared: 2.1
     Windows:
       ap-northeast-1:
-        Dedicated: 2.58
+        Dedicated: 4.42
         Shared: 4.42
       ap-northeast-2:
         Dedicated: 4.3
         Shared: 4.3
       ap-northeast-3:
-        Dedicated: 4.42
+        Dedicated: 2.58
         Shared: 4.42
       ap-south-1:
-        Dedicated: 2.1
+        Dedicated: 3.94
         Shared: 2.1
       ap-southeast-1:
-        Dedicated: 4.34
-        Shared: 4.34
+        Dedicated: 2.5
+        Shared: 2.5
       ap-southeast-2:
         Dedicated: 4.34
         Shared: 4.34
       ca-central-1:
         Dedicated: 2.22
-        Shared: 2.22
+        Shared: 4.06
       eu-central-1:
         Dedicated: 2.4
         Shared: 4.24
       eu-west-1:
-        Dedicated: 2.22
+        Dedicated: 4.06
         Shared: 4.06
       eu-west-2:
         Dedicated: 4.16
@@ -11272,33 +11284,33 @@ m4.10xlarge:
         Shared: 3.84
       us-east-2:
         Dedicated: 3.84
-        Shared: 3.84
+        Shared: 2
       us-gov-west-1:
-        Dedicated: 2.52
+        Dedicated: 4.36
         Shared: 2.52
       us-west-1:
         Dedicated: 4.18
-        Shared: 4.18
+        Shared: 2.34
       us-west-2:
         Dedicated: 2
         Shared: 3.84
   regions:
-    - eu-west-2
     - ap-south-1
     - ap-southeast-1
     - us-east-2
-    - us-east-1
-    - us-west-1
+    - ca-central-1
     - ap-northeast-1
     - ap-southeast-2
+    - us-west-1
+    - us-east-1
     - us-west-2
-    - eu-west-1
-    - ca-central-1
-    - sa-east-1
     - ap-northeast-3
+    - eu-central-1
+    - eu-west-2
+    - sa-east-1
+    - eu-west-1
     - ap-northeast-2
     - us-gov-west-1
-    - eu-central-1
     - eu-west-3
   storage: EBS only
   vcpu: 40
@@ -11463,7 +11475,7 @@ m4.16xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 7.072
-        Shared: 4.128
+        Shared: 7.072
       ap-northeast-2:
         Dedicated: 6.88
         Shared: 6.88
@@ -11472,12 +11484,12 @@ m4.16xlarge:
         Shared: 7.072
       ap-south-1:
         Dedicated: 3.36
-        Shared: 3.36
+        Shared: 6.304
       ap-southeast-1:
         Dedicated: 6.944
         Shared: 6.944
       ap-southeast-2:
-        Dedicated: 4
+        Dedicated: 6.944
         Shared: 6.944
       ca-central-1:
         Dedicated: 6.496
@@ -11486,19 +11498,19 @@ m4.16xlarge:
         Dedicated: 3.84
         Shared: 6.784
       eu-west-1:
-        Dedicated: 6.496
+        Dedicated: 3.552
         Shared: 6.496
       eu-west-2:
-        Dedicated: 3.712
+        Dedicated: 6.656
         Shared: 6.656
       sa-east-1:
-        Dedicated: 5.088
-        Shared: 5.088
+        Dedicated: 8.032
+        Shared: 8.032
       us-east-1:
         Dedicated: 6.144
         Shared: 6.144
       us-east-2:
-        Dedicated: 3.2
+        Dedicated: 6.144
         Shared: 6.144
       us-gov-west-1:
         Dedicated: 4.032
@@ -11507,25 +11519,25 @@ m4.16xlarge:
         Dedicated: 3.744
         Shared: 6.688
       us-west-2:
-        Dedicated: 6.144
+        Dedicated: 3.2
         Shared: 6.144
   regions:
-    - us-west-1
     - eu-west-2
+    - us-west-1
     - ap-northeast-1
-    - ap-northeast-2
-    - eu-west-1
     - ap-southeast-1
     - us-east-1
+    - eu-central-1
     - ap-south-1
     - ca-central-1
-    - us-west-2
-    - ap-southeast-2
     - sa-east-1
-    - eu-central-1
-    - us-gov-west-1
+    - ap-northeast-2
+    - eu-west-1
+    - us-west-2
     - ap-northeast-3
+    - ap-southeast-2
     - us-east-2
+    - us-gov-west-1
     - eu-west-3
   storage: EBS only
   vcpu: 64
@@ -11690,7 +11702,7 @@ m4.2xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 0.9356
-        Shared: 0.884
+        Shared: 0.516
       ap-northeast-2:
         Dedicated: 0.9092
         Shared: 0.492
@@ -11698,32 +11710,32 @@ m4.2xlarge:
         Dedicated: 0.5676
         Shared: 0.884
       ap-south-1:
-        Dedicated: 0.462
+        Dedicated: 0.83
         Shared: 0.788
       ap-southeast-1:
         Dedicated: 0.918
         Shared: 0.868
       ap-southeast-2:
-        Dedicated: 0.55
+        Dedicated: 0.918
         Shared: 0.868
       ca-central-1:
         Dedicated: 0.8564
-        Shared: 0.444
+        Shared: 0.812
       eu-central-1:
         Dedicated: 0.896
-        Shared: 0.48
+        Shared: 0.848
       eu-west-1:
         Dedicated: 0.4884
         Shared: 0.444
       eu-west-2:
-        Dedicated: 0.8784
+        Dedicated: 0.5104
         Shared: 0.832
       sa-east-1:
-        Dedicated: 1.0676
-        Shared: 0.636
+        Dedicated: 0.6996
+        Shared: 1.004
       us-east-1:
         Dedicated: 0.808
-        Shared: 0.768
+        Shared: 0.4
       us-east-2:
         Dedicated: 0.808
         Shared: 0.4
@@ -11731,28 +11743,28 @@ m4.2xlarge:
         Dedicated: 0.5544
         Shared: 0.872
       us-west-1:
-        Dedicated: 0.5148
-        Shared: 0.836
+        Dedicated: 0.8828
+        Shared: 0.468
       us-west-2:
-        Dedicated: 0.44
-        Shared: 0.4
+        Dedicated: 0.808
+        Shared: 0.768
   regions:
-    - ap-northeast-2
-    - eu-west-2
-    - ap-northeast-1
     - us-east-2
+    - ap-northeast-1
+    - ap-northeast-2
     - us-west-1
-    - sa-east-1
-    - ap-south-1
-    - ap-southeast-2
     - us-west-2
     - eu-central-1
-    - us-east-1
+    - ap-southeast-2
     - ca-central-1
-    - ap-southeast-1
+    - eu-west-2
     - us-gov-west-1
-    - ap-northeast-3
+    - sa-east-1
+    - ap-southeast-1
+    - ap-south-1
+    - us-east-1
     - eu-west-1
+    - ap-northeast-3
     - eu-west-3
   storage: EBS only
   vcpu: 8
@@ -11916,11 +11928,11 @@ m4.4xlarge:
         Shared: 0.9
     Windows:
       ap-northeast-1:
-        Dedicated: 1.8712
+        Dedicated: 1.1352
         Shared: 1.768
       ap-northeast-2:
         Dedicated: 1.8184
-        Shared: 1.72
+        Shared: 0.984
       ap-northeast-3:
         Dedicated: 1.1352
         Shared: 1.768
@@ -11938,10 +11950,10 @@ m4.4xlarge:
         Shared: 0.888
       eu-central-1:
         Dedicated: 1.056
-        Shared: 0.96
+        Shared: 1.696
       eu-west-1:
         Dedicated: 1.7128
-        Shared: 0.888
+        Shared: 1.624
       eu-west-2:
         Dedicated: 1.0208
         Shared: 0.928
@@ -11953,9 +11965,9 @@ m4.4xlarge:
         Shared: 1.536
       us-east-2:
         Dedicated: 1.616
-        Shared: 1.536
+        Shared: 0.8
       us-gov-west-1:
-        Dedicated: 1.1088
+        Dedicated: 1.8448
         Shared: 1.008
       us-west-1:
         Dedicated: 1.0296
@@ -11965,21 +11977,21 @@ m4.4xlarge:
         Shared: 0.8
   regions:
     - ap-southeast-1
-    - ap-northeast-3
     - ap-northeast-2
     - us-west-2
-    - ap-south-1
-    - ap-southeast-2
-    - eu-west-2
-    - us-gov-west-1
-    - us-west-1
-    - us-east-2
-    - us-east-1
-    - eu-west-1
-    - ap-northeast-1
-    - sa-east-1
-    - ca-central-1
     - eu-central-1
+    - ap-northeast-3
+    - ap-southeast-2
+    - us-west-1
+    - us-east-1
+    - eu-west-2
+    - us-east-2
+    - ap-northeast-1
+    - ca-central-1
+    - ap-south-1
+    - sa-east-1
+    - eu-west-1
+    - us-gov-west-1
     - eu-west-3
   storage: EBS only
   vcpu: 16
@@ -12144,7 +12156,7 @@ m4.large:
     Windows:
       ap-northeast-1:
         Dedicated: 0.2339
-        Shared: 0.129
+        Shared: 0.221
       ap-northeast-2:
         Dedicated: 0.1353
         Shared: 0.123
@@ -12155,7 +12167,7 @@ m4.large:
         Dedicated: 0.2075
         Shared: 0.105
       ap-southeast-1:
-        Dedicated: 0.1375
+        Dedicated: 0.2295
         Shared: 0.125
       ap-southeast-2:
         Dedicated: 0.1375
@@ -12164,8 +12176,8 @@ m4.large:
         Dedicated: 0.2141
         Shared: 0.203
       eu-central-1:
-        Dedicated: 0.132
-        Shared: 0.212
+        Dedicated: 0.224
+        Shared: 0.12
       eu-west-1:
         Dedicated: 0.1221
         Shared: 0.111
@@ -12174,16 +12186,16 @@ m4.large:
         Shared: 0.208
       sa-east-1:
         Dedicated: 0.2669
-        Shared: 0.159
+        Shared: 0.251
       us-east-1:
         Dedicated: 0.11
         Shared: 0.192
       us-east-2:
         Dedicated: 0.202
-        Shared: 0.192
+        Shared: 0.1
       us-gov-west-1:
         Dedicated: 0.2306
-        Shared: 0.126
+        Shared: 0.218
       us-west-1:
         Dedicated: 0.2207
         Shared: 0.209
@@ -12191,21 +12203,21 @@ m4.large:
         Dedicated: 0.202
         Shared: 0.192
   regions:
-    - us-east-1
+    - eu-west-2
     - sa-east-1
     - ap-northeast-1
     - eu-central-1
-    - eu-west-1
-    - us-east-2
-    - ap-southeast-1
     - ap-northeast-3
+    - ap-south-1
     - us-west-1
     - ca-central-1
+    - us-east-2
+    - eu-west-1
+    - us-east-1
     - us-west-2
-    - eu-west-2
     - ap-northeast-2
     - ap-southeast-2
-    - ap-south-1
+    - ap-southeast-1
     - us-gov-west-1
     - eu-west-3
   storage: EBS only
@@ -12374,9 +12386,9 @@ m4.xlarge:
         Shared: 0.442
       ap-northeast-2:
         Dedicated: 0.4546
-        Shared: 0.43
+        Shared: 0.246
       ap-northeast-3:
-        Dedicated: 0.4678
+        Dedicated: 0.2838
         Shared: 0.258
       ap-south-1:
         Dedicated: 0.231
@@ -12388,17 +12400,17 @@ m4.xlarge:
         Dedicated: 0.275
         Shared: 0.434
       ca-central-1:
-        Dedicated: 0.2442
-        Shared: 0.222
+        Dedicated: 0.4282
+        Shared: 0.406
       eu-central-1:
-        Dedicated: 0.264
+        Dedicated: 0.448
         Shared: 0.424
       eu-west-1:
         Dedicated: 0.4282
         Shared: 0.406
       eu-west-2:
         Dedicated: 0.2552
-        Shared: 0.232
+        Shared: 0.416
       sa-east-1:
         Dedicated: 0.3498
         Shared: 0.318
@@ -12412,28 +12424,28 @@ m4.xlarge:
         Dedicated: 0.2772
         Shared: 0.436
       us-west-1:
-        Dedicated: 0.4414
+        Dedicated: 0.2574
         Shared: 0.418
       us-west-2:
         Dedicated: 0.22
         Shared: 0.384
   regions:
-    - us-west-2
-    - ap-northeast-1
-    - eu-central-1
-    - us-east-2
-    - eu-west-2
-    - ap-southeast-2
-    - ap-northeast-3
-    - us-east-1
-    - ap-southeast-1
-    - ap-northeast-2
-    - ap-south-1
     - ca-central-1
-    - us-west-1
+    - eu-central-1
+    - ap-northeast-1
+    - us-east-2
+    - us-east-1
+    - ap-south-1
+    - ap-northeast-2
+    - us-west-2
     - sa-east-1
+    - eu-west-2
     - eu-west-1
+    - ap-southeast-1
     - us-gov-west-1
+    - ap-southeast-2
+    - us-west-1
+    - ap-northeast-3
     - eu-west-3
   storage: EBS only
   vcpu: 4
@@ -12600,17 +12612,17 @@ m5.12xlarge:
         Dedicated: 3.173
         Shared: 5.184
       ap-northeast-2:
-        Dedicated: 3
-        Shared: 5.04
+        Dedicated: 5.208
+        Shared: 2.832
       ap-south-1:
         Dedicated: 4.78
         Shared: 4.632
       ap-southeast-1:
-        Dedicated: 3.058
+        Dedicated: 5.266
         Shared: 2.88
       ap-southeast-2:
         Dedicated: 3.07
-        Shared: 2.88
+        Shared: 5.088
       ca-central-1:
         Dedicated: 4.931
         Shared: 4.776
@@ -12621,23 +12633,23 @@ m5.12xlarge:
         Dedicated: 4.948
         Shared: 4.776
       eu-west-2:
-        Dedicated: 5.05
+        Dedicated: 2.842
         Shared: 2.664
       eu-west-3:
         Dedicated: 2.868
         Shared: 4.896
       sa-east-1:
         Dedicated: 3.878
-        Shared: 3.672
+        Shared: 5.88
       us-east-1:
         Dedicated: 2.444
         Shared: 4.512
       us-east-2:
-        Dedicated: 2.444
-        Shared: 4.512
+        Dedicated: 4.652
+        Shared: 2.304
       us-gov-west-1:
         Dedicated: 3.094
-        Shared: 5.112
+        Shared: 2.904
       us-west-1:
         Dedicated: 5.088
         Shared: 4.896
@@ -12646,21 +12658,21 @@ m5.12xlarge:
         Shared: 2.304
   regions:
     - ap-southeast-2
-    - ap-northeast-2
-    - sa-east-1
-    - eu-west-1
-    - ap-southeast-1
-    - us-east-2
     - us-west-2
     - us-east-1
+    - ap-northeast-2
     - eu-west-2
     - eu-west-3
-    - ca-central-1
-    - us-gov-west-1
+    - eu-west-1
+    - sa-east-1
     - ap-northeast-1
     - us-west-1
     - ap-south-1
     - eu-central-1
+    - us-gov-west-1
+    - ap-southeast-1
+    - ca-central-1
+    - us-east-2
   storage: EBS only
   vcpu: 48
 m5.24xlarge:
@@ -12833,31 +12845,31 @@ m5.24xlarge:
         Shared: 9.264
       ap-southeast-1:
         Dedicated: 5.76
-        Shared: 10.176
+        Shared: 5.76
       ap-southeast-2:
         Dedicated: 10.176
-        Shared: 10.176
+        Shared: 5.76
       ca-central-1:
-        Dedicated: 5.136
-        Shared: 5.136
+        Dedicated: 9.552
+        Shared: 9.552
       eu-central-1:
         Dedicated: 9.936
         Shared: 5.52
       eu-west-1:
-        Dedicated: 5.136
+        Dedicated: 9.552
         Shared: 5.136
       eu-west-2:
-        Dedicated: 5.328
+        Dedicated: 9.744
         Shared: 5.328
       eu-west-3:
         Dedicated: 9.792
         Shared: 9.792
       sa-east-1:
-        Dedicated: 7.344
+        Dedicated: 11.76
         Shared: 7.344
       us-east-1:
         Dedicated: 9.024
-        Shared: 9.024
+        Shared: 4.608
       us-east-2:
         Dedicated: 9.024
         Shared: 9.024
@@ -12866,27 +12878,27 @@ m5.24xlarge:
         Shared: 10.224
       us-west-1:
         Dedicated: 9.792
-        Shared: 9.792
+        Shared: 5.376
       us-west-2:
         Dedicated: 9.024
         Shared: 9.024
   regions:
-    - ap-southeast-2
-    - us-west-1
+    - eu-central-1
     - sa-east-1
+    - us-west-1
     - ap-northeast-2
-    - ap-northeast-1
-    - us-east-1
+    - ca-central-1
     - us-west-2
     - ap-south-1
-    - eu-west-2
+    - ap-southeast-2
     - us-east-2
-    - ap-southeast-1
-    - eu-central-1
-    - ca-central-1
     - eu-west-3
+    - us-east-1
     - us-gov-west-1
+    - eu-west-2
     - eu-west-1
+    - ap-northeast-1
+    - ap-southeast-1
   storage: EBS only
   vcpu: 96
 m5.2xlarge:
@@ -13049,14 +13061,14 @@ m5.2xlarge:
         Shared: 0.484
     Windows:
       ap-northeast-1:
-        Dedicated: 0.529
+        Dedicated: 0.897
         Shared: 0.496
       ap-northeast-2:
         Dedicated: 0.868
-        Shared: 0.84
+        Shared: 0.472
       ap-south-1:
         Dedicated: 0.797
-        Shared: 0.404
+        Shared: 0.772
       ap-southeast-1:
         Dedicated: 0.878
         Shared: 0.848
@@ -13073,17 +13085,17 @@ m5.2xlarge:
         Dedicated: 0.825
         Shared: 0.428
       eu-west-2:
-        Dedicated: 0.474
-        Shared: 0.444
+        Dedicated: 0.842
+        Shared: 0.812
       eu-west-3:
         Dedicated: 0.478
         Shared: 0.816
       sa-east-1:
-        Dedicated: 0.646
-        Shared: 0.98
+        Dedicated: 1.014
+        Shared: 0.612
       us-east-1:
         Dedicated: 0.407
-        Shared: 0.752
+        Shared: 0.384
       us-east-2:
         Dedicated: 0.407
         Shared: 0.384
@@ -13092,27 +13104,27 @@ m5.2xlarge:
         Shared: 0.852
       us-west-1:
         Dedicated: 0.848
-        Shared: 0.816
+        Shared: 0.448
       us-west-2:
         Dedicated: 0.407
-        Shared: 0.752
+        Shared: 0.384
   regions:
     - ap-southeast-2
-    - eu-central-1
-    - us-gov-west-1
-    - ap-southeast-1
-    - us-west-1
     - eu-west-2
     - eu-west-1
-    - us-west-2
     - us-east-1
     - us-east-2
     - ap-northeast-2
+    - eu-central-1
+    - ap-southeast-1
+    - eu-west-3
     - sa-east-1
+    - ap-northeast-1
     - ap-south-1
     - ca-central-1
-    - ap-northeast-1
-    - eu-west-3
+    - us-west-2
+    - us-west-1
+    - us-gov-west-1
   storage: EBS only
   vcpu: 8
 m5.4xlarge:
@@ -13281,7 +13293,7 @@ m5.4xlarge:
         Dedicated: 1.736
         Shared: 1.68
       ap-south-1:
-        Dedicated: 0.857
+        Dedicated: 1.593
         Shared: 1.544
       ap-southeast-1:
         Dedicated: 1.755
@@ -13291,27 +13303,27 @@ m5.4xlarge:
         Shared: 1.696
       ca-central-1:
         Dedicated: 1.644
-        Shared: 0.856
+        Shared: 1.592
       eu-central-1:
         Dedicated: 1.718
-        Shared: 1.656
+        Shared: 0.92
       eu-west-1:
         Dedicated: 1.649
-        Shared: 0.856
+        Shared: 1.592
       eu-west-2:
-        Dedicated: 1.683
+        Dedicated: 0.947
         Shared: 1.624
       eu-west-3:
         Dedicated: 0.956
-        Shared: 0.896
+        Shared: 1.632
       sa-east-1:
-        Dedicated: 1.293
+        Dedicated: 2.029
         Shared: 1.96
       us-east-1:
-        Dedicated: 0.815
+        Dedicated: 1.551
         Shared: 0.768
       us-east-2:
-        Dedicated: 1.551
+        Dedicated: 0.815
         Shared: 1.504
       us-gov-west-1:
         Dedicated: 1.031
@@ -13320,24 +13332,24 @@ m5.4xlarge:
         Dedicated: 0.96
         Shared: 1.632
       us-west-2:
-        Dedicated: 0.815
+        Dedicated: 1.551
         Shared: 1.504
   regions:
     - us-east-1
     - ap-southeast-2
     - us-east-2
-    - us-gov-west-1
-    - sa-east-1
-    - eu-west-1
     - us-west-2
-    - ap-southeast-1
-    - ap-northeast-2
-    - ap-northeast-1
-    - ca-central-1
-    - eu-central-1
-    - us-west-1
-    - eu-west-2
     - ap-south-1
+    - eu-west-1
+    - eu-west-2
+    - ca-central-1
+    - ap-southeast-1
+    - ap-northeast-1
+    - eu-central-1
+    - us-gov-west-1
+    - us-west-1
+    - ap-northeast-2
+    - sa-east-1
     - eu-west-3
   storage: EBS only
   vcpu: 16
@@ -13502,31 +13514,31 @@ m5.large:
     Windows:
       ap-northeast-1:
         Dedicated: 0.224
-        Shared: 0.124
+        Shared: 0.216
       ap-northeast-2:
         Dedicated: 0.217
         Shared: 0.21
       ap-south-1:
-        Dedicated: 0.199
+        Dedicated: 0.107
         Shared: 0.193
       ap-southeast-1:
         Dedicated: 0.219
         Shared: 0.212
       ap-southeast-2:
         Dedicated: 0.22
-        Shared: 0.12
+        Shared: 0.212
       ca-central-1:
-        Dedicated: 0.113
-        Shared: 0.107
+        Dedicated: 0.205
+        Shared: 0.199
       eu-central-1:
         Dedicated: 0.123
         Shared: 0.207
       eu-west-1:
-        Dedicated: 0.206
-        Shared: 0.199
+        Dedicated: 0.114
+        Shared: 0.107
       eu-west-2:
         Dedicated: 0.118
-        Shared: 0.203
+        Shared: 0.111
       eu-west-3:
         Dedicated: 0.119
         Shared: 0.204
@@ -13537,29 +13549,29 @@ m5.large:
         Dedicated: 0.102
         Shared: 0.188
       us-east-2:
-        Dedicated: 0.102
+        Dedicated: 0.194
         Shared: 0.188
       us-gov-west-1:
         Dedicated: 0.221
-        Shared: 0.213
+        Shared: 0.121
       us-west-1:
         Dedicated: 0.212
         Shared: 0.204
       us-west-2:
         Dedicated: 0.194
-        Shared: 0.188
+        Shared: 0.096
   regions:
     - us-west-2
     - eu-west-1
     - ap-southeast-1
+    - eu-central-1
     - ap-northeast-2
-    - us-west-1
-    - ap-southeast-2
     - ap-northeast-1
     - us-east-2
-    - eu-central-1
     - sa-east-1
     - eu-west-2
+    - ap-southeast-2
+    - us-west-1
     - eu-west-3
     - ap-south-1
     - us-east-1
@@ -13728,7 +13740,7 @@ m5.xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 0.264
-        Shared: 0.248
+        Shared: 0.432
       ap-northeast-2:
         Dedicated: 0.25
         Shared: 0.42
@@ -13740,27 +13752,27 @@ m5.xlarge:
         Shared: 0.424
       ap-southeast-2:
         Dedicated: 0.44
-        Shared: 0.424
+        Shared: 0.24
       ca-central-1:
         Dedicated: 0.411
-        Shared: 0.214
+        Shared: 0.398
       eu-central-1:
         Dedicated: 0.43
         Shared: 0.414
       eu-west-1:
         Dedicated: 0.228
-        Shared: 0.214
+        Shared: 0.398
       eu-west-2:
         Dedicated: 0.421
-        Shared: 0.406
+        Shared: 0.222
       eu-west-3:
         Dedicated: 0.239
         Shared: 0.408
       sa-east-1:
-        Dedicated: 0.507
+        Dedicated: 0.323
         Shared: 0.49
       us-east-1:
-        Dedicated: 0.388
+        Dedicated: 0.204
         Shared: 0.192
       us-east-2:
         Dedicated: 0.204
@@ -13770,27 +13782,519 @@ m5.xlarge:
         Shared: 0.426
       us-west-1:
         Dedicated: 0.424
-        Shared: 0.224
+        Shared: 0.408
       us-west-2:
-        Dedicated: 0.204
-        Shared: 0.192
+        Dedicated: 0.388
+        Shared: 0.376
   regions:
-    - eu-west-1
+    - ca-central-1
     - us-west-2
     - eu-central-1
     - us-east-2
     - us-east-1
-    - sa-east-1
-    - ap-southeast-1
-    - us-west-1
-    - ap-south-1
-    - ap-northeast-2
-    - ap-southeast-2
-    - ap-northeast-1
-    - ca-central-1
-    - eu-west-2
-    - us-gov-west-1
     - eu-west-3
+    - us-west-1
+    - ap-southeast-2
+    - ap-northeast-2
+    - ap-southeast-1
+    - ap-northeast-1
+    - us-gov-west-1
+    - ap-south-1
+    - sa-east-1
+    - eu-west-2
+    - eu-west-1
+  storage: EBS only
+  vcpu: 4
+m5a.12xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 5000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 192 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 96
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 2.752
+        Shared: 2.592
+      eu-west-1:
+        Dedicated: 2.459
+        Shared: 2.304
+      us-east-1:
+        Dedicated: 2.189
+        Shared: 2.064
+      us-east-2:
+        Dedicated: 2.189
+        Shared: 2.064
+      us-west-2:
+        Dedicated: 2.189
+        Shared: 2.064
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 2.882
+        Shared: 2.722
+      eu-west-1:
+        Dedicated: 2.589
+        Shared: 2.434
+      us-east-1:
+        Dedicated: 2.319
+        Shared: 2.194
+      us-east-2:
+        Dedicated: 2.319
+        Shared: 2.194
+      us-west-2:
+        Dedicated: 2.319
+        Shared: 2.194
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 2.902
+        Shared: 2.742
+      eu-west-1:
+        Dedicated: 2.609
+        Shared: 2.454
+      us-east-1:
+        Dedicated: 2.339
+        Shared: 2.214
+      us-east-2:
+        Dedicated: 2.339
+        Shared: 2.214
+      us-west-2:
+        Dedicated: 2.339
+        Shared: 2.214
+    Windows:
+      ap-southeast-1:
+        Dedicated: 4.96
+        Shared: 2.592
+      eu-west-1:
+        Dedicated: 4.667
+        Shared: 2.304
+      us-east-1:
+        Dedicated: 4.397
+        Shared: 2.064
+      us-east-2:
+        Dedicated: 4.397
+        Shared: 4.272
+      us-west-2:
+        Dedicated: 4.397
+        Shared: 2.064
+  regions:
+    - us-east-1
+    - us-east-2
+    - us-west-2
+    - eu-west-1
+    - ap-southeast-1
+  storage: EBS only
+  vcpu: 48
+m5a.24xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 384 GiB
+  networkPerformance: 20 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 5.504
+        Shared: 5.184
+      eu-west-1:
+        Dedicated: 4.917
+        Shared: 4.608
+      us-east-1:
+        Dedicated: 4.378
+        Shared: 4.128
+      us-east-2:
+        Dedicated: 4.378
+        Shared: 4.128
+      us-west-2:
+        Dedicated: 4.378
+        Shared: 4.128
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 5.634
+        Shared: 5.314
+      eu-west-1:
+        Dedicated: 5.047
+        Shared: 4.738
+      us-east-1:
+        Dedicated: 4.508
+        Shared: 4.258
+      us-east-2:
+        Dedicated: 4.508
+        Shared: 4.258
+      us-west-2:
+        Dedicated: 4.508
+        Shared: 4.258
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 5.654
+        Shared: 5.334
+      eu-west-1:
+        Dedicated: 5.067
+        Shared: 4.758
+      us-east-1:
+        Dedicated: 4.528
+        Shared: 4.278
+      us-east-2:
+        Dedicated: 4.528
+        Shared: 4.278
+      us-west-2:
+        Dedicated: 4.528
+        Shared: 4.278
+    Windows:
+      ap-southeast-1:
+        Dedicated: 9.92
+        Shared: 5.184
+      eu-west-1:
+        Dedicated: 9.333
+        Shared: 9.024
+      us-east-1:
+        Dedicated: 8.794
+        Shared: 8.544
+      us-east-2:
+        Dedicated: 8.794
+        Shared: 4.128
+      us-west-2:
+        Dedicated: 8.794
+        Shared: 4.128
+  regions:
+    - us-east-2
+    - us-east-1
+    - ap-southeast-1
+    - us-west-2
+    - eu-west-1
+  storage: EBS only
+  vcpu: 96
+m5a.2xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 16
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.459
+        Shared: 0.432
+      eu-west-1:
+        Dedicated: 0.41
+        Shared: 0.384
+      us-east-1:
+        Dedicated: 0.365
+        Shared: 0.344
+      us-east-2:
+        Dedicated: 0.365
+        Shared: 0.344
+      us-west-2:
+        Dedicated: 0.365
+        Shared: 0.344
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.589
+        Shared: 0.562
+      eu-west-1:
+        Dedicated: 0.54
+        Shared: 0.514
+      us-east-1:
+        Dedicated: 0.495
+        Shared: 0.474
+      us-east-2:
+        Dedicated: 0.495
+        Shared: 0.474
+      us-west-2:
+        Dedicated: 0.495
+        Shared: 0.474
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.609
+        Shared: 0.582
+      eu-west-1:
+        Dedicated: 0.56
+        Shared: 0.534
+      us-east-1:
+        Dedicated: 0.515
+        Shared: 0.494
+      us-east-2:
+        Dedicated: 0.515
+        Shared: 0.494
+      us-west-2:
+        Dedicated: 0.515
+        Shared: 0.494
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.827
+        Shared: 0.8
+      eu-west-1:
+        Dedicated: 0.778
+        Shared: 0.384
+      us-east-1:
+        Dedicated: 0.733
+        Shared: 0.712
+      us-east-2:
+        Dedicated: 0.365
+        Shared: 0.712
+      us-west-2:
+        Dedicated: 0.365
+        Shared: 0.344
+  regions:
+    - us-east-1
+    - ap-southeast-1
+    - us-west-2
+    - eu-west-1
+    - us-east-2
+  storage: EBS only
+  vcpu: 8
+m5a.4xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 64 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 32
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.917
+        Shared: 0.864
+      eu-west-1:
+        Dedicated: 0.82
+        Shared: 0.768
+      us-east-1:
+        Dedicated: 0.73
+        Shared: 0.688
+      us-east-2:
+        Dedicated: 0.73
+        Shared: 0.688
+      us-west-2:
+        Dedicated: 0.73
+        Shared: 0.688
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 1.047
+        Shared: 0.994
+      eu-west-1:
+        Dedicated: 0.95
+        Shared: 0.898
+      us-east-1:
+        Dedicated: 0.86
+        Shared: 0.818
+      us-east-2:
+        Dedicated: 0.86
+        Shared: 0.818
+      us-west-2:
+        Dedicated: 0.86
+        Shared: 0.818
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 1.067
+        Shared: 1.014
+      eu-west-1:
+        Dedicated: 0.97
+        Shared: 0.918
+      us-east-1:
+        Dedicated: 0.88
+        Shared: 0.838
+      us-east-2:
+        Dedicated: 0.88
+        Shared: 0.838
+      us-west-2:
+        Dedicated: 0.88
+        Shared: 0.838
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.917
+        Shared: 0.864
+      eu-west-1:
+        Dedicated: 0.82
+        Shared: 0.768
+      us-east-1:
+        Dedicated: 1.466
+        Shared: 1.424
+      us-east-2:
+        Dedicated: 1.466
+        Shared: 1.424
+      us-west-2:
+        Dedicated: 1.466
+        Shared: 1.424
+  regions:
+    - us-east-2
+    - ap-southeast-1
+    - us-west-2
+    - us-east-1
+    - eu-west-1
+  storage: EBS only
+  vcpu: 16
+m5a.large:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 8 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 4
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.115
+        Shared: 0.108
+      eu-west-1:
+        Dedicated: 0.102
+        Shared: 0.096
+      us-east-1:
+        Dedicated: 0.091
+        Shared: 0.086
+      us-east-2:
+        Dedicated: 0.091
+        Shared: 0.086
+      us-west-2:
+        Dedicated: 0.091
+        Shared: 0.086
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.175
+        Shared: 0.168
+      eu-west-1:
+        Dedicated: 0.162
+        Shared: 0.156
+      us-east-1:
+        Dedicated: 0.151
+        Shared: 0.146
+      us-east-2:
+        Dedicated: 0.151
+        Shared: 0.146
+      us-west-2:
+        Dedicated: 0.151
+        Shared: 0.146
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.178
+        Shared: 0.171
+      eu-west-1:
+        Dedicated: 0.165
+        Shared: 0.159
+      us-east-1:
+        Dedicated: 0.154
+        Shared: 0.149
+      us-east-2:
+        Dedicated: 0.154
+        Shared: 0.149
+      us-west-2:
+        Dedicated: 0.154
+        Shared: 0.149
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.207
+        Shared: 0.108
+      eu-west-1:
+        Dedicated: 0.194
+        Shared: 0.188
+      us-east-1:
+        Dedicated: 0.091
+        Shared: 0.178
+      us-east-2:
+        Dedicated: 0.091
+        Shared: 0.178
+      us-west-2:
+        Dedicated: 0.183
+        Shared: 0.086
+  regions:
+    - eu-west-1
+    - us-east-2
+    - ap-southeast-1
+    - us-west-2
+    - us-east-1
+  storage: EBS only
+  vcpu: 2
+m5a.xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 16 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 8
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.229
+        Shared: 0.216
+      eu-west-1:
+        Dedicated: 0.205
+        Shared: 0.192
+      us-east-1:
+        Dedicated: 0.182
+        Shared: 0.172
+      us-east-2:
+        Dedicated: 0.182
+        Shared: 0.172
+      us-west-2:
+        Dedicated: 0.182
+        Shared: 0.172
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.289
+        Shared: 0.276
+      eu-west-1:
+        Dedicated: 0.265
+        Shared: 0.252
+      us-east-1:
+        Dedicated: 0.242
+        Shared: 0.232
+      us-east-2:
+        Dedicated: 0.242
+        Shared: 0.232
+      us-west-2:
+        Dedicated: 0.242
+        Shared: 0.232
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.354
+        Shared: 0.341
+      eu-west-1:
+        Dedicated: 0.33
+        Shared: 0.317
+      us-east-1:
+        Dedicated: 0.307
+        Shared: 0.297
+      us-east-2:
+        Dedicated: 0.307
+        Shared: 0.297
+      us-west-2:
+        Dedicated: 0.307
+        Shared: 0.297
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.229
+        Shared: 0.216
+      eu-west-1:
+        Dedicated: 0.205
+        Shared: 0.376
+      us-east-1:
+        Dedicated: 0.182
+        Shared: 0.356
+      us-east-2:
+        Dedicated: 0.366
+        Shared: 0.172
+      us-west-2:
+        Dedicated: 0.366
+        Shared: 0.356
+  regions:
+    - us-east-2
+    - us-east-1
+    - eu-west-1
+    - us-west-2
+    - ap-southeast-1
   storage: EBS only
   vcpu: 4
 m5d.12xlarge:
@@ -13938,11 +14442,11 @@ m5d.12xlarge:
         Dedicated: 5.839
         Shared: 5.616
       ca-central-1:
-        Dedicated: 3.208
-        Shared: 3.024
+        Dedicated: 5.416
+        Shared: 5.232
       eu-central-1:
-        Dedicated: 3.485
-        Shared: 3.264
+        Dedicated: 5.693
+        Shared: 5.472
       eu-west-1:
         Dedicated: 5.435
         Shared: 3.024
@@ -13954,7 +14458,7 @@ m5d.12xlarge:
         Shared: 2.712
       us-east-2:
         Dedicated: 5.084
-        Shared: 2.712
+        Shared: 4.92
       us-gov-west-1:
         Dedicated: 5.865
         Shared: 5.64
@@ -13962,22 +14466,22 @@ m5d.12xlarge:
         Dedicated: 5.625
         Shared: 3.192
       us-west-2:
-        Dedicated: 2.876
+        Dedicated: 5.084
         Shared: 2.712
   regions:
     - us-gov-west-1
     - eu-central-1
     - us-west-2
-    - eu-west-1
     - us-west-1
     - ap-northeast-2
     - us-east-2
-    - us-east-1
-    - ap-southeast-2
-    - ap-southeast-1
     - eu-west-2
+    - ap-southeast-1
+    - ap-southeast-2
     - ca-central-1
     - ap-northeast-1
+    - eu-west-1
+    - us-east-1
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 m5d.24xlarge:
@@ -14140,7 +14644,7 @@ m5d.24xlarge:
         Dedicated: 9.84
         Shared: 9.84
       us-east-2:
-        Dedicated: 9.84
+        Dedicated: 5.424
         Shared: 9.84
       us-gov-west-1:
         Dedicated: 11.28
@@ -14155,16 +14659,16 @@ m5d.24xlarge:
     - eu-west-1
     - eu-west-2
     - ap-northeast-1
+    - ca-central-1
     - us-east-1
     - ap-southeast-1
-    - us-gov-west-1
     - ap-southeast-2
-    - us-west-2
+    - eu-central-1
     - us-east-2
     - us-west-1
+    - us-west-2
     - ap-northeast-2
-    - eu-central-1
-    - ca-central-1
+    - us-gov-west-1
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5d.2xlarge:
@@ -14312,13 +14816,13 @@ m5d.2xlarge:
         Dedicated: 0.973
         Shared: 0.936
       ca-central-1:
-        Dedicated: 0.535
+        Dedicated: 0.903
         Shared: 0.872
       eu-central-1:
-        Dedicated: 0.581
+        Dedicated: 0.949
         Shared: 0.544
       eu-west-1:
-        Dedicated: 0.906
+        Dedicated: 0.538
         Shared: 0.872
       eu-west-2:
         Dedicated: 0.927
@@ -14339,19 +14843,19 @@ m5d.2xlarge:
         Dedicated: 0.479
         Shared: 0.82
   regions:
-    - eu-west-1
     - us-east-1
     - us-west-1
-    - us-gov-west-1
+    - eu-west-1
     - ap-northeast-1
     - us-east-2
-    - eu-west-2
     - ap-southeast-2
-    - ap-southeast-1
     - eu-central-1
+    - us-gov-west-1
     - ap-northeast-2
-    - ca-central-1
     - us-west-2
+    - eu-west-2
+    - ca-central-1
+    - ap-southeast-1
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 m5d.4xlarge:
@@ -14502,7 +15006,7 @@ m5d.4xlarge:
         Dedicated: 1.069
         Shared: 1.744
       eu-central-1:
-        Dedicated: 1.162
+        Dedicated: 1.898
         Shared: 1.824
       eu-west-1:
         Dedicated: 1.812
@@ -14511,7 +15015,7 @@ m5d.4xlarge:
         Dedicated: 1.854
         Shared: 1.784
       us-east-1:
-        Dedicated: 1.695
+        Dedicated: 0.959
         Shared: 1.64
       us-east-2:
         Dedicated: 0.959
@@ -14523,21 +15027,21 @@ m5d.4xlarge:
         Dedicated: 1.139
         Shared: 1.8
       us-west-2:
-        Dedicated: 1.695
+        Dedicated: 0.959
         Shared: 1.64
   regions:
-    - ap-northeast-2
-    - eu-west-2
-    - us-west-1
-    - us-gov-west-1
-    - us-west-2
     - ap-southeast-1
-    - us-east-1
-    - ap-northeast-1
-    - us-east-2
-    - eu-west-1
-    - eu-central-1
     - ca-central-1
+    - us-gov-west-1
+    - eu-central-1
+    - ap-northeast-1
+    - us-west-2
+    - us-east-1
+    - eu-west-1
+    - ap-northeast-2
+    - us-east-2
+    - us-west-1
+    - eu-west-2
     - ap-southeast-2
   storage: 2 x 300 NVMe SSD
   vcpu: 16
@@ -14689,11 +15193,11 @@ m5d.large:
         Dedicated: 0.226
         Shared: 0.218
       eu-central-1:
-        Dedicated: 0.145
-        Shared: 0.228
+        Dedicated: 0.237
+        Shared: 0.136
       eu-west-1:
         Dedicated: 0.134
-        Shared: 0.126
+        Shared: 0.218
       eu-west-2:
         Dedicated: 0.232
         Shared: 0.223
@@ -14713,19 +15217,19 @@ m5d.large:
         Dedicated: 0.12
         Shared: 0.205
   regions:
-    - ap-southeast-1
-    - ap-northeast-1
-    - us-east-1
-    - us-west-2
-    - eu-west-2
-    - ap-northeast-2
-    - eu-west-1
-    - ap-southeast-2
-    - us-east-2
-    - us-west-1
     - eu-central-1
-    - us-gov-west-1
+    - eu-west-2
+    - us-east-2
+    - us-east-1
+    - ap-northeast-1
+    - us-west-2
+    - ap-southeast-2
+    - ap-northeast-2
+    - ap-southeast-1
+    - eu-west-1
+    - us-west-1
     - ca-central-1
+    - us-gov-west-1
   storage: 1 x 75 NVMe SSD
   vcpu: 2
 m5d.xlarge:
@@ -14873,14 +15377,14 @@ m5d.xlarge:
         Dedicated: 0.487
         Shared: 0.468
       ca-central-1:
-        Dedicated: 0.451
-        Shared: 0.436
+        Dedicated: 0.267
+        Shared: 0.252
       eu-central-1:
         Dedicated: 0.474
         Shared: 0.272
       eu-west-1:
         Dedicated: 0.453
-        Shared: 0.436
+        Shared: 0.252
       eu-west-2:
         Dedicated: 0.463
         Shared: 0.446
@@ -14888,31 +15392,31 @@ m5d.xlarge:
         Dedicated: 0.424
         Shared: 0.41
       us-east-2:
-        Dedicated: 0.24
+        Dedicated: 0.424
         Shared: 0.41
       us-gov-west-1:
         Dedicated: 0.489
         Shared: 0.47
       us-west-1:
-        Dedicated: 0.469
+        Dedicated: 0.285
         Shared: 0.45
       us-west-2:
         Dedicated: 0.424
-        Shared: 0.41
+        Shared: 0.226
   regions:
-    - us-west-2
+    - eu-central-1
     - ap-southeast-2
-    - ap-northeast-1
     - us-west-1
     - ca-central-1
     - ap-northeast-2
-    - eu-west-1
     - eu-west-2
     - us-gov-west-1
-    - us-east-1
+    - ap-northeast-1
     - ap-southeast-1
+    - eu-west-1
+    - us-east-1
     - us-east-2
-    - eu-central-1
+    - us-west-2
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 p2.16xlarge:
@@ -15028,9 +15532,9 @@ p2.16xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 27.616
-        Shared: 24.672
+        Shared: 27.616
       ap-northeast-2:
-        Dedicated: 23.44
+        Dedicated: 26.384
         Shared: 26.384
       ap-south-1:
         Dedicated: 27.488
@@ -15040,7 +15544,7 @@ p2.16xlarge:
         Shared: 30.432
       ap-southeast-2:
         Dedicated: 27.616
-        Shared: 27.616
+        Shared: 24.672
       eu-central-1:
         Dedicated: 24.16
         Shared: 24.16
@@ -15060,16 +15564,16 @@ p2.16xlarge:
         Shared: 17.344
   regions:
     - eu-west-1
-    - ap-northeast-2
-    - ap-southeast-1
     - ap-northeast-1
-    - ap-southeast-2
-    - us-west-2
-    - us-gov-west-1
+    - ap-southeast-1
     - eu-central-1
-    - us-east-1
-    - ap-south-1
+    - ap-southeast-2
+    - ap-northeast-2
+    - us-gov-west-1
     - us-east-2
+    - us-east-1
+    - us-west-2
+    - ap-south-1
   storage: EBS only
   vcpu: 64
 p2.8xlarge:
@@ -15194,15 +15698,15 @@ p2.8xlarge:
         Shared: 13.744
       ap-southeast-1:
         Dedicated: 16.59
-        Shared: 13.744
+        Shared: 15.216
       ap-southeast-2:
         Dedicated: 15.042
         Shared: 13.808
       eu-central-1:
-        Dedicated: 11.669
-        Shared: 12.08
+        Dedicated: 13.141
+        Shared: 10.608
       eu-west-1:
-        Dedicated: 8.554
+        Dedicated: 10.026
         Shared: 9.248
       us-east-1:
         Dedicated: 9.392
@@ -15216,15 +15720,15 @@ p2.8xlarge:
         Dedicated: 7.92
         Shared: 8.672
   regions:
-    - us-east-2
-    - us-east-1
     - us-gov-west-1
-    - ap-southeast-1
-    - ap-northeast-1
     - eu-west-1
+    - ap-northeast-1
     - us-west-2
     - ap-south-1
     - ap-southeast-2
+    - ap-southeast-1
+    - us-east-2
+    - us-east-1
     - eu-central-1
     - ap-northeast-2
   storage: EBS only
@@ -15341,7 +15845,7 @@ p2.xlarge:
         Shared: 1
     Windows:
       ap-northeast-1:
-        Dedicated: 1.696
+        Dedicated: 1.88
         Shared: 1.726
       ap-northeast-2:
         Dedicated: 1.796
@@ -15359,7 +15863,7 @@ p2.xlarge:
         Dedicated: 1.459
         Shared: 1.51
       eu-west-1:
-        Dedicated: 1.069
+        Dedicated: 1.253
         Shared: 1.156
       us-east-1:
         Dedicated: 1.174
@@ -15371,19 +15875,19 @@ p2.xlarge:
         Shared: 1.264
       us-west-2:
         Dedicated: 0.99
-        Shared: 0.9
+        Shared: 1.084
   regions:
     - ap-south-1
     - us-east-1
     - ap-southeast-1
     - ap-southeast-2
-    - eu-west-1
-    - us-gov-west-1
     - ap-northeast-1
     - ap-northeast-2
-    - us-west-2
-    - us-east-2
+    - eu-west-1
     - eu-central-1
+    - us-west-2
+    - us-gov-west-1
+    - us-east-2
   storage: EBS only
   vcpu: 4
 p3.16xlarge:
@@ -15514,51 +16018,51 @@ p3.16xlarge:
         Dedicated: 44.888
         Shared: 44.888
       ap-northeast-2:
-        Dedicated: 39.848
+        Dedicated: 42.792
         Shared: 42.792
       ap-southeast-1:
-        Dedicated: 42.792
-        Shared: 39.848
-      ap-southeast-2:
         Dedicated: 39.848
         Shared: 39.848
+      ap-southeast-2:
+        Dedicated: 42.792
+        Shared: 42.792
       ca-central-1:
         Dedicated: 29.872
-        Shared: 26.928
+        Shared: 29.872
       eu-central-1:
         Dedicated: 33.528
-        Shared: 30.584
+        Shared: 33.528
       eu-west-1:
         Dedicated: 26.44
-        Shared: 29.384
+        Shared: 26.44
       eu-west-2:
         Dedicated: 31.656
         Shared: 31.656
       us-east-1:
         Dedicated: 27.424
-        Shared: 24.48
+        Shared: 27.424
       us-east-2:
         Dedicated: 27.424
         Shared: 24.48
       us-gov-west-1:
         Dedicated: 32.32
-        Shared: 32.32
+        Shared: 29.376
       us-west-2:
         Dedicated: 27.424
         Shared: 24.48
   regions:
     - us-west-2
     - us-east-1
-    - eu-west-1
-    - ap-northeast-2
-    - ap-northeast-1
-    - ap-southeast-1
     - ca-central-1
     - eu-west-2
-    - ap-southeast-2
-    - us-east-2
+    - ap-northeast-2
     - eu-central-1
+    - ap-southeast-2
+    - ap-southeast-1
+    - eu-west-1
     - us-gov-west-1
+    - us-east-2
+    - ap-northeast-1
   storage: EBS only
   vcpu: 64
 p3.2xlarge:
@@ -15687,34 +16191,34 @@ p3.2xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 5.593
-        Shared: 5.243
+        Shared: 5.611
       ap-northeast-2:
         Dedicated: 5.681
-        Shared: 4.981
+        Shared: 5.349
       ap-southeast-1:
         Dedicated: 5.681
         Shared: 5.349
       ap-southeast-2:
         Dedicated: 5.681
-        Shared: 5.349
+        Shared: 4.981
       ca-central-1:
         Dedicated: 3.953
         Shared: 3.366
       eu-central-1:
-        Dedicated: 4.071
+        Dedicated: 4.439
         Shared: 4.191
       eu-west-1:
         Dedicated: 3.52
         Shared: 3.305
       eu-west-2:
-        Dedicated: 3.822
-        Shared: 3.957
+        Dedicated: 4.19
+        Shared: 3.589
       us-east-1:
         Dedicated: 3.627
-        Shared: 3.428
+        Shared: 3.06
       us-east-2:
         Dedicated: 3.627
-        Shared: 3.428
+        Shared: 3.06
       us-gov-west-1:
         Dedicated: 3.911
         Shared: 4.04
@@ -15722,17 +16226,17 @@ p3.2xlarge:
         Dedicated: 3.259
         Shared: 3.06
   regions:
-    - ap-southeast-1
     - us-east-1
-    - us-east-2
     - us-west-2
     - ap-northeast-1
+    - ca-central-1
     - eu-west-2
     - eu-west-1
     - ap-southeast-2
+    - ap-southeast-1
     - eu-central-1
     - ap-northeast-2
-    - ca-central-1
+    - us-east-2
     - us-gov-west-1
   storage: EBS only
   vcpu: 8
@@ -15876,7 +16380,7 @@ p3.8xlarge:
         Dedicated: 15.811
         Shared: 14.936
       eu-central-1:
-        Dedicated: 16.286
+        Dedicated: 17.758
         Shared: 15.292
       eu-west-1:
         Dedicated: 14.082
@@ -15888,8 +16392,8 @@ p3.8xlarge:
         Dedicated: 14.508
         Shared: 13.712
       us-east-2:
-        Dedicated: 14.508
-        Shared: 13.712
+        Dedicated: 13.036
+        Shared: 12.24
       us-gov-west-1:
         Dedicated: 15.643
         Shared: 14.688
@@ -15898,17 +16402,17 @@ p3.8xlarge:
         Shared: 12.24
   regions:
     - ap-northeast-2
-    - eu-west-1
+    - eu-west-2
     - us-east-2
     - us-gov-west-1
+    - eu-west-1
     - ap-southeast-2
     - ca-central-1
     - us-west-2
-    - ap-southeast-1
     - eu-central-1
     - us-east-1
     - ap-northeast-1
-    - eu-west-2
+    - ap-southeast-1
   storage: EBS only
   vcpu: 32
 r3.2xlarge:
@@ -16060,31 +16564,31 @@ r3.2xlarge:
         Shared: 1.177
       ap-northeast-2:
         Dedicated: 0.878
-        Shared: 1.166
+        Shared: 0.798
       ap-south-1:
         Dedicated: 1.239
-        Shared: 0.758
+        Shared: 1.126
       ap-southeast-1:
-        Dedicated: 1.375
-        Shared: 0.798
+        Dedicated: 0.878
+        Shared: 1.25
       ap-southeast-2:
         Dedicated: 0.878
         Shared: 0.798
       eu-central-1:
         Dedicated: 1.298
-        Shared: 0.8
+        Shared: 1.18
       eu-west-1:
-        Dedicated: 0.815
+        Dedicated: 1.183
         Shared: 1.08
       sa-east-1:
         Dedicated: 1.907
         Shared: 1.399
       us-east-1:
         Dedicated: 1.15
-        Shared: 0.665
-      us-east-2:
-        Dedicated: 0.732
         Shared: 1.045
+      us-east-2:
+        Dedicated: 1.15
+        Shared: 0.665
       us-gov-west-1:
         Dedicated: 1.296
         Shared: 1.178
@@ -16096,18 +16600,18 @@ r3.2xlarge:
         Shared: 0.665
   regions:
     - ap-northeast-3
-    - us-gov-west-1
-    - us-east-2
     - us-west-2
     - eu-west-1
-    - sa-east-1
     - ap-southeast-1
     - ap-northeast-1
-    - us-west-1
     - ap-south-1
     - ap-southeast-2
     - us-east-1
+    - sa-east-1
     - ap-northeast-2
+    - us-west-1
+    - us-gov-west-1
+    - us-east-2
     - eu-central-1
   storage: 1 x 160 SSD
   vcpu: 8
@@ -16263,16 +16767,16 @@ r3.4xlarge:
         Shared: 2.332
       ap-south-1:
         Dedicated: 1.668
-        Shared: 1.516
+        Shared: 2.252
       ap-southeast-1:
         Dedicated: 1.756
         Shared: 1.596
       ap-southeast-2:
         Dedicated: 2.6
-        Shared: 2.363
+        Shared: 1.596
       eu-central-1:
         Dedicated: 1.759
-        Shared: 1.6
+        Shared: 2.228
       eu-west-1:
         Dedicated: 2.138
         Shared: 1.944
@@ -16283,7 +16787,7 @@ r3.4xlarge:
         Dedicated: 2.138
         Shared: 1.944
       us-east-2:
-        Dedicated: 2.138
+        Dedicated: 1.463
         Shared: 1.944
       us-gov-west-1:
         Dedicated: 2.446
@@ -16293,21 +16797,21 @@ r3.4xlarge:
         Shared: 1.482
       us-west-2:
         Dedicated: 2.138
-        Shared: 1.944
+        Shared: 1.33
   regions:
-    - eu-west-1
-    - us-west-2
     - ap-southeast-1
     - sa-east-1
     - ap-south-1
     - us-west-1
+    - eu-central-1
     - ap-southeast-2
     - us-east-2
+    - us-west-2
     - ap-northeast-2
     - ap-northeast-1
     - us-east-1
-    - eu-central-1
     - us-gov-west-1
+    - eu-west-1
     - ap-northeast-3
   storage: 1 x 320 SSD
   vcpu: 16
@@ -16449,8 +16953,8 @@ r3.8xlarge:
         Dedicated: 4.664
         Shared: 4.664
       ap-south-1:
-        Dedicated: 3.032
-        Shared: 3.032
+        Dedicated: 4.504
+        Shared: 4.504
       ap-southeast-1:
         Dedicated: 4.6
         Shared: 4.6
@@ -16462,13 +16966,13 @@ r3.8xlarge:
         Shared: 4.069
       eu-west-1:
         Dedicated: 3.5
-        Shared: 2.964
+        Shared: 3.5
       sa-east-1:
         Dedicated: 5.597
         Shared: 5.597
       us-east-1:
         Dedicated: 3.5
-        Shared: 2.66
+        Shared: 3.5
       us-east-2:
         Dedicated: 3.5
         Shared: 2.66
@@ -16483,17 +16987,17 @@ r3.8xlarge:
         Shared: 3.5
   regions:
     - us-east-2
-    - us-east-1
     - ap-southeast-2
-    - us-west-2
-    - ap-northeast-1
     - ap-northeast-2
     - ap-south-1
     - ap-southeast-1
     - us-west-1
-    - eu-west-1
     - us-gov-west-1
     - sa-east-1
+    - eu-west-1
+    - us-east-1
+    - us-west-2
+    - ap-northeast-1
     - eu-central-1
     - ap-northeast-3
   storage: 2 x 320 SSD
@@ -16643,7 +17147,7 @@ r3.large:
         Shared: 0.2
       ap-southeast-2:
         Dedicated: 0.343
-        Shared: 0.2
+        Shared: 0.313
       eu-central-1:
         Dedicated: 0.356
         Shared: 0.2
@@ -16658,10 +17162,10 @@ r3.large:
         Shared: 0.166
       us-east-2:
         Dedicated: 0.32
-        Shared: 0.166
+        Shared: 0.291
       us-gov-west-1:
         Dedicated: 0.356
-        Shared: 0.2
+        Shared: 0.325
       us-west-1:
         Dedicated: 0.204
         Shared: 0.185
@@ -16669,19 +17173,19 @@ r3.large:
         Dedicated: 0.32
         Shared: 0.291
   regions:
-    - eu-central-1
-    - eu-west-1
     - us-east-1
     - ap-southeast-2
-    - us-east-2
-    - us-gov-west-1
+    - sa-east-1
     - ap-northeast-1
+    - us-east-2
     - ap-southeast-1
     - ap-northeast-2
+    - eu-west-1
     - ap-south-1
-    - us-west-2
-    - sa-east-1
     - us-west-1
+    - us-west-2
+    - us-gov-west-1
+    - eu-central-1
     - ap-northeast-3
   storage: 1 x 32 SSD
   vcpu: 2
@@ -16836,16 +17340,16 @@ r3.xlarge:
         Dedicated: 0.623
         Shared: 0.583
       ap-south-1:
-        Dedicated: 0.417
+        Dedicated: 0.619
         Shared: 0.563
       ap-southeast-1:
         Dedicated: 0.688
         Shared: 0.625
       ap-southeast-2:
         Dedicated: 0.688
-        Shared: 0.625
+        Shared: 0.399
       eu-central-1:
-        Dedicated: 0.44
+        Dedicated: 0.715
         Shared: 0.65
       eu-west-1:
         Dedicated: 0.408
@@ -16855,32 +17359,32 @@ r3.xlarge:
         Shared: 0.884
       us-east-1:
         Dedicated: 0.641
-        Shared: 0.583
+        Shared: 0.333
       us-east-2:
-        Dedicated: 0.366
+        Dedicated: 0.641
         Shared: 0.583
       us-gov-west-1:
         Dedicated: 0.714
         Shared: 0.649
       us-west-1:
         Dedicated: 0.696
-        Shared: 0.371
+        Shared: 0.633
       us-west-2:
         Dedicated: 0.641
         Shared: 0.583
   regions:
     - ap-southeast-2
     - us-east-1
-    - us-east-2
-    - ap-northeast-2
-    - eu-west-1
-    - ap-southeast-1
-    - ap-south-1
     - sa-east-1
+    - eu-west-1
+    - ap-northeast-2
+    - ap-southeast-1
+    - us-west-1
+    - us-east-2
     - eu-central-1
     - us-west-2
-    - us-west-1
     - ap-northeast-1
+    - ap-south-1
     - us-gov-west-1
     - ap-northeast-3
   storage: 1 x 80 SSD
@@ -17063,7 +17567,7 @@ r4.16xlarge:
         Dedicated: 5.12
         Shared: 8.064
       ap-south-1:
-        Dedicated: 4.384
+        Dedicated: 7.328
         Shared: 7.328
       ap-southeast-1:
         Dedicated: 8.064
@@ -17073,25 +17577,25 @@ r4.16xlarge:
         Shared: 8.0512
       ca-central-1:
         Dedicated: 4.672
-        Shared: 4.672
+        Shared: 7.616
       eu-central-1:
         Dedicated: 8.066
-        Shared: 5.1216
+        Shared: 8.0656
       eu-west-1:
         Dedicated: 4.742
-        Shared: 4.7424
+        Shared: 7.6864
       eu-west-2:
         Dedicated: 4.992
         Shared: 4.992
       eu-west-3:
-        Dedicated: 4.992
+        Dedicated: 7.936
         Shared: 4.992
       sa-east-1:
         Dedicated: 11.904
-        Shared: 8.96
+        Shared: 11.904
       us-east-1:
         Dedicated: 7.2
-        Shared: 4.256
+        Shared: 7.2
       us-east-2:
         Dedicated: 4.256
         Shared: 7.2
@@ -17099,29 +17603,29 @@ r4.16xlarge:
         Dedicated: 5.107
         Shared: 5.1072
       us-west-1:
-        Dedicated: 7.686
-        Shared: 4.7424
+        Dedicated: 4.742
+        Shared: 7.6864
       us-west-2:
         Dedicated: 7.2
         Shared: 4.256
   regions:
-    - eu-central-1
     - eu-west-2
-    - us-west-1
-    - eu-west-3
-    - us-east-1
-    - ap-southeast-1
     - us-gov-west-1
     - ap-south-1
+    - us-east-1
     - us-east-2
-    - ap-northeast-2
+    - eu-west-3
     - eu-west-1
-    - us-west-2
-    - sa-east-1
+    - us-west-1
+    - ap-southeast-1
+    - eu-central-1
     - ap-southeast-2
-    - ca-central-1
+    - sa-east-1
     - ap-northeast-1
+    - ca-central-1
+    - ap-northeast-2
     - ap-northeast-3
+    - us-west-2
   storage: EBS only
   vcpu: 64
 r4.2xlarge:
@@ -17302,7 +17806,7 @@ r4.2xlarge:
         Dedicated: 0.704
         Shared: 0.64
       ap-south-1:
-        Dedicated: 0.9708
+        Dedicated: 0.6028
         Shared: 0.548
       ap-southeast-1:
         Dedicated: 0.704
@@ -17312,15 +17816,15 @@ r4.2xlarge:
         Shared: 1.0064
       ca-central-1:
         Dedicated: 1.01
-        Shared: 0.584
+        Shared: 0.952
       eu-central-1:
         Dedicated: 0.704
         Shared: 0.6402
       eu-west-1:
-        Dedicated: 0.652
+        Dedicated: 1.02
         Shared: 0.9608
       eu-west-2:
-        Dedicated: 0.686
+        Dedicated: 1.054
         Shared: 0.992
       eu-west-3:
         Dedicated: 0.6864
@@ -17329,7 +17833,7 @@ r4.2xlarge:
         Dedicated: 1.6
         Shared: 1.12
       us-east-1:
-        Dedicated: 0.585
+        Dedicated: 0.953
         Shared: 0.532
       us-east-2:
         Dedicated: 0.585
@@ -17338,28 +17842,28 @@ r4.2xlarge:
         Dedicated: 1.07
         Shared: 1.0064
       us-west-1:
-        Dedicated: 0.652
-        Shared: 0.9608
+        Dedicated: 1.02
+        Shared: 0.5928
       us-west-2:
         Dedicated: 0.585
         Shared: 0.9
   regions:
     - us-west-1
-    - ap-northeast-2
-    - ap-southeast-2
     - ap-southeast-1
     - ap-northeast-1
+    - eu-central-1
     - us-west-2
-    - eu-west-2
     - us-east-1
+    - ap-southeast-2
+    - ca-central-1
+    - ap-northeast-2
     - eu-west-1
     - us-east-2
-    - ap-south-1
-    - eu-central-1
+    - eu-west-2
     - sa-east-1
-    - ca-central-1
     - ap-northeast-3
     - us-gov-west-1
+    - ap-south-1
     - eu-west-3
   storage: EBS only
   vcpu: 8
@@ -17538,23 +18042,23 @@ r4.4xlarge:
         Dedicated: 2.144
         Shared: 2.016
       ap-northeast-3:
-        Dedicated: 2.144
+        Dedicated: 1.408
         Shared: 1.28
       ap-south-1:
         Dedicated: 1.9416
-        Shared: 1.096
+        Shared: 1.832
       ap-southeast-1:
         Dedicated: 2.144
         Shared: 2.016
       ap-southeast-2:
         Dedicated: 2.14
-        Shared: 2.0128
+        Shared: 1.2768
       ca-central-1:
         Dedicated: 2.021
         Shared: 1.904
       eu-central-1:
         Dedicated: 2.144
-        Shared: 1.2804
+        Shared: 2.0164
       eu-west-1:
         Dedicated: 2.04
         Shared: 1.1856
@@ -17565,11 +18069,11 @@ r4.4xlarge:
         Dedicated: 2.1088
         Shared: 1.984
       sa-east-1:
-        Dedicated: 2.464
-        Shared: 2.24
+        Dedicated: 3.2
+        Shared: 2.976
       us-east-1:
         Dedicated: 1.906
-        Shared: 1.8
+        Shared: 1.064
       us-east-2:
         Dedicated: 1.17
         Shared: 1.8
@@ -17577,29 +18081,29 @@ r4.4xlarge:
         Dedicated: 2.14
         Shared: 2.0128
       us-west-1:
-        Dedicated: 1.304
-        Shared: 1.9216
+        Dedicated: 2.04
+        Shared: 1.1856
       us-west-2:
-        Dedicated: 1.906
+        Dedicated: 1.17
         Shared: 1.064
   regions:
+    - eu-central-1
     - sa-east-1
     - eu-west-1
     - ap-northeast-3
     - ap-northeast-1
     - us-east-1
     - us-west-2
-    - us-west-1
-    - ap-southeast-2
-    - ca-central-1
-    - eu-central-1
+    - eu-west-2
     - ap-northeast-2
+    - ap-southeast-2
     - us-east-2
+    - us-west-1
     - us-gov-west-1
-    - ap-south-1
     - ap-southeast-1
     - eu-west-3
-    - eu-west-2
+    - ca-central-1
+    - ap-south-1
   storage: EBS only
   vcpu: 16
 r4.8xlarge:
@@ -17775,22 +18279,22 @@ r4.8xlarge:
         Shared: 4.032
       ap-northeast-2:
         Dedicated: 4.288
-        Shared: 2.56
+        Shared: 4.032
       ap-northeast-3:
         Dedicated: 2.816
         Shared: 4.032
       ap-south-1:
-        Dedicated: 2.4112
+        Dedicated: 3.8832
         Shared: 3.664
       ap-southeast-1:
-        Dedicated: 4.288
+        Dedicated: 2.816
         Shared: 4.032
       ap-southeast-2:
         Dedicated: 4.281
         Shared: 2.5536
       ca-central-1:
         Dedicated: 2.57
-        Shared: 3.808
+        Shared: 2.336
       eu-central-1:
         Dedicated: 2.817
         Shared: 4.0328
@@ -17802,43 +18306,43 @@ r4.8xlarge:
         Shared: 2.496
       eu-west-3:
         Dedicated: 2.7456
-        Shared: 3.968
+        Shared: 2.496
       sa-east-1:
-        Dedicated: 4.928
-        Shared: 4.48
+        Dedicated: 6.4
+        Shared: 5.952
       us-east-1:
         Dedicated: 3.813
-        Shared: 3.6
+        Shared: 2.128
       us-east-2:
-        Dedicated: 2.341
+        Dedicated: 3.813
         Shared: 3.6
       us-gov-west-1:
         Dedicated: 4.281
-        Shared: 4.0256
+        Shared: 2.5536
       us-west-1:
         Dedicated: 4.08
         Shared: 2.3712
       us-west-2:
         Dedicated: 3.813
-        Shared: 3.6
+        Shared: 2.128
   regions:
     - us-west-2
-    - eu-west-1
     - ap-northeast-1
-    - ap-southeast-2
-    - eu-central-1
-    - ap-southeast-1
+    - eu-west-1
     - eu-west-3
     - eu-west-2
     - us-east-2
     - ap-northeast-2
-    - sa-east-1
+    - eu-central-1
+    - ap-southeast-2
     - ap-northeast-3
     - ap-south-1
-    - us-west-1
-    - us-gov-west-1
     - ca-central-1
+    - us-west-1
+    - sa-east-1
+    - ap-southeast-1
     - us-east-1
+    - us-gov-west-1
   storage: EBS only
   vcpu: 32
 r4.large:
@@ -18011,7 +18515,7 @@ r4.large:
     Windows:
       ap-northeast-1:
         Dedicated: 0.268
-        Shared: 0.16
+        Shared: 0.252
       ap-northeast-2:
         Dedicated: 0.176
         Shared: 0.252
@@ -18019,16 +18523,16 @@ r4.large:
         Dedicated: 0.268
         Shared: 0.252
       ap-south-1:
-        Dedicated: 0.2427
+        Dedicated: 0.1507
         Shared: 0.229
       ap-southeast-1:
         Dedicated: 0.268
         Shared: 0.16
       ap-southeast-2:
         Dedicated: 0.268
-        Shared: 0.1596
+        Shared: 0.2516
       ca-central-1:
-        Dedicated: 0.161
+        Dedicated: 0.253
         Shared: 0.238
       eu-central-1:
         Dedicated: 0.268
@@ -18037,47 +18541,47 @@ r4.large:
         Dedicated: 0.255
         Shared: 0.2402
       eu-west-2:
-        Dedicated: 0.172
+        Dedicated: 0.264
         Shared: 0.248
       eu-west-3:
-        Dedicated: 0.1716
+        Dedicated: 0.2636
         Shared: 0.248
       sa-east-1:
         Dedicated: 0.4
         Shared: 0.28
       us-east-1:
         Dedicated: 0.238
-        Shared: 0.133
+        Shared: 0.225
       us-east-2:
-        Dedicated: 0.146
+        Dedicated: 0.238
         Shared: 0.225
       us-gov-west-1:
         Dedicated: 0.176
         Shared: 0.2516
       us-west-1:
         Dedicated: 0.255
-        Shared: 0.1482
+        Shared: 0.2402
       us-west-2:
         Dedicated: 0.238
         Shared: 0.225
   regions:
+    - ap-south-1
     - us-east-2
+    - eu-west-2
     - sa-east-1
     - ap-northeast-3
-    - ap-southeast-2
-    - eu-west-2
-    - eu-west-1
-    - ca-central-1
     - ap-northeast-1
-    - ap-northeast-2
-    - eu-west-3
     - ap-southeast-1
+    - ap-northeast-2
     - us-gov-west-1
-    - ap-south-1
+    - eu-central-1
+    - ap-southeast-2
+    - eu-west-1
     - us-east-1
     - us-west-2
-    - eu-central-1
+    - ca-central-1
     - us-west-1
+    - eu-west-3
   storage: EBS only
   vcpu: 2
 r4.xlarge:
@@ -18249,46 +18753,46 @@ r4.xlarge:
         Shared: 0.366
     Windows:
       ap-northeast-1:
-        Dedicated: 0.536
+        Dedicated: 0.352
         Shared: 0.504
       ap-northeast-2:
         Dedicated: 0.536
         Shared: 0.504
       ap-northeast-3:
-        Dedicated: 0.536
+        Dedicated: 0.352
         Shared: 0.504
       ap-south-1:
-        Dedicated: 0.4854
-        Shared: 0.274
+        Dedicated: 0.3014
+        Shared: 0.458
       ap-southeast-1:
         Dedicated: 0.536
-        Shared: 0.32
+        Shared: 0.504
       ap-southeast-2:
         Dedicated: 0.351
-        Shared: 0.3192
+        Shared: 0.5032
       ca-central-1:
         Dedicated: 0.505
         Shared: 0.476
       eu-central-1:
-        Dedicated: 0.536
+        Dedicated: 0.352
         Shared: 0.3201
       eu-west-1:
         Dedicated: 0.51
         Shared: 0.4804
       eu-west-2:
         Dedicated: 0.343
-        Shared: 0.312
+        Shared: 0.496
       eu-west-3:
-        Dedicated: 0.3432
+        Dedicated: 0.5272
         Shared: 0.496
       sa-east-1:
-        Dedicated: 0.616
+        Dedicated: 0.8
         Shared: 0.744
       us-east-1:
-        Dedicated: 0.293
+        Dedicated: 0.477
         Shared: 0.45
       us-east-2:
-        Dedicated: 0.293
+        Dedicated: 0.477
         Shared: 0.266
       us-gov-west-1:
         Dedicated: 0.351
@@ -18303,20 +18807,20 @@ r4.xlarge:
     - us-gov-west-1
     - us-west-2
     - eu-central-1
-    - ap-northeast-1
-    - us-east-2
     - us-west-1
-    - eu-west-1
     - eu-west-3
-    - sa-east-1
+    - eu-west-1
+    - us-east-2
     - ap-southeast-2
-    - ap-northeast-2
-    - ap-northeast-3
-    - ca-central-1
-    - ap-south-1
-    - us-east-1
-    - ap-southeast-1
     - eu-west-2
+    - ap-northeast-1
+    - ap-south-1
+    - ca-central-1
+    - us-east-1
+    - sa-east-1
+    - ap-southeast-1
+    - ap-northeast-3
+    - ap-northeast-2
   storage: EBS only
   vcpu: 4
 r5.12xlarge:
@@ -18476,7 +18980,7 @@ r5.12xlarge:
         Dedicated: 6.075
         Shared: 5.856
       eu-west-1:
-        Dedicated: 3.587
+        Dedicated: 5.795
         Shared: 3.384
       eu-west-2:
         Dedicated: 5.973
@@ -18501,19 +19005,19 @@ r5.12xlarge:
         Shared: 5.232
   regions:
     - us-gov-west-1
-    - ap-southeast-1
     - ca-central-1
+    - eu-west-3
     - us-east-2
     - us-east-1
-    - ap-southeast-2
-    - eu-west-1
-    - eu-west-2
     - ap-northeast-1
     - us-west-2
-    - ap-northeast-2
+    - eu-west-2
+    - eu-west-1
+    - ap-southeast-1
     - us-west-1
+    - ap-northeast-2
+    - ap-southeast-2
     - eu-central-1
-    - eu-west-3
   storage: EBS only
   vcpu: 48
 r5.24xlarge:
@@ -18697,20 +19201,20 @@ r5.24xlarge:
         Dedicated: 10.464
         Shared: 6.048
   regions:
-    - ap-southeast-2
-    - us-west-1
-    - ap-northeast-2
-    - us-east-2
-    - ap-southeast-1
-    - us-east-1
-    - eu-west-3
-    - eu-west-1
-    - ap-northeast-1
     - ca-central-1
-    - us-west-2
+    - us-west-1
+    - ap-southeast-1
     - eu-central-1
-    - us-gov-west-1
     - eu-west-2
+    - us-east-1
+    - ap-southeast-2
+    - eu-west-1
+    - us-east-2
+    - eu-west-3
+    - ap-northeast-1
+    - us-west-2
+    - ap-northeast-2
+    - us-gov-west-1
   storage: EBS only
   vcpu: 96
 r5.2xlarge:
@@ -18870,7 +19374,7 @@ r5.2xlarge:
         Dedicated: 1.012
         Shared: 0.976
       eu-west-1:
-        Dedicated: 0.598
+        Dedicated: 0.966
         Shared: 0.932
       eu-west-2:
         Dedicated: 0.996
@@ -18883,7 +19387,7 @@ r5.2xlarge:
         Shared: 0.872
       us-east-2:
         Dedicated: 0.534
-        Shared: 0.872
+        Shared: 0.504
       us-gov-west-1:
         Dedicated: 1.008
         Shared: 0.972
@@ -18894,20 +19398,20 @@ r5.2xlarge:
         Dedicated: 0.534
         Shared: 0.872
   regions:
-    - eu-west-1
-    - eu-west-2
-    - us-west-2
     - ap-southeast-2
     - us-gov-west-1
     - ca-central-1
     - eu-central-1
+    - us-west-2
     - us-east-1
     - us-east-2
-    - us-west-1
+    - eu-west-1
     - ap-northeast-2
     - ap-southeast-1
-    - ap-northeast-1
+    - us-west-1
     - eu-west-3
+    - ap-northeast-1
+    - eu-west-2
   storage: EBS only
   vcpu: 8
 r5.4xlarge:
@@ -19068,7 +19572,7 @@ r5.4xlarge:
         Shared: 1.952
       eu-west-1:
         Dedicated: 1.932
-        Shared: 1.128
+        Shared: 1.864
       eu-west-2:
         Dedicated: 1.991
         Shared: 1.92
@@ -19091,20 +19595,20 @@ r5.4xlarge:
         Dedicated: 1.804
         Shared: 1.744
   regions:
-    - ap-northeast-1
     - eu-west-2
     - us-west-2
-    - eu-west-3
     - us-west-1
-    - ap-southeast-1
-    - eu-west-1
-    - us-east-1
-    - us-east-2
     - ca-central-1
+    - ap-southeast-1
     - ap-southeast-2
-    - us-gov-west-1
     - eu-central-1
+    - eu-west-1
+    - us-east-2
+    - eu-west-3
+    - us-gov-west-1
     - ap-northeast-2
+    - us-east-1
+    - ap-northeast-1
   storage: EBS only
   vcpu: 16
 r5.large:
@@ -19264,7 +19768,7 @@ r5.large:
         Dedicated: 0.253
         Shared: 0.244
       eu-west-1:
-        Dedicated: 0.149
+        Dedicated: 0.241
         Shared: 0.233
       eu-west-2:
         Dedicated: 0.249
@@ -19277,7 +19781,7 @@ r5.large:
         Shared: 0.218
       us-east-2:
         Dedicated: 0.226
-        Shared: 0.126
+        Shared: 0.218
       us-gov-west-1:
         Dedicated: 0.252
         Shared: 0.243
@@ -19291,17 +19795,17 @@ r5.large:
     - ap-northeast-1
     - us-gov-west-1
     - ap-northeast-2
-    - us-west-1
+    - eu-west-2
     - us-west-2
     - ap-southeast-2
     - ap-southeast-1
     - eu-west-1
-    - us-east-2
-    - us-east-1
-    - ca-central-1
-    - eu-west-2
-    - eu-west-3
+    - us-west-1
     - eu-central-1
+    - us-east-1
+    - eu-west-3
+    - ca-central-1
+    - us-east-2
   storage: EBS only
   vcpu: 2
 r5.xlarge:
@@ -19483,22 +19987,514 @@ r5.xlarge:
         Shared: 0.464
       us-west-2:
         Dedicated: 0.267
-        Shared: 0.436
+        Shared: 0.252
   regions:
     - eu-west-1
     - us-west-2
     - ap-northeast-2
     - us-east-2
     - us-west-1
-    - ap-southeast-1
     - ap-southeast-2
+    - ca-central-1
     - us-east-1
     - eu-west-2
-    - ap-northeast-1
-    - ca-central-1
     - eu-west-3
+    - ap-southeast-1
     - eu-central-1
     - us-gov-west-1
+    - ap-northeast-1
+  storage: EBS only
+  vcpu: 4
+r5a.12xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 5000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 384 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 96
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 3.46
+        Shared: 3.264
+      eu-west-1:
+        Dedicated: 3.231
+        Shared: 3.048
+      us-east-1:
+        Dedicated: 2.875
+        Shared: 2.712
+      us-east-2:
+        Dedicated: 2.875
+        Shared: 2.712
+      us-west-2:
+        Dedicated: 2.875
+        Shared: 2.712
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 3.59
+        Shared: 3.394
+      eu-west-1:
+        Dedicated: 3.361
+        Shared: 3.178
+      us-east-1:
+        Dedicated: 3.005
+        Shared: 2.842
+      us-east-2:
+        Dedicated: 3.005
+        Shared: 2.842
+      us-west-2:
+        Dedicated: 3.005
+        Shared: 2.842
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 3.61
+        Shared: 3.414
+      eu-west-1:
+        Dedicated: 3.381
+        Shared: 3.198
+      us-east-1:
+        Dedicated: 3.025
+        Shared: 2.862
+      us-east-2:
+        Dedicated: 3.025
+        Shared: 2.862
+      us-west-2:
+        Dedicated: 3.025
+        Shared: 2.862
+    Windows:
+      ap-southeast-1:
+        Dedicated: 5.668
+        Shared: 3.264
+      eu-west-1:
+        Dedicated: 5.439
+        Shared: 3.048
+      us-east-1:
+        Dedicated: 5.083
+        Shared: 2.712
+      us-east-2:
+        Dedicated: 5.083
+        Shared: 4.92
+      us-west-2:
+        Dedicated: 5.083
+        Shared: 4.92
+  regions:
+    - eu-west-1
+    - us-east-1
+    - us-east-2
+    - us-west-2
+    - ap-southeast-1
+  storage: EBS only
+  vcpu: 48
+r5a.24xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 768 GiB
+  networkPerformance: 20 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 6.92
+        Shared: 6.528
+      eu-west-1:
+        Dedicated: 6.462
+        Shared: 6.096
+      us-east-1:
+        Dedicated: 5.75
+        Shared: 5.424
+      us-east-2:
+        Dedicated: 5.75
+        Shared: 5.424
+      us-west-2:
+        Dedicated: 5.75
+        Shared: 5.424
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 7.05
+        Shared: 6.658
+      eu-west-1:
+        Dedicated: 6.592
+        Shared: 6.226
+      us-east-1:
+        Dedicated: 5.88
+        Shared: 5.554
+      us-east-2:
+        Dedicated: 5.88
+        Shared: 5.554
+      us-west-2:
+        Dedicated: 5.88
+        Shared: 5.554
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 7.07
+        Shared: 6.678
+      eu-west-1:
+        Dedicated: 6.612
+        Shared: 6.246
+      us-east-1:
+        Dedicated: 5.9
+        Shared: 5.574
+      us-east-2:
+        Dedicated: 5.9
+        Shared: 5.574
+      us-west-2:
+        Dedicated: 5.9
+        Shared: 5.574
+    Windows:
+      ap-southeast-1:
+        Dedicated: 11.336
+        Shared: 6.528
+      eu-west-1:
+        Dedicated: 10.878
+        Shared: 10.512
+      us-east-1:
+        Dedicated: 10.166
+        Shared: 5.424
+      us-east-2:
+        Dedicated: 10.166
+        Shared: 9.84
+      us-west-2:
+        Dedicated: 10.166
+        Shared: 5.424
+  regions:
+    - us-east-1
+    - us-west-2
+    - ap-southeast-1
+    - us-east-2
+    - eu-west-1
+  storage: EBS only
+  vcpu: 96
+r5a.2xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 64 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 16
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.577
+        Shared: 0.544
+      eu-west-1:
+        Dedicated: 0.539
+        Shared: 0.508
+      us-east-1:
+        Dedicated: 0.479
+        Shared: 0.452
+      us-east-2:
+        Dedicated: 0.479
+        Shared: 0.452
+      us-west-2:
+        Dedicated: 0.479
+        Shared: 0.452
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.707
+        Shared: 0.674
+      eu-west-1:
+        Dedicated: 0.669
+        Shared: 0.638
+      us-east-1:
+        Dedicated: 0.609
+        Shared: 0.582
+      us-east-2:
+        Dedicated: 0.609
+        Shared: 0.582
+      us-west-2:
+        Dedicated: 0.609
+        Shared: 0.582
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.727
+        Shared: 0.694
+      eu-west-1:
+        Dedicated: 0.689
+        Shared: 0.658
+      us-east-1:
+        Dedicated: 0.629
+        Shared: 0.602
+      us-east-2:
+        Dedicated: 0.629
+        Shared: 0.602
+      us-west-2:
+        Dedicated: 0.629
+        Shared: 0.602
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.577
+        Shared: 0.544
+      eu-west-1:
+        Dedicated: 0.907
+        Shared: 0.508
+      us-east-1:
+        Dedicated: 0.847
+        Shared: 0.452
+      us-east-2:
+        Dedicated: 0.479
+        Shared: 0.452
+      us-west-2:
+        Dedicated: 0.847
+        Shared: 0.82
+  regions:
+    - ap-southeast-1
+    - eu-west-1
+    - us-east-1
+    - us-east-2
+    - us-west-2
+  storage: EBS only
+  vcpu: 8
+r5a.4xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 128 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 32
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 1.153
+        Shared: 1.088
+      eu-west-1:
+        Dedicated: 1.077
+        Shared: 1.016
+      us-east-1:
+        Dedicated: 0.958
+        Shared: 0.904
+      us-east-2:
+        Dedicated: 0.958
+        Shared: 0.904
+      us-west-2:
+        Dedicated: 0.958
+        Shared: 0.904
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 1.283
+        Shared: 1.218
+      eu-west-1:
+        Dedicated: 1.207
+        Shared: 1.146
+      us-east-1:
+        Dedicated: 1.088
+        Shared: 1.034
+      us-east-2:
+        Dedicated: 1.088
+        Shared: 1.034
+      us-west-2:
+        Dedicated: 1.088
+        Shared: 1.034
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 1.303
+        Shared: 1.238
+      eu-west-1:
+        Dedicated: 1.227
+        Shared: 1.166
+      us-east-1:
+        Dedicated: 1.108
+        Shared: 1.054
+      us-east-2:
+        Dedicated: 1.108
+        Shared: 1.054
+      us-west-2:
+        Dedicated: 1.108
+        Shared: 1.054
+    Windows:
+      ap-southeast-1:
+        Dedicated: 1.889
+        Shared: 1.088
+      eu-west-1:
+        Dedicated: 1.077
+        Shared: 1.752
+      us-east-1:
+        Dedicated: 1.694
+        Shared: 1.64
+      us-east-2:
+        Dedicated: 0.958
+        Shared: 0.904
+      us-west-2:
+        Dedicated: 0.958
+        Shared: 1.64
+  regions:
+    - us-east-1
+    - us-west-2
+    - ap-southeast-1
+    - eu-west-1
+    - us-east-2
+  storage: EBS only
+  vcpu: 16
+r5a.large:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 16 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 4
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.144
+        Shared: 0.136
+      eu-west-1:
+        Dedicated: 0.135
+        Shared: 0.127
+      us-east-1:
+        Dedicated: 0.12
+        Shared: 0.113
+      us-east-2:
+        Dedicated: 0.12
+        Shared: 0.113
+      us-west-2:
+        Dedicated: 0.12
+        Shared: 0.113
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.204
+        Shared: 0.196
+      eu-west-1:
+        Dedicated: 0.195
+        Shared: 0.187
+      us-east-1:
+        Dedicated: 0.18
+        Shared: 0.173
+      us-east-2:
+        Dedicated: 0.18
+        Shared: 0.173
+      us-west-2:
+        Dedicated: 0.18
+        Shared: 0.173
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.207
+        Shared: 0.199
+      eu-west-1:
+        Dedicated: 0.198
+        Shared: 0.19
+      us-east-1:
+        Dedicated: 0.183
+        Shared: 0.176
+      us-east-2:
+        Dedicated: 0.183
+        Shared: 0.176
+      us-west-2:
+        Dedicated: 0.183
+        Shared: 0.176
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.144
+        Shared: 0.136
+      eu-west-1:
+        Dedicated: 0.135
+        Shared: 0.219
+      us-east-1:
+        Dedicated: 0.12
+        Shared: 0.205
+      us-east-2:
+        Dedicated: 0.12
+        Shared: 0.205
+      us-west-2:
+        Dedicated: 0.212
+        Shared: 0.113
+  regions:
+    - us-east-1
+    - eu-west-1
+    - us-east-2
+    - ap-southeast-1
+    - us-west-2
+  storage: EBS only
+  vcpu: 2
+r5a.xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 8
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.288
+        Shared: 0.272
+      eu-west-1:
+        Dedicated: 0.269
+        Shared: 0.254
+      us-east-1:
+        Dedicated: 0.24
+        Shared: 0.226
+      us-east-2:
+        Dedicated: 0.24
+        Shared: 0.226
+      us-west-2:
+        Dedicated: 0.24
+        Shared: 0.226
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.348
+        Shared: 0.332
+      eu-west-1:
+        Dedicated: 0.329
+        Shared: 0.314
+      us-east-1:
+        Dedicated: 0.3
+        Shared: 0.286
+      us-east-2:
+        Dedicated: 0.3
+        Shared: 0.286
+      us-west-2:
+        Dedicated: 0.3
+        Shared: 0.286
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.413
+        Shared: 0.397
+      eu-west-1:
+        Dedicated: 0.394
+        Shared: 0.379
+      us-east-1:
+        Dedicated: 0.365
+        Shared: 0.351
+      us-east-2:
+        Dedicated: 0.365
+        Shared: 0.351
+      us-west-2:
+        Dedicated: 0.365
+        Shared: 0.351
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.472
+        Shared: 0.456
+      eu-west-1:
+        Dedicated: 0.269
+        Shared: 0.438
+      us-east-1:
+        Dedicated: 0.424
+        Shared: 0.41
+      us-east-2:
+        Dedicated: 0.424
+        Shared: 0.226
+      us-west-2:
+        Dedicated: 0.424
+        Shared: 0.226
+  regions:
+    - eu-west-1
+    - us-east-2
+    - ap-southeast-1
+    - us-west-2
+    - us-east-1
   storage: EBS only
   vcpu: 4
 r5d.12xlarge:
@@ -19649,7 +20645,7 @@ r5d.12xlarge:
         Dedicated: 5.872
         Shared: 3.456
       us-east-2:
-        Dedicated: 3.664
+        Dedicated: 5.872
         Shared: 5.664
       us-west-1:
         Dedicated: 6.333
@@ -19658,17 +20654,17 @@ r5d.12xlarge:
         Dedicated: 5.872
         Shared: 5.664
   regions:
-    - eu-west-1
     - us-east-1
     - us-east-2
-    - ap-northeast-1
-    - ap-southeast-1
-    - eu-west-2
     - ap-northeast-2
     - us-west-1
+    - ca-central-1
+    - ap-northeast-1
+    - eu-west-1
+    - ap-southeast-1
+    - eu-west-2
     - us-west-2
     - eu-central-1
-    - ca-central-1
     - ap-southeast-2
   storage: 2 x 900 NVMe SSD
   vcpu: 48
@@ -19820,7 +20816,7 @@ r5d.24xlarge:
         Dedicated: 11.328
         Shared: 11.328
       us-east-2:
-        Dedicated: 6.912
+        Dedicated: 11.328
         Shared: 6.912
       us-west-1:
         Dedicated: 12.192
@@ -19829,16 +20825,16 @@ r5d.24xlarge:
         Dedicated: 11.328
         Shared: 11.328
   regions:
-    - us-east-1
     - ap-southeast-2
+    - us-east-1
     - eu-central-1
+    - ca-central-1
     - us-west-1
     - ap-southeast-1
     - eu-west-2
-    - eu-west-1
     - us-east-2
+    - eu-west-1
     - ap-northeast-1
-    - ca-central-1
     - us-west-2
     - ap-northeast-2
   storage: 4 x 900 NVMe SSD
@@ -20001,17 +20997,17 @@ r5d.2xlarge:
         Shared: 0.576
   regions:
     - ap-southeast-2
-    - eu-west-1
-    - us-east-1
-    - ap-northeast-2
-    - us-east-2
-    - eu-central-1
-    - ap-northeast-1
-    - ap-southeast-1
     - ca-central-1
-    - us-west-2
+    - ap-northeast-2
     - eu-west-2
+    - us-east-2
+    - ap-northeast-1
+    - eu-west-1
+    - ap-southeast-1
     - us-west-1
+    - us-west-2
+    - us-east-1
+    - eu-central-1
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 r5d.4xlarge:
@@ -20159,27 +21155,27 @@ r5d.4xlarge:
         Dedicated: 2.17
         Shared: 2.088
       us-east-1:
-        Dedicated: 1.957
+        Dedicated: 1.221
         Shared: 1.888
       us-east-2:
         Dedicated: 1.221
-        Shared: 1.888
+        Shared: 1.152
       us-west-1:
         Dedicated: 2.111
         Shared: 2.032
       us-west-2:
-        Dedicated: 1.957
-        Shared: 1.888
+        Dedicated: 1.221
+        Shared: 1.152
   regions:
     - ap-southeast-1
     - us-east-1
-    - ap-southeast-2
-    - us-east-2
     - ap-northeast-2
     - ca-central-1
+    - us-east-2
     - eu-west-1
     - us-west-1
     - us-west-2
+    - ap-southeast-2
     - eu-central-1
     - ap-northeast-1
     - eu-west-2
@@ -20331,7 +21327,7 @@ r5d.large:
         Shared: 0.261
       us-east-1:
         Dedicated: 0.153
-        Shared: 0.144
+        Shared: 0.236
       us-east-2:
         Dedicated: 0.245
         Shared: 0.144
@@ -20339,21 +21335,21 @@ r5d.large:
         Dedicated: 0.264
         Shared: 0.254
       us-west-2:
-        Dedicated: 0.153
+        Dedicated: 0.245
         Shared: 0.144
   regions:
     - us-east-1
     - us-west-1
-    - ap-northeast-2
-    - us-west-2
-    - eu-west-1
     - us-east-2
     - eu-west-2
     - eu-central-1
+    - eu-west-1
     - ap-northeast-1
+    - ap-northeast-2
     - ap-southeast-1
     - ap-southeast-2
     - ca-central-1
+    - us-west-2
   storage: 1 x 75 NVMe SSD
   vcpu: 2
 r5d.xlarge:
@@ -20502,7 +21498,7 @@ r5d.xlarge:
         Shared: 0.522
       us-east-1:
         Dedicated: 0.489
-        Shared: 0.472
+        Shared: 0.288
       us-east-2:
         Dedicated: 0.489
         Shared: 0.472
@@ -20513,18 +21509,18 @@ r5d.xlarge:
         Dedicated: 0.489
         Shared: 0.288
   regions:
-    - ap-northeast-2
     - ap-northeast-1
-    - ap-southeast-2
-    - eu-central-1
+    - ap-northeast-2
     - us-west-2
     - us-west-1
     - ap-southeast-1
-    - eu-west-2
+    - ap-southeast-2
     - eu-west-1
     - us-east-1
+    - eu-west-2
     - us-east-2
     - ca-central-1
+    - eu-central-1
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 t1.micro:
@@ -20612,15 +21608,15 @@ t1.micro:
       us-west-2:
         Shared: 0.02
   regions:
-    - us-east-1
     - us-west-1
-    - us-west-2
     - ap-southeast-1
-    - ap-southeast-2
     - eu-west-1
-    - sa-east-1
+    - us-east-1
     - ap-northeast-1
+    - us-west-2
+    - ap-southeast-2
     - us-gov-west-1
+    - sa-east-1
   storage: EBS only
   vcpu: 1
 t2.2xlarge:
@@ -20749,47 +21745,47 @@ t2.2xlarge:
       ap-southeast-1:
         Shared: 0.5292
       ap-southeast-2:
-        Shared: 0.5292
+        Shared: 0.4672
       ca-central-1:
         Shared: 0.4096
       eu-central-1:
-        Shared: 0.4908
+        Shared: 0.4288
       eu-west-1:
         Shared: 0.4652
       eu-west-2:
         Shared: 0.4224
       eu-west-3:
-        Shared: 0.4224
+        Shared: 0.4844
       sa-east-1:
         Shared: 0.6572
       us-east-1:
-        Shared: 0.4332
-      us-east-2:
         Shared: 0.3712
+      us-east-2:
+        Shared: 0.4332
       us-gov-west-1:
         Shared: 0.4352
       us-west-1:
-        Shared: 0.4416
+        Shared: 0.5036
       us-west-2:
         Shared: 0.3712
   regions:
-    - us-east-2
-    - ap-northeast-1
-    - ap-southeast-1
-    - eu-west-1
-    - us-east-1
-    - us-west-1
-    - us-west-2
-    - ap-southeast-2
-    - eu-central-1
-    - ca-central-1
-    - ap-northeast-2
-    - us-gov-west-1
     - eu-west-3
-    - sa-east-1
-    - eu-west-2
-    - ap-northeast-3
+    - ap-northeast-1
     - ap-south-1
+    - us-east-2
+    - eu-central-1
+    - us-east-1
+    - us-west-2
+    - eu-west-1
+    - ap-southeast-2
+    - ca-central-1
+    - eu-west-2
+    - us-gov-west-1
+    - ap-southeast-1
+    - ap-northeast-2
+    - us-west-1
+    - sa-east-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 8
 t2.large:
@@ -20916,7 +21912,7 @@ t2.large:
       ap-south-1:
         Shared: 0.1272
       ap-southeast-1:
-        Shared: 0.1168
+        Shared: 0.1448
       ap-southeast-2:
         Shared: 0.1168
       ca-central-1:
@@ -20926,7 +21922,7 @@ t2.large:
       eu-west-1:
         Shared: 0.1008
       eu-west-2:
-        Shared: 0.1336
+        Shared: 0.1056
       eu-west-3:
         Shared: 0.1056
       sa-east-1:
@@ -20936,29 +21932,29 @@ t2.large:
       us-east-2:
         Shared: 0.0928
       us-gov-west-1:
-        Shared: 0.1368
+        Shared: 0.1088
       us-west-1:
-        Shared: 0.1384
+        Shared: 0.1104
       us-west-2:
         Shared: 0.0928
   regions:
+    - ap-south-1
     - eu-west-1
-    - us-west-2
     - us-west-1
     - sa-east-1
-    - ap-northeast-3
     - us-east-1
     - us-east-2
     - ap-northeast-2
-    - us-gov-west-1
     - ap-southeast-2
+    - us-gov-west-1
     - ap-southeast-1
-    - eu-west-3
-    - ap-south-1
-    - ap-northeast-1
     - eu-west-2
+    - us-west-2
     - ca-central-1
+    - ap-northeast-1
+    - eu-west-3
     - eu-central-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t2.medium:
@@ -21079,7 +22075,7 @@ t2.medium:
       ap-northeast-1:
         Shared: 0.0788
       ap-northeast-2:
-        Shared: 0.0576
+        Shared: 0.0756
       ap-northeast-3:
         Shared: 0.0788
       ap-south-1:
@@ -21095,11 +22091,11 @@ t2.medium:
       eu-west-1:
         Shared: 0.068
       eu-west-2:
-        Shared: 0.052
+        Shared: 0.0704
       eu-west-3:
-        Shared: 0.0528
+        Shared: 0.0708
       sa-east-1:
-        Shared: 0.0744
+        Shared: 0.0924
       us-east-1:
         Shared: 0.0644
       us-east-2:
@@ -21111,21 +22107,21 @@ t2.medium:
       us-west-2:
         Shared: 0.0464
   regions:
-    - us-east-2
-    - ap-south-1
     - us-west-2
     - ap-southeast-1
     - us-west-1
     - ap-northeast-1
-    - eu-west-2
-    - ap-southeast-2
-    - eu-west-1
     - eu-west-3
+    - us-east-2
     - us-gov-west-1
+    - ap-southeast-2
     - ap-northeast-2
     - us-east-1
+    - eu-west-1
     - eu-central-1
+    - ap-south-1
     - ca-central-1
+    - eu-west-2
     - sa-east-1
     - ap-northeast-3
   storage: EBS only
@@ -21248,27 +22244,27 @@ t2.micro:
       ap-northeast-1:
         Shared: 0.0152
       ap-northeast-2:
-        Shared: 0.0144
+        Shared: 0.019
       ap-northeast-3:
         Shared: 0.0152
       ap-south-1:
         Shared: 0.017
       ap-southeast-1:
-        Shared: 0.0146
-      ap-southeast-2:
         Shared: 0.0192
+      ap-southeast-2:
+        Shared: 0.0146
       ca-central-1:
         Shared: 0.0128
       eu-central-1:
         Shared: 0.0134
       eu-west-1:
-        Shared: 0.0172
+        Shared: 0.0126
       eu-west-2:
         Shared: 0.0178
       eu-west-3:
         Shared: 0.0132
       sa-east-1:
-        Shared: 0.0186
+        Shared: 0.0232
       us-east-1:
         Shared: 0.0162
       us-east-2:
@@ -21278,25 +22274,25 @@ t2.micro:
       us-west-1:
         Shared: 0.0184
       us-west-2:
-        Shared: 0.0116
+        Shared: 0.0162
   regions:
     - eu-west-2
     - ap-south-1
-    - us-east-1
     - ap-southeast-2
     - ca-central-1
     - eu-west-1
-    - us-west-1
-    - ap-southeast-1
     - eu-central-1
-    - ap-northeast-2
-    - eu-west-3
-    - us-east-2
-    - us-west-2
     - sa-east-1
-    - us-gov-west-1
+    - us-west-1
+    - us-east-1
+    - eu-west-3
+    - ap-southeast-1
     - ap-northeast-3
+    - us-west-2
     - ap-northeast-1
+    - us-east-2
+    - ap-northeast-2
+    - us-gov-west-1
   storage: EBS only
   vcpu: 1
 t2.nano:
@@ -21382,17 +22378,17 @@ t2.nano:
       ap-northeast-1:
         Shared: 0.0099
       ap-northeast-2:
-        Shared: 0.0095
+        Shared: 0.0072
       ap-northeast-3:
         Shared: 0.0076
       ap-south-1:
         Shared: 0.0085
       ap-southeast-1:
-        Shared: 0.0096
+        Shared: 0.0073
       ap-southeast-2:
         Shared: 0.0096
       ca-central-1:
-        Shared: 0.0064
+        Shared: 0.0087
       eu-central-1:
         Shared: 0.009
       eu-west-1:
@@ -21404,33 +22400,33 @@ t2.nano:
       sa-east-1:
         Shared: 0.0093
       us-east-1:
-        Shared: 0.0081
+        Shared: 0.0058
       us-east-2:
         Shared: 0.0081
       us-gov-west-1:
         Shared: 0.0091
       us-west-1:
-        Shared: 0.0092
+        Shared: 0.0069
       us-west-2:
         Shared: 0.0058
   regions:
+    - sa-east-1
     - us-west-2
-    - us-east-2
     - ap-northeast-1
-    - eu-west-1
-    - ap-south-1
-    - eu-west-3
-    - us-west-1
+    - ca-central-1
     - ap-southeast-2
+    - eu-west-1
+    - eu-west-3
+    - eu-west-2
     - ap-northeast-2
     - ap-northeast-3
-    - ap-southeast-1
     - eu-central-1
-    - sa-east-1
+    - us-east-2
+    - ap-southeast-1
     - us-east-1
-    - eu-west-2
+    - us-west-1
     - us-gov-west-1
-    - ca-central-1
+    - ap-south-1
   storage: EBS only
   vcpu: 1
 t2.small:
@@ -21557,19 +22553,19 @@ t2.small:
       ap-south-1:
         Shared: 0.034
       ap-southeast-1:
-        Shared: 0.0384
+        Shared: 0.0292
       ap-southeast-2:
         Shared: 0.0384
       ca-central-1:
         Shared: 0.0256
       eu-central-1:
-        Shared: 0.0268
+        Shared: 0.036
       eu-west-1:
         Shared: 0.034
       eu-west-2:
         Shared: 0.0352
       eu-west-3:
-        Shared: 0.0264
+        Shared: 0.0356
       sa-east-1:
         Shared: 0.0372
       us-east-1:
@@ -21581,25 +22577,25 @@ t2.small:
       us-west-1:
         Shared: 0.0368
       us-west-2:
-        Shared: 0.032
+        Shared: 0.023
   regions:
-    - us-west-2
-    - ap-south-1
     - us-west-1
+    - ap-south-1
     - ap-northeast-2
     - eu-west-3
-    - ap-southeast-2
     - us-east-2
     - us-east-1
     - eu-west-1
-    - ap-northeast-3
-    - ap-southeast-1
-    - ap-northeast-1
     - sa-east-1
+    - ap-southeast-1
+    - ap-southeast-2
     - eu-west-2
+    - ca-central-1
     - eu-central-1
     - us-gov-west-1
-    - ca-central-1
+    - ap-northeast-3
+    - us-west-2
+    - ap-northeast-1
   storage: EBS only
   vcpu: 1
 t2.xlarge:
@@ -21724,9 +22720,9 @@ t2.xlarge:
       ap-northeast-3:
         Shared: 0.2842
       ap-south-1:
-        Shared: 0.2394
+        Shared: 0.1984
       ap-southeast-1:
-        Shared: 0.2746
+        Shared: 0.2336
       ap-southeast-2:
         Shared: 0.2746
       ca-central-1:
@@ -21736,11 +22732,11 @@ t2.xlarge:
       eu-west-1:
         Shared: 0.2426
       eu-west-2:
-        Shared: 0.2112
-      eu-west-3:
         Shared: 0.2522
+      eu-west-3:
+        Shared: 0.2112
       sa-east-1:
-        Shared: 0.3386
+        Shared: 0.2976
       us-east-1:
         Shared: 0.2266
       us-east-2:
@@ -21750,7 +22746,7 @@ t2.xlarge:
       us-west-1:
         Shared: 0.2618
       us-west-2:
-        Shared: 0.1856
+        Shared: 0.2266
   regions:
     - ap-northeast-1
     - ap-northeast-2
@@ -21758,17 +22754,17 @@ t2.xlarge:
     - us-east-1
     - ca-central-1
     - ap-southeast-2
-    - ap-northeast-3
-    - ap-southeast-1
-    - us-west-1
-    - us-east-2
-    - sa-east-1
-    - eu-west-1
-    - eu-west-3
-    - us-gov-west-1
     - eu-central-1
     - ap-south-1
+    - ap-southeast-1
+    - sa-east-1
+    - eu-west-1
+    - us-east-2
+    - eu-west-3
+    - ap-northeast-3
     - eu-west-2
+    - us-west-1
+    - us-gov-west-1
   storage: EBS only
   vcpu: 4
 t3.2xlarge:
@@ -21782,6 +22778,8 @@ t3.2xlarge:
     Linux:
       ap-northeast-1:
         Shared: 0.4352
+      ap-northeast-2:
+        Shared: 0.416
       ap-southeast-1:
         Shared: 0.4224
       ap-southeast-2:
@@ -21794,12 +22792,16 @@ t3.2xlarge:
         Shared: 0.3648
       eu-west-2:
         Shared: 0.3776
+      eu-west-3:
+        Shared: 0.3776
       sa-east-1:
         Shared: 0.5376
       us-east-1:
         Shared: 0.3328
       us-east-2:
         Shared: 0.3328
+      us-gov-west-1:
+        Shared: 0.3904
       us-west-1:
         Shared: 0.3968
       us-west-2:
@@ -21807,6 +22809,8 @@ t3.2xlarge:
     RHEL:
       ap-northeast-1:
         Shared: 0.5652
+      ap-northeast-2:
+        Shared: 0.546
       ap-southeast-1:
         Shared: 0.5524
       ap-southeast-2:
@@ -21819,12 +22823,16 @@ t3.2xlarge:
         Shared: 0.4948
       eu-west-2:
         Shared: 0.5076
+      eu-west-3:
+        Shared: 0.5076
       sa-east-1:
         Shared: 0.6676
       us-east-1:
         Shared: 0.4628
       us-east-2:
         Shared: 0.4628
+      us-gov-west-1:
+        Shared: 0.5204
       us-west-1:
         Shared: 0.5268
       us-west-2:
@@ -21832,6 +22840,8 @@ t3.2xlarge:
     SUSE:
       ap-northeast-1:
         Shared: 0.5852
+      ap-northeast-2:
+        Shared: 0.566
       ap-southeast-1:
         Shared: 0.5724
       ap-southeast-2:
@@ -21844,12 +22854,16 @@ t3.2xlarge:
         Shared: 0.5148
       eu-west-2:
         Shared: 0.5276
+      eu-west-3:
+        Shared: 0.5276
       sa-east-1:
         Shared: 0.6876
       us-east-1:
         Shared: 0.4828
       us-east-2:
         Shared: 0.4828
+      us-gov-west-1:
+        Shared: 0.5404
       us-west-1:
         Shared: 0.5468
       us-west-2:
@@ -21857,41 +22871,50 @@ t3.2xlarge:
     Windows:
       ap-northeast-1:
         Shared: 0.5824
+      ap-northeast-2:
+        Shared: 0.5632
       ap-southeast-1:
-        Shared: 0.5696
+        Shared: 0.4224
       ap-southeast-2:
         Shared: 0.5696
       ca-central-1:
-        Shared: 0.3712
+        Shared: 0.5184
       eu-central-1:
         Shared: 0.384
       eu-west-1:
         Shared: 0.512
       eu-west-2:
         Shared: 0.3776
+      eu-west-3:
+        Shared: 0.5248
       sa-east-1:
         Shared: 0.6848
       us-east-1:
         Shared: 0.48
       us-east-2:
         Shared: 0.48
+      us-gov-west-1:
+        Shared: 0.5376
       us-west-1:
         Shared: 0.544
       us-west-2:
         Shared: 0.48
   regions:
-    - ap-southeast-1
-    - us-east-1
-    - us-west-2
     - us-east-2
-    - ap-northeast-1
-    - ap-southeast-2
-    - eu-west-1
-    - eu-central-1
-    - us-west-1
+    - us-west-2
     - sa-east-1
     - eu-west-2
+    - eu-central-1
     - ca-central-1
+    - us-gov-west-1
+    - us-west-1
+    - eu-west-3
+    - ap-southeast-2
+    - us-east-1
+    - eu-west-1
+    - ap-northeast-2
+    - ap-northeast-1
+    - ap-southeast-1
   storage: EBS only
   vcpu: 8
 t3.large:
@@ -21905,6 +22928,8 @@ t3.large:
     Linux:
       ap-northeast-1:
         Shared: 0.1088
+      ap-northeast-2:
+        Shared: 0.104
       ap-southeast-1:
         Shared: 0.1056
       ap-southeast-2:
@@ -21917,12 +22942,16 @@ t3.large:
         Shared: 0.0912
       eu-west-2:
         Shared: 0.0944
+      eu-west-3:
+        Shared: 0.0944
       sa-east-1:
         Shared: 0.1344
       us-east-1:
         Shared: 0.0832
       us-east-2:
         Shared: 0.0832
+      us-gov-west-1:
+        Shared: 0.0976
       us-west-1:
         Shared: 0.0992
       us-west-2:
@@ -21930,6 +22959,8 @@ t3.large:
     RHEL:
       ap-northeast-1:
         Shared: 0.1688
+      ap-northeast-2:
+        Shared: 0.164
       ap-southeast-1:
         Shared: 0.1656
       ap-southeast-2:
@@ -21942,12 +22973,16 @@ t3.large:
         Shared: 0.1512
       eu-west-2:
         Shared: 0.1544
+      eu-west-3:
+        Shared: 0.1544
       sa-east-1:
         Shared: 0.1944
       us-east-1:
         Shared: 0.1432
       us-east-2:
         Shared: 0.1432
+      us-gov-west-1:
+        Shared: 0.1576
       us-west-1:
         Shared: 0.1592
       us-west-2:
@@ -21955,6 +22990,8 @@ t3.large:
     SUSE:
       ap-northeast-1:
         Shared: 0.1718
+      ap-northeast-2:
+        Shared: 0.167
       ap-southeast-1:
         Shared: 0.1686
       ap-southeast-2:
@@ -21967,37 +23004,47 @@ t3.large:
         Shared: 0.1542
       eu-west-2:
         Shared: 0.1574
+      eu-west-3:
+        Shared: 0.1574
       sa-east-1:
         Shared: 0.1974
       us-east-1:
         Shared: 0.1462
       us-east-2:
         Shared: 0.1462
+      us-gov-west-1:
+        Shared: 0.1606
       us-west-1:
         Shared: 0.1622
       us-west-2:
         Shared: 0.1462
     Windows:
       ap-northeast-1:
-        Shared: 0.1364
+        Shared: 0.1088
+      ap-northeast-2:
+        Shared: 0.1316
       ap-southeast-1:
-        Shared: 0.1332
+        Shared: 0.1056
       ap-southeast-2:
         Shared: 0.1056
       ca-central-1:
         Shared: 0.0928
       eu-central-1:
-        Shared: 0.096
+        Shared: 0.1236
       eu-west-1:
         Shared: 0.1188
       eu-west-2:
+        Shared: 0.122
+      eu-west-3:
         Shared: 0.122
       sa-east-1:
         Shared: 0.162
       us-east-1:
         Shared: 0.0832
       us-east-2:
-        Shared: 0.1108
+        Shared: 0.0832
+      us-gov-west-1:
+        Shared: 0.1252
       us-west-1:
         Shared: 0.1268
       us-west-2:
@@ -22007,14 +23054,17 @@ t3.large:
     - eu-central-1
     - ap-southeast-2
     - eu-west-1
-    - us-west-1
+    - us-gov-west-1
     - ap-northeast-1
     - us-east-1
-    - ap-southeast-1
-    - sa-east-1
-    - eu-west-2
-    - us-east-2
     - ca-central-1
+    - ap-southeast-1
+    - eu-west-2
+    - eu-west-3
+    - sa-east-1
+    - ap-northeast-2
+    - us-west-1
+    - us-east-2
   storage: EBS only
   vcpu: 2
 t3.medium:
@@ -22028,6 +23078,8 @@ t3.medium:
     Linux:
       ap-northeast-1:
         Shared: 0.0544
+      ap-northeast-2:
+        Shared: 0.052
       ap-southeast-1:
         Shared: 0.0528
       ap-southeast-2:
@@ -22040,12 +23092,16 @@ t3.medium:
         Shared: 0.0456
       eu-west-2:
         Shared: 0.0472
+      eu-west-3:
+        Shared: 0.0472
       sa-east-1:
         Shared: 0.0672
       us-east-1:
         Shared: 0.0416
       us-east-2:
         Shared: 0.0416
+      us-gov-west-1:
+        Shared: 0.0488
       us-west-1:
         Shared: 0.0496
       us-west-2:
@@ -22053,6 +23109,8 @@ t3.medium:
     RHEL:
       ap-northeast-1:
         Shared: 0.1144
+      ap-northeast-2:
+        Shared: 0.112
       ap-southeast-1:
         Shared: 0.1128
       ap-southeast-2:
@@ -22065,12 +23123,16 @@ t3.medium:
         Shared: 0.1056
       eu-west-2:
         Shared: 0.1072
+      eu-west-3:
+        Shared: 0.1072
       sa-east-1:
         Shared: 0.1272
       us-east-1:
         Shared: 0.1016
       us-east-2:
         Shared: 0.1016
+      us-gov-west-1:
+        Shared: 0.1088
       us-west-1:
         Shared: 0.1096
       us-west-2:
@@ -22078,6 +23140,8 @@ t3.medium:
     SUSE:
       ap-northeast-1:
         Shared: 0.1174
+      ap-northeast-2:
+        Shared: 0.115
       ap-southeast-1:
         Shared: 0.1158
       ap-southeast-2:
@@ -22090,12 +23154,16 @@ t3.medium:
         Shared: 0.1086
       eu-west-2:
         Shared: 0.1102
+      eu-west-3:
+        Shared: 0.1102
       sa-east-1:
         Shared: 0.1302
       us-east-1:
         Shared: 0.1046
       us-east-2:
         Shared: 0.1046
+      us-gov-west-1:
+        Shared: 0.1118
       us-west-1:
         Shared: 0.1126
       us-west-2:
@@ -22103,6 +23171,8 @@ t3.medium:
     Windows:
       ap-northeast-1:
         Shared: 0.0728
+      ap-northeast-2:
+        Shared: 0.0704
       ap-southeast-1:
         Shared: 0.0712
       ap-southeast-2:
@@ -22110,10 +23180,12 @@ t3.medium:
       ca-central-1:
         Shared: 0.0464
       eu-central-1:
-        Shared: 0.0664
+        Shared: 0.048
       eu-west-1:
         Shared: 0.064
       eu-west-2:
+        Shared: 0.0656
+      eu-west-3:
         Shared: 0.0656
       sa-east-1:
         Shared: 0.0856
@@ -22121,23 +23193,28 @@ t3.medium:
         Shared: 0.0416
       us-east-2:
         Shared: 0.0416
+      us-gov-west-1:
+        Shared: 0.0672
       us-west-1:
         Shared: 0.068
       us-west-2:
-        Shared: 0.06
+        Shared: 0.0416
   regions:
-    - us-east-2
-    - eu-west-1
-    - us-east-1
-    - us-west-2
-    - ap-southeast-2
-    - ca-central-1
+    - eu-west-3
     - sa-east-1
+    - us-east-1
+    - eu-west-1
+    - us-gov-west-1
+    - us-east-2
+    - eu-west-2
     - us-west-1
+    - ap-northeast-2
+    - ap-southeast-2
     - ap-southeast-1
     - ap-northeast-1
     - eu-central-1
-    - eu-west-2
+    - us-west-2
+    - ca-central-1
   storage: EBS only
   vcpu: 2
 t3.micro:
@@ -22151,6 +23228,8 @@ t3.micro:
     Linux:
       ap-northeast-1:
         Shared: 0.0136
+      ap-northeast-2:
+        Shared: 0.013
       ap-southeast-1:
         Shared: 0.0132
       ap-southeast-2:
@@ -22163,12 +23242,16 @@ t3.micro:
         Shared: 0.0114
       eu-west-2:
         Shared: 0.0118
+      eu-west-3:
+        Shared: 0.0118
       sa-east-1:
         Shared: 0.0168
       us-east-1:
         Shared: 0.0104
       us-east-2:
         Shared: 0.0104
+      us-gov-west-1:
+        Shared: 0.0122
       us-west-1:
         Shared: 0.0124
       us-west-2:
@@ -22176,6 +23259,8 @@ t3.micro:
     RHEL:
       ap-northeast-1:
         Shared: 0.0736
+      ap-northeast-2:
+        Shared: 0.073
       ap-southeast-1:
         Shared: 0.0732
       ap-southeast-2:
@@ -22188,12 +23273,16 @@ t3.micro:
         Shared: 0.0714
       eu-west-2:
         Shared: 0.0718
+      eu-west-3:
+        Shared: 0.0718
       sa-east-1:
         Shared: 0.0768
       us-east-1:
         Shared: 0.0704
       us-east-2:
         Shared: 0.0704
+      us-gov-west-1:
+        Shared: 0.0722
       us-west-1:
         Shared: 0.0724
       us-west-2:
@@ -22201,6 +23290,8 @@ t3.micro:
     SUSE:
       ap-northeast-1:
         Shared: 0.0136
+      ap-northeast-2:
+        Shared: 0.013
       ap-southeast-1:
         Shared: 0.0132
       ap-southeast-2:
@@ -22213,12 +23304,16 @@ t3.micro:
         Shared: 0.0114
       eu-west-2:
         Shared: 0.0118
+      eu-west-3:
+        Shared: 0.0118
       sa-east-1:
         Shared: 0.0168
       us-east-1:
         Shared: 0.0104
       us-east-2:
         Shared: 0.0104
+      us-gov-west-1:
+        Shared: 0.0122
       us-west-1:
         Shared: 0.0124
       us-west-2:
@@ -22226,6 +23321,8 @@ t3.micro:
     Windows:
       ap-northeast-1:
         Shared: 0.0228
+      ap-northeast-2:
+        Shared: 0.0222
       ap-southeast-1:
         Shared: 0.0224
       ap-southeast-2:
@@ -22235,8 +23332,10 @@ t3.micro:
       eu-central-1:
         Shared: 0.0212
       eu-west-1:
-        Shared: 0.0206
+        Shared: 0.0114
       eu-west-2:
+        Shared: 0.021
+      eu-west-3:
         Shared: 0.021
       sa-east-1:
         Shared: 0.026
@@ -22244,6 +23343,8 @@ t3.micro:
         Shared: 0.0196
       us-east-2:
         Shared: 0.0196
+      us-gov-west-1:
+        Shared: 0.0214
       us-west-1:
         Shared: 0.0216
       us-west-2:
@@ -22251,15 +23352,18 @@ t3.micro:
   regions:
     - ap-northeast-1
     - us-west-2
+    - sa-east-1
     - eu-west-2
-    - eu-west-1
     - ca-central-1
     - us-west-1
     - us-east-2
     - eu-central-1
-    - ap-southeast-2
-    - sa-east-1
+    - us-gov-west-1
+    - eu-west-3
+    - ap-northeast-2
+    - eu-west-1
     - ap-southeast-1
+    - ap-southeast-2
     - us-east-1
   storage: EBS only
   vcpu: 2
@@ -22274,6 +23378,8 @@ t3.nano:
     Linux:
       ap-northeast-1:
         Shared: 0.0068
+      ap-northeast-2:
+        Shared: 0.0065
       ap-southeast-1:
         Shared: 0.0066
       ap-southeast-2:
@@ -22286,12 +23392,16 @@ t3.nano:
         Shared: 0.0057
       eu-west-2:
         Shared: 0.0059
+      eu-west-3:
+        Shared: 0.0059
       sa-east-1:
         Shared: 0.0084
       us-east-1:
         Shared: 0.0052
       us-east-2:
         Shared: 0.0052
+      us-gov-west-1:
+        Shared: 0.0061
       us-west-1:
         Shared: 0.0062
       us-west-2:
@@ -22299,6 +23409,8 @@ t3.nano:
     SUSE:
       ap-northeast-1:
         Shared: 0.0068
+      ap-northeast-2:
+        Shared: 0.0065
       ap-southeast-1:
         Shared: 0.0066
       ap-southeast-2:
@@ -22311,12 +23423,16 @@ t3.nano:
         Shared: 0.0057
       eu-west-2:
         Shared: 0.0059
+      eu-west-3:
+        Shared: 0.0059
       sa-east-1:
         Shared: 0.0084
       us-east-1:
         Shared: 0.0052
       us-east-2:
         Shared: 0.0052
+      us-gov-west-1:
+        Shared: 0.0061
       us-west-1:
         Shared: 0.0062
       us-west-2:
@@ -22324,8 +23440,10 @@ t3.nano:
     Windows:
       ap-northeast-1:
         Shared: 0.0114
+      ap-northeast-2:
+        Shared: 0.0111
       ap-southeast-1:
-        Shared: 0.0112
+        Shared: 0.0066
       ap-southeast-2:
         Shared: 0.0112
       ca-central-1:
@@ -22333,32 +23451,39 @@ t3.nano:
       eu-central-1:
         Shared: 0.006
       eu-west-1:
-        Shared: 0.0057
+        Shared: 0.0103
       eu-west-2:
-        Shared: 0.0059
+        Shared: 0.0105
+      eu-west-3:
+        Shared: 0.0105
       sa-east-1:
-        Shared: 0.0084
+        Shared: 0.013
       us-east-1:
-        Shared: 0.0098
-      us-east-2:
         Shared: 0.0052
+      us-east-2:
+        Shared: 0.0098
+      us-gov-west-1:
+        Shared: 0.0107
       us-west-1:
-        Shared: 0.0062
+        Shared: 0.0108
       us-west-2:
         Shared: 0.0052
   regions:
-    - ap-southeast-2
     - eu-west-1
+    - ap-southeast-2
+    - ap-northeast-2
     - sa-east-1
     - ap-southeast-1
+    - us-gov-west-1
     - us-west-1
     - ap-northeast-1
     - us-west-2
-    - eu-west-2
+    - eu-west-3
     - us-east-2
     - eu-central-1
-    - us-east-1
     - ca-central-1
+    - us-east-1
+    - eu-west-2
   storage: EBS only
   vcpu: 2
 t3.small:
@@ -22372,6 +23497,8 @@ t3.small:
     Linux:
       ap-northeast-1:
         Shared: 0.0272
+      ap-northeast-2:
+        Shared: 0.026
       ap-southeast-1:
         Shared: 0.0264
       ap-southeast-2:
@@ -22384,12 +23511,16 @@ t3.small:
         Shared: 0.0228
       eu-west-2:
         Shared: 0.0236
+      eu-west-3:
+        Shared: 0.0236
       sa-east-1:
         Shared: 0.0336
       us-east-1:
         Shared: 0.0208
       us-east-2:
         Shared: 0.0208
+      us-gov-west-1:
+        Shared: 0.0244
       us-west-1:
         Shared: 0.0248
       us-west-2:
@@ -22397,6 +23528,8 @@ t3.small:
     RHEL:
       ap-northeast-1:
         Shared: 0.0872
+      ap-northeast-2:
+        Shared: 0.086
       ap-southeast-1:
         Shared: 0.0864
       ap-southeast-2:
@@ -22409,12 +23542,16 @@ t3.small:
         Shared: 0.0828
       eu-west-2:
         Shared: 0.0836
+      eu-west-3:
+        Shared: 0.0836
       sa-east-1:
         Shared: 0.0936
       us-east-1:
         Shared: 0.0808
       us-east-2:
         Shared: 0.0808
+      us-gov-west-1:
+        Shared: 0.0844
       us-west-1:
         Shared: 0.0848
       us-west-2:
@@ -22422,6 +23559,8 @@ t3.small:
     SUSE:
       ap-northeast-1:
         Shared: 0.0582
+      ap-northeast-2:
+        Shared: 0.057
       ap-southeast-1:
         Shared: 0.0574
       ap-southeast-2:
@@ -22434,12 +23573,16 @@ t3.small:
         Shared: 0.0538
       eu-west-2:
         Shared: 0.0546
+      eu-west-3:
+        Shared: 0.0546
       sa-east-1:
         Shared: 0.0646
       us-east-1:
         Shared: 0.0518
       us-east-2:
         Shared: 0.0518
+      us-gov-west-1:
+        Shared: 0.0554
       us-west-1:
         Shared: 0.0558
       us-west-2:
@@ -22447,41 +23590,50 @@ t3.small:
     Windows:
       ap-northeast-1:
         Shared: 0.0456
+      ap-northeast-2:
+        Shared: 0.0444
       ap-southeast-1:
         Shared: 0.0264
       ap-southeast-2:
-        Shared: 0.0264
+        Shared: 0.0448
       ca-central-1:
-        Shared: 0.0232
+        Shared: 0.0416
       eu-central-1:
         Shared: 0.0424
       eu-west-1:
         Shared: 0.0228
       eu-west-2:
-        Shared: 0.0236
+        Shared: 0.042
+      eu-west-3:
+        Shared: 0.042
       sa-east-1:
         Shared: 0.052
       us-east-1:
         Shared: 0.0392
       us-east-2:
         Shared: 0.0392
+      us-gov-west-1:
+        Shared: 0.0428
       us-west-1:
         Shared: 0.0248
       us-west-2:
         Shared: 0.0392
   regions:
-    - us-west-2
+    - ap-northeast-2
     - eu-west-2
-    - eu-west-1
+    - us-west-2
     - ap-southeast-2
+    - eu-west-3
+    - eu-central-1
+    - us-gov-west-1
     - us-west-1
-    - us-east-1
     - ca-central-1
     - us-east-2
-    - eu-central-1
-    - ap-southeast-1
     - ap-northeast-1
     - sa-east-1
+    - ap-southeast-1
+    - us-east-1
+    - eu-west-1
   storage: EBS only
   vcpu: 2
 t3.xlarge:
@@ -22495,6 +23647,8 @@ t3.xlarge:
     Linux:
       ap-northeast-1:
         Shared: 0.2176
+      ap-northeast-2:
+        Shared: 0.208
       ap-southeast-1:
         Shared: 0.2112
       ap-southeast-2:
@@ -22507,12 +23661,16 @@ t3.xlarge:
         Shared: 0.1824
       eu-west-2:
         Shared: 0.1888
+      eu-west-3:
+        Shared: 0.1888
       sa-east-1:
         Shared: 0.2688
       us-east-1:
         Shared: 0.1664
       us-east-2:
         Shared: 0.1664
+      us-gov-west-1:
+        Shared: 0.1952
       us-west-1:
         Shared: 0.1984
       us-west-2:
@@ -22520,6 +23678,8 @@ t3.xlarge:
     RHEL:
       ap-northeast-1:
         Shared: 0.2776
+      ap-northeast-2:
+        Shared: 0.268
       ap-southeast-1:
         Shared: 0.2712
       ap-southeast-2:
@@ -22532,12 +23692,16 @@ t3.xlarge:
         Shared: 0.2424
       eu-west-2:
         Shared: 0.2488
+      eu-west-3:
+        Shared: 0.2488
       sa-east-1:
         Shared: 0.3288
       us-east-1:
         Shared: 0.2264
       us-east-2:
         Shared: 0.2264
+      us-gov-west-1:
+        Shared: 0.2552
       us-west-1:
         Shared: 0.2584
       us-west-2:
@@ -22545,6 +23709,8 @@ t3.xlarge:
     SUSE:
       ap-northeast-1:
         Shared: 0.3426
+      ap-northeast-2:
+        Shared: 0.333
       ap-southeast-1:
         Shared: 0.3362
       ap-southeast-2:
@@ -22557,12 +23723,16 @@ t3.xlarge:
         Shared: 0.3074
       eu-west-2:
         Shared: 0.3138
+      eu-west-3:
+        Shared: 0.3138
       sa-east-1:
         Shared: 0.3938
       us-east-1:
         Shared: 0.2914
       us-east-2:
         Shared: 0.2914
+      us-gov-west-1:
+        Shared: 0.3202
       us-west-1:
         Shared: 0.3234
       us-west-2:
@@ -22570,6 +23740,8 @@ t3.xlarge:
     Windows:
       ap-northeast-1:
         Shared: 0.2912
+      ap-northeast-2:
+        Shared: 0.2816
       ap-southeast-1:
         Shared: 0.2112
       ap-southeast-2:
@@ -22581,29 +23753,36 @@ t3.xlarge:
       eu-west-1:
         Shared: 0.256
       eu-west-2:
-        Shared: 0.1888
+        Shared: 0.2624
+      eu-west-3:
+        Shared: 0.2624
       sa-east-1:
         Shared: 0.2688
       us-east-1:
-        Shared: 0.1664
+        Shared: 0.24
       us-east-2:
         Shared: 0.24
+      us-gov-west-1:
+        Shared: 0.2688
       us-west-1:
-        Shared: 0.272
+        Shared: 0.1984
       us-west-2:
         Shared: 0.1664
   regions:
     - us-east-1
     - eu-central-1
+    - eu-west-3
     - sa-east-1
     - us-west-1
-    - ap-southeast-1
-    - us-west-2
+    - eu-west-2
+    - us-gov-west-1
     - ap-southeast-2
+    - us-west-2
     - ap-northeast-1
     - eu-west-1
-    - eu-west-2
+    - ap-southeast-1
     - us-east-2
+    - ap-northeast-2
     - ca-central-1
   storage: EBS only
   vcpu: 4
@@ -22767,56 +23946,56 @@ x1.16xlarge:
         Shared: 12.131
       ap-southeast-1:
         Dedicated: 13.582
-        Shared: 12.615
+        Shared: 9.671
       ap-southeast-2:
         Dedicated: 13.582
-        Shared: 12.615
+        Shared: 9.671
       ca-central-1:
-        Dedicated: 11.014
+        Dedicated: 8.07
         Shared: 7.336
       eu-central-1:
-        Dedicated: 10.271
+        Dedicated: 13.215
         Shared: 12.281
       eu-west-1:
         Dedicated: 8.803
         Shared: 8.003
       eu-west-2:
         Dedicated: 12.187
-        Shared: 8.403
+        Shared: 11.347
       eu-west-3:
         Dedicated: 12.187
-        Shared: 8.403
+        Shared: 11.347
       sa-east-1:
         Dedicated: 17.25
         Shared: 15.949
       us-east-1:
         Dedicated: 7.336
-        Shared: 6.669
+        Shared: 9.613
       us-east-2:
         Dedicated: 10.28
         Shared: 6.669
       us-gov-west-1:
-        Dedicated: 8.803
-        Shared: 10.947
+        Dedicated: 11.747
+        Shared: 8.003
       us-west-2:
         Dedicated: 7.336
         Shared: 9.613
   regions:
-    - ap-southeast-2
-    - us-east-2
-    - us-west-2
-    - ap-northeast-1
     - eu-west-3
+    - ap-southeast-2
+    - sa-east-1
+    - ap-south-1
+    - us-west-2
+    - eu-central-1
+    - ca-central-1
+    - ap-northeast-1
     - ap-southeast-1
     - us-east-1
-    - ap-northeast-2
-    - sa-east-1
-    - eu-central-1
+    - us-east-2
     - eu-west-1
-    - us-gov-west-1
+    - ap-northeast-2
     - eu-west-2
-    - ca-central-1
-    - ap-south-1
+    - us-gov-west-1
   storage: 1 x 1920 SSD
   vcpu: 64
 x1.32xlarge:
@@ -22975,11 +24154,11 @@ x1.32xlarge:
         Dedicated: 19.341
         Shared: 19.341
       ap-south-1:
-        Dedicated: 18.374
+        Dedicated: 24.262
         Shared: 18.374
       ap-southeast-1:
         Dedicated: 25.229
-        Shared: 19.341
+        Shared: 25.229
       ap-southeast-2:
         Dedicated: 25.229
         Shared: 25.229
@@ -22994,41 +24173,41 @@ x1.32xlarge:
         Shared: 21.894
       eu-west-2:
         Dedicated: 22.694
-        Shared: 22.694
+        Shared: 16.806
       eu-west-3:
-        Dedicated: 22.694
+        Dedicated: 16.806
         Shared: 16.806
       sa-east-1:
         Dedicated: 26.01
-        Shared: 31.898
+        Shared: 26.01
       us-east-1:
         Dedicated: 19.226
-        Shared: 13.338
+        Shared: 19.226
       us-east-2:
         Dedicated: 19.226
         Shared: 13.338
       us-gov-west-1:
-        Dedicated: 16.006
-        Shared: 16.006
+        Dedicated: 21.894
+        Shared: 21.894
       us-west-2:
         Dedicated: 13.338
-        Shared: 19.226
+        Shared: 13.338
   regions:
-    - ap-southeast-1
     - eu-west-1
-    - ap-northeast-1
-    - ap-southeast-2
-    - us-west-2
-    - sa-east-1
     - eu-central-1
-    - us-east-1
+    - ap-northeast-1
+    - eu-west-2
+    - ap-southeast-1
+    - sa-east-1
+    - us-west-2
     - us-east-2
     - eu-west-3
-    - ca-central-1
+    - us-east-1
     - ap-south-1
     - us-gov-west-1
+    - ap-southeast-2
+    - ca-central-1
     - ap-northeast-2
-    - eu-west-2
   storage: 2 x 1920 SSD
   vcpu: 128
 x1e.16xlarge:
@@ -23116,10 +24295,10 @@ x1e.16xlarge:
         Dedicated: 21.278
         Shared: 22.288
       eu-central-1:
-        Dedicated: 23.483
+        Dedicated: 20.539
         Shared: 21.616
       eu-west-1:
-        Dedicated: 17.6
+        Dedicated: 20.544
         Shared: 18.944
       us-east-1:
         Dedicated: 17.622
@@ -23129,15 +24308,15 @@ x1e.16xlarge:
         Shared: 16
       us-west-2:
         Dedicated: 17.622
-        Shared: 16.288
+        Shared: 13.344
   regions:
-    - ap-northeast-1
     - ap-southeast-2
     - us-gov-west-1
+    - ap-northeast-1
     - us-east-1
-    - eu-central-1
-    - us-west-2
     - eu-west-1
+    - us-west-2
+    - eu-central-1
   storage: 1 x 1920 SSD
   vcpu: 64
 x1e.2xlarge:
@@ -23219,11 +24398,11 @@ x1e.2xlarge:
         Shared: 1.768
     Windows:
       ap-northeast-1:
-        Dedicated: 3.028
+        Dedicated: 2.66
         Shared: 2.418
       ap-southeast-2:
-        Dedicated: 3.028
-        Shared: 2.786
+        Dedicated: 2.66
+        Shared: 2.418
       eu-central-1:
         Dedicated: 2.567
         Shared: 2.702
@@ -23232,7 +24411,7 @@ x1e.2xlarge:
         Shared: 2.368
       us-east-1:
         Dedicated: 2.203
-        Shared: 1.668
+        Shared: 2.036
       us-gov-west-1:
         Dedicated: 2.568
         Shared: 2
@@ -23241,12 +24420,12 @@ x1e.2xlarge:
         Shared: 2.036
   regions:
     - eu-central-1
-    - us-gov-west-1
     - eu-west-1
-    - ap-southeast-2
     - us-west-2
     - ap-northeast-1
+    - ap-southeast-2
     - us-east-1
+    - us-gov-west-1
   storage: 1 x 240 SSD
   vcpu: 8
 x1e.32xlarge:
@@ -23329,31 +24508,31 @@ x1e.32xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 38.688
-        Shared: 44.576
+        Shared: 38.688
       ap-southeast-2:
-        Dedicated: 44.576
+        Dedicated: 38.688
         Shared: 44.576
       eu-central-1:
-        Dedicated: 37.344
+        Dedicated: 43.232
         Shared: 43.232
       eu-west-1:
-        Dedicated: 37.888
+        Dedicated: 32
         Shared: 32
       us-east-1:
         Dedicated: 26.688
         Shared: 26.688
       us-gov-west-1:
         Dedicated: 32
-        Shared: 32
+        Shared: 37.888
       us-west-2:
-        Dedicated: 32.576
+        Dedicated: 26.688
         Shared: 26.688
   regions:
     - eu-west-1
     - us-gov-west-1
-    - us-west-2
     - eu-central-1
     - us-east-1
+    - us-west-2
     - ap-northeast-1
     - ap-southeast-2
   storage: '2 x 1,920 SSD'
@@ -23441,28 +24620,28 @@ x1e.4xlarge:
         Shared: 5.572
       ap-southeast-2:
         Dedicated: 6.056
-        Shared: 4.836
+        Shared: 5.572
       eu-central-1:
         Dedicated: 5.871
-        Shared: 4.668
+        Shared: 5.404
       eu-west-1:
-        Dedicated: 5.136
+        Dedicated: 4.4
         Shared: 4.736
       us-east-1:
-        Dedicated: 3.67
+        Dedicated: 4.406
         Shared: 4.072
       us-gov-west-1:
         Dedicated: 4.4
         Shared: 4
       us-west-2:
-        Dedicated: 3.67
+        Dedicated: 4.406
         Shared: 4.072
   regions:
     - eu-central-1
     - us-east-1
     - ap-northeast-1
-    - us-gov-west-1
     - us-west-2
+    - us-gov-west-1
     - eu-west-1
     - ap-southeast-2
   storage: 1 x 480 SSD
@@ -23547,9 +24726,9 @@ x1e.8xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 12.111
-        Shared: 11.144
+        Shared: 9.672
       ap-southeast-2:
-        Dedicated: 12.111
+        Dedicated: 10.639
         Shared: 11.144
       eu-central-1:
         Dedicated: 10.27
@@ -23562,18 +24741,18 @@ x1e.8xlarge:
         Shared: 8.144
       us-gov-west-1:
         Dedicated: 8.8
-        Shared: 9.472
+        Shared: 8
       us-west-2:
         Dedicated: 8.811
-        Shared: 6.672
+        Shared: 8.144
   regions:
     - us-east-1
     - ap-northeast-1
     - us-west-2
-    - eu-west-1
     - eu-central-1
-    - ap-southeast-2
     - us-gov-west-1
+    - ap-southeast-2
+    - eu-west-1
   storage: 1 x 960 SSD
   vcpu: 32
 x1e.xlarge:
@@ -23655,17 +24834,17 @@ x1e.xlarge:
         Shared: 0.934
     Windows:
       ap-northeast-1:
-        Dedicated: 1.33
+        Dedicated: 1.514
         Shared: 1.209
       ap-southeast-2:
-        Dedicated: 1.33
+        Dedicated: 1.514
         Shared: 1.393
       eu-central-1:
         Dedicated: 1.284
         Shared: 1.167
       eu-west-1:
         Dedicated: 1.284
-        Shared: 1.184
+        Shared: 1
       us-east-1:
         Dedicated: 1.101
         Shared: 0.834
@@ -23673,13 +24852,13 @@ x1e.xlarge:
         Dedicated: 1.1
         Shared: 1
       us-west-2:
-        Dedicated: 0.917
+        Dedicated: 1.101
         Shared: 1.018
   regions:
-    - us-east-1
     - eu-west-1
     - us-west-2
     - ap-southeast-2
+    - us-east-1
     - ap-northeast-1
     - eu-central-1
     - us-gov-west-1
@@ -23755,7 +24934,7 @@ z1d.12xlarge:
         Dedicated: 5.448
         Shared: 7.656
       ap-southeast-1:
-        Dedicated: 7.632
+        Dedicated: 5.424
         Shared: 7.632
       eu-west-1:
         Dedicated: 7.2
@@ -23764,7 +24943,7 @@ z1d.12xlarge:
         Dedicated: 6.672
         Shared: 6.672
       us-west-1:
-        Dedicated: 5.064
+        Dedicated: 7.272
         Shared: 5.064
       us-west-2:
         Dedicated: 6.672
@@ -23848,26 +25027,26 @@ z1d.2xlarge:
         Dedicated: 1.331
         Shared: 0.908
       ap-southeast-1:
-        Dedicated: 0.958
+        Dedicated: 1.326
         Shared: 1.272
       eu-west-1:
         Dedicated: 1.251
-        Shared: 1.2
+        Shared: 0.832
       us-east-1:
         Dedicated: 1.157
         Shared: 0.744
       us-west-1:
-        Dedicated: 1.264
+        Dedicated: 0.896
         Shared: 1.212
       us-west-2:
         Dedicated: 1.157
         Shared: 1.112
   regions:
+    - us-west-2
     - us-east-1
     - us-west-1
-    - us-west-2
-    - ap-northeast-1
     - eu-west-1
+    - ap-northeast-1
     - ap-southeast-1
   storage: 1 x 300 NVMe SSD
   vcpu: 8
@@ -23941,26 +25120,26 @@ z1d.3xlarge:
         Dedicated: 1.997
         Shared: 1.362
       ap-southeast-1:
-        Dedicated: 1.99
-        Shared: 1.356
+        Dedicated: 1.438
+        Shared: 1.908
       eu-west-1:
-        Dedicated: 1.876
+        Dedicated: 1.324
         Shared: 1.8
       us-east-1:
         Dedicated: 1.735
         Shared: 1.116
       us-west-1:
-        Dedicated: 1.895
+        Dedicated: 1.343
         Shared: 1.818
       us-west-2:
-        Dedicated: 1.183
-        Shared: 1.116
+        Dedicated: 1.735
+        Shared: 1.668
   regions:
-    - ap-southeast-1
     - ap-northeast-1
+    - ap-southeast-1
     - eu-west-1
-    - us-west-2
     - us-west-1
+    - us-west-2
     - us-east-1
   storage: 1 x 450 NVMe SSD
   vcpu: 12
@@ -24032,7 +25211,7 @@ z1d.6xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 3.994
-        Shared: 3.828
+        Shared: 2.724
       ap-southeast-1:
         Dedicated: 3.979
         Shared: 3.816
@@ -24043,17 +25222,17 @@ z1d.6xlarge:
         Dedicated: 2.366
         Shared: 3.336
       us-west-1:
-        Dedicated: 2.687
+        Dedicated: 3.791
         Shared: 2.532
       us-west-2:
         Dedicated: 2.366
-        Shared: 3.336
+        Shared: 2.232
   regions:
     - eu-west-1
     - us-west-2
+    - us-east-1
     - ap-southeast-1
     - us-west-1
-    - us-east-1
     - ap-northeast-1
   storage: 1 x 900 NVMe SSD
   vcpu: 24
@@ -24125,28 +25304,28 @@ z1d.large:
     Windows:
       ap-northeast-1:
         Dedicated: 0.333
-        Shared: 0.319
+        Shared: 0.227
       ap-southeast-1:
         Dedicated: 0.332
         Shared: 0.318
       eu-west-1:
         Dedicated: 0.221
-        Shared: 0.208
+        Shared: 0.3
       us-east-1:
         Dedicated: 0.289
         Shared: 0.278
       us-west-1:
-        Dedicated: 0.316
-        Shared: 0.211
+        Dedicated: 0.224
+        Shared: 0.303
       us-west-2:
         Dedicated: 0.289
         Shared: 0.278
   regions:
     - us-east-1
-    - us-west-2
     - eu-west-1
     - ap-southeast-1
     - ap-northeast-1
+    - us-west-2
     - us-west-1
   storage: 1 x 75 NVMe SSD
   vcpu: 2
@@ -24226,8 +25405,8 @@ z1d.xlarge:
         Dedicated: 0.441
         Shared: 0.6
       us-east-1:
-        Dedicated: 0.394
-        Shared: 0.556
+        Dedicated: 0.578
+        Shared: 0.372
       us-west-1:
         Dedicated: 0.632
         Shared: 0.422
@@ -24235,12 +25414,12 @@ z1d.xlarge:
         Dedicated: 0.578
         Shared: 0.556
   regions:
-    - us-west-2
     - eu-west-1
     - ap-southeast-1
     - us-west-1
     - us-east-1
     - ap-northeast-1
+    - us-west-2
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 
