@@ -1,6 +1,6 @@
 {
-  "name": "voightkampff",
-  "version": "0.0.0",
+  "name": "ec2details",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/instance_details.js"

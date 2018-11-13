@@ -6,13 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      # specify the version you desire here
-      - image: circleci/node:9.11
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
+      - image: circleci/node:10.13
 
     working_directory: ~/repo
 
@@ -33,18 +27,13 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # run tests!
+      # Build api files, but do *not* push back to github.
+      # Pushing back to github here could trigger additional builds, causing a loop.
       - run: make api
 
   deploy:
     docker:
-      # specify the version you desire here
       - image: circleci/node:10.13
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
 
     working_directory: ~/repo
 
@@ -67,10 +56,12 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # run tests!
+      # Set git configuration so we can push back to github.
       - run: git config --global user.email "tedivm@tedivm.com"
       - run: git config --global user.name "Robert Hafner"
       - run: git config --global push.default simple
+
+      # Build files *and* push back to github.
       - run: make deploy
 
 workflows:
