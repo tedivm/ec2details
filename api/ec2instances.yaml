@@ -16791,17 +16791,17 @@ p3.16xlarge:
   prices:
     Linux:
       ap-northeast-1:
-        Dedicated: 41.944
-        Shared: 41.944
+        Dedicated: 33.552
+        Shared: 33.552
       ap-northeast-2:
-        Dedicated: 39.848
-        Shared: 39.848
+        Dedicated: 33.872
+        Shared: 33.872
       ap-southeast-1:
-        Dedicated: 39.848
-        Shared: 39.848
+        Dedicated: 33.872
+        Shared: 33.872
       ap-southeast-2:
-        Dedicated: 39.848
-        Shared: 39.848
+        Dedicated: 33.872
+        Shared: 33.872
       ca-central-1:
         Dedicated: 26.928
         Shared: 26.928
@@ -16828,17 +16828,17 @@ p3.16xlarge:
         Shared: 24.48
     RHEL:
       ap-northeast-1:
-        Dedicated: 42.074
-        Shared: 42.074
+        Dedicated: 33.682
+        Shared: 33.682
       ap-northeast-2:
-        Dedicated: 39.978
-        Shared: 39.978
+        Dedicated: 34.002
+        Shared: 34.002
       ap-southeast-1:
-        Dedicated: 39.978
-        Shared: 39.978
+        Dedicated: 34.002
+        Shared: 34.002
       ap-southeast-2:
-        Dedicated: 39.978
-        Shared: 39.978
+        Dedicated: 34.002
+        Shared: 34.002
       ca-central-1:
         Dedicated: 27.058
         Shared: 27.058
@@ -16865,17 +16865,17 @@ p3.16xlarge:
         Shared: 24.61
     SUSE:
       ap-northeast-1:
-        Dedicated: 42.044
-        Shared: 42.044
+        Dedicated: 33.652
+        Shared: 33.652
       ap-northeast-2:
-        Dedicated: 39.948
-        Shared: 39.948
+        Dedicated: 33.972
+        Shared: 33.972
       ap-southeast-1:
-        Dedicated: 39.948
-        Shared: 39.948
+        Dedicated: 33.972
+        Shared: 33.972
       ap-southeast-2:
-        Dedicated: 39.948
-        Shared: 39.948
+        Dedicated: 33.972
+        Shared: 33.972
       ca-central-1:
         Dedicated: 27.028
         Shared: 27.028
@@ -16902,17 +16902,17 @@ p3.16xlarge:
         Shared: 24.58
     Windows:
       ap-northeast-1:
-        Dedicated: 44.888
-        Shared: 44.888
+        Dedicated: 36.496
+        Shared: 36.496
       ap-northeast-2:
-        Dedicated: 42.792
-        Shared: 42.792
+        Dedicated: 36.816
+        Shared: 36.816
       ap-southeast-1:
-        Dedicated: 39.848
-        Shared: 39.848
+        Dedicated: 33.872
+        Shared: 33.872
       ap-southeast-2:
-        Dedicated: 42.792
-        Shared: 42.792
+        Dedicated: 36.816
+        Shared: 36.816
       ca-central-1:
         Dedicated: 29.872
         Shared: 29.872
@@ -16966,17 +16966,17 @@ p3.2xlarge:
   prices:
     Linux:
       ap-northeast-1:
-        Dedicated: 5.593
-        Shared: 5.243
+        Dedicated: 4.474
+        Shared: 4.194
       ap-northeast-2:
-        Dedicated: 5.313
-        Shared: 4.981
+        Dedicated: 4.516
+        Shared: 4.234
       ap-southeast-1:
-        Dedicated: 5.313
-        Shared: 4.981
+        Dedicated: 4.516
+        Shared: 4.234
       ap-southeast-2:
-        Dedicated: 5.313
-        Shared: 4.981
+        Dedicated: 4.516
+        Shared: 4.234
       ca-central-1:
         Dedicated: 3.585
         Shared: 3.366
@@ -17003,17 +17003,17 @@ p3.2xlarge:
         Shared: 3.06
     RHEL:
       ap-northeast-1:
-        Dedicated: 5.723
-        Shared: 5.373
+        Dedicated: 4.604
+        Shared: 4.324
       ap-northeast-2:
-        Dedicated: 5.443
-        Shared: 5.111
+        Dedicated: 4.646
+        Shared: 4.364
       ap-southeast-1:
-        Dedicated: 5.443
-        Shared: 5.111
+        Dedicated: 4.646
+        Shared: 4.364
       ap-southeast-2:
-        Dedicated: 5.443
-        Shared: 5.111
+        Dedicated: 4.646
+        Shared: 4.364
       ca-central-1:
         Dedicated: 3.715
         Shared: 3.496
@@ -17040,17 +17040,17 @@ p3.2xlarge:
         Shared: 3.19
     SUSE:
       ap-northeast-1:
-        Dedicated: 5.693
-        Shared: 5.343
+        Dedicated: 4.574
+        Shared: 4.294
       ap-northeast-2:
-        Dedicated: 5.413
-        Shared: 5.081
+        Dedicated: 4.616
+        Shared: 4.334
       ap-southeast-1:
-        Dedicated: 5.413
-        Shared: 5.081
+        Dedicated: 4.616
+        Shared: 4.334
       ap-southeast-2:
-        Dedicated: 5.413
-        Shared: 5.081
+        Dedicated: 4.616
+        Shared: 4.334
       ca-central-1:
         Dedicated: 3.685
         Shared: 3.466
@@ -17077,17 +17077,17 @@ p3.2xlarge:
         Shared: 3.16
     Windows:
       ap-northeast-1:
-        Dedicated: 5.593
-        Shared: 5.611
+        Dedicated: 4.474
+        Shared: 4.562
       ap-northeast-2:
-        Dedicated: 5.681
-        Shared: 5.349
+        Dedicated: 4.884
+        Shared: 4.602
       ap-southeast-1:
-        Dedicated: 5.681
-        Shared: 5.349
+        Dedicated: 4.884
+        Shared: 4.602
       ap-southeast-2:
-        Dedicated: 5.681
-        Shared: 4.981
+        Dedicated: 4.884
+        Shared: 4.234
       ca-central-1:
         Dedicated: 3.953
         Shared: 3.366
@@ -17141,17 +17141,17 @@ p3.8xlarge:
   prices:
     Linux:
       ap-northeast-1:
-        Dedicated: 22.371
-        Shared: 20.972
+        Dedicated: 17.895
+        Shared: 16.776
       ap-northeast-2:
-        Dedicated: 21.253
-        Shared: 19.924
+        Dedicated: 18.066
+        Shared: 16.936
       ap-southeast-1:
-        Dedicated: 21.253
-        Shared: 19.924
+        Dedicated: 18.066
+        Shared: 16.936
       ap-southeast-2:
-        Dedicated: 21.253
-        Shared: 19.924
+        Dedicated: 18.066
+        Shared: 16.936
       ca-central-1:
         Dedicated: 14.339
         Shared: 13.464
@@ -17178,17 +17178,17 @@ p3.8xlarge:
         Shared: 12.24
     RHEL:
       ap-northeast-1:
-        Dedicated: 22.501
-        Shared: 21.102
+        Dedicated: 18.025
+        Shared: 16.906
       ap-northeast-2:
-        Dedicated: 21.383
-        Shared: 20.054
+        Dedicated: 18.196
+        Shared: 17.066
       ap-southeast-1:
-        Dedicated: 21.383
-        Shared: 20.054
+        Dedicated: 18.196
+        Shared: 17.066
       ap-southeast-2:
-        Dedicated: 21.383
-        Shared: 20.054
+        Dedicated: 18.196
+        Shared: 17.066
       ca-central-1:
         Dedicated: 14.469
         Shared: 13.594
@@ -17215,17 +17215,17 @@ p3.8xlarge:
         Shared: 12.37
     SUSE:
       ap-northeast-1:
-        Dedicated: 22.471
-        Shared: 21.072
+        Dedicated: 17.995
+        Shared: 16.876
       ap-northeast-2:
-        Dedicated: 21.353
-        Shared: 20.024
+        Dedicated: 18.166
+        Shared: 17.036
       ap-southeast-1:
-        Dedicated: 21.353
-        Shared: 20.024
+        Dedicated: 18.166
+        Shared: 17.036
       ap-southeast-2:
-        Dedicated: 21.353
-        Shared: 20.024
+        Dedicated: 18.166
+        Shared: 17.036
       ca-central-1:
         Dedicated: 14.439
         Shared: 13.564
@@ -17252,17 +17252,17 @@ p3.8xlarge:
         Shared: 12.34
     Windows:
       ap-northeast-1:
-        Dedicated: 23.843
-        Shared: 22.444
+        Dedicated: 19.367
+        Shared: 18.248
       ap-northeast-2:
-        Dedicated: 22.725
-        Shared: 21.396
+        Dedicated: 19.538
+        Shared: 18.408
       ap-southeast-1:
-        Dedicated: 22.725
-        Shared: 21.396
+        Dedicated: 19.538
+        Shared: 18.408
       ap-southeast-2:
-        Dedicated: 21.253
-        Shared: 21.396
+        Dedicated: 18.066
+        Shared: 18.408
       ca-central-1:
         Dedicated: 15.811
         Shared: 14.936
@@ -20539,6 +20539,7 @@ r5.4xlarge:
   storage: EBS only
   vcpu: 16
 r5.large:
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   ecu: 10
   memory: 16 GiB
@@ -26233,6 +26234,7 @@ z1d.6xlarge:
   storage: 1 x 900 NVMe SSD
   vcpu: 24
 z1d.large:
+  clockSpeed: 4.0 GHz
   currentGeneration: true
   ecu: 15
   memory: 16 GiB
