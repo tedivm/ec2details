@@ -17302,6 +17302,43 @@ p3.8xlarge:
     - ap-southeast-1
   storage: EBS only
   vcpu: 32
+p3dn.24xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  ecu: 345
+  enhancedNetworkingSupported: true
+  gpu: 8
+  memory: 768 GiB
+  networkPerformance: 100 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
+  prices:
+    Linux:
+      us-east-1:
+        Shared: 31.212
+      us-west-2:
+        Shared: 31.212
+    RHEL:
+      us-east-1:
+        Shared: 31.342
+      us-west-2:
+        Shared: 31.342
+    SUSE:
+      us-east-1:
+        Shared: 31.362
+      us-west-2:
+        Shared: 31.362
+    Windows:
+      us-east-1:
+        Shared: 35.628
+      us-west-2:
+        Shared: 35.628
+  regions:
+    - us-east-1
+    - us-west-2
+  storage: 2 x 900 NVMe SSD
+  vcpu: 96
 r3.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: false
