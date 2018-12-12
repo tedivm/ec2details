@@ -10009,6 +10009,9 @@ i3.metal:
       us-east-2:
         Dedicated: 4.992
         Shared: 4.992
+      us-west-1:
+        Dedicated: 5.504
+        Shared: 5.504
       us-west-2:
         Dedicated: 4.992
         Shared: 4.992
@@ -10028,6 +10031,9 @@ i3.metal:
       us-east-2:
         Dedicated: 5.122
         Shared: 5.122
+      us-west-1:
+        Dedicated: 5.634
+        Shared: 5.634
       us-west-2:
         Dedicated: 5.122
         Shared: 5.122
@@ -10047,6 +10053,9 @@ i3.metal:
       us-east-2:
         Dedicated: 5.092
         Shared: 5.092
+      us-west-1:
+        Dedicated: 5.604
+        Shared: 5.604
       us-west-2:
         Dedicated: 5.092
         Shared: 5.092
@@ -10066,6 +10075,9 @@ i3.metal:
       us-east-2:
         Dedicated: 7.936
         Shared: 7.936
+      us-west-1:
+        Dedicated: 8.448
+        Shared: 8.448
       us-west-2:
         Dedicated: 4.992
         Shared: 7.936
@@ -10073,6 +10085,7 @@ i3.metal:
     - eu-central-1
     - us-west-2
     - eu-west-1
+    - us-west-1
     - us-east-1
     - eu-west-2
     - us-east-2
