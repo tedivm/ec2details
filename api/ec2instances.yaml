@@ -21303,34 +21303,6 @@ r5.large:
     - us-east-2
   storage: EBS only
   vcpu: 2
-r5.metal:
-  currentGeneration: true
-  ecu: 347
-  memory: 768 GiB
-  networkPerformance: 25 Gigabit
-  normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
-  prices:
-    Linux:
-      EU (Stockholm):
-        Dedicated: 6.432
-        Shared: 6.432
-    RHEL:
-      EU (Stockholm):
-        Dedicated: 6.562
-        Shared: 6.562
-    SUSE:
-      EU (Stockholm):
-        Dedicated: 6.582
-        Shared: 6.582
-    Windows:
-      EU (Stockholm):
-        Dedicated: 10.848
-        Shared: 10.848
-  regions:
-    - EU (Stockholm)
-  storage: EBS only
-  vcpu: 96
 r5.xlarge:
   currentGeneration: true
   ecu: 19
@@ -22963,34 +22935,6 @@ r5d.large:
     - us-west-2
   storage: 1 x 75 NVMe SSD
   vcpu: 2
-r5d.metal:
-  currentGeneration: true
-  ecu: 347
-  memory: 768 GiB
-  networkPerformance: 25 Gigabit
-  normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
-  prices:
-    Linux:
-      EU (Stockholm):
-        Dedicated: 7.296
-        Shared: 7.296
-    RHEL:
-      EU (Stockholm):
-        Dedicated: 7.426
-        Shared: 7.426
-    SUSE:
-      EU (Stockholm):
-        Dedicated: 7.446
-        Shared: 7.446
-    Windows:
-      EU (Stockholm):
-        Dedicated: 11.712
-        Shared: 11.712
-  regions:
-    - EU (Stockholm)
-  storage: 4 x 900 NVMe SSD
-  vcpu: 96
 r5d.xlarge:
   currentGeneration: true
   ecu: 19
