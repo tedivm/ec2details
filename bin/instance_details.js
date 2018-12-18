@@ -25,6 +25,7 @@ const regionMap = {
   'EU (Ireland)': 'eu-west-1',
   'EU (London)': 'eu-west-2',
   'EU (Paris)': 'eu-west-3',
+  'EU (Stockholm)': 'eu-north-1',
   'South America (Sao Paulo)': 'sa-east-1',
   'AWS GovCloud (US)': 'us-gov-west-1'
 }
