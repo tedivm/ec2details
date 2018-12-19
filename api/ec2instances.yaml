@@ -2479,12 +2479,12 @@ c5.18xlarge:
       ca-central-1:
         Dedicated: 3.348
         Shared: 3.348
-      EU (Stockholm):
-        Dedicated: 3.276
-        Shared: 3.276
       eu-central-1:
         Dedicated: 3.492
         Shared: 3.492
+      eu-north-1:
+        Dedicated: 3.276
+        Shared: 3.276
       eu-west-1:
         Dedicated: 3.456
         Shared: 3.456
@@ -2531,12 +2531,12 @@ c5.18xlarge:
       ca-central-1:
         Dedicated: 3.478
         Shared: 3.478
-      EU (Stockholm):
-        Dedicated: 3.406
-        Shared: 3.406
       eu-central-1:
         Dedicated: 3.622
         Shared: 3.622
+      eu-north-1:
+        Dedicated: 3.406
+        Shared: 3.406
       eu-west-1:
         Dedicated: 3.586
         Shared: 3.586
@@ -2586,12 +2586,12 @@ c5.18xlarge:
       ca-central-1:
         Dedicated: 3.448
         Shared: 3.448
-      EU (Stockholm):
-        Dedicated: 3.376
-        Shared: 3.376
       eu-central-1:
         Dedicated: 3.592
         Shared: 3.592
+      eu-north-1:
+        Dedicated: 3.376
+        Shared: 3.376
       eu-west-1:
         Dedicated: 3.556
         Shared: 3.556
@@ -2641,12 +2641,12 @@ c5.18xlarge:
       ca-central-1:
         Dedicated: 3.348
         Shared: 6.66
-      EU (Stockholm):
-        Dedicated: 6.588
-        Shared: 6.588
       eu-central-1:
         Dedicated: 3.492
         Shared: 3.492
+      eu-north-1:
+        Dedicated: 6.588
+        Shared: 6.588
       eu-west-1:
         Dedicated: 6.768
         Shared: 6.768
@@ -2675,7 +2675,7 @@ c5.18xlarge:
         Dedicated: 6.372
         Shared: 6.372
   regions:
-    - EU (Stockholm)
+    - eu-north-1
     - eu-west-2
     - ap-northeast-2
     - us-west-1
@@ -2728,12 +2728,12 @@ c5.2xlarge:
       ca-central-1:
         Dedicated: 0.396
         Shared: 0.372
-      EU (Stockholm):
-        Dedicated: 0.388
-        Shared: 0.364
       eu-central-1:
         Dedicated: 0.413
         Shared: 0.388
+      eu-north-1:
+        Dedicated: 0.388
+        Shared: 0.364
       eu-west-1:
         Dedicated: 0.409
         Shared: 0.384
@@ -2780,12 +2780,12 @@ c5.2xlarge:
       ca-central-1:
         Dedicated: 0.526
         Shared: 0.502
-      EU (Stockholm):
-        Dedicated: 0.518
-        Shared: 0.494
       eu-central-1:
         Dedicated: 0.543
         Shared: 0.518
+      eu-north-1:
+        Dedicated: 0.518
+        Shared: 0.494
       eu-west-1:
         Dedicated: 0.539
         Shared: 0.514
@@ -2835,12 +2835,12 @@ c5.2xlarge:
       ca-central-1:
         Dedicated: 0.496
         Shared: 0.472
-      EU (Stockholm):
-        Dedicated: 0.488
-        Shared: 0.464
       eu-central-1:
         Dedicated: 0.513
         Shared: 0.488
+      eu-north-1:
+        Dedicated: 0.488
+        Shared: 0.464
       eu-west-1:
         Dedicated: 0.509
         Shared: 0.484
@@ -2890,12 +2890,12 @@ c5.2xlarge:
       ca-central-1:
         Dedicated: 0.764
         Shared: 0.74
-      EU (Stockholm):
-        Dedicated: 0.756
-        Shared: 0.732
       eu-central-1:
         Dedicated: 0.781
         Shared: 0.756
+      eu-north-1:
+        Dedicated: 0.756
+        Shared: 0.732
       eu-west-1:
         Dedicated: 0.777
         Shared: 0.384
@@ -2939,7 +2939,7 @@ c5.2xlarge:
     - us-west-1
     - eu-west-3
     - us-gov-west-1
-    - EU (Stockholm)
+    - eu-north-1
     - eu-west-1
     - ca-central-1
   storage: EBS only
@@ -2977,12 +2977,12 @@ c5.4xlarge:
       ca-central-1:
         Dedicated: 0.792
         Shared: 0.744
-      EU (Stockholm):
-        Dedicated: 0.776
-        Shared: 0.728
       eu-central-1:
         Dedicated: 0.827
         Shared: 0.776
+      eu-north-1:
+        Dedicated: 0.776
+        Shared: 0.728
       eu-west-1:
         Dedicated: 0.818
         Shared: 0.768
@@ -3029,12 +3029,12 @@ c5.4xlarge:
       ca-central-1:
         Dedicated: 0.922
         Shared: 0.874
-      EU (Stockholm):
-        Dedicated: 0.906
-        Shared: 0.858
       eu-central-1:
         Dedicated: 0.957
         Shared: 0.906
+      eu-north-1:
+        Dedicated: 0.906
+        Shared: 0.858
       eu-west-1:
         Dedicated: 0.948
         Shared: 0.898
@@ -3084,12 +3084,12 @@ c5.4xlarge:
       ca-central-1:
         Dedicated: 0.892
         Shared: 0.844
-      EU (Stockholm):
-        Dedicated: 0.876
-        Shared: 0.828
       eu-central-1:
         Dedicated: 0.927
         Shared: 0.876
+      eu-north-1:
+        Dedicated: 0.876
+        Shared: 0.828
       eu-west-1:
         Dedicated: 0.918
         Shared: 0.868
@@ -3139,12 +3139,12 @@ c5.4xlarge:
       ca-central-1:
         Dedicated: 1.528
         Shared: 1.48
-      EU (Stockholm):
-        Dedicated: 1.512
-        Shared: 1.464
       eu-central-1:
         Dedicated: 0.827
         Shared: 1.512
+      eu-north-1:
+        Dedicated: 1.512
+        Shared: 1.464
       eu-west-1:
         Dedicated: 0.818
         Shared: 1.504
@@ -3184,7 +3184,7 @@ c5.4xlarge:
     - ap-northeast-1
     - ca-central-1
     - ap-south-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-west-1
     - eu-west-2
     - us-east-1
@@ -3226,12 +3226,12 @@ c5.9xlarge:
       ca-central-1:
         Dedicated: 1.781
         Shared: 1.674
-      EU (Stockholm):
-        Dedicated: 1.745
-        Shared: 1.638
       eu-central-1:
         Dedicated: 1.861
         Shared: 1.746
+      eu-north-1:
+        Dedicated: 1.745
+        Shared: 1.638
       eu-west-1:
         Dedicated: 1.841
         Shared: 1.728
@@ -3278,12 +3278,12 @@ c5.9xlarge:
       ca-central-1:
         Dedicated: 1.911
         Shared: 1.804
-      EU (Stockholm):
-        Dedicated: 1.875
-        Shared: 1.768
       eu-central-1:
         Dedicated: 1.991
         Shared: 1.876
+      eu-north-1:
+        Dedicated: 1.875
+        Shared: 1.768
       eu-west-1:
         Dedicated: 1.971
         Shared: 1.858
@@ -3333,12 +3333,12 @@ c5.9xlarge:
       ca-central-1:
         Dedicated: 1.881
         Shared: 1.774
-      EU (Stockholm):
-        Dedicated: 1.845
-        Shared: 1.738
       eu-central-1:
         Dedicated: 1.961
         Shared: 1.846
+      eu-north-1:
+        Dedicated: 1.845
+        Shared: 1.738
       eu-west-1:
         Dedicated: 1.941
         Shared: 1.828
@@ -3388,12 +3388,12 @@ c5.9xlarge:
       ca-central-1:
         Dedicated: 1.781
         Shared: 3.33
-      EU (Stockholm):
-        Dedicated: 3.401
-        Shared: 3.294
       eu-central-1:
         Dedicated: 3.517
         Shared: 1.746
+      eu-north-1:
+        Dedicated: 3.401
+        Shared: 3.294
       eu-west-1:
         Dedicated: 3.497
         Shared: 1.728
@@ -3430,7 +3430,7 @@ c5.9xlarge:
     - us-east-2
     - ap-southeast-1
     - eu-west-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-west-2
     - us-east-1
     - ap-northeast-2
@@ -3475,12 +3475,12 @@ c5.large:
       ca-central-1:
         Dedicated: 0.099
         Shared: 0.093
-      EU (Stockholm):
-        Dedicated: 0.097
-        Shared: 0.091
       eu-central-1:
         Dedicated: 0.103
         Shared: 0.097
+      eu-north-1:
+        Dedicated: 0.097
+        Shared: 0.091
       eu-west-1:
         Dedicated: 0.102
         Shared: 0.096
@@ -3527,12 +3527,12 @@ c5.large:
       ca-central-1:
         Dedicated: 0.159
         Shared: 0.153
-      EU (Stockholm):
-        Dedicated: 0.157
-        Shared: 0.151
       eu-central-1:
         Dedicated: 0.163
         Shared: 0.157
+      eu-north-1:
+        Dedicated: 0.157
+        Shared: 0.151
       eu-west-1:
         Dedicated: 0.162
         Shared: 0.156
@@ -3582,12 +3582,12 @@ c5.large:
       ca-central-1:
         Dedicated: 0.199
         Shared: 0.193
-      EU (Stockholm):
-        Dedicated: 0.197
-        Shared: 0.191
       eu-central-1:
         Dedicated: 0.203
         Shared: 0.197
+      eu-north-1:
+        Dedicated: 0.197
+        Shared: 0.191
       eu-west-1:
         Dedicated: 0.202
         Shared: 0.196
@@ -3637,12 +3637,12 @@ c5.large:
       ca-central-1:
         Dedicated: 0.099
         Shared: 0.093
-      EU (Stockholm):
-        Dedicated: 0.189
-        Shared: 0.183
       eu-central-1:
         Dedicated: 0.103
         Shared: 0.189
+      eu-north-1:
+        Dedicated: 0.189
+        Shared: 0.183
       eu-west-1:
         Dedicated: 0.102
         Shared: 0.188
@@ -3681,7 +3681,7 @@ c5.large:
     - eu-west-1
     - sa-east-1
     - us-west-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-gov-west-1
     - eu-west-2
     - us-east-1
@@ -3724,12 +3724,12 @@ c5.xlarge:
       ca-central-1:
         Dedicated: 0.198
         Shared: 0.186
-      EU (Stockholm):
-        Dedicated: 0.194
-        Shared: 0.182
       eu-central-1:
         Dedicated: 0.207
         Shared: 0.194
+      eu-north-1:
+        Dedicated: 0.194
+        Shared: 0.182
       eu-west-1:
         Dedicated: 0.205
         Shared: 0.192
@@ -3776,12 +3776,12 @@ c5.xlarge:
       ca-central-1:
         Dedicated: 0.258
         Shared: 0.246
-      EU (Stockholm):
-        Dedicated: 0.254
-        Shared: 0.242
       eu-central-1:
         Dedicated: 0.267
         Shared: 0.254
+      eu-north-1:
+        Dedicated: 0.254
+        Shared: 0.242
       eu-west-1:
         Dedicated: 0.265
         Shared: 0.252
@@ -3831,12 +3831,12 @@ c5.xlarge:
       ca-central-1:
         Dedicated: 0.298
         Shared: 0.286
-      EU (Stockholm):
-        Dedicated: 0.294
-        Shared: 0.282
       eu-central-1:
         Dedicated: 0.307
         Shared: 0.294
+      eu-north-1:
+        Dedicated: 0.294
+        Shared: 0.282
       eu-west-1:
         Dedicated: 0.305
         Shared: 0.292
@@ -3886,12 +3886,12 @@ c5.xlarge:
       ca-central-1:
         Dedicated: 0.382
         Shared: 0.37
-      EU (Stockholm):
-        Dedicated: 0.378
-        Shared: 0.366
       eu-central-1:
         Dedicated: 0.207
         Shared: 0.378
+      eu-north-1:
+        Dedicated: 0.378
+        Shared: 0.366
       eu-west-1:
         Dedicated: 0.205
         Shared: 0.376
@@ -3930,7 +3930,7 @@ c5.xlarge:
     - eu-west-2
     - ap-northeast-1
     - us-west-2
-    - EU (Stockholm)
+    - eu-north-1
     - us-east-2
     - ap-southeast-2
     - eu-west-1
@@ -3967,12 +3967,12 @@ c5d.18xlarge:
       ca-central-1:
         Dedicated: 3.816
         Shared: 3.816
-      EU (Stockholm):
-        Dedicated: 3.744
-        Shared: 3.744
       eu-central-1:
         Dedicated: 3.996
         Shared: 3.996
+      eu-north-1:
+        Dedicated: 3.744
+        Shared: 3.744
       eu-west-1:
         Dedicated: 3.924
         Shared: 3.924
@@ -4013,12 +4013,12 @@ c5d.18xlarge:
       ca-central-1:
         Dedicated: 3.946
         Shared: 3.946
-      EU (Stockholm):
-        Dedicated: 3.874
-        Shared: 3.874
       eu-central-1:
         Dedicated: 4.126
         Shared: 4.126
+      eu-north-1:
+        Dedicated: 3.874
+        Shared: 3.874
       eu-west-1:
         Dedicated: 4.054
         Shared: 4.054
@@ -4059,12 +4059,12 @@ c5d.18xlarge:
       ca-central-1:
         Dedicated: 3.916
         Shared: 3.916
-      EU (Stockholm):
-        Dedicated: 3.844
-        Shared: 3.844
       eu-central-1:
         Dedicated: 4.096
         Shared: 4.096
+      eu-north-1:
+        Dedicated: 3.844
+        Shared: 3.844
       eu-west-1:
         Dedicated: 4.024
         Shared: 4.024
@@ -4105,12 +4105,12 @@ c5d.18xlarge:
       ca-central-1:
         Dedicated: 7.128
         Shared: 7.128
-      EU (Stockholm):
-        Dedicated: 7.056
-        Shared: 7.056
       eu-central-1:
         Dedicated: 7.308
         Shared: 7.308
+      eu-north-1:
+        Dedicated: 7.056
+        Shared: 7.056
       eu-west-1:
         Dedicated: 7.236
         Shared: 7.236
@@ -4137,7 +4137,7 @@ c5d.18xlarge:
         Shared: 6.768
   regions:
     - us-east-1
-    - EU (Stockholm)
+    - eu-north-1
     - eu-central-1
     - ap-southeast-2
     - eu-west-2
@@ -4180,12 +4180,12 @@ c5d.2xlarge:
       ca-central-1:
         Dedicated: 0.451
         Shared: 0.424
-      EU (Stockholm):
-        Dedicated: 0.443
-        Shared: 0.416
       eu-central-1:
         Dedicated: 0.473
         Shared: 0.444
+      eu-north-1:
+        Dedicated: 0.443
+        Shared: 0.416
       eu-west-1:
         Dedicated: 0.465
         Shared: 0.436
@@ -4226,12 +4226,12 @@ c5d.2xlarge:
       ca-central-1:
         Dedicated: 0.581
         Shared: 0.554
-      EU (Stockholm):
-        Dedicated: 0.573
-        Shared: 0.546
       eu-central-1:
         Dedicated: 0.603
         Shared: 0.574
+      eu-north-1:
+        Dedicated: 0.573
+        Shared: 0.546
       eu-west-1:
         Dedicated: 0.595
         Shared: 0.566
@@ -4272,12 +4272,12 @@ c5d.2xlarge:
       ca-central-1:
         Dedicated: 0.551
         Shared: 0.524
-      EU (Stockholm):
-        Dedicated: 0.543
-        Shared: 0.516
       eu-central-1:
         Dedicated: 0.573
         Shared: 0.544
+      eu-north-1:
+        Dedicated: 0.543
+        Shared: 0.516
       eu-west-1:
         Dedicated: 0.565
         Shared: 0.536
@@ -4318,12 +4318,12 @@ c5d.2xlarge:
       ca-central-1:
         Dedicated: 0.819
         Shared: 0.792
-      EU (Stockholm):
-        Dedicated: 0.811
-        Shared: 0.784
       eu-central-1:
         Dedicated: 0.473
         Shared: 0.812
+      eu-north-1:
+        Dedicated: 0.811
+        Shared: 0.784
       eu-west-1:
         Dedicated: 0.465
         Shared: 0.436
@@ -4359,7 +4359,7 @@ c5d.2xlarge:
     - us-east-1
     - eu-west-2
     - ca-central-1
-    - EU (Stockholm)
+    - eu-north-1
     - ap-northeast-2
     - us-west-1
     - ap-southeast-2
@@ -4393,12 +4393,12 @@ c5d.4xlarge:
       ca-central-1:
         Dedicated: 0.902
         Shared: 0.848
-      EU (Stockholm):
-        Dedicated: 0.887
-        Shared: 0.832
       eu-central-1:
         Dedicated: 0.947
         Shared: 0.888
+      eu-north-1:
+        Dedicated: 0.887
+        Shared: 0.832
       eu-west-1:
         Dedicated: 0.929
         Shared: 0.872
@@ -4439,12 +4439,12 @@ c5d.4xlarge:
       ca-central-1:
         Dedicated: 1.032
         Shared: 0.978
-      EU (Stockholm):
-        Dedicated: 1.017
-        Shared: 0.962
       eu-central-1:
         Dedicated: 1.077
         Shared: 1.018
+      eu-north-1:
+        Dedicated: 1.017
+        Shared: 0.962
       eu-west-1:
         Dedicated: 1.059
         Shared: 1.002
@@ -4485,12 +4485,12 @@ c5d.4xlarge:
       ca-central-1:
         Dedicated: 1.002
         Shared: 0.948
-      EU (Stockholm):
-        Dedicated: 0.987
-        Shared: 0.932
       eu-central-1:
         Dedicated: 1.047
         Shared: 0.988
+      eu-north-1:
+        Dedicated: 0.987
+        Shared: 0.932
       eu-west-1:
         Dedicated: 1.029
         Shared: 0.972
@@ -4531,12 +4531,12 @@ c5d.4xlarge:
       ca-central-1:
         Dedicated: 0.902
         Shared: 1.584
-      EU (Stockholm):
-        Dedicated: 1.623
-        Shared: 1.568
       eu-central-1:
         Dedicated: 0.947
         Shared: 0.888
+      eu-north-1:
+        Dedicated: 1.623
+        Shared: 1.568
       eu-west-1:
         Dedicated: 1.665
         Shared: 1.608
@@ -4563,7 +4563,7 @@ c5d.4xlarge:
         Shared: 1.504
   regions:
     - us-east-2
-    - EU (Stockholm)
+    - eu-north-1
     - ca-central-1
     - ap-southeast-2
     - ap-southeast-1
@@ -4606,12 +4606,12 @@ c5d.9xlarge:
       ca-central-1:
         Dedicated: 2.03
         Shared: 1.908
-      EU (Stockholm):
-        Dedicated: 1.995
-        Shared: 1.872
       eu-central-1:
         Dedicated: 2.13
         Shared: 1.998
+      eu-north-1:
+        Dedicated: 1.995
+        Shared: 1.872
       eu-west-1:
         Dedicated: 2.091
         Shared: 1.962
@@ -4652,12 +4652,12 @@ c5d.9xlarge:
       ca-central-1:
         Dedicated: 2.16
         Shared: 2.038
-      EU (Stockholm):
-        Dedicated: 2.125
-        Shared: 2.002
       eu-central-1:
         Dedicated: 2.26
         Shared: 2.128
+      eu-north-1:
+        Dedicated: 2.125
+        Shared: 2.002
       eu-west-1:
         Dedicated: 2.221
         Shared: 2.092
@@ -4698,12 +4698,12 @@ c5d.9xlarge:
       ca-central-1:
         Dedicated: 2.13
         Shared: 2.008
-      EU (Stockholm):
-        Dedicated: 2.095
-        Shared: 1.972
       eu-central-1:
         Dedicated: 2.23
         Shared: 2.098
+      eu-north-1:
+        Dedicated: 2.095
+        Shared: 1.972
       eu-west-1:
         Dedicated: 2.191
         Shared: 2.062
@@ -4744,12 +4744,12 @@ c5d.9xlarge:
       ca-central-1:
         Dedicated: 3.686
         Shared: 1.908
-      EU (Stockholm):
-        Dedicated: 3.651
-        Shared: 3.528
       eu-central-1:
         Dedicated: 3.786
         Shared: 3.654
+      eu-north-1:
+        Dedicated: 3.651
+        Shared: 3.528
       eu-west-1:
         Dedicated: 3.747
         Shared: 1.962
@@ -4787,7 +4787,7 @@ c5d.9xlarge:
     - eu-central-1
     - ca-central-1
     - ap-southeast-2
-    - EU (Stockholm)
+    - eu-north-1
     - ap-northeast-2
     - us-west-2
   storage: 1 x 900 NVMe SSD
@@ -4819,12 +4819,12 @@ c5d.large:
       ca-central-1:
         Dedicated: 0.113
         Shared: 0.106
-      EU (Stockholm):
-        Dedicated: 0.111
-        Shared: 0.104
       eu-central-1:
         Dedicated: 0.118
         Shared: 0.111
+      eu-north-1:
+        Dedicated: 0.111
+        Shared: 0.104
       eu-west-1:
         Dedicated: 0.116
         Shared: 0.109
@@ -4865,12 +4865,12 @@ c5d.large:
       ca-central-1:
         Dedicated: 0.173
         Shared: 0.166
-      EU (Stockholm):
-        Dedicated: 0.171
-        Shared: 0.164
       eu-central-1:
         Dedicated: 0.178
         Shared: 0.171
+      eu-north-1:
+        Dedicated: 0.171
+        Shared: 0.164
       eu-west-1:
         Dedicated: 0.176
         Shared: 0.169
@@ -4911,12 +4911,12 @@ c5d.large:
       ca-central-1:
         Dedicated: 0.213
         Shared: 0.206
-      EU (Stockholm):
-        Dedicated: 0.211
-        Shared: 0.204
       eu-central-1:
         Dedicated: 0.218
         Shared: 0.211
+      eu-north-1:
+        Dedicated: 0.211
+        Shared: 0.204
       eu-west-1:
         Dedicated: 0.216
         Shared: 0.209
@@ -4957,12 +4957,12 @@ c5d.large:
       ca-central-1:
         Dedicated: 0.205
         Shared: 0.198
-      EU (Stockholm):
-        Dedicated: 0.203
-        Shared: 0.196
       eu-central-1:
         Dedicated: 0.21
         Shared: 0.111
+      eu-north-1:
+        Dedicated: 0.203
+        Shared: 0.196
       eu-west-1:
         Dedicated: 0.208
         Shared: 0.109
@@ -4995,7 +4995,7 @@ c5d.large:
     - ap-northeast-1
     - eu-west-3
     - us-east-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-east-2
     - us-west-1
     - ca-central-1
@@ -5032,12 +5032,12 @@ c5d.xlarge:
       ca-central-1:
         Dedicated: 0.226
         Shared: 0.212
-      EU (Stockholm):
-        Dedicated: 0.222
-        Shared: 0.208
       eu-central-1:
         Dedicated: 0.237
         Shared: 0.222
+      eu-north-1:
+        Dedicated: 0.222
+        Shared: 0.208
       eu-west-1:
         Dedicated: 0.232
         Shared: 0.218
@@ -5078,12 +5078,12 @@ c5d.xlarge:
       ca-central-1:
         Dedicated: 0.286
         Shared: 0.272
-      EU (Stockholm):
-        Dedicated: 0.282
-        Shared: 0.268
       eu-central-1:
         Dedicated: 0.297
         Shared: 0.282
+      eu-north-1:
+        Dedicated: 0.282
+        Shared: 0.268
       eu-west-1:
         Dedicated: 0.292
         Shared: 0.278
@@ -5124,12 +5124,12 @@ c5d.xlarge:
       ca-central-1:
         Dedicated: 0.326
         Shared: 0.312
-      EU (Stockholm):
-        Dedicated: 0.322
-        Shared: 0.308
       eu-central-1:
         Dedicated: 0.337
         Shared: 0.322
+      eu-north-1:
+        Dedicated: 0.322
+        Shared: 0.308
       eu-west-1:
         Dedicated: 0.332
         Shared: 0.318
@@ -5170,12 +5170,12 @@ c5d.xlarge:
       ca-central-1:
         Dedicated: 0.41
         Shared: 0.212
-      EU (Stockholm):
-        Dedicated: 0.406
-        Shared: 0.392
       eu-central-1:
         Dedicated: 0.421
         Shared: 0.406
+      eu-north-1:
+        Dedicated: 0.406
+        Shared: 0.392
       eu-west-1:
         Dedicated: 0.232
         Shared: 0.402
@@ -5211,7 +5211,7 @@ c5d.xlarge:
     - eu-west-1
     - eu-west-2
     - us-west-2
-    - EU (Stockholm)
+    - eu-north-1
     - ap-southeast-2
     - us-gov-west-1
     - eu-central-1
@@ -5890,12 +5890,12 @@ d2.2xlarge:
       ca-central-1:
         Dedicated: 1.67
         Shared: 1.518
-      EU (Stockholm):
-        Dedicated: 1.536
-        Shared: 1.396
       eu-central-1:
         Dedicated: 1.747
         Shared: 1.588
+      eu-north-1:
+        Dedicated: 1.536
+        Shared: 1.396
       eu-west-1:
         Dedicated: 1.617
         Shared: 1.47
@@ -5942,12 +5942,12 @@ d2.2xlarge:
       ca-central-1:
         Dedicated: 1.8
         Shared: 1.648
-      EU (Stockholm):
-        Dedicated: 1.666
-        Shared: 1.526
       eu-central-1:
         Dedicated: 1.89
         Shared: 1.718
+      eu-north-1:
+        Dedicated: 1.666
+        Shared: 1.526
       eu-west-1:
         Dedicated: 1.76
         Shared: 1.6
@@ -5994,12 +5994,12 @@ d2.2xlarge:
       ca-central-1:
         Dedicated: 1.77
         Shared: 1.618
-      EU (Stockholm):
-        Dedicated: 1.636
-        Shared: 1.496
       eu-central-1:
         Dedicated: 1.857
         Shared: 1.688
+      eu-north-1:
+        Dedicated: 1.636
+        Shared: 1.496
       eu-west-1:
         Dedicated: 1.727
         Shared: 1.57
@@ -6046,12 +6046,12 @@ d2.2xlarge:
       ca-central-1:
         Dedicated: 2.038
         Shared: 1.886
-      EU (Stockholm):
-        Dedicated: 1.904
-        Shared: 1.764
       eu-central-1:
         Dedicated: 1.99
         Shared: 1.809
+      eu-north-1:
+        Dedicated: 1.904
+        Shared: 1.764
       eu-west-1:
         Dedicated: 1.617
         Shared: 1.691
@@ -6092,7 +6092,7 @@ d2.2xlarge:
     - ap-northeast-3
     - eu-west-2
     - ap-southeast-1
-    - EU (Stockholm)
+    - eu-north-1
     - ap-northeast-2
     - sa-east-1
   storage: 6 x 2000 HDD
@@ -6129,12 +6129,12 @@ d2.4xlarge:
       ca-central-1:
         Dedicated: 3.34
         Shared: 3.036
-      EU (Stockholm):
-        Dedicated: 3.071
-        Shared: 2.792
       eu-central-1:
         Dedicated: 3.494
         Shared: 3.176
+      eu-north-1:
+        Dedicated: 3.071
+        Shared: 2.792
       eu-west-1:
         Dedicated: 3.234
         Shared: 2.94
@@ -6181,12 +6181,12 @@ d2.4xlarge:
       ca-central-1:
         Dedicated: 3.47
         Shared: 3.166
-      EU (Stockholm):
-        Dedicated: 3.201
-        Shared: 2.922
       eu-central-1:
         Dedicated: 3.637
         Shared: 3.306
+      eu-north-1:
+        Dedicated: 3.201
+        Shared: 2.922
       eu-west-1:
         Dedicated: 3.377
         Shared: 3.07
@@ -6233,12 +6233,12 @@ d2.4xlarge:
       ca-central-1:
         Dedicated: 3.44
         Shared: 3.136
-      EU (Stockholm):
-        Dedicated: 3.171
-        Shared: 2.892
       eu-central-1:
         Dedicated: 3.604
         Shared: 3.276
+      eu-north-1:
+        Dedicated: 3.171
+        Shared: 2.892
       eu-west-1:
         Dedicated: 3.344
         Shared: 3.04
@@ -6284,12 +6284,12 @@ d2.4xlarge:
       ca-central-1:
         Dedicated: 4.076
         Shared: 3.036
-      EU (Stockholm):
-        Dedicated: 3.807
-        Shared: 3.528
       eu-central-1:
         Dedicated: 3.826
         Shared: 3.176
+      eu-north-1:
+        Dedicated: 3.807
+        Shared: 3.528
       eu-west-1:
         Dedicated: 3.566
         Shared: 2.94
@@ -6327,7 +6327,7 @@ d2.4xlarge:
     - eu-west-2
     - ap-southeast-1
     - eu-central-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-west-2
     - eu-west-1
     - ap-south-1
@@ -6367,12 +6367,12 @@ d2.8xlarge:
       ca-central-1:
         Dedicated: 6.072
         Shared: 6.072
-      EU (Stockholm):
-        Dedicated: 5.584
-        Shared: 5.584
       eu-central-1:
         Dedicated: 6.352
         Shared: 6.352
+      eu-north-1:
+        Dedicated: 5.584
+        Shared: 5.584
       eu-west-1:
         Dedicated: 5.88
         Shared: 5.88
@@ -6419,12 +6419,12 @@ d2.8xlarge:
       ca-central-1:
         Dedicated: 6.202
         Shared: 6.202
-      EU (Stockholm):
-        Dedicated: 5.714
-        Shared: 5.714
       eu-central-1:
         Dedicated: 6.482
         Shared: 6.482
+      eu-north-1:
+        Dedicated: 5.714
+        Shared: 5.714
       eu-west-1:
         Dedicated: 6.01
         Shared: 6.01
@@ -6471,12 +6471,12 @@ d2.8xlarge:
       ca-central-1:
         Dedicated: 6.172
         Shared: 6.172
-      EU (Stockholm):
-        Dedicated: 5.684
-        Shared: 5.684
       eu-central-1:
         Dedicated: 6.452
         Shared: 6.452
+      eu-north-1:
+        Dedicated: 5.684
+        Shared: 5.684
       eu-west-1:
         Dedicated: 5.98
         Shared: 5.98
@@ -6523,12 +6523,12 @@ d2.8xlarge:
       ca-central-1:
         Dedicated: 7.728
         Shared: 7.728
-      EU (Stockholm):
-        Dedicated: 7.24
-        Shared: 7.24
       eu-central-1:
         Dedicated: 7.03
         Shared: 6.352
+      eu-north-1:
+        Dedicated: 7.24
+        Shared: 7.24
       eu-west-1:
         Dedicated: 6.558
         Shared: 6.558
@@ -6558,7 +6558,7 @@ d2.8xlarge:
     - us-east-2
     - us-west-2
     - us-east-1
-    - EU (Stockholm)
+    - eu-north-1
     - eu-west-1
     - ap-southeast-1
     - ap-south-1
@@ -6606,12 +6606,12 @@ d2.xlarge:
       ca-central-1:
         Dedicated: 0.835
         Shared: 0.759
-      EU (Stockholm):
-        Dedicated: 0.768
-        Shared: 0.698
       eu-central-1:
         Dedicated: 0.873
         Shared: 0.794
+      eu-north-1:
+        Dedicated: 0.768
+        Shared: 0.698
       eu-west-1:
         Dedicated: 0.809
         Shared: 0.735
@@ -6658,12 +6658,12 @@ d2.xlarge:
       ca-central-1:
         Dedicated: 0.895
         Shared: 0.819
-      EU (Stockholm):
-        Dedicated: 0.828
-        Shared: 0.758
       eu-central-1:
         Dedicated: 0.939
         Shared: 0.854
+      eu-north-1:
+        Dedicated: 0.828
+        Shared: 0.758
       eu-west-1:
         Dedicated: 0.875
         Shared: 0.795
@@ -6710,12 +6710,12 @@ d2.xlarge:
       ca-central-1:
         Dedicated: 0.935
         Shared: 0.859
-      EU (Stockholm):
-        Dedicated: 0.868
-        Shared: 0.798
       eu-central-1:
         Dedicated: 0.983
         Shared: 0.894
+      eu-north-1:
+        Dedicated: 0.868
+        Shared: 0.798
       eu-west-1:
         Dedicated: 0.919
         Shared: 0.835
@@ -6761,12 +6761,12 @@ d2.xlarge:
       ca-central-1:
         Dedicated: 1.019
         Shared: 0.943
-      EU (Stockholm):
-        Dedicated: 0.952
-        Shared: 0.882
       eu-central-1:
         Dedicated: 1.018
         Shared: 0.925
+      eu-north-1:
+        Dedicated: 0.952
+        Shared: 0.882
       eu-west-1:
         Dedicated: 0.809
         Shared: 0.866
@@ -6796,7 +6796,7 @@ d2.xlarge:
     - us-east-2
     - ap-northeast-2
     - eu-west-3
-    - EU (Stockholm)
+    - eu-north-1
     - ap-southeast-2
     - ca-central-1
     - eu-central-1
@@ -9062,12 +9062,12 @@ i3.16xlarge:
       ca-central-1:
         Dedicated: 5.504
         Shared: 5.504
-      EU (Stockholm):
-        Dedicated: 5.216
-        Shared: 5.216
       eu-central-1:
         Dedicated: 5.952
         Shared: 5.952
+      eu-north-1:
+        Dedicated: 5.216
+        Shared: 5.216
       eu-west-1:
         Dedicated: 5.504
         Shared: 5.504
@@ -9117,12 +9117,12 @@ i3.16xlarge:
       ca-central-1:
         Dedicated: 5.634
         Shared: 5.634
-      EU (Stockholm):
-        Dedicated: 5.346
-        Shared: 5.346
       eu-central-1:
         Dedicated: 6.082
         Shared: 6.082
+      eu-north-1:
+        Dedicated: 5.346
+        Shared: 5.346
       eu-west-1:
         Dedicated: 5.634
         Shared: 5.634
@@ -9175,12 +9175,12 @@ i3.16xlarge:
       ca-central-1:
         Dedicated: 5.604
         Shared: 5.604
-      EU (Stockholm):
-        Dedicated: 5.316
-        Shared: 5.316
       eu-central-1:
         Dedicated: 6.052
         Shared: 6.052
+      eu-north-1:
+        Dedicated: 5.316
+        Shared: 5.316
       eu-west-1:
         Dedicated: 5.604
         Shared: 5.604
@@ -9233,12 +9233,12 @@ i3.16xlarge:
       ca-central-1:
         Dedicated: 5.504
         Shared: 8.448
-      EU (Stockholm):
-        Dedicated: 8.16
-        Shared: 8.16
       eu-central-1:
         Dedicated: 8.896
         Shared: 8.896
+      eu-north-1:
+        Dedicated: 8.16
+        Shared: 8.16
       eu-west-1:
         Dedicated: 8.448
         Shared: 8.448
@@ -9274,7 +9274,7 @@ i3.16xlarge:
     - eu-west-1
     - ap-northeast-3
     - us-east-2
-    - EU (Stockholm)
+    - eu-north-1
     - eu-west-3
     - us-west-2
     - ap-southeast-2
@@ -9324,12 +9324,12 @@ i3.2xlarge:
       ca-central-1:
         Dedicated: 0.757
         Shared: 0.688
-      EU (Stockholm):
-        Dedicated: 0.717
-        Shared: 0.652
       eu-central-1:
         Dedicated: 0.818
         Shared: 0.744
+      eu-north-1:
+        Dedicated: 0.717
+        Shared: 0.652
       eu-west-1:
         Dedicated: 0.757
         Shared: 0.688
@@ -9379,12 +9379,12 @@ i3.2xlarge:
       ca-central-1:
         Dedicated: 0.887
         Shared: 0.818
-      EU (Stockholm):
-        Dedicated: 0.847
-        Shared: 0.782
       eu-central-1:
         Dedicated: 0.948
         Shared: 0.874
+      eu-north-1:
+        Dedicated: 0.847
+        Shared: 0.782
       eu-west-1:
         Dedicated: 0.887
         Shared: 0.818
@@ -9437,12 +9437,12 @@ i3.2xlarge:
       ca-central-1:
         Dedicated: 0.857
         Shared: 0.788
-      EU (Stockholm):
-        Dedicated: 0.817
-        Shared: 0.752
       eu-central-1:
         Dedicated: 0.918
         Shared: 0.844
+      eu-north-1:
+        Dedicated: 0.817
+        Shared: 0.752
       eu-west-1:
         Dedicated: 0.857
         Shared: 0.788
@@ -9495,12 +9495,12 @@ i3.2xlarge:
       ca-central-1:
         Dedicated: 1.125
         Shared: 1.056
-      EU (Stockholm):
-        Dedicated: 1.085
-        Shared: 1.02
       eu-central-1:
         Dedicated: 1.186
         Shared: 1.112
+      eu-north-1:
+        Dedicated: 1.085
+        Shared: 1.02
       eu-west-1:
         Dedicated: 1.125
         Shared: 1.056
@@ -9531,7 +9531,7 @@ i3.2xlarge:
   regions:
     - us-west-1
     - ap-northeast-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-east-2
     - us-east-1
     - ap-northeast-2
@@ -9586,12 +9586,12 @@ i3.4xlarge:
       ca-central-1:
         Dedicated: 1.514
         Shared: 1.376
-      EU (Stockholm):
-        Dedicated: 1.434
-        Shared: 1.304
       eu-central-1:
         Dedicated: 1.637
         Shared: 1.488
+      eu-north-1:
+        Dedicated: 1.434
+        Shared: 1.304
       eu-west-1:
         Dedicated: 1.514
         Shared: 1.376
@@ -9641,12 +9641,12 @@ i3.4xlarge:
       ca-central-1:
         Dedicated: 1.644
         Shared: 1.506
-      EU (Stockholm):
-        Dedicated: 1.564
-        Shared: 1.434
       eu-central-1:
         Dedicated: 1.767
         Shared: 1.618
+      eu-north-1:
+        Dedicated: 1.564
+        Shared: 1.434
       eu-west-1:
         Dedicated: 1.644
         Shared: 1.506
@@ -9699,12 +9699,12 @@ i3.4xlarge:
       ca-central-1:
         Dedicated: 1.614
         Shared: 1.476
-      EU (Stockholm):
-        Dedicated: 1.534
-        Shared: 1.404
       eu-central-1:
         Dedicated: 1.737
         Shared: 1.588
+      eu-north-1:
+        Dedicated: 1.534
+        Shared: 1.404
       eu-west-1:
         Dedicated: 1.614
         Shared: 1.476
@@ -9757,12 +9757,12 @@ i3.4xlarge:
       ca-central-1:
         Dedicated: 1.514
         Shared: 1.376
-      EU (Stockholm):
-        Dedicated: 2.17
-        Shared: 2.04
       eu-central-1:
         Dedicated: 2.373
         Shared: 1.488
+      eu-north-1:
+        Dedicated: 2.17
+        Shared: 2.04
       eu-west-1:
         Dedicated: 2.25
         Shared: 2.112
@@ -9792,7 +9792,7 @@ i3.4xlarge:
         Shared: 1.984
   regions:
     - ap-northeast-3
-    - EU (Stockholm)
+    - eu-north-1
     - eu-west-2
     - ap-northeast-1
     - us-west-1
@@ -9848,12 +9848,12 @@ i3.8xlarge:
       ca-central-1:
         Dedicated: 3.027
         Shared: 2.752
-      EU (Stockholm):
-        Dedicated: 2.869
-        Shared: 2.608
       eu-central-1:
         Dedicated: 3.274
         Shared: 2.976
+      eu-north-1:
+        Dedicated: 2.869
+        Shared: 2.608
       eu-west-1:
         Dedicated: 3.027
         Shared: 2.752
@@ -9903,12 +9903,12 @@ i3.8xlarge:
       ca-central-1:
         Dedicated: 3.157
         Shared: 2.882
-      EU (Stockholm):
-        Dedicated: 2.999
-        Shared: 2.738
       eu-central-1:
         Dedicated: 3.404
         Shared: 3.106
+      eu-north-1:
+        Dedicated: 2.999
+        Shared: 2.738
       eu-west-1:
         Dedicated: 3.157
         Shared: 2.882
@@ -9961,12 +9961,12 @@ i3.8xlarge:
       ca-central-1:
         Dedicated: 3.127
         Shared: 2.852
-      EU (Stockholm):
-        Dedicated: 2.969
-        Shared: 2.708
       eu-central-1:
         Dedicated: 3.374
         Shared: 3.076
+      eu-north-1:
+        Dedicated: 2.969
+        Shared: 2.708
       eu-west-1:
         Dedicated: 3.127
         Shared: 2.852
@@ -10019,12 +10019,12 @@ i3.8xlarge:
       ca-central-1:
         Dedicated: 3.027
         Shared: 4.224
-      EU (Stockholm):
-        Dedicated: 4.341
-        Shared: 4.08
       eu-central-1:
         Dedicated: 4.746
         Shared: 4.448
+      eu-north-1:
+        Dedicated: 4.341
+        Shared: 4.08
       eu-west-1:
         Dedicated: 3.027
         Shared: 2.752
@@ -10056,7 +10056,7 @@ i3.8xlarge:
     - us-east-1
     - ap-northeast-1
     - ap-southeast-2
-    - EU (Stockholm)
+    - eu-north-1
     - ap-northeast-2
     - eu-west-1
     - eu-west-3
@@ -10110,12 +10110,12 @@ i3.large:
       ca-central-1:
         Dedicated: 0.189
         Shared: 0.172
-      EU (Stockholm):
-        Dedicated: 0.179
-        Shared: 0.163
       eu-central-1:
         Dedicated: 0.205
         Shared: 0.186
+      eu-north-1:
+        Dedicated: 0.179
+        Shared: 0.163
       eu-west-1:
         Dedicated: 0.189
         Shared: 0.172
@@ -10165,12 +10165,12 @@ i3.large:
       ca-central-1:
         Dedicated: 0.249
         Shared: 0.232
-      EU (Stockholm):
-        Dedicated: 0.239
-        Shared: 0.223
       eu-central-1:
         Dedicated: 0.265
         Shared: 0.246
+      eu-north-1:
+        Dedicated: 0.239
+        Shared: 0.223
       eu-west-1:
         Dedicated: 0.249
         Shared: 0.232
@@ -10223,12 +10223,12 @@ i3.large:
       ca-central-1:
         Dedicated: 0.289
         Shared: 0.272
-      EU (Stockholm):
-        Dedicated: 0.279
-        Shared: 0.263
       eu-central-1:
         Dedicated: 0.305
         Shared: 0.286
+      eu-north-1:
+        Dedicated: 0.279
+        Shared: 0.263
       eu-west-1:
         Dedicated: 0.289
         Shared: 0.272
@@ -10281,12 +10281,12 @@ i3.large:
       ca-central-1:
         Dedicated: 0.189
         Shared: 0.172
-      EU (Stockholm):
-        Dedicated: 0.271
-        Shared: 0.255
       eu-central-1:
         Dedicated: 0.297
         Shared: 0.186
+      eu-north-1:
+        Dedicated: 0.271
+        Shared: 0.255
       eu-west-1:
         Dedicated: 0.189
         Shared: 0.264
@@ -10331,7 +10331,7 @@ i3.large:
     - us-east-1
     - us-gov-west-1
     - ap-northeast-2
-    - EU (Stockholm)
+    - eu-north-1
     - ca-central-1
     - AWS GovCloud (US-East)
   storage: 1 x 475 NVMe SSD
@@ -10505,12 +10505,12 @@ i3.xlarge:
       ca-central-1:
         Dedicated: 0.378
         Shared: 0.344
-      EU (Stockholm):
-        Dedicated: 0.359
-        Shared: 0.326
       eu-central-1:
         Dedicated: 0.409
         Shared: 0.372
+      eu-north-1:
+        Dedicated: 0.359
+        Shared: 0.326
       eu-west-1:
         Dedicated: 0.378
         Shared: 0.344
@@ -10560,12 +10560,12 @@ i3.xlarge:
       ca-central-1:
         Dedicated: 0.438
         Shared: 0.404
-      EU (Stockholm):
-        Dedicated: 0.419
-        Shared: 0.386
       eu-central-1:
         Dedicated: 0.469
         Shared: 0.432
+      eu-north-1:
+        Dedicated: 0.419
+        Shared: 0.386
       eu-west-1:
         Dedicated: 0.438
         Shared: 0.404
@@ -10618,12 +10618,12 @@ i3.xlarge:
       ca-central-1:
         Dedicated: 0.478
         Shared: 0.444
-      EU (Stockholm):
-        Dedicated: 0.459
-        Shared: 0.426
       eu-central-1:
         Dedicated: 0.509
         Shared: 0.472
+      eu-north-1:
+        Dedicated: 0.459
+        Shared: 0.426
       eu-west-1:
         Dedicated: 0.478
         Shared: 0.444
@@ -10676,12 +10676,12 @@ i3.xlarge:
       ca-central-1:
         Dedicated: 0.562
         Shared: 0.344
-      EU (Stockholm):
-        Dedicated: 0.543
-        Shared: 0.51
       eu-central-1:
         Dedicated: 0.409
         Shared: 0.556
+      eu-north-1:
+        Dedicated: 0.543
+        Shared: 0.51
       eu-west-1:
         Dedicated: 0.562
         Shared: 0.528
@@ -10717,7 +10717,7 @@ i3.xlarge:
     - ap-southeast-2
     - AWS GovCloud (US-East)
     - eu-west-2
-    - EU (Stockholm)
+    - eu-north-1
     - eu-west-1
     - sa-east-1
     - us-west-1
@@ -13710,12 +13710,12 @@ m5.12xlarge:
       ca-central-1:
         Dedicated: 2.723
         Shared: 2.568
-      EU (Stockholm):
-        Dedicated: 2.612
-        Shared: 2.448
       eu-central-1:
         Dedicated: 2.947
         Shared: 2.76
+      eu-north-1:
+        Dedicated: 2.612
+        Shared: 2.448
       eu-west-1:
         Dedicated: 2.74
         Shared: 2.568
@@ -13762,12 +13762,12 @@ m5.12xlarge:
       ca-central-1:
         Dedicated: 2.853
         Shared: 2.698
-      EU (Stockholm):
-        Dedicated: 2.742
-        Shared: 2.578
       eu-central-1:
         Dedicated: 3.077
         Shared: 2.89
+      eu-north-1:
+        Dedicated: 2.742
+        Shared: 2.578
       eu-west-1:
         Dedicated: 2.87
         Shared: 2.698
@@ -13817,12 +13817,12 @@ m5.12xlarge:
       ca-central-1:
         Dedicated: 2.823
         Shared: 2.668
-      EU (Stockholm):
-        Dedicated: 2.712
-        Shared: 2.548
       eu-central-1:
         Dedicated: 3.047
         Shared: 2.86
+      eu-north-1:
+        Dedicated: 2.712
+        Shared: 2.548
       eu-west-1:
         Dedicated: 2.84
         Shared: 2.668
@@ -13872,12 +13872,12 @@ m5.12xlarge:
       ca-central-1:
         Dedicated: 4.931
         Shared: 4.776
-      EU (Stockholm):
-        Dedicated: 4.82
-        Shared: 4.656
       eu-central-1:
         Dedicated: 5.155
         Shared: 4.968
+      eu-north-1:
+        Dedicated: 4.82
+        Shared: 4.656
       eu-west-1:
         Dedicated: 4.948
         Shared: 4.776
@@ -13907,7 +13907,7 @@ m5.12xlarge:
         Shared: 2.304
   regions:
     - ap-southeast-2
-    - EU (Stockholm)
+    - eu-north-1
     - us-west-2
     - us-east-1
     - ap-northeast-2
@@ -13959,12 +13959,12 @@ m5.24xlarge:
       ca-central-1:
         Dedicated: 5.136
         Shared: 5.136
-      EU (Stockholm):
-        Dedicated: 4.896
-        Shared: 4.896
       eu-central-1:
         Dedicated: 5.52
         Shared: 5.52
+      eu-north-1:
+        Dedicated: 4.896
+        Shared: 4.896
       eu-west-1:
         Dedicated: 5.136
         Shared: 5.136
@@ -14011,12 +14011,12 @@ m5.24xlarge:
       ca-central-1:
         Dedicated: 5.266
         Shared: 5.266
-      EU (Stockholm):
-        Dedicated: 5.026
-        Shared: 5.026
       eu-central-1:
         Dedicated: 5.65
         Shared: 5.65
+      eu-north-1:
+        Dedicated: 5.026
+        Shared: 5.026
       eu-west-1:
         Dedicated: 5.266
         Shared: 5.266
@@ -14066,12 +14066,12 @@ m5.24xlarge:
       ca-central-1:
         Dedicated: 5.236
         Shared: 5.236
-      EU (Stockholm):
-        Dedicated: 4.996
-        Shared: 4.996
       eu-central-1:
         Dedicated: 5.62
         Shared: 5.62
+      eu-north-1:
+        Dedicated: 4.996
+        Shared: 4.996
       eu-west-1:
         Dedicated: 5.236
         Shared: 5.236
@@ -14121,12 +14121,12 @@ m5.24xlarge:
       ca-central-1:
         Dedicated: 9.552
         Shared: 9.552
-      EU (Stockholm):
-        Dedicated: 9.312
-        Shared: 9.312
       eu-central-1:
         Dedicated: 9.936
         Shared: 5.52
+      eu-north-1:
+        Dedicated: 9.312
+        Shared: 9.312
       eu-west-1:
         Dedicated: 9.552
         Shared: 5.136
@@ -14157,7 +14157,7 @@ m5.24xlarge:
   regions:
     - AWS GovCloud (US-East)
     - eu-central-1
-    - EU (Stockholm)
+    - eu-north-1
     - sa-east-1
     - us-west-1
     - ap-northeast-2
@@ -14208,12 +14208,12 @@ m5.2xlarge:
       ca-central-1:
         Dedicated: 0.454
         Shared: 0.428
-      EU (Stockholm):
-        Dedicated: 0.435
-        Shared: 0.408
       eu-central-1:
         Dedicated: 0.491
         Shared: 0.46
+      eu-north-1:
+        Dedicated: 0.435
+        Shared: 0.408
       eu-west-1:
         Dedicated: 0.457
         Shared: 0.428
@@ -14260,12 +14260,12 @@ m5.2xlarge:
       ca-central-1:
         Dedicated: 0.584
         Shared: 0.558
-      EU (Stockholm):
-        Dedicated: 0.565
-        Shared: 0.538
       eu-central-1:
         Dedicated: 0.621
         Shared: 0.59
+      eu-north-1:
+        Dedicated: 0.565
+        Shared: 0.538
       eu-west-1:
         Dedicated: 0.587
         Shared: 0.558
@@ -14315,12 +14315,12 @@ m5.2xlarge:
       ca-central-1:
         Dedicated: 0.554
         Shared: 0.528
-      EU (Stockholm):
-        Dedicated: 0.535
-        Shared: 0.508
       eu-central-1:
         Dedicated: 0.591
         Shared: 0.56
+      eu-north-1:
+        Dedicated: 0.535
+        Shared: 0.508
       eu-west-1:
         Dedicated: 0.557
         Shared: 0.528
@@ -14370,12 +14370,12 @@ m5.2xlarge:
       ca-central-1:
         Dedicated: 0.822
         Shared: 0.428
-      EU (Stockholm):
-        Dedicated: 0.803
-        Shared: 0.776
       eu-central-1:
         Dedicated: 0.491
         Shared: 0.828
+      eu-north-1:
+        Dedicated: 0.803
+        Shared: 0.776
       eu-west-1:
         Dedicated: 0.825
         Shared: 0.428
@@ -14404,7 +14404,7 @@ m5.2xlarge:
         Dedicated: 0.407
         Shared: 0.384
   regions:
-    - EU (Stockholm)
+    - eu-north-1
     - ap-southeast-2
     - eu-west-2
     - eu-west-1
@@ -14457,12 +14457,12 @@ m5.4xlarge:
       ca-central-1:
         Dedicated: 0.908
         Shared: 0.856
-      EU (Stockholm):
-        Dedicated: 0.871
-        Shared: 0.816
       eu-central-1:
         Dedicated: 0.982
         Shared: 0.92
+      eu-north-1:
+        Dedicated: 0.871
+        Shared: 0.816
       eu-west-1:
         Dedicated: 0.913
         Shared: 0.856
@@ -14509,12 +14509,12 @@ m5.4xlarge:
       ca-central-1:
         Dedicated: 1.038
         Shared: 0.986
-      EU (Stockholm):
-        Dedicated: 1.001
-        Shared: 0.946
       eu-central-1:
         Dedicated: 1.112
         Shared: 1.05
+      eu-north-1:
+        Dedicated: 1.001
+        Shared: 0.946
       eu-west-1:
         Dedicated: 1.043
         Shared: 0.986
@@ -14564,12 +14564,12 @@ m5.4xlarge:
       ca-central-1:
         Dedicated: 1.008
         Shared: 0.956
-      EU (Stockholm):
-        Dedicated: 0.971
-        Shared: 0.916
       eu-central-1:
         Dedicated: 1.082
         Shared: 1.02
+      eu-north-1:
+        Dedicated: 0.971
+        Shared: 0.916
       eu-west-1:
         Dedicated: 1.013
         Shared: 0.956
@@ -14619,12 +14619,12 @@ m5.4xlarge:
       ca-central-1:
         Dedicated: 1.644
         Shared: 1.592
-      EU (Stockholm):
-        Dedicated: 1.607
-        Shared: 1.552
       eu-central-1:
         Dedicated: 1.718
         Shared: 0.92
+      eu-north-1:
+        Dedicated: 1.607
+        Shared: 1.552
       eu-west-1:
         Dedicated: 1.649
         Shared: 1.592
@@ -14664,7 +14664,7 @@ m5.4xlarge:
     - ca-central-1
     - ap-southeast-1
     - ap-northeast-1
-    - EU (Stockholm)
+    - eu-north-1
     - eu-central-1
     - us-gov-west-1
     - us-west-1
@@ -14706,12 +14706,12 @@ m5.large:
       ca-central-1:
         Dedicated: 0.113
         Shared: 0.107
-      EU (Stockholm):
-        Dedicated: 0.109
-        Shared: 0.102
       eu-central-1:
         Dedicated: 0.123
         Shared: 0.115
+      eu-north-1:
+        Dedicated: 0.109
+        Shared: 0.102
       eu-west-1:
         Dedicated: 0.114
         Shared: 0.107
@@ -14758,12 +14758,12 @@ m5.large:
       ca-central-1:
         Dedicated: 0.173
         Shared: 0.167
-      EU (Stockholm):
-        Dedicated: 0.169
-        Shared: 0.162
       eu-central-1:
         Dedicated: 0.183
         Shared: 0.175
+      eu-north-1:
+        Dedicated: 0.169
+        Shared: 0.162
       eu-west-1:
         Dedicated: 0.174
         Shared: 0.167
@@ -14813,12 +14813,12 @@ m5.large:
       ca-central-1:
         Dedicated: 0.213
         Shared: 0.207
-      EU (Stockholm):
-        Dedicated: 0.209
-        Shared: 0.202
       eu-central-1:
         Dedicated: 0.223
         Shared: 0.215
+      eu-north-1:
+        Dedicated: 0.209
+        Shared: 0.202
       eu-west-1:
         Dedicated: 0.214
         Shared: 0.207
@@ -14868,12 +14868,12 @@ m5.large:
       ca-central-1:
         Dedicated: 0.205
         Shared: 0.199
-      EU (Stockholm):
-        Dedicated: 0.201
-        Shared: 0.194
       eu-central-1:
         Dedicated: 0.123
         Shared: 0.207
+      eu-north-1:
+        Dedicated: 0.201
+        Shared: 0.194
       eu-west-1:
         Dedicated: 0.114
         Shared: 0.107
@@ -14909,7 +14909,7 @@ m5.large:
     - ap-northeast-2
     - AWS GovCloud (US-East)
     - ap-northeast-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-east-2
     - sa-east-1
     - eu-west-2
@@ -14955,12 +14955,12 @@ m5.xlarge:
       ca-central-1:
         Dedicated: 0.227
         Shared: 0.214
-      EU (Stockholm):
-        Dedicated: 0.218
-        Shared: 0.204
       eu-central-1:
         Dedicated: 0.246
         Shared: 0.23
+      eu-north-1:
+        Dedicated: 0.218
+        Shared: 0.204
       eu-west-1:
         Dedicated: 0.228
         Shared: 0.214
@@ -15007,12 +15007,12 @@ m5.xlarge:
       ca-central-1:
         Dedicated: 0.287
         Shared: 0.274
-      EU (Stockholm):
-        Dedicated: 0.278
-        Shared: 0.264
       eu-central-1:
         Dedicated: 0.306
         Shared: 0.29
+      eu-north-1:
+        Dedicated: 0.278
+        Shared: 0.264
       eu-west-1:
         Dedicated: 0.288
         Shared: 0.274
@@ -15062,12 +15062,12 @@ m5.xlarge:
       ca-central-1:
         Dedicated: 0.327
         Shared: 0.314
-      EU (Stockholm):
-        Dedicated: 0.318
-        Shared: 0.304
       eu-central-1:
         Dedicated: 0.346
         Shared: 0.33
+      eu-north-1:
+        Dedicated: 0.318
+        Shared: 0.304
       eu-west-1:
         Dedicated: 0.328
         Shared: 0.314
@@ -15117,12 +15117,12 @@ m5.xlarge:
       ca-central-1:
         Dedicated: 0.411
         Shared: 0.398
-      EU (Stockholm):
-        Dedicated: 0.402
-        Shared: 0.388
       eu-central-1:
         Dedicated: 0.43
         Shared: 0.414
+      eu-north-1:
+        Dedicated: 0.402
+        Shared: 0.388
       eu-west-1:
         Dedicated: 0.228
         Shared: 0.398
@@ -15164,7 +15164,7 @@ m5.xlarge:
     - ap-northeast-1
     - AWS GovCloud (US-East)
     - us-gov-west-1
-    - EU (Stockholm)
+    - eu-north-1
     - ap-south-1
     - sa-east-1
     - eu-west-2
@@ -15690,12 +15690,12 @@ m5d.12xlarge:
       ca-central-1:
         Dedicated: 3.208
         Shared: 3.024
-      EU (Stockholm):
-        Dedicated: 3.073
-        Shared: 2.88
       eu-central-1:
         Dedicated: 3.485
         Shared: 3.264
+      eu-north-1:
+        Dedicated: 3.073
+        Shared: 2.88
       eu-west-1:
         Dedicated: 3.227
         Shared: 3.024
@@ -15736,12 +15736,12 @@ m5d.12xlarge:
       ca-central-1:
         Dedicated: 3.338
         Shared: 3.154
-      EU (Stockholm):
-        Dedicated: 3.203
-        Shared: 3.01
       eu-central-1:
         Dedicated: 3.615
         Shared: 3.394
+      eu-north-1:
+        Dedicated: 3.203
+        Shared: 3.01
       eu-west-1:
         Dedicated: 3.357
         Shared: 3.154
@@ -15782,12 +15782,12 @@ m5d.12xlarge:
       ca-central-1:
         Dedicated: 3.308
         Shared: 3.124
-      EU (Stockholm):
-        Dedicated: 3.173
-        Shared: 2.98
       eu-central-1:
         Dedicated: 3.585
         Shared: 3.364
+      eu-north-1:
+        Dedicated: 3.173
+        Shared: 2.98
       eu-west-1:
         Dedicated: 3.327
         Shared: 3.124
@@ -15828,12 +15828,12 @@ m5d.12xlarge:
       ca-central-1:
         Dedicated: 5.416
         Shared: 5.232
-      EU (Stockholm):
-        Dedicated: 5.281
-        Shared: 5.088
       eu-central-1:
         Dedicated: 5.693
         Shared: 5.472
+      eu-north-1:
+        Dedicated: 5.281
+        Shared: 5.088
       eu-west-1:
         Dedicated: 5.435
         Shared: 3.024
@@ -15873,7 +15873,7 @@ m5d.12xlarge:
     - ap-northeast-1
     - eu-west-1
     - us-east-1
-    - EU (Stockholm)
+    - eu-north-1
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 m5d.24xlarge:
@@ -15903,12 +15903,12 @@ m5d.24xlarge:
       ca-central-1:
         Dedicated: 6.048
         Shared: 6.048
-      EU (Stockholm):
-        Dedicated: 5.76
-        Shared: 5.76
       eu-central-1:
         Dedicated: 6.528
         Shared: 6.528
+      eu-north-1:
+        Dedicated: 5.76
+        Shared: 5.76
       eu-west-1:
         Dedicated: 6.048
         Shared: 6.048
@@ -15949,12 +15949,12 @@ m5d.24xlarge:
       ca-central-1:
         Dedicated: 6.178
         Shared: 6.178
-      EU (Stockholm):
-        Dedicated: 5.89
-        Shared: 5.89
       eu-central-1:
         Dedicated: 6.658
         Shared: 6.658
+      eu-north-1:
+        Dedicated: 5.89
+        Shared: 5.89
       eu-west-1:
         Dedicated: 6.178
         Shared: 6.178
@@ -15995,12 +15995,12 @@ m5d.24xlarge:
       ca-central-1:
         Dedicated: 6.148
         Shared: 6.148
-      EU (Stockholm):
-        Dedicated: 5.86
-        Shared: 5.86
       eu-central-1:
         Dedicated: 6.628
         Shared: 6.628
+      eu-north-1:
+        Dedicated: 5.86
+        Shared: 5.86
       eu-west-1:
         Dedicated: 6.148
         Shared: 6.148
@@ -16041,12 +16041,12 @@ m5d.24xlarge:
       ca-central-1:
         Dedicated: 6.048
         Shared: 10.464
-      EU (Stockholm):
-        Dedicated: 10.176
-        Shared: 10.176
       eu-central-1:
         Dedicated: 6.528
         Shared: 6.528
+      eu-north-1:
+        Dedicated: 10.176
+        Shared: 10.176
       eu-west-1:
         Dedicated: 10.464
         Shared: 10.464
@@ -16084,7 +16084,7 @@ m5d.24xlarge:
     - us-east-2
     - us-west-1
     - us-west-2
-    - EU (Stockholm)
+    - eu-north-1
     - ap-northeast-2
     - us-gov-west-1
   storage: 4 x 900 NVMe SSD
@@ -16116,12 +16116,12 @@ m5d.2xlarge:
       ca-central-1:
         Dedicated: 0.535
         Shared: 0.504
-      EU (Stockholm):
-        Dedicated: 0.512
-        Shared: 0.48
       eu-central-1:
         Dedicated: 0.581
         Shared: 0.544
+      eu-north-1:
+        Dedicated: 0.512
+        Shared: 0.48
       eu-west-1:
         Dedicated: 0.538
         Shared: 0.504
@@ -16162,12 +16162,12 @@ m5d.2xlarge:
       ca-central-1:
         Dedicated: 0.665
         Shared: 0.634
-      EU (Stockholm):
-        Dedicated: 0.642
-        Shared: 0.61
       eu-central-1:
         Dedicated: 0.711
         Shared: 0.674
+      eu-north-1:
+        Dedicated: 0.642
+        Shared: 0.61
       eu-west-1:
         Dedicated: 0.668
         Shared: 0.634
@@ -16208,12 +16208,12 @@ m5d.2xlarge:
       ca-central-1:
         Dedicated: 0.635
         Shared: 0.604
-      EU (Stockholm):
-        Dedicated: 0.612
-        Shared: 0.58
       eu-central-1:
         Dedicated: 0.681
         Shared: 0.644
+      eu-north-1:
+        Dedicated: 0.612
+        Shared: 0.58
       eu-west-1:
         Dedicated: 0.638
         Shared: 0.604
@@ -16254,12 +16254,12 @@ m5d.2xlarge:
       ca-central-1:
         Dedicated: 0.903
         Shared: 0.872
-      EU (Stockholm):
-        Dedicated: 0.88
-        Shared: 0.848
       eu-central-1:
         Dedicated: 0.949
         Shared: 0.544
+      eu-north-1:
+        Dedicated: 0.88
+        Shared: 0.848
       eu-west-1:
         Dedicated: 0.538
         Shared: 0.872
@@ -16289,7 +16289,7 @@ m5d.2xlarge:
     - us-east-1
     - us-west-1
     - eu-west-1
-    - EU (Stockholm)
+    - eu-north-1
     - ap-northeast-1
     - us-east-2
     - ap-southeast-2
@@ -16329,12 +16329,12 @@ m5d.4xlarge:
       ca-central-1:
         Dedicated: 1.069
         Shared: 1.008
-      EU (Stockholm):
-        Dedicated: 1.024
-        Shared: 0.96
       eu-central-1:
         Dedicated: 1.162
         Shared: 1.088
+      eu-north-1:
+        Dedicated: 1.024
+        Shared: 0.96
       eu-west-1:
         Dedicated: 1.076
         Shared: 1.008
@@ -16375,12 +16375,12 @@ m5d.4xlarge:
       ca-central-1:
         Dedicated: 1.199
         Shared: 1.138
-      EU (Stockholm):
-        Dedicated: 1.154
-        Shared: 1.09
       eu-central-1:
         Dedicated: 1.292
         Shared: 1.218
+      eu-north-1:
+        Dedicated: 1.154
+        Shared: 1.09
       eu-west-1:
         Dedicated: 1.206
         Shared: 1.138
@@ -16421,12 +16421,12 @@ m5d.4xlarge:
       ca-central-1:
         Dedicated: 1.169
         Shared: 1.108
-      EU (Stockholm):
-        Dedicated: 1.124
-        Shared: 1.06
       eu-central-1:
         Dedicated: 1.262
         Shared: 1.188
+      eu-north-1:
+        Dedicated: 1.124
+        Shared: 1.06
       eu-west-1:
         Dedicated: 1.176
         Shared: 1.108
@@ -16467,12 +16467,12 @@ m5d.4xlarge:
       ca-central-1:
         Dedicated: 1.069
         Shared: 1.744
-      EU (Stockholm):
-        Dedicated: 1.76
-        Shared: 1.696
       eu-central-1:
         Dedicated: 1.898
         Shared: 1.824
+      eu-north-1:
+        Dedicated: 1.76
+        Shared: 1.696
       eu-west-1:
         Dedicated: 1.812
         Shared: 1.744
@@ -16511,7 +16511,7 @@ m5d.4xlarge:
     - us-east-2
     - us-west-1
     - eu-west-2
-    - EU (Stockholm)
+    - eu-north-1
     - ap-southeast-2
   storage: 2 x 300 NVMe SSD
   vcpu: 16
@@ -16542,12 +16542,12 @@ m5d.large:
       ca-central-1:
         Dedicated: 0.134
         Shared: 0.126
-      EU (Stockholm):
-        Dedicated: 0.128
-        Shared: 0.12
       eu-central-1:
         Dedicated: 0.145
         Shared: 0.136
+      eu-north-1:
+        Dedicated: 0.128
+        Shared: 0.12
       eu-west-1:
         Dedicated: 0.134
         Shared: 0.126
@@ -16588,12 +16588,12 @@ m5d.large:
       ca-central-1:
         Dedicated: 0.194
         Shared: 0.186
-      EU (Stockholm):
-        Dedicated: 0.188
-        Shared: 0.18
       eu-central-1:
         Dedicated: 0.205
         Shared: 0.196
+      eu-north-1:
+        Dedicated: 0.188
+        Shared: 0.18
       eu-west-1:
         Dedicated: 0.194
         Shared: 0.186
@@ -16634,12 +16634,12 @@ m5d.large:
       ca-central-1:
         Dedicated: 0.234
         Shared: 0.226
-      EU (Stockholm):
-        Dedicated: 0.228
-        Shared: 0.22
       eu-central-1:
         Dedicated: 0.245
         Shared: 0.236
+      eu-north-1:
+        Dedicated: 0.228
+        Shared: 0.22
       eu-west-1:
         Dedicated: 0.234
         Shared: 0.226
@@ -16680,12 +16680,12 @@ m5d.large:
       ca-central-1:
         Dedicated: 0.226
         Shared: 0.218
-      EU (Stockholm):
-        Dedicated: 0.22
-        Shared: 0.212
       eu-central-1:
         Dedicated: 0.237
         Shared: 0.136
+      eu-north-1:
+        Dedicated: 0.22
+        Shared: 0.212
       eu-west-1:
         Dedicated: 0.134
         Shared: 0.218
@@ -16724,7 +16724,7 @@ m5d.large:
     - eu-west-1
     - us-west-1
     - ca-central-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-gov-west-1
   storage: 1 x 75 NVMe SSD
   vcpu: 2
@@ -16755,12 +16755,12 @@ m5d.xlarge:
       ca-central-1:
         Dedicated: 0.267
         Shared: 0.252
-      EU (Stockholm):
-        Dedicated: 0.256
-        Shared: 0.24
       eu-central-1:
         Dedicated: 0.29
         Shared: 0.272
+      eu-north-1:
+        Dedicated: 0.256
+        Shared: 0.24
       eu-west-1:
         Dedicated: 0.269
         Shared: 0.252
@@ -16801,12 +16801,12 @@ m5d.xlarge:
       ca-central-1:
         Dedicated: 0.327
         Shared: 0.312
-      EU (Stockholm):
-        Dedicated: 0.316
-        Shared: 0.3
       eu-central-1:
         Dedicated: 0.35
         Shared: 0.332
+      eu-north-1:
+        Dedicated: 0.316
+        Shared: 0.3
       eu-west-1:
         Dedicated: 0.329
         Shared: 0.312
@@ -16847,12 +16847,12 @@ m5d.xlarge:
       ca-central-1:
         Dedicated: 0.367
         Shared: 0.352
-      EU (Stockholm):
-        Dedicated: 0.356
-        Shared: 0.34
       eu-central-1:
         Dedicated: 0.39
         Shared: 0.372
+      eu-north-1:
+        Dedicated: 0.356
+        Shared: 0.34
       eu-west-1:
         Dedicated: 0.369
         Shared: 0.352
@@ -16893,12 +16893,12 @@ m5d.xlarge:
       ca-central-1:
         Dedicated: 0.267
         Shared: 0.252
-      EU (Stockholm):
-        Dedicated: 0.44
-        Shared: 0.424
       eu-central-1:
         Dedicated: 0.474
         Shared: 0.272
+      eu-north-1:
+        Dedicated: 0.44
+        Shared: 0.424
       eu-west-1:
         Dedicated: 0.453
         Shared: 0.252
@@ -16927,7 +16927,7 @@ m5d.xlarge:
     - eu-central-1
     - eu-west-3
     - ap-southeast-2
-    - EU (Stockholm)
+    - eu-north-1
     - us-west-1
     - ca-central-1
     - ap-northeast-2
@@ -20409,12 +20409,12 @@ r5.12xlarge:
       ca-central-1:
         Dedicated: 3.511
         Shared: 3.312
-      EU (Stockholm):
-        Dedicated: 3.409
-        Shared: 3.216
       eu-central-1:
         Dedicated: 3.867
         Shared: 3.648
+      eu-north-1:
+        Dedicated: 3.409
+        Shared: 3.216
       eu-west-1:
         Dedicated: 3.587
         Shared: 3.384
@@ -20455,12 +20455,12 @@ r5.12xlarge:
       ca-central-1:
         Dedicated: 3.641
         Shared: 3.442
-      EU (Stockholm):
-        Dedicated: 3.539
-        Shared: 3.346
       eu-central-1:
         Dedicated: 3.997
         Shared: 3.778
+      eu-north-1:
+        Dedicated: 3.539
+        Shared: 3.346
       eu-west-1:
         Dedicated: 3.717
         Shared: 3.514
@@ -20504,12 +20504,12 @@ r5.12xlarge:
       ca-central-1:
         Dedicated: 3.661
         Shared: 3.462
-      EU (Stockholm):
-        Dedicated: 3.559
-        Shared: 3.366
       eu-central-1:
         Dedicated: 4.017
         Shared: 3.798
+      eu-north-1:
+        Dedicated: 3.559
+        Shared: 3.366
       eu-west-1:
         Dedicated: 3.737
         Shared: 3.534
@@ -20553,12 +20553,12 @@ r5.12xlarge:
       ca-central-1:
         Dedicated: 5.719
         Shared: 5.52
-      EU (Stockholm):
-        Dedicated: 5.617
-        Shared: 5.424
       eu-central-1:
         Dedicated: 6.075
         Shared: 5.856
+      eu-north-1:
+        Dedicated: 5.617
+        Shared: 5.424
       eu-west-1:
         Dedicated: 5.795
         Shared: 3.384
@@ -20598,7 +20598,7 @@ r5.12xlarge:
     - ap-northeast-2
     - ap-southeast-2
     - AWS GovCloud (US-East)
-    - EU (Stockholm)
+    - eu-north-1
     - eu-central-1
   storage: EBS only
   vcpu: 48
@@ -20629,12 +20629,12 @@ r5.24xlarge:
       ca-central-1:
         Dedicated: 6.624
         Shared: 6.624
-      EU (Stockholm):
-        Dedicated: 6.432
-        Shared: 6.432
       eu-central-1:
         Dedicated: 7.296
         Shared: 7.296
+      eu-north-1:
+        Dedicated: 6.432
+        Shared: 6.432
       eu-west-1:
         Dedicated: 6.768
         Shared: 6.768
@@ -20675,12 +20675,12 @@ r5.24xlarge:
       ca-central-1:
         Dedicated: 6.754
         Shared: 6.754
-      EU (Stockholm):
-        Dedicated: 6.562
-        Shared: 6.562
       eu-central-1:
         Dedicated: 7.426
         Shared: 7.426
+      eu-north-1:
+        Dedicated: 6.562
+        Shared: 6.562
       eu-west-1:
         Dedicated: 6.898
         Shared: 6.898
@@ -20724,12 +20724,12 @@ r5.24xlarge:
       ca-central-1:
         Dedicated: 6.774
         Shared: 6.774
-      EU (Stockholm):
-        Dedicated: 6.582
-        Shared: 6.582
       eu-central-1:
         Dedicated: 7.446
         Shared: 7.446
+      eu-north-1:
+        Dedicated: 6.582
+        Shared: 6.582
       eu-west-1:
         Dedicated: 6.918
         Shared: 6.918
@@ -20773,12 +20773,12 @@ r5.24xlarge:
       ca-central-1:
         Dedicated: 11.04
         Shared: 11.04
-      EU (Stockholm):
-        Dedicated: 10.848
-        Shared: 10.848
       eu-central-1:
         Dedicated: 11.712
         Shared: 11.712
+      eu-north-1:
+        Dedicated: 10.848
+        Shared: 10.848
       eu-west-1:
         Dedicated: 11.184
         Shared: 11.184
@@ -20815,7 +20815,7 @@ r5.24xlarge:
     - us-east-2
     - eu-west-3
     - ap-northeast-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-west-2
     - ap-northeast-2
     - AWS GovCloud (US-East)
@@ -20849,12 +20849,12 @@ r5.2xlarge:
       ca-central-1:
         Dedicated: 0.585
         Shared: 0.552
-      EU (Stockholm):
-        Dedicated: 0.568
-        Shared: 0.536
       eu-central-1:
         Dedicated: 0.644
         Shared: 0.608
+      eu-north-1:
+        Dedicated: 0.568
+        Shared: 0.536
       eu-west-1:
         Dedicated: 0.598
         Shared: 0.564
@@ -20895,12 +20895,12 @@ r5.2xlarge:
       ca-central-1:
         Dedicated: 0.715
         Shared: 0.682
-      EU (Stockholm):
-        Dedicated: 0.698
-        Shared: 0.666
       eu-central-1:
         Dedicated: 0.774
         Shared: 0.738
+      eu-north-1:
+        Dedicated: 0.698
+        Shared: 0.666
       eu-west-1:
         Dedicated: 0.728
         Shared: 0.694
@@ -20944,12 +20944,12 @@ r5.2xlarge:
       ca-central-1:
         Dedicated: 0.735
         Shared: 0.702
-      EU (Stockholm):
-        Dedicated: 0.718
-        Shared: 0.686
       eu-central-1:
         Dedicated: 0.794
         Shared: 0.758
+      eu-north-1:
+        Dedicated: 0.718
+        Shared: 0.686
       eu-west-1:
         Dedicated: 0.748
         Shared: 0.714
@@ -20993,12 +20993,12 @@ r5.2xlarge:
       ca-central-1:
         Dedicated: 0.953
         Shared: 0.92
-      EU (Stockholm):
-        Dedicated: 0.936
-        Shared: 0.904
       eu-central-1:
         Dedicated: 1.012
         Shared: 0.976
+      eu-north-1:
+        Dedicated: 0.936
+        Shared: 0.904
       eu-west-1:
         Dedicated: 0.966
         Shared: 0.932
@@ -21024,7 +21024,7 @@ r5.2xlarge:
         Dedicated: 0.534
         Shared: 0.872
   regions:
-    - EU (Stockholm)
+    - eu-north-1
     - ap-southeast-2
     - us-gov-west-1
     - ca-central-1
@@ -21069,12 +21069,12 @@ r5.4xlarge:
       ca-central-1:
         Dedicated: 1.17
         Shared: 1.104
-      EU (Stockholm):
-        Dedicated: 1.136
-        Shared: 1.072
       eu-central-1:
         Dedicated: 1.289
         Shared: 1.216
+      eu-north-1:
+        Dedicated: 1.136
+        Shared: 1.072
       eu-west-1:
         Dedicated: 1.196
         Shared: 1.128
@@ -21115,12 +21115,12 @@ r5.4xlarge:
       ca-central-1:
         Dedicated: 1.3
         Shared: 1.234
-      EU (Stockholm):
-        Dedicated: 1.266
-        Shared: 1.202
       eu-central-1:
         Dedicated: 1.419
         Shared: 1.346
+      eu-north-1:
+        Dedicated: 1.266
+        Shared: 1.202
       eu-west-1:
         Dedicated: 1.326
         Shared: 1.258
@@ -21164,12 +21164,12 @@ r5.4xlarge:
       ca-central-1:
         Dedicated: 1.32
         Shared: 1.254
-      EU (Stockholm):
-        Dedicated: 1.286
-        Shared: 1.222
       eu-central-1:
         Dedicated: 1.439
         Shared: 1.366
+      eu-north-1:
+        Dedicated: 1.286
+        Shared: 1.222
       eu-west-1:
         Dedicated: 1.346
         Shared: 1.278
@@ -21213,12 +21213,12 @@ r5.4xlarge:
       ca-central-1:
         Dedicated: 1.906
         Shared: 1.84
-      EU (Stockholm):
-        Dedicated: 1.872
-        Shared: 1.808
       eu-central-1:
         Dedicated: 2.025
         Shared: 1.952
+      eu-north-1:
+        Dedicated: 1.872
+        Shared: 1.808
       eu-west-1:
         Dedicated: 1.932
         Shared: 1.864
@@ -21247,7 +21247,7 @@ r5.4xlarge:
     - eu-west-2
     - us-west-2
     - AWS GovCloud (US-East)
-    - EU (Stockholm)
+    - eu-north-1
     - us-west-1
     - ca-central-1
     - ap-southeast-1
@@ -21290,12 +21290,12 @@ r5.large:
       ca-central-1:
         Dedicated: 0.146
         Shared: 0.138
-      EU (Stockholm):
-        Dedicated: 0.142
-        Shared: 0.134
       eu-central-1:
         Dedicated: 0.161
         Shared: 0.152
+      eu-north-1:
+        Dedicated: 0.142
+        Shared: 0.134
       eu-west-1:
         Dedicated: 0.149
         Shared: 0.141
@@ -21336,12 +21336,12 @@ r5.large:
       ca-central-1:
         Dedicated: 0.206
         Shared: 0.198
-      EU (Stockholm):
-        Dedicated: 0.202
-        Shared: 0.194
       eu-central-1:
         Dedicated: 0.221
         Shared: 0.212
+      eu-north-1:
+        Dedicated: 0.202
+        Shared: 0.194
       eu-west-1:
         Dedicated: 0.209
         Shared: 0.201
@@ -21385,12 +21385,12 @@ r5.large:
       ca-central-1:
         Dedicated: 0.209
         Shared: 0.201
-      EU (Stockholm):
-        Dedicated: 0.205
-        Shared: 0.197
       eu-central-1:
         Dedicated: 0.224
         Shared: 0.215
+      eu-north-1:
+        Dedicated: 0.205
+        Shared: 0.197
       eu-west-1:
         Dedicated: 0.212
         Shared: 0.204
@@ -21434,12 +21434,12 @@ r5.large:
       ca-central-1:
         Dedicated: 0.238
         Shared: 0.23
-      EU (Stockholm):
-        Dedicated: 0.234
-        Shared: 0.226
       eu-central-1:
         Dedicated: 0.253
         Shared: 0.244
+      eu-north-1:
+        Dedicated: 0.234
+        Shared: 0.226
       eu-west-1:
         Dedicated: 0.241
         Shared: 0.233
@@ -21473,7 +21473,7 @@ r5.large:
     - ap-southeast-2
     - ap-southeast-1
     - eu-west-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-west-1
     - AWS GovCloud (US-East)
     - eu-central-1
@@ -21510,12 +21510,12 @@ r5.xlarge:
       ca-central-1:
         Dedicated: 0.293
         Shared: 0.276
-      EU (Stockholm):
-        Dedicated: 0.284
-        Shared: 0.268
       eu-central-1:
         Dedicated: 0.322
         Shared: 0.304
+      eu-north-1:
+        Dedicated: 0.284
+        Shared: 0.268
       eu-west-1:
         Dedicated: 0.299
         Shared: 0.282
@@ -21556,12 +21556,12 @@ r5.xlarge:
       ca-central-1:
         Dedicated: 0.353
         Shared: 0.336
-      EU (Stockholm):
-        Dedicated: 0.344
-        Shared: 0.328
       eu-central-1:
         Dedicated: 0.382
         Shared: 0.364
+      eu-north-1:
+        Dedicated: 0.344
+        Shared: 0.328
       eu-west-1:
         Dedicated: 0.359
         Shared: 0.342
@@ -21605,12 +21605,12 @@ r5.xlarge:
       ca-central-1:
         Dedicated: 0.418
         Shared: 0.401
-      EU (Stockholm):
-        Dedicated: 0.409
-        Shared: 0.393
       eu-central-1:
         Dedicated: 0.447
         Shared: 0.429
+      eu-north-1:
+        Dedicated: 0.409
+        Shared: 0.393
       eu-west-1:
         Dedicated: 0.424
         Shared: 0.407
@@ -21654,12 +21654,12 @@ r5.xlarge:
       ca-central-1:
         Dedicated: 0.477
         Shared: 0.46
-      EU (Stockholm):
-        Dedicated: 0.468
-        Shared: 0.452
       eu-central-1:
         Dedicated: 0.506
         Shared: 0.488
+      eu-north-1:
+        Dedicated: 0.468
+        Shared: 0.452
       eu-west-1:
         Dedicated: 0.299
         Shared: 0.282
@@ -21685,7 +21685,7 @@ r5.xlarge:
         Dedicated: 0.267
         Shared: 0.252
   regions:
-    - EU (Stockholm)
+    - eu-north-1
     - eu-west-1
     - us-west-2
     - ap-northeast-2
@@ -22219,12 +22219,12 @@ r5d.12xlarge:
       ca-central-1:
         Dedicated: 4.021
         Shared: 3.792
-      EU (Stockholm):
-        Dedicated: 3.869
-        Shared: 3.648
       eu-central-1:
         Dedicated: 4.404
         Shared: 4.152
+      eu-north-1:
+        Dedicated: 3.869
+        Shared: 3.648
       eu-west-1:
         Dedicated: 4.073
         Shared: 3.84
@@ -22265,12 +22265,12 @@ r5d.12xlarge:
       ca-central-1:
         Dedicated: 4.151
         Shared: 3.922
-      EU (Stockholm):
-        Dedicated: 3.999
-        Shared: 3.778
       eu-central-1:
         Dedicated: 4.534
         Shared: 4.282
+      eu-north-1:
+        Dedicated: 3.999
+        Shared: 3.778
       eu-west-1:
         Dedicated: 4.203
         Shared: 3.97
@@ -22311,12 +22311,12 @@ r5d.12xlarge:
       ca-central-1:
         Dedicated: 4.171
         Shared: 3.942
-      EU (Stockholm):
-        Dedicated: 4.019
-        Shared: 3.798
       eu-central-1:
         Dedicated: 4.554
         Shared: 4.302
+      eu-north-1:
+        Dedicated: 4.019
+        Shared: 3.798
       eu-west-1:
         Dedicated: 4.223
         Shared: 3.99
@@ -22357,12 +22357,12 @@ r5d.12xlarge:
       ca-central-1:
         Dedicated: 6.229
         Shared: 6
-      EU (Stockholm):
-        Dedicated: 6.077
-        Shared: 5.856
       eu-central-1:
         Dedicated: 6.612
         Shared: 6.36
+      eu-north-1:
+        Dedicated: 6.077
+        Shared: 5.856
       eu-west-1:
         Dedicated: 6.281
         Shared: 6.048
@@ -22389,7 +22389,7 @@ r5d.12xlarge:
         Shared: 5.664
   regions:
     - us-east-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-east-2
     - ap-northeast-2
     - us-west-1
@@ -22429,12 +22429,12 @@ r5d.24xlarge:
       ca-central-1:
         Dedicated: 7.584
         Shared: 7.584
-      EU (Stockholm):
-        Dedicated: 7.296
-        Shared: 7.296
       eu-central-1:
         Dedicated: 8.304
         Shared: 8.304
+      eu-north-1:
+        Dedicated: 7.296
+        Shared: 7.296
       eu-west-1:
         Dedicated: 7.68
         Shared: 7.68
@@ -22475,12 +22475,12 @@ r5d.24xlarge:
       ca-central-1:
         Dedicated: 7.714
         Shared: 7.714
-      EU (Stockholm):
-        Dedicated: 7.426
-        Shared: 7.426
       eu-central-1:
         Dedicated: 8.434
         Shared: 8.434
+      eu-north-1:
+        Dedicated: 7.426
+        Shared: 7.426
       eu-west-1:
         Dedicated: 7.81
         Shared: 7.81
@@ -22521,12 +22521,12 @@ r5d.24xlarge:
       ca-central-1:
         Dedicated: 7.734
         Shared: 7.734
-      EU (Stockholm):
-        Dedicated: 7.446
-        Shared: 7.446
       eu-central-1:
         Dedicated: 8.454
         Shared: 8.454
+      eu-north-1:
+        Dedicated: 7.446
+        Shared: 7.446
       eu-west-1:
         Dedicated: 7.83
         Shared: 7.83
@@ -22567,12 +22567,12 @@ r5d.24xlarge:
       ca-central-1:
         Dedicated: 12
         Shared: 12
-      EU (Stockholm):
-        Dedicated: 11.712
-        Shared: 11.712
       eu-central-1:
         Dedicated: 12.72
         Shared: 12.72
+      eu-north-1:
+        Dedicated: 11.712
+        Shared: 11.712
       eu-west-1:
         Dedicated: 12.096
         Shared: 12.096
@@ -22601,7 +22601,7 @@ r5d.24xlarge:
     - ap-southeast-2
     - us-east-1
     - eu-central-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-gov-west-1
     - eu-west-3
     - ca-central-1
@@ -22639,12 +22639,12 @@ r5d.2xlarge:
       ca-central-1:
         Dedicated: 0.67
         Shared: 0.632
-      EU (Stockholm):
-        Dedicated: 0.645
-        Shared: 0.608
       eu-central-1:
         Dedicated: 0.734
         Shared: 0.692
+      eu-north-1:
+        Dedicated: 0.645
+        Shared: 0.608
       eu-west-1:
         Dedicated: 0.679
         Shared: 0.64
@@ -22685,12 +22685,12 @@ r5d.2xlarge:
       ca-central-1:
         Dedicated: 0.8
         Shared: 0.762
-      EU (Stockholm):
-        Dedicated: 0.775
-        Shared: 0.738
       eu-central-1:
         Dedicated: 0.864
         Shared: 0.822
+      eu-north-1:
+        Dedicated: 0.775
+        Shared: 0.738
       eu-west-1:
         Dedicated: 0.809
         Shared: 0.77
@@ -22731,12 +22731,12 @@ r5d.2xlarge:
       ca-central-1:
         Dedicated: 0.82
         Shared: 0.782
-      EU (Stockholm):
-        Dedicated: 0.795
-        Shared: 0.758
       eu-central-1:
         Dedicated: 0.884
         Shared: 0.842
+      eu-north-1:
+        Dedicated: 0.795
+        Shared: 0.758
       eu-west-1:
         Dedicated: 0.829
         Shared: 0.79
@@ -22777,12 +22777,12 @@ r5d.2xlarge:
       ca-central-1:
         Dedicated: 1.038
         Shared: 1
-      EU (Stockholm):
-        Dedicated: 1.013
-        Shared: 0.976
       eu-central-1:
         Dedicated: 1.102
         Shared: 1.06
+      eu-north-1:
+        Dedicated: 1.013
+        Shared: 0.976
       eu-west-1:
         Dedicated: 1.047
         Shared: 1.008
@@ -22810,7 +22810,7 @@ r5d.2xlarge:
   regions:
     - ap-southeast-2
     - ca-central-1
-    - EU (Stockholm)
+    - eu-north-1
     - ap-northeast-2
     - eu-west-2
     - us-east-2
@@ -22849,12 +22849,12 @@ r5d.4xlarge:
       ca-central-1:
         Dedicated: 1.34
         Shared: 1.264
-      EU (Stockholm):
-        Dedicated: 1.29
-        Shared: 1.216
       eu-central-1:
         Dedicated: 1.468
         Shared: 1.384
+      eu-north-1:
+        Dedicated: 1.29
+        Shared: 1.216
       eu-west-1:
         Dedicated: 1.358
         Shared: 1.28
@@ -22895,12 +22895,12 @@ r5d.4xlarge:
       ca-central-1:
         Dedicated: 1.47
         Shared: 1.394
-      EU (Stockholm):
-        Dedicated: 1.42
-        Shared: 1.346
       eu-central-1:
         Dedicated: 1.598
         Shared: 1.514
+      eu-north-1:
+        Dedicated: 1.42
+        Shared: 1.346
       eu-west-1:
         Dedicated: 1.488
         Shared: 1.41
@@ -22941,12 +22941,12 @@ r5d.4xlarge:
       ca-central-1:
         Dedicated: 1.49
         Shared: 1.414
-      EU (Stockholm):
-        Dedicated: 1.44
-        Shared: 1.366
       eu-central-1:
         Dedicated: 1.618
         Shared: 1.534
+      eu-north-1:
+        Dedicated: 1.44
+        Shared: 1.366
       eu-west-1:
         Dedicated: 1.508
         Shared: 1.43
@@ -22987,12 +22987,12 @@ r5d.4xlarge:
       ca-central-1:
         Dedicated: 2.076
         Shared: 2
-      EU (Stockholm):
-        Dedicated: 2.026
-        Shared: 1.952
       eu-central-1:
         Dedicated: 2.204
         Shared: 2.12
+      eu-north-1:
+        Dedicated: 2.026
+        Shared: 1.952
       eu-west-1:
         Dedicated: 2.094
         Shared: 2.016
@@ -23030,7 +23030,7 @@ r5d.4xlarge:
     - ap-southeast-2
     - eu-central-1
     - ap-northeast-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-gov-west-1
     - eu-west-2
   storage: 2 x 300 NVMe SSD
@@ -23059,12 +23059,12 @@ r5d.large:
       ca-central-1:
         Dedicated: 0.168
         Shared: 0.158
-      EU (Stockholm):
-        Dedicated: 0.161
-        Shared: 0.152
       eu-central-1:
         Dedicated: 0.184
         Shared: 0.173
+      eu-north-1:
+        Dedicated: 0.161
+        Shared: 0.152
       eu-west-1:
         Dedicated: 0.17
         Shared: 0.16
@@ -23105,12 +23105,12 @@ r5d.large:
       ca-central-1:
         Dedicated: 0.228
         Shared: 0.218
-      EU (Stockholm):
-        Dedicated: 0.221
-        Shared: 0.212
       eu-central-1:
         Dedicated: 0.244
         Shared: 0.233
+      eu-north-1:
+        Dedicated: 0.221
+        Shared: 0.212
       eu-west-1:
         Dedicated: 0.23
         Shared: 0.22
@@ -23151,12 +23151,12 @@ r5d.large:
       ca-central-1:
         Dedicated: 0.231
         Shared: 0.221
-      EU (Stockholm):
-        Dedicated: 0.224
-        Shared: 0.215
       eu-central-1:
         Dedicated: 0.247
         Shared: 0.236
+      eu-north-1:
+        Dedicated: 0.224
+        Shared: 0.215
       eu-west-1:
         Dedicated: 0.233
         Shared: 0.223
@@ -23197,12 +23197,12 @@ r5d.large:
       ca-central-1:
         Dedicated: 0.26
         Shared: 0.25
-      EU (Stockholm):
-        Dedicated: 0.253
-        Shared: 0.244
       eu-central-1:
         Dedicated: 0.276
         Shared: 0.265
+      eu-north-1:
+        Dedicated: 0.253
+        Shared: 0.244
       eu-west-1:
         Dedicated: 0.262
         Shared: 0.252
@@ -23234,7 +23234,7 @@ r5d.large:
     - us-east-2
     - eu-west-2
     - eu-central-1
-    - EU (Stockholm)
+    - eu-north-1
     - eu-west-1
     - ap-northeast-1
     - ap-northeast-2
@@ -23269,12 +23269,12 @@ r5d.xlarge:
       ca-central-1:
         Dedicated: 0.335
         Shared: 0.316
-      EU (Stockholm):
-        Dedicated: 0.322
-        Shared: 0.304
       eu-central-1:
         Dedicated: 0.367
         Shared: 0.346
+      eu-north-1:
+        Dedicated: 0.322
+        Shared: 0.304
       eu-west-1:
         Dedicated: 0.339
         Shared: 0.32
@@ -23315,12 +23315,12 @@ r5d.xlarge:
       ca-central-1:
         Dedicated: 0.395
         Shared: 0.376
-      EU (Stockholm):
-        Dedicated: 0.382
-        Shared: 0.364
       eu-central-1:
         Dedicated: 0.427
         Shared: 0.406
+      eu-north-1:
+        Dedicated: 0.382
+        Shared: 0.364
       eu-west-1:
         Dedicated: 0.399
         Shared: 0.38
@@ -23361,12 +23361,12 @@ r5d.xlarge:
       ca-central-1:
         Dedicated: 0.46
         Shared: 0.441
-      EU (Stockholm):
-        Dedicated: 0.447
-        Shared: 0.429
       eu-central-1:
         Dedicated: 0.492
         Shared: 0.471
+      eu-north-1:
+        Dedicated: 0.447
+        Shared: 0.429
       eu-west-1:
         Dedicated: 0.464
         Shared: 0.445
@@ -23407,12 +23407,12 @@ r5d.xlarge:
       ca-central-1:
         Dedicated: 0.519
         Shared: 0.5
-      EU (Stockholm):
-        Dedicated: 0.506
-        Shared: 0.488
       eu-central-1:
         Dedicated: 0.551
         Shared: 0.53
+      eu-north-1:
+        Dedicated: 0.506
+        Shared: 0.488
       eu-west-1:
         Dedicated: 0.523
         Shared: 0.504
@@ -23449,7 +23449,7 @@ r5d.xlarge:
     - us-east-1
     - eu-west-2
     - us-east-2
-    - EU (Stockholm)
+    - eu-north-1
     - ca-central-1
     - eu-central-1
     - us-gov-west-1
@@ -24720,10 +24720,10 @@ t3.2xlarge:
         Shared: 0.3904
       ca-central-1:
         Shared: 0.3712
-      EU (Stockholm):
-        Shared: 0.3456
       eu-central-1:
         Shared: 0.384
+      eu-north-1:
+        Shared: 0.3456
       eu-west-1:
         Shared: 0.3648
       eu-west-2:
@@ -24753,10 +24753,10 @@ t3.2xlarge:
         Shared: 0.5524
       ca-central-1:
         Shared: 0.5012
-      EU (Stockholm):
-        Shared: 0.4756
       eu-central-1:
         Shared: 0.514
+      eu-north-1:
+        Shared: 0.4756
       eu-west-1:
         Shared: 0.4948
       eu-west-2:
@@ -24788,10 +24788,10 @@ t3.2xlarge:
         Shared: 0.5404
       ca-central-1:
         Shared: 0.5212
-      EU (Stockholm):
-        Shared: 0.4956
       eu-central-1:
         Shared: 0.534
+      eu-north-1:
+        Shared: 0.4956
       eu-west-1:
         Shared: 0.5148
       eu-west-2:
@@ -24823,10 +24823,10 @@ t3.2xlarge:
         Shared: 0.5376
       ca-central-1:
         Shared: 0.5184
-      EU (Stockholm):
-        Shared: 0.4928
       eu-central-1:
         Shared: 0.384
+      eu-north-1:
+        Shared: 0.4928
       eu-west-1:
         Shared: 0.512
       eu-west-2:
@@ -24859,7 +24859,7 @@ t3.2xlarge:
     - us-east-1
     - eu-west-1
     - ap-northeast-2
-    - EU (Stockholm)
+    - eu-north-1
     - ap-northeast-1
     - ap-southeast-1
     - AWS GovCloud (US-East)
@@ -24886,10 +24886,10 @@ t3.large:
         Shared: 0.0976
       ca-central-1:
         Shared: 0.0928
-      EU (Stockholm):
-        Shared: 0.0864
       eu-central-1:
         Shared: 0.096
+      eu-north-1:
+        Shared: 0.0864
       eu-west-1:
         Shared: 0.0912
       eu-west-2:
@@ -24919,10 +24919,10 @@ t3.large:
         Shared: 0.1656
       ca-central-1:
         Shared: 0.1528
-      EU (Stockholm):
-        Shared: 0.1464
       eu-central-1:
         Shared: 0.156
+      eu-north-1:
+        Shared: 0.1464
       eu-west-1:
         Shared: 0.1512
       eu-west-2:
@@ -24954,10 +24954,10 @@ t3.large:
         Shared: 0.1606
       ca-central-1:
         Shared: 0.1558
-      EU (Stockholm):
-        Shared: 0.1494
       eu-central-1:
         Shared: 0.159
+      eu-north-1:
+        Shared: 0.1494
       eu-west-1:
         Shared: 0.1542
       eu-west-2:
@@ -24989,10 +24989,10 @@ t3.large:
         Shared: 0.1252
       ca-central-1:
         Shared: 0.0928
-      EU (Stockholm):
-        Shared: 0.114
       eu-central-1:
         Shared: 0.1236
+      eu-north-1:
+        Shared: 0.114
       eu-west-1:
         Shared: 0.1188
       eu-west-2:
@@ -25022,7 +25022,7 @@ t3.large:
     - ca-central-1
     - ap-southeast-1
     - eu-west-2
-    - EU (Stockholm)
+    - eu-north-1
     - eu-west-3
     - sa-east-1
     - ap-northeast-2
@@ -25052,10 +25052,10 @@ t3.medium:
         Shared: 0.0488
       ca-central-1:
         Shared: 0.0464
-      EU (Stockholm):
-        Shared: 0.0432
       eu-central-1:
         Shared: 0.048
+      eu-north-1:
+        Shared: 0.0432
       eu-west-1:
         Shared: 0.0456
       eu-west-2:
@@ -25085,10 +25085,10 @@ t3.medium:
         Shared: 0.1128
       ca-central-1:
         Shared: 0.1064
-      EU (Stockholm):
-        Shared: 0.1032
       eu-central-1:
         Shared: 0.108
+      eu-north-1:
+        Shared: 0.1032
       eu-west-1:
         Shared: 0.1056
       eu-west-2:
@@ -25120,10 +25120,10 @@ t3.medium:
         Shared: 0.1118
       ca-central-1:
         Shared: 0.1094
-      EU (Stockholm):
-        Shared: 0.1062
       eu-central-1:
         Shared: 0.111
+      eu-north-1:
+        Shared: 0.1062
       eu-west-1:
         Shared: 0.1086
       eu-west-2:
@@ -25155,10 +25155,10 @@ t3.medium:
         Shared: 0.0672
       ca-central-1:
         Shared: 0.0464
-      EU (Stockholm):
-        Shared: 0.0616
       eu-central-1:
         Shared: 0.048
+      eu-north-1:
+        Shared: 0.0616
       eu-west-1:
         Shared: 0.064
       eu-west-2:
@@ -25179,7 +25179,7 @@ t3.medium:
         Shared: 0.0416
   regions:
     - eu-west-3
-    - EU (Stockholm)
+    - eu-north-1
     - sa-east-1
     - us-east-1
     - eu-west-1
@@ -25218,10 +25218,10 @@ t3.micro:
         Shared: 0.0122
       ca-central-1:
         Shared: 0.0116
-      EU (Stockholm):
-        Shared: 0.0108
       eu-central-1:
         Shared: 0.012
+      eu-north-1:
+        Shared: 0.0108
       eu-west-1:
         Shared: 0.0114
       eu-west-2:
@@ -25251,10 +25251,10 @@ t3.micro:
         Shared: 0.0732
       ca-central-1:
         Shared: 0.0716
-      EU (Stockholm):
-        Shared: 0.0708
       eu-central-1:
         Shared: 0.072
+      eu-north-1:
+        Shared: 0.0708
       eu-west-1:
         Shared: 0.0714
       eu-west-2:
@@ -25286,10 +25286,10 @@ t3.micro:
         Shared: 0.0122
       ca-central-1:
         Shared: 0.0116
-      EU (Stockholm):
-        Shared: 0.0108
       eu-central-1:
         Shared: 0.012
+      eu-north-1:
+        Shared: 0.0108
       eu-west-1:
         Shared: 0.0114
       eu-west-2:
@@ -25321,10 +25321,10 @@ t3.micro:
         Shared: 0.0214
       ca-central-1:
         Shared: 0.0208
-      EU (Stockholm):
-        Shared: 0.02
       eu-central-1:
         Shared: 0.0212
+      eu-north-1:
+        Shared: 0.02
       eu-west-1:
         Shared: 0.0114
       eu-west-2:
@@ -25356,7 +25356,7 @@ t3.micro:
     - eu-west-3
     - ap-northeast-2
     - eu-west-1
-    - EU (Stockholm)
+    - eu-north-1
     - ap-southeast-1
     - ap-southeast-2
     - AWS GovCloud (US-East)
@@ -25384,10 +25384,10 @@ t3.nano:
         Shared: 0.0061
       ca-central-1:
         Shared: 0.0058
-      EU (Stockholm):
-        Shared: 0.0054
       eu-central-1:
         Shared: 0.006
+      eu-north-1:
+        Shared: 0.0054
       eu-west-1:
         Shared: 0.0057
       eu-west-2:
@@ -25419,10 +25419,10 @@ t3.nano:
         Shared: 0.0061
       ca-central-1:
         Shared: 0.0058
-      EU (Stockholm):
-        Shared: 0.0054
       eu-central-1:
         Shared: 0.006
+      eu-north-1:
+        Shared: 0.0054
       eu-west-1:
         Shared: 0.0057
       eu-west-2:
@@ -25454,10 +25454,10 @@ t3.nano:
         Shared: 0.0107
       ca-central-1:
         Shared: 0.0058
-      EU (Stockholm):
-        Shared: 0.01
       eu-central-1:
         Shared: 0.006
+      eu-north-1:
+        Shared: 0.01
       eu-west-1:
         Shared: 0.0103
       eu-west-2:
@@ -25488,7 +25488,7 @@ t3.nano:
     - ap-northeast-1
     - us-west-2
     - eu-west-3
-    - EU (Stockholm)
+    - eu-north-1
     - us-east-2
     - eu-central-1
     - ca-central-1
@@ -25517,10 +25517,10 @@ t3.small:
         Shared: 0.0244
       ca-central-1:
         Shared: 0.0232
-      EU (Stockholm):
-        Shared: 0.0216
       eu-central-1:
         Shared: 0.024
+      eu-north-1:
+        Shared: 0.0216
       eu-west-1:
         Shared: 0.0228
       eu-west-2:
@@ -25550,10 +25550,10 @@ t3.small:
         Shared: 0.0864
       ca-central-1:
         Shared: 0.0832
-      EU (Stockholm):
-        Shared: 0.0816
       eu-central-1:
         Shared: 0.084
+      eu-north-1:
+        Shared: 0.0816
       eu-west-1:
         Shared: 0.0828
       eu-west-2:
@@ -25585,10 +25585,10 @@ t3.small:
         Shared: 0.0554
       ca-central-1:
         Shared: 0.0542
-      EU (Stockholm):
-        Shared: 0.0526
       eu-central-1:
         Shared: 0.055
+      eu-north-1:
+        Shared: 0.0526
       eu-west-1:
         Shared: 0.0538
       eu-west-2:
@@ -25620,10 +25620,10 @@ t3.small:
         Shared: 0.0428
       ca-central-1:
         Shared: 0.0416
-      EU (Stockholm):
-        Shared: 0.04
       eu-central-1:
         Shared: 0.0424
+      eu-north-1:
+        Shared: 0.04
       eu-west-1:
         Shared: 0.0228
       eu-west-2:
@@ -25658,7 +25658,7 @@ t3.small:
     - sa-east-1
     - ap-southeast-1
     - us-east-1
-    - EU (Stockholm)
+    - eu-north-1
     - eu-west-1
   storage: EBS only
   vcpu: 2
@@ -25683,10 +25683,10 @@ t3.xlarge:
         Shared: 0.1952
       ca-central-1:
         Shared: 0.1856
-      EU (Stockholm):
-        Shared: 0.1728
       eu-central-1:
         Shared: 0.192
+      eu-north-1:
+        Shared: 0.1728
       eu-west-1:
         Shared: 0.1824
       eu-west-2:
@@ -25716,10 +25716,10 @@ t3.xlarge:
         Shared: 0.2712
       ca-central-1:
         Shared: 0.2456
-      EU (Stockholm):
-        Shared: 0.2328
       eu-central-1:
         Shared: 0.252
+      eu-north-1:
+        Shared: 0.2328
       eu-west-1:
         Shared: 0.2424
       eu-west-2:
@@ -25751,10 +25751,10 @@ t3.xlarge:
         Shared: 0.3202
       ca-central-1:
         Shared: 0.3106
-      EU (Stockholm):
-        Shared: 0.2978
       eu-central-1:
         Shared: 0.317
+      eu-north-1:
+        Shared: 0.2978
       eu-west-1:
         Shared: 0.3074
       eu-west-2:
@@ -25786,10 +25786,10 @@ t3.xlarge:
         Shared: 0.2688
       ca-central-1:
         Shared: 0.2592
-      EU (Stockholm):
-        Shared: 0.2464
       eu-central-1:
         Shared: 0.2656
+      eu-north-1:
+        Shared: 0.2464
       eu-west-1:
         Shared: 0.256
       eu-west-2:
@@ -25813,7 +25813,7 @@ t3.xlarge:
     - eu-central-1
     - eu-west-3
     - sa-east-1
-    - EU (Stockholm)
+    - eu-north-1
     - us-west-1
     - eu-west-2
     - us-gov-west-1
