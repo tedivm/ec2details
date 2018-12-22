@@ -1,69 +1,3 @@
-2.3 GHz:
-  clockSpeed: Compute Instance
-  currentGeneration: 'Intel AVX, Intel AVX2, Intel Turbo'
-  dedicatedEbsThroughput: m4.16xlarge
-  ecu: .nan
-  enhancedNetworkingSupported: Asia Pacific (Sydney)
-  memory: '188'
-  networkPerformance: No License required
-  normalizationSizeFactor: .nan
-  physicalProcessor: '128'
-  prices: {}
-  regions:
-    - Memory optimized
-    - '99'
-    - 'Yes'
-  storage: '64'
-  vcpu: .nan
-2.5 GHz:
-  clockSpeed: No License required
-  currentGeneration: General purpose
-  dedicatedEbsThroughput: r5ad.xlarge
-  ecu: 13
-  enhancedNetworkingSupported: EU (Ireland)
-  memory: Linux
-  networkPerformance: 64-bit
-  normalizationSizeFactor: .nan
-  physicalProcessor: '8'
-  prices: {}
-  regions:
-    - Memory optimized
-    - Shared
-    - Bring your own license
-    - NA
-    - sa-east-1
-  storage: 'RunInstances:0100'
-  vcpu: .nan
-2.8 GHz:
-  clockSpeed: No License required
-  currentGeneration: SQL Web
-  ecu: true
-  enhancedNetworkingSupported: Used
-  memory: Intel Xeon E5-2680 v2 (Ivy Bridge)
-  networkPerformance: '7'
-  normalizationSizeFactor: 2
-  physicalProcessor: AmazonEC2
-  prices: {}
-  regions:
-    - Compute optimized
-  storage: c3.large
-  vcpu: .nan
-3.0 Ghz:
-  clockSpeed: 4 GiB
-  currentGeneration: Dedicated
-  dedicatedEbsThroughput: c5d.large
-  ecu: .nan
-  enhancedNetworkingSupported: Windows
-  memory: UnusedCapacityReservation
-  networkPerformance: Asia Pacific (Seoul)
-  normalizationSizeFactor: .nan
-  physicalProcessor: '4'
-  prices: {}
-  regions:
-    - 'Yes'
-    - Shared
-  storage: '2'
-  vcpu: .nan
 a1.2xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
@@ -279,19 +213,6 @@ a1.xlarge:
     - us-west-2
   storage: EBS only
   vcpu: 4
-'APS2-EBSOptimized:c3.xlarge':
-  clockSpeed: 2 x 40 SSD
-  currentGeneration: '4'
-  enhancedNetworkingSupported: Moderate
-  memory: Linux
-  networkPerformance: Hourly
-  normalizationSizeFactor: 7
-  physicalProcessor: AmazonEC2
-  prices: {}
-  regions:
-    - NA
-  storage: 64-bit
-  vcpu: .nan
 c1.medium:
   currentGeneration: false
   ecu: 5
@@ -1107,6 +1028,7 @@ c3.large:
         Dedicated: 0.201
         Shared: 0.188
       ap-northeast-2:
+        Dedicated: 0.18672
         Shared: 0.175
       ap-southeast-1:
         Dedicated: 0.205
@@ -1242,6 +1164,7 @@ c3.xlarge:
         Shared: 0.265
       ap-southeast-2:
         Dedicated: 0.292
+        NA: 0.02
         Shared: 0.265
       eu-central-1:
         Dedicated: 0.283
@@ -1310,6 +1233,7 @@ c3.xlarge:
         Dedicated: 0.381
         Shared: 0.355
       ap-northeast-2:
+        Dedicated: 0.35245
         Shared: 0.33
       ap-southeast-1:
         Dedicated: 0.392
@@ -2964,7 +2888,7 @@ c5.2xlarge:
         Dedicated: 0.801
         Shared: 0.776
       ca-central-1:
-        Dedicated: 0.396
+        Dedicated: 0.764
         Shared: 0.74
       eu-central-1:
         Dedicated: 0.781
@@ -3208,7 +3132,7 @@ c5.4xlarge:
         Shared: 0.784
       ap-southeast-2:
         Dedicated: 1.678
-        Shared: 0.888
+        Shared: 1.624
       AWS GovCloud (US-East):
         Dedicated: 1.601
         Shared: 1.552
@@ -6888,47 +6812,6 @@ d2.xlarge:
     - sa-east-1
   storage: 3 x 2000 HDD
   vcpu: 4
-'DedicatedRes:i2.4xlarge':
-  clockSpeed: 4 x 800 SSD
-  currentGeneration: '16'
-  ecu: .nan
-  enhancedNetworkingSupported: Compute Instance
-  memory: AWS Region
-  networkPerformance: AllocatedCapacityReservation
-  normalizationSizeFactor: .nan
-  physicalProcessor: AmazonEC2
-  prices: {}
-  regions:
-    - '53'
-  storage: 122 GiB
-  vcpu: 64
-'EU-UnusedBox:t2.large':
-  clockSpeed: '4'
-  currentGeneration: EBS only
-  memory: RHEL
-  networkPerformance: 'RunInstances:0010'
-  normalizationSizeFactor: .nan
-  physicalProcessor: t2.large
-  prices: {}
-  regions:
-    - Shared
-  storage: 64-bit
-  vcpu: .nan
-'EUC1-UnusedDed:i3.4xlarge':
-  clockSpeed: 2 x 1900 NVMe SSD
-  currentGeneration: 3500 Mbps
-  dedicatedEbsThroughput: SQL Ent
-  ecu: .nan
-  enhancedNetworkingSupported: Up to 10 Gigabit
-  memory: Linux
-  networkPerformance: i3.4xlarge
-  normalizationSizeFactor: .nan
-  physicalProcessor: AmazonEC2
-  prices: {}
-  regions:
-    - '53'
-  storage: No License required
-  vcpu: 64
 f1.16xlarge:
   currentGeneration: true
   ecu: 188
@@ -11561,6 +11444,7 @@ m2.4xlarge:
         Dedicated: 1.55
         Shared: 1.421
       us-east-1:
+        Dedicated: 1.208
         Shared: 1.11
       us-gov-west-1:
         Dedicated: 1.418
@@ -17203,10 +17087,10 @@ p2.16xlarge:
   regions:
     - eu-west-1
     - ap-northeast-1
+    - ap-southeast-1
     - eu-central-1
     - ap-southeast-2
     - ap-northeast-2
-    - ap-southeast-1
     - us-gov-west-1
     - us-east-2
     - us-east-1
@@ -20069,6 +19953,7 @@ r4.large:
         Dedicated: 0.308
         Shared: 0.28
       us-east-1:
+        Dedicated: 0.146
         Shared: 0.133
       us-east-2:
         Dedicated: 0.146
@@ -20436,7 +20321,7 @@ r4.xlarge:
         Dedicated: 0.352
         Shared: 0.504
       ap-south-1:
-        Dedicated: 0.4854
+        Dedicated: 0.3014
         Shared: 0.458
       ap-southeast-1:
         Dedicated: 0.536
@@ -22666,9 +22551,6 @@ r5d.24xlarge:
       us-west-2:
         Dedicated: 7.062
         Shared: 7.062
-    'TRUE':
-      ap-northeast-2:
-        Dedicated: 8.304
     Windows:
       ap-northeast-1:
         Dedicated: 12.768
@@ -23573,20 +23455,6 @@ r5d.xlarge:
     - us-gov-west-1
   storage: 1 x 150 NVMe SSD
   vcpu: 4
-'SAE1-HostBoxUsage:g2.8xlarge':
-  clockSpeed: '32'
-  currentGeneration: g2.8xlarge
-  ecu: .nan
-  gpu: 2
-  memory: 10 Gigabit
-  networkPerformance: Used
-  normalizationSizeFactor: 2
-  physicalProcessor: AmazonEC2
-  prices: {}
-  regions:
-    - '104'
-  storage: SQL Std
-  vcpu: 64
 t1.micro:
   currentGeneration: false
   ecu: .nan
@@ -25960,44 +25828,6 @@ t3.xlarge:
     - ca-central-1
   storage: EBS only
   vcpu: 4
-u-6tb1.metal:
-  currentGeneration: true
-  memory: 6144 GiB
-  networkPerformance: 25 Gigabit
-  normalizationSizeFactor: .nan
-  physicalProcessor: 'TRUE'
-  prices: {}
-  regions:
-    - eu-west-1
-  storage: EBS only
-  vcpu: 448
-'USE2-Reservation:t2.nano':
-  clockSpeed: '0.25'
-  currentGeneration: EBS only
-  memory: true
-  networkPerformance: t2.nano
-  normalizationSizeFactor: 0
-  physicalProcessor: Low
-  prices: {}
-  regions:
-    - Shared
-  storage: 32-bit or 64-bit
-  vcpu: .nan
-'USE2-UnusedDed:m4.xlarge':
-  clockSpeed: '8'
-  currentGeneration: EBS only
-  dedicatedEbsThroughput: 64-bit
-  ecu: true
-  enhancedNetworkingSupported: true
-  memory: 2.4  GHz
-  networkPerformance: '4'
-  normalizationSizeFactor: .nan
-  physicalProcessor: 16 GiB
-  prices: {}
-  regions:
-    - NA
-  storage: Dedicated
-  vcpu: .nan
 x1.16xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
