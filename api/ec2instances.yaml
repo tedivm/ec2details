@@ -10280,9 +10280,6 @@ i3.metal:
       eu-west-1:
         Dedicated: 5.504
         Shared: 5.504
-      eu-west-2:
-        Dedicated: 5.792
-        Shared: 5.792
       us-east-1:
         Dedicated: 4.992
         Shared: 4.992
@@ -10308,9 +10305,6 @@ i3.metal:
       eu-west-1:
         Dedicated: 5.634
         Shared: 5.634
-      eu-west-2:
-        Dedicated: 5.922
-        Shared: 5.922
       us-east-1:
         Dedicated: 5.122
         Shared: 5.122
@@ -10336,9 +10330,6 @@ i3.metal:
       eu-west-1:
         Dedicated: 5.604
         Shared: 5.604
-      eu-west-2:
-        Dedicated: 5.892
-        Shared: 5.892
       us-east-1:
         Dedicated: 5.092
         Shared: 5.092
@@ -10364,9 +10355,6 @@ i3.metal:
       eu-west-1:
         Dedicated: 8.448
         Shared: 5.504
-      eu-west-2:
-        Dedicated: 8.736
-        Shared: 8.736
       us-east-1:
         Dedicated: 4.992
         Shared: 7.936
@@ -10390,7 +10378,6 @@ i3.metal:
     - eu-west-1
     - us-west-1
     - us-east-1
-    - eu-west-2
     - us-east-2
     - ap-southeast-2
   storage: 8 x 1900 NVMe SSD
