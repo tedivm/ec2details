@@ -490,46 +490,36 @@ c3.2xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 0.562
-        NA: 0.05
         Shared: 0.511
       ap-northeast-2:
         Dedicated: 0.50589
         Shared: 0.46
       ap-southeast-1:
         Dedicated: 0.582
-        NA: 0.05
         Shared: 0.529
       ap-southeast-2:
         Dedicated: 0.582
-        NA: 0.05
         Shared: 0.529
       eu-central-1:
         Dedicated: 0.567
-        NA: 0.05
         Shared: 0.516
       eu-west-1:
         Dedicated: 0.526
-        NA: 0.05
         Shared: 0.478
       sa-east-1:
         Dedicated: 0.715
-        NA: 0.05
         Shared: 0.65
       us-east-1:
         Dedicated: 0.462
-        NA: 0.05
         Shared: 0.42
       us-gov-west-1:
         Dedicated: 0.554
-        NA: 0.05
         Shared: 0.504
       us-west-1:
         Dedicated: 0.526
-        NA: 0.05
         Shared: 0.478
       us-west-2:
         Dedicated: 0.462
-        NA: 0.05
         Shared: 0.42
     RHEL:
       ap-northeast-1:
@@ -661,46 +651,36 @@ c3.4xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 1.123
-        NA: 0.1
         Shared: 1.021
       ap-northeast-2:
         Dedicated: 1.01079
         Shared: 0.919
       ap-southeast-1:
         Dedicated: 1.164
-        NA: 0.1
         Shared: 1.058
       ap-southeast-2:
         Dedicated: 1.164
-        NA: 0.1
         Shared: 1.058
       eu-central-1:
         Dedicated: 1.135
-        NA: 0.1
         Shared: 1.032
       eu-west-1:
         Dedicated: 1.052
-        NA: 0.1
         Shared: 0.956
       sa-east-1:
         Dedicated: 1.43
-        NA: 0.1
         Shared: 1.3
       us-east-1:
         Dedicated: 0.924
-        NA: 0.1
         Shared: 0.84
       us-gov-west-1:
         Dedicated: 1.108
-        NA: 0.1
         Shared: 1.008
       us-west-1:
         Dedicated: 1.052
-        NA: 0.1
         Shared: 0.956
       us-west-2:
         Dedicated: 0.924
-        NA: 0.1
         Shared: 0.84
     RHEL:
       ap-northeast-1:
@@ -1153,46 +1133,36 @@ c3.xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 0.281
-        NA: 0.02
         Shared: 0.255
       ap-northeast-2:
         Dedicated: 0.25245
         Shared: 0.23
       ap-southeast-1:
         Dedicated: 0.292
-        NA: 0.02
         Shared: 0.265
       ap-southeast-2:
         Dedicated: 0.292
-        NA: 0.02
         Shared: 0.265
       eu-central-1:
         Dedicated: 0.283
-        NA: 0.02
         Shared: 0.258
       eu-west-1:
         Dedicated: 0.263
-        NA: 0.02
         Shared: 0.239
       sa-east-1:
         Dedicated: 0.358
-        NA: 0.02
         Shared: 0.325
       us-east-1:
         Dedicated: 0.231
-        NA: 0.02
         Shared: 0.21
       us-gov-west-1:
         Dedicated: 0.277
-        NA: 0.02
         Shared: 0.252
       us-west-1:
         Dedicated: 0.263
-        NA: 0.02
         Shared: 0.239
       us-west-2:
         Dedicated: 0.231
-        NA: 0.02
         Shared: 0.21
     RHEL:
       ap-northeast-1:
@@ -7037,38 +7007,30 @@ g2.2xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 0.988
-        NA: 0.05
         Shared: 0.898
       ap-northeast-2:
         Dedicated: 0.9878
         Shared: 0.898
       ap-southeast-1:
         Dedicated: 1.1
-        NA: 0.05
         Shared: 1
       ap-southeast-2:
         Dedicated: 0.988
-        NA: 0.05
         Shared: 0.898
       eu-central-1:
         Dedicated: 0.849
-        NA: 0.05
         Shared: 0.772
       eu-west-1:
         Dedicated: 0.772
-        NA: 0.05
         Shared: 0.702
       us-east-1:
         Dedicated: 0.715
-        NA: 0.05
         Shared: 0.65
       us-west-1:
         Dedicated: 0.772
-        NA: 0.05
         Shared: 0.702
       us-west-2:
         Dedicated: 0.715
-        NA: 0.05
         Shared: 0.65
     RHEL:
       ap-northeast-1:
@@ -8307,51 +8269,39 @@ i2.2xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 2.201
-        NA: 0.05
         Shared: 2.001
       ap-northeast-2:
         Dedicated: 2.2011
-        NA: 0.05
         Shared: 2.001
       ap-south-1:
         Dedicated: 2.126
-        NA: 0.05
         Shared: 1.933
       ap-southeast-1:
         Dedicated: 2.239
-        NA: 0.05
         Shared: 2.035
       ap-southeast-2:
         Dedicated: 2.239
-        NA: 0.05
         Shared: 2.035
       eu-central-1:
         Dedicated: 2.228
-        NA: 0.05
         Shared: 2.026
       eu-west-1:
         Dedicated: 2.064
-        NA: 0.05
         Shared: 1.876
       us-east-1:
         Dedicated: 1.876
-        NA: 0.05
         Shared: 1.705
       us-east-2:
         Dedicated: 1.876
-        NA: 0.05
         Shared: 1.705
       us-gov-west-1:
         Dedicated: 2.25
-        NA: 0.05
         Shared: 2.046
       us-west-1:
         Dedicated: 2.064
-        NA: 0.05
         Shared: 1.876
       us-west-2:
         Dedicated: 1.876
-        NA: 0.05
         Shared: 1.705
     RHEL:
       ap-northeast-1:
@@ -8493,51 +8443,39 @@ i2.4xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 4.402
-        NA: 0.1
         Shared: 4.002
       ap-northeast-2:
         Dedicated: 4.4022
-        NA: 0.1
         Shared: 4.002
       ap-south-1:
         Dedicated: 4.254
-        NA: 0.1
         Shared: 3.867
       ap-southeast-1:
         Dedicated: 4.477
-        NA: 0.1
         Shared: 4.07
       ap-southeast-2:
         Dedicated: 4.477
-        NA: 0.1
         Shared: 4.07
       eu-central-1:
         Dedicated: 4.456
-        NA: 0.1
         Shared: 4.051
       eu-west-1:
         Dedicated: 4.126
-        NA: 0.1
         Shared: 3.751
       us-east-1:
         Dedicated: 3.751
-        NA: 0.1
         Shared: 3.41
       us-east-2:
         Dedicated: 3.751
-        NA: 0.1
         Shared: 3.41
       us-gov-west-1:
         Dedicated: 4.501
-        NA: 0.1
         Shared: 4.092
       us-west-1:
         Dedicated: 4.126
-        NA: 0.1
         Shared: 3.751
       us-west-2:
         Dedicated: 3.751
-        NA: 0.1
         Shared: 3.41
     RHEL:
       ap-northeast-1:
@@ -8853,51 +8791,39 @@ i2.xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 1.101
-        NA: 0.02
         Shared: 1.001
       ap-northeast-2:
         Dedicated: 1.1011
-        NA: 0.02
         Shared: 1.001
       ap-south-1:
         Dedicated: 1.064
-        NA: 0.02
         Shared: 0.967
       ap-southeast-1:
         Dedicated: 1.12
-        NA: 0.02
         Shared: 1.018
       ap-southeast-2:
         Dedicated: 1.12
-        NA: 0.02
         Shared: 1.018
       eu-central-1:
         Dedicated: 1.114
-        NA: 0.02
         Shared: 1.013
       eu-west-1:
         Dedicated: 1.032
-        NA: 0.02
         Shared: 0.938
       us-east-1:
         Dedicated: 0.938
-        NA: 0.02
         Shared: 0.853
       us-east-2:
         Dedicated: 0.938
-        NA: 0.02
         Shared: 0.853
       us-gov-west-1:
         Dedicated: 1.125
-        NA: 0.02
         Shared: 1.023
       us-west-1:
         Dedicated: 1.032
-        NA: 0.02
         Shared: 0.938
       us-west-2:
         Dedicated: 0.938
-        NA: 0.02
         Shared: 0.853
     RHEL:
       ap-northeast-1:
@@ -11667,46 +11593,36 @@ m3.2xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 0.847
-        NA: 0.05
         Shared: 0.77
       ap-northeast-2:
         Dedicated: 0.80465
         Shared: 0.732
       ap-southeast-1:
         Dedicated: 0.862
-        NA: 0.05
         Shared: 0.784
       ap-southeast-2:
         Dedicated: 0.82
-        NA: 0.05
         Shared: 0.745
       eu-central-1:
         Dedicated: 0.695
-        NA: 0.05
         Shared: 0.632
       eu-west-1:
         Dedicated: 0.644
-        NA: 0.05
         Shared: 0.585
       sa-east-1:
         Dedicated: 0.837
-        NA: 0.05
         Shared: 0.761
       us-east-1:
         Dedicated: 0.585
-        NA: 0.05
         Shared: 0.532
       us-gov-west-1:
         Dedicated: 0.739
-        NA: 0.05
         Shared: 0.672
       us-west-1:
         Dedicated: 0.678
-        NA: 0.05
         Shared: 0.616
       us-west-2:
         Dedicated: 0.585
-        NA: 0.05
         Shared: 0.532
     RHEL:
       ap-northeast-1:
@@ -12157,46 +12073,36 @@ m3.xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 0.424
-        NA: 0.025
         Shared: 0.385
       ap-northeast-2:
         Dedicated: 0.402325
         Shared: 0.366
       ap-southeast-1:
         Dedicated: 0.431
-        NA: 0.025
         Shared: 0.392
       ap-southeast-2:
         Dedicated: 0.409
-        NA: 0.025
         Shared: 0.372
       eu-central-1:
         Dedicated: 0.347
-        NA: 0.025
         Shared: 0.315
       eu-west-1:
         Dedicated: 0.322
-        NA: 0.025
         Shared: 0.293
       sa-east-1:
         Dedicated: 0.419
-        NA: 0.025
         Shared: 0.381
       us-east-1:
         Dedicated: 0.293
-        NA: 0.025
         Shared: 0.266
       us-gov-west-1:
         Dedicated: 0.37
-        NA: 0.025
         Shared: 0.336
       us-west-1:
         Dedicated: 0.339
-        NA: 0.025
         Shared: 0.308
       us-west-2:
         Dedicated: 0.293
-        NA: 0.025
         Shared: 0.266
     RHEL:
       ap-northeast-1:
@@ -17987,55 +17893,42 @@ r3.2xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 0.878
-        NA: 0.05
         Shared: 0.798
       ap-northeast-2:
         Dedicated: 0.878
-        NA: 0.05
         Shared: 0.798
       ap-south-1:
         Dedicated: 0.834
-        NA: 0.05
         Shared: 0.758
       ap-southeast-1:
         Dedicated: 0.878
-        NA: 0.05
         Shared: 0.798
       ap-southeast-2:
         Dedicated: 0.878
-        NA: 0.05
         Shared: 0.798
       eu-central-1:
         Dedicated: 0.88
-        NA: 0.05
         Shared: 0.8
       eu-west-1:
         Dedicated: 0.815
-        NA: 0.05
         Shared: 0.741
       sa-east-1:
         Dedicated: 1.539
-        NA: 0.05
         Shared: 1.399
       us-east-1:
         Dedicated: 0.732
-        NA: 0.05
         Shared: 0.665
       us-east-2:
         Dedicated: 0.732
-        NA: 0.05
         Shared: 0.665
       us-gov-west-1:
         Dedicated: 0.878
-        NA: 0.05
         Shared: 0.798
       us-west-1:
         Dedicated: 0.815
-        NA: 0.05
         Shared: 0.741
       us-west-2:
         Dedicated: 0.732
-        NA: 0.05
         Shared: 0.665
     RHEL:
       ap-northeast-1:
@@ -18187,55 +18080,42 @@ r3.4xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 1.756
-        NA: 0.1
         Shared: 1.596
       ap-northeast-2:
         Dedicated: 1.756
-        NA: 0.1
         Shared: 1.596
       ap-south-1:
         Dedicated: 1.668
-        NA: 0.1
         Shared: 1.516
       ap-southeast-1:
         Dedicated: 1.756
-        NA: 0.1
         Shared: 1.596
       ap-southeast-2:
         Dedicated: 1.756
-        NA: 0.1
         Shared: 1.596
       eu-central-1:
         Dedicated: 1.759
-        NA: 0.1
         Shared: 1.6
       eu-west-1:
         Dedicated: 1.63
-        NA: 0.1
         Shared: 1.482
       sa-east-1:
         Dedicated: 3.079
-        NA: 0.1
         Shared: 2.799
       us-east-1:
         Dedicated: 1.463
-        NA: 0.1
         Shared: 1.33
       us-east-2:
         Dedicated: 1.463
-        NA: 0.1
         Shared: 1.33
       us-gov-west-1:
         Dedicated: 1.756
-        NA: 0.1
         Shared: 1.596
       us-west-1:
         Dedicated: 1.63
-        NA: 0.1
         Shared: 1.482
       us-west-2:
         Dedicated: 1.463
-        NA: 0.1
         Shared: 1.33
     RHEL:
       ap-northeast-1:
@@ -18761,55 +18641,42 @@ r3.xlarge:
     Linux:
       ap-northeast-1:
         Dedicated: 0.439
-        NA: 0.02
         Shared: 0.399
       ap-northeast-2:
         Dedicated: 0.439
-        NA: 0.02
         Shared: 0.399
       ap-south-1:
         Dedicated: 0.417
-        NA: 0.02
         Shared: 0.379
       ap-southeast-1:
         Dedicated: 0.439
-        NA: 0.02
         Shared: 0.399
       ap-southeast-2:
         Dedicated: 0.439
-        NA: 0.02
         Shared: 0.399
       eu-central-1:
         Dedicated: 0.44
-        NA: 0.02
         Shared: 0.4
       eu-west-1:
         Dedicated: 0.408
-        NA: 0.02
         Shared: 0.371
       sa-east-1:
         Dedicated: 0.77
-        NA: 0.02
         Shared: 0.7
       us-east-1:
         Dedicated: 0.366
-        NA: 0.02
         Shared: 0.333
       us-east-2:
         Dedicated: 0.366
-        NA: 0.02
         Shared: 0.333
       us-gov-west-1:
         Dedicated: 0.439
-        NA: 0.02
         Shared: 0.399
       us-west-1:
         Dedicated: 0.408
-        NA: 0.02
         Shared: 0.371
       us-west-2:
         Dedicated: 0.366
-        NA: 0.02
         Shared: 0.333
     RHEL:
       ap-northeast-1:
