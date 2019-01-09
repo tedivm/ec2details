@@ -26121,6 +26121,9 @@ x1e.16xlarge:
       ap-northeast-1:
         Dedicated: 21.278
         Shared: 19.344
+      ap-northeast-2:
+        Dedicated: 21.278
+        Shared: 19.344
       ap-southeast-2:
         Dedicated: 21.278
         Shared: 19.344
@@ -26141,6 +26144,9 @@ x1e.16xlarge:
         Shared: 13.344
     RHEL:
       ap-northeast-1:
+        Dedicated: 21.408
+        Shared: 19.474
+      ap-northeast-2:
         Dedicated: 21.408
         Shared: 19.474
       ap-southeast-2:
@@ -26165,6 +26171,9 @@ x1e.16xlarge:
       ap-northeast-1:
         Dedicated: 21.378
         Shared: 19.444
+      ap-northeast-2:
+        Dedicated: 21.378
+        Shared: 19.444
       ap-southeast-2:
         Dedicated: 21.378
         Shared: 19.444
@@ -26187,6 +26196,9 @@ x1e.16xlarge:
       ap-northeast-1:
         Dedicated: 21.278
         Shared: 19.344
+      ap-northeast-2:
+        Dedicated: 24.222
+        Shared: 22.288
       ap-southeast-2:
         Dedicated: 21.278
         Shared: 22.288
@@ -26210,6 +26222,7 @@ x1e.16xlarge:
     - us-gov-west-1
     - ap-northeast-1
     - us-east-1
+    - ap-northeast-2
     - eu-west-1
     - us-west-2
     - eu-central-1
@@ -26228,6 +26241,9 @@ x1e.2xlarge:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 2.66
+        Shared: 2.418
+      ap-northeast-2:
         Dedicated: 2.66
         Shared: 2.418
       ap-southeast-2:
@@ -26252,6 +26268,9 @@ x1e.2xlarge:
       ap-northeast-1:
         Dedicated: 2.79
         Shared: 2.548
+      ap-northeast-2:
+        Dedicated: 2.79
+        Shared: 2.548
       ap-southeast-2:
         Dedicated: 2.79
         Shared: 2.548
@@ -26272,6 +26291,9 @@ x1e.2xlarge:
         Shared: 1.798
     SUSE:
       ap-northeast-1:
+        Dedicated: 2.76
+        Shared: 2.518
+      ap-northeast-2:
         Dedicated: 2.76
         Shared: 2.518
       ap-southeast-2:
@@ -26296,6 +26318,9 @@ x1e.2xlarge:
       ap-northeast-1:
         Dedicated: 2.66
         Shared: 2.418
+      ap-northeast-2:
+        Dedicated: 3.028
+        Shared: 2.786
       ap-southeast-2:
         Dedicated: 2.66
         Shared: 2.418
@@ -26316,6 +26341,7 @@ x1e.2xlarge:
         Shared: 2.036
   regions:
     - eu-central-1
+    - ap-northeast-2
     - eu-west-1
     - us-west-2
     - ap-northeast-1
@@ -26337,6 +26363,9 @@ x1e.32xlarge:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 38.688
+        Shared: 38.688
+      ap-northeast-2:
         Dedicated: 38.688
         Shared: 38.688
       ap-southeast-2:
@@ -26361,6 +26390,9 @@ x1e.32xlarge:
       ap-northeast-1:
         Dedicated: 38.818
         Shared: 38.818
+      ap-northeast-2:
+        Dedicated: 38.818
+        Shared: 38.818
       ap-southeast-2:
         Dedicated: 38.818
         Shared: 38.818
@@ -26381,6 +26413,9 @@ x1e.32xlarge:
         Shared: 26.818
     SUSE:
       ap-northeast-1:
+        Dedicated: 38.788
+        Shared: 38.788
+      ap-northeast-2:
         Dedicated: 38.788
         Shared: 38.788
       ap-southeast-2:
@@ -26405,6 +26440,9 @@ x1e.32xlarge:
       ap-northeast-1:
         Dedicated: 38.688
         Shared: 38.688
+      ap-northeast-2:
+        Dedicated: 38.688
+        Shared: 44.576
       ap-southeast-2:
         Dedicated: 38.688
         Shared: 44.576
@@ -26428,6 +26466,7 @@ x1e.32xlarge:
     - us-gov-west-1
     - eu-central-1
     - us-east-1
+    - ap-northeast-2
     - us-west-2
     - ap-northeast-1
     - ap-southeast-2
@@ -26446,6 +26485,9 @@ x1e.4xlarge:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 5.32
+        Shared: 4.836
+      ap-northeast-2:
         Dedicated: 5.32
         Shared: 4.836
       ap-southeast-2:
@@ -26470,6 +26512,9 @@ x1e.4xlarge:
       ap-northeast-1:
         Dedicated: 5.45
         Shared: 4.966
+      ap-northeast-2:
+        Dedicated: 5.45
+        Shared: 4.966
       ap-southeast-2:
         Dedicated: 5.45
         Shared: 4.966
@@ -26492,6 +26537,9 @@ x1e.4xlarge:
       ap-northeast-1:
         Dedicated: 5.42
         Shared: 4.936
+      ap-northeast-2:
+        Dedicated: 5.42
+        Shared: 4.936
       ap-southeast-2:
         Dedicated: 5.42
         Shared: 4.936
@@ -26512,6 +26560,9 @@ x1e.4xlarge:
         Shared: 3.436
     Windows:
       ap-northeast-1:
+        Dedicated: 6.056
+        Shared: 5.572
+      ap-northeast-2:
         Dedicated: 6.056
         Shared: 5.572
       ap-southeast-2:
@@ -26538,6 +26589,7 @@ x1e.4xlarge:
     - ap-northeast-1
     - us-west-2
     - us-gov-west-1
+    - ap-northeast-2
     - eu-west-1
     - ap-southeast-2
   storage: 1 x 480 SSD
@@ -26555,6 +26607,9 @@ x1e.8xlarge:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 10.639
+        Shared: 9.672
+      ap-northeast-2:
         Dedicated: 10.639
         Shared: 9.672
       ap-southeast-2:
@@ -26579,6 +26634,9 @@ x1e.8xlarge:
       ap-northeast-1:
         Dedicated: 10.769
         Shared: 9.802
+      ap-northeast-2:
+        Dedicated: 10.769
+        Shared: 9.802
       ap-southeast-2:
         Dedicated: 10.769
         Shared: 9.802
@@ -26599,6 +26657,9 @@ x1e.8xlarge:
         Shared: 6.802
     SUSE:
       ap-northeast-1:
+        Dedicated: 10.739
+        Shared: 9.772
+      ap-northeast-2:
         Dedicated: 10.739
         Shared: 9.772
       ap-southeast-2:
@@ -26623,6 +26684,9 @@ x1e.8xlarge:
       ap-northeast-1:
         Dedicated: 12.111
         Shared: 9.672
+      ap-northeast-2:
+        Dedicated: 12.111
+        Shared: 11.144
       ap-southeast-2:
         Dedicated: 10.639
         Shared: 11.144
@@ -26647,6 +26711,7 @@ x1e.8xlarge:
     - us-west-2
     - eu-central-1
     - us-gov-west-1
+    - ap-northeast-2
     - ap-southeast-2
     - eu-west-1
   storage: 1 x 960 SSD
@@ -26664,6 +26729,9 @@ x1e.xlarge:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 1.33
+        Shared: 1.209
+      ap-northeast-2:
         Dedicated: 1.33
         Shared: 1.209
       ap-southeast-2:
@@ -26688,6 +26756,9 @@ x1e.xlarge:
       ap-northeast-1:
         Dedicated: 1.39
         Shared: 1.269
+      ap-northeast-2:
+        Dedicated: 1.39
+        Shared: 1.269
       ap-southeast-2:
         Dedicated: 1.39
         Shared: 1.269
@@ -26708,6 +26779,9 @@ x1e.xlarge:
         Shared: 0.894
     SUSE:
       ap-northeast-1:
+        Dedicated: 1.43
+        Shared: 1.309
+      ap-northeast-2:
         Dedicated: 1.43
         Shared: 1.309
       ap-southeast-2:
@@ -26731,6 +26805,9 @@ x1e.xlarge:
     Windows:
       ap-northeast-1:
         Dedicated: 1.514
+        Shared: 1.209
+      ap-northeast-2:
+        Dedicated: 1.33
         Shared: 1.209
       ap-southeast-2:
         Dedicated: 1.514
@@ -26758,6 +26835,7 @@ x1e.xlarge:
     - ap-northeast-1
     - eu-central-1
     - us-gov-west-1
+    - ap-northeast-2
   storage: 1 x 120 SSD
   vcpu: 4
 z1d.12xlarge:
