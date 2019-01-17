@@ -24566,6 +24566,8 @@ t3.2xlarge:
         Shared: 0.4352
       ap-northeast-2:
         Shared: 0.416
+      ap-south-1:
+        Shared: 0.3584
       ap-southeast-1:
         Shared: 0.4224
       ap-southeast-2:
@@ -24601,6 +24603,8 @@ t3.2xlarge:
         Shared: 0.5652
       ap-northeast-2:
         Shared: 0.546
+      ap-south-1:
+        Shared: 0.4884
       ap-southeast-1:
         Shared: 0.5524
       ap-southeast-2:
@@ -24634,6 +24638,8 @@ t3.2xlarge:
         Shared: 0.5852
       ap-northeast-2:
         Shared: 0.566
+      ap-south-1:
+        Shared: 0.5084
       ap-southeast-1:
         Shared: 0.5724
       ap-southeast-2:
@@ -24669,6 +24675,8 @@ t3.2xlarge:
         Shared: 0.5824
       ap-northeast-2:
         Shared: 0.5632
+      ap-south-1:
+        Shared: 0.5056
       ap-southeast-1:
         Shared: 0.4224
       ap-southeast-2:
@@ -24706,6 +24714,7 @@ t3.2xlarge:
     - eu-west-2
     - eu-central-1
     - ca-central-1
+    - ap-south-1
     - us-gov-west-1
     - us-west-1
     - eu-west-3
@@ -24732,6 +24741,8 @@ t3.large:
         Shared: 0.1088
       ap-northeast-2:
         Shared: 0.104
+      ap-south-1:
+        Shared: 0.0896
       ap-southeast-1:
         Shared: 0.1056
       ap-southeast-2:
@@ -24767,6 +24778,8 @@ t3.large:
         Shared: 0.1688
       ap-northeast-2:
         Shared: 0.164
+      ap-south-1:
+        Shared: 0.1496
       ap-southeast-1:
         Shared: 0.1656
       ap-southeast-2:
@@ -24800,6 +24813,8 @@ t3.large:
         Shared: 0.1718
       ap-northeast-2:
         Shared: 0.167
+      ap-south-1:
+        Shared: 0.1526
       ap-southeast-1:
         Shared: 0.1686
       ap-southeast-2:
@@ -24835,6 +24850,8 @@ t3.large:
         Shared: 0.1088
       ap-northeast-2:
         Shared: 0.1316
+      ap-south-1:
+        Shared: 0.1172
       ap-southeast-1:
         Shared: 0.1056
       ap-southeast-2:
@@ -24866,6 +24883,7 @@ t3.large:
       us-west-2:
         Shared: 0.1108
   regions:
+    - ap-south-1
     - us-west-2
     - eu-central-1
     - ap-southeast-2
@@ -24898,6 +24916,8 @@ t3.medium:
         Shared: 0.0544
       ap-northeast-2:
         Shared: 0.052
+      ap-south-1:
+        Shared: 0.0448
       ap-southeast-1:
         Shared: 0.0528
       ap-southeast-2:
@@ -24933,6 +24953,8 @@ t3.medium:
         Shared: 0.1144
       ap-northeast-2:
         Shared: 0.112
+      ap-south-1:
+        Shared: 0.1048
       ap-southeast-1:
         Shared: 0.1128
       ap-southeast-2:
@@ -24966,6 +24988,8 @@ t3.medium:
         Shared: 0.1174
       ap-northeast-2:
         Shared: 0.115
+      ap-south-1:
+        Shared: 0.1078
       ap-southeast-1:
         Shared: 0.1158
       ap-southeast-2:
@@ -25001,6 +25025,8 @@ t3.medium:
         Shared: 0.0728
       ap-northeast-2:
         Shared: 0.0704
+      ap-south-1:
+        Shared: 0.0632
       ap-southeast-1:
         Shared: 0.0712
       ap-southeast-2:
@@ -25039,6 +25065,7 @@ t3.medium:
     - eu-west-1
     - us-gov-west-1
     - us-east-2
+    - ap-south-1
     - eu-west-2
     - us-west-1
     - ap-northeast-2
@@ -25064,6 +25091,8 @@ t3.micro:
         Shared: 0.0136
       ap-northeast-2:
         Shared: 0.013
+      ap-south-1:
+        Shared: 0.0112
       ap-southeast-1:
         Shared: 0.0132
       ap-southeast-2:
@@ -25099,6 +25128,8 @@ t3.micro:
         Shared: 0.0736
       ap-northeast-2:
         Shared: 0.073
+      ap-south-1:
+        Shared: 0.0712
       ap-southeast-1:
         Shared: 0.0732
       ap-southeast-2:
@@ -25132,6 +25163,8 @@ t3.micro:
         Shared: 0.0136
       ap-northeast-2:
         Shared: 0.013
+      ap-south-1:
+        Shared: 0.0112
       ap-southeast-1:
         Shared: 0.0132
       ap-southeast-2:
@@ -25167,6 +25200,8 @@ t3.micro:
         Shared: 0.0228
       ap-northeast-2:
         Shared: 0.0222
+      ap-south-1:
+        Shared: 0.0204
       ap-southeast-1:
         Shared: 0.0224
       ap-southeast-2:
@@ -25209,6 +25244,7 @@ t3.micro:
     - us-gov-west-1
     - eu-west-3
     - ap-northeast-2
+    - ap-south-1
     - eu-west-1
     - eu-north-1
     - ap-southeast-1
@@ -25230,6 +25266,8 @@ t3.nano:
         Shared: 0.0068
       ap-northeast-2:
         Shared: 0.0065
+      ap-south-1:
+        Shared: 0.0056
       ap-southeast-1:
         Shared: 0.0066
       ap-southeast-2:
@@ -25265,6 +25303,8 @@ t3.nano:
         Shared: 0.0068
       ap-northeast-2:
         Shared: 0.0065
+      ap-south-1:
+        Shared: 0.0056
       ap-southeast-1:
         Shared: 0.0066
       ap-southeast-2:
@@ -25300,6 +25340,8 @@ t3.nano:
         Shared: 0.0114
       ap-northeast-2:
         Shared: 0.0111
+      ap-south-1:
+        Shared: 0.0102
       ap-southeast-1:
         Shared: 0.0066
       ap-southeast-2:
@@ -25344,6 +25386,7 @@ t3.nano:
     - eu-west-3
     - eu-north-1
     - us-east-2
+    - ap-south-1
     - eu-central-1
     - ca-central-1
     - us-east-1
@@ -25363,6 +25406,8 @@ t3.small:
         Shared: 0.0272
       ap-northeast-2:
         Shared: 0.026
+      ap-south-1:
+        Shared: 0.0224
       ap-southeast-1:
         Shared: 0.0264
       ap-southeast-2:
@@ -25398,6 +25443,8 @@ t3.small:
         Shared: 0.0872
       ap-northeast-2:
         Shared: 0.086
+      ap-south-1:
+        Shared: 0.0824
       ap-southeast-1:
         Shared: 0.0864
       ap-southeast-2:
@@ -25431,6 +25478,8 @@ t3.small:
         Shared: 0.0582
       ap-northeast-2:
         Shared: 0.057
+      ap-south-1:
+        Shared: 0.0534
       ap-southeast-1:
         Shared: 0.0574
       ap-southeast-2:
@@ -25466,6 +25515,8 @@ t3.small:
         Shared: 0.0456
       ap-northeast-2:
         Shared: 0.0444
+      ap-south-1:
+        Shared: 0.0408
       ap-southeast-1:
         Shared: 0.0264
       ap-southeast-2:
@@ -25514,6 +25565,7 @@ t3.small:
     - us-east-1
     - eu-north-1
     - eu-west-1
+    - ap-south-1
   storage: EBS only
   vcpu: 2
 t3.xlarge:
@@ -25529,6 +25581,8 @@ t3.xlarge:
         Shared: 0.2176
       ap-northeast-2:
         Shared: 0.208
+      ap-south-1:
+        Shared: 0.1792
       ap-southeast-1:
         Shared: 0.2112
       ap-southeast-2:
@@ -25564,6 +25618,8 @@ t3.xlarge:
         Shared: 0.2776
       ap-northeast-2:
         Shared: 0.268
+      ap-south-1:
+        Shared: 0.2392
       ap-southeast-1:
         Shared: 0.2712
       ap-southeast-2:
@@ -25597,6 +25653,8 @@ t3.xlarge:
         Shared: 0.3426
       ap-northeast-2:
         Shared: 0.333
+      ap-south-1:
+        Shared: 0.3042
       ap-southeast-1:
         Shared: 0.3362
       ap-southeast-2:
@@ -25632,6 +25690,8 @@ t3.xlarge:
         Shared: 0.2912
       ap-northeast-2:
         Shared: 0.2816
+      ap-south-1:
+        Shared: 0.2528
       ap-southeast-1:
         Shared: 0.2112
       ap-southeast-2:
@@ -25663,6 +25723,7 @@ t3.xlarge:
       us-west-2:
         Shared: 0.1664
   regions:
+    - ap-south-1
     - us-east-1
     - eu-central-1
     - eu-west-3
