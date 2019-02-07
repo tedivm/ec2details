@@ -18437,7 +18437,7 @@ r3.8xlarge:
         Shared: 2.66
       us-east-2:
         Dedicated: 2.66
-        Shared: 2.66
+        Shared: 2.656
       us-gov-west-1:
         Dedicated: 3.192
         Shared: 3.192
@@ -26073,8 +26073,8 @@ x1.16xlarge:
         Dedicated: 10.638
         Shared: 9.671
       ap-south-1:
-        Dedicated: 10.106
-        Shared: 9.187
+        Dedicated: 7.569
+        Shared: 6.881
       ap-southeast-1:
         Dedicated: 10.638
         Shared: 9.671
@@ -26119,8 +26119,8 @@ x1.16xlarge:
         Dedicated: 10.768
         Shared: 9.801
       ap-south-1:
-        Dedicated: 10.236
-        Shared: 9.317
+        Dedicated: 7.699
+        Shared: 7.011
       ap-southeast-1:
         Dedicated: 10.768
         Shared: 9.801
@@ -26165,8 +26165,8 @@ x1.16xlarge:
         Dedicated: 10.738
         Shared: 9.771
       ap-south-1:
-        Dedicated: 10.206
-        Shared: 9.287
+        Dedicated: 7.669
+        Shared: 6.981
       ap-southeast-1:
         Dedicated: 10.738
         Shared: 9.771
@@ -26211,8 +26211,8 @@ x1.16xlarge:
         Dedicated: 10.638
         Shared: 9.671
       ap-south-1:
-        Dedicated: 10.106
-        Shared: 12.131
+        Dedicated: 7.569
+        Shared: 9.825
       ap-southeast-1:
         Dedicated: 13.582
         Shared: 9.671
@@ -26285,8 +26285,8 @@ x1.32xlarge:
         Dedicated: 19.341
         Shared: 19.341
       ap-south-1:
-        Dedicated: 18.374
-        Shared: 18.374
+        Dedicated: 13.762
+        Shared: 13.762
       ap-southeast-1:
         Dedicated: 19.341
         Shared: 19.341
@@ -26331,8 +26331,8 @@ x1.32xlarge:
         Dedicated: 19.471
         Shared: 19.471
       ap-south-1:
-        Dedicated: 18.504
-        Shared: 18.504
+        Dedicated: 13.892
+        Shared: 13.892
       ap-southeast-1:
         Dedicated: 19.471
         Shared: 19.471
@@ -26377,8 +26377,8 @@ x1.32xlarge:
         Dedicated: 19.441
         Shared: 19.441
       ap-south-1:
-        Dedicated: 18.474
-        Shared: 18.474
+        Dedicated: 13.862
+        Shared: 13.862
       ap-southeast-1:
         Dedicated: 19.441
         Shared: 19.441
@@ -26423,8 +26423,8 @@ x1.32xlarge:
         Dedicated: 19.341
         Shared: 19.341
       ap-south-1:
-        Dedicated: 24.262
-        Shared: 18.374
+        Dedicated: 19.65
+        Shared: 13.762
       ap-southeast-1:
         Dedicated: 25.229
         Shared: 25.229
