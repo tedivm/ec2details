@@ -24069,8 +24069,8 @@ r5d.metal:
     - us-west-1
     - us-east-1
     - eu-west-3
-    - ap-southeast-1
     - us-east-2
+    - ap-southeast-1
     - ap-northeast-2
     - us-gov-west-1
   storage: 4 x 900 NVMe SSD
