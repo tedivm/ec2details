@@ -7831,6 +7831,7 @@ g3.8xlarge:
 g3s.xlarge:
   currentGeneration: true
   ecu: 13
+  gpu: 1
   memory: 30.5 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 1
