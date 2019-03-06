@@ -3417,9 +3417,9 @@ c5.9xlarge:
     - us-east-1
     - ap-northeast-2
     - eu-west-3
+    - us-gov-west-1
     - sa-east-1
     - eu-central-1
-    - us-gov-west-1
     - ca-central-1
     - AWS GovCloud (US-East)
   storage: EBS only
@@ -3919,13 +3919,13 @@ c5.xlarge:
     - eu-west-2
     - ap-northeast-1
     - us-west-2
+    - us-gov-west-1
     - eu-north-1
     - us-east-2
     - ap-southeast-2
     - eu-west-1
     - ap-south-1
     - ap-northeast-2
-    - us-gov-west-1
   storage: EBS only
   vcpu: 4
 c5d.18xlarge:
@@ -6671,12 +6671,12 @@ d2.8xlarge:
     - ap-northeast-1
     - AWS GovCloud (US-East)
     - eu-central-1
+    - us-gov-west-1
     - ca-central-1
     - us-west-1
     - eu-west-3
     - sa-east-1
     - eu-west-2
-    - us-gov-west-1
   storage: 24 x 2000 HDD
   vcpu: 36
 d2.xlarge:
@@ -10544,6 +10544,8 @@ i3.metal:
     - us-east-1
     - us-east-2
     - ap-southeast-2
+    - eu-north-1
+    - AWS GovCloud (US-East)
   storage: 8 x 1900 NVMe SSD
   vcpu: 72
 i3.xlarge:
@@ -15208,6 +15210,7 @@ m5.metal:
     - us-east-1
     - us-east-2
     - ap-southeast-1
+    - us-gov-west-1
   storage: EBS only
   vcpu: 96
 m5.xlarge:
@@ -17243,6 +17246,7 @@ m5d.metal:
     - us-west-2
     - ap-southeast-1
     - ap-southeast-2
+    - us-gov-west-1
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5d.xlarge:
@@ -17777,9 +17781,9 @@ p2.8xlarge:
     - ap-northeast-1
     - us-west-2
     - ap-south-1
+    - us-east-2
     - ap-southeast-2
     - ap-southeast-1
-    - us-east-2
     - us-east-1
     - eu-central-1
     - ap-northeast-2
@@ -17938,8 +17942,8 @@ p2.xlarge:
     - eu-west-1
     - eu-central-1
     - us-west-2
-    - us-gov-west-1
     - us-east-2
+    - us-gov-west-1
   storage: EBS only
   vcpu: 4
 p3.16xlarge:
@@ -22212,6 +22216,7 @@ r5.metal:
         Shared: 10.464
   regions:
     - us-west-2
+    - ap-southeast-2
     - us-west-1
     - eu-central-1
     - us-gov-west-1
@@ -22221,8 +22226,12 @@ r5.metal:
     - eu-north-1
     - eu-west-3
     - eu-west-1
+    - ca-central-1
+    - ap-northeast-1
     - ap-south-1
     - ap-northeast-2
+    - eu-west-2
+    - AWS GovCloud (US-East)
   storage: EBS only
   vcpu: 96
 r5.xlarge:
@@ -24211,6 +24220,11 @@ r5d.metal:
     - ap-southeast-1
     - ap-northeast-2
     - us-gov-west-1
+    - ap-northeast-1
+    - ap-southeast-2
+    - eu-west-2
+    - eu-west-1
+    - ca-central-1
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5d.xlarge:
