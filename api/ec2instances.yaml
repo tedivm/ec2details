@@ -15476,9 +15476,18 @@ m5a.12xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 2.866
+        Shared: 2.688
       ap-southeast-1:
         Dedicated: 2.752
         Shared: 2.592
+      ap-southeast-2:
+        Dedicated: 2.763
+        Shared: 2.592
+      eu-central-1:
+        Dedicated: 2.665
+        Shared: 2.496
       eu-west-1:
         Dedicated: 2.459
         Shared: 2.304
@@ -15492,9 +15501,18 @@ m5a.12xlarge:
         Dedicated: 2.189
         Shared: 2.064
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.996
+        Shared: 2.818
       ap-southeast-1:
         Dedicated: 2.882
         Shared: 2.722
+      ap-southeast-2:
+        Dedicated: 2.893
+        Shared: 2.722
+      eu-central-1:
+        Dedicated: 2.795
+        Shared: 2.626
       eu-west-1:
         Dedicated: 2.589
         Shared: 2.434
@@ -15508,9 +15526,18 @@ m5a.12xlarge:
         Dedicated: 2.319
         Shared: 2.194
     SUSE:
+      ap-northeast-1:
+        Dedicated: 3.016
+        Shared: 2.838
       ap-southeast-1:
         Dedicated: 2.902
         Shared: 2.742
+      ap-southeast-2:
+        Dedicated: 2.913
+        Shared: 2.742
+      eu-central-1:
+        Dedicated: 2.815
+        Shared: 2.646
       eu-west-1:
         Dedicated: 2.609
         Shared: 2.454
@@ -15524,9 +15551,18 @@ m5a.12xlarge:
         Dedicated: 2.339
         Shared: 2.214
     Windows:
+      ap-northeast-1:
+        Dedicated: 5.074
+        Shared: 4.896
       ap-southeast-1:
         Dedicated: 4.96
         Shared: 2.592
+      ap-southeast-2:
+        Dedicated: 4.971
+        Shared: 4.8
+      eu-central-1:
+        Dedicated: 4.873
+        Shared: 4.704
       eu-west-1:
         Dedicated: 4.667
         Shared: 2.304
@@ -15542,9 +15578,12 @@ m5a.12xlarge:
   regions:
     - us-east-1
     - us-east-2
+    - eu-central-1
     - us-west-2
     - eu-west-1
     - ap-southeast-1
+    - ap-northeast-1
+    - ap-southeast-2
   storage: EBS only
   vcpu: 48
 m5a.24xlarge:
@@ -15558,9 +15597,18 @@ m5a.24xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 5.732
+        Shared: 5.376
       ap-southeast-1:
         Dedicated: 5.504
         Shared: 5.184
+      ap-southeast-2:
+        Dedicated: 5.526
+        Shared: 5.184
+      eu-central-1:
+        Dedicated: 5.33
+        Shared: 4.992
       eu-west-1:
         Dedicated: 4.917
         Shared: 4.608
@@ -15574,9 +15622,18 @@ m5a.24xlarge:
         Dedicated: 4.378
         Shared: 4.128
     RHEL:
+      ap-northeast-1:
+        Dedicated: 5.862
+        Shared: 5.506
       ap-southeast-1:
         Dedicated: 5.634
         Shared: 5.314
+      ap-southeast-2:
+        Dedicated: 5.656
+        Shared: 5.314
+      eu-central-1:
+        Dedicated: 5.46
+        Shared: 5.122
       eu-west-1:
         Dedicated: 5.047
         Shared: 4.738
@@ -15590,9 +15647,18 @@ m5a.24xlarge:
         Dedicated: 4.508
         Shared: 4.258
     SUSE:
+      ap-northeast-1:
+        Dedicated: 5.882
+        Shared: 5.526
       ap-southeast-1:
         Dedicated: 5.654
         Shared: 5.334
+      ap-southeast-2:
+        Dedicated: 5.676
+        Shared: 5.334
+      eu-central-1:
+        Dedicated: 5.48
+        Shared: 5.142
       eu-west-1:
         Dedicated: 5.067
         Shared: 4.758
@@ -15606,9 +15672,18 @@ m5a.24xlarge:
         Dedicated: 4.528
         Shared: 4.278
     Windows:
+      ap-northeast-1:
+        Dedicated: 10.148
+        Shared: 9.792
       ap-southeast-1:
         Dedicated: 9.92
         Shared: 5.184
+      ap-southeast-2:
+        Dedicated: 9.942
+        Shared: 9.6
+      eu-central-1:
+        Dedicated: 9.746
+        Shared: 9.408
       eu-west-1:
         Dedicated: 9.333
         Shared: 9.024
@@ -15625,8 +15700,11 @@ m5a.24xlarge:
     - us-east-2
     - us-east-1
     - ap-southeast-1
+    - ap-northeast-1
     - us-west-2
+    - eu-central-1
     - eu-west-1
+    - ap-southeast-2
   storage: EBS only
   vcpu: 96
 m5a.2xlarge:
@@ -15640,9 +15718,18 @@ m5a.2xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.478
+        Shared: 0.448
       ap-southeast-1:
         Dedicated: 0.459
         Shared: 0.432
+      ap-southeast-2:
+        Dedicated: 0.46
+        Shared: 0.432
+      eu-central-1:
+        Dedicated: 0.444
+        Shared: 0.416
       eu-west-1:
         Dedicated: 0.41
         Shared: 0.384
@@ -15656,9 +15743,18 @@ m5a.2xlarge:
         Dedicated: 0.365
         Shared: 0.344
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.608
+        Shared: 0.578
       ap-southeast-1:
         Dedicated: 0.589
         Shared: 0.562
+      ap-southeast-2:
+        Dedicated: 0.59
+        Shared: 0.562
+      eu-central-1:
+        Dedicated: 0.574
+        Shared: 0.546
       eu-west-1:
         Dedicated: 0.54
         Shared: 0.514
@@ -15672,9 +15768,18 @@ m5a.2xlarge:
         Dedicated: 0.495
         Shared: 0.474
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.628
+        Shared: 0.598
       ap-southeast-1:
         Dedicated: 0.609
         Shared: 0.582
+      ap-southeast-2:
+        Dedicated: 0.61
+        Shared: 0.582
+      eu-central-1:
+        Dedicated: 0.594
+        Shared: 0.566
       eu-west-1:
         Dedicated: 0.56
         Shared: 0.534
@@ -15688,9 +15793,18 @@ m5a.2xlarge:
         Dedicated: 0.515
         Shared: 0.494
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.846
+        Shared: 0.816
       ap-southeast-1:
         Dedicated: 0.827
         Shared: 0.8
+      ap-southeast-2:
+        Dedicated: 0.828
+        Shared: 0.8
+      eu-central-1:
+        Dedicated: 0.812
+        Shared: 0.784
       eu-west-1:
         Dedicated: 0.778
         Shared: 0.384
@@ -15704,10 +15818,13 @@ m5a.2xlarge:
         Dedicated: 0.365
         Shared: 0.344
   regions:
+    - ap-southeast-2
     - us-east-1
     - ap-southeast-1
     - us-west-2
     - eu-west-1
+    - ap-northeast-1
+    - eu-central-1
     - us-east-2
   storage: EBS only
   vcpu: 8
@@ -15722,9 +15839,18 @@ m5a.4xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.955
+        Shared: 0.896
       ap-southeast-1:
         Dedicated: 0.917
         Shared: 0.864
+      ap-southeast-2:
+        Dedicated: 0.921
+        Shared: 0.864
+      eu-central-1:
+        Dedicated: 0.888
+        Shared: 0.832
       eu-west-1:
         Dedicated: 0.82
         Shared: 0.768
@@ -15738,9 +15864,18 @@ m5a.4xlarge:
         Dedicated: 0.73
         Shared: 0.688
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.085
+        Shared: 1.026
       ap-southeast-1:
         Dedicated: 1.047
         Shared: 0.994
+      ap-southeast-2:
+        Dedicated: 1.051
+        Shared: 0.994
+      eu-central-1:
+        Dedicated: 1.018
+        Shared: 0.962
       eu-west-1:
         Dedicated: 0.95
         Shared: 0.898
@@ -15754,9 +15889,18 @@ m5a.4xlarge:
         Dedicated: 0.86
         Shared: 0.818
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.105
+        Shared: 1.046
       ap-southeast-1:
         Dedicated: 1.067
         Shared: 1.014
+      ap-southeast-2:
+        Dedicated: 1.071
+        Shared: 1.014
+      eu-central-1:
+        Dedicated: 1.038
+        Shared: 0.982
       eu-west-1:
         Dedicated: 0.97
         Shared: 0.918
@@ -15770,9 +15914,18 @@ m5a.4xlarge:
         Dedicated: 0.88
         Shared: 0.838
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.691
+        Shared: 1.632
       ap-southeast-1:
         Dedicated: 0.917
         Shared: 0.864
+      ap-southeast-2:
+        Dedicated: 1.657
+        Shared: 1.6
+      eu-central-1:
+        Dedicated: 1.624
+        Shared: 1.568
       eu-west-1:
         Dedicated: 0.82
         Shared: 0.768
@@ -15788,7 +15941,10 @@ m5a.4xlarge:
   regions:
     - us-east-2
     - ap-southeast-1
+    - ap-southeast-2
+    - eu-central-1
     - us-west-2
+    - ap-northeast-1
     - us-east-1
     - eu-west-1
   storage: EBS only
@@ -15804,9 +15960,18 @@ m5a.large:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.119
+        Shared: 0.112
       ap-southeast-1:
         Dedicated: 0.115
         Shared: 0.108
+      ap-southeast-2:
+        Dedicated: 0.115
+        Shared: 0.108
+      eu-central-1:
+        Dedicated: 0.111
+        Shared: 0.104
       eu-west-1:
         Dedicated: 0.102
         Shared: 0.096
@@ -15820,9 +15985,18 @@ m5a.large:
         Dedicated: 0.091
         Shared: 0.086
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.179
+        Shared: 0.172
       ap-southeast-1:
         Dedicated: 0.175
         Shared: 0.168
+      ap-southeast-2:
+        Dedicated: 0.175
+        Shared: 0.168
+      eu-central-1:
+        Dedicated: 0.171
+        Shared: 0.164
       eu-west-1:
         Dedicated: 0.162
         Shared: 0.156
@@ -15836,9 +16010,18 @@ m5a.large:
         Dedicated: 0.151
         Shared: 0.146
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.182
+        Shared: 0.175
       ap-southeast-1:
         Dedicated: 0.178
         Shared: 0.171
+      ap-southeast-2:
+        Dedicated: 0.178
+        Shared: 0.171
+      eu-central-1:
+        Dedicated: 0.174
+        Shared: 0.167
       eu-west-1:
         Dedicated: 0.165
         Shared: 0.159
@@ -15852,9 +16035,18 @@ m5a.large:
         Dedicated: 0.154
         Shared: 0.149
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.211
+        Shared: 0.204
       ap-southeast-1:
         Dedicated: 0.207
         Shared: 0.108
+      ap-southeast-2:
+        Dedicated: 0.207
+        Shared: 0.2
+      eu-central-1:
+        Dedicated: 0.203
+        Shared: 0.196
       eu-west-1:
         Dedicated: 0.194
         Shared: 0.188
@@ -15868,11 +16060,14 @@ m5a.large:
         Dedicated: 0.183
         Shared: 0.086
   regions:
+    - ap-southeast-2
     - eu-west-1
     - us-east-2
     - ap-southeast-1
     - us-west-2
+    - ap-northeast-1
     - us-east-1
+    - eu-central-1
   storage: EBS only
   vcpu: 2
 m5a.xlarge:
@@ -15886,9 +16081,18 @@ m5a.xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.239
+        Shared: 0.224
       ap-southeast-1:
         Dedicated: 0.229
         Shared: 0.216
+      ap-southeast-2:
+        Dedicated: 0.23
+        Shared: 0.216
+      eu-central-1:
+        Dedicated: 0.222
+        Shared: 0.208
       eu-west-1:
         Dedicated: 0.205
         Shared: 0.192
@@ -15902,9 +16106,18 @@ m5a.xlarge:
         Dedicated: 0.182
         Shared: 0.172
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.299
+        Shared: 0.284
       ap-southeast-1:
         Dedicated: 0.289
         Shared: 0.276
+      ap-southeast-2:
+        Dedicated: 0.29
+        Shared: 0.276
+      eu-central-1:
+        Dedicated: 0.282
+        Shared: 0.268
       eu-west-1:
         Dedicated: 0.265
         Shared: 0.252
@@ -15918,9 +16131,18 @@ m5a.xlarge:
         Dedicated: 0.242
         Shared: 0.232
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.364
+        Shared: 0.349
       ap-southeast-1:
         Dedicated: 0.354
         Shared: 0.341
+      ap-southeast-2:
+        Dedicated: 0.355
+        Shared: 0.341
+      eu-central-1:
+        Dedicated: 0.347
+        Shared: 0.333
       eu-west-1:
         Dedicated: 0.33
         Shared: 0.317
@@ -15934,9 +16156,18 @@ m5a.xlarge:
         Dedicated: 0.307
         Shared: 0.297
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.423
+        Shared: 0.408
       ap-southeast-1:
         Dedicated: 0.229
         Shared: 0.216
+      ap-southeast-2:
+        Dedicated: 0.414
+        Shared: 0.4
+      eu-central-1:
+        Dedicated: 0.406
+        Shared: 0.392
       eu-west-1:
         Dedicated: 0.205
         Shared: 0.376
@@ -15950,11 +16181,14 @@ m5a.xlarge:
         Dedicated: 0.366
         Shared: 0.356
   regions:
+    - ap-southeast-2
     - us-east-2
+    - ap-northeast-1
     - us-east-1
     - eu-west-1
     - us-west-2
     - ap-southeast-1
+    - eu-central-1
   storage: EBS only
   vcpu: 4
 m5d.12xlarge:
@@ -22481,9 +22715,18 @@ r5a.12xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 3.485
+        Shared: 3.288
       ap-southeast-1:
         Dedicated: 3.46
         Shared: 3.264
+      ap-southeast-2:
+        Dedicated: 3.46
+        Shared: 3.264
+      eu-central-1:
+        Dedicated: 3.485
+        Shared: 3.288
       eu-west-1:
         Dedicated: 3.231
         Shared: 3.048
@@ -22497,9 +22740,18 @@ r5a.12xlarge:
         Dedicated: 2.875
         Shared: 2.712
     RHEL:
+      ap-northeast-1:
+        Dedicated: 3.615
+        Shared: 3.418
       ap-southeast-1:
         Dedicated: 3.59
         Shared: 3.394
+      ap-southeast-2:
+        Dedicated: 3.59
+        Shared: 3.394
+      eu-central-1:
+        Dedicated: 3.615
+        Shared: 3.418
       eu-west-1:
         Dedicated: 3.361
         Shared: 3.178
@@ -22513,9 +22765,18 @@ r5a.12xlarge:
         Dedicated: 3.005
         Shared: 2.842
     SUSE:
+      ap-northeast-1:
+        Dedicated: 3.635
+        Shared: 3.438
       ap-southeast-1:
         Dedicated: 3.61
         Shared: 3.414
+      ap-southeast-2:
+        Dedicated: 3.61
+        Shared: 3.414
+      eu-central-1:
+        Dedicated: 3.635
+        Shared: 3.438
       eu-west-1:
         Dedicated: 3.381
         Shared: 3.198
@@ -22529,9 +22790,18 @@ r5a.12xlarge:
         Dedicated: 3.025
         Shared: 2.862
     Windows:
+      ap-northeast-1:
+        Dedicated: 5.693
+        Shared: 5.496
       ap-southeast-1:
         Dedicated: 5.668
         Shared: 3.264
+      ap-southeast-2:
+        Dedicated: 5.668
+        Shared: 5.472
+      eu-central-1:
+        Dedicated: 5.693
+        Shared: 5.496
       eu-west-1:
         Dedicated: 5.439
         Shared: 3.048
@@ -22548,6 +22818,9 @@ r5a.12xlarge:
     - eu-west-1
     - us-east-1
     - us-east-2
+    - eu-central-1
+    - ap-southeast-2
+    - ap-northeast-1
     - us-west-2
     - ap-southeast-1
   storage: EBS only
@@ -22563,9 +22836,18 @@ r5a.24xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 6.97
+        Shared: 6.576
       ap-southeast-1:
         Dedicated: 6.92
         Shared: 6.528
+      ap-southeast-2:
+        Dedicated: 6.921
+        Shared: 6.528
+      eu-central-1:
+        Dedicated: 6.97
+        Shared: 6.576
       eu-west-1:
         Dedicated: 6.462
         Shared: 6.096
@@ -22579,9 +22861,18 @@ r5a.24xlarge:
         Dedicated: 5.75
         Shared: 5.424
     RHEL:
+      ap-northeast-1:
+        Dedicated: 7.1
+        Shared: 6.706
       ap-southeast-1:
         Dedicated: 7.05
         Shared: 6.658
+      ap-southeast-2:
+        Dedicated: 7.051
+        Shared: 6.658
+      eu-central-1:
+        Dedicated: 7.1
+        Shared: 6.706
       eu-west-1:
         Dedicated: 6.592
         Shared: 6.226
@@ -22595,9 +22886,18 @@ r5a.24xlarge:
         Dedicated: 5.88
         Shared: 5.554
     SUSE:
+      ap-northeast-1:
+        Dedicated: 7.12
+        Shared: 6.726
       ap-southeast-1:
         Dedicated: 7.07
         Shared: 6.678
+      ap-southeast-2:
+        Dedicated: 7.071
+        Shared: 6.678
+      eu-central-1:
+        Dedicated: 7.12
+        Shared: 6.726
       eu-west-1:
         Dedicated: 6.612
         Shared: 6.246
@@ -22611,9 +22911,18 @@ r5a.24xlarge:
         Dedicated: 5.9
         Shared: 5.574
     Windows:
+      ap-northeast-1:
+        Dedicated: 11.386
+        Shared: 10.992
       ap-southeast-1:
         Dedicated: 11.336
         Shared: 6.528
+      ap-southeast-2:
+        Dedicated: 11.337
+        Shared: 10.944
+      eu-central-1:
+        Dedicated: 11.386
+        Shared: 10.992
       eu-west-1:
         Dedicated: 10.878
         Shared: 10.512
@@ -22630,8 +22939,11 @@ r5a.24xlarge:
     - us-east-1
     - us-west-2
     - ap-southeast-1
+    - ap-northeast-1
+    - ap-southeast-2
     - us-east-2
     - eu-west-1
+    - eu-central-1
   storage: EBS only
   vcpu: 96
 r5a.2xlarge:
@@ -22645,9 +22957,18 @@ r5a.2xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.581
+        Shared: 0.548
       ap-southeast-1:
         Dedicated: 0.577
         Shared: 0.544
+      ap-southeast-2:
+        Dedicated: 0.577
+        Shared: 0.544
+      eu-central-1:
+        Dedicated: 0.581
+        Shared: 0.548
       eu-west-1:
         Dedicated: 0.539
         Shared: 0.508
@@ -22661,9 +22982,18 @@ r5a.2xlarge:
         Dedicated: 0.479
         Shared: 0.452
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.711
+        Shared: 0.678
       ap-southeast-1:
         Dedicated: 0.707
         Shared: 0.674
+      ap-southeast-2:
+        Dedicated: 0.707
+        Shared: 0.674
+      eu-central-1:
+        Dedicated: 0.711
+        Shared: 0.678
       eu-west-1:
         Dedicated: 0.669
         Shared: 0.638
@@ -22677,9 +23007,18 @@ r5a.2xlarge:
         Dedicated: 0.609
         Shared: 0.582
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.731
+        Shared: 0.698
       ap-southeast-1:
         Dedicated: 0.727
         Shared: 0.694
+      ap-southeast-2:
+        Dedicated: 0.727
+        Shared: 0.694
+      eu-central-1:
+        Dedicated: 0.731
+        Shared: 0.698
       eu-west-1:
         Dedicated: 0.689
         Shared: 0.658
@@ -22693,9 +23032,18 @@ r5a.2xlarge:
         Dedicated: 0.629
         Shared: 0.602
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.949
+        Shared: 0.916
       ap-southeast-1:
         Dedicated: 0.577
         Shared: 0.544
+      ap-southeast-2:
+        Dedicated: 0.945
+        Shared: 0.912
+      eu-central-1:
+        Dedicated: 0.949
+        Shared: 0.916
       eu-west-1:
         Dedicated: 0.907
         Shared: 0.508
@@ -22712,8 +23060,11 @@ r5a.2xlarge:
     - ap-southeast-1
     - eu-west-1
     - us-east-1
+    - eu-central-1
+    - ap-northeast-1
     - us-east-2
     - us-west-2
+    - ap-southeast-2
   storage: EBS only
   vcpu: 8
 r5a.4xlarge:
@@ -22727,9 +23078,18 @@ r5a.4xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.162
+        Shared: 1.096
       ap-southeast-1:
         Dedicated: 1.153
         Shared: 1.088
+      ap-southeast-2:
+        Dedicated: 1.153
+        Shared: 1.088
+      eu-central-1:
+        Dedicated: 1.162
+        Shared: 1.096
       eu-west-1:
         Dedicated: 1.077
         Shared: 1.016
@@ -22743,9 +23103,18 @@ r5a.4xlarge:
         Dedicated: 0.958
         Shared: 0.904
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.292
+        Shared: 1.226
       ap-southeast-1:
         Dedicated: 1.283
         Shared: 1.218
+      ap-southeast-2:
+        Dedicated: 1.283
+        Shared: 1.218
+      eu-central-1:
+        Dedicated: 1.292
+        Shared: 1.226
       eu-west-1:
         Dedicated: 1.207
         Shared: 1.146
@@ -22759,9 +23128,18 @@ r5a.4xlarge:
         Dedicated: 1.088
         Shared: 1.034
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.312
+        Shared: 1.246
       ap-southeast-1:
         Dedicated: 1.303
         Shared: 1.238
+      ap-southeast-2:
+        Dedicated: 1.303
+        Shared: 1.238
+      eu-central-1:
+        Dedicated: 1.312
+        Shared: 1.246
       eu-west-1:
         Dedicated: 1.227
         Shared: 1.166
@@ -22775,9 +23153,18 @@ r5a.4xlarge:
         Dedicated: 1.108
         Shared: 1.054
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.898
+        Shared: 1.832
       ap-southeast-1:
         Dedicated: 1.889
         Shared: 1.088
+      ap-southeast-2:
+        Dedicated: 1.889
+        Shared: 1.824
+      eu-central-1:
+        Dedicated: 1.898
+        Shared: 1.832
       eu-west-1:
         Dedicated: 1.077
         Shared: 1.752
@@ -22793,7 +23180,10 @@ r5a.4xlarge:
   regions:
     - us-east-1
     - us-west-2
+    - eu-central-1
+    - ap-southeast-2
     - ap-southeast-1
+    - ap-northeast-1
     - eu-west-1
     - us-east-2
   storage: EBS only
@@ -22809,9 +23199,18 @@ r5a.large:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.145
+        Shared: 0.137
       ap-southeast-1:
         Dedicated: 0.144
         Shared: 0.136
+      ap-southeast-2:
+        Dedicated: 0.144
+        Shared: 0.136
+      eu-central-1:
+        Dedicated: 0.145
+        Shared: 0.137
       eu-west-1:
         Dedicated: 0.135
         Shared: 0.127
@@ -22825,9 +23224,18 @@ r5a.large:
         Dedicated: 0.12
         Shared: 0.113
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.205
+        Shared: 0.197
       ap-southeast-1:
         Dedicated: 0.204
         Shared: 0.196
+      ap-southeast-2:
+        Dedicated: 0.204
+        Shared: 0.196
+      eu-central-1:
+        Dedicated: 0.205
+        Shared: 0.197
       eu-west-1:
         Dedicated: 0.195
         Shared: 0.187
@@ -22841,9 +23249,18 @@ r5a.large:
         Dedicated: 0.18
         Shared: 0.173
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.208
+        Shared: 0.2
       ap-southeast-1:
         Dedicated: 0.207
         Shared: 0.199
+      ap-southeast-2:
+        Dedicated: 0.207
+        Shared: 0.199
+      eu-central-1:
+        Dedicated: 0.208
+        Shared: 0.2
       eu-west-1:
         Dedicated: 0.198
         Shared: 0.19
@@ -22857,9 +23274,18 @@ r5a.large:
         Dedicated: 0.183
         Shared: 0.176
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.237
+        Shared: 0.229
       ap-southeast-1:
         Dedicated: 0.144
         Shared: 0.136
+      ap-southeast-2:
+        Dedicated: 0.236
+        Shared: 0.228
+      eu-central-1:
+        Dedicated: 0.237
+        Shared: 0.229
       eu-west-1:
         Dedicated: 0.135
         Shared: 0.219
@@ -22874,10 +23300,13 @@ r5a.large:
         Shared: 0.113
   regions:
     - us-east-1
+    - eu-central-1
     - eu-west-1
     - us-east-2
     - ap-southeast-1
+    - ap-southeast-2
     - us-west-2
+    - ap-northeast-1
   storage: EBS only
   vcpu: 2
 r5a.xlarge:
@@ -22891,9 +23320,18 @@ r5a.xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.29
+        Shared: 0.274
       ap-southeast-1:
         Dedicated: 0.288
         Shared: 0.272
+      ap-southeast-2:
+        Dedicated: 0.288
+        Shared: 0.272
+      eu-central-1:
+        Dedicated: 0.29
+        Shared: 0.274
       eu-west-1:
         Dedicated: 0.269
         Shared: 0.254
@@ -22907,9 +23345,18 @@ r5a.xlarge:
         Dedicated: 0.24
         Shared: 0.226
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.35
+        Shared: 0.334
       ap-southeast-1:
         Dedicated: 0.348
         Shared: 0.332
+      ap-southeast-2:
+        Dedicated: 0.348
+        Shared: 0.332
+      eu-central-1:
+        Dedicated: 0.35
+        Shared: 0.334
       eu-west-1:
         Dedicated: 0.329
         Shared: 0.314
@@ -22923,9 +23370,18 @@ r5a.xlarge:
         Dedicated: 0.3
         Shared: 0.286
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.415
+        Shared: 0.399
       ap-southeast-1:
         Dedicated: 0.413
         Shared: 0.397
+      ap-southeast-2:
+        Dedicated: 0.413
+        Shared: 0.397
+      eu-central-1:
+        Dedicated: 0.415
+        Shared: 0.399
       eu-west-1:
         Dedicated: 0.394
         Shared: 0.379
@@ -22939,9 +23395,18 @@ r5a.xlarge:
         Dedicated: 0.365
         Shared: 0.351
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.474
+        Shared: 0.458
       ap-southeast-1:
         Dedicated: 0.472
         Shared: 0.456
+      ap-southeast-2:
+        Dedicated: 0.472
+        Shared: 0.456
+      eu-central-1:
+        Dedicated: 0.474
+        Shared: 0.458
       eu-west-1:
         Dedicated: 0.269
         Shared: 0.438
@@ -22955,10 +23420,13 @@ r5a.xlarge:
         Dedicated: 0.424
         Shared: 0.226
   regions:
+    - ap-southeast-2
     - eu-west-1
     - us-east-2
     - ap-southeast-1
+    - eu-central-1
     - us-west-2
+    - ap-northeast-1
     - us-east-1
   storage: EBS only
   vcpu: 4
