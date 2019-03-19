@@ -28535,6 +28535,12 @@ z1d.12xlarge:
       ap-southeast-1:
         Dedicated: 5.424
         Shared: 5.424
+      ap-southeast-2:
+        Dedicated: 5.424
+        Shared: 5.424
+      eu-central-1:
+        Dedicated: 5.4
+        Shared: 5.4
       eu-west-1:
         Dedicated: 4.992
         Shared: 4.992
@@ -28554,6 +28560,12 @@ z1d.12xlarge:
       ap-southeast-1:
         Dedicated: 5.554
         Shared: 5.554
+      ap-southeast-2:
+        Dedicated: 5.554
+        Shared: 5.554
+      eu-central-1:
+        Dedicated: 5.53
+        Shared: 5.53
       eu-west-1:
         Dedicated: 5.122
         Shared: 5.122
@@ -28573,6 +28585,12 @@ z1d.12xlarge:
       ap-southeast-1:
         Dedicated: 5.574
         Shared: 5.574
+      ap-southeast-2:
+        Dedicated: 5.574
+        Shared: 5.574
+      eu-central-1:
+        Dedicated: 5.55
+        Shared: 5.55
       eu-west-1:
         Dedicated: 5.142
         Shared: 5.142
@@ -28592,6 +28610,12 @@ z1d.12xlarge:
       ap-southeast-1:
         Dedicated: 5.424
         Shared: 7.632
+      ap-southeast-2:
+        Dedicated: 7.632
+        Shared: 7.632
+      eu-central-1:
+        Dedicated: 7.608
+        Shared: 7.608
       eu-west-1:
         Dedicated: 7.2
         Shared: 7.2
@@ -28611,6 +28635,8 @@ z1d.12xlarge:
     - ap-northeast-1
     - us-west-1
     - ap-southeast-1
+    - eu-central-1
+    - ap-southeast-2
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 z1d.2xlarge:
@@ -28628,6 +28654,12 @@ z1d.2xlarge:
       ap-southeast-1:
         Dedicated: 0.958
         Shared: 0.904
+      ap-southeast-2:
+        Dedicated: 0.959
+        Shared: 0.904
+      eu-central-1:
+        Dedicated: 0.955
+        Shared: 0.9
       eu-west-1:
         Dedicated: 0.883
         Shared: 0.832
@@ -28647,6 +28679,12 @@ z1d.2xlarge:
       ap-southeast-1:
         Dedicated: 1.088
         Shared: 1.034
+      ap-southeast-2:
+        Dedicated: 1.089
+        Shared: 1.034
+      eu-central-1:
+        Dedicated: 1.085
+        Shared: 1.03
       eu-west-1:
         Dedicated: 1.013
         Shared: 0.962
@@ -28666,6 +28704,12 @@ z1d.2xlarge:
       ap-southeast-1:
         Dedicated: 1.108
         Shared: 1.054
+      ap-southeast-2:
+        Dedicated: 1.109
+        Shared: 1.054
+      eu-central-1:
+        Dedicated: 1.105
+        Shared: 1.05
       eu-west-1:
         Dedicated: 1.033
         Shared: 0.982
@@ -28685,6 +28729,12 @@ z1d.2xlarge:
       ap-southeast-1:
         Dedicated: 1.326
         Shared: 1.272
+      ap-southeast-2:
+        Dedicated: 1.327
+        Shared: 1.272
+      eu-central-1:
+        Dedicated: 1.323
+        Shared: 1.268
       eu-west-1:
         Dedicated: 1.251
         Shared: 0.832
@@ -28698,9 +28748,11 @@ z1d.2xlarge:
         Dedicated: 1.157
         Shared: 1.112
   regions:
+    - eu-central-1
     - us-west-2
     - us-east-1
     - us-west-1
+    - ap-southeast-2
     - eu-west-1
     - ap-northeast-1
     - ap-southeast-1
@@ -28721,6 +28773,12 @@ z1d.3xlarge:
       ap-southeast-1:
         Dedicated: 1.438
         Shared: 1.356
+      ap-southeast-2:
+        Dedicated: 1.438
+        Shared: 1.356
+      eu-central-1:
+        Dedicated: 1.432
+        Shared: 1.35
       eu-west-1:
         Dedicated: 1.324
         Shared: 1.248
@@ -28740,6 +28798,12 @@ z1d.3xlarge:
       ap-southeast-1:
         Dedicated: 1.568
         Shared: 1.486
+      ap-southeast-2:
+        Dedicated: 1.568
+        Shared: 1.486
+      eu-central-1:
+        Dedicated: 1.562
+        Shared: 1.48
       eu-west-1:
         Dedicated: 1.454
         Shared: 1.378
@@ -28759,6 +28823,12 @@ z1d.3xlarge:
       ap-southeast-1:
         Dedicated: 1.588
         Shared: 1.506
+      ap-southeast-2:
+        Dedicated: 1.588
+        Shared: 1.506
+      eu-central-1:
+        Dedicated: 1.582
+        Shared: 1.5
       eu-west-1:
         Dedicated: 1.474
         Shared: 1.398
@@ -28778,6 +28848,12 @@ z1d.3xlarge:
       ap-southeast-1:
         Dedicated: 1.438
         Shared: 1.908
+      ap-southeast-2:
+        Dedicated: 1.99
+        Shared: 1.908
+      eu-central-1:
+        Dedicated: 1.984
+        Shared: 1.902
       eu-west-1:
         Dedicated: 1.324
         Shared: 1.8
@@ -28795,7 +28871,9 @@ z1d.3xlarge:
     - ap-southeast-1
     - eu-west-1
     - us-west-1
+    - eu-central-1
     - us-west-2
+    - ap-southeast-2
     - us-east-1
   storage: 1 x 450 NVMe SSD
   vcpu: 12
@@ -28814,6 +28892,12 @@ z1d.6xlarge:
       ap-southeast-1:
         Dedicated: 2.875
         Shared: 2.712
+      ap-southeast-2:
+        Dedicated: 2.876
+        Shared: 2.712
+      eu-central-1:
+        Dedicated: 2.864
+        Shared: 2.7
       eu-west-1:
         Dedicated: 2.649
         Shared: 2.496
@@ -28833,6 +28917,12 @@ z1d.6xlarge:
       ap-southeast-1:
         Dedicated: 3.005
         Shared: 2.842
+      ap-southeast-2:
+        Dedicated: 3.006
+        Shared: 2.842
+      eu-central-1:
+        Dedicated: 2.994
+        Shared: 2.83
       eu-west-1:
         Dedicated: 2.779
         Shared: 2.626
@@ -28852,6 +28942,12 @@ z1d.6xlarge:
       ap-southeast-1:
         Dedicated: 3.025
         Shared: 2.862
+      ap-southeast-2:
+        Dedicated: 3.026
+        Shared: 2.862
+      eu-central-1:
+        Dedicated: 3.014
+        Shared: 2.85
       eu-west-1:
         Dedicated: 2.799
         Shared: 2.646
@@ -28871,6 +28967,12 @@ z1d.6xlarge:
       ap-southeast-1:
         Dedicated: 3.979
         Shared: 3.816
+      ap-southeast-2:
+        Dedicated: 3.98
+        Shared: 3.816
+      eu-central-1:
+        Dedicated: 3.968
+        Shared: 3.804
       eu-west-1:
         Dedicated: 3.753
         Shared: 3.6
@@ -28889,7 +28991,9 @@ z1d.6xlarge:
     - us-east-1
     - ap-southeast-1
     - us-west-1
+    - ap-southeast-2
     - ap-northeast-1
+    - eu-central-1
   storage: 1 x 900 NVMe SSD
   vcpu: 24
 z1d.large:
@@ -28908,6 +29012,12 @@ z1d.large:
       ap-southeast-1:
         Dedicated: 0.24
         Shared: 0.226
+      ap-southeast-2:
+        Dedicated: 0.24
+        Shared: 0.226
+      eu-central-1:
+        Dedicated: 0.239
+        Shared: 0.225
       eu-west-1:
         Dedicated: 0.221
         Shared: 0.208
@@ -28927,6 +29037,12 @@ z1d.large:
       ap-southeast-1:
         Dedicated: 0.3
         Shared: 0.286
+      ap-southeast-2:
+        Dedicated: 0.3
+        Shared: 0.286
+      eu-central-1:
+        Dedicated: 0.299
+        Shared: 0.285
       eu-west-1:
         Dedicated: 0.281
         Shared: 0.268
@@ -28946,6 +29062,12 @@ z1d.large:
       ap-southeast-1:
         Dedicated: 0.303
         Shared: 0.289
+      ap-southeast-2:
+        Dedicated: 0.303
+        Shared: 0.289
+      eu-central-1:
+        Dedicated: 0.302
+        Shared: 0.288
       eu-west-1:
         Dedicated: 0.284
         Shared: 0.271
@@ -28965,6 +29087,12 @@ z1d.large:
       ap-southeast-1:
         Dedicated: 0.332
         Shared: 0.318
+      ap-southeast-2:
+        Dedicated: 0.332
+        Shared: 0.318
+      eu-central-1:
+        Dedicated: 0.331
+        Shared: 0.317
       eu-west-1:
         Dedicated: 0.221
         Shared: 0.3
@@ -28980,9 +29108,11 @@ z1d.large:
   regions:
     - us-east-1
     - eu-west-1
+    - eu-central-1
     - ap-southeast-1
     - ap-northeast-1
     - us-west-2
+    - ap-southeast-2
     - us-west-1
   storage: 1 x 75 NVMe SSD
   vcpu: 2
@@ -29001,6 +29131,12 @@ z1d.metal:
       ap-southeast-1:
         Dedicated: 5.424
         Shared: 5.424
+      ap-southeast-2:
+        Dedicated: 5.424
+        Shared: 5.424
+      eu-central-1:
+        Dedicated: 5.4
+        Shared: 5.4
       eu-west-1:
         Dedicated: 4.992
         Shared: 4.992
@@ -29020,6 +29156,12 @@ z1d.metal:
       ap-southeast-1:
         Dedicated: 5.554
         Shared: 5.554
+      ap-southeast-2:
+        Dedicated: 5.554
+        Shared: 5.554
+      eu-central-1:
+        Dedicated: 5.53
+        Shared: 5.53
       eu-west-1:
         Dedicated: 5.122
         Shared: 5.122
@@ -29039,6 +29181,12 @@ z1d.metal:
       ap-southeast-1:
         Dedicated: 5.574
         Shared: 5.574
+      ap-southeast-2:
+        Dedicated: 5.574
+        Shared: 5.574
+      eu-central-1:
+        Dedicated: 5.55
+        Shared: 5.55
       eu-west-1:
         Dedicated: 5.142
         Shared: 5.142
@@ -29058,6 +29206,12 @@ z1d.metal:
       ap-southeast-1:
         Dedicated: 7.632
         Shared: 7.632
+      ap-southeast-2:
+        Dedicated: 7.632
+        Shared: 7.632
+      eu-central-1:
+        Dedicated: 7.608
+        Shared: 7.608
       eu-west-1:
         Dedicated: 7.2
         Shared: 7.2
@@ -29071,9 +29225,11 @@ z1d.metal:
         Dedicated: 6.672
         Shared: 6.672
   regions:
+    - ap-southeast-2
     - us-west-2
     - eu-west-1
     - ap-northeast-1
+    - eu-central-1
     - us-west-1
     - us-east-1
     - ap-southeast-1
@@ -29094,6 +29250,12 @@ z1d.xlarge:
       ap-southeast-1:
         Dedicated: 0.479
         Shared: 0.452
+      ap-southeast-2:
+        Dedicated: 0.479
+        Shared: 0.452
+      eu-central-1:
+        Dedicated: 0.477
+        Shared: 0.45
       eu-west-1:
         Dedicated: 0.441
         Shared: 0.416
@@ -29113,6 +29275,12 @@ z1d.xlarge:
       ap-southeast-1:
         Dedicated: 0.539
         Shared: 0.512
+      ap-southeast-2:
+        Dedicated: 0.539
+        Shared: 0.512
+      eu-central-1:
+        Dedicated: 0.537
+        Shared: 0.51
       eu-west-1:
         Dedicated: 0.501
         Shared: 0.476
@@ -29132,6 +29300,12 @@ z1d.xlarge:
       ap-southeast-1:
         Dedicated: 0.604
         Shared: 0.577
+      ap-southeast-2:
+        Dedicated: 0.604
+        Shared: 0.577
+      eu-central-1:
+        Dedicated: 0.602
+        Shared: 0.575
       eu-west-1:
         Dedicated: 0.566
         Shared: 0.541
@@ -29151,6 +29325,12 @@ z1d.xlarge:
       ap-southeast-1:
         Dedicated: 0.663
         Shared: 0.452
+      ap-southeast-2:
+        Dedicated: 0.663
+        Shared: 0.636
+      eu-central-1:
+        Dedicated: 0.661
+        Shared: 0.634
       eu-west-1:
         Dedicated: 0.441
         Shared: 0.6
@@ -29169,6 +29349,8 @@ z1d.xlarge:
     - us-west-1
     - us-east-1
     - ap-northeast-1
+    - eu-central-1
+    - ap-southeast-2
     - us-west-2
   storage: 1 x 150 NVMe SSD
   vcpu: 4
