@@ -16191,6 +16191,420 @@ m5a.xlarge:
     - eu-central-1
   storage: EBS only
   vcpu: 4
+m5ad.12xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 5000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 192 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 96
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 3.286
+        Shared: 3.096
+      us-east-1:
+        Dedicated: 2.623
+        Shared: 2.472
+      us-east-2:
+        Dedicated: 2.623
+        Shared: 2.472
+      us-west-2:
+        Dedicated: 2.623
+        Shared: 2.472
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 3.416
+        Shared: 3.226
+      us-east-1:
+        Dedicated: 2.753
+        Shared: 2.602
+      us-east-2:
+        Dedicated: 2.753
+        Shared: 2.602
+      us-west-2:
+        Dedicated: 2.753
+        Shared: 2.602
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 3.436
+        Shared: 3.246
+      us-east-1:
+        Dedicated: 2.773
+        Shared: 2.622
+      us-east-2:
+        Dedicated: 2.773
+        Shared: 2.622
+      us-west-2:
+        Dedicated: 2.773
+        Shared: 2.622
+    Windows:
+      ap-southeast-1:
+        Dedicated: 5.494
+        Shared: 5.304
+      us-east-1:
+        Dedicated: 4.831
+        Shared: 4.68
+      us-east-2:
+        Dedicated: 4.831
+        Shared: 4.68
+      us-west-2:
+        Dedicated: 4.831
+        Shared: 4.68
+  regions:
+    - us-east-2
+    - us-east-1
+    - ap-southeast-1
+    - us-west-2
+  storage: 2 x 900 NVMe SSD
+  vcpu: 48
+m5ad.24xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 384 GiB
+  networkPerformance: 20 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 6.573
+        Shared: 6.192
+      us-east-1:
+        Dedicated: 5.245
+        Shared: 4.944
+      us-east-2:
+        Dedicated: 5.245
+        Shared: 4.944
+      us-west-2:
+        Dedicated: 5.245
+        Shared: 4.944
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 6.703
+        Shared: 6.322
+      us-east-1:
+        Dedicated: 5.375
+        Shared: 5.074
+      us-east-2:
+        Dedicated: 5.375
+        Shared: 5.074
+      us-west-2:
+        Dedicated: 5.375
+        Shared: 5.074
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 6.723
+        Shared: 6.342
+      us-east-1:
+        Dedicated: 5.395
+        Shared: 5.094
+      us-east-2:
+        Dedicated: 5.395
+        Shared: 5.094
+      us-west-2:
+        Dedicated: 5.395
+        Shared: 5.094
+    Windows:
+      ap-southeast-1:
+        Dedicated: 10.989
+        Shared: 10.608
+      us-east-1:
+        Dedicated: 9.661
+        Shared: 9.36
+      us-east-2:
+        Dedicated: 9.661
+        Shared: 9.36
+      us-west-2:
+        Dedicated: 9.661
+        Shared: 9.36
+  regions:
+    - ap-southeast-1
+    - us-west-2
+    - us-east-2
+    - us-east-1
+  storage: 4 x 900 NVMe SSD
+  vcpu: 96
+m5ad.2xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 16
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.548
+        Shared: 0.516
+      us-east-1:
+        Dedicated: 0.437
+        Shared: 0.412
+      us-east-2:
+        Dedicated: 0.437
+        Shared: 0.412
+      us-west-2:
+        Dedicated: 0.437
+        Shared: 0.412
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.678
+        Shared: 0.646
+      us-east-1:
+        Dedicated: 0.567
+        Shared: 0.542
+      us-east-2:
+        Dedicated: 0.567
+        Shared: 0.542
+      us-west-2:
+        Dedicated: 0.567
+        Shared: 0.542
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.698
+        Shared: 0.666
+      us-east-1:
+        Dedicated: 0.587
+        Shared: 0.562
+      us-east-2:
+        Dedicated: 0.587
+        Shared: 0.562
+      us-west-2:
+        Dedicated: 0.587
+        Shared: 0.562
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.916
+        Shared: 0.884
+      us-east-1:
+        Dedicated: 0.805
+        Shared: 0.78
+      us-east-2:
+        Dedicated: 0.805
+        Shared: 0.78
+      us-west-2:
+        Dedicated: 0.805
+        Shared: 0.78
+  regions:
+    - us-east-1
+    - us-west-2
+    - ap-southeast-1
+    - us-east-2
+  storage: 1 x 300 NVMe SSD
+  vcpu: 8
+m5ad.4xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 64 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 32
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 1.095
+        Shared: 1.032
+      us-east-1:
+        Dedicated: 0.874
+        Shared: 0.824
+      us-east-2:
+        Dedicated: 0.874
+        Shared: 0.824
+      us-west-2:
+        Dedicated: 0.874
+        Shared: 0.824
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 1.225
+        Shared: 1.162
+      us-east-1:
+        Dedicated: 1.004
+        Shared: 0.954
+      us-east-2:
+        Dedicated: 1.004
+        Shared: 0.954
+      us-west-2:
+        Dedicated: 1.004
+        Shared: 0.954
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 1.245
+        Shared: 1.182
+      us-east-1:
+        Dedicated: 1.024
+        Shared: 0.974
+      us-east-2:
+        Dedicated: 1.024
+        Shared: 0.974
+      us-west-2:
+        Dedicated: 1.024
+        Shared: 0.974
+    Windows:
+      ap-southeast-1:
+        Dedicated: 1.831
+        Shared: 1.768
+      us-east-1:
+        Dedicated: 1.61
+        Shared: 1.56
+      us-east-2:
+        Dedicated: 1.61
+        Shared: 1.56
+      us-west-2:
+        Dedicated: 1.61
+        Shared: 1.56
+  regions:
+    - us-east-1
+    - us-east-2
+    - us-west-2
+    - ap-southeast-1
+  storage: 2 x 300 NVMe SSD
+  vcpu: 16
+m5ad.large:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 8 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 4
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.137
+        Shared: 0.129
+      us-east-1:
+        Dedicated: 0.109
+        Shared: 0.103
+      us-east-2:
+        Dedicated: 0.109
+        Shared: 0.103
+      us-west-2:
+        Dedicated: 0.109
+        Shared: 0.103
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.197
+        Shared: 0.189
+      us-east-1:
+        Dedicated: 0.169
+        Shared: 0.163
+      us-east-2:
+        Dedicated: 0.169
+        Shared: 0.163
+      us-west-2:
+        Dedicated: 0.169
+        Shared: 0.163
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.2
+        Shared: 0.192
+      us-east-1:
+        Dedicated: 0.172
+        Shared: 0.166
+      us-east-2:
+        Dedicated: 0.172
+        Shared: 0.166
+      us-west-2:
+        Dedicated: 0.172
+        Shared: 0.166
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.229
+        Shared: 0.221
+      us-east-1:
+        Dedicated: 0.201
+        Shared: 0.195
+      us-east-2:
+        Dedicated: 0.201
+        Shared: 0.195
+      us-west-2:
+        Dedicated: 0.201
+        Shared: 0.195
+  regions:
+    - us-east-2
+    - ap-southeast-1
+    - us-east-1
+    - us-west-2
+  storage: 1 x 75 NVMe SSD
+  vcpu: 2
+m5ad.xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 16 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 8
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.274
+        Shared: 0.258
+      us-east-1:
+        Dedicated: 0.219
+        Shared: 0.206
+      us-east-2:
+        Dedicated: 0.219
+        Shared: 0.206
+      us-west-2:
+        Dedicated: 0.219
+        Shared: 0.206
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.334
+        Shared: 0.318
+      us-east-1:
+        Dedicated: 0.279
+        Shared: 0.266
+      us-east-2:
+        Dedicated: 0.279
+        Shared: 0.266
+      us-west-2:
+        Dedicated: 0.279
+        Shared: 0.266
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.399
+        Shared: 0.383
+      us-east-1:
+        Dedicated: 0.344
+        Shared: 0.331
+      us-east-2:
+        Dedicated: 0.344
+        Shared: 0.331
+      us-west-2:
+        Dedicated: 0.344
+        Shared: 0.331
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.458
+        Shared: 0.442
+      us-east-1:
+        Dedicated: 0.403
+        Shared: 0.39
+      us-east-2:
+        Dedicated: 0.403
+        Shared: 0.39
+      us-west-2:
+        Dedicated: 0.403
+        Shared: 0.39
+  regions:
+    - us-west-2
+    - us-east-1
+    - ap-southeast-1
+    - us-east-2
+  storage: 1 x 150 NVMe SSD
+  vcpu: 4
 m5d.12xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
@@ -23429,6 +23843,420 @@ r5a.xlarge:
     - ap-northeast-1
     - us-east-1
   storage: EBS only
+  vcpu: 4
+r5ad.12xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 5000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 384 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 96
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 4.044
+        Shared: 3.816
+      us-east-1:
+        Dedicated: 3.334
+        Shared: 3.144
+      us-east-2:
+        Dedicated: 3.334
+        Shared: 3.144
+      us-west-2:
+        Dedicated: 3.334
+        Shared: 3.144
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 4.174
+        Shared: 3.946
+      us-east-1:
+        Dedicated: 3.464
+        Shared: 3.274
+      us-east-2:
+        Dedicated: 3.464
+        Shared: 3.274
+      us-west-2:
+        Dedicated: 3.464
+        Shared: 3.274
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 4.194
+        Shared: 3.966
+      us-east-1:
+        Dedicated: 3.484
+        Shared: 3.294
+      us-east-2:
+        Dedicated: 3.484
+        Shared: 3.294
+      us-west-2:
+        Dedicated: 3.484
+        Shared: 3.294
+    Windows:
+      ap-southeast-1:
+        Dedicated: 6.252
+        Shared: 6.024
+      us-east-1:
+        Dedicated: 5.542
+        Shared: 5.352
+      us-east-2:
+        Dedicated: 5.542
+        Shared: 5.352
+      us-west-2:
+        Dedicated: 5.542
+        Shared: 5.352
+  regions:
+    - us-east-1
+    - ap-southeast-1
+    - us-west-2
+    - us-east-2
+  storage: 2 x 900 NVMe SSD
+  vcpu: 48
+r5ad.24xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 768 GiB
+  networkPerformance: 20 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 8.088
+        Shared: 7.632
+      us-east-1:
+        Dedicated: 6.667
+        Shared: 6.288
+      us-east-2:
+        Dedicated: 6.667
+        Shared: 6.288
+      us-west-2:
+        Dedicated: 6.667
+        Shared: 6.288
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 8.218
+        Shared: 7.762
+      us-east-1:
+        Dedicated: 6.797
+        Shared: 6.418
+      us-east-2:
+        Dedicated: 6.797
+        Shared: 6.418
+      us-west-2:
+        Dedicated: 6.797
+        Shared: 6.418
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 8.238
+        Shared: 7.782
+      us-east-1:
+        Dedicated: 6.817
+        Shared: 6.438
+      us-east-2:
+        Dedicated: 6.817
+        Shared: 6.438
+      us-west-2:
+        Dedicated: 6.817
+        Shared: 6.438
+    Windows:
+      ap-southeast-1:
+        Dedicated: 12.504
+        Shared: 12.048
+      us-east-1:
+        Dedicated: 11.083
+        Shared: 10.704
+      us-east-2:
+        Dedicated: 11.083
+        Shared: 10.704
+      us-west-2:
+        Dedicated: 11.083
+        Shared: 10.704
+  regions:
+    - us-west-2
+    - ap-southeast-1
+    - us-east-1
+    - us-east-2
+  storage: 4 x 900 NVMe SSD
+  vcpu: 96
+r5ad.2xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 64 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 16
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.674
+        Shared: 0.636
+      us-east-1:
+        Dedicated: 0.556
+        Shared: 0.524
+      us-east-2:
+        Dedicated: 0.556
+        Shared: 0.524
+      us-west-2:
+        Dedicated: 0.556
+        Shared: 0.524
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.804
+        Shared: 0.766
+      us-east-1:
+        Dedicated: 0.686
+        Shared: 0.654
+      us-east-2:
+        Dedicated: 0.686
+        Shared: 0.654
+      us-west-2:
+        Dedicated: 0.686
+        Shared: 0.654
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.824
+        Shared: 0.786
+      us-east-1:
+        Dedicated: 0.706
+        Shared: 0.674
+      us-east-2:
+        Dedicated: 0.706
+        Shared: 0.674
+      us-west-2:
+        Dedicated: 0.706
+        Shared: 0.674
+    Windows:
+      ap-southeast-1:
+        Dedicated: 1.042
+        Shared: 1.004
+      us-east-1:
+        Dedicated: 0.924
+        Shared: 0.892
+      us-east-2:
+        Dedicated: 0.924
+        Shared: 0.892
+      us-west-2:
+        Dedicated: 0.924
+        Shared: 0.892
+  regions:
+    - us-west-2
+    - ap-southeast-1
+    - us-east-1
+    - us-east-2
+  storage: 1 x 300 NVMe SSD
+  vcpu: 8
+r5ad.4xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 128 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 32
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 1.348
+        Shared: 1.272
+      us-east-1:
+        Dedicated: 1.111
+        Shared: 1.048
+      us-east-2:
+        Dedicated: 1.111
+        Shared: 1.048
+      us-west-2:
+        Dedicated: 1.111
+        Shared: 1.048
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 1.478
+        Shared: 1.402
+      us-east-1:
+        Dedicated: 1.241
+        Shared: 1.178
+      us-east-2:
+        Dedicated: 1.241
+        Shared: 1.178
+      us-west-2:
+        Dedicated: 1.241
+        Shared: 1.178
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 1.498
+        Shared: 1.422
+      us-east-1:
+        Dedicated: 1.261
+        Shared: 1.198
+      us-east-2:
+        Dedicated: 1.261
+        Shared: 1.198
+      us-west-2:
+        Dedicated: 1.261
+        Shared: 1.198
+    Windows:
+      ap-southeast-1:
+        Dedicated: 2.084
+        Shared: 2.008
+      us-east-1:
+        Dedicated: 1.847
+        Shared: 1.784
+      us-east-2:
+        Dedicated: 1.847
+        Shared: 1.784
+      us-west-2:
+        Dedicated: 1.847
+        Shared: 1.784
+  regions:
+    - us-east-1
+    - ap-southeast-1
+    - us-west-2
+    - us-east-2
+  storage: 2 x 300 NVMe SSD
+  vcpu: 16
+r5ad.large:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 16 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 4
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.168
+        Shared: 0.159
+      us-east-1:
+        Dedicated: 0.139
+        Shared: 0.131
+      us-east-2:
+        Dedicated: 0.139
+        Shared: 0.131
+      us-west-2:
+        Dedicated: 0.139
+        Shared: 0.131
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.228
+        Shared: 0.219
+      us-east-1:
+        Dedicated: 0.199
+        Shared: 0.191
+      us-east-2:
+        Dedicated: 0.199
+        Shared: 0.191
+      us-west-2:
+        Dedicated: 0.199
+        Shared: 0.191
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.231
+        Shared: 0.222
+      us-east-1:
+        Dedicated: 0.202
+        Shared: 0.194
+      us-east-2:
+        Dedicated: 0.202
+        Shared: 0.194
+      us-west-2:
+        Dedicated: 0.202
+        Shared: 0.194
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.26
+        Shared: 0.251
+      us-east-1:
+        Dedicated: 0.231
+        Shared: 0.223
+      us-east-2:
+        Dedicated: 0.231
+        Shared: 0.223
+      us-west-2:
+        Dedicated: 0.231
+        Shared: 0.223
+  regions:
+    - us-west-2
+    - us-east-2
+    - ap-southeast-1
+    - us-east-1
+  storage: 1 x 75 NVMe SSD
+  vcpu: 2
+r5ad.xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 8
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 0.337
+        Shared: 0.318
+      us-east-1:
+        Dedicated: 0.278
+        Shared: 0.262
+      us-east-2:
+        Dedicated: 0.278
+        Shared: 0.262
+      us-west-2:
+        Dedicated: 0.278
+        Shared: 0.262
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 0.397
+        Shared: 0.378
+      us-east-1:
+        Dedicated: 0.338
+        Shared: 0.322
+      us-east-2:
+        Dedicated: 0.338
+        Shared: 0.322
+      us-west-2:
+        Dedicated: 0.338
+        Shared: 0.322
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 0.462
+        Shared: 0.443
+      us-east-1:
+        Dedicated: 0.403
+        Shared: 0.387
+      us-east-2:
+        Dedicated: 0.403
+        Shared: 0.387
+      us-west-2:
+        Dedicated: 0.403
+        Shared: 0.387
+    Windows:
+      ap-southeast-1:
+        Dedicated: 0.521
+        Shared: 0.502
+      us-east-1:
+        Dedicated: 0.462
+        Shared: 0.446
+      us-east-2:
+        Dedicated: 0.462
+        Shared: 0.446
+      us-west-2:
+        Dedicated: 0.462
+        Shared: 0.446
+  regions:
+    - us-west-2
+    - us-east-1
+    - ap-southeast-1
+    - us-east-2
+  storage: 1 x 150 NVMe SSD
   vcpu: 4
 r5d.12xlarge:
   currentGeneration: true
