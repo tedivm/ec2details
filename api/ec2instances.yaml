@@ -34,11 +34,24 @@ a1.2xlarge:
       us-west-2:
         Dedicated: 0.3462
         Shared: 0.334
+    SUSE:
+      eu-west-1:
+        Dedicated: 0.3954
+        Shared: 0.3804
+      us-east-1:
+        Dedicated: 0.3662
+        Shared: 0.354
+      us-east-2:
+        Dedicated: 0.3662
+        Shared: 0.354
+      us-west-2:
+        Dedicated: 0.3662
+        Shared: 0.354
   regions:
-    - us-west-2
-    - eu-west-1
     - us-east-1
     - us-east-2
+    - us-west-2
+    - eu-west-1
   storage: EBS only
   vcpu: 8
 a1.4xlarge:
@@ -77,11 +90,24 @@ a1.4xlarge:
       us-west-2:
         Dedicated: 0.538
         Shared: 0.538
+    SUSE:
+      eu-west-1:
+        Dedicated: 0.6108
+        Shared: 0.6108
+      us-east-1:
+        Dedicated: 0.558
+        Shared: 0.558
+      us-east-2:
+        Dedicated: 0.558
+        Shared: 0.558
+      us-west-2:
+        Dedicated: 0.558
+        Shared: 0.558
   regions:
     - us-east-2
     - us-west-2
-    - eu-west-1
     - us-east-1
+    - eu-west-1
   storage: EBS only
   vcpu: 16
 a1.large:
@@ -120,6 +146,19 @@ a1.large:
       us-west-2:
         Dedicated: 0.1141
         Shared: 0.111
+    SUSE:
+      eu-west-1:
+        Dedicated: 0.1244
+        Shared: 0.1206
+      us-east-1:
+        Dedicated: 0.1171
+        Shared: 0.114
+      us-east-2:
+        Dedicated: 0.1171
+        Shared: 0.114
+      us-west-2:
+        Dedicated: 0.1171
+        Shared: 0.114
   regions:
     - us-east-2
     - eu-west-1
@@ -163,11 +202,24 @@ a1.medium:
       us-west-2:
         Dedicated: 0.087
         Shared: 0.0855
+    SUSE:
+      eu-west-1:
+        Dedicated: 0.0617
+        Shared: 0.0598
+      us-east-1:
+        Dedicated: 0.058
+        Shared: 0.0565
+      us-east-2:
+        Dedicated: 0.058
+        Shared: 0.0565
+      us-west-2:
+        Dedicated: 0.058
+        Shared: 0.0565
   regions:
+    - eu-west-1
     - us-west-2
     - us-east-2
     - us-east-1
-    - eu-west-1
   storage: EBS only
   vcpu: 1
 a1.xlarge:
@@ -206,6 +258,19 @@ a1.xlarge:
       us-west-2:
         Dedicated: 0.1681
         Shared: 0.162
+    SUSE:
+      eu-west-1:
+        Dedicated: 0.2477
+        Shared: 0.2402
+      us-east-1:
+        Dedicated: 0.2331
+        Shared: 0.227
+      us-east-2:
+        Dedicated: 0.2331
+        Shared: 0.227
+      us-west-2:
+        Dedicated: 0.2331
+        Shared: 0.227
   regions:
     - eu-west-1
     - us-east-1
