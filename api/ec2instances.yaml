@@ -22472,7 +22472,7 @@ r5.4xlarge:
 r5.large:
   clockSpeed: 3.1 GHz
   currentGeneration: true
-  ecu: 10
+  ecu: 9
   memory: 16 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 4
