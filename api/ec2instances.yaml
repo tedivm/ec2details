@@ -28214,6 +28214,436 @@ t3.xlarge:
     - ca-central-1
   storage: EBS only
   vcpu: 4
+t3a.2xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  ecu: .nan
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: Moderate
+  normalizationSizeFactor: 16
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 0.3776
+      eu-west-1:
+        Shared: 0.3264
+      us-east-1:
+        Shared: 0.3008
+      us-east-2:
+        Shared: 0.3008
+      us-west-2:
+        Shared: 0.3008
+    RHEL:
+      ap-southeast-1:
+        Shared: 0.5076
+      eu-west-1:
+        Shared: 0.4564
+      us-east-1:
+        Shared: 0.4308
+      us-east-2:
+        Shared: 0.4308
+      us-west-2:
+        Shared: 0.4308
+    SUSE:
+      ap-southeast-1:
+        Shared: 0.5276
+      eu-west-1:
+        Shared: 0.4764
+      us-east-1:
+        Shared: 0.4508
+      us-east-2:
+        Shared: 0.4508
+      us-west-2:
+        Shared: 0.4508
+    Windows:
+      ap-southeast-1:
+        Shared: 0.5248
+      eu-west-1:
+        Shared: 0.4736
+      us-east-1:
+        Shared: 0.448
+      us-east-2:
+        Shared: 0.448
+      us-west-2:
+        Shared: 0.448
+  regions:
+    - eu-west-1
+    - us-east-2
+    - us-east-1
+    - us-west-2
+    - ap-southeast-1
+  storage: EBS only
+  vcpu: 8
+t3a.large:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  ecu: .nan
+  enhancedNetworkingSupported: true
+  memory: 8 GiB
+  networkPerformance: Low to Moderate
+  normalizationSizeFactor: 4
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 0.0944
+      eu-west-1:
+        Shared: 0.0816
+      us-east-1:
+        Shared: 0.0752
+      us-east-2:
+        Shared: 0.0752
+      us-west-2:
+        Shared: 0.0752
+    RHEL:
+      ap-southeast-1:
+        Shared: 0.1544
+      eu-west-1:
+        Shared: 0.1416
+      us-east-1:
+        Shared: 0.1352
+      us-east-2:
+        Shared: 0.1352
+      us-west-2:
+        Shared: 0.1352
+    SUSE:
+      ap-southeast-1:
+        Shared: 0.1574
+      eu-west-1:
+        Shared: 0.1446
+      us-east-1:
+        Shared: 0.1382
+      us-east-2:
+        Shared: 0.1382
+      us-west-2:
+        Shared: 0.1382
+    Windows:
+      ap-southeast-1:
+        Shared: 0.122
+      eu-west-1:
+        Shared: 0.1092
+      us-east-1:
+        Shared: 0.1028
+      us-east-2:
+        Shared: 0.1028
+      us-west-2:
+        Shared: 0.1028
+  regions:
+    - us-west-2
+    - us-east-2
+    - ap-southeast-1
+    - eu-west-1
+    - us-east-1
+  storage: EBS only
+  vcpu: 2
+t3a.medium:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  ecu: .nan
+  enhancedNetworkingSupported: true
+  memory: 4 GiB
+  networkPerformance: Low to Moderate
+  normalizationSizeFactor: 2
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 0.0472
+      eu-west-1:
+        Shared: 0.0408
+      us-east-1:
+        Shared: 0.0376
+      us-east-2:
+        Shared: 0.0376
+      us-west-2:
+        Shared: 0.0376
+    RHEL:
+      ap-southeast-1:
+        Shared: 0.1072
+      eu-west-1:
+        Shared: 0.1008
+      us-east-1:
+        Shared: 0.0976
+      us-east-2:
+        Shared: 0.0976
+      us-west-2:
+        Shared: 0.0976
+    SUSE:
+      ap-southeast-1:
+        Shared: 0.1102
+      eu-west-1:
+        Shared: 0.1038
+      us-east-1:
+        Shared: 0.1006
+      us-east-2:
+        Shared: 0.1006
+      us-west-2:
+        Shared: 0.1006
+    Windows:
+      ap-southeast-1:
+        Shared: 0.0656
+      eu-west-1:
+        Shared: 0.0592
+      us-east-1:
+        Shared: 0.056
+      us-east-2:
+        Shared: 0.056
+      us-west-2:
+        Shared: 0.056
+  regions:
+    - us-east-2
+    - eu-west-1
+    - ap-southeast-1
+    - us-east-1
+    - us-west-2
+  storage: EBS only
+  vcpu: 2
+t3a.micro:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 1500 Mbps
+  ecu: .nan
+  enhancedNetworkingSupported: true
+  memory: 1 GiB
+  networkPerformance: Low to Moderate
+  normalizationSizeFactor: 0
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 0.0118
+      eu-west-1:
+        Shared: 0.0102
+      us-east-1:
+        Shared: 0.0094
+      us-east-2:
+        Shared: 0.0094
+      us-west-2:
+        Shared: 0.0094
+    RHEL:
+      ap-southeast-1:
+        Shared: 0.0718
+      eu-west-1:
+        Shared: 0.0702
+      us-east-1:
+        Shared: 0.0694
+      us-east-2:
+        Shared: 0.0694
+      us-west-2:
+        Shared: 0.0694
+    SUSE:
+      ap-southeast-1:
+        Shared: 0.0118
+      eu-west-1:
+        Shared: 0.0102
+      us-east-1:
+        Shared: 0.0094
+      us-east-2:
+        Shared: 0.0094
+      us-west-2:
+        Shared: 0.0094
+    Windows:
+      ap-southeast-1:
+        Shared: 0.021
+      eu-west-1:
+        Shared: 0.0194
+      us-east-1:
+        Shared: 0.0186
+      us-east-2:
+        Shared: 0.0186
+      us-west-2:
+        Shared: 0.0186
+  regions:
+    - eu-west-1
+    - us-east-2
+    - ap-southeast-1
+    - us-west-2
+    - us-east-1
+  storage: EBS only
+  vcpu: 2
+t3a.nano:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 1500 Mbps
+  ecu: .nan
+  enhancedNetworkingSupported: true
+  memory: 0.5 GiB
+  networkPerformance: Low
+  normalizationSizeFactor: 0
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 0.0059
+      eu-west-1:
+        Shared: 0.0051
+      us-east-1:
+        Shared: 0.0047
+      us-east-2:
+        Shared: 0.0047
+      us-west-2:
+        Shared: 0.0047
+    SUSE:
+      ap-southeast-1:
+        Shared: 0.0059
+      eu-west-1:
+        Shared: 0.0051
+      us-east-1:
+        Shared: 0.0047
+      us-east-2:
+        Shared: 0.0047
+      us-west-2:
+        Shared: 0.0047
+    Windows:
+      ap-southeast-1:
+        Shared: 0.0105
+      eu-west-1:
+        Shared: 0.0097
+      us-east-1:
+        Shared: 0.0093
+      us-east-2:
+        Shared: 0.0093
+      us-west-2:
+        Shared: 0.0093
+  regions:
+    - us-west-2
+    - us-east-2
+    - ap-southeast-1
+    - eu-west-1
+    - us-east-1
+  storage: EBS only
+  vcpu: 2
+t3a.small:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 1500 Mbps
+  ecu: .nan
+  enhancedNetworkingSupported: true
+  memory: 2 GiB
+  networkPerformance: Low to Moderate
+  normalizationSizeFactor: 1
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 0.0236
+      eu-west-1:
+        Shared: 0.0204
+      us-east-1:
+        Shared: 0.0188
+      us-east-2:
+        Shared: 0.0188
+      us-west-2:
+        Shared: 0.0188
+    RHEL:
+      ap-southeast-1:
+        Shared: 0.0836
+      eu-west-1:
+        Shared: 0.0804
+      us-east-1:
+        Shared: 0.0788
+      us-east-2:
+        Shared: 0.0788
+      us-west-2:
+        Shared: 0.0788
+    SUSE:
+      ap-southeast-1:
+        Shared: 0.0546
+      eu-west-1:
+        Shared: 0.0514
+      us-east-1:
+        Shared: 0.0498
+      us-east-2:
+        Shared: 0.0498
+      us-west-2:
+        Shared: 0.0498
+    Windows:
+      ap-southeast-1:
+        Shared: 0.042
+      eu-west-1:
+        Shared: 0.0388
+      us-east-1:
+        Shared: 0.0372
+      us-east-2:
+        Shared: 0.0372
+      us-west-2:
+        Shared: 0.0372
+  regions:
+    - us-west-2
+    - ap-southeast-1
+    - us-east-1
+    - eu-west-1
+    - us-east-2
+  storage: EBS only
+  vcpu: 2
+t3a.xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Upto 2120 Mbps
+  ecu: .nan
+  enhancedNetworkingSupported: true
+  memory: 16 GiB
+  networkPerformance: Moderate
+  normalizationSizeFactor: 8
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 0.1888
+      eu-west-1:
+        Shared: 0.1632
+      us-east-1:
+        Shared: 0.1504
+      us-east-2:
+        Shared: 0.1504
+      us-west-2:
+        Shared: 0.1504
+    RHEL:
+      ap-southeast-1:
+        Shared: 0.2488
+      eu-west-1:
+        Shared: 0.2232
+      us-east-1:
+        Shared: 0.2104
+      us-east-2:
+        Shared: 0.2104
+      us-west-2:
+        Shared: 0.2104
+    SUSE:
+      ap-southeast-1:
+        Shared: 0.3138
+      eu-west-1:
+        Shared: 0.2882
+      us-east-1:
+        Shared: 0.2754
+      us-east-2:
+        Shared: 0.2754
+      us-west-2:
+        Shared: 0.2754
+    Windows:
+      ap-southeast-1:
+        Shared: 0.2624
+      eu-west-1:
+        Shared: 0.2368
+      us-east-1:
+        Shared: 0.224
+      us-east-2:
+        Shared: 0.224
+      us-west-2:
+        Shared: 0.224
+  regions:
+    - us-east-2
+    - ap-southeast-1
+    - us-west-2
+    - us-east-1
+    - eu-west-1
+  storage: EBS only
+  vcpu: 4
 x1.16xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
