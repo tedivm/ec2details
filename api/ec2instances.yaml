@@ -2508,6 +2508,9 @@ c5.18xlarge:
       ap-southeast-2:
         Dedicated: 3.996
         Shared: 3.996
+      Asia Pacific (Hong Kong):
+        Dedicated: 3.888
+        Shared: 3.888
       AWS GovCloud (US-East):
         Dedicated: 3.672
         Shared: 3.672
@@ -2563,6 +2566,9 @@ c5.18xlarge:
       ap-southeast-2:
         Dedicated: 4.126
         Shared: 4.126
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.018
+        Shared: 4.018
       AWS GovCloud (US-East):
         Dedicated: 3.802
         Shared: 3.802
@@ -2618,6 +2624,9 @@ c5.18xlarge:
       ap-southeast-2:
         Dedicated: 4.096
         Shared: 4.096
+      Asia Pacific (Hong Kong):
+        Dedicated: 3.988
+        Shared: 3.988
       AWS GovCloud (US-East):
         Dedicated: 3.772
         Shared: 3.772
@@ -2673,6 +2682,9 @@ c5.18xlarge:
       ap-southeast-2:
         Dedicated: 3.996
         Shared: 7.308
+      Asia Pacific (Hong Kong):
+        Dedicated: 7.2
+        Shared: 7.2
       AWS GovCloud (US-East):
         Dedicated: 6.984
         Shared: 6.984
@@ -2727,6 +2739,7 @@ c5.18xlarge:
     - eu-central-1
     - us-east-1
     - ap-south-1
+    - Asia Pacific (Hong Kong)
     - ap-northeast-1
     - sa-east-1
     - eu-west-3
@@ -2760,6 +2773,9 @@ c5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.471
         Shared: 0.444
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.46
+        Shared: 0.432
       AWS GovCloud (US-East):
         Dedicated: 0.433
         Shared: 0.408
@@ -2815,6 +2831,9 @@ c5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.601
         Shared: 0.574
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.59
+        Shared: 0.562
       AWS GovCloud (US-East):
         Dedicated: 0.563
         Shared: 0.538
@@ -2870,6 +2889,9 @@ c5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.571
         Shared: 0.544
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.56
+        Shared: 0.532
       AWS GovCloud (US-East):
         Dedicated: 0.533
         Shared: 0.508
@@ -2925,6 +2947,9 @@ c5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.471
         Shared: 0.812
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.828
+        Shared: 0.8
       AWS GovCloud (US-East):
         Dedicated: 0.801
         Shared: 0.776
@@ -2976,6 +3001,7 @@ c5.2xlarge:
     - us-east-2
     - sa-east-1
     - eu-west-2
+    - Asia Pacific (Hong Kong)
     - ap-northeast-1
     - us-west-1
     - eu-west-3
@@ -3012,6 +3038,9 @@ c5.4xlarge:
       ap-southeast-2:
         Dedicated: 0.942
         Shared: 0.888
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.919
+        Shared: 0.864
       AWS GovCloud (US-East):
         Dedicated: 0.865
         Shared: 0.816
@@ -3067,6 +3096,9 @@ c5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.072
         Shared: 1.018
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.049
+        Shared: 0.994
       AWS GovCloud (US-East):
         Dedicated: 0.995
         Shared: 0.946
@@ -3122,6 +3154,9 @@ c5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.042
         Shared: 0.988
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.019
+        Shared: 0.964
       AWS GovCloud (US-East):
         Dedicated: 0.965
         Shared: 0.916
@@ -3177,6 +3212,9 @@ c5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.678
         Shared: 1.624
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.655
+        Shared: 1.6
       AWS GovCloud (US-East):
         Dedicated: 1.601
         Shared: 1.552
@@ -3235,6 +3273,7 @@ c5.4xlarge:
     - sa-east-1
     - eu-central-1
     - us-gov-west-1
+    - Asia Pacific (Hong Kong)
   storage: EBS only
   vcpu: 16
 c5.9xlarge:
@@ -3264,6 +3303,9 @@ c5.9xlarge:
       ap-southeast-2:
         Dedicated: 2.119
         Shared: 1.998
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.069
+        Shared: 1.944
       AWS GovCloud (US-East):
         Dedicated: 1.946
         Shared: 1.836
@@ -3319,6 +3361,9 @@ c5.9xlarge:
       ap-southeast-2:
         Dedicated: 2.249
         Shared: 2.128
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.199
+        Shared: 2.074
       AWS GovCloud (US-East):
         Dedicated: 2.076
         Shared: 1.966
@@ -3374,6 +3419,9 @@ c5.9xlarge:
       ap-southeast-2:
         Dedicated: 2.219
         Shared: 2.098
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.169
+        Shared: 2.044
       AWS GovCloud (US-East):
         Dedicated: 2.046
         Shared: 1.936
@@ -3429,6 +3477,9 @@ c5.9xlarge:
       ap-southeast-2:
         Dedicated: 2.119
         Shared: 1.998
+      Asia Pacific (Hong Kong):
+        Dedicated: 3.725
+        Shared: 3.6
       AWS GovCloud (US-East):
         Dedicated: 3.602
         Shared: 3.492
@@ -3482,6 +3533,7 @@ c5.9xlarge:
     - us-east-1
     - ap-northeast-2
     - eu-west-3
+    - Asia Pacific (Hong Kong)
     - us-gov-west-1
     - sa-east-1
     - eu-central-1
@@ -3516,6 +3568,9 @@ c5.large:
       ap-southeast-2:
         Dedicated: 0.118
         Shared: 0.111
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.115
+        Shared: 0.108
       AWS GovCloud (US-East):
         Dedicated: 0.108
         Shared: 0.102
@@ -3571,6 +3626,9 @@ c5.large:
       ap-southeast-2:
         Dedicated: 0.178
         Shared: 0.171
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.175
+        Shared: 0.168
       AWS GovCloud (US-East):
         Dedicated: 0.168
         Shared: 0.162
@@ -3626,6 +3684,9 @@ c5.large:
       ap-southeast-2:
         Dedicated: 0.218
         Shared: 0.211
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.215
+        Shared: 0.208
       AWS GovCloud (US-East):
         Dedicated: 0.208
         Shared: 0.202
@@ -3681,6 +3742,9 @@ c5.large:
       ap-southeast-2:
         Dedicated: 0.118
         Shared: 0.203
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.207
+        Shared: 0.2
       AWS GovCloud (US-East):
         Dedicated: 0.2
         Shared: 0.194
@@ -3727,6 +3791,7 @@ c5.large:
     - ca-central-1
     - us-west-2
     - eu-central-1
+    - Asia Pacific (Hong Kong)
     - ap-south-1
     - eu-west-1
     - sa-east-1
@@ -3768,6 +3833,9 @@ c5.xlarge:
       ap-southeast-2:
         Dedicated: 0.235
         Shared: 0.222
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.23
+        Shared: 0.216
       AWS GovCloud (US-East):
         Dedicated: 0.216
         Shared: 0.204
@@ -3823,6 +3891,9 @@ c5.xlarge:
       ap-southeast-2:
         Dedicated: 0.295
         Shared: 0.282
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.29
+        Shared: 0.276
       AWS GovCloud (US-East):
         Dedicated: 0.276
         Shared: 0.264
@@ -3878,6 +3949,9 @@ c5.xlarge:
       ap-southeast-2:
         Dedicated: 0.335
         Shared: 0.322
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.33
+        Shared: 0.316
       AWS GovCloud (US-East):
         Dedicated: 0.316
         Shared: 0.304
@@ -3933,6 +4007,9 @@ c5.xlarge:
       ap-southeast-2:
         Dedicated: 0.419
         Shared: 0.406
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.414
+        Shared: 0.4
       AWS GovCloud (US-East):
         Dedicated: 0.4
         Shared: 0.388
@@ -3989,6 +4066,7 @@ c5.xlarge:
     - us-east-2
     - ap-southeast-2
     - eu-west-1
+    - Asia Pacific (Hong Kong)
     - ap-south-1
     - ap-northeast-2
   storage: EBS only
@@ -4020,6 +4098,9 @@ c5d.18xlarge:
       ap-southeast-2:
         Dedicated: 4.536
         Shared: 4.536
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.428
+        Shared: 4.428
       ca-central-1:
         Dedicated: 3.816
         Shared: 3.816
@@ -4069,6 +4150,9 @@ c5d.18xlarge:
       ap-southeast-2:
         Dedicated: 4.666
         Shared: 4.666
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.558
+        Shared: 4.558
       ca-central-1:
         Dedicated: 3.946
         Shared: 3.946
@@ -4118,6 +4202,9 @@ c5d.18xlarge:
       ap-southeast-2:
         Dedicated: 4.636
         Shared: 4.636
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.528
+        Shared: 4.528
       ca-central-1:
         Dedicated: 3.916
         Shared: 3.916
@@ -4167,6 +4254,9 @@ c5d.18xlarge:
       ap-southeast-2:
         Dedicated: 7.848
         Shared: 7.848
+      Asia Pacific (Hong Kong):
+        Dedicated: 7.74
+        Shared: 7.74
       ca-central-1:
         Dedicated: 7.128
         Shared: 7.128
@@ -4206,6 +4296,7 @@ c5d.18xlarge:
     - eu-central-1
     - ap-southeast-2
     - eu-west-2
+    - Asia Pacific (Hong Kong)
     - ap-southeast-1
     - us-gov-west-1
     - us-west-2
@@ -4246,6 +4337,9 @@ c5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.535
         Shared: 0.504
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.523
+        Shared: 0.492
       ca-central-1:
         Dedicated: 0.451
         Shared: 0.424
@@ -4295,6 +4389,9 @@ c5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.665
         Shared: 0.634
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.653
+        Shared: 0.622
       ca-central-1:
         Dedicated: 0.581
         Shared: 0.554
@@ -4344,6 +4441,9 @@ c5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.635
         Shared: 0.604
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.623
+        Shared: 0.592
       ca-central-1:
         Dedicated: 0.551
         Shared: 0.524
@@ -4393,6 +4493,9 @@ c5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.903
         Shared: 0.872
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.891
+        Shared: 0.86
       ca-central-1:
         Dedicated: 0.819
         Shared: 0.792
@@ -4437,6 +4540,7 @@ c5d.2xlarge:
     - ap-south-1
     - us-east-1
     - eu-west-2
+    - Asia Pacific (Hong Kong)
     - ca-central-1
     - eu-north-1
     - ap-northeast-2
@@ -4472,6 +4576,9 @@ c5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.07
         Shared: 1.008
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.047
+        Shared: 0.984
       ca-central-1:
         Dedicated: 0.902
         Shared: 0.848
@@ -4521,6 +4628,9 @@ c5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.2
         Shared: 1.138
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.177
+        Shared: 1.114
       ca-central-1:
         Dedicated: 1.032
         Shared: 0.978
@@ -4570,6 +4680,9 @@ c5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.17
         Shared: 1.108
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.147
+        Shared: 1.084
       ca-central-1:
         Dedicated: 1.002
         Shared: 0.948
@@ -4619,6 +4732,9 @@ c5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.806
         Shared: 1.744
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.783
+        Shared: 1.72
       ca-central-1:
         Dedicated: 0.902
         Shared: 1.584
@@ -4654,6 +4770,7 @@ c5d.4xlarge:
         Shared: 1.504
   regions:
     - us-east-2
+    - Asia Pacific (Hong Kong)
     - eu-north-1
     - ca-central-1
     - ap-southeast-2
@@ -4698,6 +4815,9 @@ c5d.9xlarge:
       ap-southeast-2:
         Dedicated: 2.406
         Shared: 2.268
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.355
+        Shared: 2.214
       ca-central-1:
         Dedicated: 2.03
         Shared: 1.908
@@ -4747,6 +4867,9 @@ c5d.9xlarge:
       ap-southeast-2:
         Dedicated: 2.536
         Shared: 2.398
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.485
+        Shared: 2.344
       ca-central-1:
         Dedicated: 2.16
         Shared: 2.038
@@ -4796,6 +4919,9 @@ c5d.9xlarge:
       ap-southeast-2:
         Dedicated: 2.506
         Shared: 2.368
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.455
+        Shared: 2.314
       ca-central-1:
         Dedicated: 2.13
         Shared: 2.008
@@ -4845,6 +4971,9 @@ c5d.9xlarge:
       ap-southeast-2:
         Dedicated: 4.062
         Shared: 3.924
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.011
+        Shared: 3.87
       ca-central-1:
         Dedicated: 3.686
         Shared: 1.908
@@ -4888,6 +5017,7 @@ c5d.9xlarge:
     - us-west-1
     - us-gov-west-1
     - ap-northeast-1
+    - Asia Pacific (Hong Kong)
     - eu-west-1
     - eu-central-1
     - ca-central-1
@@ -4924,6 +5054,9 @@ c5d.large:
       ap-southeast-2:
         Dedicated: 0.134
         Shared: 0.126
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.131
+        Shared: 0.123
       ca-central-1:
         Dedicated: 0.113
         Shared: 0.106
@@ -4973,6 +5106,9 @@ c5d.large:
       ap-southeast-2:
         Dedicated: 0.194
         Shared: 0.186
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.191
+        Shared: 0.183
       ca-central-1:
         Dedicated: 0.173
         Shared: 0.166
@@ -5022,6 +5158,9 @@ c5d.large:
       ap-southeast-2:
         Dedicated: 0.234
         Shared: 0.226
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.231
+        Shared: 0.223
       ca-central-1:
         Dedicated: 0.213
         Shared: 0.206
@@ -5071,6 +5210,9 @@ c5d.large:
       ap-southeast-2:
         Dedicated: 0.226
         Shared: 0.218
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.223
+        Shared: 0.215
       ca-central-1:
         Dedicated: 0.205
         Shared: 0.198
@@ -5118,6 +5260,7 @@ c5d.large:
     - us-west-1
     - ca-central-1
     - us-west-2
+    - Asia Pacific (Hong Kong)
     - ap-southeast-2
     - ap-northeast-2
     - us-gov-west-1
@@ -5150,6 +5293,9 @@ c5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.267
         Shared: 0.252
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.262
+        Shared: 0.246
       ca-central-1:
         Dedicated: 0.226
         Shared: 0.212
@@ -5199,6 +5345,9 @@ c5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.327
         Shared: 0.312
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.322
+        Shared: 0.306
       ca-central-1:
         Dedicated: 0.286
         Shared: 0.272
@@ -5248,6 +5397,9 @@ c5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.367
         Shared: 0.352
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.362
+        Shared: 0.346
       ca-central-1:
         Dedicated: 0.326
         Shared: 0.312
@@ -5297,6 +5449,9 @@ c5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.451
         Shared: 0.436
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.446
+        Shared: 0.43
       ca-central-1:
         Dedicated: 0.41
         Shared: 0.212
@@ -5335,6 +5490,7 @@ c5d.xlarge:
     - ap-southeast-1
     - ap-northeast-1
     - us-west-1
+    - Asia Pacific (Hong Kong)
     - ca-central-1
     - ap-northeast-2
     - ap-south-1
@@ -6018,6 +6174,9 @@ d2.2xlarge:
       ap-southeast-2:
         Dedicated: 1.914
         Shared: 1.74
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.105
+        Shared: 1.914
       ca-central-1:
         Dedicated: 1.67
         Shared: 1.518
@@ -6070,6 +6229,9 @@ d2.2xlarge:
       ap-southeast-2:
         Dedicated: 2.057
         Shared: 1.87
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.235
+        Shared: 2.044
       ca-central-1:
         Dedicated: 1.8
         Shared: 1.648
@@ -6122,6 +6284,9 @@ d2.2xlarge:
       ap-southeast-2:
         Dedicated: 2.024
         Shared: 1.84
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.205
+        Shared: 2.014
       ca-central-1:
         Dedicated: 1.77
         Shared: 1.618
@@ -6174,6 +6339,9 @@ d2.2xlarge:
       ap-southeast-2:
         Dedicated: 2.157
         Shared: 1.74
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.473
+        Shared: 2.282
       ca-central-1:
         Dedicated: 2.038
         Shared: 1.886
@@ -6218,6 +6386,7 @@ d2.2xlarge:
     - us-west-1
     - ap-south-1
     - eu-west-1
+    - Asia Pacific (Hong Kong)
     - ap-northeast-1
     - us-west-2
     - ap-northeast-3
@@ -6257,6 +6426,9 @@ d2.4xlarge:
       ap-southeast-2:
         Dedicated: 3.828
         Shared: 3.48
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.211
+        Shared: 3.828
       ca-central-1:
         Dedicated: 3.34
         Shared: 3.036
@@ -6309,6 +6481,9 @@ d2.4xlarge:
       ap-southeast-2:
         Dedicated: 3.971
         Shared: 3.61
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.341
+        Shared: 3.958
       ca-central-1:
         Dedicated: 3.47
         Shared: 3.166
@@ -6361,6 +6536,9 @@ d2.4xlarge:
       ap-southeast-2:
         Dedicated: 3.938
         Shared: 3.58
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.311
+        Shared: 3.928
       ca-central-1:
         Dedicated: 3.44
         Shared: 3.136
@@ -6412,6 +6590,9 @@ d2.4xlarge:
       ap-southeast-2:
         Dedicated: 3.828
         Shared: 3.782
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.947
+        Shared: 4.564
       ca-central-1:
         Dedicated: 4.076
         Shared: 3.036
@@ -6451,6 +6632,7 @@ d2.4xlarge:
     - ap-northeast-2
     - us-west-1
     - ca-central-1
+    - Asia Pacific (Hong Kong)
     - ap-southeast-2
     - eu-west-3
     - us-east-1
@@ -6495,6 +6677,9 @@ d2.8xlarge:
       ap-southeast-2:
         Dedicated: 6.96
         Shared: 6.96
+      Asia Pacific (Hong Kong):
+        Dedicated: 7.656
+        Shared: 7.656
       ca-central-1:
         Dedicated: 6.072
         Shared: 6.072
@@ -6547,6 +6732,9 @@ d2.8xlarge:
       ap-southeast-2:
         Dedicated: 7.09
         Shared: 7.09
+      Asia Pacific (Hong Kong):
+        Dedicated: 7.786
+        Shared: 7.786
       ca-central-1:
         Dedicated: 6.202
         Shared: 6.202
@@ -6599,6 +6787,9 @@ d2.8xlarge:
       ap-southeast-2:
         Dedicated: 7.06
         Shared: 7.06
+      Asia Pacific (Hong Kong):
+        Dedicated: 7.756
+        Shared: 7.756
       ca-central-1:
         Dedicated: 6.172
         Shared: 6.172
@@ -6651,6 +6842,9 @@ d2.8xlarge:
       ap-southeast-2:
         Dedicated: 7.638
         Shared: 6.96
+      Asia Pacific (Hong Kong):
+        Dedicated: 9.312
+        Shared: 9.312
       ca-central-1:
         Dedicated: 7.728
         Shared: 7.728
@@ -6697,6 +6891,7 @@ d2.8xlarge:
     - ap-southeast-2
     - ap-northeast-1
     - eu-central-1
+    - Asia Pacific (Hong Kong)
     - us-gov-west-1
     - ca-central-1
     - us-west-1
@@ -6734,6 +6929,9 @@ d2.xlarge:
       ap-southeast-2:
         Dedicated: 0.957
         Shared: 0.87
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.053
+        Shared: 0.957
       ca-central-1:
         Dedicated: 0.835
         Shared: 0.759
@@ -6786,6 +6984,9 @@ d2.xlarge:
       ap-southeast-2:
         Dedicated: 1.023
         Shared: 0.93
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.113
+        Shared: 1.017
       ca-central-1:
         Dedicated: 0.895
         Shared: 0.819
@@ -6838,6 +7039,9 @@ d2.xlarge:
       ap-southeast-2:
         Dedicated: 1.067
         Shared: 0.97
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.153
+        Shared: 1.057
       ca-central-1:
         Dedicated: 0.935
         Shared: 0.859
@@ -6889,6 +7093,9 @@ d2.xlarge:
       ap-southeast-2:
         Dedicated: 1.101
         Shared: 1.001
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.237
+        Shared: 1.141
       ca-central-1:
         Dedicated: 1.019
         Shared: 0.943
@@ -6925,6 +7132,7 @@ d2.xlarge:
   regions:
     - us-west-1
     - us-east-2
+    - Asia Pacific (Hong Kong)
     - ap-northeast-2
     - eu-west-3
     - eu-north-1
@@ -9144,6 +9352,9 @@ i3.16xlarge:
       ap-southeast-2:
         Dedicated: 5.984
         Shared: 5.984
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.592
+        Shared: 6.592
       AWS GovCloud (US-East):
         Dedicated: 6.016
         Shared: 6.016
@@ -9202,6 +9413,9 @@ i3.16xlarge:
       ap-southeast-2:
         Dedicated: 6.114
         Shared: 6.114
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.722
+        Shared: 6.722
       AWS GovCloud (US-East):
         Dedicated: 6.146
         Shared: 6.146
@@ -9260,6 +9474,9 @@ i3.16xlarge:
       ap-southeast-2:
         Dedicated: 6.084
         Shared: 6.084
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.692
+        Shared: 6.692
       AWS GovCloud (US-East):
         Dedicated: 6.116
         Shared: 6.116
@@ -9318,6 +9535,9 @@ i3.16xlarge:
       ap-southeast-2:
         Dedicated: 8.928
         Shared: 5.984
+      Asia Pacific (Hong Kong):
+        Dedicated: 9.536
+        Shared: 9.536
       AWS GovCloud (US-East):
         Dedicated: 8.96
         Shared: 8.96
@@ -9371,6 +9591,7 @@ i3.16xlarge:
     - ap-southeast-2
     - us-east-1
     - ap-northeast-2
+    - Asia Pacific (Hong Kong)
     - eu-central-1
     - sa-east-1
     - eu-west-2
@@ -9409,6 +9630,9 @@ i3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.823
         Shared: 0.748
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.906
+        Shared: 0.824
       AWS GovCloud (US-East):
         Dedicated: 0.827
         Shared: 0.752
@@ -9467,6 +9691,9 @@ i3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.953
         Shared: 0.878
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.036
+        Shared: 0.954
       AWS GovCloud (US-East):
         Dedicated: 0.957
         Shared: 0.882
@@ -9525,6 +9752,9 @@ i3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.923
         Shared: 0.848
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.006
+        Shared: 0.924
       AWS GovCloud (US-East):
         Dedicated: 0.927
         Shared: 0.852
@@ -9583,6 +9813,9 @@ i3.2xlarge:
       ap-southeast-2:
         Dedicated: 1.191
         Shared: 0.748
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.274
+        Shared: 1.192
       AWS GovCloud (US-East):
         Dedicated: 1.195
         Shared: 1.12
@@ -9625,6 +9858,7 @@ i3.2xlarge:
   regions:
     - us-west-1
     - AWS GovCloud (US-East)
+    - Asia Pacific (Hong Kong)
     - ap-northeast-1
     - eu-north-1
     - us-east-2
@@ -9674,6 +9908,9 @@ i3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.646
         Shared: 1.496
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.813
+        Shared: 1.648
       AWS GovCloud (US-East):
         Dedicated: 1.654
         Shared: 1.504
@@ -9732,6 +9969,9 @@ i3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.776
         Shared: 1.626
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.943
+        Shared: 1.778
       AWS GovCloud (US-East):
         Dedicated: 1.784
         Shared: 1.634
@@ -9790,6 +10030,9 @@ i3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.746
         Shared: 1.596
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.913
+        Shared: 1.748
       AWS GovCloud (US-East):
         Dedicated: 1.754
         Shared: 1.604
@@ -9848,6 +10091,9 @@ i3.4xlarge:
       ap-southeast-2:
         Dedicated: 2.382
         Shared: 2.232
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.549
+        Shared: 2.384
       AWS GovCloud (US-East):
         Dedicated: 2.39
         Shared: 2.24
@@ -9901,6 +10147,7 @@ i3.4xlarge:
     - eu-west-1
     - ap-northeast-2
     - us-east-1
+    - Asia Pacific (Hong Kong)
     - ap-southeast-1
     - us-east-2
     - us-gov-west-1
@@ -9939,6 +10186,9 @@ i3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.291
         Shared: 2.992
+      Asia Pacific (Hong Kong):
+        Dedicated: 3.626
+        Shared: 3.296
       AWS GovCloud (US-East):
         Dedicated: 3.309
         Shared: 3.008
@@ -9997,6 +10247,9 @@ i3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.421
         Shared: 3.122
+      Asia Pacific (Hong Kong):
+        Dedicated: 3.756
+        Shared: 3.426
       AWS GovCloud (US-East):
         Dedicated: 3.439
         Shared: 3.138
@@ -10055,6 +10308,9 @@ i3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.391
         Shared: 3.092
+      Asia Pacific (Hong Kong):
+        Dedicated: 3.726
+        Shared: 3.396
       AWS GovCloud (US-East):
         Dedicated: 3.409
         Shared: 3.108
@@ -10113,6 +10369,9 @@ i3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.291
         Shared: 4.464
+      Asia Pacific (Hong Kong):
+        Dedicated: 5.098
+        Shared: 4.768
       AWS GovCloud (US-East):
         Dedicated: 4.781
         Shared: 4.48
@@ -10168,6 +10427,7 @@ i3.8xlarge:
     - ap-south-1
     - sa-east-1
     - us-west-1
+    - Asia Pacific (Hong Kong)
     - ap-northeast-3
     - us-west-2
     - eu-central-1
@@ -10204,6 +10464,9 @@ i3.large:
       ap-southeast-2:
         Dedicated: 0.206
         Shared: 0.187
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.227
+        Shared: 0.206
       AWS GovCloud (US-East):
         Dedicated: 0.207
         Shared: 0.188
@@ -10262,6 +10525,9 @@ i3.large:
       ap-southeast-2:
         Dedicated: 0.266
         Shared: 0.247
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.287
+        Shared: 0.266
       AWS GovCloud (US-East):
         Dedicated: 0.267
         Shared: 0.248
@@ -10320,6 +10586,9 @@ i3.large:
       ap-southeast-2:
         Dedicated: 0.306
         Shared: 0.287
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.327
+        Shared: 0.306
       AWS GovCloud (US-East):
         Dedicated: 0.307
         Shared: 0.288
@@ -10378,6 +10647,9 @@ i3.large:
       ap-southeast-2:
         Dedicated: 0.298
         Shared: 0.279
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.319
+        Shared: 0.298
       AWS GovCloud (US-East):
         Dedicated: 0.299
         Shared: 0.28
@@ -10425,6 +10697,7 @@ i3.large:
     - us-east-2
     - sa-east-1
     - ap-southeast-1
+    - Asia Pacific (Hong Kong)
     - us-west-2
     - eu-west-3
     - ap-south-1
@@ -10591,6 +10864,9 @@ i3.xlarge:
       ap-southeast-2:
         Dedicated: 0.411
         Shared: 0.374
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.453
+        Shared: 0.412
       AWS GovCloud (US-East):
         Dedicated: 0.414
         Shared: 0.376
@@ -10649,6 +10925,9 @@ i3.xlarge:
       ap-southeast-2:
         Dedicated: 0.471
         Shared: 0.434
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.513
+        Shared: 0.472
       AWS GovCloud (US-East):
         Dedicated: 0.474
         Shared: 0.436
@@ -10707,6 +10986,9 @@ i3.xlarge:
       ap-southeast-2:
         Dedicated: 0.511
         Shared: 0.474
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.553
+        Shared: 0.512
       AWS GovCloud (US-East):
         Dedicated: 0.514
         Shared: 0.476
@@ -10765,6 +11047,9 @@ i3.xlarge:
       ap-southeast-2:
         Dedicated: 0.595
         Shared: 0.558
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.637
+        Shared: 0.596
       AWS GovCloud (US-East):
         Dedicated: 0.598
         Shared: 0.56
@@ -10818,6 +11103,7 @@ i3.xlarge:
     - us-west-1
     - ap-south-1
     - eu-central-1
+    - Asia Pacific (Hong Kong)
     - ap-northeast-3
     - ap-northeast-1
     - eu-west-3
@@ -13779,6 +14065,9 @@ m5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.07
         Shared: 2.88
+      Asia Pacific (Hong Kong):
+        Dedicated: 3.363
+        Shared: 3.168
       AWS GovCloud (US-East):
         Dedicated: 3.094
         Shared: 2.904
@@ -13834,6 +14123,9 @@ m5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.2
         Shared: 3.01
+      Asia Pacific (Hong Kong):
+        Dedicated: 3.493
+        Shared: 3.298
       AWS GovCloud (US-East):
         Dedicated: 3.224
         Shared: 3.034
@@ -13889,6 +14181,9 @@ m5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.17
         Shared: 2.98
+      Asia Pacific (Hong Kong):
+        Dedicated: 3.463
+        Shared: 3.268
       AWS GovCloud (US-East):
         Dedicated: 3.194
         Shared: 3.004
@@ -13944,6 +14239,9 @@ m5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.07
         Shared: 5.088
+      Asia Pacific (Hong Kong):
+        Dedicated: 5.571
+        Shared: 5.376
       AWS GovCloud (US-East):
         Dedicated: 5.302
         Shared: 5.112
@@ -13985,6 +14283,7 @@ m5.12xlarge:
         Shared: 2.304
   regions:
     - ap-southeast-2
+    - Asia Pacific (Hong Kong)
     - eu-north-1
     - us-west-2
     - us-east-1
@@ -14031,6 +14330,9 @@ m5.24xlarge:
       ap-southeast-2:
         Dedicated: 5.76
         Shared: 5.76
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.336
+        Shared: 6.336
       AWS GovCloud (US-East):
         Dedicated: 5.808
         Shared: 5.808
@@ -14086,6 +14388,9 @@ m5.24xlarge:
       ap-southeast-2:
         Dedicated: 5.89
         Shared: 5.89
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.466
+        Shared: 6.466
       AWS GovCloud (US-East):
         Dedicated: 5.938
         Shared: 5.938
@@ -14141,6 +14446,9 @@ m5.24xlarge:
       ap-southeast-2:
         Dedicated: 5.86
         Shared: 5.86
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.436
+        Shared: 6.436
       AWS GovCloud (US-East):
         Dedicated: 5.908
         Shared: 5.908
@@ -14196,6 +14504,9 @@ m5.24xlarge:
       ap-southeast-2:
         Dedicated: 10.176
         Shared: 5.76
+      Asia Pacific (Hong Kong):
+        Dedicated: 10.752
+        Shared: 10.752
       AWS GovCloud (US-East):
         Dedicated: 10.224
         Shared: 10.224
@@ -14247,6 +14558,7 @@ m5.24xlarge:
     - ap-south-1
     - ap-southeast-2
     - us-east-2
+    - Asia Pacific (Hong Kong)
     - eu-west-3
     - us-east-1
     - us-gov-west-1
@@ -14283,6 +14595,9 @@ m5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.512
         Shared: 0.48
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.561
+        Shared: 0.528
       AWS GovCloud (US-East):
         Dedicated: 0.516
         Shared: 0.484
@@ -14338,6 +14653,9 @@ m5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.642
         Shared: 0.61
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.691
+        Shared: 0.658
       AWS GovCloud (US-East):
         Dedicated: 0.646
         Shared: 0.614
@@ -14393,6 +14711,9 @@ m5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.612
         Shared: 0.58
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.661
+        Shared: 0.628
       AWS GovCloud (US-East):
         Dedicated: 0.616
         Shared: 0.584
@@ -14448,6 +14769,9 @@ m5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.88
         Shared: 0.848
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.929
+        Shared: 0.896
       AWS GovCloud (US-East):
         Dedicated: 0.884
         Shared: 0.852
@@ -14489,6 +14813,7 @@ m5.2xlarge:
         Shared: 0.384
   regions:
     - eu-north-1
+    - Asia Pacific (Hong Kong)
     - ap-southeast-2
     - eu-west-2
     - eu-west-1
@@ -14535,6 +14860,9 @@ m5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.023
         Shared: 0.96
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.121
+        Shared: 1.056
       AWS GovCloud (US-East):
         Dedicated: 1.031
         Shared: 0.968
@@ -14590,6 +14918,9 @@ m5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.153
         Shared: 1.09
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.251
+        Shared: 1.186
       AWS GovCloud (US-East):
         Dedicated: 1.161
         Shared: 1.098
@@ -14645,6 +14976,9 @@ m5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.123
         Shared: 1.06
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.221
+        Shared: 1.156
       AWS GovCloud (US-East):
         Dedicated: 1.131
         Shared: 1.068
@@ -14700,6 +15034,9 @@ m5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.759
         Shared: 1.696
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.857
+        Shared: 1.792
       AWS GovCloud (US-East):
         Dedicated: 1.767
         Shared: 1.704
@@ -14748,6 +15085,7 @@ m5.4xlarge:
     - ap-south-1
     - eu-west-1
     - eu-west-2
+    - Asia Pacific (Hong Kong)
     - ca-central-1
     - ap-southeast-1
     - ap-northeast-1
@@ -14787,6 +15125,9 @@ m5.large:
       ap-southeast-2:
         Dedicated: 0.128
         Shared: 0.12
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.14
+        Shared: 0.132
       AWS GovCloud (US-East):
         Dedicated: 0.129
         Shared: 0.121
@@ -14842,6 +15183,9 @@ m5.large:
       ap-southeast-2:
         Dedicated: 0.188
         Shared: 0.18
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.2
+        Shared: 0.192
       AWS GovCloud (US-East):
         Dedicated: 0.189
         Shared: 0.181
@@ -14897,6 +15241,9 @@ m5.large:
       ap-southeast-2:
         Dedicated: 0.228
         Shared: 0.22
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.24
+        Shared: 0.232
       AWS GovCloud (US-East):
         Dedicated: 0.229
         Shared: 0.221
@@ -14952,6 +15299,9 @@ m5.large:
       ap-southeast-2:
         Dedicated: 0.22
         Shared: 0.212
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.232
+        Shared: 0.224
       AWS GovCloud (US-East):
         Dedicated: 0.221
         Shared: 0.213
@@ -15005,6 +15355,7 @@ m5.large:
     - eu-west-2
     - ap-southeast-2
     - us-west-1
+    - Asia Pacific (Hong Kong)
     - eu-west-3
     - ap-south-1
     - us-east-1
@@ -15039,6 +15390,9 @@ m5.metal:
       ap-southeast-2:
         Dedicated: 5.76
         Shared: 5.76
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.336
+        Shared: 6.336
       AWS GovCloud (US-East):
         Dedicated: 5.808
         Shared: 5.808
@@ -15085,6 +15439,9 @@ m5.metal:
       ap-southeast-2:
         Dedicated: 5.89
         Shared: 5.89
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.466
+        Shared: 6.466
       AWS GovCloud (US-East):
         Dedicated: 5.938
         Shared: 5.938
@@ -15131,6 +15488,9 @@ m5.metal:
       ap-southeast-2:
         Dedicated: 5.86
         Shared: 5.86
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.436
+        Shared: 6.436
       AWS GovCloud (US-East):
         Dedicated: 5.908
         Shared: 5.908
@@ -15177,6 +15537,9 @@ m5.metal:
       ap-southeast-2:
         Dedicated: 10.176
         Shared: 10.176
+      Asia Pacific (Hong Kong):
+        Dedicated: 10.752
+        Shared: 10.752
       AWS GovCloud (US-East):
         Dedicated: 10.224
         Shared: 10.224
@@ -15218,6 +15581,7 @@ m5.metal:
     - ap-southeast-2
     - eu-west-3
     - us-west-2
+    - Asia Pacific (Hong Kong)
     - ap-northeast-2
     - us-west-1
     - us-east-1
@@ -15253,6 +15617,9 @@ m5.xlarge:
       ap-southeast-2:
         Dedicated: 0.256
         Shared: 0.24
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.28
+        Shared: 0.264
       AWS GovCloud (US-East):
         Dedicated: 0.258
         Shared: 0.242
@@ -15308,6 +15675,9 @@ m5.xlarge:
       ap-southeast-2:
         Dedicated: 0.316
         Shared: 0.3
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.34
+        Shared: 0.324
       AWS GovCloud (US-East):
         Dedicated: 0.318
         Shared: 0.302
@@ -15363,6 +15733,9 @@ m5.xlarge:
       ap-southeast-2:
         Dedicated: 0.356
         Shared: 0.34
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.38
+        Shared: 0.364
       AWS GovCloud (US-East):
         Dedicated: 0.358
         Shared: 0.342
@@ -15418,6 +15791,9 @@ m5.xlarge:
       ap-southeast-2:
         Dedicated: 0.44
         Shared: 0.24
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.464
+        Shared: 0.448
       AWS GovCloud (US-East):
         Dedicated: 0.442
         Shared: 0.426
@@ -15458,6 +15834,7 @@ m5.xlarge:
         Dedicated: 0.388
         Shared: 0.376
   regions:
+    - Asia Pacific (Hong Kong)
     - ca-central-1
     - us-west-2
     - eu-central-1
@@ -16645,6 +17022,9 @@ m5d.12xlarge:
       ap-southeast-2:
         Dedicated: 3.631
         Shared: 3.408
+      Asia Pacific (Hong Kong):
+        Dedicated: 3.949
+        Shared: 3.72
       ca-central-1:
         Dedicated: 3.208
         Shared: 3.024
@@ -16694,6 +17074,9 @@ m5d.12xlarge:
       ap-southeast-2:
         Dedicated: 3.761
         Shared: 3.538
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.079
+        Shared: 3.85
       ca-central-1:
         Dedicated: 3.338
         Shared: 3.154
@@ -16743,6 +17126,9 @@ m5d.12xlarge:
       ap-southeast-2:
         Dedicated: 3.731
         Shared: 3.508
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.049
+        Shared: 3.82
       ca-central-1:
         Dedicated: 3.308
         Shared: 3.124
@@ -16792,6 +17178,9 @@ m5d.12xlarge:
       ap-southeast-2:
         Dedicated: 5.839
         Shared: 5.616
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.157
+        Shared: 5.928
       ca-central-1:
         Dedicated: 5.416
         Shared: 5.232
@@ -16840,6 +17229,7 @@ m5d.12xlarge:
     - ca-central-1
     - ap-northeast-1
     - eu-west-1
+    - Asia Pacific (Hong Kong)
     - us-east-1
     - eu-north-1
   storage: 2 x 900 NVMe SSD
@@ -16871,6 +17261,9 @@ m5d.24xlarge:
       ap-southeast-2:
         Dedicated: 6.816
         Shared: 6.816
+      Asia Pacific (Hong Kong):
+        Dedicated: 7.44
+        Shared: 7.44
       ca-central-1:
         Dedicated: 6.048
         Shared: 6.048
@@ -16920,6 +17313,9 @@ m5d.24xlarge:
       ap-southeast-2:
         Dedicated: 6.946
         Shared: 6.946
+      Asia Pacific (Hong Kong):
+        Dedicated: 7.57
+        Shared: 7.57
       ca-central-1:
         Dedicated: 6.178
         Shared: 6.178
@@ -16969,6 +17365,9 @@ m5d.24xlarge:
       ap-southeast-2:
         Dedicated: 6.916
         Shared: 6.916
+      Asia Pacific (Hong Kong):
+        Dedicated: 7.54
+        Shared: 7.54
       ca-central-1:
         Dedicated: 6.148
         Shared: 6.148
@@ -17018,6 +17417,9 @@ m5d.24xlarge:
       ap-southeast-2:
         Dedicated: 11.232
         Shared: 11.232
+      Asia Pacific (Hong Kong):
+        Dedicated: 11.856
+        Shared: 11.856
       ca-central-1:
         Dedicated: 6.048
         Shared: 10.464
@@ -17064,6 +17466,7 @@ m5d.24xlarge:
     - eu-west-3
     - us-east-2
     - us-west-1
+    - Asia Pacific (Hong Kong)
     - us-west-2
     - eu-north-1
     - ap-northeast-2
@@ -17097,6 +17500,9 @@ m5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.605
         Shared: 0.568
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.658
+        Shared: 0.62
       ca-central-1:
         Dedicated: 0.535
         Shared: 0.504
@@ -17146,6 +17552,9 @@ m5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.735
         Shared: 0.698
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.788
+        Shared: 0.75
       ca-central-1:
         Dedicated: 0.665
         Shared: 0.634
@@ -17195,6 +17604,9 @@ m5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.705
         Shared: 0.668
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.758
+        Shared: 0.72
       ca-central-1:
         Dedicated: 0.635
         Shared: 0.604
@@ -17244,6 +17656,9 @@ m5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.973
         Shared: 0.936
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.026
+        Shared: 0.988
       ca-central-1:
         Dedicated: 0.903
         Shared: 0.872
@@ -17294,6 +17709,7 @@ m5d.2xlarge:
     - eu-west-2
     - ca-central-1
     - ap-southeast-1
+    - Asia Pacific (Hong Kong)
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 m5d.4xlarge:
@@ -17323,6 +17739,9 @@ m5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.21
         Shared: 1.136
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.316
+        Shared: 1.24
       ca-central-1:
         Dedicated: 1.069
         Shared: 1.008
@@ -17372,6 +17791,9 @@ m5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.34
         Shared: 1.266
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.446
+        Shared: 1.37
       ca-central-1:
         Dedicated: 1.199
         Shared: 1.138
@@ -17421,6 +17843,9 @@ m5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.31
         Shared: 1.236
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.416
+        Shared: 1.34
       ca-central-1:
         Dedicated: 1.169
         Shared: 1.108
@@ -17470,6 +17895,9 @@ m5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.946
         Shared: 1.872
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.052
+        Shared: 1.976
       ca-central-1:
         Dedicated: 1.069
         Shared: 1.744
@@ -17507,6 +17935,7 @@ m5d.4xlarge:
     - ap-southeast-1
     - ca-central-1
     - us-gov-west-1
+    - Asia Pacific (Hong Kong)
     - eu-central-1
     - eu-west-3
     - ap-northeast-1
@@ -17549,6 +17978,9 @@ m5d.large:
       ap-southeast-2:
         Dedicated: 0.151
         Shared: 0.142
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.165
+        Shared: 0.155
       ca-central-1:
         Dedicated: 0.134
         Shared: 0.126
@@ -17598,6 +18030,9 @@ m5d.large:
       ap-southeast-2:
         Dedicated: 0.211
         Shared: 0.202
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.225
+        Shared: 0.215
       ca-central-1:
         Dedicated: 0.194
         Shared: 0.186
@@ -17647,6 +18082,9 @@ m5d.large:
       ap-southeast-2:
         Dedicated: 0.251
         Shared: 0.242
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.265
+        Shared: 0.255
       ca-central-1:
         Dedicated: 0.234
         Shared: 0.226
@@ -17696,6 +18134,9 @@ m5d.large:
       ap-southeast-2:
         Dedicated: 0.243
         Shared: 0.234
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.257
+        Shared: 0.247
       ca-central-1:
         Dedicated: 0.226
         Shared: 0.218
@@ -17739,6 +18180,7 @@ m5d.large:
     - ap-northeast-1
     - us-west-2
     - ap-southeast-2
+    - Asia Pacific (Hong Kong)
     - ap-northeast-2
     - ap-southeast-1
     - eu-west-1
@@ -17772,6 +18214,9 @@ m5d.metal:
       ap-southeast-2:
         Dedicated: 6.816
         Shared: 6.816
+      Asia Pacific (Hong Kong):
+        Dedicated: 7.44
+        Shared: 7.44
       eu-central-1:
         Dedicated: 6.528
         Shared: 6.528
@@ -17806,6 +18251,9 @@ m5d.metal:
       ap-southeast-2:
         Dedicated: 6.946
         Shared: 6.946
+      Asia Pacific (Hong Kong):
+        Dedicated: 7.57
+        Shared: 7.57
       eu-central-1:
         Dedicated: 6.658
         Shared: 6.658
@@ -17840,6 +18288,9 @@ m5d.metal:
       ap-southeast-2:
         Dedicated: 6.916
         Shared: 6.916
+      Asia Pacific (Hong Kong):
+        Dedicated: 7.54
+        Shared: 7.54
       eu-central-1:
         Dedicated: 6.628
         Shared: 6.628
@@ -17874,6 +18325,9 @@ m5d.metal:
       ap-southeast-2:
         Dedicated: 11.232
         Shared: 11.232
+      Asia Pacific (Hong Kong):
+        Dedicated: 11.856
+        Shared: 11.856
       eu-central-1:
         Dedicated: 10.944
         Shared: 10.944
@@ -17905,6 +18359,7 @@ m5d.metal:
     - eu-north-1
     - eu-west-3
     - us-west-2
+    - Asia Pacific (Hong Kong)
     - ap-southeast-1
     - ap-southeast-2
     - us-gov-west-1
@@ -17937,6 +18392,9 @@ m5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.303
         Shared: 0.284
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.329
+        Shared: 0.31
       ca-central-1:
         Dedicated: 0.267
         Shared: 0.252
@@ -17986,6 +18444,9 @@ m5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.363
         Shared: 0.344
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.389
+        Shared: 0.37
       ca-central-1:
         Dedicated: 0.327
         Shared: 0.312
@@ -18035,6 +18496,9 @@ m5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.403
         Shared: 0.384
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.429
+        Shared: 0.41
       ca-central-1:
         Dedicated: 0.367
         Shared: 0.352
@@ -18084,6 +18548,9 @@ m5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.487
         Shared: 0.468
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.513
+        Shared: 0.494
       ca-central-1:
         Dedicated: 0.267
         Shared: 0.252
@@ -18130,6 +18597,7 @@ m5d.xlarge:
     - us-gov-west-1
     - ap-northeast-1
     - ap-southeast-1
+    - Asia Pacific (Hong Kong)
     - eu-west-1
     - us-east-1
     - us-east-2
@@ -21571,6 +22039,9 @@ r5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.841
         Shared: 3.624
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.248
+        Shared: 4.008
       AWS GovCloud (US-East):
         Dedicated: 3.841
         Shared: 3.624
@@ -21623,6 +22094,9 @@ r5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.971
         Shared: 3.754
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.378
+        Shared: 4.138
       AWS GovCloud (US-East):
         Dedicated: 3.971
         Shared: 3.754
@@ -21675,6 +22149,9 @@ r5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.991
         Shared: 3.774
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.398
+        Shared: 4.158
       AWS GovCloud (US-East):
         Dedicated: 3.991
         Shared: 3.774
@@ -21727,6 +22204,9 @@ r5.12xlarge:
       ap-southeast-2:
         Dedicated: 6.049
         Shared: 5.832
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.456
+        Shared: 6.216
       AWS GovCloud (US-East):
         Dedicated: 6.049
         Shared: 5.832
@@ -21772,6 +22252,7 @@ r5.12xlarge:
     - ap-northeast-1
     - us-west-2
     - eu-west-2
+    - Asia Pacific (Hong Kong)
     - eu-west-1
     - ap-southeast-1
     - us-west-1
@@ -21807,6 +22288,9 @@ r5.24xlarge:
       ap-southeast-2:
         Dedicated: 7.248
         Shared: 7.248
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.016
+        Shared: 8.016
       AWS GovCloud (US-East):
         Dedicated: 7.248
         Shared: 7.248
@@ -21859,6 +22343,9 @@ r5.24xlarge:
       ap-southeast-2:
         Dedicated: 7.378
         Shared: 7.378
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.146
+        Shared: 8.146
       AWS GovCloud (US-East):
         Dedicated: 7.378
         Shared: 7.378
@@ -21911,6 +22398,9 @@ r5.24xlarge:
       ap-southeast-2:
         Dedicated: 7.398
         Shared: 7.398
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.166
+        Shared: 8.166
       AWS GovCloud (US-East):
         Dedicated: 7.398
         Shared: 7.398
@@ -21963,6 +22453,9 @@ r5.24xlarge:
       ap-southeast-2:
         Dedicated: 11.664
         Shared: 11.664
+      Asia Pacific (Hong Kong):
+        Dedicated: 12.432
+        Shared: 12.432
       AWS GovCloud (US-East):
         Dedicated: 11.664
         Shared: 11.664
@@ -22000,6 +22493,7 @@ r5.24xlarge:
         Dedicated: 10.464
         Shared: 6.048
   regions:
+    - Asia Pacific (Hong Kong)
     - AWS GovCloud (US-East)
     - ca-central-1
     - us-west-1
@@ -22043,6 +22537,9 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.64
         Shared: 0.604
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.708
+        Shared: 0.668
       AWS GovCloud (US-East):
         Dedicated: 0.64
         Shared: 0.604
@@ -22095,6 +22592,9 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.77
         Shared: 0.734
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.838
+        Shared: 0.798
       AWS GovCloud (US-East):
         Dedicated: 0.77
         Shared: 0.734
@@ -22147,6 +22647,9 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.79
         Shared: 0.754
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.858
+        Shared: 0.818
       AWS GovCloud (US-East):
         Dedicated: 0.79
         Shared: 0.754
@@ -22199,6 +22702,9 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 1.008
         Shared: 0.972
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.076
+        Shared: 1.036
       AWS GovCloud (US-East):
         Dedicated: 1.008
         Shared: 0.972
@@ -22241,6 +22747,7 @@ r5.2xlarge:
     - ap-south-1
     - ap-southeast-2
     - us-gov-west-1
+    - Asia Pacific (Hong Kong)
     - ca-central-1
     - eu-central-1
     - us-west-2
@@ -22279,6 +22786,9 @@ r5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.28
         Shared: 1.208
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.416
+        Shared: 1.336
       AWS GovCloud (US-East):
         Dedicated: 1.28
         Shared: 1.208
@@ -22331,6 +22841,9 @@ r5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.41
         Shared: 1.338
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.546
+        Shared: 1.466
       AWS GovCloud (US-East):
         Dedicated: 1.41
         Shared: 1.338
@@ -22383,6 +22896,9 @@ r5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.43
         Shared: 1.358
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.566
+        Shared: 1.486
       AWS GovCloud (US-East):
         Dedicated: 1.43
         Shared: 1.358
@@ -22435,6 +22951,9 @@ r5.4xlarge:
       ap-southeast-2:
         Dedicated: 2.016
         Shared: 1.944
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.152
+        Shared: 2.072
       AWS GovCloud (US-East):
         Dedicated: 2.016
         Shared: 1.944
@@ -22479,6 +22998,7 @@ r5.4xlarge:
     - eu-north-1
     - us-west-1
     - us-gov-west-1
+    - Asia Pacific (Hong Kong)
     - ca-central-1
     - ap-southeast-1
     - ap-southeast-2
@@ -22516,6 +23036,9 @@ r5.large:
       ap-southeast-2:
         Dedicated: 0.16
         Shared: 0.151
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.177
+        Shared: 0.167
       AWS GovCloud (US-East):
         Dedicated: 0.16
         Shared: 0.151
@@ -22568,6 +23091,9 @@ r5.large:
       ap-southeast-2:
         Dedicated: 0.22
         Shared: 0.211
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.237
+        Shared: 0.227
       AWS GovCloud (US-East):
         Dedicated: 0.22
         Shared: 0.211
@@ -22620,6 +23146,9 @@ r5.large:
       ap-southeast-2:
         Dedicated: 0.223
         Shared: 0.214
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.24
+        Shared: 0.23
       AWS GovCloud (US-East):
         Dedicated: 0.223
         Shared: 0.214
@@ -22672,6 +23201,9 @@ r5.large:
       ap-southeast-2:
         Dedicated: 0.252
         Shared: 0.243
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.269
+        Shared: 0.259
       AWS GovCloud (US-East):
         Dedicated: 0.252
         Shared: 0.243
@@ -22717,6 +23249,7 @@ r5.large:
     - ap-southeast-2
     - ap-southeast-1
     - eu-west-1
+    - Asia Pacific (Hong Kong)
     - eu-north-1
     - AWS GovCloud (US-East)
     - ap-south-1
@@ -22746,6 +23279,9 @@ r5.metal:
       ap-southeast-1:
         Dedicated: 7.296
         Shared: 7.296
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.016
+        Shared: 8.016
       eu-central-1:
         Dedicated: 7.296
         Shared: 7.296
@@ -22783,6 +23319,9 @@ r5.metal:
       ap-southeast-1:
         Dedicated: 7.426
         Shared: 7.426
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.146
+        Shared: 8.146
       eu-central-1:
         Dedicated: 7.426
         Shared: 7.426
@@ -22820,6 +23359,9 @@ r5.metal:
       ap-southeast-1:
         Dedicated: 7.446
         Shared: 7.446
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.166
+        Shared: 8.166
       eu-central-1:
         Dedicated: 7.446
         Shared: 7.446
@@ -22857,6 +23399,9 @@ r5.metal:
       ap-southeast-1:
         Dedicated: 11.712
         Shared: 11.712
+      Asia Pacific (Hong Kong):
+        Dedicated: 12.432
+        Shared: 12.432
       eu-central-1:
         Dedicated: 11.712
         Shared: 11.712
@@ -22885,6 +23430,7 @@ r5.metal:
         Dedicated: 10.464
         Shared: 10.464
   regions:
+    - Asia Pacific (Hong Kong)
     - us-west-2
     - ap-southeast-2
     - us-west-1
@@ -22928,6 +23474,9 @@ r5.xlarge:
       ap-southeast-2:
         Dedicated: 0.32
         Shared: 0.302
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.354
+        Shared: 0.334
       AWS GovCloud (US-East):
         Dedicated: 0.32
         Shared: 0.302
@@ -22980,6 +23529,9 @@ r5.xlarge:
       ap-southeast-2:
         Dedicated: 0.38
         Shared: 0.362
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.414
+        Shared: 0.394
       AWS GovCloud (US-East):
         Dedicated: 0.38
         Shared: 0.362
@@ -23032,6 +23584,9 @@ r5.xlarge:
       ap-southeast-2:
         Dedicated: 0.445
         Shared: 0.427
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.479
+        Shared: 0.459
       AWS GovCloud (US-East):
         Dedicated: 0.445
         Shared: 0.427
@@ -23084,6 +23639,9 @@ r5.xlarge:
       ap-southeast-2:
         Dedicated: 0.504
         Shared: 0.486
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.538
+        Shared: 0.518
       AWS GovCloud (US-East):
         Dedicated: 0.504
         Shared: 0.486
@@ -23128,6 +23686,7 @@ r5.xlarge:
     - us-east-2
     - us-west-1
     - ap-southeast-2
+    - Asia Pacific (Hong Kong)
     - ap-south-1
     - ca-central-1
     - us-east-1
@@ -24304,6 +24863,9 @@ r5d.12xlarge:
       ap-southeast-2:
         Dedicated: 4.429
         Shared: 4.176
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.452
+        Shared: 4.2
       ca-central-1:
         Dedicated: 4.021
         Shared: 3.792
@@ -24353,6 +24915,9 @@ r5d.12xlarge:
       ap-southeast-2:
         Dedicated: 4.559
         Shared: 4.306
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.582
+        Shared: 4.33
       ca-central-1:
         Dedicated: 4.151
         Shared: 3.922
@@ -24402,6 +24967,9 @@ r5d.12xlarge:
       ap-southeast-2:
         Dedicated: 4.579
         Shared: 4.326
+      Asia Pacific (Hong Kong):
+        Dedicated: 4.602
+        Shared: 4.35
       ca-central-1:
         Dedicated: 4.171
         Shared: 3.942
@@ -24451,6 +25019,9 @@ r5d.12xlarge:
       ap-southeast-2:
         Dedicated: 6.637
         Shared: 6.384
+      Asia Pacific (Hong Kong):
+        Dedicated: 6.66
+        Shared: 6.408
       ca-central-1:
         Dedicated: 6.229
         Shared: 6
@@ -24489,6 +25060,7 @@ r5d.12xlarge:
     - eu-north-1
     - us-east-2
     - ap-south-1
+    - Asia Pacific (Hong Kong)
     - ap-northeast-2
     - us-west-1
     - ca-central-1
@@ -24527,6 +25099,9 @@ r5d.24xlarge:
       ap-southeast-2:
         Dedicated: 8.352
         Shared: 8.352
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.4
+        Shared: 8.4
       ca-central-1:
         Dedicated: 7.584
         Shared: 7.584
@@ -24576,6 +25151,9 @@ r5d.24xlarge:
       ap-southeast-2:
         Dedicated: 8.482
         Shared: 8.482
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.53
+        Shared: 8.53
       ca-central-1:
         Dedicated: 7.714
         Shared: 7.714
@@ -24625,6 +25203,9 @@ r5d.24xlarge:
       ap-southeast-2:
         Dedicated: 8.502
         Shared: 8.502
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.55
+        Shared: 8.55
       ca-central-1:
         Dedicated: 7.734
         Shared: 7.734
@@ -24674,6 +25255,9 @@ r5d.24xlarge:
       ap-southeast-2:
         Dedicated: 12.768
         Shared: 12.768
+      Asia Pacific (Hong Kong):
+        Dedicated: 12.816
+        Shared: 12.816
       ca-central-1:
         Dedicated: 12
         Shared: 12
@@ -24720,6 +25304,7 @@ r5d.24xlarge:
     - eu-west-2
     - us-east-2
     - eu-west-1
+    - Asia Pacific (Hong Kong)
     - ap-northeast-1
     - ap-south-1
     - us-west-2
@@ -24750,6 +25335,9 @@ r5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.738
         Shared: 0.696
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.742
+        Shared: 0.7
       ca-central-1:
         Dedicated: 0.67
         Shared: 0.632
@@ -24799,6 +25387,9 @@ r5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.868
         Shared: 0.826
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.872
+        Shared: 0.83
       ca-central-1:
         Dedicated: 0.8
         Shared: 0.762
@@ -24848,6 +25439,9 @@ r5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.888
         Shared: 0.846
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.892
+        Shared: 0.85
       ca-central-1:
         Dedicated: 0.82
         Shared: 0.782
@@ -24897,6 +25491,9 @@ r5d.2xlarge:
       ap-southeast-2:
         Dedicated: 1.106
         Shared: 1.064
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.11
+        Shared: 1.068
       ca-central-1:
         Dedicated: 1.038
         Shared: 1
@@ -24935,6 +25532,7 @@ r5d.2xlarge:
     - ca-central-1
     - eu-north-1
     - ap-northeast-2
+    - Asia Pacific (Hong Kong)
     - eu-west-2
     - us-east-2
     - us-gov-west-1
@@ -24973,6 +25571,9 @@ r5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.476
         Shared: 1.392
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.484
+        Shared: 1.4
       ca-central-1:
         Dedicated: 1.34
         Shared: 1.264
@@ -25022,6 +25623,9 @@ r5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.606
         Shared: 1.522
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.614
+        Shared: 1.53
       ca-central-1:
         Dedicated: 1.47
         Shared: 1.394
@@ -25071,6 +25675,9 @@ r5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.626
         Shared: 1.542
+      Asia Pacific (Hong Kong):
+        Dedicated: 1.634
+        Shared: 1.55
       ca-central-1:
         Dedicated: 1.49
         Shared: 1.414
@@ -25120,6 +25727,9 @@ r5d.4xlarge:
       ap-southeast-2:
         Dedicated: 2.212
         Shared: 2.128
+      Asia Pacific (Hong Kong):
+        Dedicated: 2.22
+        Shared: 2.136
       ca-central-1:
         Dedicated: 2.076
         Shared: 2
@@ -25157,6 +25767,7 @@ r5d.4xlarge:
     - ap-southeast-1
     - us-east-1
     - ap-northeast-2
+    - Asia Pacific (Hong Kong)
     - ca-central-1
     - us-east-2
     - eu-west-1
@@ -25196,6 +25807,9 @@ r5d.large:
       ap-southeast-2:
         Dedicated: 0.185
         Shared: 0.174
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.186
+        Shared: 0.175
       ca-central-1:
         Dedicated: 0.168
         Shared: 0.158
@@ -25245,6 +25859,9 @@ r5d.large:
       ap-southeast-2:
         Dedicated: 0.245
         Shared: 0.234
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.246
+        Shared: 0.235
       ca-central-1:
         Dedicated: 0.228
         Shared: 0.218
@@ -25294,6 +25911,9 @@ r5d.large:
       ap-southeast-2:
         Dedicated: 0.248
         Shared: 0.237
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.249
+        Shared: 0.238
       ca-central-1:
         Dedicated: 0.231
         Shared: 0.221
@@ -25343,6 +25963,9 @@ r5d.large:
       ap-southeast-2:
         Dedicated: 0.277
         Shared: 0.266
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.278
+        Shared: 0.267
       ca-central-1:
         Dedicated: 0.26
         Shared: 0.25
@@ -25383,6 +26006,7 @@ r5d.large:
     - us-east-2
     - eu-west-2
     - eu-central-1
+    - Asia Pacific (Hong Kong)
     - eu-north-1
     - eu-west-1
     - ap-northeast-1
@@ -25413,6 +26037,9 @@ r5d.metal:
       ap-southeast-1:
         Dedicated: 8.352
         Shared: 8.352
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.4
+        Shared: 8.4
       eu-central-1:
         Dedicated: 8.304
         Shared: 8.304
@@ -25444,6 +26071,9 @@ r5d.metal:
       ap-southeast-1:
         Dedicated: 8.482
         Shared: 8.482
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.53
+        Shared: 8.53
       eu-central-1:
         Dedicated: 8.434
         Shared: 8.434
@@ -25475,6 +26105,9 @@ r5d.metal:
       ap-southeast-1:
         Dedicated: 8.502
         Shared: 8.502
+      Asia Pacific (Hong Kong):
+        Dedicated: 8.55
+        Shared: 8.55
       eu-central-1:
         Dedicated: 8.454
         Shared: 8.454
@@ -25506,6 +26139,9 @@ r5d.metal:
       ap-southeast-1:
         Dedicated: 12.768
         Shared: 12.768
+      Asia Pacific (Hong Kong):
+        Dedicated: 12.816
+        Shared: 12.816
       eu-central-1:
         Dedicated: 12.72
         Shared: 12.72
@@ -25530,6 +26166,7 @@ r5d.metal:
   regions:
     - eu-central-1
     - eu-north-1
+    - Asia Pacific (Hong Kong)
     - ap-south-1
     - us-west-1
     - us-east-1
@@ -25569,6 +26206,9 @@ r5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.369
         Shared: 0.348
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.371
+        Shared: 0.35
       ca-central-1:
         Dedicated: 0.335
         Shared: 0.316
@@ -25618,6 +26258,9 @@ r5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.429
         Shared: 0.408
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.431
+        Shared: 0.41
       ca-central-1:
         Dedicated: 0.395
         Shared: 0.376
@@ -25667,6 +26310,9 @@ r5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.494
         Shared: 0.473
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.496
+        Shared: 0.475
       ca-central-1:
         Dedicated: 0.46
         Shared: 0.441
@@ -25716,6 +26362,9 @@ r5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.553
         Shared: 0.532
+      Asia Pacific (Hong Kong):
+        Dedicated: 0.555
+        Shared: 0.534
       ca-central-1:
         Dedicated: 0.519
         Shared: 0.5
@@ -25753,6 +26402,7 @@ r5d.xlarge:
     - eu-west-3
     - ap-northeast-1
     - ap-northeast-2
+    - Asia Pacific (Hong Kong)
     - us-west-2
     - us-west-1
     - ap-southeast-1
@@ -27031,6 +27681,8 @@ t3.2xlarge:
         Shared: 0.4224
       ap-southeast-2:
         Shared: 0.4224
+      Asia Pacific (Hong Kong):
+        Shared: 0.4672
       AWS GovCloud (US-East):
         Shared: 0.3904
       ca-central-1:
@@ -27068,6 +27720,8 @@ t3.2xlarge:
         Shared: 0.5524
       ap-southeast-2:
         Shared: 0.5524
+      Asia Pacific (Hong Kong):
+        Shared: 0.5972
       AWS GovCloud (US-East):
         Shared: 0.5204
       ca-central-1:
@@ -27105,6 +27759,8 @@ t3.2xlarge:
         Shared: 0.5724
       ap-southeast-2:
         Shared: 0.5724
+      Asia Pacific (Hong Kong):
+        Shared: 0.6172
       AWS GovCloud (US-East):
         Shared: 0.5404
       ca-central-1:
@@ -27142,6 +27798,8 @@ t3.2xlarge:
         Shared: 0.4224
       ap-southeast-2:
         Shared: 0.5696
+      Asia Pacific (Hong Kong):
+        Shared: 0.6144
       AWS GovCloud (US-East):
         Shared: 0.5376
       ca-central-1:
@@ -27169,6 +27827,7 @@ t3.2xlarge:
       us-west-2:
         Shared: 0.48
   regions:
+    - Asia Pacific (Hong Kong)
     - us-east-2
     - us-west-2
     - sa-east-1
@@ -27208,6 +27867,8 @@ t3.large:
         Shared: 0.1056
       ap-southeast-2:
         Shared: 0.1056
+      Asia Pacific (Hong Kong):
+        Shared: 0.1168
       AWS GovCloud (US-East):
         Shared: 0.0976
       ca-central-1:
@@ -27245,6 +27906,8 @@ t3.large:
         Shared: 0.1656
       ap-southeast-2:
         Shared: 0.1656
+      Asia Pacific (Hong Kong):
+        Shared: 0.1768
       AWS GovCloud (US-East):
         Shared: 0.1576
       ca-central-1:
@@ -27282,6 +27945,8 @@ t3.large:
         Shared: 0.1686
       ap-southeast-2:
         Shared: 0.1686
+      Asia Pacific (Hong Kong):
+        Shared: 0.1798
       AWS GovCloud (US-East):
         Shared: 0.1606
       ca-central-1:
@@ -27319,6 +27984,8 @@ t3.large:
         Shared: 0.1056
       ap-southeast-2:
         Shared: 0.1056
+      Asia Pacific (Hong Kong):
+        Shared: 0.1444
       AWS GovCloud (US-East):
         Shared: 0.1252
       ca-central-1:
@@ -27352,6 +28019,7 @@ t3.large:
     - ap-southeast-2
     - eu-west-1
     - us-gov-west-1
+    - Asia Pacific (Hong Kong)
     - ap-northeast-1
     - us-east-1
     - ca-central-1
@@ -27385,6 +28053,8 @@ t3.medium:
         Shared: 0.0528
       ap-southeast-2:
         Shared: 0.0528
+      Asia Pacific (Hong Kong):
+        Shared: 0.0584
       AWS GovCloud (US-East):
         Shared: 0.0488
       ca-central-1:
@@ -27422,6 +28092,8 @@ t3.medium:
         Shared: 0.1128
       ap-southeast-2:
         Shared: 0.1128
+      Asia Pacific (Hong Kong):
+        Shared: 0.1184
       AWS GovCloud (US-East):
         Shared: 0.1088
       ca-central-1:
@@ -27459,6 +28131,8 @@ t3.medium:
         Shared: 0.1158
       ap-southeast-2:
         Shared: 0.1158
+      Asia Pacific (Hong Kong):
+        Shared: 0.1214
       AWS GovCloud (US-East):
         Shared: 0.1118
       ca-central-1:
@@ -27496,6 +28170,8 @@ t3.medium:
         Shared: 0.0712
       ap-southeast-2:
         Shared: 0.0712
+      Asia Pacific (Hong Kong):
+        Shared: 0.0768
       AWS GovCloud (US-East):
         Shared: 0.0672
       ca-central-1:
@@ -27541,6 +28217,7 @@ t3.medium:
     - eu-central-1
     - us-west-2
     - ca-central-1
+    - Asia Pacific (Hong Kong)
   storage: EBS only
   vcpu: 2
 t3.micro:
@@ -27562,6 +28239,8 @@ t3.micro:
         Shared: 0.0132
       ap-southeast-2:
         Shared: 0.0132
+      Asia Pacific (Hong Kong):
+        Shared: 0.0146
       AWS GovCloud (US-East):
         Shared: 0.0122
       ca-central-1:
@@ -27599,6 +28278,8 @@ t3.micro:
         Shared: 0.0732
       ap-southeast-2:
         Shared: 0.0732
+      Asia Pacific (Hong Kong):
+        Shared: 0.0746
       AWS GovCloud (US-East):
         Shared: 0.0722
       ca-central-1:
@@ -27636,6 +28317,8 @@ t3.micro:
         Shared: 0.0132
       ap-southeast-2:
         Shared: 0.0132
+      Asia Pacific (Hong Kong):
+        Shared: 0.0146
       AWS GovCloud (US-East):
         Shared: 0.0122
       ca-central-1:
@@ -27673,6 +28356,8 @@ t3.micro:
         Shared: 0.0224
       ap-southeast-2:
         Shared: 0.0132
+      Asia Pacific (Hong Kong):
+        Shared: 0.0238
       AWS GovCloud (US-East):
         Shared: 0.0214
       ca-central-1:
@@ -27705,6 +28390,7 @@ t3.micro:
     - sa-east-1
     - eu-west-2
     - ca-central-1
+    - Asia Pacific (Hong Kong)
     - AWS GovCloud (US-East)
     - us-west-1
     - us-east-2
@@ -27739,6 +28425,8 @@ t3.nano:
         Shared: 0.0066
       ap-southeast-2:
         Shared: 0.0066
+      Asia Pacific (Hong Kong):
+        Shared: 0.0073
       AWS GovCloud (US-East):
         Shared: 0.0061
       ca-central-1:
@@ -27776,6 +28464,8 @@ t3.nano:
         Shared: 0.0066
       ap-southeast-2:
         Shared: 0.0066
+      Asia Pacific (Hong Kong):
+        Shared: 0.0073
       AWS GovCloud (US-East):
         Shared: 0.0061
       ca-central-1:
@@ -27813,6 +28503,8 @@ t3.nano:
         Shared: 0.0066
       ap-southeast-2:
         Shared: 0.0112
+      Asia Pacific (Hong Kong):
+        Shared: 0.0119
       AWS GovCloud (US-East):
         Shared: 0.0107
       ca-central-1:
@@ -27849,6 +28541,7 @@ t3.nano:
     - us-gov-west-1
     - us-west-1
     - ap-northeast-1
+    - Asia Pacific (Hong Kong)
     - us-west-2
     - eu-west-3
     - eu-north-1
@@ -27879,6 +28572,8 @@ t3.small:
         Shared: 0.0264
       ap-southeast-2:
         Shared: 0.0264
+      Asia Pacific (Hong Kong):
+        Shared: 0.0292
       AWS GovCloud (US-East):
         Shared: 0.0244
       ca-central-1:
@@ -27916,6 +28611,8 @@ t3.small:
         Shared: 0.0864
       ap-southeast-2:
         Shared: 0.0864
+      Asia Pacific (Hong Kong):
+        Shared: 0.0892
       AWS GovCloud (US-East):
         Shared: 0.0844
       ca-central-1:
@@ -27953,6 +28650,8 @@ t3.small:
         Shared: 0.0574
       ap-southeast-2:
         Shared: 0.0574
+      Asia Pacific (Hong Kong):
+        Shared: 0.0602
       AWS GovCloud (US-East):
         Shared: 0.0554
       ca-central-1:
@@ -27990,6 +28689,8 @@ t3.small:
         Shared: 0.0264
       ap-southeast-2:
         Shared: 0.0448
+      Asia Pacific (Hong Kong):
+        Shared: 0.0476
       AWS GovCloud (US-East):
         Shared: 0.0428
       ca-central-1:
@@ -28029,6 +28730,7 @@ t3.small:
     - ca-central-1
     - us-east-2
     - ap-northeast-1
+    - Asia Pacific (Hong Kong)
     - sa-east-1
     - ap-southeast-1
     - us-east-1
@@ -28056,6 +28758,8 @@ t3.xlarge:
         Shared: 0.2112
       ap-southeast-2:
         Shared: 0.2112
+      Asia Pacific (Hong Kong):
+        Shared: 0.2336
       AWS GovCloud (US-East):
         Shared: 0.1952
       ca-central-1:
@@ -28093,6 +28797,8 @@ t3.xlarge:
         Shared: 0.2712
       ap-southeast-2:
         Shared: 0.2712
+      Asia Pacific (Hong Kong):
+        Shared: 0.2936
       AWS GovCloud (US-East):
         Shared: 0.2552
       ca-central-1:
@@ -28130,6 +28836,8 @@ t3.xlarge:
         Shared: 0.3362
       ap-southeast-2:
         Shared: 0.3362
+      Asia Pacific (Hong Kong):
+        Shared: 0.3586
       AWS GovCloud (US-East):
         Shared: 0.3202
       ca-central-1:
@@ -28167,6 +28875,8 @@ t3.xlarge:
         Shared: 0.2112
       ap-southeast-2:
         Shared: 0.2848
+      Asia Pacific (Hong Kong):
+        Shared: 0.3072
       AWS GovCloud (US-East):
         Shared: 0.2688
       ca-central-1:
@@ -28198,6 +28908,7 @@ t3.xlarge:
     - us-east-1
     - eu-central-1
     - eu-west-3
+    - Asia Pacific (Hong Kong)
     - sa-east-1
     - eu-north-1
     - AWS GovCloud (US-East)
