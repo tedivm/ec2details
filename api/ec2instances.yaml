@@ -11278,14 +11278,50 @@ i3en.12xlarge:
   normalizationSizeFactor: 96
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 6.39
+        Shared: 6
+      us-east-1:
+        Dedicated: 5.776
+        Shared: 5.424
+      us-west-2:
+        Dedicated: 5.776
+        Shared: 5.424
     RHEL:
       eu-west-1:
         Dedicated: 6.52
+        Shared: 6.13
+      us-east-1:
+        Dedicated: 5.906
+        Shared: 5.554
+      us-west-2:
+        Dedicated: 5.906
+        Shared: 5.554
+    SUSE:
+      eu-west-1:
+        Dedicated: 6.54
+        Shared: 6.15
+      us-east-1:
+        Dedicated: 5.926
+        Shared: 5.574
+      us-west-2:
+        Dedicated: 5.926
+        Shared: 5.574
     Windows:
       eu-west-1:
+        Dedicated: 8.598
         Shared: 8.208
+      us-east-1:
+        Dedicated: 7.984
+        Shared: 7.632
+      us-west-2:
+        Dedicated: 7.984
+        Shared: 7.632
   regions:
     - eu-west-1
+    - us-east-1
+    - us-west-2
   storage: EBS only
   vcpu: 48
 i3en.24xlarge:
@@ -11298,17 +11334,50 @@ i3en.24xlarge:
   normalizationSizeFactor: 192
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 12
+        Shared: 12
+      us-east-1:
+        Dedicated: 10.848
+        Shared: 10.848
+      us-west-2:
+        Dedicated: 10.848
+        Shared: 10.848
     RHEL:
       eu-west-1:
+        Dedicated: 12.13
         Shared: 12.13
+      us-east-1:
+        Dedicated: 10.978
+        Shared: 10.978
+      us-west-2:
+        Dedicated: 10.978
+        Shared: 10.978
     SUSE:
       eu-west-1:
         Dedicated: 12.15
+        Shared: 12.15
+      us-east-1:
+        Dedicated: 10.998
+        Shared: 10.998
+      us-west-2:
+        Dedicated: 10.998
+        Shared: 10.998
     Windows:
       eu-west-1:
         Dedicated: 16.416
+        Shared: 16.416
+      us-east-1:
+        Dedicated: 15.264
+        Shared: 15.264
+      us-west-2:
+        Dedicated: 15.264
+        Shared: 15.264
   regions:
     - eu-west-1
+    - us-west-2
+    - us-east-1
   storage: EBS only
   vcpu: 96
 i3en.2xlarge:
@@ -11321,14 +11390,50 @@ i3en.2xlarge:
   normalizationSizeFactor: 16
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 1.065
+        Shared: 1
+      us-east-1:
+        Dedicated: 0.963
+        Shared: 0.904
+      us-west-2:
+        Dedicated: 0.963
+        Shared: 0.904
     RHEL:
       eu-west-1:
         Dedicated: 1.195
+        Shared: 1.13
+      us-east-1:
+        Dedicated: 1.093
+        Shared: 1.034
+      us-west-2:
+        Dedicated: 1.093
+        Shared: 1.034
     SUSE:
       eu-west-1:
         Dedicated: 1.215
+        Shared: 1.15
+      us-east-1:
+        Dedicated: 1.113
+        Shared: 1.054
+      us-west-2:
+        Dedicated: 1.113
+        Shared: 1.054
+    Windows:
+      eu-west-1:
+        Dedicated: 1.433
+        Shared: 1.368
+      us-east-1:
+        Dedicated: 1.331
+        Shared: 1.272
+      us-west-2:
+        Dedicated: 1.331
+        Shared: 1.272
   regions:
     - eu-west-1
+    - us-west-2
+    - us-east-1
   storage: EBS only
   vcpu: 8
 i3en.3xlarge:
@@ -11341,15 +11446,50 @@ i3en.3xlarge:
   normalizationSizeFactor: 24
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 1.598
+        Shared: 1.5
+      us-east-1:
+        Dedicated: 1.444
+        Shared: 1.356
+      us-west-2:
+        Dedicated: 1.444
+        Shared: 1.356
+    RHEL:
+      eu-west-1:
+        Dedicated: 1.728
+        Shared: 1.63
+      us-east-1:
+        Dedicated: 1.574
+        Shared: 1.486
+      us-west-2:
+        Dedicated: 1.574
+        Shared: 1.486
     SUSE:
       eu-west-1:
         Dedicated: 1.748
         Shared: 1.65
+      us-east-1:
+        Dedicated: 1.594
+        Shared: 1.506
+      us-west-2:
+        Dedicated: 1.594
+        Shared: 1.506
     Windows:
       eu-west-1:
+        Dedicated: 2.15
         Shared: 2.052
+      us-east-1:
+        Dedicated: 1.996
+        Shared: 1.908
+      us-west-2:
+        Dedicated: 1.996
+        Shared: 1.908
   regions:
+    - us-east-1
     - eu-west-1
+    - us-west-2
   storage: EBS only
   vcpu: 12
 i3en.6xlarge:
@@ -11364,15 +11504,48 @@ i3en.6xlarge:
   prices:
     Linux:
       eu-west-1:
+        Dedicated: 3.195
         Shared: 3
+      us-east-1:
+        Dedicated: 2.888
+        Shared: 2.712
+      us-west-2:
+        Dedicated: 2.888
+        Shared: 2.712
     RHEL:
       eu-west-1:
+        Dedicated: 3.325
         Shared: 3.13
+      us-east-1:
+        Dedicated: 3.018
+        Shared: 2.842
+      us-west-2:
+        Dedicated: 3.018
+        Shared: 2.842
     SUSE:
       eu-west-1:
         Dedicated: 3.345
+        Shared: 3.15
+      us-east-1:
+        Dedicated: 3.038
+        Shared: 2.862
+      us-west-2:
+        Dedicated: 3.038
+        Shared: 2.862
+    Windows:
+      eu-west-1:
+        Dedicated: 4.299
+        Shared: 4.104
+      us-east-1:
+        Dedicated: 3.992
+        Shared: 3.816
+      us-west-2:
+        Dedicated: 3.992
+        Shared: 3.816
   regions:
+    - us-west-2
     - eu-west-1
+    - us-east-1
   storage: EBS only
   vcpu: 24
 i3en.large:
@@ -11385,15 +11558,50 @@ i3en.large:
   normalizationSizeFactor: 4
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 0.266
+        Shared: 0.25
+      us-east-1:
+        Dedicated: 0.241
+        Shared: 0.226
+      us-west-2:
+        Dedicated: 0.241
+        Shared: 0.226
+    RHEL:
+      eu-west-1:
+        Dedicated: 0.326
+        Shared: 0.31
+      us-east-1:
+        Dedicated: 0.301
+        Shared: 0.286
+      us-west-2:
+        Dedicated: 0.301
+        Shared: 0.286
     SUSE:
       eu-west-1:
         Dedicated: 0.329
         Shared: 0.313
+      us-east-1:
+        Dedicated: 0.304
+        Shared: 0.289
+      us-west-2:
+        Dedicated: 0.304
+        Shared: 0.289
     Windows:
       eu-west-1:
         Dedicated: 0.358
+        Shared: 0.342
+      us-east-1:
+        Dedicated: 0.333
+        Shared: 0.318
+      us-west-2:
+        Dedicated: 0.333
+        Shared: 0.318
   regions:
+    - us-west-2
     - eu-west-1
+    - us-east-1
   storage: EBS only
   vcpu: 2
 i3en.xlarge:
@@ -11408,16 +11616,48 @@ i3en.xlarge:
   prices:
     Linux:
       eu-west-1:
+        Dedicated: 0.533
         Shared: 0.5
+      us-east-1:
+        Dedicated: 0.481
+        Shared: 0.452
+      us-west-2:
+        Dedicated: 0.481
+        Shared: 0.452
     RHEL:
       eu-west-1:
         Dedicated: 0.593
         Shared: 0.56
+      us-east-1:
+        Dedicated: 0.541
+        Shared: 0.512
+      us-west-2:
+        Dedicated: 0.541
+        Shared: 0.512
     SUSE:
       eu-west-1:
+        Dedicated: 0.658
         Shared: 0.625
+      us-east-1:
+        Dedicated: 0.606
+        Shared: 0.577
+      us-west-2:
+        Dedicated: 0.606
+        Shared: 0.577
+    Windows:
+      eu-west-1:
+        Dedicated: 0.717
+        Shared: 0.684
+      us-east-1:
+        Dedicated: 0.665
+        Shared: 0.636
+      us-west-2:
+        Dedicated: 0.665
+        Shared: 0.636
   regions:
     - eu-west-1
+    - us-west-2
+    - us-east-1
   storage: EBS only
   vcpu: 4
 m1.large:
