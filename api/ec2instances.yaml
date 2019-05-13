@@ -11400,7 +11400,7 @@ i3en.12xlarge:
     - eu-west-1
     - us-east-1
     - us-west-2
-  storage: EBS only
+  storage: 4 x 7500 NVMe SSD
   vcpu: 48
 i3en.24xlarge:
   clockSpeed: 3.1 GHz
@@ -11456,7 +11456,7 @@ i3en.24xlarge:
     - eu-west-1
     - us-west-2
     - us-east-1
-  storage: EBS only
+  storage: 8 x 7500 NVMe SSD
   vcpu: 96
 i3en.2xlarge:
   clockSpeed: 3.1 GHz
@@ -11512,7 +11512,7 @@ i3en.2xlarge:
     - eu-west-1
     - us-west-2
     - us-east-1
-  storage: EBS only
+  storage: 2 x 2500 NVMe SSD
   vcpu: 8
 i3en.3xlarge:
   clockSpeed: 3.1 GHz
@@ -11568,7 +11568,7 @@ i3en.3xlarge:
     - us-east-1
     - eu-west-1
     - us-west-2
-  storage: EBS only
+  storage: 1 x 7500 NVMe SSD
   vcpu: 12
 i3en.6xlarge:
   clockSpeed: 3.1 GHz
@@ -11624,7 +11624,7 @@ i3en.6xlarge:
     - us-west-2
     - eu-west-1
     - us-east-1
-  storage: EBS only
+  storage: 2 x 7500 NVMe SSD
   vcpu: 24
 i3en.large:
   clockSpeed: 3.1 GHz
@@ -11680,7 +11680,7 @@ i3en.large:
     - us-west-2
     - eu-west-1
     - us-east-1
-  storage: EBS only
+  storage: 1 x 1250 NVMe SSD
   vcpu: 2
 i3en.xlarge:
   clockSpeed: 3.1 GHz
@@ -11736,7 +11736,7 @@ i3en.xlarge:
     - eu-west-1
     - us-west-2
     - us-east-1
-  storage: EBS only
+  storage: 1 x 1250 NVMe SSD
   vcpu: 4
 m1.large:
   currentGeneration: false
