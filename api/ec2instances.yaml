@@ -11736,7 +11736,7 @@ i3en.xlarge:
     - eu-west-1
     - us-west-2
     - us-east-1
-  storage: 1 x 1250 NVMe SSD
+  storage: 1 x 2500 NVMe SSD
   vcpu: 4
 m1.large:
   currentGeneration: false
