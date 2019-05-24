@@ -16428,6 +16428,9 @@ m5.metal:
       AWS GovCloud (US-East):
         Dedicated: 5.808
         Shared: 5.808
+      ca-central-1:
+        Dedicated: 5.136
+        Shared: 5.136
       eu-central-1:
         Dedicated: 5.52
         Shared: 5.52
@@ -16483,6 +16486,9 @@ m5.metal:
       AWS GovCloud (US-East):
         Dedicated: 5.938
         Shared: 5.938
+      ca-central-1:
+        Dedicated: 5.266
+        Shared: 5.266
       eu-central-1:
         Dedicated: 5.65
         Shared: 5.65
@@ -16538,6 +16544,9 @@ m5.metal:
       AWS GovCloud (US-East):
         Dedicated: 5.908
         Shared: 5.908
+      ca-central-1:
+        Dedicated: 5.236
+        Shared: 5.236
       eu-central-1:
         Dedicated: 5.62
         Shared: 5.62
@@ -16593,6 +16602,9 @@ m5.metal:
       AWS GovCloud (US-East):
         Dedicated: 10.224
         Shared: 10.224
+      ca-central-1:
+        Dedicated: 9.552
+        Shared: 9.552
       eu-central-1:
         Dedicated: 9.936
         Shared: 9.936
@@ -16641,6 +16653,7 @@ m5.metal:
     - us-west-1
     - us-east-1
     - us-east-2
+    - ca-central-1
     - ap-southeast-1
   storage: EBS only
   vcpu: 96
@@ -19423,6 +19436,9 @@ m5d.metal:
       AWS GovCloud (US-East):
         Dedicated: 6.864
         Shared: 6.864
+      ca-central-1:
+        Dedicated: 6.048
+        Shared: 6.048
       eu-central-1:
         Dedicated: 6.528
         Shared: 6.528
@@ -19432,6 +19448,9 @@ m5d.metal:
       eu-west-1:
         Dedicated: 6.048
         Shared: 6.048
+      eu-west-2:
+        Dedicated: 6.288
+        Shared: 6.288
       eu-west-3:
         Dedicated: 6.336
         Shared: 6.336
@@ -19444,6 +19463,9 @@ m5d.metal:
       us-gov-west-1:
         Dedicated: 6.864
         Shared: 6.864
+      us-west-1:
+        Dedicated: 6.384
+        Shared: 6.384
       us-west-2:
         Dedicated: 5.424
         Shared: 5.424
@@ -19472,6 +19494,9 @@ m5d.metal:
       AWS GovCloud (US-East):
         Dedicated: 6.994
         Shared: 6.994
+      ca-central-1:
+        Dedicated: 6.178
+        Shared: 6.178
       eu-central-1:
         Dedicated: 6.658
         Shared: 6.658
@@ -19481,6 +19506,9 @@ m5d.metal:
       eu-west-1:
         Dedicated: 6.178
         Shared: 6.178
+      eu-west-2:
+        Dedicated: 6.418
+        Shared: 6.418
       eu-west-3:
         Dedicated: 6.466
         Shared: 6.466
@@ -19493,6 +19521,9 @@ m5d.metal:
       us-gov-west-1:
         Dedicated: 6.994
         Shared: 6.994
+      us-west-1:
+        Dedicated: 6.514
+        Shared: 6.514
       us-west-2:
         Dedicated: 5.554
         Shared: 5.554
@@ -19521,6 +19552,9 @@ m5d.metal:
       AWS GovCloud (US-East):
         Dedicated: 6.964
         Shared: 6.964
+      ca-central-1:
+        Dedicated: 6.148
+        Shared: 6.148
       eu-central-1:
         Dedicated: 6.628
         Shared: 6.628
@@ -19530,6 +19564,9 @@ m5d.metal:
       eu-west-1:
         Dedicated: 6.148
         Shared: 6.148
+      eu-west-2:
+        Dedicated: 6.388
+        Shared: 6.388
       eu-west-3:
         Dedicated: 6.436
         Shared: 6.436
@@ -19542,6 +19579,9 @@ m5d.metal:
       us-gov-west-1:
         Dedicated: 6.964
         Shared: 6.964
+      us-west-1:
+        Dedicated: 6.484
+        Shared: 6.484
       us-west-2:
         Dedicated: 5.524
         Shared: 5.524
@@ -19570,6 +19610,9 @@ m5d.metal:
       AWS GovCloud (US-East):
         Dedicated: 11.28
         Shared: 11.28
+      ca-central-1:
+        Dedicated: 10.464
+        Shared: 10.464
       eu-central-1:
         Dedicated: 10.944
         Shared: 10.944
@@ -19579,6 +19622,9 @@ m5d.metal:
       eu-west-1:
         Dedicated: 10.464
         Shared: 10.464
+      eu-west-2:
+        Dedicated: 10.704
+        Shared: 10.704
       eu-west-3:
         Dedicated: 10.752
         Shared: 10.752
@@ -19591,6 +19637,9 @@ m5d.metal:
       us-gov-west-1:
         Dedicated: 11.28
         Shared: 11.28
+      us-west-1:
+        Dedicated: 10.8
+        Shared: 10.8
       us-west-2:
         Dedicated: 9.84
         Shared: 9.84
@@ -19598,6 +19647,7 @@ m5d.metal:
     - us-east-1
     - eu-west-1
     - eu-central-1
+    - eu-west-2
     - ap-northeast-2
     - us-gov-west-1
     - ap-south-1
@@ -19607,6 +19657,8 @@ m5d.metal:
     - eu-west-3
     - us-west-2
     - Asia Pacific (Hong Kong)
+    - us-west-1
+    - ca-central-1
     - AWS GovCloud (US-East)
     - ap-southeast-1
     - ap-northeast-3
@@ -20887,6 +20939,8 @@ p3dn.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
+      ap-northeast-1:
+        Shared: 42.783
       eu-west-1:
         Shared: 33.711
       us-east-1:
@@ -20894,6 +20948,8 @@ p3dn.24xlarge:
       us-west-2:
         Shared: 31.212
     RHEL:
+      ap-northeast-1:
+        Shared: 42.913
       eu-west-1:
         Shared: 33.841
       us-east-1:
@@ -20901,6 +20957,8 @@ p3dn.24xlarge:
       us-west-2:
         Shared: 31.342
     SUSE:
+      ap-northeast-1:
+        Shared: 42.933
       eu-west-1:
         Shared: 33.861
       us-east-1:
@@ -20908,6 +20966,8 @@ p3dn.24xlarge:
       us-west-2:
         Shared: 31.362
     Windows:
+      ap-northeast-1:
+        Shared: 47.199
       eu-west-1:
         Shared: 38.127
       us-east-1:
@@ -20918,6 +20978,7 @@ p3dn.24xlarge:
     - eu-west-1
     - us-east-1
     - us-west-2
+    - ap-northeast-1
   storage: 2 x 900 NVMe SSD
   vcpu: 96
 r3.2xlarge:
@@ -24609,6 +24670,9 @@ r5.metal:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 7.296
+        Shared: 7.296
       ap-northeast-2:
         Dedicated: 7.296
         Shared: 7.296
@@ -24630,6 +24694,9 @@ r5.metal:
       AWS GovCloud (US-East):
         Dedicated: 7.248
         Shared: 7.248
+      ca-central-1:
+        Dedicated: 6.624
+        Shared: 6.624
       eu-central-1:
         Dedicated: 7.296
         Shared: 7.296
@@ -24639,6 +24706,9 @@ r5.metal:
       eu-west-1:
         Dedicated: 6.768
         Shared: 6.768
+      eu-west-2:
+        Dedicated: 7.104
+        Shared: 7.104
       eu-west-3:
         Dedicated: 7.104
         Shared: 7.104
@@ -24658,6 +24728,9 @@ r5.metal:
         Dedicated: 6.048
         Shared: 6.048
     RHEL:
+      ap-northeast-1:
+        Dedicated: 7.426
+        Shared: 7.426
       ap-northeast-2:
         Dedicated: 7.426
         Shared: 7.426
@@ -24679,6 +24752,9 @@ r5.metal:
       AWS GovCloud (US-East):
         Dedicated: 7.378
         Shared: 7.378
+      ca-central-1:
+        Dedicated: 6.754
+        Shared: 6.754
       eu-central-1:
         Dedicated: 7.426
         Shared: 7.426
@@ -24688,6 +24764,9 @@ r5.metal:
       eu-west-1:
         Dedicated: 6.898
         Shared: 6.898
+      eu-west-2:
+        Dedicated: 7.234
+        Shared: 7.234
       eu-west-3:
         Dedicated: 7.234
         Shared: 7.234
@@ -24707,6 +24786,9 @@ r5.metal:
         Dedicated: 6.178
         Shared: 6.178
     SUSE:
+      ap-northeast-1:
+        Dedicated: 7.446
+        Shared: 7.446
       ap-northeast-2:
         Dedicated: 7.446
         Shared: 7.446
@@ -24728,6 +24810,9 @@ r5.metal:
       AWS GovCloud (US-East):
         Dedicated: 7.398
         Shared: 7.398
+      ca-central-1:
+        Dedicated: 6.774
+        Shared: 6.774
       eu-central-1:
         Dedicated: 7.446
         Shared: 7.446
@@ -24737,6 +24822,9 @@ r5.metal:
       eu-west-1:
         Dedicated: 6.918
         Shared: 6.918
+      eu-west-2:
+        Dedicated: 7.254
+        Shared: 7.254
       eu-west-3:
         Dedicated: 7.254
         Shared: 7.254
@@ -24756,6 +24844,9 @@ r5.metal:
         Dedicated: 6.198
         Shared: 6.198
     Windows:
+      ap-northeast-1:
+        Dedicated: 11.712
+        Shared: 11.712
       ap-northeast-2:
         Dedicated: 11.712
         Shared: 11.712
@@ -24777,6 +24868,9 @@ r5.metal:
       AWS GovCloud (US-East):
         Dedicated: 11.664
         Shared: 11.664
+      ca-central-1:
+        Dedicated: 11.04
+        Shared: 11.04
       eu-central-1:
         Dedicated: 11.712
         Shared: 11.712
@@ -24786,6 +24880,9 @@ r5.metal:
       eu-west-1:
         Dedicated: 11.184
         Shared: 11.184
+      eu-west-2:
+        Dedicated: 11.52
+        Shared: 11.52
       eu-west-3:
         Dedicated: 11.52
         Shared: 11.52
@@ -24814,16 +24911,16 @@ r5.metal:
     - us-gov-west-1
     - ap-southeast-1
     - us-east-1
+    - ap-northeast-1
     - us-east-2
     - eu-north-1
+    - eu-west-2
     - eu-west-3
     - eu-west-1
     - ca-central-1
     - AWS GovCloud (US-East)
-    - ap-northeast-1
     - ap-south-1
     - ap-northeast-2
-    - eu-west-2
   storage: EBS only
   vcpu: 96
 r5.xlarge:
@@ -27571,12 +27668,21 @@ r5d.metal:
       AWS GovCloud (US-East):
         Dedicated: 8.304
         Shared: 8.304
+      ca-central-1:
+        Dedicated: 7.584
+        Shared: 7.584
       eu-central-1:
         Dedicated: 8.304
         Shared: 8.304
       eu-north-1:
         Dedicated: 7.296
         Shared: 7.296
+      eu-west-1:
+        Dedicated: 7.68
+        Shared: 7.68
+      eu-west-2:
+        Dedicated: 8.112
+        Shared: 8.112
       eu-west-3:
         Dedicated: 8.112
         Shared: 8.112
@@ -27592,6 +27698,9 @@ r5d.metal:
       us-west-1:
         Dedicated: 7.776
         Shared: 7.776
+      us-west-2:
+        Dedicated: 6.912
+        Shared: 6.912
     RHEL:
       ap-northeast-1:
         Dedicated: 8.482
@@ -27617,12 +27726,21 @@ r5d.metal:
       AWS GovCloud (US-East):
         Dedicated: 8.434
         Shared: 8.434
+      ca-central-1:
+        Dedicated: 7.714
+        Shared: 7.714
       eu-central-1:
         Dedicated: 8.434
         Shared: 8.434
       eu-north-1:
         Dedicated: 7.426
         Shared: 7.426
+      eu-west-1:
+        Dedicated: 7.81
+        Shared: 7.81
+      eu-west-2:
+        Dedicated: 8.242
+        Shared: 8.242
       eu-west-3:
         Dedicated: 8.242
         Shared: 8.242
@@ -27638,6 +27756,9 @@ r5d.metal:
       us-west-1:
         Dedicated: 7.906
         Shared: 7.906
+      us-west-2:
+        Dedicated: 7.042
+        Shared: 7.042
     SUSE:
       ap-northeast-1:
         Dedicated: 8.502
@@ -27663,12 +27784,21 @@ r5d.metal:
       AWS GovCloud (US-East):
         Dedicated: 8.454
         Shared: 8.454
+      ca-central-1:
+        Dedicated: 7.734
+        Shared: 7.734
       eu-central-1:
         Dedicated: 8.454
         Shared: 8.454
       eu-north-1:
         Dedicated: 7.446
         Shared: 7.446
+      eu-west-1:
+        Dedicated: 7.83
+        Shared: 7.83
+      eu-west-2:
+        Dedicated: 8.262
+        Shared: 8.262
       eu-west-3:
         Dedicated: 8.262
         Shared: 8.262
@@ -27684,6 +27814,9 @@ r5d.metal:
       us-west-1:
         Dedicated: 7.926
         Shared: 7.926
+      us-west-2:
+        Dedicated: 7.062
+        Shared: 7.062
     Windows:
       ap-northeast-1:
         Dedicated: 12.768
@@ -27709,12 +27842,21 @@ r5d.metal:
       AWS GovCloud (US-East):
         Dedicated: 12.72
         Shared: 12.72
+      ca-central-1:
+        Dedicated: 12
+        Shared: 12
       eu-central-1:
         Dedicated: 12.72
         Shared: 12.72
       eu-north-1:
         Dedicated: 11.712
         Shared: 11.712
+      eu-west-1:
+        Dedicated: 12.096
+        Shared: 12.096
+      eu-west-2:
+        Dedicated: 12.528
+        Shared: 12.528
       eu-west-3:
         Dedicated: 12.528
         Shared: 12.528
@@ -27730,8 +27872,12 @@ r5d.metal:
       us-west-1:
         Dedicated: 12.192
         Shared: 12.192
+      us-west-2:
+        Dedicated: 11.328
+        Shared: 11.328
   regions:
     - eu-central-1
+    - eu-west-1
     - eu-north-1
     - Asia Pacific (Hong Kong)
     - ap-south-1
@@ -27739,16 +27885,16 @@ r5d.metal:
     - ap-northeast-1
     - us-east-1
     - eu-west-3
+    - eu-west-2
+    - ca-central-1
     - us-east-2
     - ap-southeast-1
+    - us-west-2
     - ap-northeast-2
     - us-gov-west-1
     - ap-northeast-3
     - AWS GovCloud (US-East)
     - ap-southeast-2
-    - eu-west-2
-    - eu-west-1
-    - ca-central-1
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5d.xlarge:
