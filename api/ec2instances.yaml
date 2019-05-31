@@ -2493,6 +2493,9 @@ c5.18xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 3.888
+        Shared: 3.888
       ap-northeast-1:
         Dedicated: 3.852
         Shared: 3.852
@@ -2511,9 +2514,6 @@ c5.18xlarge:
       ap-southeast-2:
         Dedicated: 3.996
         Shared: 3.996
-      Asia Pacific (Hong Kong):
-        Dedicated: 3.888
-        Shared: 3.888
       AWS GovCloud (US-East):
         Dedicated: 3.672
         Shared: 3.672
@@ -2554,6 +2554,9 @@ c5.18xlarge:
         Dedicated: 3.06
         Shared: 3.06
     RHEL:
+      ap-east-1:
+        Dedicated: 4.018
+        Shared: 4.018
       ap-northeast-1:
         Dedicated: 3.982
         Shared: 3.982
@@ -2572,9 +2575,6 @@ c5.18xlarge:
       ap-southeast-2:
         Dedicated: 4.126
         Shared: 4.126
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.018
-        Shared: 4.018
       AWS GovCloud (US-East):
         Dedicated: 3.802
         Shared: 3.802
@@ -2615,6 +2615,9 @@ c5.18xlarge:
         Dedicated: 3.19
         Shared: 3.19
     SUSE:
+      ap-east-1:
+        Dedicated: 3.988
+        Shared: 3.988
       ap-northeast-1:
         Dedicated: 3.952
         Shared: 3.952
@@ -2633,9 +2636,6 @@ c5.18xlarge:
       ap-southeast-2:
         Dedicated: 4.096
         Shared: 4.096
-      Asia Pacific (Hong Kong):
-        Dedicated: 3.988
-        Shared: 3.988
       AWS GovCloud (US-East):
         Dedicated: 3.772
         Shared: 3.772
@@ -2676,6 +2676,9 @@ c5.18xlarge:
         Dedicated: 3.16
         Shared: 3.16
     Windows:
+      ap-east-1:
+        Dedicated: 7.2
+        Shared: 7.2
       ap-northeast-1:
         Dedicated: 3.852
         Shared: 7.164
@@ -2694,9 +2697,6 @@ c5.18xlarge:
       ap-southeast-2:
         Dedicated: 3.996
         Shared: 7.308
-      Asia Pacific (Hong Kong):
-        Dedicated: 7.2
-        Shared: 7.2
       AWS GovCloud (US-East):
         Dedicated: 6.984
         Shared: 6.984
@@ -2752,7 +2752,7 @@ c5.18xlarge:
     - eu-central-1
     - us-east-1
     - ap-south-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-1
     - sa-east-1
     - eu-west-3
@@ -2771,6 +2771,9 @@ c5.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.46
+        Shared: 0.432
       ap-northeast-1:
         Dedicated: 0.457
         Shared: 0.428
@@ -2789,9 +2792,6 @@ c5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.471
         Shared: 0.444
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.46
-        Shared: 0.432
       AWS GovCloud (US-East):
         Dedicated: 0.433
         Shared: 0.408
@@ -2832,6 +2832,9 @@ c5.2xlarge:
         Dedicated: 0.36
         Shared: 0.34
     RHEL:
+      ap-east-1:
+        Dedicated: 0.59
+        Shared: 0.562
       ap-northeast-1:
         Dedicated: 0.587
         Shared: 0.558
@@ -2850,9 +2853,6 @@ c5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.601
         Shared: 0.574
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.59
-        Shared: 0.562
       AWS GovCloud (US-East):
         Dedicated: 0.563
         Shared: 0.538
@@ -2893,6 +2893,9 @@ c5.2xlarge:
         Dedicated: 0.49
         Shared: 0.47
     SUSE:
+      ap-east-1:
+        Dedicated: 0.56
+        Shared: 0.532
       ap-northeast-1:
         Dedicated: 0.557
         Shared: 0.528
@@ -2911,9 +2914,6 @@ c5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.571
         Shared: 0.544
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.56
-        Shared: 0.532
       AWS GovCloud (US-East):
         Dedicated: 0.533
         Shared: 0.508
@@ -2954,6 +2954,9 @@ c5.2xlarge:
         Dedicated: 0.46
         Shared: 0.44
     Windows:
+      ap-east-1:
+        Dedicated: 0.828
+        Shared: 0.8
       ap-northeast-1:
         Dedicated: 0.457
         Shared: 0.428
@@ -2972,9 +2975,6 @@ c5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.471
         Shared: 0.812
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.828
-        Shared: 0.8
       AWS GovCloud (US-East):
         Dedicated: 0.801
         Shared: 0.776
@@ -3027,7 +3027,7 @@ c5.2xlarge:
     - us-east-2
     - sa-east-1
     - eu-west-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-1
     - us-west-1
     - eu-west-3
@@ -3049,6 +3049,9 @@ c5.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.919
+        Shared: 0.864
       ap-northeast-1:
         Dedicated: 0.915
         Shared: 0.856
@@ -3067,9 +3070,6 @@ c5.4xlarge:
       ap-southeast-2:
         Dedicated: 0.942
         Shared: 0.888
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.919
-        Shared: 0.864
       AWS GovCloud (US-East):
         Dedicated: 0.865
         Shared: 0.816
@@ -3110,6 +3110,9 @@ c5.4xlarge:
         Dedicated: 0.721
         Shared: 0.68
     RHEL:
+      ap-east-1:
+        Dedicated: 1.049
+        Shared: 0.994
       ap-northeast-1:
         Dedicated: 1.045
         Shared: 0.986
@@ -3128,9 +3131,6 @@ c5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.072
         Shared: 1.018
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.049
-        Shared: 0.994
       AWS GovCloud (US-East):
         Dedicated: 0.995
         Shared: 0.946
@@ -3171,6 +3171,9 @@ c5.4xlarge:
         Dedicated: 0.851
         Shared: 0.81
     SUSE:
+      ap-east-1:
+        Dedicated: 1.019
+        Shared: 0.964
       ap-northeast-1:
         Dedicated: 1.015
         Shared: 0.956
@@ -3189,9 +3192,6 @@ c5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.042
         Shared: 0.988
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.019
-        Shared: 0.964
       AWS GovCloud (US-East):
         Dedicated: 0.965
         Shared: 0.916
@@ -3232,6 +3232,9 @@ c5.4xlarge:
         Dedicated: 0.821
         Shared: 0.78
     Windows:
+      ap-east-1:
+        Dedicated: 1.655
+        Shared: 1.6
       ap-northeast-1:
         Dedicated: 1.651
         Shared: 0.856
@@ -3250,9 +3253,6 @@ c5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.678
         Shared: 1.624
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.655
-        Shared: 1.6
       AWS GovCloud (US-East):
         Dedicated: 1.601
         Shared: 1.552
@@ -3312,7 +3312,7 @@ c5.4xlarge:
     - sa-east-1
     - eu-central-1
     - us-gov-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
   storage: EBS only
   vcpu: 16
 c5.9xlarge:
@@ -3327,6 +3327,9 @@ c5.9xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 2.069
+        Shared: 1.944
       ap-northeast-1:
         Dedicated: 2.058
         Shared: 1.926
@@ -3345,9 +3348,6 @@ c5.9xlarge:
       ap-southeast-2:
         Dedicated: 2.119
         Shared: 1.998
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.069
-        Shared: 1.944
       AWS GovCloud (US-East):
         Dedicated: 1.946
         Shared: 1.836
@@ -3388,6 +3388,9 @@ c5.9xlarge:
         Dedicated: 1.622
         Shared: 1.53
     RHEL:
+      ap-east-1:
+        Dedicated: 2.199
+        Shared: 2.074
       ap-northeast-1:
         Dedicated: 2.188
         Shared: 2.056
@@ -3406,9 +3409,6 @@ c5.9xlarge:
       ap-southeast-2:
         Dedicated: 2.249
         Shared: 2.128
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.199
-        Shared: 2.074
       AWS GovCloud (US-East):
         Dedicated: 2.076
         Shared: 1.966
@@ -3449,6 +3449,9 @@ c5.9xlarge:
         Dedicated: 1.752
         Shared: 1.66
     SUSE:
+      ap-east-1:
+        Dedicated: 2.169
+        Shared: 2.044
       ap-northeast-1:
         Dedicated: 2.158
         Shared: 2.026
@@ -3467,9 +3470,6 @@ c5.9xlarge:
       ap-southeast-2:
         Dedicated: 2.219
         Shared: 2.098
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.169
-        Shared: 2.044
       AWS GovCloud (US-East):
         Dedicated: 2.046
         Shared: 1.936
@@ -3510,6 +3510,9 @@ c5.9xlarge:
         Dedicated: 1.722
         Shared: 1.63
     Windows:
+      ap-east-1:
+        Dedicated: 3.725
+        Shared: 3.6
       ap-northeast-1:
         Dedicated: 3.714
         Shared: 3.582
@@ -3528,9 +3531,6 @@ c5.9xlarge:
       ap-southeast-2:
         Dedicated: 2.119
         Shared: 1.998
-      Asia Pacific (Hong Kong):
-        Dedicated: 3.725
-        Shared: 3.6
       AWS GovCloud (US-East):
         Dedicated: 3.602
         Shared: 3.492
@@ -3585,7 +3585,7 @@ c5.9xlarge:
     - us-east-1
     - ap-northeast-2
     - eu-west-3
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - us-gov-west-1
     - sa-east-1
     - eu-central-1
@@ -3605,6 +3605,9 @@ c5.large:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.115
+        Shared: 0.108
       ap-northeast-1:
         Dedicated: 0.114
         Shared: 0.107
@@ -3623,9 +3626,6 @@ c5.large:
       ap-southeast-2:
         Dedicated: 0.118
         Shared: 0.111
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.115
-        Shared: 0.108
       AWS GovCloud (US-East):
         Dedicated: 0.108
         Shared: 0.102
@@ -3666,6 +3666,9 @@ c5.large:
         Dedicated: 0.09
         Shared: 0.085
     RHEL:
+      ap-east-1:
+        Dedicated: 0.175
+        Shared: 0.168
       ap-northeast-1:
         Dedicated: 0.174
         Shared: 0.167
@@ -3684,9 +3687,6 @@ c5.large:
       ap-southeast-2:
         Dedicated: 0.178
         Shared: 0.171
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.175
-        Shared: 0.168
       AWS GovCloud (US-East):
         Dedicated: 0.168
         Shared: 0.162
@@ -3727,6 +3727,9 @@ c5.large:
         Dedicated: 0.15
         Shared: 0.145
     SUSE:
+      ap-east-1:
+        Dedicated: 0.215
+        Shared: 0.208
       ap-northeast-1:
         Dedicated: 0.214
         Shared: 0.207
@@ -3745,9 +3748,6 @@ c5.large:
       ap-southeast-2:
         Dedicated: 0.218
         Shared: 0.211
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.215
-        Shared: 0.208
       AWS GovCloud (US-East):
         Dedicated: 0.208
         Shared: 0.202
@@ -3788,6 +3788,9 @@ c5.large:
         Dedicated: 0.19
         Shared: 0.185
     Windows:
+      ap-east-1:
+        Dedicated: 0.207
+        Shared: 0.2
       ap-northeast-1:
         Dedicated: 0.206
         Shared: 0.199
@@ -3806,9 +3809,6 @@ c5.large:
       ap-southeast-2:
         Dedicated: 0.118
         Shared: 0.203
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.207
-        Shared: 0.2
       AWS GovCloud (US-East):
         Dedicated: 0.2
         Shared: 0.194
@@ -3855,7 +3855,7 @@ c5.large:
     - ca-central-1
     - us-west-2
     - eu-central-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-south-1
     - eu-west-1
     - sa-east-1
@@ -3883,6 +3883,9 @@ c5.xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.23
+        Shared: 0.216
       ap-northeast-1:
         Dedicated: 0.229
         Shared: 0.214
@@ -3901,9 +3904,6 @@ c5.xlarge:
       ap-southeast-2:
         Dedicated: 0.235
         Shared: 0.222
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.23
-        Shared: 0.216
       AWS GovCloud (US-East):
         Dedicated: 0.216
         Shared: 0.204
@@ -3944,6 +3944,9 @@ c5.xlarge:
         Dedicated: 0.18
         Shared: 0.17
     RHEL:
+      ap-east-1:
+        Dedicated: 0.29
+        Shared: 0.276
       ap-northeast-1:
         Dedicated: 0.289
         Shared: 0.274
@@ -3962,9 +3965,6 @@ c5.xlarge:
       ap-southeast-2:
         Dedicated: 0.295
         Shared: 0.282
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.29
-        Shared: 0.276
       AWS GovCloud (US-East):
         Dedicated: 0.276
         Shared: 0.264
@@ -4005,6 +4005,9 @@ c5.xlarge:
         Dedicated: 0.24
         Shared: 0.23
     SUSE:
+      ap-east-1:
+        Dedicated: 0.33
+        Shared: 0.316
       ap-northeast-1:
         Dedicated: 0.329
         Shared: 0.314
@@ -4023,9 +4026,6 @@ c5.xlarge:
       ap-southeast-2:
         Dedicated: 0.335
         Shared: 0.322
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.33
-        Shared: 0.316
       AWS GovCloud (US-East):
         Dedicated: 0.316
         Shared: 0.304
@@ -4066,6 +4066,9 @@ c5.xlarge:
         Dedicated: 0.28
         Shared: 0.27
     Windows:
+      ap-east-1:
+        Dedicated: 0.414
+        Shared: 0.4
       ap-northeast-1:
         Dedicated: 0.229
         Shared: 0.398
@@ -4084,9 +4087,6 @@ c5.xlarge:
       ap-southeast-2:
         Dedicated: 0.419
         Shared: 0.406
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.414
-        Shared: 0.4
       AWS GovCloud (US-East):
         Dedicated: 0.4
         Shared: 0.388
@@ -4143,7 +4143,7 @@ c5.xlarge:
     - us-east-2
     - ap-southeast-2
     - eu-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-south-1
     - ap-northeast-2
     - ap-northeast-3
@@ -4161,6 +4161,9 @@ c5d.18xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 4.428
+        Shared: 4.428
       ap-northeast-1:
         Dedicated: 4.392
         Shared: 4.392
@@ -4179,9 +4182,6 @@ c5d.18xlarge:
       ap-southeast-2:
         Dedicated: 4.536
         Shared: 4.536
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.428
-        Shared: 4.428
       AWS GovCloud (US-East):
         Dedicated: 4.176
         Shared: 4.176
@@ -4219,6 +4219,9 @@ c5d.18xlarge:
         Dedicated: 3.456
         Shared: 3.456
     RHEL:
+      ap-east-1:
+        Dedicated: 4.558
+        Shared: 4.558
       ap-northeast-1:
         Dedicated: 4.522
         Shared: 4.522
@@ -4237,9 +4240,6 @@ c5d.18xlarge:
       ap-southeast-2:
         Dedicated: 4.666
         Shared: 4.666
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.558
-        Shared: 4.558
       AWS GovCloud (US-East):
         Dedicated: 4.306
         Shared: 4.306
@@ -4277,6 +4277,9 @@ c5d.18xlarge:
         Dedicated: 3.586
         Shared: 3.586
     SUSE:
+      ap-east-1:
+        Dedicated: 4.528
+        Shared: 4.528
       ap-northeast-1:
         Dedicated: 4.492
         Shared: 4.492
@@ -4295,9 +4298,6 @@ c5d.18xlarge:
       ap-southeast-2:
         Dedicated: 4.636
         Shared: 4.636
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.528
-        Shared: 4.528
       AWS GovCloud (US-East):
         Dedicated: 4.276
         Shared: 4.276
@@ -4335,6 +4335,9 @@ c5d.18xlarge:
         Dedicated: 3.556
         Shared: 3.556
     Windows:
+      ap-east-1:
+        Dedicated: 7.74
+        Shared: 7.74
       ap-northeast-1:
         Dedicated: 7.704
         Shared: 7.704
@@ -4353,9 +4356,6 @@ c5d.18xlarge:
       ap-southeast-2:
         Dedicated: 7.848
         Shared: 7.848
-      Asia Pacific (Hong Kong):
-        Dedicated: 7.74
-        Shared: 7.74
       AWS GovCloud (US-East):
         Dedicated: 7.488
         Shared: 7.488
@@ -4398,7 +4398,7 @@ c5d.18xlarge:
     - eu-central-1
     - ap-southeast-2
     - eu-west-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-southeast-1
     - ap-northeast-3
     - us-gov-west-1
@@ -4426,6 +4426,9 @@ c5d.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.523
+        Shared: 0.492
       ap-northeast-1:
         Dedicated: 0.521
         Shared: 0.488
@@ -4444,9 +4447,6 @@ c5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.535
         Shared: 0.504
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.523
-        Shared: 0.492
       AWS GovCloud (US-East):
         Dedicated: 0.492
         Shared: 0.464
@@ -4484,6 +4484,9 @@ c5d.2xlarge:
         Dedicated: 0.407
         Shared: 0.384
     RHEL:
+      ap-east-1:
+        Dedicated: 0.653
+        Shared: 0.622
       ap-northeast-1:
         Dedicated: 0.651
         Shared: 0.618
@@ -4502,9 +4505,6 @@ c5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.665
         Shared: 0.634
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.653
-        Shared: 0.622
       AWS GovCloud (US-East):
         Dedicated: 0.622
         Shared: 0.594
@@ -4542,6 +4542,9 @@ c5d.2xlarge:
         Dedicated: 0.537
         Shared: 0.514
     SUSE:
+      ap-east-1:
+        Dedicated: 0.623
+        Shared: 0.592
       ap-northeast-1:
         Dedicated: 0.621
         Shared: 0.588
@@ -4560,9 +4563,6 @@ c5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.635
         Shared: 0.604
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.623
-        Shared: 0.592
       AWS GovCloud (US-East):
         Dedicated: 0.592
         Shared: 0.564
@@ -4600,6 +4600,9 @@ c5d.2xlarge:
         Dedicated: 0.507
         Shared: 0.484
     Windows:
+      ap-east-1:
+        Dedicated: 0.891
+        Shared: 0.86
       ap-northeast-1:
         Dedicated: 0.889
         Shared: 0.856
@@ -4618,9 +4621,6 @@ c5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.903
         Shared: 0.872
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.891
-        Shared: 0.86
       AWS GovCloud (US-East):
         Dedicated: 0.86
         Shared: 0.832
@@ -4670,7 +4670,7 @@ c5d.2xlarge:
     - ap-south-1
     - us-east-1
     - eu-west-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ca-central-1
     - eu-north-1
     - ap-northeast-2
@@ -4691,6 +4691,9 @@ c5d.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.047
+        Shared: 0.984
       ap-northeast-1:
         Dedicated: 1.042
         Shared: 0.976
@@ -4709,9 +4712,6 @@ c5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.07
         Shared: 1.008
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.047
-        Shared: 0.984
       AWS GovCloud (US-East):
         Dedicated: 0.984
         Shared: 0.928
@@ -4749,6 +4749,9 @@ c5d.4xlarge:
         Dedicated: 0.814
         Shared: 0.768
     RHEL:
+      ap-east-1:
+        Dedicated: 1.177
+        Shared: 1.114
       ap-northeast-1:
         Dedicated: 1.172
         Shared: 1.106
@@ -4767,9 +4770,6 @@ c5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.2
         Shared: 1.138
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.177
-        Shared: 1.114
       AWS GovCloud (US-East):
         Dedicated: 1.114
         Shared: 1.058
@@ -4807,6 +4807,9 @@ c5d.4xlarge:
         Dedicated: 0.944
         Shared: 0.898
     SUSE:
+      ap-east-1:
+        Dedicated: 1.147
+        Shared: 1.084
       ap-northeast-1:
         Dedicated: 1.142
         Shared: 1.076
@@ -4825,9 +4828,6 @@ c5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.17
         Shared: 1.108
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.147
-        Shared: 1.084
       AWS GovCloud (US-East):
         Dedicated: 1.084
         Shared: 1.028
@@ -4865,6 +4865,9 @@ c5d.4xlarge:
         Dedicated: 0.914
         Shared: 0.868
     Windows:
+      ap-east-1:
+        Dedicated: 1.783
+        Shared: 1.72
       ap-northeast-1:
         Dedicated: 1.778
         Shared: 1.712
@@ -4883,9 +4886,6 @@ c5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.806
         Shared: 1.744
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.783
-        Shared: 1.72
       AWS GovCloud (US-East):
         Dedicated: 1.72
         Shared: 1.664
@@ -4924,7 +4924,7 @@ c5d.4xlarge:
         Shared: 1.504
   regions:
     - us-east-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-north-1
     - ca-central-1
     - ap-southeast-2
@@ -4956,6 +4956,9 @@ c5d.9xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 2.355
+        Shared: 2.214
       ap-northeast-1:
         Dedicated: 2.345
         Shared: 2.196
@@ -4974,9 +4977,6 @@ c5d.9xlarge:
       ap-southeast-2:
         Dedicated: 2.406
         Shared: 2.268
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.355
-        Shared: 2.214
       AWS GovCloud (US-East):
         Dedicated: 2.214
         Shared: 2.088
@@ -5014,6 +5014,9 @@ c5d.9xlarge:
         Dedicated: 1.832
         Shared: 1.728
     RHEL:
+      ap-east-1:
+        Dedicated: 2.485
+        Shared: 2.344
       ap-northeast-1:
         Dedicated: 2.475
         Shared: 2.326
@@ -5032,9 +5035,6 @@ c5d.9xlarge:
       ap-southeast-2:
         Dedicated: 2.536
         Shared: 2.398
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.485
-        Shared: 2.344
       AWS GovCloud (US-East):
         Dedicated: 2.344
         Shared: 2.218
@@ -5072,6 +5072,9 @@ c5d.9xlarge:
         Dedicated: 1.962
         Shared: 1.858
     SUSE:
+      ap-east-1:
+        Dedicated: 2.455
+        Shared: 2.314
       ap-northeast-1:
         Dedicated: 2.445
         Shared: 2.296
@@ -5090,9 +5093,6 @@ c5d.9xlarge:
       ap-southeast-2:
         Dedicated: 2.506
         Shared: 2.368
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.455
-        Shared: 2.314
       AWS GovCloud (US-East):
         Dedicated: 2.314
         Shared: 2.188
@@ -5130,6 +5130,9 @@ c5d.9xlarge:
         Dedicated: 1.932
         Shared: 1.828
     Windows:
+      ap-east-1:
+        Dedicated: 4.011
+        Shared: 3.87
       ap-northeast-1:
         Dedicated: 4.001
         Shared: 3.852
@@ -5148,9 +5151,6 @@ c5d.9xlarge:
       ap-southeast-2:
         Dedicated: 4.062
         Shared: 3.924
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.011
-        Shared: 3.87
       AWS GovCloud (US-East):
         Dedicated: 3.87
         Shared: 3.744
@@ -5198,7 +5198,7 @@ c5d.9xlarge:
     - us-gov-west-1
     - AWS GovCloud (US-East)
     - ap-northeast-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-west-1
     - eu-central-1
     - ca-central-1
@@ -5221,6 +5221,9 @@ c5d.large:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.131
+        Shared: 0.123
       ap-northeast-1:
         Dedicated: 0.13
         Shared: 0.122
@@ -5239,9 +5242,6 @@ c5d.large:
       ap-southeast-2:
         Dedicated: 0.134
         Shared: 0.126
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.131
-        Shared: 0.123
       AWS GovCloud (US-East):
         Dedicated: 0.123
         Shared: 0.116
@@ -5279,6 +5279,9 @@ c5d.large:
         Dedicated: 0.102
         Shared: 0.096
     RHEL:
+      ap-east-1:
+        Dedicated: 0.191
+        Shared: 0.183
       ap-northeast-1:
         Dedicated: 0.19
         Shared: 0.182
@@ -5297,9 +5300,6 @@ c5d.large:
       ap-southeast-2:
         Dedicated: 0.194
         Shared: 0.186
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.191
-        Shared: 0.183
       AWS GovCloud (US-East):
         Dedicated: 0.183
         Shared: 0.176
@@ -5337,6 +5337,9 @@ c5d.large:
         Dedicated: 0.162
         Shared: 0.156
     SUSE:
+      ap-east-1:
+        Dedicated: 0.231
+        Shared: 0.223
       ap-northeast-1:
         Dedicated: 0.23
         Shared: 0.222
@@ -5355,9 +5358,6 @@ c5d.large:
       ap-southeast-2:
         Dedicated: 0.234
         Shared: 0.226
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.231
-        Shared: 0.223
       AWS GovCloud (US-East):
         Dedicated: 0.223
         Shared: 0.216
@@ -5395,6 +5395,9 @@ c5d.large:
         Dedicated: 0.202
         Shared: 0.196
     Windows:
+      ap-east-1:
+        Dedicated: 0.223
+        Shared: 0.215
       ap-northeast-1:
         Dedicated: 0.222
         Shared: 0.214
@@ -5413,9 +5416,6 @@ c5d.large:
       ap-southeast-2:
         Dedicated: 0.226
         Shared: 0.218
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.223
-        Shared: 0.215
       AWS GovCloud (US-East):
         Dedicated: 0.215
         Shared: 0.208
@@ -5467,7 +5467,7 @@ c5d.large:
     - us-west-1
     - ca-central-1
     - us-west-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-3
     - ap-southeast-2
     - ap-northeast-2
@@ -5486,6 +5486,9 @@ c5d.xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.262
+        Shared: 0.246
       ap-northeast-1:
         Dedicated: 0.261
         Shared: 0.244
@@ -5504,9 +5507,6 @@ c5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.267
         Shared: 0.252
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.262
-        Shared: 0.246
       AWS GovCloud (US-East):
         Dedicated: 0.246
         Shared: 0.232
@@ -5544,6 +5544,9 @@ c5d.xlarge:
         Dedicated: 0.204
         Shared: 0.192
     RHEL:
+      ap-east-1:
+        Dedicated: 0.322
+        Shared: 0.306
       ap-northeast-1:
         Dedicated: 0.321
         Shared: 0.304
@@ -5562,9 +5565,6 @@ c5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.327
         Shared: 0.312
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.322
-        Shared: 0.306
       AWS GovCloud (US-East):
         Dedicated: 0.306
         Shared: 0.292
@@ -5602,6 +5602,9 @@ c5d.xlarge:
         Dedicated: 0.264
         Shared: 0.252
     SUSE:
+      ap-east-1:
+        Dedicated: 0.362
+        Shared: 0.346
       ap-northeast-1:
         Dedicated: 0.361
         Shared: 0.344
@@ -5620,9 +5623,6 @@ c5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.367
         Shared: 0.352
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.362
-        Shared: 0.346
       AWS GovCloud (US-East):
         Dedicated: 0.346
         Shared: 0.332
@@ -5660,6 +5660,9 @@ c5d.xlarge:
         Dedicated: 0.304
         Shared: 0.292
     Windows:
+      ap-east-1:
+        Dedicated: 0.446
+        Shared: 0.43
       ap-northeast-1:
         Dedicated: 0.445
         Shared: 0.428
@@ -5678,9 +5681,6 @@ c5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.451
         Shared: 0.436
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.446
-        Shared: 0.43
       AWS GovCloud (US-East):
         Dedicated: 0.43
         Shared: 0.416
@@ -5722,7 +5722,7 @@ c5d.xlarge:
     - ap-southeast-1
     - ap-northeast-1
     - us-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-3
     - ca-central-1
     - ap-northeast-2
@@ -6624,6 +6624,9 @@ d2.2xlarge:
   physicalProcessor: Intel Xeon E5-2676v3 (Haswell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 2.105
+        Shared: 1.914
       ap-northeast-1:
         Dedicated: 1.857
         Shared: 1.688
@@ -6642,9 +6645,6 @@ d2.2xlarge:
       ap-southeast-2:
         Dedicated: 1.914
         Shared: 1.74
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.105
-        Shared: 1.914
       ca-central-1:
         Dedicated: 1.67
         Shared: 1.518
@@ -6679,6 +6679,9 @@ d2.2xlarge:
         Dedicated: 1.518
         Shared: 1.38
     RHEL:
+      ap-east-1:
+        Dedicated: 2.235
+        Shared: 2.044
       ap-northeast-1:
         Dedicated: 2
         Shared: 1.818
@@ -6697,9 +6700,6 @@ d2.2xlarge:
       ap-southeast-2:
         Dedicated: 2.057
         Shared: 1.87
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.235
-        Shared: 2.044
       ca-central-1:
         Dedicated: 1.8
         Shared: 1.648
@@ -6734,6 +6734,9 @@ d2.2xlarge:
         Dedicated: 1.661
         Shared: 1.51
     SUSE:
+      ap-east-1:
+        Dedicated: 2.205
+        Shared: 2.014
       ap-northeast-1:
         Dedicated: 1.967
         Shared: 1.788
@@ -6752,9 +6755,6 @@ d2.2xlarge:
       ap-southeast-2:
         Dedicated: 2.024
         Shared: 1.84
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.205
-        Shared: 2.014
       ca-central-1:
         Dedicated: 1.77
         Shared: 1.618
@@ -6789,6 +6789,9 @@ d2.2xlarge:
         Dedicated: 1.628
         Shared: 1.48
     Windows:
+      ap-east-1:
+        Dedicated: 2.473
+        Shared: 2.282
       ap-northeast-1:
         Dedicated: 2.1
         Shared: 1.688
@@ -6807,9 +6810,6 @@ d2.2xlarge:
       ap-southeast-2:
         Dedicated: 2.157
         Shared: 1.74
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.473
-        Shared: 2.282
       ca-central-1:
         Dedicated: 2.038
         Shared: 1.886
@@ -6854,7 +6854,7 @@ d2.2xlarge:
     - us-west-1
     - ap-south-1
     - eu-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-1
     - us-west-2
     - ap-northeast-3
@@ -6876,6 +6876,9 @@ d2.4xlarge:
   physicalProcessor: Intel Xeon E5-2676v3 (Haswell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 4.211
+        Shared: 3.828
       ap-northeast-1:
         Dedicated: 3.714
         Shared: 3.376
@@ -6894,9 +6897,6 @@ d2.4xlarge:
       ap-southeast-2:
         Dedicated: 3.828
         Shared: 3.48
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.211
-        Shared: 3.828
       ca-central-1:
         Dedicated: 3.34
         Shared: 3.036
@@ -6931,6 +6931,9 @@ d2.4xlarge:
         Dedicated: 3.036
         Shared: 2.76
     RHEL:
+      ap-east-1:
+        Dedicated: 4.341
+        Shared: 3.958
       ap-northeast-1:
         Dedicated: 3.857
         Shared: 3.506
@@ -6949,9 +6952,6 @@ d2.4xlarge:
       ap-southeast-2:
         Dedicated: 3.971
         Shared: 3.61
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.341
-        Shared: 3.958
       ca-central-1:
         Dedicated: 3.47
         Shared: 3.166
@@ -6986,6 +6986,9 @@ d2.4xlarge:
         Dedicated: 3.179
         Shared: 2.89
     SUSE:
+      ap-east-1:
+        Dedicated: 4.311
+        Shared: 3.928
       ap-northeast-1:
         Dedicated: 3.824
         Shared: 3.476
@@ -7004,9 +7007,6 @@ d2.4xlarge:
       ap-southeast-2:
         Dedicated: 3.938
         Shared: 3.58
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.311
-        Shared: 3.928
       ca-central-1:
         Dedicated: 3.44
         Shared: 3.136
@@ -7040,6 +7040,9 @@ d2.4xlarge:
         Dedicated: 3.146
         Shared: 2.86
     Windows:
+      ap-east-1:
+        Dedicated: 4.947
+        Shared: 4.564
       ap-northeast-1:
         Dedicated: 4.046
         Shared: 3.678
@@ -7058,9 +7061,6 @@ d2.4xlarge:
       ap-southeast-2:
         Dedicated: 3.828
         Shared: 3.782
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.947
-        Shared: 4.564
       ca-central-1:
         Dedicated: 4.076
         Shared: 3.036
@@ -7100,7 +7100,7 @@ d2.4xlarge:
     - ap-northeast-2
     - us-west-1
     - ca-central-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-southeast-2
     - eu-west-3
     - us-east-1
@@ -7127,6 +7127,9 @@ d2.8xlarge:
   physicalProcessor: Intel Xeon E5-2676v3 (Haswell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 7.656
+        Shared: 7.656
       ap-northeast-1:
         Dedicated: 6.752
         Shared: 6.752
@@ -7145,9 +7148,6 @@ d2.8xlarge:
       ap-southeast-2:
         Dedicated: 6.96
         Shared: 6.96
-      Asia Pacific (Hong Kong):
-        Dedicated: 7.656
-        Shared: 7.656
       ca-central-1:
         Dedicated: 6.072
         Shared: 6.072
@@ -7182,6 +7182,9 @@ d2.8xlarge:
         Dedicated: 5.52
         Shared: 5.52
     RHEL:
+      ap-east-1:
+        Dedicated: 7.786
+        Shared: 7.786
       ap-northeast-1:
         Dedicated: 6.882
         Shared: 6.882
@@ -7200,9 +7203,6 @@ d2.8xlarge:
       ap-southeast-2:
         Dedicated: 7.09
         Shared: 7.09
-      Asia Pacific (Hong Kong):
-        Dedicated: 7.786
-        Shared: 7.786
       ca-central-1:
         Dedicated: 6.202
         Shared: 6.202
@@ -7237,6 +7237,9 @@ d2.8xlarge:
         Dedicated: 5.65
         Shared: 5.65
     SUSE:
+      ap-east-1:
+        Dedicated: 7.756
+        Shared: 7.756
       ap-northeast-1:
         Dedicated: 6.852
         Shared: 6.852
@@ -7255,9 +7258,6 @@ d2.8xlarge:
       ap-southeast-2:
         Dedicated: 7.06
         Shared: 7.06
-      Asia Pacific (Hong Kong):
-        Dedicated: 7.756
-        Shared: 7.756
       ca-central-1:
         Dedicated: 6.172
         Shared: 6.172
@@ -7292,6 +7292,9 @@ d2.8xlarge:
         Dedicated: 5.62
         Shared: 5.62
     Windows:
+      ap-east-1:
+        Dedicated: 9.312
+        Shared: 9.312
       ap-northeast-1:
         Dedicated: 7.43
         Shared: 6.752
@@ -7310,9 +7313,6 @@ d2.8xlarge:
       ap-southeast-2:
         Dedicated: 7.638
         Shared: 6.96
-      Asia Pacific (Hong Kong):
-        Dedicated: 9.312
-        Shared: 9.312
       ca-central-1:
         Dedicated: 7.728
         Shared: 7.728
@@ -7359,7 +7359,7 @@ d2.8xlarge:
     - ap-southeast-2
     - ap-northeast-1
     - eu-central-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - us-gov-west-1
     - ca-central-1
     - us-west-1
@@ -7379,6 +7379,9 @@ d2.xlarge:
   physicalProcessor: Intel Xeon E5-2676v3 (Haswell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.053
+        Shared: 0.957
       ap-northeast-1:
         Dedicated: 0.928
         Shared: 0.844
@@ -7397,9 +7400,6 @@ d2.xlarge:
       ap-southeast-2:
         Dedicated: 0.957
         Shared: 0.87
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.053
-        Shared: 0.957
       ca-central-1:
         Dedicated: 0.835
         Shared: 0.759
@@ -7434,6 +7434,9 @@ d2.xlarge:
         Dedicated: 0.759
         Shared: 0.69
     RHEL:
+      ap-east-1:
+        Dedicated: 1.113
+        Shared: 1.017
       ap-northeast-1:
         Dedicated: 0.994
         Shared: 0.904
@@ -7452,9 +7455,6 @@ d2.xlarge:
       ap-southeast-2:
         Dedicated: 1.023
         Shared: 0.93
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.113
-        Shared: 1.017
       ca-central-1:
         Dedicated: 0.895
         Shared: 0.819
@@ -7489,6 +7489,9 @@ d2.xlarge:
         Dedicated: 0.825
         Shared: 0.75
     SUSE:
+      ap-east-1:
+        Dedicated: 1.153
+        Shared: 1.057
       ap-northeast-1:
         Dedicated: 1.038
         Shared: 0.944
@@ -7507,9 +7510,6 @@ d2.xlarge:
       ap-southeast-2:
         Dedicated: 1.067
         Shared: 0.97
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.153
-        Shared: 1.057
       ca-central-1:
         Dedicated: 0.935
         Shared: 0.859
@@ -7543,6 +7543,9 @@ d2.xlarge:
         Dedicated: 0.869
         Shared: 0.79
     Windows:
+      ap-east-1:
+        Dedicated: 1.237
+        Shared: 1.141
       ap-northeast-1:
         Dedicated: 1.073
         Shared: 0.844
@@ -7561,9 +7564,6 @@ d2.xlarge:
       ap-southeast-2:
         Dedicated: 1.101
         Shared: 1.001
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.237
-        Shared: 1.141
       ca-central-1:
         Dedicated: 1.019
         Shared: 0.943
@@ -7600,7 +7600,7 @@ d2.xlarge:
   regions:
     - us-west-1
     - us-east-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-2
     - eu-west-3
     - eu-north-1
@@ -9906,6 +9906,9 @@ i3.16xlarge:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 6.592
+        Shared: 6.592
       ap-northeast-1:
         Dedicated: 5.856
         Shared: 5.856
@@ -9924,9 +9927,6 @@ i3.16xlarge:
       ap-southeast-2:
         Dedicated: 5.984
         Shared: 5.984
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.592
-        Shared: 6.592
       AWS GovCloud (US-East):
         Dedicated: 6.016
         Shared: 6.016
@@ -9967,6 +9967,9 @@ i3.16xlarge:
         Dedicated: 4.992
         Shared: 4.992
     RHEL:
+      ap-east-1:
+        Dedicated: 6.722
+        Shared: 6.722
       ap-northeast-1:
         Dedicated: 5.986
         Shared: 5.986
@@ -9985,9 +9988,6 @@ i3.16xlarge:
       ap-southeast-2:
         Dedicated: 6.114
         Shared: 6.114
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.722
-        Shared: 6.722
       AWS GovCloud (US-East):
         Dedicated: 6.146
         Shared: 6.146
@@ -10028,6 +10028,9 @@ i3.16xlarge:
         Dedicated: 5.122
         Shared: 5.122
     SUSE:
+      ap-east-1:
+        Dedicated: 6.692
+        Shared: 6.692
       ap-northeast-1:
         Dedicated: 5.956
         Shared: 5.956
@@ -10046,9 +10049,6 @@ i3.16xlarge:
       ap-southeast-2:
         Dedicated: 6.084
         Shared: 6.084
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.692
-        Shared: 6.692
       AWS GovCloud (US-East):
         Dedicated: 6.116
         Shared: 6.116
@@ -10089,6 +10089,9 @@ i3.16xlarge:
         Dedicated: 5.092
         Shared: 5.092
     Windows:
+      ap-east-1:
+        Dedicated: 9.536
+        Shared: 9.536
       ap-northeast-1:
         Dedicated: 8.8
         Shared: 5.856
@@ -10107,9 +10110,6 @@ i3.16xlarge:
       ap-southeast-2:
         Dedicated: 8.928
         Shared: 5.984
-      Asia Pacific (Hong Kong):
-        Dedicated: 9.536
-        Shared: 9.536
       AWS GovCloud (US-East):
         Dedicated: 8.96
         Shared: 8.96
@@ -10163,7 +10163,7 @@ i3.16xlarge:
     - ap-southeast-2
     - us-east-1
     - ap-northeast-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-central-1
     - sa-east-1
     - eu-west-2
@@ -10184,6 +10184,9 @@ i3.2xlarge:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.906
+        Shared: 0.824
       ap-northeast-1:
         Dedicated: 0.805
         Shared: 0.732
@@ -10202,9 +10205,6 @@ i3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.823
         Shared: 0.748
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.906
-        Shared: 0.824
       AWS GovCloud (US-East):
         Dedicated: 0.827
         Shared: 0.752
@@ -10245,6 +10245,9 @@ i3.2xlarge:
         Dedicated: 0.686
         Shared: 0.624
     RHEL:
+      ap-east-1:
+        Dedicated: 1.036
+        Shared: 0.954
       ap-northeast-1:
         Dedicated: 0.935
         Shared: 0.862
@@ -10263,9 +10266,6 @@ i3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.953
         Shared: 0.878
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.036
-        Shared: 0.954
       AWS GovCloud (US-East):
         Dedicated: 0.957
         Shared: 0.882
@@ -10306,6 +10306,9 @@ i3.2xlarge:
         Dedicated: 0.816
         Shared: 0.754
     SUSE:
+      ap-east-1:
+        Dedicated: 1.006
+        Shared: 0.924
       ap-northeast-1:
         Dedicated: 0.905
         Shared: 0.832
@@ -10324,9 +10327,6 @@ i3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.923
         Shared: 0.848
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.006
-        Shared: 0.924
       AWS GovCloud (US-East):
         Dedicated: 0.927
         Shared: 0.852
@@ -10367,6 +10367,9 @@ i3.2xlarge:
         Dedicated: 0.786
         Shared: 0.724
     Windows:
+      ap-east-1:
+        Dedicated: 1.274
+        Shared: 1.192
       ap-northeast-1:
         Dedicated: 0.805
         Shared: 0.732
@@ -10385,9 +10388,6 @@ i3.2xlarge:
       ap-southeast-2:
         Dedicated: 1.191
         Shared: 0.748
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.274
-        Shared: 1.192
       AWS GovCloud (US-East):
         Dedicated: 1.195
         Shared: 1.12
@@ -10430,7 +10430,7 @@ i3.2xlarge:
   regions:
     - us-west-1
     - AWS GovCloud (US-East)
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-1
     - eu-north-1
     - us-east-2
@@ -10462,6 +10462,9 @@ i3.4xlarge:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.813
+        Shared: 1.648
       ap-northeast-1:
         Dedicated: 1.61
         Shared: 1.464
@@ -10480,9 +10483,6 @@ i3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.646
         Shared: 1.496
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.813
-        Shared: 1.648
       AWS GovCloud (US-East):
         Dedicated: 1.654
         Shared: 1.504
@@ -10523,6 +10523,9 @@ i3.4xlarge:
         Dedicated: 1.373
         Shared: 1.248
     RHEL:
+      ap-east-1:
+        Dedicated: 1.943
+        Shared: 1.778
       ap-northeast-1:
         Dedicated: 1.74
         Shared: 1.594
@@ -10541,9 +10544,6 @@ i3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.776
         Shared: 1.626
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.943
-        Shared: 1.778
       AWS GovCloud (US-East):
         Dedicated: 1.784
         Shared: 1.634
@@ -10584,6 +10584,9 @@ i3.4xlarge:
         Dedicated: 1.503
         Shared: 1.378
     SUSE:
+      ap-east-1:
+        Dedicated: 1.913
+        Shared: 1.748
       ap-northeast-1:
         Dedicated: 1.71
         Shared: 1.564
@@ -10602,9 +10605,6 @@ i3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.746
         Shared: 1.596
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.913
-        Shared: 1.748
       AWS GovCloud (US-East):
         Dedicated: 1.754
         Shared: 1.604
@@ -10645,6 +10645,9 @@ i3.4xlarge:
         Dedicated: 1.473
         Shared: 1.348
     Windows:
+      ap-east-1:
+        Dedicated: 2.549
+        Shared: 2.384
       ap-northeast-1:
         Dedicated: 1.61
         Shared: 2.2
@@ -10663,9 +10666,6 @@ i3.4xlarge:
       ap-southeast-2:
         Dedicated: 2.382
         Shared: 2.232
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.549
-        Shared: 2.384
       AWS GovCloud (US-East):
         Dedicated: 2.39
         Shared: 2.24
@@ -10719,7 +10719,7 @@ i3.4xlarge:
     - eu-west-1
     - ap-northeast-2
     - us-east-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-southeast-1
     - us-east-2
     - us-gov-west-1
@@ -10740,6 +10740,9 @@ i3.8xlarge:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 3.626
+        Shared: 3.296
       ap-northeast-1:
         Dedicated: 3.221
         Shared: 2.928
@@ -10758,9 +10761,6 @@ i3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.291
         Shared: 2.992
-      Asia Pacific (Hong Kong):
-        Dedicated: 3.626
-        Shared: 3.296
       AWS GovCloud (US-East):
         Dedicated: 3.309
         Shared: 3.008
@@ -10801,6 +10801,9 @@ i3.8xlarge:
         Dedicated: 2.746
         Shared: 2.496
     RHEL:
+      ap-east-1:
+        Dedicated: 3.756
+        Shared: 3.426
       ap-northeast-1:
         Dedicated: 3.351
         Shared: 3.058
@@ -10819,9 +10822,6 @@ i3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.421
         Shared: 3.122
-      Asia Pacific (Hong Kong):
-        Dedicated: 3.756
-        Shared: 3.426
       AWS GovCloud (US-East):
         Dedicated: 3.439
         Shared: 3.138
@@ -10862,6 +10862,9 @@ i3.8xlarge:
         Dedicated: 2.876
         Shared: 2.626
     SUSE:
+      ap-east-1:
+        Dedicated: 3.726
+        Shared: 3.396
       ap-northeast-1:
         Dedicated: 3.321
         Shared: 3.028
@@ -10880,9 +10883,6 @@ i3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.391
         Shared: 3.092
-      Asia Pacific (Hong Kong):
-        Dedicated: 3.726
-        Shared: 3.396
       AWS GovCloud (US-East):
         Dedicated: 3.409
         Shared: 3.108
@@ -10923,6 +10923,9 @@ i3.8xlarge:
         Dedicated: 2.846
         Shared: 2.596
     Windows:
+      ap-east-1:
+        Dedicated: 5.098
+        Shared: 4.768
       ap-northeast-1:
         Dedicated: 4.693
         Shared: 4.4
@@ -10941,9 +10944,6 @@ i3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.291
         Shared: 4.464
-      Asia Pacific (Hong Kong):
-        Dedicated: 5.098
-        Shared: 4.768
       AWS GovCloud (US-East):
         Dedicated: 4.781
         Shared: 4.48
@@ -10999,7 +10999,7 @@ i3.8xlarge:
     - ap-south-1
     - sa-east-1
     - us-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-3
     - us-west-2
     - eu-central-1
@@ -11018,6 +11018,9 @@ i3.large:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.227
+        Shared: 0.206
       ap-northeast-1:
         Dedicated: 0.201
         Shared: 0.183
@@ -11036,9 +11039,6 @@ i3.large:
       ap-southeast-2:
         Dedicated: 0.206
         Shared: 0.187
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.227
-        Shared: 0.206
       AWS GovCloud (US-East):
         Dedicated: 0.207
         Shared: 0.188
@@ -11079,6 +11079,9 @@ i3.large:
         Dedicated: 0.172
         Shared: 0.156
     RHEL:
+      ap-east-1:
+        Dedicated: 0.287
+        Shared: 0.266
       ap-northeast-1:
         Dedicated: 0.261
         Shared: 0.243
@@ -11097,9 +11100,6 @@ i3.large:
       ap-southeast-2:
         Dedicated: 0.266
         Shared: 0.247
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.287
-        Shared: 0.266
       AWS GovCloud (US-East):
         Dedicated: 0.267
         Shared: 0.248
@@ -11140,6 +11140,9 @@ i3.large:
         Dedicated: 0.232
         Shared: 0.216
     SUSE:
+      ap-east-1:
+        Dedicated: 0.327
+        Shared: 0.306
       ap-northeast-1:
         Dedicated: 0.301
         Shared: 0.283
@@ -11158,9 +11161,6 @@ i3.large:
       ap-southeast-2:
         Dedicated: 0.306
         Shared: 0.287
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.327
-        Shared: 0.306
       AWS GovCloud (US-East):
         Dedicated: 0.307
         Shared: 0.288
@@ -11201,6 +11201,9 @@ i3.large:
         Dedicated: 0.272
         Shared: 0.256
     Windows:
+      ap-east-1:
+        Dedicated: 0.319
+        Shared: 0.298
       ap-northeast-1:
         Dedicated: 0.293
         Shared: 0.275
@@ -11219,9 +11222,6 @@ i3.large:
       ap-southeast-2:
         Dedicated: 0.298
         Shared: 0.279
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.319
-        Shared: 0.298
       AWS GovCloud (US-East):
         Dedicated: 0.299
         Shared: 0.28
@@ -11269,7 +11269,7 @@ i3.large:
     - us-east-2
     - sa-east-1
     - ap-southeast-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - us-west-2
     - eu-west-3
     - ap-south-1
@@ -11418,6 +11418,9 @@ i3.xlarge:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.453
+        Shared: 0.412
       ap-northeast-1:
         Dedicated: 0.403
         Shared: 0.366
@@ -11436,9 +11439,6 @@ i3.xlarge:
       ap-southeast-2:
         Dedicated: 0.411
         Shared: 0.374
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.453
-        Shared: 0.412
       AWS GovCloud (US-East):
         Dedicated: 0.414
         Shared: 0.376
@@ -11479,6 +11479,9 @@ i3.xlarge:
         Dedicated: 0.343
         Shared: 0.312
     RHEL:
+      ap-east-1:
+        Dedicated: 0.513
+        Shared: 0.472
       ap-northeast-1:
         Dedicated: 0.463
         Shared: 0.426
@@ -11497,9 +11500,6 @@ i3.xlarge:
       ap-southeast-2:
         Dedicated: 0.471
         Shared: 0.434
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.513
-        Shared: 0.472
       AWS GovCloud (US-East):
         Dedicated: 0.474
         Shared: 0.436
@@ -11540,6 +11540,9 @@ i3.xlarge:
         Dedicated: 0.403
         Shared: 0.372
     SUSE:
+      ap-east-1:
+        Dedicated: 0.553
+        Shared: 0.512
       ap-northeast-1:
         Dedicated: 0.503
         Shared: 0.466
@@ -11558,9 +11561,6 @@ i3.xlarge:
       ap-southeast-2:
         Dedicated: 0.511
         Shared: 0.474
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.553
-        Shared: 0.512
       AWS GovCloud (US-East):
         Dedicated: 0.514
         Shared: 0.476
@@ -11601,6 +11601,9 @@ i3.xlarge:
         Dedicated: 0.443
         Shared: 0.412
     Windows:
+      ap-east-1:
+        Dedicated: 0.637
+        Shared: 0.596
       ap-northeast-1:
         Dedicated: 0.587
         Shared: 0.55
@@ -11619,9 +11622,6 @@ i3.xlarge:
       ap-southeast-2:
         Dedicated: 0.595
         Shared: 0.558
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.637
-        Shared: 0.596
       AWS GovCloud (US-East):
         Dedicated: 0.598
         Shared: 0.56
@@ -11675,7 +11675,7 @@ i3.xlarge:
     - us-west-1
     - ap-south-1
     - eu-central-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-3
     - ap-northeast-1
     - eu-west-3
@@ -15014,6 +15014,9 @@ m5.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 3.363
+        Shared: 3.168
       ap-northeast-1:
         Dedicated: 3.173
         Shared: 2.976
@@ -15032,9 +15035,6 @@ m5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.07
         Shared: 2.88
-      Asia Pacific (Hong Kong):
-        Dedicated: 3.363
-        Shared: 3.168
       AWS GovCloud (US-East):
         Dedicated: 3.094
         Shared: 2.904
@@ -15075,6 +15075,9 @@ m5.12xlarge:
         Dedicated: 2.444
         Shared: 2.304
     RHEL:
+      ap-east-1:
+        Dedicated: 3.493
+        Shared: 3.298
       ap-northeast-1:
         Dedicated: 3.303
         Shared: 3.106
@@ -15093,9 +15096,6 @@ m5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.2
         Shared: 3.01
-      Asia Pacific (Hong Kong):
-        Dedicated: 3.493
-        Shared: 3.298
       AWS GovCloud (US-East):
         Dedicated: 3.224
         Shared: 3.034
@@ -15136,6 +15136,9 @@ m5.12xlarge:
         Dedicated: 2.574
         Shared: 2.434
     SUSE:
+      ap-east-1:
+        Dedicated: 3.463
+        Shared: 3.268
       ap-northeast-1:
         Dedicated: 3.273
         Shared: 3.076
@@ -15154,9 +15157,6 @@ m5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.17
         Shared: 2.98
-      Asia Pacific (Hong Kong):
-        Dedicated: 3.463
-        Shared: 3.268
       AWS GovCloud (US-East):
         Dedicated: 3.194
         Shared: 3.004
@@ -15197,6 +15197,9 @@ m5.12xlarge:
         Dedicated: 2.544
         Shared: 2.404
     Windows:
+      ap-east-1:
+        Dedicated: 5.571
+        Shared: 5.376
       ap-northeast-1:
         Dedicated: 3.173
         Shared: 5.184
@@ -15215,9 +15218,6 @@ m5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.07
         Shared: 5.088
-      Asia Pacific (Hong Kong):
-        Dedicated: 5.571
-        Shared: 5.376
       AWS GovCloud (US-East):
         Dedicated: 5.302
         Shared: 5.112
@@ -15259,7 +15259,7 @@ m5.12xlarge:
         Shared: 2.304
   regions:
     - ap-southeast-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-north-1
     - us-west-2
     - us-east-1
@@ -15292,6 +15292,9 @@ m5.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 6.336
+        Shared: 6.336
       ap-northeast-1:
         Dedicated: 5.952
         Shared: 5.952
@@ -15310,9 +15313,6 @@ m5.24xlarge:
       ap-southeast-2:
         Dedicated: 5.76
         Shared: 5.76
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.336
-        Shared: 6.336
       AWS GovCloud (US-East):
         Dedicated: 5.808
         Shared: 5.808
@@ -15353,6 +15353,9 @@ m5.24xlarge:
         Dedicated: 4.608
         Shared: 4.608
     RHEL:
+      ap-east-1:
+        Dedicated: 6.466
+        Shared: 6.466
       ap-northeast-1:
         Dedicated: 6.082
         Shared: 6.082
@@ -15371,9 +15374,6 @@ m5.24xlarge:
       ap-southeast-2:
         Dedicated: 5.89
         Shared: 5.89
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.466
-        Shared: 6.466
       AWS GovCloud (US-East):
         Dedicated: 5.938
         Shared: 5.938
@@ -15414,6 +15414,9 @@ m5.24xlarge:
         Dedicated: 4.738
         Shared: 4.738
     SUSE:
+      ap-east-1:
+        Dedicated: 6.436
+        Shared: 6.436
       ap-northeast-1:
         Dedicated: 6.052
         Shared: 6.052
@@ -15432,9 +15435,6 @@ m5.24xlarge:
       ap-southeast-2:
         Dedicated: 5.86
         Shared: 5.86
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.436
-        Shared: 6.436
       AWS GovCloud (US-East):
         Dedicated: 5.908
         Shared: 5.908
@@ -15475,6 +15475,9 @@ m5.24xlarge:
         Dedicated: 4.708
         Shared: 4.708
     Windows:
+      ap-east-1:
+        Dedicated: 10.752
+        Shared: 10.752
       ap-northeast-1:
         Dedicated: 10.368
         Shared: 10.368
@@ -15493,9 +15496,6 @@ m5.24xlarge:
       ap-southeast-2:
         Dedicated: 10.176
         Shared: 5.76
-      Asia Pacific (Hong Kong):
-        Dedicated: 10.752
-        Shared: 10.752
       AWS GovCloud (US-East):
         Dedicated: 10.224
         Shared: 10.224
@@ -15547,7 +15547,7 @@ m5.24xlarge:
     - ap-south-1
     - ap-southeast-2
     - us-east-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-west-3
     - us-east-1
     - us-gov-west-1
@@ -15570,6 +15570,9 @@ m5.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.561
+        Shared: 0.528
       ap-northeast-1:
         Dedicated: 0.529
         Shared: 0.496
@@ -15588,9 +15591,6 @@ m5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.512
         Shared: 0.48
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.561
-        Shared: 0.528
       AWS GovCloud (US-East):
         Dedicated: 0.516
         Shared: 0.484
@@ -15631,6 +15631,9 @@ m5.2xlarge:
         Dedicated: 0.407
         Shared: 0.384
     RHEL:
+      ap-east-1:
+        Dedicated: 0.691
+        Shared: 0.658
       ap-northeast-1:
         Dedicated: 0.659
         Shared: 0.626
@@ -15649,9 +15652,6 @@ m5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.642
         Shared: 0.61
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.691
-        Shared: 0.658
       AWS GovCloud (US-East):
         Dedicated: 0.646
         Shared: 0.614
@@ -15692,6 +15692,9 @@ m5.2xlarge:
         Dedicated: 0.537
         Shared: 0.514
     SUSE:
+      ap-east-1:
+        Dedicated: 0.661
+        Shared: 0.628
       ap-northeast-1:
         Dedicated: 0.629
         Shared: 0.596
@@ -15710,9 +15713,6 @@ m5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.612
         Shared: 0.58
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.661
-        Shared: 0.628
       AWS GovCloud (US-East):
         Dedicated: 0.616
         Shared: 0.584
@@ -15753,6 +15753,9 @@ m5.2xlarge:
         Dedicated: 0.507
         Shared: 0.484
     Windows:
+      ap-east-1:
+        Dedicated: 0.929
+        Shared: 0.896
       ap-northeast-1:
         Dedicated: 0.897
         Shared: 0.496
@@ -15771,9 +15774,6 @@ m5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.88
         Shared: 0.848
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.929
-        Shared: 0.896
       AWS GovCloud (US-East):
         Dedicated: 0.884
         Shared: 0.852
@@ -15815,7 +15815,7 @@ m5.2xlarge:
         Shared: 0.384
   regions:
     - eu-north-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-southeast-2
     - eu-west-2
     - eu-west-1
@@ -15848,6 +15848,9 @@ m5.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.121
+        Shared: 1.056
       ap-northeast-1:
         Dedicated: 1.058
         Shared: 0.992
@@ -15866,9 +15869,6 @@ m5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.023
         Shared: 0.96
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.121
-        Shared: 1.056
       AWS GovCloud (US-East):
         Dedicated: 1.031
         Shared: 0.968
@@ -15909,6 +15909,9 @@ m5.4xlarge:
         Dedicated: 0.815
         Shared: 0.768
     RHEL:
+      ap-east-1:
+        Dedicated: 1.251
+        Shared: 1.186
       ap-northeast-1:
         Dedicated: 1.188
         Shared: 1.122
@@ -15927,9 +15930,6 @@ m5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.153
         Shared: 1.09
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.251
-        Shared: 1.186
       AWS GovCloud (US-East):
         Dedicated: 1.161
         Shared: 1.098
@@ -15970,6 +15970,9 @@ m5.4xlarge:
         Dedicated: 0.945
         Shared: 0.898
     SUSE:
+      ap-east-1:
+        Dedicated: 1.221
+        Shared: 1.156
       ap-northeast-1:
         Dedicated: 1.158
         Shared: 1.092
@@ -15988,9 +15991,6 @@ m5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.123
         Shared: 1.06
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.221
-        Shared: 1.156
       AWS GovCloud (US-East):
         Dedicated: 1.131
         Shared: 1.068
@@ -16031,6 +16031,9 @@ m5.4xlarge:
         Dedicated: 0.915
         Shared: 0.868
     Windows:
+      ap-east-1:
+        Dedicated: 1.857
+        Shared: 1.792
       ap-northeast-1:
         Dedicated: 1.794
         Shared: 1.728
@@ -16049,9 +16052,6 @@ m5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.759
         Shared: 1.696
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.857
-        Shared: 1.792
       AWS GovCloud (US-East):
         Dedicated: 1.767
         Shared: 1.704
@@ -16100,7 +16100,7 @@ m5.4xlarge:
     - ap-south-1
     - eu-west-1
     - eu-west-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ca-central-1
     - ap-southeast-1
     - ap-northeast-1
@@ -16126,6 +16126,9 @@ m5.large:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.14
+        Shared: 0.132
       ap-northeast-1:
         Dedicated: 0.132
         Shared: 0.124
@@ -16144,9 +16147,6 @@ m5.large:
       ap-southeast-2:
         Dedicated: 0.128
         Shared: 0.12
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.14
-        Shared: 0.132
       AWS GovCloud (US-East):
         Dedicated: 0.129
         Shared: 0.121
@@ -16187,6 +16187,9 @@ m5.large:
         Dedicated: 0.102
         Shared: 0.096
     RHEL:
+      ap-east-1:
+        Dedicated: 0.2
+        Shared: 0.192
       ap-northeast-1:
         Dedicated: 0.192
         Shared: 0.184
@@ -16205,9 +16208,6 @@ m5.large:
       ap-southeast-2:
         Dedicated: 0.188
         Shared: 0.18
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.2
-        Shared: 0.192
       AWS GovCloud (US-East):
         Dedicated: 0.189
         Shared: 0.181
@@ -16248,6 +16248,9 @@ m5.large:
         Dedicated: 0.162
         Shared: 0.156
     SUSE:
+      ap-east-1:
+        Dedicated: 0.24
+        Shared: 0.232
       ap-northeast-1:
         Dedicated: 0.232
         Shared: 0.224
@@ -16266,9 +16269,6 @@ m5.large:
       ap-southeast-2:
         Dedicated: 0.228
         Shared: 0.22
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.24
-        Shared: 0.232
       AWS GovCloud (US-East):
         Dedicated: 0.229
         Shared: 0.221
@@ -16309,6 +16309,9 @@ m5.large:
         Dedicated: 0.202
         Shared: 0.196
     Windows:
+      ap-east-1:
+        Dedicated: 0.232
+        Shared: 0.224
       ap-northeast-1:
         Dedicated: 0.224
         Shared: 0.216
@@ -16327,9 +16330,6 @@ m5.large:
       ap-southeast-2:
         Dedicated: 0.22
         Shared: 0.212
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.232
-        Shared: 0.224
       AWS GovCloud (US-East):
         Dedicated: 0.221
         Shared: 0.213
@@ -16383,7 +16383,7 @@ m5.large:
     - eu-west-2
     - ap-southeast-2
     - us-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-west-3
     - ap-south-1
     - us-east-1
@@ -16404,6 +16404,9 @@ m5.metal:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 6.336
+        Shared: 6.336
       ap-northeast-1:
         Dedicated: 5.952
         Shared: 5.952
@@ -16422,9 +16425,6 @@ m5.metal:
       ap-southeast-2:
         Dedicated: 5.76
         Shared: 5.76
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.336
-        Shared: 6.336
       AWS GovCloud (US-East):
         Dedicated: 5.808
         Shared: 5.808
@@ -16462,6 +16462,9 @@ m5.metal:
         Dedicated: 4.608
         Shared: 4.608
     RHEL:
+      ap-east-1:
+        Dedicated: 6.466
+        Shared: 6.466
       ap-northeast-1:
         Dedicated: 6.082
         Shared: 6.082
@@ -16480,9 +16483,6 @@ m5.metal:
       ap-southeast-2:
         Dedicated: 5.89
         Shared: 5.89
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.466
-        Shared: 6.466
       AWS GovCloud (US-East):
         Dedicated: 5.938
         Shared: 5.938
@@ -16520,6 +16520,9 @@ m5.metal:
         Dedicated: 4.738
         Shared: 4.738
     SUSE:
+      ap-east-1:
+        Dedicated: 6.436
+        Shared: 6.436
       ap-northeast-1:
         Dedicated: 6.052
         Shared: 6.052
@@ -16538,9 +16541,6 @@ m5.metal:
       ap-southeast-2:
         Dedicated: 5.86
         Shared: 5.86
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.436
-        Shared: 6.436
       AWS GovCloud (US-East):
         Dedicated: 5.908
         Shared: 5.908
@@ -16578,6 +16578,9 @@ m5.metal:
         Dedicated: 4.708
         Shared: 4.708
     Windows:
+      ap-east-1:
+        Dedicated: 10.752
+        Shared: 10.752
       ap-northeast-1:
         Dedicated: 10.368
         Shared: 10.368
@@ -16596,9 +16599,6 @@ m5.metal:
       ap-southeast-2:
         Dedicated: 10.176
         Shared: 10.176
-      Asia Pacific (Hong Kong):
-        Dedicated: 10.752
-        Shared: 10.752
       AWS GovCloud (US-East):
         Dedicated: 10.224
         Shared: 10.224
@@ -16647,7 +16647,7 @@ m5.metal:
     - ap-southeast-2
     - eu-west-3
     - us-west-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - us-gov-west-1
     - ap-northeast-2
     - us-west-1
@@ -16669,6 +16669,9 @@ m5.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.28
+        Shared: 0.264
       ap-northeast-1:
         Dedicated: 0.264
         Shared: 0.248
@@ -16687,9 +16690,6 @@ m5.xlarge:
       ap-southeast-2:
         Dedicated: 0.256
         Shared: 0.24
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.28
-        Shared: 0.264
       AWS GovCloud (US-East):
         Dedicated: 0.258
         Shared: 0.242
@@ -16730,6 +16730,9 @@ m5.xlarge:
         Dedicated: 0.204
         Shared: 0.192
     RHEL:
+      ap-east-1:
+        Dedicated: 0.34
+        Shared: 0.324
       ap-northeast-1:
         Dedicated: 0.324
         Shared: 0.308
@@ -16748,9 +16751,6 @@ m5.xlarge:
       ap-southeast-2:
         Dedicated: 0.316
         Shared: 0.3
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.34
-        Shared: 0.324
       AWS GovCloud (US-East):
         Dedicated: 0.318
         Shared: 0.302
@@ -16791,6 +16791,9 @@ m5.xlarge:
         Dedicated: 0.264
         Shared: 0.252
     SUSE:
+      ap-east-1:
+        Dedicated: 0.38
+        Shared: 0.364
       ap-northeast-1:
         Dedicated: 0.364
         Shared: 0.348
@@ -16809,9 +16812,6 @@ m5.xlarge:
       ap-southeast-2:
         Dedicated: 0.356
         Shared: 0.34
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.38
-        Shared: 0.364
       AWS GovCloud (US-East):
         Dedicated: 0.358
         Shared: 0.342
@@ -16852,6 +16852,9 @@ m5.xlarge:
         Dedicated: 0.304
         Shared: 0.292
     Windows:
+      ap-east-1:
+        Dedicated: 0.464
+        Shared: 0.448
       ap-northeast-1:
         Dedicated: 0.264
         Shared: 0.432
@@ -16870,9 +16873,6 @@ m5.xlarge:
       ap-southeast-2:
         Dedicated: 0.44
         Shared: 0.24
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.464
-        Shared: 0.448
       AWS GovCloud (US-East):
         Dedicated: 0.442
         Shared: 0.426
@@ -16913,7 +16913,7 @@ m5.xlarge:
         Dedicated: 0.388
         Shared: 0.376
   regions:
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ca-central-1
     - us-west-2
     - eu-central-1
@@ -18087,6 +18087,9 @@ m5d.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 3.949
+        Shared: 3.72
       ap-northeast-1:
         Dedicated: 3.736
         Shared: 3.504
@@ -18105,9 +18108,6 @@ m5d.12xlarge:
       ap-southeast-2:
         Dedicated: 3.631
         Shared: 3.408
-      Asia Pacific (Hong Kong):
-        Dedicated: 3.949
-        Shared: 3.72
       AWS GovCloud (US-East):
         Dedicated: 3.657
         Shared: 3.432
@@ -18145,6 +18145,9 @@ m5d.12xlarge:
         Dedicated: 2.876
         Shared: 2.712
     RHEL:
+      ap-east-1:
+        Dedicated: 4.079
+        Shared: 3.85
       ap-northeast-1:
         Dedicated: 3.866
         Shared: 3.634
@@ -18163,9 +18166,6 @@ m5d.12xlarge:
       ap-southeast-2:
         Dedicated: 3.761
         Shared: 3.538
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.079
-        Shared: 3.85
       AWS GovCloud (US-East):
         Dedicated: 3.787
         Shared: 3.562
@@ -18203,6 +18203,9 @@ m5d.12xlarge:
         Dedicated: 3.006
         Shared: 2.842
     SUSE:
+      ap-east-1:
+        Dedicated: 4.049
+        Shared: 3.82
       ap-northeast-1:
         Dedicated: 3.836
         Shared: 3.604
@@ -18221,9 +18224,6 @@ m5d.12xlarge:
       ap-southeast-2:
         Dedicated: 3.731
         Shared: 3.508
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.049
-        Shared: 3.82
       AWS GovCloud (US-East):
         Dedicated: 3.757
         Shared: 3.532
@@ -18261,6 +18261,9 @@ m5d.12xlarge:
         Dedicated: 2.976
         Shared: 2.812
     Windows:
+      ap-east-1:
+        Dedicated: 6.157
+        Shared: 5.928
       ap-northeast-1:
         Dedicated: 5.944
         Shared: 5.712
@@ -18279,9 +18282,6 @@ m5d.12xlarge:
       ap-southeast-2:
         Dedicated: 5.839
         Shared: 5.616
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.157
-        Shared: 5.928
       AWS GovCloud (US-East):
         Dedicated: 5.865
         Shared: 5.64
@@ -18334,7 +18334,7 @@ m5d.12xlarge:
     - ca-central-1
     - ap-northeast-1
     - eu-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - us-east-1
     - eu-north-1
     - ap-northeast-3
@@ -18352,6 +18352,9 @@ m5d.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 7.44
+        Shared: 7.44
       ap-northeast-1:
         Dedicated: 7.008
         Shared: 7.008
@@ -18370,9 +18373,6 @@ m5d.24xlarge:
       ap-southeast-2:
         Dedicated: 6.816
         Shared: 6.816
-      Asia Pacific (Hong Kong):
-        Dedicated: 7.44
-        Shared: 7.44
       AWS GovCloud (US-East):
         Dedicated: 6.864
         Shared: 6.864
@@ -18410,6 +18410,9 @@ m5d.24xlarge:
         Dedicated: 5.424
         Shared: 5.424
     RHEL:
+      ap-east-1:
+        Dedicated: 7.57
+        Shared: 7.57
       ap-northeast-1:
         Dedicated: 7.138
         Shared: 7.138
@@ -18428,9 +18431,6 @@ m5d.24xlarge:
       ap-southeast-2:
         Dedicated: 6.946
         Shared: 6.946
-      Asia Pacific (Hong Kong):
-        Dedicated: 7.57
-        Shared: 7.57
       AWS GovCloud (US-East):
         Dedicated: 6.994
         Shared: 6.994
@@ -18468,6 +18468,9 @@ m5d.24xlarge:
         Dedicated: 5.554
         Shared: 5.554
     SUSE:
+      ap-east-1:
+        Dedicated: 7.54
+        Shared: 7.54
       ap-northeast-1:
         Dedicated: 7.108
         Shared: 7.108
@@ -18486,9 +18489,6 @@ m5d.24xlarge:
       ap-southeast-2:
         Dedicated: 6.916
         Shared: 6.916
-      Asia Pacific (Hong Kong):
-        Dedicated: 7.54
-        Shared: 7.54
       AWS GovCloud (US-East):
         Dedicated: 6.964
         Shared: 6.964
@@ -18526,6 +18526,9 @@ m5d.24xlarge:
         Dedicated: 5.524
         Shared: 5.524
     Windows:
+      ap-east-1:
+        Dedicated: 11.856
+        Shared: 11.856
       ap-northeast-1:
         Dedicated: 11.424
         Shared: 11.424
@@ -18544,9 +18547,6 @@ m5d.24xlarge:
       ap-southeast-2:
         Dedicated: 11.232
         Shared: 11.232
-      Asia Pacific (Hong Kong):
-        Dedicated: 11.856
-        Shared: 11.856
       AWS GovCloud (US-East):
         Dedicated: 11.28
         Shared: 11.28
@@ -18597,7 +18597,7 @@ m5d.24xlarge:
     - eu-west-3
     - us-east-2
     - us-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - us-west-2
     - eu-north-1
     - ap-northeast-2
@@ -18617,6 +18617,9 @@ m5d.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.658
+        Shared: 0.62
       ap-northeast-1:
         Dedicated: 0.623
         Shared: 0.584
@@ -18635,9 +18638,6 @@ m5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.605
         Shared: 0.568
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.658
-        Shared: 0.62
       AWS GovCloud (US-East):
         Dedicated: 0.609
         Shared: 0.572
@@ -18675,6 +18675,9 @@ m5d.2xlarge:
         Dedicated: 0.479
         Shared: 0.452
     RHEL:
+      ap-east-1:
+        Dedicated: 0.788
+        Shared: 0.75
       ap-northeast-1:
         Dedicated: 0.753
         Shared: 0.714
@@ -18693,9 +18696,6 @@ m5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.735
         Shared: 0.698
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.788
-        Shared: 0.75
       AWS GovCloud (US-East):
         Dedicated: 0.739
         Shared: 0.702
@@ -18733,6 +18733,9 @@ m5d.2xlarge:
         Dedicated: 0.609
         Shared: 0.582
     SUSE:
+      ap-east-1:
+        Dedicated: 0.758
+        Shared: 0.72
       ap-northeast-1:
         Dedicated: 0.723
         Shared: 0.684
@@ -18751,9 +18754,6 @@ m5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.705
         Shared: 0.668
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.758
-        Shared: 0.72
       AWS GovCloud (US-East):
         Dedicated: 0.709
         Shared: 0.672
@@ -18791,6 +18791,9 @@ m5d.2xlarge:
         Dedicated: 0.579
         Shared: 0.552
     Windows:
+      ap-east-1:
+        Dedicated: 1.026
+        Shared: 0.988
       ap-northeast-1:
         Dedicated: 0.991
         Shared: 0.952
@@ -18809,9 +18812,6 @@ m5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.973
         Shared: 0.936
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.026
-        Shared: 0.988
       AWS GovCloud (US-East):
         Dedicated: 0.977
         Shared: 0.94
@@ -18867,7 +18867,7 @@ m5d.2xlarge:
     - ca-central-1
     - ap-northeast-3
     - ap-southeast-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 m5d.4xlarge:
@@ -18882,6 +18882,9 @@ m5d.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.316
+        Shared: 1.24
       ap-northeast-1:
         Dedicated: 1.245
         Shared: 1.168
@@ -18900,9 +18903,6 @@ m5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.21
         Shared: 1.136
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.316
-        Shared: 1.24
       AWS GovCloud (US-East):
         Dedicated: 1.219
         Shared: 1.144
@@ -18940,6 +18940,9 @@ m5d.4xlarge:
         Dedicated: 0.959
         Shared: 0.904
     RHEL:
+      ap-east-1:
+        Dedicated: 1.446
+        Shared: 1.37
       ap-northeast-1:
         Dedicated: 1.375
         Shared: 1.298
@@ -18958,9 +18961,6 @@ m5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.34
         Shared: 1.266
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.446
-        Shared: 1.37
       AWS GovCloud (US-East):
         Dedicated: 1.349
         Shared: 1.274
@@ -18998,6 +18998,9 @@ m5d.4xlarge:
         Dedicated: 1.089
         Shared: 1.034
     SUSE:
+      ap-east-1:
+        Dedicated: 1.416
+        Shared: 1.34
       ap-northeast-1:
         Dedicated: 1.345
         Shared: 1.268
@@ -19016,9 +19019,6 @@ m5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.31
         Shared: 1.236
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.416
-        Shared: 1.34
       AWS GovCloud (US-East):
         Dedicated: 1.319
         Shared: 1.244
@@ -19056,6 +19056,9 @@ m5d.4xlarge:
         Dedicated: 1.059
         Shared: 1.004
     Windows:
+      ap-east-1:
+        Dedicated: 2.052
+        Shared: 1.976
       ap-northeast-1:
         Dedicated: 1.981
         Shared: 1.904
@@ -19074,9 +19077,6 @@ m5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.946
         Shared: 1.872
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.052
-        Shared: 1.976
       AWS GovCloud (US-East):
         Dedicated: 1.955
         Shared: 1.88
@@ -19117,7 +19117,7 @@ m5d.4xlarge:
     - ap-southeast-1
     - ca-central-1
     - us-gov-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-central-1
     - eu-west-3
     - ap-northeast-1
@@ -19147,6 +19147,9 @@ m5d.large:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.165
+        Shared: 0.155
       ap-northeast-1:
         Dedicated: 0.156
         Shared: 0.146
@@ -19165,9 +19168,6 @@ m5d.large:
       ap-southeast-2:
         Dedicated: 0.151
         Shared: 0.142
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.165
-        Shared: 0.155
       AWS GovCloud (US-East):
         Dedicated: 0.152
         Shared: 0.143
@@ -19205,6 +19205,9 @@ m5d.large:
         Dedicated: 0.12
         Shared: 0.113
     RHEL:
+      ap-east-1:
+        Dedicated: 0.225
+        Shared: 0.215
       ap-northeast-1:
         Dedicated: 0.216
         Shared: 0.206
@@ -19223,9 +19226,6 @@ m5d.large:
       ap-southeast-2:
         Dedicated: 0.211
         Shared: 0.202
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.225
-        Shared: 0.215
       AWS GovCloud (US-East):
         Dedicated: 0.212
         Shared: 0.203
@@ -19263,6 +19263,9 @@ m5d.large:
         Dedicated: 0.18
         Shared: 0.173
     SUSE:
+      ap-east-1:
+        Dedicated: 0.265
+        Shared: 0.255
       ap-northeast-1:
         Dedicated: 0.256
         Shared: 0.246
@@ -19281,9 +19284,6 @@ m5d.large:
       ap-southeast-2:
         Dedicated: 0.251
         Shared: 0.242
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.265
-        Shared: 0.255
       AWS GovCloud (US-East):
         Dedicated: 0.252
         Shared: 0.243
@@ -19321,6 +19321,9 @@ m5d.large:
         Dedicated: 0.22
         Shared: 0.213
     Windows:
+      ap-east-1:
+        Dedicated: 0.257
+        Shared: 0.247
       ap-northeast-1:
         Dedicated: 0.248
         Shared: 0.238
@@ -19339,9 +19342,6 @@ m5d.large:
       ap-southeast-2:
         Dedicated: 0.243
         Shared: 0.234
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.257
-        Shared: 0.247
       AWS GovCloud (US-East):
         Dedicated: 0.244
         Shared: 0.235
@@ -19390,7 +19390,7 @@ m5d.large:
     - ap-northeast-1
     - us-west-2
     - ap-southeast-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-2
     - ap-southeast-1
     - eu-west-1
@@ -19412,6 +19412,9 @@ m5d.metal:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 7.44
+        Shared: 7.44
       ap-northeast-1:
         Dedicated: 7.008
         Shared: 7.008
@@ -19430,9 +19433,6 @@ m5d.metal:
       ap-southeast-2:
         Dedicated: 6.816
         Shared: 6.816
-      Asia Pacific (Hong Kong):
-        Dedicated: 7.44
-        Shared: 7.44
       AWS GovCloud (US-East):
         Dedicated: 6.864
         Shared: 6.864
@@ -19470,6 +19470,9 @@ m5d.metal:
         Dedicated: 5.424
         Shared: 5.424
     RHEL:
+      ap-east-1:
+        Dedicated: 7.57
+        Shared: 7.57
       ap-northeast-1:
         Dedicated: 7.138
         Shared: 7.138
@@ -19488,9 +19491,6 @@ m5d.metal:
       ap-southeast-2:
         Dedicated: 6.946
         Shared: 6.946
-      Asia Pacific (Hong Kong):
-        Dedicated: 7.57
-        Shared: 7.57
       AWS GovCloud (US-East):
         Dedicated: 6.994
         Shared: 6.994
@@ -19528,6 +19528,9 @@ m5d.metal:
         Dedicated: 5.554
         Shared: 5.554
     SUSE:
+      ap-east-1:
+        Dedicated: 7.54
+        Shared: 7.54
       ap-northeast-1:
         Dedicated: 7.108
         Shared: 7.108
@@ -19546,9 +19549,6 @@ m5d.metal:
       ap-southeast-2:
         Dedicated: 6.916
         Shared: 6.916
-      Asia Pacific (Hong Kong):
-        Dedicated: 7.54
-        Shared: 7.54
       AWS GovCloud (US-East):
         Dedicated: 6.964
         Shared: 6.964
@@ -19586,6 +19586,9 @@ m5d.metal:
         Dedicated: 5.524
         Shared: 5.524
     Windows:
+      ap-east-1:
+        Dedicated: 11.856
+        Shared: 11.856
       ap-northeast-1:
         Dedicated: 11.424
         Shared: 11.424
@@ -19604,9 +19607,6 @@ m5d.metal:
       ap-southeast-2:
         Dedicated: 11.232
         Shared: 11.232
-      Asia Pacific (Hong Kong):
-        Dedicated: 11.856
-        Shared: 11.856
       AWS GovCloud (US-East):
         Dedicated: 11.28
         Shared: 11.28
@@ -19656,7 +19656,7 @@ m5d.metal:
     - ap-northeast-1
     - eu-west-3
     - us-west-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - us-west-1
     - ca-central-1
     - AWS GovCloud (US-East)
@@ -19677,6 +19677,9 @@ m5d.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.329
+        Shared: 0.31
       ap-northeast-1:
         Dedicated: 0.311
         Shared: 0.292
@@ -19695,9 +19698,6 @@ m5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.303
         Shared: 0.284
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.329
-        Shared: 0.31
       AWS GovCloud (US-East):
         Dedicated: 0.305
         Shared: 0.286
@@ -19735,6 +19735,9 @@ m5d.xlarge:
         Dedicated: 0.24
         Shared: 0.226
     RHEL:
+      ap-east-1:
+        Dedicated: 0.389
+        Shared: 0.37
       ap-northeast-1:
         Dedicated: 0.371
         Shared: 0.352
@@ -19753,9 +19756,6 @@ m5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.363
         Shared: 0.344
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.389
-        Shared: 0.37
       AWS GovCloud (US-East):
         Dedicated: 0.365
         Shared: 0.346
@@ -19793,6 +19793,9 @@ m5d.xlarge:
         Dedicated: 0.3
         Shared: 0.286
     SUSE:
+      ap-east-1:
+        Dedicated: 0.429
+        Shared: 0.41
       ap-northeast-1:
         Dedicated: 0.411
         Shared: 0.392
@@ -19811,9 +19814,6 @@ m5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.403
         Shared: 0.384
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.429
-        Shared: 0.41
       AWS GovCloud (US-East):
         Dedicated: 0.405
         Shared: 0.386
@@ -19851,6 +19851,9 @@ m5d.xlarge:
         Dedicated: 0.34
         Shared: 0.326
     Windows:
+      ap-east-1:
+        Dedicated: 0.513
+        Shared: 0.494
       ap-northeast-1:
         Dedicated: 0.495
         Shared: 0.476
@@ -19869,9 +19872,6 @@ m5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.487
         Shared: 0.468
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.513
-        Shared: 0.494
       AWS GovCloud (US-East):
         Dedicated: 0.489
         Shared: 0.47
@@ -19922,7 +19922,7 @@ m5d.xlarge:
     - us-gov-west-1
     - ap-northeast-1
     - ap-southeast-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-west-1
     - us-east-1
     - ap-northeast-3
@@ -23359,6 +23359,9 @@ r5.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 4.248
+        Shared: 4.008
       ap-northeast-1:
         Dedicated: 3.867
         Shared: 3.648
@@ -23377,9 +23380,6 @@ r5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.841
         Shared: 3.624
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.248
-        Shared: 4.008
       AWS GovCloud (US-East):
         Dedicated: 3.841
         Shared: 3.624
@@ -23417,6 +23417,9 @@ r5.12xlarge:
         Dedicated: 3.205
         Shared: 3.024
     RHEL:
+      ap-east-1:
+        Dedicated: 4.378
+        Shared: 4.138
       ap-northeast-1:
         Dedicated: 3.997
         Shared: 3.778
@@ -23435,9 +23438,6 @@ r5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.971
         Shared: 3.754
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.378
-        Shared: 4.138
       AWS GovCloud (US-East):
         Dedicated: 3.971
         Shared: 3.754
@@ -23475,6 +23475,9 @@ r5.12xlarge:
         Dedicated: 3.335
         Shared: 3.154
     SUSE:
+      ap-east-1:
+        Dedicated: 4.398
+        Shared: 4.158
       ap-northeast-1:
         Dedicated: 4.017
         Shared: 3.798
@@ -23493,9 +23496,6 @@ r5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.991
         Shared: 3.774
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.398
-        Shared: 4.158
       AWS GovCloud (US-East):
         Dedicated: 3.991
         Shared: 3.774
@@ -23533,6 +23533,9 @@ r5.12xlarge:
         Dedicated: 3.355
         Shared: 3.174
     Windows:
+      ap-east-1:
+        Dedicated: 6.456
+        Shared: 6.216
       ap-northeast-1:
         Dedicated: 6.075
         Shared: 5.856
@@ -23551,9 +23554,6 @@ r5.12xlarge:
       ap-southeast-2:
         Dedicated: 6.049
         Shared: 5.832
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.456
-        Shared: 6.216
       AWS GovCloud (US-East):
         Dedicated: 6.049
         Shared: 5.832
@@ -23599,7 +23599,7 @@ r5.12xlarge:
     - ap-northeast-1
     - us-west-2
     - eu-west-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-west-1
     - ap-southeast-1
     - us-west-1
@@ -23621,6 +23621,9 @@ r5.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 8.016
+        Shared: 8.016
       ap-northeast-1:
         Dedicated: 7.296
         Shared: 7.296
@@ -23639,9 +23642,6 @@ r5.24xlarge:
       ap-southeast-2:
         Dedicated: 7.248
         Shared: 7.248
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.016
-        Shared: 8.016
       AWS GovCloud (US-East):
         Dedicated: 7.248
         Shared: 7.248
@@ -23679,6 +23679,9 @@ r5.24xlarge:
         Dedicated: 6.048
         Shared: 6.048
     RHEL:
+      ap-east-1:
+        Dedicated: 8.146
+        Shared: 8.146
       ap-northeast-1:
         Dedicated: 7.426
         Shared: 7.426
@@ -23697,9 +23700,6 @@ r5.24xlarge:
       ap-southeast-2:
         Dedicated: 7.378
         Shared: 7.378
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.146
-        Shared: 8.146
       AWS GovCloud (US-East):
         Dedicated: 7.378
         Shared: 7.378
@@ -23737,6 +23737,9 @@ r5.24xlarge:
         Dedicated: 6.178
         Shared: 6.178
     SUSE:
+      ap-east-1:
+        Dedicated: 8.166
+        Shared: 8.166
       ap-northeast-1:
         Dedicated: 7.446
         Shared: 7.446
@@ -23755,9 +23758,6 @@ r5.24xlarge:
       ap-southeast-2:
         Dedicated: 7.398
         Shared: 7.398
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.166
-        Shared: 8.166
       AWS GovCloud (US-East):
         Dedicated: 7.398
         Shared: 7.398
@@ -23795,6 +23795,9 @@ r5.24xlarge:
         Dedicated: 6.198
         Shared: 6.198
     Windows:
+      ap-east-1:
+        Dedicated: 12.432
+        Shared: 12.432
       ap-northeast-1:
         Dedicated: 11.712
         Shared: 11.712
@@ -23813,9 +23816,6 @@ r5.24xlarge:
       ap-southeast-2:
         Dedicated: 11.664
         Shared: 11.664
-      Asia Pacific (Hong Kong):
-        Dedicated: 12.432
-        Shared: 12.432
       AWS GovCloud (US-East):
         Dedicated: 11.664
         Shared: 11.664
@@ -23853,7 +23853,7 @@ r5.24xlarge:
         Dedicated: 10.464
         Shared: 6.048
   regions:
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - AWS GovCloud (US-East)
     - ca-central-1
     - us-west-1
@@ -23883,6 +23883,9 @@ r5.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.708
+        Shared: 0.668
       ap-northeast-1:
         Dedicated: 0.644
         Shared: 0.608
@@ -23901,9 +23904,6 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.64
         Shared: 0.604
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.708
-        Shared: 0.668
       AWS GovCloud (US-East):
         Dedicated: 0.64
         Shared: 0.604
@@ -23941,6 +23941,9 @@ r5.2xlarge:
         Dedicated: 0.534
         Shared: 0.504
     RHEL:
+      ap-east-1:
+        Dedicated: 0.838
+        Shared: 0.798
       ap-northeast-1:
         Dedicated: 0.774
         Shared: 0.738
@@ -23959,9 +23962,6 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.77
         Shared: 0.734
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.838
-        Shared: 0.798
       AWS GovCloud (US-East):
         Dedicated: 0.77
         Shared: 0.734
@@ -23999,6 +23999,9 @@ r5.2xlarge:
         Dedicated: 0.664
         Shared: 0.634
     SUSE:
+      ap-east-1:
+        Dedicated: 0.858
+        Shared: 0.818
       ap-northeast-1:
         Dedicated: 0.794
         Shared: 0.758
@@ -24017,9 +24020,6 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.79
         Shared: 0.754
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.858
-        Shared: 0.818
       AWS GovCloud (US-East):
         Dedicated: 0.79
         Shared: 0.754
@@ -24057,6 +24057,9 @@ r5.2xlarge:
         Dedicated: 0.684
         Shared: 0.654
     Windows:
+      ap-east-1:
+        Dedicated: 1.076
+        Shared: 1.036
       ap-northeast-1:
         Dedicated: 1.012
         Shared: 0.976
@@ -24075,9 +24078,6 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 1.008
         Shared: 0.972
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.076
-        Shared: 1.036
       AWS GovCloud (US-East):
         Dedicated: 1.008
         Shared: 0.972
@@ -24121,7 +24121,7 @@ r5.2xlarge:
     - ap-south-1
     - ap-southeast-2
     - us-gov-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ca-central-1
     - eu-central-1
     - us-west-2
@@ -24145,6 +24145,9 @@ r5.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.416
+        Shared: 1.336
       ap-northeast-1:
         Dedicated: 1.289
         Shared: 1.216
@@ -24163,9 +24166,6 @@ r5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.28
         Shared: 1.208
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.416
-        Shared: 1.336
       AWS GovCloud (US-East):
         Dedicated: 1.28
         Shared: 1.208
@@ -24203,6 +24203,9 @@ r5.4xlarge:
         Dedicated: 1.068
         Shared: 1.008
     RHEL:
+      ap-east-1:
+        Dedicated: 1.546
+        Shared: 1.466
       ap-northeast-1:
         Dedicated: 1.419
         Shared: 1.346
@@ -24221,9 +24224,6 @@ r5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.41
         Shared: 1.338
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.546
-        Shared: 1.466
       AWS GovCloud (US-East):
         Dedicated: 1.41
         Shared: 1.338
@@ -24261,6 +24261,9 @@ r5.4xlarge:
         Dedicated: 1.198
         Shared: 1.138
     SUSE:
+      ap-east-1:
+        Dedicated: 1.566
+        Shared: 1.486
       ap-northeast-1:
         Dedicated: 1.439
         Shared: 1.366
@@ -24279,9 +24282,6 @@ r5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.43
         Shared: 1.358
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.566
-        Shared: 1.486
       AWS GovCloud (US-East):
         Dedicated: 1.43
         Shared: 1.358
@@ -24319,6 +24319,9 @@ r5.4xlarge:
         Dedicated: 1.218
         Shared: 1.158
     Windows:
+      ap-east-1:
+        Dedicated: 2.152
+        Shared: 2.072
       ap-northeast-1:
         Dedicated: 2.025
         Shared: 1.952
@@ -24337,9 +24340,6 @@ r5.4xlarge:
       ap-southeast-2:
         Dedicated: 2.016
         Shared: 1.944
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.152
-        Shared: 2.072
       AWS GovCloud (US-East):
         Dedicated: 2.016
         Shared: 1.944
@@ -24384,7 +24384,7 @@ r5.4xlarge:
     - eu-north-1
     - us-west-1
     - us-gov-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ca-central-1
     - ap-southeast-1
     - ap-southeast-2
@@ -24408,6 +24408,9 @@ r5.large:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.177
+        Shared: 0.167
       ap-northeast-1:
         Dedicated: 0.161
         Shared: 0.152
@@ -24426,9 +24429,6 @@ r5.large:
       ap-southeast-2:
         Dedicated: 0.16
         Shared: 0.151
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.177
-        Shared: 0.167
       AWS GovCloud (US-East):
         Dedicated: 0.16
         Shared: 0.151
@@ -24466,6 +24466,9 @@ r5.large:
         Dedicated: 0.134
         Shared: 0.126
     RHEL:
+      ap-east-1:
+        Dedicated: 0.237
+        Shared: 0.227
       ap-northeast-1:
         Dedicated: 0.221
         Shared: 0.212
@@ -24484,9 +24487,6 @@ r5.large:
       ap-southeast-2:
         Dedicated: 0.22
         Shared: 0.211
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.237
-        Shared: 0.227
       AWS GovCloud (US-East):
         Dedicated: 0.22
         Shared: 0.211
@@ -24524,6 +24524,9 @@ r5.large:
         Dedicated: 0.194
         Shared: 0.186
     SUSE:
+      ap-east-1:
+        Dedicated: 0.24
+        Shared: 0.23
       ap-northeast-1:
         Dedicated: 0.224
         Shared: 0.215
@@ -24542,9 +24545,6 @@ r5.large:
       ap-southeast-2:
         Dedicated: 0.223
         Shared: 0.214
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.24
-        Shared: 0.23
       AWS GovCloud (US-East):
         Dedicated: 0.223
         Shared: 0.214
@@ -24582,6 +24582,9 @@ r5.large:
         Dedicated: 0.197
         Shared: 0.189
     Windows:
+      ap-east-1:
+        Dedicated: 0.269
+        Shared: 0.259
       ap-northeast-1:
         Dedicated: 0.253
         Shared: 0.244
@@ -24600,9 +24603,6 @@ r5.large:
       ap-southeast-2:
         Dedicated: 0.252
         Shared: 0.243
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.269
-        Shared: 0.259
       AWS GovCloud (US-East):
         Dedicated: 0.252
         Shared: 0.243
@@ -24648,7 +24648,7 @@ r5.large:
     - ap-southeast-2
     - ap-southeast-1
     - eu-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-north-1
     - AWS GovCloud (US-East)
     - ap-south-1
@@ -24670,6 +24670,9 @@ r5.metal:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 8.016
+        Shared: 8.016
       ap-northeast-1:
         Dedicated: 7.296
         Shared: 7.296
@@ -24688,9 +24691,6 @@ r5.metal:
       ap-southeast-2:
         Dedicated: 7.248
         Shared: 7.248
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.016
-        Shared: 8.016
       AWS GovCloud (US-East):
         Dedicated: 7.248
         Shared: 7.248
@@ -24728,6 +24728,9 @@ r5.metal:
         Dedicated: 6.048
         Shared: 6.048
     RHEL:
+      ap-east-1:
+        Dedicated: 8.146
+        Shared: 8.146
       ap-northeast-1:
         Dedicated: 7.426
         Shared: 7.426
@@ -24746,9 +24749,6 @@ r5.metal:
       ap-southeast-2:
         Dedicated: 7.378
         Shared: 7.378
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.146
-        Shared: 8.146
       AWS GovCloud (US-East):
         Dedicated: 7.378
         Shared: 7.378
@@ -24786,6 +24786,9 @@ r5.metal:
         Dedicated: 6.178
         Shared: 6.178
     SUSE:
+      ap-east-1:
+        Dedicated: 8.166
+        Shared: 8.166
       ap-northeast-1:
         Dedicated: 7.446
         Shared: 7.446
@@ -24804,9 +24807,6 @@ r5.metal:
       ap-southeast-2:
         Dedicated: 7.398
         Shared: 7.398
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.166
-        Shared: 8.166
       AWS GovCloud (US-East):
         Dedicated: 7.398
         Shared: 7.398
@@ -24844,6 +24844,9 @@ r5.metal:
         Dedicated: 6.198
         Shared: 6.198
     Windows:
+      ap-east-1:
+        Dedicated: 12.432
+        Shared: 12.432
       ap-northeast-1:
         Dedicated: 11.712
         Shared: 11.712
@@ -24862,9 +24865,6 @@ r5.metal:
       ap-southeast-2:
         Dedicated: 11.664
         Shared: 11.664
-      Asia Pacific (Hong Kong):
-        Dedicated: 12.432
-        Shared: 12.432
       AWS GovCloud (US-East):
         Dedicated: 11.664
         Shared: 11.664
@@ -24902,7 +24902,7 @@ r5.metal:
         Dedicated: 10.464
         Shared: 10.464
   regions:
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - us-west-2
     - ap-northeast-3
     - ap-southeast-2
@@ -24932,6 +24932,9 @@ r5.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.354
+        Shared: 0.334
       ap-northeast-1:
         Dedicated: 0.322
         Shared: 0.304
@@ -24950,9 +24953,6 @@ r5.xlarge:
       ap-southeast-2:
         Dedicated: 0.32
         Shared: 0.302
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.354
-        Shared: 0.334
       AWS GovCloud (US-East):
         Dedicated: 0.32
         Shared: 0.302
@@ -24990,6 +24990,9 @@ r5.xlarge:
         Dedicated: 0.267
         Shared: 0.252
     RHEL:
+      ap-east-1:
+        Dedicated: 0.414
+        Shared: 0.394
       ap-northeast-1:
         Dedicated: 0.382
         Shared: 0.364
@@ -25008,9 +25011,6 @@ r5.xlarge:
       ap-southeast-2:
         Dedicated: 0.38
         Shared: 0.362
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.414
-        Shared: 0.394
       AWS GovCloud (US-East):
         Dedicated: 0.38
         Shared: 0.362
@@ -25048,6 +25048,9 @@ r5.xlarge:
         Dedicated: 0.327
         Shared: 0.312
     SUSE:
+      ap-east-1:
+        Dedicated: 0.479
+        Shared: 0.459
       ap-northeast-1:
         Dedicated: 0.447
         Shared: 0.429
@@ -25066,9 +25069,6 @@ r5.xlarge:
       ap-southeast-2:
         Dedicated: 0.445
         Shared: 0.427
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.479
-        Shared: 0.459
       AWS GovCloud (US-East):
         Dedicated: 0.445
         Shared: 0.427
@@ -25106,6 +25106,9 @@ r5.xlarge:
         Dedicated: 0.392
         Shared: 0.377
     Windows:
+      ap-east-1:
+        Dedicated: 0.538
+        Shared: 0.518
       ap-northeast-1:
         Dedicated: 0.506
         Shared: 0.488
@@ -25124,9 +25127,6 @@ r5.xlarge:
       ap-southeast-2:
         Dedicated: 0.504
         Shared: 0.486
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.538
-        Shared: 0.518
       AWS GovCloud (US-East):
         Dedicated: 0.504
         Shared: 0.486
@@ -25171,7 +25171,7 @@ r5.xlarge:
     - us-east-2
     - us-west-1
     - ap-southeast-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-south-1
     - ca-central-1
     - us-east-1
@@ -26334,6 +26334,9 @@ r5d.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 4.452
+        Shared: 4.2
       ap-northeast-1:
         Dedicated: 4.43
         Shared: 4.176
@@ -26352,9 +26355,6 @@ r5d.12xlarge:
       ap-southeast-2:
         Dedicated: 4.429
         Shared: 4.176
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.452
-        Shared: 4.2
       AWS GovCloud (US-East):
         Dedicated: 4.404
         Shared: 4.152
@@ -26392,6 +26392,9 @@ r5d.12xlarge:
         Dedicated: 3.664
         Shared: 3.456
     RHEL:
+      ap-east-1:
+        Dedicated: 4.582
+        Shared: 4.33
       ap-northeast-1:
         Dedicated: 4.56
         Shared: 4.306
@@ -26410,9 +26413,6 @@ r5d.12xlarge:
       ap-southeast-2:
         Dedicated: 4.559
         Shared: 4.306
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.582
-        Shared: 4.33
       AWS GovCloud (US-East):
         Dedicated: 4.534
         Shared: 4.282
@@ -26450,6 +26450,9 @@ r5d.12xlarge:
         Dedicated: 3.794
         Shared: 3.586
     SUSE:
+      ap-east-1:
+        Dedicated: 4.602
+        Shared: 4.35
       ap-northeast-1:
         Dedicated: 4.58
         Shared: 4.326
@@ -26468,9 +26471,6 @@ r5d.12xlarge:
       ap-southeast-2:
         Dedicated: 4.579
         Shared: 4.326
-      Asia Pacific (Hong Kong):
-        Dedicated: 4.602
-        Shared: 4.35
       AWS GovCloud (US-East):
         Dedicated: 4.554
         Shared: 4.302
@@ -26508,6 +26508,9 @@ r5d.12xlarge:
         Dedicated: 3.814
         Shared: 3.606
     Windows:
+      ap-east-1:
+        Dedicated: 6.66
+        Shared: 6.408
       ap-northeast-1:
         Dedicated: 6.638
         Shared: 6.384
@@ -26526,9 +26529,6 @@ r5d.12xlarge:
       ap-southeast-2:
         Dedicated: 6.637
         Shared: 6.384
-      Asia Pacific (Hong Kong):
-        Dedicated: 6.66
-        Shared: 6.408
       AWS GovCloud (US-East):
         Dedicated: 6.612
         Shared: 6.36
@@ -26570,7 +26570,7 @@ r5d.12xlarge:
     - eu-north-1
     - us-east-2
     - ap-south-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-2
     - us-west-1
     - ca-central-1
@@ -26596,6 +26596,9 @@ r5d.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 8.4
+        Shared: 8.4
       ap-northeast-1:
         Dedicated: 8.352
         Shared: 8.352
@@ -26614,9 +26617,6 @@ r5d.24xlarge:
       ap-southeast-2:
         Dedicated: 8.352
         Shared: 8.352
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.4
-        Shared: 8.4
       AWS GovCloud (US-East):
         Dedicated: 8.304
         Shared: 8.304
@@ -26654,6 +26654,9 @@ r5d.24xlarge:
         Dedicated: 6.912
         Shared: 6.912
     RHEL:
+      ap-east-1:
+        Dedicated: 8.53
+        Shared: 8.53
       ap-northeast-1:
         Dedicated: 8.482
         Shared: 8.482
@@ -26672,9 +26675,6 @@ r5d.24xlarge:
       ap-southeast-2:
         Dedicated: 8.482
         Shared: 8.482
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.53
-        Shared: 8.53
       AWS GovCloud (US-East):
         Dedicated: 8.434
         Shared: 8.434
@@ -26712,6 +26712,9 @@ r5d.24xlarge:
         Dedicated: 7.042
         Shared: 7.042
     SUSE:
+      ap-east-1:
+        Dedicated: 8.55
+        Shared: 8.55
       ap-northeast-1:
         Dedicated: 8.502
         Shared: 8.502
@@ -26730,9 +26733,6 @@ r5d.24xlarge:
       ap-southeast-2:
         Dedicated: 8.502
         Shared: 8.502
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.55
-        Shared: 8.55
       AWS GovCloud (US-East):
         Dedicated: 8.454
         Shared: 8.454
@@ -26770,6 +26770,9 @@ r5d.24xlarge:
         Dedicated: 7.062
         Shared: 7.062
     Windows:
+      ap-east-1:
+        Dedicated: 12.816
+        Shared: 12.816
       ap-northeast-1:
         Dedicated: 12.768
         Shared: 12.768
@@ -26788,9 +26791,6 @@ r5d.24xlarge:
       ap-southeast-2:
         Dedicated: 12.768
         Shared: 12.768
-      Asia Pacific (Hong Kong):
-        Dedicated: 12.816
-        Shared: 12.816
       AWS GovCloud (US-East):
         Dedicated: 12.72
         Shared: 12.72
@@ -26841,7 +26841,7 @@ r5d.24xlarge:
     - eu-west-2
     - us-east-2
     - eu-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-1
     - ap-south-1
     - us-west-2
@@ -26858,6 +26858,9 @@ r5d.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.742
+        Shared: 0.7
       ap-northeast-1:
         Dedicated: 0.738
         Shared: 0.696
@@ -26876,9 +26879,6 @@ r5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.738
         Shared: 0.696
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.742
-        Shared: 0.7
       AWS GovCloud (US-East):
         Dedicated: 0.734
         Shared: 0.692
@@ -26916,6 +26916,9 @@ r5d.2xlarge:
         Dedicated: 0.611
         Shared: 0.576
     RHEL:
+      ap-east-1:
+        Dedicated: 0.872
+        Shared: 0.83
       ap-northeast-1:
         Dedicated: 0.868
         Shared: 0.826
@@ -26934,9 +26937,6 @@ r5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.868
         Shared: 0.826
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.872
-        Shared: 0.83
       AWS GovCloud (US-East):
         Dedicated: 0.864
         Shared: 0.822
@@ -26974,6 +26974,9 @@ r5d.2xlarge:
         Dedicated: 0.741
         Shared: 0.706
     SUSE:
+      ap-east-1:
+        Dedicated: 0.892
+        Shared: 0.85
       ap-northeast-1:
         Dedicated: 0.888
         Shared: 0.846
@@ -26992,9 +26995,6 @@ r5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.888
         Shared: 0.846
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.892
-        Shared: 0.85
       AWS GovCloud (US-East):
         Dedicated: 0.884
         Shared: 0.842
@@ -27032,6 +27032,9 @@ r5d.2xlarge:
         Dedicated: 0.761
         Shared: 0.726
     Windows:
+      ap-east-1:
+        Dedicated: 1.11
+        Shared: 1.068
       ap-northeast-1:
         Dedicated: 1.106
         Shared: 1.064
@@ -27050,9 +27053,6 @@ r5d.2xlarge:
       ap-southeast-2:
         Dedicated: 1.106
         Shared: 1.064
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.11
-        Shared: 1.068
       AWS GovCloud (US-East):
         Dedicated: 1.102
         Shared: 1.06
@@ -27095,7 +27095,7 @@ r5d.2xlarge:
     - eu-north-1
     - AWS GovCloud (US-East)
     - ap-northeast-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-west-2
     - us-east-2
     - ap-northeast-3
@@ -27120,6 +27120,9 @@ r5d.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.484
+        Shared: 1.4
       ap-northeast-1:
         Dedicated: 1.477
         Shared: 1.392
@@ -27138,9 +27141,6 @@ r5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.476
         Shared: 1.392
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.484
-        Shared: 1.4
       AWS GovCloud (US-East):
         Dedicated: 1.468
         Shared: 1.384
@@ -27178,6 +27178,9 @@ r5d.4xlarge:
         Dedicated: 1.221
         Shared: 1.152
     RHEL:
+      ap-east-1:
+        Dedicated: 1.614
+        Shared: 1.53
       ap-northeast-1:
         Dedicated: 1.607
         Shared: 1.522
@@ -27196,9 +27199,6 @@ r5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.606
         Shared: 1.522
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.614
-        Shared: 1.53
       AWS GovCloud (US-East):
         Dedicated: 1.598
         Shared: 1.514
@@ -27236,6 +27236,9 @@ r5d.4xlarge:
         Dedicated: 1.351
         Shared: 1.282
     SUSE:
+      ap-east-1:
+        Dedicated: 1.634
+        Shared: 1.55
       ap-northeast-1:
         Dedicated: 1.627
         Shared: 1.542
@@ -27254,9 +27257,6 @@ r5d.4xlarge:
       ap-southeast-2:
         Dedicated: 1.626
         Shared: 1.542
-      Asia Pacific (Hong Kong):
-        Dedicated: 1.634
-        Shared: 1.55
       AWS GovCloud (US-East):
         Dedicated: 1.618
         Shared: 1.534
@@ -27294,6 +27294,9 @@ r5d.4xlarge:
         Dedicated: 1.371
         Shared: 1.302
     Windows:
+      ap-east-1:
+        Dedicated: 2.22
+        Shared: 2.136
       ap-northeast-1:
         Dedicated: 2.213
         Shared: 2.128
@@ -27312,9 +27315,6 @@ r5d.4xlarge:
       ap-southeast-2:
         Dedicated: 2.212
         Shared: 2.128
-      Asia Pacific (Hong Kong):
-        Dedicated: 2.22
-        Shared: 2.136
       AWS GovCloud (US-East):
         Dedicated: 2.204
         Shared: 2.12
@@ -27355,7 +27355,7 @@ r5d.4xlarge:
     - ap-southeast-1
     - us-east-1
     - ap-northeast-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ca-central-1
     - us-east-2
     - eu-west-1
@@ -27382,6 +27382,9 @@ r5d.large:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.186
+        Shared: 0.175
       ap-northeast-1:
         Dedicated: 0.185
         Shared: 0.174
@@ -27400,9 +27403,6 @@ r5d.large:
       ap-southeast-2:
         Dedicated: 0.185
         Shared: 0.174
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.186
-        Shared: 0.175
       AWS GovCloud (US-East):
         Dedicated: 0.184
         Shared: 0.173
@@ -27440,6 +27440,9 @@ r5d.large:
         Dedicated: 0.153
         Shared: 0.144
     RHEL:
+      ap-east-1:
+        Dedicated: 0.246
+        Shared: 0.235
       ap-northeast-1:
         Dedicated: 0.245
         Shared: 0.234
@@ -27458,9 +27461,6 @@ r5d.large:
       ap-southeast-2:
         Dedicated: 0.245
         Shared: 0.234
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.246
-        Shared: 0.235
       AWS GovCloud (US-East):
         Dedicated: 0.244
         Shared: 0.233
@@ -27498,6 +27498,9 @@ r5d.large:
         Dedicated: 0.213
         Shared: 0.204
     SUSE:
+      ap-east-1:
+        Dedicated: 0.249
+        Shared: 0.238
       ap-northeast-1:
         Dedicated: 0.248
         Shared: 0.237
@@ -27516,9 +27519,6 @@ r5d.large:
       ap-southeast-2:
         Dedicated: 0.248
         Shared: 0.237
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.249
-        Shared: 0.238
       AWS GovCloud (US-East):
         Dedicated: 0.247
         Shared: 0.236
@@ -27556,6 +27556,9 @@ r5d.large:
         Dedicated: 0.216
         Shared: 0.207
     Windows:
+      ap-east-1:
+        Dedicated: 0.278
+        Shared: 0.267
       ap-northeast-1:
         Dedicated: 0.277
         Shared: 0.266
@@ -27574,9 +27577,6 @@ r5d.large:
       ap-southeast-2:
         Dedicated: 0.277
         Shared: 0.266
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.278
-        Shared: 0.267
       AWS GovCloud (US-East):
         Dedicated: 0.276
         Shared: 0.265
@@ -27620,7 +27620,7 @@ r5d.large:
     - us-east-2
     - eu-west-2
     - eu-central-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - eu-north-1
     - eu-west-1
     - ap-northeast-1
@@ -27644,6 +27644,9 @@ r5d.metal:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 8.4
+        Shared: 8.4
       ap-northeast-1:
         Dedicated: 8.352
         Shared: 8.352
@@ -27662,9 +27665,6 @@ r5d.metal:
       ap-southeast-2:
         Dedicated: 8.352
         Shared: 8.352
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.4
-        Shared: 8.4
       AWS GovCloud (US-East):
         Dedicated: 8.304
         Shared: 8.304
@@ -27702,6 +27702,9 @@ r5d.metal:
         Dedicated: 6.912
         Shared: 6.912
     RHEL:
+      ap-east-1:
+        Dedicated: 8.53
+        Shared: 8.53
       ap-northeast-1:
         Dedicated: 8.482
         Shared: 8.482
@@ -27720,9 +27723,6 @@ r5d.metal:
       ap-southeast-2:
         Dedicated: 8.482
         Shared: 8.482
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.53
-        Shared: 8.53
       AWS GovCloud (US-East):
         Dedicated: 8.434
         Shared: 8.434
@@ -27760,6 +27760,9 @@ r5d.metal:
         Dedicated: 7.042
         Shared: 7.042
     SUSE:
+      ap-east-1:
+        Dedicated: 8.55
+        Shared: 8.55
       ap-northeast-1:
         Dedicated: 8.502
         Shared: 8.502
@@ -27778,9 +27781,6 @@ r5d.metal:
       ap-southeast-2:
         Dedicated: 8.502
         Shared: 8.502
-      Asia Pacific (Hong Kong):
-        Dedicated: 8.55
-        Shared: 8.55
       AWS GovCloud (US-East):
         Dedicated: 8.454
         Shared: 8.454
@@ -27818,6 +27818,9 @@ r5d.metal:
         Dedicated: 7.062
         Shared: 7.062
     Windows:
+      ap-east-1:
+        Dedicated: 12.816
+        Shared: 12.816
       ap-northeast-1:
         Dedicated: 12.768
         Shared: 12.768
@@ -27836,9 +27839,6 @@ r5d.metal:
       ap-southeast-2:
         Dedicated: 12.768
         Shared: 12.768
-      Asia Pacific (Hong Kong):
-        Dedicated: 12.816
-        Shared: 12.816
       AWS GovCloud (US-East):
         Dedicated: 12.72
         Shared: 12.72
@@ -27879,7 +27879,7 @@ r5d.metal:
     - eu-central-1
     - eu-west-1
     - eu-north-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-south-1
     - us-west-1
     - ap-northeast-1
@@ -27906,6 +27906,9 @@ r5d.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.371
+        Shared: 0.35
       ap-northeast-1:
         Dedicated: 0.369
         Shared: 0.348
@@ -27924,9 +27927,6 @@ r5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.369
         Shared: 0.348
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.371
-        Shared: 0.35
       AWS GovCloud (US-East):
         Dedicated: 0.367
         Shared: 0.346
@@ -27964,6 +27964,9 @@ r5d.xlarge:
         Dedicated: 0.305
         Shared: 0.288
     RHEL:
+      ap-east-1:
+        Dedicated: 0.431
+        Shared: 0.41
       ap-northeast-1:
         Dedicated: 0.429
         Shared: 0.408
@@ -27982,9 +27985,6 @@ r5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.429
         Shared: 0.408
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.431
-        Shared: 0.41
       AWS GovCloud (US-East):
         Dedicated: 0.427
         Shared: 0.406
@@ -28022,6 +28022,9 @@ r5d.xlarge:
         Dedicated: 0.365
         Shared: 0.348
     SUSE:
+      ap-east-1:
+        Dedicated: 0.496
+        Shared: 0.475
       ap-northeast-1:
         Dedicated: 0.494
         Shared: 0.473
@@ -28040,9 +28043,6 @@ r5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.494
         Shared: 0.473
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.496
-        Shared: 0.475
       AWS GovCloud (US-East):
         Dedicated: 0.492
         Shared: 0.471
@@ -28080,6 +28080,9 @@ r5d.xlarge:
         Dedicated: 0.43
         Shared: 0.413
     Windows:
+      ap-east-1:
+        Dedicated: 0.555
+        Shared: 0.534
       ap-northeast-1:
         Dedicated: 0.553
         Shared: 0.532
@@ -28098,9 +28101,6 @@ r5d.xlarge:
       ap-southeast-2:
         Dedicated: 0.553
         Shared: 0.532
-      Asia Pacific (Hong Kong):
-        Dedicated: 0.555
-        Shared: 0.534
       AWS GovCloud (US-East):
         Dedicated: 0.551
         Shared: 0.53
@@ -28142,7 +28142,7 @@ r5d.xlarge:
     - ap-northeast-1
     - AWS GovCloud (US-East)
     - ap-northeast-2
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - us-west-2
     - us-west-1
     - ap-southeast-1
@@ -29412,6 +29412,8 @@ t3.2xlarge:
   physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.4672
       ap-northeast-1:
         Shared: 0.4352
       ap-northeast-2:
@@ -29424,8 +29426,6 @@ t3.2xlarge:
         Shared: 0.4224
       ap-southeast-2:
         Shared: 0.4224
-      Asia Pacific (Hong Kong):
-        Shared: 0.4672
       AWS GovCloud (US-East):
         Shared: 0.3904
       ca-central-1:
@@ -29453,6 +29453,8 @@ t3.2xlarge:
       us-west-2:
         Shared: 0.3328
     RHEL:
+      ap-east-1:
+        Shared: 0.5972
       ap-northeast-1:
         Shared: 0.5652
       ap-northeast-2:
@@ -29465,8 +29467,6 @@ t3.2xlarge:
         Shared: 0.5524
       ap-southeast-2:
         Shared: 0.5524
-      Asia Pacific (Hong Kong):
-        Shared: 0.5972
       AWS GovCloud (US-East):
         Shared: 0.5204
       ca-central-1:
@@ -29494,6 +29494,8 @@ t3.2xlarge:
       us-west-2:
         Shared: 0.4628
     SUSE:
+      ap-east-1:
+        Shared: 0.6172
       ap-northeast-1:
         Shared: 0.5852
       ap-northeast-2:
@@ -29506,8 +29508,6 @@ t3.2xlarge:
         Shared: 0.5724
       ap-southeast-2:
         Shared: 0.5724
-      Asia Pacific (Hong Kong):
-        Shared: 0.6172
       AWS GovCloud (US-East):
         Shared: 0.5404
       ca-central-1:
@@ -29535,6 +29535,8 @@ t3.2xlarge:
       us-west-2:
         Shared: 0.4828
     Windows:
+      ap-east-1:
+        Shared: 0.6144
       ap-northeast-1:
         Shared: 0.5824
       ap-northeast-2:
@@ -29547,8 +29549,6 @@ t3.2xlarge:
         Shared: 0.4224
       ap-southeast-2:
         Shared: 0.5696
-      Asia Pacific (Hong Kong):
-        Shared: 0.6144
       AWS GovCloud (US-East):
         Shared: 0.5376
       ca-central-1:
@@ -29576,7 +29576,7 @@ t3.2xlarge:
       us-west-2:
         Shared: 0.48
   regions:
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - us-east-2
     - us-west-2
     - sa-east-1
@@ -29607,6 +29607,8 @@ t3.large:
   physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.1168
       ap-northeast-1:
         Shared: 0.1088
       ap-northeast-2:
@@ -29619,8 +29621,6 @@ t3.large:
         Shared: 0.1056
       ap-southeast-2:
         Shared: 0.1056
-      Asia Pacific (Hong Kong):
-        Shared: 0.1168
       AWS GovCloud (US-East):
         Shared: 0.0976
       ca-central-1:
@@ -29648,6 +29648,8 @@ t3.large:
       us-west-2:
         Shared: 0.0832
     RHEL:
+      ap-east-1:
+        Shared: 0.1768
       ap-northeast-1:
         Shared: 0.1688
       ap-northeast-2:
@@ -29660,8 +29662,6 @@ t3.large:
         Shared: 0.1656
       ap-southeast-2:
         Shared: 0.1656
-      Asia Pacific (Hong Kong):
-        Shared: 0.1768
       AWS GovCloud (US-East):
         Shared: 0.1576
       ca-central-1:
@@ -29689,6 +29689,8 @@ t3.large:
       us-west-2:
         Shared: 0.1432
     SUSE:
+      ap-east-1:
+        Shared: 0.1798
       ap-northeast-1:
         Shared: 0.1718
       ap-northeast-2:
@@ -29701,8 +29703,6 @@ t3.large:
         Shared: 0.1686
       ap-southeast-2:
         Shared: 0.1686
-      Asia Pacific (Hong Kong):
-        Shared: 0.1798
       AWS GovCloud (US-East):
         Shared: 0.1606
       ca-central-1:
@@ -29730,6 +29730,8 @@ t3.large:
       us-west-2:
         Shared: 0.1462
     Windows:
+      ap-east-1:
+        Shared: 0.1444
       ap-northeast-1:
         Shared: 0.1088
       ap-northeast-2:
@@ -29742,8 +29744,6 @@ t3.large:
         Shared: 0.1056
       ap-southeast-2:
         Shared: 0.1056
-      Asia Pacific (Hong Kong):
-        Shared: 0.1444
       AWS GovCloud (US-East):
         Shared: 0.1252
       ca-central-1:
@@ -29777,7 +29777,7 @@ t3.large:
     - ap-southeast-2
     - eu-west-1
     - us-gov-west-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - ap-northeast-1
     - us-east-1
     - ca-central-1
@@ -29802,6 +29802,8 @@ t3.medium:
   physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.0584
       ap-northeast-1:
         Shared: 0.0544
       ap-northeast-2:
@@ -29814,8 +29816,6 @@ t3.medium:
         Shared: 0.0528
       ap-southeast-2:
         Shared: 0.0528
-      Asia Pacific (Hong Kong):
-        Shared: 0.0584
       AWS GovCloud (US-East):
         Shared: 0.0488
       ca-central-1:
@@ -29843,6 +29843,8 @@ t3.medium:
       us-west-2:
         Shared: 0.0416
     RHEL:
+      ap-east-1:
+        Shared: 0.1184
       ap-northeast-1:
         Shared: 0.1144
       ap-northeast-2:
@@ -29855,8 +29857,6 @@ t3.medium:
         Shared: 0.1128
       ap-southeast-2:
         Shared: 0.1128
-      Asia Pacific (Hong Kong):
-        Shared: 0.1184
       AWS GovCloud (US-East):
         Shared: 0.1088
       ca-central-1:
@@ -29884,6 +29884,8 @@ t3.medium:
       us-west-2:
         Shared: 0.1016
     SUSE:
+      ap-east-1:
+        Shared: 0.1214
       ap-northeast-1:
         Shared: 0.1174
       ap-northeast-2:
@@ -29896,8 +29898,6 @@ t3.medium:
         Shared: 0.1158
       ap-southeast-2:
         Shared: 0.1158
-      Asia Pacific (Hong Kong):
-        Shared: 0.1214
       AWS GovCloud (US-East):
         Shared: 0.1118
       ca-central-1:
@@ -29925,6 +29925,8 @@ t3.medium:
       us-west-2:
         Shared: 0.1046
     Windows:
+      ap-east-1:
+        Shared: 0.0768
       ap-northeast-1:
         Shared: 0.0728
       ap-northeast-2:
@@ -29937,8 +29939,6 @@ t3.medium:
         Shared: 0.0712
       ap-southeast-2:
         Shared: 0.0712
-      Asia Pacific (Hong Kong):
-        Shared: 0.0768
       AWS GovCloud (US-East):
         Shared: 0.0672
       ca-central-1:
@@ -29985,7 +29985,7 @@ t3.medium:
     - us-west-2
     - ca-central-1
     - ap-northeast-3
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
   storage: EBS only
   vcpu: 2
 t3.micro:
@@ -29997,6 +29997,8 @@ t3.micro:
   physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.0146
       ap-northeast-1:
         Shared: 0.0136
       ap-northeast-2:
@@ -30009,8 +30011,6 @@ t3.micro:
         Shared: 0.0132
       ap-southeast-2:
         Shared: 0.0132
-      Asia Pacific (Hong Kong):
-        Shared: 0.0146
       AWS GovCloud (US-East):
         Shared: 0.0122
       ca-central-1:
@@ -30038,6 +30038,8 @@ t3.micro:
       us-west-2:
         Shared: 0.0104
     RHEL:
+      ap-east-1:
+        Shared: 0.0746
       ap-northeast-1:
         Shared: 0.0736
       ap-northeast-2:
@@ -30050,8 +30052,6 @@ t3.micro:
         Shared: 0.0732
       ap-southeast-2:
         Shared: 0.0732
-      Asia Pacific (Hong Kong):
-        Shared: 0.0746
       AWS GovCloud (US-East):
         Shared: 0.0722
       ca-central-1:
@@ -30079,6 +30079,8 @@ t3.micro:
       us-west-2:
         Shared: 0.0704
     SUSE:
+      ap-east-1:
+        Shared: 0.0146
       ap-northeast-1:
         Shared: 0.0136
       ap-northeast-2:
@@ -30091,8 +30093,6 @@ t3.micro:
         Shared: 0.0132
       ap-southeast-2:
         Shared: 0.0132
-      Asia Pacific (Hong Kong):
-        Shared: 0.0146
       AWS GovCloud (US-East):
         Shared: 0.0122
       ca-central-1:
@@ -30120,6 +30120,8 @@ t3.micro:
       us-west-2:
         Shared: 0.0104
     Windows:
+      ap-east-1:
+        Shared: 0.0238
       ap-northeast-1:
         Shared: 0.0228
       ap-northeast-2:
@@ -30132,8 +30134,6 @@ t3.micro:
         Shared: 0.0224
       ap-southeast-2:
         Shared: 0.0132
-      Asia Pacific (Hong Kong):
-        Shared: 0.0238
       AWS GovCloud (US-East):
         Shared: 0.0214
       ca-central-1:
@@ -30166,7 +30166,7 @@ t3.micro:
     - sa-east-1
     - eu-west-2
     - ca-central-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - AWS GovCloud (US-East)
     - us-west-1
     - us-east-2
@@ -30192,6 +30192,8 @@ t3.nano:
   physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.0073
       ap-northeast-1:
         Shared: 0.0068
       ap-northeast-2:
@@ -30204,8 +30206,6 @@ t3.nano:
         Shared: 0.0066
       ap-southeast-2:
         Shared: 0.0066
-      Asia Pacific (Hong Kong):
-        Shared: 0.0073
       AWS GovCloud (US-East):
         Shared: 0.0061
       ca-central-1:
@@ -30233,6 +30233,8 @@ t3.nano:
       us-west-2:
         Shared: 0.0052
     SUSE:
+      ap-east-1:
+        Shared: 0.0073
       ap-northeast-1:
         Shared: 0.0068
       ap-northeast-2:
@@ -30245,8 +30247,6 @@ t3.nano:
         Shared: 0.0066
       ap-southeast-2:
         Shared: 0.0066
-      Asia Pacific (Hong Kong):
-        Shared: 0.0073
       AWS GovCloud (US-East):
         Shared: 0.0061
       ca-central-1:
@@ -30274,6 +30274,8 @@ t3.nano:
       us-west-2:
         Shared: 0.0052
     Windows:
+      ap-east-1:
+        Shared: 0.0119
       ap-northeast-1:
         Shared: 0.0114
       ap-northeast-2:
@@ -30286,8 +30288,6 @@ t3.nano:
         Shared: 0.0066
       ap-southeast-2:
         Shared: 0.0112
-      Asia Pacific (Hong Kong):
-        Shared: 0.0119
       AWS GovCloud (US-East):
         Shared: 0.0107
       ca-central-1:
@@ -30324,7 +30324,7 @@ t3.nano:
     - us-gov-west-1
     - us-west-1
     - ap-northeast-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - us-west-2
     - eu-west-3
     - eu-north-1
@@ -30346,6 +30346,8 @@ t3.small:
   physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.0292
       ap-northeast-1:
         Shared: 0.0272
       ap-northeast-2:
@@ -30358,8 +30360,6 @@ t3.small:
         Shared: 0.0264
       ap-southeast-2:
         Shared: 0.0264
-      Asia Pacific (Hong Kong):
-        Shared: 0.0292
       AWS GovCloud (US-East):
         Shared: 0.0244
       ca-central-1:
@@ -30387,6 +30387,8 @@ t3.small:
       us-west-2:
         Shared: 0.0208
     RHEL:
+      ap-east-1:
+        Shared: 0.0892
       ap-northeast-1:
         Shared: 0.0872
       ap-northeast-2:
@@ -30399,8 +30401,6 @@ t3.small:
         Shared: 0.0864
       ap-southeast-2:
         Shared: 0.0864
-      Asia Pacific (Hong Kong):
-        Shared: 0.0892
       AWS GovCloud (US-East):
         Shared: 0.0844
       ca-central-1:
@@ -30428,6 +30428,8 @@ t3.small:
       us-west-2:
         Shared: 0.0808
     SUSE:
+      ap-east-1:
+        Shared: 0.0602
       ap-northeast-1:
         Shared: 0.0582
       ap-northeast-2:
@@ -30440,8 +30442,6 @@ t3.small:
         Shared: 0.0574
       ap-southeast-2:
         Shared: 0.0574
-      Asia Pacific (Hong Kong):
-        Shared: 0.0602
       AWS GovCloud (US-East):
         Shared: 0.0554
       ca-central-1:
@@ -30469,6 +30469,8 @@ t3.small:
       us-west-2:
         Shared: 0.0518
     Windows:
+      ap-east-1:
+        Shared: 0.0476
       ap-northeast-1:
         Shared: 0.0456
       ap-northeast-2:
@@ -30481,8 +30483,6 @@ t3.small:
         Shared: 0.0264
       ap-southeast-2:
         Shared: 0.0448
-      Asia Pacific (Hong Kong):
-        Shared: 0.0476
       AWS GovCloud (US-East):
         Shared: 0.0428
       ca-central-1:
@@ -30523,7 +30523,7 @@ t3.small:
     - ca-central-1
     - us-east-2
     - ap-northeast-1
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - sa-east-1
     - ap-southeast-1
     - us-east-1
@@ -30541,6 +30541,8 @@ t3.xlarge:
   physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.2336
       ap-northeast-1:
         Shared: 0.2176
       ap-northeast-2:
@@ -30553,8 +30555,6 @@ t3.xlarge:
         Shared: 0.2112
       ap-southeast-2:
         Shared: 0.2112
-      Asia Pacific (Hong Kong):
-        Shared: 0.2336
       AWS GovCloud (US-East):
         Shared: 0.1952
       ca-central-1:
@@ -30582,6 +30582,8 @@ t3.xlarge:
       us-west-2:
         Shared: 0.1664
     RHEL:
+      ap-east-1:
+        Shared: 0.2936
       ap-northeast-1:
         Shared: 0.2776
       ap-northeast-2:
@@ -30594,8 +30596,6 @@ t3.xlarge:
         Shared: 0.2712
       ap-southeast-2:
         Shared: 0.2712
-      Asia Pacific (Hong Kong):
-        Shared: 0.2936
       AWS GovCloud (US-East):
         Shared: 0.2552
       ca-central-1:
@@ -30623,6 +30623,8 @@ t3.xlarge:
       us-west-2:
         Shared: 0.2264
     SUSE:
+      ap-east-1:
+        Shared: 0.3586
       ap-northeast-1:
         Shared: 0.3426
       ap-northeast-2:
@@ -30635,8 +30637,6 @@ t3.xlarge:
         Shared: 0.3362
       ap-southeast-2:
         Shared: 0.3362
-      Asia Pacific (Hong Kong):
-        Shared: 0.3586
       AWS GovCloud (US-East):
         Shared: 0.3202
       ca-central-1:
@@ -30664,6 +30664,8 @@ t3.xlarge:
       us-west-2:
         Shared: 0.2914
     Windows:
+      ap-east-1:
+        Shared: 0.3072
       ap-northeast-1:
         Shared: 0.2912
       ap-northeast-2:
@@ -30676,8 +30678,6 @@ t3.xlarge:
         Shared: 0.2112
       ap-southeast-2:
         Shared: 0.2848
-      Asia Pacific (Hong Kong):
-        Shared: 0.3072
       AWS GovCloud (US-East):
         Shared: 0.2688
       ca-central-1:
@@ -30710,7 +30710,7 @@ t3.xlarge:
     - us-east-1
     - eu-central-1
     - eu-west-3
-    - Asia Pacific (Hong Kong)
+    - ap-east-1
     - sa-east-1
     - eu-north-1
     - AWS GovCloud (US-East)
