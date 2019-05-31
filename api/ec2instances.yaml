@@ -31367,7 +31367,6 @@ x1.16xlarge:
     - ap-northeast-2
     - eu-west-2
     - us-gov-west-1
-    - Asia Pacific (Hong Kong)
   storage: 1 x 1920 SSD
   vcpu: 64
 x1.32xlarge:
@@ -31580,7 +31579,6 @@ x1.32xlarge:
     - ap-southeast-2
     - ca-central-1
     - ap-northeast-2
-    - Asia Pacific (Hong Kong)
   storage: 2 x 1920 SSD
   vcpu: 128
 x1e.16xlarge:
