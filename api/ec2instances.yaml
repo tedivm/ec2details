@@ -11695,48 +11695,87 @@ i3en.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 6.799
+        Shared: 6.384
+      eu-central-1:
+        Dedicated: 6.901
+        Shared: 6.48
       eu-west-1:
         Dedicated: 6.39
         Shared: 6
       us-east-1:
         Dedicated: 5.776
         Shared: 5.424
+      us-east-2:
+        Dedicated: 5.776
+        Shared: 5.424
       us-west-2:
         Dedicated: 5.776
         Shared: 5.424
     RHEL:
+      ap-northeast-1:
+        Dedicated: 6.929
+        Shared: 6.514
+      eu-central-1:
+        Dedicated: 7.031
+        Shared: 6.61
       eu-west-1:
         Dedicated: 6.52
         Shared: 6.13
       us-east-1:
         Dedicated: 5.906
         Shared: 5.554
+      us-east-2:
+        Dedicated: 5.906
+        Shared: 5.554
       us-west-2:
         Dedicated: 5.906
         Shared: 5.554
     SUSE:
+      ap-northeast-1:
+        Dedicated: 6.949
+        Shared: 6.534
+      eu-central-1:
+        Dedicated: 7.051
+        Shared: 6.63
       eu-west-1:
         Dedicated: 6.54
         Shared: 6.15
       us-east-1:
         Dedicated: 5.926
         Shared: 5.574
+      us-east-2:
+        Dedicated: 5.926
+        Shared: 5.574
       us-west-2:
         Dedicated: 5.926
         Shared: 5.574
     Windows:
+      ap-northeast-1:
+        Dedicated: 9.007
+        Shared: 8.592
+      eu-central-1:
+        Dedicated: 9.109
+        Shared: 8.688
       eu-west-1:
         Dedicated: 8.598
         Shared: 8.208
       us-east-1:
         Dedicated: 7.984
         Shared: 7.632
+      us-east-2:
+        Dedicated: 7.984
+        Shared: 7.632
       us-west-2:
         Dedicated: 7.984
         Shared: 7.632
   regions:
+    - ap-northeast-1
     - eu-west-1
     - us-east-1
+    - us-east-2
+    - eu-central-1
     - us-west-2
   storage: 4 x 7500 NVMe SSD
   vcpu: 48
@@ -11751,40 +11790,76 @@ i3en.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 12.768
+        Shared: 12.768
+      eu-central-1:
+        Dedicated: 12.96
+        Shared: 12.96
       eu-west-1:
         Dedicated: 12
         Shared: 12
       us-east-1:
         Dedicated: 10.848
         Shared: 10.848
+      us-east-2:
+        Dedicated: 10.848
+        Shared: 10.848
       us-west-2:
         Dedicated: 10.848
         Shared: 10.848
     RHEL:
+      ap-northeast-1:
+        Dedicated: 12.898
+        Shared: 12.898
+      eu-central-1:
+        Dedicated: 13.09
+        Shared: 13.09
       eu-west-1:
         Dedicated: 12.13
         Shared: 12.13
       us-east-1:
         Dedicated: 10.978
         Shared: 10.978
+      us-east-2:
+        Dedicated: 10.978
+        Shared: 10.978
       us-west-2:
         Dedicated: 10.978
         Shared: 10.978
     SUSE:
+      ap-northeast-1:
+        Dedicated: 12.918
+        Shared: 12.918
+      eu-central-1:
+        Dedicated: 13.11
+        Shared: 13.11
       eu-west-1:
         Dedicated: 12.15
         Shared: 12.15
       us-east-1:
         Dedicated: 10.998
         Shared: 10.998
+      us-east-2:
+        Dedicated: 10.998
+        Shared: 10.998
       us-west-2:
         Dedicated: 10.998
         Shared: 10.998
     Windows:
+      ap-northeast-1:
+        Dedicated: 17.184
+        Shared: 17.184
+      eu-central-1:
+        Dedicated: 17.376
+        Shared: 17.376
       eu-west-1:
         Dedicated: 16.416
         Shared: 16.416
       us-east-1:
+        Dedicated: 15.264
+        Shared: 15.264
+      us-east-2:
         Dedicated: 15.264
         Shared: 15.264
       us-west-2:
@@ -11792,7 +11867,10 @@ i3en.24xlarge:
         Shared: 15.264
   regions:
     - eu-west-1
+    - ap-northeast-1
+    - us-east-2
     - us-west-2
+    - eu-central-1
     - us-east-1
   storage: 8 x 7500 NVMe SSD
   vcpu: 96
@@ -11807,40 +11885,76 @@ i3en.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.133
+        Shared: 1.064
+      eu-central-1:
+        Dedicated: 1.15
+        Shared: 1.08
       eu-west-1:
         Dedicated: 1.065
         Shared: 1
       us-east-1:
         Dedicated: 0.963
         Shared: 0.904
+      us-east-2:
+        Dedicated: 0.963
+        Shared: 0.904
       us-west-2:
         Dedicated: 0.963
         Shared: 0.904
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.263
+        Shared: 1.194
+      eu-central-1:
+        Dedicated: 1.28
+        Shared: 1.21
       eu-west-1:
         Dedicated: 1.195
         Shared: 1.13
       us-east-1:
         Dedicated: 1.093
         Shared: 1.034
+      us-east-2:
+        Dedicated: 1.093
+        Shared: 1.034
       us-west-2:
         Dedicated: 1.093
         Shared: 1.034
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.283
+        Shared: 1.214
+      eu-central-1:
+        Dedicated: 1.3
+        Shared: 1.23
       eu-west-1:
         Dedicated: 1.215
         Shared: 1.15
       us-east-1:
         Dedicated: 1.113
         Shared: 1.054
+      us-east-2:
+        Dedicated: 1.113
+        Shared: 1.054
       us-west-2:
         Dedicated: 1.113
         Shared: 1.054
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.501
+        Shared: 1.432
+      eu-central-1:
+        Dedicated: 1.518
+        Shared: 1.448
       eu-west-1:
         Dedicated: 1.433
         Shared: 1.368
       us-east-1:
+        Dedicated: 1.331
+        Shared: 1.272
+      us-east-2:
         Dedicated: 1.331
         Shared: 1.272
       us-west-2:
@@ -11849,6 +11963,9 @@ i3en.2xlarge:
   regions:
     - eu-west-1
     - us-west-2
+    - ap-northeast-1
+    - eu-central-1
+    - us-east-2
     - us-east-1
   storage: 2 x 2500 NVMe SSD
   vcpu: 8
@@ -11863,47 +11980,86 @@ i3en.3xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.7
+        Shared: 1.596
+      eu-central-1:
+        Dedicated: 1.725
+        Shared: 1.62
       eu-west-1:
         Dedicated: 1.598
         Shared: 1.5
       us-east-1:
         Dedicated: 1.444
         Shared: 1.356
+      us-east-2:
+        Dedicated: 1.444
+        Shared: 1.356
       us-west-2:
         Dedicated: 1.444
         Shared: 1.356
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.83
+        Shared: 1.726
+      eu-central-1:
+        Dedicated: 1.855
+        Shared: 1.75
       eu-west-1:
         Dedicated: 1.728
         Shared: 1.63
       us-east-1:
         Dedicated: 1.574
         Shared: 1.486
+      us-east-2:
+        Dedicated: 1.574
+        Shared: 1.486
       us-west-2:
         Dedicated: 1.574
         Shared: 1.486
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.85
+        Shared: 1.746
+      eu-central-1:
+        Dedicated: 1.875
+        Shared: 1.77
       eu-west-1:
         Dedicated: 1.748
         Shared: 1.65
       us-east-1:
         Dedicated: 1.594
         Shared: 1.506
+      us-east-2:
+        Dedicated: 1.594
+        Shared: 1.506
       us-west-2:
         Dedicated: 1.594
         Shared: 1.506
     Windows:
+      ap-northeast-1:
+        Dedicated: 2.252
+        Shared: 2.148
+      eu-central-1:
+        Dedicated: 2.277
+        Shared: 2.172
       eu-west-1:
         Dedicated: 2.15
         Shared: 2.052
       us-east-1:
         Dedicated: 1.996
         Shared: 1.908
+      us-east-2:
+        Dedicated: 1.996
+        Shared: 1.908
       us-west-2:
         Dedicated: 1.996
         Shared: 1.908
   regions:
+    - ap-northeast-1
+    - us-east-2
     - us-east-1
+    - eu-central-1
     - eu-west-1
     - us-west-2
   storage: 1 x 7500 NVMe SSD
@@ -11919,40 +12075,76 @@ i3en.6xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 3.4
+        Shared: 3.192
+      eu-central-1:
+        Dedicated: 3.451
+        Shared: 3.24
       eu-west-1:
         Dedicated: 3.195
         Shared: 3
       us-east-1:
         Dedicated: 2.888
         Shared: 2.712
+      us-east-2:
+        Dedicated: 2.888
+        Shared: 2.712
       us-west-2:
         Dedicated: 2.888
         Shared: 2.712
     RHEL:
+      ap-northeast-1:
+        Dedicated: 3.53
+        Shared: 3.322
+      eu-central-1:
+        Dedicated: 3.581
+        Shared: 3.37
       eu-west-1:
         Dedicated: 3.325
         Shared: 3.13
       us-east-1:
         Dedicated: 3.018
         Shared: 2.842
+      us-east-2:
+        Dedicated: 3.018
+        Shared: 2.842
       us-west-2:
         Dedicated: 3.018
         Shared: 2.842
     SUSE:
+      ap-northeast-1:
+        Dedicated: 3.55
+        Shared: 3.342
+      eu-central-1:
+        Dedicated: 3.601
+        Shared: 3.39
       eu-west-1:
         Dedicated: 3.345
         Shared: 3.15
       us-east-1:
         Dedicated: 3.038
         Shared: 2.862
+      us-east-2:
+        Dedicated: 3.038
+        Shared: 2.862
       us-west-2:
         Dedicated: 3.038
         Shared: 2.862
     Windows:
+      ap-northeast-1:
+        Dedicated: 4.504
+        Shared: 4.296
+      eu-central-1:
+        Dedicated: 4.555
+        Shared: 4.344
       eu-west-1:
         Dedicated: 4.299
         Shared: 4.104
       us-east-1:
+        Dedicated: 3.992
+        Shared: 3.816
+      us-east-2:
         Dedicated: 3.992
         Shared: 3.816
       us-west-2:
@@ -11960,8 +12152,11 @@ i3en.6xlarge:
         Shared: 3.816
   regions:
     - us-west-2
+    - us-east-2
+    - eu-central-1
     - eu-west-1
     - us-east-1
+    - ap-northeast-1
   storage: 2 x 7500 NVMe SSD
   vcpu: 24
 i3en.large:
@@ -11975,40 +12170,76 @@ i3en.large:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.283
+        Shared: 0.266
+      eu-central-1:
+        Dedicated: 0.288
+        Shared: 0.27
       eu-west-1:
         Dedicated: 0.266
         Shared: 0.25
       us-east-1:
         Dedicated: 0.241
         Shared: 0.226
+      us-east-2:
+        Dedicated: 0.241
+        Shared: 0.226
       us-west-2:
         Dedicated: 0.241
         Shared: 0.226
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.343
+        Shared: 0.326
+      eu-central-1:
+        Dedicated: 0.348
+        Shared: 0.33
       eu-west-1:
         Dedicated: 0.326
         Shared: 0.31
       us-east-1:
         Dedicated: 0.301
         Shared: 0.286
+      us-east-2:
+        Dedicated: 0.301
+        Shared: 0.286
       us-west-2:
         Dedicated: 0.301
         Shared: 0.286
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.346
+        Shared: 0.329
+      eu-central-1:
+        Dedicated: 0.351
+        Shared: 0.333
       eu-west-1:
         Dedicated: 0.329
         Shared: 0.313
       us-east-1:
         Dedicated: 0.304
         Shared: 0.289
+      us-east-2:
+        Dedicated: 0.304
+        Shared: 0.289
       us-west-2:
         Dedicated: 0.304
         Shared: 0.289
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.375
+        Shared: 0.358
+      eu-central-1:
+        Dedicated: 0.38
+        Shared: 0.362
       eu-west-1:
         Dedicated: 0.358
         Shared: 0.342
       us-east-1:
+        Dedicated: 0.333
+        Shared: 0.318
+      us-east-2:
         Dedicated: 0.333
         Shared: 0.318
       us-west-2:
@@ -12017,7 +12248,10 @@ i3en.large:
   regions:
     - us-west-2
     - eu-west-1
+    - us-east-2
     - us-east-1
+    - ap-northeast-1
+    - eu-central-1
   storage: 1 x 1250 NVMe SSD
   vcpu: 2
 i3en.xlarge:
@@ -12031,40 +12265,76 @@ i3en.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.567
+        Shared: 0.532
+      eu-central-1:
+        Dedicated: 0.575
+        Shared: 0.54
       eu-west-1:
         Dedicated: 0.533
         Shared: 0.5
       us-east-1:
         Dedicated: 0.481
         Shared: 0.452
+      us-east-2:
+        Dedicated: 0.481
+        Shared: 0.452
       us-west-2:
         Dedicated: 0.481
         Shared: 0.452
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.627
+        Shared: 0.592
+      eu-central-1:
+        Dedicated: 0.635
+        Shared: 0.6
       eu-west-1:
         Dedicated: 0.593
         Shared: 0.56
       us-east-1:
         Dedicated: 0.541
         Shared: 0.512
+      us-east-2:
+        Dedicated: 0.541
+        Shared: 0.512
       us-west-2:
         Dedicated: 0.541
         Shared: 0.512
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.692
+        Shared: 0.657
+      eu-central-1:
+        Dedicated: 0.7
+        Shared: 0.665
       eu-west-1:
         Dedicated: 0.658
         Shared: 0.625
       us-east-1:
         Dedicated: 0.606
         Shared: 0.577
+      us-east-2:
+        Dedicated: 0.606
+        Shared: 0.577
       us-west-2:
         Dedicated: 0.606
         Shared: 0.577
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.751
+        Shared: 0.716
+      eu-central-1:
+        Dedicated: 0.759
+        Shared: 0.724
       eu-west-1:
         Dedicated: 0.717
         Shared: 0.684
       us-east-1:
+        Dedicated: 0.665
+        Shared: 0.636
+      us-east-2:
         Dedicated: 0.665
         Shared: 0.636
       us-west-2:
@@ -12072,8 +12342,11 @@ i3en.xlarge:
         Shared: 0.636
   regions:
     - eu-west-1
+    - eu-central-1
     - us-west-2
+    - us-east-2
     - us-east-1
+    - ap-northeast-1
   storage: 1 x 2500 NVMe SSD
   vcpu: 4
 m1.large:
