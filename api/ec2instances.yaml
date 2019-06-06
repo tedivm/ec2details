@@ -31441,6 +31441,9 @@ x1.16xlarge:
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 11.702
+        Shared: 10.638
       ap-northeast-1:
         Dedicated: 10.638
         Shared: 9.671
@@ -31487,6 +31490,9 @@ x1.16xlarge:
         Dedicated: 7.336
         Shared: 6.669
     RHEL:
+      ap-east-1:
+        Dedicated: 11.832
+        Shared: 10.768
       ap-northeast-1:
         Dedicated: 10.768
         Shared: 9.801
@@ -31533,6 +31539,9 @@ x1.16xlarge:
         Dedicated: 7.466
         Shared: 6.799
     SUSE:
+      ap-east-1:
+        Dedicated: 11.802
+        Shared: 10.738
       ap-northeast-1:
         Dedicated: 10.738
         Shared: 9.771
@@ -31579,6 +31588,9 @@ x1.16xlarge:
         Dedicated: 7.436
         Shared: 6.769
     Windows:
+      ap-east-1:
+        Dedicated: 14.646
+        Shared: 13.582
       ap-northeast-1:
         Dedicated: 10.638
         Shared: 9.671
@@ -31639,6 +31651,7 @@ x1.16xlarge:
     - eu-west-1
     - ap-northeast-2
     - eu-west-2
+    - ap-east-1
     - us-gov-west-1
   storage: 1 x 1920 SSD
   vcpu: 64
@@ -31653,6 +31666,9 @@ x1.32xlarge:
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 21.276
+        Shared: 21.276
       ap-northeast-1:
         Dedicated: 19.341
         Shared: 19.341
@@ -31699,6 +31715,9 @@ x1.32xlarge:
         Dedicated: 13.338
         Shared: 13.338
     RHEL:
+      ap-east-1:
+        Dedicated: 21.406
+        Shared: 21.406
       ap-northeast-1:
         Dedicated: 19.471
         Shared: 19.471
@@ -31745,6 +31764,9 @@ x1.32xlarge:
         Dedicated: 13.468
         Shared: 13.468
     SUSE:
+      ap-east-1:
+        Dedicated: 21.376
+        Shared: 21.376
       ap-northeast-1:
         Dedicated: 19.441
         Shared: 19.441
@@ -31791,6 +31813,9 @@ x1.32xlarge:
         Dedicated: 13.438
         Shared: 13.438
     Windows:
+      ap-east-1:
+        Dedicated: 27.164
+        Shared: 27.164
       ap-northeast-1:
         Dedicated: 25.229
         Shared: 19.341
@@ -31852,6 +31877,7 @@ x1.32xlarge:
     - ap-southeast-2
     - ca-central-1
     - ap-northeast-2
+    - ap-east-1
   storage: 2 x 1920 SSD
   vcpu: 128
 x1e.16xlarge:
