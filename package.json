@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "commander": "^2.13.0",
-    "js-yaml": "^3.10.0",
+    "js-yaml": "^3.13.1",
     "json-stable-stringify": "^1.0.1",
     "mz": "^2.7.0",
     "request": "^2.83.0",
