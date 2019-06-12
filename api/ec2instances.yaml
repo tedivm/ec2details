@@ -11710,6 +11710,9 @@ i3en.12xlarge:
       us-east-2:
         Dedicated: 5.776
         Shared: 5.424
+      us-west-1:
+        Dedicated: 6.39
+        Shared: 6
       us-west-2:
         Dedicated: 5.776
         Shared: 5.424
@@ -11729,6 +11732,9 @@ i3en.12xlarge:
       us-east-2:
         Dedicated: 5.906
         Shared: 5.554
+      us-west-1:
+        Dedicated: 6.52
+        Shared: 6.13
       us-west-2:
         Dedicated: 5.906
         Shared: 5.554
@@ -11748,6 +11754,9 @@ i3en.12xlarge:
       us-east-2:
         Dedicated: 5.926
         Shared: 5.574
+      us-west-1:
+        Dedicated: 6.54
+        Shared: 6.15
       us-west-2:
         Dedicated: 5.926
         Shared: 5.574
@@ -11767,6 +11776,9 @@ i3en.12xlarge:
       us-east-2:
         Dedicated: 7.984
         Shared: 7.632
+      us-west-1:
+        Dedicated: 8.598
+        Shared: 8.208
       us-west-2:
         Dedicated: 7.984
         Shared: 7.632
@@ -11775,6 +11787,7 @@ i3en.12xlarge:
     - eu-west-1
     - us-east-1
     - us-east-2
+    - us-west-1
     - eu-central-1
     - us-west-2
   storage: 4 x 7500 NVMe SSD
@@ -11805,6 +11818,9 @@ i3en.24xlarge:
       us-east-2:
         Dedicated: 10.848
         Shared: 10.848
+      us-west-1:
+        Dedicated: 12
+        Shared: 12
       us-west-2:
         Dedicated: 10.848
         Shared: 10.848
@@ -11824,6 +11840,9 @@ i3en.24xlarge:
       us-east-2:
         Dedicated: 10.978
         Shared: 10.978
+      us-west-1:
+        Dedicated: 12.13
+        Shared: 12.13
       us-west-2:
         Dedicated: 10.978
         Shared: 10.978
@@ -11843,6 +11862,9 @@ i3en.24xlarge:
       us-east-2:
         Dedicated: 10.998
         Shared: 10.998
+      us-west-1:
+        Dedicated: 12.15
+        Shared: 12.15
       us-west-2:
         Dedicated: 10.998
         Shared: 10.998
@@ -11862,6 +11884,9 @@ i3en.24xlarge:
       us-east-2:
         Dedicated: 15.264
         Shared: 15.264
+      us-west-1:
+        Dedicated: 16.416
+        Shared: 16.416
       us-west-2:
         Dedicated: 15.264
         Shared: 15.264
@@ -11869,6 +11894,7 @@ i3en.24xlarge:
     - eu-west-1
     - ap-northeast-1
     - us-east-2
+    - us-west-1
     - us-west-2
     - eu-central-1
     - us-east-1
@@ -11900,6 +11926,9 @@ i3en.2xlarge:
       us-east-2:
         Dedicated: 0.963
         Shared: 0.904
+      us-west-1:
+        Dedicated: 1.065
+        Shared: 1
       us-west-2:
         Dedicated: 0.963
         Shared: 0.904
@@ -11919,6 +11948,9 @@ i3en.2xlarge:
       us-east-2:
         Dedicated: 1.093
         Shared: 1.034
+      us-west-1:
+        Dedicated: 1.195
+        Shared: 1.13
       us-west-2:
         Dedicated: 1.093
         Shared: 1.034
@@ -11938,6 +11970,9 @@ i3en.2xlarge:
       us-east-2:
         Dedicated: 1.113
         Shared: 1.054
+      us-west-1:
+        Dedicated: 1.215
+        Shared: 1.15
       us-west-2:
         Dedicated: 1.113
         Shared: 1.054
@@ -11957,6 +11992,9 @@ i3en.2xlarge:
       us-east-2:
         Dedicated: 1.331
         Shared: 1.272
+      us-west-1:
+        Dedicated: 1.433
+        Shared: 1.368
       us-west-2:
         Dedicated: 1.331
         Shared: 1.272
@@ -11964,6 +12002,7 @@ i3en.2xlarge:
     - eu-west-1
     - us-west-2
     - ap-northeast-1
+    - us-west-1
     - eu-central-1
     - us-east-2
     - us-east-1
@@ -11995,6 +12034,9 @@ i3en.3xlarge:
       us-east-2:
         Dedicated: 1.444
         Shared: 1.356
+      us-west-1:
+        Dedicated: 1.598
+        Shared: 1.5
       us-west-2:
         Dedicated: 1.444
         Shared: 1.356
@@ -12014,6 +12056,9 @@ i3en.3xlarge:
       us-east-2:
         Dedicated: 1.574
         Shared: 1.486
+      us-west-1:
+        Dedicated: 1.728
+        Shared: 1.63
       us-west-2:
         Dedicated: 1.574
         Shared: 1.486
@@ -12033,6 +12078,9 @@ i3en.3xlarge:
       us-east-2:
         Dedicated: 1.594
         Shared: 1.506
+      us-west-1:
+        Dedicated: 1.748
+        Shared: 1.65
       us-west-2:
         Dedicated: 1.594
         Shared: 1.506
@@ -12052,6 +12100,9 @@ i3en.3xlarge:
       us-east-2:
         Dedicated: 1.996
         Shared: 1.908
+      us-west-1:
+        Dedicated: 2.15
+        Shared: 2.052
       us-west-2:
         Dedicated: 1.996
         Shared: 1.908
@@ -12060,6 +12111,7 @@ i3en.3xlarge:
     - us-east-2
     - us-east-1
     - eu-central-1
+    - us-west-1
     - eu-west-1
     - us-west-2
   storage: 1 x 7500 NVMe SSD
@@ -12090,6 +12142,9 @@ i3en.6xlarge:
       us-east-2:
         Dedicated: 2.888
         Shared: 2.712
+      us-west-1:
+        Dedicated: 3.195
+        Shared: 3
       us-west-2:
         Dedicated: 2.888
         Shared: 2.712
@@ -12109,6 +12164,9 @@ i3en.6xlarge:
       us-east-2:
         Dedicated: 3.018
         Shared: 2.842
+      us-west-1:
+        Dedicated: 3.325
+        Shared: 3.13
       us-west-2:
         Dedicated: 3.018
         Shared: 2.842
@@ -12128,6 +12186,9 @@ i3en.6xlarge:
       us-east-2:
         Dedicated: 3.038
         Shared: 2.862
+      us-west-1:
+        Dedicated: 3.345
+        Shared: 3.15
       us-west-2:
         Dedicated: 3.038
         Shared: 2.862
@@ -12147,10 +12208,14 @@ i3en.6xlarge:
       us-east-2:
         Dedicated: 3.992
         Shared: 3.816
+      us-west-1:
+        Dedicated: 4.299
+        Shared: 4.104
       us-west-2:
         Dedicated: 3.992
         Shared: 3.816
   regions:
+    - us-west-1
     - us-west-2
     - us-east-2
     - eu-central-1
@@ -12185,6 +12250,9 @@ i3en.large:
       us-east-2:
         Dedicated: 0.241
         Shared: 0.226
+      us-west-1:
+        Dedicated: 0.266
+        Shared: 0.25
       us-west-2:
         Dedicated: 0.241
         Shared: 0.226
@@ -12204,6 +12272,9 @@ i3en.large:
       us-east-2:
         Dedicated: 0.301
         Shared: 0.286
+      us-west-1:
+        Dedicated: 0.326
+        Shared: 0.31
       us-west-2:
         Dedicated: 0.301
         Shared: 0.286
@@ -12223,6 +12294,9 @@ i3en.large:
       us-east-2:
         Dedicated: 0.304
         Shared: 0.289
+      us-west-1:
+        Dedicated: 0.329
+        Shared: 0.313
       us-west-2:
         Dedicated: 0.304
         Shared: 0.289
@@ -12242,6 +12316,9 @@ i3en.large:
       us-east-2:
         Dedicated: 0.333
         Shared: 0.318
+      us-west-1:
+        Dedicated: 0.358
+        Shared: 0.342
       us-west-2:
         Dedicated: 0.333
         Shared: 0.318
@@ -12250,10 +12327,119 @@ i3en.large:
     - eu-west-1
     - us-east-2
     - us-east-1
+    - us-west-1
     - ap-northeast-1
     - eu-central-1
   storage: 1 x 1250 NVMe SSD
   vcpu: 2
+i3en.metal:
+  clockSpeed: 3.1 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 768 GiB
+  networkPerformance: 100 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: Intel Xeon Platinum 8175
+  prices:
+    Linux:
+      ap-northeast-1:
+        Dedicated: 12.768
+        Shared: 12.768
+      eu-central-1:
+        Dedicated: 12.96
+        Shared: 12.96
+      eu-west-1:
+        Dedicated: 12
+        Shared: 12
+      us-east-1:
+        Dedicated: 10.848
+        Shared: 10.848
+      us-east-2:
+        Dedicated: 10.848
+        Shared: 10.848
+      us-west-1:
+        Dedicated: 12
+        Shared: 12
+      us-west-2:
+        Dedicated: 10.848
+        Shared: 10.848
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 12.898
+        Shared: 12.898
+      eu-central-1:
+        Dedicated: 13.09
+        Shared: 13.09
+      eu-west-1:
+        Dedicated: 12.13
+        Shared: 12.13
+      us-east-1:
+        Dedicated: 10.978
+        Shared: 10.978
+      us-east-2:
+        Dedicated: 10.978
+        Shared: 10.978
+      us-west-1:
+        Dedicated: 12.13
+        Shared: 12.13
+      us-west-2:
+        Dedicated: 10.978
+        Shared: 10.978
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 12.918
+        Shared: 12.918
+      eu-central-1:
+        Dedicated: 13.11
+        Shared: 13.11
+      eu-west-1:
+        Dedicated: 12.15
+        Shared: 12.15
+      us-east-1:
+        Dedicated: 10.998
+        Shared: 10.998
+      us-east-2:
+        Dedicated: 10.998
+        Shared: 10.998
+      us-west-1:
+        Dedicated: 12.15
+        Shared: 12.15
+      us-west-2:
+        Dedicated: 10.998
+        Shared: 10.998
+    Windows:
+      ap-northeast-1:
+        Dedicated: 17.184
+        Shared: 17.184
+      eu-central-1:
+        Dedicated: 17.376
+        Shared: 17.376
+      eu-west-1:
+        Dedicated: 16.416
+        Shared: 16.416
+      us-east-1:
+        Dedicated: 15.264
+        Shared: 15.264
+      us-east-2:
+        Dedicated: 15.264
+        Shared: 15.264
+      us-west-1:
+        Dedicated: 16.416
+        Shared: 16.416
+      us-west-2:
+        Dedicated: 15.264
+        Shared: 15.264
+  regions:
+    - us-west-2
+    - us-east-2
+    - us-west-1
+    - eu-central-1
+    - eu-west-1
+    - ap-northeast-1
+    - us-east-1
+  storage: 8 x 7500 NVMe SSD
+  vcpu: 96
 i3en.xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
@@ -12280,6 +12466,9 @@ i3en.xlarge:
       us-east-2:
         Dedicated: 0.481
         Shared: 0.452
+      us-west-1:
+        Dedicated: 0.533
+        Shared: 0.5
       us-west-2:
         Dedicated: 0.481
         Shared: 0.452
@@ -12299,6 +12488,9 @@ i3en.xlarge:
       us-east-2:
         Dedicated: 0.541
         Shared: 0.512
+      us-west-1:
+        Dedicated: 0.593
+        Shared: 0.56
       us-west-2:
         Dedicated: 0.541
         Shared: 0.512
@@ -12318,6 +12510,9 @@ i3en.xlarge:
       us-east-2:
         Dedicated: 0.606
         Shared: 0.577
+      us-west-1:
+        Dedicated: 0.658
+        Shared: 0.625
       us-west-2:
         Dedicated: 0.606
         Shared: 0.577
@@ -12337,12 +12532,16 @@ i3en.xlarge:
       us-east-2:
         Dedicated: 0.665
         Shared: 0.636
+      us-west-1:
+        Dedicated: 0.717
+        Shared: 0.684
       us-west-2:
         Dedicated: 0.665
         Shared: 0.636
   regions:
     - eu-west-1
     - eu-central-1
+    - us-west-1
     - us-west-2
     - us-east-2
     - us-east-1
