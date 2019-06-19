@@ -2481,6 +2481,154 @@ c4.xlarge:
     - eu-west-3
   storage: EBS only
   vcpu: 4
+c5.12xlarge:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: 7000 Mbps
+  ecu: 188
+  enhancedNetworkingSupported: true
+  memory: 128 GiB
+  networkPerformance: 12 Gigabit
+  normalizationSizeFactor: 96
+  physicalProcessor: Intel Xeon Platinum 8275L
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 2.503
+        Shared: 2.352
+      ap-southeast-2:
+        Dedicated: 2.826
+        Shared: 2.664
+      eu-central-1:
+        Dedicated: 2.481
+        Shared: 2.328
+      eu-north-1:
+        Dedicated: 2.327
+        Shared: 2.184
+      eu-west-1:
+        Dedicated: 2.455
+        Shared: 2.304
+      eu-west-2:
+        Dedicated: 2.583
+        Shared: 2.424
+      eu-west-3:
+        Dedicated: 2.582
+        Shared: 2.424
+      us-east-1:
+        Dedicated: 2.162
+        Shared: 2.04
+      us-gov-west-1:
+        Dedicated: 2.595
+        Shared: 2.448
+      us-west-2:
+        Dedicated: 2.162
+        Shared: 2.04
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 2.633
+        Shared: 2.482
+      ap-southeast-2:
+        Dedicated: 2.956
+        Shared: 2.794
+      eu-central-1:
+        Dedicated: 2.611
+        Shared: 2.458
+      eu-north-1:
+        Dedicated: 2.457
+        Shared: 2.314
+      eu-west-1:
+        Dedicated: 2.585
+        Shared: 2.434
+      eu-west-2:
+        Dedicated: 2.713
+        Shared: 2.554
+      eu-west-3:
+        Dedicated: 2.712
+        Shared: 2.554
+      us-east-1:
+        Dedicated: 2.292
+        Shared: 2.17
+      us-gov-west-1:
+        Dedicated: 2.725
+        Shared: 2.578
+      us-west-2:
+        Dedicated: 2.292
+        Shared: 2.17
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 2.603
+        Shared: 2.452
+      ap-southeast-2:
+        Dedicated: 2.926
+        Shared: 2.764
+      eu-central-1:
+        Dedicated: 2.581
+        Shared: 2.428
+      eu-north-1:
+        Dedicated: 2.427
+        Shared: 2.284
+      eu-west-1:
+        Dedicated: 2.555
+        Shared: 2.404
+      eu-west-2:
+        Dedicated: 2.683
+        Shared: 2.524
+      eu-west-3:
+        Dedicated: 2.682
+        Shared: 2.524
+      us-east-1:
+        Dedicated: 2.262
+        Shared: 2.14
+      us-gov-west-1:
+        Dedicated: 2.695
+        Shared: 2.548
+      us-west-2:
+        Dedicated: 2.262
+        Shared: 2.14
+    Windows:
+      ap-southeast-1:
+        Dedicated: 4.711
+        Shared: 4.56
+      ap-southeast-2:
+        Dedicated: 5.034
+        Shared: 4.872
+      eu-central-1:
+        Dedicated: 4.689
+        Shared: 4.536
+      eu-north-1:
+        Dedicated: 4.535
+        Shared: 4.392
+      eu-west-1:
+        Dedicated: 4.663
+        Shared: 4.512
+      eu-west-2:
+        Dedicated: 4.791
+        Shared: 4.632
+      eu-west-3:
+        Dedicated: 4.79
+        Shared: 4.632
+      us-east-1:
+        Dedicated: 4.37
+        Shared: 4.248
+      us-gov-west-1:
+        Dedicated: 4.803
+        Shared: 4.656
+      us-west-2:
+        Dedicated: 4.37
+        Shared: 4.248
+  regions:
+    - eu-west-2
+    - eu-west-1
+    - ap-southeast-1
+    - us-west-2
+    - eu-north-1
+    - eu-west-3
+    - ap-southeast-2
+    - eu-central-1
+    - us-east-1
+    - us-gov-west-1
+  storage: EBS only
+  vcpu: 48
 c5.18xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
@@ -2759,6 +2907,154 @@ c5.18xlarge:
     - us-gov-west-1
   storage: EBS only
   vcpu: 72
+c5.24xlarge:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  ecu: 375
+  enhancedNetworkingSupported: true
+  memory: 256 GiB
+  networkPerformance: 25 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: Intel Xeon Platinum 8275L
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 5.006
+        Shared: 4.704
+      ap-southeast-2:
+        Dedicated: 5.651
+        Shared: 5.328
+      eu-central-1:
+        Dedicated: 4.962
+        Shared: 4.656
+      eu-north-1:
+        Dedicated: 4.655
+        Shared: 4.368
+      eu-west-1:
+        Dedicated: 4.91
+        Shared: 4.608
+      eu-west-2:
+        Dedicated: 5.166
+        Shared: 4.848
+      eu-west-3:
+        Dedicated: 5.164
+        Shared: 4.848
+      us-east-1:
+        Dedicated: 4.325
+        Shared: 4.08
+      us-gov-west-1:
+        Dedicated: 5.191
+        Shared: 4.896
+      us-west-2:
+        Dedicated: 4.325
+        Shared: 4.08
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 5.136
+        Shared: 4.834
+      ap-southeast-2:
+        Dedicated: 5.781
+        Shared: 5.458
+      eu-central-1:
+        Dedicated: 5.092
+        Shared: 4.786
+      eu-north-1:
+        Dedicated: 4.785
+        Shared: 4.498
+      eu-west-1:
+        Dedicated: 5.04
+        Shared: 4.738
+      eu-west-2:
+        Dedicated: 5.296
+        Shared: 4.978
+      eu-west-3:
+        Dedicated: 5.294
+        Shared: 4.978
+      us-east-1:
+        Dedicated: 4.455
+        Shared: 4.21
+      us-gov-west-1:
+        Dedicated: 5.321
+        Shared: 5.026
+      us-west-2:
+        Dedicated: 4.455
+        Shared: 4.21
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 5.106
+        Shared: 4.804
+      ap-southeast-2:
+        Dedicated: 5.751
+        Shared: 5.428
+      eu-central-1:
+        Dedicated: 5.062
+        Shared: 4.756
+      eu-north-1:
+        Dedicated: 4.755
+        Shared: 4.468
+      eu-west-1:
+        Dedicated: 5.01
+        Shared: 4.708
+      eu-west-2:
+        Dedicated: 5.266
+        Shared: 4.948
+      eu-west-3:
+        Dedicated: 5.264
+        Shared: 4.948
+      us-east-1:
+        Dedicated: 4.425
+        Shared: 4.18
+      us-gov-west-1:
+        Dedicated: 5.291
+        Shared: 4.996
+      us-west-2:
+        Dedicated: 4.425
+        Shared: 4.18
+    Windows:
+      ap-southeast-1:
+        Dedicated: 9.422
+        Shared: 9.12
+      ap-southeast-2:
+        Dedicated: 10.067
+        Shared: 9.744
+      eu-central-1:
+        Dedicated: 9.378
+        Shared: 9.072
+      eu-north-1:
+        Dedicated: 9.071
+        Shared: 8.784
+      eu-west-1:
+        Dedicated: 9.326
+        Shared: 9.024
+      eu-west-2:
+        Dedicated: 9.582
+        Shared: 9.264
+      eu-west-3:
+        Dedicated: 9.58
+        Shared: 9.264
+      us-east-1:
+        Dedicated: 8.741
+        Shared: 8.496
+      us-gov-west-1:
+        Dedicated: 9.607
+        Shared: 9.312
+      us-west-2:
+        Dedicated: 8.741
+        Shared: 8.496
+  regions:
+    - eu-west-1
+    - eu-north-1
+    - us-east-1
+    - ap-southeast-2
+    - us-west-2
+    - eu-central-1
+    - eu-west-3
+    - ap-southeast-1
+    - us-gov-west-1
+    - eu-west-2
+  storage: EBS only
+  vcpu: 96
 c5.2xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
@@ -3871,6 +4167,154 @@ c5.large:
     - ap-southeast-1
   storage: EBS only
   vcpu: 2
+c5.metal:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  ecu: 375
+  enhancedNetworkingSupported: true
+  memory: 256 GiB
+  networkPerformance: 25 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: Intel Xeon Platinum 8275L
+  prices:
+    Linux:
+      ap-southeast-1:
+        Dedicated: 4.704
+        Shared: 4.704
+      ap-southeast-2:
+        Dedicated: 5.328
+        Shared: 5.328
+      eu-central-1:
+        Dedicated: 4.656
+        Shared: 4.656
+      eu-north-1:
+        Dedicated: 4.368
+        Shared: 4.368
+      eu-west-1:
+        Dedicated: 4.608
+        Shared: 4.608
+      eu-west-2:
+        Dedicated: 4.848
+        Shared: 4.848
+      eu-west-3:
+        Dedicated: 4.848
+        Shared: 4.848
+      us-east-1:
+        Dedicated: 4.08
+        Shared: 4.08
+      us-gov-west-1:
+        Dedicated: 4.896
+        Shared: 4.896
+      us-west-2:
+        Dedicated: 4.08
+        Shared: 4.08
+    RHEL:
+      ap-southeast-1:
+        Dedicated: 4.834
+        Shared: 4.834
+      ap-southeast-2:
+        Dedicated: 5.458
+        Shared: 5.458
+      eu-central-1:
+        Dedicated: 4.786
+        Shared: 4.786
+      eu-north-1:
+        Dedicated: 4.498
+        Shared: 4.498
+      eu-west-1:
+        Dedicated: 4.738
+        Shared: 4.738
+      eu-west-2:
+        Dedicated: 4.978
+        Shared: 4.978
+      eu-west-3:
+        Dedicated: 4.978
+        Shared: 4.978
+      us-east-1:
+        Dedicated: 4.21
+        Shared: 4.21
+      us-gov-west-1:
+        Dedicated: 5.026
+        Shared: 5.026
+      us-west-2:
+        Dedicated: 4.21
+        Shared: 4.21
+    SUSE:
+      ap-southeast-1:
+        Dedicated: 4.804
+        Shared: 4.804
+      ap-southeast-2:
+        Dedicated: 5.428
+        Shared: 5.428
+      eu-central-1:
+        Dedicated: 4.756
+        Shared: 4.756
+      eu-north-1:
+        Dedicated: 4.468
+        Shared: 4.468
+      eu-west-1:
+        Dedicated: 4.708
+        Shared: 4.708
+      eu-west-2:
+        Dedicated: 4.948
+        Shared: 4.948
+      eu-west-3:
+        Dedicated: 4.948
+        Shared: 4.948
+      us-east-1:
+        Dedicated: 4.18
+        Shared: 4.18
+      us-gov-west-1:
+        Dedicated: 4.996
+        Shared: 4.996
+      us-west-2:
+        Dedicated: 4.18
+        Shared: 4.18
+    Windows:
+      ap-southeast-1:
+        Dedicated: 9.12
+        Shared: 9.12
+      ap-southeast-2:
+        Dedicated: 9.744
+        Shared: 9.744
+      eu-central-1:
+        Dedicated: 9.072
+        Shared: 9.072
+      eu-north-1:
+        Dedicated: 8.784
+        Shared: 8.784
+      eu-west-1:
+        Dedicated: 9.024
+        Shared: 9.024
+      eu-west-2:
+        Dedicated: 9.264
+        Shared: 9.264
+      eu-west-3:
+        Dedicated: 9.264
+        Shared: 9.264
+      us-east-1:
+        Dedicated: 8.496
+        Shared: 8.496
+      us-gov-west-1:
+        Dedicated: 9.312
+        Shared: 9.312
+      us-west-2:
+        Dedicated: 8.496
+        Shared: 8.496
+  regions:
+    - ap-southeast-1
+    - us-gov-west-1
+    - eu-west-3
+    - eu-west-2
+    - us-west-2
+    - ap-southeast-2
+    - eu-north-1
+    - eu-west-1
+    - us-east-1
+    - eu-central-1
+  storage: EBS only
+  vcpu: 96
 c5.xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
@@ -4149,6 +4593,50 @@ c5.xlarge:
     - ap-northeast-3
   storage: EBS only
   vcpu: 4
+c5d.12xlarge:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: 7000 Mbps
+  ecu: 188
+  enhancedNetworkingSupported: true
+  memory: 128 GiB
+  networkPerformance: 12 Gigabit
+  normalizationSizeFactor: 96
+  physicalProcessor: Intel Xeon Platinum 8275L
+  prices:
+    Linux:
+      eu-north-1:
+        Dedicated: 2.66
+        Shared: 2.496
+      eu-west-3:
+        Dedicated: 2.94
+        Shared: 2.76
+    RHEL:
+      eu-north-1:
+        Dedicated: 2.79
+        Shared: 2.626
+      eu-west-3:
+        Dedicated: 3.07
+        Shared: 2.89
+    SUSE:
+      eu-north-1:
+        Dedicated: 2.76
+        Shared: 2.596
+      eu-west-3:
+        Dedicated: 3.04
+        Shared: 2.86
+    Windows:
+      eu-north-1:
+        Dedicated: 4.868
+        Shared: 4.704
+      eu-west-3:
+        Dedicated: 5.148
+        Shared: 4.968
+  regions:
+    - eu-north-1
+    - eu-west-3
+  storage: 2 x 900 NVMe SSD
+  vcpu: 48
 c5d.18xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
@@ -4414,6 +4902,50 @@ c5d.18xlarge:
     - AWS GovCloud (US-East)
   storage: 2 x 900 NVMe SSD
   vcpu: 72
+c5d.24xlarge:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  ecu: 375
+  enhancedNetworkingSupported: true
+  memory: 256 GiB
+  networkPerformance: 25 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: Intel Xeon Platinum 8275L
+  prices:
+    Linux:
+      eu-north-1:
+        Dedicated: 5.32
+        Shared: 4.992
+      eu-west-3:
+        Dedicated: 5.881
+        Shared: 5.52
+    RHEL:
+      eu-north-1:
+        Dedicated: 5.45
+        Shared: 5.122
+      eu-west-3:
+        Dedicated: 6.011
+        Shared: 5.65
+    SUSE:
+      eu-north-1:
+        Dedicated: 5.42
+        Shared: 5.092
+      eu-west-3:
+        Dedicated: 5.981
+        Shared: 5.62
+    Windows:
+      eu-north-1:
+        Dedicated: 9.736
+        Shared: 9.408
+      eu-west-3:
+        Dedicated: 10.297
+        Shared: 9.936
+  regions:
+    - eu-west-3
+    - eu-north-1
+  storage: 4 x 900 NVMe SSD
+  vcpu: 96
 c5d.2xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
@@ -5474,6 +6006,50 @@ c5d.large:
     - us-gov-west-1
   storage: 1 x 50 NVMe SSD
   vcpu: 2
+c5d.metal:
+  clockSpeed: 3.0 Ghz
+  currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  ecu: 375
+  enhancedNetworkingSupported: true
+  memory: 256 GiB
+  networkPerformance: 25 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: Intel Xeon Platinum 8275L
+  prices:
+    Linux:
+      eu-north-1:
+        Dedicated: 4.992
+        Shared: 4.992
+      eu-west-3:
+        Dedicated: 5.52
+        Shared: 5.52
+    RHEL:
+      eu-north-1:
+        Dedicated: 5.122
+        Shared: 5.122
+      eu-west-3:
+        Dedicated: 5.65
+        Shared: 5.65
+    SUSE:
+      eu-north-1:
+        Dedicated: 5.092
+        Shared: 5.092
+      eu-west-3:
+        Dedicated: 5.62
+        Shared: 5.62
+    Windows:
+      eu-north-1:
+        Dedicated: 9.408
+        Shared: 9.408
+      eu-west-3:
+        Dedicated: 9.936
+        Shared: 9.936
+  regions:
+    - eu-north-1
+    - eu-west-3
+  storage: 4 x 900 NVMe SSD
+  vcpu: 96
 c5d.xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
