@@ -4593,50 +4593,6 @@ c5.xlarge:
     - ap-northeast-3
   storage: EBS only
   vcpu: 4
-c5d.12xlarge:
-  clockSpeed: 3.0 Ghz
-  currentGeneration: true
-  dedicatedEbsThroughput: 7000 Mbps
-  ecu: 188
-  enhancedNetworkingSupported: true
-  memory: 128 GiB
-  networkPerformance: 12 Gigabit
-  normalizationSizeFactor: 96
-  physicalProcessor: Intel Xeon Platinum 8275L
-  prices:
-    Linux:
-      eu-north-1:
-        Dedicated: 2.66
-        Shared: 2.496
-      eu-west-3:
-        Dedicated: 2.94
-        Shared: 2.76
-    RHEL:
-      eu-north-1:
-        Dedicated: 2.79
-        Shared: 2.626
-      eu-west-3:
-        Dedicated: 3.07
-        Shared: 2.89
-    SUSE:
-      eu-north-1:
-        Dedicated: 2.76
-        Shared: 2.596
-      eu-west-3:
-        Dedicated: 3.04
-        Shared: 2.86
-    Windows:
-      eu-north-1:
-        Dedicated: 4.868
-        Shared: 4.704
-      eu-west-3:
-        Dedicated: 5.148
-        Shared: 4.968
-  regions:
-    - eu-north-1
-    - eu-west-3
-  storage: 2 x 900 NVMe SSD
-  vcpu: 48
 c5d.18xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
@@ -4902,50 +4858,6 @@ c5d.18xlarge:
     - AWS GovCloud (US-East)
   storage: 2 x 900 NVMe SSD
   vcpu: 72
-c5d.24xlarge:
-  clockSpeed: 3.0 Ghz
-  currentGeneration: true
-  dedicatedEbsThroughput: 14000 Mbps
-  ecu: 375
-  enhancedNetworkingSupported: true
-  memory: 256 GiB
-  networkPerformance: 25 Gigabit
-  normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8275L
-  prices:
-    Linux:
-      eu-north-1:
-        Dedicated: 5.32
-        Shared: 4.992
-      eu-west-3:
-        Dedicated: 5.881
-        Shared: 5.52
-    RHEL:
-      eu-north-1:
-        Dedicated: 5.45
-        Shared: 5.122
-      eu-west-3:
-        Dedicated: 6.011
-        Shared: 5.65
-    SUSE:
-      eu-north-1:
-        Dedicated: 5.42
-        Shared: 5.092
-      eu-west-3:
-        Dedicated: 5.981
-        Shared: 5.62
-    Windows:
-      eu-north-1:
-        Dedicated: 9.736
-        Shared: 9.408
-      eu-west-3:
-        Dedicated: 10.297
-        Shared: 9.936
-  regions:
-    - eu-west-3
-    - eu-north-1
-  storage: 4 x 900 NVMe SSD
-  vcpu: 96
 c5d.2xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
@@ -6006,50 +5918,6 @@ c5d.large:
     - us-gov-west-1
   storage: 1 x 50 NVMe SSD
   vcpu: 2
-c5d.metal:
-  clockSpeed: 3.0 Ghz
-  currentGeneration: true
-  dedicatedEbsThroughput: 14000 Mbps
-  ecu: 375
-  enhancedNetworkingSupported: true
-  memory: 256 GiB
-  networkPerformance: 25 Gigabit
-  normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8275L
-  prices:
-    Linux:
-      eu-north-1:
-        Dedicated: 4.992
-        Shared: 4.992
-      eu-west-3:
-        Dedicated: 5.52
-        Shared: 5.52
-    RHEL:
-      eu-north-1:
-        Dedicated: 5.122
-        Shared: 5.122
-      eu-west-3:
-        Dedicated: 5.65
-        Shared: 5.65
-    SUSE:
-      eu-north-1:
-        Dedicated: 5.092
-        Shared: 5.092
-      eu-west-3:
-        Dedicated: 5.62
-        Shared: 5.62
-    Windows:
-      eu-north-1:
-        Dedicated: 9.408
-        Shared: 9.408
-      eu-west-3:
-        Dedicated: 9.936
-        Shared: 9.936
-  regions:
-    - eu-north-1
-    - eu-west-3
-  storage: 4 x 900 NVMe SSD
-  vcpu: 96
 c5d.xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
