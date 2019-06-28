@@ -19012,6 +19012,127 @@ m5a.4xlarge:
     - eu-west-1
   storage: EBS only
   vcpu: 16
+m5a.8xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 3500 Mbps
+  enhancedNetworkingSupported: true
+  memory: 128 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 64
+  physicalProcessor: AMD EPYC 7571
+  prices:
+    Linux:
+      ap-northeast-1:
+        Dedicated: 1.911
+        Shared: 1.792
+      ap-southeast-1:
+        Dedicated: 1.835
+        Shared: 1.728
+      ap-southeast-2:
+        Dedicated: 1.842
+        Shared: 1.728
+      eu-central-1:
+        Dedicated: 1.777
+        Shared: 1.664
+      eu-west-1:
+        Dedicated: 1.639
+        Shared: 1.536
+      us-east-1:
+        Dedicated: 1.459
+        Shared: 1.376
+      us-east-2:
+        Dedicated: 1.459
+        Shared: 1.376
+      us-west-2:
+        Dedicated: 1.459
+        Shared: 1.376
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 2.041
+        Shared: 1.922
+      ap-southeast-1:
+        Dedicated: 1.965
+        Shared: 1.858
+      ap-southeast-2:
+        Dedicated: 1.972
+        Shared: 1.858
+      eu-central-1:
+        Dedicated: 1.907
+        Shared: 1.794
+      eu-west-1:
+        Dedicated: 1.769
+        Shared: 1.666
+      us-east-1:
+        Dedicated: 1.589
+        Shared: 1.506
+      us-east-2:
+        Dedicated: 1.589
+        Shared: 1.506
+      us-west-2:
+        Dedicated: 1.589
+        Shared: 1.506
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 2.061
+        Shared: 1.942
+      ap-southeast-1:
+        Dedicated: 1.985
+        Shared: 1.878
+      ap-southeast-2:
+        Dedicated: 1.992
+        Shared: 1.878
+      eu-central-1:
+        Dedicated: 1.927
+        Shared: 1.814
+      eu-west-1:
+        Dedicated: 1.789
+        Shared: 1.686
+      us-east-1:
+        Dedicated: 1.609
+        Shared: 1.526
+      us-east-2:
+        Dedicated: 1.609
+        Shared: 1.526
+      us-west-2:
+        Dedicated: 1.609
+        Shared: 1.526
+    Windows:
+      ap-northeast-1:
+        Dedicated: 3.383
+        Shared: 3.264
+      ap-southeast-1:
+        Dedicated: 3.307
+        Shared: 3.2
+      ap-southeast-2:
+        Dedicated: 3.314
+        Shared: 3.2
+      eu-central-1:
+        Dedicated: 3.249
+        Shared: 3.136
+      eu-west-1:
+        Dedicated: 3.111
+        Shared: 3.008
+      us-east-1:
+        Dedicated: 2.931
+        Shared: 2.848
+      us-east-2:
+        Dedicated: 2.931
+        Shared: 2.848
+      us-west-2:
+        Dedicated: 2.931
+        Shared: 2.848
+  regions:
+    - ap-southeast-1
+    - eu-west-1
+    - ap-northeast-1
+    - us-west-2
+    - ap-southeast-2
+    - eu-central-1
+    - us-east-2
+    - us-east-1
+  storage: EBS only
+  vcpu: 32
 m5a.large:
   clockSpeed: 2.5 GHz
   currentGeneration: true
@@ -19254,127 +19375,6 @@ m5a.xlarge:
     - eu-central-1
   storage: EBS only
   vcpu: 4
-M5a.8xlarge:
-  clockSpeed: 2.5 GHz
-  currentGeneration: true
-  dedicatedEbsThroughput: 3500 Mbps
-  enhancedNetworkingSupported: true
-  memory: 128 GiB
-  networkPerformance: Up to 10 Gigabit
-  normalizationSizeFactor: 64
-  physicalProcessor: AMD EPYC 7571
-  prices:
-    Linux:
-      ap-northeast-1:
-        Dedicated: 1.911
-        Shared: 1.792
-      ap-southeast-1:
-        Dedicated: 1.835
-        Shared: 1.728
-      ap-southeast-2:
-        Dedicated: 1.842
-        Shared: 1.728
-      eu-central-1:
-        Dedicated: 1.777
-        Shared: 1.664
-      eu-west-1:
-        Dedicated: 1.639
-        Shared: 1.536
-      us-east-1:
-        Dedicated: 1.459
-        Shared: 1.376
-      us-east-2:
-        Dedicated: 1.459
-        Shared: 1.376
-      us-west-2:
-        Dedicated: 1.459
-        Shared: 1.376
-    RHEL:
-      ap-northeast-1:
-        Dedicated: 2.041
-        Shared: 1.922
-      ap-southeast-1:
-        Dedicated: 1.965
-        Shared: 1.858
-      ap-southeast-2:
-        Dedicated: 1.972
-        Shared: 1.858
-      eu-central-1:
-        Dedicated: 1.907
-        Shared: 1.794
-      eu-west-1:
-        Dedicated: 1.769
-        Shared: 1.666
-      us-east-1:
-        Dedicated: 1.589
-        Shared: 1.506
-      us-east-2:
-        Dedicated: 1.589
-        Shared: 1.506
-      us-west-2:
-        Dedicated: 1.589
-        Shared: 1.506
-    SUSE:
-      ap-northeast-1:
-        Dedicated: 2.061
-        Shared: 1.942
-      ap-southeast-1:
-        Dedicated: 1.985
-        Shared: 1.878
-      ap-southeast-2:
-        Dedicated: 1.992
-        Shared: 1.878
-      eu-central-1:
-        Dedicated: 1.927
-        Shared: 1.814
-      eu-west-1:
-        Dedicated: 1.789
-        Shared: 1.686
-      us-east-1:
-        Dedicated: 1.609
-        Shared: 1.526
-      us-east-2:
-        Dedicated: 1.609
-        Shared: 1.526
-      us-west-2:
-        Dedicated: 1.609
-        Shared: 1.526
-    Windows:
-      ap-northeast-1:
-        Dedicated: 3.383
-        Shared: 3.264
-      ap-southeast-1:
-        Dedicated: 3.307
-        Shared: 3.2
-      ap-southeast-2:
-        Dedicated: 3.314
-        Shared: 3.2
-      eu-central-1:
-        Dedicated: 3.249
-        Shared: 3.136
-      eu-west-1:
-        Dedicated: 3.111
-        Shared: 3.008
-      us-east-1:
-        Dedicated: 2.931
-        Shared: 2.848
-      us-east-2:
-        Dedicated: 2.931
-        Shared: 2.848
-      us-west-2:
-        Dedicated: 2.931
-        Shared: 2.848
-  regions:
-    - ap-southeast-1
-    - eu-west-1
-    - ap-northeast-1
-    - us-west-2
-    - ap-southeast-2
-    - eu-central-1
-    - us-east-2
-    - us-east-1
-  storage: EBS only
-  vcpu: 32
 m5ad.12xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
