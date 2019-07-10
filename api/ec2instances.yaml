@@ -12142,6 +12142,9 @@ i3en.12xlarge:
       ap-northeast-1:
         Dedicated: 6.799
         Shared: 6.384
+      ap-northeast-2:
+        Dedicated: 6.799
+        Shared: 6.384
       eu-central-1:
         Dedicated: 6.901
         Shared: 6.48
@@ -12162,6 +12165,9 @@ i3en.12xlarge:
         Shared: 5.424
     RHEL:
       ap-northeast-1:
+        Dedicated: 6.929
+        Shared: 6.514
+      ap-northeast-2:
         Dedicated: 6.929
         Shared: 6.514
       eu-central-1:
@@ -12186,6 +12192,9 @@ i3en.12xlarge:
       ap-northeast-1:
         Dedicated: 6.949
         Shared: 6.534
+      ap-northeast-2:
+        Dedicated: 6.949
+        Shared: 6.534
       eu-central-1:
         Dedicated: 7.051
         Shared: 6.63
@@ -12208,6 +12217,9 @@ i3en.12xlarge:
       ap-northeast-1:
         Dedicated: 9.007
         Shared: 8.592
+      ap-northeast-2:
+        Dedicated: 9.007
+        Shared: 8.592
       eu-central-1:
         Dedicated: 9.109
         Shared: 8.688
@@ -12227,6 +12239,7 @@ i3en.12xlarge:
         Dedicated: 7.984
         Shared: 7.632
   regions:
+    - ap-northeast-2
     - ap-northeast-1
     - eu-west-1
     - us-east-1
@@ -12248,6 +12261,9 @@ i3en.24xlarge:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 12.768
+        Shared: 12.768
+      ap-northeast-2:
         Dedicated: 12.768
         Shared: 12.768
       eu-central-1:
@@ -12272,6 +12288,9 @@ i3en.24xlarge:
       ap-northeast-1:
         Dedicated: 12.898
         Shared: 12.898
+      ap-northeast-2:
+        Dedicated: 12.898
+        Shared: 12.898
       eu-central-1:
         Dedicated: 13.09
         Shared: 13.09
@@ -12294,6 +12313,9 @@ i3en.24xlarge:
       ap-northeast-1:
         Dedicated: 12.918
         Shared: 12.918
+      ap-northeast-2:
+        Dedicated: 12.918
+        Shared: 12.918
       eu-central-1:
         Dedicated: 13.11
         Shared: 13.11
@@ -12314,6 +12336,9 @@ i3en.24xlarge:
         Shared: 10.998
     Windows:
       ap-northeast-1:
+        Dedicated: 17.184
+        Shared: 17.184
+      ap-northeast-2:
         Dedicated: 17.184
         Shared: 17.184
       eu-central-1:
@@ -12341,6 +12366,7 @@ i3en.24xlarge:
     - us-west-1
     - us-west-2
     - eu-central-1
+    - ap-northeast-2
     - us-east-1
   storage: 8 x 7500 NVMe SSD
   vcpu: 96
@@ -12356,6 +12382,9 @@ i3en.2xlarge:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 1.133
+        Shared: 1.064
+      ap-northeast-2:
         Dedicated: 1.133
         Shared: 1.064
       eu-central-1:
@@ -12380,6 +12409,9 @@ i3en.2xlarge:
       ap-northeast-1:
         Dedicated: 1.263
         Shared: 1.194
+      ap-northeast-2:
+        Dedicated: 1.263
+        Shared: 1.194
       eu-central-1:
         Dedicated: 1.28
         Shared: 1.21
@@ -12400,6 +12432,9 @@ i3en.2xlarge:
         Shared: 1.034
     SUSE:
       ap-northeast-1:
+        Dedicated: 1.283
+        Shared: 1.214
+      ap-northeast-2:
         Dedicated: 1.283
         Shared: 1.214
       eu-central-1:
@@ -12424,6 +12459,9 @@ i3en.2xlarge:
       ap-northeast-1:
         Dedicated: 1.501
         Shared: 1.432
+      ap-northeast-2:
+        Dedicated: 1.501
+        Shared: 1.432
       eu-central-1:
         Dedicated: 1.518
         Shared: 1.448
@@ -12445,6 +12483,7 @@ i3en.2xlarge:
   regions:
     - eu-west-1
     - us-west-2
+    - ap-northeast-2
     - ap-northeast-1
     - us-west-1
     - eu-central-1
@@ -12464,6 +12503,9 @@ i3en.3xlarge:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 1.7
+        Shared: 1.596
+      ap-northeast-2:
         Dedicated: 1.7
         Shared: 1.596
       eu-central-1:
@@ -12488,6 +12530,9 @@ i3en.3xlarge:
       ap-northeast-1:
         Dedicated: 1.83
         Shared: 1.726
+      ap-northeast-2:
+        Dedicated: 1.83
+        Shared: 1.726
       eu-central-1:
         Dedicated: 1.855
         Shared: 1.75
@@ -12510,6 +12555,9 @@ i3en.3xlarge:
       ap-northeast-1:
         Dedicated: 1.85
         Shared: 1.746
+      ap-northeast-2:
+        Dedicated: 1.85
+        Shared: 1.746
       eu-central-1:
         Dedicated: 1.875
         Shared: 1.77
@@ -12530,6 +12578,9 @@ i3en.3xlarge:
         Shared: 1.506
     Windows:
       ap-northeast-1:
+        Dedicated: 2.252
+        Shared: 2.148
+      ap-northeast-2:
         Dedicated: 2.252
         Shared: 2.148
       eu-central-1:
@@ -12557,6 +12608,7 @@ i3en.3xlarge:
     - eu-central-1
     - us-west-1
     - eu-west-1
+    - ap-northeast-2
     - us-west-2
   storage: 1 x 7500 NVMe SSD
   vcpu: 12
@@ -12572,6 +12624,9 @@ i3en.6xlarge:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 3.4
+        Shared: 3.192
+      ap-northeast-2:
         Dedicated: 3.4
         Shared: 3.192
       eu-central-1:
@@ -12596,6 +12651,9 @@ i3en.6xlarge:
       ap-northeast-1:
         Dedicated: 3.53
         Shared: 3.322
+      ap-northeast-2:
+        Dedicated: 3.53
+        Shared: 3.322
       eu-central-1:
         Dedicated: 3.581
         Shared: 3.37
@@ -12616,6 +12674,9 @@ i3en.6xlarge:
         Shared: 2.842
     SUSE:
       ap-northeast-1:
+        Dedicated: 3.55
+        Shared: 3.342
+      ap-northeast-2:
         Dedicated: 3.55
         Shared: 3.342
       eu-central-1:
@@ -12640,6 +12701,9 @@ i3en.6xlarge:
       ap-northeast-1:
         Dedicated: 4.504
         Shared: 4.296
+      ap-northeast-2:
+        Dedicated: 4.504
+        Shared: 4.296
       eu-central-1:
         Dedicated: 4.555
         Shared: 4.344
@@ -12662,6 +12726,7 @@ i3en.6xlarge:
     - us-west-1
     - us-west-2
     - us-east-2
+    - ap-northeast-2
     - eu-central-1
     - eu-west-1
     - us-east-1
@@ -12680,6 +12745,9 @@ i3en.large:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 0.283
+        Shared: 0.266
+      ap-northeast-2:
         Dedicated: 0.283
         Shared: 0.266
       eu-central-1:
@@ -12704,6 +12772,9 @@ i3en.large:
       ap-northeast-1:
         Dedicated: 0.343
         Shared: 0.326
+      ap-northeast-2:
+        Dedicated: 0.343
+        Shared: 0.326
       eu-central-1:
         Dedicated: 0.348
         Shared: 0.33
@@ -12726,6 +12797,9 @@ i3en.large:
       ap-northeast-1:
         Dedicated: 0.346
         Shared: 0.329
+      ap-northeast-2:
+        Dedicated: 0.346
+        Shared: 0.329
       eu-central-1:
         Dedicated: 0.351
         Shared: 0.333
@@ -12746,6 +12820,9 @@ i3en.large:
         Shared: 0.289
     Windows:
       ap-northeast-1:
+        Dedicated: 0.375
+        Shared: 0.358
+      ap-northeast-2:
         Dedicated: 0.375
         Shared: 0.358
       eu-central-1:
@@ -12773,117 +12850,10 @@ i3en.large:
     - us-east-1
     - us-west-1
     - ap-northeast-1
+    - ap-northeast-2
     - eu-central-1
   storage: 1 x 1250 NVMe SSD
   vcpu: 2
-i3en.metal:
-  clockSpeed: 3.1 GHz
-  currentGeneration: true
-  dedicatedEbsThroughput: 14000 Mbps
-  enhancedNetworkingSupported: true
-  memory: 768 GiB
-  networkPerformance: 100 Gigabit
-  normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
-  prices:
-    Linux:
-      ap-northeast-1:
-        Dedicated: 12.768
-        Shared: 12.768
-      eu-central-1:
-        Dedicated: 12.96
-        Shared: 12.96
-      eu-west-1:
-        Dedicated: 12
-        Shared: 12
-      us-east-1:
-        Dedicated: 10.848
-        Shared: 10.848
-      us-east-2:
-        Dedicated: 10.848
-        Shared: 10.848
-      us-west-1:
-        Dedicated: 12
-        Shared: 12
-      us-west-2:
-        Dedicated: 10.848
-        Shared: 10.848
-    RHEL:
-      ap-northeast-1:
-        Dedicated: 12.898
-        Shared: 12.898
-      eu-central-1:
-        Dedicated: 13.09
-        Shared: 13.09
-      eu-west-1:
-        Dedicated: 12.13
-        Shared: 12.13
-      us-east-1:
-        Dedicated: 10.978
-        Shared: 10.978
-      us-east-2:
-        Dedicated: 10.978
-        Shared: 10.978
-      us-west-1:
-        Dedicated: 12.13
-        Shared: 12.13
-      us-west-2:
-        Dedicated: 10.978
-        Shared: 10.978
-    SUSE:
-      ap-northeast-1:
-        Dedicated: 12.918
-        Shared: 12.918
-      eu-central-1:
-        Dedicated: 13.11
-        Shared: 13.11
-      eu-west-1:
-        Dedicated: 12.15
-        Shared: 12.15
-      us-east-1:
-        Dedicated: 10.998
-        Shared: 10.998
-      us-east-2:
-        Dedicated: 10.998
-        Shared: 10.998
-      us-west-1:
-        Dedicated: 12.15
-        Shared: 12.15
-      us-west-2:
-        Dedicated: 10.998
-        Shared: 10.998
-    Windows:
-      ap-northeast-1:
-        Dedicated: 17.184
-        Shared: 17.184
-      eu-central-1:
-        Dedicated: 17.376
-        Shared: 17.376
-      eu-west-1:
-        Dedicated: 16.416
-        Shared: 16.416
-      us-east-1:
-        Dedicated: 15.264
-        Shared: 15.264
-      us-east-2:
-        Dedicated: 15.264
-        Shared: 15.264
-      us-west-1:
-        Dedicated: 16.416
-        Shared: 16.416
-      us-west-2:
-        Dedicated: 15.264
-        Shared: 15.264
-  regions:
-    - us-west-2
-    - us-east-2
-    - us-west-1
-    - eu-central-1
-    - eu-west-1
-    - ap-northeast-1
-    - us-east-1
-  storage: 8 x 7500 NVMe SSD
-  vcpu: 96
 i3en.xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
@@ -12896,6 +12866,9 @@ i3en.xlarge:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 0.567
+        Shared: 0.532
+      ap-northeast-2:
         Dedicated: 0.567
         Shared: 0.532
       eu-central-1:
@@ -12920,6 +12893,9 @@ i3en.xlarge:
       ap-northeast-1:
         Dedicated: 0.627
         Shared: 0.592
+      ap-northeast-2:
+        Dedicated: 0.627
+        Shared: 0.592
       eu-central-1:
         Dedicated: 0.635
         Shared: 0.6
@@ -12942,6 +12918,9 @@ i3en.xlarge:
       ap-northeast-1:
         Dedicated: 0.692
         Shared: 0.657
+      ap-northeast-2:
+        Dedicated: 0.692
+        Shared: 0.657
       eu-central-1:
         Dedicated: 0.7
         Shared: 0.665
@@ -12962,6 +12941,9 @@ i3en.xlarge:
         Shared: 0.577
     Windows:
       ap-northeast-1:
+        Dedicated: 0.751
+        Shared: 0.716
+      ap-northeast-2:
         Dedicated: 0.751
         Shared: 0.716
       eu-central-1:
@@ -12987,6 +12969,7 @@ i3en.xlarge:
     - eu-central-1
     - us-west-1
     - us-west-2
+    - ap-northeast-2
     - us-east-2
     - us-east-1
     - ap-northeast-1
