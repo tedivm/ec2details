@@ -26,6 +26,7 @@ const regionMap = {
   'EU (Paris)': 'eu-west-3',
   'EU (Stockholm)': 'eu-north-1',
   'South America (Sao Paulo)': 'sa-east-1',
+  'Middle East (Bahrain)': 'me-south-1',
 
   // No pricing currently available.
   'China (Beijing)': 'cn-north-1',
