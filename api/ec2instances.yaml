@@ -2514,7 +2514,7 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 2.582
         Shared: 2.424
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.701
         Shared: 2.534
       us-east-1:
@@ -2548,7 +2548,7 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 2.712
         Shared: 2.554
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.831
         Shared: 2.664
       us-east-1:
@@ -2582,7 +2582,7 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 2.682
         Shared: 2.524
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.801
         Shared: 2.634
       us-east-1:
@@ -2616,7 +2616,7 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 4.79
         Shared: 4.632
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.909
         Shared: 4.742
       us-east-1:
@@ -2634,7 +2634,7 @@ c5.12xlarge:
     - ap-southeast-1
     - us-west-2
     - eu-north-1
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-west-3
     - ap-southeast-2
     - eu-central-1
@@ -2696,7 +2696,7 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.636
         Shared: 3.636
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.802
         Shared: 3.802
       sa-east-1:
@@ -2760,7 +2760,7 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.766
         Shared: 3.766
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.932
         Shared: 3.932
       sa-east-1:
@@ -2824,7 +2824,7 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.736
         Shared: 3.736
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.902
         Shared: 3.902
       sa-east-1:
@@ -2888,7 +2888,7 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.636
         Shared: 6.948
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 7.114
         Shared: 7.114
       sa-east-1:
@@ -2925,7 +2925,7 @@ c5.18xlarge:
     - eu-central-1
     - us-east-1
     - ap-south-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-east-1
     - ap-northeast-1
     - sa-east-1
@@ -2966,7 +2966,7 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 5.164
         Shared: 4.848
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.401
         Shared: 5.069
       us-east-1:
@@ -3000,7 +3000,7 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 5.294
         Shared: 4.978
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.531
         Shared: 5.199
       us-east-1:
@@ -3034,7 +3034,7 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 5.264
         Shared: 4.948
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.501
         Shared: 5.169
       us-east-1:
@@ -3068,7 +3068,7 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 9.58
         Shared: 9.264
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 9.817
         Shared: 9.485
       us-east-1:
@@ -3081,7 +3081,7 @@ c5.24xlarge:
         Dedicated: 8.741
         Shared: 8.496
   regions:
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-west-1
     - eu-north-1
     - us-east-1
@@ -3148,7 +3148,7 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.43
         Shared: 0.404
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.45
         Shared: 0.422
       sa-east-1:
@@ -3212,7 +3212,7 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.56
         Shared: 0.534
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.58
         Shared: 0.552
       sa-east-1:
@@ -3276,7 +3276,7 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.53
         Shared: 0.504
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.55
         Shared: 0.522
       sa-east-1:
@@ -3340,7 +3340,7 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.43
         Shared: 0.772
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.818
         Shared: 0.79
       sa-east-1:
@@ -3371,7 +3371,7 @@ c5.2xlarge:
     - us-east-1
     - eu-central-1
     - ap-south-1
-    - Middle East (Bahrain)
+    - me-south-1
     - us-east-2
     - sa-east-1
     - eu-west-2
@@ -3439,7 +3439,7 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 0.861
         Shared: 0.808
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.9
         Shared: 0.845
       sa-east-1:
@@ -3503,7 +3503,7 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 0.991
         Shared: 0.938
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.03
         Shared: 0.975
       sa-east-1:
@@ -3567,7 +3567,7 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 0.961
         Shared: 0.908
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1
         Shared: 0.945
       sa-east-1:
@@ -3631,7 +3631,7 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 1.597
         Shared: 1.544
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.636
         Shared: 1.581
       sa-east-1:
@@ -3664,7 +3664,7 @@ c5.4xlarge:
     - ap-northeast-1
     - ca-central-1
     - ap-south-1
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-north-1
     - us-west-1
     - eu-west-2
@@ -3730,7 +3730,7 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 1.937
         Shared: 1.818
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.025
         Shared: 1.901
       sa-east-1:
@@ -3794,7 +3794,7 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 2.067
         Shared: 1.948
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.155
         Shared: 2.031
       sa-east-1:
@@ -3858,7 +3858,7 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 2.037
         Shared: 1.918
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.125
         Shared: 2.001
       sa-east-1:
@@ -3922,7 +3922,7 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 1.937
         Shared: 1.818
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.681
         Shared: 3.557
       sa-east-1:
@@ -3952,7 +3952,7 @@ c5.9xlarge:
     - us-east-2
     - ap-northeast-3
     - ap-southeast-1
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-west-1
     - eu-north-1
     - us-west-2
@@ -4021,7 +4021,7 @@ c5.large:
       eu-west-3:
         Dedicated: 0.108
         Shared: 0.101
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.113
         Shared: 0.106
       sa-east-1:
@@ -4085,7 +4085,7 @@ c5.large:
       eu-west-3:
         Dedicated: 0.168
         Shared: 0.161
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.173
         Shared: 0.166
       sa-east-1:
@@ -4149,7 +4149,7 @@ c5.large:
       eu-west-3:
         Dedicated: 0.208
         Shared: 0.201
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.213
         Shared: 0.206
       sa-east-1:
@@ -4213,7 +4213,7 @@ c5.large:
       eu-west-3:
         Dedicated: 0.2
         Shared: 0.193
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.205
         Shared: 0.198
       sa-east-1:
@@ -4236,7 +4236,7 @@ c5.large:
         Shared: 0.177
   regions:
     - eu-west-3
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-southeast-2
     - us-east-2
     - ca-central-1
@@ -4291,7 +4291,7 @@ c5.metal:
       eu-west-3:
         Dedicated: 4.848
         Shared: 4.848
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.069
         Shared: 5.069
       us-east-1:
@@ -4325,7 +4325,7 @@ c5.metal:
       eu-west-3:
         Dedicated: 4.978
         Shared: 4.978
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.199
         Shared: 5.199
       us-east-1:
@@ -4359,7 +4359,7 @@ c5.metal:
       eu-west-3:
         Dedicated: 4.948
         Shared: 4.948
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.169
         Shared: 5.169
       us-east-1:
@@ -4393,7 +4393,7 @@ c5.metal:
       eu-west-3:
         Dedicated: 9.264
         Shared: 9.264
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 9.485
         Shared: 9.485
       us-east-1:
@@ -4413,7 +4413,7 @@ c5.metal:
     - us-west-2
     - ap-southeast-2
     - eu-north-1
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-west-1
     - us-east-1
     - eu-central-1
@@ -4473,7 +4473,7 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.215
         Shared: 0.202
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.225
         Shared: 0.211
       sa-east-1:
@@ -4537,7 +4537,7 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.275
         Shared: 0.262
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.285
         Shared: 0.271
       sa-east-1:
@@ -4601,7 +4601,7 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.315
         Shared: 0.302
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.325
         Shared: 0.311
       sa-east-1:
@@ -4665,7 +4665,7 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.399
         Shared: 0.386
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.409
         Shared: 0.395
       sa-east-1:
@@ -4705,7 +4705,7 @@ c5.xlarge:
     - eu-west-1
     - ap-east-1
     - ap-south-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-2
     - ap-northeast-3
   storage: EBS only
@@ -4722,23 +4722,23 @@ c5d.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.067
         Shared: 2.878
     RHEL:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.197
         Shared: 3.008
     SUSE:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.167
         Shared: 2.978
     Windows:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.275
         Shared: 5.086
   regions:
-    - Middle East (Bahrain)
+    - me-south-1
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 c5d.18xlarge:
@@ -4795,7 +4795,7 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 4.14
         Shared: 4.14
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.316
         Shared: 4.316
       us-east-1:
@@ -4856,7 +4856,7 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 4.27
         Shared: 4.27
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.446
         Shared: 4.446
       us-east-1:
@@ -4917,7 +4917,7 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 4.24
         Shared: 4.24
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.416
         Shared: 4.416
       us-east-1:
@@ -4978,7 +4978,7 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 7.452
         Shared: 7.452
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 7.628
         Shared: 7.628
       us-east-1:
@@ -5012,7 +5012,7 @@ c5d.18xlarge:
     - ap-northeast-2
     - ca-central-1
     - eu-west-1
-    - Middle East (Bahrain)
+    - me-south-1
     - us-east-2
     - ap-northeast-1
     - eu-west-3
@@ -5031,23 +5031,23 @@ c5d.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.133
         Shared: 5.755
     RHEL:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.263
         Shared: 5.885
     SUSE:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.233
         Shared: 5.855
     Windows:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 10.549
         Shared: 10.171
   regions:
-    - Middle East (Bahrain)
+    - me-south-1
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 c5d.2xlarge:
@@ -5104,7 +5104,7 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.49
         Shared: 0.46
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.511
         Shared: 0.48
       us-east-1:
@@ -5165,7 +5165,7 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.62
         Shared: 0.59
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.641
         Shared: 0.61
       us-east-1:
@@ -5226,7 +5226,7 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.59
         Shared: 0.56
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.611
         Shared: 0.58
       us-east-1:
@@ -5287,7 +5287,7 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.858
         Shared: 0.828
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.879
         Shared: 0.848
       us-east-1:
@@ -5313,7 +5313,7 @@ c5d.2xlarge:
     - eu-west-3
     - ap-northeast-3
     - eu-central-1
-    - Middle East (Bahrain)
+    - me-south-1
     - us-east-2
     - us-west-2
     - ap-south-1
@@ -5382,7 +5382,7 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 0.98
         Shared: 0.92
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.022
         Shared: 0.959
       us-east-1:
@@ -5443,7 +5443,7 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 1.11
         Shared: 1.05
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.152
         Shared: 1.089
       us-east-1:
@@ -5504,7 +5504,7 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 1.08
         Shared: 1.02
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.122
         Shared: 1.059
       us-east-1:
@@ -5565,7 +5565,7 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 1.716
         Shared: 1.656
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.758
         Shared: 1.695
       us-east-1:
@@ -5589,7 +5589,7 @@ c5d.4xlarge:
     - eu-north-1
     - ca-central-1
     - ap-southeast-2
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-southeast-1
     - eu-central-1
     - ap-northeast-2
@@ -5660,7 +5660,7 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 2.205
         Shared: 2.07
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.3
         Shared: 2.158
       us-east-1:
@@ -5721,7 +5721,7 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 2.335
         Shared: 2.2
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.43
         Shared: 2.288
       us-east-1:
@@ -5782,7 +5782,7 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 2.305
         Shared: 2.17
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.4
         Shared: 2.258
       us-east-1:
@@ -5843,7 +5843,7 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 3.861
         Shared: 3.726
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.956
         Shared: 3.814
       us-east-1:
@@ -5877,7 +5877,7 @@ c5d.9xlarge:
     - eu-central-1
     - ca-central-1
     - ap-southeast-2
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-north-1
     - ap-northeast-2
     - us-west-2
@@ -5938,7 +5938,7 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.123
         Shared: 0.115
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.128
         Shared: 0.12
       us-east-1:
@@ -5999,7 +5999,7 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.183
         Shared: 0.175
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.188
         Shared: 0.18
       us-east-1:
@@ -6060,7 +6060,7 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.223
         Shared: 0.215
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.228
         Shared: 0.22
       us-east-1:
@@ -6121,7 +6121,7 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.215
         Shared: 0.207
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.22
         Shared: 0.212
       us-east-1:
@@ -6140,7 +6140,7 @@ c5d.large:
         Dedicated: 0.102
         Shared: 0.188
   regions:
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-southeast-1
     - eu-west-2
     - eu-central-1
@@ -6174,23 +6174,23 @@ c5d.metal:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.755
         Shared: 5.755
     RHEL:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.885
         Shared: 5.885
     SUSE:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.855
         Shared: 5.855
     Windows:
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 10.171
         Shared: 10.171
   regions:
-    - Middle East (Bahrain)
+    - me-south-1
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 c5d.xlarge:
@@ -6247,7 +6247,7 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.245
         Shared: 0.23
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.256
         Shared: 0.24
       us-east-1:
@@ -6308,7 +6308,7 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.305
         Shared: 0.29
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.316
         Shared: 0.3
       us-east-1:
@@ -6369,7 +6369,7 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.345
         Shared: 0.33
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.356
         Shared: 0.34
       us-east-1:
@@ -6430,7 +6430,7 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.429
         Shared: 0.414
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.44
         Shared: 0.424
       us-east-1:
@@ -6464,7 +6464,7 @@ c5d.xlarge:
     - us-west-2
     - eu-north-1
     - ap-southeast-2
-    - Middle East (Bahrain)
+    - me-south-1
     - us-gov-west-1
     - eu-central-1
     - AWS GovCloud (US-East)
@@ -7707,7 +7707,7 @@ d2.2xlarge:
       eu-west-3:
         Dedicated: 1.698
         Shared: 1.544
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.779
         Shared: 1.617
       us-east-1:
@@ -7765,7 +7765,7 @@ d2.2xlarge:
       eu-west-3:
         Dedicated: 1.828
         Shared: 1.674
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.909
         Shared: 1.747
       us-east-1:
@@ -7823,7 +7823,7 @@ d2.2xlarge:
       eu-west-3:
         Dedicated: 1.798
         Shared: 1.644
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.879
         Shared: 1.717
       us-east-1:
@@ -7881,7 +7881,7 @@ d2.2xlarge:
       eu-west-3:
         Dedicated: 2.066
         Shared: 1.912
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.147
         Shared: 1.985
       us-east-1:
@@ -7913,7 +7913,7 @@ d2.2xlarge:
     - ap-east-1
     - ap-northeast-1
     - us-west-2
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-3
     - eu-west-2
     - ap-southeast-1
@@ -7972,7 +7972,7 @@ d2.4xlarge:
       eu-west-3:
         Dedicated: 3.397
         Shared: 3.088
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.557
         Shared: 3.234
       us-east-1:
@@ -8030,7 +8030,7 @@ d2.4xlarge:
       eu-west-3:
         Dedicated: 3.527
         Shared: 3.218
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.687
         Shared: 3.364
       us-east-1:
@@ -8088,7 +8088,7 @@ d2.4xlarge:
       eu-west-3:
         Dedicated: 3.497
         Shared: 3.188
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.657
         Shared: 3.334
       us-east-1:
@@ -8145,7 +8145,7 @@ d2.4xlarge:
       eu-west-3:
         Dedicated: 4.133
         Shared: 3.824
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.293
         Shared: 3.97
       us-east-1:
@@ -8164,7 +8164,7 @@ d2.4xlarge:
         Dedicated: 3.368
         Shared: 3.062
   regions:
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-1
     - us-east-2
     - ap-northeast-2
@@ -8236,7 +8236,7 @@ d2.8xlarge:
       eu-west-3:
         Dedicated: 6.176
         Shared: 6.176
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.468
         Shared: 6.468
       us-east-1:
@@ -8294,7 +8294,7 @@ d2.8xlarge:
       eu-west-3:
         Dedicated: 6.306
         Shared: 6.306
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.598
         Shared: 6.598
       us-east-1:
@@ -8352,7 +8352,7 @@ d2.8xlarge:
       eu-west-3:
         Dedicated: 6.276
         Shared: 6.276
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.568
         Shared: 6.568
       us-east-1:
@@ -8410,7 +8410,7 @@ d2.8xlarge:
       eu-west-3:
         Dedicated: 6.176
         Shared: 7.832
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 8.124
         Shared: 8.124
       us-east-1:
@@ -8441,7 +8441,7 @@ d2.8xlarge:
     - ap-southeast-2
     - ap-northeast-1
     - eu-central-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-east-1
     - us-gov-west-1
     - ca-central-1
@@ -8501,7 +8501,7 @@ d2.xlarge:
       eu-west-3:
         Dedicated: 0.849
         Shared: 0.772
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.889
         Shared: 0.809
       us-east-1:
@@ -8559,7 +8559,7 @@ d2.xlarge:
       eu-west-3:
         Dedicated: 0.909
         Shared: 0.832
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.949
         Shared: 0.869
       us-east-1:
@@ -8617,7 +8617,7 @@ d2.xlarge:
       eu-west-3:
         Dedicated: 0.949
         Shared: 0.872
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.989
         Shared: 0.909
       us-east-1:
@@ -8674,7 +8674,7 @@ d2.xlarge:
       eu-west-3:
         Dedicated: 0.849
         Shared: 0.956
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.073
         Shared: 0.993
       us-east-1:
@@ -8712,7 +8712,7 @@ d2.xlarge:
     - ap-northeast-3
     - us-west-2
     - sa-east-1
-    - Middle East (Bahrain)
+    - me-south-1
   storage: 3 x 2000 HDD
   vcpu: 4
 f1.16xlarge:
@@ -11044,7 +11044,7 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 5.792
         Shared: 5.792
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.054
         Shared: 6.054
       sa-east-1:
@@ -11108,7 +11108,7 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 5.922
         Shared: 5.922
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.184
         Shared: 6.184
       sa-east-1:
@@ -11172,7 +11172,7 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 5.892
         Shared: 5.892
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.154
         Shared: 6.154
       sa-east-1:
@@ -11236,7 +11236,7 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 8.736
         Shared: 8.736
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 8.998
         Shared: 8.998
       sa-east-1:
@@ -11258,7 +11258,7 @@ i3.16xlarge:
         Dedicated: 7.936
         Shared: 7.936
   regions:
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-south-1
     - ca-central-1
     - ap-northeast-1
@@ -11335,7 +11335,7 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.796
         Shared: 0.724
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.832
         Shared: 0.757
       sa-east-1:
@@ -11399,7 +11399,7 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.926
         Shared: 0.854
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.962
         Shared: 0.887
       sa-east-1:
@@ -11463,7 +11463,7 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.896
         Shared: 0.824
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.932
         Shared: 0.857
       sa-east-1:
@@ -11527,7 +11527,7 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 1.164
         Shared: 1.092
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.2
         Shared: 1.125
       sa-east-1:
@@ -11561,7 +11561,7 @@ i3.2xlarge:
     - ap-south-1
     - eu-central-1
     - sa-east-1
-    - Middle East (Bahrain)
+    - me-south-1
     - us-gov-west-1
     - ap-southeast-2
     - eu-west-3
@@ -11626,7 +11626,7 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 1.593
         Shared: 1.448
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.665
         Shared: 1.514
       sa-east-1:
@@ -11690,7 +11690,7 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 1.723
         Shared: 1.578
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.795
         Shared: 1.644
       sa-east-1:
@@ -11754,7 +11754,7 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 1.693
         Shared: 1.548
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.765
         Shared: 1.614
       sa-east-1:
@@ -11818,7 +11818,7 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 2.329
         Shared: 1.448
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.401
         Shared: 2.25
       sa-east-1:
@@ -11860,7 +11860,7 @@ i3.4xlarge:
     - AWS GovCloud (US-East)
     - eu-central-1
     - eu-west-3
-    - Middle East (Bahrain)
+    - me-south-1
   storage: 2 x 1900 NVMe SSD
   vcpu: 16
 i3.8xlarge:
@@ -11917,7 +11917,7 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.186
         Shared: 2.896
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.33
         Shared: 3.027
       sa-east-1:
@@ -11981,7 +11981,7 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.316
         Shared: 3.026
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.46
         Shared: 3.157
       sa-east-1:
@@ -12045,7 +12045,7 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.286
         Shared: 2.996
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.43
         Shared: 3.127
       sa-east-1:
@@ -12109,7 +12109,7 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.186
         Shared: 2.896
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.802
         Shared: 4.499
       sa-east-1:
@@ -12131,7 +12131,7 @@ i3.8xlarge:
         Dedicated: 2.746
         Shared: 3.968
   regions:
-    - Middle East (Bahrain)
+    - me-south-1
     - us-east-1
     - ap-northeast-1
     - ap-southeast-2
@@ -12208,7 +12208,7 @@ i3.large:
       eu-west-3:
         Dedicated: 0.199
         Shared: 0.181
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.208
         Shared: 0.189
       sa-east-1:
@@ -12272,7 +12272,7 @@ i3.large:
       eu-west-3:
         Dedicated: 0.259
         Shared: 0.241
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.268
         Shared: 0.249
       sa-east-1:
@@ -12336,7 +12336,7 @@ i3.large:
       eu-west-3:
         Dedicated: 0.299
         Shared: 0.281
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.308
         Shared: 0.289
       sa-east-1:
@@ -12400,7 +12400,7 @@ i3.large:
       eu-west-3:
         Dedicated: 0.199
         Shared: 0.273
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.3
         Shared: 0.281
       sa-east-1:
@@ -12428,7 +12428,7 @@ i3.large:
     - eu-west-1
     - us-east-2
     - sa-east-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-southeast-1
     - ap-east-1
     - us-west-2
@@ -12621,7 +12621,7 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.398
         Shared: 0.362
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.416
         Shared: 0.378
       sa-east-1:
@@ -12685,7 +12685,7 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.458
         Shared: 0.422
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.476
         Shared: 0.438
       sa-east-1:
@@ -12749,7 +12749,7 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.498
         Shared: 0.462
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.516
         Shared: 0.478
       sa-east-1:
@@ -12813,7 +12813,7 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.582
         Shared: 0.546
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.6
         Shared: 0.562
       sa-east-1:
@@ -12838,7 +12838,7 @@ i3.xlarge:
     - us-east-2
     - ap-southeast-1
     - ap-northeast-2
-    - Middle East (Bahrain)
+    - me-south-1
     - us-east-1
     - ap-southeast-2
     - AWS GovCloud (US-East)
@@ -16685,7 +16685,7 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 2.868
         Shared: 2.688
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.014
         Shared: 2.825
       sa-east-1:
@@ -16749,7 +16749,7 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 2.998
         Shared: 2.818
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.144
         Shared: 2.955
       sa-east-1:
@@ -16813,7 +16813,7 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 2.968
         Shared: 2.788
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.114
         Shared: 2.925
       sa-east-1:
@@ -16877,7 +16877,7 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 2.868
         Shared: 4.896
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.222
         Shared: 5.033
       sa-east-1:
@@ -16909,7 +16909,7 @@ m5.12xlarge:
     - eu-west-3
     - eu-west-1
     - sa-east-1
-    - Middle East (Bahrain)
+    - me-south-1
     - AWS GovCloud (US-East)
     - ap-northeast-1
     - us-west-1
@@ -16976,7 +16976,7 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.824
         Shared: 3.584
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.018
         Shared: 3.766
       sa-east-1:
@@ -17040,7 +17040,7 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.954
         Shared: 3.714
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.148
         Shared: 3.896
       sa-east-1:
@@ -17104,7 +17104,7 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.924
         Shared: 3.684
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.118
         Shared: 3.866
       sa-east-1:
@@ -17168,7 +17168,7 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 6.768
         Shared: 6.528
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.962
         Shared: 6.71
       sa-east-1:
@@ -17191,7 +17191,7 @@ m5.16xlarge:
         Shared: 6.016
   regions:
     - eu-central-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ca-central-1
     - eu-north-1
     - ap-southeast-1
@@ -17267,7 +17267,7 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 5.376
         Shared: 5.376
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.65
         Shared: 5.65
       sa-east-1:
@@ -17331,7 +17331,7 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 5.506
         Shared: 5.506
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.78
         Shared: 5.78
       sa-east-1:
@@ -17395,7 +17395,7 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 5.476
         Shared: 5.476
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.75
         Shared: 5.75
       sa-east-1:
@@ -17459,7 +17459,7 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 9.792
         Shared: 9.792
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 10.066
         Shared: 10.066
       sa-east-1:
@@ -17500,7 +17500,7 @@ m5.24xlarge:
     - eu-west-1
     - ap-northeast-1
     - ap-southeast-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-3
   storage: EBS only
   vcpu: 96
@@ -17558,7 +17558,7 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.478
         Shared: 0.448
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.502
         Shared: 0.471
       sa-east-1:
@@ -17622,7 +17622,7 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.608
         Shared: 0.578
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.632
         Shared: 0.601
       sa-east-1:
@@ -17686,7 +17686,7 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.578
         Shared: 0.548
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.602
         Shared: 0.571
       sa-east-1:
@@ -17750,7 +17750,7 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.478
         Shared: 0.816
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.87
         Shared: 0.839
       sa-east-1:
@@ -17773,7 +17773,7 @@ m5.2xlarge:
         Shared: 0.384
   regions:
     - eu-north-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-east-1
     - ap-southeast-2
     - eu-west-2
@@ -17849,7 +17849,7 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 0.956
         Shared: 0.896
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.005
         Shared: 0.942
       sa-east-1:
@@ -17913,7 +17913,7 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 1.086
         Shared: 1.026
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.135
         Shared: 1.072
       sa-east-1:
@@ -17977,7 +17977,7 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 1.056
         Shared: 0.996
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.105
         Shared: 1.042
       sa-east-1:
@@ -18041,7 +18041,7 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 0.956
         Shared: 1.632
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.741
         Shared: 1.678
       sa-east-1:
@@ -18071,7 +18071,7 @@ m5.4xlarge:
     - ap-south-1
     - eu-west-1
     - eu-west-2
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-east-1
     - ca-central-1
     - ap-southeast-1
@@ -18140,7 +18140,7 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 1.912
         Shared: 1.792
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.009
         Shared: 1.883
       sa-east-1:
@@ -18204,7 +18204,7 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 2.042
         Shared: 1.922
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.139
         Shared: 2.013
       sa-east-1:
@@ -18268,7 +18268,7 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 2.012
         Shared: 1.892
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.109
         Shared: 1.983
       sa-east-1:
@@ -18332,7 +18332,7 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 3.384
         Shared: 3.264
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.481
         Shared: 3.355
       sa-east-1:
@@ -18365,7 +18365,7 @@ m5.8xlarge:
     - ap-northeast-2
     - ap-south-1
     - us-west-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-southeast-1
     - ap-east-1
     - ap-southeast-2
@@ -18431,7 +18431,7 @@ m5.large:
       eu-west-3:
         Dedicated: 0.119
         Shared: 0.112
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.126
         Shared: 0.118
       sa-east-1:
@@ -18495,7 +18495,7 @@ m5.large:
       eu-west-3:
         Dedicated: 0.179
         Shared: 0.172
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.186
         Shared: 0.178
       sa-east-1:
@@ -18559,7 +18559,7 @@ m5.large:
       eu-west-3:
         Dedicated: 0.219
         Shared: 0.212
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.226
         Shared: 0.218
       sa-east-1:
@@ -18623,7 +18623,7 @@ m5.large:
       eu-west-3:
         Dedicated: 0.119
         Shared: 0.204
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.218
         Shared: 0.21
       sa-east-1:
@@ -18659,7 +18659,7 @@ m5.large:
     - ap-southeast-2
     - us-west-1
     - ap-east-1
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-west-3
     - ap-south-1
     - us-east-1
@@ -18722,7 +18722,7 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.376
         Shared: 5.376
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.65
         Shared: 5.65
       us-east-1:
@@ -18783,7 +18783,7 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.506
         Shared: 5.506
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.78
         Shared: 5.78
       us-east-1:
@@ -18844,7 +18844,7 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.476
         Shared: 5.476
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.75
         Shared: 5.75
       us-east-1:
@@ -18905,7 +18905,7 @@ m5.metal:
       eu-west-3:
         Dedicated: 9.792
         Shared: 9.792
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 10.066
         Shared: 10.066
       us-east-1:
@@ -18943,7 +18943,7 @@ m5.metal:
     - us-east-2
     - ca-central-1
     - ap-southeast-1
-    - Middle East (Bahrain)
+    - me-south-1
   storage: EBS only
   vcpu: 96
 m5.xlarge:
@@ -19000,7 +19000,7 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.239
         Shared: 0.224
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.251
         Shared: 0.235
       sa-east-1:
@@ -19064,7 +19064,7 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.299
         Shared: 0.284
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.311
         Shared: 0.295
       sa-east-1:
@@ -19128,7 +19128,7 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.339
         Shared: 0.324
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.351
         Shared: 0.335
       sa-east-1:
@@ -19192,7 +19192,7 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.239
         Shared: 0.408
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.435
         Shared: 0.419
       sa-east-1:
@@ -19230,7 +19230,7 @@ m5.xlarge:
     - ap-northeast-1
     - us-gov-west-1
     - eu-north-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-south-1
     - sa-east-1
     - eu-west-2
@@ -21427,7 +21427,7 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 3.38
         Shared: 3.168
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.549
         Shared: 3.326
       us-east-1:
@@ -21488,7 +21488,7 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 3.51
         Shared: 3.298
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.679
         Shared: 3.456
       us-east-1:
@@ -21549,7 +21549,7 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 3.48
         Shared: 3.268
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.649
         Shared: 3.426
       us-east-1:
@@ -21610,7 +21610,7 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 5.588
         Shared: 5.376
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.757
         Shared: 5.534
       us-east-1:
@@ -21632,7 +21632,7 @@ m5d.12xlarge:
     - us-gov-west-1
     - eu-west-3
     - eu-central-1
-    - Middle East (Bahrain)
+    - me-south-1
     - us-west-2
     - us-west-1
     - ap-northeast-2
@@ -21705,7 +21705,7 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 4.506
         Shared: 4.224
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.732
         Shared: 4.435
       us-east-1:
@@ -21766,7 +21766,7 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 4.636
         Shared: 4.354
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.862
         Shared: 4.565
       us-east-1:
@@ -21827,7 +21827,7 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 4.606
         Shared: 4.324
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.832
         Shared: 4.535
       us-east-1:
@@ -21888,7 +21888,7 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 7.45
         Shared: 7.168
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 7.676
         Shared: 7.379
       us-east-1:
@@ -21919,7 +21919,7 @@ m5d.16xlarge:
     - eu-west-2
     - eu-west-3
     - us-west-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-south-1
     - ap-northeast-2
     - ap-southeast-1
@@ -21983,7 +21983,7 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 6.336
         Shared: 6.336
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.653
         Shared: 6.653
       us-east-1:
@@ -22044,7 +22044,7 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 6.466
         Shared: 6.466
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.783
         Shared: 6.783
       us-east-1:
@@ -22105,7 +22105,7 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 6.436
         Shared: 6.436
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.753
         Shared: 6.753
       us-east-1:
@@ -22166,7 +22166,7 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 10.752
         Shared: 10.752
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 11.069
         Shared: 11.069
       us-east-1:
@@ -22193,7 +22193,7 @@ m5d.24xlarge:
     - ca-central-1
     - us-east-1
     - ap-southeast-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-southeast-2
     - eu-central-1
     - eu-west-3
@@ -22261,7 +22261,7 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.563
         Shared: 0.528
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.592
         Shared: 0.554
       us-east-1:
@@ -22322,7 +22322,7 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.693
         Shared: 0.658
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.722
         Shared: 0.684
       us-east-1:
@@ -22383,7 +22383,7 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.663
         Shared: 0.628
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.692
         Shared: 0.654
       us-east-1:
@@ -22444,7 +22444,7 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.931
         Shared: 0.896
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.96
         Shared: 0.922
       us-east-1:
@@ -22463,7 +22463,7 @@ m5d.2xlarge:
         Dedicated: 0.479
         Shared: 0.82
   regions:
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-south-1
     - eu-west-3
     - us-east-1
@@ -22539,7 +22539,7 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.127
         Shared: 1.056
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.183
         Shared: 1.109
       us-east-1:
@@ -22600,7 +22600,7 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.257
         Shared: 1.186
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.313
         Shared: 1.239
       us-east-1:
@@ -22661,7 +22661,7 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.227
         Shared: 1.156
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.283
         Shared: 1.209
       us-east-1:
@@ -22722,7 +22722,7 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.863
         Shared: 1.792
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.919
         Shared: 1.845
       us-east-1:
@@ -22755,7 +22755,7 @@ m5d.4xlarge:
     - us-east-2
     - us-west-1
     - eu-west-2
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-north-1
     - ap-southeast-2
     - AWS GovCloud (US-East)
@@ -22817,7 +22817,7 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 2.253
         Shared: 2.112
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.366
         Shared: 2.218
       us-east-1:
@@ -22878,7 +22878,7 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 2.383
         Shared: 2.242
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.496
         Shared: 2.348
       us-east-1:
@@ -22939,7 +22939,7 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 2.353
         Shared: 2.212
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.466
         Shared: 2.318
       us-east-1:
@@ -23000,7 +23000,7 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 3.725
         Shared: 3.584
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.838
         Shared: 3.69
       us-east-1:
@@ -23025,7 +23025,7 @@ m5d.8xlarge:
     - ap-southeast-2
     - us-west-2
     - ap-northeast-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-southeast-1
     - AWS GovCloud (US-East)
     - eu-west-3
@@ -23095,7 +23095,7 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.141
         Shared: 0.132
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.148
         Shared: 0.139
       us-east-1:
@@ -23156,7 +23156,7 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.201
         Shared: 0.192
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.208
         Shared: 0.199
       us-east-1:
@@ -23217,7 +23217,7 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.241
         Shared: 0.232
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.248
         Shared: 0.239
       us-east-1:
@@ -23278,7 +23278,7 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.233
         Shared: 0.224
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.24
         Shared: 0.231
       us-east-1:
@@ -23313,7 +23313,7 @@ m5d.large:
     - ap-southeast-1
     - eu-west-1
     - us-west-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ca-central-1
     - eu-north-1
     - us-gov-west-1
@@ -23373,7 +23373,7 @@ m5d.metal:
       eu-west-3:
         Dedicated: 6.336
         Shared: 6.336
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.653
         Shared: 6.653
       us-east-1:
@@ -23434,7 +23434,7 @@ m5d.metal:
       eu-west-3:
         Dedicated: 6.466
         Shared: 6.466
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.783
         Shared: 6.783
       us-east-1:
@@ -23495,7 +23495,7 @@ m5d.metal:
       eu-west-3:
         Dedicated: 6.436
         Shared: 6.436
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.753
         Shared: 6.753
       us-east-1:
@@ -23556,7 +23556,7 @@ m5d.metal:
       eu-west-3:
         Dedicated: 10.752
         Shared: 10.752
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 11.069
         Shared: 11.069
       us-east-1:
@@ -23592,7 +23592,7 @@ m5d.metal:
     - ca-central-1
     - AWS GovCloud (US-East)
     - ap-southeast-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-3
     - ap-southeast-2
   storage: 4 x 900 NVMe SSD
@@ -23651,7 +23651,7 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.282
         Shared: 0.264
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.296
         Shared: 0.277
       us-east-1:
@@ -23712,7 +23712,7 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.342
         Shared: 0.324
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.356
         Shared: 0.337
       us-east-1:
@@ -23773,7 +23773,7 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.382
         Shared: 0.364
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.396
         Shared: 0.377
       us-east-1:
@@ -23834,7 +23834,7 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.466
         Shared: 0.448
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.48
         Shared: 0.461
       us-east-1:
@@ -23870,7 +23870,7 @@ m5d.xlarge:
     - eu-west-1
     - us-east-1
     - ap-northeast-3
-    - Middle East (Bahrain)
+    - me-south-1
     - us-east-2
     - us-west-2
   storage: 1 x 150 NVMe SSD
@@ -27346,7 +27346,7 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.765
         Shared: 3.552
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.946
         Shared: 3.722
       us-east-1:
@@ -27407,7 +27407,7 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.895
         Shared: 3.682
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.076
         Shared: 3.852
       us-east-1:
@@ -27468,7 +27468,7 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.915
         Shared: 3.702
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.096
         Shared: 3.872
       us-east-1:
@@ -27529,7 +27529,7 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 5.973
         Shared: 5.76
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.154
         Shared: 5.93
       us-east-1:
@@ -27551,7 +27551,7 @@ r5.12xlarge:
     - us-gov-west-1
     - ca-central-1
     - eu-west-3
-    - Middle East (Bahrain)
+    - me-south-1
     - us-east-2
     - us-east-1
     - ap-northeast-1
@@ -27621,7 +27621,7 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.02
         Shared: 4.736
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.261
         Shared: 4.963
       us-east-1:
@@ -27682,7 +27682,7 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.15
         Shared: 4.866
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.391
         Shared: 5.093
       us-east-1:
@@ -27743,7 +27743,7 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.17
         Shared: 4.886
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.411
         Shared: 5.113
       us-east-1:
@@ -27804,7 +27804,7 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 7.964
         Shared: 7.68
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 8.205
         Shared: 7.907
       us-east-1:
@@ -27840,7 +27840,7 @@ r5.16xlarge:
     - us-west-2
     - ap-southeast-1
     - ap-east-1
-    - Middle East (Bahrain)
+    - me-south-1
     - us-west-1
     - ap-northeast-3
   storage: EBS only
@@ -27896,7 +27896,7 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.104
         Shared: 7.104
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 7.445
         Shared: 7.445
       us-east-1:
@@ -27957,7 +27957,7 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.234
         Shared: 7.234
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 7.575
         Shared: 7.575
       us-east-1:
@@ -28018,7 +28018,7 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.254
         Shared: 7.254
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 7.595
         Shared: 7.595
       us-east-1:
@@ -28079,7 +28079,7 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 11.52
         Shared: 11.52
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 11.861
         Shared: 11.861
       us-east-1:
@@ -28112,7 +28112,7 @@ r5.24xlarge:
     - ap-south-1
     - us-east-2
     - eu-west-3
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-1
     - eu-north-1
     - us-west-2
@@ -28171,7 +28171,7 @@ r5.2xlarge:
       eu-west-3:
         Dedicated: 0.628
         Shared: 0.592
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.658
         Shared: 0.62
       us-east-1:
@@ -28232,7 +28232,7 @@ r5.2xlarge:
       eu-west-3:
         Dedicated: 0.758
         Shared: 0.722
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.788
         Shared: 0.75
       us-east-1:
@@ -28293,7 +28293,7 @@ r5.2xlarge:
       eu-west-3:
         Dedicated: 0.778
         Shared: 0.742
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.808
         Shared: 0.77
       us-east-1:
@@ -28354,7 +28354,7 @@ r5.2xlarge:
       eu-west-3:
         Dedicated: 0.996
         Shared: 0.96
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.026
         Shared: 0.988
       us-east-1:
@@ -28375,7 +28375,7 @@ r5.2xlarge:
   regions:
     - ap-northeast-3
     - AWS GovCloud (US-East)
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-north-1
     - ap-south-1
     - ap-southeast-2
@@ -28446,7 +28446,7 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.255
         Shared: 1.184
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.315
         Shared: 1.241
       us-east-1:
@@ -28507,7 +28507,7 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.385
         Shared: 1.314
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.445
         Shared: 1.371
       us-east-1:
@@ -28568,7 +28568,7 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.405
         Shared: 1.334
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.465
         Shared: 1.391
       us-east-1:
@@ -28629,7 +28629,7 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.991
         Shared: 1.92
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.051
         Shared: 1.977
       us-east-1:
@@ -28660,7 +28660,7 @@ r5.4xlarge:
     - ap-southeast-1
     - ap-southeast-2
     - eu-central-1
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-west-1
     - us-east-2
     - eu-west-3
@@ -28721,7 +28721,7 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.51
         Shared: 2.368
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.63
         Shared: 2.482
       us-east-1:
@@ -28782,7 +28782,7 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.64
         Shared: 2.498
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.76
         Shared: 2.612
       us-east-1:
@@ -28843,7 +28843,7 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.66
         Shared: 2.518
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.78
         Shared: 2.632
       us-east-1:
@@ -28904,7 +28904,7 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 3.982
         Shared: 3.84
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.102
         Shared: 3.954
       us-east-1:
@@ -28926,7 +28926,7 @@ r5.8xlarge:
     - us-gov-west-1
     - eu-west-1
     - ap-southeast-1
-    - Middle East (Bahrain)
+    - me-south-1
     - us-west-1
     - eu-west-2
     - ap-northeast-2
@@ -28997,7 +28997,7 @@ r5.large:
       eu-west-3:
         Dedicated: 0.157
         Shared: 0.148
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.164
         Shared: 0.155
       us-east-1:
@@ -29058,7 +29058,7 @@ r5.large:
       eu-west-3:
         Dedicated: 0.217
         Shared: 0.208
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.224
         Shared: 0.215
       us-east-1:
@@ -29119,7 +29119,7 @@ r5.large:
       eu-west-3:
         Dedicated: 0.22
         Shared: 0.211
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.227
         Shared: 0.218
       us-east-1:
@@ -29180,7 +29180,7 @@ r5.large:
       eu-west-3:
         Dedicated: 0.249
         Shared: 0.24
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.256
         Shared: 0.247
       us-east-1:
@@ -29203,7 +29203,7 @@ r5.large:
     - us-gov-west-1
     - ap-northeast-2
     - eu-west-2
-    - Middle East (Bahrain)
+    - me-south-1
     - us-west-2
     - ap-southeast-2
     - ap-southeast-1
@@ -29272,7 +29272,7 @@ r5.metal:
       eu-west-3:
         Dedicated: 7.104
         Shared: 7.104
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 7.445
         Shared: 7.445
       us-east-1:
@@ -29333,7 +29333,7 @@ r5.metal:
       eu-west-3:
         Dedicated: 7.234
         Shared: 7.234
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 7.575
         Shared: 7.575
       us-east-1:
@@ -29394,7 +29394,7 @@ r5.metal:
       eu-west-3:
         Dedicated: 7.254
         Shared: 7.254
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 7.595
         Shared: 7.595
       us-east-1:
@@ -29455,7 +29455,7 @@ r5.metal:
       eu-west-3:
         Dedicated: 11.52
         Shared: 11.52
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 11.861
         Shared: 11.861
       us-east-1:
@@ -29488,7 +29488,7 @@ r5.metal:
     - eu-north-1
     - eu-west-2
     - eu-west-3
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-west-1
     - ca-central-1
     - AWS GovCloud (US-East)
@@ -29547,7 +29547,7 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.314
         Shared: 0.296
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.329
         Shared: 0.31
       us-east-1:
@@ -29608,7 +29608,7 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.374
         Shared: 0.356
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.389
         Shared: 0.37
       us-east-1:
@@ -29669,7 +29669,7 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.439
         Shared: 0.421
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.454
         Shared: 0.435
       us-east-1:
@@ -29730,7 +29730,7 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.498
         Shared: 0.48
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.513
         Shared: 0.494
       us-east-1:
@@ -29750,7 +29750,7 @@ r5.xlarge:
         Shared: 0.252
   regions:
     - eu-north-1
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-west-1
     - us-west-2
     - ap-northeast-2
@@ -31958,7 +31958,7 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 4.3
         Shared: 4.056
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.48
         Shared: 4.224
       us-east-1:
@@ -32019,7 +32019,7 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 4.43
         Shared: 4.186
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.61
         Shared: 4.354
       us-east-1:
@@ -32080,7 +32080,7 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 4.45
         Shared: 4.206
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.63
         Shared: 4.374
       us-east-1:
@@ -32141,7 +32141,7 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 6.508
         Shared: 6.264
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.688
         Shared: 6.432
       us-east-1:
@@ -32172,7 +32172,7 @@ r5d.12xlarge:
     - eu-west-1
     - ap-southeast-1
     - eu-west-2
-    - Middle East (Bahrain)
+    - me-south-1
     - AWS GovCloud (US-East)
     - us-west-2
     - eu-central-1
@@ -32233,7 +32233,7 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 5.733
         Shared: 5.408
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 5.974
         Shared: 5.632
       us-east-1:
@@ -32294,7 +32294,7 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 5.863
         Shared: 5.538
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.104
         Shared: 5.762
       us-east-1:
@@ -32355,7 +32355,7 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 5.883
         Shared: 5.558
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 6.124
         Shared: 5.782
       us-east-1:
@@ -32416,7 +32416,7 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 8.677
         Shared: 8.352
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 8.918
         Shared: 8.576
       us-east-1:
@@ -32441,7 +32441,7 @@ r5d.16xlarge:
     - us-east-2
     - us-west-1
     - ap-northeast-2
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-southeast-1
     - eu-west-2
     - eu-west-1
@@ -32508,7 +32508,7 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 8.112
         Shared: 8.112
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 8.448
         Shared: 8.448
       us-east-1:
@@ -32569,7 +32569,7 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 8.242
         Shared: 8.242
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 8.578
         Shared: 8.578
       us-east-1:
@@ -32630,7 +32630,7 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 8.262
         Shared: 8.262
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 8.598
         Shared: 8.598
       us-east-1:
@@ -32691,7 +32691,7 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 12.528
         Shared: 12.528
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 12.864
         Shared: 12.864
       us-east-1:
@@ -32724,7 +32724,7 @@ r5d.24xlarge:
     - us-east-2
     - eu-west-1
     - ap-east-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-1
     - ap-south-1
     - us-west-2
@@ -32783,7 +32783,7 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 0.717
         Shared: 0.676
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.747
         Shared: 0.704
       us-east-1:
@@ -32844,7 +32844,7 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 0.847
         Shared: 0.806
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.877
         Shared: 0.834
       us-east-1:
@@ -32905,7 +32905,7 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 0.867
         Shared: 0.826
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.897
         Shared: 0.854
       us-east-1:
@@ -32966,7 +32966,7 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 1.085
         Shared: 1.044
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.115
         Shared: 1.072
       us-east-1:
@@ -33003,7 +33003,7 @@ r5d.2xlarge:
     - us-west-2
     - ap-south-1
     - us-east-1
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-central-1
   storage: 1 x 300 NVMe SSD
   vcpu: 8
@@ -33058,7 +33058,7 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 1.433
         Shared: 1.352
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.493
         Shared: 1.408
       us-east-1:
@@ -33119,7 +33119,7 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 1.563
         Shared: 1.482
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.623
         Shared: 1.538
       us-east-1:
@@ -33180,7 +33180,7 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 1.583
         Shared: 1.502
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 1.643
         Shared: 1.558
       us-east-1:
@@ -33241,7 +33241,7 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 2.169
         Shared: 2.088
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.229
         Shared: 2.144
       us-east-1:
@@ -33262,7 +33262,7 @@ r5d.4xlarge:
   regions:
     - ap-southeast-1
     - us-east-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-2
     - ap-east-1
     - ca-central-1
@@ -33333,7 +33333,7 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 2.866
         Shared: 2.704
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 2.987
         Shared: 2.816
       us-east-1:
@@ -33394,7 +33394,7 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 2.996
         Shared: 2.834
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.117
         Shared: 2.946
       us-east-1:
@@ -33455,7 +33455,7 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 3.016
         Shared: 2.854
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 3.137
         Shared: 2.966
       us-east-1:
@@ -33516,7 +33516,7 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 4.338
         Shared: 4.176
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 4.459
         Shared: 4.288
       us-east-1:
@@ -33537,7 +33537,7 @@ r5d.8xlarge:
   regions:
     - eu-west-1
     - eu-west-3
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-north-1
     - ca-central-1
     - ap-northeast-1
@@ -33608,7 +33608,7 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.179
         Shared: 0.169
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.187
         Shared: 0.176
       us-east-1:
@@ -33669,7 +33669,7 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.239
         Shared: 0.229
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.247
         Shared: 0.236
       us-east-1:
@@ -33730,7 +33730,7 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.242
         Shared: 0.232
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.25
         Shared: 0.239
       us-east-1:
@@ -33791,7 +33791,7 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.271
         Shared: 0.261
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.279
         Shared: 0.268
       us-east-1:
@@ -33819,7 +33819,7 @@ r5d.large:
     - ap-east-1
     - eu-north-1
     - eu-west-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-1
     - ap-northeast-2
     - ap-southeast-1
@@ -33883,7 +33883,7 @@ r5d.metal:
       eu-west-3:
         Dedicated: 8.112
         Shared: 8.112
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 8.448
         Shared: 8.448
       us-east-1:
@@ -33944,7 +33944,7 @@ r5d.metal:
       eu-west-3:
         Dedicated: 8.242
         Shared: 8.242
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 8.578
         Shared: 8.578
       us-east-1:
@@ -34005,7 +34005,7 @@ r5d.metal:
       eu-west-3:
         Dedicated: 8.262
         Shared: 8.262
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 8.598
         Shared: 8.598
       us-east-1:
@@ -34066,7 +34066,7 @@ r5d.metal:
       eu-west-3:
         Dedicated: 12.528
         Shared: 12.528
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 12.864
         Shared: 12.864
       us-east-1:
@@ -34101,7 +34101,7 @@ r5d.metal:
     - us-west-2
     - ap-northeast-2
     - us-gov-west-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-3
     - AWS GovCloud (US-East)
     - ap-southeast-2
@@ -34158,7 +34158,7 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.358
         Shared: 0.338
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.373
         Shared: 0.352
       us-east-1:
@@ -34219,7 +34219,7 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.418
         Shared: 0.398
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.433
         Shared: 0.412
       us-east-1:
@@ -34280,7 +34280,7 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.483
         Shared: 0.463
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.498
         Shared: 0.477
       us-east-1:
@@ -34341,7 +34341,7 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.542
         Shared: 0.522
-      Middle East (Bahrain):
+      me-south-1:
         Dedicated: 0.557
         Shared: 0.536
       us-east-1:
@@ -34371,7 +34371,7 @@ r5d.xlarge:
     - ap-southeast-2
     - ap-south-1
     - eu-west-1
-    - Middle East (Bahrain)
+    - me-south-1
     - us-east-1
     - eu-west-2
     - us-east-2
@@ -35663,7 +35663,7 @@ t3.2xlarge:
         Shared: 0.3776
       eu-west-3:
         Shared: 0.3776
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.4013
       sa-east-1:
         Shared: 0.5376
@@ -35706,7 +35706,7 @@ t3.2xlarge:
         Shared: 0.5076
       eu-west-3:
         Shared: 0.5076
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.5313
       sa-east-1:
         Shared: 0.6676
@@ -35749,7 +35749,7 @@ t3.2xlarge:
         Shared: 0.5276
       eu-west-3:
         Shared: 0.5276
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.5513
       sa-east-1:
         Shared: 0.6876
@@ -35792,7 +35792,7 @@ t3.2xlarge:
         Shared: 0.3776
       eu-west-3:
         Shared: 0.5248
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.5485
       sa-east-1:
         Shared: 0.6848
@@ -35824,7 +35824,7 @@ t3.2xlarge:
     - eu-west-1
     - ap-northeast-2
     - eu-north-1
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-1
     - ap-southeast-1
     - ap-northeast-3
@@ -35867,7 +35867,7 @@ t3.large:
         Shared: 0.0944
       eu-west-3:
         Shared: 0.0944
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.1003
       sa-east-1:
         Shared: 0.1344
@@ -35910,7 +35910,7 @@ t3.large:
         Shared: 0.1544
       eu-west-3:
         Shared: 0.1544
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.1603
       sa-east-1:
         Shared: 0.1944
@@ -35953,7 +35953,7 @@ t3.large:
         Shared: 0.1574
       eu-west-3:
         Shared: 0.1574
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.1633
       sa-east-1:
         Shared: 0.1974
@@ -35996,7 +35996,7 @@ t3.large:
         Shared: 0.122
       eu-west-3:
         Shared: 0.122
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.1279
       sa-east-1:
         Shared: 0.162
@@ -36011,7 +36011,7 @@ t3.large:
       us-west-2:
         Shared: 0.1108
   regions:
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-south-1
     - us-west-2
     - eu-central-1
@@ -36071,7 +36071,7 @@ t3.medium:
         Shared: 0.0472
       eu-west-3:
         Shared: 0.0472
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0502
       sa-east-1:
         Shared: 0.0672
@@ -36114,7 +36114,7 @@ t3.medium:
         Shared: 0.1072
       eu-west-3:
         Shared: 0.1072
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.1102
       sa-east-1:
         Shared: 0.1272
@@ -36157,7 +36157,7 @@ t3.medium:
         Shared: 0.1102
       eu-west-3:
         Shared: 0.1102
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.1132
       sa-east-1:
         Shared: 0.1302
@@ -36200,7 +36200,7 @@ t3.medium:
         Shared: 0.0656
       eu-west-3:
         Shared: 0.0656
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0686
       sa-east-1:
         Shared: 0.0856
@@ -36222,7 +36222,7 @@ t3.medium:
     - us-east-1
     - eu-west-1
     - us-gov-west-1
-    - Middle East (Bahrain)
+    - me-south-1
     - us-east-2
     - ap-south-1
     - eu-west-2
@@ -36275,7 +36275,7 @@ t3.micro:
         Shared: 0.0118
       eu-west-3:
         Shared: 0.0118
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0125
       sa-east-1:
         Shared: 0.0168
@@ -36318,7 +36318,7 @@ t3.micro:
         Shared: 0.0718
       eu-west-3:
         Shared: 0.0718
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0725
       sa-east-1:
         Shared: 0.0768
@@ -36361,7 +36361,7 @@ t3.micro:
         Shared: 0.0118
       eu-west-3:
         Shared: 0.0118
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0125
       sa-east-1:
         Shared: 0.0168
@@ -36404,7 +36404,7 @@ t3.micro:
         Shared: 0.021
       eu-west-3:
         Shared: 0.021
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0217
       sa-east-1:
         Shared: 0.026
@@ -36433,7 +36433,7 @@ t3.micro:
     - eu-west-3
     - ap-northeast-2
     - ap-south-1
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-west-1
     - eu-north-1
     - ap-southeast-1
@@ -36479,7 +36479,7 @@ t3.nano:
         Shared: 0.0059
       eu-west-3:
         Shared: 0.0059
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0063
       sa-east-1:
         Shared: 0.0084
@@ -36522,7 +36522,7 @@ t3.nano:
         Shared: 0.0059
       eu-west-3:
         Shared: 0.0059
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0063
       sa-east-1:
         Shared: 0.0084
@@ -36565,7 +36565,7 @@ t3.nano:
         Shared: 0.0105
       eu-west-3:
         Shared: 0.0105
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0109
       sa-east-1:
         Shared: 0.013
@@ -36599,7 +36599,7 @@ t3.nano:
     - ca-central-1
     - us-east-1
     - eu-west-2
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-3
   storage: EBS only
   vcpu: 2
@@ -36640,7 +36640,7 @@ t3.small:
         Shared: 0.0236
       eu-west-3:
         Shared: 0.0236
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0251
       sa-east-1:
         Shared: 0.0336
@@ -36683,7 +36683,7 @@ t3.small:
         Shared: 0.0836
       eu-west-3:
         Shared: 0.0836
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0851
       sa-east-1:
         Shared: 0.0936
@@ -36726,7 +36726,7 @@ t3.small:
         Shared: 0.0546
       eu-west-3:
         Shared: 0.0546
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0561
       sa-east-1:
         Shared: 0.0646
@@ -36769,7 +36769,7 @@ t3.small:
         Shared: 0.042
       eu-west-3:
         Shared: 0.042
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.0435
       sa-east-1:
         Shared: 0.052
@@ -36789,7 +36789,7 @@ t3.small:
     - us-west-2
     - AWS GovCloud (US-East)
     - ap-southeast-2
-    - Middle East (Bahrain)
+    - me-south-1
     - eu-west-3
     - ap-northeast-3
     - eu-central-1
@@ -36844,7 +36844,7 @@ t3.xlarge:
         Shared: 0.1888
       eu-west-3:
         Shared: 0.1888
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.2006
       sa-east-1:
         Shared: 0.2688
@@ -36887,7 +36887,7 @@ t3.xlarge:
         Shared: 0.2488
       eu-west-3:
         Shared: 0.2488
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.2606
       sa-east-1:
         Shared: 0.3288
@@ -36930,7 +36930,7 @@ t3.xlarge:
         Shared: 0.3138
       eu-west-3:
         Shared: 0.3138
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.3256
       sa-east-1:
         Shared: 0.3938
@@ -36973,7 +36973,7 @@ t3.xlarge:
         Shared: 0.2624
       eu-west-3:
         Shared: 0.2624
-      Middle East (Bahrain):
+      me-south-1:
         Shared: 0.2742
       sa-east-1:
         Shared: 0.2688
@@ -37002,7 +37002,7 @@ t3.xlarge:
     - us-gov-west-1
     - ap-southeast-2
     - us-west-2
-    - Middle East (Bahrain)
+    - me-south-1
     - ap-northeast-1
     - eu-west-1
     - ap-southeast-1
