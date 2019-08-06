@@ -4722,22 +4722,35 @@ c5d.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
+      ap-southeast-2:
+        Dedicated: 3.209
+        Shared: 3.024
       me-south-1:
         Dedicated: 3.067
         Shared: 2.878
     RHEL:
+      ap-southeast-2:
+        Dedicated: 3.339
+        Shared: 3.154
       me-south-1:
         Dedicated: 3.197
         Shared: 3.008
     SUSE:
+      ap-southeast-2:
+        Dedicated: 3.309
+        Shared: 3.124
       me-south-1:
         Dedicated: 3.167
         Shared: 2.978
     Windows:
+      ap-southeast-2:
+        Dedicated: 5.417
+        Shared: 5.232
       me-south-1:
         Dedicated: 5.275
         Shared: 5.086
   regions:
+    - ap-southeast-2
     - me-south-1
   storage: 2 x 900 NVMe SSD
   vcpu: 48
@@ -5031,23 +5044,36 @@ c5d.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
+      ap-southeast-2:
+        Dedicated: 6.417
+        Shared: 6.048
       me-south-1:
         Dedicated: 6.133
         Shared: 5.755
     RHEL:
+      ap-southeast-2:
+        Dedicated: 6.547
+        Shared: 6.178
       me-south-1:
         Dedicated: 6.263
         Shared: 5.885
     SUSE:
+      ap-southeast-2:
+        Dedicated: 6.517
+        Shared: 6.148
       me-south-1:
         Dedicated: 6.233
         Shared: 5.855
     Windows:
+      ap-southeast-2:
+        Dedicated: 10.833
+        Shared: 10.464
       me-south-1:
         Dedicated: 10.549
         Shared: 10.171
   regions:
     - me-south-1
+    - ap-southeast-2
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 c5d.2xlarge:
