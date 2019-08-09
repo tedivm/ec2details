@@ -13961,6 +13961,127 @@ i3en.large:
     - us-gov-west-1
   storage: 1 x 1250 NVMe SSD
   vcpu: 2
+i3en.metal:
+  clockSpeed: 3.1 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 768 GiB
+  networkPerformance: 100 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: Intel Xeon Platinum 8175
+  prices:
+    Linux:
+      ap-northeast-1:
+        Dedicated: 12.768
+        Shared: 12.768
+      ap-northeast-2:
+        Dedicated: 12.768
+        Shared: 12.768
+      eu-central-1:
+        Dedicated: 12.96
+        Shared: 12.96
+      eu-west-1:
+        Dedicated: 12
+        Shared: 12
+      us-east-1:
+        Dedicated: 10.848
+        Shared: 10.848
+      us-east-2:
+        Dedicated: 10.848
+        Shared: 10.848
+      us-west-1:
+        Dedicated: 12
+        Shared: 12
+      us-west-2:
+        Dedicated: 10.848
+        Shared: 10.848
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 12.898
+        Shared: 12.898
+      ap-northeast-2:
+        Dedicated: 12.898
+        Shared: 12.898
+      eu-central-1:
+        Dedicated: 13.09
+        Shared: 13.09
+      eu-west-1:
+        Dedicated: 12.13
+        Shared: 12.13
+      us-east-1:
+        Dedicated: 10.978
+        Shared: 10.978
+      us-east-2:
+        Dedicated: 10.978
+        Shared: 10.978
+      us-west-1:
+        Dedicated: 12.13
+        Shared: 12.13
+      us-west-2:
+        Dedicated: 10.978
+        Shared: 10.978
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 12.918
+        Shared: 12.918
+      ap-northeast-2:
+        Dedicated: 12.918
+        Shared: 12.918
+      eu-central-1:
+        Dedicated: 13.11
+        Shared: 13.11
+      eu-west-1:
+        Dedicated: 12.15
+        Shared: 12.15
+      us-east-1:
+        Dedicated: 10.998
+        Shared: 10.998
+      us-east-2:
+        Dedicated: 10.998
+        Shared: 10.998
+      us-west-1:
+        Dedicated: 12.15
+        Shared: 12.15
+      us-west-2:
+        Dedicated: 10.998
+        Shared: 10.998
+    Windows:
+      ap-northeast-1:
+        Dedicated: 17.184
+        Shared: 17.184
+      ap-northeast-2:
+        Dedicated: 17.184
+        Shared: 17.184
+      eu-central-1:
+        Dedicated: 17.376
+        Shared: 17.376
+      eu-west-1:
+        Dedicated: 16.416
+        Shared: 16.416
+      us-east-1:
+        Dedicated: 15.264
+        Shared: 15.264
+      us-east-2:
+        Dedicated: 15.264
+        Shared: 15.264
+      us-west-1:
+        Dedicated: 16.416
+        Shared: 16.416
+      us-west-2:
+        Dedicated: 15.264
+        Shared: 15.264
+  regions:
+    - us-west-2
+    - us-east-2
+    - us-west-1
+    - eu-central-1
+    - ap-northeast-1
+    - ap-northeast-2
+    - us-east-1
+    - eu-west-1
+  storage: 8 x 7500 NVMe SSD
+  vcpu: 96
 i3en.xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
