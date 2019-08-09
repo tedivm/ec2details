@@ -7557,6 +7557,176 @@ c5n.large:
     - ap-southeast-1
   storage: EBS only
   vcpu: 2
+c5n.metal:
+  currentGeneration: true
+  memory: 192 GiB
+  networkPerformance: 100 Gigabit
+  normalizationSizeFactor: 144
+  physicalProcessor: Intel Xeon Platinum 8124M
+  prices:
+    Linux:
+      ap-northeast-1:
+        Dedicated: 4.896
+        Shared: 4.896
+      ap-northeast-2:
+        Dedicated: 4.392
+        Shared: 4.392
+      ap-south-1:
+        Dedicated: 3.888
+        Shared: 3.888
+      ap-southeast-1:
+        Dedicated: 4.464
+        Shared: 4.464
+      ap-southeast-2:
+        Dedicated: 5.076
+        Shared: 5.076
+      AWS GovCloud (US-East):
+        Dedicated: 4.68
+        Shared: 4.68
+      eu-central-1:
+        Dedicated: 4.428
+        Shared: 4.428
+      eu-west-1:
+        Dedicated: 4.392
+        Shared: 4.392
+      us-east-1:
+        Dedicated: 3.888
+        Shared: 3.888
+      us-east-2:
+        Dedicated: 3.888
+        Shared: 3.888
+      us-gov-west-1:
+        Dedicated: 4.68
+        Shared: 4.68
+      us-west-2:
+        Dedicated: 3.888
+        Shared: 3.888
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 5.026
+        Shared: 5.026
+      ap-northeast-2:
+        Dedicated: 4.522
+        Shared: 4.522
+      ap-south-1:
+        Dedicated: 4.018
+        Shared: 4.018
+      ap-southeast-1:
+        Dedicated: 4.594
+        Shared: 4.594
+      ap-southeast-2:
+        Dedicated: 5.206
+        Shared: 5.206
+      AWS GovCloud (US-East):
+        Dedicated: 4.81
+        Shared: 4.81
+      eu-central-1:
+        Dedicated: 4.558
+        Shared: 4.558
+      eu-west-1:
+        Dedicated: 4.522
+        Shared: 4.522
+      us-east-1:
+        Dedicated: 4.018
+        Shared: 4.018
+      us-east-2:
+        Dedicated: 4.018
+        Shared: 4.018
+      us-gov-west-1:
+        Dedicated: 4.81
+        Shared: 4.81
+      us-west-2:
+        Dedicated: 4.018
+        Shared: 4.018
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 5.046
+        Shared: 5.046
+      ap-northeast-2:
+        Dedicated: 4.542
+        Shared: 4.542
+      ap-south-1:
+        Dedicated: 4.038
+        Shared: 4.038
+      ap-southeast-1:
+        Dedicated: 4.614
+        Shared: 4.614
+      ap-southeast-2:
+        Dedicated: 5.226
+        Shared: 5.226
+      AWS GovCloud (US-East):
+        Dedicated: 4.83
+        Shared: 4.83
+      eu-central-1:
+        Dedicated: 4.578
+        Shared: 4.578
+      eu-west-1:
+        Dedicated: 4.542
+        Shared: 4.542
+      us-east-1:
+        Dedicated: 4.038
+        Shared: 4.038
+      us-east-2:
+        Dedicated: 4.038
+        Shared: 4.038
+      us-gov-west-1:
+        Dedicated: 4.83
+        Shared: 4.83
+      us-west-2:
+        Dedicated: 4.038
+        Shared: 4.038
+    Windows:
+      ap-northeast-1:
+        Dedicated: 8.208
+        Shared: 8.208
+      ap-northeast-2:
+        Dedicated: 7.704
+        Shared: 7.704
+      ap-south-1:
+        Dedicated: 7.2
+        Shared: 7.2
+      ap-southeast-1:
+        Dedicated: 7.776
+        Shared: 7.776
+      ap-southeast-2:
+        Dedicated: 8.388
+        Shared: 8.388
+      AWS GovCloud (US-East):
+        Dedicated: 7.992
+        Shared: 7.992
+      eu-central-1:
+        Dedicated: 7.74
+        Shared: 7.74
+      eu-west-1:
+        Dedicated: 7.704
+        Shared: 7.704
+      us-east-1:
+        Dedicated: 7.2
+        Shared: 7.2
+      us-east-2:
+        Dedicated: 7.2
+        Shared: 7.2
+      us-gov-west-1:
+        Dedicated: 7.992
+        Shared: 7.992
+      us-west-2:
+        Dedicated: 7.2
+        Shared: 7.2
+  regions:
+    - ap-southeast-1
+    - ap-northeast-1
+    - us-gov-west-1
+    - ap-northeast-2
+    - us-west-2
+    - ap-southeast-2
+    - ap-south-1
+    - eu-west-1
+    - us-east-2
+    - us-east-1
+    - AWS GovCloud (US-East)
+    - eu-central-1
+  storage: EBS only
+  vcpu: 72
 c5n.xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
