@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:10.13
+      - image: circleci/node:lts
 
     working_directory: ~/repo
 
@@ -33,7 +33,7 @@ jobs:
 
   deploy:
     docker:
-      - image: circleci/node:10.13
+      - image: circleci/node:lts
 
     working_directory: ~/repo
 
