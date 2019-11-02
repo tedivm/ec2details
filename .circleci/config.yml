@@ -27,9 +27,6 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: sudo apt-get update
-      - run: sudo apt-get install jq
-
       # Build api files, but do *not* push back to github.
       # Pushing back to github here could trigger additional builds, causing a loop.
       - run: make download
@@ -59,10 +56,6 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-
-
-      - run: sudo apt-get update
-      - run: sudo apt-get install jq
 
       # Set git configuration so we can push back to github.
       - run: git config --global user.email "tedivm@tedivm.com"

@@ -39,6 +39,8 @@ const regionMap = {
   'AWS GovCloud (US)': 'us-gov-west-1'
 }
 
+process.on('unhandledRejection', up => { throw up })
+
 async function downloadFile (forceDownload = false) {
   if (forceDownload || !await fs.existsSync(productsFile) || !await fs.existsSync(termsFile)) {
     if (forceDownload || !await fs.existsSync(offersFile)) {
@@ -46,10 +48,31 @@ async function downloadFile (forceDownload = false) {
       request.get(offers).pipe(stream)
       await new Promise(fulfill => stream.on('finish', fulfill))
     }
-    await exec(`jq '.products' ${offersFile} > ${productsFile}`)
-    await exec(`jq '.terms.OnDemand' ${offersFile} > ${termsFile}`)
+    await exec(`cat ${offersFile} | npx JSONStream 'products.*' > ${productsFile}`)
+    await exec(`cat ${offersFile} | npx JSONStream 'terms.OnDemand.*' > ${termsFile}`)
   }
   return true
+}
+
+async function getProducts () {
+  await downloadFile()
+  const filesRaw = JSON.parse(fs.readFileSync(productsFile))
+  const filesObj = {}
+  for (const file of filesRaw) {
+    filesObj[file['sku']] = file
+  }
+  return filesObj
+}
+
+async function getTerms () {
+  await downloadFile()
+  const termsRaw = JSON.parse(fs.readFileSync(termsFile))
+  const termsObj = {}
+  for (const term of termsRaw) {
+    const key = Object.keys(term)[0]
+    termsObj[term[key].sku] = term[key]
+  }
+  return termsObj
 }
 
 async function getInstanceDetails () {
@@ -79,14 +102,16 @@ async function getInstanceDetails () {
   ]
 
   await downloadFile()
-  const products = require(productsFile)
-  const terms = require(termsFile)
+
+  const products = await getProducts()
+  const terms = await getTerms()
   const keys = Object.keys(products)
   const instances = {}
 
   for (const key of keys) {
     const sku = products[key].sku
     const serviceDetails = products[key].attributes
+
     if (!serviceDetails['instanceType'] || !serviceDetails['instanceType'].includes('.')) {
       continue
     }
@@ -109,10 +134,8 @@ async function getInstanceDetails () {
 
     if (operatingSystem !== 'NA' && tenancy !== 'Host' && preInstalledSw === 'NA' && terms[sku]) {
       const priceBlock = terms[sku]
-      const offerCodes = Object.keys(priceBlock)
-      const offerCode = offerCodes[0]
-      const priceCode = Object.keys(priceBlock[offerCode]['priceDimensions'])[0]
-      const price = priceBlock[offerCode]['priceDimensions'][priceCode]['pricePerUnit']['USD']
+      const priceCode = Object.keys(priceBlock['priceDimensions'])[0]
+      const price = priceBlock['priceDimensions'][priceCode]['pricePerUnit']['USD']
       if (price > 0) {
         if (!Object.keys(instances[instanceType]['prices']).includes(operatingSystem)) {
           instances[instanceType]['prices'][operatingSystem] = {}

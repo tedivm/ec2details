@@ -12,10 +12,11 @@ clean:
 fresh: clean dependencies
 
 download:
-	#./bin/instance_details.js download
-	curl -L https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/index.json > /tmp/aws_ec2_services.json
-	jq '.products' /tmp/aws_ec2_services.json > /tmp/aws_ec2_products.json
-	jq '.terms.OnDemand' /tmp/aws_ec2_services.json > /tmp/aws_ec2_terms.json
+	echo Downloading AWS Offers file.
+	curl -Ls https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/index.json > /tmp/aws_ec2_services.json
+	echo Generating Products File
+	echo Generating Terms File
+	cat /tmp/aws_ec2_services.json | npx JSONStream 'terms.OnDemand.*' > /tmp/aws_ec2_terms.json
 
 api:
 	node --max-old-space-size=4096 ./bin/instance_details.js yaml > ./api/ec2instances.yaml
