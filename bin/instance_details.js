@@ -1,11 +1,16 @@
 #!/usr/bin/env node
 const program = require('commander')
-const stringify = require('json-stable-stringify')
-const rp = require('request-promise-native')
+const stringify = require('fast-json-stable-stringify')
+const request = require('request')
 const fs = require('mz/fs')
+const yaml = require('js-yaml')
+const util = require('util')
+const exec = util.promisify(require('child_process').exec)
+
 const offers = 'https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/index.json'
 const offersFile = '/tmp/aws_ec2_services.json'
-const yaml = require('js-yaml')
+const productsFile = '/tmp/aws_ec2_products.json'
+const termsFile = '/tmp/aws_ec2_terms.json'
 
 const regionMap = {
   'US East (Ohio)': 'us-east-2',
@@ -35,13 +40,16 @@ const regionMap = {
 }
 
 async function downloadFile (forceDownload = false) {
-  if (forceDownload || !await fs.existsSync(offersFile)) {
-    const offersString = await rp(offers)
-    await fs.writeFile(offersFile, offersString)
-    return JSON.parse(offersString)
+  if (forceDownload || !await fs.existsSync(productsFile) || !await fs.existsSync(termsFile)) {
+    if (forceDownload || !await fs.existsSync(offersFile)) {
+      const stream = fs.createWriteStream(offersFile)
+      request.get(offers).pipe(stream)
+      await new Promise(fulfill => stream.on('finish', fulfill))
+    }
+    await exec(`jq '.products' ${offersFile} > ${productsFile}`)
+    await exec(`jq '.terms.OnDemand' ${offersFile} > ${termsFile}`)
   }
-  const fileContents = await fs.readFile(offersFile)
-  return JSON.parse(fileContents)
+  return true
 }
 
 async function getInstanceDetails () {
@@ -70,13 +78,15 @@ async function getInstanceDetails () {
     'ecu'
   ]
 
-  const json = await downloadFile()
-  const keys = Object.keys(json.products)
+  await downloadFile()
+  const products = require(productsFile)
+  const terms = require(termsFile)
+  const keys = Object.keys(products)
   const instances = {}
 
   for (const key of keys) {
-    const sku = json.products[key].sku
-    const serviceDetails = json.products[key].attributes
+    const sku = products[key].sku
+    const serviceDetails = products[key].attributes
     if (!serviceDetails['instanceType'] || !serviceDetails['instanceType'].includes('.')) {
       continue
     }
@@ -97,8 +107,8 @@ async function getInstanceDetails () {
       instances[instanceType]['regions'].push(region)
     }
 
-    if (operatingSystem !== 'NA' && tenancy !== 'Host' && preInstalledSw === 'NA' && json.terms.OnDemand[sku]) {
-      const priceBlock = json.terms.OnDemand[sku]
+    if (operatingSystem !== 'NA' && tenancy !== 'Host' && preInstalledSw === 'NA' && terms[sku]) {
+      const priceBlock = terms[sku]
       const offerCodes = Object.keys(priceBlock)
       const offerCode = offerCodes[0]
       const priceCode = Object.keys(priceBlock[offerCode]['priceDimensions'])[0]
@@ -144,7 +154,7 @@ function instanceSort (a, b) {
 }
 
 program
-  .version('0.1.0')
+  .version('0.2.0')
 
 program
   .command('download')
