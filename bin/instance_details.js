@@ -36,7 +36,8 @@ const regionMap = {
   // No pricing currently available.
   'China (Beijing)': 'cn-north-1',
   'China (Ningxia)': 'cn-northwest-1',
-  'AWS GovCloud (US)': 'us-gov-west-1'
+  'AWS GovCloud (US-West)': 'us-gov-west-1',
+  'AWS GovCloud (US-East)': 'us-gov-east-1'
 }
 
 process.on('unhandledRejection', up => { throw up })
