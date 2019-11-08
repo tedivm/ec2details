@@ -5269,7 +5269,7 @@ c5d.12xlarge:
   dedicatedEbsThroughput: 7000 Mbps
   ecu: 188
   enhancedNetworkingSupported: true
-  memory: 128 GiB
+  memory: 96 GiB
   networkPerformance: 12 Gigabit
   normalizationSizeFactor: 96
   physicalProcessor: Intel Xeon Platinum 8275L
@@ -5786,7 +5786,7 @@ c5d.24xlarge:
   dedicatedEbsThroughput: 14000 Mbps
   ecu: 375
   enhancedNetworkingSupported: true
-  memory: 256 GiB
+  memory: 192 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
   physicalProcessor: Intel Xeon Platinum 8275L
@@ -7176,7 +7176,7 @@ c5d.metal:
   dedicatedEbsThroughput: 14000 Mbps
   ecu: 375
   enhancedNetworkingSupported: true
-  memory: 256 GiB
+  memory: 192 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
   physicalProcessor: Intel Xeon Platinum 8275L
