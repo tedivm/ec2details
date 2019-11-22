@@ -15,6 +15,9 @@ a1.2xlarge:
       ap-south-1:
         Dedicated: 0.217
         Shared: 0.204
+      ap-southeast-1:
+        Dedicated: 0.2501
+        Shared: 0.2352
       ap-southeast-2:
         Dedicated: 0.2825
         Shared: 0.2664
@@ -40,6 +43,9 @@ a1.2xlarge:
       ap-south-1:
         Dedicated: 0.347
         Shared: 0.334
+      ap-southeast-1:
+        Dedicated: 0.3801
+        Shared: 0.3652
       ap-southeast-2:
         Dedicated: 0.4125
         Shared: 0.3964
@@ -65,6 +71,9 @@ a1.2xlarge:
       ap-south-1:
         Dedicated: 0.367
         Shared: 0.354
+      ap-southeast-1:
+        Dedicated: 0.4001
+        Shared: 0.3852
       ap-southeast-2:
         Dedicated: 0.4325
         Shared: 0.4164
@@ -92,6 +101,7 @@ a1.2xlarge:
     - us-east-1
     - eu-central-1
     - ap-south-1
+    - ap-southeast-1
   storage: EBS only
   vcpu: 8
 a1.4xlarge:
@@ -111,6 +121,9 @@ a1.4xlarge:
       ap-south-1:
         Dedicated: 0.408
         Shared: 0.408
+      ap-southeast-1:
+        Dedicated: 0.4704
+        Shared: 0.4704
       ap-southeast-2:
         Dedicated: 0.5328
         Shared: 0.5328
@@ -136,6 +149,9 @@ a1.4xlarge:
       ap-south-1:
         Dedicated: 0.538
         Shared: 0.538
+      ap-southeast-1:
+        Dedicated: 0.6004
+        Shared: 0.6004
       ap-southeast-2:
         Dedicated: 0.6628
         Shared: 0.6628
@@ -161,6 +177,9 @@ a1.4xlarge:
       ap-south-1:
         Dedicated: 0.558
         Shared: 0.558
+      ap-southeast-1:
+        Dedicated: 0.6204
+        Shared: 0.6204
       ap-southeast-2:
         Dedicated: 0.6828
         Shared: 0.6828
@@ -187,6 +206,7 @@ a1.4xlarge:
     - eu-central-1
     - us-west-2
     - eu-west-1
+    - ap-southeast-1
     - ap-northeast-1
   storage: EBS only
   vcpu: 16
@@ -207,6 +227,9 @@ a1.large:
       ap-south-1:
         Dedicated: 0.0542
         Shared: 0.051
+      ap-southeast-1:
+        Dedicated: 0.0625
+        Shared: 0.0588
       ap-southeast-2:
         Dedicated: 0.0706
         Shared: 0.0666
@@ -232,6 +255,9 @@ a1.large:
       ap-south-1:
         Dedicated: 0.1142
         Shared: 0.111
+      ap-southeast-1:
+        Dedicated: 0.1225
+        Shared: 0.1188
       ap-southeast-2:
         Dedicated: 0.1306
         Shared: 0.1266
@@ -257,6 +283,9 @@ a1.large:
       ap-south-1:
         Dedicated: 0.1172
         Shared: 0.114
+      ap-southeast-1:
+        Dedicated: 0.1255
+        Shared: 0.1218
       ap-southeast-2:
         Dedicated: 0.1336
         Shared: 0.1296
@@ -283,6 +312,7 @@ a1.large:
     - ap-northeast-1
     - eu-west-1
     - ap-southeast-2
+    - ap-southeast-1
     - us-east-1
   storage: EBS only
   vcpu: 2
@@ -303,6 +333,9 @@ a1.medium:
       ap-south-1:
         Dedicated: 0.0271
         Shared: 0.0255
+      ap-southeast-1:
+        Dedicated: 0.0313
+        Shared: 0.0294
       ap-southeast-2:
         Dedicated: 0.0353
         Shared: 0.0333
@@ -328,6 +361,9 @@ a1.medium:
       ap-south-1:
         Dedicated: 0.0871
         Shared: 0.0855
+      ap-southeast-1:
+        Dedicated: 0.0913
+        Shared: 0.0894
       ap-southeast-2:
         Dedicated: 0.0953
         Shared: 0.0933
@@ -353,6 +389,9 @@ a1.medium:
       ap-south-1:
         Dedicated: 0.0581
         Shared: 0.0565
+      ap-southeast-1:
+        Dedicated: 0.0623
+        Shared: 0.0604
       ap-southeast-2:
         Dedicated: 0.0663
         Shared: 0.0643
@@ -377,6 +416,7 @@ a1.medium:
     - ap-south-1
     - ap-southeast-2
     - us-east-1
+    - ap-southeast-1
     - us-west-2
     - us-east-2
     - eu-west-1
@@ -396,6 +436,9 @@ a1.metal:
       ap-south-1:
         Dedicated: 0.408
         Shared: 0.408
+      ap-southeast-1:
+        Dedicated: 0.47
+        Shared: 0.47
       ap-southeast-2:
         Dedicated: 0.533
         Shared: 0.533
@@ -421,6 +464,9 @@ a1.metal:
       ap-south-1:
         Dedicated: 0.538
         Shared: 0.538
+      ap-southeast-1:
+        Dedicated: 0.6
+        Shared: 0.6
       ap-southeast-2:
         Dedicated: 0.663
         Shared: 0.663
@@ -446,6 +492,9 @@ a1.metal:
       ap-south-1:
         Dedicated: 0.558
         Shared: 0.558
+      ap-southeast-1:
+        Dedicated: 0.62
+        Shared: 0.62
       ap-southeast-2:
         Dedicated: 0.683
         Shared: 0.683
@@ -473,6 +522,7 @@ a1.metal:
     - ap-southeast-2
     - eu-central-1
     - eu-west-1
+    - ap-southeast-1
   storage: EBS only
   vcpu: 16
 a1.xlarge:
@@ -492,6 +542,9 @@ a1.xlarge:
       ap-south-1:
         Dedicated: 0.1085
         Shared: 0.102
+      ap-southeast-1:
+        Dedicated: 0.125
+        Shared: 0.1176
       ap-southeast-2:
         Dedicated: 0.1412
         Shared: 0.1332
@@ -517,6 +570,9 @@ a1.xlarge:
       ap-south-1:
         Dedicated: 0.1685
         Shared: 0.162
+      ap-southeast-1:
+        Dedicated: 0.185
+        Shared: 0.1776
       ap-southeast-2:
         Dedicated: 0.2012
         Shared: 0.1932
@@ -542,6 +598,9 @@ a1.xlarge:
       ap-south-1:
         Dedicated: 0.2335
         Shared: 0.227
+      ap-southeast-1:
+        Dedicated: 0.25
+        Shared: 0.2426
       ap-southeast-2:
         Dedicated: 0.2662
         Shared: 0.2582
@@ -562,6 +621,7 @@ a1.xlarge:
         Shared: 0.227
   regions:
     - us-east-1
+    - ap-southeast-1
     - eu-central-1
     - ap-northeast-1
     - us-west-2
@@ -11547,6 +11607,9 @@ g4dn.12xlarge:
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 6.386
+        Shared: 6.024
       ap-northeast-1:
         Dedicated: 5.624
         Shared: 5.281
@@ -11580,6 +11643,9 @@ g4dn.12xlarge:
       eu-west-3:
         Dedicated: 4.848
         Shared: 4.574
+      me-south-1:
+        Dedicated: 5.11
+        Shared: 4.798
       sa-east-1:
         Dedicated: 7.081
         Shared: 6.649
@@ -11599,6 +11665,9 @@ g4dn.12xlarge:
         Dedicated: 4.147
         Shared: 3.912
     RHEL:
+      ap-east-1:
+        Dedicated: 6.516
+        Shared: 6.154
       ap-northeast-1:
         Dedicated: 5.754
         Shared: 5.411
@@ -11632,6 +11701,9 @@ g4dn.12xlarge:
       eu-west-3:
         Dedicated: 4.978
         Shared: 4.704
+      me-south-1:
+        Dedicated: 5.24
+        Shared: 4.928
       sa-east-1:
         Dedicated: 7.211
         Shared: 6.779
@@ -11651,6 +11723,9 @@ g4dn.12xlarge:
         Dedicated: 4.277
         Shared: 4.042
     SUSE:
+      ap-east-1:
+        Dedicated: 6.536
+        Shared: 6.174
       ap-northeast-1:
         Dedicated: 5.774
         Shared: 5.431
@@ -11684,6 +11759,9 @@ g4dn.12xlarge:
       eu-west-3:
         Dedicated: 4.998
         Shared: 4.724
+      me-south-1:
+        Dedicated: 5.26
+        Shared: 4.948
       sa-east-1:
         Dedicated: 7.231
         Shared: 6.799
@@ -11703,6 +11781,9 @@ g4dn.12xlarge:
         Dedicated: 4.297
         Shared: 4.062
     Windows:
+      ap-east-1:
+        Dedicated: 8.594
+        Shared: 8.232
       ap-northeast-1:
         Dedicated: 7.832
         Shared: 7.489
@@ -11736,6 +11817,9 @@ g4dn.12xlarge:
       eu-west-3:
         Dedicated: 7.056
         Shared: 6.782
+      me-south-1:
+        Dedicated: 7.318
+        Shared: 7.006
       sa-east-1:
         Dedicated: 9.289
         Shared: 8.857
@@ -11755,6 +11839,7 @@ g4dn.12xlarge:
         Dedicated: 6.355
         Shared: 6.12
   regions:
+    - ap-east-1
     - us-west-1
     - ap-south-1
     - ap-northeast-1
@@ -11769,6 +11854,7 @@ g4dn.12xlarge:
     - ap-southeast-2
     - eu-west-2
     - eu-west-1
+    - me-south-1
     - ap-northeast-2
     - us-west-2
     - ca-central-1
@@ -11782,6 +11868,9 @@ g4dn.16xlarge:
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 7.104
+        Shared: 6.702
       ap-northeast-1:
         Dedicated: 6.257
         Shared: 5.875
@@ -11815,6 +11904,9 @@ g4dn.16xlarge:
       eu-west-3:
         Dedicated: 5.394
         Shared: 5.088
+      me-south-1:
+        Dedicated: 5.685
+        Shared: 5.338
       sa-east-1:
         Dedicated: 7.878
         Shared: 7.397
@@ -11834,6 +11926,9 @@ g4dn.16xlarge:
         Dedicated: 4.613
         Shared: 4.352
     RHEL:
+      ap-east-1:
+        Dedicated: 7.234
+        Shared: 6.832
       ap-northeast-1:
         Dedicated: 6.387
         Shared: 6.005
@@ -11867,6 +11962,9 @@ g4dn.16xlarge:
       eu-west-3:
         Dedicated: 5.524
         Shared: 5.218
+      me-south-1:
+        Dedicated: 5.815
+        Shared: 5.468
       sa-east-1:
         Dedicated: 8.008
         Shared: 7.527
@@ -11886,6 +11984,9 @@ g4dn.16xlarge:
         Dedicated: 4.743
         Shared: 4.482
     SUSE:
+      ap-east-1:
+        Dedicated: 7.254
+        Shared: 6.852
       ap-northeast-1:
         Dedicated: 6.407
         Shared: 6.025
@@ -11919,6 +12020,9 @@ g4dn.16xlarge:
       eu-west-3:
         Dedicated: 5.544
         Shared: 5.238
+      me-south-1:
+        Dedicated: 5.835
+        Shared: 5.488
       sa-east-1:
         Dedicated: 8.028
         Shared: 7.547
@@ -11938,6 +12042,9 @@ g4dn.16xlarge:
         Dedicated: 4.763
         Shared: 4.502
     Windows:
+      ap-east-1:
+        Dedicated: 10.048
+        Shared: 9.646
       ap-northeast-1:
         Dedicated: 9.201
         Shared: 8.819
@@ -11971,6 +12078,9 @@ g4dn.16xlarge:
       eu-west-3:
         Dedicated: 8.338
         Shared: 8.032
+      me-south-1:
+        Dedicated: 8.629
+        Shared: 8.282
       sa-east-1:
         Dedicated: 10.822
         Shared: 10.341
@@ -11992,6 +12102,8 @@ g4dn.16xlarge:
   regions:
     - eu-west-2
     - us-gov-west-1
+    - me-south-1
+    - ap-east-1
     - us-east-2
     - ap-south-1
     - ap-southeast-1
@@ -12017,6 +12129,9 @@ g4dn.2xlarge:
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.228
+        Shared: 1.158
       ap-northeast-1:
         Dedicated: 1.081
         Shared: 1.015
@@ -12050,6 +12165,9 @@ g4dn.2xlarge:
       eu-west-3:
         Dedicated: 0.932
         Shared: 0.879
+      me-south-1:
+        Dedicated: 0.982
+        Shared: 0.922
       sa-east-1:
         Dedicated: 1.361
         Shared: 1.278
@@ -12069,6 +12187,9 @@ g4dn.2xlarge:
         Dedicated: 0.797
         Shared: 0.752
     RHEL:
+      ap-east-1:
+        Dedicated: 1.358
+        Shared: 1.288
       ap-northeast-1:
         Dedicated: 1.211
         Shared: 1.145
@@ -12102,6 +12223,9 @@ g4dn.2xlarge:
       eu-west-3:
         Dedicated: 1.062
         Shared: 1.009
+      me-south-1:
+        Dedicated: 1.112
+        Shared: 1.052
       sa-east-1:
         Dedicated: 1.491
         Shared: 1.408
@@ -12121,6 +12245,9 @@ g4dn.2xlarge:
         Dedicated: 0.927
         Shared: 0.882
     SUSE:
+      ap-east-1:
+        Dedicated: 1.378
+        Shared: 1.308
       ap-northeast-1:
         Dedicated: 1.231
         Shared: 1.165
@@ -12154,6 +12281,9 @@ g4dn.2xlarge:
       eu-west-3:
         Dedicated: 1.082
         Shared: 1.029
+      me-south-1:
+        Dedicated: 1.132
+        Shared: 1.072
       sa-east-1:
         Dedicated: 1.511
         Shared: 1.428
@@ -12173,6 +12303,9 @@ g4dn.2xlarge:
         Dedicated: 0.947
         Shared: 0.902
     Windows:
+      ap-east-1:
+        Dedicated: 1.596
+        Shared: 1.526
       ap-northeast-1:
         Dedicated: 1.449
         Shared: 1.383
@@ -12206,6 +12339,9 @@ g4dn.2xlarge:
       eu-west-3:
         Dedicated: 1.3
         Shared: 1.247
+      me-south-1:
+        Dedicated: 1.35
+        Shared: 1.29
       sa-east-1:
         Dedicated: 1.729
         Shared: 1.646
@@ -12229,12 +12365,14 @@ g4dn.2xlarge:
     - us-west-1
     - ap-northeast-2
     - ca-central-1
+    - me-south-1
     - eu-west-1
     - ap-southeast-1
     - us-east-2
     - ap-southeast-2
     - us-east-1
     - us-gov-west-1
+    - ap-east-1
     - eu-north-1
     - eu-central-1
     - sa-east-1
@@ -12252,6 +12390,9 @@ g4dn.4xlarge:
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.965
+        Shared: 1.854
       ap-northeast-1:
         Dedicated: 1.731
         Shared: 1.625
@@ -12285,6 +12426,9 @@ g4dn.4xlarge:
       eu-west-3:
         Dedicated: 1.492
         Shared: 1.408
+      me-south-1:
+        Dedicated: 1.573
+        Shared: 1.477
       sa-east-1:
         Dedicated: 2.179
         Shared: 2.046
@@ -12304,6 +12448,9 @@ g4dn.4xlarge:
         Dedicated: 1.276
         Shared: 1.204
     RHEL:
+      ap-east-1:
+        Dedicated: 2.095
+        Shared: 1.984
       ap-northeast-1:
         Dedicated: 1.861
         Shared: 1.755
@@ -12337,6 +12484,9 @@ g4dn.4xlarge:
       eu-west-3:
         Dedicated: 1.622
         Shared: 1.538
+      me-south-1:
+        Dedicated: 1.703
+        Shared: 1.607
       sa-east-1:
         Dedicated: 2.309
         Shared: 2.176
@@ -12356,6 +12506,9 @@ g4dn.4xlarge:
         Dedicated: 1.406
         Shared: 1.334
     SUSE:
+      ap-east-1:
+        Dedicated: 2.115
+        Shared: 2.004
       ap-northeast-1:
         Dedicated: 1.881
         Shared: 1.775
@@ -12389,6 +12542,9 @@ g4dn.4xlarge:
       eu-west-3:
         Dedicated: 1.642
         Shared: 1.558
+      me-south-1:
+        Dedicated: 1.723
+        Shared: 1.627
       sa-east-1:
         Dedicated: 2.329
         Shared: 2.196
@@ -12408,6 +12564,9 @@ g4dn.4xlarge:
         Dedicated: 1.426
         Shared: 1.354
     Windows:
+      ap-east-1:
+        Dedicated: 2.701
+        Shared: 2.59
       ap-northeast-1:
         Dedicated: 2.467
         Shared: 2.361
@@ -12441,6 +12600,9 @@ g4dn.4xlarge:
       eu-west-3:
         Dedicated: 2.228
         Shared: 2.144
+      me-south-1:
+        Dedicated: 2.309
+        Shared: 2.213
       sa-east-1:
         Dedicated: 2.915
         Shared: 2.782
@@ -12466,7 +12628,9 @@ g4dn.4xlarge:
     - us-east-2
     - us-west-1
     - eu-west-3
+    - ap-east-1
     - us-east-1
+    - me-south-1
     - eu-west-1
     - ap-southeast-2
     - ap-south-1
@@ -12487,6 +12651,9 @@ g4dn.8xlarge:
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 3.552
+        Shared: 3.351
       ap-northeast-1:
         Dedicated: 3.129
         Shared: 2.938
@@ -12520,6 +12687,9 @@ g4dn.8xlarge:
       eu-west-3:
         Dedicated: 2.697
         Shared: 2.544
+      me-south-1:
+        Dedicated: 2.842
+        Shared: 2.669
       sa-east-1:
         Dedicated: 3.939
         Shared: 3.698
@@ -12539,6 +12709,9 @@ g4dn.8xlarge:
         Dedicated: 2.307
         Shared: 2.176
     RHEL:
+      ap-east-1:
+        Dedicated: 3.682
+        Shared: 3.481
       ap-northeast-1:
         Dedicated: 3.259
         Shared: 3.068
@@ -12572,6 +12745,9 @@ g4dn.8xlarge:
       eu-west-3:
         Dedicated: 2.827
         Shared: 2.674
+      me-south-1:
+        Dedicated: 2.972
+        Shared: 2.799
       sa-east-1:
         Dedicated: 4.069
         Shared: 3.828
@@ -12591,6 +12767,9 @@ g4dn.8xlarge:
         Dedicated: 2.437
         Shared: 2.306
     SUSE:
+      ap-east-1:
+        Dedicated: 3.702
+        Shared: 3.501
       ap-northeast-1:
         Dedicated: 3.279
         Shared: 3.088
@@ -12624,6 +12803,9 @@ g4dn.8xlarge:
       eu-west-3:
         Dedicated: 2.847
         Shared: 2.694
+      me-south-1:
+        Dedicated: 2.992
+        Shared: 2.819
       sa-east-1:
         Dedicated: 4.089
         Shared: 3.848
@@ -12643,6 +12825,9 @@ g4dn.8xlarge:
         Dedicated: 2.457
         Shared: 2.326
     Windows:
+      ap-east-1:
+        Dedicated: 5.024
+        Shared: 4.823
       ap-northeast-1:
         Dedicated: 4.601
         Shared: 4.41
@@ -12676,6 +12861,9 @@ g4dn.8xlarge:
       eu-west-3:
         Dedicated: 4.169
         Shared: 4.016
+      me-south-1:
+        Dedicated: 4.314
+        Shared: 4.141
       sa-east-1:
         Dedicated: 5.411
         Shared: 5.17
@@ -12695,7 +12883,9 @@ g4dn.8xlarge:
         Dedicated: 3.779
         Shared: 3.648
   regions:
+    - ap-east-1
     - eu-west-2
+    - me-south-1
     - eu-west-1
     - us-east-1
     - ca-central-1
@@ -12727,6 +12917,7 @@ g4dn.metal:
     - us-east-1
     - us-west-2
     - eu-west-2
+    - ap-east-1
     - us-west-1
     - ap-southeast-1
     - eu-west-3
@@ -12734,6 +12925,7 @@ g4dn.metal:
     - us-gov-west-1
     - eu-west-1
     - ap-northeast-1
+    - me-south-1
     - us-east-2
     - ca-central-1
     - ap-south-1
@@ -12747,6 +12939,9 @@ g4dn.xlarge:
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.859
+        Shared: 0.81
       ap-northeast-1:
         Dedicated: 0.756
         Shared: 0.71
@@ -12780,6 +12975,9 @@ g4dn.xlarge:
       eu-west-3:
         Dedicated: 0.652
         Shared: 0.615
+      me-south-1:
+        Dedicated: 0.687
+        Shared: 0.645
       sa-east-1:
         Dedicated: 0.952
         Shared: 0.894
@@ -12799,6 +12997,9 @@ g4dn.xlarge:
         Dedicated: 0.558
         Shared: 0.526
     RHEL:
+      ap-east-1:
+        Dedicated: 0.919
+        Shared: 0.87
       ap-northeast-1:
         Dedicated: 0.816
         Shared: 0.77
@@ -12832,6 +13033,9 @@ g4dn.xlarge:
       eu-west-3:
         Dedicated: 0.712
         Shared: 0.675
+      me-south-1:
+        Dedicated: 0.747
+        Shared: 0.705
       sa-east-1:
         Dedicated: 1.012
         Shared: 0.954
@@ -12851,6 +13055,9 @@ g4dn.xlarge:
         Dedicated: 0.618
         Shared: 0.586
     SUSE:
+      ap-east-1:
+        Dedicated: 0.984
+        Shared: 0.935
       ap-northeast-1:
         Dedicated: 0.881
         Shared: 0.835
@@ -12884,6 +13091,9 @@ g4dn.xlarge:
       eu-west-3:
         Dedicated: 0.777
         Shared: 0.74
+      me-south-1:
+        Dedicated: 0.812
+        Shared: 0.77
       sa-east-1:
         Dedicated: 1.077
         Shared: 1.019
@@ -12903,6 +13113,9 @@ g4dn.xlarge:
         Dedicated: 0.683
         Shared: 0.651
     Windows:
+      ap-east-1:
+        Dedicated: 1.043
+        Shared: 0.994
       ap-northeast-1:
         Dedicated: 0.94
         Shared: 0.894
@@ -12936,6 +13149,9 @@ g4dn.xlarge:
       eu-west-3:
         Dedicated: 0.836
         Shared: 0.799
+      me-south-1:
+        Dedicated: 0.871
+        Shared: 0.829
       sa-east-1:
         Dedicated: 1.136
         Shared: 1.078
@@ -12958,12 +13174,14 @@ g4dn.xlarge:
     - us-west-2
     - eu-west-2
     - ap-southeast-2
+    - ap-east-1
     - ap-northeast-2
     - ap-northeast-1
     - ap-south-1
     - ap-southeast-1
     - us-east-2
     - ca-central-1
+    - me-south-1
     - eu-west-1
     - us-west-1
     - eu-central-1
