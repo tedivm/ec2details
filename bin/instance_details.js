@@ -17,6 +17,7 @@ const regionMap = {
   'US East (N. Virginia)': 'us-east-1',
   'US West (N. California)': 'us-west-1',
   'US West (Oregon)': 'us-west-2',
+  'US West (Los Angeles)': 'us-west-3',
   'Asia Pacific (Hong Kong)': 'ap-east-1',
   'Asia Pacific (Tokyo)': 'ap-northeast-1',
   'Asia Pacific (Seoul)': 'ap-northeast-2',
