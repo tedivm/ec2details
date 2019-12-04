@@ -2885,9 +2885,6 @@ c5.12xlarge:
       sa-east-1:
         Dedicated: 3.357
         Shared: 3.144
-      US West (Los Angeles):
-        Dedicated: 2.596
-        Shared: 2.448
       us-east-1:
         Dedicated: 2.162
         Shared: 2.04
@@ -2903,6 +2900,9 @@ c5.12xlarge:
       us-west-2:
         Dedicated: 2.162
         Shared: 2.04
+      us-west-2-lax-1a:
+        Dedicated: 2.596
+        Shared: 2.448
     RHEL:
       ap-northeast-1:
         Dedicated: 2.874
@@ -2943,9 +2943,6 @@ c5.12xlarge:
       sa-east-1:
         Dedicated: 3.487
         Shared: 3.274
-      US West (Los Angeles):
-        Dedicated: 2.726
-        Shared: 2.578
       us-east-1:
         Dedicated: 2.292
         Shared: 2.17
@@ -2961,6 +2958,9 @@ c5.12xlarge:
       us-west-2:
         Dedicated: 2.292
         Shared: 2.17
+      us-west-2-lax-1a:
+        Dedicated: 2.726
+        Shared: 2.578
     SUSE:
       ap-northeast-1:
         Dedicated: 2.844
@@ -3001,9 +3001,6 @@ c5.12xlarge:
       sa-east-1:
         Dedicated: 3.457
         Shared: 3.244
-      US West (Los Angeles):
-        Dedicated: 2.696
-        Shared: 2.548
       us-east-1:
         Dedicated: 2.262
         Shared: 2.14
@@ -3019,6 +3016,9 @@ c5.12xlarge:
       us-west-2:
         Dedicated: 2.262
         Shared: 2.14
+      us-west-2-lax-1a:
+        Dedicated: 2.696
+        Shared: 2.548
     Windows:
       ap-northeast-1:
         Dedicated: 4.952
@@ -3059,9 +3059,6 @@ c5.12xlarge:
       sa-east-1:
         Dedicated: 5.565
         Shared: 5.352
-      US West (Los Angeles):
-        Dedicated: 4.804
-        Shared: 4.656
       us-east-1:
         Dedicated: 4.37
         Shared: 4.248
@@ -3077,6 +3074,9 @@ c5.12xlarge:
       us-west-2:
         Dedicated: 4.37
         Shared: 4.248
+      us-west-2-lax-1a:
+        Dedicated: 4.804
+        Shared: 4.656
   regions:
     - eu-west-2
     - us-east-2
@@ -3092,7 +3092,7 @@ c5.12xlarge:
     - ap-south-1
     - eu-west-1
     - us-west-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-southeast-1
     - us-gov-west-1
     - ap-northeast-1
@@ -3156,9 +3156,6 @@ c5.18xlarge:
       sa-east-1:
         Dedicated: 4.716
         Shared: 4.716
-      US West (Los Angeles):
-        Dedicated: 3.672
-        Shared: 3.672
       us-east-1:
         Dedicated: 3.06
         Shared: 3.06
@@ -3177,6 +3174,9 @@ c5.18xlarge:
       us-west-2:
         Dedicated: 3.06
         Shared: 3.06
+      us-west-2-lax-1a:
+        Dedicated: 3.672
+        Shared: 3.672
     RHEL:
       ap-east-1:
         Dedicated: 4.018
@@ -3223,9 +3223,6 @@ c5.18xlarge:
       sa-east-1:
         Dedicated: 4.846
         Shared: 4.846
-      US West (Los Angeles):
-        Dedicated: 3.802
-        Shared: 3.802
       us-east-1:
         Dedicated: 3.19
         Shared: 3.19
@@ -3244,6 +3241,9 @@ c5.18xlarge:
       us-west-2:
         Dedicated: 3.19
         Shared: 3.19
+      us-west-2-lax-1a:
+        Dedicated: 3.802
+        Shared: 3.802
     SUSE:
       ap-east-1:
         Dedicated: 3.988
@@ -3290,9 +3290,6 @@ c5.18xlarge:
       sa-east-1:
         Dedicated: 4.816
         Shared: 4.816
-      US West (Los Angeles):
-        Dedicated: 3.772
-        Shared: 3.772
       us-east-1:
         Dedicated: 3.16
         Shared: 3.16
@@ -3311,6 +3308,9 @@ c5.18xlarge:
       us-west-2:
         Dedicated: 3.16
         Shared: 3.16
+      us-west-2-lax-1a:
+        Dedicated: 3.772
+        Shared: 3.772
     Windows:
       ap-east-1:
         Dedicated: 7.2
@@ -3357,9 +3357,6 @@ c5.18xlarge:
       sa-east-1:
         Dedicated: 8.028
         Shared: 4.716
-      US West (Los Angeles):
-        Dedicated: 6.984
-        Shared: 6.984
       us-east-1:
         Dedicated: 3.06
         Shared: 6.372
@@ -3378,6 +3375,9 @@ c5.18xlarge:
       us-west-2:
         Dedicated: 6.372
         Shared: 6.372
+      us-west-2-lax-1a:
+        Dedicated: 6.984
+        Shared: 6.984
   regions:
     - eu-west-2
     - ap-northeast-2
@@ -3396,7 +3396,7 @@ c5.18xlarge:
     - eu-north-1
     - ap-northeast-1
     - me-south-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - sa-east-1
     - eu-west-3
     - us-east-1
@@ -3454,9 +3454,6 @@ c5.24xlarge:
       sa-east-1:
         Dedicated: 6.715
         Shared: 6.288
-      US West (Los Angeles):
-        Dedicated: 5.192
-        Shared: 4.896
       us-east-1:
         Dedicated: 4.325
         Shared: 4.08
@@ -3472,6 +3469,9 @@ c5.24xlarge:
       us-west-2:
         Dedicated: 4.325
         Shared: 4.08
+      us-west-2-lax-1a:
+        Dedicated: 5.192
+        Shared: 4.896
     RHEL:
       ap-northeast-1:
         Dedicated: 5.617
@@ -3512,9 +3512,6 @@ c5.24xlarge:
       sa-east-1:
         Dedicated: 6.845
         Shared: 6.418
-      US West (Los Angeles):
-        Dedicated: 5.322
-        Shared: 5.026
       us-east-1:
         Dedicated: 4.455
         Shared: 4.21
@@ -3530,6 +3527,9 @@ c5.24xlarge:
       us-west-2:
         Dedicated: 4.455
         Shared: 4.21
+      us-west-2-lax-1a:
+        Dedicated: 5.322
+        Shared: 5.026
     SUSE:
       ap-northeast-1:
         Dedicated: 5.587
@@ -3570,9 +3570,6 @@ c5.24xlarge:
       sa-east-1:
         Dedicated: 6.815
         Shared: 6.388
-      US West (Los Angeles):
-        Dedicated: 5.292
-        Shared: 4.996
       us-east-1:
         Dedicated: 4.425
         Shared: 4.18
@@ -3588,6 +3585,9 @@ c5.24xlarge:
       us-west-2:
         Dedicated: 4.425
         Shared: 4.18
+      us-west-2-lax-1a:
+        Dedicated: 5.292
+        Shared: 4.996
     Windows:
       ap-northeast-1:
         Dedicated: 9.903
@@ -3628,9 +3628,6 @@ c5.24xlarge:
       sa-east-1:
         Dedicated: 11.131
         Shared: 10.704
-      US West (Los Angeles):
-        Dedicated: 9.608
-        Shared: 9.312
       us-east-1:
         Dedicated: 8.741
         Shared: 8.496
@@ -3646,6 +3643,9 @@ c5.24xlarge:
       us-west-2:
         Dedicated: 8.741
         Shared: 8.496
+      us-west-2-lax-1a:
+        Dedicated: 9.608
+        Shared: 9.312
   regions:
     - eu-west-1
     - ap-northeast-2
@@ -3653,7 +3653,7 @@ c5.24xlarge:
     - eu-north-1
     - me-south-1
     - ca-central-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - eu-central-1
     - us-east-2
     - ap-southeast-1
@@ -3725,9 +3725,6 @@ c5.2xlarge:
       sa-east-1:
         Dedicated: 0.56
         Shared: 0.524
-      US West (Los Angeles):
-        Dedicated: 0.433
-        Shared: 0.408
       us-east-1:
         Dedicated: 0.36
         Shared: 0.34
@@ -3746,6 +3743,9 @@ c5.2xlarge:
       us-west-2:
         Dedicated: 0.36
         Shared: 0.34
+      us-west-2-lax-1a:
+        Dedicated: 0.433
+        Shared: 0.408
     RHEL:
       ap-east-1:
         Dedicated: 0.59
@@ -3792,9 +3792,6 @@ c5.2xlarge:
       sa-east-1:
         Dedicated: 0.69
         Shared: 0.654
-      US West (Los Angeles):
-        Dedicated: 0.563
-        Shared: 0.538
       us-east-1:
         Dedicated: 0.49
         Shared: 0.47
@@ -3813,6 +3810,9 @@ c5.2xlarge:
       us-west-2:
         Dedicated: 0.49
         Shared: 0.47
+      us-west-2-lax-1a:
+        Dedicated: 0.563
+        Shared: 0.538
     SUSE:
       ap-east-1:
         Dedicated: 0.56
@@ -3859,9 +3859,6 @@ c5.2xlarge:
       sa-east-1:
         Dedicated: 0.66
         Shared: 0.624
-      US West (Los Angeles):
-        Dedicated: 0.533
-        Shared: 0.508
       us-east-1:
         Dedicated: 0.46
         Shared: 0.44
@@ -3880,6 +3877,9 @@ c5.2xlarge:
       us-west-2:
         Dedicated: 0.46
         Shared: 0.44
+      us-west-2-lax-1a:
+        Dedicated: 0.533
+        Shared: 0.508
     Windows:
       ap-east-1:
         Dedicated: 0.828
@@ -3926,9 +3926,6 @@ c5.2xlarge:
       sa-east-1:
         Dedicated: 0.928
         Shared: 0.892
-      US West (Los Angeles):
-        Dedicated: 0.801
-        Shared: 0.776
       us-east-1:
         Dedicated: 0.728
         Shared: 0.34
@@ -3947,6 +3944,9 @@ c5.2xlarge:
       us-west-2:
         Dedicated: 0.728
         Shared: 0.708
+      us-west-2-lax-1a:
+        Dedicated: 0.801
+        Shared: 0.776
   regions:
     - us-gov-east-1
     - ap-southeast-1
@@ -3968,7 +3968,7 @@ c5.2xlarge:
     - ap-northeast-2
     - ca-central-1
     - eu-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-northeast-3
   storage: EBS only
   vcpu: 8
@@ -4029,9 +4029,6 @@ c5.4xlarge:
       sa-east-1:
         Dedicated: 1.119
         Shared: 1.048
-      US West (Los Angeles):
-        Dedicated: 0.865
-        Shared: 0.816
       us-east-1:
         Dedicated: 0.721
         Shared: 0.68
@@ -4050,6 +4047,9 @@ c5.4xlarge:
       us-west-2:
         Dedicated: 0.721
         Shared: 0.68
+      us-west-2-lax-1a:
+        Dedicated: 0.865
+        Shared: 0.816
     RHEL:
       ap-east-1:
         Dedicated: 1.049
@@ -4096,9 +4096,6 @@ c5.4xlarge:
       sa-east-1:
         Dedicated: 1.249
         Shared: 1.178
-      US West (Los Angeles):
-        Dedicated: 0.995
-        Shared: 0.946
       us-east-1:
         Dedicated: 0.851
         Shared: 0.81
@@ -4117,6 +4114,9 @@ c5.4xlarge:
       us-west-2:
         Dedicated: 0.851
         Shared: 0.81
+      us-west-2-lax-1a:
+        Dedicated: 0.995
+        Shared: 0.946
     SUSE:
       ap-east-1:
         Dedicated: 1.019
@@ -4163,9 +4163,6 @@ c5.4xlarge:
       sa-east-1:
         Dedicated: 1.219
         Shared: 1.148
-      US West (Los Angeles):
-        Dedicated: 0.965
-        Shared: 0.916
       us-east-1:
         Dedicated: 0.821
         Shared: 0.78
@@ -4184,6 +4181,9 @@ c5.4xlarge:
       us-west-2:
         Dedicated: 0.821
         Shared: 0.78
+      us-west-2-lax-1a:
+        Dedicated: 0.965
+        Shared: 0.916
     Windows:
       ap-east-1:
         Dedicated: 1.655
@@ -4230,9 +4230,6 @@ c5.4xlarge:
       sa-east-1:
         Dedicated: 1.855
         Shared: 1.784
-      US West (Los Angeles):
-        Dedicated: 1.601
-        Shared: 1.552
       us-east-1:
         Dedicated: 1.457
         Shared: 0.68
@@ -4251,6 +4248,9 @@ c5.4xlarge:
       us-west-2:
         Dedicated: 1.457
         Shared: 0.68
+      us-west-2-lax-1a:
+        Dedicated: 1.601
+        Shared: 1.552
   regions:
     - ap-southeast-2
     - eu-west-3
@@ -4272,7 +4272,7 @@ c5.4xlarge:
     - sa-east-1
     - eu-central-1
     - us-gov-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-east-1
   storage: EBS only
   vcpu: 16
@@ -4333,9 +4333,6 @@ c5.9xlarge:
       sa-east-1:
         Dedicated: 2.518
         Shared: 2.358
-      US West (Los Angeles):
-        Dedicated: 1.947
-        Shared: 1.836
       us-east-1:
         Dedicated: 1.622
         Shared: 1.53
@@ -4354,6 +4351,9 @@ c5.9xlarge:
       us-west-2:
         Dedicated: 1.622
         Shared: 1.53
+      us-west-2-lax-1a:
+        Dedicated: 1.947
+        Shared: 1.836
     RHEL:
       ap-east-1:
         Dedicated: 2.199
@@ -4400,9 +4400,6 @@ c5.9xlarge:
       sa-east-1:
         Dedicated: 2.648
         Shared: 2.488
-      US West (Los Angeles):
-        Dedicated: 2.077
-        Shared: 1.966
       us-east-1:
         Dedicated: 1.752
         Shared: 1.66
@@ -4421,6 +4418,9 @@ c5.9xlarge:
       us-west-2:
         Dedicated: 1.752
         Shared: 1.66
+      us-west-2-lax-1a:
+        Dedicated: 2.077
+        Shared: 1.966
     SUSE:
       ap-east-1:
         Dedicated: 2.169
@@ -4467,9 +4467,6 @@ c5.9xlarge:
       sa-east-1:
         Dedicated: 2.618
         Shared: 2.458
-      US West (Los Angeles):
-        Dedicated: 2.047
-        Shared: 1.936
       us-east-1:
         Dedicated: 1.722
         Shared: 1.63
@@ -4488,6 +4485,9 @@ c5.9xlarge:
       us-west-2:
         Dedicated: 1.722
         Shared: 1.63
+      us-west-2-lax-1a:
+        Dedicated: 2.047
+        Shared: 1.936
     Windows:
       ap-east-1:
         Dedicated: 3.725
@@ -4534,9 +4534,6 @@ c5.9xlarge:
       sa-east-1:
         Dedicated: 4.174
         Shared: 4.014
-      US West (Los Angeles):
-        Dedicated: 3.603
-        Shared: 3.492
       us-east-1:
         Dedicated: 3.278
         Shared: 3.186
@@ -4555,10 +4552,13 @@ c5.9xlarge:
       us-west-2:
         Dedicated: 3.278
         Shared: 3.186
+      us-west-2-lax-1a:
+        Dedicated: 3.603
+        Shared: 3.492
   regions:
     - ap-south-1
     - ap-southeast-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-east-2
     - ap-southeast-1
     - eu-west-1
@@ -4637,9 +4637,6 @@ c5.large:
       sa-east-1:
         Dedicated: 0.14
         Shared: 0.131
-      US West (Los Angeles):
-        Dedicated: 0.108
-        Shared: 0.102
       us-east-1:
         Dedicated: 0.09
         Shared: 0.085
@@ -4658,6 +4655,9 @@ c5.large:
       us-west-2:
         Dedicated: 0.09
         Shared: 0.085
+      us-west-2-lax-1a:
+        Dedicated: 0.108
+        Shared: 0.102
     RHEL:
       ap-east-1:
         Dedicated: 0.175
@@ -4704,9 +4704,6 @@ c5.large:
       sa-east-1:
         Dedicated: 0.2
         Shared: 0.191
-      US West (Los Angeles):
-        Dedicated: 0.168
-        Shared: 0.162
       us-east-1:
         Dedicated: 0.15
         Shared: 0.145
@@ -4725,6 +4722,9 @@ c5.large:
       us-west-2:
         Dedicated: 0.15
         Shared: 0.145
+      us-west-2-lax-1a:
+        Dedicated: 0.168
+        Shared: 0.162
     SUSE:
       ap-east-1:
         Dedicated: 0.215
@@ -4771,9 +4771,6 @@ c5.large:
       sa-east-1:
         Dedicated: 0.24
         Shared: 0.231
-      US West (Los Angeles):
-        Dedicated: 0.208
-        Shared: 0.202
       us-east-1:
         Dedicated: 0.19
         Shared: 0.185
@@ -4792,6 +4789,9 @@ c5.large:
       us-west-2:
         Dedicated: 0.19
         Shared: 0.185
+      us-west-2-lax-1a:
+        Dedicated: 0.208
+        Shared: 0.202
     Windows:
       ap-east-1:
         Dedicated: 0.207
@@ -4838,9 +4838,6 @@ c5.large:
       sa-east-1:
         Dedicated: 0.14
         Shared: 0.131
-      US West (Los Angeles):
-        Dedicated: 0.2
-        Shared: 0.194
       us-east-1:
         Dedicated: 0.09
         Shared: 0.177
@@ -4859,6 +4856,9 @@ c5.large:
       us-west-2:
         Dedicated: 0.182
         Shared: 0.177
+      us-west-2-lax-1a:
+        Dedicated: 0.2
+        Shared: 0.194
   regions:
     - eu-west-3
     - us-east-2
@@ -4872,7 +4872,7 @@ c5.large:
     - ap-southeast-2
     - ca-central-1
     - ap-northeast-3
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-gov-west-1
     - me-south-1
     - ap-northeast-2
@@ -4932,9 +4932,6 @@ c5.metal:
       sa-east-1:
         Dedicated: 6.288
         Shared: 6.288
-      US West (Los Angeles):
-        Dedicated: 4.896
-        Shared: 4.896
       us-east-1:
         Dedicated: 4.08
         Shared: 4.08
@@ -4950,6 +4947,9 @@ c5.metal:
       us-west-2:
         Dedicated: 4.08
         Shared: 4.08
+      us-west-2-lax-1a:
+        Dedicated: 4.896
+        Shared: 4.896
     RHEL:
       ap-northeast-1:
         Dedicated: 5.266
@@ -4987,9 +4987,6 @@ c5.metal:
       sa-east-1:
         Dedicated: 6.418
         Shared: 6.418
-      US West (Los Angeles):
-        Dedicated: 5.026
-        Shared: 5.026
       us-east-1:
         Dedicated: 4.21
         Shared: 4.21
@@ -5005,6 +5002,9 @@ c5.metal:
       us-west-2:
         Dedicated: 4.21
         Shared: 4.21
+      us-west-2-lax-1a:
+        Dedicated: 5.026
+        Shared: 5.026
     SUSE:
       ap-northeast-1:
         Dedicated: 5.236
@@ -5042,9 +5042,6 @@ c5.metal:
       sa-east-1:
         Dedicated: 6.388
         Shared: 6.388
-      US West (Los Angeles):
-        Dedicated: 4.996
-        Shared: 4.996
       us-east-1:
         Dedicated: 4.18
         Shared: 4.18
@@ -5060,6 +5057,9 @@ c5.metal:
       us-west-2:
         Dedicated: 4.18
         Shared: 4.18
+      us-west-2-lax-1a:
+        Dedicated: 4.996
+        Shared: 4.996
     Windows:
       ap-northeast-1:
         Dedicated: 9.552
@@ -5097,9 +5097,6 @@ c5.metal:
       sa-east-1:
         Dedicated: 10.704
         Shared: 10.704
-      US West (Los Angeles):
-        Dedicated: 9.312
-        Shared: 9.312
       us-east-1:
         Dedicated: 8.496
         Shared: 8.496
@@ -5115,9 +5112,12 @@ c5.metal:
       us-west-2:
         Dedicated: 8.496
         Shared: 8.496
+      us-west-2-lax-1a:
+        Dedicated: 9.312
+        Shared: 9.312
   regions:
     - ap-northeast-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ca-central-1
     - ap-southeast-1
     - us-east-2
@@ -5193,9 +5193,6 @@ c5.xlarge:
       sa-east-1:
         Dedicated: 0.28
         Shared: 0.262
-      US West (Los Angeles):
-        Dedicated: 0.216
-        Shared: 0.204
       us-east-1:
         Dedicated: 0.18
         Shared: 0.17
@@ -5214,6 +5211,9 @@ c5.xlarge:
       us-west-2:
         Dedicated: 0.18
         Shared: 0.17
+      us-west-2-lax-1a:
+        Dedicated: 0.216
+        Shared: 0.204
     RHEL:
       ap-east-1:
         Dedicated: 0.29
@@ -5260,9 +5260,6 @@ c5.xlarge:
       sa-east-1:
         Dedicated: 0.34
         Shared: 0.322
-      US West (Los Angeles):
-        Dedicated: 0.276
-        Shared: 0.264
       us-east-1:
         Dedicated: 0.24
         Shared: 0.23
@@ -5281,6 +5278,9 @@ c5.xlarge:
       us-west-2:
         Dedicated: 0.24
         Shared: 0.23
+      us-west-2-lax-1a:
+        Dedicated: 0.276
+        Shared: 0.264
     SUSE:
       ap-east-1:
         Dedicated: 0.33
@@ -5327,9 +5327,6 @@ c5.xlarge:
       sa-east-1:
         Dedicated: 0.38
         Shared: 0.362
-      US West (Los Angeles):
-        Dedicated: 0.316
-        Shared: 0.304
       us-east-1:
         Dedicated: 0.28
         Shared: 0.27
@@ -5348,6 +5345,9 @@ c5.xlarge:
       us-west-2:
         Dedicated: 0.28
         Shared: 0.27
+      us-west-2-lax-1a:
+        Dedicated: 0.316
+        Shared: 0.304
     Windows:
       ap-east-1:
         Dedicated: 0.414
@@ -5394,9 +5394,6 @@ c5.xlarge:
       sa-east-1:
         Dedicated: 0.464
         Shared: 0.446
-      US West (Los Angeles):
-        Dedicated: 0.4
-        Shared: 0.388
       us-east-1:
         Dedicated: 0.364
         Shared: 0.354
@@ -5415,6 +5412,9 @@ c5.xlarge:
       us-west-2:
         Dedicated: 0.364
         Shared: 0.17
+      us-west-2-lax-1a:
+        Dedicated: 0.4
+        Shared: 0.388
   regions:
     - eu-central-1
     - ap-southeast-1
@@ -5424,7 +5424,7 @@ c5.xlarge:
     - eu-north-1
     - ap-southeast-2
     - eu-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-south-1
     - us-east-2
     - eu-west-3
@@ -11766,9 +11766,6 @@ g4dn.12xlarge:
       sa-east-1:
         Dedicated: 7.081
         Shared: 6.649
-      US West (Los Angeles):
-        Dedicated: 5.009
-        Shared: 4.694
       us-east-1:
         Dedicated: 4.147
         Shared: 3.912
@@ -11784,6 +11781,9 @@ g4dn.12xlarge:
       us-west-2:
         Dedicated: 4.147
         Shared: 3.912
+      us-west-2-lax-1a:
+        Dedicated: 5.009
+        Shared: 4.694
     RHEL:
       ap-east-1:
         Dedicated: 6.516
@@ -11827,9 +11827,6 @@ g4dn.12xlarge:
       sa-east-1:
         Dedicated: 7.211
         Shared: 6.779
-      US West (Los Angeles):
-        Dedicated: 5.139
-        Shared: 4.824
       us-east-1:
         Dedicated: 4.277
         Shared: 4.042
@@ -11845,6 +11842,9 @@ g4dn.12xlarge:
       us-west-2:
         Dedicated: 4.277
         Shared: 4.042
+      us-west-2-lax-1a:
+        Dedicated: 5.139
+        Shared: 4.824
     SUSE:
       ap-east-1:
         Dedicated: 6.536
@@ -11888,9 +11888,6 @@ g4dn.12xlarge:
       sa-east-1:
         Dedicated: 7.231
         Shared: 6.799
-      US West (Los Angeles):
-        Dedicated: 5.159
-        Shared: 4.844
       us-east-1:
         Dedicated: 4.297
         Shared: 4.062
@@ -11906,6 +11903,9 @@ g4dn.12xlarge:
       us-west-2:
         Dedicated: 4.297
         Shared: 4.062
+      us-west-2-lax-1a:
+        Dedicated: 5.159
+        Shared: 4.844
     Windows:
       ap-east-1:
         Dedicated: 8.594
@@ -11949,9 +11949,6 @@ g4dn.12xlarge:
       sa-east-1:
         Dedicated: 9.289
         Shared: 8.857
-      US West (Los Angeles):
-        Dedicated: 7.217
-        Shared: 6.902
       us-east-1:
         Dedicated: 6.355
         Shared: 6.12
@@ -11967,6 +11964,9 @@ g4dn.12xlarge:
       us-west-2:
         Dedicated: 6.355
         Shared: 6.12
+      us-west-2-lax-1a:
+        Dedicated: 7.217
+        Shared: 6.902
   regions:
     - ap-east-1
     - us-west-1
@@ -11986,7 +11986,7 @@ g4dn.12xlarge:
     - me-south-1
     - ap-northeast-2
     - us-west-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ca-central-1
   storage: 900 GB NVMe SSD
   vcpu: 48
@@ -12040,9 +12040,6 @@ g4dn.16xlarge:
       sa-east-1:
         Dedicated: 7.878
         Shared: 7.397
-      US West (Los Angeles):
-        Dedicated: 5.572
-        Shared: 5.222
       us-east-1:
         Dedicated: 4.613
         Shared: 4.352
@@ -12058,6 +12055,9 @@ g4dn.16xlarge:
       us-west-2:
         Dedicated: 4.613
         Shared: 4.352
+      us-west-2-lax-1a:
+        Dedicated: 5.572
+        Shared: 5.222
     RHEL:
       ap-east-1:
         Dedicated: 7.234
@@ -12101,9 +12101,6 @@ g4dn.16xlarge:
       sa-east-1:
         Dedicated: 8.008
         Shared: 7.527
-      US West (Los Angeles):
-        Dedicated: 5.702
-        Shared: 5.352
       us-east-1:
         Dedicated: 4.743
         Shared: 4.482
@@ -12119,6 +12116,9 @@ g4dn.16xlarge:
       us-west-2:
         Dedicated: 4.743
         Shared: 4.482
+      us-west-2-lax-1a:
+        Dedicated: 5.702
+        Shared: 5.352
     SUSE:
       ap-east-1:
         Dedicated: 7.254
@@ -12162,9 +12162,6 @@ g4dn.16xlarge:
       sa-east-1:
         Dedicated: 8.028
         Shared: 7.547
-      US West (Los Angeles):
-        Dedicated: 5.722
-        Shared: 5.372
       us-east-1:
         Dedicated: 4.763
         Shared: 4.502
@@ -12180,6 +12177,9 @@ g4dn.16xlarge:
       us-west-2:
         Dedicated: 4.763
         Shared: 4.502
+      us-west-2-lax-1a:
+        Dedicated: 5.722
+        Shared: 5.372
     Windows:
       ap-east-1:
         Dedicated: 10.048
@@ -12223,9 +12223,6 @@ g4dn.16xlarge:
       sa-east-1:
         Dedicated: 10.822
         Shared: 10.341
-      US West (Los Angeles):
-        Dedicated: 8.516
-        Shared: 8.166
       us-east-1:
         Dedicated: 7.557
         Shared: 7.296
@@ -12241,6 +12238,9 @@ g4dn.16xlarge:
       us-west-2:
         Dedicated: 7.557
         Shared: 7.296
+      us-west-2-lax-1a:
+        Dedicated: 8.516
+        Shared: 8.166
   regions:
     - eu-west-2
     - us-gov-west-1
@@ -12255,7 +12255,7 @@ g4dn.16xlarge:
     - ap-northeast-2
     - us-east-1
     - eu-west-3
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ca-central-1
     - us-west-2
     - ap-southeast-2
@@ -12314,9 +12314,6 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.361
         Shared: 1.278
-      US West (Los Angeles):
-        Dedicated: 0.963
-        Shared: 0.902
       us-east-1:
         Dedicated: 0.797
         Shared: 0.752
@@ -12332,6 +12329,9 @@ g4dn.2xlarge:
       us-west-2:
         Dedicated: 0.797
         Shared: 0.752
+      us-west-2-lax-1a:
+        Dedicated: 0.963
+        Shared: 0.902
     RHEL:
       ap-east-1:
         Dedicated: 1.358
@@ -12375,9 +12375,6 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.491
         Shared: 1.408
-      US West (Los Angeles):
-        Dedicated: 1.093
-        Shared: 1.032
       us-east-1:
         Dedicated: 0.927
         Shared: 0.882
@@ -12393,6 +12390,9 @@ g4dn.2xlarge:
       us-west-2:
         Dedicated: 0.927
         Shared: 0.882
+      us-west-2-lax-1a:
+        Dedicated: 1.093
+        Shared: 1.032
     SUSE:
       ap-east-1:
         Dedicated: 1.378
@@ -12436,9 +12436,6 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.511
         Shared: 1.428
-      US West (Los Angeles):
-        Dedicated: 1.113
-        Shared: 1.052
       us-east-1:
         Dedicated: 0.947
         Shared: 0.902
@@ -12454,6 +12451,9 @@ g4dn.2xlarge:
       us-west-2:
         Dedicated: 0.947
         Shared: 0.902
+      us-west-2-lax-1a:
+        Dedicated: 1.113
+        Shared: 1.052
     Windows:
       ap-east-1:
         Dedicated: 1.596
@@ -12497,9 +12497,6 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.729
         Shared: 1.646
-      US West (Los Angeles):
-        Dedicated: 1.331
-        Shared: 1.27
       us-east-1:
         Dedicated: 1.165
         Shared: 1.12
@@ -12515,6 +12512,9 @@ g4dn.2xlarge:
       us-west-2:
         Dedicated: 1.165
         Shared: 1.12
+      us-west-2-lax-1a:
+        Dedicated: 1.331
+        Shared: 1.27
   regions:
     - eu-west-2
     - us-west-1
@@ -12525,7 +12525,7 @@ g4dn.2xlarge:
     - ap-southeast-1
     - us-east-2
     - ap-southeast-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-east-1
     - us-gov-west-1
     - ap-east-1
@@ -12588,9 +12588,6 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.179
         Shared: 2.046
-      US West (Los Angeles):
-        Dedicated: 1.542
-        Shared: 1.445
       us-east-1:
         Dedicated: 1.276
         Shared: 1.204
@@ -12606,6 +12603,9 @@ g4dn.4xlarge:
       us-west-2:
         Dedicated: 1.276
         Shared: 1.204
+      us-west-2-lax-1a:
+        Dedicated: 1.542
+        Shared: 1.445
     RHEL:
       ap-east-1:
         Dedicated: 2.095
@@ -12649,9 +12649,6 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.309
         Shared: 2.176
-      US West (Los Angeles):
-        Dedicated: 1.672
-        Shared: 1.575
       us-east-1:
         Dedicated: 1.406
         Shared: 1.334
@@ -12667,6 +12664,9 @@ g4dn.4xlarge:
       us-west-2:
         Dedicated: 1.406
         Shared: 1.334
+      us-west-2-lax-1a:
+        Dedicated: 1.672
+        Shared: 1.575
     SUSE:
       ap-east-1:
         Dedicated: 2.115
@@ -12710,9 +12710,6 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.329
         Shared: 2.196
-      US West (Los Angeles):
-        Dedicated: 1.692
-        Shared: 1.595
       us-east-1:
         Dedicated: 1.426
         Shared: 1.354
@@ -12728,6 +12725,9 @@ g4dn.4xlarge:
       us-west-2:
         Dedicated: 1.426
         Shared: 1.354
+      us-west-2-lax-1a:
+        Dedicated: 1.692
+        Shared: 1.595
     Windows:
       ap-east-1:
         Dedicated: 2.701
@@ -12771,9 +12771,6 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.915
         Shared: 2.782
-      US West (Los Angeles):
-        Dedicated: 2.278
-        Shared: 2.181
       us-east-1:
         Dedicated: 2.012
         Shared: 1.94
@@ -12789,6 +12786,9 @@ g4dn.4xlarge:
       us-west-2:
         Dedicated: 2.012
         Shared: 1.94
+      us-west-2-lax-1a:
+        Dedicated: 2.278
+        Shared: 2.181
   regions:
     - eu-central-1
     - ap-southeast-1
@@ -12801,7 +12801,7 @@ g4dn.4xlarge:
     - me-south-1
     - eu-west-1
     - ap-southeast-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-south-1
     - us-gov-west-1
     - sa-east-1
@@ -12862,9 +12862,6 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 3.939
         Shared: 3.698
-      US West (Los Angeles):
-        Dedicated: 2.786
-        Shared: 2.611
       us-east-1:
         Dedicated: 2.307
         Shared: 2.176
@@ -12880,6 +12877,9 @@ g4dn.8xlarge:
       us-west-2:
         Dedicated: 2.307
         Shared: 2.176
+      us-west-2-lax-1a:
+        Dedicated: 2.786
+        Shared: 2.611
     RHEL:
       ap-east-1:
         Dedicated: 3.682
@@ -12923,9 +12923,6 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 4.069
         Shared: 3.828
-      US West (Los Angeles):
-        Dedicated: 2.916
-        Shared: 2.741
       us-east-1:
         Dedicated: 2.437
         Shared: 2.306
@@ -12941,6 +12938,9 @@ g4dn.8xlarge:
       us-west-2:
         Dedicated: 2.437
         Shared: 2.306
+      us-west-2-lax-1a:
+        Dedicated: 2.916
+        Shared: 2.741
     SUSE:
       ap-east-1:
         Dedicated: 3.702
@@ -12984,9 +12984,6 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 4.089
         Shared: 3.848
-      US West (Los Angeles):
-        Dedicated: 2.936
-        Shared: 2.761
       us-east-1:
         Dedicated: 2.457
         Shared: 2.326
@@ -13002,6 +12999,9 @@ g4dn.8xlarge:
       us-west-2:
         Dedicated: 2.457
         Shared: 2.326
+      us-west-2-lax-1a:
+        Dedicated: 2.936
+        Shared: 2.761
     Windows:
       ap-east-1:
         Dedicated: 5.024
@@ -13045,9 +13045,6 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 5.411
         Shared: 5.17
-      US West (Los Angeles):
-        Dedicated: 4.258
-        Shared: 4.083
       us-east-1:
         Dedicated: 3.779
         Shared: 3.648
@@ -13063,11 +13060,14 @@ g4dn.8xlarge:
       us-west-2:
         Dedicated: 3.779
         Shared: 3.648
+      us-west-2-lax-1a:
+        Dedicated: 4.258
+        Shared: 4.083
   regions:
     - ap-east-1
     - eu-west-2
     - me-south-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - eu-west-1
     - us-east-1
     - ca-central-1
@@ -13163,9 +13163,6 @@ g4dn.xlarge:
       sa-east-1:
         Dedicated: 0.952
         Shared: 0.894
-      US West (Los Angeles):
-        Dedicated: 0.673
-        Shared: 0.631
       us-east-1:
         Dedicated: 0.558
         Shared: 0.526
@@ -13181,6 +13178,9 @@ g4dn.xlarge:
       us-west-2:
         Dedicated: 0.558
         Shared: 0.526
+      us-west-2-lax-1a:
+        Dedicated: 0.673
+        Shared: 0.631
     RHEL:
       ap-east-1:
         Dedicated: 0.919
@@ -13224,9 +13224,6 @@ g4dn.xlarge:
       sa-east-1:
         Dedicated: 1.012
         Shared: 0.954
-      US West (Los Angeles):
-        Dedicated: 0.733
-        Shared: 0.691
       us-east-1:
         Dedicated: 0.618
         Shared: 0.586
@@ -13242,6 +13239,9 @@ g4dn.xlarge:
       us-west-2:
         Dedicated: 0.618
         Shared: 0.586
+      us-west-2-lax-1a:
+        Dedicated: 0.733
+        Shared: 0.691
     SUSE:
       ap-east-1:
         Dedicated: 0.984
@@ -13285,9 +13285,6 @@ g4dn.xlarge:
       sa-east-1:
         Dedicated: 1.077
         Shared: 1.019
-      US West (Los Angeles):
-        Dedicated: 0.798
-        Shared: 0.756
       us-east-1:
         Dedicated: 0.683
         Shared: 0.651
@@ -13303,6 +13300,9 @@ g4dn.xlarge:
       us-west-2:
         Dedicated: 0.683
         Shared: 0.651
+      us-west-2-lax-1a:
+        Dedicated: 0.798
+        Shared: 0.756
     Windows:
       ap-east-1:
         Dedicated: 1.043
@@ -13346,9 +13346,6 @@ g4dn.xlarge:
       sa-east-1:
         Dedicated: 1.136
         Shared: 1.078
-      US West (Los Angeles):
-        Dedicated: 0.857
-        Shared: 0.815
       us-east-1:
         Dedicated: 0.742
         Shared: 0.71
@@ -13364,6 +13361,9 @@ g4dn.xlarge:
       us-west-2:
         Dedicated: 0.742
         Shared: 0.71
+      us-west-2-lax-1a:
+        Dedicated: 0.857
+        Shared: 0.815
   regions:
     - us-west-2
     - eu-west-2
@@ -13378,7 +13378,7 @@ g4dn.xlarge:
     - me-south-1
     - eu-west-1
     - us-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - eu-central-1
     - eu-north-1
     - us-east-1
@@ -16370,9 +16370,6 @@ i3en.12xlarge:
       eu-west-2:
         Dedicated: 6.723
         Shared: 6.312
-      US West (Los Angeles):
-        Dedicated: 6.93
-        Shared: 6.509
       us-east-1:
         Dedicated: 5.776
         Shared: 5.424
@@ -16391,6 +16388,9 @@ i3en.12xlarge:
       us-west-2:
         Dedicated: 5.776
         Shared: 5.424
+      us-west-2-lax-1a:
+        Dedicated: 6.93
+        Shared: 6.509
     RHEL:
       ap-northeast-1:
         Dedicated: 6.929
@@ -16413,9 +16413,6 @@ i3en.12xlarge:
       eu-west-2:
         Dedicated: 6.853
         Shared: 6.442
-      US West (Los Angeles):
-        Dedicated: 7.06
-        Shared: 6.639
       us-east-1:
         Dedicated: 5.906
         Shared: 5.554
@@ -16434,6 +16431,9 @@ i3en.12xlarge:
       us-west-2:
         Dedicated: 5.906
         Shared: 5.554
+      us-west-2-lax-1a:
+        Dedicated: 7.06
+        Shared: 6.639
     SUSE:
       ap-northeast-1:
         Dedicated: 6.949
@@ -16456,9 +16456,6 @@ i3en.12xlarge:
       eu-west-2:
         Dedicated: 6.873
         Shared: 6.462
-      US West (Los Angeles):
-        Dedicated: 7.08
-        Shared: 6.659
       us-east-1:
         Dedicated: 5.926
         Shared: 5.574
@@ -16477,6 +16474,9 @@ i3en.12xlarge:
       us-west-2:
         Dedicated: 5.926
         Shared: 5.574
+      us-west-2-lax-1a:
+        Dedicated: 7.08
+        Shared: 6.659
     Windows:
       ap-northeast-1:
         Dedicated: 9.007
@@ -16499,9 +16499,6 @@ i3en.12xlarge:
       eu-west-2:
         Dedicated: 8.931
         Shared: 8.52
-      US West (Los Angeles):
-        Dedicated: 9.138
-        Shared: 8.717
       us-east-1:
         Dedicated: 7.984
         Shared: 7.632
@@ -16520,6 +16517,9 @@ i3en.12xlarge:
       us-west-2:
         Dedicated: 7.984
         Shared: 7.632
+      us-west-2-lax-1a:
+        Dedicated: 9.138
+        Shared: 8.717
   regions:
     - ap-northeast-2
     - us-east-1
@@ -16530,7 +16530,7 @@ i3en.12xlarge:
     - eu-west-2
     - us-gov-west-1
     - us-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - eu-central-1
     - us-west-2
     - ap-southeast-2
@@ -16569,9 +16569,6 @@ i3en.24xlarge:
       eu-west-2:
         Dedicated: 12.624
         Shared: 12.624
-      US West (Los Angeles):
-        Dedicated: 13.018
-        Shared: 13.018
       us-east-1:
         Dedicated: 10.848
         Shared: 10.848
@@ -16590,6 +16587,9 @@ i3en.24xlarge:
       us-west-2:
         Dedicated: 10.848
         Shared: 10.848
+      us-west-2-lax-1a:
+        Dedicated: 13.018
+        Shared: 13.018
     RHEL:
       ap-northeast-1:
         Dedicated: 12.898
@@ -16612,9 +16612,6 @@ i3en.24xlarge:
       eu-west-2:
         Dedicated: 12.754
         Shared: 12.754
-      US West (Los Angeles):
-        Dedicated: 13.148
-        Shared: 13.148
       us-east-1:
         Dedicated: 10.978
         Shared: 10.978
@@ -16633,6 +16630,9 @@ i3en.24xlarge:
       us-west-2:
         Dedicated: 10.978
         Shared: 10.978
+      us-west-2-lax-1a:
+        Dedicated: 13.148
+        Shared: 13.148
     SUSE:
       ap-northeast-1:
         Dedicated: 12.918
@@ -16655,9 +16655,6 @@ i3en.24xlarge:
       eu-west-2:
         Dedicated: 12.774
         Shared: 12.774
-      US West (Los Angeles):
-        Dedicated: 13.168
-        Shared: 13.168
       us-east-1:
         Dedicated: 10.998
         Shared: 10.998
@@ -16676,6 +16673,9 @@ i3en.24xlarge:
       us-west-2:
         Dedicated: 10.998
         Shared: 10.998
+      us-west-2-lax-1a:
+        Dedicated: 13.168
+        Shared: 13.168
     Windows:
       ap-northeast-1:
         Dedicated: 17.184
@@ -16698,9 +16698,6 @@ i3en.24xlarge:
       eu-west-2:
         Dedicated: 17.04
         Shared: 17.04
-      US West (Los Angeles):
-        Dedicated: 17.434
-        Shared: 17.434
       us-east-1:
         Dedicated: 15.264
         Shared: 15.264
@@ -16719,6 +16716,9 @@ i3en.24xlarge:
       us-west-2:
         Dedicated: 15.264
         Shared: 15.264
+      us-west-2-lax-1a:
+        Dedicated: 17.434
+        Shared: 17.434
   regions:
     - eu-west-1
     - us-west-1
@@ -16727,7 +16727,7 @@ i3en.24xlarge:
     - us-west-2
     - us-gov-west-1
     - eu-west-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - eu-central-1
     - us-east-1
     - ap-southeast-2
@@ -16768,9 +16768,6 @@ i3en.2xlarge:
       eu-west-2:
         Dedicated: 1.12
         Shared: 1.052
-      US West (Los Angeles):
-        Dedicated: 1.155
-        Shared: 1.085
       us-east-1:
         Dedicated: 0.963
         Shared: 0.904
@@ -16789,6 +16786,9 @@ i3en.2xlarge:
       us-west-2:
         Dedicated: 0.963
         Shared: 0.904
+      us-west-2-lax-1a:
+        Dedicated: 1.155
+        Shared: 1.085
     RHEL:
       ap-northeast-1:
         Dedicated: 1.263
@@ -16811,9 +16811,6 @@ i3en.2xlarge:
       eu-west-2:
         Dedicated: 1.25
         Shared: 1.182
-      US West (Los Angeles):
-        Dedicated: 1.285
-        Shared: 1.215
       us-east-1:
         Dedicated: 1.093
         Shared: 1.034
@@ -16832,6 +16829,9 @@ i3en.2xlarge:
       us-west-2:
         Dedicated: 1.093
         Shared: 1.034
+      us-west-2-lax-1a:
+        Dedicated: 1.285
+        Shared: 1.215
     SUSE:
       ap-northeast-1:
         Dedicated: 1.283
@@ -16854,9 +16854,6 @@ i3en.2xlarge:
       eu-west-2:
         Dedicated: 1.27
         Shared: 1.202
-      US West (Los Angeles):
-        Dedicated: 1.305
-        Shared: 1.235
       us-east-1:
         Dedicated: 1.113
         Shared: 1.054
@@ -16875,6 +16872,9 @@ i3en.2xlarge:
       us-west-2:
         Dedicated: 1.113
         Shared: 1.054
+      us-west-2-lax-1a:
+        Dedicated: 1.305
+        Shared: 1.235
     Windows:
       ap-northeast-1:
         Dedicated: 1.501
@@ -16897,9 +16897,6 @@ i3en.2xlarge:
       eu-west-2:
         Dedicated: 1.488
         Shared: 1.42
-      US West (Los Angeles):
-        Dedicated: 1.523
-        Shared: 1.453
       us-east-1:
         Dedicated: 1.331
         Shared: 1.272
@@ -16918,6 +16915,9 @@ i3en.2xlarge:
       us-west-2:
         Dedicated: 1.331
         Shared: 1.272
+      us-west-2-lax-1a:
+        Dedicated: 1.523
+        Shared: 1.453
   regions:
     - ap-southeast-1
     - eu-west-1
@@ -16932,7 +16932,7 @@ i3en.2xlarge:
     - us-east-1
     - us-gov-east-1
     - eu-west-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
   storage: 2 x 2500 NVMe SSD
   vcpu: 8
 i3en.3xlarge:
@@ -16967,9 +16967,6 @@ i3en.3xlarge:
       eu-west-2:
         Dedicated: 1.681
         Shared: 1.578
-      US West (Los Angeles):
-        Dedicated: 1.733
-        Shared: 1.627
       us-east-1:
         Dedicated: 1.444
         Shared: 1.356
@@ -16988,6 +16985,9 @@ i3en.3xlarge:
       us-west-2:
         Dedicated: 1.444
         Shared: 1.356
+      us-west-2-lax-1a:
+        Dedicated: 1.733
+        Shared: 1.627
     RHEL:
       ap-northeast-1:
         Dedicated: 1.83
@@ -17010,9 +17010,6 @@ i3en.3xlarge:
       eu-west-2:
         Dedicated: 1.811
         Shared: 1.708
-      US West (Los Angeles):
-        Dedicated: 1.863
-        Shared: 1.757
       us-east-1:
         Dedicated: 1.574
         Shared: 1.486
@@ -17031,6 +17028,9 @@ i3en.3xlarge:
       us-west-2:
         Dedicated: 1.574
         Shared: 1.486
+      us-west-2-lax-1a:
+        Dedicated: 1.863
+        Shared: 1.757
     SUSE:
       ap-northeast-1:
         Dedicated: 1.85
@@ -17053,9 +17053,6 @@ i3en.3xlarge:
       eu-west-2:
         Dedicated: 1.831
         Shared: 1.728
-      US West (Los Angeles):
-        Dedicated: 1.883
-        Shared: 1.777
       us-east-1:
         Dedicated: 1.594
         Shared: 1.506
@@ -17074,6 +17071,9 @@ i3en.3xlarge:
       us-west-2:
         Dedicated: 1.594
         Shared: 1.506
+      us-west-2-lax-1a:
+        Dedicated: 1.883
+        Shared: 1.777
     Windows:
       ap-northeast-1:
         Dedicated: 2.252
@@ -17096,9 +17096,6 @@ i3en.3xlarge:
       eu-west-2:
         Dedicated: 2.233
         Shared: 2.13
-      US West (Los Angeles):
-        Dedicated: 2.285
-        Shared: 2.179
       us-east-1:
         Dedicated: 1.996
         Shared: 1.908
@@ -17117,10 +17114,13 @@ i3en.3xlarge:
       us-west-2:
         Dedicated: 1.996
         Shared: 1.908
+      us-west-2-lax-1a:
+        Dedicated: 2.285
+        Shared: 2.179
   regions:
     - ap-northeast-1
     - ap-southeast-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-gov-east-1
     - us-east-2
     - ap-southeast-2
@@ -17166,9 +17166,6 @@ i3en.6xlarge:
       eu-west-2:
         Dedicated: 3.361
         Shared: 3.156
-      US West (Los Angeles):
-        Dedicated: 3.465
-        Shared: 3.254
       us-east-1:
         Dedicated: 2.888
         Shared: 2.712
@@ -17187,6 +17184,9 @@ i3en.6xlarge:
       us-west-2:
         Dedicated: 2.888
         Shared: 2.712
+      us-west-2-lax-1a:
+        Dedicated: 3.465
+        Shared: 3.254
     RHEL:
       ap-northeast-1:
         Dedicated: 3.53
@@ -17209,9 +17209,6 @@ i3en.6xlarge:
       eu-west-2:
         Dedicated: 3.491
         Shared: 3.286
-      US West (Los Angeles):
-        Dedicated: 3.595
-        Shared: 3.384
       us-east-1:
         Dedicated: 3.018
         Shared: 2.842
@@ -17230,6 +17227,9 @@ i3en.6xlarge:
       us-west-2:
         Dedicated: 3.018
         Shared: 2.842
+      us-west-2-lax-1a:
+        Dedicated: 3.595
+        Shared: 3.384
     SUSE:
       ap-northeast-1:
         Dedicated: 3.55
@@ -17252,9 +17252,6 @@ i3en.6xlarge:
       eu-west-2:
         Dedicated: 3.511
         Shared: 3.306
-      US West (Los Angeles):
-        Dedicated: 3.615
-        Shared: 3.404
       us-east-1:
         Dedicated: 3.038
         Shared: 2.862
@@ -17273,6 +17270,9 @@ i3en.6xlarge:
       us-west-2:
         Dedicated: 3.038
         Shared: 2.862
+      us-west-2-lax-1a:
+        Dedicated: 3.615
+        Shared: 3.404
     Windows:
       ap-northeast-1:
         Dedicated: 4.504
@@ -17295,9 +17295,6 @@ i3en.6xlarge:
       eu-west-2:
         Dedicated: 4.465
         Shared: 4.26
-      US West (Los Angeles):
-        Dedicated: 4.569
-        Shared: 4.358
       us-east-1:
         Dedicated: 3.992
         Shared: 3.816
@@ -17316,12 +17313,15 @@ i3en.6xlarge:
       us-west-2:
         Dedicated: 3.992
         Shared: 3.816
+      us-west-2-lax-1a:
+        Dedicated: 4.569
+        Shared: 4.358
   regions:
     - us-west-1
     - us-gov-west-1
     - us-east-2
     - ap-southeast-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-southeast-2
     - eu-west-2
     - eu-central-1
@@ -17365,9 +17365,6 @@ i3en.large:
       eu-west-2:
         Dedicated: 0.28
         Shared: 0.263
-      US West (Los Angeles):
-        Dedicated: 0.289
-        Shared: 0.271
       us-east-1:
         Dedicated: 0.241
         Shared: 0.226
@@ -17386,6 +17383,9 @@ i3en.large:
       us-west-2:
         Dedicated: 0.241
         Shared: 0.226
+      us-west-2-lax-1a:
+        Dedicated: 0.289
+        Shared: 0.271
     RHEL:
       ap-northeast-1:
         Dedicated: 0.343
@@ -17408,9 +17408,6 @@ i3en.large:
       eu-west-2:
         Dedicated: 0.34
         Shared: 0.323
-      US West (Los Angeles):
-        Dedicated: 0.349
-        Shared: 0.331
       us-east-1:
         Dedicated: 0.301
         Shared: 0.286
@@ -17429,6 +17426,9 @@ i3en.large:
       us-west-2:
         Dedicated: 0.301
         Shared: 0.286
+      us-west-2-lax-1a:
+        Dedicated: 0.349
+        Shared: 0.331
     SUSE:
       ap-northeast-1:
         Dedicated: 0.346
@@ -17451,9 +17451,6 @@ i3en.large:
       eu-west-2:
         Dedicated: 0.343
         Shared: 0.326
-      US West (Los Angeles):
-        Dedicated: 0.352
-        Shared: 0.334
       us-east-1:
         Dedicated: 0.304
         Shared: 0.289
@@ -17472,6 +17469,9 @@ i3en.large:
       us-west-2:
         Dedicated: 0.304
         Shared: 0.289
+      us-west-2-lax-1a:
+        Dedicated: 0.352
+        Shared: 0.334
     Windows:
       ap-northeast-1:
         Dedicated: 0.375
@@ -17494,9 +17494,6 @@ i3en.large:
       eu-west-2:
         Dedicated: 0.372
         Shared: 0.355
-      US West (Los Angeles):
-        Dedicated: 0.381
-        Shared: 0.363
       us-east-1:
         Dedicated: 0.333
         Shared: 0.318
@@ -17515,6 +17512,9 @@ i3en.large:
       us-west-2:
         Dedicated: 0.333
         Shared: 0.318
+      us-west-2-lax-1a:
+        Dedicated: 0.381
+        Shared: 0.363
   regions:
     - us-west-2
     - us-east-2
@@ -17524,7 +17524,7 @@ i3en.large:
     - ap-southeast-1
     - ap-southeast-2
     - eu-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - eu-west-2
     - us-gov-east-1
     - us-east-1
@@ -17561,9 +17561,6 @@ i3en.metal:
       eu-west-2:
         Dedicated: 12.624
         Shared: 12.624
-      US West (Los Angeles):
-        Dedicated: 13.018
-        Shared: 13.018
       us-east-1:
         Dedicated: 10.848
         Shared: 10.848
@@ -17579,6 +17576,9 @@ i3en.metal:
       us-west-2:
         Dedicated: 10.848
         Shared: 10.848
+      us-west-2-lax-1a:
+        Dedicated: 13.018
+        Shared: 13.018
     RHEL:
       ap-northeast-1:
         Dedicated: 12.898
@@ -17598,9 +17598,6 @@ i3en.metal:
       eu-west-2:
         Dedicated: 12.754
         Shared: 12.754
-      US West (Los Angeles):
-        Dedicated: 13.148
-        Shared: 13.148
       us-east-1:
         Dedicated: 10.978
         Shared: 10.978
@@ -17616,6 +17613,9 @@ i3en.metal:
       us-west-2:
         Dedicated: 10.978
         Shared: 10.978
+      us-west-2-lax-1a:
+        Dedicated: 13.148
+        Shared: 13.148
     SUSE:
       ap-northeast-1:
         Dedicated: 12.918
@@ -17635,9 +17635,6 @@ i3en.metal:
       eu-west-2:
         Dedicated: 12.774
         Shared: 12.774
-      US West (Los Angeles):
-        Dedicated: 13.168
-        Shared: 13.168
       us-east-1:
         Dedicated: 10.998
         Shared: 10.998
@@ -17653,6 +17650,9 @@ i3en.metal:
       us-west-2:
         Dedicated: 10.998
         Shared: 10.998
+      us-west-2-lax-1a:
+        Dedicated: 13.168
+        Shared: 13.168
     Windows:
       ap-northeast-1:
         Dedicated: 17.184
@@ -17672,9 +17672,6 @@ i3en.metal:
       eu-west-2:
         Dedicated: 17.04
         Shared: 17.04
-      US West (Los Angeles):
-        Dedicated: 17.434
-        Shared: 17.434
       us-east-1:
         Dedicated: 15.264
         Shared: 15.264
@@ -17690,6 +17687,9 @@ i3en.metal:
       us-west-2:
         Dedicated: 15.264
         Shared: 15.264
+      us-west-2-lax-1a:
+        Dedicated: 17.434
+        Shared: 17.434
   regions:
     - us-gov-east-1
     - us-west-2
@@ -17697,7 +17697,7 @@ i3en.metal:
     - eu-central-1
     - us-east-1
     - ap-northeast-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-east-2
     - ap-southeast-2
     - eu-west-2
@@ -17739,9 +17739,6 @@ i3en.xlarge:
       eu-west-2:
         Dedicated: 0.56
         Shared: 0.526
-      US West (Los Angeles):
-        Dedicated: 0.578
-        Shared: 0.542
       us-east-1:
         Dedicated: 0.481
         Shared: 0.452
@@ -17760,6 +17757,9 @@ i3en.xlarge:
       us-west-2:
         Dedicated: 0.481
         Shared: 0.452
+      us-west-2-lax-1a:
+        Dedicated: 0.578
+        Shared: 0.542
     RHEL:
       ap-northeast-1:
         Dedicated: 0.627
@@ -17782,9 +17782,6 @@ i3en.xlarge:
       eu-west-2:
         Dedicated: 0.62
         Shared: 0.586
-      US West (Los Angeles):
-        Dedicated: 0.638
-        Shared: 0.602
       us-east-1:
         Dedicated: 0.541
         Shared: 0.512
@@ -17803,6 +17800,9 @@ i3en.xlarge:
       us-west-2:
         Dedicated: 0.541
         Shared: 0.512
+      us-west-2-lax-1a:
+        Dedicated: 0.638
+        Shared: 0.602
     SUSE:
       ap-northeast-1:
         Dedicated: 0.692
@@ -17825,9 +17825,6 @@ i3en.xlarge:
       eu-west-2:
         Dedicated: 0.685
         Shared: 0.651
-      US West (Los Angeles):
-        Dedicated: 0.703
-        Shared: 0.667
       us-east-1:
         Dedicated: 0.606
         Shared: 0.577
@@ -17846,6 +17843,9 @@ i3en.xlarge:
       us-west-2:
         Dedicated: 0.606
         Shared: 0.577
+      us-west-2-lax-1a:
+        Dedicated: 0.703
+        Shared: 0.667
     Windows:
       ap-northeast-1:
         Dedicated: 0.751
@@ -17868,9 +17868,6 @@ i3en.xlarge:
       eu-west-2:
         Dedicated: 0.744
         Shared: 0.71
-      US West (Los Angeles):
-        Dedicated: 0.762
-        Shared: 0.726
       us-east-1:
         Dedicated: 0.665
         Shared: 0.636
@@ -17889,10 +17886,13 @@ i3en.xlarge:
       us-west-2:
         Dedicated: 0.665
         Shared: 0.636
+      us-west-2-lax-1a:
+        Dedicated: 0.762
+        Shared: 0.726
   regions:
     - eu-west-1
     - eu-central-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-gov-west-1
     - us-west-2
     - ap-southeast-1
@@ -17905,6 +17905,134 @@ i3en.xlarge:
     - us-west-1
     - ap-northeast-2
   storage: 1 x 2500 NVMe SSD
+  vcpu: 4
+inf1.24xlarge:
+  currentGeneration: true
+  memory: 192 GiB
+  networkPerformance: 100 Gigabit
+  physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 8.072
+        Shared: 7.615
+      us-west-2:
+        Dedicated: 8.072
+        Shared: 7.615
+    RHEL:
+      us-east-1:
+        Dedicated: 8.202
+        Shared: 7.745
+      us-west-2:
+        Dedicated: 8.202
+        Shared: 7.745
+    SUSE:
+      us-east-1:
+        Dedicated: 8.222
+        Shared: 7.765
+      us-west-2:
+        Dedicated: 8.222
+        Shared: 7.765
+  regions:
+    - us-east-1
+    - us-west-2
+  storage: EBS only
+  vcpu: 96
+inf1.2xlarge:
+  currentGeneration: true
+  memory: 16 GiB
+  networkPerformance: Up to 25 Gigabit
+  physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 0.619
+        Shared: 0.584
+      us-west-2:
+        Dedicated: 0.619
+        Shared: 0.584
+    RHEL:
+      us-east-1:
+        Dedicated: 0.749
+        Shared: 0.714
+      us-west-2:
+        Dedicated: 0.749
+        Shared: 0.714
+    SUSE:
+      us-east-1:
+        Dedicated: 0.769
+        Shared: 0.734
+      us-west-2:
+        Dedicated: 0.769
+        Shared: 0.734
+  regions:
+    - us-west-2
+    - us-east-1
+  storage: EBS only
+  vcpu: 8
+inf1.6xlarge:
+  currentGeneration: true
+  memory: 48 GiB
+  networkPerformance: 25 Gigabit
+  physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 2.018
+        Shared: 1.904
+      us-west-2:
+        Dedicated: 2.018
+        Shared: 1.904
+    RHEL:
+      us-east-1:
+        Dedicated: 2.148
+        Shared: 2.034
+      us-west-2:
+        Dedicated: 2.148
+        Shared: 2.034
+    SUSE:
+      us-east-1:
+        Dedicated: 2.168
+        Shared: 2.054
+      us-west-2:
+        Dedicated: 2.168
+        Shared: 2.054
+  regions:
+    - us-east-1
+    - us-west-2
+  storage: EBS only
+  vcpu: 24
+inf1.xlarge:
+  currentGeneration: true
+  memory: 8 GiB
+  networkPerformance: Up to 25 Gigabit
+  physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 0.39
+        Shared: 0.368
+      us-west-2:
+        Dedicated: 0.39
+        Shared: 0.368
+    RHEL:
+      us-east-1:
+        Dedicated: 0.45
+        Shared: 0.428
+      us-west-2:
+        Dedicated: 0.45
+        Shared: 0.428
+    SUSE:
+      us-east-1:
+        Dedicated: 0.515
+        Shared: 0.493
+      us-west-2:
+        Dedicated: 0.515
+        Shared: 0.493
+  regions:
+    - us-east-1
+    - us-west-2
+  storage: EBS only
   vcpu: 4
 m1.large:
   currentGeneration: false
@@ -20889,9 +21017,6 @@ m5.12xlarge:
       sa-east-1:
         Dedicated: 3.878
         Shared: 3.672
-      US West (Los Angeles):
-        Dedicated: 2.932
-        Shared: 2.765
       us-east-1:
         Dedicated: 2.444
         Shared: 2.304
@@ -20910,6 +21035,9 @@ m5.12xlarge:
       us-west-2:
         Dedicated: 2.444
         Shared: 2.304
+      us-west-2-lax-1a:
+        Dedicated: 2.932
+        Shared: 2.765
     RHEL:
       ap-east-1:
         Dedicated: 3.493
@@ -20956,9 +21084,6 @@ m5.12xlarge:
       sa-east-1:
         Dedicated: 4.008
         Shared: 3.802
-      US West (Los Angeles):
-        Dedicated: 3.062
-        Shared: 2.895
       us-east-1:
         Dedicated: 2.574
         Shared: 2.434
@@ -20977,6 +21102,9 @@ m5.12xlarge:
       us-west-2:
         Dedicated: 2.574
         Shared: 2.434
+      us-west-2-lax-1a:
+        Dedicated: 3.062
+        Shared: 2.895
     SUSE:
       ap-east-1:
         Dedicated: 3.463
@@ -21023,9 +21151,6 @@ m5.12xlarge:
       sa-east-1:
         Dedicated: 3.978
         Shared: 3.772
-      US West (Los Angeles):
-        Dedicated: 3.032
-        Shared: 2.865
       us-east-1:
         Dedicated: 2.544
         Shared: 2.404
@@ -21044,6 +21169,9 @@ m5.12xlarge:
       us-west-2:
         Dedicated: 2.544
         Shared: 2.404
+      us-west-2-lax-1a:
+        Dedicated: 3.032
+        Shared: 2.865
     Windows:
       ap-east-1:
         Dedicated: 5.571
@@ -21090,9 +21218,6 @@ m5.12xlarge:
       sa-east-1:
         Dedicated: 3.878
         Shared: 5.88
-      US West (Los Angeles):
-        Dedicated: 5.14
-        Shared: 4.973
       us-east-1:
         Dedicated: 4.652
         Shared: 4.512
@@ -21111,6 +21236,9 @@ m5.12xlarge:
       us-west-2:
         Dedicated: 2.444
         Shared: 2.304
+      us-west-2-lax-1a:
+        Dedicated: 5.14
+        Shared: 4.973
   regions:
     - ap-east-1
     - eu-north-1
@@ -21129,7 +21257,7 @@ m5.12xlarge:
     - eu-west-3
     - sa-east-1
     - ap-northeast-3
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-gov-west-1
     - us-east-1
     - us-east-2
@@ -21193,9 +21321,6 @@ m5.16xlarge:
       sa-east-1:
         Dedicated: 5.171
         Shared: 4.896
-      US West (Los Angeles):
-        Dedicated: 3.91
-        Shared: 3.686
       us-east-1:
         Dedicated: 3.259
         Shared: 3.072
@@ -21214,6 +21339,9 @@ m5.16xlarge:
       us-west-2:
         Dedicated: 3.259
         Shared: 3.072
+      us-west-2-lax-1a:
+        Dedicated: 3.91
+        Shared: 3.686
     RHEL:
       ap-east-1:
         Dedicated: 4.614
@@ -21260,9 +21388,6 @@ m5.16xlarge:
       sa-east-1:
         Dedicated: 5.301
         Shared: 5.026
-      US West (Los Angeles):
-        Dedicated: 4.04
-        Shared: 3.816
       us-east-1:
         Dedicated: 3.389
         Shared: 3.202
@@ -21281,6 +21406,9 @@ m5.16xlarge:
       us-west-2:
         Dedicated: 3.389
         Shared: 3.202
+      us-west-2-lax-1a:
+        Dedicated: 4.04
+        Shared: 3.816
     SUSE:
       ap-east-1:
         Dedicated: 4.584
@@ -21327,9 +21455,6 @@ m5.16xlarge:
       sa-east-1:
         Dedicated: 5.271
         Shared: 4.996
-      US West (Los Angeles):
-        Dedicated: 4.01
-        Shared: 3.786
       us-east-1:
         Dedicated: 3.359
         Shared: 3.172
@@ -21348,6 +21473,9 @@ m5.16xlarge:
       us-west-2:
         Dedicated: 3.359
         Shared: 3.172
+      us-west-2-lax-1a:
+        Dedicated: 4.01
+        Shared: 3.786
     Windows:
       ap-east-1:
         Dedicated: 7.428
@@ -21394,9 +21522,6 @@ m5.16xlarge:
       sa-east-1:
         Dedicated: 8.115
         Shared: 7.84
-      US West (Los Angeles):
-        Dedicated: 6.854
-        Shared: 6.63
       us-east-1:
         Dedicated: 6.203
         Shared: 6.016
@@ -21415,6 +21540,9 @@ m5.16xlarge:
       us-west-2:
         Dedicated: 6.203
         Shared: 6.016
+      us-west-2-lax-1a:
+        Dedicated: 6.854
+        Shared: 6.63
   regions:
     - eu-central-1
     - sa-east-1
@@ -21427,7 +21555,7 @@ m5.16xlarge:
     - ap-east-1
     - ap-northeast-2
     - us-gov-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-east-2
     - ap-northeast-1
     - us-west-1
@@ -21497,9 +21625,6 @@ m5.24xlarge:
       sa-east-1:
         Dedicated: 7.344
         Shared: 7.344
-      US West (Los Angeles):
-        Dedicated: 5.53
-        Shared: 5.53
       us-east-1:
         Dedicated: 4.608
         Shared: 4.608
@@ -21518,6 +21643,9 @@ m5.24xlarge:
       us-west-2:
         Dedicated: 4.608
         Shared: 4.608
+      us-west-2-lax-1a:
+        Dedicated: 5.53
+        Shared: 5.53
     RHEL:
       ap-east-1:
         Dedicated: 6.466
@@ -21564,9 +21692,6 @@ m5.24xlarge:
       sa-east-1:
         Dedicated: 7.474
         Shared: 7.474
-      US West (Los Angeles):
-        Dedicated: 5.66
-        Shared: 5.66
       us-east-1:
         Dedicated: 4.738
         Shared: 4.738
@@ -21585,6 +21710,9 @@ m5.24xlarge:
       us-west-2:
         Dedicated: 4.738
         Shared: 4.738
+      us-west-2-lax-1a:
+        Dedicated: 5.66
+        Shared: 5.66
     SUSE:
       ap-east-1:
         Dedicated: 6.436
@@ -21631,9 +21759,6 @@ m5.24xlarge:
       sa-east-1:
         Dedicated: 7.444
         Shared: 7.444
-      US West (Los Angeles):
-        Dedicated: 5.63
-        Shared: 5.63
       us-east-1:
         Dedicated: 4.708
         Shared: 4.708
@@ -21652,6 +21777,9 @@ m5.24xlarge:
       us-west-2:
         Dedicated: 4.708
         Shared: 4.708
+      us-west-2-lax-1a:
+        Dedicated: 5.63
+        Shared: 5.63
     Windows:
       ap-east-1:
         Dedicated: 10.752
@@ -21698,9 +21826,6 @@ m5.24xlarge:
       sa-east-1:
         Dedicated: 11.76
         Shared: 11.76
-      US West (Los Angeles):
-        Dedicated: 9.946
-        Shared: 9.946
       us-east-1:
         Dedicated: 9.024
         Shared: 4.608
@@ -21719,6 +21844,9 @@ m5.24xlarge:
       us-west-2:
         Dedicated: 4.608
         Shared: 9.024
+      us-west-2-lax-1a:
+        Dedicated: 9.946
+        Shared: 9.946
   regions:
     - us-gov-east-1
     - eu-central-1
@@ -21735,7 +21863,7 @@ m5.24xlarge:
     - ap-northeast-1
     - ap-southeast-1
     - me-south-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-west-2
     - eu-west-1
     - us-east-1
@@ -21801,9 +21929,6 @@ m5.2xlarge:
       sa-east-1:
         Dedicated: 0.646
         Shared: 0.612
-      US West (Los Angeles):
-        Dedicated: 0.489
-        Shared: 0.461
       us-east-1:
         Dedicated: 0.407
         Shared: 0.384
@@ -21822,6 +21947,9 @@ m5.2xlarge:
       us-west-2:
         Dedicated: 0.407
         Shared: 0.384
+      us-west-2-lax-1a:
+        Dedicated: 0.489
+        Shared: 0.461
     RHEL:
       ap-east-1:
         Dedicated: 0.691
@@ -21868,9 +21996,6 @@ m5.2xlarge:
       sa-east-1:
         Dedicated: 0.776
         Shared: 0.742
-      US West (Los Angeles):
-        Dedicated: 0.619
-        Shared: 0.591
       us-east-1:
         Dedicated: 0.537
         Shared: 0.514
@@ -21889,6 +22014,9 @@ m5.2xlarge:
       us-west-2:
         Dedicated: 0.537
         Shared: 0.514
+      us-west-2-lax-1a:
+        Dedicated: 0.619
+        Shared: 0.591
     SUSE:
       ap-east-1:
         Dedicated: 0.661
@@ -21935,9 +22063,6 @@ m5.2xlarge:
       sa-east-1:
         Dedicated: 0.746
         Shared: 0.712
-      US West (Los Angeles):
-        Dedicated: 0.589
-        Shared: 0.561
       us-east-1:
         Dedicated: 0.507
         Shared: 0.484
@@ -21956,6 +22081,9 @@ m5.2xlarge:
       us-west-2:
         Dedicated: 0.507
         Shared: 0.484
+      us-west-2-lax-1a:
+        Dedicated: 0.589
+        Shared: 0.561
     Windows:
       ap-east-1:
         Dedicated: 0.929
@@ -22002,9 +22130,6 @@ m5.2xlarge:
       sa-east-1:
         Dedicated: 1.014
         Shared: 0.98
-      US West (Los Angeles):
-        Dedicated: 0.857
-        Shared: 0.829
       us-east-1:
         Dedicated: 0.407
         Shared: 0.384
@@ -22023,6 +22148,9 @@ m5.2xlarge:
       us-west-2:
         Dedicated: 0.407
         Shared: 0.752
+      us-west-2-lax-1a:
+        Dedicated: 0.857
+        Shared: 0.829
   regions:
     - eu-north-1
     - me-south-1
@@ -22039,7 +22167,7 @@ m5.2xlarge:
     - us-gov-west-1
     - ap-south-1
     - us-east-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-east-1
     - ap-southeast-1
     - ap-northeast-3
@@ -22105,9 +22233,6 @@ m5.4xlarge:
       sa-east-1:
         Dedicated: 1.293
         Shared: 1.224
-      US West (Los Angeles):
-        Dedicated: 0.977
-        Shared: 0.922
       us-east-1:
         Dedicated: 0.815
         Shared: 0.768
@@ -22126,6 +22251,9 @@ m5.4xlarge:
       us-west-2:
         Dedicated: 0.815
         Shared: 0.768
+      us-west-2-lax-1a:
+        Dedicated: 0.977
+        Shared: 0.922
     RHEL:
       ap-east-1:
         Dedicated: 1.251
@@ -22172,9 +22300,6 @@ m5.4xlarge:
       sa-east-1:
         Dedicated: 1.423
         Shared: 1.354
-      US West (Los Angeles):
-        Dedicated: 1.107
-        Shared: 1.052
       us-east-1:
         Dedicated: 0.945
         Shared: 0.898
@@ -22193,6 +22318,9 @@ m5.4xlarge:
       us-west-2:
         Dedicated: 0.945
         Shared: 0.898
+      us-west-2-lax-1a:
+        Dedicated: 1.107
+        Shared: 1.052
     SUSE:
       ap-east-1:
         Dedicated: 1.221
@@ -22239,9 +22367,6 @@ m5.4xlarge:
       sa-east-1:
         Dedicated: 1.393
         Shared: 1.324
-      US West (Los Angeles):
-        Dedicated: 1.077
-        Shared: 1.022
       us-east-1:
         Dedicated: 0.915
         Shared: 0.868
@@ -22260,6 +22385,9 @@ m5.4xlarge:
       us-west-2:
         Dedicated: 0.915
         Shared: 0.868
+      us-west-2-lax-1a:
+        Dedicated: 1.077
+        Shared: 1.022
     Windows:
       ap-east-1:
         Dedicated: 1.857
@@ -22306,9 +22434,6 @@ m5.4xlarge:
       sa-east-1:
         Dedicated: 2.029
         Shared: 1.96
-      US West (Los Angeles):
-        Dedicated: 1.713
-        Shared: 1.658
       us-east-1:
         Dedicated: 1.551
         Shared: 1.504
@@ -22327,6 +22452,9 @@ m5.4xlarge:
       us-west-2:
         Dedicated: 0.815
         Shared: 0.768
+      us-west-2-lax-1a:
+        Dedicated: 1.713
+        Shared: 1.658
   regions:
     - us-east-1
     - us-east-2
@@ -22344,7 +22472,7 @@ m5.4xlarge:
     - ca-central-1
     - eu-west-3
     - ap-south-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-southeast-2
     - us-west-1
     - us-gov-east-1
@@ -22409,9 +22537,6 @@ m5.8xlarge:
       sa-east-1:
         Dedicated: 2.586
         Shared: 2.448
-      US West (Los Angeles):
-        Dedicated: 1.955
-        Shared: 1.843
       us-east-1:
         Dedicated: 1.629
         Shared: 1.536
@@ -22430,6 +22555,9 @@ m5.8xlarge:
       us-west-2:
         Dedicated: 1.629
         Shared: 1.536
+      us-west-2-lax-1a:
+        Dedicated: 1.955
+        Shared: 1.843
     RHEL:
       ap-east-1:
         Dedicated: 2.372
@@ -22476,9 +22604,6 @@ m5.8xlarge:
       sa-east-1:
         Dedicated: 2.716
         Shared: 2.578
-      US West (Los Angeles):
-        Dedicated: 2.085
-        Shared: 1.973
       us-east-1:
         Dedicated: 1.759
         Shared: 1.666
@@ -22497,6 +22622,9 @@ m5.8xlarge:
       us-west-2:
         Dedicated: 1.759
         Shared: 1.666
+      us-west-2-lax-1a:
+        Dedicated: 2.085
+        Shared: 1.973
     SUSE:
       ap-east-1:
         Dedicated: 2.342
@@ -22543,9 +22671,6 @@ m5.8xlarge:
       sa-east-1:
         Dedicated: 2.686
         Shared: 2.548
-      US West (Los Angeles):
-        Dedicated: 2.055
-        Shared: 1.943
       us-east-1:
         Dedicated: 1.729
         Shared: 1.636
@@ -22564,6 +22689,9 @@ m5.8xlarge:
       us-west-2:
         Dedicated: 1.729
         Shared: 1.636
+      us-west-2-lax-1a:
+        Dedicated: 2.055
+        Shared: 1.943
     Windows:
       ap-east-1:
         Dedicated: 3.714
@@ -22610,9 +22738,6 @@ m5.8xlarge:
       sa-east-1:
         Dedicated: 4.058
         Shared: 3.92
-      US West (Los Angeles):
-        Dedicated: 3.427
-        Shared: 3.315
       us-east-1:
         Dedicated: 3.101
         Shared: 3.008
@@ -22631,6 +22756,9 @@ m5.8xlarge:
       us-west-2:
         Dedicated: 3.101
         Shared: 3.008
+      us-west-2-lax-1a:
+        Dedicated: 3.427
+        Shared: 3.315
   regions:
     - eu-west-2
     - us-gov-west-1
@@ -22641,7 +22769,7 @@ m5.8xlarge:
     - us-east-2
     - me-south-1
     - ap-southeast-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-east-1
     - ap-northeast-1
     - ap-northeast-3
@@ -22713,9 +22841,6 @@ m5.large:
       sa-east-1:
         Dedicated: 0.162
         Shared: 0.153
-      US West (Los Angeles):
-        Dedicated: 0.122
-        Shared: 0.115
       us-east-1:
         Dedicated: 0.102
         Shared: 0.096
@@ -22734,6 +22859,9 @@ m5.large:
       us-west-2:
         Dedicated: 0.102
         Shared: 0.096
+      us-west-2-lax-1a:
+        Dedicated: 0.122
+        Shared: 0.115
     RHEL:
       ap-east-1:
         Dedicated: 0.2
@@ -22780,9 +22908,6 @@ m5.large:
       sa-east-1:
         Dedicated: 0.222
         Shared: 0.213
-      US West (Los Angeles):
-        Dedicated: 0.182
-        Shared: 0.175
       us-east-1:
         Dedicated: 0.162
         Shared: 0.156
@@ -22801,6 +22926,9 @@ m5.large:
       us-west-2:
         Dedicated: 0.162
         Shared: 0.156
+      us-west-2-lax-1a:
+        Dedicated: 0.182
+        Shared: 0.175
     SUSE:
       ap-east-1:
         Dedicated: 0.24
@@ -22847,9 +22975,6 @@ m5.large:
       sa-east-1:
         Dedicated: 0.262
         Shared: 0.253
-      US West (Los Angeles):
-        Dedicated: 0.222
-        Shared: 0.215
       us-east-1:
         Dedicated: 0.202
         Shared: 0.196
@@ -22868,6 +22993,9 @@ m5.large:
       us-west-2:
         Dedicated: 0.202
         Shared: 0.196
+      us-west-2-lax-1a:
+        Dedicated: 0.222
+        Shared: 0.215
     Windows:
       ap-east-1:
         Dedicated: 0.232
@@ -22914,9 +23042,6 @@ m5.large:
       sa-east-1:
         Dedicated: 0.162
         Shared: 0.153
-      US West (Los Angeles):
-        Dedicated: 0.214
-        Shared: 0.207
       us-east-1:
         Dedicated: 0.102
         Shared: 0.188
@@ -22935,6 +23060,9 @@ m5.large:
       us-west-2:
         Dedicated: 0.194
         Shared: 0.096
+      us-west-2-lax-1a:
+        Dedicated: 0.214
+        Shared: 0.207
   regions:
     - eu-west-1
     - ap-southeast-1
@@ -22943,7 +23071,7 @@ m5.large:
     - eu-north-1
     - us-west-2
     - sa-east-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-east-1
     - eu-west-2
     - ap-south-1
@@ -23017,9 +23145,6 @@ m5.metal:
       sa-east-1:
         Dedicated: 7.344
         Shared: 7.344
-      US West (Los Angeles):
-        Dedicated: 5.53
-        Shared: 5.53
       us-east-1:
         Dedicated: 4.608
         Shared: 4.608
@@ -23038,6 +23163,9 @@ m5.metal:
       us-west-2:
         Dedicated: 4.608
         Shared: 4.608
+      us-west-2-lax-1a:
+        Dedicated: 5.53
+        Shared: 5.53
     RHEL:
       ap-east-1:
         Dedicated: 6.466
@@ -23084,9 +23212,6 @@ m5.metal:
       sa-east-1:
         Dedicated: 7.474
         Shared: 7.474
-      US West (Los Angeles):
-        Dedicated: 5.66
-        Shared: 5.66
       us-east-1:
         Dedicated: 4.738
         Shared: 4.738
@@ -23105,6 +23230,9 @@ m5.metal:
       us-west-2:
         Dedicated: 4.738
         Shared: 4.738
+      us-west-2-lax-1a:
+        Dedicated: 5.66
+        Shared: 5.66
     SUSE:
       ap-east-1:
         Dedicated: 6.436
@@ -23151,9 +23279,6 @@ m5.metal:
       sa-east-1:
         Dedicated: 7.444
         Shared: 7.444
-      US West (Los Angeles):
-        Dedicated: 5.63
-        Shared: 5.63
       us-east-1:
         Dedicated: 4.708
         Shared: 4.708
@@ -23172,6 +23297,9 @@ m5.metal:
       us-west-2:
         Dedicated: 4.708
         Shared: 4.708
+      us-west-2-lax-1a:
+        Dedicated: 5.63
+        Shared: 5.63
     Windows:
       ap-east-1:
         Dedicated: 10.752
@@ -23218,9 +23346,6 @@ m5.metal:
       sa-east-1:
         Dedicated: 11.76
         Shared: 11.76
-      US West (Los Angeles):
-        Dedicated: 9.946
-        Shared: 9.946
       us-east-1:
         Dedicated: 9.024
         Shared: 9.024
@@ -23239,10 +23364,13 @@ m5.metal:
       us-west-2:
         Dedicated: 9.024
         Shared: 9.024
+      us-west-2-lax-1a:
+        Dedicated: 9.946
+        Shared: 9.946
   regions:
     - eu-west-2
     - eu-north-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-northeast-1
     - eu-west-3
     - us-west-2
@@ -23321,9 +23449,6 @@ m5.xlarge:
       sa-east-1:
         Dedicated: 0.323
         Shared: 0.306
-      US West (Los Angeles):
-        Dedicated: 0.244
-        Shared: 0.23
       us-east-1:
         Dedicated: 0.204
         Shared: 0.192
@@ -23342,6 +23467,9 @@ m5.xlarge:
       us-west-2:
         Dedicated: 0.204
         Shared: 0.192
+      us-west-2-lax-1a:
+        Dedicated: 0.244
+        Shared: 0.23
     RHEL:
       ap-east-1:
         Dedicated: 0.34
@@ -23388,9 +23516,6 @@ m5.xlarge:
       sa-east-1:
         Dedicated: 0.383
         Shared: 0.366
-      US West (Los Angeles):
-        Dedicated: 0.304
-        Shared: 0.29
       us-east-1:
         Dedicated: 0.264
         Shared: 0.252
@@ -23409,6 +23534,9 @@ m5.xlarge:
       us-west-2:
         Dedicated: 0.264
         Shared: 0.252
+      us-west-2-lax-1a:
+        Dedicated: 0.304
+        Shared: 0.29
     SUSE:
       ap-east-1:
         Dedicated: 0.38
@@ -23455,9 +23583,6 @@ m5.xlarge:
       sa-east-1:
         Dedicated: 0.423
         Shared: 0.406
-      US West (Los Angeles):
-        Dedicated: 0.344
-        Shared: 0.33
       us-east-1:
         Dedicated: 0.304
         Shared: 0.292
@@ -23476,6 +23601,9 @@ m5.xlarge:
       us-west-2:
         Dedicated: 0.304
         Shared: 0.292
+      us-west-2-lax-1a:
+        Dedicated: 0.344
+        Shared: 0.33
     Windows:
       ap-east-1:
         Dedicated: 0.464
@@ -23522,9 +23650,6 @@ m5.xlarge:
       sa-east-1:
         Dedicated: 0.323
         Shared: 0.306
-      US West (Los Angeles):
-        Dedicated: 0.428
-        Shared: 0.414
       us-east-1:
         Dedicated: 0.204
         Shared: 0.192
@@ -23543,6 +23668,9 @@ m5.xlarge:
       us-west-2:
         Dedicated: 0.388
         Shared: 0.376
+      us-west-2-lax-1a:
+        Dedicated: 0.428
+        Shared: 0.414
   regions:
     - ca-central-1
     - eu-central-1
@@ -23565,7 +23693,7 @@ m5.xlarge:
     - eu-west-2
     - us-west-2
     - me-south-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
   storage: EBS only
   vcpu: 4
 m5a.12xlarge:
@@ -34778,9 +34906,6 @@ r5.12xlarge:
       sa-east-1:
         Dedicated: 6.767
         Shared: 6.384
-      US West (Los Angeles):
-        Dedicated: 3.847
-        Shared: 3.629
       us-east-1:
         Dedicated: 3.205
         Shared: 3.024
@@ -34799,6 +34924,9 @@ r5.12xlarge:
       us-west-2:
         Dedicated: 3.205
         Shared: 3.024
+      us-west-2-lax-1a:
+        Dedicated: 3.847
+        Shared: 3.629
     RHEL:
       ap-east-1:
         Dedicated: 4.378
@@ -34845,9 +34973,6 @@ r5.12xlarge:
       sa-east-1:
         Dedicated: 6.897
         Shared: 6.514
-      US West (Los Angeles):
-        Dedicated: 3.977
-        Shared: 3.759
       us-east-1:
         Dedicated: 3.335
         Shared: 3.154
@@ -34866,6 +34991,9 @@ r5.12xlarge:
       us-west-2:
         Dedicated: 3.335
         Shared: 3.154
+      us-west-2-lax-1a:
+        Dedicated: 3.977
+        Shared: 3.759
     SUSE:
       ap-east-1:
         Dedicated: 4.398
@@ -34912,9 +35040,6 @@ r5.12xlarge:
       sa-east-1:
         Dedicated: 6.917
         Shared: 6.534
-      US West (Los Angeles):
-        Dedicated: 3.997
-        Shared: 3.779
       us-east-1:
         Dedicated: 3.355
         Shared: 3.174
@@ -34933,6 +35058,9 @@ r5.12xlarge:
       us-west-2:
         Dedicated: 3.355
         Shared: 3.174
+      us-west-2-lax-1a:
+        Dedicated: 3.997
+        Shared: 3.779
     Windows:
       ap-east-1:
         Dedicated: 6.456
@@ -34979,9 +35107,6 @@ r5.12xlarge:
       sa-east-1:
         Dedicated: 8.975
         Shared: 8.592
-      US West (Los Angeles):
-        Dedicated: 6.055
-        Shared: 5.837
       us-east-1:
         Dedicated: 3.205
         Shared: 3.024
@@ -35000,6 +35125,9 @@ r5.12xlarge:
       us-west-2:
         Dedicated: 5.413
         Shared: 5.232
+      us-west-2-lax-1a:
+        Dedicated: 6.055
+        Shared: 5.837
   regions:
     - us-gov-west-1
     - ca-central-1
@@ -35021,7 +35149,7 @@ r5.12xlarge:
     - eu-north-1
     - ap-southeast-2
     - eu-central-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-northeast-3
   storage: EBS only
   vcpu: 48
@@ -35079,9 +35207,6 @@ r5.16xlarge:
       sa-east-1:
         Dedicated: 9.023
         Shared: 8.512
-      US West (Los Angeles):
-        Dedicated: 5.129
-        Shared: 4.838
       us-east-1:
         Dedicated: 4.274
         Shared: 4.032
@@ -35100,6 +35225,9 @@ r5.16xlarge:
       us-west-2:
         Dedicated: 4.274
         Shared: 4.032
+      us-west-2-lax-1a:
+        Dedicated: 5.129
+        Shared: 4.838
     RHEL:
       ap-east-1:
         Dedicated: 5.795
@@ -35146,9 +35274,6 @@ r5.16xlarge:
       sa-east-1:
         Dedicated: 9.153
         Shared: 8.642
-      US West (Los Angeles):
-        Dedicated: 5.259
-        Shared: 4.968
       us-east-1:
         Dedicated: 4.404
         Shared: 4.162
@@ -35167,6 +35292,9 @@ r5.16xlarge:
       us-west-2:
         Dedicated: 4.404
         Shared: 4.162
+      us-west-2-lax-1a:
+        Dedicated: 5.259
+        Shared: 4.968
     SUSE:
       ap-east-1:
         Dedicated: 5.815
@@ -35213,9 +35341,6 @@ r5.16xlarge:
       sa-east-1:
         Dedicated: 9.173
         Shared: 8.662
-      US West (Los Angeles):
-        Dedicated: 5.279
-        Shared: 4.988
       us-east-1:
         Dedicated: 4.424
         Shared: 4.182
@@ -35234,6 +35359,9 @@ r5.16xlarge:
       us-west-2:
         Dedicated: 4.424
         Shared: 4.182
+      us-west-2-lax-1a:
+        Dedicated: 5.279
+        Shared: 4.988
     Windows:
       ap-east-1:
         Dedicated: 8.609
@@ -35280,9 +35408,6 @@ r5.16xlarge:
       sa-east-1:
         Dedicated: 11.967
         Shared: 11.456
-      US West (Los Angeles):
-        Dedicated: 8.073
-        Shared: 7.782
       us-east-1:
         Dedicated: 7.218
         Shared: 6.976
@@ -35301,9 +35426,12 @@ r5.16xlarge:
       us-west-2:
         Dedicated: 7.218
         Shared: 6.976
+      us-west-2-lax-1a:
+        Dedicated: 8.073
+        Shared: 7.782
   regions:
     - us-east-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-south-1
     - sa-east-1
     - us-gov-east-1
@@ -35380,9 +35508,6 @@ r5.24xlarge:
       sa-east-1:
         Dedicated: 12.768
         Shared: 12.768
-      US West (Los Angeles):
-        Dedicated: 7.258
-        Shared: 7.258
       us-east-1:
         Dedicated: 6.048
         Shared: 6.048
@@ -35401,6 +35526,9 @@ r5.24xlarge:
       us-west-2:
         Dedicated: 6.048
         Shared: 6.048
+      us-west-2-lax-1a:
+        Dedicated: 7.258
+        Shared: 7.258
     RHEL:
       ap-east-1:
         Dedicated: 8.146
@@ -35447,9 +35575,6 @@ r5.24xlarge:
       sa-east-1:
         Dedicated: 12.898
         Shared: 12.898
-      US West (Los Angeles):
-        Dedicated: 7.388
-        Shared: 7.388
       us-east-1:
         Dedicated: 6.178
         Shared: 6.178
@@ -35468,6 +35593,9 @@ r5.24xlarge:
       us-west-2:
         Dedicated: 6.178
         Shared: 6.178
+      us-west-2-lax-1a:
+        Dedicated: 7.388
+        Shared: 7.388
     SUSE:
       ap-east-1:
         Dedicated: 8.166
@@ -35514,9 +35642,6 @@ r5.24xlarge:
       sa-east-1:
         Dedicated: 12.918
         Shared: 12.918
-      US West (Los Angeles):
-        Dedicated: 7.408
-        Shared: 7.408
       us-east-1:
         Dedicated: 6.198
         Shared: 6.198
@@ -35535,6 +35660,9 @@ r5.24xlarge:
       us-west-2:
         Dedicated: 6.198
         Shared: 6.198
+      us-west-2-lax-1a:
+        Dedicated: 7.408
+        Shared: 7.408
     Windows:
       ap-east-1:
         Dedicated: 12.432
@@ -35581,9 +35709,6 @@ r5.24xlarge:
       sa-east-1:
         Dedicated: 17.184
         Shared: 17.184
-      US West (Los Angeles):
-        Dedicated: 11.674
-        Shared: 11.674
       us-east-1:
         Dedicated: 10.464
         Shared: 6.048
@@ -35602,6 +35727,9 @@ r5.24xlarge:
       us-west-2:
         Dedicated: 10.464
         Shared: 6.048
+      us-west-2-lax-1a:
+        Dedicated: 11.674
+        Shared: 11.674
   regions:
     - ap-east-1
     - ca-central-1
@@ -35611,7 +35739,7 @@ r5.24xlarge:
     - us-east-1
     - us-gov-west-1
     - ap-south-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-gov-east-1
     - me-south-1
     - eu-west-3
@@ -35681,9 +35809,6 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 1.128
         Shared: 1.064
-      US West (Los Angeles):
-        Dedicated: 0.641
-        Shared: 0.605
       us-east-1:
         Dedicated: 0.534
         Shared: 0.504
@@ -35702,6 +35827,9 @@ r5.2xlarge:
       us-west-2:
         Dedicated: 0.534
         Shared: 0.504
+      us-west-2-lax-1a:
+        Dedicated: 0.641
+        Shared: 0.605
     RHEL:
       ap-east-1:
         Dedicated: 0.838
@@ -35748,9 +35876,6 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 1.258
         Shared: 1.194
-      US West (Los Angeles):
-        Dedicated: 0.771
-        Shared: 0.735
       us-east-1:
         Dedicated: 0.664
         Shared: 0.634
@@ -35769,6 +35894,9 @@ r5.2xlarge:
       us-west-2:
         Dedicated: 0.664
         Shared: 0.634
+      us-west-2-lax-1a:
+        Dedicated: 0.771
+        Shared: 0.735
     SUSE:
       ap-east-1:
         Dedicated: 0.858
@@ -35815,9 +35943,6 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 1.278
         Shared: 1.214
-      US West (Los Angeles):
-        Dedicated: 0.791
-        Shared: 0.755
       us-east-1:
         Dedicated: 0.684
         Shared: 0.654
@@ -35836,6 +35961,9 @@ r5.2xlarge:
       us-west-2:
         Dedicated: 0.684
         Shared: 0.654
+      us-west-2-lax-1a:
+        Dedicated: 0.791
+        Shared: 0.755
     Windows:
       ap-east-1:
         Dedicated: 1.076
@@ -35882,9 +36010,6 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 1.496
         Shared: 1.432
-      US West (Los Angeles):
-        Dedicated: 1.009
-        Shared: 0.973
       us-east-1:
         Dedicated: 0.534
         Shared: 0.872
@@ -35903,6 +36028,9 @@ r5.2xlarge:
       us-west-2:
         Dedicated: 0.902
         Shared: 0.872
+      us-west-2-lax-1a:
+        Dedicated: 1.009
+        Shared: 0.973
   regions:
     - us-gov-east-1
     - me-south-1
@@ -35925,7 +36053,7 @@ r5.2xlarge:
     - eu-west-2
     - ca-central-1
     - ap-southeast-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
   storage: EBS only
   vcpu: 8
 r5.4xlarge:
@@ -35982,9 +36110,6 @@ r5.4xlarge:
       sa-east-1:
         Dedicated: 2.256
         Shared: 2.128
-      US West (Los Angeles):
-        Dedicated: 1.282
-        Shared: 1.21
       us-east-1:
         Dedicated: 1.068
         Shared: 1.008
@@ -36003,6 +36128,9 @@ r5.4xlarge:
       us-west-2:
         Dedicated: 1.068
         Shared: 1.008
+      us-west-2-lax-1a:
+        Dedicated: 1.282
+        Shared: 1.21
     RHEL:
       ap-east-1:
         Dedicated: 1.546
@@ -36049,9 +36177,6 @@ r5.4xlarge:
       sa-east-1:
         Dedicated: 2.386
         Shared: 2.258
-      US West (Los Angeles):
-        Dedicated: 1.412
-        Shared: 1.34
       us-east-1:
         Dedicated: 1.198
         Shared: 1.138
@@ -36070,6 +36195,9 @@ r5.4xlarge:
       us-west-2:
         Dedicated: 1.198
         Shared: 1.138
+      us-west-2-lax-1a:
+        Dedicated: 1.412
+        Shared: 1.34
     SUSE:
       ap-east-1:
         Dedicated: 1.566
@@ -36116,9 +36244,6 @@ r5.4xlarge:
       sa-east-1:
         Dedicated: 2.406
         Shared: 2.278
-      US West (Los Angeles):
-        Dedicated: 1.432
-        Shared: 1.36
       us-east-1:
         Dedicated: 1.218
         Shared: 1.158
@@ -36137,6 +36262,9 @@ r5.4xlarge:
       us-west-2:
         Dedicated: 1.218
         Shared: 1.158
+      us-west-2-lax-1a:
+        Dedicated: 1.432
+        Shared: 1.36
     Windows:
       ap-east-1:
         Dedicated: 2.152
@@ -36183,9 +36311,6 @@ r5.4xlarge:
       sa-east-1:
         Dedicated: 2.992
         Shared: 2.864
-      US West (Los Angeles):
-        Dedicated: 2.018
-        Shared: 1.946
       us-east-1:
         Dedicated: 1.804
         Shared: 1.008
@@ -36204,6 +36329,9 @@ r5.4xlarge:
       us-west-2:
         Dedicated: 1.804
         Shared: 1.744
+      us-west-2-lax-1a:
+        Dedicated: 2.018
+        Shared: 1.946
   regions:
     - ap-south-1
     - eu-west-2
@@ -36221,7 +36349,7 @@ r5.4xlarge:
     - us-east-2
     - ap-southeast-1
     - eu-west-3
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-northeast-2
     - us-east-1
     - us-gov-east-1
@@ -36283,9 +36411,6 @@ r5.8xlarge:
       sa-east-1:
         Dedicated: 4.511
         Shared: 4.256
-      US West (Los Angeles):
-        Dedicated: 2.565
-        Shared: 2.419
       us-east-1:
         Dedicated: 2.137
         Shared: 2.016
@@ -36304,6 +36429,9 @@ r5.8xlarge:
       us-west-2:
         Dedicated: 2.137
         Shared: 2.016
+      us-west-2-lax-1a:
+        Dedicated: 2.565
+        Shared: 2.419
     RHEL:
       ap-east-1:
         Dedicated: 2.962
@@ -36350,9 +36478,6 @@ r5.8xlarge:
       sa-east-1:
         Dedicated: 4.641
         Shared: 4.386
-      US West (Los Angeles):
-        Dedicated: 2.695
-        Shared: 2.549
       us-east-1:
         Dedicated: 2.267
         Shared: 2.146
@@ -36371,6 +36496,9 @@ r5.8xlarge:
       us-west-2:
         Dedicated: 2.267
         Shared: 2.146
+      us-west-2-lax-1a:
+        Dedicated: 2.695
+        Shared: 2.549
     SUSE:
       ap-east-1:
         Dedicated: 2.982
@@ -36417,9 +36545,6 @@ r5.8xlarge:
       sa-east-1:
         Dedicated: 4.661
         Shared: 4.406
-      US West (Los Angeles):
-        Dedicated: 2.715
-        Shared: 2.569
       us-east-1:
         Dedicated: 2.287
         Shared: 2.166
@@ -36438,6 +36563,9 @@ r5.8xlarge:
       us-west-2:
         Dedicated: 2.287
         Shared: 2.166
+      us-west-2-lax-1a:
+        Dedicated: 2.715
+        Shared: 2.569
     Windows:
       ap-east-1:
         Dedicated: 4.304
@@ -36484,9 +36612,6 @@ r5.8xlarge:
       sa-east-1:
         Dedicated: 5.983
         Shared: 5.728
-      US West (Los Angeles):
-        Dedicated: 4.037
-        Shared: 3.891
       us-east-1:
         Dedicated: 3.609
         Shared: 3.488
@@ -36505,6 +36630,9 @@ r5.8xlarge:
       us-west-2:
         Dedicated: 3.609
         Shared: 3.488
+      us-west-2-lax-1a:
+        Dedicated: 4.037
+        Shared: 3.891
   regions:
     - us-gov-west-1
     - eu-west-2
@@ -36513,7 +36641,7 @@ r5.8xlarge:
     - eu-central-1
     - us-east-1
     - us-west-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-southeast-2
     - eu-north-1
     - me-south-1
@@ -36585,9 +36713,6 @@ r5.large:
       sa-east-1:
         Dedicated: 0.282
         Shared: 0.266
-      US West (Los Angeles):
-        Dedicated: 0.16
-        Shared: 0.151
       us-east-1:
         Dedicated: 0.134
         Shared: 0.126
@@ -36606,6 +36731,9 @@ r5.large:
       us-west-2:
         Dedicated: 0.134
         Shared: 0.126
+      us-west-2-lax-1a:
+        Dedicated: 0.16
+        Shared: 0.151
     RHEL:
       ap-east-1:
         Dedicated: 0.237
@@ -36652,9 +36780,6 @@ r5.large:
       sa-east-1:
         Dedicated: 0.342
         Shared: 0.326
-      US West (Los Angeles):
-        Dedicated: 0.22
-        Shared: 0.211
       us-east-1:
         Dedicated: 0.194
         Shared: 0.186
@@ -36673,6 +36798,9 @@ r5.large:
       us-west-2:
         Dedicated: 0.194
         Shared: 0.186
+      us-west-2-lax-1a:
+        Dedicated: 0.22
+        Shared: 0.211
     SUSE:
       ap-east-1:
         Dedicated: 0.24
@@ -36719,9 +36847,6 @@ r5.large:
       sa-east-1:
         Dedicated: 0.345
         Shared: 0.329
-      US West (Los Angeles):
-        Dedicated: 0.223
-        Shared: 0.214
       us-east-1:
         Dedicated: 0.197
         Shared: 0.189
@@ -36740,6 +36865,9 @@ r5.large:
       us-west-2:
         Dedicated: 0.197
         Shared: 0.189
+      us-west-2-lax-1a:
+        Dedicated: 0.223
+        Shared: 0.214
     Windows:
       ap-east-1:
         Dedicated: 0.269
@@ -36786,9 +36914,6 @@ r5.large:
       sa-east-1:
         Dedicated: 0.374
         Shared: 0.358
-      US West (Los Angeles):
-        Dedicated: 0.252
-        Shared: 0.243
       us-east-1:
         Dedicated: 0.226
         Shared: 0.126
@@ -36807,6 +36932,9 @@ r5.large:
       us-west-2:
         Dedicated: 0.134
         Shared: 0.126
+      us-west-2-lax-1a:
+        Dedicated: 0.252
+        Shared: 0.243
   regions:
     - eu-west-2
     - ap-northeast-2
@@ -36818,7 +36946,7 @@ r5.large:
     - us-gov-east-1
     - ap-south-1
     - us-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ca-central-1
     - us-west-2
     - us-east-2
@@ -36886,9 +37014,6 @@ r5.metal:
       sa-east-1:
         Dedicated: 12.768
         Shared: 12.768
-      US West (Los Angeles):
-        Dedicated: 7.258
-        Shared: 7.258
       us-east-1:
         Dedicated: 6.048
         Shared: 6.048
@@ -36907,6 +37032,9 @@ r5.metal:
       us-west-2:
         Dedicated: 6.048
         Shared: 6.048
+      us-west-2-lax-1a:
+        Dedicated: 7.258
+        Shared: 7.258
     RHEL:
       ap-east-1:
         Dedicated: 8.146
@@ -36953,9 +37081,6 @@ r5.metal:
       sa-east-1:
         Dedicated: 12.898
         Shared: 12.898
-      US West (Los Angeles):
-        Dedicated: 7.388
-        Shared: 7.388
       us-east-1:
         Dedicated: 6.178
         Shared: 6.178
@@ -36974,6 +37099,9 @@ r5.metal:
       us-west-2:
         Dedicated: 6.178
         Shared: 6.178
+      us-west-2-lax-1a:
+        Dedicated: 7.388
+        Shared: 7.388
     SUSE:
       ap-east-1:
         Dedicated: 8.166
@@ -37020,9 +37148,6 @@ r5.metal:
       sa-east-1:
         Dedicated: 12.918
         Shared: 12.918
-      US West (Los Angeles):
-        Dedicated: 7.408
-        Shared: 7.408
       us-east-1:
         Dedicated: 6.198
         Shared: 6.198
@@ -37041,6 +37166,9 @@ r5.metal:
       us-west-2:
         Dedicated: 6.198
         Shared: 6.198
+      us-west-2-lax-1a:
+        Dedicated: 7.408
+        Shared: 7.408
     Windows:
       ap-east-1:
         Dedicated: 12.432
@@ -37087,9 +37215,6 @@ r5.metal:
       sa-east-1:
         Dedicated: 17.184
         Shared: 17.184
-      US West (Los Angeles):
-        Dedicated: 11.674
-        Shared: 11.674
       us-east-1:
         Dedicated: 10.464
         Shared: 10.464
@@ -37108,9 +37233,12 @@ r5.metal:
       us-west-2:
         Dedicated: 10.464
         Shared: 10.464
+      us-west-2-lax-1a:
+        Dedicated: 11.674
+        Shared: 11.674
   regions:
     - us-west-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-southeast-2
     - us-west-1
     - eu-central-1
@@ -37187,9 +37315,6 @@ r5.xlarge:
       sa-east-1:
         Dedicated: 0.564
         Shared: 0.532
-      US West (Los Angeles):
-        Dedicated: 0.321
-        Shared: 0.302
       us-east-1:
         Dedicated: 0.267
         Shared: 0.252
@@ -37208,6 +37333,9 @@ r5.xlarge:
       us-west-2:
         Dedicated: 0.267
         Shared: 0.252
+      us-west-2-lax-1a:
+        Dedicated: 0.321
+        Shared: 0.302
     RHEL:
       ap-east-1:
         Dedicated: 0.414
@@ -37254,9 +37382,6 @@ r5.xlarge:
       sa-east-1:
         Dedicated: 0.624
         Shared: 0.592
-      US West (Los Angeles):
-        Dedicated: 0.381
-        Shared: 0.362
       us-east-1:
         Dedicated: 0.327
         Shared: 0.312
@@ -37275,6 +37400,9 @@ r5.xlarge:
       us-west-2:
         Dedicated: 0.327
         Shared: 0.312
+      us-west-2-lax-1a:
+        Dedicated: 0.381
+        Shared: 0.362
     SUSE:
       ap-east-1:
         Dedicated: 0.479
@@ -37321,9 +37449,6 @@ r5.xlarge:
       sa-east-1:
         Dedicated: 0.689
         Shared: 0.657
-      US West (Los Angeles):
-        Dedicated: 0.446
-        Shared: 0.427
       us-east-1:
         Dedicated: 0.392
         Shared: 0.377
@@ -37342,6 +37467,9 @@ r5.xlarge:
       us-west-2:
         Dedicated: 0.392
         Shared: 0.377
+      us-west-2-lax-1a:
+        Dedicated: 0.446
+        Shared: 0.427
     Windows:
       ap-east-1:
         Dedicated: 0.538
@@ -37388,9 +37516,6 @@ r5.xlarge:
       sa-east-1:
         Dedicated: 0.748
         Shared: 0.716
-      US West (Los Angeles):
-        Dedicated: 0.505
-        Shared: 0.486
       us-east-1:
         Dedicated: 0.451
         Shared: 0.252
@@ -37409,6 +37534,9 @@ r5.xlarge:
       us-west-2:
         Dedicated: 0.267
         Shared: 0.252
+      us-west-2-lax-1a:
+        Dedicated: 0.505
+        Shared: 0.486
   regions:
     - us-west-2
     - us-west-1
@@ -37423,7 +37551,7 @@ r5.xlarge:
     - ap-northeast-2
     - eu-west-2
     - us-gov-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - eu-north-1
     - eu-west-3
     - ap-south-1
@@ -41010,9 +41138,6 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 7.458
         Shared: 7.032
-      US West (Los Angeles):
-        Dedicated: 4.396
-        Shared: 4.147
       us-east-1:
         Dedicated: 3.664
         Shared: 3.456
@@ -41031,6 +41156,9 @@ r5d.12xlarge:
       us-west-2:
         Dedicated: 3.664
         Shared: 3.456
+      us-west-2-lax-1a:
+        Dedicated: 4.396
+        Shared: 4.147
     RHEL:
       ap-east-1:
         Dedicated: 4.582
@@ -41077,9 +41205,6 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 7.588
         Shared: 7.162
-      US West (Los Angeles):
-        Dedicated: 4.526
-        Shared: 4.277
       us-east-1:
         Dedicated: 3.794
         Shared: 3.586
@@ -41098,6 +41223,9 @@ r5d.12xlarge:
       us-west-2:
         Dedicated: 3.794
         Shared: 3.586
+      us-west-2-lax-1a:
+        Dedicated: 4.526
+        Shared: 4.277
     SUSE:
       ap-east-1:
         Dedicated: 4.602
@@ -41144,9 +41272,6 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 7.608
         Shared: 7.182
-      US West (Los Angeles):
-        Dedicated: 4.546
-        Shared: 4.297
       us-east-1:
         Dedicated: 3.814
         Shared: 3.606
@@ -41165,6 +41290,9 @@ r5d.12xlarge:
       us-west-2:
         Dedicated: 3.814
         Shared: 3.606
+      us-west-2-lax-1a:
+        Dedicated: 4.546
+        Shared: 4.297
     Windows:
       ap-east-1:
         Dedicated: 6.66
@@ -41211,9 +41339,6 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 9.666
         Shared: 9.24
-      US West (Los Angeles):
-        Dedicated: 6.604
-        Shared: 6.355
       us-east-1:
         Dedicated: 5.872
         Shared: 5.664
@@ -41232,6 +41357,9 @@ r5d.12xlarge:
       us-west-2:
         Dedicated: 5.872
         Shared: 5.664
+      us-west-2-lax-1a:
+        Dedicated: 6.604
+        Shared: 6.355
   regions:
     - eu-north-1
     - ap-northeast-2
@@ -41253,7 +41381,7 @@ r5d.12xlarge:
     - ap-southeast-1
     - ap-south-1
     - eu-west-3
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-southeast-2
   storage: 2 x 900 NVMe SSD
   vcpu: 48
@@ -41311,9 +41439,6 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 9.944
         Shared: 9.376
-      US West (Los Angeles):
-        Dedicated: 5.861
-        Shared: 5.53
       us-east-1:
         Dedicated: 4.885
         Shared: 4.608
@@ -41332,6 +41457,9 @@ r5d.16xlarge:
       us-west-2:
         Dedicated: 4.885
         Shared: 4.608
+      us-west-2-lax-1a:
+        Dedicated: 5.861
+        Shared: 5.53
     RHEL:
       ap-east-1:
         Dedicated: 6.066
@@ -41378,9 +41506,6 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 10.074
         Shared: 9.506
-      US West (Los Angeles):
-        Dedicated: 5.991
-        Shared: 5.66
       us-east-1:
         Dedicated: 5.015
         Shared: 4.738
@@ -41399,6 +41524,9 @@ r5d.16xlarge:
       us-west-2:
         Dedicated: 5.015
         Shared: 4.738
+      us-west-2-lax-1a:
+        Dedicated: 5.991
+        Shared: 5.66
     SUSE:
       ap-east-1:
         Dedicated: 6.086
@@ -41445,9 +41573,6 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 10.094
         Shared: 9.526
-      US West (Los Angeles):
-        Dedicated: 6.011
-        Shared: 5.68
       us-east-1:
         Dedicated: 5.035
         Shared: 4.758
@@ -41466,6 +41591,9 @@ r5d.16xlarge:
       us-west-2:
         Dedicated: 5.035
         Shared: 4.758
+      us-west-2-lax-1a:
+        Dedicated: 6.011
+        Shared: 5.68
     Windows:
       ap-east-1:
         Dedicated: 8.88
@@ -41512,9 +41640,6 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 12.888
         Shared: 12.32
-      US West (Los Angeles):
-        Dedicated: 8.805
-        Shared: 8.474
       us-east-1:
         Dedicated: 7.829
         Shared: 7.552
@@ -41533,6 +41658,9 @@ r5d.16xlarge:
       us-west-2:
         Dedicated: 7.829
         Shared: 7.552
+      us-west-2-lax-1a:
+        Dedicated: 8.805
+        Shared: 8.474
   regions:
     - eu-central-1
     - us-east-2
@@ -41542,7 +41670,7 @@ r5d.16xlarge:
     - ap-south-1
     - ap-east-1
     - eu-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-gov-east-1
     - us-east-1
     - eu-west-3
@@ -41612,9 +41740,6 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 14.064
         Shared: 14.064
-      US West (Los Angeles):
-        Dedicated: 8.294
-        Shared: 8.294
       us-east-1:
         Dedicated: 6.912
         Shared: 6.912
@@ -41633,6 +41758,9 @@ r5d.24xlarge:
       us-west-2:
         Dedicated: 6.912
         Shared: 6.912
+      us-west-2-lax-1a:
+        Dedicated: 8.294
+        Shared: 8.294
     RHEL:
       ap-east-1:
         Dedicated: 8.53
@@ -41679,9 +41807,6 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 14.194
         Shared: 14.194
-      US West (Los Angeles):
-        Dedicated: 8.424
-        Shared: 8.424
       us-east-1:
         Dedicated: 7.042
         Shared: 7.042
@@ -41700,6 +41825,9 @@ r5d.24xlarge:
       us-west-2:
         Dedicated: 7.042
         Shared: 7.042
+      us-west-2-lax-1a:
+        Dedicated: 8.424
+        Shared: 8.424
     SUSE:
       ap-east-1:
         Dedicated: 8.55
@@ -41746,9 +41874,6 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 14.214
         Shared: 14.214
-      US West (Los Angeles):
-        Dedicated: 8.444
-        Shared: 8.444
       us-east-1:
         Dedicated: 7.062
         Shared: 7.062
@@ -41767,6 +41892,9 @@ r5d.24xlarge:
       us-west-2:
         Dedicated: 7.062
         Shared: 7.062
+      us-west-2-lax-1a:
+        Dedicated: 8.444
+        Shared: 8.444
     Windows:
       ap-east-1:
         Dedicated: 12.816
@@ -41813,9 +41941,6 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 18.48
         Shared: 18.48
-      US West (Los Angeles):
-        Dedicated: 12.71
-        Shared: 12.71
       us-east-1:
         Dedicated: 11.328
         Shared: 6.912
@@ -41834,6 +41959,9 @@ r5d.24xlarge:
       us-west-2:
         Dedicated: 11.328
         Shared: 6.912
+      us-west-2-lax-1a:
+        Dedicated: 12.71
+        Shared: 12.71
   regions:
     - us-east-1
     - eu-central-1
@@ -41848,7 +41976,7 @@ r5d.24xlarge:
     - me-south-1
     - eu-north-1
     - ap-south-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - sa-east-1
     - us-gov-east-1
     - us-west-2
@@ -41913,9 +42041,6 @@ r5d.2xlarge:
       sa-east-1:
         Dedicated: 1.243
         Shared: 1.172
-      US West (Los Angeles):
-        Dedicated: 0.733
-        Shared: 0.691
       us-east-1:
         Dedicated: 0.611
         Shared: 0.576
@@ -41934,6 +42059,9 @@ r5d.2xlarge:
       us-west-2:
         Dedicated: 0.611
         Shared: 0.576
+      us-west-2-lax-1a:
+        Dedicated: 0.733
+        Shared: 0.691
     RHEL:
       ap-east-1:
         Dedicated: 0.872
@@ -41980,9 +42108,6 @@ r5d.2xlarge:
       sa-east-1:
         Dedicated: 1.373
         Shared: 1.302
-      US West (Los Angeles):
-        Dedicated: 0.863
-        Shared: 0.821
       us-east-1:
         Dedicated: 0.741
         Shared: 0.706
@@ -42001,6 +42126,9 @@ r5d.2xlarge:
       us-west-2:
         Dedicated: 0.741
         Shared: 0.706
+      us-west-2-lax-1a:
+        Dedicated: 0.863
+        Shared: 0.821
     SUSE:
       ap-east-1:
         Dedicated: 0.892
@@ -42047,9 +42175,6 @@ r5d.2xlarge:
       sa-east-1:
         Dedicated: 1.393
         Shared: 1.322
-      US West (Los Angeles):
-        Dedicated: 0.883
-        Shared: 0.841
       us-east-1:
         Dedicated: 0.761
         Shared: 0.726
@@ -42068,6 +42193,9 @@ r5d.2xlarge:
       us-west-2:
         Dedicated: 0.761
         Shared: 0.726
+      us-west-2-lax-1a:
+        Dedicated: 0.883
+        Shared: 0.841
     Windows:
       ap-east-1:
         Dedicated: 1.11
@@ -42114,9 +42242,6 @@ r5d.2xlarge:
       sa-east-1:
         Dedicated: 1.611
         Shared: 1.54
-      US West (Los Angeles):
-        Dedicated: 1.101
-        Shared: 1.059
       us-east-1:
         Dedicated: 0.979
         Shared: 0.944
@@ -42135,11 +42260,14 @@ r5d.2xlarge:
       us-west-2:
         Dedicated: 0.979
         Shared: 0.576
+      us-west-2-lax-1a:
+        Dedicated: 1.101
+        Shared: 1.059
   regions:
     - ap-southeast-2
     - sa-east-1
     - eu-north-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-northeast-2
     - eu-west-2
     - us-east-2
@@ -42214,9 +42342,6 @@ r5d.4xlarge:
       sa-east-1:
         Dedicated: 2.486
         Shared: 2.344
-      US West (Los Angeles):
-        Dedicated: 1.465
-        Shared: 1.382
       us-east-1:
         Dedicated: 1.221
         Shared: 1.152
@@ -42235,6 +42360,9 @@ r5d.4xlarge:
       us-west-2:
         Dedicated: 1.221
         Shared: 1.152
+      us-west-2-lax-1a:
+        Dedicated: 1.465
+        Shared: 1.382
     RHEL:
       ap-east-1:
         Dedicated: 1.614
@@ -42281,9 +42409,6 @@ r5d.4xlarge:
       sa-east-1:
         Dedicated: 2.616
         Shared: 2.474
-      US West (Los Angeles):
-        Dedicated: 1.595
-        Shared: 1.512
       us-east-1:
         Dedicated: 1.351
         Shared: 1.282
@@ -42302,6 +42427,9 @@ r5d.4xlarge:
       us-west-2:
         Dedicated: 1.351
         Shared: 1.282
+      us-west-2-lax-1a:
+        Dedicated: 1.595
+        Shared: 1.512
     SUSE:
       ap-east-1:
         Dedicated: 1.634
@@ -42348,9 +42476,6 @@ r5d.4xlarge:
       sa-east-1:
         Dedicated: 2.636
         Shared: 2.494
-      US West (Los Angeles):
-        Dedicated: 1.615
-        Shared: 1.532
       us-east-1:
         Dedicated: 1.371
         Shared: 1.302
@@ -42369,6 +42494,9 @@ r5d.4xlarge:
       us-west-2:
         Dedicated: 1.371
         Shared: 1.302
+      us-west-2-lax-1a:
+        Dedicated: 1.615
+        Shared: 1.532
     Windows:
       ap-east-1:
         Dedicated: 2.22
@@ -42415,9 +42543,6 @@ r5d.4xlarge:
       sa-east-1:
         Dedicated: 3.222
         Shared: 3.08
-      US West (Los Angeles):
-        Dedicated: 2.201
-        Shared: 2.118
       us-east-1:
         Dedicated: 1.957
         Shared: 1.888
@@ -42436,6 +42561,9 @@ r5d.4xlarge:
       us-west-2:
         Dedicated: 1.221
         Shared: 1.152
+      us-west-2-lax-1a:
+        Dedicated: 2.201
+        Shared: 2.118
   regions:
     - ap-southeast-1
     - ap-northeast-2
@@ -42443,7 +42571,7 @@ r5d.4xlarge:
     - us-gov-east-1
     - eu-west-1
     - ap-southeast-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-northeast-1
     - us-east-2
     - eu-north-1
@@ -42515,9 +42643,6 @@ r5d.8xlarge:
       sa-east-1:
         Dedicated: 4.972
         Shared: 4.688
-      US West (Los Angeles):
-        Dedicated: 2.93
-        Shared: 2.765
       us-east-1:
         Dedicated: 2.442
         Shared: 2.304
@@ -42536,6 +42661,9 @@ r5d.8xlarge:
       us-west-2:
         Dedicated: 2.442
         Shared: 2.304
+      us-west-2-lax-1a:
+        Dedicated: 2.93
+        Shared: 2.765
     RHEL:
       ap-east-1:
         Dedicated: 3.098
@@ -42582,9 +42710,6 @@ r5d.8xlarge:
       sa-east-1:
         Dedicated: 5.102
         Shared: 4.818
-      US West (Los Angeles):
-        Dedicated: 3.06
-        Shared: 2.895
       us-east-1:
         Dedicated: 2.572
         Shared: 2.434
@@ -42603,6 +42728,9 @@ r5d.8xlarge:
       us-west-2:
         Dedicated: 2.572
         Shared: 2.434
+      us-west-2-lax-1a:
+        Dedicated: 3.06
+        Shared: 2.895
     SUSE:
       ap-east-1:
         Dedicated: 3.118
@@ -42649,9 +42777,6 @@ r5d.8xlarge:
       sa-east-1:
         Dedicated: 5.122
         Shared: 4.838
-      US West (Los Angeles):
-        Dedicated: 3.08
-        Shared: 2.915
       us-east-1:
         Dedicated: 2.592
         Shared: 2.454
@@ -42670,6 +42795,9 @@ r5d.8xlarge:
       us-west-2:
         Dedicated: 2.592
         Shared: 2.454
+      us-west-2-lax-1a:
+        Dedicated: 3.08
+        Shared: 2.915
     Windows:
       ap-east-1:
         Dedicated: 4.44
@@ -42716,9 +42844,6 @@ r5d.8xlarge:
       sa-east-1:
         Dedicated: 6.444
         Shared: 6.16
-      US West (Los Angeles):
-        Dedicated: 4.402
-        Shared: 4.237
       us-east-1:
         Dedicated: 3.914
         Shared: 3.776
@@ -42737,6 +42862,9 @@ r5d.8xlarge:
       us-west-2:
         Dedicated: 3.914
         Shared: 3.776
+      us-west-2-lax-1a:
+        Dedicated: 4.402
+        Shared: 4.237
   regions:
     - eu-west-1
     - eu-west-3
@@ -42756,7 +42884,7 @@ r5d.8xlarge:
     - ap-southeast-1
     - ap-east-1
     - eu-west-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-gov-west-1
     - eu-north-1
     - ap-northeast-3
@@ -42816,9 +42944,6 @@ r5d.large:
       sa-east-1:
         Dedicated: 0.311
         Shared: 0.293
-      US West (Los Angeles):
-        Dedicated: 0.183
-        Shared: 0.173
       us-east-1:
         Dedicated: 0.153
         Shared: 0.144
@@ -42837,6 +42962,9 @@ r5d.large:
       us-west-2:
         Dedicated: 0.153
         Shared: 0.144
+      us-west-2-lax-1a:
+        Dedicated: 0.183
+        Shared: 0.173
     RHEL:
       ap-east-1:
         Dedicated: 0.246
@@ -42883,9 +43011,6 @@ r5d.large:
       sa-east-1:
         Dedicated: 0.371
         Shared: 0.353
-      US West (Los Angeles):
-        Dedicated: 0.243
-        Shared: 0.233
       us-east-1:
         Dedicated: 0.213
         Shared: 0.204
@@ -42904,6 +43029,9 @@ r5d.large:
       us-west-2:
         Dedicated: 0.213
         Shared: 0.204
+      us-west-2-lax-1a:
+        Dedicated: 0.243
+        Shared: 0.233
     SUSE:
       ap-east-1:
         Dedicated: 0.249
@@ -42950,9 +43078,6 @@ r5d.large:
       sa-east-1:
         Dedicated: 0.374
         Shared: 0.356
-      US West (Los Angeles):
-        Dedicated: 0.246
-        Shared: 0.236
       us-east-1:
         Dedicated: 0.216
         Shared: 0.207
@@ -42971,6 +43096,9 @@ r5d.large:
       us-west-2:
         Dedicated: 0.216
         Shared: 0.207
+      us-west-2-lax-1a:
+        Dedicated: 0.246
+        Shared: 0.236
     Windows:
       ap-east-1:
         Dedicated: 0.278
@@ -43017,9 +43145,6 @@ r5d.large:
       sa-east-1:
         Dedicated: 0.403
         Shared: 0.385
-      US West (Los Angeles):
-        Dedicated: 0.275
-        Shared: 0.265
       us-east-1:
         Dedicated: 0.153
         Shared: 0.236
@@ -43038,6 +43163,9 @@ r5d.large:
       us-west-2:
         Dedicated: 0.245
         Shared: 0.236
+      us-west-2-lax-1a:
+        Dedicated: 0.275
+        Shared: 0.265
   regions:
     - us-east-1
     - us-gov-west-1
@@ -43054,7 +43182,7 @@ r5d.large:
     - ap-south-1
     - sa-east-1
     - us-gov-east-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - me-south-1
     - ap-southeast-2
     - us-west-2
@@ -43117,9 +43245,6 @@ r5d.metal:
       sa-east-1:
         Dedicated: 14.064
         Shared: 14.064
-      US West (Los Angeles):
-        Dedicated: 8.294
-        Shared: 8.294
       us-east-1:
         Dedicated: 6.912
         Shared: 6.912
@@ -43138,6 +43263,9 @@ r5d.metal:
       us-west-2:
         Dedicated: 6.912
         Shared: 6.912
+      us-west-2-lax-1a:
+        Dedicated: 8.294
+        Shared: 8.294
     RHEL:
       ap-east-1:
         Dedicated: 8.53
@@ -43184,9 +43312,6 @@ r5d.metal:
       sa-east-1:
         Dedicated: 14.194
         Shared: 14.194
-      US West (Los Angeles):
-        Dedicated: 8.424
-        Shared: 8.424
       us-east-1:
         Dedicated: 7.042
         Shared: 7.042
@@ -43205,6 +43330,9 @@ r5d.metal:
       us-west-2:
         Dedicated: 7.042
         Shared: 7.042
+      us-west-2-lax-1a:
+        Dedicated: 8.424
+        Shared: 8.424
     SUSE:
       ap-east-1:
         Dedicated: 8.55
@@ -43251,9 +43379,6 @@ r5d.metal:
       sa-east-1:
         Dedicated: 14.214
         Shared: 14.214
-      US West (Los Angeles):
-        Dedicated: 8.444
-        Shared: 8.444
       us-east-1:
         Dedicated: 7.062
         Shared: 7.062
@@ -43272,6 +43397,9 @@ r5d.metal:
       us-west-2:
         Dedicated: 7.062
         Shared: 7.062
+      us-west-2-lax-1a:
+        Dedicated: 8.444
+        Shared: 8.444
     Windows:
       ap-east-1:
         Dedicated: 12.816
@@ -43318,9 +43446,6 @@ r5d.metal:
       sa-east-1:
         Dedicated: 18.48
         Shared: 18.48
-      US West (Los Angeles):
-        Dedicated: 12.71
-        Shared: 12.71
       us-east-1:
         Dedicated: 11.328
         Shared: 11.328
@@ -43339,6 +43464,9 @@ r5d.metal:
       us-west-2:
         Dedicated: 11.328
         Shared: 11.328
+      us-west-2-lax-1a:
+        Dedicated: 12.71
+        Shared: 12.71
   regions:
     - eu-north-1
     - ap-east-1
@@ -43357,7 +43485,7 @@ r5d.metal:
     - me-south-1
     - eu-west-2
     - ca-central-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-gov-east-1
     - ap-south-1
     - ap-southeast-2
@@ -43418,9 +43546,6 @@ r5d.xlarge:
       sa-east-1:
         Dedicated: 0.621
         Shared: 0.586
-      US West (Los Angeles):
-        Dedicated: 0.366
-        Shared: 0.346
       us-east-1:
         Dedicated: 0.305
         Shared: 0.288
@@ -43439,6 +43564,9 @@ r5d.xlarge:
       us-west-2:
         Dedicated: 0.305
         Shared: 0.288
+      us-west-2-lax-1a:
+        Dedicated: 0.366
+        Shared: 0.346
     RHEL:
       ap-east-1:
         Dedicated: 0.431
@@ -43485,9 +43613,6 @@ r5d.xlarge:
       sa-east-1:
         Dedicated: 0.681
         Shared: 0.646
-      US West (Los Angeles):
-        Dedicated: 0.426
-        Shared: 0.406
       us-east-1:
         Dedicated: 0.365
         Shared: 0.348
@@ -43506,6 +43631,9 @@ r5d.xlarge:
       us-west-2:
         Dedicated: 0.365
         Shared: 0.348
+      us-west-2-lax-1a:
+        Dedicated: 0.426
+        Shared: 0.406
     SUSE:
       ap-east-1:
         Dedicated: 0.496
@@ -43552,9 +43680,6 @@ r5d.xlarge:
       sa-east-1:
         Dedicated: 0.746
         Shared: 0.711
-      US West (Los Angeles):
-        Dedicated: 0.491
-        Shared: 0.471
       us-east-1:
         Dedicated: 0.43
         Shared: 0.413
@@ -43573,6 +43698,9 @@ r5d.xlarge:
       us-west-2:
         Dedicated: 0.43
         Shared: 0.413
+      us-west-2-lax-1a:
+        Dedicated: 0.491
+        Shared: 0.471
     Windows:
       ap-east-1:
         Dedicated: 0.555
@@ -43619,9 +43747,6 @@ r5d.xlarge:
       sa-east-1:
         Dedicated: 0.805
         Shared: 0.77
-      US West (Los Angeles):
-        Dedicated: 0.55
-        Shared: 0.53
       us-east-1:
         Dedicated: 0.305
         Shared: 0.472
@@ -43640,6 +43765,9 @@ r5d.xlarge:
       us-west-2:
         Dedicated: 0.489
         Shared: 0.288
+      us-west-2-lax-1a:
+        Dedicated: 0.55
+        Shared: 0.53
   regions:
     - us-gov-east-1
     - ap-east-1
@@ -43651,7 +43779,7 @@ r5d.xlarge:
     - ap-southeast-1
     - us-east-1
     - sa-east-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-northeast-2
     - eu-north-1
     - us-east-2
@@ -46365,9 +46493,6 @@ t3.2xlarge:
         Shared: 0.4013
       sa-east-1:
         Shared: 0.5376
-      US West (Los Angeles):
-        Dedicated: 0.4239
-        Shared: 0.3994
       us-east-1:
         Shared: 0.3328
       us-east-2:
@@ -46380,6 +46505,9 @@ t3.2xlarge:
         Shared: 0.3968
       us-west-2:
         Shared: 0.3328
+      us-west-2-lax-1a:
+        Dedicated: 0.4239
+        Shared: 0.3994
     RHEL:
       ap-east-1:
         Shared: 0.5972
@@ -46411,9 +46539,6 @@ t3.2xlarge:
         Shared: 0.5313
       sa-east-1:
         Shared: 0.6676
-      US West (Los Angeles):
-        Dedicated: 0.5539
-        Shared: 0.5294
       us-east-1:
         Shared: 0.4628
       us-east-2:
@@ -46426,6 +46551,9 @@ t3.2xlarge:
         Shared: 0.5268
       us-west-2:
         Shared: 0.4628
+      us-west-2-lax-1a:
+        Dedicated: 0.5539
+        Shared: 0.5294
     SUSE:
       ap-east-1:
         Shared: 0.6172
@@ -46457,9 +46585,6 @@ t3.2xlarge:
         Shared: 0.5513
       sa-east-1:
         Shared: 0.6876
-      US West (Los Angeles):
-        Dedicated: 0.5739
-        Shared: 0.5494
       us-east-1:
         Shared: 0.4828
       us-east-2:
@@ -46472,6 +46597,9 @@ t3.2xlarge:
         Shared: 0.5468
       us-west-2:
         Shared: 0.4828
+      us-west-2-lax-1a:
+        Dedicated: 0.5739
+        Shared: 0.5494
     Windows:
       ap-east-1:
         Shared: 0.6144
@@ -46503,9 +46631,6 @@ t3.2xlarge:
         Shared: 0.5485
       sa-east-1:
         Shared: 0.6848
-      US West (Los Angeles):
-        Dedicated: 0.5711
-        Shared: 0.5466
       us-east-1:
         Shared: 0.3328
       us-east-2:
@@ -46518,6 +46643,9 @@ t3.2xlarge:
         Shared: 0.544
       us-west-2:
         Shared: 0.3328
+      us-west-2-lax-1a:
+        Dedicated: 0.5711
+        Shared: 0.5466
   regions:
     - ap-east-1
     - us-east-2
@@ -46529,7 +46657,7 @@ t3.2xlarge:
     - sa-east-1
     - eu-west-3
     - eu-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-gov-west-1
     - me-south-1
     - ap-south-1
@@ -46582,9 +46710,6 @@ t3.large:
         Shared: 0.1003
       sa-east-1:
         Shared: 0.1344
-      US West (Los Angeles):
-        Dedicated: 0.106
-        Shared: 0.0998
       us-east-1:
         Shared: 0.0832
       us-east-2:
@@ -46597,6 +46722,9 @@ t3.large:
         Shared: 0.0992
       us-west-2:
         Shared: 0.0832
+      us-west-2-lax-1a:
+        Dedicated: 0.106
+        Shared: 0.0998
     RHEL:
       ap-east-1:
         Shared: 0.1768
@@ -46628,9 +46756,6 @@ t3.large:
         Shared: 0.1603
       sa-east-1:
         Shared: 0.1944
-      US West (Los Angeles):
-        Dedicated: 0.166
-        Shared: 0.1598
       us-east-1:
         Shared: 0.1432
       us-east-2:
@@ -46643,6 +46768,9 @@ t3.large:
         Shared: 0.1592
       us-west-2:
         Shared: 0.1432
+      us-west-2-lax-1a:
+        Dedicated: 0.166
+        Shared: 0.1598
     SUSE:
       ap-east-1:
         Shared: 0.1798
@@ -46674,9 +46802,6 @@ t3.large:
         Shared: 0.1633
       sa-east-1:
         Shared: 0.1974
-      US West (Los Angeles):
-        Dedicated: 0.169
-        Shared: 0.1628
       us-east-1:
         Shared: 0.1462
       us-east-2:
@@ -46689,6 +46814,9 @@ t3.large:
         Shared: 0.1622
       us-west-2:
         Shared: 0.1462
+      us-west-2-lax-1a:
+        Dedicated: 0.169
+        Shared: 0.1628
     Windows:
       ap-east-1:
         Shared: 0.1444
@@ -46720,9 +46848,6 @@ t3.large:
         Shared: 0.1279
       sa-east-1:
         Shared: 0.1344
-      US West (Los Angeles):
-        Dedicated: 0.1336
-        Shared: 0.1274
       us-east-1:
         Shared: 0.1108
       us-east-2:
@@ -46735,12 +46860,15 @@ t3.large:
         Shared: 0.1268
       us-west-2:
         Shared: 0.1108
+      us-west-2-lax-1a:
+        Dedicated: 0.1336
+        Shared: 0.1274
   regions:
     - me-south-1
     - ap-southeast-2
     - eu-west-1
     - us-gov-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-northeast-1
     - us-east-1
     - ca-central-1
@@ -46799,9 +46927,6 @@ t3.medium:
         Shared: 0.0502
       sa-east-1:
         Shared: 0.0672
-      US West (Los Angeles):
-        Dedicated: 0.053
-        Shared: 0.0499
       us-east-1:
         Shared: 0.0416
       us-east-2:
@@ -46814,6 +46939,9 @@ t3.medium:
         Shared: 0.0496
       us-west-2:
         Shared: 0.0416
+      us-west-2-lax-1a:
+        Dedicated: 0.053
+        Shared: 0.0499
     RHEL:
       ap-east-1:
         Shared: 0.1184
@@ -46845,9 +46973,6 @@ t3.medium:
         Shared: 0.1102
       sa-east-1:
         Shared: 0.1272
-      US West (Los Angeles):
-        Dedicated: 0.113
-        Shared: 0.1099
       us-east-1:
         Shared: 0.1016
       us-east-2:
@@ -46860,6 +46985,9 @@ t3.medium:
         Shared: 0.1096
       us-west-2:
         Shared: 0.1016
+      us-west-2-lax-1a:
+        Dedicated: 0.113
+        Shared: 0.1099
     SUSE:
       ap-east-1:
         Shared: 0.1214
@@ -46891,9 +47019,6 @@ t3.medium:
         Shared: 0.1132
       sa-east-1:
         Shared: 0.1302
-      US West (Los Angeles):
-        Dedicated: 0.116
-        Shared: 0.1129
       us-east-1:
         Shared: 0.1046
       us-east-2:
@@ -46906,6 +47031,9 @@ t3.medium:
         Shared: 0.1126
       us-west-2:
         Shared: 0.1046
+      us-west-2-lax-1a:
+        Dedicated: 0.116
+        Shared: 0.1129
     Windows:
       ap-east-1:
         Shared: 0.0768
@@ -46937,9 +47065,6 @@ t3.medium:
         Shared: 0.0686
       sa-east-1:
         Shared: 0.0856
-      US West (Los Angeles):
-        Dedicated: 0.0714
-        Shared: 0.0683
       us-east-1:
         Shared: 0.06
       us-east-2:
@@ -46952,10 +47077,13 @@ t3.medium:
         Shared: 0.068
       us-west-2:
         Shared: 0.0416
+      us-west-2-lax-1a:
+        Dedicated: 0.0714
+        Shared: 0.0683
   regions:
     - eu-north-1
     - us-gov-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - eu-west-2
     - us-west-1
     - me-south-1
@@ -47016,9 +47144,6 @@ t3.micro:
         Shared: 0.0125
       sa-east-1:
         Shared: 0.0168
-      US West (Los Angeles):
-        Dedicated: 0.0132
-        Shared: 0.0125
       us-east-1:
         Shared: 0.0104
       us-east-2:
@@ -47031,6 +47156,9 @@ t3.micro:
         Shared: 0.0124
       us-west-2:
         Shared: 0.0104
+      us-west-2-lax-1a:
+        Dedicated: 0.0132
+        Shared: 0.0125
     RHEL:
       ap-east-1:
         Shared: 0.0746
@@ -47062,9 +47190,6 @@ t3.micro:
         Shared: 0.0725
       sa-east-1:
         Shared: 0.0768
-      US West (Los Angeles):
-        Dedicated: 0.0732
-        Shared: 0.0725
       us-east-1:
         Shared: 0.0704
       us-east-2:
@@ -47077,6 +47202,9 @@ t3.micro:
         Shared: 0.0724
       us-west-2:
         Shared: 0.0704
+      us-west-2-lax-1a:
+        Dedicated: 0.0732
+        Shared: 0.0725
     SUSE:
       ap-east-1:
         Shared: 0.0146
@@ -47108,9 +47236,6 @@ t3.micro:
         Shared: 0.0125
       sa-east-1:
         Shared: 0.0168
-      US West (Los Angeles):
-        Dedicated: 0.0132
-        Shared: 0.0125
       us-east-1:
         Shared: 0.0104
       us-east-2:
@@ -47123,6 +47248,9 @@ t3.micro:
         Shared: 0.0124
       us-west-2:
         Shared: 0.0104
+      us-west-2-lax-1a:
+        Dedicated: 0.0132
+        Shared: 0.0125
     Windows:
       ap-east-1:
         Shared: 0.0238
@@ -47154,9 +47282,6 @@ t3.micro:
         Shared: 0.0217
       sa-east-1:
         Shared: 0.0168
-      US West (Los Angeles):
-        Dedicated: 0.0224
-        Shared: 0.0217
       us-east-1:
         Shared: 0.0196
       us-east-2:
@@ -47169,6 +47294,9 @@ t3.micro:
         Shared: 0.0216
       us-west-2:
         Shared: 0.0196
+      us-west-2-lax-1a:
+        Dedicated: 0.0224
+        Shared: 0.0217
   regions:
     - us-west-2
     - ap-east-1
@@ -47179,7 +47307,7 @@ t3.micro:
     - sa-east-1
     - eu-west-3
     - ap-south-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-southeast-1
     - ca-central-1
     - eu-north-1
@@ -47233,9 +47361,6 @@ t3.nano:
         Shared: 0.0063
       sa-east-1:
         Shared: 0.0084
-      US West (Los Angeles):
-        Dedicated: 0.0062
-        Shared: 0.0062
       us-east-1:
         Shared: 0.0052
       us-east-2:
@@ -47248,6 +47373,9 @@ t3.nano:
         Shared: 0.0062
       us-west-2:
         Shared: 0.0052
+      us-west-2-lax-1a:
+        Dedicated: 0.0062
+        Shared: 0.0062
     SUSE:
       ap-east-1:
         Shared: 0.0073
@@ -47279,9 +47407,6 @@ t3.nano:
         Shared: 0.0063
       sa-east-1:
         Shared: 0.0084
-      US West (Los Angeles):
-        Dedicated: 0.0062
-        Shared: 0.0062
       us-east-1:
         Shared: 0.0052
       us-east-2:
@@ -47294,6 +47419,9 @@ t3.nano:
         Shared: 0.0062
       us-west-2:
         Shared: 0.0052
+      us-west-2-lax-1a:
+        Dedicated: 0.0062
+        Shared: 0.0062
     Windows:
       ap-east-1:
         Shared: 0.0119
@@ -47325,9 +47453,6 @@ t3.nano:
         Shared: 0.0109
       sa-east-1:
         Shared: 0.013
-      US West (Los Angeles):
-        Dedicated: 0.0108
-        Shared: 0.0108
       us-east-1:
         Shared: 0.0098
       us-east-2:
@@ -47340,8 +47465,11 @@ t3.nano:
         Shared: 0.0108
       us-west-2:
         Shared: 0.0052
+      us-west-2-lax-1a:
+        Dedicated: 0.0108
+        Shared: 0.0108
   regions:
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - eu-west-1
     - ap-southeast-2
     - ap-northeast-2
@@ -47404,9 +47532,6 @@ t3.small:
         Shared: 0.0251
       sa-east-1:
         Shared: 0.0336
-      US West (Los Angeles):
-        Dedicated: 0.0265
-        Shared: 0.025
       us-east-1:
         Shared: 0.0208
       us-east-2:
@@ -47419,6 +47544,9 @@ t3.small:
         Shared: 0.0248
       us-west-2:
         Shared: 0.0208
+      us-west-2-lax-1a:
+        Dedicated: 0.0265
+        Shared: 0.025
     RHEL:
       ap-east-1:
         Shared: 0.0892
@@ -47450,9 +47578,6 @@ t3.small:
         Shared: 0.0851
       sa-east-1:
         Shared: 0.0936
-      US West (Los Angeles):
-        Dedicated: 0.0865
-        Shared: 0.085
       us-east-1:
         Shared: 0.0808
       us-east-2:
@@ -47465,6 +47590,9 @@ t3.small:
         Shared: 0.0848
       us-west-2:
         Shared: 0.0808
+      us-west-2-lax-1a:
+        Dedicated: 0.0865
+        Shared: 0.085
     SUSE:
       ap-east-1:
         Shared: 0.0602
@@ -47496,9 +47624,6 @@ t3.small:
         Shared: 0.0561
       sa-east-1:
         Shared: 0.0646
-      US West (Los Angeles):
-        Dedicated: 0.0575
-        Shared: 0.056
       us-east-1:
         Shared: 0.0518
       us-east-2:
@@ -47511,6 +47636,9 @@ t3.small:
         Shared: 0.0558
       us-west-2:
         Shared: 0.0518
+      us-west-2-lax-1a:
+        Dedicated: 0.0575
+        Shared: 0.056
     Windows:
       ap-east-1:
         Shared: 0.0476
@@ -47542,9 +47670,6 @@ t3.small:
         Shared: 0.0435
       sa-east-1:
         Shared: 0.0336
-      US West (Los Angeles):
-        Dedicated: 0.0449
-        Shared: 0.0434
       us-east-1:
         Shared: 0.0392
       us-east-2:
@@ -47557,12 +47682,15 @@ t3.small:
         Shared: 0.0248
       us-west-2:
         Shared: 0.0392
+      us-west-2-lax-1a:
+        Dedicated: 0.0449
+        Shared: 0.0434
   regions:
     - us-west-2
     - ap-southeast-2
     - ap-northeast-3
     - us-gov-west-1
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - us-east-2
     - us-west-1
     - ca-central-1
@@ -47621,9 +47749,6 @@ t3.xlarge:
         Shared: 0.2006
       sa-east-1:
         Shared: 0.2688
-      US West (Los Angeles):
-        Dedicated: 0.212
-        Shared: 0.1997
       us-east-1:
         Shared: 0.1664
       us-east-2:
@@ -47636,6 +47761,9 @@ t3.xlarge:
         Shared: 0.1984
       us-west-2:
         Shared: 0.1664
+      us-west-2-lax-1a:
+        Dedicated: 0.212
+        Shared: 0.1997
     RHEL:
       ap-east-1:
         Shared: 0.2936
@@ -47667,9 +47795,6 @@ t3.xlarge:
         Shared: 0.2606
       sa-east-1:
         Shared: 0.3288
-      US West (Los Angeles):
-        Dedicated: 0.272
-        Shared: 0.2597
       us-east-1:
         Shared: 0.2264
       us-east-2:
@@ -47682,6 +47807,9 @@ t3.xlarge:
         Shared: 0.2584
       us-west-2:
         Shared: 0.2264
+      us-west-2-lax-1a:
+        Dedicated: 0.272
+        Shared: 0.2597
     SUSE:
       ap-east-1:
         Shared: 0.3586
@@ -47713,9 +47841,6 @@ t3.xlarge:
         Shared: 0.3256
       sa-east-1:
         Shared: 0.3938
-      US West (Los Angeles):
-        Dedicated: 0.337
-        Shared: 0.3247
       us-east-1:
         Shared: 0.2914
       us-east-2:
@@ -47728,6 +47853,9 @@ t3.xlarge:
         Shared: 0.3234
       us-west-2:
         Shared: 0.2914
+      us-west-2-lax-1a:
+        Dedicated: 0.337
+        Shared: 0.3247
     Windows:
       ap-east-1:
         Shared: 0.3072
@@ -47759,9 +47887,6 @@ t3.xlarge:
         Shared: 0.2742
       sa-east-1:
         Shared: 0.3424
-      US West (Los Angeles):
-        Dedicated: 0.2856
-        Shared: 0.2733
       us-east-1:
         Shared: 0.24
       us-east-2:
@@ -47774,6 +47899,9 @@ t3.xlarge:
         Shared: 0.1984
       us-west-2:
         Shared: 0.1664
+      us-west-2-lax-1a:
+        Dedicated: 0.2856
+        Shared: 0.2733
   regions:
     - ap-northeast-3
     - ap-south-1
@@ -47791,7 +47919,7 @@ t3.xlarge:
     - sa-east-1
     - us-gov-east-1
     - us-east-2
-    - US West (Los Angeles)
+    - us-west-2-lax-1a
     - ap-northeast-2
     - ap-southeast-1
     - ca-central-1
