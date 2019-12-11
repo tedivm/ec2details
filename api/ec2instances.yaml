@@ -25923,6 +25923,9 @@ m5ad.12xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 3.429
+        Shared: 3.216
       ap-northeast-2:
         Dedicated: 3.229
         Shared: 3.048
@@ -25969,6 +25972,9 @@ m5ad.12xlarge:
         Dedicated: 2.623
         Shared: 2.472
     RHEL:
+      ap-northeast-1:
+        Dedicated: 3.559
+        Shared: 3.346
       ap-northeast-2:
         Dedicated: 3.359
         Shared: 3.178
@@ -26015,6 +26021,9 @@ m5ad.12xlarge:
         Dedicated: 2.753
         Shared: 2.602
     SUSE:
+      ap-northeast-1:
+        Dedicated: 3.579
+        Shared: 3.366
       ap-northeast-2:
         Dedicated: 3.379
         Shared: 3.198
@@ -26061,6 +26070,9 @@ m5ad.12xlarge:
         Dedicated: 2.773
         Shared: 2.622
     Windows:
+      ap-northeast-1:
+        Dedicated: 5.637
+        Shared: 5.424
       ap-northeast-2:
         Dedicated: 5.437
         Shared: 5.256
@@ -26115,6 +26127,7 @@ m5ad.12xlarge:
     - eu-west-1
     - sa-east-1
     - ap-southeast-1
+    - ap-northeast-1
     - eu-central-1
     - ap-south-1
     - ap-northeast-2
@@ -26135,6 +26148,9 @@ m5ad.16xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 4.572
+        Shared: 4.288
       ap-northeast-2:
         Dedicated: 4.305
         Shared: 4.064
@@ -26147,6 +26163,9 @@ m5ad.16xlarge:
       ap-southeast-2:
         Dedicated: 4.433
         Shared: 4.16
+      ca-central-1:
+        Dedicated: 3.905
+        Shared: 3.68
       eu-central-1:
         Dedicated: 4.271
         Shared: 4
@@ -26172,6 +26191,9 @@ m5ad.16xlarge:
         Dedicated: 3.497
         Shared: 3.296
     RHEL:
+      ap-northeast-1:
+        Dedicated: 4.702
+        Shared: 4.418
       ap-northeast-2:
         Dedicated: 4.435
         Shared: 4.194
@@ -26184,6 +26206,9 @@ m5ad.16xlarge:
       ap-southeast-2:
         Dedicated: 4.563
         Shared: 4.29
+      ca-central-1:
+        Dedicated: 4.035
+        Shared: 3.81
       eu-central-1:
         Dedicated: 4.401
         Shared: 4.13
@@ -26209,6 +26234,9 @@ m5ad.16xlarge:
         Dedicated: 3.627
         Shared: 3.426
     SUSE:
+      ap-northeast-1:
+        Dedicated: 4.722
+        Shared: 4.438
       ap-northeast-2:
         Dedicated: 4.455
         Shared: 4.214
@@ -26221,6 +26249,9 @@ m5ad.16xlarge:
       ap-southeast-2:
         Dedicated: 4.583
         Shared: 4.31
+      ca-central-1:
+        Dedicated: 4.055
+        Shared: 3.83
       eu-central-1:
         Dedicated: 4.421
         Shared: 4.15
@@ -26246,6 +26277,9 @@ m5ad.16xlarge:
         Dedicated: 3.647
         Shared: 3.446
     Windows:
+      ap-northeast-1:
+        Dedicated: 7.516
+        Shared: 7.232
       ap-northeast-2:
         Dedicated: 7.249
         Shared: 7.008
@@ -26258,6 +26292,9 @@ m5ad.16xlarge:
       ap-southeast-2:
         Dedicated: 7.377
         Shared: 7.104
+      ca-central-1:
+        Dedicated: 6.849
+        Shared: 6.624
       eu-central-1:
         Dedicated: 7.215
         Shared: 6.944
@@ -26284,6 +26321,8 @@ m5ad.16xlarge:
         Shared: 6.24
   regions:
     - us-west-2
+    - ap-northeast-1
+    - ca-central-1
     - ap-south-1
     - ap-southeast-1
     - eu-west-3
@@ -26308,6 +26347,9 @@ m5ad.24xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 6.858
+        Shared: 6.432
       ap-northeast-2:
         Dedicated: 6.458
         Shared: 6.096
@@ -26354,6 +26396,9 @@ m5ad.24xlarge:
         Dedicated: 5.245
         Shared: 4.944
     RHEL:
+      ap-northeast-1:
+        Dedicated: 6.988
+        Shared: 6.562
       ap-northeast-2:
         Dedicated: 6.588
         Shared: 6.226
@@ -26400,6 +26445,9 @@ m5ad.24xlarge:
         Dedicated: 5.375
         Shared: 5.074
     SUSE:
+      ap-northeast-1:
+        Dedicated: 7.008
+        Shared: 6.582
       ap-northeast-2:
         Dedicated: 6.608
         Shared: 6.246
@@ -26446,6 +26494,9 @@ m5ad.24xlarge:
         Dedicated: 5.395
         Shared: 5.094
     Windows:
+      ap-northeast-1:
+        Dedicated: 11.274
+        Shared: 10.848
       ap-northeast-2:
         Dedicated: 10.874
         Shared: 10.512
@@ -26497,6 +26548,7 @@ m5ad.24xlarge:
     - us-west-2
     - us-west-1
     - eu-central-1
+    - ap-northeast-1
     - us-east-2
     - ap-northeast-2
     - ca-central-1
@@ -26520,6 +26572,9 @@ m5ad.2xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.572
+        Shared: 0.536
       ap-northeast-2:
         Dedicated: 0.538
         Shared: 0.508
@@ -26566,6 +26621,9 @@ m5ad.2xlarge:
         Dedicated: 0.437
         Shared: 0.412
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.702
+        Shared: 0.666
       ap-northeast-2:
         Dedicated: 0.668
         Shared: 0.638
@@ -26612,6 +26670,9 @@ m5ad.2xlarge:
         Dedicated: 0.567
         Shared: 0.542
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.722
+        Shared: 0.686
       ap-northeast-2:
         Dedicated: 0.688
         Shared: 0.658
@@ -26658,6 +26719,9 @@ m5ad.2xlarge:
         Dedicated: 0.587
         Shared: 0.562
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.94
+        Shared: 0.904
       ap-northeast-2:
         Dedicated: 0.906
         Shared: 0.876
@@ -26709,6 +26773,7 @@ m5ad.2xlarge:
     - us-east-1
     - ca-central-1
     - sa-east-1
+    - ap-northeast-1
     - ap-southeast-1
     - ap-southeast-2
     - eu-central-1
@@ -26732,6 +26797,9 @@ m5ad.4xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.143
+        Shared: 1.072
       ap-northeast-2:
         Dedicated: 1.076
         Shared: 1.016
@@ -26778,6 +26846,9 @@ m5ad.4xlarge:
         Dedicated: 0.874
         Shared: 0.824
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.273
+        Shared: 1.202
       ap-northeast-2:
         Dedicated: 1.206
         Shared: 1.146
@@ -26824,6 +26895,9 @@ m5ad.4xlarge:
         Dedicated: 1.004
         Shared: 0.954
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.293
+        Shared: 1.222
       ap-northeast-2:
         Dedicated: 1.226
         Shared: 1.166
@@ -26870,6 +26944,9 @@ m5ad.4xlarge:
         Dedicated: 1.024
         Shared: 0.974
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.879
+        Shared: 1.808
       ap-northeast-2:
         Dedicated: 1.812
         Shared: 1.752
@@ -26921,6 +26998,7 @@ m5ad.4xlarge:
     - us-west-1
     - eu-west-1
     - us-east-2
+    - ap-northeast-1
     - sa-east-1
     - ca-central-1
     - ap-southeast-2
@@ -26944,6 +27022,9 @@ m5ad.8xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 2.286
+        Shared: 2.144
       ap-northeast-2:
         Dedicated: 2.153
         Shared: 2.032
@@ -26956,6 +27037,9 @@ m5ad.8xlarge:
       ap-southeast-2:
         Dedicated: 2.216
         Shared: 2.08
+      ca-central-1:
+        Dedicated: 1.952
+        Shared: 1.84
       eu-central-1:
         Dedicated: 2.135
         Shared: 2
@@ -26981,6 +27065,9 @@ m5ad.8xlarge:
         Dedicated: 1.748
         Shared: 1.648
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.416
+        Shared: 2.274
       ap-northeast-2:
         Dedicated: 2.283
         Shared: 2.162
@@ -26993,6 +27080,9 @@ m5ad.8xlarge:
       ap-southeast-2:
         Dedicated: 2.346
         Shared: 2.21
+      ca-central-1:
+        Dedicated: 2.082
+        Shared: 1.97
       eu-central-1:
         Dedicated: 2.265
         Shared: 2.13
@@ -27018,6 +27108,9 @@ m5ad.8xlarge:
         Dedicated: 1.878
         Shared: 1.778
     SUSE:
+      ap-northeast-1:
+        Dedicated: 2.436
+        Shared: 2.294
       ap-northeast-2:
         Dedicated: 2.303
         Shared: 2.182
@@ -27030,6 +27123,9 @@ m5ad.8xlarge:
       ap-southeast-2:
         Dedicated: 2.366
         Shared: 2.23
+      ca-central-1:
+        Dedicated: 2.102
+        Shared: 1.99
       eu-central-1:
         Dedicated: 2.285
         Shared: 2.15
@@ -27055,6 +27151,9 @@ m5ad.8xlarge:
         Dedicated: 1.898
         Shared: 1.798
     Windows:
+      ap-northeast-1:
+        Dedicated: 3.758
+        Shared: 3.616
       ap-northeast-2:
         Dedicated: 3.625
         Shared: 3.504
@@ -27067,6 +27166,9 @@ m5ad.8xlarge:
       ap-southeast-2:
         Dedicated: 3.688
         Shared: 3.552
+      ca-central-1:
+        Dedicated: 3.424
+        Shared: 3.312
       eu-central-1:
         Dedicated: 3.607
         Shared: 3.472
@@ -27093,6 +27195,7 @@ m5ad.8xlarge:
         Shared: 3.12
   regions:
     - ap-northeast-2
+    - ca-central-1
     - eu-central-1
     - us-west-1
     - sa-east-1
@@ -27102,6 +27205,7 @@ m5ad.8xlarge:
     - ap-southeast-1
     - eu-west-2
     - us-gov-west-1
+    - ap-northeast-1
     - eu-west-1
     - ap-south-1
   storage: 2 x 600 NVMe SSD
@@ -27117,6 +27221,9 @@ m5ad.large:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.143
+        Shared: 0.134
       ap-northeast-2:
         Dedicated: 0.135
         Shared: 0.127
@@ -27163,6 +27270,9 @@ m5ad.large:
         Dedicated: 0.109
         Shared: 0.103
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.203
+        Shared: 0.194
       ap-northeast-2:
         Dedicated: 0.195
         Shared: 0.187
@@ -27209,6 +27319,9 @@ m5ad.large:
         Dedicated: 0.169
         Shared: 0.163
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.206
+        Shared: 0.197
       ap-northeast-2:
         Dedicated: 0.198
         Shared: 0.19
@@ -27255,6 +27368,9 @@ m5ad.large:
         Dedicated: 0.172
         Shared: 0.166
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.235
+        Shared: 0.226
       ap-northeast-2:
         Dedicated: 0.227
         Shared: 0.219
@@ -27307,6 +27423,7 @@ m5ad.large:
     - eu-central-1
     - ap-southeast-2
     - us-gov-west-1
+    - ap-northeast-1
     - eu-west-3
     - us-east-1
     - us-west-2
@@ -27329,6 +27446,9 @@ m5ad.xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.286
+        Shared: 0.268
       ap-northeast-2:
         Dedicated: 0.269
         Shared: 0.254
@@ -27375,6 +27495,9 @@ m5ad.xlarge:
         Dedicated: 0.219
         Shared: 0.206
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.346
+        Shared: 0.328
       ap-northeast-2:
         Dedicated: 0.329
         Shared: 0.314
@@ -27421,6 +27544,9 @@ m5ad.xlarge:
         Dedicated: 0.279
         Shared: 0.266
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.411
+        Shared: 0.393
       ap-northeast-2:
         Dedicated: 0.394
         Shared: 0.379
@@ -27467,6 +27593,9 @@ m5ad.xlarge:
         Dedicated: 0.344
         Shared: 0.331
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.47
+        Shared: 0.452
       ap-northeast-2:
         Dedicated: 0.453
         Shared: 0.438
@@ -27514,6 +27643,7 @@ m5ad.xlarge:
         Shared: 0.39
   regions:
     - us-gov-west-1
+    - ap-northeast-1
     - ap-northeast-2
     - eu-west-3
     - ap-south-1
@@ -39789,6 +39919,9 @@ r5ad.12xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 4.048
+        Shared: 3.816
       ap-northeast-2:
         Dedicated: 4.019
         Shared: 3.792
@@ -39835,6 +39968,9 @@ r5ad.12xlarge:
         Dedicated: 3.334
         Shared: 3.144
     RHEL:
+      ap-northeast-1:
+        Dedicated: 4.178
+        Shared: 3.946
       ap-northeast-2:
         Dedicated: 4.149
         Shared: 3.922
@@ -39881,6 +40017,9 @@ r5ad.12xlarge:
         Dedicated: 3.464
         Shared: 3.274
     SUSE:
+      ap-northeast-1:
+        Dedicated: 4.198
+        Shared: 3.966
       ap-northeast-2:
         Dedicated: 4.169
         Shared: 3.942
@@ -39927,6 +40066,9 @@ r5ad.12xlarge:
         Dedicated: 3.484
         Shared: 3.294
     Windows:
+      ap-northeast-1:
+        Dedicated: 6.256
+        Shared: 6.024
       ap-northeast-2:
         Dedicated: 6.227
         Shared: 6
@@ -39977,6 +40119,7 @@ r5ad.12xlarge:
     - ap-southeast-1
     - eu-west-2
     - us-east-2
+    - ap-northeast-1
     - eu-central-1
     - eu-west-3
     - ap-northeast-2
@@ -40001,6 +40144,9 @@ r5ad.16xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 5.397
+        Shared: 5.088
       ap-northeast-2:
         Dedicated: 5.359
         Shared: 5.056
@@ -40013,6 +40159,9 @@ r5ad.16xlarge:
       ap-southeast-2:
         Dedicated: 5.395
         Shared: 5.088
+      ca-central-1:
+        Dedicated: 4.886
+        Shared: 4.608
       eu-central-1:
         Dedicated: 5.362
         Shared: 5.056
@@ -40038,6 +40187,9 @@ r5ad.16xlarge:
         Dedicated: 4.445
         Shared: 4.192
     RHEL:
+      ap-northeast-1:
+        Dedicated: 5.527
+        Shared: 5.218
       ap-northeast-2:
         Dedicated: 5.489
         Shared: 5.186
@@ -40050,6 +40202,9 @@ r5ad.16xlarge:
       ap-southeast-2:
         Dedicated: 5.525
         Shared: 5.218
+      ca-central-1:
+        Dedicated: 5.016
+        Shared: 4.738
       eu-central-1:
         Dedicated: 5.492
         Shared: 5.186
@@ -40075,6 +40230,9 @@ r5ad.16xlarge:
         Dedicated: 4.575
         Shared: 4.322
     SUSE:
+      ap-northeast-1:
+        Dedicated: 5.547
+        Shared: 5.238
       ap-northeast-2:
         Dedicated: 5.509
         Shared: 5.206
@@ -40087,6 +40245,9 @@ r5ad.16xlarge:
       ap-southeast-2:
         Dedicated: 5.545
         Shared: 5.238
+      ca-central-1:
+        Dedicated: 5.036
+        Shared: 4.758
       eu-central-1:
         Dedicated: 5.512
         Shared: 5.206
@@ -40112,6 +40273,9 @@ r5ad.16xlarge:
         Dedicated: 4.595
         Shared: 4.342
     Windows:
+      ap-northeast-1:
+        Dedicated: 8.341
+        Shared: 8.032
       ap-northeast-2:
         Dedicated: 8.303
         Shared: 8
@@ -40124,6 +40288,9 @@ r5ad.16xlarge:
       ap-southeast-2:
         Dedicated: 8.339
         Shared: 8.032
+      ca-central-1:
+        Dedicated: 7.83
+        Shared: 7.552
       eu-central-1:
         Dedicated: 8.306
         Shared: 8
@@ -40151,10 +40318,12 @@ r5ad.16xlarge:
   regions:
     - ap-south-1
     - us-gov-west-1
+    - ca-central-1
     - ap-southeast-1
     - eu-west-2
     - us-west-2
     - sa-east-1
+    - ap-northeast-1
     - ap-northeast-2
     - eu-west-1
     - us-west-1
@@ -40174,6 +40343,9 @@ r5ad.24xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 8.096
+        Shared: 7.632
       ap-northeast-2:
         Dedicated: 8.038
         Shared: 7.584
@@ -40220,6 +40392,9 @@ r5ad.24xlarge:
         Dedicated: 6.667
         Shared: 6.288
     RHEL:
+      ap-northeast-1:
+        Dedicated: 8.226
+        Shared: 7.762
       ap-northeast-2:
         Dedicated: 8.168
         Shared: 7.714
@@ -40266,6 +40441,9 @@ r5ad.24xlarge:
         Dedicated: 6.797
         Shared: 6.418
     SUSE:
+      ap-northeast-1:
+        Dedicated: 8.246
+        Shared: 7.782
       ap-northeast-2:
         Dedicated: 8.188
         Shared: 7.734
@@ -40312,6 +40490,9 @@ r5ad.24xlarge:
         Dedicated: 6.817
         Shared: 6.438
     Windows:
+      ap-northeast-1:
+        Dedicated: 12.512
+        Shared: 12.048
       ap-northeast-2:
         Dedicated: 12.454
         Shared: 12
@@ -40361,6 +40542,7 @@ r5ad.24xlarge:
     - us-west-2
     - ap-south-1
     - ap-southeast-2
+    - ap-northeast-1
     - us-east-1
     - eu-central-1
     - ca-central-1
@@ -40386,6 +40568,9 @@ r5ad.2xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.675
+        Shared: 0.636
       ap-northeast-2:
         Dedicated: 0.67
         Shared: 0.632
@@ -40432,6 +40617,9 @@ r5ad.2xlarge:
         Dedicated: 0.556
         Shared: 0.524
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.805
+        Shared: 0.766
       ap-northeast-2:
         Dedicated: 0.8
         Shared: 0.762
@@ -40478,6 +40666,9 @@ r5ad.2xlarge:
         Dedicated: 0.686
         Shared: 0.654
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.825
+        Shared: 0.786
       ap-northeast-2:
         Dedicated: 0.82
         Shared: 0.782
@@ -40524,6 +40715,9 @@ r5ad.2xlarge:
         Dedicated: 0.706
         Shared: 0.674
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.043
+        Shared: 1.004
       ap-northeast-2:
         Dedicated: 1.038
         Shared: 1
@@ -40584,6 +40778,7 @@ r5ad.2xlarge:
     - us-gov-west-1
     - us-east-2
     - eu-west-2
+    - ap-northeast-1
     - us-east-1
   storage: 1 x 300 NVMe SSD
   vcpu: 8
@@ -40598,6 +40793,9 @@ r5ad.4xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.349
+        Shared: 1.272
       ap-northeast-2:
         Dedicated: 1.34
         Shared: 1.264
@@ -40644,6 +40842,9 @@ r5ad.4xlarge:
         Dedicated: 1.111
         Shared: 1.048
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.479
+        Shared: 1.402
       ap-northeast-2:
         Dedicated: 1.47
         Shared: 1.394
@@ -40690,6 +40891,9 @@ r5ad.4xlarge:
         Dedicated: 1.241
         Shared: 1.178
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.499
+        Shared: 1.422
       ap-northeast-2:
         Dedicated: 1.49
         Shared: 1.414
@@ -40736,6 +40940,9 @@ r5ad.4xlarge:
         Dedicated: 1.261
         Shared: 1.198
     Windows:
+      ap-northeast-1:
+        Dedicated: 2.085
+        Shared: 2.008
       ap-northeast-2:
         Dedicated: 2.076
         Shared: 2
@@ -40795,6 +41002,7 @@ r5ad.4xlarge:
     - ap-northeast-2
     - us-west-1
     - ca-central-1
+    - ap-northeast-1
     - ap-south-1
     - sa-east-1
   storage: 2 x 300 NVMe SSD
@@ -40810,6 +41018,9 @@ r5ad.8xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 2.699
+        Shared: 2.544
       ap-northeast-2:
         Dedicated: 2.679
         Shared: 2.528
@@ -40822,6 +41033,9 @@ r5ad.8xlarge:
       ap-southeast-2:
         Dedicated: 2.697
         Shared: 2.544
+      ca-central-1:
+        Dedicated: 2.443
+        Shared: 2.304
       eu-central-1:
         Dedicated: 2.681
         Shared: 2.528
@@ -40847,6 +41061,9 @@ r5ad.8xlarge:
         Dedicated: 2.222
         Shared: 2.096
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.829
+        Shared: 2.674
       ap-northeast-2:
         Dedicated: 2.809
         Shared: 2.658
@@ -40859,6 +41076,9 @@ r5ad.8xlarge:
       ap-southeast-2:
         Dedicated: 2.827
         Shared: 2.674
+      ca-central-1:
+        Dedicated: 2.573
+        Shared: 2.434
       eu-central-1:
         Dedicated: 2.811
         Shared: 2.658
@@ -40884,6 +41104,9 @@ r5ad.8xlarge:
         Dedicated: 2.352
         Shared: 2.226
     SUSE:
+      ap-northeast-1:
+        Dedicated: 2.849
+        Shared: 2.694
       ap-northeast-2:
         Dedicated: 2.829
         Shared: 2.678
@@ -40896,6 +41119,9 @@ r5ad.8xlarge:
       ap-southeast-2:
         Dedicated: 2.847
         Shared: 2.694
+      ca-central-1:
+        Dedicated: 2.593
+        Shared: 2.454
       eu-central-1:
         Dedicated: 2.831
         Shared: 2.678
@@ -40921,6 +41147,9 @@ r5ad.8xlarge:
         Dedicated: 2.372
         Shared: 2.246
     Windows:
+      ap-northeast-1:
+        Dedicated: 4.171
+        Shared: 4.016
       ap-northeast-2:
         Dedicated: 4.151
         Shared: 4
@@ -40933,6 +41162,9 @@ r5ad.8xlarge:
       ap-southeast-2:
         Dedicated: 4.169
         Shared: 4.016
+      ca-central-1:
+        Dedicated: 3.915
+        Shared: 3.776
       eu-central-1:
         Dedicated: 4.153
         Shared: 4
@@ -40959,9 +41191,11 @@ r5ad.8xlarge:
         Shared: 3.568
   regions:
     - us-west-1
+    - ca-central-1
     - us-gov-west-1
     - ap-south-1
     - ap-southeast-2
+    - ap-northeast-1
     - us-west-2
     - eu-central-1
     - eu-west-1
@@ -40983,6 +41217,9 @@ r5ad.large:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.169
+        Shared: 0.159
       ap-northeast-2:
         Dedicated: 0.167
         Shared: 0.158
@@ -41029,6 +41266,9 @@ r5ad.large:
         Dedicated: 0.139
         Shared: 0.131
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.229
+        Shared: 0.219
       ap-northeast-2:
         Dedicated: 0.227
         Shared: 0.218
@@ -41075,6 +41315,9 @@ r5ad.large:
         Dedicated: 0.199
         Shared: 0.191
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.232
+        Shared: 0.222
       ap-northeast-2:
         Dedicated: 0.23
         Shared: 0.221
@@ -41121,6 +41364,9 @@ r5ad.large:
         Dedicated: 0.202
         Shared: 0.194
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.261
+        Shared: 0.251
       ap-northeast-2:
         Dedicated: 0.259
         Shared: 0.25
@@ -41180,6 +41426,7 @@ r5ad.large:
     - us-west-1
     - sa-east-1
     - eu-west-1
+    - ap-northeast-1
     - eu-west-2
     - us-gov-west-1
   storage: 1 x 75 NVMe SSD
@@ -41195,6 +41442,9 @@ r5ad.xlarge:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.337
+        Shared: 0.318
       ap-northeast-2:
         Dedicated: 0.335
         Shared: 0.316
@@ -41241,6 +41491,9 @@ r5ad.xlarge:
         Dedicated: 0.278
         Shared: 0.262
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.397
+        Shared: 0.378
       ap-northeast-2:
         Dedicated: 0.395
         Shared: 0.376
@@ -41287,6 +41540,9 @@ r5ad.xlarge:
         Dedicated: 0.338
         Shared: 0.322
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.462
+        Shared: 0.443
       ap-northeast-2:
         Dedicated: 0.46
         Shared: 0.441
@@ -41333,6 +41589,9 @@ r5ad.xlarge:
         Dedicated: 0.403
         Shared: 0.387
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.521
+        Shared: 0.502
       ap-northeast-2:
         Dedicated: 0.519
         Shared: 0.5
@@ -41382,6 +41641,7 @@ r5ad.xlarge:
     - ap-south-1
     - us-east-1
     - eu-west-3
+    - ap-northeast-1
     - ap-southeast-1
     - sa-east-1
     - eu-west-1
