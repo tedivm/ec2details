@@ -423,7 +423,10 @@ a1.medium:
   storage: EBS only
   vcpu: 1
 a1.metal:
+  clockSpeed: 2.3 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 3500 Mbps
+  enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
@@ -634,6 +637,7 @@ a1.xlarge:
 c1.medium:
   currentGeneration: false
   ecu: 5
+  enhancedNetworkingSupported: false
   memory: 1.7 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: 2
@@ -761,11 +765,12 @@ c1.medium:
     - sa-east-1
     - ap-northeast-1
     - us-east-1
-  storage: 1 x 350
+  storage: 1 x 350 SSD
   vcpu: 2
 c1.xlarge:
   currentGeneration: false
   ecu: 20
+  enhancedNetworkingSupported: false
   memory: 7 GiB
   networkPerformance: High
   normalizationSizeFactor: 8
@@ -893,7 +898,7 @@ c1.xlarge:
     - ap-southeast-2
     - us-east-1
     - sa-east-1
-  storage: 4 x 420
+  storage: 4 x 420 SSD
   vcpu: 8
 c3.2xlarge:
   clockSpeed: 2.8 GHz
@@ -1376,7 +1381,7 @@ c3.8xlarge:
     - us-west-1
     - us-gov-west-1
   storage: 2 x 320 SSD
-  vcpu: 32
+  vcpu: 36
 c3.large:
   clockSpeed: 2.8 GHz
   currentGeneration: false
@@ -3671,8 +3676,8 @@ c5.24xlarge:
 c5.2xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 34
+  dedicatedEbsThroughput: Up to 2250 Mbps
+  ecu: 39
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
@@ -3975,8 +3980,8 @@ c5.2xlarge:
 c5.4xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 68
+  dedicatedEbsThroughput: Up to 2250 Mbps
+  ecu: 73
   enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
@@ -4280,7 +4285,7 @@ c5.9xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: 4500 Mbps
-  ecu: 141
+  ecu: 139
   enhancedNetworkingSupported: true
   memory: 72 GiB
   networkPerformance: 10 Gigabit
@@ -4583,8 +4588,8 @@ c5.9xlarge:
 c5.large:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 9
+  dedicatedEbsThroughput: Up to 2250 Mbps
+  ecu: 10
   enhancedNetworkingSupported: true
   memory: 4 GiB
   networkPerformance: Up to 10 Gigabit
@@ -5139,8 +5144,8 @@ c5.metal:
 c5.xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 17
+  dedicatedEbsThroughput: Up to 2250 Mbps
+  ecu: 20
   enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
@@ -6186,8 +6191,8 @@ c5d.24xlarge:
 c5d.2xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 34
+  dedicatedEbsThroughput: Up to 2250 Mbps
+  ecu: 39
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
@@ -6477,8 +6482,8 @@ c5d.2xlarge:
 c5d.4xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 68
+  dedicatedEbsThroughput: Up to 2250 Mbps
+  ecu: 73
   enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
@@ -6769,7 +6774,7 @@ c5d.9xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: 4500 Mbps
-  ecu: 141
+  ecu: 139
   enhancedNetworkingSupported: true
   memory: 72 GiB
   networkPerformance: 10 Gigabit
@@ -7059,8 +7064,8 @@ c5d.9xlarge:
 c5d.large:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 9
+  dedicatedEbsThroughput: Up to 2250 Mbps
+  ecu: 10
   enhancedNetworkingSupported: true
   memory: 4 GiB
   networkPerformance: Up to 10 Gigabit
@@ -7576,8 +7581,8 @@ c5d.metal:
 c5d.xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2250 Mbps
-  ecu: 17
+  dedicatedEbsThroughput: Up to 2250 Mbps
+  ecu: 20
   enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
@@ -7868,6 +7873,7 @@ c5n.18xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
+  ecu: 281
   enhancedNetworkingSupported: true
   memory: 192 GiB
   networkPerformance: 100 Gigabit
@@ -8067,6 +8073,7 @@ c5n.2xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 3500 Mbps
+  ecu: 39
   enhancedNetworkingSupported: true
   memory: 21 GiB
   networkPerformance: Up to 25 Gigabit
@@ -8266,6 +8273,7 @@ c5n.4xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: 3500 Mbps
+  ecu: 73
   enhancedNetworkingSupported: true
   memory: 42 GiB
   networkPerformance: Up to 25 Gigabit
@@ -8465,6 +8473,7 @@ c5n.9xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: 7000 Mbps
+  ecu: 139
   enhancedNetworkingSupported: true
   memory: 96 GiB
   networkPerformance: 50 Gigabit
@@ -8664,6 +8673,7 @@ c5n.large:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 3500 Mbps
+  ecu: 10
   enhancedNetworkingSupported: true
   memory: 5.25 GiB
   networkPerformance: Up to 25 Gigabit
@@ -8860,7 +8870,10 @@ c5n.large:
   storage: EBS only
   vcpu: 2
 c5n.metal:
+  clockSpeed: 3.0 Ghz
   currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: true
   memory: 192 GiB
   networkPerformance: 100 Gigabit
   normalizationSizeFactor: 144
@@ -9059,6 +9072,7 @@ c5n.xlarge:
   clockSpeed: 3.0 Ghz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 3500 Mbps
+  ecu: 20
   enhancedNetworkingSupported: true
   memory: 10.5 GiB
   networkPerformance: Up to 25 Gigabit
@@ -9405,12 +9419,13 @@ cr1.8xlarge:
 d2.2xlarge:
   clockSpeed: 2.4 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 1000 Mbps
   ecu: 28
   enhancedNetworkingSupported: true
   memory: 61 GiB
   networkPerformance: High
   normalizationSizeFactor: 16
-  physicalProcessor: Intel Xeon E5-2676v3 (Haswell)
+  physicalProcessor: Intel Xeon E5-2676 v3 (Haswell)
   prices:
     Linux:
       ap-east-1:
@@ -9683,12 +9698,13 @@ d2.2xlarge:
 d2.4xlarge:
   clockSpeed: 2.4 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 2000 Mbps
   ecu: 56
   enhancedNetworkingSupported: true
   memory: 122 GiB
   networkPerformance: High
   normalizationSizeFactor: 32
-  physicalProcessor: Intel Xeon E5-2676v3 (Haswell)
+  physicalProcessor: Intel Xeon E5-2676 v3 (Haswell)
   prices:
     Linux:
       ap-east-1:
@@ -9960,12 +9976,13 @@ d2.4xlarge:
 d2.8xlarge:
   clockSpeed: 2.4 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 4000 Mbps
   ecu: 116
   enhancedNetworkingSupported: true
   memory: 244 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 64
-  physicalProcessor: Intel Xeon E5-2676v3 (Haswell)
+  physicalProcessor: Intel Xeon E5-2676 v3 (Haswell)
   prices:
     Linux:
       ap-east-1:
@@ -10238,12 +10255,13 @@ d2.8xlarge:
 d2.xlarge:
   clockSpeed: 2.4 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 750 Mbps
   ecu: 14
   enhancedNetworkingSupported: true
   memory: 30.5 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: 8
-  physicalProcessor: Intel Xeon E5-2676v3 (Haswell)
+  physicalProcessor: Intel Xeon E5-2676 v3 (Haswell)
   prices:
     Linux:
       ap-east-1:
@@ -10513,8 +10531,11 @@ d2.xlarge:
   storage: 3 x 2000 HDD
   vcpu: 4
 f1.16xlarge:
+  clockSpeed: 2.3 GHz
   currentGeneration: true
-  ecu: 188
+  dedicatedEbsThroughput: 14000 Mbps
+  ecu: 201
+  enhancedNetworkingSupported: true
   memory: 976 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: 128
@@ -10591,8 +10612,11 @@ f1.16xlarge:
   storage: 4 x 940 NVMe SSD
   vcpu: 64
 f1.2xlarge:
+  clockSpeed: 2.3 GHz
   currentGeneration: true
-  ecu: 26
+  dedicatedEbsThroughput: 1700 Mbps
+  ecu: 31
+  enhancedNetworkingSupported: true
   memory: 122 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
@@ -10669,8 +10693,11 @@ f1.2xlarge:
   storage: 1 x 470 NVMe SSD
   vcpu: 8
 f1.4xlarge:
+  clockSpeed: 2.3 GHz
   currentGeneration: true
-  ecu: 52
+  dedicatedEbsThroughput: 3500 Mbps
+  ecu: 58
+  enhancedNetworkingSupported: true
   memory: 244 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 32
@@ -10740,9 +10767,10 @@ g2.2xlarge:
   clockSpeed: 2.6 GHz
   currentGeneration: false
   ecu: 26
+  enhancedNetworkingSupported: false
   gpu: 1
   memory: 15 GiB
-  networkPerformance: High
+  networkPerformance: Moderate
   normalizationSizeFactor: 16
   physicalProcessor: Intel Xeon E5-2670 (Sandy Bridge)
   prices:
@@ -10875,9 +10903,10 @@ g2.8xlarge:
   clockSpeed: 2.6 GHz
   currentGeneration: false
   ecu: 104
+  enhancedNetworkingSupported: false
   gpu: 4
   memory: 60 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: High
   normalizationSizeFactor: 64
   physicalProcessor: Intel Xeon E5-2670 (Sandy Bridge)
   prices:
@@ -11010,7 +11039,7 @@ g3.16xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
-  ecu: 188
+  ecu: 201
   enhancedNetworkingSupported: true
   gpu: 4
   memory: 488 GiB
@@ -11198,7 +11227,7 @@ g3.4xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 3500 Mbps
-  ecu: 47
+  ecu: 58
   enhancedNetworkingSupported: true
   gpu: 1
   memory: 122 GiB
@@ -11386,7 +11415,7 @@ g3.8xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 7000 Mbps
-  ecu: 94
+  ecu: 97
   enhancedNetworkingSupported: true
   gpu: 2
   memory: 244 GiB
@@ -11571,8 +11600,11 @@ g3.8xlarge:
   storage: EBS only
   vcpu: 32
 g3s.xlarge:
+  clockSpeed: 2.3 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 100 Mbps
   ecu: 13
+  enhancedNetworkingSupported: true
   gpu: 1
   memory: 30.5 GiB
   networkPerformance: 10 Gigabit
@@ -11717,7 +11749,10 @@ g3s.xlarge:
   storage: EBS only
   vcpu: 4
 g4dn.12xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 7000 Mbps
+  enhancedNetworkingSupported: true
   gpu: 4
   memory: 192 GiB
   networkPerformance: 50 Gigabit
@@ -11991,7 +12026,10 @@ g4dn.12xlarge:
   storage: 900 GB NVMe SSD
   vcpu: 48
 g4dn.16xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 7000 Mbps
+  enhancedNetworkingSupported: true
   gpu: 1
   memory: 256 GiB
   networkPerformance: 50 Gigabit
@@ -12539,7 +12577,10 @@ g4dn.2xlarge:
   storage: 225 GB NVMe SSD
   vcpu: 8
 g4dn.4xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 3500 Mbps
+  enhancedNetworkingSupported: true
   gpu: 1
   memory: 64 GiB
   networkPerformance: Up to 25 Gigabit
@@ -12813,7 +12854,10 @@ g4dn.4xlarge:
   storage: 225 GB NVMe SSD
   vcpu: 16
 g4dn.8xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 7000 Mbps
+  enhancedNetworkingSupported: true
   gpu: 1
   memory: 128 GiB
   networkPerformance: 50 Gigabit
@@ -13087,7 +13131,10 @@ g4dn.8xlarge:
   storage: 900 GB NVMe SSD
   vcpu: 32
 g4dn.metal:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: true
   gpu: 8
   memory: 384 GiB
   networkPerformance: 100 Gigabit
@@ -13114,7 +13161,10 @@ g4dn.metal:
   storage: 2 x 900 GB NVMe SSD
   vcpu: 96
 g4dn.xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 3500 Mbps
+  enhancedNetworkingSupported: true
   gpu: 1
   memory: 16 GiB
   networkPerformance: Up to 25 Gigabit
@@ -13390,8 +13440,8 @@ g4dn.xlarge:
 h1.16xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 12000 Mbps
-  ecu: 188
+  dedicatedEbsThroughput: 14000 Mbps
+  ecu: 201
   enhancedNetworkingSupported: true
   memory: 256 GiB
   networkPerformance: 25 Gigabit
@@ -13460,8 +13510,8 @@ h1.16xlarge:
 h1.2xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 1600 Mbps
-  ecu: 26
+  dedicatedEbsThroughput: 1750 Mbps
+  ecu: 31
   enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
@@ -13530,8 +13580,8 @@ h1.2xlarge:
 h1.4xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 3000 Mbps
-  ecu: 53.5
+  dedicatedEbsThroughput: 3500 Mbps
+  ecu: 58
   enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
@@ -13600,8 +13650,8 @@ h1.4xlarge:
 h1.8xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 6000 Mbps
-  ecu: 99
+  dedicatedEbsThroughput: 7000 Mbps
+  ecu: 97
   enhancedNetworkingSupported: true
   memory: 128 GiB
   networkPerformance: 10 Gigabit
@@ -13777,6 +13827,7 @@ hs1.8xlarge:
 i2.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: false
+  dedicatedEbsThroughput: 1500 Mbps
   ecu: 27
   enhancedNetworkingSupported: true
   memory: 61 GiB
@@ -13951,6 +14002,7 @@ i2.2xlarge:
 i2.4xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: false
+  dedicatedEbsThroughput: 1500 Mbps
   ecu: 53
   enhancedNetworkingSupported: true
   memory: 122 GiB
@@ -14125,6 +14177,7 @@ i2.4xlarge:
 i2.8xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: false
+  dedicatedEbsThroughput: 1500 Mbps
   ecu: 104
   enhancedNetworkingSupported: true
   memory: 244 GiB
@@ -14299,6 +14352,7 @@ i2.8xlarge:
 i2.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: false
+  dedicatedEbsThroughput: 750 Mbps
   ecu: 14
   enhancedNetworkingSupported: true
   memory: 30.5 GiB
@@ -14474,7 +14528,7 @@ i3.16xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
-  ecu: 200
+  ecu: 201
   enhancedNetworkingSupported: true
   memory: 488 GiB
   networkPerformance: 20 Gigabit
@@ -14765,7 +14819,7 @@ i3.2xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 1750 Mbps
-  ecu: 27
+  ecu: 31
   enhancedNetworkingSupported: true
   memory: 61 GiB
   networkPerformance: Up to 10 Gigabit
@@ -15347,7 +15401,7 @@ i3.8xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 7000 Mbps
-  ecu: 99
+  ecu: 97
   enhancedNetworkingSupported: true
   memory: 244 GiB
   networkPerformance: 10 Gigabit
@@ -15638,7 +15692,7 @@ i3.large:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 425 Mbps
-  ecu: 7
+  ecu: 8
   enhancedNetworkingSupported: true
   memory: 15.25 GiB
   networkPerformance: Up to 10 Gigabit
@@ -15926,8 +15980,11 @@ i3.large:
   storage: 1 x 475 NVMe SSD
   vcpu: 2
 i3.metal:
+  clockSpeed: 2.3 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
   ecu: 208
+  enhancedNetworkingSupported: true
   memory: 512 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 128
@@ -16046,12 +16103,12 @@ i3.metal:
     - eu-north-1
     - us-gov-east-1
   storage: 8 x 1900 NVMe SSD
-  vcpu: 72
+  vcpu: 64
 i3.xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 850 Mbps
-  ecu: 13
+  ecu: 16
   enhancedNetworkingSupported: true
   memory: 30.5 GiB
   networkPerformance: Up to 10 Gigabit
@@ -16342,11 +16399,12 @@ i3en.12xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 7000 Mbps
+  ecu: 168
   enhancedNetworkingSupported: true
   memory: 384 GiB
   networkPerformance: 50 Gigabit
   normalizationSizeFactor: 96
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-northeast-1:
@@ -16580,11 +16638,12 @@ i3en.24xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
+  ecu: 337
   enhancedNetworkingSupported: true
   memory: 768 GiB
   networkPerformance: 100 Gigabit
   normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-northeast-1:
@@ -16818,11 +16877,12 @@ i3en.2xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 3500 Mbps
+  ecu: 37
   enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 16
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-northeast-1:
@@ -17060,7 +17120,7 @@ i3en.3xlarge:
   memory: 96 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 24
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-northeast-1:
@@ -17532,11 +17592,12 @@ i3en.large:
   clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 3500 Mbps
+  ecu: 10
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 4
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-northeast-1:
@@ -17774,7 +17835,7 @@ i3en.metal:
   memory: 768 GiB
   networkPerformance: 100 Gigabit
   normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-northeast-1:
@@ -17988,7 +18049,7 @@ i3en.xlarge:
   memory: 32 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 8
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-northeast-1:
@@ -18220,6 +18281,8 @@ i3en.xlarge:
   vcpu: 4
 inf1.24xlarge:
   currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: false
   memory: 192 GiB
   networkPerformance: 100 Gigabit
   physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
@@ -18252,6 +18315,8 @@ inf1.24xlarge:
   vcpu: 96
 inf1.2xlarge:
   currentGeneration: true
+  dedicatedEbsThroughput: 875 Mbps
+  enhancedNetworkingSupported: false
   memory: 16 GiB
   networkPerformance: Up to 25 Gigabit
   physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
@@ -18284,6 +18349,8 @@ inf1.2xlarge:
   vcpu: 8
 inf1.6xlarge:
   currentGeneration: true
+  dedicatedEbsThroughput: 3500 Mbps
+  enhancedNetworkingSupported: false
   memory: 48 GiB
   networkPerformance: 25 Gigabit
   physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
@@ -18316,6 +18383,8 @@ inf1.6xlarge:
   vcpu: 24
 inf1.xlarge:
   currentGeneration: true
+  dedicatedEbsThroughput: 875 Mbps
+  enhancedNetworkingSupported: false
   memory: 8 GiB
   networkPerformance: Up to 25 Gigabit
   physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
@@ -18349,6 +18418,7 @@ inf1.xlarge:
 m1.large:
   currentGeneration: false
   ecu: 4
+  enhancedNetworkingSupported: false
   memory: 7.5 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: 4
@@ -18476,11 +18546,12 @@ m1.large:
     - ap-northeast-1
     - us-east-1
     - us-west-1
-  storage: 2 x 420
+  storage: 2 x 420 SSD
   vcpu: 2
 m1.medium:
   currentGeneration: false
   ecu: 2
+  enhancedNetworkingSupported: false
   memory: 3.75 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: 2
@@ -18608,11 +18679,12 @@ m1.medium:
     - sa-east-1
     - us-west-2
     - ap-southeast-2
-  storage: 1 x 410
+  storage: 1 x 410 SSD
   vcpu: 1
 m1.small:
   currentGeneration: false
   ecu: 1
+  enhancedNetworkingSupported: false
   memory: 1.7 GiB
   networkPerformance: Low
   normalizationSizeFactor: 1
@@ -18740,7 +18812,7 @@ m1.small:
     - us-west-2
     - ap-northeast-1
     - us-west-1
-  storage: 1 x 160
+  storage: 1 x 160 SSD
   vcpu: 1
 m1.xlarge:
   currentGeneration: false
@@ -19009,6 +19081,7 @@ m2.2xlarge:
 m2.4xlarge:
   currentGeneration: false
   ecu: 26
+  enhancedNetworkingSupported: false
   memory: 68.4 GiB
   networkPerformance: High
   normalizationSizeFactor: 32
@@ -19136,11 +19209,12 @@ m2.4xlarge:
     - ap-southeast-2
     - eu-west-1
     - us-gov-west-1
-  storage: 2 x 840
+  storage: 2 x 840 SSD
   vcpu: 8
 m2.xlarge:
   currentGeneration: false
   ecu: 6.5
+  enhancedNetworkingSupported: false
   memory: 17.1 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: 8
@@ -19268,12 +19342,14 @@ m2.xlarge:
     - us-west-2
     - ap-southeast-1
     - us-east-1
-  storage: 1 x 420
+  storage: 1 x 420 SSD
   vcpu: 2
 m3.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: false
+  dedicatedEbsThroughput: 1000 Mbps
   ecu: 26
+  enhancedNetworkingSupported: false
   memory: 30 GiB
   networkPerformance: High
   normalizationSizeFactor: 16
@@ -19434,6 +19510,7 @@ m3.large:
   clockSpeed: 2.5 GHz
   currentGeneration: false
   ecu: 6.5
+  enhancedNetworkingSupported: false
   memory: 7.5 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: 4
@@ -19594,6 +19671,7 @@ m3.medium:
   clockSpeed: 2.5 GHz
   currentGeneration: false
   ecu: 3
+  enhancedNetworkingSupported: false
   memory: 3.75 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: 2
@@ -19753,7 +19831,9 @@ m3.medium:
 m3.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: false
+  dedicatedEbsThroughput: 500 Mbps
   ecu: 13
+  enhancedNetworkingSupported: false
   memory: 15 GiB
   networkPerformance: High
   normalizationSizeFactor: 8
@@ -20138,7 +20218,7 @@ m4.10xlarge:
   storage: EBS only
   vcpu: 40
 m4.16xlarge:
-  clockSpeed: 2.3 GHz
+  clockSpeed: 2.4 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 10000 Mbps
   ecu: 188
@@ -21046,7 +21126,7 @@ m4.large:
   storage: EBS only
   vcpu: 2
 m4.xlarge:
-  clockSpeed: 2.4  GHz
+  clockSpeed: 2.4 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 750 Mbps
   ecu: 13
@@ -21275,13 +21355,13 @@ m4.xlarge:
 m5.12xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 6000 Mbps
-  ecu: 173
+  dedicatedEbsThroughput: 7000 Mbps
+  ecu: 168
   enhancedNetworkingSupported: true
   memory: 192 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 96
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -21580,12 +21660,12 @@ m5.16xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 10000 Mbps
-  ecu: 262
+  ecu: 256
   enhancedNetworkingSupported: true
   memory: 256 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: 128
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -21884,12 +21964,12 @@ m5.24xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 12000 Mbps
-  ecu: 345
+  ecu: 337
   enhancedNetworkingSupported: true
   memory: 384 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -22187,13 +22267,13 @@ m5.24xlarge:
 m5.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
-  ecu: 31
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  ecu: 37
   enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -22492,12 +22572,12 @@ m5.4xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 2120 Mbps
-  ecu: 60
+  ecu: 70
   enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -22796,12 +22876,12 @@ m5.8xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 5000 Mbps
-  ecu: 131
+  ecu: 128
   enhancedNetworkingSupported: true
   memory: 128 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 64
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -23409,7 +23489,7 @@ m5.metal:
   memory: 384 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -23707,13 +23787,13 @@ m5.metal:
 m5.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: 16
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -24725,7 +24805,7 @@ m5a.24xlarge:
 m5a.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
@@ -25439,7 +25519,7 @@ m5a.8xlarge:
 m5a.large:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
@@ -25677,7 +25757,7 @@ m5a.large:
 m5a.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
@@ -26564,7 +26644,7 @@ m5ad.24xlarge:
 m5ad.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
@@ -27213,7 +27293,7 @@ m5ad.8xlarge:
 m5ad.large:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
@@ -27438,7 +27518,7 @@ m5ad.large:
 m5ad.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
@@ -27664,12 +27744,12 @@ m5d.12xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 6000 Mbps
-  ecu: 173
+  ecu: 168
   enhancedNetworkingSupported: true
   memory: 192 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 96
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -27955,12 +28035,12 @@ m5d.16xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 10000 Mbps
-  ecu: 262
+  ecu: 256
   enhancedNetworkingSupported: true
   memory: 256 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: 128
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -28246,12 +28326,12 @@ m5d.24xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 12000 Mbps
-  ecu: 345
+  ecu: 337
   enhancedNetworkingSupported: true
   memory: 384 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -28536,13 +28616,13 @@ m5d.24xlarge:
 m5d.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
-  ecu: 31
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  ecu: 37
   enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -28828,12 +28908,12 @@ m5d.4xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 2120 Mbps
-  ecu: 60
+  ecu: 70
   enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -29119,12 +29199,12 @@ m5d.8xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 5000 Mbps
-  ecu: 131
+  ecu: 128
   enhancedNetworkingSupported: true
   memory: 128 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 64
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -29409,13 +29489,13 @@ m5d.8xlarge:
 m5d.large:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
-  ecu: 8
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  ecu: 10
   enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -29706,7 +29786,7 @@ m5d.metal:
   memory: 384 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -30280,7 +30360,10 @@ m5d.xlarge:
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 m5dn.12xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 7000 Mbps
+  enhancedNetworkingSupported: false
   memory: 192 GiB
   networkPerformance: 50 Gigabit
   normalizationSizeFactor: 96
@@ -30367,7 +30450,10 @@ m5dn.12xlarge:
   storage: 2 x 900 GB NVMe SSD
   vcpu: 48
 m5dn.16xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: false
   memory: 256 GiB
   networkPerformance: 75 Gigabit
   normalizationSizeFactor: 128
@@ -30454,7 +30540,10 @@ m5dn.16xlarge:
   storage: 4 x 600 NVMe SSD
   vcpu: 64
 m5dn.24xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: false
   memory: 384 GiB
   networkPerformance: 100 Gigabit
   normalizationSizeFactor: 192
@@ -30541,7 +30630,10 @@ m5dn.24xlarge:
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5dn.2xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 3500 Mbps
+  enhancedNetworkingSupported: false
   memory: 32 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 16
@@ -30628,7 +30720,10 @@ m5dn.2xlarge:
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 m5dn.4xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 3500 Mbps
+  enhancedNetworkingSupported: false
   memory: 64 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 32
@@ -30715,7 +30810,10 @@ m5dn.4xlarge:
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 m5dn.8xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 5000 Mbps
+  enhancedNetworkingSupported: false
   memory: 128 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 64
@@ -30802,7 +30900,10 @@ m5dn.8xlarge:
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 m5dn.large:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 3500 Mbps
+  enhancedNetworkingSupported: false
   memory: 8 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 4
@@ -30889,7 +30990,10 @@ m5dn.large:
   storage: 1 x 75 NVMe SSD
   vcpu: 2
 m5dn.metal:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: false
   memory: 384 GiB
   networkPerformance: 100 Gigabit
   normalizationSizeFactor: 192
@@ -30906,7 +31010,10 @@ m5dn.metal:
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5dn.xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 3500 Mbps
+  enhancedNetworkingSupported: false
   memory: 16 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 8
@@ -30993,7 +31100,10 @@ m5dn.xlarge:
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 m5n.12xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 7000 Mbps
+  enhancedNetworkingSupported: false
   memory: 192 GiB
   networkPerformance: 50 Gigabit
   normalizationSizeFactor: 96
@@ -31077,9 +31187,13 @@ m5n.12xlarge:
     - us-east-2
     - eu-west-1
     - eu-central-1
+  storage: EBS only
   vcpu: 48
 m5n.16xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: false
   memory: 256 GiB
   networkPerformance: 75 Gigabit
   normalizationSizeFactor: 128
@@ -31163,9 +31277,13 @@ m5n.16xlarge:
     - us-east-2
     - eu-central-1
     - us-west-2
+  storage: EBS only
   vcpu: 64
 m5n.24xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: false
   memory: 384 GiB
   networkPerformance: 100 Gigabit
   normalizationSizeFactor: 192
@@ -31249,9 +31367,13 @@ m5n.24xlarge:
     - us-east-1
     - us-west-2
     - ap-northeast-1
+  storage: EBS only
   vcpu: 96
 m5n.2xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 3500 Mbps
+  enhancedNetworkingSupported: false
   memory: 32 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 16
@@ -31335,9 +31457,13 @@ m5n.2xlarge:
     - ap-northeast-1
     - us-east-1
     - us-west-2
+  storage: EBS only
   vcpu: 8
 m5n.4xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 3500 Mbps
+  enhancedNetworkingSupported: false
   memory: 64 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 32
@@ -31421,9 +31547,13 @@ m5n.4xlarge:
     - ap-southeast-1
     - us-west-2
     - us-east-2
+  storage: EBS only
   vcpu: 16
 m5n.8xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 5000 Mbps
+  enhancedNetworkingSupported: false
   memory: 128 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 64
@@ -31507,9 +31637,13 @@ m5n.8xlarge:
     - us-west-2
     - ap-southeast-1
     - ap-northeast-1
+  storage: EBS only
   vcpu: 32
 m5n.large:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 3500 Mbps
+  enhancedNetworkingSupported: false
   memory: 8 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 4
@@ -31593,9 +31727,13 @@ m5n.large:
     - ap-northeast-1
     - eu-west-1
     - eu-central-1
+  storage: EBS only
   vcpu: 2
 m5n.metal:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: false
   memory: 384 GiB
   networkPerformance: 100 Gigabit
   normalizationSizeFactor: 192
@@ -31609,9 +31747,13 @@ m5n.metal:
     - us-east-1
     - eu-west-1
     - us-east-2
+  storage: EBS only
   vcpu: 96
 m5n.xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 3500 Mbps
+  enhancedNetworkingSupported: false
   memory: 16 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 8
@@ -31695,6 +31837,7 @@ m5n.xlarge:
     - us-east-1
     - ap-northeast-1
     - eu-central-1
+  storage: EBS only
   vcpu: 4
 m6g.12xlarge:
   currentGeneration: true
@@ -31718,6 +31861,8 @@ m6g.12xlarge:
   vcpu: 48
 m6g.16xlarge:
   currentGeneration: true
+  dedicatedEbsThroughput: 18000 Mbps
+  enhancedNetworkingSupported: false
   memory: 256 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 128
@@ -31738,6 +31883,8 @@ m6g.16xlarge:
   vcpu: 64
 m6g.2xlarge:
   currentGeneration: true
+  dedicatedEbsThroughput: 2250 Mbps
+  enhancedNetworkingSupported: false
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
@@ -31758,6 +31905,8 @@ m6g.2xlarge:
   vcpu: 8
 m6g.4xlarge:
   currentGeneration: true
+  dedicatedEbsThroughput: 4500 Mbps
+  enhancedNetworkingSupported: false
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
@@ -31778,6 +31927,8 @@ m6g.4xlarge:
   vcpu: 16
 m6g.8xlarge:
   currentGeneration: true
+  dedicatedEbsThroughput: 9000 Mbps
+  enhancedNetworkingSupported: false
   memory: 128 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 64
@@ -31798,6 +31949,8 @@ m6g.8xlarge:
   vcpu: 32
 m6g.large:
   currentGeneration: true
+  dedicatedEbsThroughput: 600 Mbps
+  enhancedNetworkingSupported: false
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
@@ -31818,6 +31971,8 @@ m6g.large:
   vcpu: 2
 m6g.medium:
   currentGeneration: true
+  dedicatedEbsThroughput: 300 Mbps
+  enhancedNetworkingSupported: false
   memory: 4 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 2
@@ -31838,6 +31993,8 @@ m6g.medium:
   vcpu: 1
 m6g.xlarge:
   currentGeneration: true
+  dedicatedEbsThroughput: 1125 Mbps
+  enhancedNetworkingSupported: false
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
@@ -31859,10 +32016,11 @@ m6g.xlarge:
 p2.16xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
-  ecu: 188
+  dedicatedEbsThroughput: 10000 Mbps
+  ecu: 201
   enhancedNetworkingSupported: true
   gpu: 16
-  memory: 768 GiB
+  memory: 732 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: 128
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
@@ -32016,7 +32174,8 @@ p2.16xlarge:
 p2.8xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
-  ecu: 94
+  dedicatedEbsThroughput: 5000 Mbps
+  ecu: 97
   enhancedNetworkingSupported: true
   gpu: 8
   memory: 488 GiB
@@ -32173,7 +32332,8 @@ p2.8xlarge:
 p2.xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
-  ecu: 12
+  dedicatedEbsThroughput: 750 Mbps
+  ecu: 16
   enhancedNetworkingSupported: true
   gpu: 1
   memory: 61 GiB
@@ -32331,7 +32491,7 @@ p3.16xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
-  ecu: 188
+  ecu: 201
   enhancedNetworkingSupported: true
   gpu: 8
   memory: 488 GiB
@@ -32506,7 +32666,7 @@ p3.2xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 1750 Mbps
-  ecu: 26
+  ecu: 31
   enhancedNetworkingSupported: true
   gpu: 1
   memory: 61 GiB
@@ -32681,7 +32841,7 @@ p3.8xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 7000 Mbps
-  ecu: 94
+  ecu: 97
   enhancedNetworkingSupported: true
   gpu: 4
   memory: 244 GiB
@@ -32856,7 +33016,7 @@ p3dn.24xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
-  ecu: 345
+  ecu: 337
   enhancedNetworkingSupported: true
   gpu: 8
   memory: 768 GiB
@@ -34103,7 +34263,7 @@ r4.2xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 1600 Mbps
-  ecu: 27
+  ecu: 31
   enhancedNetworkingSupported: true
   memory: 61 GiB
   networkPerformance: Up to 10 Gigabit
@@ -34342,7 +34502,7 @@ r4.4xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 3000 Mbps
-  ecu: 53
+  ecu: 58
   enhancedNetworkingSupported: true
   memory: 122 GiB
   networkPerformance: Up to 10 Gigabit
@@ -34581,7 +34741,7 @@ r4.8xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 6000 Mbps
-  ecu: 99
+  ecu: 97
   enhancedNetworkingSupported: true
   memory: 244 GiB
   networkPerformance: 10 Gigabit
@@ -35059,7 +35219,7 @@ r4.xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 800 Mbps
-  ecu: 13.5
+  ecu: 16
   enhancedNetworkingSupported: true
   memory: 30.5 GiB
   networkPerformance: Up to 10 Gigabit
@@ -35295,12 +35455,15 @@ r4.xlarge:
   storage: EBS only
   vcpu: 4
 r5.12xlarge:
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  ecu: 173
+  dedicatedEbsThroughput: 6000 Mbps
+  ecu: 168
+  enhancedNetworkingSupported: true
   memory: 384 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 96
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -35596,12 +35759,15 @@ r5.12xlarge:
   storage: EBS only
   vcpu: 48
 r5.16xlarge:
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  ecu: 262
+  dedicatedEbsThroughput: 10000 Mbps
+  ecu: 256
+  enhancedNetworkingSupported: true
   memory: 512 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: 128
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -35897,12 +36063,15 @@ r5.16xlarge:
   storage: EBS only
   vcpu: 64
 r5.24xlarge:
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  ecu: 347
+  dedicatedEbsThroughput: 12000 Mbps
+  ecu: 337
+  enhancedNetworkingSupported: true
   memory: 768 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -36198,12 +36367,15 @@ r5.24xlarge:
   storage: EBS only
   vcpu: 96
 r5.2xlarge:
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  ecu: 38
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  ecu: 37
+  enhancedNetworkingSupported: true
   memory: 64 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -36499,12 +36671,15 @@ r5.2xlarge:
   storage: EBS only
   vcpu: 8
 r5.4xlarge:
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  ecu: 71
+  dedicatedEbsThroughput: 2120 Mbps
+  ecu: 70
+  enhancedNetworkingSupported: true
   memory: 128 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -36800,12 +36975,15 @@ r5.4xlarge:
   storage: EBS only
   vcpu: 16
 r5.8xlarge:
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  ecu: 131
+  dedicatedEbsThroughput: 5000 Mbps
+  ecu: 128
+  enhancedNetworkingSupported: true
   memory: 256 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 64
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -37103,11 +37281,13 @@ r5.8xlarge:
 r5.large:
   clockSpeed: 3.1 GHz
   currentGeneration: true
-  ecu: 9
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  ecu: 10
+  enhancedNetworkingSupported: true
   memory: 16 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -37403,12 +37583,15 @@ r5.large:
   storage: EBS only
   vcpu: 2
 r5.metal:
+  clockSpeed: 3.1 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 12000 Mbps
   ecu: 347
+  enhancedNetworkingSupported: true
   memory: 768 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -37704,12 +37887,15 @@ r5.metal:
   storage: EBS only
   vcpu: 96
 r5.xlarge:
+  clockSpeed: 3.1 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: 19
+  enhancedNetworkingSupported: true
   memory: 32 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -38721,7 +38907,7 @@ r5a.24xlarge:
 r5a.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: 10 Gigabit
@@ -38959,7 +39145,7 @@ r5a.2xlarge:
 r5a.4xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 128 GiB
   networkPerformance: 10 Gigabit
@@ -39435,7 +39621,7 @@ r5a.8xlarge:
 r5a.large:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: 10 Gigabit
@@ -39673,7 +39859,7 @@ r5a.large:
 r5a.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: 10 Gigabit
@@ -40560,7 +40746,7 @@ r5ad.24xlarge:
 r5ad.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: 10 Gigabit
@@ -40785,7 +40971,7 @@ r5ad.2xlarge:
 r5ad.4xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 128 GiB
   networkPerformance: 10 Gigabit
@@ -41209,7 +41395,7 @@ r5ad.8xlarge:
 r5ad.large:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: 10 Gigabit
@@ -41434,7 +41620,7 @@ r5ad.large:
 r5ad.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: 10 Gigabit
@@ -41657,12 +41843,15 @@ r5ad.xlarge:
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 r5d.12xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
-  ecu: 173
+  dedicatedEbsThroughput: 6000 Mbps
+  ecu: 168
+  enhancedNetworkingSupported: true
   memory: 384 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 96
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -41958,12 +42147,15 @@ r5d.12xlarge:
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 r5d.16xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
-  ecu: 262
+  dedicatedEbsThroughput: 10000 Mbps
+  ecu: 256
+  enhancedNetworkingSupported: true
   memory: 512 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: 128
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -42259,12 +42451,15 @@ r5d.16xlarge:
   storage: 4 x 600 NVMe SSD
   vcpu: 64
 r5d.24xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
-  ecu: 347
+  dedicatedEbsThroughput: 12000 Mbps
+  ecu: 337
+  enhancedNetworkingSupported: true
   memory: 768 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -42560,12 +42755,15 @@ r5d.24xlarge:
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5d.2xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
-  ecu: 38
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  ecu: 37
+  enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 16
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -42861,12 +43059,15 @@ r5d.2xlarge:
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 r5d.4xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
-  ecu: 71
+  dedicatedEbsThroughput: 2120 Mbps
+  ecu: 70
+  enhancedNetworkingSupported: true
   memory: 128 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 32
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -43162,12 +43363,15 @@ r5d.4xlarge:
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 r5d.8xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
-  ecu: 131
+  dedicatedEbsThroughput: 5000 Mbps
+  ecu: 128
+  enhancedNetworkingSupported: true
   memory: 256 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 64
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -43463,12 +43667,15 @@ r5d.8xlarge:
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 r5d.large:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: 10
+  enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 4
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -43764,12 +43971,15 @@ r5d.large:
   storage: 1 x 75 NVMe SSD
   vcpu: 2
 r5d.metal:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 12000 Mbps
   ecu: 347
+  enhancedNetworkingSupported: true
   memory: 768 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 192
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -44065,12 +44275,15 @@ r5d.metal:
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5d.xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: 19
+  enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 8
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -44366,7 +44579,10 @@ r5d.xlarge:
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 r5dn.12xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 6000 Mbps
+  enhancedNetworkingSupported: false
   memory: 384 GiB
   networkPerformance: 50 Gigabit
   normalizationSizeFactor: 96
@@ -44453,7 +44669,10 @@ r5dn.12xlarge:
   storage: 2 x 900 GB NVMe SSD
   vcpu: 48
 r5dn.16xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: false
   memory: 512 GiB
   networkPerformance: 75 Gigabit
   normalizationSizeFactor: 128
@@ -44540,7 +44759,10 @@ r5dn.16xlarge:
   storage: 4 x 600 NVMe SSD
   vcpu: 64
 r5dn.24xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 12000 Mbps
+  enhancedNetworkingSupported: false
   memory: 768 GiB
   networkPerformance: 100 Gigabit
   normalizationSizeFactor: 192
@@ -44627,7 +44849,10 @@ r5dn.24xlarge:
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5dn.2xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  enhancedNetworkingSupported: false
   memory: 64 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 16
@@ -44714,7 +44939,10 @@ r5dn.2xlarge:
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 r5dn.4xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 2120 Mbps
+  enhancedNetworkingSupported: false
   memory: 128 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 32
@@ -44801,7 +45029,10 @@ r5dn.4xlarge:
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 r5dn.8xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 5000 Mbps
+  enhancedNetworkingSupported: false
   memory: 256 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 64
@@ -44888,7 +45119,10 @@ r5dn.8xlarge:
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 r5dn.large:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  enhancedNetworkingSupported: false
   memory: 16 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 4
@@ -44975,7 +45209,10 @@ r5dn.large:
   storage: 1 x 75 NVMe SSD
   vcpu: 2
 r5dn.metal:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 12000 Mbps
+  enhancedNetworkingSupported: false
   memory: 768 GiB
   networkPerformance: 100 Gigabit
   normalizationSizeFactor: 192
@@ -44992,7 +45229,10 @@ r5dn.metal:
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5dn.xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  enhancedNetworkingSupported: false
   memory: 32 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 8
@@ -45079,7 +45319,10 @@ r5dn.xlarge:
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 r5n.12xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 6000 Mbps
+  enhancedNetworkingSupported: false
   memory: 384 GiB
   networkPerformance: 50 Gigabit
   normalizationSizeFactor: 96
@@ -45163,6 +45406,7 @@ r5n.12xlarge:
     - us-east-1
     - ap-southeast-1
     - ap-northeast-1
+  storage: EBS only
   vcpu: 48
 r5n.16xlarge:
   currentGeneration: true
@@ -45251,7 +45495,10 @@ r5n.16xlarge:
     - ap-northeast-1
   vcpu: 64
 r5n.24xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 12000 Mbps
+  enhancedNetworkingSupported: false
   memory: 768 GiB
   networkPerformance: 100 Gigabit
   normalizationSizeFactor: 192
@@ -45335,9 +45582,13 @@ r5n.24xlarge:
     - ap-southeast-1
     - eu-central-1
     - us-west-2
+  storage: EBS only
   vcpu: 96
 r5n.2xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  enhancedNetworkingSupported: false
   memory: 64 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 16
@@ -45421,6 +45672,7 @@ r5n.2xlarge:
     - us-east-2
     - us-west-2
     - ap-southeast-1
+  storage: EBS only
   vcpu: 8
 r5n.4xlarge:
   currentGeneration: true
@@ -45509,7 +45761,10 @@ r5n.4xlarge:
     - ap-northeast-1
   vcpu: 16
 r5n.8xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 5000 Mbps
+  enhancedNetworkingSupported: false
   memory: 256 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 64
@@ -45593,9 +45848,13 @@ r5n.8xlarge:
     - eu-central-1
     - us-east-2
     - ap-northeast-1
+  storage: EBS only
   vcpu: 32
 r5n.large:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  enhancedNetworkingSupported: false
   memory: 16 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 4
@@ -45679,9 +45938,13 @@ r5n.large:
     - ap-northeast-1
     - eu-central-1
     - us-east-1
+  storage: EBS only
   vcpu: 2
 r5n.metal:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 12000 Mbps
+  enhancedNetworkingSupported: false
   memory: 768 GiB
   networkPerformance: 100 Gigabit
   normalizationSizeFactor: 192
@@ -45695,9 +45958,13 @@ r5n.metal:
     - us-east-1
     - us-west-2
     - ap-southeast-1
+  storage: EBS only
   vcpu: 96
 r5n.xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  enhancedNetworkingSupported: false
   memory: 32 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 8
@@ -45781,10 +46048,12 @@ r5n.xlarge:
     - us-east-2
     - us-west-2
     - ap-southeast-1
+  storage: EBS only
   vcpu: 4
 t1.micro:
   currentGeneration: false
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 0.613 GiB
   networkPerformance: Very Low
   normalizationSizeFactor: 0
@@ -45879,9 +46148,10 @@ t1.micro:
   storage: EBS only
   vcpu: 1
 t2.2xlarge:
-  clockSpeed: Up to 3.0 GHz
+  clockSpeed: Up to 3.3 GHz
   currentGeneration: true
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 32 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: 16
@@ -46048,9 +46318,10 @@ t2.2xlarge:
   storage: EBS only
   vcpu: 8
 t2.large:
-  clockSpeed: Up to 3.0 GHz
+  clockSpeed: Up to 3.3 GHz
   currentGeneration: true
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 8 GiB
   networkPerformance: Low to Moderate
   normalizationSizeFactor: 4
@@ -46220,6 +46491,7 @@ t2.medium:
   clockSpeed: Up to 3.3 GHz
   currentGeneration: true
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 4 GiB
   networkPerformance: Low to Moderate
   normalizationSizeFactor: 2
@@ -46389,6 +46661,7 @@ t2.micro:
   clockSpeed: Up to 3.3 GHz
   currentGeneration: true
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 1 GiB
   networkPerformance: Low to Moderate
   normalizationSizeFactor: 0
@@ -46692,6 +46965,7 @@ t2.small:
   clockSpeed: Up to 3.3 GHz
   currentGeneration: true
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 2 GiB
   networkPerformance: Low to Moderate
   normalizationSizeFactor: 1
@@ -46858,9 +47132,10 @@ t2.small:
   storage: EBS only
   vcpu: 1
 t2.xlarge:
-  clockSpeed: Up to 3.0 GHz
+  clockSpeed: Up to 3.3 GHz
   currentGeneration: true
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 16 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: 8
@@ -47027,12 +47302,15 @@ t2.xlarge:
   storage: EBS only
   vcpu: 4
 t3.2xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2048 Mbps
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 32 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: 16
-  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
       ap-east-1:
@@ -47244,12 +47522,15 @@ t3.2xlarge:
   storage: EBS only
   vcpu: 8
 t3.large:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2048 Mbps
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 8 GiB
   networkPerformance: Low to Moderate
   normalizationSizeFactor: 4
-  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
       ap-east-1:
@@ -47461,12 +47742,15 @@ t3.large:
   storage: EBS only
   vcpu: 2
 t3.medium:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 1536 Mbps
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 4 GiB
   networkPerformance: Low to Moderate
   normalizationSizeFactor: 2
-  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
       ap-east-1:
@@ -47678,12 +47962,15 @@ t3.medium:
   storage: EBS only
   vcpu: 2
 t3.micro:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 1536 Mbps
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 1 GiB
   networkPerformance: Low to Moderate
   normalizationSizeFactor: 0
-  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
       ap-east-1:
@@ -47895,12 +48182,15 @@ t3.micro:
   storage: EBS only
   vcpu: 2
 t3.nano:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 1536 Mbps
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 0.5 GiB
   networkPerformance: Low
   normalizationSizeFactor: 0
-  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
       ap-east-1:
@@ -48066,12 +48356,15 @@ t3.nano:
   storage: EBS only
   vcpu: 2
 t3.small:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 1536 Mbps
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 2 GiB
   networkPerformance: Low to Moderate
   normalizationSizeFactor: 1
-  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
       ap-east-1:
@@ -48283,12 +48576,15 @@ t3.small:
   storage: EBS only
   vcpu: 2
 t3.xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: Up to 2048 Mbps
   ecu: .nan
+  enhancedNetworkingSupported: false
   memory: 16 GiB
   networkPerformance: Moderate
   normalizationSizeFactor: 8
-  physicalProcessor: Intel Skylake E5 2686 v5 (2.5 GHz)
+  physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
       ap-east-1:
@@ -48502,7 +48798,7 @@ t3.xlarge:
 t3a.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 32 GiB
@@ -48844,7 +49140,7 @@ t3a.large:
 t3a.medium:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 4 GiB
@@ -49015,7 +49311,7 @@ t3a.medium:
 t3a.micro:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 1500 Mbps
+  dedicatedEbsThroughput: Up to 1500 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 1 GiB
@@ -49186,7 +49482,7 @@ t3a.micro:
 t3a.nano:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 1500 Mbps
+  dedicatedEbsThroughput: Up to 1500 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 0.5 GiB
@@ -49322,7 +49618,7 @@ t3a.nano:
 t3a.small:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 1500 Mbps
+  dedicatedEbsThroughput: Up to 1500 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 2 GiB
@@ -49663,27 +49959,32 @@ t3a.xlarge:
   vcpu: 4
 u-18tb1.metal:
   currentGeneration: true
+  dedicatedEbsThroughput: 28000 Mbps
+  enhancedNetworkingSupported: false
   memory: 18432 GiB
   networkPerformance: 100 Gigabit
-  normalizationSizeFactor: 1
   physicalProcessor: Intel Xeon Platinum 8280L (Cascade Lake)
   prices: {}
   regions:
     - us-east-1
+  storage: EBS only
   vcpu: 448
 u-24tb1.metal:
   currentGeneration: true
+  dedicatedEbsThroughput: 28000 Mbps
+  enhancedNetworkingSupported: false
   memory: 24576 GiB
   networkPerformance: 100 Gigabit
-  normalizationSizeFactor: 1
   physicalProcessor: Intel Xeon Platinum 8280L (Cascade Lake)
   prices: {}
   regions:
     - us-east-1
+  storage: EBS only
   vcpu: 448
 x1.16xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 7000 Mbps
   ecu: 174.5
   enhancedNetworkingSupported: true
   memory: 976 GiB
@@ -49922,9 +50223,10 @@ x1.16xlarge:
 x1.32xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
   ecu: 349
   enhancedNetworkingSupported: true
-  memory: '1,952 GiB'
+  memory: 1952 GiB
   networkPerformance: High
   normalizationSizeFactor: 256
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
@@ -50163,7 +50465,7 @@ x1e.16xlarge:
   dedicatedEbsThroughput: 7000 Mbps
   ecu: 179
   enhancedNetworkingSupported: true
-  memory: '1,952 GiB'
+  memory: 1952 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 128
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
@@ -50537,7 +50839,7 @@ x1e.32xlarge:
   dedicatedEbsThroughput: 14000 Mbps
   ecu: 340
   enhancedNetworkingSupported: true
-  memory: '3,904 GiB'
+  memory: 3904 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 256
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
@@ -50716,7 +51018,7 @@ x1e.32xlarge:
     - eu-central-1
     - ap-northeast-2
     - us-east-1
-  storage: '2 x 1,920 SSD'
+  storage: 2 x 1920 SSD
   vcpu: 128
 x1e.4xlarge:
   clockSpeed: 2.3 GHz
@@ -51280,8 +51582,11 @@ x1e.xlarge:
   storage: 1 x 120 SSD
   vcpu: 4
 z1d.12xlarge:
+  clockSpeed: 4.0 GHz
   currentGeneration: true
-  ecu: 271
+  dedicatedEbsThroughput: 14000 Mbps
+  ecu: 235
+  enhancedNetworkingSupported: true
   memory: 384 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 96
@@ -51451,8 +51756,11 @@ z1d.12xlarge:
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 z1d.2xlarge:
+  clockSpeed: 4.0 GHz
   currentGeneration: true
-  ecu: 53
+  dedicatedEbsThroughput: 2333 Mbps
+  ecu: 45
+  enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
@@ -51793,8 +52101,11 @@ z1d.3xlarge:
   storage: 1 x 450 NVMe SSD
   vcpu: 12
 z1d.6xlarge:
+  clockSpeed: 4.0 GHz
   currentGeneration: true
-  ecu: 134
+  dedicatedEbsThroughput: 7000 Mbps
+  ecu: 116
+  enhancedNetworkingSupported: true
   memory: 192 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 48
@@ -51966,7 +52277,9 @@ z1d.6xlarge:
 z1d.large:
   clockSpeed: 4.0 GHz
   currentGeneration: true
-  ecu: 15
+  dedicatedEbsThroughput: Up to 2333 Mbps
+  ecu: 12
+  enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
@@ -52136,8 +52449,11 @@ z1d.large:
   storage: 1 x 75 NVMe SSD
   vcpu: 2
 z1d.metal:
+  clockSpeed: 4.0 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
   ecu: 271
+  enhancedNetworkingSupported: true
   memory: 384 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 96
@@ -52307,8 +52623,11 @@ z1d.metal:
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 z1d.xlarge:
+  clockSpeed: 4.0 GHz
   currentGeneration: true
-  ecu: 28
+  dedicatedEbsThroughput: Up to 2333 Mbps
+  ecu: 23
+  enhancedNetworkingSupported: true
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
