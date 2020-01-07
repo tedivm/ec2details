@@ -49957,6 +49957,30 @@ t3a.xlarge:
     - us-east-2
   storage: EBS only
   vcpu: 4
+u-12tb1.metal:
+  currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: false
+  memory: 12288 GiB
+  networkPerformance: 25 Gigabit
+  physicalProcessor: Intel Xeon Scalable (Skylake)
+  prices: {}
+  regions:
+    - us-gov-west-1
+    - ap-northeast-2
+    - sa-east-1
+    - us-east-2
+    - us-west-2
+    - ap-northeast-1
+    - eu-west-1
+    - ap-southeast-2
+    - eu-central-1
+    - us-gov-east-1
+    - ap-southeast-1
+    - ap-south-1
+    - us-east-1
+  storage: EBS only
+  vcpu: 448
 u-18tb1.metal:
   currentGeneration: true
   dedicatedEbsThroughput: 28000 Mbps
@@ -49966,6 +49990,9 @@ u-18tb1.metal:
   physicalProcessor: Intel Xeon Platinum 8280L (Cascade Lake)
   prices: {}
   regions:
+    - us-gov-west-1
+    - eu-west-1
+    - us-gov-east-1
     - us-east-1
   storage: EBS only
   vcpu: 448
@@ -49979,6 +50006,57 @@ u-24tb1.metal:
   prices: {}
   regions:
     - us-east-1
+    - us-gov-east-1
+    - eu-west-1
+    - us-gov-west-1
+  storage: EBS only
+  vcpu: 448
+u-6tb1.metal:
+  currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: false
+  memory: 6144 GiB
+  networkPerformance: 25 Gigabit
+  physicalProcessor: Intel Xeon Scalable (Skylake)
+  prices: {}
+  regions:
+    - ap-northeast-2
+    - us-gov-east-1
+    - us-gov-west-1
+    - us-east-1
+    - us-west-2
+    - sa-east-1
+    - ap-south-1
+    - ap-southeast-2
+    - eu-west-1
+    - ap-southeast-1
+    - ap-northeast-1
+    - us-east-2
+    - eu-central-1
+  storage: EBS only
+  vcpu: 448
+u-9tb1.metal:
+  currentGeneration: true
+  dedicatedEbsThroughput: 14000 Mbps
+  enhancedNetworkingSupported: false
+  memory: 9216 GiB
+  networkPerformance: 25 Gigabit
+  physicalProcessor: Intel Xeon Scalable (Skylake)
+  prices: {}
+  regions:
+    - us-east-2
+    - eu-central-1
+    - us-east-1
+    - us-gov-east-1
+    - us-west-2
+    - ap-south-1
+    - ap-southeast-1
+    - us-gov-west-1
+    - sa-east-1
+    - eu-west-1
+    - ap-southeast-2
+    - ap-northeast-1
+    - ap-northeast-2
   storage: EBS only
   vcpu: 448
 x1.16xlarge:
