@@ -21357,7 +21357,7 @@ m4.xlarge:
   storage: EBS only
   vcpu: 4
 m5.12xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 7000 Mbps
   ecu: 168
@@ -21965,7 +21965,7 @@ m5.16xlarge:
   storage: EBS only
   vcpu: 64
 m5.24xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 12000 Mbps
   ecu: 337
@@ -22269,7 +22269,7 @@ m5.24xlarge:
   storage: EBS only
   vcpu: 96
 m5.2xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: 37
@@ -22877,7 +22877,7 @@ m5.4xlarge:
   storage: EBS only
   vcpu: 16
 m5.8xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 5000 Mbps
   ecu: 128
@@ -23485,7 +23485,7 @@ m5.large:
   storage: EBS only
   vcpu: 2
 m5.metal:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 12000 Mbps
   ecu: 345
@@ -27745,7 +27745,7 @@ m5ad.xlarge:
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 m5d.12xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 6000 Mbps
   ecu: 168
@@ -28327,7 +28327,7 @@ m5d.16xlarge:
   storage: 4 x 600 NVMe SSD
   vcpu: 64
 m5d.24xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 12000 Mbps
   ecu: 337
@@ -28909,7 +28909,7 @@ m5d.2xlarge:
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 m5d.4xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 2120 Mbps
   ecu: 70
@@ -30073,7 +30073,7 @@ m5d.metal:
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5d.xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: 16
@@ -30724,7 +30724,7 @@ m5dn.2xlarge:
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 m5dn.4xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 3500 Mbps
   enhancedNetworkingSupported: false
@@ -30814,7 +30814,7 @@ m5dn.4xlarge:
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 m5dn.8xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 5000 Mbps
   enhancedNetworkingSupported: false
@@ -30904,7 +30904,7 @@ m5dn.8xlarge:
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 m5dn.large:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 3500 Mbps
   enhancedNetworkingSupported: false
@@ -31194,7 +31194,7 @@ m5n.12xlarge:
   storage: EBS only
   vcpu: 48
 m5n.16xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 10000 Mbps
   enhancedNetworkingSupported: false
@@ -31374,7 +31374,7 @@ m5n.24xlarge:
   storage: EBS only
   vcpu: 96
 m5n.2xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 3500 Mbps
   enhancedNetworkingSupported: false
@@ -31754,7 +31754,7 @@ m5n.metal:
   storage: EBS only
   vcpu: 96
 m5n.xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 3500 Mbps
   enhancedNetworkingSupported: false
@@ -41847,7 +41847,7 @@ r5ad.xlarge:
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 r5d.12xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 6000 Mbps
   ecu: 168
@@ -42759,7 +42759,7 @@ r5d.24xlarge:
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5d.2xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: 37
@@ -43367,7 +43367,7 @@ r5d.4xlarge:
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 r5d.8xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 5000 Mbps
   ecu: 128
@@ -44279,7 +44279,7 @@ r5d.metal:
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5d.xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: 19
@@ -45033,7 +45033,7 @@ r5dn.4xlarge:
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 r5dn.8xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 5000 Mbps
   enhancedNetworkingSupported: false
@@ -52050,7 +52050,7 @@ x1e.xlarge:
   storage: 1 x 120 SSD
   vcpu: 4
 z1d.12xlarge:
-  clockSpeed: 4.0 GHz
+  clockSpeed: 4 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
   ecu: 235
@@ -53094,7 +53094,7 @@ z1d.metal:
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 z1d.xlarge:
-  clockSpeed: 4.0 GHz
+  clockSpeed: 4 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 2333 Mbps
   ecu: 23
