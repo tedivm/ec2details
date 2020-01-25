@@ -12303,7 +12303,10 @@ g4dn.16xlarge:
   storage: 900 GB NVMe SSD
   vcpu: 64
 g4dn.2xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 3500 Mbps
+  enhancedNetworkingSupported: true
   gpu: 1
   memory: 32 GiB
   networkPerformance: Up to 25 Gigabit
@@ -23178,15 +23181,15 @@ m5.8xlarge:
   storage: EBS only
   vcpu: 32
 m5.large:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
-  ecu: 8
+  dedicatedEbsThroughput: Up to 2120 Mbps
+  ecu: 10
   enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -23786,7 +23789,7 @@ m5.metal:
   storage: EBS only
   vcpu: 96
 m5.xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: 16
@@ -30072,13 +30075,13 @@ m5d.metal:
 m5d.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Upto 2120 Mbps
+  dedicatedEbsThroughput: Up to 2120 Mbps
   ecu: 16
   enhancedNetworkingSupported: true
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
-  physicalProcessor: Intel Xeon Platinum 8175
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
       ap-east-1:
@@ -30631,7 +30634,7 @@ m5dn.24xlarge:
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5dn.2xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: Up to 3500 Mbps
   enhancedNetworkingSupported: false
@@ -31281,7 +31284,7 @@ m5n.16xlarge:
   storage: EBS only
   vcpu: 64
 m5n.24xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
   enhancedNetworkingSupported: false
@@ -42452,7 +42455,7 @@ r5d.16xlarge:
   storage: 4 x 600 NVMe SSD
   vcpu: 64
 r5d.24xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 12000 Mbps
   ecu: 337
@@ -45410,7 +45413,10 @@ r5n.12xlarge:
   storage: EBS only
   vcpu: 48
 r5n.16xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: false
   memory: 512 GiB
   networkPerformance: 75 Gigabit
   normalizationSizeFactor: 128
@@ -45494,6 +45500,7 @@ r5n.16xlarge:
     - eu-west-1
     - eu-central-1
     - ap-northeast-1
+  storage: EBS only
   vcpu: 64
 r5n.24xlarge:
   clockSpeed: 2.5 GHz
@@ -45676,7 +45683,10 @@ r5n.2xlarge:
   storage: EBS only
   vcpu: 8
 r5n.4xlarge:
+  clockSpeed: 2.5 GHz
   currentGeneration: true
+  dedicatedEbsThroughput: 2120 Mbps
+  enhancedNetworkingSupported: false
   memory: 128 GiB
   networkPerformance: Up to 25 Gigabit
   normalizationSizeFactor: 32
@@ -45760,6 +45770,7 @@ r5n.4xlarge:
     - us-east-2
     - eu-central-1
     - ap-northeast-1
+  storage: EBS only
   vcpu: 16
 r5n.8xlarge:
   clockSpeed: 2.5 GHz
@@ -52387,8 +52398,11 @@ z1d.2xlarge:
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 z1d.3xlarge:
+  clockSpeed: 4 GHz
   currentGeneration: true
-  ecu: 75
+  dedicatedEbsThroughput: 3500 Mbps
+  ecu: 64
+  enhancedNetworkingSupported: true
   memory: 96 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 24
