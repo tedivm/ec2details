@@ -14584,8 +14584,8 @@ i3.16xlarge:
         Dedicated: 6.054
         Shared: 6.054
       sa-east-1:
-        Dedicated: 7.968
-        Shared: 7.968
+        Dedicated: 9.152
+        Shared: 9.152
       us-east-1:
         Dedicated: 4.992
         Shared: 4.992
@@ -14648,8 +14648,8 @@ i3.16xlarge:
         Dedicated: 6.184
         Shared: 6.184
       sa-east-1:
-        Dedicated: 8.098
-        Shared: 8.098
+        Dedicated: 9.282
+        Shared: 9.282
       us-east-1:
         Dedicated: 5.122
         Shared: 5.122
@@ -14712,8 +14712,8 @@ i3.16xlarge:
         Dedicated: 6.154
         Shared: 6.154
       sa-east-1:
-        Dedicated: 8.068
-        Shared: 8.068
+        Dedicated: 9.252
+        Shared: 9.252
       us-east-1:
         Dedicated: 5.092
         Shared: 5.092
@@ -14776,8 +14776,8 @@ i3.16xlarge:
         Dedicated: 8.998
         Shared: 8.998
       sa-east-1:
-        Dedicated: 7.968
-        Shared: 10.912
+        Dedicated: 9.152
+        Shared: 12.096
       us-east-1:
         Dedicated: 7.936
         Shared: 4.992
@@ -14875,8 +14875,8 @@ i3.2xlarge:
         Dedicated: 0.832
         Shared: 0.757
       sa-east-1:
-        Dedicated: 1.096
-        Shared: 0.996
+        Dedicated: 1.258
+        Shared: 1.144
       us-east-1:
         Dedicated: 0.686
         Shared: 0.624
@@ -14939,8 +14939,8 @@ i3.2xlarge:
         Dedicated: 0.962
         Shared: 0.887
       sa-east-1:
-        Dedicated: 1.226
-        Shared: 1.126
+        Dedicated: 1.388
+        Shared: 1.274
       us-east-1:
         Dedicated: 0.816
         Shared: 0.754
@@ -15003,8 +15003,8 @@ i3.2xlarge:
         Dedicated: 0.932
         Shared: 0.857
       sa-east-1:
-        Dedicated: 1.196
-        Shared: 1.096
+        Dedicated: 1.358
+        Shared: 1.244
       us-east-1:
         Dedicated: 0.786
         Shared: 0.724
@@ -15067,8 +15067,8 @@ i3.2xlarge:
         Dedicated: 1.2
         Shared: 1.125
       sa-east-1:
-        Dedicated: 1.464
-        Shared: 1.364
+        Dedicated: 1.626
+        Shared: 1.512
       us-east-1:
         Dedicated: 1.054
         Shared: 0.624
@@ -15166,8 +15166,8 @@ i3.4xlarge:
         Dedicated: 1.665
         Shared: 1.514
       sa-east-1:
-        Dedicated: 2.191
-        Shared: 1.992
+        Dedicated: 2.517
+        Shared: 2.288
       us-east-1:
         Dedicated: 1.373
         Shared: 1.248
@@ -15230,8 +15230,8 @@ i3.4xlarge:
         Dedicated: 1.795
         Shared: 1.644
       sa-east-1:
-        Dedicated: 2.321
-        Shared: 2.122
+        Dedicated: 2.647
+        Shared: 2.418
       us-east-1:
         Dedicated: 1.503
         Shared: 1.378
@@ -15294,8 +15294,8 @@ i3.4xlarge:
         Dedicated: 1.765
         Shared: 1.614
       sa-east-1:
-        Dedicated: 2.291
-        Shared: 2.092
+        Dedicated: 2.617
+        Shared: 2.388
       us-east-1:
         Dedicated: 1.473
         Shared: 1.348
@@ -15358,8 +15358,8 @@ i3.4xlarge:
         Dedicated: 2.401
         Shared: 2.25
       sa-east-1:
-        Dedicated: 2.191
-        Shared: 2.728
+        Dedicated: 2.517
+        Shared: 3.024
       us-east-1:
         Dedicated: 2.109
         Shared: 1.248
@@ -15457,8 +15457,8 @@ i3.8xlarge:
         Dedicated: 3.33
         Shared: 3.027
       sa-east-1:
-        Dedicated: 4.382
-        Shared: 3.984
+        Dedicated: 5.034
+        Shared: 4.576
       us-east-1:
         Dedicated: 2.746
         Shared: 2.496
@@ -15521,8 +15521,8 @@ i3.8xlarge:
         Dedicated: 3.46
         Shared: 3.157
       sa-east-1:
-        Dedicated: 4.512
-        Shared: 4.114
+        Dedicated: 5.164
+        Shared: 4.706
       us-east-1:
         Dedicated: 2.876
         Shared: 2.626
@@ -15585,8 +15585,8 @@ i3.8xlarge:
         Dedicated: 3.43
         Shared: 3.127
       sa-east-1:
-        Dedicated: 4.482
-        Shared: 4.084
+        Dedicated: 5.134
+        Shared: 4.676
       us-east-1:
         Dedicated: 2.846
         Shared: 2.596
@@ -15649,8 +15649,8 @@ i3.8xlarge:
         Dedicated: 4.802
         Shared: 4.499
       sa-east-1:
-        Dedicated: 5.854
-        Shared: 3.984
+        Dedicated: 6.506
+        Shared: 4.576
       us-east-1:
         Dedicated: 4.218
         Shared: 3.968
@@ -15748,8 +15748,8 @@ i3.large:
         Dedicated: 0.208
         Shared: 0.189
       sa-east-1:
-        Dedicated: 0.274
-        Shared: 0.249
+        Dedicated: 0.315
+        Shared: 0.286
       us-east-1:
         Dedicated: 0.172
         Shared: 0.156
@@ -15812,8 +15812,8 @@ i3.large:
         Dedicated: 0.268
         Shared: 0.249
       sa-east-1:
-        Dedicated: 0.334
-        Shared: 0.309
+        Dedicated: 0.375
+        Shared: 0.346
       us-east-1:
         Dedicated: 0.232
         Shared: 0.216
@@ -15876,8 +15876,8 @@ i3.large:
         Dedicated: 0.308
         Shared: 0.289
       sa-east-1:
-        Dedicated: 0.374
-        Shared: 0.349
+        Dedicated: 0.415
+        Shared: 0.386
       us-east-1:
         Dedicated: 0.272
         Shared: 0.256
@@ -15940,8 +15940,8 @@ i3.large:
         Dedicated: 0.3
         Shared: 0.281
       sa-east-1:
-        Dedicated: 0.366
-        Shared: 0.341
+        Dedicated: 0.407
+        Shared: 0.378
       us-east-1:
         Dedicated: 0.264
         Shared: 0.156
@@ -16164,8 +16164,8 @@ i3.xlarge:
         Dedicated: 0.416
         Shared: 0.378
       sa-east-1:
-        Dedicated: 0.548
-        Shared: 0.498
+        Dedicated: 0.629
+        Shared: 0.572
       us-east-1:
         Dedicated: 0.343
         Shared: 0.312
@@ -16228,8 +16228,8 @@ i3.xlarge:
         Dedicated: 0.476
         Shared: 0.438
       sa-east-1:
-        Dedicated: 0.608
-        Shared: 0.558
+        Dedicated: 0.689
+        Shared: 0.632
       us-east-1:
         Dedicated: 0.403
         Shared: 0.372
@@ -16292,8 +16292,8 @@ i3.xlarge:
         Dedicated: 0.516
         Shared: 0.478
       sa-east-1:
-        Dedicated: 0.648
-        Shared: 0.598
+        Dedicated: 0.729
+        Shared: 0.672
       us-east-1:
         Dedicated: 0.443
         Shared: 0.412
@@ -16356,8 +16356,8 @@ i3.xlarge:
         Dedicated: 0.6
         Shared: 0.562
       sa-east-1:
-        Dedicated: 0.732
-        Shared: 0.498
+        Dedicated: 0.813
+        Shared: 0.572
       us-east-1:
         Dedicated: 0.343
         Shared: 0.496
@@ -16440,8 +16440,8 @@ i3en.12xlarge:
         Dedicated: 6.723
         Shared: 6.312
       sa-east-1:
-        Dedicated: 9.202
-        Shared: 8.64
+        Dedicated: 10.607
+        Shared: 9.96
       us-east-1:
         Dedicated: 5.776
         Shared: 5.424
@@ -16492,8 +16492,8 @@ i3en.12xlarge:
         Dedicated: 6.853
         Shared: 6.442
       sa-east-1:
-        Dedicated: 9.332
-        Shared: 8.77
+        Dedicated: 10.737
+        Shared: 10.09
       us-east-1:
         Dedicated: 5.906
         Shared: 5.554
@@ -16544,8 +16544,8 @@ i3en.12xlarge:
         Dedicated: 6.873
         Shared: 6.462
       sa-east-1:
-        Dedicated: 9.352
-        Shared: 8.79
+        Dedicated: 10.757
+        Shared: 10.11
       us-east-1:
         Dedicated: 5.926
         Shared: 5.574
@@ -16596,8 +16596,8 @@ i3en.12xlarge:
         Dedicated: 8.931
         Shared: 8.52
       sa-east-1:
-        Dedicated: 11.41
-        Shared: 10.848
+        Dedicated: 12.815
+        Shared: 12.168
       us-east-1:
         Dedicated: 7.984
         Shared: 7.632
@@ -16679,8 +16679,8 @@ i3en.24xlarge:
         Dedicated: 12.624
         Shared: 12.624
       sa-east-1:
-        Dedicated: 17.28
-        Shared: 17.28
+        Dedicated: 19.92
+        Shared: 19.92
       us-east-1:
         Dedicated: 10.848
         Shared: 10.848
@@ -16731,8 +16731,8 @@ i3en.24xlarge:
         Dedicated: 12.754
         Shared: 12.754
       sa-east-1:
-        Dedicated: 17.41
-        Shared: 17.41
+        Dedicated: 20.05
+        Shared: 20.05
       us-east-1:
         Dedicated: 10.978
         Shared: 10.978
@@ -16783,8 +16783,8 @@ i3en.24xlarge:
         Dedicated: 12.774
         Shared: 12.774
       sa-east-1:
-        Dedicated: 17.43
-        Shared: 17.43
+        Dedicated: 20.07
+        Shared: 20.07
       us-east-1:
         Dedicated: 10.998
         Shared: 10.998
@@ -16835,8 +16835,8 @@ i3en.24xlarge:
         Dedicated: 17.04
         Shared: 17.04
       sa-east-1:
-        Dedicated: 21.696
-        Shared: 21.696
+        Dedicated: 24.336
+        Shared: 24.336
       us-east-1:
         Dedicated: 15.264
         Shared: 15.264
@@ -16918,8 +16918,8 @@ i3en.2xlarge:
         Dedicated: 1.121
         Shared: 1.052
       sa-east-1:
-        Dedicated: 1.534
-        Shared: 1.44
+        Dedicated: 1.768
+        Shared: 1.66
       us-east-1:
         Dedicated: 0.963
         Shared: 0.904
@@ -16970,8 +16970,8 @@ i3en.2xlarge:
         Dedicated: 1.251
         Shared: 1.182
       sa-east-1:
-        Dedicated: 1.664
-        Shared: 1.57
+        Dedicated: 1.898
+        Shared: 1.79
       us-east-1:
         Dedicated: 1.093
         Shared: 1.034
@@ -17022,8 +17022,8 @@ i3en.2xlarge:
         Dedicated: 1.271
         Shared: 1.202
       sa-east-1:
-        Dedicated: 1.684
-        Shared: 1.59
+        Dedicated: 1.918
+        Shared: 1.81
       us-east-1:
         Dedicated: 1.113
         Shared: 1.054
@@ -17074,8 +17074,8 @@ i3en.2xlarge:
         Dedicated: 1.489
         Shared: 1.42
       sa-east-1:
-        Dedicated: 1.902
-        Shared: 1.808
+        Dedicated: 2.136
+        Shared: 2.028
       us-east-1:
         Dedicated: 1.331
         Shared: 1.272
@@ -17156,8 +17156,8 @@ i3en.3xlarge:
         Dedicated: 1.681
         Shared: 1.578
       sa-east-1:
-        Dedicated: 2.3
-        Shared: 2.16
+        Dedicated: 2.652
+        Shared: 2.49
       us-east-1:
         Dedicated: 1.444
         Shared: 1.356
@@ -17208,8 +17208,8 @@ i3en.3xlarge:
         Dedicated: 1.811
         Shared: 1.708
       sa-east-1:
-        Dedicated: 2.43
-        Shared: 2.29
+        Dedicated: 2.782
+        Shared: 2.62
       us-east-1:
         Dedicated: 1.574
         Shared: 1.486
@@ -17260,8 +17260,8 @@ i3en.3xlarge:
         Dedicated: 1.831
         Shared: 1.728
       sa-east-1:
-        Dedicated: 2.45
-        Shared: 2.31
+        Dedicated: 2.802
+        Shared: 2.64
       us-east-1:
         Dedicated: 1.594
         Shared: 1.506
@@ -17312,8 +17312,8 @@ i3en.3xlarge:
         Dedicated: 2.233
         Shared: 2.13
       sa-east-1:
-        Dedicated: 2.852
-        Shared: 2.712
+        Dedicated: 3.204
+        Shared: 3.042
       us-east-1:
         Dedicated: 1.996
         Shared: 1.908
@@ -17394,8 +17394,8 @@ i3en.6xlarge:
         Dedicated: 3.362
         Shared: 3.156
       sa-east-1:
-        Dedicated: 4.601
-        Shared: 4.32
+        Dedicated: 5.304
+        Shared: 4.98
       us-east-1:
         Dedicated: 2.888
         Shared: 2.712
@@ -17446,8 +17446,8 @@ i3en.6xlarge:
         Dedicated: 3.492
         Shared: 3.286
       sa-east-1:
-        Dedicated: 4.731
-        Shared: 4.45
+        Dedicated: 5.434
+        Shared: 5.11
       us-east-1:
         Dedicated: 3.018
         Shared: 2.842
@@ -17498,8 +17498,8 @@ i3en.6xlarge:
         Dedicated: 3.512
         Shared: 3.306
       sa-east-1:
-        Dedicated: 4.751
-        Shared: 4.47
+        Dedicated: 5.454
+        Shared: 5.13
       us-east-1:
         Dedicated: 3.038
         Shared: 2.862
@@ -17550,8 +17550,8 @@ i3en.6xlarge:
         Dedicated: 4.466
         Shared: 4.26
       sa-east-1:
-        Dedicated: 5.705
-        Shared: 5.424
+        Dedicated: 6.408
+        Shared: 6.084
       us-east-1:
         Dedicated: 3.992
         Shared: 3.816
@@ -17633,8 +17633,8 @@ i3en.large:
         Dedicated: 0.28
         Shared: 0.263
       sa-east-1:
-        Dedicated: 0.383
-        Shared: 0.36
+        Dedicated: 0.442
+        Shared: 0.415
       us-east-1:
         Dedicated: 0.241
         Shared: 0.226
@@ -17685,8 +17685,8 @@ i3en.large:
         Dedicated: 0.34
         Shared: 0.323
       sa-east-1:
-        Dedicated: 0.443
-        Shared: 0.42
+        Dedicated: 0.502
+        Shared: 0.475
       us-east-1:
         Dedicated: 0.301
         Shared: 0.286
@@ -17737,8 +17737,8 @@ i3en.large:
         Dedicated: 0.343
         Shared: 0.326
       sa-east-1:
-        Dedicated: 0.446
-        Shared: 0.423
+        Dedicated: 0.505
+        Shared: 0.478
       us-east-1:
         Dedicated: 0.304
         Shared: 0.289
@@ -17789,8 +17789,8 @@ i3en.large:
         Dedicated: 0.372
         Shared: 0.355
       sa-east-1:
-        Dedicated: 0.475
-        Shared: 0.452
+        Dedicated: 0.534
+        Shared: 0.507
       us-east-1:
         Dedicated: 0.333
         Shared: 0.318
@@ -17868,8 +17868,8 @@ i3en.metal:
         Dedicated: 12.624
         Shared: 12.624
       sa-east-1:
-        Dedicated: 17.28
-        Shared: 17.28
+        Dedicated: 19.92
+        Shared: 19.92
       us-east-1:
         Dedicated: 10.848
         Shared: 10.848
@@ -17914,8 +17914,8 @@ i3en.metal:
         Dedicated: 12.754
         Shared: 12.754
       sa-east-1:
-        Dedicated: 17.41
-        Shared: 17.41
+        Dedicated: 20.05
+        Shared: 20.05
       us-east-1:
         Dedicated: 10.978
         Shared: 10.978
@@ -17960,8 +17960,8 @@ i3en.metal:
         Dedicated: 12.774
         Shared: 12.774
       sa-east-1:
-        Dedicated: 17.43
-        Shared: 17.43
+        Dedicated: 20.07
+        Shared: 20.07
       us-east-1:
         Dedicated: 10.998
         Shared: 10.998
@@ -18006,8 +18006,8 @@ i3en.metal:
         Dedicated: 17.04
         Shared: 17.04
       sa-east-1:
-        Dedicated: 21.696
-        Shared: 21.696
+        Dedicated: 24.336
+        Shared: 24.336
       us-east-1:
         Dedicated: 15.264
         Shared: 15.264
@@ -18085,8 +18085,8 @@ i3en.xlarge:
         Dedicated: 0.56
         Shared: 0.526
       sa-east-1:
-        Dedicated: 0.767
-        Shared: 0.72
+        Dedicated: 0.884
+        Shared: 0.83
       us-east-1:
         Dedicated: 0.481
         Shared: 0.452
@@ -18137,8 +18137,8 @@ i3en.xlarge:
         Dedicated: 0.62
         Shared: 0.586
       sa-east-1:
-        Dedicated: 0.827
-        Shared: 0.78
+        Dedicated: 0.944
+        Shared: 0.89
       us-east-1:
         Dedicated: 0.541
         Shared: 0.512
@@ -18189,8 +18189,8 @@ i3en.xlarge:
         Dedicated: 0.685
         Shared: 0.651
       sa-east-1:
-        Dedicated: 0.892
-        Shared: 0.845
+        Dedicated: 1.009
+        Shared: 0.955
       us-east-1:
         Dedicated: 0.606
         Shared: 0.577
@@ -18241,8 +18241,8 @@ i3en.xlarge:
         Dedicated: 0.744
         Shared: 0.71
       sa-east-1:
-        Dedicated: 0.951
-        Shared: 0.904
+        Dedicated: 1.068
+        Shared: 1.014
       us-east-1:
         Dedicated: 0.665
         Shared: 0.636
@@ -35518,8 +35518,8 @@ r5.12xlarge:
         Dedicated: 3.946
         Shared: 3.722
       sa-east-1:
-        Dedicated: 5.113
-        Shared: 4.824
+        Dedicated: 6.767
+        Shared: 6.384
       us-east-1:
         Dedicated: 3.205
         Shared: 3.024
@@ -35585,8 +35585,8 @@ r5.12xlarge:
         Dedicated: 4.076
         Shared: 3.852
       sa-east-1:
-        Dedicated: 5.243
-        Shared: 4.954
+        Dedicated: 6.897
+        Shared: 6.514
       us-east-1:
         Dedicated: 3.335
         Shared: 3.154
@@ -35652,8 +35652,8 @@ r5.12xlarge:
         Dedicated: 4.096
         Shared: 3.872
       sa-east-1:
-        Dedicated: 5.263
-        Shared: 4.974
+        Dedicated: 6.917
+        Shared: 6.534
       us-east-1:
         Dedicated: 3.355
         Shared: 3.174
@@ -35719,8 +35719,8 @@ r5.12xlarge:
         Dedicated: 6.154
         Shared: 5.93
       sa-east-1:
-        Dedicated: 7.321
-        Shared: 7.032
+        Dedicated: 8.975
+        Shared: 8.592
       us-east-1:
         Dedicated: 3.205
         Shared: 3.024
@@ -35822,8 +35822,8 @@ r5.16xlarge:
         Dedicated: 5.261
         Shared: 4.963
       sa-east-1:
-        Dedicated: 6.818
-        Shared: 6.432
+        Dedicated: 9.023
+        Shared: 8.512
       us-east-1:
         Dedicated: 4.274
         Shared: 4.032
@@ -35889,8 +35889,8 @@ r5.16xlarge:
         Dedicated: 5.391
         Shared: 5.093
       sa-east-1:
-        Dedicated: 6.948
-        Shared: 6.562
+        Dedicated: 9.153
+        Shared: 8.642
       us-east-1:
         Dedicated: 4.404
         Shared: 4.162
@@ -35956,8 +35956,8 @@ r5.16xlarge:
         Dedicated: 5.411
         Shared: 5.113
       sa-east-1:
-        Dedicated: 6.968
-        Shared: 6.582
+        Dedicated: 9.173
+        Shared: 8.662
       us-east-1:
         Dedicated: 4.424
         Shared: 4.182
@@ -36023,8 +36023,8 @@ r5.16xlarge:
         Dedicated: 8.205
         Shared: 7.907
       sa-east-1:
-        Dedicated: 9.762
-        Shared: 9.376
+        Dedicated: 11.967
+        Shared: 11.456
       us-east-1:
         Dedicated: 7.218
         Shared: 6.976
@@ -36126,8 +36126,8 @@ r5.24xlarge:
         Dedicated: 7.445
         Shared: 7.445
       sa-east-1:
-        Dedicated: 9.648
-        Shared: 9.648
+        Dedicated: 12.768
+        Shared: 12.768
       us-east-1:
         Dedicated: 6.048
         Shared: 6.048
@@ -36193,8 +36193,8 @@ r5.24xlarge:
         Dedicated: 7.575
         Shared: 7.575
       sa-east-1:
-        Dedicated: 9.778
-        Shared: 9.778
+        Dedicated: 12.898
+        Shared: 12.898
       us-east-1:
         Dedicated: 6.178
         Shared: 6.178
@@ -36260,8 +36260,8 @@ r5.24xlarge:
         Dedicated: 7.595
         Shared: 7.595
       sa-east-1:
-        Dedicated: 9.798
-        Shared: 9.798
+        Dedicated: 12.918
+        Shared: 12.918
       us-east-1:
         Dedicated: 6.198
         Shared: 6.198
@@ -36327,8 +36327,8 @@ r5.24xlarge:
         Dedicated: 11.861
         Shared: 11.861
       sa-east-1:
-        Dedicated: 14.064
-        Shared: 14.064
+        Dedicated: 17.184
+        Shared: 17.184
       us-east-1:
         Dedicated: 10.464
         Shared: 6.048
@@ -36430,8 +36430,8 @@ r5.2xlarge:
         Dedicated: 0.658
         Shared: 0.62
       sa-east-1:
-        Dedicated: 0.852
-        Shared: 0.804
+        Dedicated: 1.128
+        Shared: 1.064
       us-east-1:
         Dedicated: 0.534
         Shared: 0.504
@@ -36497,8 +36497,8 @@ r5.2xlarge:
         Dedicated: 0.788
         Shared: 0.75
       sa-east-1:
-        Dedicated: 0.982
-        Shared: 0.934
+        Dedicated: 1.258
+        Shared: 1.194
       us-east-1:
         Dedicated: 0.664
         Shared: 0.634
@@ -36564,8 +36564,8 @@ r5.2xlarge:
         Dedicated: 0.808
         Shared: 0.77
       sa-east-1:
-        Dedicated: 1.002
-        Shared: 0.954
+        Dedicated: 1.278
+        Shared: 1.214
       us-east-1:
         Dedicated: 0.684
         Shared: 0.654
@@ -36631,8 +36631,8 @@ r5.2xlarge:
         Dedicated: 1.026
         Shared: 0.988
       sa-east-1:
-        Dedicated: 1.22
-        Shared: 1.172
+        Dedicated: 1.496
+        Shared: 1.432
       us-east-1:
         Dedicated: 0.534
         Shared: 0.872
@@ -36734,8 +36734,8 @@ r5.4xlarge:
         Dedicated: 1.315
         Shared: 1.241
       sa-east-1:
-        Dedicated: 1.704
-        Shared: 1.608
+        Dedicated: 2.256
+        Shared: 2.128
       us-east-1:
         Dedicated: 1.068
         Shared: 1.008
@@ -36801,8 +36801,8 @@ r5.4xlarge:
         Dedicated: 1.445
         Shared: 1.371
       sa-east-1:
-        Dedicated: 1.834
-        Shared: 1.738
+        Dedicated: 2.386
+        Shared: 2.258
       us-east-1:
         Dedicated: 1.198
         Shared: 1.138
@@ -36868,8 +36868,8 @@ r5.4xlarge:
         Dedicated: 1.465
         Shared: 1.391
       sa-east-1:
-        Dedicated: 1.854
-        Shared: 1.758
+        Dedicated: 2.406
+        Shared: 2.278
       us-east-1:
         Dedicated: 1.218
         Shared: 1.158
@@ -36935,8 +36935,8 @@ r5.4xlarge:
         Dedicated: 2.051
         Shared: 1.977
       sa-east-1:
-        Dedicated: 2.44
-        Shared: 2.344
+        Dedicated: 2.992
+        Shared: 2.864
       us-east-1:
         Dedicated: 1.804
         Shared: 1.008
@@ -37038,8 +37038,8 @@ r5.8xlarge:
         Dedicated: 2.63
         Shared: 2.482
       sa-east-1:
-        Dedicated: 3.409
-        Shared: 3.216
+        Dedicated: 4.511
+        Shared: 4.256
       us-east-1:
         Dedicated: 2.137
         Shared: 2.016
@@ -37105,8 +37105,8 @@ r5.8xlarge:
         Dedicated: 2.76
         Shared: 2.612
       sa-east-1:
-        Dedicated: 3.539
-        Shared: 3.346
+        Dedicated: 4.641
+        Shared: 4.386
       us-east-1:
         Dedicated: 2.267
         Shared: 2.146
@@ -37172,8 +37172,8 @@ r5.8xlarge:
         Dedicated: 2.78
         Shared: 2.632
       sa-east-1:
-        Dedicated: 3.559
-        Shared: 3.366
+        Dedicated: 4.661
+        Shared: 4.406
       us-east-1:
         Dedicated: 2.287
         Shared: 2.166
@@ -37239,8 +37239,8 @@ r5.8xlarge:
         Dedicated: 4.102
         Shared: 3.954
       sa-east-1:
-        Dedicated: 4.881
-        Shared: 4.688
+        Dedicated: 5.983
+        Shared: 5.728
       us-east-1:
         Dedicated: 3.609
         Shared: 3.488
@@ -37342,8 +37342,8 @@ r5.large:
         Dedicated: 0.164
         Shared: 0.155
       sa-east-1:
-        Dedicated: 0.213
-        Shared: 0.201
+        Dedicated: 0.282
+        Shared: 0.266
       us-east-1:
         Dedicated: 0.134
         Shared: 0.126
@@ -37409,8 +37409,8 @@ r5.large:
         Dedicated: 0.224
         Shared: 0.215
       sa-east-1:
-        Dedicated: 0.273
-        Shared: 0.261
+        Dedicated: 0.342
+        Shared: 0.326
       us-east-1:
         Dedicated: 0.194
         Shared: 0.186
@@ -37476,8 +37476,8 @@ r5.large:
         Dedicated: 0.227
         Shared: 0.218
       sa-east-1:
-        Dedicated: 0.276
-        Shared: 0.264
+        Dedicated: 0.345
+        Shared: 0.329
       us-east-1:
         Dedicated: 0.197
         Shared: 0.189
@@ -37543,8 +37543,8 @@ r5.large:
         Dedicated: 0.256
         Shared: 0.247
       sa-east-1:
-        Dedicated: 0.305
-        Shared: 0.293
+        Dedicated: 0.374
+        Shared: 0.358
       us-east-1:
         Dedicated: 0.226
         Shared: 0.126
@@ -37646,8 +37646,8 @@ r5.metal:
         Dedicated: 7.445
         Shared: 7.445
       sa-east-1:
-        Dedicated: 9.648
-        Shared: 9.648
+        Dedicated: 12.768
+        Shared: 12.768
       us-east-1:
         Dedicated: 6.048
         Shared: 6.048
@@ -37713,8 +37713,8 @@ r5.metal:
         Dedicated: 7.575
         Shared: 7.575
       sa-east-1:
-        Dedicated: 9.778
-        Shared: 9.778
+        Dedicated: 12.898
+        Shared: 12.898
       us-east-1:
         Dedicated: 6.178
         Shared: 6.178
@@ -37780,8 +37780,8 @@ r5.metal:
         Dedicated: 7.595
         Shared: 7.595
       sa-east-1:
-        Dedicated: 9.798
-        Shared: 9.798
+        Dedicated: 12.918
+        Shared: 12.918
       us-east-1:
         Dedicated: 6.198
         Shared: 6.198
@@ -37847,8 +37847,8 @@ r5.metal:
         Dedicated: 11.861
         Shared: 11.861
       sa-east-1:
-        Dedicated: 14.064
-        Shared: 14.064
+        Dedicated: 17.184
+        Shared: 17.184
       us-east-1:
         Dedicated: 10.464
         Shared: 10.464
@@ -37950,8 +37950,8 @@ r5.xlarge:
         Dedicated: 0.329
         Shared: 0.31
       sa-east-1:
-        Dedicated: 0.426
-        Shared: 0.402
+        Dedicated: 0.564
+        Shared: 0.532
       us-east-1:
         Dedicated: 0.267
         Shared: 0.252
@@ -38017,8 +38017,8 @@ r5.xlarge:
         Dedicated: 0.389
         Shared: 0.37
       sa-east-1:
-        Dedicated: 0.486
-        Shared: 0.462
+        Dedicated: 0.624
+        Shared: 0.592
       us-east-1:
         Dedicated: 0.327
         Shared: 0.312
@@ -38084,8 +38084,8 @@ r5.xlarge:
         Dedicated: 0.454
         Shared: 0.435
       sa-east-1:
-        Dedicated: 0.551
-        Shared: 0.527
+        Dedicated: 0.689
+        Shared: 0.657
       us-east-1:
         Dedicated: 0.392
         Shared: 0.377
@@ -38151,8 +38151,8 @@ r5.xlarge:
         Dedicated: 0.513
         Shared: 0.494
       sa-east-1:
-        Dedicated: 0.61
-        Shared: 0.586
+        Dedicated: 0.748
+        Shared: 0.716
       us-east-1:
         Dedicated: 0.451
         Shared: 0.252
@@ -38241,8 +38241,8 @@ r5a.12xlarge:
         Dedicated: 3.384
         Shared: 3.192
       sa-east-1:
-        Dedicated: 4.605
-        Shared: 4.344
+        Dedicated: 6.081
+        Shared: 5.736
       us-east-1:
         Dedicated: 2.875
         Shared: 2.712
@@ -38293,8 +38293,8 @@ r5a.12xlarge:
         Dedicated: 3.514
         Shared: 3.322
       sa-east-1:
-        Dedicated: 4.735
-        Shared: 4.474
+        Dedicated: 6.211
+        Shared: 5.866
       us-east-1:
         Dedicated: 3.005
         Shared: 2.842
@@ -38345,8 +38345,8 @@ r5a.12xlarge:
         Dedicated: 3.534
         Shared: 3.342
       sa-east-1:
-        Dedicated: 4.755
-        Shared: 4.494
+        Dedicated: 6.231
+        Shared: 5.886
       us-east-1:
         Dedicated: 3.025
         Shared: 2.862
@@ -38397,8 +38397,8 @@ r5a.12xlarge:
         Dedicated: 5.592
         Shared: 5.4
       sa-east-1:
-        Dedicated: 6.813
-        Shared: 6.552
+        Dedicated: 8.289
+        Shared: 7.944
       us-east-1:
         Dedicated: 5.083
         Shared: 4.92
@@ -38479,8 +38479,8 @@ r5a.16xlarge:
         Dedicated: 4.512
         Shared: 4.256
       sa-east-1:
-        Dedicated: 6.14
-        Shared: 5.792
+        Dedicated: 8.107
+        Shared: 7.648
       us-east-1:
         Dedicated: 3.833
         Shared: 3.616
@@ -38531,8 +38531,8 @@ r5a.16xlarge:
         Dedicated: 4.642
         Shared: 4.386
       sa-east-1:
-        Dedicated: 6.27
-        Shared: 5.922
+        Dedicated: 8.237
+        Shared: 7.778
       us-east-1:
         Dedicated: 3.963
         Shared: 3.746
@@ -38583,8 +38583,8 @@ r5a.16xlarge:
         Dedicated: 4.662
         Shared: 4.406
       sa-east-1:
-        Dedicated: 6.29
-        Shared: 5.942
+        Dedicated: 8.257
+        Shared: 7.798
       us-east-1:
         Dedicated: 3.983
         Shared: 3.766
@@ -38635,8 +38635,8 @@ r5a.16xlarge:
         Dedicated: 7.456
         Shared: 7.2
       sa-east-1:
-        Dedicated: 9.084
-        Shared: 8.736
+        Dedicated: 11.051
+        Shared: 10.592
       us-east-1:
         Dedicated: 6.777
         Shared: 6.56
@@ -38717,8 +38717,8 @@ r5a.24xlarge:
         Dedicated: 6.768
         Shared: 6.384
       sa-east-1:
-        Dedicated: 9.21
-        Shared: 8.688
+        Dedicated: 12.161
+        Shared: 11.472
       us-east-1:
         Dedicated: 5.75
         Shared: 5.424
@@ -38769,8 +38769,8 @@ r5a.24xlarge:
         Dedicated: 6.898
         Shared: 6.514
       sa-east-1:
-        Dedicated: 9.34
-        Shared: 8.818
+        Dedicated: 12.291
+        Shared: 11.602
       us-east-1:
         Dedicated: 5.88
         Shared: 5.554
@@ -38821,8 +38821,8 @@ r5a.24xlarge:
         Dedicated: 6.918
         Shared: 6.534
       sa-east-1:
-        Dedicated: 9.36
-        Shared: 8.838
+        Dedicated: 12.311
+        Shared: 11.622
       us-east-1:
         Dedicated: 5.9
         Shared: 5.574
@@ -38873,8 +38873,8 @@ r5a.24xlarge:
         Dedicated: 11.184
         Shared: 10.8
       sa-east-1:
-        Dedicated: 13.626
-        Shared: 13.104
+        Dedicated: 16.577
+        Shared: 15.888
       us-east-1:
         Dedicated: 10.166
         Shared: 5.424
@@ -38955,8 +38955,8 @@ r5a.2xlarge:
         Dedicated: 0.564
         Shared: 0.532
       sa-east-1:
-        Dedicated: 0.767
-        Shared: 0.724
+        Dedicated: 1.013
+        Shared: 0.956
       us-east-1:
         Dedicated: 0.479
         Shared: 0.452
@@ -39007,8 +39007,8 @@ r5a.2xlarge:
         Dedicated: 0.694
         Shared: 0.662
       sa-east-1:
-        Dedicated: 0.897
-        Shared: 0.854
+        Dedicated: 1.143
+        Shared: 1.086
       us-east-1:
         Dedicated: 0.609
         Shared: 0.582
@@ -39059,8 +39059,8 @@ r5a.2xlarge:
         Dedicated: 0.714
         Shared: 0.682
       sa-east-1:
-        Dedicated: 0.917
-        Shared: 0.874
+        Dedicated: 1.163
+        Shared: 1.106
       us-east-1:
         Dedicated: 0.629
         Shared: 0.602
@@ -39111,8 +39111,8 @@ r5a.2xlarge:
         Dedicated: 0.932
         Shared: 0.9
       sa-east-1:
-        Dedicated: 1.135
-        Shared: 1.092
+        Dedicated: 1.381
+        Shared: 1.324
       us-east-1:
         Dedicated: 0.847
         Shared: 0.82
@@ -39193,8 +39193,8 @@ r5a.4xlarge:
         Dedicated: 1.128
         Shared: 1.064
       sa-east-1:
-        Dedicated: 1.535
-        Shared: 1.448
+        Dedicated: 2.027
+        Shared: 1.912
       us-east-1:
         Dedicated: 0.958
         Shared: 0.904
@@ -39245,8 +39245,8 @@ r5a.4xlarge:
         Dedicated: 1.258
         Shared: 1.194
       sa-east-1:
-        Dedicated: 1.665
-        Shared: 1.578
+        Dedicated: 2.157
+        Shared: 2.042
       us-east-1:
         Dedicated: 1.088
         Shared: 1.034
@@ -39297,8 +39297,8 @@ r5a.4xlarge:
         Dedicated: 1.278
         Shared: 1.214
       sa-east-1:
-        Dedicated: 1.685
-        Shared: 1.598
+        Dedicated: 2.177
+        Shared: 2.062
       us-east-1:
         Dedicated: 1.108
         Shared: 1.054
@@ -39349,8 +39349,8 @@ r5a.4xlarge:
         Dedicated: 1.864
         Shared: 1.8
       sa-east-1:
-        Dedicated: 2.271
-        Shared: 2.184
+        Dedicated: 2.763
+        Shared: 2.648
       us-east-1:
         Dedicated: 1.694
         Shared: 1.64
@@ -39431,8 +39431,8 @@ r5a.8xlarge:
         Dedicated: 2.256
         Shared: 2.128
       sa-east-1:
-        Dedicated: 3.07
-        Shared: 2.896
+        Dedicated: 4.054
+        Shared: 3.824
       us-east-1:
         Dedicated: 1.917
         Shared: 1.808
@@ -39483,8 +39483,8 @@ r5a.8xlarge:
         Dedicated: 2.386
         Shared: 2.258
       sa-east-1:
-        Dedicated: 3.2
-        Shared: 3.026
+        Dedicated: 4.184
+        Shared: 3.954
       us-east-1:
         Dedicated: 2.047
         Shared: 1.938
@@ -39535,8 +39535,8 @@ r5a.8xlarge:
         Dedicated: 2.406
         Shared: 2.278
       sa-east-1:
-        Dedicated: 3.22
-        Shared: 3.046
+        Dedicated: 4.204
+        Shared: 3.974
       us-east-1:
         Dedicated: 2.067
         Shared: 1.958
@@ -39587,8 +39587,8 @@ r5a.8xlarge:
         Dedicated: 3.728
         Shared: 3.6
       sa-east-1:
-        Dedicated: 4.542
-        Shared: 4.368
+        Dedicated: 5.526
+        Shared: 5.296
       us-east-1:
         Dedicated: 3.389
         Shared: 3.28
@@ -39669,8 +39669,8 @@ r5a.large:
         Dedicated: 0.141
         Shared: 0.133
       sa-east-1:
-        Dedicated: 0.192
-        Shared: 0.181
+        Dedicated: 0.253
+        Shared: 0.239
       us-east-1:
         Dedicated: 0.12
         Shared: 0.113
@@ -39721,8 +39721,8 @@ r5a.large:
         Dedicated: 0.201
         Shared: 0.193
       sa-east-1:
-        Dedicated: 0.252
-        Shared: 0.241
+        Dedicated: 0.313
+        Shared: 0.299
       us-east-1:
         Dedicated: 0.18
         Shared: 0.173
@@ -39773,8 +39773,8 @@ r5a.large:
         Dedicated: 0.204
         Shared: 0.196
       sa-east-1:
-        Dedicated: 0.255
-        Shared: 0.244
+        Dedicated: 0.316
+        Shared: 0.302
       us-east-1:
         Dedicated: 0.183
         Shared: 0.176
@@ -39825,8 +39825,8 @@ r5a.large:
         Dedicated: 0.233
         Shared: 0.225
       sa-east-1:
-        Dedicated: 0.284
-        Shared: 0.273
+        Dedicated: 0.345
+        Shared: 0.331
       us-east-1:
         Dedicated: 0.12
         Shared: 0.205
@@ -39907,8 +39907,8 @@ r5a.xlarge:
         Dedicated: 0.282
         Shared: 0.266
       sa-east-1:
-        Dedicated: 0.384
-        Shared: 0.362
+        Dedicated: 0.507
+        Shared: 0.478
       us-east-1:
         Dedicated: 0.24
         Shared: 0.226
@@ -39959,8 +39959,8 @@ r5a.xlarge:
         Dedicated: 0.342
         Shared: 0.326
       sa-east-1:
-        Dedicated: 0.444
-        Shared: 0.422
+        Dedicated: 0.567
+        Shared: 0.538
       us-east-1:
         Dedicated: 0.3
         Shared: 0.286
@@ -40011,8 +40011,8 @@ r5a.xlarge:
         Dedicated: 0.407
         Shared: 0.391
       sa-east-1:
-        Dedicated: 0.509
-        Shared: 0.487
+        Dedicated: 0.632
+        Shared: 0.603
       us-east-1:
         Dedicated: 0.365
         Shared: 0.351
@@ -40063,8 +40063,8 @@ r5a.xlarge:
         Dedicated: 0.466
         Shared: 0.45
       sa-east-1:
-        Dedicated: 0.568
-        Shared: 0.546
+        Dedicated: 0.691
+        Shared: 0.662
       us-east-1:
         Dedicated: 0.424
         Shared: 0.41
@@ -40145,8 +40145,8 @@ r5ad.12xlarge:
         Dedicated: 3.896
         Shared: 3.672
       sa-east-1:
-        Dedicated: 5.294
-        Shared: 4.992
+        Dedicated: 6.77
+        Shared: 6.384
       us-east-1:
         Dedicated: 3.334
         Shared: 3.144
@@ -40194,8 +40194,8 @@ r5ad.12xlarge:
         Dedicated: 4.026
         Shared: 3.802
       sa-east-1:
-        Dedicated: 5.424
-        Shared: 5.122
+        Dedicated: 6.9
+        Shared: 6.514
       us-east-1:
         Dedicated: 3.464
         Shared: 3.274
@@ -40243,8 +40243,8 @@ r5ad.12xlarge:
         Dedicated: 4.046
         Shared: 3.822
       sa-east-1:
-        Dedicated: 5.444
-        Shared: 5.142
+        Dedicated: 6.92
+        Shared: 6.534
       us-east-1:
         Dedicated: 3.484
         Shared: 3.294
@@ -40292,8 +40292,8 @@ r5ad.12xlarge:
         Dedicated: 6.104
         Shared: 5.88
       sa-east-1:
-        Dedicated: 7.502
-        Shared: 7.2
+        Dedicated: 8.978
+        Shared: 8.592
       us-east-1:
         Dedicated: 5.542
         Shared: 5.352
@@ -40370,8 +40370,8 @@ r5ad.16xlarge:
         Dedicated: 5.195
         Shared: 4.896
       sa-east-1:
-        Dedicated: 7.059
-        Shared: 6.656
+        Dedicated: 9.027
+        Shared: 8.512
       us-gov-west-1:
         Dedicated: 5.363
         Shared: 5.056
@@ -40413,8 +40413,8 @@ r5ad.16xlarge:
         Dedicated: 5.325
         Shared: 5.026
       sa-east-1:
-        Dedicated: 7.189
-        Shared: 6.786
+        Dedicated: 9.157
+        Shared: 8.642
       us-gov-west-1:
         Dedicated: 5.493
         Shared: 5.186
@@ -40456,8 +40456,8 @@ r5ad.16xlarge:
         Dedicated: 5.345
         Shared: 5.046
       sa-east-1:
-        Dedicated: 7.209
-        Shared: 6.806
+        Dedicated: 9.177
+        Shared: 8.662
       us-gov-west-1:
         Dedicated: 5.513
         Shared: 5.206
@@ -40499,8 +40499,8 @@ r5ad.16xlarge:
         Dedicated: 8.139
         Shared: 7.84
       sa-east-1:
-        Dedicated: 10.003
-        Shared: 9.6
+        Dedicated: 11.971
+        Shared: 11.456
       us-gov-west-1:
         Dedicated: 8.307
         Shared: 8
@@ -40569,8 +40569,8 @@ r5ad.24xlarge:
         Dedicated: 7.792
         Shared: 7.344
       sa-east-1:
-        Dedicated: 10.588
-        Shared: 9.984
+        Dedicated: 13.541
+        Shared: 12.768
       us-east-1:
         Dedicated: 6.667
         Shared: 6.288
@@ -40618,8 +40618,8 @@ r5ad.24xlarge:
         Dedicated: 7.922
         Shared: 7.474
       sa-east-1:
-        Dedicated: 10.718
-        Shared: 10.114
+        Dedicated: 13.671
+        Shared: 12.898
       us-east-1:
         Dedicated: 6.797
         Shared: 6.418
@@ -40667,8 +40667,8 @@ r5ad.24xlarge:
         Dedicated: 7.942
         Shared: 7.494
       sa-east-1:
-        Dedicated: 10.738
-        Shared: 10.134
+        Dedicated: 13.691
+        Shared: 12.918
       us-east-1:
         Dedicated: 6.817
         Shared: 6.438
@@ -40716,8 +40716,8 @@ r5ad.24xlarge:
         Dedicated: 12.208
         Shared: 11.76
       sa-east-1:
-        Dedicated: 15.004
-        Shared: 14.4
+        Dedicated: 17.957
+        Shared: 17.184
       us-east-1:
         Dedicated: 11.083
         Shared: 10.704
@@ -40794,8 +40794,8 @@ r5ad.2xlarge:
         Dedicated: 0.649
         Shared: 0.612
       sa-east-1:
-        Dedicated: 0.882
-        Shared: 0.832
+        Dedicated: 1.128
+        Shared: 1.064
       us-east-1:
         Dedicated: 0.556
         Shared: 0.524
@@ -40843,8 +40843,8 @@ r5ad.2xlarge:
         Dedicated: 0.779
         Shared: 0.742
       sa-east-1:
-        Dedicated: 1.012
-        Shared: 0.962
+        Dedicated: 1.258
+        Shared: 1.194
       us-east-1:
         Dedicated: 0.686
         Shared: 0.654
@@ -40892,8 +40892,8 @@ r5ad.2xlarge:
         Dedicated: 0.799
         Shared: 0.762
       sa-east-1:
-        Dedicated: 1.032
-        Shared: 0.982
+        Dedicated: 1.278
+        Shared: 1.214
       us-east-1:
         Dedicated: 0.706
         Shared: 0.674
@@ -40941,8 +40941,8 @@ r5ad.2xlarge:
         Dedicated: 1.017
         Shared: 0.98
       sa-east-1:
-        Dedicated: 1.25
-        Shared: 1.2
+        Dedicated: 1.496
+        Shared: 1.432
       us-east-1:
         Dedicated: 0.924
         Shared: 0.892
@@ -41019,8 +41019,8 @@ r5ad.4xlarge:
         Dedicated: 1.299
         Shared: 1.224
       sa-east-1:
-        Dedicated: 1.765
-        Shared: 1.664
+        Dedicated: 2.257
+        Shared: 2.128
       us-east-1:
         Dedicated: 1.111
         Shared: 1.048
@@ -41068,8 +41068,8 @@ r5ad.4xlarge:
         Dedicated: 1.429
         Shared: 1.354
       sa-east-1:
-        Dedicated: 1.895
-        Shared: 1.794
+        Dedicated: 2.387
+        Shared: 2.258
       us-east-1:
         Dedicated: 1.241
         Shared: 1.178
@@ -41117,8 +41117,8 @@ r5ad.4xlarge:
         Dedicated: 1.449
         Shared: 1.374
       sa-east-1:
-        Dedicated: 1.915
-        Shared: 1.814
+        Dedicated: 2.407
+        Shared: 2.278
       us-east-1:
         Dedicated: 1.261
         Shared: 1.198
@@ -41166,8 +41166,8 @@ r5ad.4xlarge:
         Dedicated: 2.035
         Shared: 1.96
       sa-east-1:
-        Dedicated: 2.501
-        Shared: 2.4
+        Dedicated: 2.993
+        Shared: 2.864
       us-east-1:
         Dedicated: 1.847
         Shared: 1.784
@@ -41244,8 +41244,8 @@ r5ad.8xlarge:
         Dedicated: 2.597
         Shared: 2.448
       sa-east-1:
-        Dedicated: 3.529
-        Shared: 3.328
+        Dedicated: 4.514
+        Shared: 4.256
       us-gov-west-1:
         Dedicated: 2.681
         Shared: 2.528
@@ -41287,8 +41287,8 @@ r5ad.8xlarge:
         Dedicated: 2.727
         Shared: 2.578
       sa-east-1:
-        Dedicated: 3.659
-        Shared: 3.458
+        Dedicated: 4.644
+        Shared: 4.386
       us-gov-west-1:
         Dedicated: 2.811
         Shared: 2.658
@@ -41330,8 +41330,8 @@ r5ad.8xlarge:
         Dedicated: 2.747
         Shared: 2.598
       sa-east-1:
-        Dedicated: 3.679
-        Shared: 3.478
+        Dedicated: 4.664
+        Shared: 4.406
       us-gov-west-1:
         Dedicated: 2.831
         Shared: 2.678
@@ -41373,8 +41373,8 @@ r5ad.8xlarge:
         Dedicated: 4.069
         Shared: 3.92
       sa-east-1:
-        Dedicated: 5.001
-        Shared: 4.8
+        Dedicated: 5.986
+        Shared: 5.728
       us-gov-west-1:
         Dedicated: 4.153
         Shared: 4
@@ -41443,8 +41443,8 @@ r5ad.large:
         Dedicated: 0.162
         Shared: 0.153
       sa-east-1:
-        Dedicated: 0.221
-        Shared: 0.208
+        Dedicated: 0.282
+        Shared: 0.266
       us-east-1:
         Dedicated: 0.139
         Shared: 0.131
@@ -41492,8 +41492,8 @@ r5ad.large:
         Dedicated: 0.222
         Shared: 0.213
       sa-east-1:
-        Dedicated: 0.281
-        Shared: 0.268
+        Dedicated: 0.342
+        Shared: 0.326
       us-east-1:
         Dedicated: 0.199
         Shared: 0.191
@@ -41541,8 +41541,8 @@ r5ad.large:
         Dedicated: 0.225
         Shared: 0.216
       sa-east-1:
-        Dedicated: 0.284
-        Shared: 0.271
+        Dedicated: 0.345
+        Shared: 0.329
       us-east-1:
         Dedicated: 0.202
         Shared: 0.194
@@ -41590,8 +41590,8 @@ r5ad.large:
         Dedicated: 0.254
         Shared: 0.245
       sa-east-1:
-        Dedicated: 0.313
-        Shared: 0.3
+        Dedicated: 0.374
+        Shared: 0.358
       us-east-1:
         Dedicated: 0.231
         Shared: 0.223
@@ -41668,8 +41668,8 @@ r5ad.xlarge:
         Dedicated: 0.325
         Shared: 0.306
       sa-east-1:
-        Dedicated: 0.441
-        Shared: 0.416
+        Dedicated: 0.564
+        Shared: 0.532
       us-east-1:
         Dedicated: 0.278
         Shared: 0.262
@@ -41717,8 +41717,8 @@ r5ad.xlarge:
         Dedicated: 0.385
         Shared: 0.366
       sa-east-1:
-        Dedicated: 0.501
-        Shared: 0.476
+        Dedicated: 0.624
+        Shared: 0.592
       us-east-1:
         Dedicated: 0.338
         Shared: 0.322
@@ -41766,8 +41766,8 @@ r5ad.xlarge:
         Dedicated: 0.45
         Shared: 0.431
       sa-east-1:
-        Dedicated: 0.566
-        Shared: 0.541
+        Dedicated: 0.689
+        Shared: 0.657
       us-east-1:
         Dedicated: 0.403
         Shared: 0.387
@@ -41815,8 +41815,8 @@ r5ad.xlarge:
         Dedicated: 0.509
         Shared: 0.49
       sa-east-1:
-        Dedicated: 0.625
-        Shared: 0.6
+        Dedicated: 0.748
+        Shared: 0.716
       us-east-1:
         Dedicated: 0.462
         Shared: 0.446
@@ -41906,8 +41906,8 @@ r5d.12xlarge:
         Dedicated: 4.48
         Shared: 4.224
       sa-east-1:
-        Dedicated: 5.803
-        Shared: 5.472
+        Dedicated: 7.458
+        Shared: 7.032
       us-east-1:
         Dedicated: 3.664
         Shared: 3.456
@@ -41973,8 +41973,8 @@ r5d.12xlarge:
         Dedicated: 4.61
         Shared: 4.354
       sa-east-1:
-        Dedicated: 5.933
-        Shared: 5.602
+        Dedicated: 7.588
+        Shared: 7.162
       us-east-1:
         Dedicated: 3.794
         Shared: 3.586
@@ -42040,8 +42040,8 @@ r5d.12xlarge:
         Dedicated: 4.63
         Shared: 4.374
       sa-east-1:
-        Dedicated: 5.953
-        Shared: 5.622
+        Dedicated: 7.608
+        Shared: 7.182
       us-east-1:
         Dedicated: 3.814
         Shared: 3.606
@@ -42107,8 +42107,8 @@ r5d.12xlarge:
         Dedicated: 6.688
         Shared: 6.432
       sa-east-1:
-        Dedicated: 8.011
-        Shared: 7.68
+        Dedicated: 9.666
+        Shared: 9.24
       us-east-1:
         Dedicated: 5.872
         Shared: 5.664
@@ -42210,8 +42210,8 @@ r5d.16xlarge:
         Dedicated: 5.974
         Shared: 5.632
       sa-east-1:
-        Dedicated: 7.738
-        Shared: 7.296
+        Dedicated: 9.944
+        Shared: 9.376
       us-east-1:
         Dedicated: 4.885
         Shared: 4.608
@@ -42277,8 +42277,8 @@ r5d.16xlarge:
         Dedicated: 6.104
         Shared: 5.762
       sa-east-1:
-        Dedicated: 7.868
-        Shared: 7.426
+        Dedicated: 10.074
+        Shared: 9.506
       us-east-1:
         Dedicated: 5.015
         Shared: 4.738
@@ -42344,8 +42344,8 @@ r5d.16xlarge:
         Dedicated: 6.124
         Shared: 5.782
       sa-east-1:
-        Dedicated: 7.888
-        Shared: 7.446
+        Dedicated: 10.094
+        Shared: 9.526
       us-east-1:
         Dedicated: 5.035
         Shared: 4.758
@@ -42411,8 +42411,8 @@ r5d.16xlarge:
         Dedicated: 8.918
         Shared: 8.576
       sa-east-1:
-        Dedicated: 10.682
-        Shared: 10.24
+        Dedicated: 12.888
+        Shared: 12.32
       us-east-1:
         Dedicated: 7.829
         Shared: 7.552
@@ -42514,8 +42514,8 @@ r5d.24xlarge:
         Dedicated: 8.448
         Shared: 8.448
       sa-east-1:
-        Dedicated: 10.944
-        Shared: 10.944
+        Dedicated: 14.064
+        Shared: 14.064
       us-east-1:
         Dedicated: 6.912
         Shared: 6.912
@@ -42581,8 +42581,8 @@ r5d.24xlarge:
         Dedicated: 8.578
         Shared: 8.578
       sa-east-1:
-        Dedicated: 11.074
-        Shared: 11.074
+        Dedicated: 14.194
+        Shared: 14.194
       us-east-1:
         Dedicated: 7.042
         Shared: 7.042
@@ -42648,8 +42648,8 @@ r5d.24xlarge:
         Dedicated: 8.598
         Shared: 8.598
       sa-east-1:
-        Dedicated: 11.094
-        Shared: 11.094
+        Dedicated: 14.214
+        Shared: 14.214
       us-east-1:
         Dedicated: 7.062
         Shared: 7.062
@@ -42715,8 +42715,8 @@ r5d.24xlarge:
         Dedicated: 12.864
         Shared: 12.864
       sa-east-1:
-        Dedicated: 15.36
-        Shared: 15.36
+        Dedicated: 18.48
+        Shared: 18.48
       us-east-1:
         Dedicated: 11.328
         Shared: 6.912
@@ -42818,8 +42818,8 @@ r5d.2xlarge:
         Dedicated: 0.747
         Shared: 0.704
       sa-east-1:
-        Dedicated: 0.967
-        Shared: 0.912
+        Dedicated: 1.243
+        Shared: 1.172
       us-east-1:
         Dedicated: 0.611
         Shared: 0.576
@@ -42885,8 +42885,8 @@ r5d.2xlarge:
         Dedicated: 0.877
         Shared: 0.834
       sa-east-1:
-        Dedicated: 1.097
-        Shared: 1.042
+        Dedicated: 1.373
+        Shared: 1.302
       us-east-1:
         Dedicated: 0.741
         Shared: 0.706
@@ -42952,8 +42952,8 @@ r5d.2xlarge:
         Dedicated: 0.897
         Shared: 0.854
       sa-east-1:
-        Dedicated: 1.117
-        Shared: 1.062
+        Dedicated: 1.393
+        Shared: 1.322
       us-east-1:
         Dedicated: 0.761
         Shared: 0.726
@@ -43019,8 +43019,8 @@ r5d.2xlarge:
         Dedicated: 1.115
         Shared: 1.072
       sa-east-1:
-        Dedicated: 1.335
-        Shared: 1.28
+        Dedicated: 1.611
+        Shared: 1.54
       us-east-1:
         Dedicated: 0.979
         Shared: 0.944
@@ -43122,8 +43122,8 @@ r5d.4xlarge:
         Dedicated: 1.493
         Shared: 1.408
       sa-east-1:
-        Dedicated: 1.934
-        Shared: 1.824
+        Dedicated: 2.486
+        Shared: 2.344
       us-east-1:
         Dedicated: 1.221
         Shared: 1.152
@@ -43189,8 +43189,8 @@ r5d.4xlarge:
         Dedicated: 1.623
         Shared: 1.538
       sa-east-1:
-        Dedicated: 2.064
-        Shared: 1.954
+        Dedicated: 2.616
+        Shared: 2.474
       us-east-1:
         Dedicated: 1.351
         Shared: 1.282
@@ -43256,8 +43256,8 @@ r5d.4xlarge:
         Dedicated: 1.643
         Shared: 1.558
       sa-east-1:
-        Dedicated: 2.084
-        Shared: 1.974
+        Dedicated: 2.636
+        Shared: 2.494
       us-east-1:
         Dedicated: 1.371
         Shared: 1.302
@@ -43323,8 +43323,8 @@ r5d.4xlarge:
         Dedicated: 2.229
         Shared: 2.144
       sa-east-1:
-        Dedicated: 2.67
-        Shared: 2.56
+        Dedicated: 3.222
+        Shared: 3.08
       us-east-1:
         Dedicated: 1.957
         Shared: 1.888
@@ -43426,8 +43426,8 @@ r5d.8xlarge:
         Dedicated: 2.987
         Shared: 2.816
       sa-east-1:
-        Dedicated: 3.869
-        Shared: 3.648
+        Dedicated: 4.972
+        Shared: 4.688
       us-east-1:
         Dedicated: 2.442
         Shared: 2.304
@@ -43493,8 +43493,8 @@ r5d.8xlarge:
         Dedicated: 3.117
         Shared: 2.946
       sa-east-1:
-        Dedicated: 3.999
-        Shared: 3.778
+        Dedicated: 5.102
+        Shared: 4.818
       us-east-1:
         Dedicated: 2.572
         Shared: 2.434
@@ -43560,8 +43560,8 @@ r5d.8xlarge:
         Dedicated: 3.137
         Shared: 2.966
       sa-east-1:
-        Dedicated: 4.019
-        Shared: 3.798
+        Dedicated: 5.122
+        Shared: 4.838
       us-east-1:
         Dedicated: 2.592
         Shared: 2.454
@@ -43627,8 +43627,8 @@ r5d.8xlarge:
         Dedicated: 4.459
         Shared: 4.288
       sa-east-1:
-        Dedicated: 5.341
-        Shared: 5.12
+        Dedicated: 6.444
+        Shared: 6.16
       us-east-1:
         Dedicated: 3.914
         Shared: 3.776
@@ -43730,8 +43730,8 @@ r5d.large:
         Dedicated: 0.187
         Shared: 0.176
       sa-east-1:
-        Dedicated: 0.242
-        Shared: 0.228
+        Dedicated: 0.311
+        Shared: 0.293
       us-east-1:
         Dedicated: 0.153
         Shared: 0.144
@@ -43797,8 +43797,8 @@ r5d.large:
         Dedicated: 0.247
         Shared: 0.236
       sa-east-1:
-        Dedicated: 0.302
-        Shared: 0.288
+        Dedicated: 0.371
+        Shared: 0.353
       us-east-1:
         Dedicated: 0.213
         Shared: 0.204
@@ -43864,8 +43864,8 @@ r5d.large:
         Dedicated: 0.25
         Shared: 0.239
       sa-east-1:
-        Dedicated: 0.305
-        Shared: 0.291
+        Dedicated: 0.374
+        Shared: 0.356
       us-east-1:
         Dedicated: 0.216
         Shared: 0.207
@@ -43931,8 +43931,8 @@ r5d.large:
         Dedicated: 0.279
         Shared: 0.268
       sa-east-1:
-        Dedicated: 0.334
-        Shared: 0.32
+        Dedicated: 0.403
+        Shared: 0.385
       us-east-1:
         Dedicated: 0.153
         Shared: 0.236
@@ -44034,8 +44034,8 @@ r5d.metal:
         Dedicated: 8.448
         Shared: 8.448
       sa-east-1:
-        Dedicated: 10.944
-        Shared: 10.944
+        Dedicated: 14.064
+        Shared: 14.064
       us-east-1:
         Dedicated: 6.912
         Shared: 6.912
@@ -44101,8 +44101,8 @@ r5d.metal:
         Dedicated: 8.578
         Shared: 8.578
       sa-east-1:
-        Dedicated: 11.074
-        Shared: 11.074
+        Dedicated: 14.194
+        Shared: 14.194
       us-east-1:
         Dedicated: 7.042
         Shared: 7.042
@@ -44168,8 +44168,8 @@ r5d.metal:
         Dedicated: 8.598
         Shared: 8.598
       sa-east-1:
-        Dedicated: 11.094
-        Shared: 11.094
+        Dedicated: 14.214
+        Shared: 14.214
       us-east-1:
         Dedicated: 7.062
         Shared: 7.062
@@ -44235,8 +44235,8 @@ r5d.metal:
         Dedicated: 12.864
         Shared: 12.864
       sa-east-1:
-        Dedicated: 15.36
-        Shared: 15.36
+        Dedicated: 18.48
+        Shared: 18.48
       us-east-1:
         Dedicated: 11.328
         Shared: 11.328
@@ -44338,8 +44338,8 @@ r5d.xlarge:
         Dedicated: 0.373
         Shared: 0.352
       sa-east-1:
-        Dedicated: 0.484
-        Shared: 0.456
+        Dedicated: 0.621
+        Shared: 0.586
       us-east-1:
         Dedicated: 0.305
         Shared: 0.288
@@ -44405,8 +44405,8 @@ r5d.xlarge:
         Dedicated: 0.433
         Shared: 0.412
       sa-east-1:
-        Dedicated: 0.544
-        Shared: 0.516
+        Dedicated: 0.681
+        Shared: 0.646
       us-east-1:
         Dedicated: 0.365
         Shared: 0.348
@@ -44472,8 +44472,8 @@ r5d.xlarge:
         Dedicated: 0.498
         Shared: 0.477
       sa-east-1:
-        Dedicated: 0.609
-        Shared: 0.581
+        Dedicated: 0.746
+        Shared: 0.711
       us-east-1:
         Dedicated: 0.43
         Shared: 0.413
@@ -44539,8 +44539,8 @@ r5d.xlarge:
         Dedicated: 0.557
         Shared: 0.536
       sa-east-1:
-        Dedicated: 0.668
-        Shared: 0.64
+        Dedicated: 0.805
+        Shared: 0.77
       us-east-1:
         Dedicated: 0.305
         Shared: 0.472
