@@ -3399,10 +3399,10 @@ c5.18xlarge:
     - ap-south-1
     - ca-central-1
     - ap-east-1
+    - us-west-2-lax-1a
     - eu-north-1
     - ap-northeast-1
     - me-south-1
-    - us-west-2-lax-1a
     - sa-east-1
     - eu-west-3
     - us-east-1
@@ -22445,6 +22445,7 @@ m5.24xlarge:
     - sa-east-1
     - ap-northeast-2
     - ap-east-1
+    - us-west-2-lax-1a
     - us-east-2
     - AWS GovCloud (US-West)
     - eu-west-3
@@ -22453,7 +22454,6 @@ m5.24xlarge:
     - ap-northeast-1
     - ap-southeast-1
     - me-south-1
-    - us-west-2-lax-1a
     - us-west-2
     - eu-west-1
     - us-east-1
@@ -32282,7 +32282,7 @@ m5n.xlarge:
 m6g.12xlarge:
   currentGeneration: true
   dedicatedEbsThroughput: 13500 Mbps
-  enhancedNetworkingSupported: false
+  enhancedNetworkingSupported: true
   memory: 192 GiB
   networkPerformance: 12 Gigabit
   normalizationSizeFactor: 96
@@ -32304,7 +32304,7 @@ m6g.12xlarge:
 m6g.16xlarge:
   currentGeneration: true
   dedicatedEbsThroughput: 18000 Mbps
-  enhancedNetworkingSupported: false
+  enhancedNetworkingSupported: true
   memory: 256 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 128
@@ -32348,7 +32348,7 @@ m6g.2xlarge:
 m6g.4xlarge:
   currentGeneration: true
   dedicatedEbsThroughput: 4500 Mbps
-  enhancedNetworkingSupported: false
+  enhancedNetworkingSupported: true
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
@@ -32370,7 +32370,7 @@ m6g.4xlarge:
 m6g.8xlarge:
   currentGeneration: true
   dedicatedEbsThroughput: 9000 Mbps
-  enhancedNetworkingSupported: false
+  enhancedNetworkingSupported: true
   memory: 128 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 64
@@ -32392,7 +32392,7 @@ m6g.8xlarge:
 m6g.large:
   currentGeneration: true
   dedicatedEbsThroughput: 600 Mbps
-  enhancedNetworkingSupported: false
+  enhancedNetworkingSupported: true
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
@@ -32414,7 +32414,7 @@ m6g.large:
 m6g.medium:
   currentGeneration: true
   dedicatedEbsThroughput: 300 Mbps
-  enhancedNetworkingSupported: false
+  enhancedNetworkingSupported: true
   memory: 4 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 2
@@ -37099,6 +37099,7 @@ r5.2xlarge:
     - eu-west-1
     - ap-northeast-2
     - ap-southeast-1
+    - us-west-2-lax-1a
     - eu-north-1
     - ap-northeast-1
     - us-east-2
@@ -37109,7 +37110,6 @@ r5.2xlarge:
     - eu-west-2
     - ca-central-1
     - ap-southeast-2
-    - us-west-2-lax-1a
   storage: EBS only
   vcpu: 8
 r5.4xlarge:
@@ -42578,13 +42578,13 @@ r5d.12xlarge:
     - ap-east-1
     - eu-central-1
     - us-gov-east-1
+    - us-west-2-lax-1a
     - us-east-2
     - AWS GovCloud (US-West)
     - ap-northeast-3
     - ap-southeast-1
     - ap-south-1
     - eu-west-3
-    - us-west-2-lax-1a
     - ap-southeast-2
   storage: 2 x 900 NVMe SSD
   vcpu: 48
