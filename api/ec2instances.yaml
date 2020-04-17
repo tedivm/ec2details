@@ -11839,6 +11839,9 @@ g4dn.12xlarge:
       us-east-2:
         Dedicated: 4.147
         Shared: 3.912
+      us-gov-east-1:
+        Dedicated: 5.227
+        Shared: 4.931
       us-west-1:
         Dedicated: 5.009
         Shared: 4.694
@@ -11900,6 +11903,9 @@ g4dn.12xlarge:
       us-east-2:
         Dedicated: 4.277
         Shared: 4.042
+      us-gov-east-1:
+        Dedicated: 5.357
+        Shared: 5.061
       us-west-1:
         Dedicated: 5.139
         Shared: 4.824
@@ -11961,6 +11967,9 @@ g4dn.12xlarge:
       us-east-2:
         Dedicated: 4.297
         Shared: 4.062
+      us-gov-east-1:
+        Dedicated: 5.377
+        Shared: 5.081
       us-west-1:
         Dedicated: 5.159
         Shared: 4.844
@@ -12022,6 +12031,9 @@ g4dn.12xlarge:
       us-east-2:
         Dedicated: 6.355
         Shared: 6.12
+      us-gov-east-1:
+        Dedicated: 7.435
+        Shared: 7.139
       us-west-1:
         Dedicated: 7.217
         Shared: 6.902
@@ -12052,6 +12064,7 @@ g4dn.12xlarge:
     - us-west-2
     - us-west-2-lax-1a
     - ca-central-1
+    - us-gov-east-1
   storage: 900 GB NVMe SSD
   vcpu: 48
 g4dn.16xlarge:
@@ -12116,6 +12129,9 @@ g4dn.16xlarge:
       us-east-2:
         Dedicated: 4.613
         Shared: 4.352
+      us-gov-east-1:
+        Dedicated: 5.815
+        Shared: 5.486
       us-west-1:
         Dedicated: 5.572
         Shared: 5.222
@@ -12177,6 +12193,9 @@ g4dn.16xlarge:
       us-east-2:
         Dedicated: 4.743
         Shared: 4.482
+      us-gov-east-1:
+        Dedicated: 5.945
+        Shared: 5.616
       us-west-1:
         Dedicated: 5.702
         Shared: 5.352
@@ -12238,6 +12257,9 @@ g4dn.16xlarge:
       us-east-2:
         Dedicated: 4.763
         Shared: 4.502
+      us-gov-east-1:
+        Dedicated: 5.965
+        Shared: 5.636
       us-west-1:
         Dedicated: 5.722
         Shared: 5.372
@@ -12299,6 +12321,9 @@ g4dn.16xlarge:
       us-east-2:
         Dedicated: 7.557
         Shared: 7.296
+      us-gov-east-1:
+        Dedicated: 8.759
+        Shared: 8.43
       us-west-1:
         Dedicated: 8.516
         Shared: 8.166
@@ -12328,6 +12353,7 @@ g4dn.16xlarge:
     - ap-southeast-2
     - sa-east-1
     - eu-north-1
+    - us-gov-east-1
     - us-west-1
   storage: 900 GB NVMe SSD
   vcpu: 64
@@ -12393,6 +12419,9 @@ g4dn.2xlarge:
       us-east-2:
         Dedicated: 0.797
         Shared: 0.752
+      us-gov-east-1:
+        Dedicated: 1.005
+        Shared: 0.948
       us-west-1:
         Dedicated: 0.963
         Shared: 0.902
@@ -12454,6 +12483,9 @@ g4dn.2xlarge:
       us-east-2:
         Dedicated: 0.927
         Shared: 0.882
+      us-gov-east-1:
+        Dedicated: 1.135
+        Shared: 1.078
       us-west-1:
         Dedicated: 1.093
         Shared: 1.032
@@ -12515,6 +12547,9 @@ g4dn.2xlarge:
       us-east-2:
         Dedicated: 0.947
         Shared: 0.902
+      us-gov-east-1:
+        Dedicated: 1.155
+        Shared: 1.098
       us-west-1:
         Dedicated: 1.113
         Shared: 1.052
@@ -12576,6 +12611,9 @@ g4dn.2xlarge:
       us-east-2:
         Dedicated: 1.165
         Shared: 1.12
+      us-gov-east-1:
+        Dedicated: 1.373
+        Shared: 1.316
       us-west-1:
         Dedicated: 1.331
         Shared: 1.27
@@ -12606,6 +12644,7 @@ g4dn.2xlarge:
     - ap-south-1
     - eu-west-3
     - ap-northeast-1
+    - us-gov-east-1
   storage: 225 GB NVMe SSD
   vcpu: 8
 g4dn.4xlarge:
@@ -12670,6 +12709,9 @@ g4dn.4xlarge:
       us-east-2:
         Dedicated: 1.276
         Shared: 1.204
+      us-gov-east-1:
+        Dedicated: 1.609
+        Shared: 1.518
       us-west-1:
         Dedicated: 1.542
         Shared: 1.445
@@ -12731,6 +12773,9 @@ g4dn.4xlarge:
       us-east-2:
         Dedicated: 1.406
         Shared: 1.334
+      us-gov-east-1:
+        Dedicated: 1.739
+        Shared: 1.648
       us-west-1:
         Dedicated: 1.672
         Shared: 1.575
@@ -12792,6 +12837,9 @@ g4dn.4xlarge:
       us-east-2:
         Dedicated: 1.426
         Shared: 1.354
+      us-gov-east-1:
+        Dedicated: 1.759
+        Shared: 1.668
       us-west-1:
         Dedicated: 1.692
         Shared: 1.595
@@ -12853,6 +12901,9 @@ g4dn.4xlarge:
       us-east-2:
         Dedicated: 2.012
         Shared: 1.94
+      us-gov-east-1:
+        Dedicated: 2.345
+        Shared: 2.254
       us-west-1:
         Dedicated: 2.278
         Shared: 2.181
@@ -12883,6 +12934,7 @@ g4dn.4xlarge:
     - us-west-2
     - ap-northeast-1
     - eu-north-1
+    - us-gov-east-1
   storage: 225 GB NVMe SSD
   vcpu: 16
 g4dn.8xlarge:
@@ -12947,6 +12999,9 @@ g4dn.8xlarge:
       us-east-2:
         Dedicated: 2.307
         Shared: 2.176
+      us-gov-east-1:
+        Dedicated: 2.907
+        Shared: 2.743
       us-west-1:
         Dedicated: 2.786
         Shared: 2.611
@@ -13008,6 +13063,9 @@ g4dn.8xlarge:
       us-east-2:
         Dedicated: 2.437
         Shared: 2.306
+      us-gov-east-1:
+        Dedicated: 3.037
+        Shared: 2.873
       us-west-1:
         Dedicated: 2.916
         Shared: 2.741
@@ -13069,6 +13127,9 @@ g4dn.8xlarge:
       us-east-2:
         Dedicated: 2.457
         Shared: 2.326
+      us-gov-east-1:
+        Dedicated: 3.057
+        Shared: 2.893
       us-west-1:
         Dedicated: 2.936
         Shared: 2.761
@@ -13130,6 +13191,9 @@ g4dn.8xlarge:
       us-east-2:
         Dedicated: 3.779
         Shared: 3.648
+      us-gov-east-1:
+        Dedicated: 4.379
+        Shared: 4.215
       us-west-1:
         Dedicated: 4.258
         Shared: 4.083
@@ -13153,6 +13217,7 @@ g4dn.8xlarge:
     - ap-south-1
     - eu-central-1
     - sa-east-1
+    - us-gov-east-1
     - ap-northeast-2
     - AWS GovCloud (US-West)
     - ap-southeast-1
@@ -13197,6 +13262,7 @@ g4dn.metal:
     - eu-west-2
     - ap-east-1
     - us-west-1
+    - us-west-2-lax-1a
     - ap-southeast-1
     - eu-west-3
     - eu-central-1
@@ -13270,6 +13336,9 @@ g4dn.xlarge:
       us-east-2:
         Dedicated: 0.558
         Shared: 0.526
+      us-gov-east-1:
+        Dedicated: 0.703
+        Shared: 0.663
       us-west-1:
         Dedicated: 0.673
         Shared: 0.631
@@ -13331,6 +13400,9 @@ g4dn.xlarge:
       us-east-2:
         Dedicated: 0.618
         Shared: 0.586
+      us-gov-east-1:
+        Dedicated: 0.763
+        Shared: 0.723
       us-west-1:
         Dedicated: 0.733
         Shared: 0.691
@@ -13392,6 +13464,9 @@ g4dn.xlarge:
       us-east-2:
         Dedicated: 0.683
         Shared: 0.651
+      us-gov-east-1:
+        Dedicated: 0.828
+        Shared: 0.788
       us-west-1:
         Dedicated: 0.798
         Shared: 0.756
@@ -13453,6 +13528,9 @@ g4dn.xlarge:
       us-east-2:
         Dedicated: 0.742
         Shared: 0.71
+      us-gov-east-1:
+        Dedicated: 0.887
+        Shared: 0.847
       us-west-1:
         Dedicated: 0.857
         Shared: 0.815
@@ -13483,6 +13561,7 @@ g4dn.xlarge:
     - eu-west-3
     - sa-east-1
     - AWS GovCloud (US-West)
+    - us-gov-east-1
   storage: 125 GB NVMe SSD
   vcpu: 4
 h1.16xlarge:
@@ -18193,6 +18272,20 @@ i3en.metal:
     - sa-east-1
     - ap-southeast-1
   storage: 8 x 7500 NVMe SSD
+  vcpu: 96
+i3en.metal-2tb:
+  clockSpeed: 3.1 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 19000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 768 GiB
+  networkPerformance: 100 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
+  prices: {}
+  regions:
+    - us-west-2-lax-1a
+  storage: 32 x 2000 NVMe SSD
   vcpu: 96
 i3en.xlarge:
   clockSpeed: 3.1 GHz
