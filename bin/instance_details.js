@@ -33,7 +33,7 @@ const regionMap = {
   'EU (Stockholm)': 'eu-north-1',
   'South America (Sao Paulo)': 'sa-east-1',
   'Middle East (Bahrain)': 'me-south-1',
-
+  'Africa (Cape Town)': 'af-south-1',
   // No pricing currently available.
   'China (Beijing)': 'cn-north-1',
   'China (Ningxia)': 'cn-northwest-1',
