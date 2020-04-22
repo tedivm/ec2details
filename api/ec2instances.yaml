@@ -2851,7 +2851,7 @@ c5.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.9
         Shared: 2.736
       ap-northeast-1:
@@ -2912,7 +2912,7 @@ c5.12xlarge:
         Dedicated: 2.596
         Shared: 2.448
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.03
         Shared: 2.866
       ap-northeast-1:
@@ -2973,7 +2973,7 @@ c5.12xlarge:
         Dedicated: 2.726
         Shared: 2.578
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3
         Shared: 2.836
       ap-northeast-1:
@@ -3034,7 +3034,7 @@ c5.12xlarge:
         Dedicated: 2.696
         Shared: 2.548
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.108
         Shared: 4.944
       ap-northeast-1:
@@ -3107,7 +3107,7 @@ c5.12xlarge:
     - eu-west-3
     - us-east-1
     - ap-south-1
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-1
     - us-west-2
     - us-west-2-lax-1a
@@ -3129,7 +3129,7 @@ c5.18xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.104
         Shared: 4.104
       ap-east-1:
@@ -3199,7 +3199,7 @@ c5.18xlarge:
         Dedicated: 3.672
         Shared: 3.672
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.234
         Shared: 4.234
       ap-east-1:
@@ -3269,7 +3269,7 @@ c5.18xlarge:
         Dedicated: 3.802
         Shared: 3.802
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.204
         Shared: 4.204
       ap-east-1:
@@ -3339,7 +3339,7 @@ c5.18xlarge:
         Dedicated: 3.772
         Shared: 3.772
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.416
         Shared: 7.416
       ap-east-1:
@@ -3424,7 +3424,7 @@ c5.18xlarge:
     - ap-south-1
     - ca-central-1
     - ap-east-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-2-lax-1a
     - eu-north-1
     - ap-northeast-1
@@ -3446,7 +3446,7 @@ c5.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.8
         Shared: 5.472
       ap-northeast-1:
@@ -3507,7 +3507,7 @@ c5.24xlarge:
         Dedicated: 5.192
         Shared: 4.896
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.93
         Shared: 5.602
       ap-northeast-1:
@@ -3568,7 +3568,7 @@ c5.24xlarge:
         Dedicated: 5.322
         Shared: 5.026
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.9
         Shared: 5.572
       ap-northeast-1:
@@ -3629,7 +3629,7 @@ c5.24xlarge:
         Dedicated: 5.292
         Shared: 4.996
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 10.216
         Shared: 9.888
       ap-northeast-1:
@@ -3702,7 +3702,7 @@ c5.24xlarge:
     - ap-southeast-1
     - ap-northeast-1
     - eu-west-3
-    - Africa (Cape Town)
+    - af-south-1
     - us-east-1
     - us-west-2
     - ap-southeast-2
@@ -3724,7 +3724,7 @@ c5.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.483
         Shared: 0.456
       ap-east-1:
@@ -3794,7 +3794,7 @@ c5.2xlarge:
         Dedicated: 0.433
         Shared: 0.408
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.613
         Shared: 0.586
       ap-east-1:
@@ -3864,7 +3864,7 @@ c5.2xlarge:
         Dedicated: 0.563
         Shared: 0.538
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.583
         Shared: 0.556
       ap-east-1:
@@ -3934,7 +3934,7 @@ c5.2xlarge:
         Dedicated: 0.533
         Shared: 0.508
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.851
         Shared: 0.824
       ap-east-1:
@@ -4025,7 +4025,7 @@ c5.2xlarge:
     - ca-central-1
     - eu-west-1
     - us-west-2-lax-1a
-    - Africa (Cape Town)
+    - af-south-1
     - ap-northeast-3
   storage: EBS only
   vcpu: 8
@@ -4041,7 +4041,7 @@ c5.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.967
         Shared: 0.912
       ap-east-1:
@@ -4111,7 +4111,7 @@ c5.4xlarge:
         Dedicated: 0.865
         Shared: 0.816
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.097
         Shared: 1.042
       ap-east-1:
@@ -4181,7 +4181,7 @@ c5.4xlarge:
         Dedicated: 0.995
         Shared: 0.946
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.067
         Shared: 1.012
       ap-east-1:
@@ -4251,7 +4251,7 @@ c5.4xlarge:
         Dedicated: 0.965
         Shared: 0.916
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.703
         Shared: 1.648
       ap-east-1:
@@ -4322,7 +4322,7 @@ c5.4xlarge:
         Shared: 1.552
   regions:
     - ap-southeast-2
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-3
     - ap-northeast-2
     - eu-west-1
@@ -4358,7 +4358,7 @@ c5.9xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.175
         Shared: 2.052
       ap-east-1:
@@ -4428,7 +4428,7 @@ c5.9xlarge:
         Dedicated: 1.947
         Shared: 1.836
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.305
         Shared: 2.182
       ap-east-1:
@@ -4498,7 +4498,7 @@ c5.9xlarge:
         Dedicated: 2.077
         Shared: 1.966
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.275
         Shared: 2.152
       ap-east-1:
@@ -4568,7 +4568,7 @@ c5.9xlarge:
         Dedicated: 2.047
         Shared: 1.936
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.831
         Shared: 3.708
       ap-east-1:
@@ -4651,7 +4651,7 @@ c5.9xlarge:
     - ap-northeast-2
     - eu-west-3
     - ap-east-1
-    - Africa (Cape Town)
+    - af-south-1
     - ap-northeast-1
     - sa-east-1
     - us-gov-east-1
@@ -4675,7 +4675,7 @@ c5.large:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.121
         Shared: 0.114
       ap-east-1:
@@ -4745,7 +4745,7 @@ c5.large:
         Dedicated: 0.108
         Shared: 0.102
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.181
         Shared: 0.174
       ap-east-1:
@@ -4815,7 +4815,7 @@ c5.large:
         Dedicated: 0.168
         Shared: 0.162
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.221
         Shared: 0.214
       ap-east-1:
@@ -4885,7 +4885,7 @@ c5.large:
         Dedicated: 0.208
         Shared: 0.202
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.213
         Shared: 0.206
       ap-east-1:
@@ -4960,7 +4960,7 @@ c5.large:
     - us-west-2
     - eu-central-1
     - eu-west-1
-    - Africa (Cape Town)
+    - af-south-1
     - eu-north-1
     - sa-east-1
     - AWS GovCloud (US-West)
@@ -4992,7 +4992,7 @@ c5.metal:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.472
         Shared: 5.472
       ap-northeast-1:
@@ -5053,7 +5053,7 @@ c5.metal:
         Dedicated: 4.896
         Shared: 4.896
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.602
         Shared: 5.602
       ap-northeast-1:
@@ -5114,7 +5114,7 @@ c5.metal:
         Dedicated: 5.026
         Shared: 5.026
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.572
         Shared: 5.572
       ap-northeast-1:
@@ -5175,7 +5175,7 @@ c5.metal:
         Dedicated: 4.996
         Shared: 4.996
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 9.888
         Shared: 9.888
       ap-northeast-1:
@@ -5240,7 +5240,7 @@ c5.metal:
     - us-west-2-lax-1a
     - ca-central-1
     - ap-northeast-2
-    - Africa (Cape Town)
+    - af-south-1
     - ap-southeast-1
     - us-east-2
     - eu-west-2
@@ -5270,7 +5270,7 @@ c5.xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.242
         Shared: 0.228
       ap-east-1:
@@ -5340,7 +5340,7 @@ c5.xlarge:
         Dedicated: 0.216
         Shared: 0.204
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.302
         Shared: 0.288
       ap-east-1:
@@ -5410,7 +5410,7 @@ c5.xlarge:
         Dedicated: 0.276
         Shared: 0.264
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.342
         Shared: 0.328
       ap-east-1:
@@ -5480,7 +5480,7 @@ c5.xlarge:
         Dedicated: 0.316
         Shared: 0.304
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.426
         Shared: 0.412
       ap-east-1:
@@ -5552,7 +5552,7 @@ c5.xlarge:
   regions:
     - eu-central-1
     - ap-southeast-1
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-2
     - us-west-2
     - AWS GovCloud (US-West)
@@ -5587,7 +5587,7 @@ c5d.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.307
         Shared: 3.12
       ap-northeast-1:
@@ -5639,7 +5639,7 @@ c5d.12xlarge:
         Dedicated: 2.442
         Shared: 2.304
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.437
         Shared: 3.25
       ap-northeast-1:
@@ -5691,7 +5691,7 @@ c5d.12xlarge:
         Dedicated: 2.572
         Shared: 2.434
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.407
         Shared: 3.22
       ap-northeast-1:
@@ -5743,7 +5743,7 @@ c5d.12xlarge:
         Dedicated: 2.542
         Shared: 2.404
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.515
         Shared: 5.328
       ap-northeast-1:
@@ -5797,7 +5797,7 @@ c5d.12xlarge:
   regions:
     - ap-southeast-2
     - ap-northeast-2
-    - Africa (Cape Town)
+    - af-south-1
     - us-east-2
     - eu-central-1
     - me-south-1
@@ -5826,7 +5826,7 @@ c5d.18xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.68
         Shared: 4.68
       ap-east-1:
@@ -5893,7 +5893,7 @@ c5d.18xlarge:
         Dedicated: 3.456
         Shared: 3.456
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.81
         Shared: 4.81
       ap-east-1:
@@ -5960,7 +5960,7 @@ c5d.18xlarge:
         Dedicated: 3.586
         Shared: 3.586
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.78
         Shared: 4.78
       ap-east-1:
@@ -6027,7 +6027,7 @@ c5d.18xlarge:
         Dedicated: 3.556
         Shared: 3.556
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.992
         Shared: 7.992
       ap-east-1:
@@ -6109,7 +6109,7 @@ c5d.18xlarge:
     - ap-east-1
     - us-west-2
     - eu-west-3
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-1
     - ap-northeast-3
     - us-east-1
@@ -6130,7 +6130,7 @@ c5d.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.614
         Shared: 6.24
       ap-northeast-1:
@@ -6182,7 +6182,7 @@ c5d.24xlarge:
         Dedicated: 4.885
         Shared: 4.608
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.744
         Shared: 6.37
       ap-northeast-1:
@@ -6234,7 +6234,7 @@ c5d.24xlarge:
         Dedicated: 5.015
         Shared: 4.738
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.714
         Shared: 6.34
       ap-northeast-1:
@@ -6286,7 +6286,7 @@ c5d.24xlarge:
         Dedicated: 4.985
         Shared: 4.708
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 11.03
         Shared: 10.656
       ap-northeast-1:
@@ -6338,7 +6338,7 @@ c5d.24xlarge:
         Dedicated: 9.301
         Shared: 9.024
   regions:
-    - Africa (Cape Town)
+    - af-south-1
     - me-south-1
     - us-east-2
     - eu-central-1
@@ -6369,7 +6369,7 @@ c5d.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.551
         Shared: 0.52
       ap-east-1:
@@ -6436,7 +6436,7 @@ c5d.2xlarge:
         Dedicated: 0.407
         Shared: 0.384
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.681
         Shared: 0.65
       ap-east-1:
@@ -6503,7 +6503,7 @@ c5d.2xlarge:
         Dedicated: 0.537
         Shared: 0.514
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.651
         Shared: 0.62
       ap-east-1:
@@ -6570,7 +6570,7 @@ c5d.2xlarge:
         Dedicated: 0.507
         Shared: 0.484
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.919
         Shared: 0.888
       ap-east-1:
@@ -6638,7 +6638,7 @@ c5d.2xlarge:
         Shared: 0.752
   regions:
     - eu-west-1
-    - Africa (Cape Town)
+    - af-south-1
     - sa-east-1
     - eu-central-1
     - me-south-1
@@ -6673,7 +6673,7 @@ c5d.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.102
         Shared: 1.04
       ap-east-1:
@@ -6740,7 +6740,7 @@ c5d.4xlarge:
         Dedicated: 0.814
         Shared: 0.768
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.232
         Shared: 1.17
       ap-east-1:
@@ -6807,7 +6807,7 @@ c5d.4xlarge:
         Dedicated: 0.944
         Shared: 0.898
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.202
         Shared: 1.14
       ap-east-1:
@@ -6874,7 +6874,7 @@ c5d.4xlarge:
         Dedicated: 0.914
         Shared: 0.868
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.838
         Shared: 1.776
       ap-east-1:
@@ -6957,7 +6957,7 @@ c5d.4xlarge:
     - eu-west-2
     - ap-south-1
     - eu-west-3
-    - Africa (Cape Town)
+    - af-south-1
     - AWS GovCloud (US-West)
     - ap-northeast-3
     - us-east-1
@@ -6977,7 +6977,7 @@ c5d.9xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.48
         Shared: 2.34
       ap-east-1:
@@ -7044,7 +7044,7 @@ c5d.9xlarge:
         Dedicated: 1.832
         Shared: 1.728
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.61
         Shared: 2.47
       ap-east-1:
@@ -7111,7 +7111,7 @@ c5d.9xlarge:
         Dedicated: 1.962
         Shared: 1.858
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.58
         Shared: 2.44
       ap-east-1:
@@ -7178,7 +7178,7 @@ c5d.9xlarge:
         Dedicated: 1.932
         Shared: 1.828
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.136
         Shared: 3.996
       ap-east-1:
@@ -7260,7 +7260,7 @@ c5d.9xlarge:
     - eu-west-1
     - ap-northeast-2
     - eu-west-3
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-2
     - eu-north-1
     - ap-northeast-1
@@ -7281,7 +7281,7 @@ c5d.large:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.138
         Shared: 0.13
       ap-east-1:
@@ -7348,7 +7348,7 @@ c5d.large:
         Dedicated: 0.102
         Shared: 0.096
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.198
         Shared: 0.19
       ap-east-1:
@@ -7415,7 +7415,7 @@ c5d.large:
         Dedicated: 0.162
         Shared: 0.156
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.238
         Shared: 0.23
       ap-east-1:
@@ -7482,7 +7482,7 @@ c5d.large:
         Dedicated: 0.202
         Shared: 0.196
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.23
         Shared: 0.222
       ap-east-1:
@@ -7566,7 +7566,7 @@ c5d.large:
     - ap-east-1
     - us-gov-east-1
     - ap-northeast-2
-    - Africa (Cape Town)
+    - af-south-1
     - ca-central-1
     - ap-southeast-2
     - ap-northeast-3
@@ -7585,7 +7585,7 @@ c5d.metal:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.24
         Shared: 6.24
       ap-northeast-1:
@@ -7637,7 +7637,7 @@ c5d.metal:
         Dedicated: 4.608
         Shared: 4.608
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.37
         Shared: 6.37
       ap-northeast-1:
@@ -7689,7 +7689,7 @@ c5d.metal:
         Dedicated: 4.738
         Shared: 4.738
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.34
         Shared: 6.34
       ap-northeast-1:
@@ -7741,7 +7741,7 @@ c5d.metal:
         Dedicated: 4.708
         Shared: 4.708
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 10.656
         Shared: 10.656
       ap-northeast-1:
@@ -7800,7 +7800,7 @@ c5d.metal:
     - me-south-1
     - ap-northeast-1
     - ca-central-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-east-2
     - us-west-1
     - eu-west-1
@@ -7824,7 +7824,7 @@ c5d.xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.276
         Shared: 0.26
       ap-east-1:
@@ -7891,7 +7891,7 @@ c5d.xlarge:
         Dedicated: 0.204
         Shared: 0.192
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.336
         Shared: 0.32
       ap-east-1:
@@ -7958,7 +7958,7 @@ c5d.xlarge:
         Dedicated: 0.264
         Shared: 0.252
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.376
         Shared: 0.36
       ap-east-1:
@@ -8025,7 +8025,7 @@ c5d.xlarge:
         Dedicated: 0.304
         Shared: 0.292
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.46
         Shared: 0.444
       ap-east-1:
@@ -8113,7 +8113,7 @@ c5d.xlarge:
     - ap-east-1
     - us-west-2
     - eu-west-2
-    - Africa (Cape Town)
+    - af-south-1
   storage: 1 x 100 NVMe SSD
   vcpu: 4
 c5n.18xlarge:
@@ -9676,7 +9676,7 @@ d2.2xlarge:
   physicalProcessor: Intel Xeon E5-2676 v3 (Haswell)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.925
         Shared: 1.75
       ap-east-1:
@@ -9740,7 +9740,7 @@ d2.2xlarge:
         Dedicated: 1.518
         Shared: 1.38
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.055
         Shared: 1.88
       ap-east-1:
@@ -9804,7 +9804,7 @@ d2.2xlarge:
         Dedicated: 1.661
         Shared: 1.51
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.025
         Shared: 1.85
       ap-east-1:
@@ -9868,7 +9868,7 @@ d2.2xlarge:
         Dedicated: 1.628
         Shared: 1.48
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.293
         Shared: 2.118
       ap-east-1:
@@ -9935,7 +9935,7 @@ d2.2xlarge:
     - ap-southeast-2
     - us-east-2
     - eu-central-1
-    - Africa (Cape Town)
+    - af-south-1
     - AWS GovCloud (US-West)
     - us-west-1
     - ap-south-1
@@ -9968,7 +9968,7 @@ d2.4xlarge:
   physicalProcessor: Intel Xeon E5-2676 v3 (Haswell)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.85
         Shared: 3.5
       ap-east-1:
@@ -10032,7 +10032,7 @@ d2.4xlarge:
         Dedicated: 3.036
         Shared: 2.76
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.98
         Shared: 3.63
       ap-east-1:
@@ -10096,7 +10096,7 @@ d2.4xlarge:
         Dedicated: 3.179
         Shared: 2.89
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.95
         Shared: 3.6
       ap-east-1:
@@ -10160,7 +10160,7 @@ d2.4xlarge:
         Dedicated: 3.146
         Shared: 2.86
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.586
         Shared: 4.236
       ap-east-1:
@@ -10234,7 +10234,7 @@ d2.4xlarge:
     - us-gov-east-1
     - us-east-1
     - ap-southeast-2
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-2
     - eu-west-3
     - eu-west-1
@@ -10260,7 +10260,7 @@ d2.8xlarge:
   physicalProcessor: Intel Xeon E5-2676 v3 (Haswell)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7
         Shared: 7
       ap-east-1:
@@ -10324,7 +10324,7 @@ d2.8xlarge:
         Dedicated: 5.52
         Shared: 5.52
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.13
         Shared: 7.13
       ap-east-1:
@@ -10388,7 +10388,7 @@ d2.8xlarge:
         Dedicated: 5.65
         Shared: 5.65
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.1
         Shared: 7.1
       ap-east-1:
@@ -10452,7 +10452,7 @@ d2.8xlarge:
         Dedicated: 5.62
         Shared: 5.62
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 8.656
         Shared: 8.656
       ap-east-1:
@@ -10528,7 +10528,7 @@ d2.8xlarge:
     - eu-central-1
     - ap-southeast-2
     - ap-northeast-1
-    - Africa (Cape Town)
+    - af-south-1
     - ca-central-1
     - us-west-1
     - ap-east-1
@@ -10552,7 +10552,7 @@ d2.xlarge:
   physicalProcessor: Intel Xeon E5-2676 v3 (Haswell)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.963
         Shared: 0.875
       ap-east-1:
@@ -10616,7 +10616,7 @@ d2.xlarge:
         Dedicated: 0.759
         Shared: 0.69
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.023
         Shared: 0.935
       ap-east-1:
@@ -10680,7 +10680,7 @@ d2.xlarge:
         Dedicated: 0.825
         Shared: 0.75
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.063
         Shared: 0.975
       ap-east-1:
@@ -10744,7 +10744,7 @@ d2.xlarge:
         Dedicated: 0.869
         Shared: 0.79
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.147
         Shared: 1.059
       ap-east-1:
@@ -10816,7 +10816,7 @@ d2.xlarge:
     - eu-west-3
     - eu-central-1
     - ap-south-1
-    - Africa (Cape Town)
+    - af-south-1
     - ap-northeast-1
     - ca-central-1
     - us-east-1
@@ -14950,7 +14950,7 @@ i3.16xlarge:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.56
         Shared: 6.56
       ap-east-1:
@@ -15017,7 +15017,7 @@ i3.16xlarge:
         Dedicated: 4.992
         Shared: 4.992
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.69
         Shared: 6.69
       ap-east-1:
@@ -15084,7 +15084,7 @@ i3.16xlarge:
         Dedicated: 5.122
         Shared: 5.122
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.66
         Shared: 6.66
       ap-east-1:
@@ -15151,7 +15151,7 @@ i3.16xlarge:
         Dedicated: 5.092
         Shared: 5.092
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 9.504
         Shared: 9.504
       ap-east-1:
@@ -15236,7 +15236,7 @@ i3.16xlarge:
     - us-west-1
     - ap-northeast-2
     - ap-northeast-1
-    - Africa (Cape Town)
+    - af-south-1
     - AWS GovCloud (US-West)
     - us-gov-east-1
     - eu-north-1
@@ -15254,7 +15254,7 @@ i3.2xlarge:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.902
         Shared: 0.82
       ap-east-1:
@@ -15321,7 +15321,7 @@ i3.2xlarge:
         Dedicated: 0.686
         Shared: 0.624
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.032
         Shared: 0.95
       ap-east-1:
@@ -15388,7 +15388,7 @@ i3.2xlarge:
         Dedicated: 0.816
         Shared: 0.754
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.002
         Shared: 0.92
       ap-east-1:
@@ -15455,7 +15455,7 @@ i3.2xlarge:
         Dedicated: 0.786
         Shared: 0.724
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.27
         Shared: 1.188
       ap-east-1:
@@ -15534,7 +15534,7 @@ i3.2xlarge:
     - AWS GovCloud (US-West)
     - ap-northeast-2
     - ap-southeast-2
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-2
     - eu-west-3
     - eu-west-2
@@ -15558,7 +15558,7 @@ i3.4xlarge:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.804
         Shared: 1.64
       ap-east-1:
@@ -15625,7 +15625,7 @@ i3.4xlarge:
         Dedicated: 1.373
         Shared: 1.248
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.934
         Shared: 1.77
       ap-east-1:
@@ -15692,7 +15692,7 @@ i3.4xlarge:
         Dedicated: 1.503
         Shared: 1.378
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.904
         Shared: 1.74
       ap-east-1:
@@ -15759,7 +15759,7 @@ i3.4xlarge:
         Dedicated: 1.473
         Shared: 1.348
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.54
         Shared: 2.376
       ap-east-1:
@@ -15838,7 +15838,7 @@ i3.4xlarge:
     - sa-east-1
     - us-east-2
     - AWS GovCloud (US-West)
-    - Africa (Cape Town)
+    - af-south-1
     - ca-central-1
     - ap-southeast-1
     - ap-east-1
@@ -15862,7 +15862,7 @@ i3.8xlarge:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.608
         Shared: 3.28
       ap-east-1:
@@ -15929,7 +15929,7 @@ i3.8xlarge:
         Dedicated: 2.746
         Shared: 2.496
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.738
         Shared: 3.41
       ap-east-1:
@@ -15996,7 +15996,7 @@ i3.8xlarge:
         Dedicated: 2.876
         Shared: 2.626
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.708
         Shared: 3.38
       ap-east-1:
@@ -16063,7 +16063,7 @@ i3.8xlarge:
         Dedicated: 2.846
         Shared: 2.596
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.08
         Shared: 4.752
       ap-east-1:
@@ -16149,7 +16149,7 @@ i3.8xlarge:
     - ca-central-1
     - ap-northeast-3
     - eu-central-1
-    - Africa (Cape Town)
+    - af-south-1
     - ap-east-1
     - us-west-2
   storage: 4 x 1900 NVMe SSD
@@ -16166,7 +16166,7 @@ i3.large:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.226
         Shared: 0.205
       ap-east-1:
@@ -16233,7 +16233,7 @@ i3.large:
         Dedicated: 0.172
         Shared: 0.156
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.286
         Shared: 0.265
       ap-east-1:
@@ -16300,7 +16300,7 @@ i3.large:
         Dedicated: 0.232
         Shared: 0.216
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.326
         Shared: 0.305
       ap-east-1:
@@ -16367,7 +16367,7 @@ i3.large:
         Dedicated: 0.272
         Shared: 0.256
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.318
         Shared: 0.297
       ap-east-1:
@@ -16449,7 +16449,7 @@ i3.large:
     - AWS GovCloud (US-West)
     - sa-east-1
     - eu-west-3
-    - Africa (Cape Town)
+    - af-south-1
     - ap-southeast-1
     - ca-central-1
     - ap-northeast-2
@@ -16470,7 +16470,7 @@ i3.metal:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.56
         Shared: 6.56
       ap-northeast-1:
@@ -16498,7 +16498,7 @@ i3.metal:
         Dedicated: 4.992
         Shared: 4.992
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.69
         Shared: 6.69
       ap-northeast-1:
@@ -16526,7 +16526,7 @@ i3.metal:
         Dedicated: 5.122
         Shared: 5.122
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.66
         Shared: 6.66
       ap-northeast-1:
@@ -16554,7 +16554,7 @@ i3.metal:
         Dedicated: 5.092
         Shared: 5.092
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 9.504
         Shared: 9.504
       ap-northeast-1:
@@ -16585,7 +16585,7 @@ i3.metal:
     - AWS GovCloud (US-West)
     - ap-northeast-1
     - eu-west-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-2
     - us-west-1
     - eu-central-1
@@ -16609,7 +16609,7 @@ i3.xlarge:
   physicalProcessor: Intel Xeon E5-2686 v4 (Broadwell)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.451
         Shared: 0.41
       ap-east-1:
@@ -16676,7 +16676,7 @@ i3.xlarge:
         Dedicated: 0.343
         Shared: 0.312
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.511
         Shared: 0.47
       ap-east-1:
@@ -16743,7 +16743,7 @@ i3.xlarge:
         Dedicated: 0.403
         Shared: 0.372
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.551
         Shared: 0.51
       ap-east-1:
@@ -16810,7 +16810,7 @@ i3.xlarge:
         Dedicated: 0.443
         Shared: 0.412
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.635
         Shared: 0.594
       ap-east-1:
@@ -16878,7 +16878,7 @@ i3.xlarge:
         Shared: 0.312
   regions:
     - us-east-2
-    - Africa (Cape Town)
+    - af-south-1
     - ap-northeast-2
     - AWS GovCloud (US-West)
     - ap-southeast-2
@@ -22033,7 +22033,7 @@ m5.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.231
         Shared: 3.048
       ap-east-1:
@@ -22103,7 +22103,7 @@ m5.12xlarge:
         Dedicated: 2.932
         Shared: 2.765
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.361
         Shared: 3.178
       ap-east-1:
@@ -22173,7 +22173,7 @@ m5.12xlarge:
         Dedicated: 3.062
         Shared: 2.895
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.331
         Shared: 3.148
       ap-east-1:
@@ -22243,7 +22243,7 @@ m5.12xlarge:
         Dedicated: 3.032
         Shared: 2.865
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.439
         Shared: 5.256
       ap-east-1:
@@ -22325,7 +22325,7 @@ m5.12xlarge:
     - us-west-1
     - ap-south-1
     - ap-southeast-1
-    - Africa (Cape Town)
+    - af-south-1
     - ap-southeast-2
     - eu-central-1
     - ap-northeast-2
@@ -22350,7 +22350,7 @@ m5.16xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.308
         Shared: 4.064
       ap-east-1:
@@ -22420,7 +22420,7 @@ m5.16xlarge:
         Dedicated: 3.91
         Shared: 3.686
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.438
         Shared: 4.194
       ap-east-1:
@@ -22490,7 +22490,7 @@ m5.16xlarge:
         Dedicated: 4.04
         Shared: 3.816
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.408
         Shared: 4.164
       ap-east-1:
@@ -22560,7 +22560,7 @@ m5.16xlarge:
         Dedicated: 4.01
         Shared: 3.786
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.252
         Shared: 7.008
       ap-east-1:
@@ -22649,7 +22649,7 @@ m5.16xlarge:
     - eu-west-1
     - me-south-1
     - us-west-2
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-3
     - eu-west-2
     - ap-northeast-3
@@ -22667,7 +22667,7 @@ m5.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.096
         Shared: 6.096
       ap-east-1:
@@ -22737,7 +22737,7 @@ m5.24xlarge:
         Dedicated: 5.53
         Shared: 5.53
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.226
         Shared: 6.226
       ap-east-1:
@@ -22807,7 +22807,7 @@ m5.24xlarge:
         Dedicated: 5.66
         Shared: 5.66
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.196
         Shared: 6.196
       ap-east-1:
@@ -22877,7 +22877,7 @@ m5.24xlarge:
         Dedicated: 5.63
         Shared: 5.63
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 10.512
         Shared: 10.512
       ap-east-1:
@@ -22951,7 +22951,7 @@ m5.24xlarge:
     - eu-central-1
     - ap-south-1
     - ap-southeast-2
-    - Africa (Cape Town)
+    - af-south-1
     - sa-east-1
     - ap-northeast-2
     - ap-east-1
@@ -22984,7 +22984,7 @@ m5.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.538
         Shared: 0.508
       ap-east-1:
@@ -23054,7 +23054,7 @@ m5.2xlarge:
         Dedicated: 0.489
         Shared: 0.461
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.668
         Shared: 0.638
       ap-east-1:
@@ -23124,7 +23124,7 @@ m5.2xlarge:
         Dedicated: 0.619
         Shared: 0.591
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.638
         Shared: 0.608
       ap-east-1:
@@ -23194,7 +23194,7 @@ m5.2xlarge:
         Dedicated: 0.589
         Shared: 0.561
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.906
         Shared: 0.876
       ap-east-1:
@@ -23273,7 +23273,7 @@ m5.2xlarge:
     - eu-west-3
     - eu-west-2
     - us-gov-east-1
-    - Africa (Cape Town)
+    - af-south-1
     - ap-northeast-1
     - sa-east-1
     - AWS GovCloud (US-West)
@@ -23301,7 +23301,7 @@ m5.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.077
         Shared: 1.016
       ap-east-1:
@@ -23371,7 +23371,7 @@ m5.4xlarge:
         Dedicated: 0.977
         Shared: 0.922
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.207
         Shared: 1.146
       ap-east-1:
@@ -23441,7 +23441,7 @@ m5.4xlarge:
         Dedicated: 1.107
         Shared: 1.052
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.177
         Shared: 1.116
       ap-east-1:
@@ -23511,7 +23511,7 @@ m5.4xlarge:
         Dedicated: 1.077
         Shared: 1.022
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.813
         Shared: 1.752
       ap-east-1:
@@ -23595,7 +23595,7 @@ m5.4xlarge:
     - eu-north-1
     - ap-northeast-3
     - ca-central-1
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-3
     - ap-south-1
     - AWS GovCloud (US-West)
@@ -23618,7 +23618,7 @@ m5.8xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.154
         Shared: 2.032
       ap-east-1:
@@ -23688,7 +23688,7 @@ m5.8xlarge:
         Dedicated: 1.955
         Shared: 1.843
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.284
         Shared: 2.162
       ap-east-1:
@@ -23758,7 +23758,7 @@ m5.8xlarge:
         Dedicated: 2.085
         Shared: 1.973
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.254
         Shared: 2.132
       ap-east-1:
@@ -23828,7 +23828,7 @@ m5.8xlarge:
         Dedicated: 2.055
         Shared: 1.943
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.626
         Shared: 3.504
       ap-east-1:
@@ -23898,7 +23898,7 @@ m5.8xlarge:
         Dedicated: 3.427
         Shared: 3.315
   regions:
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-2
     - AWS GovCloud (US-West)
     - eu-west-1
@@ -23935,7 +23935,7 @@ m5.large:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.135
         Shared: 0.127
       ap-east-1:
@@ -24005,7 +24005,7 @@ m5.large:
         Dedicated: 0.122
         Shared: 0.115
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.195
         Shared: 0.187
       ap-east-1:
@@ -24075,7 +24075,7 @@ m5.large:
         Dedicated: 0.182
         Shared: 0.175
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.235
         Shared: 0.227
       ap-east-1:
@@ -24145,7 +24145,7 @@ m5.large:
         Dedicated: 0.222
         Shared: 0.215
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.227
         Shared: 0.219
       ap-east-1:
@@ -24232,7 +24232,7 @@ m5.large:
     - AWS GovCloud (US-West)
     - eu-west-3
     - me-south-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-1
     - eu-central-1
     - ca-central-1
@@ -24252,7 +24252,7 @@ m5.metal:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.096
         Shared: 6.096
       ap-east-1:
@@ -24322,7 +24322,7 @@ m5.metal:
         Dedicated: 5.53
         Shared: 5.53
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.226
         Shared: 6.226
       ap-east-1:
@@ -24392,7 +24392,7 @@ m5.metal:
         Dedicated: 5.66
         Shared: 5.66
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.196
         Shared: 6.196
       ap-east-1:
@@ -24462,7 +24462,7 @@ m5.metal:
         Dedicated: 5.63
         Shared: 5.63
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 10.512
         Shared: 10.512
       ap-east-1:
@@ -24534,7 +24534,7 @@ m5.metal:
   regions:
     - eu-west-2
     - eu-north-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-2-lax-1a
     - ap-northeast-1
     - eu-west-3
@@ -24569,7 +24569,7 @@ m5.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.269
         Shared: 0.254
       ap-east-1:
@@ -24639,7 +24639,7 @@ m5.xlarge:
         Dedicated: 0.244
         Shared: 0.23
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.329
         Shared: 0.314
       ap-east-1:
@@ -24709,7 +24709,7 @@ m5.xlarge:
         Dedicated: 0.304
         Shared: 0.29
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.369
         Shared: 0.354
       ap-east-1:
@@ -24779,7 +24779,7 @@ m5.xlarge:
         Dedicated: 0.344
         Shared: 0.33
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.453
         Shared: 0.438
       ap-east-1:
@@ -24857,7 +24857,7 @@ m5.xlarge:
     - ap-southeast-2
     - us-east-2
     - ap-northeast-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-1
     - ap-east-1
     - AWS GovCloud (US-West)
@@ -28538,7 +28538,7 @@ m5d.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.816
         Shared: 3.6
       ap-east-1:
@@ -28605,7 +28605,7 @@ m5d.12xlarge:
         Dedicated: 2.876
         Shared: 2.712
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.946
         Shared: 3.73
       ap-east-1:
@@ -28672,7 +28672,7 @@ m5d.12xlarge:
         Dedicated: 3.006
         Shared: 2.842
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.916
         Shared: 3.7
       ap-east-1:
@@ -28739,7 +28739,7 @@ m5d.12xlarge:
         Dedicated: 2.976
         Shared: 2.812
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.024
         Shared: 5.808
       ap-east-1:
@@ -28811,7 +28811,7 @@ m5d.12xlarge:
     - us-west-2
     - us-west-1
     - us-east-2
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-2
     - sa-east-1
     - eu-west-3
@@ -28842,7 +28842,7 @@ m5d.16xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.088
         Shared: 4.8
       ap-east-1:
@@ -28909,7 +28909,7 @@ m5d.16xlarge:
         Dedicated: 3.835
         Shared: 3.616
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.218
         Shared: 4.93
       ap-east-1:
@@ -28976,7 +28976,7 @@ m5d.16xlarge:
         Dedicated: 3.965
         Shared: 3.746
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.188
         Shared: 4.9
       ap-east-1:
@@ -29043,7 +29043,7 @@ m5d.16xlarge:
         Dedicated: 3.935
         Shared: 3.716
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 8.032
         Shared: 7.744
       ap-east-1:
@@ -29123,7 +29123,7 @@ m5d.16xlarge:
     - ap-south-1
     - ap-northeast-2
     - ap-southeast-1
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-2
     - sa-east-1
     - us-west-2
@@ -29146,7 +29146,7 @@ m5d.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.2
         Shared: 7.2
       ap-east-1:
@@ -29213,7 +29213,7 @@ m5d.24xlarge:
         Dedicated: 5.424
         Shared: 5.424
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.33
         Shared: 7.33
       ap-east-1:
@@ -29280,7 +29280,7 @@ m5d.24xlarge:
         Dedicated: 5.554
         Shared: 5.554
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.3
         Shared: 7.3
       ap-east-1:
@@ -29347,7 +29347,7 @@ m5d.24xlarge:
         Dedicated: 5.524
         Shared: 5.524
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 11.616
         Shared: 11.616
       ap-east-1:
@@ -29424,7 +29424,7 @@ m5d.24xlarge:
     - eu-west-1
     - eu-central-1
     - eu-west-3
-    - Africa (Cape Town)
+    - af-south-1
     - us-east-2
     - us-west-2
     - us-west-1
@@ -29450,7 +29450,7 @@ m5d.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.636
         Shared: 0.6
       ap-east-1:
@@ -29517,7 +29517,7 @@ m5d.2xlarge:
         Dedicated: 0.479
         Shared: 0.452
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.766
         Shared: 0.73
       ap-east-1:
@@ -29584,7 +29584,7 @@ m5d.2xlarge:
         Dedicated: 0.609
         Shared: 0.582
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.736
         Shared: 0.7
       ap-east-1:
@@ -29651,7 +29651,7 @@ m5d.2xlarge:
         Dedicated: 0.579
         Shared: 0.552
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.004
         Shared: 0.968
       ap-east-1:
@@ -29724,7 +29724,7 @@ m5d.2xlarge:
     - us-east-1
     - AWS GovCloud (US-West)
     - us-east-2
-    - Africa (Cape Town)
+    - af-south-1
     - eu-north-1
     - eu-central-1
     - ap-northeast-2
@@ -29754,7 +29754,7 @@ m5d.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.272
         Shared: 1.2
       ap-east-1:
@@ -29821,7 +29821,7 @@ m5d.4xlarge:
         Dedicated: 0.959
         Shared: 0.904
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.402
         Shared: 1.33
       ap-east-1:
@@ -29888,7 +29888,7 @@ m5d.4xlarge:
         Dedicated: 1.089
         Shared: 1.034
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.372
         Shared: 1.3
       ap-east-1:
@@ -29955,7 +29955,7 @@ m5d.4xlarge:
         Dedicated: 1.059
         Shared: 1.004
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.008
         Shared: 1.936
       ap-east-1:
@@ -30030,7 +30030,7 @@ m5d.4xlarge:
     - eu-west-1
     - ap-northeast-2
     - us-east-2
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-3
     - me-south-1
     - sa-east-1
@@ -30058,7 +30058,7 @@ m5d.8xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.544
         Shared: 2.4
       ap-east-1:
@@ -30125,7 +30125,7 @@ m5d.8xlarge:
         Dedicated: 1.918
         Shared: 1.808
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.674
         Shared: 2.53
       ap-east-1:
@@ -30192,7 +30192,7 @@ m5d.8xlarge:
         Dedicated: 2.048
         Shared: 1.938
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.644
         Shared: 2.5
       ap-east-1:
@@ -30259,7 +30259,7 @@ m5d.8xlarge:
         Dedicated: 2.018
         Shared: 1.908
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.016
         Shared: 3.872
       ap-east-1:
@@ -30332,7 +30332,7 @@ m5d.8xlarge:
     - ap-northeast-1
     - me-south-1
     - eu-west-3
-    - Africa (Cape Town)
+    - af-south-1
     - ap-south-1
     - ap-southeast-1
     - AWS GovCloud (US-West)
@@ -30362,7 +30362,7 @@ m5d.large:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.159
         Shared: 0.15
       ap-east-1:
@@ -30429,7 +30429,7 @@ m5d.large:
         Dedicated: 0.12
         Shared: 0.113
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.219
         Shared: 0.21
       ap-east-1:
@@ -30496,7 +30496,7 @@ m5d.large:
         Dedicated: 0.18
         Shared: 0.173
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.259
         Shared: 0.25
       ap-east-1:
@@ -30563,7 +30563,7 @@ m5d.large:
         Dedicated: 0.22
         Shared: 0.213
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.251
         Shared: 0.242
       ap-east-1:
@@ -30633,7 +30633,7 @@ m5d.large:
     - ap-northeast-3
     - AWS GovCloud (US-West)
     - sa-east-1
-    - Africa (Cape Town)
+    - af-south-1
     - eu-central-1
     - eu-west-2
     - eu-west-3
@@ -30666,7 +30666,7 @@ m5d.metal:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.2
         Shared: 7.2
       ap-east-1:
@@ -30733,7 +30733,7 @@ m5d.metal:
         Dedicated: 5.424
         Shared: 5.424
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.33
         Shared: 7.33
       ap-east-1:
@@ -30800,7 +30800,7 @@ m5d.metal:
         Dedicated: 5.554
         Shared: 5.554
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.3
         Shared: 7.3
       ap-east-1:
@@ -30867,7 +30867,7 @@ m5d.metal:
         Dedicated: 5.524
         Shared: 5.524
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 11.616
         Shared: 11.616
       ap-east-1:
@@ -30943,7 +30943,7 @@ m5d.metal:
     - us-east-1
     - us-east-2
     - eu-west-3
-    - Africa (Cape Town)
+    - af-south-1
     - us-gov-east-1
     - ap-southeast-1
     - ca-central-1
@@ -30970,7 +30970,7 @@ m5d.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.318
         Shared: 0.3
       ap-east-1:
@@ -31037,7 +31037,7 @@ m5d.xlarge:
         Dedicated: 0.24
         Shared: 0.226
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.378
         Shared: 0.36
       ap-east-1:
@@ -31104,7 +31104,7 @@ m5d.xlarge:
         Dedicated: 0.3
         Shared: 0.286
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.418
         Shared: 0.4
       ap-east-1:
@@ -31171,7 +31171,7 @@ m5d.xlarge:
         Dedicated: 0.34
         Shared: 0.326
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.502
         Shared: 0.484
       ap-east-1:
@@ -31250,7 +31250,7 @@ m5d.xlarge:
     - eu-west-1
     - us-west-1
     - us-east-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-gov-east-1
     - ca-central-1
     - ap-southeast-2
@@ -36613,7 +36613,7 @@ r5.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.274
         Shared: 4.032
       ap-east-1:
@@ -36683,7 +36683,7 @@ r5.12xlarge:
         Dedicated: 3.847
         Shared: 3.629
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.404
         Shared: 4.162
       ap-east-1:
@@ -36753,7 +36753,7 @@ r5.12xlarge:
         Dedicated: 3.977
         Shared: 3.759
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.424
         Shared: 4.182
       ap-east-1:
@@ -36823,7 +36823,7 @@ r5.12xlarge:
         Dedicated: 3.997
         Shared: 3.779
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.482
         Shared: 6.24
       ap-east-1:
@@ -36909,7 +36909,7 @@ r5.12xlarge:
     - ap-southeast-1
     - ap-south-1
     - us-east-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-gov-east-1
     - eu-north-1
     - ap-southeast-2
@@ -36930,7 +36930,7 @@ r5.16xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.699
         Shared: 5.376
       ap-east-1:
@@ -37000,7 +37000,7 @@ r5.16xlarge:
         Dedicated: 5.129
         Shared: 4.838
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.829
         Shared: 5.506
       ap-east-1:
@@ -37070,7 +37070,7 @@ r5.16xlarge:
         Dedicated: 5.259
         Shared: 4.968
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 5.849
         Shared: 5.526
       ap-east-1:
@@ -37140,7 +37140,7 @@ r5.16xlarge:
         Dedicated: 5.279
         Shared: 4.988
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 8.643
         Shared: 8.32
       ap-east-1:
@@ -37223,7 +37223,7 @@ r5.16xlarge:
     - ca-central-1
     - AWS GovCloud (US-West)
     - us-west-2
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-2
     - me-south-1
     - ap-southeast-2
@@ -37247,7 +37247,7 @@ r5.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 8.064
         Shared: 8.064
       ap-east-1:
@@ -37317,7 +37317,7 @@ r5.24xlarge:
         Dedicated: 7.258
         Shared: 7.258
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 8.194
         Shared: 8.194
       ap-east-1:
@@ -37387,7 +37387,7 @@ r5.24xlarge:
         Dedicated: 7.388
         Shared: 7.388
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 8.214
         Shared: 8.214
       ap-east-1:
@@ -37457,7 +37457,7 @@ r5.24xlarge:
         Dedicated: 7.408
         Shared: 7.408
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 12.48
         Shared: 12.48
       ap-east-1:
@@ -37549,7 +37549,7 @@ r5.24xlarge:
     - ap-southeast-2
     - us-east-2
     - sa-east-1
-    - Africa (Cape Town)
+    - af-south-1
   storage: EBS only
   vcpu: 96
 r5.2xlarge:
@@ -37564,7 +37564,7 @@ r5.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.712
         Shared: 0.672
       ap-east-1:
@@ -37634,7 +37634,7 @@ r5.2xlarge:
         Dedicated: 0.641
         Shared: 0.605
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.842
         Shared: 0.802
       ap-east-1:
@@ -37704,7 +37704,7 @@ r5.2xlarge:
         Dedicated: 0.771
         Shared: 0.735
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.862
         Shared: 0.822
       ap-east-1:
@@ -37774,7 +37774,7 @@ r5.2xlarge:
         Dedicated: 0.791
         Shared: 0.755
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.08
         Shared: 1.04
       ap-east-1:
@@ -37866,7 +37866,7 @@ r5.2xlarge:
     - eu-west-2
     - ca-central-1
     - ap-southeast-2
-    - Africa (Cape Town)
+    - af-south-1
   storage: EBS only
   vcpu: 8
 r5.4xlarge:
@@ -37881,7 +37881,7 @@ r5.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.425
         Shared: 1.344
       ap-east-1:
@@ -37951,7 +37951,7 @@ r5.4xlarge:
         Dedicated: 1.282
         Shared: 1.21
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.555
         Shared: 1.474
       ap-east-1:
@@ -38021,7 +38021,7 @@ r5.4xlarge:
         Dedicated: 1.412
         Shared: 1.34
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.575
         Shared: 1.494
       ap-east-1:
@@ -38091,7 +38091,7 @@ r5.4xlarge:
         Dedicated: 1.432
         Shared: 1.36
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.161
         Shared: 2.08
       ap-east-1:
@@ -38178,7 +38178,7 @@ r5.4xlarge:
     - ap-southeast-1
     - eu-west-3
     - us-west-2-lax-1a
-    - Africa (Cape Town)
+    - af-south-1
     - ap-northeast-2
     - us-east-1
     - us-gov-east-1
@@ -38198,7 +38198,7 @@ r5.8xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.849
         Shared: 2.688
       ap-east-1:
@@ -38268,7 +38268,7 @@ r5.8xlarge:
         Dedicated: 2.565
         Shared: 2.419
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.979
         Shared: 2.818
       ap-east-1:
@@ -38338,7 +38338,7 @@ r5.8xlarge:
         Dedicated: 2.695
         Shared: 2.549
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.999
         Shared: 2.838
       ap-east-1:
@@ -38408,7 +38408,7 @@ r5.8xlarge:
         Dedicated: 2.715
         Shared: 2.569
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.321
         Shared: 4.16
       ap-east-1:
@@ -38482,7 +38482,7 @@ r5.8xlarge:
     - eu-west-2
     - ap-northeast-2
     - ap-southeast-1
-    - Africa (Cape Town)
+    - af-south-1
     - eu-central-1
     - us-east-1
     - us-west-2
@@ -38515,7 +38515,7 @@ r5.large:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.178
         Shared: 0.168
       ap-east-1:
@@ -38585,7 +38585,7 @@ r5.large:
         Dedicated: 0.16
         Shared: 0.151
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.238
         Shared: 0.228
       ap-east-1:
@@ -38655,7 +38655,7 @@ r5.large:
         Dedicated: 0.22
         Shared: 0.211
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.241
         Shared: 0.231
       ap-east-1:
@@ -38725,7 +38725,7 @@ r5.large:
         Dedicated: 0.223
         Shared: 0.214
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.27
         Shared: 0.26
       ap-east-1:
@@ -38816,7 +38816,7 @@ r5.large:
     - eu-west-3
     - eu-central-1
     - ap-southeast-1
-    - Africa (Cape Town)
+    - af-south-1
     - ap-northeast-3
   storage: EBS only
   vcpu: 2
@@ -38832,7 +38832,7 @@ r5.metal:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 8.064
         Shared: 8.064
       ap-east-1:
@@ -38902,7 +38902,7 @@ r5.metal:
         Dedicated: 7.258
         Shared: 7.258
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 8.194
         Shared: 8.194
       ap-east-1:
@@ -38972,7 +38972,7 @@ r5.metal:
         Dedicated: 7.388
         Shared: 7.388
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 8.214
         Shared: 8.214
       ap-east-1:
@@ -39042,7 +39042,7 @@ r5.metal:
         Dedicated: 7.408
         Shared: 7.408
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 12.48
         Shared: 12.48
       ap-east-1:
@@ -39118,7 +39118,7 @@ r5.metal:
     - us-west-1
     - eu-central-1
     - AWS GovCloud (US-West)
-    - Africa (Cape Town)
+    - af-south-1
     - ap-southeast-1
     - us-east-1
     - ap-northeast-1
@@ -39149,7 +39149,7 @@ r5.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.356
         Shared: 0.336
       ap-east-1:
@@ -39219,7 +39219,7 @@ r5.xlarge:
         Dedicated: 0.321
         Shared: 0.302
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.416
         Shared: 0.396
       ap-east-1:
@@ -39289,7 +39289,7 @@ r5.xlarge:
         Dedicated: 0.381
         Shared: 0.362
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.481
         Shared: 0.461
       ap-east-1:
@@ -39359,7 +39359,7 @@ r5.xlarge:
         Dedicated: 0.446
         Shared: 0.427
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.54
         Shared: 0.52
       ap-east-1:
@@ -39429,7 +39429,7 @@ r5.xlarge:
         Dedicated: 0.505
         Shared: 0.486
   regions:
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-2
     - us-west-1
     - ap-southeast-2
@@ -43118,7 +43118,7 @@ r5d.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.834
         Shared: 4.56
       ap-east-1:
@@ -43188,7 +43188,7 @@ r5d.12xlarge:
         Dedicated: 4.396
         Shared: 4.147
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.964
         Shared: 4.69
       ap-east-1:
@@ -43258,7 +43258,7 @@ r5d.12xlarge:
         Dedicated: 4.526
         Shared: 4.277
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.984
         Shared: 4.71
       ap-east-1:
@@ -43328,7 +43328,7 @@ r5d.12xlarge:
         Dedicated: 4.546
         Shared: 4.297
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 7.042
         Shared: 6.768
       ap-east-1:
@@ -43410,7 +43410,7 @@ r5d.12xlarge:
     - us-west-2
     - sa-east-1
     - ap-east-1
-    - Africa (Cape Town)
+    - af-south-1
     - eu-central-1
     - us-gov-east-1
     - us-west-2-lax-1a
@@ -43435,7 +43435,7 @@ r5d.16xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.445
         Shared: 6.08
       ap-east-1:
@@ -43505,7 +43505,7 @@ r5d.16xlarge:
         Dedicated: 5.861
         Shared: 5.53
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.575
         Shared: 6.21
       ap-east-1:
@@ -43575,7 +43575,7 @@ r5d.16xlarge:
         Dedicated: 5.991
         Shared: 5.66
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 6.595
         Shared: 6.23
       ap-east-1:
@@ -43645,7 +43645,7 @@ r5d.16xlarge:
         Dedicated: 6.011
         Shared: 5.68
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 9.389
         Shared: 9.024
       ap-east-1:
@@ -43732,7 +43732,7 @@ r5d.16xlarge:
     - ap-northeast-1
     - ap-northeast-2
     - ca-central-1
-    - Africa (Cape Town)
+    - af-south-1
     - ap-southeast-2
     - us-west-1
     - sa-east-1
@@ -43752,7 +43752,7 @@ r5d.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 9.12
         Shared: 9.12
       ap-east-1:
@@ -43822,7 +43822,7 @@ r5d.24xlarge:
         Dedicated: 8.294
         Shared: 8.294
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 9.25
         Shared: 9.25
       ap-east-1:
@@ -43892,7 +43892,7 @@ r5d.24xlarge:
         Dedicated: 8.424
         Shared: 8.424
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 9.27
         Shared: 9.27
       ap-east-1:
@@ -43962,7 +43962,7 @@ r5d.24xlarge:
         Dedicated: 8.444
         Shared: 8.444
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 13.536
         Shared: 13.536
       ap-east-1:
@@ -44044,7 +44044,7 @@ r5d.24xlarge:
     - ap-east-1
     - me-south-1
     - eu-north-1
-    - Africa (Cape Town)
+    - af-south-1
     - ap-south-1
     - us-west-2-lax-1a
     - sa-east-1
@@ -44069,7 +44069,7 @@ r5d.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.806
         Shared: 0.76
       ap-east-1:
@@ -44139,7 +44139,7 @@ r5d.2xlarge:
         Dedicated: 0.733
         Shared: 0.691
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.936
         Shared: 0.89
       ap-east-1:
@@ -44209,7 +44209,7 @@ r5d.2xlarge:
         Dedicated: 0.863
         Shared: 0.821
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.956
         Shared: 0.91
       ap-east-1:
@@ -44279,7 +44279,7 @@ r5d.2xlarge:
         Dedicated: 0.883
         Shared: 0.841
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.174
         Shared: 1.128
       ap-east-1:
@@ -44371,7 +44371,7 @@ r5d.2xlarge:
     - ap-east-1
     - us-west-1
     - ap-northeast-1
-    - Africa (Cape Town)
+    - af-south-1
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 r5d.4xlarge:
@@ -44386,7 +44386,7 @@ r5d.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.611
         Shared: 1.52
       ap-east-1:
@@ -44456,7 +44456,7 @@ r5d.4xlarge:
         Dedicated: 1.465
         Shared: 1.382
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.741
         Shared: 1.65
       ap-east-1:
@@ -44526,7 +44526,7 @@ r5d.4xlarge:
         Dedicated: 1.595
         Shared: 1.512
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 1.761
         Shared: 1.67
       ap-east-1:
@@ -44596,7 +44596,7 @@ r5d.4xlarge:
         Dedicated: 1.615
         Shared: 1.532
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 2.347
         Shared: 2.256
       ap-east-1:
@@ -44669,7 +44669,7 @@ r5d.4xlarge:
     - ap-southeast-1
     - ap-northeast-2
     - ca-central-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-gov-east-1
     - eu-west-1
     - ap-southeast-2
@@ -44703,7 +44703,7 @@ r5d.8xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.222
         Shared: 3.04
       ap-east-1:
@@ -44773,7 +44773,7 @@ r5d.8xlarge:
         Dedicated: 2.93
         Shared: 2.765
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.352
         Shared: 3.17
       ap-east-1:
@@ -44843,7 +44843,7 @@ r5d.8xlarge:
         Dedicated: 3.06
         Shared: 2.895
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 3.372
         Shared: 3.19
       ap-east-1:
@@ -44913,7 +44913,7 @@ r5d.8xlarge:
         Dedicated: 3.08
         Shared: 2.915
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 4.694
         Shared: 4.512
       ap-east-1:
@@ -44986,7 +44986,7 @@ r5d.8xlarge:
     - eu-west-1
     - eu-west-3
     - ca-central-1
-    - Africa (Cape Town)
+    - af-south-1
     - sa-east-1
     - ap-southeast-2
     - us-east-2
@@ -45020,7 +45020,7 @@ r5d.large:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.201
         Shared: 0.19
       ap-east-1:
@@ -45090,7 +45090,7 @@ r5d.large:
         Dedicated: 0.183
         Shared: 0.173
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.261
         Shared: 0.25
       ap-east-1:
@@ -45160,7 +45160,7 @@ r5d.large:
         Dedicated: 0.243
         Shared: 0.233
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.264
         Shared: 0.253
       ap-east-1:
@@ -45230,7 +45230,7 @@ r5d.large:
         Dedicated: 0.246
         Shared: 0.236
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.293
         Shared: 0.282
       ap-east-1:
@@ -45315,7 +45315,7 @@ r5d.large:
     - ap-south-1
     - sa-east-1
     - us-gov-east-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-2-lax-1a
     - me-south-1
     - ap-southeast-2
@@ -45337,7 +45337,7 @@ r5d.metal:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 9.12
         Shared: 9.12
       ap-east-1:
@@ -45407,7 +45407,7 @@ r5d.metal:
         Dedicated: 8.294
         Shared: 8.294
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 9.25
         Shared: 9.25
       ap-east-1:
@@ -45477,7 +45477,7 @@ r5d.metal:
         Dedicated: 8.424
         Shared: 8.424
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 9.27
         Shared: 9.27
       ap-east-1:
@@ -45547,7 +45547,7 @@ r5d.metal:
         Dedicated: 8.444
         Shared: 8.444
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 13.536
         Shared: 13.536
       ap-east-1:
@@ -45617,7 +45617,7 @@ r5d.metal:
         Dedicated: 12.71
         Shared: 12.71
   regions:
-    - Africa (Cape Town)
+    - af-south-1
     - eu-north-1
     - ap-east-1
     - us-west-1
@@ -45654,7 +45654,7 @@ r5d.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.403
         Shared: 0.38
       ap-east-1:
@@ -45724,7 +45724,7 @@ r5d.xlarge:
         Dedicated: 0.366
         Shared: 0.346
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.463
         Shared: 0.44
       ap-east-1:
@@ -45794,7 +45794,7 @@ r5d.xlarge:
         Dedicated: 0.426
         Shared: 0.406
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.528
         Shared: 0.505
       ap-east-1:
@@ -45864,7 +45864,7 @@ r5d.xlarge:
         Dedicated: 0.491
         Shared: 0.471
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.587
         Shared: 0.564
       ap-east-1:
@@ -45952,7 +45952,7 @@ r5d.xlarge:
     - ap-southeast-2
     - eu-central-1
     - ap-northeast-3
-    - Africa (Cape Town)
+    - af-south-1
     - ca-central-1
     - eu-west-3
     - AWS GovCloud (US-West)
@@ -48969,7 +48969,7 @@ t3.2xlarge:
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.46
         Shared: 0.4339
       ap-east-1:
@@ -49032,7 +49032,7 @@ t3.2xlarge:
         Dedicated: 0.4239
         Shared: 0.3994
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.59
         Shared: 0.5639
       ap-east-1:
@@ -49095,7 +49095,7 @@ t3.2xlarge:
         Dedicated: 0.5539
         Shared: 0.5294
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.61
         Shared: 0.5839
       ap-east-1:
@@ -49158,7 +49158,7 @@ t3.2xlarge:
         Dedicated: 0.5739
         Shared: 0.5494
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.6072
         Shared: 0.5811
       ap-east-1:
@@ -49225,7 +49225,7 @@ t3.2xlarge:
     - us-west-2
     - ap-northeast-1
     - ap-southeast-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-east-2
     - us-gov-east-1
     - ap-south-1
@@ -49258,7 +49258,7 @@ t3.large:
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.115
         Shared: 0.1085
       ap-east-1:
@@ -49321,7 +49321,7 @@ t3.large:
         Dedicated: 0.106
         Shared: 0.0998
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.175
         Shared: 0.1685
       ap-east-1:
@@ -49384,7 +49384,7 @@ t3.large:
         Dedicated: 0.166
         Shared: 0.1598
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.178
         Shared: 0.1715
       ap-east-1:
@@ -49447,7 +49447,7 @@ t3.large:
         Dedicated: 0.169
         Shared: 0.1628
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.1426
         Shared: 0.1361
       ap-east-1:
@@ -49513,7 +49513,7 @@ t3.large:
     - ap-south-1
     - ap-northeast-1
     - me-south-1
-    - Africa (Cape Town)
+    - af-south-1
     - ap-southeast-2
     - eu-west-1
     - AWS GovCloud (US-West)
@@ -49547,7 +49547,7 @@ t3.medium:
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0575
         Shared: 0.0542
       ap-east-1:
@@ -49610,7 +49610,7 @@ t3.medium:
         Dedicated: 0.053
         Shared: 0.0499
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.1175
         Shared: 0.1142
       ap-east-1:
@@ -49673,7 +49673,7 @@ t3.medium:
         Dedicated: 0.113
         Shared: 0.1099
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.1205
         Shared: 0.1172
       ap-east-1:
@@ -49736,7 +49736,7 @@ t3.medium:
         Dedicated: 0.116
         Shared: 0.1129
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0759
         Shared: 0.0726
       ap-east-1:
@@ -49810,7 +49810,7 @@ t3.medium:
     - sa-east-1
     - eu-west-2
     - us-west-1
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-1
     - me-south-1
     - us-east-1
@@ -49836,7 +49836,7 @@ t3.micro:
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0144
         Shared: 0.0136
       ap-east-1:
@@ -49899,7 +49899,7 @@ t3.micro:
         Dedicated: 0.0132
         Shared: 0.0125
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0744
         Shared: 0.0736
       ap-east-1:
@@ -49962,7 +49962,7 @@ t3.micro:
         Dedicated: 0.0732
         Shared: 0.0725
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0144
         Shared: 0.0136
       ap-east-1:
@@ -50025,7 +50025,7 @@ t3.micro:
         Dedicated: 0.0132
         Shared: 0.0125
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0236
         Shared: 0.0228
       ap-east-1:
@@ -50106,7 +50106,7 @@ t3.micro:
     - ap-southeast-2
     - ca-central-1
     - eu-north-1
-    - Africa (Cape Town)
+    - af-south-1
     - me-south-1
     - ap-northeast-1
     - us-east-1
@@ -50125,7 +50125,7 @@ t3.nano:
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0068
         Shared: 0.0068
       ap-east-1:
@@ -50188,7 +50188,7 @@ t3.nano:
         Dedicated: 0.0062
         Shared: 0.0062
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0068
         Shared: 0.0068
       ap-east-1:
@@ -50251,7 +50251,7 @@ t3.nano:
         Dedicated: 0.0062
         Shared: 0.0062
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0114
         Shared: 0.0114
       ap-east-1:
@@ -50323,7 +50323,7 @@ t3.nano:
     - ap-northeast-2
     - sa-east-1
     - ap-southeast-1
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-1
     - ap-northeast-1
     - eu-west-3
@@ -50351,7 +50351,7 @@ t3.small:
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0287
         Shared: 0.0271
       ap-east-1:
@@ -50414,7 +50414,7 @@ t3.small:
         Dedicated: 0.0265
         Shared: 0.025
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0887
         Shared: 0.0871
       ap-east-1:
@@ -50477,7 +50477,7 @@ t3.small:
         Dedicated: 0.0865
         Shared: 0.085
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0597
         Shared: 0.0581
       ap-east-1:
@@ -50540,7 +50540,7 @@ t3.small:
         Dedicated: 0.0575
         Shared: 0.056
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.0471
         Shared: 0.0455
       ap-east-1:
@@ -50612,7 +50612,7 @@ t3.small:
     - eu-central-1
     - ap-northeast-3
     - AWS GovCloud (US-West)
-    - Africa (Cape Town)
+    - af-south-1
     - us-west-2-lax-1a
     - us-east-2
     - ca-central-1
@@ -50640,7 +50640,7 @@ t3.xlarge:
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
     Linux:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.23
         Shared: 0.217
       ap-east-1:
@@ -50703,7 +50703,7 @@ t3.xlarge:
         Dedicated: 0.212
         Shared: 0.1997
     RHEL:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.29
         Shared: 0.277
       ap-east-1:
@@ -50766,7 +50766,7 @@ t3.xlarge:
         Dedicated: 0.272
         Shared: 0.2597
     SUSE:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.355
         Shared: 0.342
       ap-east-1:
@@ -50829,7 +50829,7 @@ t3.xlarge:
         Dedicated: 0.337
         Shared: 0.3247
     Windows:
-      Africa (Cape Town):
+      af-south-1:
         Dedicated: 0.3036
         Shared: 0.2906
       ap-east-1:
@@ -50898,7 +50898,7 @@ t3.xlarge:
     - eu-west-3
     - us-east-1
     - ap-east-1
-    - Africa (Cape Town)
+    - af-south-1
     - eu-west-1
     - eu-west-2
     - us-west-1
