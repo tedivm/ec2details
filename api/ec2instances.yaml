@@ -51080,9 +51080,9 @@ t3a.2xlarge:
     - us-gov-east-1
     - ap-northeast-2
     - ap-southeast-2
+    - AWS GovCloud (US-West)
     - us-west-2
     - eu-central-1
-    - AWS GovCloud (US-West)
     - eu-west-1
     - ca-central-1
     - ap-southeast-1
@@ -51422,10 +51422,10 @@ t3a.medium:
     - ca-central-1
     - us-east-2
     - eu-west-2
+    - AWS GovCloud (US-West)
     - eu-central-1
     - eu-west-3
     - eu-west-1
-    - AWS GovCloud (US-West)
     - us-west-2
     - ap-northeast-2
   storage: EBS only
@@ -51583,6 +51583,7 @@ t3a.micro:
         Shared: 0.0186
   regions:
     - eu-west-1
+    - AWS GovCloud (US-West)
     - us-gov-east-1
     - us-east-2
     - ap-southeast-1
@@ -51591,7 +51592,6 @@ t3a.micro:
     - us-east-1
     - eu-central-1
     - us-west-2
-    - AWS GovCloud (US-West)
     - ap-south-1
     - eu-west-2
     - ap-southeast-2
