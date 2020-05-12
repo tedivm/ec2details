@@ -33605,16 +33605,69 @@ m6g.12xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 2.52
+        Shared: 2.376
+      eu-central-1:
+        Dedicated: 2.34
+        Shared: 2.208
+      eu-west-1:
+        Dedicated: 2.1864
+        Shared: 2.064
       us-east-1:
+        Dedicated: 1.9584
+        Shared: 1.848
+      us-east-2:
+        Dedicated: 1.9584
+        Shared: 1.848
+      us-west-2:
+        Dedicated: 1.9584
         Shared: 1.848
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.65
+        Shared: 2.506
+      eu-central-1:
+        Dedicated: 2.47
+        Shared: 2.338
+      eu-west-1:
+        Dedicated: 2.3164
+        Shared: 2.194
       us-east-1:
+        Dedicated: 2.0884
+        Shared: 1.978
+      us-east-2:
+        Dedicated: 2.0884
+        Shared: 1.978
+      us-west-2:
+        Dedicated: 2.0884
         Shared: 1.978
     SUSE:
+      ap-northeast-1:
+        Dedicated: 2.67
+        Shared: 2.526
+      eu-central-1:
+        Dedicated: 2.49
+        Shared: 2.358
+      eu-west-1:
+        Dedicated: 2.3364
+        Shared: 2.214
       us-east-1:
+        Dedicated: 2.1084
+        Shared: 1.998
+      us-east-2:
+        Dedicated: 2.1084
+        Shared: 1.998
+      us-west-2:
+        Dedicated: 2.1084
         Shared: 1.998
   regions:
     - us-east-1
+    - ap-northeast-1
+    - eu-west-1
+    - us-east-2
+    - eu-central-1
+    - us-west-2
   storage: EBS only
   vcpu: 48
 m6g.16xlarge:
@@ -33627,16 +33680,69 @@ m6g.16xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 3.36
+        Shared: 3.168
+      eu-central-1:
+        Dedicated: 3.12
+        Shared: 2.944
+      eu-west-1:
+        Dedicated: 2.9152
+        Shared: 2.752
       us-east-1:
+        Dedicated: 2.6112
+        Shared: 2.464
+      us-east-2:
+        Dedicated: 2.6112
+        Shared: 2.464
+      us-west-2:
+        Dedicated: 2.6112
         Shared: 2.464
     RHEL:
+      ap-northeast-1:
+        Dedicated: 3.49
+        Shared: 3.298
+      eu-central-1:
+        Dedicated: 3.25
+        Shared: 3.074
+      eu-west-1:
+        Dedicated: 3.0452
+        Shared: 2.882
       us-east-1:
+        Dedicated: 2.7412
+        Shared: 2.594
+      us-east-2:
+        Dedicated: 2.7412
+        Shared: 2.594
+      us-west-2:
+        Dedicated: 2.7412
         Shared: 2.594
     SUSE:
+      ap-northeast-1:
+        Dedicated: 3.51
+        Shared: 3.318
+      eu-central-1:
+        Dedicated: 3.27
+        Shared: 3.094
+      eu-west-1:
+        Dedicated: 3.0652
+        Shared: 2.902
       us-east-1:
+        Dedicated: 2.7612
+        Shared: 2.614
+      us-east-2:
+        Dedicated: 2.7612
+        Shared: 2.614
+      us-west-2:
+        Dedicated: 2.7612
         Shared: 2.614
   regions:
+    - eu-central-1
+    - us-west-2
+    - eu-west-1
     - us-east-1
+    - us-east-2
+    - ap-northeast-1
   storage: EBS only
   vcpu: 64
 m6g.2xlarge:
@@ -33649,15 +33755,68 @@ m6g.2xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.42
+        Shared: 0.396
+      eu-central-1:
+        Dedicated: 0.39
+        Shared: 0.368
+      eu-west-1:
+        Dedicated: 0.3644
+        Shared: 0.344
       us-east-1:
+        Dedicated: 0.3264
+        Shared: 0.308
+      us-east-2:
+        Dedicated: 0.3264
+        Shared: 0.308
+      us-west-2:
+        Dedicated: 0.3264
         Shared: 0.308
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.55
+        Shared: 0.526
+      eu-central-1:
+        Dedicated: 0.52
+        Shared: 0.498
+      eu-west-1:
+        Dedicated: 0.4944
+        Shared: 0.474
       us-east-1:
+        Dedicated: 0.4564
+        Shared: 0.438
+      us-east-2:
+        Dedicated: 0.4564
+        Shared: 0.438
+      us-west-2:
+        Dedicated: 0.4564
         Shared: 0.438
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.57
+        Shared: 0.546
+      eu-central-1:
+        Dedicated: 0.54
+        Shared: 0.518
+      eu-west-1:
+        Dedicated: 0.5144
+        Shared: 0.494
       us-east-1:
+        Dedicated: 0.4764
+        Shared: 0.458
+      us-east-2:
+        Dedicated: 0.4764
+        Shared: 0.458
+      us-west-2:
+        Dedicated: 0.4764
         Shared: 0.458
   regions:
+    - eu-west-1
+    - us-west-2
+    - ap-northeast-1
+    - eu-central-1
+    - us-east-2
     - us-east-1
   storage: EBS only
   vcpu: 8
@@ -33671,15 +33830,68 @@ m6g.4xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.84
+        Shared: 0.792
+      eu-central-1:
+        Dedicated: 0.78
+        Shared: 0.736
+      eu-west-1:
+        Dedicated: 0.7288
+        Shared: 0.688
       us-east-1:
+        Dedicated: 0.6528
+        Shared: 0.616
+      us-east-2:
+        Dedicated: 0.6528
+        Shared: 0.616
+      us-west-2:
+        Dedicated: 0.6528
         Shared: 0.616
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.97
+        Shared: 0.922
+      eu-central-1:
+        Dedicated: 0.91
+        Shared: 0.866
+      eu-west-1:
+        Dedicated: 0.8588
+        Shared: 0.818
       us-east-1:
+        Dedicated: 0.7828
+        Shared: 0.746
+      us-east-2:
+        Dedicated: 0.7828
+        Shared: 0.746
+      us-west-2:
+        Dedicated: 0.7828
         Shared: 0.746
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.99
+        Shared: 0.942
+      eu-central-1:
+        Dedicated: 0.93
+        Shared: 0.886
+      eu-west-1:
+        Dedicated: 0.8788
+        Shared: 0.838
       us-east-1:
+        Dedicated: 0.8028
+        Shared: 0.766
+      us-east-2:
+        Dedicated: 0.8028
+        Shared: 0.766
+      us-west-2:
+        Dedicated: 0.8028
         Shared: 0.766
   regions:
+    - eu-central-1
+    - us-west-2
+    - eu-west-1
+    - ap-northeast-1
+    - us-east-2
     - us-east-1
   storage: EBS only
   vcpu: 16
@@ -33693,16 +33905,69 @@ m6g.8xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.68
+        Shared: 1.584
+      eu-central-1:
+        Dedicated: 1.56
+        Shared: 1.472
+      eu-west-1:
+        Dedicated: 1.4576
+        Shared: 1.376
       us-east-1:
+        Dedicated: 1.3056
+        Shared: 1.232
+      us-east-2:
+        Dedicated: 1.3056
+        Shared: 1.232
+      us-west-2:
+        Dedicated: 1.3056
         Shared: 1.232
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.81
+        Shared: 1.714
+      eu-central-1:
+        Dedicated: 1.69
+        Shared: 1.602
+      eu-west-1:
+        Dedicated: 1.5876
+        Shared: 1.506
       us-east-1:
+        Dedicated: 1.4356
+        Shared: 1.362
+      us-east-2:
+        Dedicated: 1.4356
+        Shared: 1.362
+      us-west-2:
+        Dedicated: 1.4356
         Shared: 1.362
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.83
+        Shared: 1.734
+      eu-central-1:
+        Dedicated: 1.71
+        Shared: 1.622
+      eu-west-1:
+        Dedicated: 1.6076
+        Shared: 1.526
       us-east-1:
+        Dedicated: 1.4556
+        Shared: 1.382
+      us-east-2:
+        Dedicated: 1.4556
+        Shared: 1.382
+      us-west-2:
+        Dedicated: 1.4556
         Shared: 1.382
   regions:
+    - eu-west-1
+    - ap-northeast-1
     - us-east-1
+    - us-east-2
+    - us-west-2
+    - eu-central-1
   storage: EBS only
   vcpu: 32
 m6g.large:
@@ -33715,16 +33980,69 @@ m6g.large:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.105
+        Shared: 0.099
+      eu-central-1:
+        Dedicated: 0.0975
+        Shared: 0.092
+      eu-west-1:
+        Dedicated: 0.0911
+        Shared: 0.086
       us-east-1:
+        Dedicated: 0.0816
+        Shared: 0.077
+      us-east-2:
+        Dedicated: 0.0816
+        Shared: 0.077
+      us-west-2:
+        Dedicated: 0.0816
         Shared: 0.077
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.165
+        Shared: 0.159
+      eu-central-1:
+        Dedicated: 0.1575
+        Shared: 0.152
+      eu-west-1:
+        Dedicated: 0.1511
+        Shared: 0.146
       us-east-1:
+        Dedicated: 0.1416
+        Shared: 0.137
+      us-east-2:
+        Dedicated: 0.1416
+        Shared: 0.137
+      us-west-2:
+        Dedicated: 0.1416
         Shared: 0.137
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.168
+        Shared: 0.162
+      eu-central-1:
+        Dedicated: 0.1605
+        Shared: 0.155
+      eu-west-1:
+        Dedicated: 0.1541
+        Shared: 0.149
       us-east-1:
+        Dedicated: 0.1446
+        Shared: 0.14
+      us-east-2:
+        Dedicated: 0.1446
+        Shared: 0.14
+      us-west-2:
+        Dedicated: 0.1446
         Shared: 0.14
   regions:
     - us-east-1
+    - eu-west-1
+    - ap-northeast-1
+    - us-west-2
+    - us-east-2
+    - eu-central-1
   storage: EBS only
   vcpu: 2
 m6g.medium:
@@ -33737,18 +34055,146 @@ m6g.medium:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.0525
+        Shared: 0.0495
+      eu-central-1:
+        Dedicated: 0.0487
+        Shared: 0.046
+      eu-west-1:
+        Dedicated: 0.0455
+        Shared: 0.043
       us-east-1:
+        Dedicated: 0.0408
+        Shared: 0.0385
+      us-east-2:
+        Dedicated: 0.0408
+        Shared: 0.0385
+      us-west-2:
+        Dedicated: 0.0408
         Shared: 0.0385
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.1125
+        Shared: 0.1095
+      eu-central-1:
+        Dedicated: 0.1087
+        Shared: 0.106
+      eu-west-1:
+        Dedicated: 0.1055
+        Shared: 0.103
       us-east-1:
+        Dedicated: 0.1008
+        Shared: 0.0985
+      us-east-2:
+        Dedicated: 0.1008
+        Shared: 0.0985
+      us-west-2:
+        Dedicated: 0.1008
         Shared: 0.0985
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.0835
+        Shared: 0.0805
+      eu-central-1:
+        Dedicated: 0.0797
+        Shared: 0.077
+      eu-west-1:
+        Dedicated: 0.0765
+        Shared: 0.074
       us-east-1:
+        Dedicated: 0.0718
+        Shared: 0.0695
+      us-east-2:
+        Dedicated: 0.0718
+        Shared: 0.0695
+      us-west-2:
+        Dedicated: 0.0718
         Shared: 0.0695
   regions:
+    - eu-west-1
     - us-east-1
+    - eu-central-1
+    - ap-northeast-1
+    - us-west-2
+    - us-east-2
   storage: EBS only
   vcpu: 1
+m6g.metal:
+  currentGeneration: true
+  dedicatedEbsThroughput: 18000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 256 GiB
+  networkPerformance: 25 Gigabit
+  normalizationSizeFactor: 128
+  physicalProcessor: AWS Graviton2 Processor
+  prices:
+    Linux:
+      ap-northeast-1:
+        Dedicated: 3.36
+        Shared: 3.168
+      eu-central-1:
+        Dedicated: 3.12
+        Shared: 2.944
+      eu-west-1:
+        Dedicated: 2.9152
+        Shared: 2.752
+      us-east-1:
+        Dedicated: 2.6112
+        Shared: 2.464
+      us-east-2:
+        Dedicated: 2.6112
+        Shared: 2.464
+      us-west-2:
+        Dedicated: 2.6112
+        Shared: 2.464
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 3.49
+        Shared: 3.298
+      eu-central-1:
+        Dedicated: 3.25
+        Shared: 3.074
+      eu-west-1:
+        Dedicated: 3.0452
+        Shared: 2.882
+      us-east-1:
+        Dedicated: 2.7412
+        Shared: 2.594
+      us-east-2:
+        Dedicated: 2.7412
+        Shared: 2.594
+      us-west-2:
+        Dedicated: 2.7412
+        Shared: 2.594
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 3.51
+        Shared: 3.318
+      eu-central-1:
+        Dedicated: 3.27
+        Shared: 3.094
+      eu-west-1:
+        Dedicated: 3.0652
+        Shared: 2.902
+      us-east-1:
+        Dedicated: 2.7612
+        Shared: 2.614
+      us-east-2:
+        Dedicated: 2.7612
+        Shared: 2.614
+      us-west-2:
+        Dedicated: 2.7612
+        Shared: 2.614
+  regions:
+    - us-east-2
+    - eu-central-1
+    - us-west-2
+    - us-east-1
+    - eu-west-1
+    - ap-northeast-1
+  storage: EBS only
+  vcpu: 64
 m6g.xlarge:
   currentGeneration: true
   dedicatedEbsThroughput: 1125 Mbps
@@ -33759,16 +34205,69 @@ m6g.xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.21
+        Shared: 0.198
+      eu-central-1:
+        Dedicated: 0.195
+        Shared: 0.184
+      eu-west-1:
+        Dedicated: 0.1822
+        Shared: 0.172
       us-east-1:
+        Dedicated: 0.1632
+        Shared: 0.154
+      us-east-2:
+        Dedicated: 0.1632
+        Shared: 0.154
+      us-west-2:
+        Dedicated: 0.1632
         Shared: 0.154
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.27
+        Shared: 0.258
+      eu-central-1:
+        Dedicated: 0.255
+        Shared: 0.244
+      eu-west-1:
+        Dedicated: 0.2422
+        Shared: 0.232
       us-east-1:
+        Dedicated: 0.2232
+        Shared: 0.214
+      us-east-2:
+        Dedicated: 0.2232
+        Shared: 0.214
+      us-west-2:
+        Dedicated: 0.2232
         Shared: 0.214
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.335
+        Shared: 0.323
+      eu-central-1:
+        Dedicated: 0.32
+        Shared: 0.309
+      eu-west-1:
+        Dedicated: 0.3072
+        Shared: 0.297
       us-east-1:
+        Dedicated: 0.2882
+        Shared: 0.279
+      us-east-2:
+        Dedicated: 0.2882
+        Shared: 0.279
+      us-west-2:
+        Dedicated: 0.2882
         Shared: 0.279
   regions:
     - us-east-1
+    - us-east-2
+    - eu-central-1
+    - eu-west-1
+    - ap-northeast-1
+    - us-west-2
   storage: EBS only
   vcpu: 4
 p2.16xlarge:
