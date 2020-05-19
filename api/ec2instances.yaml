@@ -12616,26 +12616,26 @@ g4dn.12xlarge:
         Dedicated: 7.217
         Shared: 6.902
   regions:
-    - ap-east-1
     - us-west-1
-    - ap-south-1
     - ap-northeast-1
-    - ap-southeast-1
     - eu-central-1
     - AWS GovCloud (US-West)
-    - us-east-2
     - eu-north-1
     - eu-west-3
     - sa-east-1
-    - us-east-1
-    - ap-southeast-2
-    - eu-west-2
     - eu-west-1
-    - me-south-1
+    - ap-southeast-2
+    - ap-south-1
     - ap-northeast-2
     - us-west-2
     - us-west-2-lax-1a
+    - ap-southeast-1
+    - eu-west-2
+    - me-south-1
     - ca-central-1
+    - ap-east-1
+    - us-east-2
+    - us-east-1
     - us-gov-east-1
   storage: 900 GB NVMe SSD
   vcpu: 48
@@ -12906,27 +12906,27 @@ g4dn.16xlarge:
         Dedicated: 8.516
         Shared: 8.166
   regions:
-    - eu-west-2
     - AWS GovCloud (US-West)
-    - me-south-1
-    - ap-east-1
     - us-east-2
-    - ap-south-1
-    - ap-southeast-1
+    - me-south-1
     - ap-northeast-1
-    - eu-west-1
-    - eu-central-1
     - ap-northeast-2
-    - us-east-1
-    - eu-west-3
     - us-west-2-lax-1a
-    - ca-central-1
+    - eu-west-1
     - us-west-2
     - ap-southeast-2
+    - ap-south-1
     - sa-east-1
+    - eu-west-2
+    - eu-central-1
+    - us-east-1
     - eu-north-1
     - us-gov-east-1
+    - ap-southeast-1
+    - eu-west-3
+    - ca-central-1
     - us-west-1
+    - ap-east-1
   storage: 900 GB NVMe SSD
   vcpu: 64
 g4dn.2xlarge:
@@ -13196,27 +13196,27 @@ g4dn.2xlarge:
         Dedicated: 1.331
         Shared: 1.27
   regions:
-    - eu-west-2
-    - us-west-1
     - ap-northeast-2
     - ca-central-1
-    - me-south-1
-    - eu-west-1
-    - ap-southeast-1
     - us-east-2
-    - ap-southeast-2
+    - ap-southeast-1
     - us-west-2-lax-1a
-    - us-east-1
+    - ap-southeast-2
     - AWS GovCloud (US-West)
     - ap-east-1
-    - eu-north-1
     - eu-central-1
     - sa-east-1
-    - us-west-2
-    - ap-south-1
+    - us-west-1
+    - eu-north-1
+    - eu-west-1
+    - me-south-1
     - eu-west-3
+    - us-west-2
+    - us-east-1
     - ap-northeast-1
     - us-gov-east-1
+    - eu-west-2
+    - ap-south-1
   storage: 225 GB NVMe SSD
   vcpu: 8
 g4dn.4xlarge:
@@ -13487,26 +13487,26 @@ g4dn.4xlarge:
         Shared: 2.181
   regions:
     - eu-central-1
-    - ap-southeast-1
     - ca-central-1
     - us-east-2
     - us-west-1
     - eu-west-3
-    - ap-east-1
-    - us-east-1
     - me-south-1
-    - eu-west-1
-    - ap-southeast-2
     - us-west-2-lax-1a
-    - ap-south-1
+    - ap-east-1
     - AWS GovCloud (US-West)
-    - sa-east-1
-    - ap-northeast-2
     - eu-west-2
-    - us-west-2
+    - ap-south-1
+    - sa-east-1
+    - ap-southeast-1
+    - us-east-1
+    - ap-southeast-2
     - ap-northeast-1
     - eu-north-1
+    - eu-west-1
+    - us-west-2
     - us-gov-east-1
+    - ap-northeast-2
   storage: 225 GB NVMe SSD
   vcpu: 16
 g4dn.8xlarge:
@@ -13776,27 +13776,27 @@ g4dn.8xlarge:
         Dedicated: 4.258
         Shared: 4.083
   regions:
-    - ap-east-1
-    - eu-west-2
-    - me-south-1
     - us-west-2-lax-1a
+    - ap-east-1
     - eu-west-1
-    - us-east-1
-    - ca-central-1
-    - eu-west-3
     - ap-northeast-1
     - us-west-1
     - ap-south-1
-    - eu-central-1
     - sa-east-1
     - us-gov-east-1
-    - ap-northeast-2
+    - eu-west-3
     - AWS GovCloud (US-West)
+    - me-south-1
+    - ap-northeast-2
     - ap-southeast-1
-    - us-east-2
+    - ca-central-1
+    - eu-west-2
     - us-west-2
     - eu-north-1
+    - us-east-1
+    - eu-central-1
     - ap-southeast-2
+    - us-east-2
   storage: 900 GB NVMe SSD
   vcpu: 32
 g4dn.metal:
@@ -13827,7 +13827,6 @@ g4dn.metal:
         Shared: 9.862
   regions:
     - ap-northeast-2
-    - ap-southeast-2
     - AWS GovCloud (US-West)
     - us-east-1
     - us-west-2
@@ -13835,14 +13834,15 @@ g4dn.metal:
     - ap-east-1
     - us-west-1
     - us-west-2-lax-1a
-    - ap-southeast-1
     - eu-west-3
+    - ap-southeast-2
     - eu-central-1
     - eu-west-1
     - ap-northeast-1
     - me-south-1
     - us-east-2
     - ca-central-1
+    - ap-southeast-1
     - ap-south-1
   storage: 2 x 900 GB NVMe SSD
   vcpu: 96
@@ -14115,24 +14115,24 @@ g4dn.xlarge:
   regions:
     - us-west-2
     - eu-west-2
-    - ap-southeast-2
-    - ap-east-1
     - ap-northeast-2
     - ap-northeast-1
-    - ap-south-1
     - ap-southeast-1
     - us-east-2
-    - ca-central-1
     - me-south-1
-    - eu-west-1
     - us-west-1
     - us-west-2-lax-1a
-    - eu-central-1
     - eu-north-1
-    - us-east-1
+    - ca-central-1
+    - eu-west-1
     - eu-west-3
+    - us-east-1
+    - eu-central-1
     - sa-east-1
     - AWS GovCloud (US-West)
+    - ap-east-1
+    - ap-south-1
+    - ap-southeast-2
     - us-gov-east-1
   storage: 125 GB NVMe SSD
   vcpu: 4
