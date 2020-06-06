@@ -14673,22 +14673,59 @@ g4dn.metal:
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 10.562
+        Shared: 10.562
       AWS GovCloud (US-West):
         Dedicated: 9.862
         Shared: 9.862
+      us-east-1:
+        Dedicated: 7.824
+        Shared: 7.824
+      us-west-2:
+        Dedicated: 7.824
+        Shared: 7.824
     RHEL:
+      ap-northeast-1:
+        Dedicated: 10.692
+        Shared: 10.692
       AWS GovCloud (US-West):
         Dedicated: 9.992
         Shared: 9.992
+      us-east-1:
+        Dedicated: 7.954
+        Shared: 7.954
+      us-west-2:
+        Dedicated: 7.954
+        Shared: 7.954
     SUSE:
+      ap-northeast-1:
+        Dedicated: 10.712
+        Shared: 10.712
       AWS GovCloud (US-West):
         Dedicated: 10.012
         Shared: 10.012
+      us-east-1:
+        Dedicated: 7.974
+        Shared: 7.974
+      us-west-2:
+        Dedicated: 7.974
+        Shared: 7.974
     Windows:
+      ap-northeast-1:
+        Dedicated: 14.978
+        Shared: 14.978
       AWS GovCloud (US-West):
         Dedicated: 14.278
         Shared: 9.862
+      us-east-1:
+        Dedicated: 12.24
+        Shared: 12.24
+      us-west-2:
+        Dedicated: 12.24
+        Shared: 12.24
   regions:
+    - ap-northeast-1
     - ap-northeast-2
     - AWS GovCloud (US-West)
     - us-east-1
@@ -14701,7 +14738,6 @@ g4dn.metal:
     - ap-southeast-2
     - eu-central-1
     - eu-west-1
-    - ap-northeast-1
     - me-south-1
     - us-east-2
     - ca-central-1
