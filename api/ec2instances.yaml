@@ -9252,6 +9252,12 @@ c5n.18xlarge:
       eu-west-1:
         Dedicated: 4.392
         Shared: 4.392
+      eu-west-2:
+        Dedicated: 4.608
+        Shared: 4.608
+      sa-east-1:
+        Dedicated: 5.976
+        Shared: 5.976
       us-east-1:
         Dedicated: 3.888
         Shared: 3.888
@@ -9295,6 +9301,12 @@ c5n.18xlarge:
       eu-west-1:
         Dedicated: 4.522
         Shared: 4.522
+      eu-west-2:
+        Dedicated: 4.738
+        Shared: 4.738
+      sa-east-1:
+        Dedicated: 6.106
+        Shared: 6.106
       us-east-1:
         Dedicated: 4.018
         Shared: 4.018
@@ -9338,6 +9350,12 @@ c5n.18xlarge:
       eu-west-1:
         Dedicated: 4.542
         Shared: 4.542
+      eu-west-2:
+        Dedicated: 4.758
+        Shared: 4.758
+      sa-east-1:
+        Dedicated: 6.126
+        Shared: 6.126
       us-east-1:
         Dedicated: 4.038
         Shared: 4.038
@@ -9381,6 +9399,12 @@ c5n.18xlarge:
       eu-west-1:
         Dedicated: 7.704
         Shared: 7.704
+      eu-west-2:
+        Dedicated: 7.92
+        Shared: 7.92
+      sa-east-1:
+        Dedicated: 9.288
+        Shared: 9.288
       us-east-1:
         Dedicated: 7.2
         Shared: 7.2
@@ -9399,10 +9423,12 @@ c5n.18xlarge:
   regions:
     - eu-central-1
     - us-west-2
+    - sa-east-1
     - AWS GovCloud (US-West)
     - us-west-1
     - us-east-1
     - ca-central-1
+    - eu-west-2
     - us-east-2
     - eu-west-1
     - ap-northeast-2
@@ -9452,6 +9478,12 @@ c5n.2xlarge:
       eu-west-1:
         Dedicated: 0.52
         Shared: 0.488
+      eu-west-2:
+        Dedicated: 0.543
+        Shared: 0.512
+      sa-east-1:
+        Dedicated: 0.704
+        Shared: 0.664
       us-east-1:
         Dedicated: 0.458
         Shared: 0.432
@@ -9495,6 +9527,12 @@ c5n.2xlarge:
       eu-west-1:
         Dedicated: 0.65
         Shared: 0.618
+      eu-west-2:
+        Dedicated: 0.673
+        Shared: 0.642
+      sa-east-1:
+        Dedicated: 0.834
+        Shared: 0.794
       us-east-1:
         Dedicated: 0.588
         Shared: 0.562
@@ -9538,6 +9576,12 @@ c5n.2xlarge:
       eu-west-1:
         Dedicated: 0.67
         Shared: 0.638
+      eu-west-2:
+        Dedicated: 0.693
+        Shared: 0.662
+      sa-east-1:
+        Dedicated: 0.854
+        Shared: 0.814
       us-east-1:
         Dedicated: 0.608
         Shared: 0.582
@@ -9581,6 +9625,12 @@ c5n.2xlarge:
       eu-west-1:
         Dedicated: 0.888
         Shared: 0.856
+      eu-west-2:
+        Dedicated: 0.911
+        Shared: 0.88
+      sa-east-1:
+        Dedicated: 1.072
+        Shared: 1.032
       us-east-1:
         Dedicated: 0.826
         Shared: 0.8
@@ -9601,10 +9651,12 @@ c5n.2xlarge:
     - us-west-1
     - us-west-2
     - ap-northeast-2
+    - sa-east-1
     - us-gov-east-1
     - ap-northeast-1
     - us-east-1
     - us-east-2
+    - eu-west-2
     - ap-southeast-2
     - ap-south-1
     - AWS GovCloud (US-West)
@@ -9652,6 +9704,12 @@ c5n.4xlarge:
       eu-west-1:
         Dedicated: 1.04
         Shared: 0.976
+      eu-west-2:
+        Dedicated: 1.085
+        Shared: 1.024
+      sa-east-1:
+        Dedicated: 1.408
+        Shared: 1.328
       us-east-1:
         Dedicated: 0.916
         Shared: 0.864
@@ -9695,6 +9753,12 @@ c5n.4xlarge:
       eu-west-1:
         Dedicated: 1.17
         Shared: 1.106
+      eu-west-2:
+        Dedicated: 1.215
+        Shared: 1.154
+      sa-east-1:
+        Dedicated: 1.538
+        Shared: 1.458
       us-east-1:
         Dedicated: 1.046
         Shared: 0.994
@@ -9738,6 +9802,12 @@ c5n.4xlarge:
       eu-west-1:
         Dedicated: 1.19
         Shared: 1.126
+      eu-west-2:
+        Dedicated: 1.235
+        Shared: 1.174
+      sa-east-1:
+        Dedicated: 1.558
+        Shared: 1.478
       us-east-1:
         Dedicated: 1.066
         Shared: 1.014
@@ -9781,6 +9851,12 @@ c5n.4xlarge:
       eu-west-1:
         Dedicated: 1.776
         Shared: 1.712
+      eu-west-2:
+        Dedicated: 1.821
+        Shared: 1.76
+      sa-east-1:
+        Dedicated: 2.144
+        Shared: 2.064
       us-east-1:
         Dedicated: 1.652
         Shared: 1.6
@@ -9800,6 +9876,8 @@ c5n.4xlarge:
     - ca-central-1
     - eu-central-1
     - us-east-1
+    - sa-east-1
+    - eu-west-2
     - us-east-2
     - ap-northeast-2
     - us-west-1
@@ -9852,6 +9930,12 @@ c5n.9xlarge:
       eu-west-1:
         Dedicated: 2.34
         Shared: 2.196
+      eu-west-2:
+        Dedicated: 2.442
+        Shared: 2.304
+      sa-east-1:
+        Dedicated: 3.167
+        Shared: 2.988
       us-east-1:
         Dedicated: 2.061
         Shared: 1.944
@@ -9895,6 +9979,12 @@ c5n.9xlarge:
       eu-west-1:
         Dedicated: 2.47
         Shared: 2.326
+      eu-west-2:
+        Dedicated: 2.572
+        Shared: 2.434
+      sa-east-1:
+        Dedicated: 3.297
+        Shared: 3.118
       us-east-1:
         Dedicated: 2.191
         Shared: 2.074
@@ -9938,6 +10028,12 @@ c5n.9xlarge:
       eu-west-1:
         Dedicated: 2.49
         Shared: 2.346
+      eu-west-2:
+        Dedicated: 2.592
+        Shared: 2.454
+      sa-east-1:
+        Dedicated: 3.317
+        Shared: 3.138
       us-east-1:
         Dedicated: 2.211
         Shared: 2.094
@@ -9981,6 +10077,12 @@ c5n.9xlarge:
       eu-west-1:
         Dedicated: 3.996
         Shared: 3.852
+      eu-west-2:
+        Dedicated: 4.098
+        Shared: 3.96
+      sa-east-1:
+        Dedicated: 4.823
+        Shared: 4.644
       us-east-1:
         Dedicated: 3.717
         Shared: 3.6
@@ -10005,9 +10107,11 @@ c5n.9xlarge:
     - ap-southeast-1
     - eu-west-1
     - ca-central-1
+    - eu-west-2
     - AWS GovCloud (US-West)
     - us-west-1
     - ap-northeast-1
+    - sa-east-1
     - ap-south-1
     - eu-central-1
     - ap-northeast-2
@@ -10052,6 +10156,12 @@ c5n.large:
       eu-west-1:
         Dedicated: 0.13
         Shared: 0.122
+      eu-west-2:
+        Dedicated: 0.136
+        Shared: 0.128
+      sa-east-1:
+        Dedicated: 0.176
+        Shared: 0.166
       us-east-1:
         Dedicated: 0.114
         Shared: 0.108
@@ -10095,6 +10205,12 @@ c5n.large:
       eu-west-1:
         Dedicated: 0.19
         Shared: 0.182
+      eu-west-2:
+        Dedicated: 0.196
+        Shared: 0.188
+      sa-east-1:
+        Dedicated: 0.236
+        Shared: 0.226
       us-east-1:
         Dedicated: 0.174
         Shared: 0.168
@@ -10138,6 +10254,12 @@ c5n.large:
       eu-west-1:
         Dedicated: 0.193
         Shared: 0.185
+      eu-west-2:
+        Dedicated: 0.199
+        Shared: 0.191
+      sa-east-1:
+        Dedicated: 0.239
+        Shared: 0.229
       us-east-1:
         Dedicated: 0.177
         Shared: 0.171
@@ -10181,6 +10303,12 @@ c5n.large:
       eu-west-1:
         Dedicated: 0.222
         Shared: 0.214
+      eu-west-2:
+        Dedicated: 0.228
+        Shared: 0.22
+      sa-east-1:
+        Dedicated: 0.268
+        Shared: 0.258
       us-east-1:
         Dedicated: 0.206
         Shared: 0.2
@@ -10197,6 +10325,7 @@ c5n.large:
         Dedicated: 0.206
         Shared: 0.2
   regions:
+    - sa-east-1
     - ap-northeast-2
     - us-east-1
     - eu-west-1
@@ -10209,6 +10338,7 @@ c5n.large:
     - eu-central-1
     - us-west-2
     - ap-northeast-1
+    - eu-west-2
     - ap-southeast-1
     - us-gov-east-1
   storage: EBS only
@@ -10251,6 +10381,12 @@ c5n.metal:
       eu-west-1:
         Dedicated: 4.392
         Shared: 4.392
+      eu-west-2:
+        Dedicated: 4.608
+        Shared: 4.608
+      sa-east-1:
+        Dedicated: 5.976
+        Shared: 5.976
       us-east-1:
         Dedicated: 3.888
         Shared: 3.888
@@ -10294,6 +10430,12 @@ c5n.metal:
       eu-west-1:
         Dedicated: 4.522
         Shared: 4.522
+      eu-west-2:
+        Dedicated: 4.738
+        Shared: 4.738
+      sa-east-1:
+        Dedicated: 6.106
+        Shared: 6.106
       us-east-1:
         Dedicated: 4.018
         Shared: 4.018
@@ -10337,6 +10479,12 @@ c5n.metal:
       eu-west-1:
         Dedicated: 4.542
         Shared: 4.542
+      eu-west-2:
+        Dedicated: 4.758
+        Shared: 4.758
+      sa-east-1:
+        Dedicated: 6.126
+        Shared: 6.126
       us-east-1:
         Dedicated: 4.038
         Shared: 4.038
@@ -10380,6 +10528,12 @@ c5n.metal:
       eu-west-1:
         Dedicated: 7.704
         Shared: 7.704
+      eu-west-2:
+        Dedicated: 7.92
+        Shared: 7.92
+      sa-east-1:
+        Dedicated: 9.288
+        Shared: 9.288
       us-east-1:
         Dedicated: 7.2
         Shared: 7.2
@@ -10410,6 +10564,8 @@ c5n.metal:
     - us-gov-east-1
     - ap-south-1
     - eu-central-1
+    - sa-east-1
+    - eu-west-2
   storage: EBS only
   vcpu: 72
 c5n.xlarge:
@@ -10451,6 +10607,12 @@ c5n.xlarge:
       eu-west-1:
         Dedicated: 0.26
         Shared: 0.244
+      eu-west-2:
+        Dedicated: 0.271
+        Shared: 0.256
+      sa-east-1:
+        Dedicated: 0.352
+        Shared: 0.332
       us-east-1:
         Dedicated: 0.229
         Shared: 0.216
@@ -10494,6 +10656,12 @@ c5n.xlarge:
       eu-west-1:
         Dedicated: 0.32
         Shared: 0.304
+      eu-west-2:
+        Dedicated: 0.331
+        Shared: 0.316
+      sa-east-1:
+        Dedicated: 0.412
+        Shared: 0.392
       us-east-1:
         Dedicated: 0.289
         Shared: 0.276
@@ -10537,6 +10705,12 @@ c5n.xlarge:
       eu-west-1:
         Dedicated: 0.385
         Shared: 0.369
+      eu-west-2:
+        Dedicated: 0.396
+        Shared: 0.381
+      sa-east-1:
+        Dedicated: 0.477
+        Shared: 0.457
       us-east-1:
         Dedicated: 0.354
         Shared: 0.341
@@ -10580,6 +10754,12 @@ c5n.xlarge:
       eu-west-1:
         Dedicated: 0.444
         Shared: 0.428
+      eu-west-2:
+        Dedicated: 0.455
+        Shared: 0.44
+      sa-east-1:
+        Dedicated: 0.536
+        Shared: 0.516
       us-east-1:
         Dedicated: 0.413
         Shared: 0.4
@@ -10596,7 +10776,9 @@ c5n.xlarge:
         Dedicated: 0.413
         Shared: 0.4
   regions:
+    - sa-east-1
     - ap-northeast-2
+    - eu-west-2
     - ap-southeast-2
     - eu-central-1
     - ap-northeast-1
