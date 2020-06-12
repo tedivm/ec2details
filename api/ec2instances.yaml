@@ -11298,11 +11298,30 @@ c6g.medium:
       us-west-2:
         Dedicated: 0.096
         Shared: 0.094
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 0.0764
+        Shared: 0.0738
+      eu-central-1:
+        Dedicated: 0.0721
+        Shared: 0.0698
+      eu-west-1:
+        Dedicated: 0.0717
+        Shared: 0.0694
+      us-east-1:
+        Dedicated: 0.067
+        Shared: 0.065
+      us-east-2:
+        Dedicated: 0.067
+        Shared: 0.065
+      us-west-2:
+        Dedicated: 0.067
+        Shared: 0.065
   regions:
     - us-east-1
+    - eu-west-1
     - us-west-2
     - eu-central-1
-    - eu-west-1
     - us-east-2
     - ap-northeast-1
   storage: EBS only
@@ -11319,61 +11338,61 @@ c6g.metal:
   prices:
     Linux:
       ap-northeast-1:
-        Dedicated: 1.4518
-        Shared: 1.3696
+        Dedicated: 2.9036
+        Shared: 2.7392
       eu-central-1:
-        Dedicated: 1.3161
-        Shared: 1.2416
+        Dedicated: 2.6322
+        Shared: 2.4832
       eu-west-1:
-        Dedicated: 1.3025
-        Shared: 1.2288
+        Dedicated: 2.6051
+        Shared: 2.4576
       us-east-1:
-        Dedicated: 1.1533
-        Shared: 1.088
+        Dedicated: 2.3066
+        Shared: 2.176
       us-east-2:
-        Dedicated: 1.1533
-        Shared: 1.088
+        Dedicated: 2.3066
+        Shared: 2.176
       us-west-2:
-        Dedicated: 1.1533
-        Shared: 1.088
+        Dedicated: 2.3066
+        Shared: 2.176
     RHEL:
       ap-northeast-1:
-        Dedicated: 1.5818
-        Shared: 1.4996
+        Dedicated: 3.0336
+        Shared: 2.8692
       eu-central-1:
-        Dedicated: 1.4461
-        Shared: 1.3716
+        Dedicated: 2.7622
+        Shared: 2.6132
       eu-west-1:
-        Dedicated: 1.4325
-        Shared: 1.3588
+        Dedicated: 2.7351
+        Shared: 2.5876
       us-east-1:
-        Dedicated: 1.2833
-        Shared: 1.218
+        Dedicated: 2.4366
+        Shared: 2.306
       us-east-2:
-        Dedicated: 1.2833
-        Shared: 1.218
+        Dedicated: 2.4366
+        Shared: 2.306
       us-west-2:
-        Dedicated: 1.2833
-        Shared: 1.218
+        Dedicated: 2.4366
+        Shared: 2.306
     SUSE:
       ap-northeast-1:
-        Dedicated: 1.6018
-        Shared: 1.5196
+        Dedicated: 3.0536
+        Shared: 2.8892
       eu-central-1:
-        Dedicated: 1.4661
-        Shared: 1.3916
+        Dedicated: 2.7822
+        Shared: 2.6332
       eu-west-1:
-        Dedicated: 1.4525
-        Shared: 1.3788
+        Dedicated: 2.7551
+        Shared: 2.6076
       us-east-1:
-        Dedicated: 1.3033
-        Shared: 1.238
+        Dedicated: 2.4566
+        Shared: 2.326
       us-east-2:
-        Dedicated: 1.3033
-        Shared: 1.238
+        Dedicated: 2.4566
+        Shared: 2.326
       us-west-2:
-        Dedicated: 1.3033
-        Shared: 1.238
+        Dedicated: 2.4566
+        Shared: 2.326
   regions:
     - us-east-2
     - us-east-1
@@ -51275,12 +51294,31 @@ r6g.medium:
       us-west-2:
         Dedicated: 0.1134
         Shared: 0.1104
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 0.0954
+        Shared: 0.0918
+      eu-central-1:
+        Dedicated: 0.0954
+        Shared: 0.0918
+      eu-west-1:
+        Dedicated: 0.0908
+        Shared: 0.0874
+      us-east-1:
+        Dedicated: 0.0844
+        Shared: 0.0814
+      us-east-2:
+        Dedicated: 0.0844
+        Shared: 0.0814
+      us-west-2:
+        Dedicated: 0.0844
+        Shared: 0.0814
   regions:
     - us-west-2
     - us-east-1
     - eu-central-1
-    - us-east-2
     - ap-northeast-1
+    - us-east-2
     - eu-west-1
   storage: EBS only
   vcpu: 1
