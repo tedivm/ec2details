@@ -12871,9 +12871,6 @@ f1.16xlarge:
       us-east-1:
         Dedicated: 13.2
         Shared: 13.2
-      us-west-1:
-        Dedicated: 15.304
-        Shared: 15.304
       us-west-2:
         Dedicated: 13.2
         Shared: 13.2
@@ -12887,9 +12884,6 @@ f1.16xlarge:
       us-east-1:
         Dedicated: 13.33
         Shared: 13.33
-      us-west-1:
-        Dedicated: 15.434
-        Shared: 15.434
       us-west-2:
         Dedicated: 13.33
         Shared: 13.33
@@ -12903,9 +12897,6 @@ f1.16xlarge:
       us-east-1:
         Dedicated: 13.3
         Shared: 13.3
-      us-west-1:
-        Dedicated: 15.404
-        Shared: 15.404
       us-west-2:
         Dedicated: 13.3
         Shared: 13.3
@@ -12925,7 +12916,6 @@ f1.16xlarge:
     - AWS GovCloud (US-West)
     - ap-southeast-2
     - us-west-2
-    - us-west-1
   storage: 4 x 940 NVMe SSD
   vcpu: 64
 f1.2xlarge:
@@ -12952,9 +12942,6 @@ f1.2xlarge:
       us-east-1:
         Dedicated: 1.815
         Shared: 1.65
-      us-west-1:
-        Dedicated: 2.1043
-        Shared: 1.913
       us-west-2:
         Dedicated: 1.815
         Shared: 1.65
@@ -12968,9 +12955,6 @@ f1.2xlarge:
       us-east-1:
         Dedicated: 1.945
         Shared: 1.78
-      us-west-1:
-        Dedicated: 2.2343
-        Shared: 2.043
       us-west-2:
         Dedicated: 1.945
         Shared: 1.78
@@ -12984,9 +12968,6 @@ f1.2xlarge:
       us-east-1:
         Dedicated: 1.915
         Shared: 1.75
-      us-west-1:
-        Dedicated: 2.2043
-        Shared: 2.013
       us-west-2:
         Dedicated: 1.915
         Shared: 1.75
@@ -13003,7 +12984,6 @@ f1.2xlarge:
   regions:
     - AWS GovCloud (US-West)
     - eu-west-1
-    - us-west-1
     - us-east-1
     - us-west-2
     - ap-southeast-2
@@ -13033,9 +13013,6 @@ f1.4xlarge:
       us-east-1:
         Dedicated: 3.63
         Shared: 3.3
-      us-west-1:
-        Dedicated: 4.209
-        Shared: 3.826
       us-west-2:
         Dedicated: 3.63
         Shared: 3.3
@@ -13049,9 +13026,6 @@ f1.4xlarge:
       us-east-1:
         Dedicated: 3.76
         Shared: 3.43
-      us-west-1:
-        Dedicated: 4.339
-        Shared: 3.956
       us-west-2:
         Dedicated: 3.76
         Shared: 3.43
@@ -13065,16 +13039,12 @@ f1.4xlarge:
       us-east-1:
         Dedicated: 3.73
         Shared: 3.4
-      us-west-1:
-        Dedicated: 4.309
-        Shared: 3.926
       us-west-2:
         Dedicated: 3.73
         Shared: 3.4
   regions:
     - AWS GovCloud (US-West)
     - us-west-2
-    - us-west-1
     - eu-west-1
     - us-east-1
     - ap-southeast-2
@@ -51595,7 +51565,6 @@ t2.2xlarge:
       ap-southeast-2:
         Shared: 0.4672
       AWS GovCloud (US-West):
-        Dedicated: 0.4352
         Shared: 0.4352
       ca-central-1:
         Shared: 0.4096
@@ -51631,7 +51600,6 @@ t2.2xlarge:
       ap-southeast-2:
         Shared: 0.5972
       AWS GovCloud (US-West):
-        Dedicated: 0.4352
         Shared: 0.5652
       ca-central-1:
         Shared: 0.5396
@@ -51667,7 +51635,6 @@ t2.2xlarge:
       ap-southeast-2:
         Shared: 0.5672
       AWS GovCloud (US-West):
-        Dedicated: 0.5352
         Shared: 0.5352
       ca-central-1:
         Shared: 0.5096
@@ -51769,7 +51736,6 @@ t2.large:
       ap-southeast-2:
         Shared: 0.1168
       AWS GovCloud (US-West):
-        Dedicated: 0.1088
         Shared: 0.1088
       ca-central-1:
         Shared: 0.1024
@@ -51805,7 +51771,6 @@ t2.large:
       ap-southeast-2:
         Shared: 0.1768
       AWS GovCloud (US-West):
-        Dedicated: 0.1088
         Shared: 0.1688
       ca-central-1:
         Shared: 0.1624
@@ -51841,7 +51806,6 @@ t2.large:
       ap-southeast-2:
         Shared: 0.2168
       AWS GovCloud (US-West):
-        Dedicated: 0.2088
         Shared: 0.2088
       ca-central-1:
         Shared: 0.2024
@@ -51943,7 +51907,6 @@ t2.medium:
       ap-southeast-2:
         Shared: 0.0584
       AWS GovCloud (US-West):
-        Dedicated: 0.0544
         Shared: 0.0544
       ca-central-1:
         Shared: 0.0512
@@ -51979,7 +51942,6 @@ t2.medium:
       ap-southeast-2:
         Shared: 0.1184
       AWS GovCloud (US-West):
-        Dedicated: 0.0544
         Shared: 0.1144
       ca-central-1:
         Shared: 0.1112
@@ -52015,7 +51977,6 @@ t2.medium:
       ap-southeast-2:
         Shared: 0.1584
       AWS GovCloud (US-West):
-        Dedicated: 0.1544
         Shared: 0.1544
       ca-central-1:
         Shared: 0.1512
@@ -52117,7 +52078,6 @@ t2.micro:
       ap-southeast-2:
         Shared: 0.0146
       AWS GovCloud (US-West):
-        Dedicated: 0.0136
         Shared: 0.0136
       ca-central-1:
         Shared: 0.0128
@@ -52153,7 +52113,6 @@ t2.micro:
       ap-southeast-2:
         Shared: 0.0746
       AWS GovCloud (US-West):
-        Dedicated: 0.0136
         Shared: 0.0736
       ca-central-1:
         Shared: 0.0728
@@ -52290,7 +52249,6 @@ t2.nano:
       ap-southeast-2:
         Shared: 0.0073
       AWS GovCloud (US-West):
-        Dedicated: 0.0068
         Shared: 0.0068
       ca-central-1:
         Shared: 0.0064
@@ -52391,11 +52349,11 @@ t2.nano:
     - ap-northeast-3
     - ap-northeast-2
     - us-west-1
-    - AWS GovCloud (US-West)
     - ap-southeast-2
     - ap-southeast-1
     - ap-south-1
     - us-east-2
+    - AWS GovCloud (US-West)
     - eu-central-1
     - ca-central-1
     - us-east-1
@@ -52427,7 +52385,6 @@ t2.small:
       ap-southeast-2:
         Shared: 0.0292
       AWS GovCloud (US-West):
-        Dedicated: 0.0272
         Shared: 0.0272
       ca-central-1:
         Shared: 0.0256
@@ -52463,7 +52420,6 @@ t2.small:
       ap-southeast-2:
         Shared: 0.0892
       AWS GovCloud (US-West):
-        Dedicated: 0.0272
         Shared: 0.0872
       ca-central-1:
         Shared: 0.0856
@@ -52600,7 +52556,6 @@ t2.xlarge:
       ap-southeast-2:
         Shared: 0.2336
       AWS GovCloud (US-West):
-        Dedicated: 0.2176
         Shared: 0.2176
       ca-central-1:
         Shared: 0.2048
@@ -52636,7 +52591,6 @@ t2.xlarge:
       ap-southeast-2:
         Shared: 0.2936
       AWS GovCloud (US-West):
-        Dedicated: 0.2176
         Shared: 0.2776
       ca-central-1:
         Shared: 0.2648
@@ -52672,7 +52626,6 @@ t2.xlarge:
       ap-southeast-2:
         Shared: 0.3336
       AWS GovCloud (US-West):
-        Dedicated: 0.3176
         Shared: 0.3176
       ca-central-1:
         Shared: 0.3048
@@ -52751,13 +52704,13 @@ t2.xlarge:
   storage: EBS only
   vcpu: 4
 t3.2xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 2048 Mbps
+  dedicatedEbsThroughput: Up to 2780 Mbps
   ecu: .nan
   enhancedNetworkingSupported: false
   memory: 32 GiB
-  networkPerformance: Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 16
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
@@ -53053,13 +53006,13 @@ t3.2xlarge:
   storage: EBS only
   vcpu: 8
 t3.large:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 2048 Mbps
+  dedicatedEbsThroughput: Up to 2780 Mbps
   ecu: .nan
   enhancedNetworkingSupported: false
   memory: 8 GiB
-  networkPerformance: Low to Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 4
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
@@ -53355,13 +53308,13 @@ t3.large:
   storage: EBS only
   vcpu: 2
 t3.medium:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 1536 Mbps
+  dedicatedEbsThroughput: Up to 2085 Mbps
   ecu: .nan
   enhancedNetworkingSupported: false
   memory: 4 GiB
-  networkPerformance: Low to Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 2
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
@@ -53657,13 +53610,13 @@ t3.medium:
   storage: EBS only
   vcpu: 2
 t3.micro:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 1536 Mbps
+  dedicatedEbsThroughput: Up to 2085 Mbps
   ecu: .nan
   enhancedNetworkingSupported: false
   memory: 1 GiB
-  networkPerformance: Low to Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 0
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
@@ -53959,13 +53912,13 @@ t3.micro:
   storage: EBS only
   vcpu: 2
 t3.nano:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 1536 Mbps
+  dedicatedEbsThroughput: Up to 2085 Mbps
   ecu: .nan
   enhancedNetworkingSupported: false
   memory: 0.5 GiB
-  networkPerformance: Low
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 0
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
@@ -54195,13 +54148,13 @@ t3.nano:
   storage: EBS only
   vcpu: 2
 t3.small:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 1536 Mbps
+  dedicatedEbsThroughput: Up to 2085 Mbps
   ecu: .nan
   enhancedNetworkingSupported: false
   memory: 2 GiB
-  networkPerformance: Low to Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 1
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
@@ -54497,13 +54450,13 @@ t3.small:
   storage: EBS only
   vcpu: 2
 t3.xlarge:
-  clockSpeed: 2.5 GHz
+  clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 2048 Mbps
+  dedicatedEbsThroughput: Up to 2780 Mbps
   ecu: .nan
   enhancedNetworkingSupported: false
   memory: 16 GiB
-  networkPerformance: Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 8
   physicalProcessor: Intel Skylake E5 2686 v5
   prices:
@@ -54801,11 +54754,11 @@ t3.xlarge:
 t3a.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 2120 Mbps
+  dedicatedEbsThroughput: Up to 2780 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 32 GiB
-  networkPerformance: Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 16
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -54972,11 +54925,11 @@ t3a.2xlarge:
 t3a.large:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 2120 Mbps
+  dedicatedEbsThroughput: Up to 2780 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 8 GiB
-  networkPerformance: Low to Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 4
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -55143,11 +55096,11 @@ t3a.large:
 t3a.medium:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 2120 Mbps
+  dedicatedEbsThroughput: Up to 2085 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 4 GiB
-  networkPerformance: Low to Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 2
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -55314,11 +55267,11 @@ t3a.medium:
 t3a.micro:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 1500 Mbps
+  dedicatedEbsThroughput: Up to 2085 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 1 GiB
-  networkPerformance: Low to Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 0
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -55485,11 +55438,11 @@ t3a.micro:
 t3a.nano:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 1500 Mbps
+  dedicatedEbsThroughput: Up to 2085 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 0.5 GiB
-  networkPerformance: Low
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 0
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -55621,11 +55574,11 @@ t3a.nano:
 t3a.small:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 1500 Mbps
+  dedicatedEbsThroughput: Up to 2085 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 2 GiB
-  networkPerformance: Low to Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 1
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -55792,11 +55745,11 @@ t3a.small:
 t3a.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 2120 Mbps
+  dedicatedEbsThroughput: Up to 2780 Mbps
   ecu: .nan
   enhancedNetworkingSupported: true
   memory: 16 GiB
-  networkPerformance: Moderate
+  networkPerformance: Up to 5 Gigabit
   normalizationSizeFactor: 8
   physicalProcessor: AMD EPYC 7571
   prices:
