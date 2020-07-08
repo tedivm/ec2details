@@ -5698,6 +5698,7 @@ c5a.12xlarge:
   dedicatedEbsThroughput: 4750 Mbps
   enhancedNetworkingSupported: true
   memory: 96 GiB
+  networkPerformance: 12 Gigabit
   normalizationSizeFactor: 96
   physicalProcessor: AMD EPYC 7R32
   prices:
