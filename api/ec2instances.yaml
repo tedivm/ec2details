@@ -9226,6 +9226,9 @@ c5n.18xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 5.148
+        Shared: 5.148
       ap-northeast-1:
         Dedicated: 4.896
         Shared: 4.896
@@ -9250,6 +9253,9 @@ c5n.18xlarge:
       eu-central-1:
         Dedicated: 4.428
         Shared: 4.428
+      eu-north-1:
+        Dedicated: 4.176
+        Shared: 4.176
       eu-west-1:
         Dedicated: 4.392
         Shared: 4.392
@@ -9275,6 +9281,9 @@ c5n.18xlarge:
         Dedicated: 3.888
         Shared: 3.888
     RHEL:
+      ap-east-1:
+        Dedicated: 5.278
+        Shared: 5.278
       ap-northeast-1:
         Dedicated: 5.026
         Shared: 5.026
@@ -9299,6 +9308,9 @@ c5n.18xlarge:
       eu-central-1:
         Dedicated: 4.558
         Shared: 4.558
+      eu-north-1:
+        Dedicated: 4.306
+        Shared: 4.306
       eu-west-1:
         Dedicated: 4.522
         Shared: 4.522
@@ -9324,6 +9336,9 @@ c5n.18xlarge:
         Dedicated: 4.018
         Shared: 4.018
     SUSE:
+      ap-east-1:
+        Dedicated: 5.298
+        Shared: 5.298
       ap-northeast-1:
         Dedicated: 5.046
         Shared: 5.046
@@ -9348,6 +9363,9 @@ c5n.18xlarge:
       eu-central-1:
         Dedicated: 4.578
         Shared: 4.578
+      eu-north-1:
+        Dedicated: 4.326
+        Shared: 4.326
       eu-west-1:
         Dedicated: 4.542
         Shared: 4.542
@@ -9373,6 +9391,9 @@ c5n.18xlarge:
         Dedicated: 4.038
         Shared: 4.038
     Windows:
+      ap-east-1:
+        Dedicated: 8.46
+        Shared: 8.46
       ap-northeast-1:
         Dedicated: 8.208
         Shared: 8.208
@@ -9397,6 +9418,9 @@ c5n.18xlarge:
       eu-central-1:
         Dedicated: 7.74
         Shared: 7.74
+      eu-north-1:
+        Dedicated: 7.488
+        Shared: 7.488
       eu-west-1:
         Dedicated: 7.704
         Shared: 7.704
@@ -9433,6 +9457,8 @@ c5n.18xlarge:
     - us-east-2
     - eu-west-1
     - ap-northeast-2
+    - ap-east-1
+    - eu-north-1
     - ap-southeast-2
     - ap-southeast-1
     - ap-south-1
@@ -9452,6 +9478,9 @@ c5n.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.606
+        Shared: 0.572
       ap-northeast-1:
         Dedicated: 0.581
         Shared: 0.544
@@ -9476,6 +9505,9 @@ c5n.2xlarge:
       eu-central-1:
         Dedicated: 0.524
         Shared: 0.492
+      eu-north-1:
+        Dedicated: 0.492
+        Shared: 0.464
       eu-west-1:
         Dedicated: 0.52
         Shared: 0.488
@@ -9501,6 +9533,9 @@ c5n.2xlarge:
         Dedicated: 0.458
         Shared: 0.432
     RHEL:
+      ap-east-1:
+        Dedicated: 0.736
+        Shared: 0.702
       ap-northeast-1:
         Dedicated: 0.711
         Shared: 0.674
@@ -9525,6 +9560,9 @@ c5n.2xlarge:
       eu-central-1:
         Dedicated: 0.654
         Shared: 0.622
+      eu-north-1:
+        Dedicated: 0.622
+        Shared: 0.594
       eu-west-1:
         Dedicated: 0.65
         Shared: 0.618
@@ -9550,6 +9588,9 @@ c5n.2xlarge:
         Dedicated: 0.588
         Shared: 0.562
     SUSE:
+      ap-east-1:
+        Dedicated: 0.756
+        Shared: 0.722
       ap-northeast-1:
         Dedicated: 0.731
         Shared: 0.694
@@ -9574,6 +9615,9 @@ c5n.2xlarge:
       eu-central-1:
         Dedicated: 0.674
         Shared: 0.642
+      eu-north-1:
+        Dedicated: 0.642
+        Shared: 0.614
       eu-west-1:
         Dedicated: 0.67
         Shared: 0.638
@@ -9599,6 +9643,9 @@ c5n.2xlarge:
         Dedicated: 0.608
         Shared: 0.582
     Windows:
+      ap-east-1:
+        Dedicated: 0.974
+        Shared: 0.94
       ap-northeast-1:
         Dedicated: 0.949
         Shared: 0.912
@@ -9623,6 +9670,9 @@ c5n.2xlarge:
       eu-central-1:
         Dedicated: 0.892
         Shared: 0.86
+      eu-north-1:
+        Dedicated: 0.86
+        Shared: 0.832
       eu-west-1:
         Dedicated: 0.888
         Shared: 0.856
@@ -9651,6 +9701,7 @@ c5n.2xlarge:
     - eu-west-1
     - us-west-1
     - us-west-2
+    - ap-east-1
     - ap-northeast-2
     - sa-east-1
     - us-gov-east-1
@@ -9661,6 +9712,7 @@ c5n.2xlarge:
     - ap-southeast-2
     - ap-south-1
     - AWS GovCloud (US-West)
+    - eu-north-1
     - ap-southeast-1
     - eu-central-1
     - ca-central-1
@@ -9678,6 +9730,9 @@ c5n.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.213
+        Shared: 1.144
       ap-northeast-1:
         Dedicated: 1.162
         Shared: 1.088
@@ -9702,6 +9757,9 @@ c5n.4xlarge:
       eu-central-1:
         Dedicated: 1.049
         Shared: 0.984
+      eu-north-1:
+        Dedicated: 0.984
+        Shared: 0.928
       eu-west-1:
         Dedicated: 1.04
         Shared: 0.976
@@ -9727,6 +9785,9 @@ c5n.4xlarge:
         Dedicated: 0.916
         Shared: 0.864
     RHEL:
+      ap-east-1:
+        Dedicated: 1.343
+        Shared: 1.274
       ap-northeast-1:
         Dedicated: 1.292
         Shared: 1.218
@@ -9751,6 +9812,9 @@ c5n.4xlarge:
       eu-central-1:
         Dedicated: 1.179
         Shared: 1.114
+      eu-north-1:
+        Dedicated: 1.114
+        Shared: 1.058
       eu-west-1:
         Dedicated: 1.17
         Shared: 1.106
@@ -9776,6 +9840,9 @@ c5n.4xlarge:
         Dedicated: 1.046
         Shared: 0.994
     SUSE:
+      ap-east-1:
+        Dedicated: 1.363
+        Shared: 1.294
       ap-northeast-1:
         Dedicated: 1.312
         Shared: 1.238
@@ -9800,6 +9867,9 @@ c5n.4xlarge:
       eu-central-1:
         Dedicated: 1.199
         Shared: 1.134
+      eu-north-1:
+        Dedicated: 1.134
+        Shared: 1.078
       eu-west-1:
         Dedicated: 1.19
         Shared: 1.126
@@ -9825,6 +9895,9 @@ c5n.4xlarge:
         Dedicated: 1.066
         Shared: 1.014
     Windows:
+      ap-east-1:
+        Dedicated: 1.949
+        Shared: 1.88
       ap-northeast-1:
         Dedicated: 1.898
         Shared: 1.824
@@ -9849,6 +9922,9 @@ c5n.4xlarge:
       eu-central-1:
         Dedicated: 1.785
         Shared: 1.72
+      eu-north-1:
+        Dedicated: 1.72
+        Shared: 1.664
       eu-west-1:
         Dedicated: 1.776
         Shared: 1.712
@@ -9886,6 +9962,8 @@ c5n.4xlarge:
     - ap-southeast-2
     - AWS GovCloud (US-West)
     - eu-west-1
+    - ap-east-1
+    - eu-north-1
     - us-gov-east-1
     - us-west-2
     - ap-northeast-1
@@ -9904,6 +9982,9 @@ c5n.9xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 2.728
+        Shared: 2.574
       ap-northeast-1:
         Dedicated: 2.616
         Shared: 2.448
@@ -9928,6 +10009,9 @@ c5n.9xlarge:
       eu-central-1:
         Dedicated: 2.359
         Shared: 2.214
+      eu-north-1:
+        Dedicated: 2.213
+        Shared: 2.088
       eu-west-1:
         Dedicated: 2.34
         Shared: 2.196
@@ -9953,6 +10037,9 @@ c5n.9xlarge:
         Dedicated: 2.061
         Shared: 1.944
     RHEL:
+      ap-east-1:
+        Dedicated: 2.858
+        Shared: 2.704
       ap-northeast-1:
         Dedicated: 2.746
         Shared: 2.578
@@ -9977,6 +10064,9 @@ c5n.9xlarge:
       eu-central-1:
         Dedicated: 2.489
         Shared: 2.344
+      eu-north-1:
+        Dedicated: 2.343
+        Shared: 2.218
       eu-west-1:
         Dedicated: 2.47
         Shared: 2.326
@@ -10002,6 +10092,9 @@ c5n.9xlarge:
         Dedicated: 2.191
         Shared: 2.074
     SUSE:
+      ap-east-1:
+        Dedicated: 2.878
+        Shared: 2.724
       ap-northeast-1:
         Dedicated: 2.766
         Shared: 2.598
@@ -10026,6 +10119,9 @@ c5n.9xlarge:
       eu-central-1:
         Dedicated: 2.509
         Shared: 2.364
+      eu-north-1:
+        Dedicated: 2.363
+        Shared: 2.238
       eu-west-1:
         Dedicated: 2.49
         Shared: 2.346
@@ -10051,6 +10147,9 @@ c5n.9xlarge:
         Dedicated: 2.211
         Shared: 2.094
     Windows:
+      ap-east-1:
+        Dedicated: 4.384
+        Shared: 4.23
       ap-northeast-1:
         Dedicated: 4.272
         Shared: 4.104
@@ -10075,6 +10174,9 @@ c5n.9xlarge:
       eu-central-1:
         Dedicated: 4.015
         Shared: 3.87
+      eu-north-1:
+        Dedicated: 3.869
+        Shared: 3.744
       eu-west-1:
         Dedicated: 3.996
         Shared: 3.852
@@ -10101,6 +10203,7 @@ c5n.9xlarge:
         Shared: 3.6
   regions:
     - us-east-2
+    - ap-east-1
     - us-west-2
     - ap-southeast-2
     - us-east-1
@@ -10111,6 +10214,7 @@ c5n.9xlarge:
     - eu-west-2
     - AWS GovCloud (US-West)
     - us-west-1
+    - eu-north-1
     - ap-northeast-1
     - sa-east-1
     - ap-south-1
@@ -10130,6 +10234,9 @@ c5n.large:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.152
+        Shared: 0.143
       ap-northeast-1:
         Dedicated: 0.145
         Shared: 0.136
@@ -10154,6 +10261,9 @@ c5n.large:
       eu-central-1:
         Dedicated: 0.131
         Shared: 0.123
+      eu-north-1:
+        Dedicated: 0.123
+        Shared: 0.116
       eu-west-1:
         Dedicated: 0.13
         Shared: 0.122
@@ -10179,6 +10289,9 @@ c5n.large:
         Dedicated: 0.114
         Shared: 0.108
     RHEL:
+      ap-east-1:
+        Dedicated: 0.212
+        Shared: 0.203
       ap-northeast-1:
         Dedicated: 0.205
         Shared: 0.196
@@ -10203,6 +10316,9 @@ c5n.large:
       eu-central-1:
         Dedicated: 0.191
         Shared: 0.183
+      eu-north-1:
+        Dedicated: 0.183
+        Shared: 0.176
       eu-west-1:
         Dedicated: 0.19
         Shared: 0.182
@@ -10228,6 +10344,9 @@ c5n.large:
         Dedicated: 0.174
         Shared: 0.168
     SUSE:
+      ap-east-1:
+        Dedicated: 0.215
+        Shared: 0.206
       ap-northeast-1:
         Dedicated: 0.208
         Shared: 0.199
@@ -10252,6 +10371,9 @@ c5n.large:
       eu-central-1:
         Dedicated: 0.194
         Shared: 0.186
+      eu-north-1:
+        Dedicated: 0.186
+        Shared: 0.179
       eu-west-1:
         Dedicated: 0.193
         Shared: 0.185
@@ -10277,6 +10399,9 @@ c5n.large:
         Dedicated: 0.177
         Shared: 0.171
     Windows:
+      ap-east-1:
+        Dedicated: 0.244
+        Shared: 0.235
       ap-northeast-1:
         Dedicated: 0.237
         Shared: 0.228
@@ -10301,6 +10426,9 @@ c5n.large:
       eu-central-1:
         Dedicated: 0.223
         Shared: 0.215
+      eu-north-1:
+        Dedicated: 0.215
+        Shared: 0.208
       eu-west-1:
         Dedicated: 0.222
         Shared: 0.214
@@ -10336,6 +10464,8 @@ c5n.large:
     - ap-southeast-2
     - ap-south-1
     - ca-central-1
+    - eu-north-1
+    - ap-east-1
     - eu-central-1
     - us-west-2
     - ap-northeast-1
@@ -10355,6 +10485,9 @@ c5n.metal:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 5.148
+        Shared: 5.148
       ap-northeast-1:
         Dedicated: 4.896
         Shared: 4.896
@@ -10379,6 +10512,9 @@ c5n.metal:
       eu-central-1:
         Dedicated: 4.428
         Shared: 4.428
+      eu-north-1:
+        Dedicated: 4.176
+        Shared: 4.176
       eu-west-1:
         Dedicated: 4.392
         Shared: 4.392
@@ -10404,6 +10540,9 @@ c5n.metal:
         Dedicated: 3.888
         Shared: 3.888
     RHEL:
+      ap-east-1:
+        Dedicated: 5.278
+        Shared: 5.278
       ap-northeast-1:
         Dedicated: 5.026
         Shared: 5.026
@@ -10428,6 +10567,9 @@ c5n.metal:
       eu-central-1:
         Dedicated: 4.558
         Shared: 4.558
+      eu-north-1:
+        Dedicated: 4.306
+        Shared: 4.306
       eu-west-1:
         Dedicated: 4.522
         Shared: 4.522
@@ -10453,6 +10595,9 @@ c5n.metal:
         Dedicated: 4.018
         Shared: 4.018
     SUSE:
+      ap-east-1:
+        Dedicated: 5.298
+        Shared: 5.298
       ap-northeast-1:
         Dedicated: 5.046
         Shared: 5.046
@@ -10477,6 +10622,9 @@ c5n.metal:
       eu-central-1:
         Dedicated: 4.578
         Shared: 4.578
+      eu-north-1:
+        Dedicated: 4.326
+        Shared: 4.326
       eu-west-1:
         Dedicated: 4.542
         Shared: 4.542
@@ -10502,6 +10650,9 @@ c5n.metal:
         Dedicated: 4.038
         Shared: 4.038
     Windows:
+      ap-east-1:
+        Dedicated: 8.46
+        Shared: 8.46
       ap-northeast-1:
         Dedicated: 8.208
         Shared: 8.208
@@ -10526,6 +10677,9 @@ c5n.metal:
       eu-central-1:
         Dedicated: 7.74
         Shared: 7.74
+      eu-north-1:
+        Dedicated: 7.488
+        Shared: 7.488
       eu-west-1:
         Dedicated: 7.704
         Shared: 7.704
@@ -10552,11 +10706,13 @@ c5n.metal:
         Shared: 7.2
   regions:
     - ca-central-1
+    - ap-east-1
     - ap-northeast-1
     - AWS GovCloud (US-West)
     - us-west-2
     - us-east-2
     - us-east-1
+    - eu-north-1
     - ap-southeast-1
     - ap-northeast-2
     - eu-west-1
@@ -10581,6 +10737,9 @@ c5n.xlarge:
   physicalProcessor: Intel Xeon Platinum 8124M
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.303
+        Shared: 0.286
       ap-northeast-1:
         Dedicated: 0.291
         Shared: 0.272
@@ -10605,6 +10764,9 @@ c5n.xlarge:
       eu-central-1:
         Dedicated: 0.262
         Shared: 0.246
+      eu-north-1:
+        Dedicated: 0.246
+        Shared: 0.232
       eu-west-1:
         Dedicated: 0.26
         Shared: 0.244
@@ -10630,6 +10792,9 @@ c5n.xlarge:
         Dedicated: 0.229
         Shared: 0.216
     RHEL:
+      ap-east-1:
+        Dedicated: 0.363
+        Shared: 0.346
       ap-northeast-1:
         Dedicated: 0.351
         Shared: 0.332
@@ -10654,6 +10819,9 @@ c5n.xlarge:
       eu-central-1:
         Dedicated: 0.322
         Shared: 0.306
+      eu-north-1:
+        Dedicated: 0.306
+        Shared: 0.292
       eu-west-1:
         Dedicated: 0.32
         Shared: 0.304
@@ -10679,6 +10847,9 @@ c5n.xlarge:
         Dedicated: 0.289
         Shared: 0.276
     SUSE:
+      ap-east-1:
+        Dedicated: 0.428
+        Shared: 0.411
       ap-northeast-1:
         Dedicated: 0.416
         Shared: 0.397
@@ -10703,6 +10874,9 @@ c5n.xlarge:
       eu-central-1:
         Dedicated: 0.387
         Shared: 0.371
+      eu-north-1:
+        Dedicated: 0.371
+        Shared: 0.357
       eu-west-1:
         Dedicated: 0.385
         Shared: 0.369
@@ -10728,6 +10902,9 @@ c5n.xlarge:
         Dedicated: 0.354
         Shared: 0.341
     Windows:
+      ap-east-1:
+        Dedicated: 0.487
+        Shared: 0.47
       ap-northeast-1:
         Dedicated: 0.475
         Shared: 0.456
@@ -10752,6 +10929,9 @@ c5n.xlarge:
       eu-central-1:
         Dedicated: 0.446
         Shared: 0.43
+      eu-north-1:
+        Dedicated: 0.43
+        Shared: 0.416
       eu-west-1:
         Dedicated: 0.444
         Shared: 0.428
@@ -10783,7 +10963,9 @@ c5n.xlarge:
     - ap-southeast-2
     - eu-central-1
     - ap-northeast-1
+    - ap-east-1
     - us-west-1
+    - eu-north-1
     - ca-central-1
     - eu-west-1
     - us-east-2
@@ -19026,6 +19208,9 @@ i3en.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 7.626
+        Shared: 7.16
       ap-northeast-1:
         Dedicated: 6.799
         Shared: 6.384
@@ -19050,6 +19235,9 @@ i3en.12xlarge:
       eu-central-1:
         Dedicated: 6.901
         Shared: 6.48
+      eu-north-1:
+        Dedicated: 6.058
+        Shared: 5.688
       eu-west-1:
         Dedicated: 6.39
         Shared: 6
@@ -19081,6 +19269,9 @@ i3en.12xlarge:
         Dedicated: 6.93
         Shared: 6.509
     RHEL:
+      ap-east-1:
+        Dedicated: 7.756
+        Shared: 7.29
       ap-northeast-1:
         Dedicated: 6.929
         Shared: 6.514
@@ -19105,6 +19296,9 @@ i3en.12xlarge:
       eu-central-1:
         Dedicated: 7.031
         Shared: 6.61
+      eu-north-1:
+        Dedicated: 6.188
+        Shared: 5.818
       eu-west-1:
         Dedicated: 6.52
         Shared: 6.13
@@ -19136,6 +19330,9 @@ i3en.12xlarge:
         Dedicated: 7.06
         Shared: 6.639
     SUSE:
+      ap-east-1:
+        Dedicated: 7.776
+        Shared: 7.31
       ap-northeast-1:
         Dedicated: 6.949
         Shared: 6.534
@@ -19160,6 +19357,9 @@ i3en.12xlarge:
       eu-central-1:
         Dedicated: 7.051
         Shared: 6.63
+      eu-north-1:
+        Dedicated: 6.208
+        Shared: 5.838
       eu-west-1:
         Dedicated: 6.54
         Shared: 6.15
@@ -19191,6 +19391,9 @@ i3en.12xlarge:
         Dedicated: 7.08
         Shared: 6.659
     Windows:
+      ap-east-1:
+        Dedicated: 9.834
+        Shared: 9.368
       ap-northeast-1:
         Dedicated: 9.007
         Shared: 8.592
@@ -19215,6 +19418,9 @@ i3en.12xlarge:
       eu-central-1:
         Dedicated: 9.109
         Shared: 8.688
+      eu-north-1:
+        Dedicated: 8.266
+        Shared: 7.896
       eu-west-1:
         Dedicated: 8.598
         Shared: 8.208
@@ -19255,6 +19461,7 @@ i3en.12xlarge:
     - ca-central-1
     - us-east-2
     - eu-west-1
+    - ap-east-1
     - eu-west-2
     - AWS GovCloud (US-West)
     - ap-south-1
@@ -19262,6 +19469,7 @@ i3en.12xlarge:
     - us-west-2-lax-1a
     - eu-central-1
     - us-west-2
+    - eu-north-1
     - ap-southeast-2
     - ap-northeast-1
   storage: 4 x 7500 NVMe SSD
@@ -19278,6 +19486,9 @@ i3en.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 14.319
+        Shared: 14.319
       ap-northeast-1:
         Dedicated: 12.768
         Shared: 12.768
@@ -19302,6 +19513,9 @@ i3en.24xlarge:
       eu-central-1:
         Dedicated: 12.96
         Shared: 12.96
+      eu-north-1:
+        Dedicated: 11.376
+        Shared: 11.376
       eu-west-1:
         Dedicated: 12
         Shared: 12
@@ -19333,6 +19547,9 @@ i3en.24xlarge:
         Dedicated: 13.018
         Shared: 13.018
     RHEL:
+      ap-east-1:
+        Dedicated: 14.449
+        Shared: 14.449
       ap-northeast-1:
         Dedicated: 12.898
         Shared: 12.898
@@ -19357,6 +19574,9 @@ i3en.24xlarge:
       eu-central-1:
         Dedicated: 13.09
         Shared: 13.09
+      eu-north-1:
+        Dedicated: 11.506
+        Shared: 11.506
       eu-west-1:
         Dedicated: 12.13
         Shared: 12.13
@@ -19388,6 +19608,9 @@ i3en.24xlarge:
         Dedicated: 13.148
         Shared: 13.148
     SUSE:
+      ap-east-1:
+        Dedicated: 14.469
+        Shared: 14.469
       ap-northeast-1:
         Dedicated: 12.918
         Shared: 12.918
@@ -19412,6 +19635,9 @@ i3en.24xlarge:
       eu-central-1:
         Dedicated: 13.11
         Shared: 13.11
+      eu-north-1:
+        Dedicated: 11.526
+        Shared: 11.526
       eu-west-1:
         Dedicated: 12.15
         Shared: 12.15
@@ -19443,6 +19669,9 @@ i3en.24xlarge:
         Dedicated: 13.168
         Shared: 13.168
     Windows:
+      ap-east-1:
+        Dedicated: 18.735
+        Shared: 18.735
       ap-northeast-1:
         Dedicated: 17.184
         Shared: 17.184
@@ -19467,6 +19696,9 @@ i3en.24xlarge:
       eu-central-1:
         Dedicated: 17.376
         Shared: 17.376
+      eu-north-1:
+        Dedicated: 15.792
+        Shared: 15.792
       eu-west-1:
         Dedicated: 16.416
         Shared: 16.416
@@ -19507,6 +19739,7 @@ i3en.24xlarge:
     - AWS GovCloud (US-West)
     - eu-west-2
     - sa-east-1
+    - ap-east-1
     - us-west-2-lax-1a
     - eu-central-1
     - us-east-1
@@ -19515,6 +19748,7 @@ i3en.24xlarge:
     - eu-west-3
     - us-east-2
     - ca-central-1
+    - eu-north-1
     - ap-southeast-1
   storage: 8 x 7500 NVMe SSD
   vcpu: 96
@@ -19530,6 +19764,9 @@ i3en.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.271
+        Shared: 1.193
       ap-northeast-1:
         Dedicated: 1.133
         Shared: 1.064
@@ -19554,6 +19791,9 @@ i3en.2xlarge:
       eu-central-1:
         Dedicated: 1.15
         Shared: 1.08
+      eu-north-1:
+        Dedicated: 1.01
+        Shared: 0.948
       eu-west-1:
         Dedicated: 1.065
         Shared: 1
@@ -19585,6 +19825,9 @@ i3en.2xlarge:
         Dedicated: 1.155
         Shared: 1.085
     RHEL:
+      ap-east-1:
+        Dedicated: 1.401
+        Shared: 1.323
       ap-northeast-1:
         Dedicated: 1.263
         Shared: 1.194
@@ -19609,6 +19852,9 @@ i3en.2xlarge:
       eu-central-1:
         Dedicated: 1.28
         Shared: 1.21
+      eu-north-1:
+        Dedicated: 1.14
+        Shared: 1.078
       eu-west-1:
         Dedicated: 1.195
         Shared: 1.13
@@ -19640,6 +19886,9 @@ i3en.2xlarge:
         Dedicated: 1.285
         Shared: 1.215
     SUSE:
+      ap-east-1:
+        Dedicated: 1.421
+        Shared: 1.343
       ap-northeast-1:
         Dedicated: 1.283
         Shared: 1.214
@@ -19664,6 +19913,9 @@ i3en.2xlarge:
       eu-central-1:
         Dedicated: 1.3
         Shared: 1.23
+      eu-north-1:
+        Dedicated: 1.16
+        Shared: 1.098
       eu-west-1:
         Dedicated: 1.215
         Shared: 1.15
@@ -19695,6 +19947,9 @@ i3en.2xlarge:
         Dedicated: 1.305
         Shared: 1.235
     Windows:
+      ap-east-1:
+        Dedicated: 1.639
+        Shared: 1.561
       ap-northeast-1:
         Dedicated: 1.501
         Shared: 1.432
@@ -19719,6 +19974,9 @@ i3en.2xlarge:
       eu-central-1:
         Dedicated: 1.518
         Shared: 1.448
+      eu-north-1:
+        Dedicated: 1.378
+        Shared: 1.316
       eu-west-1:
         Dedicated: 1.433
         Shared: 1.368
@@ -19765,6 +20023,8 @@ i3en.2xlarge:
     - us-east-2
     - ap-south-1
     - us-east-1
+    - eu-north-1
+    - ap-east-1
     - us-gov-east-1
     - eu-west-2
     - us-west-2-lax-1a
@@ -19781,6 +20041,9 @@ i3en.3xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.906
+        Shared: 1.79
       ap-northeast-1:
         Dedicated: 1.7
         Shared: 1.596
@@ -19805,6 +20068,9 @@ i3en.3xlarge:
       eu-central-1:
         Dedicated: 1.725
         Shared: 1.62
+      eu-north-1:
+        Dedicated: 1.515
+        Shared: 1.422
       eu-west-1:
         Dedicated: 1.598
         Shared: 1.5
@@ -19836,6 +20102,9 @@ i3en.3xlarge:
         Dedicated: 1.733
         Shared: 1.627
     RHEL:
+      ap-east-1:
+        Dedicated: 2.036
+        Shared: 1.92
       ap-northeast-1:
         Dedicated: 1.83
         Shared: 1.726
@@ -19860,6 +20129,9 @@ i3en.3xlarge:
       eu-central-1:
         Dedicated: 1.855
         Shared: 1.75
+      eu-north-1:
+        Dedicated: 1.645
+        Shared: 1.552
       eu-west-1:
         Dedicated: 1.728
         Shared: 1.63
@@ -19891,6 +20163,9 @@ i3en.3xlarge:
         Dedicated: 1.863
         Shared: 1.757
     SUSE:
+      ap-east-1:
+        Dedicated: 2.056
+        Shared: 1.94
       ap-northeast-1:
         Dedicated: 1.85
         Shared: 1.746
@@ -19915,6 +20190,9 @@ i3en.3xlarge:
       eu-central-1:
         Dedicated: 1.875
         Shared: 1.77
+      eu-north-1:
+        Dedicated: 1.665
+        Shared: 1.572
       eu-west-1:
         Dedicated: 1.748
         Shared: 1.65
@@ -19946,6 +20224,9 @@ i3en.3xlarge:
         Dedicated: 1.883
         Shared: 1.777
     Windows:
+      ap-east-1:
+        Dedicated: 2.458
+        Shared: 2.342
       ap-northeast-1:
         Dedicated: 2.252
         Shared: 2.148
@@ -19970,6 +20251,9 @@ i3en.3xlarge:
       eu-central-1:
         Dedicated: 2.277
         Shared: 2.172
+      eu-north-1:
+        Dedicated: 2.067
+        Shared: 1.974
       eu-west-1:
         Dedicated: 2.15
         Shared: 2.052
@@ -20002,7 +20286,9 @@ i3en.3xlarge:
         Shared: 2.179
   regions:
     - sa-east-1
+    - eu-north-1
     - ap-northeast-1
+    - ap-east-1
     - ap-south-1
     - ap-southeast-1
     - us-west-2-lax-1a
@@ -20032,6 +20318,9 @@ i3en.6xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 3.813
+        Shared: 3.58
       ap-northeast-1:
         Dedicated: 3.4
         Shared: 3.192
@@ -20056,6 +20345,9 @@ i3en.6xlarge:
       eu-central-1:
         Dedicated: 3.451
         Shared: 3.24
+      eu-north-1:
+        Dedicated: 3.029
+        Shared: 2.844
       eu-west-1:
         Dedicated: 3.195
         Shared: 3
@@ -20087,6 +20379,9 @@ i3en.6xlarge:
         Dedicated: 3.465
         Shared: 3.254
     RHEL:
+      ap-east-1:
+        Dedicated: 3.943
+        Shared: 3.71
       ap-northeast-1:
         Dedicated: 3.53
         Shared: 3.322
@@ -20111,6 +20406,9 @@ i3en.6xlarge:
       eu-central-1:
         Dedicated: 3.581
         Shared: 3.37
+      eu-north-1:
+        Dedicated: 3.159
+        Shared: 2.974
       eu-west-1:
         Dedicated: 3.325
         Shared: 3.13
@@ -20142,6 +20440,9 @@ i3en.6xlarge:
         Dedicated: 3.595
         Shared: 3.384
     SUSE:
+      ap-east-1:
+        Dedicated: 3.963
+        Shared: 3.73
       ap-northeast-1:
         Dedicated: 3.55
         Shared: 3.342
@@ -20166,6 +20467,9 @@ i3en.6xlarge:
       eu-central-1:
         Dedicated: 3.601
         Shared: 3.39
+      eu-north-1:
+        Dedicated: 3.179
+        Shared: 2.994
       eu-west-1:
         Dedicated: 3.345
         Shared: 3.15
@@ -20197,6 +20501,9 @@ i3en.6xlarge:
         Dedicated: 3.615
         Shared: 3.404
     Windows:
+      ap-east-1:
+        Dedicated: 4.917
+        Shared: 4.684
       ap-northeast-1:
         Dedicated: 4.504
         Shared: 4.296
@@ -20221,6 +20528,9 @@ i3en.6xlarge:
       eu-central-1:
         Dedicated: 4.555
         Shared: 4.344
+      eu-north-1:
+        Dedicated: 4.133
+        Shared: 3.948
       eu-west-1:
         Dedicated: 4.299
         Shared: 4.104
@@ -20258,11 +20568,13 @@ i3en.6xlarge:
     - us-east-2
     - ap-southeast-1
     - ap-south-1
+    - eu-north-1
     - ca-central-1
     - us-west-2-lax-1a
     - ap-southeast-2
     - eu-west-2
     - eu-central-1
+    - ap-east-1
     - eu-west-1
     - us-west-2
     - us-gov-east-1
@@ -20284,6 +20596,9 @@ i3en.large:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.318
+        Shared: 0.298
       ap-northeast-1:
         Dedicated: 0.283
         Shared: 0.266
@@ -20308,6 +20623,9 @@ i3en.large:
       eu-central-1:
         Dedicated: 0.288
         Shared: 0.27
+      eu-north-1:
+        Dedicated: 0.252
+        Shared: 0.237
       eu-west-1:
         Dedicated: 0.266
         Shared: 0.25
@@ -20339,6 +20657,9 @@ i3en.large:
         Dedicated: 0.289
         Shared: 0.271
     RHEL:
+      ap-east-1:
+        Dedicated: 0.378
+        Shared: 0.358
       ap-northeast-1:
         Dedicated: 0.343
         Shared: 0.326
@@ -20363,6 +20684,9 @@ i3en.large:
       eu-central-1:
         Dedicated: 0.348
         Shared: 0.33
+      eu-north-1:
+        Dedicated: 0.312
+        Shared: 0.297
       eu-west-1:
         Dedicated: 0.326
         Shared: 0.31
@@ -20394,6 +20718,9 @@ i3en.large:
         Dedicated: 0.349
         Shared: 0.331
     SUSE:
+      ap-east-1:
+        Dedicated: 0.381
+        Shared: 0.361
       ap-northeast-1:
         Dedicated: 0.346
         Shared: 0.329
@@ -20418,6 +20745,9 @@ i3en.large:
       eu-central-1:
         Dedicated: 0.351
         Shared: 0.333
+      eu-north-1:
+        Dedicated: 0.315
+        Shared: 0.3
       eu-west-1:
         Dedicated: 0.329
         Shared: 0.313
@@ -20449,6 +20779,9 @@ i3en.large:
         Dedicated: 0.352
         Shared: 0.334
     Windows:
+      ap-east-1:
+        Dedicated: 0.41
+        Shared: 0.39
       ap-northeast-1:
         Dedicated: 0.375
         Shared: 0.358
@@ -20473,6 +20806,9 @@ i3en.large:
       eu-central-1:
         Dedicated: 0.38
         Shared: 0.362
+      eu-north-1:
+        Dedicated: 0.344
+        Shared: 0.329
       eu-west-1:
         Dedicated: 0.358
         Shared: 0.342
@@ -20505,6 +20841,7 @@ i3en.large:
         Shared: 0.363
   regions:
     - us-west-2
+    - ap-east-1
     - us-east-2
     - eu-west-3
     - sa-east-1
@@ -20518,6 +20855,7 @@ i3en.large:
     - eu-west-1
     - us-west-2-lax-1a
     - eu-west-2
+    - eu-north-1
     - us-gov-east-1
     - us-east-1
     - AWS GovCloud (US-West)
@@ -20535,6 +20873,9 @@ i3en.metal:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 14.319
+        Shared: 14.319
       ap-northeast-1:
         Dedicated: 12.768
         Shared: 12.768
@@ -20556,6 +20897,9 @@ i3en.metal:
       eu-central-1:
         Dedicated: 12.96
         Shared: 12.96
+      eu-north-1:
+        Dedicated: 11.376
+        Shared: 11.376
       eu-west-1:
         Dedicated: 12
         Shared: 12
@@ -20587,6 +20931,9 @@ i3en.metal:
         Dedicated: 13.018
         Shared: 13.018
     RHEL:
+      ap-east-1:
+        Dedicated: 14.449
+        Shared: 14.449
       ap-northeast-1:
         Dedicated: 12.898
         Shared: 12.898
@@ -20608,6 +20955,9 @@ i3en.metal:
       eu-central-1:
         Dedicated: 13.09
         Shared: 13.09
+      eu-north-1:
+        Dedicated: 11.506
+        Shared: 11.506
       eu-west-1:
         Dedicated: 12.13
         Shared: 12.13
@@ -20639,6 +20989,9 @@ i3en.metal:
         Dedicated: 13.148
         Shared: 13.148
     SUSE:
+      ap-east-1:
+        Dedicated: 14.469
+        Shared: 14.469
       ap-northeast-1:
         Dedicated: 12.918
         Shared: 12.918
@@ -20660,6 +21013,9 @@ i3en.metal:
       eu-central-1:
         Dedicated: 13.11
         Shared: 13.11
+      eu-north-1:
+        Dedicated: 11.526
+        Shared: 11.526
       eu-west-1:
         Dedicated: 12.15
         Shared: 12.15
@@ -20691,6 +21047,9 @@ i3en.metal:
         Dedicated: 13.168
         Shared: 13.168
     Windows:
+      ap-east-1:
+        Dedicated: 18.735
+        Shared: 18.735
       ap-northeast-1:
         Dedicated: 17.184
         Shared: 17.184
@@ -20712,6 +21071,9 @@ i3en.metal:
       eu-central-1:
         Dedicated: 17.376
         Shared: 17.376
+      eu-north-1:
+        Dedicated: 15.792
+        Shared: 15.792
       eu-west-1:
         Dedicated: 16.416
         Shared: 16.416
@@ -20751,12 +21113,14 @@ i3en.metal:
     - ap-northeast-1
     - ap-south-1
     - us-west-2-lax-1a
+    - ap-east-1
     - us-east-2
     - eu-west-3
     - ca-central-1
     - ap-southeast-2
     - AWS GovCloud (US-West)
     - eu-west-2
+    - eu-north-1
     - ap-northeast-2
     - eu-west-1
     - sa-east-1
@@ -20788,6 +21152,9 @@ i3en.xlarge:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.635
+        Shared: 0.597
       ap-northeast-1:
         Dedicated: 0.567
         Shared: 0.532
@@ -20812,6 +21179,9 @@ i3en.xlarge:
       eu-central-1:
         Dedicated: 0.575
         Shared: 0.54
+      eu-north-1:
+        Dedicated: 0.505
+        Shared: 0.474
       eu-west-1:
         Dedicated: 0.533
         Shared: 0.5
@@ -20843,6 +21213,9 @@ i3en.xlarge:
         Dedicated: 0.578
         Shared: 0.542
     RHEL:
+      ap-east-1:
+        Dedicated: 0.695
+        Shared: 0.657
       ap-northeast-1:
         Dedicated: 0.627
         Shared: 0.592
@@ -20867,6 +21240,9 @@ i3en.xlarge:
       eu-central-1:
         Dedicated: 0.635
         Shared: 0.6
+      eu-north-1:
+        Dedicated: 0.565
+        Shared: 0.534
       eu-west-1:
         Dedicated: 0.593
         Shared: 0.56
@@ -20898,6 +21274,9 @@ i3en.xlarge:
         Dedicated: 0.638
         Shared: 0.602
     SUSE:
+      ap-east-1:
+        Dedicated: 0.76
+        Shared: 0.722
       ap-northeast-1:
         Dedicated: 0.692
         Shared: 0.657
@@ -20922,6 +21301,9 @@ i3en.xlarge:
       eu-central-1:
         Dedicated: 0.7
         Shared: 0.665
+      eu-north-1:
+        Dedicated: 0.63
+        Shared: 0.599
       eu-west-1:
         Dedicated: 0.658
         Shared: 0.625
@@ -20953,6 +21335,9 @@ i3en.xlarge:
         Dedicated: 0.703
         Shared: 0.667
     Windows:
+      ap-east-1:
+        Dedicated: 0.819
+        Shared: 0.781
       ap-northeast-1:
         Dedicated: 0.751
         Shared: 0.716
@@ -20977,6 +21362,9 @@ i3en.xlarge:
       eu-central-1:
         Dedicated: 0.759
         Shared: 0.724
+      eu-north-1:
+        Dedicated: 0.689
+        Shared: 0.658
       eu-west-1:
         Dedicated: 0.717
         Shared: 0.684
@@ -21012,6 +21400,7 @@ i3en.xlarge:
     - eu-west-1
     - sa-east-1
     - eu-central-1
+    - ap-east-1
     - us-west-2-lax-1a
     - AWS GovCloud (US-West)
     - us-west-2
@@ -21021,6 +21410,7 @@ i3en.xlarge:
     - us-east-1
     - us-gov-east-1
     - ap-northeast-1
+    - eu-north-1
     - eu-west-3
     - us-east-2
     - us-west-1
