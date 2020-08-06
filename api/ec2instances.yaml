@@ -15371,6 +15371,10 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.361
         Shared: 1.278
+      US East (Verizon) - Boston:
+        Shared: 1.317
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 1.317
       us-east-1:
         Dedicated: 0.797
         Shared: 0.752
@@ -15435,6 +15439,10 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.491
         Shared: 1.408
+      US East (Verizon) - Boston:
+        Shared: 1.447
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 1.447
       us-east-1:
         Dedicated: 0.927
         Shared: 0.882
@@ -15499,6 +15507,10 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.511
         Shared: 1.428
+      US East (Verizon) - Boston:
+        Shared: 1.467
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 1.467
       us-east-1:
         Dedicated: 0.947
         Shared: 0.902
@@ -15563,6 +15575,10 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.729
         Shared: 1.646
+      US East (Verizon) - Boston:
+        Shared: 1.685
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 1.685
       us-east-1:
         Dedicated: 1.165
         Shared: 1.12
@@ -15587,6 +15603,7 @@ g4dn.2xlarge:
     - us-east-2
     - ap-southeast-1
     - us-west-2-lax-1a
+    - US East (Verizon) - Boston
     - ap-southeast-2
     - AWS GovCloud (US-West)
     - ap-east-1
@@ -15596,6 +15613,7 @@ g4dn.2xlarge:
     - eu-north-1
     - eu-west-1
     - me-south-1
+    - US West (Verizon) - San Francisco Bay Area
     - eu-west-3
     - us-west-2
     - us-east-1
@@ -41901,6 +41919,10 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 0.852
         Shared: 0.804
+      US East (Verizon) - Boston:
+        Shared: 0.68
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.68
       us-east-1:
         Dedicated: 0.534
         Shared: 0.504
@@ -41974,6 +41996,10 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 0.982
         Shared: 0.934
+      US East (Verizon) - Boston:
+        Shared: 0.81
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.81
       us-east-1:
         Dedicated: 0.664
         Shared: 0.634
@@ -42047,6 +42073,10 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 1.002
         Shared: 0.954
+      US East (Verizon) - Boston:
+        Shared: 0.83
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.83
       us-east-1:
         Dedicated: 0.684
         Shared: 0.654
@@ -42120,6 +42150,10 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 1.22
         Shared: 1.172
+      US East (Verizon) - Boston:
+        Shared: 1.048
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 1.048
       us-east-1:
         Dedicated: 0.534
         Shared: 0.872
@@ -42163,6 +42197,8 @@ r5.2xlarge:
     - ca-central-1
     - ap-southeast-2
     - af-south-1
+    - US West (Verizon) - San Francisco Bay Area
+    - US East (Verizon) - Boston
   storage: EBS only
   vcpu: 8
 r5.4xlarge:
@@ -55270,6 +55306,10 @@ t3.medium:
       sa-east-1:
         Dedicated: 0.0709
         Shared: 0.0672
+      US East (Verizon) - Boston:
+        Shared: 0.056
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.056
       us-east-1:
         Dedicated: 0.0441
         Shared: 0.0416
@@ -55336,6 +55376,10 @@ t3.medium:
       sa-east-1:
         Dedicated: 0.1309
         Shared: 0.1272
+      US East (Verizon) - Boston:
+        Shared: 0.116
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.116
       us-east-1:
         Dedicated: 0.1041
         Shared: 0.1016
@@ -55402,6 +55446,10 @@ t3.medium:
       sa-east-1:
         Dedicated: 0.1339
         Shared: 0.1302
+      US East (Verizon) - Boston:
+        Shared: 0.119
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.119
       us-east-1:
         Dedicated: 0.1071
         Shared: 0.1046
@@ -55468,6 +55516,10 @@ t3.medium:
       sa-east-1:
         Dedicated: 0.0893
         Shared: 0.0856
+      US East (Verizon) - Boston:
+        Shared: 0.0744
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.0744
       us-east-1:
         Dedicated: 0.0625
         Shared: 0.06
@@ -55499,6 +55551,7 @@ t3.medium:
     - us-west-1
     - af-south-1
     - eu-west-1
+    - US West (Verizon) - San Francisco Bay Area
     - me-south-1
     - us-east-1
     - us-east-2
@@ -55509,6 +55562,7 @@ t3.medium:
     - ap-northeast-3
     - eu-west-3
     - EU (Milan)
+    - US East (Verizon) - Boston
     - ap-east-1
   storage: EBS only
   vcpu: 2
@@ -56412,6 +56466,10 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.2835
         Shared: 0.2688
+      US East (Verizon) - Boston:
+        Shared: 0.224
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.224
       us-east-1:
         Dedicated: 0.1763
         Shared: 0.1664
@@ -56478,6 +56536,10 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.3435
         Shared: 0.3288
+      US East (Verizon) - Boston:
+        Shared: 0.284
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.284
       us-east-1:
         Dedicated: 0.2363
         Shared: 0.2264
@@ -56544,6 +56606,10 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.4085
         Shared: 0.3938
+      US East (Verizon) - Boston:
+        Shared: 0.349
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.349
       us-east-1:
         Dedicated: 0.3013
         Shared: 0.2914
@@ -56610,6 +56676,10 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.3571
         Shared: 0.3424
+      US East (Verizon) - Boston:
+        Shared: 0.2976
+      US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.2976
       us-east-1:
         Dedicated: 0.2499
         Shared: 0.24
@@ -56634,8 +56704,10 @@ t3.xlarge:
     - eu-west-3
     - us-east-1
     - ap-east-1
+    - US West (Verizon) - San Francisco Bay Area
     - af-south-1
     - eu-west-1
+    - US East (Verizon) - Boston
     - eu-west-2
     - us-west-1
     - AWS GovCloud (US-West)
