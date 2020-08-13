@@ -22640,21 +22640,66 @@ inf1.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 10.902
+        Shared: 10.284
+      ap-southeast-2:
+        Dedicated: 10.09
+        Shared: 9.519
+      eu-central-1:
+        Dedicated: 10.09
+        Shared: 9.519
+      eu-west-1:
+        Dedicated: 8.993
+        Shared: 8.484
       us-east-1:
+        Dedicated: 8.072
+        Shared: 7.615
+      us-east-2:
         Dedicated: 8.072
         Shared: 7.615
       us-west-2:
         Dedicated: 8.072
         Shared: 7.615
     RHEL:
+      ap-northeast-1:
+        Dedicated: 11.032
+        Shared: 10.414
+      ap-southeast-2:
+        Dedicated: 10.22
+        Shared: 9.649
+      eu-central-1:
+        Dedicated: 10.22
+        Shared: 9.649
+      eu-west-1:
+        Dedicated: 9.123
+        Shared: 8.614
       us-east-1:
+        Dedicated: 8.202
+        Shared: 7.745
+      us-east-2:
         Dedicated: 8.202
         Shared: 7.745
       us-west-2:
         Dedicated: 8.202
         Shared: 7.745
     SUSE:
+      ap-northeast-1:
+        Dedicated: 11.052
+        Shared: 10.434
+      ap-southeast-2:
+        Dedicated: 10.24
+        Shared: 9.669
+      eu-central-1:
+        Dedicated: 10.24
+        Shared: 9.669
+      eu-west-1:
+        Dedicated: 9.143
+        Shared: 8.634
       us-east-1:
+        Dedicated: 8.222
+        Shared: 7.765
+      us-east-2:
         Dedicated: 8.222
         Shared: 7.765
       us-west-2:
@@ -22663,6 +22708,11 @@ inf1.24xlarge:
   regions:
     - us-east-1
     - us-west-2
+    - eu-central-1
+    - eu-west-1
+    - us-east-2
+    - ap-southeast-2
+    - ap-northeast-1
   storage: EBS only
   vcpu: 96
 inf1.2xlarge:
@@ -22674,21 +22724,66 @@ inf1.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.836
+        Shared: 0.789
+      ap-southeast-2:
+        Dedicated: 0.774
+        Shared: 0.73
+      eu-central-1:
+        Dedicated: 0.774
+        Shared: 0.73
+      eu-west-1:
+        Dedicated: 0.69
+        Shared: 0.651
       us-east-1:
+        Dedicated: 0.619
+        Shared: 0.584
+      us-east-2:
         Dedicated: 0.619
         Shared: 0.584
       us-west-2:
         Dedicated: 0.619
         Shared: 0.584
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.966
+        Shared: 0.919
+      ap-southeast-2:
+        Dedicated: 0.904
+        Shared: 0.86
+      eu-central-1:
+        Dedicated: 0.904
+        Shared: 0.86
+      eu-west-1:
+        Dedicated: 0.82
+        Shared: 0.781
       us-east-1:
+        Dedicated: 0.749
+        Shared: 0.714
+      us-east-2:
         Dedicated: 0.749
         Shared: 0.714
       us-west-2:
         Dedicated: 0.749
         Shared: 0.714
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.986
+        Shared: 0.939
+      ap-southeast-2:
+        Dedicated: 0.924
+        Shared: 0.88
+      eu-central-1:
+        Dedicated: 0.924
+        Shared: 0.88
+      eu-west-1:
+        Dedicated: 0.84
+        Shared: 0.801
       us-east-1:
+        Dedicated: 0.769
+        Shared: 0.734
+      us-east-2:
         Dedicated: 0.769
         Shared: 0.734
       us-west-2:
@@ -22696,6 +22791,11 @@ inf1.2xlarge:
         Shared: 0.734
   regions:
     - us-west-2
+    - eu-west-1
+    - eu-central-1
+    - us-east-2
+    - ap-northeast-1
+    - ap-southeast-2
     - us-east-1
   storage: EBS only
   vcpu: 8
@@ -22708,29 +22808,79 @@ inf1.6xlarge:
   physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 2.725
+        Shared: 2.571
+      ap-southeast-2:
+        Dedicated: 2.522
+        Shared: 2.38
+      eu-central-1:
+        Dedicated: 2.522
+        Shared: 2.38
+      eu-west-1:
+        Dedicated: 2.248
+        Shared: 2.121
       us-east-1:
+        Dedicated: 2.018
+        Shared: 1.904
+      us-east-2:
         Dedicated: 2.018
         Shared: 1.904
       us-west-2:
         Dedicated: 2.018
         Shared: 1.904
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.855
+        Shared: 2.701
+      ap-southeast-2:
+        Dedicated: 2.652
+        Shared: 2.51
+      eu-central-1:
+        Dedicated: 2.652
+        Shared: 2.51
+      eu-west-1:
+        Dedicated: 2.378
+        Shared: 2.251
       us-east-1:
+        Dedicated: 2.148
+        Shared: 2.034
+      us-east-2:
         Dedicated: 2.148
         Shared: 2.034
       us-west-2:
         Dedicated: 2.148
         Shared: 2.034
     SUSE:
+      ap-northeast-1:
+        Dedicated: 2.875
+        Shared: 2.721
+      ap-southeast-2:
+        Dedicated: 2.672
+        Shared: 2.53
+      eu-central-1:
+        Dedicated: 2.672
+        Shared: 2.53
+      eu-west-1:
+        Dedicated: 2.398
+        Shared: 2.271
       us-east-1:
+        Dedicated: 2.168
+        Shared: 2.054
+      us-east-2:
         Dedicated: 2.168
         Shared: 2.054
       us-west-2:
         Dedicated: 2.168
         Shared: 2.054
   regions:
+    - us-east-2
+    - ap-northeast-1
+    - eu-central-1
     - us-east-1
     - us-west-2
+    - eu-west-1
+    - ap-southeast-2
   storage: EBS only
   vcpu: 24
 inf1.xlarge:
@@ -22742,28 +22892,78 @@ inf1.xlarge:
   physicalProcessor: Intel Xeon Platinum 8275CL (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.527
+        Shared: 0.497
+      ap-southeast-2:
+        Dedicated: 0.488
+        Shared: 0.46
+      eu-central-1:
+        Dedicated: 0.488
+        Shared: 0.46
+      eu-west-1:
+        Dedicated: 0.435
+        Shared: 0.41
       us-east-1:
+        Dedicated: 0.39
+        Shared: 0.368
+      us-east-2:
         Dedicated: 0.39
         Shared: 0.368
       us-west-2:
         Dedicated: 0.39
         Shared: 0.368
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.587
+        Shared: 0.557
+      ap-southeast-2:
+        Dedicated: 0.548
+        Shared: 0.52
+      eu-central-1:
+        Dedicated: 0.548
+        Shared: 0.52
+      eu-west-1:
+        Dedicated: 0.495
+        Shared: 0.47
       us-east-1:
+        Dedicated: 0.45
+        Shared: 0.428
+      us-east-2:
         Dedicated: 0.45
         Shared: 0.428
       us-west-2:
         Dedicated: 0.45
         Shared: 0.428
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.652
+        Shared: 0.622
+      ap-southeast-2:
+        Dedicated: 0.613
+        Shared: 0.585
+      eu-central-1:
+        Dedicated: 0.613
+        Shared: 0.585
+      eu-west-1:
+        Dedicated: 0.56
+        Shared: 0.535
       us-east-1:
+        Dedicated: 0.515
+        Shared: 0.493
+      us-east-2:
         Dedicated: 0.515
         Shared: 0.493
       us-west-2:
         Dedicated: 0.515
         Shared: 0.493
   regions:
+    - ap-northeast-1
+    - eu-central-1
+    - eu-west-1
+    - ap-southeast-2
     - us-east-1
+    - us-east-2
     - us-west-2
   storage: EBS only
   vcpu: 4
