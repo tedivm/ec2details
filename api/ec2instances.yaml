@@ -7060,6 +7060,574 @@ c5a.xlarge:
     - us-east-1
   storage: EBS only
   vcpu: 4
+c5ad.12xlarge:
+  clockSpeed: 2.8 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 4750 Mbps
+  enhancedNetworkingSupported: true
+  memory: 96 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 96
+  physicalProcessor: AMD EPYC 7R32
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 2.424
+      ap-southeast-2:
+        Shared: 2.712
+      eu-central-1:
+        Shared: 2.4
+      eu-west-1:
+        Shared: 2.352
+      us-east-1:
+        Shared: 2.064
+      us-west-2:
+        Shared: 2.064
+    RHEL:
+      ap-southeast-1:
+        Shared: 2.554
+      ap-southeast-2:
+        Shared: 2.842
+      eu-central-1:
+        Shared: 2.53
+      eu-west-1:
+        Shared: 2.482
+      us-east-1:
+        Shared: 2.194
+      us-west-2:
+        Shared: 2.194
+    SUSE:
+      ap-southeast-1:
+        Shared: 2.574
+      ap-southeast-2:
+        Shared: 2.862
+      eu-central-1:
+        Shared: 2.55
+      eu-west-1:
+        Shared: 2.502
+      us-east-1:
+        Shared: 2.214
+      us-west-2:
+        Shared: 2.214
+    Windows:
+      ap-southeast-1:
+        Shared: 4.632
+      ap-southeast-2:
+        Shared: 4.92
+      eu-central-1:
+        Shared: 4.608
+      eu-west-1:
+        Shared: 4.56
+      us-east-1:
+        Shared: 4.272
+      us-west-2:
+        Shared: 4.272
+  regions:
+    - us-east-1
+    - eu-central-1
+    - us-west-2
+    - ap-southeast-2
+    - ap-southeast-1
+    - eu-west-1
+  storage: 2 x 900 NVMe SSD
+  vcpu: 48
+c5ad.16xlarge:
+  clockSpeed: 2.8 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 6300 Mbps
+  enhancedNetworkingSupported: true
+  memory: 128 GiB
+  networkPerformance: 20 Gigabit
+  normalizationSizeFactor: 128
+  physicalProcessor: AMD EPYC 7R32
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 3.232
+      ap-southeast-2:
+        Shared: 3.616
+      eu-central-1:
+        Shared: 3.2
+      eu-west-1:
+        Shared: 3.136
+      us-east-1:
+        Shared: 2.752
+      us-west-2:
+        Shared: 2.752
+    RHEL:
+      ap-southeast-1:
+        Shared: 3.362
+      ap-southeast-2:
+        Shared: 3.746
+      eu-central-1:
+        Shared: 3.33
+      eu-west-1:
+        Shared: 3.266
+      us-east-1:
+        Shared: 2.882
+      us-west-2:
+        Shared: 2.882
+    SUSE:
+      ap-southeast-1:
+        Shared: 3.382
+      ap-southeast-2:
+        Shared: 3.766
+      eu-central-1:
+        Shared: 3.35
+      eu-west-1:
+        Shared: 3.286
+      us-east-1:
+        Shared: 2.902
+      us-west-2:
+        Shared: 2.902
+    Windows:
+      ap-southeast-1:
+        Shared: 6.176
+      ap-southeast-2:
+        Shared: 6.56
+      eu-central-1:
+        Shared: 6.144
+      eu-west-1:
+        Shared: 6.08
+      us-east-1:
+        Shared: 5.696
+      us-west-2:
+        Shared: 5.696
+  regions:
+    - eu-west-1
+    - us-east-1
+    - us-west-2
+    - eu-central-1
+    - ap-southeast-1
+    - ap-southeast-2
+  storage: 2 x 1200 NVMe SSD
+  vcpu: 64
+c5ad.24xlarge:
+  clockSpeed: 2.8 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 9500 Mbps
+  enhancedNetworkingSupported: true
+  memory: 192 GiB
+  networkPerformance: 20 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: AMD EPYC 7R32
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 4.848
+      ap-southeast-2:
+        Shared: 5.424
+      eu-central-1:
+        Shared: 4.8
+      eu-west-1:
+        Shared: 4.704
+      us-east-1:
+        Shared: 4.128
+      us-west-2:
+        Shared: 4.128
+    RHEL:
+      ap-southeast-1:
+        Shared: 4.978
+      ap-southeast-2:
+        Shared: 5.554
+      eu-central-1:
+        Shared: 4.93
+      eu-west-1:
+        Shared: 4.834
+      us-east-1:
+        Shared: 4.258
+      us-west-2:
+        Shared: 4.258
+    SUSE:
+      ap-southeast-1:
+        Shared: 4.998
+      ap-southeast-2:
+        Shared: 5.574
+      eu-central-1:
+        Shared: 4.95
+      eu-west-1:
+        Shared: 4.854
+      us-east-1:
+        Shared: 4.278
+      us-west-2:
+        Shared: 4.278
+    Windows:
+      ap-southeast-1:
+        Shared: 9.264
+      ap-southeast-2:
+        Shared: 9.84
+      eu-central-1:
+        Shared: 9.216
+      eu-west-1:
+        Shared: 9.12
+      us-east-1:
+        Shared: 8.544
+      us-west-2:
+        Shared: 8.544
+  regions:
+    - ap-southeast-1
+    - eu-central-1
+    - us-west-2
+    - eu-west-1
+    - us-east-1
+    - ap-southeast-2
+  storage: 2 x 1900 NVMe SSD
+  vcpu: 96
+c5ad.2xlarge:
+  clockSpeed: 2.8 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 3170 Mbps
+  enhancedNetworkingSupported: true
+  memory: 16 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 16
+  physicalProcessor: AMD EPYC 7R32
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 0.404
+      ap-southeast-2:
+        Shared: 0.452
+      eu-central-1:
+        Shared: 0.4
+      eu-west-1:
+        Shared: 0.392
+      us-east-1:
+        Shared: 0.344
+      us-west-2:
+        Shared: 0.344
+    RHEL:
+      ap-southeast-1:
+        Shared: 0.534
+      ap-southeast-2:
+        Shared: 0.582
+      eu-central-1:
+        Shared: 0.53
+      eu-west-1:
+        Shared: 0.522
+      us-east-1:
+        Shared: 0.474
+      us-west-2:
+        Shared: 0.474
+    SUSE:
+      ap-southeast-1:
+        Shared: 0.554
+      ap-southeast-2:
+        Shared: 0.602
+      eu-central-1:
+        Shared: 0.55
+      eu-west-1:
+        Shared: 0.542
+      us-east-1:
+        Shared: 0.494
+      us-west-2:
+        Shared: 0.494
+    Windows:
+      ap-southeast-1:
+        Shared: 0.772
+      ap-southeast-2:
+        Shared: 0.82
+      eu-central-1:
+        Shared: 0.768
+      eu-west-1:
+        Shared: 0.76
+      us-east-1:
+        Shared: 0.712
+      us-west-2:
+        Shared: 0.712
+  regions:
+    - ap-southeast-1
+    - eu-west-1
+    - us-west-2
+    - us-east-1
+    - eu-central-1
+    - ap-southeast-2
+  storage: 1 x 300 NVMe SSD
+  vcpu: 8
+c5ad.4xlarge:
+  clockSpeed: 2.8 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 3170 Mbps
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 32
+  physicalProcessor: AMD EPYC 7R32
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 0.808
+      ap-southeast-2:
+        Shared: 0.904
+      eu-central-1:
+        Shared: 0.8
+      eu-west-1:
+        Shared: 0.784
+      us-east-1:
+        Shared: 0.688
+      us-west-2:
+        Shared: 0.688
+    RHEL:
+      ap-southeast-1:
+        Shared: 0.938
+      ap-southeast-2:
+        Shared: 1.034
+      eu-central-1:
+        Shared: 0.93
+      eu-west-1:
+        Shared: 0.914
+      us-east-1:
+        Shared: 0.818
+      us-west-2:
+        Shared: 0.818
+    SUSE:
+      ap-southeast-1:
+        Shared: 0.958
+      ap-southeast-2:
+        Shared: 1.054
+      eu-central-1:
+        Shared: 0.95
+      eu-west-1:
+        Shared: 0.934
+      us-east-1:
+        Shared: 0.838
+      us-west-2:
+        Shared: 0.838
+    Windows:
+      ap-southeast-1:
+        Shared: 1.544
+      ap-southeast-2:
+        Shared: 1.64
+      eu-central-1:
+        Shared: 1.536
+      eu-west-1:
+        Shared: 1.52
+      us-east-1:
+        Shared: 1.424
+      us-west-2:
+        Shared: 1.424
+  regions:
+    - us-east-1
+    - ap-southeast-2
+    - eu-central-1
+    - us-west-2
+    - ap-southeast-1
+    - eu-west-1
+  storage: 2 x 300 NVMe SSD
+  vcpu: 16
+c5ad.8xlarge:
+  clockSpeed: 2.8 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 3170 Mbps
+  enhancedNetworkingSupported: true
+  memory: 64 GiB
+  networkPerformance: 10 Gigabit
+  normalizationSizeFactor: 64
+  physicalProcessor: AMD EPYC 7R32
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 1.616
+      ap-southeast-2:
+        Shared: 1.808
+      eu-central-1:
+        Shared: 1.6
+      eu-west-1:
+        Shared: 1.568
+      us-east-1:
+        Shared: 1.376
+      us-west-2:
+        Shared: 1.376
+    RHEL:
+      ap-southeast-1:
+        Shared: 1.746
+      ap-southeast-2:
+        Shared: 1.938
+      eu-central-1:
+        Shared: 1.73
+      eu-west-1:
+        Shared: 1.698
+      us-east-1:
+        Shared: 1.506
+      us-west-2:
+        Shared: 1.506
+    SUSE:
+      ap-southeast-1:
+        Shared: 1.766
+      ap-southeast-2:
+        Shared: 1.958
+      eu-central-1:
+        Shared: 1.75
+      eu-west-1:
+        Shared: 1.718
+      us-east-1:
+        Shared: 1.526
+      us-west-2:
+        Shared: 1.526
+    Windows:
+      ap-southeast-1:
+        Shared: 3.088
+      ap-southeast-2:
+        Shared: 3.28
+      eu-central-1:
+        Shared: 3.072
+      eu-west-1:
+        Shared: 3.04
+      us-east-1:
+        Shared: 2.848
+      us-west-2:
+        Shared: 2.848
+  regions:
+    - ap-southeast-1
+    - eu-central-1
+    - us-east-1
+    - us-west-2
+    - ap-southeast-2
+    - eu-west-1
+  storage: 2 x 600 NVMe SSD
+  vcpu: 32
+c5ad.large:
+  clockSpeed: 2.8 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 3170 Mbps
+  enhancedNetworkingSupported: true
+  memory: 4 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 4
+  physicalProcessor: AMD EPYC 7R32
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 0.101
+      ap-southeast-2:
+        Shared: 0.113
+      eu-central-1:
+        Shared: 0.1
+      eu-west-1:
+        Shared: 0.098
+      us-east-1:
+        Shared: 0.086
+      us-west-2:
+        Shared: 0.086
+    RHEL:
+      ap-southeast-1:
+        Shared: 0.161
+      ap-southeast-2:
+        Shared: 0.173
+      eu-central-1:
+        Shared: 0.16
+      eu-west-1:
+        Shared: 0.158
+      us-east-1:
+        Shared: 0.146
+      us-west-2:
+        Shared: 0.146
+    SUSE:
+      ap-southeast-1:
+        Shared: 0.164
+      ap-southeast-2:
+        Shared: 0.176
+      eu-central-1:
+        Shared: 0.163
+      eu-west-1:
+        Shared: 0.161
+      us-east-1:
+        Shared: 0.149
+      us-west-2:
+        Shared: 0.149
+    Windows:
+      ap-southeast-1:
+        Shared: 0.193
+      ap-southeast-2:
+        Shared: 0.205
+      eu-central-1:
+        Shared: 0.192
+      eu-west-1:
+        Shared: 0.19
+      us-east-1:
+        Shared: 0.178
+      us-west-2:
+        Shared: 0.178
+  regions:
+    - us-west-2
+    - eu-central-1
+    - ap-southeast-1
+    - us-east-1
+    - eu-west-1
+    - ap-southeast-2
+  storage: 1 x 75 NVMe SSD
+  vcpu: 2
+c5ad.xlarge:
+  clockSpeed: 2.8 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 3170 Mbps
+  enhancedNetworkingSupported: true
+  memory: 8 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 8
+  physicalProcessor: AMD EPYC 7R32
+  prices:
+    Linux:
+      ap-southeast-1:
+        Shared: 0.202
+      ap-southeast-2:
+        Shared: 0.226
+      eu-central-1:
+        Shared: 0.2
+      eu-west-1:
+        Shared: 0.196
+      us-east-1:
+        Shared: 0.172
+      us-west-2:
+        Shared: 0.172
+    RHEL:
+      ap-southeast-1:
+        Shared: 0.262
+      ap-southeast-2:
+        Shared: 0.286
+      eu-central-1:
+        Shared: 0.26
+      eu-west-1:
+        Shared: 0.256
+      us-east-1:
+        Shared: 0.232
+      us-west-2:
+        Shared: 0.232
+    SUSE:
+      ap-southeast-1:
+        Shared: 0.327
+      ap-southeast-2:
+        Shared: 0.351
+      eu-central-1:
+        Shared: 0.325
+      eu-west-1:
+        Shared: 0.321
+      us-east-1:
+        Shared: 0.297
+      us-west-2:
+        Shared: 0.297
+    Windows:
+      ap-southeast-1:
+        Shared: 0.386
+      ap-southeast-2:
+        Shared: 0.41
+      eu-central-1:
+        Shared: 0.384
+      eu-west-1:
+        Shared: 0.38
+      us-east-1:
+        Shared: 0.356
+      us-west-2:
+        Shared: 0.356
+  regions:
+    - us-east-1
+    - eu-west-1
+    - ap-southeast-1
+    - ap-southeast-2
+    - us-west-2
+    - eu-central-1
+  storage: 1 x 150 NVMe SSD
+  vcpu: 4
 c5d.12xlarge:
   clockSpeed: 3 GHz
   currentGeneration: true
