@@ -13011,7 +13011,7 @@ c6gd.12xlarge:
   memory: 96 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: 96
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -13067,7 +13067,7 @@ c6gd.16xlarge:
   memory: 128 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 128
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -13123,7 +13123,7 @@ c6gd.2xlarge:
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -13179,7 +13179,7 @@ c6gd.4xlarge:
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -13235,7 +13235,7 @@ c6gd.8xlarge:
   memory: 64 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 64
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -13291,7 +13291,7 @@ c6gd.large:
   memory: 4 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -13347,7 +13347,7 @@ c6gd.medium:
   memory: 2 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 2
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -13403,7 +13403,7 @@ c6gd.metal:
   memory: 128 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 128
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -13459,7 +13459,7 @@ c6gd.xlarge:
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -38920,7 +38920,7 @@ m6gd.12xlarge:
   memory: 192 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: 96
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -38976,7 +38976,7 @@ m6gd.16xlarge:
   memory: 256 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 128
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -39032,7 +39032,7 @@ m6gd.2xlarge:
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -39088,7 +39088,7 @@ m6gd.4xlarge:
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -39144,7 +39144,7 @@ m6gd.8xlarge:
   memory: 128 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 64
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -39200,7 +39200,7 @@ m6gd.large:
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -39256,7 +39256,7 @@ m6gd.medium:
   memory: 4 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 2
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -39312,7 +39312,7 @@ m6gd.metal:
   memory: 256 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 128
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -39368,7 +39368,7 @@ m6gd.xlarge:
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -55177,7 +55177,7 @@ r6gd.12xlarge:
   memory: 384 GiB
   networkPerformance: 20 Gigabit
   normalizationSizeFactor: 96
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -55233,7 +55233,7 @@ r6gd.16xlarge:
   memory: 512 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 128
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -55289,7 +55289,7 @@ r6gd.2xlarge:
   memory: 64 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -55345,7 +55345,7 @@ r6gd.4xlarge:
   memory: 128 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -55401,7 +55401,7 @@ r6gd.8xlarge:
   memory: 256 GiB
   networkPerformance: 10 Gigabit
   normalizationSizeFactor: 64
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -55457,7 +55457,7 @@ r6gd.large:
   memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -55513,7 +55513,7 @@ r6gd.medium:
   memory: 8 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 2
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -55569,7 +55569,7 @@ r6gd.metal:
   memory: 512 GiB
   networkPerformance: 25 Gigabit
   normalizationSizeFactor: 128
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
@@ -55625,7 +55625,7 @@ r6gd.xlarge:
   memory: 32 GiB
   networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
-  physicalProcessor: AWS Graviton Processor
+  physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
       eu-west-1:
