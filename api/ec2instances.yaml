@@ -7066,7 +7066,7 @@ c5ad.12xlarge:
   dedicatedEbsThroughput: 4750 Mbps
   enhancedNetworkingSupported: true
   memory: 96 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: 12 Gigabit
   normalizationSizeFactor: 96
   physicalProcessor: AMD EPYC 7R32
   prices:
@@ -46565,7 +46565,7 @@ r5a.2xlarge:
   dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 64 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -46803,7 +46803,7 @@ r5a.4xlarge:
   dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 128 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -47279,7 +47279,7 @@ r5a.large:
   dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 16 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -47517,7 +47517,7 @@ r5a.xlarge:
   dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 32 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -48417,7 +48417,7 @@ r5ad.2xlarge:
   dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 64 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -48642,7 +48642,7 @@ r5ad.4xlarge:
   dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 128 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -49079,7 +49079,7 @@ r5ad.large:
   dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 16 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -49304,7 +49304,7 @@ r5ad.xlarge:
   dedicatedEbsThroughput: Up to 2120 Mbps
   enhancedNetworkingSupported: true
   memory: 32 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
   physicalProcessor: AMD EPYC 7571
   prices:
@@ -50520,7 +50520,7 @@ r5d.2xlarge:
   ecu: 37
   enhancedNetworkingSupported: true
   memory: 64 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 16
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
@@ -50850,7 +50850,7 @@ r5d.4xlarge:
   ecu: 70
   enhancedNetworkingSupported: true
   memory: 128 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 32
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
@@ -51510,7 +51510,7 @@ r5d.large:
   ecu: 10
   enhancedNetworkingSupported: true
   memory: 16 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 4
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
@@ -52170,7 +52170,7 @@ r5d.xlarge:
   ecu: 19
   enhancedNetworkingSupported: true
   memory: 32 GiB
-  networkPerformance: 10 Gigabit
+  networkPerformance: Up to 10 Gigabit
   normalizationSizeFactor: 8
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices:
