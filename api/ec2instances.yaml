@@ -55098,6 +55098,8 @@ r6g.xlarge:
       us-east-2:
         Dedicated: 0.2137
         Shared: 0.2016
+      us-west-1:
+        Dedicated: 0.2374
       us-west-2:
         Dedicated: 0.2137
         Shared: 0.2016
@@ -55126,6 +55128,8 @@ r6g.xlarge:
       us-east-2:
         Dedicated: 0.2737
         Shared: 0.2616
+      us-west-1:
+        Dedicated: 0.2974
       us-west-2:
         Dedicated: 0.2737
         Shared: 0.2616
@@ -55154,11 +55158,14 @@ r6g.xlarge:
       us-east-2:
         Dedicated: 0.3387
         Shared: 0.3266
+      us-west-1:
+        Dedicated: 0.3624
       us-west-2:
         Dedicated: 0.3387
         Shared: 0.3266
   regions:
     - ap-northeast-1
+    - us-west-1
     - ap-southeast-1
     - us-west-2
     - eu-central-1
@@ -55615,7 +55622,7 @@ r6gd.metal:
     - eu-west-1
     - us-east-2
     - us-east-1
-  storage: 1 x 1900 NVMe SSD
+  storage: 2 x 1900 NVMe SSD
   vcpu: 64
 r6gd.xlarge:
   clockSpeed: 2.5 GHz
