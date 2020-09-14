@@ -60185,6 +60185,446 @@ t3a.xlarge:
     - us-east-2
   storage: EBS only
   vcpu: 4
+t4g.2xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 2780 Mbps
+  enhancedNetworkingSupported: false
+  memory: 32 GiB
+  networkPerformance: Up to 5 Gigabit
+  normalizationSizeFactor: 16
+  physicalProcessor: AWS Graviton2 Processor
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.3456
+      ap-south-1:
+        Shared: 0.1792
+      eu-central-1:
+        Shared: 0.3072
+      eu-west-1:
+        Shared: 0.2944
+      us-east-1:
+        Shared: 0.2688
+      us-east-2:
+        Shared: 0.2688
+      us-west-2:
+        Shared: 0.2688
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.4756
+      ap-south-1:
+        Shared: 0.3092
+      eu-central-1:
+        Shared: 0.4372
+      eu-west-1:
+        Shared: 0.4244
+      us-east-1:
+        Shared: 0.3988
+      us-east-2:
+        Shared: 0.3988
+      us-west-2:
+        Shared: 0.3988
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.4956
+      ap-south-1:
+        Shared: 0.3292
+      eu-central-1:
+        Shared: 0.4572
+      eu-west-1:
+        Shared: 0.4444
+      us-east-1:
+        Shared: 0.4188
+      us-east-2:
+        Shared: 0.4188
+      us-west-2:
+        Shared: 0.4188
+  regions:
+    - us-east-1
+    - eu-west-1
+    - ap-northeast-1
+    - eu-central-1
+    - ap-south-1
+    - us-west-2
+    - us-east-2
+  storage: EBS only
+  vcpu: 8
+t4g.large:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 2780 Mbps
+  enhancedNetworkingSupported: false
+  memory: 8 GiB
+  networkPerformance: Up to 5 Gigabit
+  normalizationSizeFactor: 4
+  physicalProcessor: AWS Graviton2 Processor
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.0864
+      ap-south-1:
+        Shared: 0.0448
+      eu-central-1:
+        Shared: 0.0768
+      eu-west-1:
+        Shared: 0.0736
+      us-east-1:
+        Shared: 0.0672
+      us-east-2:
+        Shared: 0.0672
+      us-west-2:
+        Shared: 0.0672
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.1464
+      ap-south-1:
+        Shared: 0.1048
+      eu-central-1:
+        Shared: 0.1368
+      eu-west-1:
+        Shared: 0.1336
+      us-east-1:
+        Shared: 0.1272
+      us-east-2:
+        Shared: 0.1272
+      us-west-2:
+        Shared: 0.1272
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.1489
+      ap-south-1:
+        Shared: 0.1073
+      eu-central-1:
+        Shared: 0.1393
+      eu-west-1:
+        Shared: 0.1361
+      us-east-1:
+        Shared: 0.1297
+      us-east-2:
+        Shared: 0.1297
+      us-west-2:
+        Shared: 0.1297
+  regions:
+    - us-east-1
+    - us-east-2
+    - ap-northeast-1
+    - us-west-2
+    - eu-central-1
+    - eu-west-1
+    - ap-south-1
+  storage: EBS only
+  vcpu: 2
+t4g.medium:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 2085 Mbps
+  enhancedNetworkingSupported: false
+  memory: 4 GiB
+  networkPerformance: Up to 5 Gigabit
+  normalizationSizeFactor: 2
+  physicalProcessor: AWS Graviton2 Processor
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.0432
+      ap-south-1:
+        Shared: 0.0224
+      eu-central-1:
+        Shared: 0.0384
+      eu-west-1:
+        Shared: 0.0368
+      us-east-1:
+        Shared: 0.0336
+      us-east-2:
+        Shared: 0.0336
+      us-west-2:
+        Shared: 0.0336
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.1032
+      ap-south-1:
+        Shared: 0.0824
+      eu-central-1:
+        Shared: 0.0984
+      eu-west-1:
+        Shared: 0.0968
+      us-east-1:
+        Shared: 0.0936
+      us-east-2:
+        Shared: 0.0936
+      us-west-2:
+        Shared: 0.0936
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.1057
+      ap-south-1:
+        Shared: 0.0849
+      eu-central-1:
+        Shared: 0.1009
+      eu-west-1:
+        Shared: 0.0993
+      us-east-1:
+        Shared: 0.0961
+      us-east-2:
+        Shared: 0.0961
+      us-west-2:
+        Shared: 0.0961
+  regions:
+    - ap-northeast-1
+    - us-west-2
+    - eu-west-1
+    - ap-south-1
+    - eu-central-1
+    - us-east-1
+    - us-east-2
+  storage: EBS only
+  vcpu: 2
+t4g.micro:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 2085 Mbps
+  enhancedNetworkingSupported: false
+  memory: 1 GiB
+  networkPerformance: Up to 5 Gigabit
+  normalizationSizeFactor: 0
+  physicalProcessor: AWS Graviton2 Processor
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.0108
+      ap-south-1:
+        Shared: 0.0056
+      eu-central-1:
+        Shared: 0.0096
+      eu-west-1:
+        Shared: 0.0092
+      us-east-1:
+        Shared: 0.0084
+      us-east-2:
+        Shared: 0.0084
+      us-west-2:
+        Shared: 0.0084
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.0708
+      ap-south-1:
+        Shared: 0.0656
+      eu-central-1:
+        Shared: 0.0696
+      eu-west-1:
+        Shared: 0.0692
+      us-east-1:
+        Shared: 0.0684
+      us-east-2:
+        Shared: 0.0684
+      us-west-2:
+        Shared: 0.0684
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.0108
+      ap-south-1:
+        Shared: 0.0056
+      eu-central-1:
+        Shared: 0.0096
+      eu-west-1:
+        Shared: 0.0092
+      us-east-1:
+        Shared: 0.0084
+      us-east-2:
+        Shared: 0.0084
+      us-west-2:
+        Shared: 0.0084
+  regions:
+    - eu-central-1
+    - us-east-1
+    - us-west-2
+    - eu-west-1
+    - us-east-2
+    - ap-northeast-1
+    - ap-south-1
+  storage: EBS only
+  vcpu: 2
+t4g.nano:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 2085 Mbps
+  enhancedNetworkingSupported: false
+  memory: 0.5 GiB
+  networkPerformance: Up to 5 Gigabit
+  normalizationSizeFactor: 0
+  physicalProcessor: AWS Graviton2 Processor
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.0054
+      ap-south-1:
+        Shared: 0.0028
+      eu-central-1:
+        Shared: 0.0048
+      eu-west-1:
+        Shared: 0.0046
+      us-east-1:
+        Shared: 0.0042
+      us-east-2:
+        Shared: 0.0042
+      us-west-2:
+        Shared: 0.0042
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.0054
+      ap-south-1:
+        Shared: 0.0028
+      eu-central-1:
+        Shared: 0.0048
+      eu-west-1:
+        Shared: 0.0046
+      us-east-1:
+        Shared: 0.0042
+      us-east-2:
+        Shared: 0.0042
+      us-west-2:
+        Shared: 0.0042
+  regions:
+    - eu-central-1
+    - ap-northeast-1
+    - ap-south-1
+    - eu-west-1
+    - us-west-2
+    - us-east-2
+    - us-east-1
+  storage: EBS only
+  vcpu: 2
+t4g.small:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 2085 Mbps
+  enhancedNetworkingSupported: false
+  memory: 2 GiB
+  networkPerformance: Up to 5 Gigabit
+  normalizationSizeFactor: 1
+  physicalProcessor: AWS Graviton2 Processor
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.0216
+      ap-south-1:
+        Shared: 0.0112
+      eu-central-1:
+        Shared: 0.0192
+      eu-west-1:
+        Shared: 0.0184
+      us-east-1:
+        Shared: 0.0168
+      us-east-2:
+        Shared: 0.0168
+      us-west-2:
+        Shared: 0.0168
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.0816
+      ap-south-1:
+        Shared: 0.0712
+      eu-central-1:
+        Shared: 0.0792
+      eu-west-1:
+        Shared: 0.0784
+      us-east-1:
+        Shared: 0.0768
+      us-east-2:
+        Shared: 0.0768
+      us-west-2:
+        Shared: 0.0768
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.0529
+      ap-south-1:
+        Shared: 0.0425
+      eu-central-1:
+        Shared: 0.0505
+      eu-west-1:
+        Shared: 0.0497
+      us-east-1:
+        Shared: 0.0481
+      us-east-2:
+        Shared: 0.0481
+      us-west-2:
+        Shared: 0.0481
+  regions:
+    - us-west-2
+    - ap-northeast-1
+    - eu-central-1
+    - ap-south-1
+    - us-east-1
+    - us-east-2
+    - eu-west-1
+  storage: EBS only
+  vcpu: 2
+t4g.xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 2780 Mbps
+  enhancedNetworkingSupported: false
+  memory: 16 GiB
+  networkPerformance: Up to 5 Gigabit
+  normalizationSizeFactor: 8
+  physicalProcessor: AWS Graviton2 Processor
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.1728
+      ap-south-1:
+        Shared: 0.0896
+      eu-central-1:
+        Shared: 0.1536
+      eu-west-1:
+        Shared: 0.1472
+      us-east-1:
+        Shared: 0.1344
+      us-east-2:
+        Shared: 0.1344
+      us-west-2:
+        Shared: 0.1344
+    RHEL:
+      ap-northeast-1:
+        Shared: 0.2328
+      ap-south-1:
+        Shared: 0.1496
+      eu-central-1:
+        Shared: 0.2136
+      eu-west-1:
+        Shared: 0.2072
+      us-east-1:
+        Shared: 0.1944
+      us-east-2:
+        Shared: 0.1944
+      us-west-2:
+        Shared: 0.1944
+    SUSE:
+      ap-northeast-1:
+        Shared: 0.2978
+      ap-south-1:
+        Shared: 0.2146
+      eu-central-1:
+        Shared: 0.2786
+      eu-west-1:
+        Shared: 0.2722
+      us-east-1:
+        Shared: 0.2594
+      us-east-2:
+        Shared: 0.2594
+      us-west-2:
+        Shared: 0.2594
+  regions:
+    - us-east-2
+    - eu-central-1
+    - ap-south-1
+    - us-west-2
+    - ap-northeast-1
+    - us-east-1
+    - eu-west-1
+  storage: EBS only
+  vcpu: 4
 u-12tb1.metal:
   currentGeneration: true
   dedicatedEbsThroughput: 14000 Mbps
