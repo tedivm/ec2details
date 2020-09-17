@@ -2854,6 +2854,9 @@ c5.12xlarge:
       af-south-1:
         Dedicated: 2.9
         Shared: 2.736
+      ap-east-1:
+        Dedicated: 2.748
+        Shared: 2.592
       ap-northeast-1:
         Dedicated: 2.744
         Shared: 2.568
@@ -2924,6 +2927,9 @@ c5.12xlarge:
       af-south-1:
         Dedicated: 3.03
         Shared: 2.866
+      ap-east-1:
+        Dedicated: 2.878
+        Shared: 2.722
       ap-northeast-1:
         Dedicated: 2.874
         Shared: 2.698
@@ -2994,6 +3000,9 @@ c5.12xlarge:
       af-south-1:
         Dedicated: 3
         Shared: 2.836
+      ap-east-1:
+        Dedicated: 2.848
+        Shared: 2.692
       ap-northeast-1:
         Dedicated: 2.844
         Shared: 2.668
@@ -3064,6 +3073,9 @@ c5.12xlarge:
       af-south-1:
         Dedicated: 5.108
         Shared: 4.944
+      ap-east-1:
+        Dedicated: 4.956
+        Shared: 4.8
       ap-northeast-1:
         Dedicated: 4.952
         Shared: 4.776
@@ -3144,6 +3156,7 @@ c5.12xlarge:
     - sa-east-1
     - eu-west-3
     - EU (Milan)
+    - ap-east-1
     - us-east-1
     - ap-south-1
     - af-south-1
