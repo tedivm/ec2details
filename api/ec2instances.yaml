@@ -5850,6 +5850,9 @@ c5a.12xlarge:
         Shared: 2.064
       eu-west-2:
         Shared: 2.184
+      sa-east-1:
+        Dedicated: 3.115
+        Shared: 2.832
       us-east-1:
         Dedicated: 2.033
         Shared: 1.848
@@ -5895,6 +5898,9 @@ c5a.12xlarge:
         Shared: 2.194
       eu-west-2:
         Shared: 2.314
+      sa-east-1:
+        Dedicated: 3.245
+        Shared: 2.962
       us-east-1:
         Dedicated: 2.163
         Shared: 1.978
@@ -5940,6 +5946,9 @@ c5a.12xlarge:
         Shared: 2.214
       eu-west-2:
         Shared: 2.334
+      sa-east-1:
+        Dedicated: 3.265
+        Shared: 2.982
       us-east-1:
         Dedicated: 2.183
         Shared: 1.998
@@ -5985,6 +5994,9 @@ c5a.12xlarge:
         Shared: 4.272
       eu-west-2:
         Shared: 4.392
+      sa-east-1:
+        Dedicated: 5.323
+        Shared: 5.04
       us-east-1:
         Dedicated: 4.241
         Shared: 4.056
@@ -6008,6 +6020,7 @@ c5a.12xlarge:
     - ca-central-1
     - eu-west-2
     - ap-east-1
+    - sa-east-1
     - ap-southeast-2
     - AWS GovCloud (US-West)
     - ap-northeast-1
@@ -6060,6 +6073,9 @@ c5a.16xlarge:
         Shared: 2.752
       eu-west-2:
         Shared: 2.912
+      sa-east-1:
+        Dedicated: 4.154
+        Shared: 3.776
       us-east-1:
         Dedicated: 2.71
         Shared: 2.464
@@ -6105,6 +6121,9 @@ c5a.16xlarge:
         Shared: 2.882
       eu-west-2:
         Shared: 3.042
+      sa-east-1:
+        Dedicated: 4.284
+        Shared: 3.906
       us-east-1:
         Dedicated: 2.84
         Shared: 2.594
@@ -6150,6 +6169,9 @@ c5a.16xlarge:
         Shared: 2.902
       eu-west-2:
         Shared: 3.062
+      sa-east-1:
+        Dedicated: 4.304
+        Shared: 3.926
       us-east-1:
         Dedicated: 2.86
         Shared: 2.614
@@ -6195,6 +6217,9 @@ c5a.16xlarge:
         Shared: 5.696
       eu-west-2:
         Shared: 5.856
+      sa-east-1:
+        Dedicated: 7.098
+        Shared: 6.72
       us-east-1:
         Dedicated: 5.654
         Shared: 5.408
@@ -6211,6 +6236,7 @@ c5a.16xlarge:
         Shared: 5.408
   regions:
     - ca-central-1
+    - sa-east-1
     - eu-west-2
     - AWS GovCloud (US-West)
     - ap-northeast-2
@@ -6270,6 +6296,9 @@ c5a.24xlarge:
         Shared: 4.128
       eu-west-2:
         Shared: 4.368
+      sa-east-1:
+        Dedicated: 6.23
+        Shared: 5.664
       us-east-1:
         Dedicated: 4.066
         Shared: 3.696
@@ -6315,6 +6344,9 @@ c5a.24xlarge:
         Shared: 4.258
       eu-west-2:
         Shared: 4.498
+      sa-east-1:
+        Dedicated: 6.36
+        Shared: 5.794
       us-east-1:
         Dedicated: 4.196
         Shared: 3.826
@@ -6360,6 +6392,9 @@ c5a.24xlarge:
         Shared: 4.278
       eu-west-2:
         Shared: 4.518
+      sa-east-1:
+        Dedicated: 6.38
+        Shared: 5.814
       us-east-1:
         Dedicated: 4.216
         Shared: 3.846
@@ -6405,6 +6440,9 @@ c5a.24xlarge:
         Shared: 8.544
       eu-west-2:
         Shared: 8.784
+      sa-east-1:
+        Dedicated: 10.646
+        Shared: 10.08
       us-east-1:
         Dedicated: 8.482
         Shared: 8.112
@@ -6426,6 +6464,7 @@ c5a.24xlarge:
     - eu-central-1
     - us-east-1
     - ap-south-1
+    - sa-east-1
     - ap-northeast-1
     - AWS GovCloud (US-West)
     - us-east-2
@@ -6480,6 +6519,9 @@ c5a.2xlarge:
         Shared: 0.344
       eu-west-2:
         Shared: 0.364
+      sa-east-1:
+        Dedicated: 0.519
+        Shared: 0.472
       us-east-1:
         Dedicated: 0.339
         Shared: 0.308
@@ -6525,6 +6567,9 @@ c5a.2xlarge:
         Shared: 0.474
       eu-west-2:
         Shared: 0.494
+      sa-east-1:
+        Dedicated: 0.649
+        Shared: 0.602
       us-east-1:
         Dedicated: 0.469
         Shared: 0.438
@@ -6570,6 +6615,9 @@ c5a.2xlarge:
         Shared: 0.494
       eu-west-2:
         Shared: 0.514
+      sa-east-1:
+        Dedicated: 0.669
+        Shared: 0.622
       us-east-1:
         Dedicated: 0.489
         Shared: 0.458
@@ -6615,6 +6663,9 @@ c5a.2xlarge:
         Shared: 0.712
       eu-west-2:
         Shared: 0.732
+      sa-east-1:
+        Dedicated: 0.887
+        Shared: 0.84
       us-east-1:
         Dedicated: 0.707
         Shared: 0.676
@@ -6634,6 +6685,7 @@ c5a.2xlarge:
     - ap-northeast-2
     - eu-west-1
     - us-east-2
+    - sa-east-1
     - us-east-1
     - ap-east-1
     - AWS GovCloud (US-West)
@@ -6690,6 +6742,9 @@ c5a.4xlarge:
         Shared: 0.688
       eu-west-2:
         Shared: 0.728
+      sa-east-1:
+        Dedicated: 1.038
+        Shared: 0.944
       us-east-1:
         Dedicated: 0.678
         Shared: 0.616
@@ -6735,6 +6790,9 @@ c5a.4xlarge:
         Shared: 0.818
       eu-west-2:
         Shared: 0.858
+      sa-east-1:
+        Dedicated: 1.168
+        Shared: 1.074
       us-east-1:
         Dedicated: 0.808
         Shared: 0.746
@@ -6780,6 +6838,9 @@ c5a.4xlarge:
         Shared: 0.838
       eu-west-2:
         Shared: 0.878
+      sa-east-1:
+        Dedicated: 1.188
+        Shared: 1.094
       us-east-1:
         Dedicated: 0.828
         Shared: 0.766
@@ -6825,6 +6886,9 @@ c5a.4xlarge:
         Shared: 1.424
       eu-west-2:
         Shared: 1.464
+      sa-east-1:
+        Dedicated: 1.774
+        Shared: 1.68
       us-east-1:
         Dedicated: 1.414
         Shared: 1.352
@@ -6841,6 +6905,7 @@ c5a.4xlarge:
         Shared: 1.352
   regions:
     - ap-northeast-1
+    - sa-east-1
     - eu-west-1
     - us-west-2
     - us-gov-east-1
@@ -6900,6 +6965,9 @@ c5a.8xlarge:
         Shared: 1.376
       eu-west-2:
         Shared: 1.456
+      sa-east-1:
+        Dedicated: 2.077
+        Shared: 1.888
       us-east-1:
         Dedicated: 1.355
         Shared: 1.232
@@ -6945,6 +7013,9 @@ c5a.8xlarge:
         Shared: 1.506
       eu-west-2:
         Shared: 1.586
+      sa-east-1:
+        Dedicated: 2.207
+        Shared: 2.018
       us-east-1:
         Dedicated: 1.485
         Shared: 1.362
@@ -6990,6 +7061,9 @@ c5a.8xlarge:
         Shared: 1.526
       eu-west-2:
         Shared: 1.606
+      sa-east-1:
+        Dedicated: 2.227
+        Shared: 2.038
       us-east-1:
         Dedicated: 1.505
         Shared: 1.382
@@ -7035,6 +7109,9 @@ c5a.8xlarge:
         Shared: 2.848
       eu-west-2:
         Shared: 2.928
+      sa-east-1:
+        Dedicated: 3.549
+        Shared: 3.36
       us-east-1:
         Dedicated: 2.827
         Shared: 2.704
@@ -7054,6 +7131,7 @@ c5a.8xlarge:
     - us-east-1
     - ap-south-1
     - us-west-1
+    - sa-east-1
     - AWS GovCloud (US-West)
     - eu-west-1
     - eu-north-1
@@ -7110,6 +7188,9 @@ c5a.large:
         Shared: 0.086
       eu-west-2:
         Shared: 0.091
+      sa-east-1:
+        Dedicated: 0.13
+        Shared: 0.118
       us-east-1:
         Dedicated: 0.085
         Shared: 0.077
@@ -7155,6 +7236,9 @@ c5a.large:
         Shared: 0.146
       eu-west-2:
         Shared: 0.151
+      sa-east-1:
+        Dedicated: 0.19
+        Shared: 0.178
       us-east-1:
         Dedicated: 0.145
         Shared: 0.137
@@ -7200,6 +7284,9 @@ c5a.large:
         Shared: 0.149
       eu-west-2:
         Shared: 0.154
+      sa-east-1:
+        Dedicated: 0.193
+        Shared: 0.181
       us-east-1:
         Dedicated: 0.148
         Shared: 0.14
@@ -7245,6 +7332,9 @@ c5a.large:
         Shared: 0.178
       eu-west-2:
         Shared: 0.183
+      sa-east-1:
+        Dedicated: 0.222
+        Shared: 0.21
       us-east-1:
         Dedicated: 0.177
         Shared: 0.169
@@ -7271,6 +7361,7 @@ c5a.large:
     - ap-east-1
     - eu-north-1
     - us-west-1
+    - sa-east-1
     - eu-central-1
     - ap-northeast-2
     - us-east-2
@@ -7320,6 +7411,9 @@ c5a.xlarge:
         Shared: 0.172
       eu-west-2:
         Shared: 0.182
+      sa-east-1:
+        Dedicated: 0.26
+        Shared: 0.236
       us-east-1:
         Dedicated: 0.169
         Shared: 0.154
@@ -7365,6 +7459,9 @@ c5a.xlarge:
         Shared: 0.232
       eu-west-2:
         Shared: 0.242
+      sa-east-1:
+        Dedicated: 0.32
+        Shared: 0.296
       us-east-1:
         Dedicated: 0.229
         Shared: 0.214
@@ -7410,6 +7507,9 @@ c5a.xlarge:
         Shared: 0.297
       eu-west-2:
         Shared: 0.307
+      sa-east-1:
+        Dedicated: 0.385
+        Shared: 0.361
       us-east-1:
         Dedicated: 0.294
         Shared: 0.279
@@ -7455,6 +7555,9 @@ c5a.xlarge:
         Shared: 0.356
       eu-west-2:
         Shared: 0.366
+      sa-east-1:
+        Dedicated: 0.444
+        Shared: 0.42
       us-east-1:
         Dedicated: 0.353
         Shared: 0.338
@@ -7485,6 +7588,7 @@ c5a.xlarge:
     - ap-northeast-1
     - ap-southeast-1
     - ap-northeast-2
+    - sa-east-1
     - us-west-2
     - us-east-1
   storage: EBS only
@@ -17290,7 +17394,13 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.361
         Shared: 1.278
+      US East (Verizon) - Atlanta:
+        Shared: 1.317
       US East (Verizon) - Boston:
+        Shared: 1.317
+      US East (Verizon) - New York:
+        Shared: 1.317
+      US East (Verizon) - Washington DC:
         Shared: 1.317
       US West (Verizon) - San Francisco Bay Area:
         Shared: 1.317
@@ -17364,7 +17474,13 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.491
         Shared: 1.408
+      US East (Verizon) - Atlanta:
+        Shared: 1.447
       US East (Verizon) - Boston:
+        Shared: 1.447
+      US East (Verizon) - New York:
+        Shared: 1.447
+      US East (Verizon) - Washington DC:
         Shared: 1.447
       US West (Verizon) - San Francisco Bay Area:
         Shared: 1.447
@@ -17438,7 +17554,13 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.511
         Shared: 1.428
+      US East (Verizon) - Atlanta:
+        Shared: 1.467
       US East (Verizon) - Boston:
+        Shared: 1.467
+      US East (Verizon) - New York:
+        Shared: 1.467
+      US East (Verizon) - Washington DC:
         Shared: 1.467
       US West (Verizon) - San Francisco Bay Area:
         Shared: 1.467
@@ -17512,7 +17634,13 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.729
         Shared: 1.646
+      US East (Verizon) - Atlanta:
+        Shared: 1.685
       US East (Verizon) - Boston:
+        Shared: 1.685
+      US East (Verizon) - New York:
+        Shared: 1.685
+      US East (Verizon) - Washington DC:
         Shared: 1.685
       US West (Verizon) - San Francisco Bay Area:
         Shared: 1.685
@@ -17536,6 +17664,7 @@ g4dn.2xlarge:
         Shared: 1.27
   regions:
     - af-south-1
+    - US East (Verizon) - Atlanta
     - ap-northeast-2
     - ca-central-1
     - EU (Milan)
@@ -17557,8 +17686,10 @@ g4dn.2xlarge:
     - us-west-2
     - us-east-1
     - ap-northeast-1
+    - US East (Verizon) - New York
     - us-gov-east-1
     - eu-west-2
+    - US East (Verizon) - Washington DC
     - ap-south-1
   storage: 225 GB NVMe SSD
   vcpu: 8
@@ -28566,10 +28697,10 @@ m5.2xlarge:
     - eu-west-3
     - eu-west-2
     - us-gov-east-1
+    - AWS GovCloud (US-West)
     - af-south-1
     - ap-northeast-1
     - sa-east-1
-    - AWS GovCloud (US-West)
     - eu-central-1
     - EU (Milan)
     - ap-south-1
@@ -44522,7 +44653,13 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 0.852
         Shared: 0.804
+      US East (Verizon) - Atlanta:
+        Shared: 0.68
       US East (Verizon) - Boston:
+        Shared: 0.68
+      US East (Verizon) - New York:
+        Shared: 0.68
+      US East (Verizon) - Washington DC:
         Shared: 0.68
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.68
@@ -44599,7 +44736,13 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 0.982
         Shared: 0.934
+      US East (Verizon) - Atlanta:
+        Shared: 0.81
       US East (Verizon) - Boston:
+        Shared: 0.81
+      US East (Verizon) - New York:
+        Shared: 0.81
+      US East (Verizon) - Washington DC:
         Shared: 0.81
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.81
@@ -44676,7 +44819,13 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 1.002
         Shared: 0.954
+      US East (Verizon) - Atlanta:
+        Shared: 0.83
       US East (Verizon) - Boston:
+        Shared: 0.83
+      US East (Verizon) - New York:
+        Shared: 0.83
+      US East (Verizon) - Washington DC:
         Shared: 0.83
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.83
@@ -44753,7 +44902,13 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 1.22
         Shared: 1.172
+      US East (Verizon) - Atlanta:
+        Shared: 1.048
       US East (Verizon) - Boston:
+        Shared: 1.048
+      US East (Verizon) - New York:
+        Shared: 1.048
+      US East (Verizon) - Washington DC:
         Shared: 1.048
       US West (Verizon) - San Francisco Bay Area:
         Shared: 1.048
@@ -44777,6 +44932,7 @@ r5.2xlarge:
         Shared: 0.973
   regions:
     - us-gov-east-1
+    - US East (Verizon) - Washington DC
     - me-south-1
     - ap-south-1
     - AWS GovCloud (US-West)
@@ -44800,8 +44956,10 @@ r5.2xlarge:
     - ca-central-1
     - ap-southeast-2
     - af-south-1
+    - US East (Verizon) - New York
     - US West (Verizon) - San Francisco Bay Area
     - US East (Verizon) - Boston
+    - US East (Verizon) - Atlanta
   storage: EBS only
   vcpu: 8
 r5.4xlarge:
@@ -58295,7 +58453,13 @@ t3.medium:
       sa-east-1:
         Dedicated: 0.0709
         Shared: 0.0672
+      US East (Verizon) - Atlanta:
+        Shared: 0.056
       US East (Verizon) - Boston:
+        Shared: 0.056
+      US East (Verizon) - New York:
+        Shared: 0.056
+      US East (Verizon) - Washington DC:
         Shared: 0.056
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.056
@@ -58365,7 +58529,13 @@ t3.medium:
       sa-east-1:
         Dedicated: 0.1309
         Shared: 0.1272
+      US East (Verizon) - Atlanta:
+        Shared: 0.116
       US East (Verizon) - Boston:
+        Shared: 0.116
+      US East (Verizon) - New York:
+        Shared: 0.116
+      US East (Verizon) - Washington DC:
         Shared: 0.116
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.116
@@ -58435,7 +58605,13 @@ t3.medium:
       sa-east-1:
         Dedicated: 0.1339
         Shared: 0.1302
+      US East (Verizon) - Atlanta:
+        Shared: 0.119
       US East (Verizon) - Boston:
+        Shared: 0.119
+      US East (Verizon) - New York:
+        Shared: 0.119
+      US East (Verizon) - Washington DC:
         Shared: 0.119
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.119
@@ -58505,7 +58681,13 @@ t3.medium:
       sa-east-1:
         Dedicated: 0.0893
         Shared: 0.0856
+      US East (Verizon) - Atlanta:
+        Shared: 0.0744
       US East (Verizon) - Boston:
+        Shared: 0.0744
+      US East (Verizon) - New York:
+        Shared: 0.0744
+      US East (Verizon) - Washington DC:
         Shared: 0.0744
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.0744
@@ -58529,6 +58711,7 @@ t3.medium:
   regions:
     - us-west-2
     - ap-southeast-2
+    - US East (Verizon) - New York
     - ca-central-1
     - ap-northeast-2
     - eu-north-1
@@ -58540,6 +58723,7 @@ t3.medium:
     - us-west-1
     - af-south-1
     - eu-west-1
+    - US East (Verizon) - Washington DC
     - US West (Verizon) - San Francisco Bay Area
     - me-south-1
     - us-east-1
@@ -58553,6 +58737,7 @@ t3.medium:
     - EU (Milan)
     - US East (Verizon) - Boston
     - ap-east-1
+    - US East (Verizon) - Atlanta
   storage: EBS only
   vcpu: 2
 t3.micro:
@@ -59455,7 +59640,13 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.2835
         Shared: 0.2688
+      US East (Verizon) - Atlanta:
+        Shared: 0.224
       US East (Verizon) - Boston:
+        Shared: 0.224
+      US East (Verizon) - New York:
+        Shared: 0.224
+      US East (Verizon) - Washington DC:
         Shared: 0.224
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.224
@@ -59525,7 +59716,13 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.3435
         Shared: 0.3288
+      US East (Verizon) - Atlanta:
+        Shared: 0.284
       US East (Verizon) - Boston:
+        Shared: 0.284
+      US East (Verizon) - New York:
+        Shared: 0.284
+      US East (Verizon) - Washington DC:
         Shared: 0.284
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.284
@@ -59595,7 +59792,13 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.4085
         Shared: 0.3938
+      US East (Verizon) - Atlanta:
+        Shared: 0.349
       US East (Verizon) - Boston:
+        Shared: 0.349
+      US East (Verizon) - New York:
+        Shared: 0.349
+      US East (Verizon) - Washington DC:
         Shared: 0.349
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.349
@@ -59665,7 +59868,13 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.3571
         Shared: 0.3424
+      US East (Verizon) - Atlanta:
+        Shared: 0.2976
       US East (Verizon) - Boston:
+        Shared: 0.2976
+      US East (Verizon) - New York:
+        Shared: 0.2976
+      US East (Verizon) - Washington DC:
         Shared: 0.2976
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.2976
@@ -59697,6 +59906,7 @@ t3.xlarge:
     - af-south-1
     - eu-west-1
     - US East (Verizon) - Boston
+    - US East (Verizon) - Washington DC
     - eu-west-2
     - us-west-1
     - AWS GovCloud (US-West)
@@ -59713,6 +59923,8 @@ t3.xlarge:
     - us-east-2
     - us-west-2-lax-1a
     - ap-northeast-2
+    - US East (Verizon) - New York
+    - US East (Verizon) - Atlanta
   storage: EBS only
   vcpu: 4
 t3a.2xlarge:
