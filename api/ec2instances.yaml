@@ -18336,76 +18336,284 @@ g4dn.metal:
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 10.381
+        Shared: 10.381
+      ap-east-1:
+        Dedicated: 12.048
+        Shared: 12.048
       ap-northeast-1:
         Dedicated: 10.562
         Shared: 10.562
+      ap-northeast-2:
+        Dedicated: 9.624
+        Shared: 9.624
+      ap-south-1:
+        Dedicated: 8.612
+        Shared: 8.612
+      ap-southeast-1:
+        Dedicated: 10.948
+        Shared: 10.948
+      ap-southeast-2:
+        Dedicated: 10.174
+        Shared: 10.174
       AWS GovCloud (US-West):
         Dedicated: 9.862
         Shared: 9.862
+      ca-central-1:
+        Dedicated: 8.687
+        Shared: 8.687
+      EU (Milan):
+        Dedicated: 9.16
+        Shared: 9.16
+      eu-central-1:
+        Dedicated: 9.78
+        Shared: 9.78
+      eu-north-1:
+        Dedicated: 8.3
+        Shared: 8.3
+      eu-west-1:
+        Dedicated: 8.724
+        Shared: 8.724
+      eu-west-2:
+        Dedicated: 9.154
+        Shared: 9.154
+      eu-west-3:
+        Dedicated: 9.148
+        Shared: 9.148
+      me-south-1:
+        Dedicated: 9.596
+        Shared: 9.596
+      sa-east-1:
+        Dedicated: 13.298
+        Shared: 13.298
       us-east-1:
         Dedicated: 7.824
         Shared: 7.824
+      us-east-2:
+        Dedicated: 7.824
+        Shared: 7.824
+      us-west-1:
+        Dedicated: 9.389
+        Shared: 9.389
       us-west-2:
         Dedicated: 7.824
         Shared: 7.824
     RHEL:
+      af-south-1:
+        Dedicated: 10.511
+        Shared: 10.511
+      ap-east-1:
+        Dedicated: 12.178
+        Shared: 12.178
       ap-northeast-1:
         Dedicated: 10.692
         Shared: 10.692
+      ap-northeast-2:
+        Dedicated: 9.754
+        Shared: 9.754
+      ap-south-1:
+        Dedicated: 8.742
+        Shared: 8.742
+      ap-southeast-1:
+        Dedicated: 11.078
+        Shared: 11.078
+      ap-southeast-2:
+        Dedicated: 10.304
+        Shared: 10.304
       AWS GovCloud (US-West):
         Dedicated: 9.992
         Shared: 9.992
+      ca-central-1:
+        Dedicated: 8.817
+        Shared: 8.817
+      EU (Milan):
+        Dedicated: 9.29
+        Shared: 9.29
+      eu-central-1:
+        Dedicated: 9.91
+        Shared: 9.91
+      eu-north-1:
+        Dedicated: 8.43
+        Shared: 8.43
+      eu-west-1:
+        Dedicated: 8.854
+        Shared: 8.854
+      eu-west-2:
+        Dedicated: 9.284
+        Shared: 9.284
+      eu-west-3:
+        Dedicated: 9.278
+        Shared: 9.278
+      me-south-1:
+        Dedicated: 9.726
+        Shared: 9.726
+      sa-east-1:
+        Dedicated: 13.428
+        Shared: 13.428
       us-east-1:
         Dedicated: 7.954
         Shared: 7.954
+      us-east-2:
+        Dedicated: 7.954
+        Shared: 7.954
+      us-west-1:
+        Dedicated: 9.519
+        Shared: 9.519
       us-west-2:
         Dedicated: 7.954
         Shared: 7.954
     SUSE:
+      af-south-1:
+        Dedicated: 10.531
+        Shared: 10.531
+      ap-east-1:
+        Dedicated: 12.198
+        Shared: 12.198
       ap-northeast-1:
         Dedicated: 10.712
         Shared: 10.712
+      ap-northeast-2:
+        Dedicated: 9.774
+        Shared: 9.774
+      ap-south-1:
+        Dedicated: 8.762
+        Shared: 8.762
+      ap-southeast-1:
+        Dedicated: 11.098
+        Shared: 11.098
+      ap-southeast-2:
+        Dedicated: 10.324
+        Shared: 10.324
       AWS GovCloud (US-West):
         Dedicated: 10.012
         Shared: 10.012
+      ca-central-1:
+        Dedicated: 8.837
+        Shared: 8.837
+      EU (Milan):
+        Dedicated: 9.31
+        Shared: 9.31
+      eu-central-1:
+        Dedicated: 9.93
+        Shared: 9.93
+      eu-north-1:
+        Dedicated: 8.45
+        Shared: 8.45
+      eu-west-1:
+        Dedicated: 8.874
+        Shared: 8.874
+      eu-west-2:
+        Dedicated: 9.304
+        Shared: 9.304
+      eu-west-3:
+        Dedicated: 9.298
+        Shared: 9.298
+      me-south-1:
+        Dedicated: 9.746
+        Shared: 9.746
+      sa-east-1:
+        Dedicated: 13.448
+        Shared: 13.448
       us-east-1:
         Dedicated: 7.974
         Shared: 7.974
+      us-east-2:
+        Dedicated: 7.974
+        Shared: 7.974
+      us-west-1:
+        Dedicated: 9.539
+        Shared: 9.539
       us-west-2:
         Dedicated: 7.974
         Shared: 7.974
     Windows:
+      af-south-1:
+        Dedicated: 14.797
+        Shared: 14.797
+      ap-east-1:
+        Dedicated: 16.464
+        Shared: 16.464
       ap-northeast-1:
         Dedicated: 14.978
         Shared: 14.978
+      ap-northeast-2:
+        Dedicated: 14.04
+        Shared: 14.04
+      ap-south-1:
+        Dedicated: 13.028
+        Shared: 13.028
+      ap-southeast-1:
+        Dedicated: 15.364
+        Shared: 15.364
+      ap-southeast-2:
+        Dedicated: 14.59
+        Shared: 14.59
       AWS GovCloud (US-West):
         Dedicated: 14.278
         Shared: 9.862
+      ca-central-1:
+        Dedicated: 13.103
+        Shared: 13.103
+      EU (Milan):
+        Dedicated: 13.576
+        Shared: 13.576
+      eu-central-1:
+        Dedicated: 14.196
+        Shared: 14.196
+      eu-north-1:
+        Dedicated: 12.716
+        Shared: 12.716
+      eu-west-1:
+        Dedicated: 13.14
+        Shared: 13.14
+      eu-west-2:
+        Dedicated: 13.57
+        Shared: 13.57
+      eu-west-3:
+        Dedicated: 13.564
+        Shared: 13.564
+      me-south-1:
+        Dedicated: 14.012
+        Shared: 14.012
+      sa-east-1:
+        Dedicated: 17.714
+        Shared: 17.714
       us-east-1:
         Dedicated: 12.24
         Shared: 12.24
+      us-east-2:
+        Dedicated: 12.24
+        Shared: 12.24
+      us-west-1:
+        Dedicated: 13.805
+        Shared: 13.805
       us-west-2:
         Dedicated: 12.24
         Shared: 12.24
   regions:
     - ap-northeast-1
     - ap-northeast-2
+    - us-west-1
+    - eu-west-2
+    - us-east-2
+    - af-south-1
+    - sa-east-1
+    - ap-south-1
     - AWS GovCloud (US-West)
+    - ca-central-1
+    - eu-central-1
     - us-east-1
     - us-west-2
-    - eu-west-2
-    - ap-east-1
-    - us-west-1
-    - us-west-2-lax-1a
+    - eu-north-1
     - eu-west-3
+    - EU (Milan)
+    - ap-east-1
     - ap-southeast-2
-    - eu-central-1
     - eu-west-1
+    - us-west-2-lax-1a
     - me-south-1
-    - us-east-2
-    - ca-central-1
     - ap-southeast-1
-    - ap-south-1
   storage: 2 x 900 GB NVMe SSD
   vcpu: 96
 g4dn.xlarge:
