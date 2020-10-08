@@ -62516,6 +62516,9 @@ x1e.16xlarge:
       eu-west-1:
         Dedicated: 17.6
         Shared: 16
+      sa-east-1:
+        Dedicated: 28.611
+        Shared: 26.01
       us-east-1:
         Dedicated: 14.678
         Shared: 13.344
@@ -62556,6 +62559,9 @@ x1e.16xlarge:
       eu-west-1:
         Dedicated: 17.73
         Shared: 16.13
+      sa-east-1:
+        Dedicated: 28.741
+        Shared: 26.14
       us-east-1:
         Dedicated: 14.808
         Shared: 13.474
@@ -62596,6 +62602,9 @@ x1e.16xlarge:
       eu-west-1:
         Dedicated: 17.7
         Shared: 16.1
+      sa-east-1:
+        Dedicated: 28.711
+        Shared: 26.11
       us-east-1:
         Dedicated: 14.778
         Shared: 13.444
@@ -62636,6 +62645,9 @@ x1e.16xlarge:
       eu-west-1:
         Dedicated: 20.544
         Shared: 18.944
+      sa-east-1:
+        Dedicated: 31.555
+        Shared: 28.954
       us-east-1:
         Dedicated: 17.622
         Shared: 16.288
@@ -62658,6 +62670,7 @@ x1e.16xlarge:
     - us-west-2
     - ap-southeast-2
     - eu-central-1
+    - sa-east-1
     - us-east-2
     - ap-south-1
     - us-gov-east-1
@@ -62703,6 +62716,9 @@ x1e.2xlarge:
       eu-west-1:
         Dedicated: 2.2
         Shared: 2
+      sa-east-1:
+        Dedicated: 3.576
+        Shared: 3.251
       us-east-1:
         Dedicated: 1.835
         Shared: 1.668
@@ -62743,6 +62759,9 @@ x1e.2xlarge:
       eu-west-1:
         Dedicated: 2.33
         Shared: 2.13
+      sa-east-1:
+        Dedicated: 3.706
+        Shared: 3.381
       us-east-1:
         Dedicated: 1.965
         Shared: 1.798
@@ -62783,6 +62802,9 @@ x1e.2xlarge:
       eu-west-1:
         Dedicated: 2.3
         Shared: 2.1
+      sa-east-1:
+        Dedicated: 3.676
+        Shared: 3.351
       us-east-1:
         Dedicated: 1.935
         Shared: 1.768
@@ -62823,6 +62845,9 @@ x1e.2xlarge:
       eu-west-1:
         Dedicated: 2.568
         Shared: 2.368
+      sa-east-1:
+        Dedicated: 3.944
+        Shared: 3.619
       us-east-1:
         Dedicated: 2.203
         Shared: 2.036
@@ -62841,6 +62866,7 @@ x1e.2xlarge:
     - ca-central-1
     - us-gov-east-1
     - ap-northeast-1
+    - sa-east-1
     - us-east-2
     - us-west-2
     - ap-southeast-2
@@ -63090,6 +63116,9 @@ x1e.4xlarge:
       eu-west-1:
         Dedicated: 4.4
         Shared: 4
+      sa-east-1:
+        Dedicated: 7.153
+        Shared: 6.502
       us-east-1:
         Dedicated: 3.67
         Shared: 3.336
@@ -63130,6 +63159,9 @@ x1e.4xlarge:
       eu-west-1:
         Dedicated: 4.53
         Shared: 4.13
+      sa-east-1:
+        Dedicated: 7.283
+        Shared: 6.632
       us-east-1:
         Dedicated: 3.8
         Shared: 3.466
@@ -63170,6 +63202,9 @@ x1e.4xlarge:
       eu-west-1:
         Dedicated: 4.5
         Shared: 4.1
+      sa-east-1:
+        Dedicated: 7.253
+        Shared: 6.602
       us-east-1:
         Dedicated: 3.77
         Shared: 3.436
@@ -63210,6 +63245,9 @@ x1e.4xlarge:
       eu-west-1:
         Dedicated: 5.136
         Shared: 4.736
+      sa-east-1:
+        Dedicated: 7.889
+        Shared: 7.238
       us-east-1:
         Dedicated: 4.406
         Shared: 4.072
@@ -63236,6 +63274,7 @@ x1e.4xlarge:
     - us-west-2
     - ap-southeast-2
     - ca-central-1
+    - sa-east-1
   storage: 1 x 480 SSD
   vcpu: 16
 x1e.8xlarge:
@@ -63277,6 +63316,9 @@ x1e.8xlarge:
       eu-west-1:
         Dedicated: 8.8
         Shared: 8
+      sa-east-1:
+        Dedicated: 14.305
+        Shared: 13.005
       us-east-1:
         Dedicated: 7.339
         Shared: 6.672
@@ -63317,6 +63359,9 @@ x1e.8xlarge:
       eu-west-1:
         Dedicated: 8.93
         Shared: 8.13
+      sa-east-1:
+        Dedicated: 14.435
+        Shared: 13.135
       us-east-1:
         Dedicated: 7.469
         Shared: 6.802
@@ -63357,6 +63402,9 @@ x1e.8xlarge:
       eu-west-1:
         Dedicated: 8.9
         Shared: 8.1
+      sa-east-1:
+        Dedicated: 14.405
+        Shared: 13.105
       us-east-1:
         Dedicated: 7.439
         Shared: 6.772
@@ -63397,6 +63445,9 @@ x1e.8xlarge:
       eu-west-1:
         Dedicated: 8.8
         Shared: 9.472
+      sa-east-1:
+        Dedicated: 15.777
+        Shared: 14.477
       us-east-1:
         Dedicated: 8.811
         Shared: 8.144
@@ -63422,6 +63473,7 @@ x1e.8xlarge:
     - us-east-2
     - ap-northeast-2
     - eu-west-1
+    - sa-east-1
     - ap-southeast-2
   storage: 1 x 960 SSD
   vcpu: 32
@@ -63464,6 +63516,9 @@ x1e.xlarge:
       eu-west-1:
         Dedicated: 1.1
         Shared: 1
+      sa-east-1:
+        Dedicated: 1.788
+        Shared: 1.626
       us-east-1:
         Dedicated: 0.917
         Shared: 0.834
@@ -63504,6 +63559,9 @@ x1e.xlarge:
       eu-west-1:
         Dedicated: 1.16
         Shared: 1.06
+      sa-east-1:
+        Dedicated: 1.848
+        Shared: 1.686
       us-east-1:
         Dedicated: 0.977
         Shared: 0.894
@@ -63544,6 +63602,9 @@ x1e.xlarge:
       eu-west-1:
         Dedicated: 1.2
         Shared: 1.1
+      sa-east-1:
+        Dedicated: 1.888
+        Shared: 1.726
       us-east-1:
         Dedicated: 1.017
         Shared: 0.934
@@ -63584,6 +63645,9 @@ x1e.xlarge:
       eu-west-1:
         Dedicated: 1.284
         Shared: 1
+      sa-east-1:
+        Dedicated: 1.972
+        Shared: 1.81
       us-east-1:
         Dedicated: 1.101
         Shared: 1.018
@@ -63608,6 +63672,7 @@ x1e.xlarge:
     - ap-southeast-1
     - ap-northeast-2
     - us-east-1
+    - sa-east-1
     - us-gov-east-1
     - us-east-2
   storage: 1 x 120 SSD
