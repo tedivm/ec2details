@@ -43968,7 +43968,7 @@ r4.xlarge:
 r5.12xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 6000 Mbps
+  dedicatedEbsThroughput: 9500 Mbps
   ecu: 168
   enhancedNetworkingSupported: true
   memory: 384 GiB
@@ -44298,7 +44298,7 @@ r5.12xlarge:
 r5.16xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 10000 Mbps
+  dedicatedEbsThroughput: 13600 Mbps
   ecu: 256
   enhancedNetworkingSupported: true
   memory: 512 GiB
@@ -44628,7 +44628,7 @@ r5.16xlarge:
 r5.24xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 12000 Mbps
+  dedicatedEbsThroughput: 19000 Mbps
   ecu: 337
   enhancedNetworkingSupported: true
   memory: 768 GiB
@@ -44958,7 +44958,7 @@ r5.24xlarge:
 r5.2xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 2120 Mbps
+  dedicatedEbsThroughput: Up to 4750 Mbps
   ecu: 37
   enhancedNetworkingSupported: true
   memory: 64 GiB
@@ -45333,7 +45333,7 @@ r5.2xlarge:
 r5.4xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 2120 Mbps
+  dedicatedEbsThroughput: 4750 Mbps
   ecu: 70
   enhancedNetworkingSupported: true
   memory: 128 GiB
@@ -45663,7 +45663,7 @@ r5.4xlarge:
 r5.8xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 5000 Mbps
+  dedicatedEbsThroughput: 6800 Mbps
   ecu: 128
   enhancedNetworkingSupported: true
   memory: 256 GiB
@@ -45993,7 +45993,7 @@ r5.8xlarge:
 r5.large:
   clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 2120 Mbps
+  dedicatedEbsThroughput: Up to 4750 Mbps
   ecu: 10
   enhancedNetworkingSupported: true
   memory: 16 GiB
@@ -46323,7 +46323,7 @@ r5.large:
 r5.metal:
   clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 12000 Mbps
+  dedicatedEbsThroughput: 19000 Mbps
   ecu: 347
   enhancedNetworkingSupported: true
   memory: 768 GiB
@@ -46653,7 +46653,7 @@ r5.metal:
 r5.xlarge:
   clockSpeed: 3.1 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: Up to 2120 Mbps
+  dedicatedEbsThroughput: Up to 4750 Mbps
   ecu: 19
   enhancedNetworkingSupported: true
   memory: 32 GiB
@@ -61430,7 +61430,7 @@ t3a.xlarge:
       us-east-1:
         Shared: 0.224
       us-east-2:
-        Shared: 0.224
+        Shared: 0.1504
       us-gov-east-1:
         Shared: 0.2493
       us-west-1:
