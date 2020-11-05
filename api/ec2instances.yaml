@@ -41635,6 +41635,38 @@ p3dn.24xlarge:
     - eu-west-1
   storage: 2 x 900 NVMe SSD
   vcpu: 96
+p4d.24xlarge:
+  clockSpeed: 3 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 19000 Mbps
+  ecu: 345
+  enhancedNetworkingSupported: false
+  gpu: 8
+  memory: 1152 GiB
+  networkPerformance: 400 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: Intel Xeon Platinum 8275L
+  prices:
+    Linux:
+      us-east-1:
+        Shared: 32.7726
+      us-west-2:
+        Shared: 32.7726
+    RHEL:
+      us-east-1:
+        Shared: 32.9026
+      us-west-2:
+        Shared: 32.9026
+    SUSE:
+      us-east-1:
+        Shared: 32.9226
+      us-west-2:
+        Shared: 32.9226
+  regions:
+    - us-west-2
+    - us-east-1
+  storage: 8 x 1000 SSD
+  vcpu: 96
 r3.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: false
