@@ -17437,6 +17437,10 @@ g4dn.2xlarge:
         Shared: 1.317
       US East (Verizon) - Boston:
         Shared: 1.317
+      US East (Verizon) - Dallas:
+        Shared: 1.317
+      US East (Verizon) - Miami:
+        Shared: 1.317
       US East (Verizon) - New York:
         Shared: 1.317
       US East (Verizon) - Washington DC:
@@ -17516,6 +17520,10 @@ g4dn.2xlarge:
       US East (Verizon) - Atlanta:
         Shared: 1.447
       US East (Verizon) - Boston:
+        Shared: 1.447
+      US East (Verizon) - Dallas:
+        Shared: 1.447
+      US East (Verizon) - Miami:
         Shared: 1.447
       US East (Verizon) - New York:
         Shared: 1.447
@@ -17597,6 +17605,10 @@ g4dn.2xlarge:
         Shared: 1.467
       US East (Verizon) - Boston:
         Shared: 1.467
+      US East (Verizon) - Dallas:
+        Shared: 1.467
+      US East (Verizon) - Miami:
+        Shared: 1.467
       US East (Verizon) - New York:
         Shared: 1.467
       US East (Verizon) - Washington DC:
@@ -17677,6 +17689,10 @@ g4dn.2xlarge:
         Shared: 1.685
       US East (Verizon) - Boston:
         Shared: 1.685
+      US East (Verizon) - Dallas:
+        Shared: 1.685
+      US East (Verizon) - Miami:
+        Shared: 1.685
       US East (Verizon) - New York:
         Shared: 1.685
       US East (Verizon) - Washington DC:
@@ -17708,6 +17724,7 @@ g4dn.2xlarge:
     - ca-central-1
     - EU (Milan)
     - us-east-2
+    - US East (Verizon) - Dallas
     - ap-southeast-1
     - us-west-2-lax-1a
     - US East (Verizon) - Boston
@@ -17729,6 +17746,7 @@ g4dn.2xlarge:
     - us-gov-east-1
     - eu-west-2
     - US East (Verizon) - Washington DC
+    - US East (Verizon) - Miami
     - ap-south-1
   storage: 225 GB NVMe SSD
   vcpu: 8
@@ -45096,6 +45114,10 @@ r5.2xlarge:
         Shared: 0.68
       US East (Verizon) - Boston:
         Shared: 0.68
+      US East (Verizon) - Dallas:
+        Shared: 0.68
+      US East (Verizon) - Miami:
+        Shared: 0.68
       US East (Verizon) - New York:
         Shared: 0.68
       US East (Verizon) - Washington DC:
@@ -45178,6 +45200,10 @@ r5.2xlarge:
       US East (Verizon) - Atlanta:
         Shared: 0.81
       US East (Verizon) - Boston:
+        Shared: 0.81
+      US East (Verizon) - Dallas:
+        Shared: 0.81
+      US East (Verizon) - Miami:
         Shared: 0.81
       US East (Verizon) - New York:
         Shared: 0.81
@@ -45262,6 +45288,10 @@ r5.2xlarge:
         Shared: 0.83
       US East (Verizon) - Boston:
         Shared: 0.83
+      US East (Verizon) - Dallas:
+        Shared: 0.83
+      US East (Verizon) - Miami:
+        Shared: 0.83
       US East (Verizon) - New York:
         Shared: 0.83
       US East (Verizon) - Washington DC:
@@ -45345,6 +45375,10 @@ r5.2xlarge:
         Shared: 1.048
       US East (Verizon) - Boston:
         Shared: 1.048
+      US East (Verizon) - Dallas:
+        Shared: 1.048
+      US East (Verizon) - Miami:
+        Shared: 1.048
       US East (Verizon) - New York:
         Shared: 1.048
       US East (Verizon) - Washington DC:
@@ -45375,11 +45409,13 @@ r5.2xlarge:
     - me-south-1
     - ap-south-1
     - AWS GovCloud (US-West)
+    - US East (Verizon) - Dallas
     - ap-east-1
     - eu-central-1
     - us-west-2
     - us-east-1
     - eu-west-1
+    - US East (Verizon) - Miami
     - ap-northeast-2
     - ap-southeast-1
     - EU (Milan)
@@ -58896,6 +58932,10 @@ t3.medium:
         Shared: 0.056
       US East (Verizon) - Boston:
         Shared: 0.056
+      US East (Verizon) - Dallas:
+        Shared: 0.056
+      US East (Verizon) - Miami:
+        Shared: 0.056
       US East (Verizon) - New York:
         Shared: 0.056
       US East (Verizon) - Washington DC:
@@ -58971,6 +59011,10 @@ t3.medium:
       US East (Verizon) - Atlanta:
         Shared: 0.116
       US East (Verizon) - Boston:
+        Shared: 0.116
+      US East (Verizon) - Dallas:
+        Shared: 0.116
+      US East (Verizon) - Miami:
         Shared: 0.116
       US East (Verizon) - New York:
         Shared: 0.116
@@ -59048,6 +59092,10 @@ t3.medium:
         Shared: 0.119
       US East (Verizon) - Boston:
         Shared: 0.119
+      US East (Verizon) - Dallas:
+        Shared: 0.119
+      US East (Verizon) - Miami:
+        Shared: 0.119
       US East (Verizon) - New York:
         Shared: 0.119
       US East (Verizon) - Washington DC:
@@ -59124,6 +59172,10 @@ t3.medium:
         Shared: 0.0744
       US East (Verizon) - Boston:
         Shared: 0.0744
+      US East (Verizon) - Dallas:
+        Shared: 0.0744
+      US East (Verizon) - Miami:
+        Shared: 0.0744
       US East (Verizon) - New York:
         Shared: 0.0744
       US East (Verizon) - Washington DC:
@@ -59160,6 +59212,7 @@ t3.medium:
     - sa-east-1
     - eu-west-2
     - us-west-1
+    - US East (Verizon) - Miami
     - af-south-1
     - eu-west-1
     - US East (Verizon) - Washington DC
@@ -59168,6 +59221,7 @@ t3.medium:
     - us-east-1
     - us-east-2
     - eu-central-1
+    - US East (Verizon) - Dallas
     - us-gov-east-1
     - ap-northeast-1
     - ap-southeast-1
@@ -60083,6 +60137,10 @@ t3.xlarge:
         Shared: 0.224
       US East (Verizon) - Boston:
         Shared: 0.224
+      US East (Verizon) - Dallas:
+        Shared: 0.224
+      US East (Verizon) - Miami:
+        Shared: 0.224
       US East (Verizon) - New York:
         Shared: 0.224
       US East (Verizon) - Washington DC:
@@ -60158,6 +60216,10 @@ t3.xlarge:
       US East (Verizon) - Atlanta:
         Shared: 0.284
       US East (Verizon) - Boston:
+        Shared: 0.284
+      US East (Verizon) - Dallas:
+        Shared: 0.284
+      US East (Verizon) - Miami:
         Shared: 0.284
       US East (Verizon) - New York:
         Shared: 0.284
@@ -60235,6 +60297,10 @@ t3.xlarge:
         Shared: 0.349
       US East (Verizon) - Boston:
         Shared: 0.349
+      US East (Verizon) - Dallas:
+        Shared: 0.349
+      US East (Verizon) - Miami:
+        Shared: 0.349
       US East (Verizon) - New York:
         Shared: 0.349
       US East (Verizon) - Washington DC:
@@ -60311,6 +60377,10 @@ t3.xlarge:
         Shared: 0.2976
       US East (Verizon) - Boston:
         Shared: 0.2976
+      US East (Verizon) - Dallas:
+        Shared: 0.2976
+      US East (Verizon) - Miami:
+        Shared: 0.2976
       US East (Verizon) - New York:
         Shared: 0.2976
       US East (Verizon) - Washington DC:
@@ -60362,6 +60432,8 @@ t3.xlarge:
     - us-east-2
     - us-west-2-lax-1a
     - ap-northeast-2
+    - US East (Verizon) - Miami
+    - US East (Verizon) - Dallas
     - US East (Verizon) - New York
     - US East (Verizon) - Atlanta
   storage: EBS only
