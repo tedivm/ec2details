@@ -17692,7 +17692,7 @@ g4dn.2xlarge:
       US East (Verizon) - Dallas:
         Shared: 1.685
       US East (Verizon) - Miami:
-        Shared: 1.685
+        Shared: 1.317
       US East (Verizon) - New York:
         Shared: 1.685
       US East (Verizon) - Washington DC:
@@ -45378,7 +45378,7 @@ r5.2xlarge:
       US East (Verizon) - Dallas:
         Shared: 1.048
       US East (Verizon) - Miami:
-        Shared: 1.048
+        Shared: 0.68
       US East (Verizon) - New York:
         Shared: 1.048
       US East (Verizon) - Washington DC:
@@ -60380,7 +60380,7 @@ t3.xlarge:
       US East (Verizon) - Dallas:
         Shared: 0.2976
       US East (Verizon) - Miami:
-        Shared: 0.2976
+        Shared: 0.224
       US East (Verizon) - New York:
         Shared: 0.2976
       US East (Verizon) - Washington DC:
