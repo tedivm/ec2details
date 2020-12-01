@@ -9074,6 +9074,12 @@ c5d.2xlarge:
       sa-east-1:
         Dedicated: 0.636
         Shared: 0.596
+      US East (Boston):
+        Shared: 0.48
+      US East (Houston):
+        Shared: 0.48
+      US East (Miami):
+        Shared: 0.48
       us-east-1:
         Dedicated: 0.407
         Shared: 0.384
@@ -9144,6 +9150,12 @@ c5d.2xlarge:
       sa-east-1:
         Dedicated: 0.766
         Shared: 0.726
+      US East (Boston):
+        Shared: 0.61
+      US East (Houston):
+        Shared: 0.61
+      US East (Miami):
+        Shared: 0.61
       us-east-1:
         Dedicated: 0.537
         Shared: 0.514
@@ -9214,6 +9226,12 @@ c5d.2xlarge:
       sa-east-1:
         Dedicated: 0.736
         Shared: 0.696
+      US East (Boston):
+        Shared: 0.58
+      US East (Houston):
+        Shared: 0.58
+      US East (Miami):
+        Shared: 0.58
       us-east-1:
         Dedicated: 0.507
         Shared: 0.484
@@ -9284,6 +9302,12 @@ c5d.2xlarge:
       sa-east-1:
         Dedicated: 1.004
         Shared: 0.964
+      US East (Boston):
+        Shared: 0.848
+      US East (Houston):
+        Shared: 0.848
+      US East (Miami):
+        Shared: 0.48
       us-east-1:
         Dedicated: 0.407
         Shared: 0.384
@@ -9303,6 +9327,7 @@ c5d.2xlarge:
     - eu-west-1
     - af-south-1
     - sa-east-1
+    - US East (Miami)
     - eu-central-1
     - me-south-1
     - us-east-2
@@ -9321,8 +9346,10 @@ c5d.2xlarge:
     - eu-west-3
     - ap-east-1
     - us-east-1
+    - US East (Boston)
     - ap-southeast-2
     - EU (Milan)
+    - US East (Houston)
   storage: 1 x 200 NVMe SSD
   vcpu: 8
 c5d.4xlarge:
@@ -18225,6 +18252,12 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.361
         Shared: 1.278
+      US East (Boston):
+        Shared: 1.015
+      US East (Houston):
+        Shared: 1.015
+      US East (Miami):
+        Shared: 1.015
       US East (Verizon) - Atlanta:
         Shared: 1.317
       US East (Verizon) - Boston:
@@ -18236,6 +18269,8 @@ g4dn.2xlarge:
       US East (Verizon) - New York:
         Shared: 1.317
       US East (Verizon) - Washington DC:
+        Shared: 1.317
+      US West (Verizon) - Las Vegas:
         Shared: 1.317
       US West (Verizon) - San Francisco Bay Area:
         Shared: 1.317
@@ -18309,6 +18344,12 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.491
         Shared: 1.408
+      US East (Boston):
+        Shared: 1.145
+      US East (Houston):
+        Shared: 1.145
+      US East (Miami):
+        Shared: 1.145
       US East (Verizon) - Atlanta:
         Shared: 1.447
       US East (Verizon) - Boston:
@@ -18320,6 +18361,8 @@ g4dn.2xlarge:
       US East (Verizon) - New York:
         Shared: 1.447
       US East (Verizon) - Washington DC:
+        Shared: 1.447
+      US West (Verizon) - Las Vegas:
         Shared: 1.447
       US West (Verizon) - San Francisco Bay Area:
         Shared: 1.447
@@ -18393,6 +18436,12 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.511
         Shared: 1.428
+      US East (Boston):
+        Shared: 1.165
+      US East (Houston):
+        Shared: 1.165
+      US East (Miami):
+        Shared: 1.165
       US East (Verizon) - Atlanta:
         Shared: 1.467
       US East (Verizon) - Boston:
@@ -18404,6 +18453,8 @@ g4dn.2xlarge:
       US East (Verizon) - New York:
         Shared: 1.467
       US East (Verizon) - Washington DC:
+        Shared: 1.467
+      US West (Verizon) - Las Vegas:
         Shared: 1.467
       US West (Verizon) - San Francisco Bay Area:
         Shared: 1.467
@@ -18477,6 +18528,12 @@ g4dn.2xlarge:
       sa-east-1:
         Dedicated: 1.729
         Shared: 1.646
+      US East (Boston):
+        Shared: 1.015
+      US East (Houston):
+        Shared: 1.383
+      US East (Miami):
+        Shared: 1.383
       US East (Verizon) - Atlanta:
         Shared: 1.685
       US East (Verizon) - Boston:
@@ -18488,6 +18545,8 @@ g4dn.2xlarge:
       US East (Verizon) - New York:
         Shared: 1.685
       US East (Verizon) - Washington DC:
+        Shared: 1.685
+      US West (Verizon) - Las Vegas:
         Shared: 1.685
       US West (Verizon) - San Francisco Bay Area:
         Shared: 1.685
@@ -18514,9 +18573,12 @@ g4dn.2xlarge:
     - US East (Verizon) - Atlanta
     - ap-northeast-2
     - ca-central-1
+    - US East (Miami)
     - EU (Milan)
+    - US West (Verizon) - Las Vegas
     - us-east-2
     - US East (Verizon) - Dallas
+    - US East (Boston)
     - ap-southeast-1
     - us-west-2-lax-1a
     - US East (Verizon) - Boston
@@ -18526,6 +18588,7 @@ g4dn.2xlarge:
     - eu-central-1
     - sa-east-1
     - us-west-1
+    - US East (Houston)
     - eu-north-1
     - eu-west-1
     - me-south-1
@@ -47107,6 +47170,8 @@ r5.2xlarge:
         Shared: 0.68
       US East (Verizon) - Washington DC:
         Shared: 0.68
+      US West (Verizon) - Las Vegas:
+        Shared: 0.68
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.68
       us-east-1:
@@ -47193,6 +47258,8 @@ r5.2xlarge:
       US East (Verizon) - New York:
         Shared: 0.81
       US East (Verizon) - Washington DC:
+        Shared: 0.81
+      US West (Verizon) - Las Vegas:
         Shared: 0.81
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.81
@@ -47281,6 +47348,8 @@ r5.2xlarge:
         Shared: 0.83
       US East (Verizon) - Washington DC:
         Shared: 0.83
+      US West (Verizon) - Las Vegas:
+        Shared: 0.83
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.83
       us-east-1:
@@ -47368,6 +47437,8 @@ r5.2xlarge:
         Shared: 1.048
       US East (Verizon) - Washington DC:
         Shared: 1.048
+      US West (Verizon) - Las Vegas:
+        Shared: 1.048
       US West (Verizon) - San Francisco Bay Area:
         Shared: 1.048
       us-east-1:
@@ -47400,6 +47471,7 @@ r5.2xlarge:
     - us-west-2
     - us-east-1
     - eu-west-1
+    - US West (Verizon) - Las Vegas
     - US East (Verizon) - Miami
     - ap-northeast-2
     - ap-southeast-1
@@ -54319,6 +54391,12 @@ r5d.2xlarge:
       sa-east-1:
         Dedicated: 0.967
         Shared: 0.912
+      US East (Boston):
+        Shared: 0.72
+      US East (Houston):
+        Shared: 0.72
+      US East (Miami):
+        Shared: 0.72
       us-east-1:
         Dedicated: 0.611
         Shared: 0.576
@@ -54392,6 +54470,12 @@ r5d.2xlarge:
       sa-east-1:
         Dedicated: 1.097
         Shared: 1.042
+      US East (Boston):
+        Shared: 0.85
+      US East (Houston):
+        Shared: 0.85
+      US East (Miami):
+        Shared: 0.85
       us-east-1:
         Dedicated: 0.741
         Shared: 0.706
@@ -54465,6 +54549,12 @@ r5d.2xlarge:
       sa-east-1:
         Dedicated: 1.117
         Shared: 1.062
+      US East (Boston):
+        Shared: 0.87
+      US East (Houston):
+        Shared: 0.87
+      US East (Miami):
+        Shared: 0.87
       us-east-1:
         Dedicated: 0.761
         Shared: 0.726
@@ -54538,6 +54628,12 @@ r5d.2xlarge:
       sa-east-1:
         Dedicated: 1.335
         Shared: 1.28
+      US East (Boston):
+        Shared: 1.088
+      US East (Houston):
+        Shared: 0.72
+      US East (Miami):
+        Shared: 1.088
       us-east-1:
         Dedicated: 0.979
         Shared: 0.944
@@ -54564,6 +54660,7 @@ r5d.2xlarge:
     - ap-northeast-2
     - eu-west-2
     - us-east-2
+    - US East (Houston)
     - eu-west-1
     - ap-southeast-1
     - ca-central-1
@@ -54577,7 +54674,9 @@ r5d.2xlarge:
     - me-south-1
     - eu-central-1
     - ap-northeast-3
+    - US East (Boston)
     - ap-east-1
+    - US East (Miami)
     - us-west-1
     - ap-northeast-1
     - af-south-1
@@ -61618,6 +61717,8 @@ t3.medium:
         Shared: 0.056
       US East (Verizon) - Washington DC:
         Shared: 0.056
+      US West (Verizon) - Las Vegas:
+        Shared: 0.056
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.056
       us-east-1:
@@ -61697,6 +61798,8 @@ t3.medium:
       US East (Verizon) - New York:
         Shared: 0.116
       US East (Verizon) - Washington DC:
+        Shared: 0.116
+      US West (Verizon) - Las Vegas:
         Shared: 0.116
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.116
@@ -61778,6 +61881,8 @@ t3.medium:
         Shared: 0.119
       US East (Verizon) - Washington DC:
         Shared: 0.119
+      US West (Verizon) - Las Vegas:
+        Shared: 0.119
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.119
       us-east-1:
@@ -61858,6 +61963,8 @@ t3.medium:
         Shared: 0.0744
       US East (Verizon) - Washington DC:
         Shared: 0.0744
+      US West (Verizon) - Las Vegas:
+        Shared: 0.0744
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.0744
       us-east-1:
@@ -61903,6 +62010,7 @@ t3.medium:
     - us-gov-east-1
     - ap-northeast-1
     - ap-southeast-1
+    - US West (Verizon) - Las Vegas
     - ap-northeast-3
     - eu-west-3
     - EU (Milan)
@@ -62811,6 +62919,12 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.2835
         Shared: 0.2688
+      US East (Boston):
+        Shared: 0.208
+      US East (Houston):
+        Shared: 0.208
+      US East (Miami):
+        Shared: 0.208
       US East (Verizon) - Atlanta:
         Shared: 0.224
       US East (Verizon) - Boston:
@@ -62822,6 +62936,8 @@ t3.xlarge:
       US East (Verizon) - New York:
         Shared: 0.224
       US East (Verizon) - Washington DC:
+        Shared: 0.224
+      US West (Verizon) - Las Vegas:
         Shared: 0.224
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.224
@@ -62891,6 +63007,12 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.3435
         Shared: 0.3288
+      US East (Boston):
+        Shared: 0.268
+      US East (Houston):
+        Shared: 0.268
+      US East (Miami):
+        Shared: 0.268
       US East (Verizon) - Atlanta:
         Shared: 0.284
       US East (Verizon) - Boston:
@@ -62902,6 +63024,8 @@ t3.xlarge:
       US East (Verizon) - New York:
         Shared: 0.284
       US East (Verizon) - Washington DC:
+        Shared: 0.284
+      US West (Verizon) - Las Vegas:
         Shared: 0.284
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.284
@@ -62971,6 +63095,12 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.4085
         Shared: 0.3938
+      US East (Boston):
+        Shared: 0.333
+      US East (Houston):
+        Shared: 0.333
+      US East (Miami):
+        Shared: 0.333
       US East (Verizon) - Atlanta:
         Shared: 0.349
       US East (Verizon) - Boston:
@@ -62982,6 +63112,8 @@ t3.xlarge:
       US East (Verizon) - New York:
         Shared: 0.349
       US East (Verizon) - Washington DC:
+        Shared: 0.349
+      US West (Verizon) - Las Vegas:
         Shared: 0.349
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.349
@@ -63051,6 +63183,12 @@ t3.xlarge:
       sa-east-1:
         Dedicated: 0.3571
         Shared: 0.3424
+      US East (Boston):
+        Shared: 0.2816
+      US East (Houston):
+        Shared: 0.2816
+      US East (Miami):
+        Shared: 0.208
       US East (Verizon) - Atlanta:
         Shared: 0.2976
       US East (Verizon) - Boston:
@@ -63062,6 +63200,8 @@ t3.xlarge:
       US East (Verizon) - New York:
         Shared: 0.2976
       US East (Verizon) - Washington DC:
+        Shared: 0.2976
+      US West (Verizon) - Las Vegas:
         Shared: 0.2976
       US West (Verizon) - San Francisco Bay Area:
         Shared: 0.2976
@@ -63102,6 +63242,7 @@ t3.xlarge:
     - ap-southeast-2
     - me-south-1
     - ap-northeast-1
+    - US West (Verizon) - Las Vegas
     - ca-central-1
     - eu-central-1
     - ap-southeast-1
@@ -63110,7 +63251,10 @@ t3.xlarge:
     - us-east-2
     - us-west-2-lax-1a
     - ap-northeast-2
+    - US East (Houston)
     - US East (Verizon) - Miami
+    - US East (Miami)
+    - US East (Boston)
     - US East (Verizon) - Dallas
     - US East (Verizon) - New York
     - US East (Verizon) - Atlanta
