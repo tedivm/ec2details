@@ -41181,6 +41181,23 @@ m6gd.xlarge:
     - us-west-2
   storage: 1 x 237 NVMe SSD
   vcpu: 4
+mac1.metal:
+  clockSpeed: 3.2 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 1750 Mbps
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  normalizationSizeFactor: 24
+  physicalProcessor: Intel Core i7-8700B CPU
+  prices: {}
+  regions:
+    - us-west-2
+    - ap-southeast-1
+    - eu-west-1
+    - us-east-1
+    - us-east-2
+  storage: EBS only
+  vcpu: 12
 p2.16xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
