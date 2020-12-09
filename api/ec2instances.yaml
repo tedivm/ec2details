@@ -17558,6 +17558,177 @@ g3s.xlarge:
     - us-west-1
   storage: EBS only
   vcpu: 4
+g4ad.16xlarge:
+  clockSpeed: 2.8 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 6000 Mbps
+  enhancedNetworkingSupported: true
+  gpu: 4
+  memory: 256 GiB
+  networkPerformance: 25 Gigabit
+  normalizationSizeFactor: 128
+  physicalProcessor: AMD EPYC 7R32
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 4.2592
+        Shared: 3.872
+      us-east-1:
+        Dedicated: 3.8148
+        Shared: 3.468
+      us-west-2:
+        Dedicated: 3.8148
+        Shared: 3.468
+    RHEL:
+      eu-west-1:
+        Dedicated: 4.3892
+        Shared: 4.002
+      us-east-1:
+        Dedicated: 3.9448
+        Shared: 3.598
+      us-west-2:
+        Dedicated: 3.9448
+        Shared: 3.598
+    SUSE:
+      eu-west-1:
+        Dedicated: 4.4092
+        Shared: 4.022
+      us-east-1:
+        Dedicated: 3.9648
+        Shared: 3.618
+      us-west-2:
+        Dedicated: 3.9648
+        Shared: 3.618
+    Windows:
+      eu-west-1:
+        Dedicated: 7.2032
+        Shared: 6.816
+      us-east-1:
+        Dedicated: 6.7588
+        Shared: 6.412
+      us-west-2:
+        Dedicated: 6.7588
+        Shared: 6.412
+  regions:
+    - us-west-2
+    - eu-west-1
+    - us-east-1
+  storage: 2400 GB NVMe SSD
+  vcpu: 64
+g4ad.4xlarge:
+  clockSpeed: 2.8 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 3000 Mbps
+  enhancedNetworkingSupported: true
+  gpu: 1
+  memory: 64 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 32
+  physicalProcessor: AMD EPYC 7R32
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 1.0648
+        Shared: 0.968
+      us-east-1:
+        Dedicated: 0.9537
+        Shared: 0.867
+      us-west-2:
+        Dedicated: 0.9537
+        Shared: 0.867
+    RHEL:
+      eu-west-1:
+        Dedicated: 1.1948
+        Shared: 1.098
+      us-east-1:
+        Dedicated: 1.0837
+        Shared: 0.997
+      us-west-2:
+        Dedicated: 1.0837
+        Shared: 0.997
+    SUSE:
+      eu-west-1:
+        Dedicated: 1.2148
+        Shared: 1.118
+      us-east-1:
+        Dedicated: 1.1037
+        Shared: 1.017
+      us-west-2:
+        Dedicated: 1.1037
+        Shared: 1.017
+    Windows:
+      eu-west-1:
+        Dedicated: 1.8008
+        Shared: 1.704
+      us-east-1:
+        Dedicated: 1.6897
+        Shared: 1.603
+      us-west-2:
+        Dedicated: 1.6897
+        Shared: 1.603
+  regions:
+    - eu-west-1
+    - us-west-2
+    - us-east-1
+  storage: 600 GB NVMe SSD
+  vcpu: 16
+g4ad.8xlarge:
+  clockSpeed: 2.8 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 3000 Mbps
+  enhancedNetworkingSupported: true
+  gpu: 2
+  memory: 128 GiB
+  networkPerformance: 15 Gigabit
+  normalizationSizeFactor: 64
+  physicalProcessor: AMD EPYC 7R32
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 2.1296
+        Shared: 1.936
+      us-east-1:
+        Dedicated: 1.9074
+        Shared: 1.734
+      us-west-2:
+        Dedicated: 1.9074
+        Shared: 1.734
+    RHEL:
+      eu-west-1:
+        Dedicated: 2.2596
+        Shared: 2.066
+      us-east-1:
+        Dedicated: 2.0374
+        Shared: 1.864
+      us-west-2:
+        Dedicated: 2.0374
+        Shared: 1.864
+    SUSE:
+      eu-west-1:
+        Dedicated: 2.2796
+        Shared: 2.086
+      us-east-1:
+        Dedicated: 2.0574
+        Shared: 1.884
+      us-west-2:
+        Dedicated: 2.0574
+        Shared: 1.884
+    Windows:
+      eu-west-1:
+        Dedicated: 3.6016
+        Shared: 3.408
+      us-east-1:
+        Dedicated: 3.3794
+        Shared: 3.206
+      us-west-2:
+        Dedicated: 3.3794
+        Shared: 3.206
+  regions:
+    - us-east-1
+    - us-west-2
+    - eu-west-1
+  storage: 1200 GB NVMe SSD
+  vcpu: 32
 g4dn.12xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
