@@ -19130,6 +19130,8 @@ g4dn.2xlarge:
         Shared: 0.978
       Asia Pacific (KDDI) - Tokyo:
         Shared: 1.777
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 1.249
       AWS GovCloud (US-West):
         Dedicated: 1.005
         Shared: 0.948
@@ -19224,6 +19226,8 @@ g4dn.2xlarge:
         Shared: 1.108
       Asia Pacific (KDDI) - Tokyo:
         Shared: 1.907
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 1.379
       AWS GovCloud (US-West):
         Dedicated: 1.135
         Shared: 1.078
@@ -19318,6 +19322,8 @@ g4dn.2xlarge:
         Shared: 1.128
       Asia Pacific (KDDI) - Tokyo:
         Shared: 1.927
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 1.399
       AWS GovCloud (US-West):
         Dedicated: 1.155
         Shared: 1.098
@@ -19412,6 +19418,8 @@ g4dn.2xlarge:
         Shared: 1.346
       Asia Pacific (KDDI) - Tokyo:
         Shared: 2.145
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 1.617
       AWS GovCloud (US-West):
         Dedicated: 1.373
         Shared: 0.948
@@ -19511,6 +19519,7 @@ g4dn.2xlarge:
     - eu-west-3
     - us-west-2
     - us-east-1
+    - Asia Pacific (SKT) - Daejeon
     - ap-northeast-1
     - US East (Verizon) - New York
     - us-gov-east-1
@@ -48406,6 +48415,8 @@ r5.2xlarge:
         Shared: 0.604
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.821
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 0.76
       AWS GovCloud (US-West):
         Dedicated: 0.64
         Shared: 0.604
@@ -48497,6 +48508,8 @@ r5.2xlarge:
         Shared: 0.734
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.951
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 0.89
       AWS GovCloud (US-West):
         Dedicated: 0.77
         Shared: 0.734
@@ -48588,6 +48601,8 @@ r5.2xlarge:
         Shared: 0.754
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.971
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 0.91
       AWS GovCloud (US-West):
         Dedicated: 0.79
         Shared: 0.754
@@ -48679,6 +48694,8 @@ r5.2xlarge:
         Shared: 0.972
       Asia Pacific (KDDI) - Tokyo:
         Shared: 1.189
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 1.128
       AWS GovCloud (US-West):
         Dedicated: 0.64
         Shared: 0.972
@@ -48772,6 +48789,7 @@ r5.2xlarge:
     - Asia Pacific (KDDI) - Tokyo
     - ca-central-1
     - ap-southeast-2
+    - Asia Pacific (SKT) - Daejeon
     - af-south-1
     - US East (Verizon) - New York
     - US West (Verizon) - San Francisco Bay Area
@@ -63236,6 +63254,8 @@ t3.medium:
         Shared: 0.0528
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.0734
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 0.065
       AWS GovCloud (US-West):
         Shared: 0.0488
       ca-central-1:
@@ -63320,6 +63340,8 @@ t3.medium:
         Shared: 0.1128
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.1334
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 0.125
       AWS GovCloud (US-West):
         Shared: 0.1088
       ca-central-1:
@@ -63404,6 +63426,8 @@ t3.medium:
         Shared: 0.1158
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.1364
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 0.128
       AWS GovCloud (US-West):
         Shared: 0.1118
       ca-central-1:
@@ -63488,6 +63512,8 @@ t3.medium:
         Shared: 0.0712
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.0918
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 0.0834
       AWS GovCloud (US-West):
         Shared: 0.0488
       ca-central-1:
@@ -63567,6 +63593,7 @@ t3.medium:
     - US East (Verizon) - Washington DC
     - US West (Verizon) - San Francisco Bay Area
     - me-south-1
+    - Asia Pacific (SKT) - Daejeon
     - us-east-1
     - us-east-2
     - eu-central-1
@@ -64459,6 +64486,8 @@ t3.xlarge:
         Shared: 0.2112
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.2938
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 0.26
       AWS GovCloud (US-West):
         Shared: 0.1952
       ca-central-1:
@@ -64549,6 +64578,8 @@ t3.xlarge:
         Shared: 0.2712
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.3538
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 0.32
       AWS GovCloud (US-West):
         Shared: 0.2552
       ca-central-1:
@@ -64639,6 +64670,8 @@ t3.xlarge:
         Shared: 0.3362
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.4188
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 0.385
       AWS GovCloud (US-West):
         Shared: 0.3202
       ca-central-1:
@@ -64729,6 +64762,8 @@ t3.xlarge:
         Shared: 0.2848
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.3674
+      Asia Pacific (SKT) - Daejeon:
+        Shared: 0.3336
       AWS GovCloud (US-West):
         Shared: 0.2688
       ca-central-1:
@@ -64819,6 +64854,7 @@ t3.xlarge:
     - eu-central-1
     - ap-southeast-1
     - us-gov-east-1
+    - Asia Pacific (SKT) - Daejeon
     - EU (Milan)
     - us-east-2
     - us-west-2-lax-1a
