@@ -19180,9 +19180,13 @@ g4dn.2xlarge:
         Shared: 1.317
       US East (Verizon) - Washington DC:
         Shared: 1.317
+      US West (Verizon) - Denver:
+        Shared: 1.317
       US West (Verizon) - Las Vegas:
         Shared: 1.317
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 1.317
+      US West (Verizon) - Seattle:
         Shared: 1.317
       us-east-1:
         Dedicated: 0.797
@@ -19276,9 +19280,13 @@ g4dn.2xlarge:
         Shared: 1.447
       US East (Verizon) - Washington DC:
         Shared: 1.447
+      US West (Verizon) - Denver:
+        Shared: 1.447
       US West (Verizon) - Las Vegas:
         Shared: 1.447
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 1.447
+      US West (Verizon) - Seattle:
         Shared: 1.447
       us-east-1:
         Dedicated: 0.927
@@ -19372,9 +19380,13 @@ g4dn.2xlarge:
         Shared: 1.467
       US East (Verizon) - Washington DC:
         Shared: 1.467
+      US West (Verizon) - Denver:
+        Shared: 1.467
       US West (Verizon) - Las Vegas:
         Shared: 1.467
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 1.467
+      US West (Verizon) - Seattle:
         Shared: 1.467
       us-east-1:
         Dedicated: 0.947
@@ -19468,9 +19480,13 @@ g4dn.2xlarge:
         Shared: 1.685
       US East (Verizon) - Washington DC:
         Shared: 1.685
+      US West (Verizon) - Denver:
+        Shared: 1.685
       US West (Verizon) - Las Vegas:
         Shared: 1.685
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 1.685
+      US West (Verizon) - Seattle:
         Shared: 1.685
       us-east-1:
         Dedicated: 1.165
@@ -19501,6 +19517,7 @@ g4dn.2xlarge:
     - us-east-2
     - US East (Verizon) - Dallas
     - US East (Boston)
+    - US West (Verizon) - Seattle
     - ap-southeast-1
     - us-west-2-lax-1a
     - US East (Verizon) - Boston
@@ -19513,6 +19530,7 @@ g4dn.2xlarge:
     - US East (Houston)
     - Asia Pacific (KDDI) - Tokyo
     - eu-north-1
+    - US West (Verizon) - Denver
     - eu-west-1
     - me-south-1
     - US West (Verizon) - San Francisco Bay Area
@@ -48459,9 +48477,13 @@ r5.2xlarge:
         Shared: 0.68
       US East (Verizon) - Washington DC:
         Shared: 0.68
+      US West (Verizon) - Denver:
+        Shared: 0.68
       US West (Verizon) - Las Vegas:
         Shared: 0.68
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.68
+      US West (Verizon) - Seattle:
         Shared: 0.68
       us-east-1:
         Dedicated: 0.534
@@ -48552,9 +48574,13 @@ r5.2xlarge:
         Shared: 0.81
       US East (Verizon) - Washington DC:
         Shared: 0.81
+      US West (Verizon) - Denver:
+        Shared: 0.81
       US West (Verizon) - Las Vegas:
         Shared: 0.81
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.81
+      US West (Verizon) - Seattle:
         Shared: 0.81
       us-east-1:
         Dedicated: 0.664
@@ -48645,9 +48671,13 @@ r5.2xlarge:
         Shared: 0.83
       US East (Verizon) - Washington DC:
         Shared: 0.83
+      US West (Verizon) - Denver:
+        Shared: 0.83
       US West (Verizon) - Las Vegas:
         Shared: 0.83
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.83
+      US West (Verizon) - Seattle:
         Shared: 0.83
       us-east-1:
         Dedicated: 0.684
@@ -48738,9 +48768,13 @@ r5.2xlarge:
         Shared: 1.048
       US East (Verizon) - Washington DC:
         Shared: 1.048
+      US West (Verizon) - Denver:
+        Shared: 1.048
       US West (Verizon) - Las Vegas:
         Shared: 1.048
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 1.048
+      US West (Verizon) - Seattle:
         Shared: 1.048
       us-east-1:
         Dedicated: 0.534
@@ -48766,6 +48800,7 @@ r5.2xlarge:
     - me-south-1
     - ap-south-1
     - AWS GovCloud (US-West)
+    - US West (Verizon) - Denver
     - US East (Verizon) - Dallas
     - ap-east-1
     - eu-central-1
@@ -48788,6 +48823,7 @@ r5.2xlarge:
     - eu-west-2
     - Asia Pacific (KDDI) - Tokyo
     - ca-central-1
+    - US West (Verizon) - Seattle
     - ap-southeast-2
     - Asia Pacific (SKT) - Daejeon
     - af-south-1
@@ -63294,9 +63330,13 @@ t3.medium:
         Shared: 0.056
       US East (Verizon) - Washington DC:
         Shared: 0.056
+      US West (Verizon) - Denver:
+        Shared: 0.056
       US West (Verizon) - Las Vegas:
         Shared: 0.056
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.056
+      US West (Verizon) - Seattle:
         Shared: 0.056
       us-east-1:
         Dedicated: 0.0441
@@ -63380,9 +63420,13 @@ t3.medium:
         Shared: 0.116
       US East (Verizon) - Washington DC:
         Shared: 0.116
+      US West (Verizon) - Denver:
+        Shared: 0.116
       US West (Verizon) - Las Vegas:
         Shared: 0.116
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.116
+      US West (Verizon) - Seattle:
         Shared: 0.116
       us-east-1:
         Dedicated: 0.1041
@@ -63466,9 +63510,13 @@ t3.medium:
         Shared: 0.119
       US East (Verizon) - Washington DC:
         Shared: 0.119
+      US West (Verizon) - Denver:
+        Shared: 0.119
       US West (Verizon) - Las Vegas:
         Shared: 0.119
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.119
+      US West (Verizon) - Seattle:
         Shared: 0.119
       us-east-1:
         Dedicated: 0.1071
@@ -63552,9 +63600,13 @@ t3.medium:
         Shared: 0.0744
       US East (Verizon) - Washington DC:
         Shared: 0.0744
+      US West (Verizon) - Denver:
+        Shared: 0.0744
       US West (Verizon) - Las Vegas:
         Shared: 0.0744
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.0744
+      US West (Verizon) - Seattle:
         Shared: 0.0744
       us-east-1:
         Dedicated: 0.0625
@@ -63574,6 +63626,7 @@ t3.medium:
         Dedicated: 0.0714
         Shared: 0.0683
   regions:
+    - US West (Verizon) - Denver
     - us-west-2
     - ap-southeast-2
     - US East (Verizon) - New York
@@ -63606,6 +63659,7 @@ t3.medium:
     - eu-west-3
     - EU (Milan)
     - US East (Verizon) - Boston
+    - US West (Verizon) - Seattle
     - ap-east-1
     - US East (Verizon) - Atlanta
   storage: EBS only
@@ -64532,9 +64586,13 @@ t3.xlarge:
         Shared: 0.224
       US East (Verizon) - Washington DC:
         Shared: 0.224
+      US West (Verizon) - Denver:
+        Shared: 0.224
       US West (Verizon) - Las Vegas:
         Shared: 0.224
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.224
+      US West (Verizon) - Seattle:
         Shared: 0.224
       us-east-1:
         Dedicated: 0.1763
@@ -64624,9 +64682,13 @@ t3.xlarge:
         Shared: 0.284
       US East (Verizon) - Washington DC:
         Shared: 0.284
+      US West (Verizon) - Denver:
+        Shared: 0.284
       US West (Verizon) - Las Vegas:
         Shared: 0.284
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.284
+      US West (Verizon) - Seattle:
         Shared: 0.284
       us-east-1:
         Dedicated: 0.2363
@@ -64716,9 +64778,13 @@ t3.xlarge:
         Shared: 0.349
       US East (Verizon) - Washington DC:
         Shared: 0.349
+      US West (Verizon) - Denver:
+        Shared: 0.349
       US West (Verizon) - Las Vegas:
         Shared: 0.349
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.349
+      US West (Verizon) - Seattle:
         Shared: 0.349
       us-east-1:
         Dedicated: 0.3013
@@ -64808,9 +64874,13 @@ t3.xlarge:
         Shared: 0.2976
       US East (Verizon) - Washington DC:
         Shared: 0.2976
+      US West (Verizon) - Denver:
+        Shared: 0.2976
       US West (Verizon) - Las Vegas:
         Shared: 0.2976
       US West (Verizon) - San Francisco Bay Area:
+        Shared: 0.2976
+      US West (Verizon) - Seattle:
         Shared: 0.2976
       us-east-1:
         Dedicated: 0.2499
@@ -64860,7 +64930,9 @@ t3.xlarge:
     - us-west-2-lax-1a
     - ap-northeast-2
     - US East (Houston)
+    - US West (Verizon) - Seattle
     - US East (Verizon) - Miami
+    - US West (Verizon) - Denver
     - US East (Miami)
     - Asia Pacific (KDDI) - Tokyo
     - US East (Boston)
