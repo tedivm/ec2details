@@ -54190,6 +54190,44 @@ r5b.12xlarge:
       us-west-2:
         Dedicated: 3.9336
         Shared: 3.576
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 4.9084
+        Shared: 4.474
+      ap-southeast-1:
+        Dedicated: 4.8292
+        Shared: 4.402
+      eu-central-1:
+        Dedicated: 4.8292
+        Shared: 4.402
+      us-east-1:
+        Dedicated: 4.0636
+        Shared: 3.706
+      us-east-2:
+        Dedicated: 4.0636
+        Shared: 3.706
+      us-west-2:
+        Dedicated: 4.0636
+        Shared: 3.706
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 4.9284
+        Shared: 4.494
+      ap-southeast-1:
+        Dedicated: 4.8492
+        Shared: 4.422
+      eu-central-1:
+        Dedicated: 4.8492
+        Shared: 4.422
+      us-east-1:
+        Dedicated: 4.0836
+        Shared: 3.726
+      us-east-2:
+        Dedicated: 4.0836
+        Shared: 3.726
+      us-west-2:
+        Dedicated: 4.0836
+        Shared: 3.726
     Windows:
       ap-northeast-1:
         Dedicated: 6.9864
@@ -54210,10 +54248,10 @@ r5b.12xlarge:
         Dedicated: 6.1416
         Shared: 5.784
   regions:
+    - ap-southeast-1
     - us-east-2
     - us-west-2
     - ap-northeast-1
-    - ap-southeast-1
     - us-east-1
     - eu-central-1
   storage: EBS only
@@ -54247,6 +54285,44 @@ r5b.16xlarge:
       us-west-2:
         Dedicated: 5.2448
         Shared: 4.768
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 6.5012
+        Shared: 5.922
+      ap-southeast-1:
+        Dedicated: 6.3956
+        Shared: 5.826
+      eu-central-1:
+        Dedicated: 6.3956
+        Shared: 5.826
+      us-east-1:
+        Dedicated: 5.3748
+        Shared: 4.898
+      us-east-2:
+        Dedicated: 5.3748
+        Shared: 4.898
+      us-west-2:
+        Dedicated: 5.3748
+        Shared: 4.898
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 6.5212
+        Shared: 5.942
+      ap-southeast-1:
+        Dedicated: 6.4156
+        Shared: 5.846
+      eu-central-1:
+        Dedicated: 6.4156
+        Shared: 5.846
+      us-east-1:
+        Dedicated: 5.3948
+        Shared: 4.918
+      us-east-2:
+        Dedicated: 5.3948
+        Shared: 4.918
+      us-west-2:
+        Dedicated: 5.3948
+        Shared: 4.918
     Windows:
       ap-northeast-1:
         Dedicated: 9.3152
@@ -54271,8 +54347,8 @@ r5b.16xlarge:
     - us-east-2
     - ap-northeast-1
     - us-east-1
-    - ap-southeast-1
     - us-west-2
+    - ap-southeast-1
   storage: EBS only
   vcpu: 64
 r5b.24xlarge:
@@ -54304,6 +54380,44 @@ r5b.24xlarge:
       us-west-2:
         Dedicated: 7.8672
         Shared: 7.152
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 9.6868
+        Shared: 8.818
+      ap-southeast-1:
+        Dedicated: 9.5284
+        Shared: 8.674
+      eu-central-1:
+        Dedicated: 9.5284
+        Shared: 8.674
+      us-east-1:
+        Dedicated: 7.9972
+        Shared: 7.282
+      us-east-2:
+        Dedicated: 7.9972
+        Shared: 7.282
+      us-west-2:
+        Dedicated: 7.9972
+        Shared: 7.282
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 9.7068
+        Shared: 8.838
+      ap-southeast-1:
+        Dedicated: 9.5484
+        Shared: 8.694
+      eu-central-1:
+        Dedicated: 9.5484
+        Shared: 8.694
+      us-east-1:
+        Dedicated: 8.0172
+        Shared: 7.302
+      us-east-2:
+        Dedicated: 8.0172
+        Shared: 7.302
+      us-west-2:
+        Dedicated: 8.0172
+        Shared: 7.302
     Windows:
       ap-northeast-1:
         Dedicated: 13.9728
@@ -54324,9 +54438,9 @@ r5b.24xlarge:
         Dedicated: 12.2832
         Shared: 11.568
   regions:
+    - ap-northeast-1
     - us-east-2
     - us-east-1
-    - ap-northeast-1
     - us-west-2
     - ap-southeast-1
     - eu-central-1
@@ -54361,6 +54475,44 @@ r5b.2xlarge:
       us-west-2:
         Dedicated: 0.6556
         Shared: 0.596
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 0.9264
+        Shared: 0.854
+      ap-southeast-1:
+        Dedicated: 0.9132
+        Shared: 0.842
+      eu-central-1:
+        Dedicated: 0.9132
+        Shared: 0.842
+      us-east-1:
+        Dedicated: 0.7856
+        Shared: 0.726
+      us-east-2:
+        Dedicated: 0.7856
+        Shared: 0.726
+      us-west-2:
+        Dedicated: 0.7856
+        Shared: 0.726
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 0.9464
+        Shared: 0.874
+      ap-southeast-1:
+        Dedicated: 0.9332
+        Shared: 0.862
+      eu-central-1:
+        Dedicated: 0.9332
+        Shared: 0.862
+      us-east-1:
+        Dedicated: 0.8056
+        Shared: 0.746
+      us-east-2:
+        Dedicated: 0.8056
+        Shared: 0.746
+      us-west-2:
+        Dedicated: 0.8056
+        Shared: 0.746
     Windows:
       ap-northeast-1:
         Dedicated: 1.1644
@@ -54381,12 +54533,12 @@ r5b.2xlarge:
         Dedicated: 1.0236
         Shared: 0.964
   regions:
-    - ap-southeast-1
-    - eu-central-1
     - us-west-2
-    - us-east-1
-    - us-east-2
     - ap-northeast-1
+    - us-east-2
+    - eu-central-1
+    - ap-southeast-1
+    - us-east-1
   storage: EBS only
   vcpu: 8
 r5b.4xlarge:
@@ -54418,6 +54570,44 @@ r5b.4xlarge:
       us-west-2:
         Dedicated: 1.3112
         Shared: 1.192
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 1.7228
+        Shared: 1.578
+      ap-southeast-1:
+        Dedicated: 1.6964
+        Shared: 1.554
+      eu-central-1:
+        Dedicated: 1.6964
+        Shared: 1.554
+      us-east-1:
+        Dedicated: 1.4412
+        Shared: 1.322
+      us-east-2:
+        Dedicated: 1.4412
+        Shared: 1.322
+      us-west-2:
+        Dedicated: 1.4412
+        Shared: 1.322
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 1.7428
+        Shared: 1.598
+      ap-southeast-1:
+        Dedicated: 1.7164
+        Shared: 1.574
+      eu-central-1:
+        Dedicated: 1.7164
+        Shared: 1.574
+      us-east-1:
+        Dedicated: 1.4612
+        Shared: 1.342
+      us-east-2:
+        Dedicated: 1.4612
+        Shared: 1.342
+      us-west-2:
+        Dedicated: 1.4612
+        Shared: 1.342
     Windows:
       ap-northeast-1:
         Dedicated: 2.3288
@@ -54475,6 +54665,44 @@ r5b.8xlarge:
       us-west-2:
         Dedicated: 2.6224
         Shared: 2.384
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 3.3156
+        Shared: 3.026
+      ap-southeast-1:
+        Dedicated: 3.2628
+        Shared: 2.978
+      eu-central-1:
+        Dedicated: 3.2628
+        Shared: 2.978
+      us-east-1:
+        Dedicated: 2.7524
+        Shared: 2.514
+      us-east-2:
+        Dedicated: 2.7524
+        Shared: 2.514
+      us-west-2:
+        Dedicated: 2.7524
+        Shared: 2.514
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 3.3356
+        Shared: 3.046
+      ap-southeast-1:
+        Dedicated: 3.2828
+        Shared: 2.998
+      eu-central-1:
+        Dedicated: 3.2828
+        Shared: 2.998
+      us-east-1:
+        Dedicated: 2.7724
+        Shared: 2.534
+      us-east-2:
+        Dedicated: 2.7724
+        Shared: 2.534
+      us-west-2:
+        Dedicated: 2.7724
+        Shared: 2.534
     Windows:
       ap-northeast-1:
         Dedicated: 4.6576
@@ -54496,10 +54724,10 @@ r5b.8xlarge:
         Shared: 3.856
   regions:
     - us-east-2
+    - eu-central-1
     - us-west-2
     - ap-northeast-1
     - ap-southeast-1
-    - eu-central-1
     - us-east-1
   storage: EBS only
   vcpu: 32
@@ -54532,6 +54760,44 @@ r5b.large:
       us-west-2:
         Dedicated: 0.1639
         Shared: 0.149
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 0.2591
+        Shared: 0.241
+      ap-southeast-1:
+        Dedicated: 0.2558
+        Shared: 0.238
+      eu-central-1:
+        Dedicated: 0.2558
+        Shared: 0.238
+      us-east-1:
+        Dedicated: 0.2239
+        Shared: 0.209
+      us-east-2:
+        Dedicated: 0.2239
+        Shared: 0.209
+      us-west-2:
+        Dedicated: 0.2239
+        Shared: 0.209
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 0.2621
+        Shared: 0.244
+      ap-southeast-1:
+        Dedicated: 0.2588
+        Shared: 0.241
+      eu-central-1:
+        Dedicated: 0.2588
+        Shared: 0.241
+      us-east-1:
+        Dedicated: 0.2269
+        Shared: 0.212
+      us-east-2:
+        Dedicated: 0.2269
+        Shared: 0.212
+      us-west-2:
+        Dedicated: 0.2269
+        Shared: 0.212
     Windows:
       ap-northeast-1:
         Dedicated: 0.2911
@@ -54552,12 +54818,12 @@ r5b.large:
         Dedicated: 0.2559
         Shared: 0.241
   regions:
-    - eu-central-1
     - us-west-2
-    - us-east-1
-    - ap-northeast-1
     - us-east-2
+    - eu-central-1
+    - us-east-1
     - ap-southeast-1
+    - ap-northeast-1
   storage: EBS only
   vcpu: 2
 r5b.metal:
@@ -54589,6 +54855,44 @@ r5b.metal:
       us-west-2:
         Dedicated: 7.8672
         Shared: 7.152
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 9.6868
+        Shared: 8.818
+      ap-southeast-1:
+        Dedicated: 9.5284
+        Shared: 8.674
+      eu-central-1:
+        Dedicated: 9.5284
+        Shared: 8.674
+      us-east-1:
+        Dedicated: 7.9972
+        Shared: 7.282
+      us-east-2:
+        Dedicated: 7.9972
+        Shared: 7.282
+      us-west-2:
+        Dedicated: 7.9972
+        Shared: 7.282
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 9.7068
+        Shared: 8.838
+      ap-southeast-1:
+        Dedicated: 9.5484
+        Shared: 8.694
+      eu-central-1:
+        Dedicated: 9.5484
+        Shared: 8.694
+      us-east-1:
+        Dedicated: 8.0172
+        Shared: 7.302
+      us-east-2:
+        Dedicated: 8.0172
+        Shared: 7.302
+      us-west-2:
+        Dedicated: 8.0172
+        Shared: 7.302
     Windows:
       ap-northeast-1:
         Dedicated: 13.9728
@@ -54612,9 +54916,9 @@ r5b.metal:
     - ap-northeast-1
     - ap-southeast-1
     - us-west-2
-    - us-east-1
     - eu-central-1
     - us-east-2
+    - us-east-1
   storage: EBS only
   vcpu: 96
 r5b.xlarge:
@@ -54646,6 +54950,44 @@ r5b.xlarge:
       us-west-2:
         Dedicated: 0.3278
         Shared: 0.298
+    RHEL:
+      ap-northeast-1:
+        Dedicated: 0.4582
+        Shared: 0.422
+      ap-southeast-1:
+        Dedicated: 0.4516
+        Shared: 0.416
+      eu-central-1:
+        Dedicated: 0.4516
+        Shared: 0.416
+      us-east-1:
+        Dedicated: 0.3878
+        Shared: 0.358
+      us-east-2:
+        Dedicated: 0.3878
+        Shared: 0.358
+      us-west-2:
+        Dedicated: 0.3878
+        Shared: 0.358
+    SUSE:
+      ap-northeast-1:
+        Dedicated: 0.5232
+        Shared: 0.487
+      ap-southeast-1:
+        Dedicated: 0.5166
+        Shared: 0.481
+      eu-central-1:
+        Dedicated: 0.5166
+        Shared: 0.481
+      us-east-1:
+        Dedicated: 0.4528
+        Shared: 0.423
+      us-east-2:
+        Dedicated: 0.4528
+        Shared: 0.423
+      us-west-2:
+        Dedicated: 0.4528
+        Shared: 0.423
     Windows:
       ap-northeast-1:
         Dedicated: 0.5822
@@ -54667,9 +55009,9 @@ r5b.xlarge:
         Shared: 0.482
   regions:
     - ap-northeast-1
+    - ap-southeast-1
     - eu-central-1
     - us-east-2
-    - ap-southeast-1
     - us-west-2
     - us-east-1
   storage: EBS only
