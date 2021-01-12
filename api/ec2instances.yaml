@@ -65446,9 +65446,9 @@ t3a.2xlarge:
     - us-gov-east-1
     - ap-northeast-2
     - ap-southeast-2
-    - AWS GovCloud (US-West)
     - us-west-2
     - eu-central-1
+    - AWS GovCloud (US-West)
     - eu-west-1
     - ca-central-1
     - ap-southeast-1
@@ -65788,10 +65788,10 @@ t3a.medium:
     - ca-central-1
     - us-east-2
     - eu-west-2
-    - AWS GovCloud (US-West)
     - eu-central-1
     - eu-west-3
     - eu-west-1
+    - AWS GovCloud (US-West)
     - us-west-2
     - ap-northeast-2
   storage: EBS only
@@ -65949,7 +65949,6 @@ t3a.micro:
         Shared: 0.0186
   regions:
     - eu-west-1
-    - AWS GovCloud (US-West)
     - us-gov-east-1
     - us-east-2
     - ap-southeast-1
@@ -65958,6 +65957,7 @@ t3a.micro:
     - us-east-1
     - eu-central-1
     - us-west-2
+    - AWS GovCloud (US-West)
     - ap-south-1
     - eu-west-2
     - ap-southeast-2
@@ -66999,6 +66999,9 @@ x1.16xlarge:
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 10.476
+        Shared: 9.524
       ap-east-1:
         Dedicated: 11.702
         Shared: 10.638
@@ -67006,6 +67009,9 @@ x1.16xlarge:
         Dedicated: 10.638
         Shared: 9.671
       ap-northeast-2:
+        Dedicated: 10.638
+        Shared: 9.671
+      ap-northeast-3:
         Dedicated: 10.638
         Shared: 9.671
       ap-south-1:
@@ -67051,6 +67057,9 @@ x1.16xlarge:
         Dedicated: 7.336
         Shared: 6.669
     RHEL:
+      af-south-1:
+        Dedicated: 10.606
+        Shared: 9.654
       ap-east-1:
         Dedicated: 11.832
         Shared: 10.768
@@ -67058,6 +67067,9 @@ x1.16xlarge:
         Dedicated: 10.768
         Shared: 9.801
       ap-northeast-2:
+        Dedicated: 10.768
+        Shared: 9.801
+      ap-northeast-3:
         Dedicated: 10.768
         Shared: 9.801
       ap-south-1:
@@ -67103,6 +67115,9 @@ x1.16xlarge:
         Dedicated: 7.466
         Shared: 6.799
     SUSE:
+      af-south-1:
+        Dedicated: 10.576
+        Shared: 9.624
       ap-east-1:
         Dedicated: 11.802
         Shared: 10.738
@@ -67110,6 +67125,9 @@ x1.16xlarge:
         Dedicated: 10.738
         Shared: 9.771
       ap-northeast-2:
+        Dedicated: 10.738
+        Shared: 9.771
+      ap-northeast-3:
         Dedicated: 10.738
         Shared: 9.771
       ap-south-1:
@@ -67155,6 +67173,9 @@ x1.16xlarge:
         Dedicated: 7.436
         Shared: 6.769
     Windows:
+      af-south-1:
+        Dedicated: 13.42
+        Shared: 12.468
       ap-east-1:
         Dedicated: 14.646
         Shared: 13.582
@@ -67164,6 +67185,9 @@ x1.16xlarge:
       ap-northeast-2:
         Dedicated: 10.638
         Shared: 9.671
+      ap-northeast-3:
+        Dedicated: 13.582
+        Shared: 12.615
       ap-south-1:
         Dedicated: 7.569
         Shared: 6.881
@@ -67218,10 +67242,12 @@ x1.16xlarge:
     - ap-south-1
     - us-east-2
     - eu-west-1
+    - ap-northeast-3
     - eu-west-3
     - ap-northeast-2
     - us-west-2
     - sa-east-1
+    - af-south-1
     - ap-east-1
     - eu-west-2
   storage: 1 x 1920 SSD
@@ -67238,6 +67264,9 @@ x1.32xlarge:
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 19.048
+        Shared: 19.048
       ap-east-1:
         Dedicated: 21.276
         Shared: 21.276
@@ -67247,6 +67276,9 @@ x1.32xlarge:
       ap-northeast-2:
         Dedicated: 19.341
         Shared: 19.341
+      ap-northeast-3:
+        Dedicated: 19.342
+        Shared: 19.342
       ap-south-1:
         Dedicated: 13.762
         Shared: 13.762
@@ -67290,6 +67322,9 @@ x1.32xlarge:
         Dedicated: 13.338
         Shared: 13.338
     RHEL:
+      af-south-1:
+        Dedicated: 19.178
+        Shared: 19.178
       ap-east-1:
         Dedicated: 21.406
         Shared: 21.406
@@ -67299,6 +67334,9 @@ x1.32xlarge:
       ap-northeast-2:
         Dedicated: 19.471
         Shared: 19.471
+      ap-northeast-3:
+        Dedicated: 19.472
+        Shared: 19.472
       ap-south-1:
         Dedicated: 13.892
         Shared: 13.892
@@ -67342,6 +67380,9 @@ x1.32xlarge:
         Dedicated: 13.468
         Shared: 13.468
     SUSE:
+      af-south-1:
+        Dedicated: 19.148
+        Shared: 19.148
       ap-east-1:
         Dedicated: 21.376
         Shared: 21.376
@@ -67351,6 +67392,9 @@ x1.32xlarge:
       ap-northeast-2:
         Dedicated: 19.441
         Shared: 19.441
+      ap-northeast-3:
+        Dedicated: 19.442
+        Shared: 19.442
       ap-south-1:
         Dedicated: 13.862
         Shared: 13.862
@@ -67394,6 +67438,9 @@ x1.32xlarge:
         Dedicated: 13.438
         Shared: 13.438
     Windows:
+      af-south-1:
+        Dedicated: 24.936
+        Shared: 24.936
       ap-east-1:
         Dedicated: 27.164
         Shared: 27.164
@@ -67403,6 +67450,9 @@ x1.32xlarge:
       ap-northeast-2:
         Dedicated: 19.341
         Shared: 19.341
+      ap-northeast-3:
+        Dedicated: 25.23
+        Shared: 25.23
       ap-south-1:
         Dedicated: 19.65
         Shared: 13.762
@@ -67459,7 +67509,9 @@ x1.32xlarge:
     - us-gov-east-1
     - ap-south-1
     - us-east-1
+    - ap-northeast-3
     - ca-central-1
+    - af-south-1
     - ap-northeast-2
     - ap-east-1
     - ap-southeast-2
@@ -67477,10 +67529,16 @@ x1e.16xlarge:
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 20.944
+        Shared: 19.04
       ap-northeast-1:
         Dedicated: 21.278
         Shared: 19.344
       ap-northeast-2:
+        Dedicated: 21.278
+        Shared: 19.344
+      ap-northeast-3:
         Dedicated: 21.278
         Shared: 19.344
       ap-south-1:
@@ -67520,10 +67578,16 @@ x1e.16xlarge:
         Dedicated: 14.678
         Shared: 13.344
     RHEL:
+      af-south-1:
+        Dedicated: 21.074
+        Shared: 19.17
       ap-northeast-1:
         Dedicated: 21.408
         Shared: 19.474
       ap-northeast-2:
+        Dedicated: 21.408
+        Shared: 19.474
+      ap-northeast-3:
         Dedicated: 21.408
         Shared: 19.474
       ap-south-1:
@@ -67563,10 +67627,16 @@ x1e.16xlarge:
         Dedicated: 14.808
         Shared: 13.474
     SUSE:
+      af-south-1:
+        Dedicated: 21.044
+        Shared: 19.14
       ap-northeast-1:
         Dedicated: 21.378
         Shared: 19.444
       ap-northeast-2:
+        Dedicated: 21.378
+        Shared: 19.444
+      ap-northeast-3:
         Dedicated: 21.378
         Shared: 19.444
       ap-south-1:
@@ -67606,12 +67676,18 @@ x1e.16xlarge:
         Dedicated: 14.778
         Shared: 13.444
     Windows:
+      af-south-1:
+        Dedicated: 23.888
+        Shared: 21.984
       ap-northeast-1:
         Dedicated: 21.278
         Shared: 19.344
       ap-northeast-2:
         Dedicated: 24.222
         Shared: 19.344
+      ap-northeast-3:
+        Dedicated: 24.222
+        Shared: 22.288
       ap-south-1:
         Dedicated: 18.08
         Shared: 16.704
@@ -67651,6 +67727,7 @@ x1e.16xlarge:
   regions:
     - AWS GovCloud (US-West)
     - ap-northeast-1
+    - af-south-1
     - us-east-1
     - ap-northeast-2
     - eu-west-1
@@ -67663,6 +67740,7 @@ x1e.16xlarge:
     - ap-south-1
     - us-gov-east-1
     - ap-southeast-1
+    - ap-northeast-3
   storage: 1 x 1920 SSD
   vcpu: 64
 x1e.2xlarge:
@@ -67677,10 +67755,16 @@ x1e.2xlarge:
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 2.618
+        Shared: 2.38
       ap-northeast-1:
         Dedicated: 2.66
         Shared: 2.418
       ap-northeast-2:
+        Dedicated: 2.66
+        Shared: 2.418
+      ap-northeast-3:
         Dedicated: 2.66
         Shared: 2.418
       ap-south-1:
@@ -67720,10 +67804,16 @@ x1e.2xlarge:
         Dedicated: 1.835
         Shared: 1.668
     RHEL:
+      af-south-1:
+        Dedicated: 2.748
+        Shared: 2.51
       ap-northeast-1:
         Dedicated: 2.79
         Shared: 2.548
       ap-northeast-2:
+        Dedicated: 2.79
+        Shared: 2.548
+      ap-northeast-3:
         Dedicated: 2.79
         Shared: 2.548
       ap-south-1:
@@ -67763,10 +67853,16 @@ x1e.2xlarge:
         Dedicated: 1.965
         Shared: 1.798
     SUSE:
+      af-south-1:
+        Dedicated: 2.718
+        Shared: 2.48
       ap-northeast-1:
         Dedicated: 2.76
         Shared: 2.518
       ap-northeast-2:
+        Dedicated: 2.76
+        Shared: 2.518
+      ap-northeast-3:
         Dedicated: 2.76
         Shared: 2.518
       ap-south-1:
@@ -67806,10 +67902,16 @@ x1e.2xlarge:
         Dedicated: 1.935
         Shared: 1.768
     Windows:
+      af-south-1:
+        Dedicated: 2.986
+        Shared: 2.748
       ap-northeast-1:
         Dedicated: 2.66
         Shared: 2.418
       ap-northeast-2:
+        Dedicated: 3.028
+        Shared: 2.786
+      ap-northeast-3:
         Dedicated: 3.028
         Shared: 2.786
       ap-south-1:
@@ -67851,6 +67953,7 @@ x1e.2xlarge:
   regions:
     - AWS GovCloud (US-West)
     - eu-central-1
+    - af-south-1
     - ca-central-1
     - us-gov-east-1
     - ap-northeast-1
@@ -67858,6 +67961,7 @@ x1e.2xlarge:
     - us-east-2
     - us-west-2
     - ap-southeast-2
+    - ap-northeast-3
     - eu-west-1
     - ap-southeast-1
     - ap-south-1
@@ -67877,10 +67981,16 @@ x1e.32xlarge:
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 38.08
+        Shared: 38.08
       ap-northeast-1:
         Dedicated: 38.688
         Shared: 38.688
       ap-northeast-2:
+        Dedicated: 38.688
+        Shared: 38.688
+      ap-northeast-3:
         Dedicated: 38.688
         Shared: 38.688
       ap-south-1:
@@ -67920,10 +68030,16 @@ x1e.32xlarge:
         Dedicated: 26.688
         Shared: 26.688
     RHEL:
+      af-south-1:
+        Dedicated: 38.21
+        Shared: 38.21
       ap-northeast-1:
         Dedicated: 38.818
         Shared: 38.818
       ap-northeast-2:
+        Dedicated: 38.818
+        Shared: 38.818
+      ap-northeast-3:
         Dedicated: 38.818
         Shared: 38.818
       ap-south-1:
@@ -67963,10 +68079,16 @@ x1e.32xlarge:
         Dedicated: 26.818
         Shared: 26.818
     SUSE:
+      af-south-1:
+        Dedicated: 38.18
+        Shared: 38.18
       ap-northeast-1:
         Dedicated: 38.788
         Shared: 38.788
       ap-northeast-2:
+        Dedicated: 38.788
+        Shared: 38.788
+      ap-northeast-3:
         Dedicated: 38.788
         Shared: 38.788
       ap-south-1:
@@ -68006,11 +68128,17 @@ x1e.32xlarge:
         Dedicated: 26.788
         Shared: 26.788
     Windows:
+      af-south-1:
+        Dedicated: 43.968
+        Shared: 43.968
       ap-northeast-1:
         Dedicated: 38.688
         Shared: 38.688
       ap-northeast-2:
         Dedicated: 38.688
+        Shared: 44.576
+      ap-northeast-3:
+        Dedicated: 44.576
         Shared: 44.576
       ap-south-1:
         Dedicated: 33.408
@@ -68050,6 +68178,8 @@ x1e.32xlarge:
         Shared: 26.688
   regions:
     - AWS GovCloud (US-West)
+    - ap-northeast-3
+    - af-south-1
     - us-east-2
     - ca-central-1
     - eu-west-1
@@ -68077,10 +68207,16 @@ x1e.4xlarge:
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 5.236
+        Shared: 4.76
       ap-northeast-1:
         Dedicated: 5.32
         Shared: 4.836
       ap-northeast-2:
+        Dedicated: 5.32
+        Shared: 4.836
+      ap-northeast-3:
         Dedicated: 5.32
         Shared: 4.836
       ap-south-1:
@@ -68120,10 +68256,16 @@ x1e.4xlarge:
         Dedicated: 3.67
         Shared: 3.336
     RHEL:
+      af-south-1:
+        Dedicated: 5.366
+        Shared: 4.89
       ap-northeast-1:
         Dedicated: 5.45
         Shared: 4.966
       ap-northeast-2:
+        Dedicated: 5.45
+        Shared: 4.966
+      ap-northeast-3:
         Dedicated: 5.45
         Shared: 4.966
       ap-south-1:
@@ -68163,10 +68305,16 @@ x1e.4xlarge:
         Dedicated: 3.8
         Shared: 3.466
     SUSE:
+      af-south-1:
+        Dedicated: 5.336
+        Shared: 4.86
       ap-northeast-1:
         Dedicated: 5.42
         Shared: 4.936
       ap-northeast-2:
+        Dedicated: 5.42
+        Shared: 4.936
+      ap-northeast-3:
         Dedicated: 5.42
         Shared: 4.936
       ap-south-1:
@@ -68206,11 +68354,17 @@ x1e.4xlarge:
         Dedicated: 3.77
         Shared: 3.436
     Windows:
+      af-south-1:
+        Dedicated: 5.972
+        Shared: 5.496
       ap-northeast-1:
         Dedicated: 5.32
         Shared: 5.572
       ap-northeast-2:
         Dedicated: 5.32
+        Shared: 5.572
+      ap-northeast-3:
+        Dedicated: 6.056
         Shared: 5.572
       ap-south-1:
         Dedicated: 4.52
@@ -68258,9 +68412,11 @@ x1e.4xlarge:
     - ap-southeast-1
     - ap-northeast-2
     - eu-west-1
+    - af-south-1
     - ap-south-1
     - us-west-2
     - ap-southeast-2
+    - ap-northeast-3
     - ca-central-1
     - sa-east-1
   storage: 1 x 480 SSD
@@ -68277,10 +68433,16 @@ x1e.8xlarge:
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 10.472
+        Shared: 9.52
       ap-northeast-1:
         Dedicated: 10.639
         Shared: 9.672
       ap-northeast-2:
+        Dedicated: 10.639
+        Shared: 9.672
+      ap-northeast-3:
         Dedicated: 10.639
         Shared: 9.672
       ap-south-1:
@@ -68320,10 +68482,16 @@ x1e.8xlarge:
         Dedicated: 7.339
         Shared: 6.672
     RHEL:
+      af-south-1:
+        Dedicated: 10.602
+        Shared: 9.65
       ap-northeast-1:
         Dedicated: 10.769
         Shared: 9.802
       ap-northeast-2:
+        Dedicated: 10.769
+        Shared: 9.802
+      ap-northeast-3:
         Dedicated: 10.769
         Shared: 9.802
       ap-south-1:
@@ -68363,10 +68531,16 @@ x1e.8xlarge:
         Dedicated: 7.469
         Shared: 6.802
     SUSE:
+      af-south-1:
+        Dedicated: 10.572
+        Shared: 9.62
       ap-northeast-1:
         Dedicated: 10.739
         Shared: 9.772
       ap-northeast-2:
+        Dedicated: 10.739
+        Shared: 9.772
+      ap-northeast-3:
         Dedicated: 10.739
         Shared: 9.772
       ap-south-1:
@@ -68406,11 +68580,17 @@ x1e.8xlarge:
         Dedicated: 7.439
         Shared: 6.772
     Windows:
+      af-south-1:
+        Dedicated: 11.944
+        Shared: 10.992
       ap-northeast-1:
         Dedicated: 12.111
         Shared: 11.144
       ap-northeast-2:
         Dedicated: 10.639
+        Shared: 11.144
+      ap-northeast-3:
+        Dedicated: 12.111
         Shared: 11.144
       ap-south-1:
         Dedicated: 9.04
@@ -68456,8 +68636,10 @@ x1e.8xlarge:
     - ca-central-1
     - ap-southeast-1
     - eu-central-1
+    - af-south-1
     - us-gov-east-1
     - ap-south-1
+    - ap-northeast-3
     - us-east-2
     - ap-northeast-2
     - eu-west-1
@@ -68477,10 +68659,16 @@ x1e.xlarge:
   physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 1.309
+        Shared: 1.19
       ap-northeast-1:
         Dedicated: 1.33
         Shared: 1.209
       ap-northeast-2:
+        Dedicated: 1.33
+        Shared: 1.209
+      ap-northeast-3:
         Dedicated: 1.33
         Shared: 1.209
       ap-south-1:
@@ -68520,10 +68708,16 @@ x1e.xlarge:
         Dedicated: 0.917
         Shared: 0.834
     RHEL:
+      af-south-1:
+        Dedicated: 1.369
+        Shared: 1.25
       ap-northeast-1:
         Dedicated: 1.39
         Shared: 1.269
       ap-northeast-2:
+        Dedicated: 1.39
+        Shared: 1.269
+      ap-northeast-3:
         Dedicated: 1.39
         Shared: 1.269
       ap-south-1:
@@ -68563,10 +68757,16 @@ x1e.xlarge:
         Dedicated: 0.977
         Shared: 0.894
     SUSE:
+      af-south-1:
+        Dedicated: 1.409
+        Shared: 1.29
       ap-northeast-1:
         Dedicated: 1.43
         Shared: 1.309
       ap-northeast-2:
+        Dedicated: 1.43
+        Shared: 1.309
+      ap-northeast-3:
         Dedicated: 1.43
         Shared: 1.309
       ap-south-1:
@@ -68606,11 +68806,17 @@ x1e.xlarge:
         Dedicated: 1.017
         Shared: 0.934
     Windows:
+      af-south-1:
+        Dedicated: 1.493
+        Shared: 1.374
       ap-northeast-1:
         Dedicated: 1.514
         Shared: 1.209
       ap-northeast-2:
         Dedicated: 1.33
+        Shared: 1.393
+      ap-northeast-3:
+        Dedicated: 1.514
         Shared: 1.393
       ap-south-1:
         Dedicated: 1.13
@@ -68662,7 +68868,9 @@ x1e.xlarge:
     - us-east-1
     - sa-east-1
     - us-gov-east-1
+    - af-south-1
     - us-east-2
+    - ap-northeast-3
   storage: 1 x 120 SSD
   vcpu: 4
 z1d.12xlarge:
