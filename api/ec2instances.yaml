@@ -45017,22 +45017,29 @@ p4d.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8275L
   prices:
     Linux:
+      eu-west-1:
+        Shared: 35.39655
       us-east-1:
         Shared: 32.7726
       us-west-2:
         Shared: 32.7726
     RHEL:
+      eu-west-1:
+        Shared: 35.52655
       us-east-1:
         Shared: 32.9026
       us-west-2:
         Shared: 32.9026
     SUSE:
+      eu-west-1:
+        Shared: 35.54655
       us-east-1:
         Shared: 32.9226
       us-west-2:
         Shared: 32.9226
   regions:
     - us-west-2
+    - eu-west-1
     - us-east-1
   storage: 8 x 1000 SSD
   vcpu: 96
@@ -59774,8 +59781,8 @@ r6g.12xlarge:
         Dedicated: 3.0121
         Shared: 2.8416
       sa-east-1:
-        Dedicated: 5.4136
-        Shared: 5.1072
+        Dedicated: 4.0908
+        Shared: 3.8592
       us-east-1:
         Dedicated: 2.5644
         Shared: 2.4192
@@ -59820,8 +59827,8 @@ r6g.12xlarge:
         Dedicated: 3.1421
         Shared: 2.9716
       sa-east-1:
-        Dedicated: 5.5436
-        Shared: 5.2372
+        Dedicated: 4.2208
+        Shared: 3.9892
       us-east-1:
         Dedicated: 2.6944
         Shared: 2.5492
@@ -59866,8 +59873,8 @@ r6g.12xlarge:
         Dedicated: 3.1621
         Shared: 2.9916
       sa-east-1:
-        Dedicated: 5.5636
-        Shared: 5.2572
+        Dedicated: 4.2408
+        Shared: 4.0092
       us-east-1:
         Dedicated: 2.7144
         Shared: 2.5692
@@ -59940,8 +59947,8 @@ r6g.16xlarge:
         Dedicated: 4.0161
         Shared: 3.7888
       sa-east-1:
-        Dedicated: 7.2182
-        Shared: 6.8096
+        Dedicated: 5.4543
+        Shared: 5.1456
       us-east-1:
         Dedicated: 3.4191
         Shared: 3.2256
@@ -59986,8 +59993,8 @@ r6g.16xlarge:
         Dedicated: 4.1461
         Shared: 3.9188
       sa-east-1:
-        Dedicated: 7.3482
-        Shared: 6.9396
+        Dedicated: 5.5843
+        Shared: 5.2756
       us-east-1:
         Dedicated: 3.5491
         Shared: 3.3556
@@ -60032,8 +60039,8 @@ r6g.16xlarge:
         Dedicated: 4.1661
         Shared: 3.9388
       sa-east-1:
-        Dedicated: 7.3682
-        Shared: 6.9596
+        Dedicated: 5.6043
+        Shared: 5.2956
       us-east-1:
         Dedicated: 3.5691
         Shared: 3.3756
@@ -60106,8 +60113,8 @@ r6g.2xlarge:
         Dedicated: 0.502
         Shared: 0.4736
       sa-east-1:
-        Dedicated: 0.9023
-        Shared: 0.8512
+        Dedicated: 0.6818
+        Shared: 0.6432
       us-east-1:
         Dedicated: 0.4274
         Shared: 0.4032
@@ -60152,8 +60159,8 @@ r6g.2xlarge:
         Dedicated: 0.632
         Shared: 0.6036
       sa-east-1:
-        Dedicated: 1.0323
-        Shared: 0.9812
+        Dedicated: 0.8118
+        Shared: 0.7732
       us-east-1:
         Dedicated: 0.5574
         Shared: 0.5332
@@ -60198,8 +60205,8 @@ r6g.2xlarge:
         Dedicated: 0.652
         Shared: 0.6236
       sa-east-1:
-        Dedicated: 1.0523
-        Shared: 1.0012
+        Dedicated: 0.8318
+        Shared: 0.7932
       us-east-1:
         Dedicated: 0.5774
         Shared: 0.5532
@@ -60272,8 +60279,8 @@ r6g.4xlarge:
         Dedicated: 1.004
         Shared: 0.9472
       sa-east-1:
-        Dedicated: 1.8045
-        Shared: 1.7024
+        Dedicated: 1.3636
+        Shared: 1.2864
       us-east-1:
         Dedicated: 0.8548
         Shared: 0.8064
@@ -60318,8 +60325,8 @@ r6g.4xlarge:
         Dedicated: 1.134
         Shared: 1.0772
       sa-east-1:
-        Dedicated: 1.9345
-        Shared: 1.8324
+        Dedicated: 1.4936
+        Shared: 1.4164
       us-east-1:
         Dedicated: 0.9848
         Shared: 0.9364
@@ -60364,8 +60371,8 @@ r6g.4xlarge:
         Dedicated: 1.154
         Shared: 1.0972
       sa-east-1:
-        Dedicated: 1.9545
-        Shared: 1.8524
+        Dedicated: 1.5136
+        Shared: 1.4364
       us-east-1:
         Dedicated: 1.0048
         Shared: 0.9564
@@ -60438,8 +60445,8 @@ r6g.8xlarge:
         Dedicated: 2.0081
         Shared: 1.8944
       sa-east-1:
-        Dedicated: 3.6091
-        Shared: 3.4048
+        Dedicated: 2.7272
+        Shared: 2.5728
       us-east-1:
         Dedicated: 1.7096
         Shared: 1.6128
@@ -60484,8 +60491,8 @@ r6g.8xlarge:
         Dedicated: 2.1381
         Shared: 2.0244
       sa-east-1:
-        Dedicated: 3.7391
-        Shared: 3.5348
+        Dedicated: 2.8572
+        Shared: 2.7028
       us-east-1:
         Dedicated: 1.8396
         Shared: 1.7428
@@ -60530,8 +60537,8 @@ r6g.8xlarge:
         Dedicated: 2.1581
         Shared: 2.0444
       sa-east-1:
-        Dedicated: 3.7591
-        Shared: 3.5548
+        Dedicated: 2.8772
+        Shared: 2.7228
       us-east-1:
         Dedicated: 1.8596
         Shared: 1.7628
@@ -60604,8 +60611,8 @@ r6g.large:
         Dedicated: 0.1255
         Shared: 0.1184
       sa-east-1:
-        Dedicated: 0.2256
-        Shared: 0.2128
+        Dedicated: 0.1704
+        Shared: 0.1608
       us-east-1:
         Dedicated: 0.1068
         Shared: 0.1008
@@ -60650,8 +60657,8 @@ r6g.large:
         Dedicated: 0.1855
         Shared: 0.1784
       sa-east-1:
-        Dedicated: 0.2856
-        Shared: 0.2728
+        Dedicated: 0.2304
+        Shared: 0.2208
       us-east-1:
         Dedicated: 0.1668
         Shared: 0.1608
@@ -60696,8 +60703,8 @@ r6g.large:
         Dedicated: 0.1885
         Shared: 0.1814
       sa-east-1:
-        Dedicated: 0.2886
-        Shared: 0.2758
+        Dedicated: 0.2334
+        Shared: 0.2238
       us-east-1:
         Dedicated: 0.1698
         Shared: 0.1638
@@ -60770,8 +60777,8 @@ r6g.medium:
         Dedicated: 0.0628
         Shared: 0.0592
       sa-east-1:
-        Dedicated: 0.1128
-        Shared: 0.1064
+        Dedicated: 0.0852
+        Shared: 0.0804
       us-east-1:
         Dedicated: 0.0534
         Shared: 0.0504
@@ -60816,8 +60823,8 @@ r6g.medium:
         Dedicated: 0.1228
         Shared: 0.1192
       sa-east-1:
-        Dedicated: 0.1728
-        Shared: 0.1664
+        Dedicated: 0.1452
+        Shared: 0.1404
       us-east-1:
         Dedicated: 0.1134
         Shared: 0.1104
@@ -60862,8 +60869,8 @@ r6g.medium:
         Dedicated: 0.0938
         Shared: 0.0902
       sa-east-1:
-        Dedicated: 0.1438
-        Shared: 0.1374
+        Dedicated: 0.1162
+        Shared: 0.1114
       us-east-1:
         Dedicated: 0.0844
         Shared: 0.0814
@@ -60936,8 +60943,8 @@ r6g.metal:
         Dedicated: 4.0161
         Shared: 3.7888
       sa-east-1:
-        Dedicated: 7.2182
-        Shared: 6.8096
+        Dedicated: 5.4543
+        Shared: 5.1456
       us-east-1:
         Dedicated: 3.4191
         Shared: 3.2256
@@ -60982,8 +60989,8 @@ r6g.metal:
         Dedicated: 4.1461
         Shared: 3.9188
       sa-east-1:
-        Dedicated: 7.3482
-        Shared: 6.9396
+        Dedicated: 5.5843
+        Shared: 5.2756
       us-east-1:
         Dedicated: 3.5491
         Shared: 3.3556
@@ -61028,8 +61035,8 @@ r6g.metal:
         Dedicated: 4.1661
         Shared: 3.9388
       sa-east-1:
-        Dedicated: 7.3682
-        Shared: 6.9596
+        Dedicated: 5.6043
+        Shared: 5.2956
       us-east-1:
         Dedicated: 3.5691
         Shared: 3.3756
@@ -61102,8 +61109,8 @@ r6g.xlarge:
         Dedicated: 0.251
         Shared: 0.2368
       sa-east-1:
-        Dedicated: 0.4511
-        Shared: 0.4256
+        Dedicated: 0.3409
+        Shared: 0.3216
       us-east-1:
         Dedicated: 0.2137
         Shared: 0.2016
@@ -61148,8 +61155,8 @@ r6g.xlarge:
         Dedicated: 0.311
         Shared: 0.2968
       sa-east-1:
-        Dedicated: 0.5111
-        Shared: 0.4856
+        Dedicated: 0.4009
+        Shared: 0.3816
       us-east-1:
         Dedicated: 0.2737
         Shared: 0.2616
@@ -61194,8 +61201,8 @@ r6g.xlarge:
         Dedicated: 0.376
         Shared: 0.3618
       sa-east-1:
-        Dedicated: 0.5761
-        Shared: 0.5506
+        Dedicated: 0.4659
+        Shared: 0.4466
       us-east-1:
         Dedicated: 0.3387
         Shared: 0.3266
@@ -66460,14 +66467,26 @@ t4g.2xlarge:
         Shared: 0.3456
       ap-south-1:
         Shared: 0.1792
+      ap-southeast-1:
+        Shared: 0.3392
+      ap-southeast-2:
+        Shared: 0.3392
+      ca-central-1:
+        Shared: 0.2944
       eu-central-1:
         Shared: 0.3072
       eu-west-1:
         Shared: 0.2944
+      eu-west-2:
+        Shared: 0.3008
+      sa-east-1:
+        Shared: 0.4288
       us-east-1:
         Shared: 0.2688
       us-east-2:
         Shared: 0.2688
+      us-west-1:
+        Shared: 0.32
       us-west-2:
         Shared: 0.2688
     RHEL:
@@ -66475,14 +66494,26 @@ t4g.2xlarge:
         Shared: 0.4756
       ap-south-1:
         Shared: 0.3092
+      ap-southeast-1:
+        Shared: 0.4692
+      ap-southeast-2:
+        Shared: 0.4692
+      ca-central-1:
+        Shared: 0.4244
       eu-central-1:
         Shared: 0.4372
       eu-west-1:
         Shared: 0.4244
+      eu-west-2:
+        Shared: 0.4308
+      sa-east-1:
+        Shared: 0.5588
       us-east-1:
         Shared: 0.3988
       us-east-2:
         Shared: 0.3988
+      us-west-1:
+        Shared: 0.45
       us-west-2:
         Shared: 0.3988
     SUSE:
@@ -66490,21 +66521,39 @@ t4g.2xlarge:
         Shared: 0.4956
       ap-south-1:
         Shared: 0.3292
+      ap-southeast-1:
+        Shared: 0.4892
+      ap-southeast-2:
+        Shared: 0.4892
+      ca-central-1:
+        Shared: 0.4444
       eu-central-1:
         Shared: 0.4572
       eu-west-1:
         Shared: 0.4444
+      eu-west-2:
+        Shared: 0.4508
+      sa-east-1:
+        Shared: 0.5788
       us-east-1:
         Shared: 0.4188
       us-east-2:
         Shared: 0.4188
+      us-west-1:
+        Shared: 0.47
       us-west-2:
         Shared: 0.4188
   regions:
+    - us-west-1
+    - ap-southeast-2
+    - eu-west-2
     - us-east-1
     - eu-west-1
+    - ca-central-1
     - ap-northeast-1
     - eu-central-1
+    - sa-east-1
+    - ap-southeast-1
     - ap-south-1
     - us-west-2
     - us-east-2
@@ -66525,14 +66574,26 @@ t4g.large:
         Shared: 0.0864
       ap-south-1:
         Shared: 0.0448
+      ap-southeast-1:
+        Shared: 0.0848
+      ap-southeast-2:
+        Shared: 0.0848
+      ca-central-1:
+        Shared: 0.0736
       eu-central-1:
         Shared: 0.0768
       eu-west-1:
         Shared: 0.0736
+      eu-west-2:
+        Shared: 0.0752
+      sa-east-1:
+        Shared: 0.1072
       us-east-1:
         Shared: 0.0672
       us-east-2:
         Shared: 0.0672
+      us-west-1:
+        Shared: 0.08
       us-west-2:
         Shared: 0.0672
     RHEL:
@@ -66540,14 +66601,26 @@ t4g.large:
         Shared: 0.1464
       ap-south-1:
         Shared: 0.1048
+      ap-southeast-1:
+        Shared: 0.1448
+      ap-southeast-2:
+        Shared: 0.1448
+      ca-central-1:
+        Shared: 0.1336
       eu-central-1:
         Shared: 0.1368
       eu-west-1:
         Shared: 0.1336
+      eu-west-2:
+        Shared: 0.1352
+      sa-east-1:
+        Shared: 0.1672
       us-east-1:
         Shared: 0.1272
       us-east-2:
         Shared: 0.1272
+      us-west-1:
+        Shared: 0.14
       us-west-2:
         Shared: 0.1272
     SUSE:
@@ -66555,14 +66628,26 @@ t4g.large:
         Shared: 0.1489
       ap-south-1:
         Shared: 0.1073
+      ap-southeast-1:
+        Shared: 0.1473
+      ap-southeast-2:
+        Shared: 0.1473
+      ca-central-1:
+        Shared: 0.1361
       eu-central-1:
         Shared: 0.1393
       eu-west-1:
         Shared: 0.1361
+      eu-west-2:
+        Shared: 0.1377
+      sa-east-1:
+        Shared: 0.1697
       us-east-1:
         Shared: 0.1297
       us-east-2:
         Shared: 0.1297
+      us-west-1:
+        Shared: 0.1425
       us-west-2:
         Shared: 0.1297
   regions:
@@ -66571,7 +66656,13 @@ t4g.large:
     - ap-northeast-1
     - us-west-2
     - eu-central-1
+    - sa-east-1
+    - ca-central-1
     - eu-west-1
+    - us-west-1
+    - eu-west-2
+    - ap-southeast-1
+    - ap-southeast-2
     - ap-south-1
   storage: EBS only
   vcpu: 2
@@ -66590,14 +66681,26 @@ t4g.medium:
         Shared: 0.0432
       ap-south-1:
         Shared: 0.0224
+      ap-southeast-1:
+        Shared: 0.0424
+      ap-southeast-2:
+        Shared: 0.0424
+      ca-central-1:
+        Shared: 0.0368
       eu-central-1:
         Shared: 0.0384
       eu-west-1:
         Shared: 0.0368
+      eu-west-2:
+        Shared: 0.0376
+      sa-east-1:
+        Shared: 0.0536
       us-east-1:
         Shared: 0.0336
       us-east-2:
         Shared: 0.0336
+      us-west-1:
+        Shared: 0.04
       us-west-2:
         Shared: 0.0336
     RHEL:
@@ -66605,14 +66708,26 @@ t4g.medium:
         Shared: 0.1032
       ap-south-1:
         Shared: 0.0824
+      ap-southeast-1:
+        Shared: 0.1024
+      ap-southeast-2:
+        Shared: 0.1024
+      ca-central-1:
+        Shared: 0.0968
       eu-central-1:
         Shared: 0.0984
       eu-west-1:
         Shared: 0.0968
+      eu-west-2:
+        Shared: 0.0976
+      sa-east-1:
+        Shared: 0.1136
       us-east-1:
         Shared: 0.0936
       us-east-2:
         Shared: 0.0936
+      us-west-1:
+        Shared: 0.1
       us-west-2:
         Shared: 0.0936
     SUSE:
@@ -66620,21 +66735,39 @@ t4g.medium:
         Shared: 0.1057
       ap-south-1:
         Shared: 0.0849
+      ap-southeast-1:
+        Shared: 0.1049
+      ap-southeast-2:
+        Shared: 0.1049
+      ca-central-1:
+        Shared: 0.0993
       eu-central-1:
         Shared: 0.1009
       eu-west-1:
         Shared: 0.0993
+      eu-west-2:
+        Shared: 0.1001
+      sa-east-1:
+        Shared: 0.1161
       us-east-1:
         Shared: 0.0961
       us-east-2:
         Shared: 0.0961
+      us-west-1:
+        Shared: 0.1025
       us-west-2:
         Shared: 0.0961
   regions:
     - ap-northeast-1
     - us-west-2
+    - sa-east-1
+    - ap-southeast-1
     - eu-west-1
+    - us-west-1
+    - ap-southeast-2
     - ap-south-1
+    - eu-west-2
+    - ca-central-1
     - eu-central-1
     - us-east-1
     - us-east-2
@@ -66655,14 +66788,26 @@ t4g.micro:
         Shared: 0.0108
       ap-south-1:
         Shared: 0.0056
+      ap-southeast-1:
+        Shared: 0.0106
+      ap-southeast-2:
+        Shared: 0.0106
+      ca-central-1:
+        Shared: 0.0092
       eu-central-1:
         Shared: 0.0096
       eu-west-1:
         Shared: 0.0092
+      eu-west-2:
+        Shared: 0.0094
+      sa-east-1:
+        Shared: 0.0134
       us-east-1:
         Shared: 0.0084
       us-east-2:
         Shared: 0.0084
+      us-west-1:
+        Shared: 0.01
       us-west-2:
         Shared: 0.0084
     RHEL:
@@ -66670,14 +66815,26 @@ t4g.micro:
         Shared: 0.0708
       ap-south-1:
         Shared: 0.0656
+      ap-southeast-1:
+        Shared: 0.0706
+      ap-southeast-2:
+        Shared: 0.0706
+      ca-central-1:
+        Shared: 0.0692
       eu-central-1:
         Shared: 0.0696
       eu-west-1:
         Shared: 0.0692
+      eu-west-2:
+        Shared: 0.0694
+      sa-east-1:
+        Shared: 0.0734
       us-east-1:
         Shared: 0.0684
       us-east-2:
         Shared: 0.0684
+      us-west-1:
+        Shared: 0.07
       us-west-2:
         Shared: 0.0684
     SUSE:
@@ -66685,22 +66842,40 @@ t4g.micro:
         Shared: 0.0108
       ap-south-1:
         Shared: 0.0056
+      ap-southeast-1:
+        Shared: 0.0106
+      ap-southeast-2:
+        Shared: 0.0106
+      ca-central-1:
+        Shared: 0.0092
       eu-central-1:
         Shared: 0.0096
       eu-west-1:
         Shared: 0.0092
+      eu-west-2:
+        Shared: 0.0094
+      sa-east-1:
+        Shared: 0.0134
       us-east-1:
         Shared: 0.0084
       us-east-2:
         Shared: 0.0084
+      us-west-1:
+        Shared: 0.01
       us-west-2:
         Shared: 0.0084
   regions:
+    - sa-east-1
+    - eu-west-2
     - eu-central-1
     - us-east-1
     - us-west-2
     - eu-west-1
     - us-east-2
+    - ap-southeast-2
+    - us-west-1
+    - ap-southeast-1
+    - ca-central-1
     - ap-northeast-1
     - ap-south-1
   storage: EBS only
@@ -66720,14 +66895,26 @@ t4g.nano:
         Shared: 0.0054
       ap-south-1:
         Shared: 0.0028
+      ap-southeast-1:
+        Shared: 0.0053
+      ap-southeast-2:
+        Shared: 0.0053
+      ca-central-1:
+        Shared: 0.0046
       eu-central-1:
         Shared: 0.0048
       eu-west-1:
         Shared: 0.0046
+      eu-west-2:
+        Shared: 0.0047
+      sa-east-1:
+        Shared: 0.0067
       us-east-1:
         Shared: 0.0042
       us-east-2:
         Shared: 0.0042
+      us-west-1:
+        Shared: 0.005
       us-west-2:
         Shared: 0.0042
     SUSE:
@@ -66735,23 +66922,41 @@ t4g.nano:
         Shared: 0.0054
       ap-south-1:
         Shared: 0.0028
+      ap-southeast-1:
+        Shared: 0.0053
+      ap-southeast-2:
+        Shared: 0.0053
+      ca-central-1:
+        Shared: 0.0046
       eu-central-1:
         Shared: 0.0048
       eu-west-1:
         Shared: 0.0046
+      eu-west-2:
+        Shared: 0.0047
+      sa-east-1:
+        Shared: 0.0067
       us-east-1:
         Shared: 0.0042
       us-east-2:
         Shared: 0.0042
+      us-west-1:
+        Shared: 0.005
       us-west-2:
         Shared: 0.0042
   regions:
     - eu-central-1
+    - us-west-1
+    - sa-east-1
     - ap-northeast-1
+    - eu-west-2
+    - ca-central-1
     - ap-south-1
     - eu-west-1
     - us-west-2
+    - ap-southeast-1
     - us-east-2
+    - ap-southeast-2
     - us-east-1
   storage: EBS only
   vcpu: 2
@@ -66770,14 +66975,26 @@ t4g.small:
         Shared: 0.0216
       ap-south-1:
         Shared: 0.0112
+      ap-southeast-1:
+        Shared: 0.0212
+      ap-southeast-2:
+        Shared: 0.0212
+      ca-central-1:
+        Shared: 0.0184
       eu-central-1:
         Shared: 0.0192
       eu-west-1:
         Shared: 0.0184
+      eu-west-2:
+        Shared: 0.0188
+      sa-east-1:
+        Shared: 0.0268
       us-east-1:
         Shared: 0.0168
       us-east-2:
         Shared: 0.0168
+      us-west-1:
+        Shared: 0.02
       us-west-2:
         Shared: 0.0168
     RHEL:
@@ -66785,14 +67002,26 @@ t4g.small:
         Shared: 0.0816
       ap-south-1:
         Shared: 0.0712
+      ap-southeast-1:
+        Shared: 0.0812
+      ap-southeast-2:
+        Shared: 0.0812
+      ca-central-1:
+        Shared: 0.0784
       eu-central-1:
         Shared: 0.0792
       eu-west-1:
         Shared: 0.0784
+      eu-west-2:
+        Shared: 0.0788
+      sa-east-1:
+        Shared: 0.0868
       us-east-1:
         Shared: 0.0768
       us-east-2:
         Shared: 0.0768
+      us-west-1:
+        Shared: 0.08
       us-west-2:
         Shared: 0.0768
     SUSE:
@@ -66800,24 +67029,42 @@ t4g.small:
         Shared: 0.0529
       ap-south-1:
         Shared: 0.0425
+      ap-southeast-1:
+        Shared: 0.0525
+      ap-southeast-2:
+        Shared: 0.0525
+      ca-central-1:
+        Shared: 0.0497
       eu-central-1:
         Shared: 0.0505
       eu-west-1:
         Shared: 0.0497
+      eu-west-2:
+        Shared: 0.0501
+      sa-east-1:
+        Shared: 0.0581
       us-east-1:
         Shared: 0.0481
       us-east-2:
         Shared: 0.0481
+      us-west-1:
+        Shared: 0.0513
       us-west-2:
         Shared: 0.0481
   regions:
     - us-west-2
+    - ca-central-1
+    - us-west-1
+    - ap-southeast-1
+    - ap-southeast-2
+    - sa-east-1
     - ap-northeast-1
     - eu-central-1
     - ap-south-1
     - us-east-1
     - us-east-2
     - eu-west-1
+    - eu-west-2
   storage: EBS only
   vcpu: 2
 t4g.xlarge:
@@ -66835,14 +67082,26 @@ t4g.xlarge:
         Shared: 0.1728
       ap-south-1:
         Shared: 0.0896
+      ap-southeast-1:
+        Shared: 0.1696
+      ap-southeast-2:
+        Shared: 0.1696
+      ca-central-1:
+        Shared: 0.1472
       eu-central-1:
         Shared: 0.1536
       eu-west-1:
         Shared: 0.1472
+      eu-west-2:
+        Shared: 0.1504
+      sa-east-1:
+        Shared: 0.2144
       us-east-1:
         Shared: 0.1344
       us-east-2:
         Shared: 0.1344
+      us-west-1:
+        Shared: 0.16
       us-west-2:
         Shared: 0.1344
     RHEL:
@@ -66850,14 +67109,26 @@ t4g.xlarge:
         Shared: 0.2328
       ap-south-1:
         Shared: 0.1496
+      ap-southeast-1:
+        Shared: 0.2296
+      ap-southeast-2:
+        Shared: 0.2296
+      ca-central-1:
+        Shared: 0.2072
       eu-central-1:
         Shared: 0.2136
       eu-west-1:
         Shared: 0.2072
+      eu-west-2:
+        Shared: 0.2104
+      sa-east-1:
+        Shared: 0.2744
       us-east-1:
         Shared: 0.1944
       us-east-2:
         Shared: 0.1944
+      us-west-1:
+        Shared: 0.22
       us-west-2:
         Shared: 0.1944
     SUSE:
@@ -66865,24 +67136,42 @@ t4g.xlarge:
         Shared: 0.2978
       ap-south-1:
         Shared: 0.2146
+      ap-southeast-1:
+        Shared: 0.2946
+      ap-southeast-2:
+        Shared: 0.2946
+      ca-central-1:
+        Shared: 0.2722
       eu-central-1:
         Shared: 0.2786
       eu-west-1:
         Shared: 0.2722
+      eu-west-2:
+        Shared: 0.2754
+      sa-east-1:
+        Shared: 0.3394
       us-east-1:
         Shared: 0.2594
       us-east-2:
         Shared: 0.2594
+      us-west-1:
+        Shared: 0.285
       us-west-2:
         Shared: 0.2594
   regions:
     - us-east-2
+    - ap-southeast-2
+    - ap-southeast-1
     - eu-central-1
     - ap-south-1
     - us-west-2
     - ap-northeast-1
+    - eu-west-2
+    - sa-east-1
     - us-east-1
     - eu-west-1
+    - ca-central-1
+    - us-west-1
   storage: EBS only
   vcpu: 4
 u-12tb1.metal:
