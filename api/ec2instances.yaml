@@ -19352,6 +19352,8 @@ g4dn.2xlarge:
       ap-southeast-2:
         Dedicated: 1.037
         Shared: 0.978
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 1.777
       Asia Pacific (KDDI) - Tokyo:
         Shared: 1.777
       Asia Pacific (SKT) - Daejeon:
@@ -19452,6 +19454,8 @@ g4dn.2xlarge:
       ap-southeast-2:
         Dedicated: 1.167
         Shared: 1.108
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 1.907
       Asia Pacific (KDDI) - Tokyo:
         Shared: 1.907
       Asia Pacific (SKT) - Daejeon:
@@ -19552,6 +19556,8 @@ g4dn.2xlarge:
       ap-southeast-2:
         Dedicated: 1.187
         Shared: 1.128
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 1.927
       Asia Pacific (KDDI) - Tokyo:
         Shared: 1.927
       Asia Pacific (SKT) - Daejeon:
@@ -19652,6 +19658,8 @@ g4dn.2xlarge:
       ap-southeast-2:
         Dedicated: 1.405
         Shared: 1.346
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 2.145
       Asia Pacific (KDDI) - Tokyo:
         Shared: 2.145
       Asia Pacific (SKT) - Daejeon:
@@ -19734,6 +19742,7 @@ g4dn.2xlarge:
     - af-south-1
     - US East (Verizon) - Atlanta
     - ap-northeast-2
+    - Asia Pacific (KDDI) - Osaka
     - ca-central-1
     - US East (Miami)
     - EU (Milan)
@@ -48662,6 +48671,8 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.64
         Shared: 0.604
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 0.821
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.821
       Asia Pacific (SKT) - Daejeon:
@@ -48759,6 +48770,8 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.77
         Shared: 0.734
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 0.951
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.951
       Asia Pacific (SKT) - Daejeon:
@@ -48856,6 +48869,8 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.79
         Shared: 0.754
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 0.971
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.971
       Asia Pacific (SKT) - Daejeon:
@@ -48953,6 +48968,8 @@ r5.2xlarge:
       ap-southeast-2:
         Dedicated: 1.008
         Shared: 0.972
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 1.189
       Asia Pacific (KDDI) - Tokyo:
         Shared: 1.189
       Asia Pacific (SKT) - Daejeon:
@@ -49061,6 +49078,7 @@ r5.2xlarge:
     - US East (Verizon) - New York
     - US West (Verizon) - San Francisco Bay Area
     - US East (Verizon) - Boston
+    - Asia Pacific (KDDI) - Osaka
     - US East (Verizon) - Atlanta
   storage: EBS only
   vcpu: 8
@@ -63861,6 +63879,8 @@ t3.medium:
       ap-southeast-2:
         Dedicated: 0.0562
         Shared: 0.0528
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 0.0734
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.0734
       Asia Pacific (SKT) - Daejeon:
@@ -63951,6 +63971,8 @@ t3.medium:
       ap-southeast-2:
         Dedicated: 0.1162
         Shared: 0.1128
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 0.1334
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.1334
       Asia Pacific (SKT) - Daejeon:
@@ -64041,6 +64063,8 @@ t3.medium:
       ap-southeast-2:
         Dedicated: 0.1192
         Shared: 0.1158
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 0.1364
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.1364
       Asia Pacific (SKT) - Daejeon:
@@ -64131,6 +64155,8 @@ t3.medium:
       ap-southeast-2:
         Dedicated: 0.0746
         Shared: 0.0712
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 0.0918
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.0918
       Asia Pacific (SKT) - Daejeon:
@@ -64208,6 +64234,7 @@ t3.medium:
     - eu-north-1
     - AWS GovCloud (US-West)
     - ap-south-1
+    - Asia Pacific (KDDI) - Osaka
     - us-west-2-lax-1a
     - sa-east-1
     - eu-west-2
@@ -65111,6 +65138,8 @@ t3.xlarge:
       ap-southeast-2:
         Dedicated: 0.2249
         Shared: 0.2112
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 0.2938
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.2938
       Asia Pacific (SKT) - Daejeon:
@@ -65207,6 +65236,8 @@ t3.xlarge:
       ap-southeast-2:
         Dedicated: 0.2849
         Shared: 0.2712
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 0.3538
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.3538
       Asia Pacific (SKT) - Daejeon:
@@ -65303,6 +65334,8 @@ t3.xlarge:
       ap-southeast-2:
         Dedicated: 0.3499
         Shared: 0.3362
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 0.4188
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.4188
       Asia Pacific (SKT) - Daejeon:
@@ -65399,6 +65432,8 @@ t3.xlarge:
       ap-southeast-2:
         Dedicated: 0.2985
         Shared: 0.2848
+      Asia Pacific (KDDI) - Osaka:
+        Shared: 0.3674
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.3674
       Asia Pacific (SKT) - Daejeon:
@@ -65497,6 +65532,7 @@ t3.xlarge:
     - eu-central-1
     - ap-southeast-1
     - us-gov-east-1
+    - Asia Pacific (KDDI) - Osaka
     - Asia Pacific (SKT) - Daejeon
     - EU (Milan)
     - us-east-2
