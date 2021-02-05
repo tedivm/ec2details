@@ -12883,9 +12883,15 @@ c6g.12xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 2.1888
+        Shared: 2.064
       ap-northeast-1:
         Dedicated: 2.1777
         Shared: 2.0544
+      ap-northeast-2:
+        Dedicated: 1.9584
+        Shared: 1.848
       ap-south-1:
         Dedicated: 1.0837
         Shared: 1.0224
@@ -12929,9 +12935,15 @@ c6g.12xlarge:
         Dedicated: 1.7299
         Shared: 1.632
     RHEL:
+      ap-east-1:
+        Dedicated: 2.3188
+        Shared: 2.194
       ap-northeast-1:
         Dedicated: 2.3077
         Shared: 2.1844
+      ap-northeast-2:
+        Dedicated: 2.0884
+        Shared: 1.978
       ap-south-1:
         Dedicated: 1.2137
         Shared: 1.1524
@@ -12975,9 +12987,15 @@ c6g.12xlarge:
         Dedicated: 1.8599
         Shared: 1.762
     SUSE:
+      ap-east-1:
+        Dedicated: 2.3388
+        Shared: 2.214
       ap-northeast-1:
         Dedicated: 2.3277
         Shared: 2.2044
+      ap-northeast-2:
+        Dedicated: 2.1084
+        Shared: 1.998
       ap-south-1:
         Dedicated: 1.2337
         Shared: 1.1724
@@ -13025,6 +13043,7 @@ c6g.12xlarge:
     - ap-southeast-2
     - us-west-1
     - AWS GovCloud (US-West)
+    - ap-east-1
     - us-gov-east-1
     - ap-southeast-1
     - sa-east-1
@@ -13033,6 +13052,7 @@ c6g.12xlarge:
     - us-east-2
     - us-east-1
     - eu-central-1
+    - ap-northeast-2
     - eu-west-1
     - us-west-2
     - ca-central-1
@@ -13049,9 +13069,15 @@ c6g.16xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 2.9184
+        Shared: 2.752
       ap-northeast-1:
         Dedicated: 2.9036
         Shared: 2.7392
+      ap-northeast-2:
+        Dedicated: 2.6112
+        Shared: 2.464
       ap-south-1:
         Dedicated: 1.445
         Shared: 1.3632
@@ -13095,9 +13121,15 @@ c6g.16xlarge:
         Dedicated: 2.3066
         Shared: 2.176
     RHEL:
+      ap-east-1:
+        Dedicated: 3.0484
+        Shared: 2.882
       ap-northeast-1:
         Dedicated: 3.0336
         Shared: 2.8692
+      ap-northeast-2:
+        Dedicated: 2.7412
+        Shared: 2.594
       ap-south-1:
         Dedicated: 1.575
         Shared: 1.4932
@@ -13141,9 +13173,15 @@ c6g.16xlarge:
         Dedicated: 2.4366
         Shared: 2.306
     SUSE:
+      ap-east-1:
+        Dedicated: 3.0684
+        Shared: 2.902
       ap-northeast-1:
         Dedicated: 3.0536
         Shared: 2.8892
+      ap-northeast-2:
+        Dedicated: 2.7612
+        Shared: 2.614
       ap-south-1:
         Dedicated: 1.595
         Shared: 1.5132
@@ -13188,6 +13226,7 @@ c6g.16xlarge:
         Shared: 2.326
   regions:
     - us-east-2
+    - ap-northeast-2
     - us-west-1
     - eu-west-2
     - us-east-1
@@ -13197,6 +13236,7 @@ c6g.16xlarge:
     - ap-northeast-1
     - ap-south-1
     - ap-southeast-2
+    - ap-east-1
     - sa-east-1
     - AWS GovCloud (US-West)
     - eu-central-1
@@ -13215,9 +13255,15 @@ c6g.2xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.3648
+        Shared: 0.344
       ap-northeast-1:
         Dedicated: 0.3629
         Shared: 0.3424
+      ap-northeast-2:
+        Dedicated: 0.3264
+        Shared: 0.308
       ap-south-1:
         Dedicated: 0.1806
         Shared: 0.1704
@@ -13261,9 +13307,15 @@ c6g.2xlarge:
         Dedicated: 0.2883
         Shared: 0.272
     RHEL:
+      ap-east-1:
+        Dedicated: 0.4948
+        Shared: 0.474
       ap-northeast-1:
         Dedicated: 0.4929
         Shared: 0.4724
+      ap-northeast-2:
+        Dedicated: 0.4564
+        Shared: 0.438
       ap-south-1:
         Dedicated: 0.3106
         Shared: 0.3004
@@ -13307,9 +13359,15 @@ c6g.2xlarge:
         Dedicated: 0.4183
         Shared: 0.402
     SUSE:
+      ap-east-1:
+        Dedicated: 0.5148
+        Shared: 0.494
       ap-northeast-1:
         Dedicated: 0.5129
         Shared: 0.4924
+      ap-northeast-2:
+        Dedicated: 0.4764
+        Shared: 0.458
       ap-south-1:
         Dedicated: 0.3306
         Shared: 0.3204
@@ -13363,10 +13421,12 @@ c6g.2xlarge:
     - us-gov-east-1
     - ap-northeast-1
     - us-east-1
+    - ap-east-1
     - eu-west-1
     - ap-southeast-1
     - us-west-1
     - us-east-2
+    - ap-northeast-2
     - sa-east-1
   storage: EBS only
   vcpu: 8
@@ -13381,9 +13441,15 @@ c6g.4xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.7296
+        Shared: 0.688
       ap-northeast-1:
         Dedicated: 0.7259
         Shared: 0.6848
+      ap-northeast-2:
+        Dedicated: 0.6528
+        Shared: 0.616
       ap-south-1:
         Dedicated: 0.3612
         Shared: 0.3408
@@ -13427,9 +13493,15 @@ c6g.4xlarge:
         Dedicated: 0.5766
         Shared: 0.544
     RHEL:
+      ap-east-1:
+        Dedicated: 0.8596
+        Shared: 0.818
       ap-northeast-1:
         Dedicated: 0.8559
         Shared: 0.8148
+      ap-northeast-2:
+        Dedicated: 0.7828
+        Shared: 0.746
       ap-south-1:
         Dedicated: 0.4912
         Shared: 0.4708
@@ -13473,9 +13545,15 @@ c6g.4xlarge:
         Dedicated: 0.7066
         Shared: 0.674
     SUSE:
+      ap-east-1:
+        Dedicated: 0.8796
+        Shared: 0.838
       ap-northeast-1:
         Dedicated: 0.8759
         Shared: 0.8348
+      ap-northeast-2:
+        Dedicated: 0.8028
+        Shared: 0.766
       ap-south-1:
         Dedicated: 0.5112
         Shared: 0.4908
@@ -13522,6 +13600,8 @@ c6g.4xlarge:
     - sa-east-1
     - eu-west-1
     - AWS GovCloud (US-West)
+    - ap-northeast-2
+    - ap-east-1
     - us-west-2
     - us-gov-east-1
     - eu-central-1
@@ -13547,9 +13627,15 @@ c6g.8xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.4592
+        Shared: 1.376
       ap-northeast-1:
         Dedicated: 1.4518
         Shared: 1.3696
+      ap-northeast-2:
+        Dedicated: 1.3056
+        Shared: 1.232
       ap-south-1:
         Dedicated: 0.7225
         Shared: 0.6816
@@ -13593,9 +13679,15 @@ c6g.8xlarge:
         Dedicated: 1.1533
         Shared: 1.088
     RHEL:
+      ap-east-1:
+        Dedicated: 1.5892
+        Shared: 1.506
       ap-northeast-1:
         Dedicated: 1.5818
         Shared: 1.4996
+      ap-northeast-2:
+        Dedicated: 1.4356
+        Shared: 1.362
       ap-south-1:
         Dedicated: 0.8525
         Shared: 0.8116
@@ -13639,9 +13731,15 @@ c6g.8xlarge:
         Dedicated: 1.2833
         Shared: 1.218
     SUSE:
+      ap-east-1:
+        Dedicated: 1.6092
+        Shared: 1.526
       ap-northeast-1:
         Dedicated: 1.6018
         Shared: 1.5196
+      ap-northeast-2:
+        Dedicated: 1.4556
+        Shared: 1.382
       ap-south-1:
         Dedicated: 0.8725
         Shared: 0.8316
@@ -13685,6 +13783,7 @@ c6g.8xlarge:
         Dedicated: 1.3033
         Shared: 1.238
   regions:
+    - ap-northeast-2
     - us-gov-east-1
     - eu-central-1
     - eu-west-2
@@ -13692,6 +13791,7 @@ c6g.8xlarge:
     - us-west-2
     - us-east-1
     - ca-central-1
+    - ap-east-1
     - us-east-2
     - sa-east-1
     - ap-southeast-1
@@ -13713,9 +13813,15 @@ c6g.large:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.0912
+        Shared: 0.086
       ap-northeast-1:
         Dedicated: 0.0907
         Shared: 0.0856
+      ap-northeast-2:
+        Dedicated: 0.0816
+        Shared: 0.077
       ap-south-1:
         Dedicated: 0.0452
         Shared: 0.0426
@@ -13759,9 +13865,15 @@ c6g.large:
         Dedicated: 0.0721
         Shared: 0.068
     RHEL:
+      ap-east-1:
+        Dedicated: 0.1512
+        Shared: 0.146
       ap-northeast-1:
         Dedicated: 0.1507
         Shared: 0.1456
+      ap-northeast-2:
+        Dedicated: 0.1416
+        Shared: 0.137
       ap-south-1:
         Dedicated: 0.1052
         Shared: 0.1026
@@ -13805,9 +13917,15 @@ c6g.large:
         Dedicated: 0.1321
         Shared: 0.128
     SUSE:
+      ap-east-1:
+        Dedicated: 0.1542
+        Shared: 0.149
       ap-northeast-1:
         Dedicated: 0.1537
         Shared: 0.1486
+      ap-northeast-2:
+        Dedicated: 0.1446
+        Shared: 0.14
       ap-south-1:
         Dedicated: 0.1082
         Shared: 0.1056
@@ -13855,6 +13973,8 @@ c6g.large:
     - eu-west-1
     - us-east-2
     - eu-west-2
+    - ap-northeast-2
+    - ap-east-1
     - ap-northeast-1
     - AWS GovCloud (US-West)
     - ap-southeast-1
@@ -13879,9 +13999,15 @@ c6g.medium:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.0456
+        Shared: 0.043
       ap-northeast-1:
         Dedicated: 0.0454
         Shared: 0.0428
+      ap-northeast-2:
+        Dedicated: 0.0408
+        Shared: 0.0385
       ap-south-1:
         Dedicated: 0.0226
         Shared: 0.0213
@@ -13925,9 +14051,15 @@ c6g.medium:
         Dedicated: 0.036
         Shared: 0.034
     RHEL:
+      ap-east-1:
+        Dedicated: 0.1056
+        Shared: 0.103
       ap-northeast-1:
         Dedicated: 0.1054
         Shared: 0.1028
+      ap-northeast-2:
+        Dedicated: 0.1008
+        Shared: 0.0985
       ap-south-1:
         Dedicated: 0.0826
         Shared: 0.0813
@@ -13971,9 +14103,15 @@ c6g.medium:
         Dedicated: 0.096
         Shared: 0.094
     SUSE:
+      ap-east-1:
+        Dedicated: 0.0766
+        Shared: 0.074
       ap-northeast-1:
         Dedicated: 0.0764
         Shared: 0.0738
+      ap-northeast-2:
+        Dedicated: 0.0718
+        Shared: 0.0695
       ap-south-1:
         Dedicated: 0.0536
         Shared: 0.0523
@@ -14031,6 +14169,8 @@ c6g.medium:
     - eu-west-2
     - ap-southeast-2
     - us-east-2
+    - ap-east-1
+    - ap-northeast-2
     - ap-northeast-1
   storage: EBS only
   vcpu: 1
@@ -14045,9 +14185,15 @@ c6g.metal:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 2.9184
+        Shared: 2.752
       ap-northeast-1:
         Dedicated: 2.9036
         Shared: 2.7392
+      ap-northeast-2:
+        Dedicated: 2.6112
+        Shared: 2.464
       ap-south-1:
         Dedicated: 1.445
         Shared: 1.3632
@@ -14091,9 +14237,15 @@ c6g.metal:
         Dedicated: 2.3066
         Shared: 2.176
     RHEL:
+      ap-east-1:
+        Dedicated: 3.0484
+        Shared: 2.882
       ap-northeast-1:
         Dedicated: 3.0336
         Shared: 2.8692
+      ap-northeast-2:
+        Dedicated: 2.7412
+        Shared: 2.594
       ap-south-1:
         Dedicated: 1.575
         Shared: 1.4932
@@ -14137,9 +14289,15 @@ c6g.metal:
         Dedicated: 2.4366
         Shared: 2.306
     SUSE:
+      ap-east-1:
+        Dedicated: 3.0684
+        Shared: 2.902
       ap-northeast-1:
         Dedicated: 3.0536
         Shared: 2.8892
+      ap-northeast-2:
+        Dedicated: 2.7612
+        Shared: 2.614
       ap-south-1:
         Dedicated: 1.595
         Shared: 1.5132
@@ -14184,7 +14342,9 @@ c6g.metal:
         Shared: 2.326
   regions:
     - ca-central-1
+    - ap-east-1
     - eu-west-2
+    - ap-northeast-2
     - ap-southeast-1
     - AWS GovCloud (US-West)
     - us-east-2
@@ -14211,9 +14371,15 @@ c6g.xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.1824
+        Shared: 0.172
       ap-northeast-1:
         Dedicated: 0.1815
         Shared: 0.1712
+      ap-northeast-2:
+        Dedicated: 0.1632
+        Shared: 0.154
       ap-south-1:
         Dedicated: 0.0903
         Shared: 0.0852
@@ -14257,9 +14423,15 @@ c6g.xlarge:
         Dedicated: 0.1442
         Shared: 0.136
     RHEL:
+      ap-east-1:
+        Dedicated: 0.2424
+        Shared: 0.232
       ap-northeast-1:
         Dedicated: 0.2415
         Shared: 0.2312
+      ap-northeast-2:
+        Dedicated: 0.2232
+        Shared: 0.214
       ap-south-1:
         Dedicated: 0.1503
         Shared: 0.1452
@@ -14303,9 +14475,15 @@ c6g.xlarge:
         Dedicated: 0.2042
         Shared: 0.196
     SUSE:
+      ap-east-1:
+        Dedicated: 0.3074
+        Shared: 0.297
       ap-northeast-1:
         Dedicated: 0.3065
         Shared: 0.2962
+      ap-northeast-2:
+        Dedicated: 0.2882
+        Shared: 0.279
       ap-south-1:
         Dedicated: 0.2153
         Shared: 0.2102
@@ -14353,6 +14531,7 @@ c6g.xlarge:
     - eu-west-1
     - us-west-1
     - ap-northeast-1
+    - ap-east-1
     - us-east-1
     - ap-southeast-1
     - ap-south-1
@@ -14360,6 +14539,7 @@ c6g.xlarge:
     - ap-southeast-2
     - sa-east-1
     - us-gov-east-1
+    - ap-northeast-2
     - AWS GovCloud (US-West)
     - ca-central-1
     - us-east-2
@@ -14377,6 +14557,15 @@ c6gd.12xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 2.2896
+        Shared: 2.16
+      ap-southeast-2:
+        Dedicated: 2.568
+        Shared: 2.424
+      eu-central-1:
+        Dedicated: 2.2632
+        Shared: 2.136
       eu-west-1:
         Dedicated: 2.2184
         Shared: 2.0928
@@ -14390,6 +14579,15 @@ c6gd.12xlarge:
         Dedicated: 1.9538
         Shared: 1.8432
     RHEL:
+      ap-southeast-1:
+        Dedicated: 2.4196
+        Shared: 2.29
+      ap-southeast-2:
+        Dedicated: 2.698
+        Shared: 2.554
+      eu-central-1:
+        Dedicated: 2.3932
+        Shared: 2.266
       eu-west-1:
         Dedicated: 2.3484
         Shared: 2.2228
@@ -14403,6 +14601,15 @@ c6gd.12xlarge:
         Dedicated: 2.0838
         Shared: 1.9732
     SUSE:
+      ap-southeast-1:
+        Dedicated: 2.4396
+        Shared: 2.31
+      ap-southeast-2:
+        Dedicated: 2.718
+        Shared: 2.574
+      eu-central-1:
+        Dedicated: 2.4132
+        Shared: 2.286
       eu-west-1:
         Dedicated: 2.3684
         Shared: 2.2428
@@ -14417,6 +14624,9 @@ c6gd.12xlarge:
         Shared: 1.9932
   regions:
     - us-east-2
+    - ap-southeast-2
+    - ap-southeast-1
+    - eu-central-1
     - us-west-2
     - eu-west-1
     - us-east-1
@@ -14433,6 +14643,15 @@ c6gd.16xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 3.0528
+        Shared: 2.88
+      ap-southeast-2:
+        Dedicated: 3.424
+        Shared: 3.232
+      eu-central-1:
+        Dedicated: 3.0176
+        Shared: 2.848
       eu-west-1:
         Dedicated: 2.9578
         Shared: 2.7904
@@ -14446,6 +14665,15 @@ c6gd.16xlarge:
         Dedicated: 2.6051
         Shared: 2.4576
     RHEL:
+      ap-southeast-1:
+        Dedicated: 3.1828
+        Shared: 3.01
+      ap-southeast-2:
+        Dedicated: 3.554
+        Shared: 3.362
+      eu-central-1:
+        Dedicated: 3.1476
+        Shared: 2.978
       eu-west-1:
         Dedicated: 3.0878
         Shared: 2.9204
@@ -14459,6 +14687,15 @@ c6gd.16xlarge:
         Dedicated: 2.7351
         Shared: 2.5876
     SUSE:
+      ap-southeast-1:
+        Dedicated: 3.2028
+        Shared: 3.03
+      ap-southeast-2:
+        Dedicated: 3.574
+        Shared: 3.382
+      eu-central-1:
+        Dedicated: 3.1676
+        Shared: 2.998
       eu-west-1:
         Dedicated: 3.1078
         Shared: 2.9404
@@ -14473,6 +14710,9 @@ c6gd.16xlarge:
         Shared: 2.6076
   regions:
     - eu-west-1
+    - ap-southeast-2
+    - eu-central-1
+    - ap-southeast-1
     - us-east-2
     - us-east-1
     - us-west-2
@@ -14489,6 +14729,15 @@ c6gd.2xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.3816
+        Shared: 0.36
+      ap-southeast-2:
+        Dedicated: 0.428
+        Shared: 0.404
+      eu-central-1:
+        Dedicated: 0.3772
+        Shared: 0.356
       eu-west-1:
         Dedicated: 0.3697
         Shared: 0.3488
@@ -14502,6 +14751,15 @@ c6gd.2xlarge:
         Dedicated: 0.3256
         Shared: 0.3072
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.5116
+        Shared: 0.49
+      ap-southeast-2:
+        Dedicated: 0.558
+        Shared: 0.534
+      eu-central-1:
+        Dedicated: 0.5072
+        Shared: 0.486
       eu-west-1:
         Dedicated: 0.4997
         Shared: 0.4788
@@ -14515,6 +14773,15 @@ c6gd.2xlarge:
         Dedicated: 0.4556
         Shared: 0.4372
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.5316
+        Shared: 0.51
+      ap-southeast-2:
+        Dedicated: 0.578
+        Shared: 0.554
+      eu-central-1:
+        Dedicated: 0.5272
+        Shared: 0.506
       eu-west-1:
         Dedicated: 0.5197
         Shared: 0.4988
@@ -14530,8 +14797,11 @@ c6gd.2xlarge:
   regions:
     - us-west-2
     - eu-west-1
+    - eu-central-1
     - us-east-2
     - us-east-1
+    - ap-southeast-1
+    - ap-southeast-2
   storage: 1 x 475 NVMe SSD
   vcpu: 8
 c6gd.4xlarge:
@@ -14545,6 +14815,15 @@ c6gd.4xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.7632
+        Shared: 0.72
+      ap-southeast-2:
+        Dedicated: 0.856
+        Shared: 0.808
+      eu-central-1:
+        Dedicated: 0.7544
+        Shared: 0.712
       eu-west-1:
         Dedicated: 0.7395
         Shared: 0.6976
@@ -14558,6 +14837,15 @@ c6gd.4xlarge:
         Dedicated: 0.6513
         Shared: 0.6144
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.8932
+        Shared: 0.85
+      ap-southeast-2:
+        Dedicated: 0.986
+        Shared: 0.938
+      eu-central-1:
+        Dedicated: 0.8844
+        Shared: 0.842
       eu-west-1:
         Dedicated: 0.8695
         Shared: 0.8276
@@ -14571,6 +14859,15 @@ c6gd.4xlarge:
         Dedicated: 0.7813
         Shared: 0.7444
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.9132
+        Shared: 0.87
+      ap-southeast-2:
+        Dedicated: 1.006
+        Shared: 0.958
+      eu-central-1:
+        Dedicated: 0.9044
+        Shared: 0.862
       eu-west-1:
         Dedicated: 0.8895
         Shared: 0.8476
@@ -14584,7 +14881,10 @@ c6gd.4xlarge:
         Dedicated: 0.8013
         Shared: 0.7644
   regions:
+    - ap-southeast-2
     - eu-west-1
+    - ap-southeast-1
+    - eu-central-1
     - us-east-1
     - us-west-2
     - us-east-2
@@ -14601,6 +14901,15 @@ c6gd.8xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 1.5264
+        Shared: 1.44
+      ap-southeast-2:
+        Dedicated: 1.712
+        Shared: 1.616
+      eu-central-1:
+        Dedicated: 1.5088
+        Shared: 1.424
       eu-west-1:
         Dedicated: 1.4789
         Shared: 1.3952
@@ -14614,6 +14923,15 @@ c6gd.8xlarge:
         Dedicated: 1.3025
         Shared: 1.2288
     RHEL:
+      ap-southeast-1:
+        Dedicated: 1.6564
+        Shared: 1.57
+      ap-southeast-2:
+        Dedicated: 1.842
+        Shared: 1.746
+      eu-central-1:
+        Dedicated: 1.6388
+        Shared: 1.554
       eu-west-1:
         Dedicated: 1.6089
         Shared: 1.5252
@@ -14627,6 +14945,15 @@ c6gd.8xlarge:
         Dedicated: 1.4325
         Shared: 1.3588
     SUSE:
+      ap-southeast-1:
+        Dedicated: 1.6764
+        Shared: 1.59
+      ap-southeast-2:
+        Dedicated: 1.862
+        Shared: 1.766
+      eu-central-1:
+        Dedicated: 1.6588
+        Shared: 1.574
       eu-west-1:
         Dedicated: 1.6289
         Shared: 1.5452
@@ -14640,6 +14967,9 @@ c6gd.8xlarge:
         Dedicated: 1.4525
         Shared: 1.3788
   regions:
+    - eu-central-1
+    - ap-southeast-1
+    - ap-southeast-2
     - us-east-1
     - us-east-2
     - us-west-2
@@ -14657,6 +14987,15 @@ c6gd.large:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.0954
+        Shared: 0.09
+      ap-southeast-2:
+        Dedicated: 0.107
+        Shared: 0.101
+      eu-central-1:
+        Dedicated: 0.0943
+        Shared: 0.089
       eu-west-1:
         Dedicated: 0.0924
         Shared: 0.0872
@@ -14670,6 +15009,15 @@ c6gd.large:
         Dedicated: 0.0814
         Shared: 0.0768
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.1554
+        Shared: 0.15
+      ap-southeast-2:
+        Dedicated: 0.167
+        Shared: 0.161
+      eu-central-1:
+        Dedicated: 0.1543
+        Shared: 0.149
       eu-west-1:
         Dedicated: 0.1524
         Shared: 0.1472
@@ -14683,6 +15031,15 @@ c6gd.large:
         Dedicated: 0.1414
         Shared: 0.1368
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.1584
+        Shared: 0.153
+      ap-southeast-2:
+        Dedicated: 0.17
+        Shared: 0.164
+      eu-central-1:
+        Dedicated: 0.1573
+        Shared: 0.152
       eu-west-1:
         Dedicated: 0.1554
         Shared: 0.1502
@@ -14696,10 +15053,13 @@ c6gd.large:
         Dedicated: 0.1444
         Shared: 0.1398
   regions:
+    - ap-southeast-1
     - us-east-1
     - us-east-2
     - eu-west-1
+    - ap-southeast-2
     - us-west-2
+    - eu-central-1
   storage: 1 x 118 NVMe SSD
   vcpu: 2
 c6gd.medium:
@@ -14713,6 +15073,15 @@ c6gd.medium:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.0477
+        Shared: 0.045
+      ap-southeast-2:
+        Dedicated: 0.0535
+        Shared: 0.0505
+      eu-central-1:
+        Dedicated: 0.0471
+        Shared: 0.0445
       eu-west-1:
         Dedicated: 0.0462
         Shared: 0.0436
@@ -14726,6 +15095,15 @@ c6gd.medium:
         Dedicated: 0.0407
         Shared: 0.0384
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.1077
+        Shared: 0.105
+      ap-southeast-2:
+        Dedicated: 0.1135
+        Shared: 0.1105
+      eu-central-1:
+        Dedicated: 0.1071
+        Shared: 0.1045
       eu-west-1:
         Dedicated: 0.1062
         Shared: 0.1036
@@ -14739,6 +15117,15 @@ c6gd.medium:
         Dedicated: 0.1007
         Shared: 0.0984
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.0787
+        Shared: 0.076
+      ap-southeast-2:
+        Dedicated: 0.0845
+        Shared: 0.0815
+      eu-central-1:
+        Dedicated: 0.0781
+        Shared: 0.0755
       eu-west-1:
         Dedicated: 0.0772
         Shared: 0.0746
@@ -14753,9 +15140,12 @@ c6gd.medium:
         Shared: 0.0694
   regions:
     - us-east-2
+    - ap-southeast-1
     - us-west-2
     - eu-west-1
     - us-east-1
+    - ap-southeast-2
+    - eu-central-1
   storage: 1 x 59 NVMe SSD
   vcpu: 1
 c6gd.metal:
@@ -14769,6 +15159,15 @@ c6gd.metal:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 3.0528
+        Shared: 2.88
+      ap-southeast-2:
+        Dedicated: 3.424
+        Shared: 3.232
+      eu-central-1:
+        Dedicated: 3.0176
+        Shared: 2.848
       eu-west-1:
         Dedicated: 2.9578
         Shared: 2.7904
@@ -14782,6 +15181,15 @@ c6gd.metal:
         Dedicated: 2.6051
         Shared: 2.4576
     RHEL:
+      ap-southeast-1:
+        Dedicated: 3.1828
+        Shared: 3.01
+      ap-southeast-2:
+        Dedicated: 3.554
+        Shared: 3.362
+      eu-central-1:
+        Dedicated: 3.1476
+        Shared: 2.978
       eu-west-1:
         Dedicated: 3.0878
         Shared: 2.9204
@@ -14795,6 +15203,15 @@ c6gd.metal:
         Dedicated: 2.7351
         Shared: 2.5876
     SUSE:
+      ap-southeast-1:
+        Dedicated: 3.2028
+        Shared: 3.03
+      ap-southeast-2:
+        Dedicated: 3.574
+        Shared: 3.382
+      eu-central-1:
+        Dedicated: 3.1676
+        Shared: 2.998
       eu-west-1:
         Dedicated: 3.1078
         Shared: 2.9404
@@ -14808,10 +15225,13 @@ c6gd.metal:
         Dedicated: 2.7551
         Shared: 2.6076
   regions:
+    - ap-southeast-1
     - us-east-2
     - us-west-2
     - us-east-1
+    - eu-central-1
     - eu-west-1
+    - ap-southeast-2
   storage: 2 x 1900 NVMe SSD
   vcpu: 64
 c6gd.xlarge:
@@ -14825,6 +15245,15 @@ c6gd.xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.1908
+        Shared: 0.18
+      ap-southeast-2:
+        Dedicated: 0.214
+        Shared: 0.202
+      eu-central-1:
+        Dedicated: 0.1886
+        Shared: 0.178
       eu-west-1:
         Dedicated: 0.1849
         Shared: 0.1744
@@ -14838,6 +15267,15 @@ c6gd.xlarge:
         Dedicated: 0.1628
         Shared: 0.1536
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.2508
+        Shared: 0.24
+      ap-southeast-2:
+        Dedicated: 0.274
+        Shared: 0.262
+      eu-central-1:
+        Dedicated: 0.2486
+        Shared: 0.238
       eu-west-1:
         Dedicated: 0.2449
         Shared: 0.2344
@@ -14851,6 +15289,15 @@ c6gd.xlarge:
         Dedicated: 0.2228
         Shared: 0.2136
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.3158
+        Shared: 0.305
+      ap-southeast-2:
+        Dedicated: 0.339
+        Shared: 0.327
+      eu-central-1:
+        Dedicated: 0.3136
+        Shared: 0.303
       eu-west-1:
         Dedicated: 0.3099
         Shared: 0.2994
@@ -14865,9 +15312,12 @@ c6gd.xlarge:
         Shared: 0.2786
   regions:
     - eu-west-1
+    - ap-southeast-1
+    - ap-southeast-2
     - us-west-2
     - us-east-1
     - us-east-2
+    - eu-central-1
   storage: 1 x 237 NVMe SSD
   vcpu: 4
 c6gn.12xlarge:
@@ -40322,30 +40772,114 @@ m5dn.metal:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 8.4
+        Shared: 8.4
+      ap-southeast-1:
+        Dedicated: 8.016
+        Shared: 8.016
       AWS GovCloud (US-West):
         Dedicated: 8.208
         Shared: 8.208
+      eu-central-1:
+        Dedicated: 7.776
+        Shared: 7.776
+      eu-west-1:
+        Dedicated: 7.296
+        Shared: 7.296
+      us-east-1:
+        Dedicated: 6.528
+        Shared: 6.528
+      us-east-2:
+        Dedicated: 6.528
+        Shared: 6.528
+      us-west-2:
+        Dedicated: 6.528
+        Shared: 6.528
     RHEL:
+      ap-northeast-1:
+        Dedicated: 8.53
+        Shared: 8.53
+      ap-southeast-1:
+        Dedicated: 8.146
+        Shared: 8.146
       AWS GovCloud (US-West):
         Dedicated: 8.338
         Shared: 8.338
+      eu-central-1:
+        Dedicated: 7.906
+        Shared: 7.906
+      eu-west-1:
+        Dedicated: 7.426
+        Shared: 7.426
+      us-east-1:
+        Dedicated: 6.658
+        Shared: 6.658
+      us-east-2:
+        Dedicated: 6.658
+        Shared: 6.658
+      us-west-2:
+        Dedicated: 6.658
+        Shared: 6.658
     SUSE:
+      ap-northeast-1:
+        Dedicated: 8.55
+        Shared: 8.55
+      ap-southeast-1:
+        Dedicated: 8.166
+        Shared: 8.166
       AWS GovCloud (US-West):
         Dedicated: 8.358
         Shared: 8.358
+      eu-central-1:
+        Dedicated: 7.926
+        Shared: 7.926
+      eu-west-1:
+        Dedicated: 7.446
+        Shared: 7.446
+      us-east-1:
+        Dedicated: 6.678
+        Shared: 6.678
+      us-east-2:
+        Dedicated: 6.678
+        Shared: 6.678
+      us-west-2:
+        Dedicated: 6.678
+        Shared: 6.678
     Windows:
+      ap-northeast-1:
+        Dedicated: 12.816
+        Shared: 12.816
+      ap-southeast-1:
+        Dedicated: 12.432
+        Shared: 12.432
       AWS GovCloud (US-West):
         Dedicated: 12.624
         Shared: 8.208
+      eu-central-1:
+        Dedicated: 12.192
+        Shared: 12.192
+      eu-west-1:
+        Dedicated: 11.712
+        Shared: 11.712
+      us-east-1:
+        Dedicated: 10.944
+        Shared: 10.944
+      us-east-2:
+        Dedicated: 10.944
+        Shared: 10.944
+      us-west-2:
+        Dedicated: 10.944
+        Shared: 10.944
   regions:
+    - ap-northeast-1
     - AWS GovCloud (US-West)
+    - eu-central-1
     - eu-west-1
     - us-east-1
-    - eu-central-1
-    - us-east-2
     - us-west-2
-    - ap-northeast-1
     - ap-southeast-1
+    - us-east-2
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5dn.xlarge:
@@ -41183,30 +41717,114 @@ m5n.metal:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 7.344
+        Shared: 7.344
+      ap-southeast-1:
+        Dedicated: 7.008
+        Shared: 7.008
       AWS GovCloud (US-West):
         Dedicated: 7.152
         Shared: 7.152
+      eu-central-1:
+        Dedicated: 6.768
+        Shared: 6.768
+      eu-west-1:
+        Dedicated: 6.384
+        Shared: 6.384
+      us-east-1:
+        Dedicated: 5.712
+        Shared: 5.712
+      us-east-2:
+        Dedicated: 5.712
+        Shared: 5.712
+      us-west-2:
+        Dedicated: 5.712
+        Shared: 5.712
     RHEL:
+      ap-northeast-1:
+        Dedicated: 7.474
+        Shared: 7.474
+      ap-southeast-1:
+        Dedicated: 7.138
+        Shared: 7.138
       AWS GovCloud (US-West):
         Dedicated: 7.282
         Shared: 7.282
+      eu-central-1:
+        Dedicated: 6.898
+        Shared: 6.898
+      eu-west-1:
+        Dedicated: 6.514
+        Shared: 6.514
+      us-east-1:
+        Dedicated: 5.842
+        Shared: 5.842
+      us-east-2:
+        Dedicated: 5.842
+        Shared: 5.842
+      us-west-2:
+        Dedicated: 5.842
+        Shared: 5.842
     SUSE:
+      ap-northeast-1:
+        Dedicated: 7.494
+        Shared: 7.494
+      ap-southeast-1:
+        Dedicated: 7.158
+        Shared: 7.158
       AWS GovCloud (US-West):
         Dedicated: 7.302
         Shared: 7.302
+      eu-central-1:
+        Dedicated: 6.918
+        Shared: 6.918
+      eu-west-1:
+        Dedicated: 6.534
+        Shared: 6.534
+      us-east-1:
+        Dedicated: 5.862
+        Shared: 5.862
+      us-east-2:
+        Dedicated: 5.862
+        Shared: 5.862
+      us-west-2:
+        Dedicated: 5.862
+        Shared: 5.862
     Windows:
+      ap-northeast-1:
+        Dedicated: 11.76
+        Shared: 11.76
+      ap-southeast-1:
+        Dedicated: 11.424
+        Shared: 11.424
       AWS GovCloud (US-West):
         Dedicated: 11.568
         Shared: 11.568
+      eu-central-1:
+        Dedicated: 11.184
+        Shared: 11.184
+      eu-west-1:
+        Dedicated: 10.8
+        Shared: 10.8
+      us-east-1:
+        Dedicated: 10.128
+        Shared: 10.128
+      us-east-2:
+        Dedicated: 10.128
+        Shared: 10.128
+      us-west-2:
+        Dedicated: 10.128
+        Shared: 10.128
   regions:
     - eu-central-1
-    - us-west-2
-    - AWS GovCloud (US-West)
-    - ap-northeast-1
-    - ap-southeast-1
-    - us-east-1
     - eu-west-1
+    - us-west-2
+    - ap-northeast-1
+    - us-east-1
+    - AWS GovCloud (US-West)
     - us-east-2
+    - ap-southeast-1
   storage: EBS only
   vcpu: 96
 m5n.xlarge:
@@ -42169,9 +42787,15 @@ m6g.12xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 2.6952
+        Shared: 2.544
       ap-northeast-1:
         Dedicated: 2.52
         Shared: 2.376
+      ap-northeast-2:
+        Dedicated: 2.3928
+        Shared: 2.256
       ap-south-1:
         Dedicated: 1.2873
         Shared: 1.2144
@@ -42215,9 +42839,15 @@ m6g.12xlarge:
         Dedicated: 1.9584
         Shared: 1.848
     RHEL:
+      ap-east-1:
+        Dedicated: 2.8252
+        Shared: 2.674
       ap-northeast-1:
         Dedicated: 2.65
         Shared: 2.506
+      ap-northeast-2:
+        Dedicated: 2.5228
+        Shared: 2.386
       ap-south-1:
         Dedicated: 1.4173
         Shared: 1.3444
@@ -42261,9 +42891,15 @@ m6g.12xlarge:
         Dedicated: 2.0884
         Shared: 1.978
     SUSE:
+      ap-east-1:
+        Dedicated: 2.8452
+        Shared: 2.694
       ap-northeast-1:
         Dedicated: 2.67
         Shared: 2.526
+      ap-northeast-2:
+        Dedicated: 2.5428
+        Shared: 2.406
       ap-south-1:
         Dedicated: 1.4373
         Shared: 1.3644
@@ -42316,12 +42952,14 @@ m6g.12xlarge:
     - eu-west-2
     - us-gov-east-1
     - us-east-2
+    - ap-east-1
     - ap-south-1
     - eu-central-1
     - AWS GovCloud (US-West)
     - us-west-2
     - ap-southeast-2
     - ca-central-1
+    - ap-northeast-2
   storage: EBS only
   vcpu: 48
 m6g.16xlarge:
@@ -42334,9 +42972,15 @@ m6g.16xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 3.5936
+        Shared: 3.392
       ap-northeast-1:
         Dedicated: 3.36
         Shared: 3.168
+      ap-northeast-2:
+        Dedicated: 3.1904
+        Shared: 3.008
       ap-south-1:
         Dedicated: 1.7164
         Shared: 1.6192
@@ -42380,9 +43024,15 @@ m6g.16xlarge:
         Dedicated: 2.6112
         Shared: 2.464
     RHEL:
+      ap-east-1:
+        Dedicated: 3.7236
+        Shared: 3.522
       ap-northeast-1:
         Dedicated: 3.49
         Shared: 3.298
+      ap-northeast-2:
+        Dedicated: 3.3204
+        Shared: 3.138
       ap-south-1:
         Dedicated: 1.8464
         Shared: 1.7492
@@ -42426,9 +43076,15 @@ m6g.16xlarge:
         Dedicated: 2.7412
         Shared: 2.594
     SUSE:
+      ap-east-1:
+        Dedicated: 3.7436
+        Shared: 3.542
       ap-northeast-1:
         Dedicated: 3.51
         Shared: 3.318
+      ap-northeast-2:
+        Dedicated: 3.3404
+        Shared: 3.158
       ap-south-1:
         Dedicated: 1.8664
         Shared: 1.7692
@@ -42477,7 +43133,9 @@ m6g.16xlarge:
     - us-gov-east-1
     - us-west-2
     - ap-southeast-1
+    - ap-northeast-2
     - eu-west-1
+    - ap-east-1
     - ap-south-1
     - sa-east-1
     - ca-central-1
@@ -42499,9 +43157,15 @@ m6g.2xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.4492
+        Shared: 0.424
       ap-northeast-1:
         Dedicated: 0.42
         Shared: 0.396
+      ap-northeast-2:
+        Dedicated: 0.3988
+        Shared: 0.376
       ap-south-1:
         Dedicated: 0.2145
         Shared: 0.2024
@@ -42545,9 +43209,15 @@ m6g.2xlarge:
         Dedicated: 0.3264
         Shared: 0.308
     RHEL:
+      ap-east-1:
+        Dedicated: 0.5792
+        Shared: 0.554
       ap-northeast-1:
         Dedicated: 0.55
         Shared: 0.526
+      ap-northeast-2:
+        Dedicated: 0.5288
+        Shared: 0.506
       ap-south-1:
         Dedicated: 0.3445
         Shared: 0.3324
@@ -42591,9 +43261,15 @@ m6g.2xlarge:
         Dedicated: 0.4564
         Shared: 0.438
     SUSE:
+      ap-east-1:
+        Dedicated: 0.5992
+        Shared: 0.574
       ap-northeast-1:
         Dedicated: 0.57
         Shared: 0.546
+      ap-northeast-2:
+        Dedicated: 0.5488
+        Shared: 0.526
       ap-south-1:
         Dedicated: 0.3645
         Shared: 0.3524
@@ -42639,8 +43315,10 @@ m6g.2xlarge:
   regions:
     - eu-west-1
     - ap-southeast-2
+    - ap-northeast-2
     - eu-west-2
     - us-gov-east-1
+    - ap-east-1
     - us-west-2
     - ap-northeast-1
     - ca-central-1
@@ -42664,9 +43342,15 @@ m6g.4xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.8984
+        Shared: 0.848
       ap-northeast-1:
         Dedicated: 0.84
         Shared: 0.792
+      ap-northeast-2:
+        Dedicated: 0.7976
+        Shared: 0.752
       ap-south-1:
         Dedicated: 0.4291
         Shared: 0.4048
@@ -42710,9 +43394,15 @@ m6g.4xlarge:
         Dedicated: 0.6528
         Shared: 0.616
     RHEL:
+      ap-east-1:
+        Dedicated: 1.0284
+        Shared: 0.978
       ap-northeast-1:
         Dedicated: 0.97
         Shared: 0.922
+      ap-northeast-2:
+        Dedicated: 0.9276
+        Shared: 0.882
       ap-south-1:
         Dedicated: 0.5591
         Shared: 0.5348
@@ -42756,9 +43446,15 @@ m6g.4xlarge:
         Dedicated: 0.7828
         Shared: 0.746
     SUSE:
+      ap-east-1:
+        Dedicated: 1.0484
+        Shared: 0.998
       ap-northeast-1:
         Dedicated: 0.99
         Shared: 0.942
+      ap-northeast-2:
+        Dedicated: 0.9476
+        Shared: 0.902
       ap-south-1:
         Dedicated: 0.5791
         Shared: 0.5548
@@ -42810,11 +43506,13 @@ m6g.4xlarge:
     - eu-central-1
     - us-gov-east-1
     - us-west-2
+    - ap-east-1
     - eu-west-1
     - ap-northeast-1
     - us-east-2
     - ap-south-1
     - eu-west-2
+    - ap-northeast-2
     - AWS GovCloud (US-West)
     - us-east-1
   storage: EBS only
@@ -42829,9 +43527,15 @@ m6g.8xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.7968
+        Shared: 1.696
       ap-northeast-1:
         Dedicated: 1.68
         Shared: 1.584
+      ap-northeast-2:
+        Dedicated: 1.5952
+        Shared: 1.504
       ap-south-1:
         Dedicated: 0.8582
         Shared: 0.8096
@@ -42875,9 +43579,15 @@ m6g.8xlarge:
         Dedicated: 1.3056
         Shared: 1.232
     RHEL:
+      ap-east-1:
+        Dedicated: 1.9268
+        Shared: 1.826
       ap-northeast-1:
         Dedicated: 1.81
         Shared: 1.714
+      ap-northeast-2:
+        Dedicated: 1.7252
+        Shared: 1.634
       ap-south-1:
         Dedicated: 0.9882
         Shared: 0.9396
@@ -42921,9 +43631,15 @@ m6g.8xlarge:
         Dedicated: 1.4356
         Shared: 1.362
     SUSE:
+      ap-east-1:
+        Dedicated: 1.9468
+        Shared: 1.846
       ap-northeast-1:
         Dedicated: 1.83
         Shared: 1.734
+      ap-northeast-2:
+        Dedicated: 1.7452
+        Shared: 1.654
       ap-south-1:
         Dedicated: 1.0082
         Shared: 0.9596
@@ -42968,6 +43684,7 @@ m6g.8xlarge:
         Shared: 1.382
   regions:
     - sa-east-1
+    - ap-northeast-2
     - eu-west-1
     - eu-west-2
     - ap-southeast-2
@@ -42976,6 +43693,7 @@ m6g.8xlarge:
     - us-gov-east-1
     - us-east-1
     - us-west-1
+    - ap-east-1
     - ap-southeast-1
     - ap-south-1
     - us-east-2
@@ -42994,9 +43712,15 @@ m6g.large:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.1123
+        Shared: 0.106
       ap-northeast-1:
         Dedicated: 0.105
         Shared: 0.099
+      ap-northeast-2:
+        Dedicated: 0.0997
+        Shared: 0.094
       ap-south-1:
         Dedicated: 0.0536
         Shared: 0.0506
@@ -43040,9 +43764,15 @@ m6g.large:
         Dedicated: 0.0816
         Shared: 0.077
     RHEL:
+      ap-east-1:
+        Dedicated: 0.1723
+        Shared: 0.166
       ap-northeast-1:
         Dedicated: 0.165
         Shared: 0.159
+      ap-northeast-2:
+        Dedicated: 0.1597
+        Shared: 0.154
       ap-south-1:
         Dedicated: 0.1136
         Shared: 0.1106
@@ -43086,9 +43816,15 @@ m6g.large:
         Dedicated: 0.1416
         Shared: 0.137
     SUSE:
+      ap-east-1:
+        Dedicated: 0.1753
+        Shared: 0.169
       ap-northeast-1:
         Dedicated: 0.168
         Shared: 0.162
+      ap-northeast-2:
+        Dedicated: 0.1627
+        Shared: 0.157
       ap-south-1:
         Dedicated: 0.1166
         Shared: 0.1136
@@ -43146,7 +43882,9 @@ m6g.large:
     - ap-southeast-1
     - AWS GovCloud (US-West)
     - eu-central-1
+    - ap-northeast-2
     - sa-east-1
+    - ap-east-1
   storage: EBS only
   vcpu: 2
 m6g.medium:
@@ -43159,9 +43897,15 @@ m6g.medium:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.0561
+        Shared: 0.053
       ap-northeast-1:
         Dedicated: 0.0525
         Shared: 0.0495
+      ap-northeast-2:
+        Dedicated: 0.0499
+        Shared: 0.047
       ap-south-1:
         Dedicated: 0.0268
         Shared: 0.0253
@@ -43205,9 +43949,15 @@ m6g.medium:
         Dedicated: 0.0408
         Shared: 0.0385
     RHEL:
+      ap-east-1:
+        Dedicated: 0.1161
+        Shared: 0.113
       ap-northeast-1:
         Dedicated: 0.1125
         Shared: 0.1095
+      ap-northeast-2:
+        Dedicated: 0.1099
+        Shared: 0.107
       ap-south-1:
         Dedicated: 0.0868
         Shared: 0.0853
@@ -43251,9 +44001,15 @@ m6g.medium:
         Dedicated: 0.1008
         Shared: 0.0985
     SUSE:
+      ap-east-1:
+        Dedicated: 0.0871
+        Shared: 0.084
       ap-northeast-1:
         Dedicated: 0.0835
         Shared: 0.0805
+      ap-northeast-2:
+        Dedicated: 0.0809
+        Shared: 0.078
       ap-south-1:
         Dedicated: 0.0578
         Shared: 0.0563
@@ -43303,7 +44059,9 @@ m6g.medium:
     - eu-west-1
     - us-west-1
     - us-east-1
+    - ap-northeast-2
     - eu-central-1
+    - ap-east-1
     - ap-northeast-1
     - sa-east-1
     - us-west-2
@@ -43324,9 +44082,15 @@ m6g.metal:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 3.5936
+        Shared: 3.392
       ap-northeast-1:
         Dedicated: 3.36
         Shared: 3.168
+      ap-northeast-2:
+        Dedicated: 3.1904
+        Shared: 3.008
       ap-south-1:
         Dedicated: 1.7164
         Shared: 1.6192
@@ -43370,9 +44134,15 @@ m6g.metal:
         Dedicated: 2.6112
         Shared: 2.464
     RHEL:
+      ap-east-1:
+        Dedicated: 3.7236
+        Shared: 3.522
       ap-northeast-1:
         Dedicated: 3.49
         Shared: 3.298
+      ap-northeast-2:
+        Dedicated: 3.3204
+        Shared: 3.138
       ap-south-1:
         Dedicated: 1.8464
         Shared: 1.7492
@@ -43416,9 +44186,15 @@ m6g.metal:
         Dedicated: 2.7412
         Shared: 2.594
     SUSE:
+      ap-east-1:
+        Dedicated: 3.7436
+        Shared: 3.542
       ap-northeast-1:
         Dedicated: 3.51
         Shared: 3.318
+      ap-northeast-2:
+        Dedicated: 3.3404
+        Shared: 3.158
       ap-south-1:
         Dedicated: 1.8664
         Shared: 1.7692
@@ -43462,6 +44238,7 @@ m6g.metal:
         Dedicated: 2.7612
         Shared: 2.614
   regions:
+    - ap-east-1
     - us-east-2
     - eu-central-1
     - us-gov-east-1
@@ -43469,6 +44246,7 @@ m6g.metal:
     - ap-south-1
     - us-west-2
     - us-west-1
+    - ap-northeast-2
     - AWS GovCloud (US-West)
     - us-east-1
     - eu-west-1
@@ -43489,9 +44267,15 @@ m6g.xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.2246
+        Shared: 0.212
       ap-northeast-1:
         Dedicated: 0.21
         Shared: 0.198
+      ap-northeast-2:
+        Dedicated: 0.1994
+        Shared: 0.188
       ap-south-1:
         Dedicated: 0.1073
         Shared: 0.1012
@@ -43535,9 +44319,15 @@ m6g.xlarge:
         Dedicated: 0.1632
         Shared: 0.154
     RHEL:
+      ap-east-1:
+        Dedicated: 0.2846
+        Shared: 0.272
       ap-northeast-1:
         Dedicated: 0.27
         Shared: 0.258
+      ap-northeast-2:
+        Dedicated: 0.2594
+        Shared: 0.248
       ap-south-1:
         Dedicated: 0.1673
         Shared: 0.1612
@@ -43581,9 +44371,15 @@ m6g.xlarge:
         Dedicated: 0.2232
         Shared: 0.214
     SUSE:
+      ap-east-1:
+        Dedicated: 0.3496
+        Shared: 0.337
       ap-northeast-1:
         Dedicated: 0.335
         Shared: 0.323
+      ap-northeast-2:
+        Dedicated: 0.3244
+        Shared: 0.313
       ap-south-1:
         Dedicated: 0.2323
         Shared: 0.2262
@@ -43631,6 +44427,7 @@ m6g.xlarge:
     - sa-east-1
     - us-gov-east-1
     - AWS GovCloud (US-West)
+    - ap-northeast-2
     - ap-south-1
     - us-east-1
     - ap-southeast-1
@@ -43641,6 +44438,7 @@ m6g.xlarge:
     - eu-central-1
     - eu-west-1
     - ap-northeast-1
+    - ap-east-1
     - us-west-2
   storage: EBS only
   vcpu: 4
@@ -43655,6 +44453,15 @@ m6gd.12xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 2.8752
+        Shared: 2.712
+      ap-southeast-2:
+        Dedicated: 2.8992
+        Shared: 2.736
+      eu-central-1:
+        Dedicated: 2.772
+        Shared: 2.616
       eu-west-1:
         Dedicated: 2.5644
         Shared: 2.4192
@@ -43668,6 +44475,15 @@ m6gd.12xlarge:
         Dedicated: 2.2998
         Shared: 2.1696
     RHEL:
+      ap-southeast-1:
+        Dedicated: 3.0052
+        Shared: 2.842
+      ap-southeast-2:
+        Dedicated: 3.0292
+        Shared: 2.866
+      eu-central-1:
+        Dedicated: 2.902
+        Shared: 2.746
       eu-west-1:
         Dedicated: 2.6944
         Shared: 2.5492
@@ -43681,6 +44497,15 @@ m6gd.12xlarge:
         Dedicated: 2.4298
         Shared: 2.2996
     SUSE:
+      ap-southeast-1:
+        Dedicated: 3.0252
+        Shared: 2.862
+      ap-southeast-2:
+        Dedicated: 3.0492
+        Shared: 2.886
+      eu-central-1:
+        Dedicated: 2.922
+        Shared: 2.766
       eu-west-1:
         Dedicated: 2.7144
         Shared: 2.5692
@@ -43694,8 +44519,11 @@ m6gd.12xlarge:
         Dedicated: 2.4498
         Shared: 2.3196
   regions:
+    - ap-southeast-1
     - eu-west-1
     - us-west-2
+    - eu-central-1
+    - ap-southeast-2
     - us-east-2
     - us-east-1
   storage: 2 x 1425 NVMe SSD
@@ -43711,6 +44539,15 @@ m6gd.16xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 3.8336
+        Shared: 3.616
+      ap-southeast-2:
+        Dedicated: 3.8656
+        Shared: 3.648
+      eu-central-1:
+        Dedicated: 3.696
+        Shared: 3.488
       eu-west-1:
         Dedicated: 3.4191
         Shared: 3.2256
@@ -43724,6 +44561,15 @@ m6gd.16xlarge:
         Dedicated: 3.0664
         Shared: 2.8928
     RHEL:
+      ap-southeast-1:
+        Dedicated: 3.9636
+        Shared: 3.746
+      ap-southeast-2:
+        Dedicated: 3.9956
+        Shared: 3.778
+      eu-central-1:
+        Dedicated: 3.826
+        Shared: 3.618
       eu-west-1:
         Dedicated: 3.5491
         Shared: 3.3556
@@ -43737,6 +44583,15 @@ m6gd.16xlarge:
         Dedicated: 3.1964
         Shared: 3.0228
     SUSE:
+      ap-southeast-1:
+        Dedicated: 3.9836
+        Shared: 3.766
+      ap-southeast-2:
+        Dedicated: 4.0156
+        Shared: 3.798
+      eu-central-1:
+        Dedicated: 3.846
+        Shared: 3.638
       eu-west-1:
         Dedicated: 3.5691
         Shared: 3.3756
@@ -43750,9 +44605,12 @@ m6gd.16xlarge:
         Dedicated: 3.2164
         Shared: 3.0428
   regions:
+    - ap-southeast-1
     - us-east-1
+    - ap-southeast-2
     - eu-west-1
     - us-west-2
+    - eu-central-1
     - us-east-2
   storage: 2 x 1900 NVMe SSD
   vcpu: 64
@@ -43767,6 +44625,15 @@ m6gd.2xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.4792
+        Shared: 0.452
+      ap-southeast-2:
+        Dedicated: 0.4832
+        Shared: 0.456
+      eu-central-1:
+        Dedicated: 0.462
+        Shared: 0.436
       eu-west-1:
         Dedicated: 0.4274
         Shared: 0.4032
@@ -43780,6 +44647,15 @@ m6gd.2xlarge:
         Dedicated: 0.3833
         Shared: 0.3616
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.6092
+        Shared: 0.582
+      ap-southeast-2:
+        Dedicated: 0.6132
+        Shared: 0.586
+      eu-central-1:
+        Dedicated: 0.592
+        Shared: 0.566
       eu-west-1:
         Dedicated: 0.5574
         Shared: 0.5332
@@ -43793,6 +44669,15 @@ m6gd.2xlarge:
         Dedicated: 0.5133
         Shared: 0.4916
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.6292
+        Shared: 0.602
+      ap-southeast-2:
+        Dedicated: 0.6332
+        Shared: 0.606
+      eu-central-1:
+        Dedicated: 0.612
+        Shared: 0.586
       eu-west-1:
         Dedicated: 0.5774
         Shared: 0.5532
@@ -43807,9 +44692,12 @@ m6gd.2xlarge:
         Shared: 0.5116
   regions:
     - us-east-1
+    - ap-southeast-2
     - us-east-2
     - us-west-2
     - eu-west-1
+    - eu-central-1
+    - ap-southeast-1
   storage: 1 x 475 NVMe SSD
   vcpu: 8
 m6gd.4xlarge:
@@ -43823,6 +44711,15 @@ m6gd.4xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.9584
+        Shared: 0.904
+      ap-southeast-2:
+        Dedicated: 0.9664
+        Shared: 0.912
+      eu-central-1:
+        Dedicated: 0.924
+        Shared: 0.872
       eu-west-1:
         Dedicated: 0.8548
         Shared: 0.8064
@@ -43836,6 +44733,15 @@ m6gd.4xlarge:
         Dedicated: 0.7666
         Shared: 0.7232
     RHEL:
+      ap-southeast-1:
+        Dedicated: 1.0884
+        Shared: 1.034
+      ap-southeast-2:
+        Dedicated: 1.0964
+        Shared: 1.042
+      eu-central-1:
+        Dedicated: 1.054
+        Shared: 1.002
       eu-west-1:
         Dedicated: 0.9848
         Shared: 0.9364
@@ -43849,6 +44755,15 @@ m6gd.4xlarge:
         Dedicated: 0.8966
         Shared: 0.8532
     SUSE:
+      ap-southeast-1:
+        Dedicated: 1.1084
+        Shared: 1.054
+      ap-southeast-2:
+        Dedicated: 1.1164
+        Shared: 1.062
+      eu-central-1:
+        Dedicated: 1.074
+        Shared: 1.022
       eu-west-1:
         Dedicated: 1.0048
         Shared: 0.9564
@@ -43862,10 +44777,13 @@ m6gd.4xlarge:
         Dedicated: 0.9166
         Shared: 0.8732
   regions:
+    - ap-southeast-2
     - us-east-1
     - us-east-2
     - us-west-2
+    - ap-southeast-1
     - eu-west-1
+    - eu-central-1
   storage: 1 x 950 NVMe SSD
   vcpu: 16
 m6gd.8xlarge:
@@ -43879,6 +44797,15 @@ m6gd.8xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 1.9168
+        Shared: 1.808
+      ap-southeast-2:
+        Dedicated: 1.9328
+        Shared: 1.824
+      eu-central-1:
+        Dedicated: 1.848
+        Shared: 1.744
       eu-west-1:
         Dedicated: 1.7096
         Shared: 1.6128
@@ -43892,6 +44819,15 @@ m6gd.8xlarge:
         Dedicated: 1.5332
         Shared: 1.4464
     RHEL:
+      ap-southeast-1:
+        Dedicated: 2.0468
+        Shared: 1.938
+      ap-southeast-2:
+        Dedicated: 2.0628
+        Shared: 1.954
+      eu-central-1:
+        Dedicated: 1.978
+        Shared: 1.874
       eu-west-1:
         Dedicated: 1.8396
         Shared: 1.7428
@@ -43905,6 +44841,15 @@ m6gd.8xlarge:
         Dedicated: 1.6632
         Shared: 1.5764
     SUSE:
+      ap-southeast-1:
+        Dedicated: 2.0668
+        Shared: 1.958
+      ap-southeast-2:
+        Dedicated: 2.0828
+        Shared: 1.974
+      eu-central-1:
+        Dedicated: 1.998
+        Shared: 1.894
       eu-west-1:
         Dedicated: 1.8596
         Shared: 1.7628
@@ -43918,8 +44863,11 @@ m6gd.8xlarge:
         Dedicated: 1.6832
         Shared: 1.5964
   regions:
+    - eu-central-1
     - us-west-2
     - us-east-2
+    - ap-southeast-2
+    - ap-southeast-1
     - eu-west-1
     - us-east-1
   storage: 1 x 1900 NVMe SSD
@@ -43935,6 +44883,15 @@ m6gd.large:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.1198
+        Shared: 0.113
+      ap-southeast-2:
+        Dedicated: 0.1208
+        Shared: 0.114
+      eu-central-1:
+        Dedicated: 0.1155
+        Shared: 0.109
       eu-west-1:
         Dedicated: 0.1068
         Shared: 0.1008
@@ -43948,6 +44905,15 @@ m6gd.large:
         Dedicated: 0.0958
         Shared: 0.0904
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.1798
+        Shared: 0.173
+      ap-southeast-2:
+        Dedicated: 0.1808
+        Shared: 0.174
+      eu-central-1:
+        Dedicated: 0.1755
+        Shared: 0.169
       eu-west-1:
         Dedicated: 0.1668
         Shared: 0.1608
@@ -43961,6 +44927,15 @@ m6gd.large:
         Dedicated: 0.1558
         Shared: 0.1504
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.1828
+        Shared: 0.176
+      ap-southeast-2:
+        Dedicated: 0.1838
+        Shared: 0.177
+      eu-central-1:
+        Dedicated: 0.1785
+        Shared: 0.172
       eu-west-1:
         Dedicated: 0.1698
         Shared: 0.1638
@@ -43974,9 +44949,12 @@ m6gd.large:
         Dedicated: 0.1588
         Shared: 0.1534
   regions:
+    - ap-southeast-2
     - us-east-2
     - us-east-1
+    - ap-southeast-1
     - us-west-2
+    - eu-central-1
     - eu-west-1
   storage: 1 x 118 NVMe SSD
   vcpu: 2
@@ -43991,6 +44969,15 @@ m6gd.medium:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.0599
+        Shared: 0.0565
+      ap-southeast-2:
+        Dedicated: 0.0604
+        Shared: 0.057
+      eu-central-1:
+        Dedicated: 0.0577
+        Shared: 0.0545
       eu-west-1:
         Dedicated: 0.0534
         Shared: 0.0504
@@ -44004,6 +44991,15 @@ m6gd.medium:
         Dedicated: 0.0479
         Shared: 0.0452
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.1199
+        Shared: 0.1165
+      ap-southeast-2:
+        Dedicated: 0.1204
+        Shared: 0.117
+      eu-central-1:
+        Dedicated: 0.1177
+        Shared: 0.1145
       eu-west-1:
         Dedicated: 0.1134
         Shared: 0.1104
@@ -44017,6 +45013,15 @@ m6gd.medium:
         Dedicated: 0.1079
         Shared: 0.1052
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.0909
+        Shared: 0.0875
+      ap-southeast-2:
+        Dedicated: 0.0914
+        Shared: 0.088
+      eu-central-1:
+        Dedicated: 0.0887
+        Shared: 0.0855
       eu-west-1:
         Dedicated: 0.0844
         Shared: 0.0814
@@ -44030,9 +45035,12 @@ m6gd.medium:
         Dedicated: 0.0789
         Shared: 0.0762
   regions:
+    - eu-central-1
     - eu-west-1
+    - ap-southeast-1
     - us-west-2
     - us-east-2
+    - ap-southeast-2
     - us-east-1
   storage: 1 x 59 NVMe SSD
   vcpu: 1
@@ -44047,6 +45055,15 @@ m6gd.metal:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 3.8336
+        Shared: 3.616
+      ap-southeast-2:
+        Dedicated: 3.8656
+        Shared: 3.648
+      eu-central-1:
+        Dedicated: 3.696
+        Shared: 3.488
       eu-west-1:
         Dedicated: 3.4191
         Shared: 3.2256
@@ -44060,6 +45077,15 @@ m6gd.metal:
         Dedicated: 3.0664
         Shared: 2.8928
     RHEL:
+      ap-southeast-1:
+        Dedicated: 3.9636
+        Shared: 3.746
+      ap-southeast-2:
+        Dedicated: 3.9956
+        Shared: 3.778
+      eu-central-1:
+        Dedicated: 3.826
+        Shared: 3.618
       eu-west-1:
         Dedicated: 3.5491
         Shared: 3.3556
@@ -44073,6 +45099,15 @@ m6gd.metal:
         Dedicated: 3.1964
         Shared: 3.0228
     SUSE:
+      ap-southeast-1:
+        Dedicated: 3.9836
+        Shared: 3.766
+      ap-southeast-2:
+        Dedicated: 4.0156
+        Shared: 3.798
+      eu-central-1:
+        Dedicated: 3.846
+        Shared: 3.638
       eu-west-1:
         Dedicated: 3.5691
         Shared: 3.3756
@@ -44090,6 +45125,9 @@ m6gd.metal:
     - us-west-2
     - eu-west-1
     - us-east-1
+    - ap-southeast-2
+    - eu-central-1
+    - ap-southeast-1
   storage: 2 x 1900 NVMe SSD
   vcpu: 64
 m6gd.xlarge:
@@ -44103,6 +45141,15 @@ m6gd.xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.2396
+        Shared: 0.226
+      ap-southeast-2:
+        Dedicated: 0.2416
+        Shared: 0.228
+      eu-central-1:
+        Dedicated: 0.231
+        Shared: 0.218
       eu-west-1:
         Dedicated: 0.2137
         Shared: 0.2016
@@ -44116,6 +45163,15 @@ m6gd.xlarge:
         Dedicated: 0.1916
         Shared: 0.1808
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.2996
+        Shared: 0.286
+      ap-southeast-2:
+        Dedicated: 0.3016
+        Shared: 0.288
+      eu-central-1:
+        Dedicated: 0.291
+        Shared: 0.278
       eu-west-1:
         Dedicated: 0.2737
         Shared: 0.2616
@@ -44129,6 +45185,15 @@ m6gd.xlarge:
         Dedicated: 0.2516
         Shared: 0.2408
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.3646
+        Shared: 0.351
+      ap-southeast-2:
+        Dedicated: 0.3666
+        Shared: 0.353
+      eu-central-1:
+        Dedicated: 0.356
+        Shared: 0.343
       eu-west-1:
         Dedicated: 0.3387
         Shared: 0.3266
@@ -44142,8 +45207,11 @@ m6gd.xlarge:
         Dedicated: 0.3166
         Shared: 0.3058
   regions:
+    - ap-southeast-1
     - eu-west-1
+    - ap-southeast-2
     - us-east-1
+    - eu-central-1
     - us-east-2
     - us-west-2
   storage: 1 x 237 NVMe SSD
@@ -58994,30 +60062,114 @@ r5dn.metal:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 9.744
+        Shared: 9.744
+      ap-southeast-1:
+        Dedicated: 9.6
+        Shared: 9.6
       AWS GovCloud (US-West):
         Dedicated: 9.648
         Shared: 9.648
+      eu-central-1:
+        Dedicated: 9.552
+        Shared: 9.552
+      eu-west-1:
+        Dedicated: 8.928
+        Shared: 8.928
+      us-east-1:
+        Dedicated: 8.016
+        Shared: 8.016
+      us-east-2:
+        Dedicated: 8.016
+        Shared: 8.016
+      us-west-2:
+        Dedicated: 8.016
+        Shared: 8.016
     RHEL:
+      ap-northeast-1:
+        Dedicated: 9.874
+        Shared: 9.874
+      ap-southeast-1:
+        Dedicated: 9.73
+        Shared: 9.73
       AWS GovCloud (US-West):
         Dedicated: 9.778
         Shared: 9.778
+      eu-central-1:
+        Dedicated: 9.682
+        Shared: 9.682
+      eu-west-1:
+        Dedicated: 9.058
+        Shared: 9.058
+      us-east-1:
+        Dedicated: 8.146
+        Shared: 8.146
+      us-east-2:
+        Dedicated: 8.146
+        Shared: 8.146
+      us-west-2:
+        Dedicated: 8.146
+        Shared: 8.146
     SUSE:
+      ap-northeast-1:
+        Dedicated: 9.894
+        Shared: 9.894
+      ap-southeast-1:
+        Dedicated: 9.75
+        Shared: 9.75
       AWS GovCloud (US-West):
         Dedicated: 9.798
         Shared: 9.798
+      eu-central-1:
+        Dedicated: 9.702
+        Shared: 9.702
+      eu-west-1:
+        Dedicated: 9.078
+        Shared: 9.078
+      us-east-1:
+        Dedicated: 8.166
+        Shared: 8.166
+      us-east-2:
+        Dedicated: 8.166
+        Shared: 8.166
+      us-west-2:
+        Dedicated: 8.166
+        Shared: 8.166
     Windows:
+      ap-northeast-1:
+        Dedicated: 14.16
+        Shared: 14.16
+      ap-southeast-1:
+        Dedicated: 14.016
+        Shared: 14.016
       AWS GovCloud (US-West):
         Dedicated: 14.064
         Shared: 9.648
+      eu-central-1:
+        Dedicated: 13.968
+        Shared: 13.968
+      eu-west-1:
+        Dedicated: 13.344
+        Shared: 13.344
+      us-east-1:
+        Dedicated: 12.432
+        Shared: 12.432
+      us-east-2:
+        Dedicated: 12.432
+        Shared: 12.432
+      us-west-2:
+        Dedicated: 12.432
+        Shared: 12.432
   regions:
-    - AWS GovCloud (US-West)
-    - us-east-2
-    - eu-central-1
-    - ap-southeast-1
     - us-east-1
-    - us-west-2
-    - ap-northeast-1
+    - AWS GovCloud (US-West)
+    - ap-southeast-1
     - eu-west-1
+    - eu-central-1
+    - us-west-2
+    - us-east-2
+    - ap-northeast-1
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5dn.xlarge:
@@ -59855,30 +61007,114 @@ r5n.metal:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 8.688
+        Shared: 8.688
+      ap-southeast-1:
+        Dedicated: 8.544
+        Shared: 8.544
       AWS GovCloud (US-West):
         Dedicated: 8.592
         Shared: 8.592
+      eu-central-1:
+        Dedicated: 8.544
+        Shared: 8.544
+      eu-west-1:
+        Dedicated: 8.016
+        Shared: 8.016
+      us-east-1:
+        Dedicated: 7.152
+        Shared: 7.152
+      us-east-2:
+        Dedicated: 7.152
+        Shared: 7.152
+      us-west-2:
+        Dedicated: 7.152
+        Shared: 7.152
     RHEL:
+      ap-northeast-1:
+        Dedicated: 8.818
+        Shared: 8.818
+      ap-southeast-1:
+        Dedicated: 8.674
+        Shared: 8.674
       AWS GovCloud (US-West):
         Dedicated: 8.722
         Shared: 8.722
+      eu-central-1:
+        Dedicated: 8.674
+        Shared: 8.674
+      eu-west-1:
+        Dedicated: 8.146
+        Shared: 8.146
+      us-east-1:
+        Dedicated: 7.282
+        Shared: 7.282
+      us-east-2:
+        Dedicated: 7.282
+        Shared: 7.282
+      us-west-2:
+        Dedicated: 7.282
+        Shared: 7.282
     SUSE:
+      ap-northeast-1:
+        Dedicated: 8.838
+        Shared: 8.838
+      ap-southeast-1:
+        Dedicated: 8.694
+        Shared: 8.694
       AWS GovCloud (US-West):
         Dedicated: 8.742
         Shared: 8.742
+      eu-central-1:
+        Dedicated: 8.694
+        Shared: 8.694
+      eu-west-1:
+        Dedicated: 8.166
+        Shared: 8.166
+      us-east-1:
+        Dedicated: 7.302
+        Shared: 7.302
+      us-east-2:
+        Dedicated: 7.302
+        Shared: 7.302
+      us-west-2:
+        Dedicated: 7.302
+        Shared: 7.302
     Windows:
+      ap-northeast-1:
+        Dedicated: 13.104
+        Shared: 13.104
+      ap-southeast-1:
+        Dedicated: 12.96
+        Shared: 12.96
       AWS GovCloud (US-West):
         Dedicated: 8.592
         Shared: 8.592
+      eu-central-1:
+        Dedicated: 12.96
+        Shared: 12.96
+      eu-west-1:
+        Dedicated: 12.432
+        Shared: 12.432
+      us-east-1:
+        Dedicated: 11.568
+        Shared: 11.568
+      us-east-2:
+        Dedicated: 11.568
+        Shared: 11.568
+      us-west-2:
+        Dedicated: 11.568
+        Shared: 11.568
   regions:
+    - eu-west-1
     - AWS GovCloud (US-West)
+    - eu-central-1
     - ap-northeast-1
     - us-east-2
-    - eu-central-1
-    - eu-west-1
-    - us-east-1
     - us-west-2
     - ap-southeast-1
+    - us-east-1
   storage: EBS only
   vcpu: 96
 r5n.xlarge:
@@ -59995,9 +61231,15 @@ r6g.12xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 3.408
+        Shared: 3.216
       ap-northeast-1:
         Dedicated: 3.0935
         Shared: 2.9184
+      ap-northeast-2:
+        Dedicated: 3.1032
+        Shared: 2.928
       ap-south-1:
         Dedicated: 1.6536
         Shared: 1.56
@@ -60041,9 +61283,15 @@ r6g.12xlarge:
         Dedicated: 2.5644
         Shared: 2.4192
     RHEL:
+      ap-east-1:
+        Dedicated: 3.538
+        Shared: 3.346
       ap-northeast-1:
         Dedicated: 3.2235
         Shared: 3.0484
+      ap-northeast-2:
+        Dedicated: 3.2332
+        Shared: 3.058
       ap-south-1:
         Dedicated: 1.7836
         Shared: 1.69
@@ -60087,9 +61335,15 @@ r6g.12xlarge:
         Dedicated: 2.6944
         Shared: 2.5492
     SUSE:
+      ap-east-1:
+        Dedicated: 3.558
+        Shared: 3.366
       ap-northeast-1:
         Dedicated: 3.2435
         Shared: 3.0684
+      ap-northeast-2:
+        Dedicated: 3.2532
+        Shared: 3.078
       ap-south-1:
         Dedicated: 1.8036
         Shared: 1.71
@@ -60133,11 +61387,13 @@ r6g.12xlarge:
         Dedicated: 2.7144
         Shared: 2.5692
   regions:
+    - ap-east-1
     - us-west-1
     - ca-central-1
     - sa-east-1
     - ap-southeast-2
     - eu-west-2
+    - ap-northeast-2
     - us-east-2
     - eu-central-1
     - us-west-2
@@ -60161,9 +61417,15 @@ r6g.16xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 4.544
+        Shared: 4.288
       ap-northeast-1:
         Dedicated: 4.1247
         Shared: 3.8912
+      ap-northeast-2:
+        Dedicated: 4.1376
+        Shared: 3.904
       ap-south-1:
         Dedicated: 2.2048
         Shared: 2.08
@@ -60207,9 +61469,15 @@ r6g.16xlarge:
         Dedicated: 3.4191
         Shared: 3.2256
     RHEL:
+      ap-east-1:
+        Dedicated: 4.674
+        Shared: 4.418
       ap-northeast-1:
         Dedicated: 4.2547
         Shared: 4.0212
+      ap-northeast-2:
+        Dedicated: 4.2676
+        Shared: 4.034
       ap-south-1:
         Dedicated: 2.3348
         Shared: 2.21
@@ -60253,9 +61521,15 @@ r6g.16xlarge:
         Dedicated: 3.5491
         Shared: 3.3556
     SUSE:
+      ap-east-1:
+        Dedicated: 4.694
+        Shared: 4.438
       ap-northeast-1:
         Dedicated: 4.2747
         Shared: 4.0412
+      ap-northeast-2:
+        Dedicated: 4.2876
+        Shared: 4.054
       ap-south-1:
         Dedicated: 2.3548
         Shared: 2.23
@@ -60306,6 +61580,8 @@ r6g.16xlarge:
     - AWS GovCloud (US-West)
     - sa-east-1
     - ap-northeast-1
+    - ap-northeast-2
+    - ap-east-1
     - us-east-1
     - us-gov-east-1
     - eu-central-1
@@ -60327,9 +61603,15 @@ r6g.2xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.568
+        Shared: 0.536
       ap-northeast-1:
         Dedicated: 0.5156
         Shared: 0.4864
+      ap-northeast-2:
+        Dedicated: 0.5172
+        Shared: 0.488
       ap-south-1:
         Dedicated: 0.2756
         Shared: 0.26
@@ -60373,9 +61655,15 @@ r6g.2xlarge:
         Dedicated: 0.4274
         Shared: 0.4032
     RHEL:
+      ap-east-1:
+        Dedicated: 0.698
+        Shared: 0.666
       ap-northeast-1:
         Dedicated: 0.6456
         Shared: 0.6164
+      ap-northeast-2:
+        Dedicated: 0.6472
+        Shared: 0.618
       ap-south-1:
         Dedicated: 0.4056
         Shared: 0.39
@@ -60419,9 +61707,15 @@ r6g.2xlarge:
         Dedicated: 0.5574
         Shared: 0.5332
     SUSE:
+      ap-east-1:
+        Dedicated: 0.718
+        Shared: 0.686
       ap-northeast-1:
         Dedicated: 0.6656
         Shared: 0.6364
+      ap-northeast-2:
+        Dedicated: 0.6672
+        Shared: 0.638
       ap-south-1:
         Dedicated: 0.4256
         Shared: 0.41
@@ -60466,6 +61760,7 @@ r6g.2xlarge:
         Shared: 0.5532
   regions:
     - ap-northeast-1
+    - ap-northeast-2
     - us-west-1
     - AWS GovCloud (US-West)
     - eu-central-1
@@ -60479,6 +61774,7 @@ r6g.2xlarge:
     - ap-southeast-1
     - us-east-1
     - ap-south-1
+    - ap-east-1
     - eu-west-2
   storage: EBS only
   vcpu: 8
@@ -60493,9 +61789,15 @@ r6g.4xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 1.136
+        Shared: 1.072
       ap-northeast-1:
         Dedicated: 1.0312
         Shared: 0.9728
+      ap-northeast-2:
+        Dedicated: 1.0344
+        Shared: 0.976
       ap-south-1:
         Dedicated: 0.5512
         Shared: 0.52
@@ -60539,9 +61841,15 @@ r6g.4xlarge:
         Dedicated: 0.8548
         Shared: 0.8064
     RHEL:
+      ap-east-1:
+        Dedicated: 1.266
+        Shared: 1.202
       ap-northeast-1:
         Dedicated: 1.1612
         Shared: 1.1028
+      ap-northeast-2:
+        Dedicated: 1.1644
+        Shared: 1.106
       ap-south-1:
         Dedicated: 0.6812
         Shared: 0.65
@@ -60585,9 +61893,15 @@ r6g.4xlarge:
         Dedicated: 0.9848
         Shared: 0.9364
     SUSE:
+      ap-east-1:
+        Dedicated: 1.286
+        Shared: 1.222
       ap-northeast-1:
         Dedicated: 1.1812
         Shared: 1.1228
+      ap-northeast-2:
+        Dedicated: 1.1844
+        Shared: 1.126
       ap-south-1:
         Dedicated: 0.7012
         Shared: 0.67
@@ -60631,9 +61945,11 @@ r6g.4xlarge:
         Dedicated: 1.0048
         Shared: 0.9564
   regions:
+    - ap-northeast-2
     - AWS GovCloud (US-West)
     - sa-east-1
     - ap-southeast-2
+    - ap-east-1
     - eu-west-1
     - ap-northeast-1
     - us-gov-east-1
@@ -60659,9 +61975,15 @@ r6g.8xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 2.272
+        Shared: 2.144
       ap-northeast-1:
         Dedicated: 2.0623
         Shared: 1.9456
+      ap-northeast-2:
+        Dedicated: 2.0688
+        Shared: 1.952
       ap-south-1:
         Dedicated: 1.1024
         Shared: 1.04
@@ -60705,9 +62027,15 @@ r6g.8xlarge:
         Dedicated: 1.7096
         Shared: 1.6128
     RHEL:
+      ap-east-1:
+        Dedicated: 2.402
+        Shared: 2.274
       ap-northeast-1:
         Dedicated: 2.1923
         Shared: 2.0756
+      ap-northeast-2:
+        Dedicated: 2.1988
+        Shared: 2.082
       ap-south-1:
         Dedicated: 1.2324
         Shared: 1.17
@@ -60751,9 +62079,15 @@ r6g.8xlarge:
         Dedicated: 1.8396
         Shared: 1.7428
     SUSE:
+      ap-east-1:
+        Dedicated: 2.422
+        Shared: 2.294
       ap-northeast-1:
         Dedicated: 2.2123
         Shared: 2.0956
+      ap-northeast-2:
+        Dedicated: 2.2188
+        Shared: 2.102
       ap-south-1:
         Dedicated: 1.2524
         Shared: 1.19
@@ -60803,6 +62137,7 @@ r6g.8xlarge:
     - sa-east-1
     - ca-central-1
     - us-west-2
+    - ap-east-1
     - eu-west-2
     - ap-south-1
     - ap-northeast-1
@@ -60811,6 +62146,7 @@ r6g.8xlarge:
     - ap-southeast-2
     - us-east-1
     - AWS GovCloud (US-West)
+    - ap-northeast-2
     - ap-southeast-1
   storage: EBS only
   vcpu: 32
@@ -60825,9 +62161,15 @@ r6g.large:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.142
+        Shared: 0.134
       ap-northeast-1:
         Dedicated: 0.1289
         Shared: 0.1216
+      ap-northeast-2:
+        Dedicated: 0.1293
+        Shared: 0.122
       ap-south-1:
         Dedicated: 0.0689
         Shared: 0.065
@@ -60871,9 +62213,15 @@ r6g.large:
         Dedicated: 0.1068
         Shared: 0.1008
     RHEL:
+      ap-east-1:
+        Dedicated: 0.202
+        Shared: 0.194
       ap-northeast-1:
         Dedicated: 0.1889
         Shared: 0.1816
+      ap-northeast-2:
+        Dedicated: 0.1893
+        Shared: 0.182
       ap-south-1:
         Dedicated: 0.1289
         Shared: 0.125
@@ -60917,9 +62265,15 @@ r6g.large:
         Dedicated: 0.1668
         Shared: 0.1608
     SUSE:
+      ap-east-1:
+        Dedicated: 0.205
+        Shared: 0.197
       ap-northeast-1:
         Dedicated: 0.1919
         Shared: 0.1846
+      ap-northeast-2:
+        Dedicated: 0.1923
+        Shared: 0.185
       ap-south-1:
         Dedicated: 0.1319
         Shared: 0.128
@@ -60963,6 +62317,7 @@ r6g.large:
         Dedicated: 0.1698
         Shared: 0.1638
   regions:
+    - ap-northeast-2
     - eu-west-1
     - us-east-1
     - ap-southeast-1
@@ -60975,6 +62330,7 @@ r6g.large:
     - AWS GovCloud (US-West)
     - ap-northeast-1
     - eu-west-2
+    - ap-east-1
     - us-east-2
     - us-west-1
     - us-west-2
@@ -60991,9 +62347,15 @@ r6g.medium:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.071
+        Shared: 0.067
       ap-northeast-1:
         Dedicated: 0.0644
         Shared: 0.0608
+      ap-northeast-2:
+        Dedicated: 0.0647
+        Shared: 0.061
       ap-south-1:
         Dedicated: 0.0345
         Shared: 0.0325
@@ -61037,9 +62399,15 @@ r6g.medium:
         Dedicated: 0.0534
         Shared: 0.0504
     RHEL:
+      ap-east-1:
+        Dedicated: 0.131
+        Shared: 0.127
       ap-northeast-1:
         Dedicated: 0.1244
         Shared: 0.1208
+      ap-northeast-2:
+        Dedicated: 0.1247
+        Shared: 0.121
       ap-south-1:
         Dedicated: 0.0945
         Shared: 0.0925
@@ -61083,9 +62451,15 @@ r6g.medium:
         Dedicated: 0.1134
         Shared: 0.1104
     SUSE:
+      ap-east-1:
+        Dedicated: 0.102
+        Shared: 0.098
       ap-northeast-1:
         Dedicated: 0.0954
         Shared: 0.0918
+      ap-northeast-2:
+        Dedicated: 0.0957
+        Shared: 0.092
       ap-south-1:
         Dedicated: 0.0655
         Shared: 0.0635
@@ -61134,10 +62508,12 @@ r6g.medium:
     - ap-southeast-2
     - sa-east-1
     - eu-central-1
+    - ap-northeast-2
     - us-west-1
     - us-gov-east-1
     - ap-northeast-1
     - ca-central-1
+    - ap-east-1
     - eu-west-2
     - us-east-2
     - eu-west-1
@@ -61157,9 +62533,15 @@ r6g.metal:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 4.544
+        Shared: 4.288
       ap-northeast-1:
         Dedicated: 4.1247
         Shared: 3.8912
+      ap-northeast-2:
+        Dedicated: 4.1376
+        Shared: 3.904
       ap-south-1:
         Dedicated: 2.2048
         Shared: 2.08
@@ -61203,9 +62585,15 @@ r6g.metal:
         Dedicated: 3.4191
         Shared: 3.2256
     RHEL:
+      ap-east-1:
+        Dedicated: 4.674
+        Shared: 4.418
       ap-northeast-1:
         Dedicated: 4.2547
         Shared: 4.0212
+      ap-northeast-2:
+        Dedicated: 4.2676
+        Shared: 4.034
       ap-south-1:
         Dedicated: 2.3348
         Shared: 2.21
@@ -61249,9 +62637,15 @@ r6g.metal:
         Dedicated: 3.5491
         Shared: 3.3556
     SUSE:
+      ap-east-1:
+        Dedicated: 4.694
+        Shared: 4.438
       ap-northeast-1:
         Dedicated: 4.2747
         Shared: 4.0412
+      ap-northeast-2:
+        Dedicated: 4.2876
+        Shared: 4.054
       ap-south-1:
         Dedicated: 2.3548
         Shared: 2.23
@@ -61297,6 +62691,7 @@ r6g.metal:
   regions:
     - sa-east-1
     - eu-central-1
+    - ap-northeast-2
     - eu-west-2
     - ca-central-1
     - us-west-1
@@ -61306,6 +62701,7 @@ r6g.metal:
     - ap-southeast-1
     - us-east-1
     - AWS GovCloud (US-West)
+    - ap-east-1
     - us-east-2
     - us-gov-east-1
     - eu-west-1
@@ -61323,9 +62719,15 @@ r6g.xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Dedicated: 0.284
+        Shared: 0.268
       ap-northeast-1:
         Dedicated: 0.2578
         Shared: 0.2432
+      ap-northeast-2:
+        Dedicated: 0.2586
+        Shared: 0.244
       ap-south-1:
         Dedicated: 0.1378
         Shared: 0.13
@@ -61369,9 +62771,15 @@ r6g.xlarge:
         Dedicated: 0.2137
         Shared: 0.2016
     RHEL:
+      ap-east-1:
+        Dedicated: 0.344
+        Shared: 0.328
       ap-northeast-1:
         Dedicated: 0.3178
         Shared: 0.3032
+      ap-northeast-2:
+        Dedicated: 0.3186
+        Shared: 0.304
       ap-south-1:
         Dedicated: 0.1978
         Shared: 0.19
@@ -61415,9 +62823,15 @@ r6g.xlarge:
         Dedicated: 0.2737
         Shared: 0.2616
     SUSE:
+      ap-east-1:
+        Dedicated: 0.409
+        Shared: 0.393
       ap-northeast-1:
         Dedicated: 0.3828
         Shared: 0.3682
+      ap-northeast-2:
+        Dedicated: 0.3836
+        Shared: 0.369
       ap-south-1:
         Dedicated: 0.2628
         Shared: 0.255
@@ -61463,9 +62877,11 @@ r6g.xlarge:
   regions:
     - sa-east-1
     - AWS GovCloud (US-West)
+    - ap-northeast-2
     - ap-northeast-1
     - ca-central-1
     - us-west-1
+    - ap-east-1
     - ap-southeast-1
     - eu-west-2
     - us-gov-east-1
@@ -61489,6 +62905,15 @@ r6gd.12xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 3.5376
+        Shared: 3.336
+      ap-southeast-2:
+        Dedicated: 3.5376
+        Shared: 3.336
+      eu-central-1:
+        Dedicated: 3.5112
+        Shared: 3.312
       eu-west-1:
         Dedicated: 3.2563
         Shared: 3.072
@@ -61502,6 +62927,15 @@ r6gd.12xlarge:
         Dedicated: 2.9307
         Shared: 2.7648
     RHEL:
+      ap-southeast-1:
+        Dedicated: 3.6676
+        Shared: 3.466
+      ap-southeast-2:
+        Dedicated: 3.6676
+        Shared: 3.466
+      eu-central-1:
+        Dedicated: 3.6412
+        Shared: 3.442
       eu-west-1:
         Dedicated: 3.3863
         Shared: 3.202
@@ -61515,6 +62949,15 @@ r6gd.12xlarge:
         Dedicated: 3.0607
         Shared: 2.8948
     SUSE:
+      ap-southeast-1:
+        Dedicated: 3.6876
+        Shared: 3.486
+      ap-southeast-2:
+        Dedicated: 3.6876
+        Shared: 3.486
+      eu-central-1:
+        Dedicated: 3.6612
+        Shared: 3.462
       eu-west-1:
         Dedicated: 3.4063
         Shared: 3.222
@@ -61531,7 +62974,10 @@ r6gd.12xlarge:
     - us-east-1
     - us-west-2
     - eu-west-1
+    - eu-central-1
+    - ap-southeast-1
     - us-east-2
+    - ap-southeast-2
   storage: 2 x 1425 NVMe SSD
   vcpu: 48
 r6gd.16xlarge:
@@ -61545,6 +62991,15 @@ r6gd.16xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 4.7168
+        Shared: 4.448
+      ap-southeast-2:
+        Dedicated: 4.7168
+        Shared: 4.448
+      eu-central-1:
+        Dedicated: 4.6816
+        Shared: 4.416
       eu-west-1:
         Dedicated: 4.3418
         Shared: 4.096
@@ -61558,6 +63013,15 @@ r6gd.16xlarge:
         Dedicated: 3.9076
         Shared: 3.6864
     RHEL:
+      ap-southeast-1:
+        Dedicated: 4.8468
+        Shared: 4.578
+      ap-southeast-2:
+        Dedicated: 4.8468
+        Shared: 4.578
+      eu-central-1:
+        Dedicated: 4.8116
+        Shared: 4.546
       eu-west-1:
         Dedicated: 4.4718
         Shared: 4.226
@@ -61571,6 +63035,15 @@ r6gd.16xlarge:
         Dedicated: 4.0376
         Shared: 3.8164
     SUSE:
+      ap-southeast-1:
+        Dedicated: 4.8668
+        Shared: 4.598
+      ap-southeast-2:
+        Dedicated: 4.8668
+        Shared: 4.598
+      eu-central-1:
+        Dedicated: 4.8316
+        Shared: 4.566
       eu-west-1:
         Dedicated: 4.4918
         Shared: 4.246
@@ -61584,10 +63057,13 @@ r6gd.16xlarge:
         Dedicated: 4.0576
         Shared: 3.8364
   regions:
+    - ap-southeast-1
+    - eu-central-1
     - us-west-2
     - eu-west-1
     - us-east-2
     - us-east-1
+    - ap-southeast-2
   storage: 2 x 1900 NVMe SSD
   vcpu: 64
 r6gd.2xlarge:
@@ -61601,6 +63077,15 @@ r6gd.2xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.5896
+        Shared: 0.556
+      ap-southeast-2:
+        Dedicated: 0.5896
+        Shared: 0.556
+      eu-central-1:
+        Dedicated: 0.5852
+        Shared: 0.552
       eu-west-1:
         Dedicated: 0.5427
         Shared: 0.512
@@ -61614,6 +63099,15 @@ r6gd.2xlarge:
         Dedicated: 0.4884
         Shared: 0.4608
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.7196
+        Shared: 0.686
+      ap-southeast-2:
+        Dedicated: 0.7196
+        Shared: 0.686
+      eu-central-1:
+        Dedicated: 0.7152
+        Shared: 0.682
       eu-west-1:
         Dedicated: 0.6727
         Shared: 0.642
@@ -61627,6 +63121,15 @@ r6gd.2xlarge:
         Dedicated: 0.6184
         Shared: 0.5908
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.7396
+        Shared: 0.706
+      ap-southeast-2:
+        Dedicated: 0.7396
+        Shared: 0.706
+      eu-central-1:
+        Dedicated: 0.7352
+        Shared: 0.702
       eu-west-1:
         Dedicated: 0.6927
         Shared: 0.662
@@ -61642,8 +63145,11 @@ r6gd.2xlarge:
   regions:
     - us-east-1
     - us-west-2
+    - ap-southeast-1
     - us-east-2
+    - eu-central-1
     - eu-west-1
+    - ap-southeast-2
   storage: 1 x 475 NVMe SSD
   vcpu: 8
 r6gd.4xlarge:
@@ -61657,6 +63163,15 @@ r6gd.4xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 1.1792
+        Shared: 1.112
+      ap-southeast-2:
+        Dedicated: 1.1792
+        Shared: 1.112
+      eu-central-1:
+        Dedicated: 1.1704
+        Shared: 1.104
       eu-west-1:
         Dedicated: 1.0854
         Shared: 1.024
@@ -61670,6 +63185,15 @@ r6gd.4xlarge:
         Dedicated: 0.9769
         Shared: 0.9216
     RHEL:
+      ap-southeast-1:
+        Dedicated: 1.3092
+        Shared: 1.242
+      ap-southeast-2:
+        Dedicated: 1.3092
+        Shared: 1.242
+      eu-central-1:
+        Dedicated: 1.3004
+        Shared: 1.234
       eu-west-1:
         Dedicated: 1.2154
         Shared: 1.154
@@ -61683,6 +63207,15 @@ r6gd.4xlarge:
         Dedicated: 1.1069
         Shared: 1.0516
     SUSE:
+      ap-southeast-1:
+        Dedicated: 1.3292
+        Shared: 1.262
+      ap-southeast-2:
+        Dedicated: 1.3292
+        Shared: 1.262
+      eu-central-1:
+        Dedicated: 1.3204
+        Shared: 1.254
       eu-west-1:
         Dedicated: 1.2354
         Shared: 1.174
@@ -61697,9 +63230,12 @@ r6gd.4xlarge:
         Shared: 1.0716
   regions:
     - us-west-2
+    - eu-central-1
     - us-east-1
     - eu-west-1
     - us-east-2
+    - ap-southeast-1
+    - ap-southeast-2
   storage: 1 x 950 NVMe SSD
   vcpu: 16
 r6gd.8xlarge:
@@ -61713,6 +63249,15 @@ r6gd.8xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 2.3584
+        Shared: 2.224
+      ap-southeast-2:
+        Dedicated: 2.3584
+        Shared: 2.224
+      eu-central-1:
+        Dedicated: 2.3408
+        Shared: 2.208
       eu-west-1:
         Dedicated: 2.1709
         Shared: 2.048
@@ -61726,6 +63271,15 @@ r6gd.8xlarge:
         Dedicated: 1.9538
         Shared: 1.8432
     RHEL:
+      ap-southeast-1:
+        Dedicated: 2.4884
+        Shared: 2.354
+      ap-southeast-2:
+        Dedicated: 2.4884
+        Shared: 2.354
+      eu-central-1:
+        Dedicated: 2.4708
+        Shared: 2.338
       eu-west-1:
         Dedicated: 2.3009
         Shared: 2.178
@@ -61739,6 +63293,15 @@ r6gd.8xlarge:
         Dedicated: 2.0838
         Shared: 1.9732
     SUSE:
+      ap-southeast-1:
+        Dedicated: 2.5084
+        Shared: 2.374
+      ap-southeast-2:
+        Dedicated: 2.5084
+        Shared: 2.374
+      eu-central-1:
+        Dedicated: 2.4908
+        Shared: 2.358
       eu-west-1:
         Dedicated: 2.3209
         Shared: 2.198
@@ -61752,8 +63315,11 @@ r6gd.8xlarge:
         Dedicated: 2.1038
         Shared: 1.9932
   regions:
+    - ap-southeast-2
+    - eu-central-1
     - us-west-2
     - us-east-2
+    - ap-southeast-1
     - eu-west-1
     - us-east-1
   storage: 1 x 1900 NVMe SSD
@@ -61769,6 +63335,15 @@ r6gd.large:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.1474
+        Shared: 0.139
+      ap-southeast-2:
+        Dedicated: 0.1474
+        Shared: 0.139
+      eu-central-1:
+        Dedicated: 0.1463
+        Shared: 0.138
       eu-west-1:
         Dedicated: 0.1357
         Shared: 0.128
@@ -61782,6 +63357,15 @@ r6gd.large:
         Dedicated: 0.1221
         Shared: 0.1152
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.2074
+        Shared: 0.199
+      ap-southeast-2:
+        Dedicated: 0.2074
+        Shared: 0.199
+      eu-central-1:
+        Dedicated: 0.2063
+        Shared: 0.198
       eu-west-1:
         Dedicated: 0.1957
         Shared: 0.188
@@ -61795,6 +63379,15 @@ r6gd.large:
         Dedicated: 0.1821
         Shared: 0.1752
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.2104
+        Shared: 0.202
+      ap-southeast-2:
+        Dedicated: 0.2104
+        Shared: 0.202
+      eu-central-1:
+        Dedicated: 0.2093
+        Shared: 0.201
       eu-west-1:
         Dedicated: 0.1987
         Shared: 0.191
@@ -61808,7 +63401,10 @@ r6gd.large:
         Dedicated: 0.1851
         Shared: 0.1782
   regions:
+    - ap-southeast-1
+    - ap-southeast-2
     - us-west-2
+    - eu-central-1
     - us-east-1
     - eu-west-1
     - us-east-2
@@ -61825,6 +63421,15 @@ r6gd.medium:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.0737
+        Shared: 0.0695
+      ap-southeast-2:
+        Dedicated: 0.0737
+        Shared: 0.0695
+      eu-central-1:
+        Dedicated: 0.0731
+        Shared: 0.069
       eu-west-1:
         Dedicated: 0.0678
         Shared: 0.064
@@ -61838,6 +63443,15 @@ r6gd.medium:
         Dedicated: 0.0611
         Shared: 0.0576
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.1337
+        Shared: 0.1295
+      ap-southeast-2:
+        Dedicated: 0.1337
+        Shared: 0.1295
+      eu-central-1:
+        Dedicated: 0.1331
+        Shared: 0.129
       eu-west-1:
         Dedicated: 0.1278
         Shared: 0.124
@@ -61851,6 +63465,15 @@ r6gd.medium:
         Dedicated: 0.1211
         Shared: 0.1176
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.1047
+        Shared: 0.1005
+      ap-southeast-2:
+        Dedicated: 0.1047
+        Shared: 0.1005
+      eu-central-1:
+        Dedicated: 0.1041
+        Shared: 0.1
       eu-west-1:
         Dedicated: 0.0988
         Shared: 0.095
@@ -61866,6 +63489,9 @@ r6gd.medium:
   regions:
     - eu-west-1
     - us-west-2
+    - eu-central-1
+    - ap-southeast-1
+    - ap-southeast-2
     - us-east-2
     - us-east-1
   storage: 1 x 59 NVMe SSD
@@ -61881,6 +63507,15 @@ r6gd.metal:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 4.7168
+        Shared: 4.448
+      ap-southeast-2:
+        Dedicated: 4.7168
+        Shared: 4.448
+      eu-central-1:
+        Dedicated: 4.6816
+        Shared: 4.416
       eu-west-1:
         Dedicated: 4.3418
         Shared: 4.096
@@ -61894,6 +63529,15 @@ r6gd.metal:
         Dedicated: 3.9076
         Shared: 3.6864
     RHEL:
+      ap-southeast-1:
+        Dedicated: 4.8468
+        Shared: 4.578
+      ap-southeast-2:
+        Dedicated: 4.8468
+        Shared: 4.578
+      eu-central-1:
+        Dedicated: 4.8116
+        Shared: 4.546
       eu-west-1:
         Dedicated: 4.4718
         Shared: 4.226
@@ -61907,6 +63551,15 @@ r6gd.metal:
         Dedicated: 4.0376
         Shared: 3.8164
     SUSE:
+      ap-southeast-1:
+        Dedicated: 4.8668
+        Shared: 4.598
+      ap-southeast-2:
+        Dedicated: 4.8668
+        Shared: 4.598
+      eu-central-1:
+        Dedicated: 4.8316
+        Shared: 4.566
       eu-west-1:
         Dedicated: 4.4918
         Shared: 4.246
@@ -61920,9 +63573,12 @@ r6gd.metal:
         Dedicated: 4.0576
         Shared: 3.8364
   regions:
+    - ap-southeast-2
     - us-west-2
+    - eu-central-1
     - eu-west-1
     - us-east-2
+    - ap-southeast-1
     - us-east-1
   storage: 2 x 1900 NVMe SSD
   vcpu: 64
@@ -61937,6 +63593,15 @@ r6gd.xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-southeast-1:
+        Dedicated: 0.2948
+        Shared: 0.278
+      ap-southeast-2:
+        Dedicated: 0.2948
+        Shared: 0.278
+      eu-central-1:
+        Dedicated: 0.2926
+        Shared: 0.276
       eu-west-1:
         Dedicated: 0.2714
         Shared: 0.256
@@ -61950,6 +63615,15 @@ r6gd.xlarge:
         Dedicated: 0.2442
         Shared: 0.2304
     RHEL:
+      ap-southeast-1:
+        Dedicated: 0.3548
+        Shared: 0.338
+      ap-southeast-2:
+        Dedicated: 0.3548
+        Shared: 0.338
+      eu-central-1:
+        Dedicated: 0.3526
+        Shared: 0.336
       eu-west-1:
         Dedicated: 0.3314
         Shared: 0.316
@@ -61963,6 +63637,15 @@ r6gd.xlarge:
         Dedicated: 0.3042
         Shared: 0.2904
     SUSE:
+      ap-southeast-1:
+        Dedicated: 0.4198
+        Shared: 0.403
+      ap-southeast-2:
+        Dedicated: 0.4198
+        Shared: 0.403
+      eu-central-1:
+        Dedicated: 0.4176
+        Shared: 0.401
       eu-west-1:
         Dedicated: 0.3964
         Shared: 0.381
@@ -61977,9 +63660,12 @@ r6gd.xlarge:
         Shared: 0.3554
   regions:
     - us-east-1
+    - ap-southeast-1
     - eu-west-1
     - us-west-2
+    - eu-central-1
     - us-east-2
+    - ap-southeast-2
   storage: 1 x 237 NVMe SSD
   vcpu: 4
 t1.micro:
