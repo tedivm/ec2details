@@ -63894,7 +63894,6 @@ t2.2xlarge:
       ap-southeast-2:
         Shared: 0.4672
       AWS GovCloud (US-West):
-        Dedicated: 0.4352
         Shared: 0.4352
       ca-central-1:
         Shared: 0.4096
@@ -64065,7 +64064,6 @@ t2.large:
       ap-southeast-2:
         Shared: 0.1448
       AWS GovCloud (US-West):
-        Dedicated: 0.1088
         Shared: 0.1368
       ca-central-1:
         Shared: 0.1304
@@ -64236,7 +64234,6 @@ t2.medium:
       ap-southeast-2:
         Shared: 0.0584
       AWS GovCloud (US-West):
-        Dedicated: 0.0544
         Shared: 0.0724
       ca-central-1:
         Shared: 0.0692
@@ -64407,7 +64404,6 @@ t2.micro:
       ap-southeast-2:
         Shared: 0.0146
       AWS GovCloud (US-West):
-        Dedicated: 0.0136
         Shared: 0.0182
       ca-central-1:
         Shared: 0.0128
@@ -64543,7 +64539,6 @@ t2.nano:
       ap-southeast-2:
         Shared: 0.0096
       AWS GovCloud (US-West):
-        Dedicated: 0.0068
         Shared: 0.0091
       ca-central-1:
         Shared: 0.0087
@@ -64577,8 +64572,8 @@ t2.nano:
     - ap-southeast-1
     - ap-south-1
     - us-east-2
-    - AWS GovCloud (US-West)
     - eu-central-1
+    - AWS GovCloud (US-West)
     - ca-central-1
     - us-east-1
     - us-west-2
@@ -64714,7 +64709,6 @@ t2.small:
       ap-southeast-2:
         Shared: 0.0384
       AWS GovCloud (US-West):
-        Dedicated: 0.0272
         Shared: 0.0364
       ca-central-1:
         Shared: 0.0256
@@ -64885,7 +64879,6 @@ t2.xlarge:
       ap-southeast-2:
         Shared: 0.2746
       AWS GovCloud (US-West):
-        Dedicated: 0.2176
         Shared: 0.2586
       ca-central-1:
         Shared: 0.2458
@@ -64920,10 +64913,10 @@ t2.xlarge:
     - us-west-1
     - ap-northeast-2
     - eu-west-3
-    - AWS GovCloud (US-West)
     - eu-west-1
     - ap-southeast-1
     - us-west-2
+    - AWS GovCloud (US-West)
     - us-east-2
   storage: EBS only
   vcpu: 4
