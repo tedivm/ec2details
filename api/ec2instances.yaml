@@ -22382,6 +22382,56 @@ i2.8xlarge:
     - sa-east-1
   storage: 8 x 800 SSD
   vcpu: 32
+i2.large:
+  clockSpeed: 2.5 GHz
+  currentGeneration: false
+  ecu: 7
+  enhancedNetworkingSupported: true
+  memory: 15 GiB
+  networkPerformance: Moderate
+  normalizationSizeFactor: 4
+  physicalProcessor: Intel Xeon E5-2670 v2 (Ivy Bridge)
+  prices:
+    Linux:
+      ap-northeast-1:
+        Shared: 0.55
+      ap-northeast-2:
+        Shared: 0.468
+      ap-south-1:
+        Shared: 0.468
+      ap-southeast-1:
+        Shared: 0.559
+      ap-southeast-2:
+        Shared: 0.559
+      eu-central-1:
+        Shared: 0.468
+      eu-west-1:
+        Shared: 0.515
+      eu-west-2:
+        Shared: 0.468
+      us-east-1:
+        Shared: 0.468
+      us-east-2:
+        Shared: 0.468
+      us-west-1:
+        Shared: 0.515
+      us-west-2:
+        Shared: 0.468
+  regions:
+    - ap-southeast-2
+    - us-east-1
+    - ap-northeast-1
+    - us-east-2
+    - ap-south-1
+    - eu-west-2
+    - us-west-1
+    - ap-southeast-1
+    - eu-west-1
+    - eu-central-1
+    - us-west-2
+    - ap-northeast-2
+  storage: 1 x 800 SSD
+  vcpu: 2
 i2.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: false
