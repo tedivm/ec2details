@@ -21206,6 +21206,9 @@ g4dn.metal:
       us-west-2:
         Dedicated: 7.824
         Shared: 7.824
+      us-west-2-lax-1a:
+        Dedicated: 9.389
+        Shared: 9.389
     RHEL:
       af-south-1:
         Dedicated: 10.511
@@ -21270,6 +21273,9 @@ g4dn.metal:
       us-west-2:
         Dedicated: 7.954
         Shared: 7.954
+      us-west-2-lax-1a:
+        Dedicated: 9.519
+        Shared: 9.519
     SUSE:
       af-south-1:
         Dedicated: 10.531
@@ -21334,6 +21340,9 @@ g4dn.metal:
       us-west-2:
         Dedicated: 7.974
         Shared: 7.974
+      us-west-2-lax-1a:
+        Dedicated: 9.539
+        Shared: 9.539
     Windows:
       af-south-1:
         Dedicated: 14.797
@@ -21398,7 +21407,11 @@ g4dn.metal:
       us-west-2:
         Dedicated: 12.24
         Shared: 12.24
+      us-west-2-lax-1a:
+        Dedicated: 13.805
+        Shared: 13.805
   regions:
+    - us-west-2-lax-1a
     - ap-northeast-1
     - ap-northeast-2
     - us-west-1
@@ -21418,7 +21431,6 @@ g4dn.metal:
     - ap-east-1
     - ap-southeast-2
     - eu-west-1
-    - us-west-2-lax-1a
     - me-south-1
     - ap-southeast-1
   storage: 2 x 900 GB NVMe SSD
@@ -61111,9 +61123,27 @@ r5n.12xlarge:
       ap-northeast-1:
         Dedicated: 4.76
         Shared: 4.494
+      ap-southeast-1:
+        Dedicated: 4.678
+        Shared: 4.422
       AWS GovCloud (US-West):
         Dedicated: 4.704
         Shared: 4.446
+      eu-central-1:
+        Dedicated: 4.678
+        Shared: 4.422
+      eu-west-1:
+        Dedicated: 4.398
+        Shared: 4.158
+      us-east-1:
+        Dedicated: 3.941
+        Shared: 3.726
+      us-east-2:
+        Dedicated: 3.941
+        Shared: 3.726
+      us-west-2:
+        Dedicated: 3.941
+        Shared: 3.726
     Windows:
       ap-northeast-1:
         Dedicated: 6.818
@@ -61214,9 +61244,27 @@ r5n.16xlarge:
       ap-northeast-1:
         Dedicated: 6.297
         Shared: 5.942
+      ap-southeast-1:
+        Dedicated: 6.188
+        Shared: 5.846
       AWS GovCloud (US-West):
         Dedicated: 6.222
         Shared: 5.878
+      eu-central-1:
+        Dedicated: 6.188
+        Shared: 5.846
+      eu-west-1:
+        Dedicated: 5.815
+        Shared: 5.494
+      us-east-1:
+        Dedicated: 5.204
+        Shared: 4.918
+      us-east-2:
+        Dedicated: 5.204
+        Shared: 4.918
+      us-west-2:
+        Dedicated: 5.204
+        Shared: 4.918
     Windows:
       ap-northeast-1:
         Dedicated: 9.091
@@ -61317,9 +61365,27 @@ r5n.24xlarge:
       ap-northeast-1:
         Dedicated: 8.838
         Shared: 8.838
+      ap-southeast-1:
+        Dedicated: 8.694
+        Shared: 8.694
       AWS GovCloud (US-West):
         Dedicated: 8.742
         Shared: 8.742
+      eu-central-1:
+        Dedicated: 8.694
+        Shared: 8.694
+      eu-west-1:
+        Dedicated: 8.166
+        Shared: 8.166
+      us-east-1:
+        Dedicated: 7.302
+        Shared: 7.302
+      us-east-2:
+        Dedicated: 7.302
+        Shared: 7.302
+      us-west-2:
+        Dedicated: 7.302
+        Shared: 7.302
     Windows:
       ap-northeast-1:
         Dedicated: 13.104
@@ -61349,9 +61415,9 @@ r5n.24xlarge:
     - eu-west-1
     - ap-northeast-1
     - us-east-2
+    - eu-central-1
     - us-east-1
     - ap-southeast-1
-    - eu-central-1
     - AWS GovCloud (US-West)
     - us-west-2
   storage: EBS only
@@ -61420,9 +61486,27 @@ r5n.2xlarge:
       ap-northeast-1:
         Dedicated: 0.918
         Shared: 0.874
+      ap-southeast-1:
+        Dedicated: 0.905
+        Shared: 0.862
       AWS GovCloud (US-West):
         Dedicated: 0.909
         Shared: 0.866
+      eu-central-1:
+        Dedicated: 0.905
+        Shared: 0.862
+      eu-west-1:
+        Dedicated: 0.858
+        Shared: 0.818
+      us-east-1:
+        Dedicated: 0.782
+        Shared: 0.746
+      us-east-2:
+        Dedicated: 0.782
+        Shared: 0.746
+      us-west-2:
+        Dedicated: 0.782
+        Shared: 0.746
     Windows:
       ap-northeast-1:
         Dedicated: 1.136
@@ -61523,9 +61607,27 @@ r5n.4xlarge:
       ap-northeast-1:
         Dedicated: 1.687
         Shared: 1.598
+      ap-southeast-1:
+        Dedicated: 1.659
+        Shared: 1.574
       AWS GovCloud (US-West):
         Dedicated: 1.668
         Shared: 1.582
+      eu-central-1:
+        Dedicated: 1.659
+        Shared: 1.574
+      eu-west-1:
+        Dedicated: 1.566
+        Shared: 1.486
+      us-east-1:
+        Dedicated: 1.414
+        Shared: 1.342
+      us-east-2:
+        Dedicated: 1.414
+        Shared: 1.342
+      us-west-2:
+        Dedicated: 1.414
+        Shared: 1.342
     Windows:
       ap-northeast-1:
         Dedicated: 2.273
@@ -61626,9 +61728,27 @@ r5n.8xlarge:
       ap-northeast-1:
         Dedicated: 3.224
         Shared: 3.046
+      ap-southeast-1:
+        Dedicated: 3.169
+        Shared: 2.998
       AWS GovCloud (US-West):
         Dedicated: 3.186
         Shared: 3.014
+      eu-central-1:
+        Dedicated: 3.169
+        Shared: 2.998
+      eu-west-1:
+        Dedicated: 2.982
+        Shared: 2.822
+      us-east-1:
+        Dedicated: 2.677
+        Shared: 2.534
+      us-east-2:
+        Dedicated: 2.677
+        Shared: 2.534
+      us-west-2:
+        Dedicated: 2.677
+        Shared: 2.534
     Windows:
       ap-northeast-1:
         Dedicated: 4.546
@@ -61729,9 +61849,27 @@ r5n.large:
       ap-northeast-1:
         Dedicated: 0.255
         Shared: 0.244
+      ap-southeast-1:
+        Dedicated: 0.252
+        Shared: 0.241
       AWS GovCloud (US-West):
         Dedicated: 0.253
         Shared: 0.242
+      eu-central-1:
+        Dedicated: 0.252
+        Shared: 0.241
+      eu-west-1:
+        Dedicated: 0.24
+        Shared: 0.23
+      us-east-1:
+        Dedicated: 0.221
+        Shared: 0.212
+      us-east-2:
+        Dedicated: 0.221
+        Shared: 0.212
+      us-west-2:
+        Dedicated: 0.221
+        Shared: 0.212
     Windows:
       ap-northeast-1:
         Dedicated: 0.284
@@ -61953,9 +62091,27 @@ r5n.xlarge:
       ap-northeast-1:
         Dedicated: 0.509
         Shared: 0.487
+      ap-southeast-1:
+        Dedicated: 0.502
+        Shared: 0.481
       AWS GovCloud (US-West):
         Dedicated: 0.504
         Shared: 0.483
+      eu-central-1:
+        Dedicated: 0.502
+        Shared: 0.481
+      eu-west-1:
+        Dedicated: 0.479
+        Shared: 0.459
+      us-east-1:
+        Dedicated: 0.441
+        Shared: 0.423
+      us-east-2:
+        Dedicated: 0.441
+        Shared: 0.423
+      us-west-2:
+        Dedicated: 0.441
+        Shared: 0.423
     Windows:
       ap-northeast-1:
         Dedicated: 0.568
@@ -69444,8 +69600,12 @@ t4g.2xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.3712
       ap-northeast-1:
         Shared: 0.3456
+      ap-northeast-2:
+        Shared: 0.3328
       ap-south-1:
         Shared: 0.1792
       ap-southeast-1:
@@ -69456,6 +69616,8 @@ t4g.2xlarge:
         Shared: 0.2944
       eu-central-1:
         Shared: 0.3072
+      eu-north-1:
+        Shared: 0.2752
       eu-west-1:
         Shared: 0.2944
       eu-west-2:
@@ -69471,8 +69633,12 @@ t4g.2xlarge:
       us-west-2:
         Shared: 0.2688
     RHEL:
+      ap-east-1:
+        Shared: 0.5012
       ap-northeast-1:
         Shared: 0.4756
+      ap-northeast-2:
+        Shared: 0.4628
       ap-south-1:
         Shared: 0.3092
       ap-southeast-1:
@@ -69483,6 +69649,8 @@ t4g.2xlarge:
         Shared: 0.4244
       eu-central-1:
         Shared: 0.4372
+      eu-north-1:
+        Shared: 0.4052
       eu-west-1:
         Shared: 0.4244
       eu-west-2:
@@ -69498,8 +69666,12 @@ t4g.2xlarge:
       us-west-2:
         Shared: 0.3988
     SUSE:
+      ap-east-1:
+        Shared: 0.5212
       ap-northeast-1:
         Shared: 0.4956
+      ap-northeast-2:
+        Shared: 0.4828
       ap-south-1:
         Shared: 0.3292
       ap-southeast-1:
@@ -69510,6 +69682,8 @@ t4g.2xlarge:
         Shared: 0.4444
       eu-central-1:
         Shared: 0.4572
+      eu-north-1:
+        Shared: 0.4252
       eu-west-1:
         Shared: 0.4444
       eu-west-2:
@@ -69529,12 +69703,15 @@ t4g.2xlarge:
     - ap-southeast-2
     - eu-west-2
     - us-east-1
+    - eu-north-1
+    - ap-northeast-2
     - eu-west-1
     - ca-central-1
     - ap-northeast-1
     - eu-central-1
     - sa-east-1
     - ap-southeast-1
+    - ap-east-1
     - ap-south-1
     - us-west-2
     - us-east-2
@@ -69551,8 +69728,12 @@ t4g.large:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.0928
       ap-northeast-1:
         Shared: 0.0864
+      ap-northeast-2:
+        Shared: 0.0832
       ap-south-1:
         Shared: 0.0448
       ap-southeast-1:
@@ -69563,6 +69744,8 @@ t4g.large:
         Shared: 0.0736
       eu-central-1:
         Shared: 0.0768
+      eu-north-1:
+        Shared: 0.0688
       eu-west-1:
         Shared: 0.0736
       eu-west-2:
@@ -69578,8 +69761,12 @@ t4g.large:
       us-west-2:
         Shared: 0.0672
     RHEL:
+      ap-east-1:
+        Shared: 0.1528
       ap-northeast-1:
         Shared: 0.1464
+      ap-northeast-2:
+        Shared: 0.1432
       ap-south-1:
         Shared: 0.1048
       ap-southeast-1:
@@ -69590,6 +69777,8 @@ t4g.large:
         Shared: 0.1336
       eu-central-1:
         Shared: 0.1368
+      eu-north-1:
+        Shared: 0.1288
       eu-west-1:
         Shared: 0.1336
       eu-west-2:
@@ -69605,8 +69794,12 @@ t4g.large:
       us-west-2:
         Shared: 0.1272
     SUSE:
+      ap-east-1:
+        Shared: 0.1553
       ap-northeast-1:
         Shared: 0.1489
+      ap-northeast-2:
+        Shared: 0.1457
       ap-south-1:
         Shared: 0.1073
       ap-southeast-1:
@@ -69617,6 +69810,8 @@ t4g.large:
         Shared: 0.1361
       eu-central-1:
         Shared: 0.1393
+      eu-north-1:
+        Shared: 0.1313
       eu-west-1:
         Shared: 0.1361
       eu-west-2:
@@ -69637,6 +69832,8 @@ t4g.large:
     - ap-northeast-1
     - us-west-2
     - eu-central-1
+    - ap-east-1
+    - ap-northeast-2
     - sa-east-1
     - ca-central-1
     - eu-west-1
@@ -69645,6 +69842,7 @@ t4g.large:
     - ap-southeast-1
     - ap-southeast-2
     - ap-south-1
+    - eu-north-1
   storage: EBS only
   vcpu: 2
 t4g.medium:
@@ -69658,8 +69856,12 @@ t4g.medium:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.0464
       ap-northeast-1:
         Shared: 0.0432
+      ap-northeast-2:
+        Shared: 0.0416
       ap-south-1:
         Shared: 0.0224
       ap-southeast-1:
@@ -69670,6 +69872,8 @@ t4g.medium:
         Shared: 0.0368
       eu-central-1:
         Shared: 0.0384
+      eu-north-1:
+        Shared: 0.0344
       eu-west-1:
         Shared: 0.0368
       eu-west-2:
@@ -69685,8 +69889,12 @@ t4g.medium:
       us-west-2:
         Shared: 0.0336
     RHEL:
+      ap-east-1:
+        Shared: 0.1064
       ap-northeast-1:
         Shared: 0.1032
+      ap-northeast-2:
+        Shared: 0.1016
       ap-south-1:
         Shared: 0.0824
       ap-southeast-1:
@@ -69697,6 +69905,8 @@ t4g.medium:
         Shared: 0.0968
       eu-central-1:
         Shared: 0.0984
+      eu-north-1:
+        Shared: 0.0944
       eu-west-1:
         Shared: 0.0968
       eu-west-2:
@@ -69712,8 +69922,12 @@ t4g.medium:
       us-west-2:
         Shared: 0.0936
     SUSE:
+      ap-east-1:
+        Shared: 0.1089
       ap-northeast-1:
         Shared: 0.1057
+      ap-northeast-2:
+        Shared: 0.1041
       ap-south-1:
         Shared: 0.0849
       ap-southeast-1:
@@ -69724,6 +69938,8 @@ t4g.medium:
         Shared: 0.0993
       eu-central-1:
         Shared: 0.1009
+      eu-north-1:
+        Shared: 0.0969
       eu-west-1:
         Shared: 0.0993
       eu-west-2:
@@ -69741,12 +69957,15 @@ t4g.medium:
   regions:
     - ap-northeast-1
     - us-west-2
+    - ap-northeast-2
     - sa-east-1
     - ap-southeast-1
     - eu-west-1
+    - eu-north-1
     - us-west-1
     - ap-southeast-2
     - ap-south-1
+    - ap-east-1
     - eu-west-2
     - ca-central-1
     - eu-central-1
@@ -69765,8 +69984,12 @@ t4g.micro:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.0116
       ap-northeast-1:
         Shared: 0.0108
+      ap-northeast-2:
+        Shared: 0.0104
       ap-south-1:
         Shared: 0.0056
       ap-southeast-1:
@@ -69777,6 +70000,8 @@ t4g.micro:
         Shared: 0.0092
       eu-central-1:
         Shared: 0.0096
+      eu-north-1:
+        Shared: 0.0086
       eu-west-1:
         Shared: 0.0092
       eu-west-2:
@@ -69792,8 +70017,12 @@ t4g.micro:
       us-west-2:
         Shared: 0.0084
     RHEL:
+      ap-east-1:
+        Shared: 0.0716
       ap-northeast-1:
         Shared: 0.0708
+      ap-northeast-2:
+        Shared: 0.0704
       ap-south-1:
         Shared: 0.0656
       ap-southeast-1:
@@ -69804,6 +70033,8 @@ t4g.micro:
         Shared: 0.0692
       eu-central-1:
         Shared: 0.0696
+      eu-north-1:
+        Shared: 0.0686
       eu-west-1:
         Shared: 0.0692
       eu-west-2:
@@ -69819,8 +70050,12 @@ t4g.micro:
       us-west-2:
         Shared: 0.0684
     SUSE:
+      ap-east-1:
+        Shared: 0.0116
       ap-northeast-1:
         Shared: 0.0108
+      ap-northeast-2:
+        Shared: 0.0104
       ap-south-1:
         Shared: 0.0056
       ap-southeast-1:
@@ -69831,6 +70066,8 @@ t4g.micro:
         Shared: 0.0092
       eu-central-1:
         Shared: 0.0096
+      eu-north-1:
+        Shared: 0.0086
       eu-west-1:
         Shared: 0.0092
       eu-west-2:
@@ -69848,10 +70085,12 @@ t4g.micro:
   regions:
     - sa-east-1
     - eu-west-2
+    - ap-east-1
     - eu-central-1
     - us-east-1
     - us-west-2
     - eu-west-1
+    - ap-northeast-2
     - us-east-2
     - ap-southeast-2
     - us-west-1
@@ -69859,6 +70098,7 @@ t4g.micro:
     - ca-central-1
     - ap-northeast-1
     - ap-south-1
+    - eu-north-1
   storage: EBS only
   vcpu: 2
 t4g.nano:
@@ -69872,8 +70112,12 @@ t4g.nano:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.0058
       ap-northeast-1:
         Shared: 0.0054
+      ap-northeast-2:
+        Shared: 0.0052
       ap-south-1:
         Shared: 0.0028
       ap-southeast-1:
@@ -69884,6 +70128,8 @@ t4g.nano:
         Shared: 0.0046
       eu-central-1:
         Shared: 0.0048
+      eu-north-1:
+        Shared: 0.0043
       eu-west-1:
         Shared: 0.0046
       eu-west-2:
@@ -69899,8 +70145,12 @@ t4g.nano:
       us-west-2:
         Shared: 0.0042
     SUSE:
+      ap-east-1:
+        Shared: 0.0058
       ap-northeast-1:
         Shared: 0.0054
+      ap-northeast-2:
+        Shared: 0.0052
       ap-south-1:
         Shared: 0.0028
       ap-southeast-1:
@@ -69911,6 +70161,8 @@ t4g.nano:
         Shared: 0.0046
       eu-central-1:
         Shared: 0.0048
+      eu-north-1:
+        Shared: 0.0043
       eu-west-1:
         Shared: 0.0046
       eu-west-2:
@@ -69926,8 +70178,11 @@ t4g.nano:
       us-west-2:
         Shared: 0.0042
   regions:
+    - ap-northeast-2
+    - eu-north-1
     - eu-central-1
     - us-west-1
+    - ap-east-1
     - sa-east-1
     - ap-northeast-1
     - eu-west-2
@@ -69952,8 +70207,12 @@ t4g.small:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.0232
       ap-northeast-1:
         Shared: 0.0216
+      ap-northeast-2:
+        Shared: 0.0208
       ap-south-1:
         Shared: 0.0112
       ap-southeast-1:
@@ -69964,6 +70223,8 @@ t4g.small:
         Shared: 0.0184
       eu-central-1:
         Shared: 0.0192
+      eu-north-1:
+        Shared: 0.0172
       eu-west-1:
         Shared: 0.0184
       eu-west-2:
@@ -69979,8 +70240,12 @@ t4g.small:
       us-west-2:
         Shared: 0.0168
     RHEL:
+      ap-east-1:
+        Shared: 0.0832
       ap-northeast-1:
         Shared: 0.0816
+      ap-northeast-2:
+        Shared: 0.0808
       ap-south-1:
         Shared: 0.0712
       ap-southeast-1:
@@ -69991,6 +70256,8 @@ t4g.small:
         Shared: 0.0784
       eu-central-1:
         Shared: 0.0792
+      eu-north-1:
+        Shared: 0.0772
       eu-west-1:
         Shared: 0.0784
       eu-west-2:
@@ -70006,8 +70273,12 @@ t4g.small:
       us-west-2:
         Shared: 0.0768
     SUSE:
+      ap-east-1:
+        Shared: 0.0545
       ap-northeast-1:
         Shared: 0.0529
+      ap-northeast-2:
+        Shared: 0.0521
       ap-south-1:
         Shared: 0.0425
       ap-southeast-1:
@@ -70018,6 +70289,8 @@ t4g.small:
         Shared: 0.0497
       eu-central-1:
         Shared: 0.0505
+      eu-north-1:
+        Shared: 0.0485
       eu-west-1:
         Shared: 0.0497
       eu-west-2:
@@ -70036,8 +70309,10 @@ t4g.small:
     - us-west-2
     - ca-central-1
     - us-west-1
+    - eu-north-1
     - ap-southeast-1
     - ap-southeast-2
+    - ap-northeast-2
     - sa-east-1
     - ap-northeast-1
     - eu-central-1
@@ -70045,6 +70320,7 @@ t4g.small:
     - us-east-1
     - us-east-2
     - eu-west-1
+    - ap-east-1
     - eu-west-2
   storage: EBS only
   vcpu: 2
@@ -70059,8 +70335,12 @@ t4g.xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-east-1:
+        Shared: 0.1856
       ap-northeast-1:
         Shared: 0.1728
+      ap-northeast-2:
+        Shared: 0.1664
       ap-south-1:
         Shared: 0.0896
       ap-southeast-1:
@@ -70071,6 +70351,8 @@ t4g.xlarge:
         Shared: 0.1472
       eu-central-1:
         Shared: 0.1536
+      eu-north-1:
+        Shared: 0.1376
       eu-west-1:
         Shared: 0.1472
       eu-west-2:
@@ -70086,8 +70368,12 @@ t4g.xlarge:
       us-west-2:
         Shared: 0.1344
     RHEL:
+      ap-east-1:
+        Shared: 0.2456
       ap-northeast-1:
         Shared: 0.2328
+      ap-northeast-2:
+        Shared: 0.2264
       ap-south-1:
         Shared: 0.1496
       ap-southeast-1:
@@ -70098,6 +70384,8 @@ t4g.xlarge:
         Shared: 0.2072
       eu-central-1:
         Shared: 0.2136
+      eu-north-1:
+        Shared: 0.1976
       eu-west-1:
         Shared: 0.2072
       eu-west-2:
@@ -70113,8 +70401,12 @@ t4g.xlarge:
       us-west-2:
         Shared: 0.1944
     SUSE:
+      ap-east-1:
+        Shared: 0.3106
       ap-northeast-1:
         Shared: 0.2978
+      ap-northeast-2:
+        Shared: 0.2914
       ap-south-1:
         Shared: 0.2146
       ap-southeast-1:
@@ -70125,6 +70417,8 @@ t4g.xlarge:
         Shared: 0.2722
       eu-central-1:
         Shared: 0.2786
+      eu-north-1:
+        Shared: 0.2626
       eu-west-1:
         Shared: 0.2722
       eu-west-2:
@@ -70151,8 +70445,11 @@ t4g.xlarge:
     - sa-east-1
     - us-east-1
     - eu-west-1
+    - eu-north-1
+    - ap-east-1
     - ca-central-1
     - us-west-1
+    - ap-northeast-2
   storage: EBS only
   vcpu: 4
 u-12tb1.metal:
