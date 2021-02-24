@@ -917,6 +917,9 @@ c3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.50589
         Shared: 0.46
+      ap-northeast-3:
+        Dedicated: 0.563
+        Shared: 0.512
       ap-southeast-1:
         Dedicated: 0.582
         Shared: 0.529
@@ -954,6 +957,8 @@ c3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.63589
         Shared: 0.59
+      ap-northeast-3:
+        Dedicated: 0.693
       ap-southeast-1:
         Dedicated: 0.712
         Shared: 0.659
@@ -991,6 +996,8 @@ c3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.60589
         Shared: 0.56
+      ap-northeast-3:
+        Shared: 0.612
       ap-southeast-1:
         Dedicated: 0.682
         Shared: 0.629
@@ -1028,6 +1035,9 @@ c3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.50589
         Shared: 0.46
+      ap-northeast-3:
+        Dedicated: 0.563
+        Shared: 0.512
       ap-southeast-1:
         Dedicated: 0.582
         Shared: 0.953
@@ -1036,7 +1046,7 @@ c3.2xlarge:
         Shared: 0.953
       Asia Pacific (Osaka):
         Dedicated: 0.931
-        Shared: 0.512
+        Shared: 0.88
       AWS GovCloud (US-West):
         Dedicated: 0.919
         Shared: 0.504
@@ -1070,6 +1080,7 @@ c3.2xlarge:
     - ap-northeast-2
     - ap-southeast-2
     - ap-southeast-1
+    - ap-northeast-3
     - eu-central-1
   storage: 2 x 80 SSD
   vcpu: 8
@@ -1090,6 +1101,9 @@ c3.4xlarge:
       ap-northeast-2:
         Dedicated: 1.01079
         Shared: 0.919
+      ap-northeast-3:
+        Dedicated: 1.126
+        Shared: 1.024
       ap-southeast-1:
         Dedicated: 1.164
         Shared: 1.058
@@ -1127,6 +1141,8 @@ c3.4xlarge:
       ap-northeast-2:
         Dedicated: 1.14079
         Shared: 1.049
+      ap-northeast-3:
+        Dedicated: 1.256
       ap-southeast-1:
         Dedicated: 1.294
         Shared: 1.188
@@ -1163,6 +1179,8 @@ c3.4xlarge:
         Shared: 1.121
       ap-northeast-2:
         Dedicated: 1.11079
+      ap-northeast-3:
+        Dedicated: 1.226
       ap-southeast-1:
         Dedicated: 1.264
         Shared: 1.158
@@ -1238,6 +1256,7 @@ c3.4xlarge:
     - ap-northeast-1
     - ap-southeast-1
     - us-west-2
+    - ap-northeast-3
     - sa-east-1
     - AWS GovCloud (US-West)
     - us-east-1
@@ -1262,6 +1281,8 @@ c3.8xlarge:
       ap-northeast-2:
         Dedicated: 1.8387
         Shared: 1.839
+      ap-northeast-3:
+        Shared: 2.048
       ap-southeast-1:
         Dedicated: 2.117
         Shared: 2.117
@@ -1299,6 +1320,8 @@ c3.8xlarge:
       ap-northeast-2:
         Dedicated: 1.9687
         Shared: 1.969
+      ap-northeast-3:
+        Dedicated: 2.178
       ap-southeast-1:
         Dedicated: 2.247
         Shared: 2.247
@@ -1336,6 +1359,8 @@ c3.8xlarge:
       ap-northeast-2:
         Dedicated: 1.9387
         Shared: 1.939
+      ap-northeast-3:
+        Shared: 2.148
       ap-southeast-1:
         Dedicated: 2.217
         Shared: 2.217
@@ -1344,7 +1369,6 @@ c3.8xlarge:
         Shared: 2.217
       Asia Pacific (Osaka):
         Dedicated: 2.148
-        Shared: 2.148
       AWS GovCloud (US-West):
         Dedicated: 2.116
         Shared: 2.116
@@ -1373,6 +1397,8 @@ c3.8xlarge:
       ap-northeast-2:
         Dedicated: 3.3107
         Shared: 3.311
+      ap-northeast-3:
+        Dedicated: 2.048
       ap-southeast-1:
         Dedicated: 3.813
         Shared: 2.117
@@ -1413,6 +1439,7 @@ c3.8xlarge:
     - Asia Pacific (Osaka)
     - ap-northeast-1
     - eu-west-1
+    - ap-northeast-3
     - eu-central-1
     - us-east-1
     - us-west-1
@@ -1435,6 +1462,9 @@ c3.large:
       ap-northeast-2:
         Dedicated: 0.12672
         Shared: 0.115
+      ap-northeast-3:
+        Dedicated: 0.141
+        Shared: 0.128
       ap-southeast-1:
         Dedicated: 0.145
         Shared: 0.132
@@ -1443,7 +1473,6 @@ c3.large:
         Shared: 0.132
       Asia Pacific (Osaka):
         Dedicated: 0.141
-        Shared: 0.128
       AWS GovCloud (US-West):
         Dedicated: 0.138
         Shared: 0.126
@@ -1472,6 +1501,8 @@ c3.large:
       ap-northeast-2:
         Dedicated: 0.18672
         Shared: 0.175
+      ap-northeast-3:
+        Shared: 0.188
       ap-southeast-1:
         Dedicated: 0.205
         Shared: 0.192
@@ -1509,6 +1540,8 @@ c3.large:
       ap-northeast-2:
         Dedicated: 0.22672
         Shared: 0.215
+      ap-northeast-3:
+        Dedicated: 0.241
       ap-southeast-1:
         Dedicated: 0.245
         Shared: 0.232
@@ -1546,6 +1579,9 @@ c3.large:
       ap-northeast-2:
         Dedicated: 0.21872
         Shared: 0.207
+      ap-northeast-3:
+        Dedicated: 0.233
+        Shared: 0.128
       ap-southeast-1:
         Dedicated: 0.262
         Shared: 0.238
@@ -1553,8 +1589,8 @@ c3.large:
         Dedicated: 0.262
         Shared: 0.238
       Asia Pacific (Osaka):
-        Dedicated: 0.233
-        Shared: 0.128
+        Dedicated: 0.141
+        Shared: 0.22
       AWS GovCloud (US-West):
         Dedicated: 0.229
         Shared: 0.126
@@ -1588,6 +1624,7 @@ c3.large:
     - ap-northeast-1
     - Asia Pacific (Osaka)
     - sa-east-1
+    - ap-northeast-3
     - eu-west-1
   storage: 2 x 16 SSD
   vcpu: 2
@@ -1608,6 +1645,8 @@ c3.xlarge:
       ap-northeast-2:
         Dedicated: 0.25245
         Shared: 0.23
+      ap-northeast-3:
+        Dedicated: 0.282
       ap-southeast-1:
         Dedicated: 0.292
         Shared: 0.265
@@ -1645,6 +1684,8 @@ c3.xlarge:
       ap-northeast-2:
         Dedicated: 0.31245
         Shared: 0.29
+      ap-northeast-3:
+        Dedicated: 0.342
       ap-southeast-1:
         Dedicated: 0.352
         Shared: 0.325
@@ -1682,6 +1723,9 @@ c3.xlarge:
       ap-northeast-2:
         Dedicated: 0.35245
         Shared: 0.33
+      ap-northeast-3:
+        Dedicated: 0.382
+        Shared: 0.356
       ap-southeast-1:
         Dedicated: 0.392
         Shared: 0.365
@@ -1690,7 +1734,6 @@ c3.xlarge:
         Shared: 0.365
       Asia Pacific (Osaka):
         Dedicated: 0.382
-        Shared: 0.356
       AWS GovCloud (US-West):
         Dedicated: 0.387
         Shared: 0.352
@@ -1719,6 +1762,8 @@ c3.xlarge:
       ap-northeast-2:
         Dedicated: 0.43645
         Shared: 0.414
+      ap-northeast-3:
+        Shared: 0.44
       ap-southeast-1:
         Dedicated: 0.525
         Shared: 0.477
@@ -1762,6 +1807,7 @@ c3.xlarge:
     - ap-southeast-1
     - eu-central-1
     - us-west-2
+    - ap-northeast-3
   storage: 2 x 40 SSD
   vcpu: 4
 c4.2xlarge:
@@ -1782,6 +1828,9 @@ c4.2xlarge:
       ap-northeast-2:
         Dedicated: 0.499
         Shared: 0.454
+      ap-northeast-3:
+        Dedicated: 0.554
+        Shared: 0.504
       ap-south-1:
         Dedicated: 0.44
         Shared: 0.4
@@ -1792,7 +1841,6 @@ c4.2xlarge:
         Dedicated: 0.574
         Shared: 0.522
       Asia Pacific (Osaka):
-        Dedicated: 0.554
         Shared: 0.504
       AWS GovCloud (US-West):
         Dedicated: 0.527
@@ -1929,6 +1977,8 @@ c4.2xlarge:
       ap-northeast-2:
         Dedicated: 0.499
         Shared: 0.822
+      ap-northeast-3:
+        Shared: 0.504
       ap-south-1:
         Dedicated: 0.44
         Shared: 0.768
@@ -1988,6 +2038,7 @@ c4.2xlarge:
     - eu-west-1
     - us-west-2
     - sa-east-1
+    - ap-northeast-3
     - eu-west-3
   storage: EBS only
   vcpu: 8
@@ -2009,6 +2060,8 @@ c4.4xlarge:
       ap-northeast-2:
         Dedicated: 0.998
         Shared: 0.907
+      ap-northeast-3:
+        Shared: 1.008
       ap-south-1:
         Dedicated: 0.88
         Shared: 0.8
@@ -2107,6 +2160,8 @@ c4.4xlarge:
       ap-northeast-2:
         Dedicated: 1.098
         Shared: 1.007
+      ap-northeast-3:
+        Dedicated: 1.209
       ap-south-1:
         Dedicated: 0.98
         Shared: 0.9
@@ -2156,6 +2211,8 @@ c4.4xlarge:
       ap-northeast-2:
         Dedicated: 1.734
         Shared: 0.907
+      ap-northeast-3:
+        Shared: 1.008
       ap-south-1:
         Dedicated: 0.88
         Shared: 0.8
@@ -2206,12 +2263,13 @@ c4.4xlarge:
     - ca-central-1
     - eu-west-2
     - ap-south-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-northeast-1
     - eu-central-1
     - eu-west-1
     - ap-northeast-2
     - ap-southeast-2
+    - Asia Pacific (Osaka)
     - sa-east-1
     - AWS GovCloud (US-West)
     - us-west-1
@@ -2285,6 +2343,9 @@ c4.8xlarge:
       ap-northeast-2:
         Dedicated: 1.945
         Shared: 1.945
+      ap-northeast-3:
+        Dedicated: 2.146
+        Shared: 2.146
       ap-south-1:
         Dedicated: 1.73
         Shared: 1.73
@@ -2296,7 +2357,6 @@ c4.8xlarge:
         Shared: 2.215
       Asia Pacific (Osaka):
         Dedicated: 2.146
-        Shared: 2.146
       AWS GovCloud (US-West):
         Dedicated: 2.045
         Shared: 2.045
@@ -2334,6 +2394,9 @@ c4.8xlarge:
       ap-northeast-2:
         Dedicated: 1.915
         Shared: 1.915
+      ap-northeast-3:
+        Dedicated: 2.116
+        Shared: 2.116
       ap-south-1:
         Dedicated: 1.7
         Shared: 1.7
@@ -2383,6 +2446,8 @@ c4.8xlarge:
       ap-northeast-2:
         Dedicated: 3.471
         Shared: 3.471
+      ap-northeast-3:
+        Shared: 2.016
       ap-south-1:
         Dedicated: 1.6
         Shared: 3.256
@@ -2426,7 +2491,7 @@ c4.8xlarge:
         Dedicated: 3.091
         Shared: 3.091
   regions:
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-northeast-1
     - eu-central-1
     - ap-northeast-2
@@ -2436,6 +2501,7 @@ c4.8xlarge:
     - ap-southeast-1
     - us-west-1
     - sa-east-1
+    - Asia Pacific (Osaka)
     - us-east-2
     - ap-south-1
     - ca-central-1
@@ -2512,6 +2578,8 @@ c4.large:
       ap-northeast-2:
         Dedicated: 0.185
         Shared: 0.174
+      ap-northeast-3:
+        Shared: 0.186
       ap-south-1:
         Dedicated: 0.17
         Shared: 0.16
@@ -2561,6 +2629,8 @@ c4.large:
       ap-northeast-2:
         Dedicated: 0.225
         Shared: 0.214
+      ap-northeast-3:
+        Dedicated: 0.239
       ap-south-1:
         Dedicated: 0.21
         Shared: 0.2
@@ -2610,6 +2680,9 @@ c4.large:
       ap-northeast-2:
         Dedicated: 0.125
         Shared: 0.206
+      ap-northeast-3:
+        Dedicated: 0.231
+        Shared: 0.126
       ap-south-1:
         Dedicated: 0.202
         Shared: 0.1
@@ -2657,7 +2730,7 @@ c4.large:
     - ap-southeast-1
     - us-west-2
     - ap-south-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - eu-west-1
     - us-west-1
     - sa-east-1
@@ -2665,6 +2738,7 @@ c4.large:
     - eu-west-2
     - ap-northeast-1
     - eu-central-1
+    - Asia Pacific (Osaka)
     - ap-southeast-2
     - ap-northeast-2
     - us-east-1
@@ -2739,6 +2813,8 @@ c4.xlarge:
       ap-northeast-2:
         Dedicated: 0.31
         Shared: 0.287
+      ap-northeast-3:
+        Dedicated: 0.337
       ap-south-1:
         Dedicated: 0.28
         Shared: 0.26
@@ -2788,6 +2864,8 @@ c4.xlarge:
       ap-northeast-2:
         Dedicated: 0.35
         Shared: 0.327
+      ap-northeast-3:
+        Shared: 0.352
       ap-south-1:
         Dedicated: 0.32
         Shared: 0.3
@@ -2837,6 +2915,9 @@ c4.xlarge:
       ap-northeast-2:
         Dedicated: 0.25
         Shared: 0.411
+      ap-northeast-3:
+        Dedicated: 0.277
+        Shared: 0.436
       ap-south-1:
         Dedicated: 0.404
         Shared: 0.2
@@ -2848,7 +2929,7 @@ c4.xlarge:
         Shared: 0.445
       Asia Pacific (Osaka):
         Dedicated: 0.277
-        Shared: 0.436
+        Shared: 0.252
       AWS GovCloud (US-West):
         Dedicated: 0.263
         Shared: 0.239
@@ -2894,6 +2975,7 @@ c4.xlarge:
     - eu-west-2
     - AWS GovCloud (US-West)
     - ap-northeast-1
+    - ap-northeast-3
     - ap-southeast-2
     - us-east-1
     - eu-west-3
@@ -2996,6 +3078,9 @@ c5.12xlarge:
       ap-northeast-2:
         Dedicated: 2.583
         Shared: 2.434
+      ap-northeast-3:
+        Dedicated: 2.852
+        Shared: 2.698
       ap-south-1:
         Dedicated: 2.301
         Shared: 2.17
@@ -3005,9 +3090,6 @@ c5.12xlarge:
       ap-southeast-2:
         Dedicated: 2.956
         Shared: 2.794
-      Asia Pacific (Osaka):
-        Dedicated: 2.852
-        Shared: 2.698
       AWS GovCloud (US-West):
         Dedicated: 2.725
         Shared: 2.578
@@ -3142,6 +3224,8 @@ c5.12xlarge:
       ap-northeast-2:
         Dedicated: 4.661
         Shared: 4.512
+      ap-northeast-3:
+        Shared: 4.776
       ap-south-1:
         Dedicated: 4.379
         Shared: 4.248
@@ -3153,7 +3237,6 @@ c5.12xlarge:
         Shared: 4.872
       Asia Pacific (Osaka):
         Dedicated: 4.93
-        Shared: 4.776
       AWS GovCloud (US-West):
         Dedicated: 2.595
         Shared: 4.656
@@ -3227,6 +3310,7 @@ c5.12xlarge:
     - AWS GovCloud (US-West)
     - ap-northeast-1
     - eu-central-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 48
 c5.18xlarge:
@@ -3399,6 +3483,8 @@ c5.18xlarge:
       ap-northeast-2:
         Dedicated: 3.556
         Shared: 3.556
+      ap-northeast-3:
+        Shared: 3.952
       ap-south-1:
         Dedicated: 3.16
         Shared: 3.16
@@ -3410,7 +3496,6 @@ c5.18xlarge:
         Shared: 4.096
       Asia Pacific (Osaka):
         Dedicated: 3.952
-        Shared: 3.952
       AWS GovCloud (US-West):
         Dedicated: 3.772
         Shared: 3.772
@@ -3472,6 +3557,8 @@ c5.18xlarge:
       ap-northeast-2:
         Dedicated: 6.768
         Shared: 6.768
+      ap-northeast-3:
+        Shared: 3.852
       ap-south-1:
         Dedicated: 6.372
         Shared: 3.06
@@ -3483,7 +3570,7 @@ c5.18xlarge:
         Shared: 7.308
       Asia Pacific (Osaka):
         Dedicated: 7.164
-        Shared: 3.852
+        Shared: 7.164
       AWS GovCloud (US-West):
         Dedicated: 3.672
         Shared: 3.672
@@ -3539,7 +3626,7 @@ c5.18xlarge:
     - ap-southeast-2
     - AWS GovCloud (US-West)
     - us-west-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-southeast-1
     - us-gov-east-1
     - us-west-2
@@ -3554,6 +3641,7 @@ c5.18xlarge:
     - eu-north-1
     - ap-northeast-1
     - me-south-1
+    - Asia Pacific (Osaka)
     - sa-east-1
     - eu-west-3
     - us-east-1
@@ -3583,6 +3671,8 @@ c5.24xlarge:
       ap-northeast-2:
         Dedicated: 4.906
         Shared: 4.608
+      ap-northeast-3:
+        Dedicated: 5.136
       ap-south-1:
         Dedicated: 4.343
         Shared: 4.08
@@ -3593,7 +3683,6 @@ c5.24xlarge:
         Dedicated: 5.651
         Shared: 5.328
       Asia Pacific (Osaka):
-        Dedicated: 5.136
         Shared: 5.136
       AWS GovCloud (US-West):
         Dedicated: 5.191
@@ -3729,6 +3818,8 @@ c5.24xlarge:
       ap-northeast-2:
         Dedicated: 5.006
         Shared: 4.708
+      ap-northeast-3:
+        Shared: 5.236
       ap-south-1:
         Dedicated: 4.443
         Shared: 4.18
@@ -3740,7 +3831,6 @@ c5.24xlarge:
         Shared: 5.428
       Asia Pacific (Osaka):
         Dedicated: 5.236
-        Shared: 5.236
       AWS GovCloud (US-West):
         Dedicated: 5.291
         Shared: 4.996
@@ -3802,6 +3892,9 @@ c5.24xlarge:
       ap-northeast-2:
         Dedicated: 9.322
         Shared: 9.024
+      ap-northeast-3:
+        Dedicated: 5.136
+        Shared: 5.136
       ap-south-1:
         Dedicated: 8.759
         Shared: 8.496
@@ -3813,7 +3906,7 @@ c5.24xlarge:
         Shared: 9.744
       Asia Pacific (Osaka):
         Dedicated: 9.552
-        Shared: 5.136
+        Shared: 9.552
       AWS GovCloud (US-West):
         Dedicated: 5.191
         Shared: 9.312
@@ -3872,6 +3965,7 @@ c5.24xlarge:
     - ca-central-1
     - us-west-2-lax-1a
     - Asia Pacific (Osaka)
+    - ap-northeast-3
     - eu-central-1
     - us-east-2
     - ap-southeast-1
@@ -4059,6 +4153,8 @@ c5.2xlarge:
       ap-northeast-2:
         Dedicated: 0.509
         Shared: 0.484
+      ap-northeast-3:
+        Shared: 0.528
       ap-south-1:
         Dedicated: 0.462
         Shared: 0.44
@@ -4070,7 +4166,6 @@ c5.2xlarge:
         Shared: 0.544
       Asia Pacific (Osaka):
         Dedicated: 0.557
-        Shared: 0.528
       AWS GovCloud (US-West):
         Dedicated: 0.533
         Shared: 0.508
@@ -4217,6 +4312,7 @@ c5.2xlarge:
     - EU (Milan)
     - af-south-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 8
 c5.4xlarge:
@@ -4316,6 +4412,8 @@ c5.4xlarge:
       ap-northeast-2:
         Dedicated: 0.948
         Shared: 0.898
+      ap-northeast-3:
+        Shared: 0.986
       ap-south-1:
         Dedicated: 0.854
         Shared: 0.81
@@ -4327,7 +4425,6 @@ c5.4xlarge:
         Shared: 1.018
       Asia Pacific (Osaka):
         Dedicated: 1.045
-        Shared: 0.986
       AWS GovCloud (US-West):
         Dedicated: 0.995
         Shared: 0.946
@@ -4547,6 +4644,7 @@ c5.4xlarge:
     - eu-central-1
     - us-west-2-lax-1a
     - ap-east-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 16
 c5.9xlarge:
@@ -4573,6 +4671,8 @@ c5.9xlarge:
       ap-northeast-2:
         Dedicated: 1.84
         Shared: 1.728
+      ap-northeast-3:
+        Shared: 1.926
       ap-south-1:
         Dedicated: 1.629
         Shared: 1.53
@@ -4584,7 +4684,6 @@ c5.9xlarge:
         Shared: 1.998
       Asia Pacific (Osaka):
         Dedicated: 2.058
-        Shared: 1.926
       AWS GovCloud (US-West):
         Dedicated: 1.946
         Shared: 1.836
@@ -4646,6 +4745,8 @@ c5.9xlarge:
       ap-northeast-2:
         Dedicated: 1.97
         Shared: 1.858
+      ap-northeast-3:
+        Dedicated: 2.188
       ap-south-1:
         Dedicated: 1.759
         Shared: 1.66
@@ -4656,7 +4757,6 @@ c5.9xlarge:
         Dedicated: 2.249
         Shared: 2.128
       Asia Pacific (Osaka):
-        Dedicated: 2.188
         Shared: 2.056
       AWS GovCloud (US-West):
         Dedicated: 2.076
@@ -4719,6 +4819,8 @@ c5.9xlarge:
       ap-northeast-2:
         Dedicated: 1.94
         Shared: 1.828
+      ap-northeast-3:
+        Dedicated: 2.158
       ap-south-1:
         Dedicated: 1.729
         Shared: 1.63
@@ -4729,7 +4831,6 @@ c5.9xlarge:
         Dedicated: 2.219
         Shared: 2.098
       Asia Pacific (Osaka):
-        Dedicated: 2.158
         Shared: 2.026
       AWS GovCloud (US-West):
         Dedicated: 2.046
@@ -4877,6 +4978,7 @@ c5.9xlarge:
     - us-east-1
     - Asia Pacific (Osaka)
     - eu-central-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 36
 c5.large:
@@ -5049,6 +5151,8 @@ c5.large:
       ap-northeast-2:
         Dedicated: 0.202
         Shared: 0.196
+      ap-northeast-3:
+        Dedicated: 0.214
       ap-south-1:
         Dedicated: 0.19
         Shared: 0.185
@@ -5059,7 +5163,6 @@ c5.large:
         Dedicated: 0.218
         Shared: 0.211
       Asia Pacific (Osaka):
-        Dedicated: 0.214
         Shared: 0.207
       AWS GovCloud (US-West):
         Dedicated: 0.208
@@ -5122,6 +5225,8 @@ c5.large:
       ap-northeast-2:
         Dedicated: 0.194
         Shared: 0.188
+      ap-northeast-3:
+        Shared: 0.107
       ap-south-1:
         Dedicated: 0.09
         Shared: 0.177
@@ -5190,9 +5295,10 @@ c5.large:
     - eu-west-1
     - af-south-1
     - eu-north-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - sa-east-1
     - AWS GovCloud (US-West)
+    - Asia Pacific (Osaka)
     - us-gov-east-1
     - us-east-1
     - ap-southeast-2
@@ -5306,6 +5412,8 @@ c5.metal:
       ap-northeast-2:
         Dedicated: 4.738
         Shared: 4.738
+      ap-northeast-3:
+        Shared: 5.266
       ap-south-1:
         Dedicated: 4.21
         Shared: 4.21
@@ -5317,7 +5425,6 @@ c5.metal:
         Shared: 5.458
       Asia Pacific (Osaka):
         Dedicated: 5.266
-        Shared: 5.266
       AWS GovCloud (US-West):
         Dedicated: 5.026
         Shared: 5.026
@@ -5537,6 +5644,7 @@ c5.metal:
     - eu-west-3
     - us-east-1
     - ap-east-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 96
 c5.xlarge:
@@ -5860,9 +5968,10 @@ c5.xlarge:
     - us-east-1
     - ap-northeast-2
     - me-south-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - us-west-1
     - sa-east-1
+    - Asia Pacific (Osaka)
     - ap-northeast-1
     - ca-central-1
     - ap-east-1
@@ -8466,6 +8575,8 @@ c5d.12xlarge:
       ap-northeast-2:
         Dedicated: 2.809
         Shared: 2.64
+      ap-northeast-3:
+        Shared: 2.928
       ap-south-1:
         Dedicated: 2.519
         Shared: 2.376
@@ -8477,7 +8588,6 @@ c5d.12xlarge:
         Shared: 3.024
       Asia Pacific (Osaka):
         Dedicated: 3.126
-        Shared: 2.928
       AWS GovCloud (US-West):
         Dedicated: 2.952
         Shared: 2.784
@@ -8527,6 +8637,8 @@ c5d.12xlarge:
       ap-northeast-2:
         Dedicated: 2.939
         Shared: 2.77
+      ap-northeast-3:
+        Shared: 3.058
       ap-south-1:
         Dedicated: 2.649
         Shared: 2.506
@@ -8538,7 +8650,6 @@ c5d.12xlarge:
         Shared: 3.154
       Asia Pacific (Osaka):
         Dedicated: 3.256
-        Shared: 3.058
       AWS GovCloud (US-West):
         Dedicated: 3.082
         Shared: 2.914
@@ -8721,6 +8832,7 @@ c5d.12xlarge:
     - AWS GovCloud (US-West)
     - Asia Pacific (Osaka)
     - us-west-1
+    - ap-northeast-3
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 c5d.18xlarge:
@@ -8817,6 +8929,9 @@ c5d.18xlarge:
       ap-northeast-2:
         Dedicated: 4.09
         Shared: 4.09
+      ap-northeast-3:
+        Dedicated: 4.522
+        Shared: 4.522
       ap-south-1:
         Dedicated: 3.694
         Shared: 3.694
@@ -8826,9 +8941,6 @@ c5d.18xlarge:
       ap-southeast-2:
         Dedicated: 4.666
         Shared: 4.666
-      Asia Pacific (Osaka):
-        Dedicated: 4.522
-        Shared: 4.522
       AWS GovCloud (US-West):
         Dedicated: 4.306
         Shared: 4.306
@@ -8957,6 +9069,8 @@ c5d.18xlarge:
       ap-northeast-2:
         Dedicated: 7.272
         Shared: 7.272
+      ap-northeast-3:
+        Dedicated: 7.704
       ap-south-1:
         Dedicated: 6.876
         Shared: 6.876
@@ -9037,6 +9151,7 @@ c5d.18xlarge:
     - us-east-1
     - us-gov-east-1
     - ap-southeast-1
+    - ap-northeast-3
     - me-south-1
   storage: 2 x 900 NVMe SSD
   vcpu: 72
@@ -9122,6 +9237,8 @@ c5d.24xlarge:
       ap-northeast-2:
         Dedicated: 5.749
         Shared: 5.41
+      ap-northeast-3:
+        Dedicated: 6.383
       ap-south-1:
         Dedicated: 5.167
         Shared: 4.882
@@ -9132,7 +9249,6 @@ c5d.24xlarge:
         Dedicated: 6.547
         Shared: 6.178
       Asia Pacific (Osaka):
-        Dedicated: 6.383
         Shared: 5.986
       AWS GovCloud (US-West):
         Dedicated: 6.035
@@ -9183,6 +9299,8 @@ c5d.24xlarge:
       ap-northeast-2:
         Dedicated: 5.719
         Shared: 5.38
+      ap-northeast-3:
+        Shared: 5.956
       ap-south-1:
         Dedicated: 5.137
         Shared: 4.852
@@ -9194,7 +9312,6 @@ c5d.24xlarge:
         Shared: 6.148
       Asia Pacific (Osaka):
         Dedicated: 6.353
-        Shared: 5.956
       AWS GovCloud (US-West):
         Dedicated: 6.005
         Shared: 5.668
@@ -9244,6 +9361,8 @@ c5d.24xlarge:
       ap-northeast-2:
         Dedicated: 10.035
         Shared: 9.696
+      ap-northeast-3:
+        Shared: 10.272
       ap-south-1:
         Dedicated: 9.453
         Shared: 9.168
@@ -9255,7 +9374,7 @@ c5d.24xlarge:
         Shared: 10.464
       Asia Pacific (Osaka):
         Dedicated: 10.669
-        Shared: 10.272
+        Shared: 5.856
       AWS GovCloud (US-West):
         Dedicated: 10.321
         Shared: 9.984
@@ -9316,6 +9435,7 @@ c5d.24xlarge:
     - EU (Milan)
     - us-west-2
     - us-west-1
+    - ap-northeast-3
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 c5d.2xlarge:
@@ -9494,6 +9614,8 @@ c5d.2xlarge:
       ap-northeast-2:
         Dedicated: 0.568
         Shared: 0.54
+      ap-northeast-3:
+        Dedicated: 0.621
       ap-south-1:
         Dedicated: 0.521
         Shared: 0.496
@@ -9504,7 +9626,6 @@ c5d.2xlarge:
         Dedicated: 0.635
         Shared: 0.604
       Asia Pacific (Osaka):
-        Dedicated: 0.621
         Shared: 0.588
       AWS GovCloud (US-West):
         Dedicated: 0.592
@@ -9570,6 +9691,8 @@ c5d.2xlarge:
       ap-northeast-2:
         Dedicated: 0.468
         Shared: 0.808
+      ap-northeast-3:
+        Dedicated: 0.889
       ap-south-1:
         Dedicated: 0.789
         Shared: 0.764
@@ -9580,7 +9703,7 @@ c5d.2xlarge:
         Dedicated: 0.903
         Shared: 0.872
       Asia Pacific (Osaka):
-        Dedicated: 0.889
+        Dedicated: 0.521
         Shared: 0.856
       AWS GovCloud (US-West):
         Dedicated: 0.86
@@ -9660,6 +9783,7 @@ c5d.2xlarge:
     - ap-southeast-2
     - EU (Milan)
     - US East (Houston)
+    - ap-northeast-3
   storage: 1 x 200 NVMe SSD
   vcpu: 8
 c5d.4xlarge:
@@ -9686,6 +9810,8 @@ c5d.4xlarge:
       ap-northeast-2:
         Dedicated: 0.936
         Shared: 0.88
+      ap-northeast-3:
+        Shared: 0.976
       ap-south-1:
         Dedicated: 0.843
         Shared: 0.792
@@ -9697,7 +9823,6 @@ c5d.4xlarge:
         Shared: 1.008
       Asia Pacific (Osaka):
         Dedicated: 1.042
-        Shared: 0.976
       AWS GovCloud (US-West):
         Dedicated: 0.984
         Shared: 0.928
@@ -9896,6 +10021,8 @@ c5d.4xlarge:
       ap-northeast-2:
         Dedicated: 1.672
         Shared: 0.88
+      ap-northeast-3:
+        Shared: 0.976
       ap-south-1:
         Dedicated: 1.579
         Shared: 1.528
@@ -9974,6 +10101,7 @@ c5d.4xlarge:
     - af-south-1
     - AWS GovCloud (US-West)
     - Asia Pacific (Osaka)
+    - ap-northeast-3
     - us-east-1
     - us-west-1
     - sa-east-1
@@ -10143,6 +10271,9 @@ c5d.9xlarge:
       ap-northeast-2:
         Dedicated: 2.207
         Shared: 2.08
+      ap-northeast-3:
+        Dedicated: 2.445
+        Shared: 2.296
       ap-south-1:
         Dedicated: 1.996
         Shared: 1.882
@@ -10152,9 +10283,6 @@ c5d.9xlarge:
       ap-southeast-2:
         Dedicated: 2.506
         Shared: 2.368
-      Asia Pacific (Osaka):
-        Dedicated: 2.445
-        Shared: 2.296
       AWS GovCloud (US-West):
         Dedicated: 2.314
         Shared: 2.188
@@ -10213,6 +10341,9 @@ c5d.9xlarge:
       ap-northeast-2:
         Dedicated: 3.763
         Shared: 1.98
+      ap-northeast-3:
+        Dedicated: 2.345
+        Shared: 3.852
       ap-south-1:
         Dedicated: 3.552
         Shared: 3.438
@@ -10223,7 +10354,7 @@ c5d.9xlarge:
         Dedicated: 4.062
         Shared: 3.924
       Asia Pacific (Osaka):
-        Dedicated: 2.345
+        Dedicated: 4.001
         Shared: 2.196
       AWS GovCloud (US-West):
         Dedicated: 3.87
@@ -10292,8 +10423,9 @@ c5d.9xlarge:
     - eu-north-1
     - ap-northeast-1
     - ca-central-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - sa-east-1
+    - Asia Pacific (Osaka)
   storage: 1 x 900 NVMe SSD
   vcpu: 36
 c5d.large:
@@ -10320,6 +10452,8 @@ c5d.large:
       ap-northeast-2:
         Dedicated: 0.117
         Shared: 0.11
+      ap-northeast-3:
+        Shared: 0.122
       ap-south-1:
         Dedicated: 0.105
         Shared: 0.099
@@ -10331,7 +10465,6 @@ c5d.large:
         Shared: 0.126
       Asia Pacific (Osaka):
         Dedicated: 0.13
-        Shared: 0.122
       AWS GovCloud (US-West):
         Dedicated: 0.123
         Shared: 0.116
@@ -10390,6 +10523,8 @@ c5d.large:
       ap-northeast-2:
         Dedicated: 0.177
         Shared: 0.17
+      ap-northeast-3:
+        Shared: 0.182
       ap-south-1:
         Dedicated: 0.165
         Shared: 0.159
@@ -10401,7 +10536,6 @@ c5d.large:
         Shared: 0.186
       Asia Pacific (Osaka):
         Dedicated: 0.19
-        Shared: 0.182
       AWS GovCloud (US-West):
         Dedicated: 0.183
         Shared: 0.176
@@ -10460,6 +10594,8 @@ c5d.large:
       ap-northeast-2:
         Dedicated: 0.217
         Shared: 0.21
+      ap-northeast-3:
+        Dedicated: 0.23
       ap-south-1:
         Dedicated: 0.205
         Shared: 0.199
@@ -10470,7 +10606,6 @@ c5d.large:
         Dedicated: 0.234
         Shared: 0.226
       Asia Pacific (Osaka):
-        Dedicated: 0.23
         Shared: 0.222
       AWS GovCloud (US-West):
         Dedicated: 0.223
@@ -10530,6 +10665,8 @@ c5d.large:
       ap-northeast-2:
         Dedicated: 0.209
         Shared: 0.11
+      ap-northeast-3:
+        Shared: 0.122
       ap-south-1:
         Dedicated: 0.197
         Shared: 0.191
@@ -10541,7 +10678,6 @@ c5d.large:
         Shared: 0.218
       Asia Pacific (Osaka):
         Dedicated: 0.13
-        Shared: 0.122
       AWS GovCloud (US-West):
         Dedicated: 0.123
         Shared: 0.208
@@ -10610,6 +10746,7 @@ c5d.large:
     - ca-central-1
     - ap-southeast-2
     - Asia Pacific (Osaka)
+    - ap-northeast-3
     - sa-east-1
   storage: 1 x 50 NVMe SSD
   vcpu: 2
@@ -10695,6 +10832,8 @@ c5d.metal:
       ap-northeast-2:
         Dedicated: 5.41
         Shared: 5.41
+      ap-northeast-3:
+        Dedicated: 5.986
       ap-south-1:
         Dedicated: 4.882
         Shared: 4.882
@@ -10705,7 +10844,6 @@ c5d.metal:
         Dedicated: 6.178
         Shared: 6.178
       Asia Pacific (Osaka):
-        Dedicated: 5.986
         Shared: 5.986
       AWS GovCloud (US-West):
         Dedicated: 5.698
@@ -10756,6 +10894,8 @@ c5d.metal:
       ap-northeast-2:
         Dedicated: 5.38
         Shared: 5.38
+      ap-northeast-3:
+        Shared: 5.956
       ap-south-1:
         Dedicated: 4.852
         Shared: 4.852
@@ -10767,7 +10907,6 @@ c5d.metal:
         Shared: 6.148
       Asia Pacific (Osaka):
         Dedicated: 5.956
-        Shared: 5.956
       AWS GovCloud (US-West):
         Dedicated: 5.668
         Shared: 5.668
@@ -10817,6 +10956,8 @@ c5d.metal:
       ap-northeast-2:
         Dedicated: 9.696
         Shared: 9.696
+      ap-northeast-3:
+        Shared: 10.272
       ap-south-1:
         Dedicated: 9.168
         Shared: 9.168
@@ -10879,13 +11020,14 @@ c5d.metal:
     - af-south-1
     - us-east-2
     - us-west-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - eu-west-1
     - ap-southeast-2
     - EU (Milan)
     - AWS GovCloud (US-West)
     - ap-southeast-1
     - eu-north-1
+    - Asia Pacific (Osaka)
     - ap-south-1
     - ap-northeast-2
     - sa-east-1
@@ -10915,6 +11057,8 @@ c5d.xlarge:
       ap-northeast-2:
         Dedicated: 0.234
         Shared: 0.22
+      ap-northeast-3:
+        Dedicated: 0.261
       ap-south-1:
         Dedicated: 0.211
         Shared: 0.198
@@ -10925,7 +11069,6 @@ c5d.xlarge:
         Dedicated: 0.267
         Shared: 0.252
       Asia Pacific (Osaka):
-        Dedicated: 0.261
         Shared: 0.244
       AWS GovCloud (US-West):
         Dedicated: 0.246
@@ -11125,6 +11268,8 @@ c5d.xlarge:
       ap-northeast-2:
         Dedicated: 0.234
         Shared: 0.404
+      ap-northeast-3:
+        Dedicated: 0.261
       ap-south-1:
         Dedicated: 0.395
         Shared: 0.382
@@ -11189,6 +11334,7 @@ c5d.xlarge:
     - Asia Pacific (Osaka)
     - ap-northeast-2
     - ap-south-1
+    - ap-northeast-3
     - eu-west-1
     - eu-north-1
     - us-east-2
@@ -16394,6 +16540,9 @@ d2.2xlarge:
       ap-northeast-2:
         Dedicated: 1.9868
         Shared: 1.818
+      ap-northeast-3:
+        Dedicated: 1.987
+        Shared: 1.818
       ap-south-1:
         Dedicated: 1.961
         Shared: 1.783
@@ -16460,6 +16609,8 @@ d2.2xlarge:
         Shared: 1.788
       ap-northeast-2:
         Dedicated: 1.9568
+        Shared: 1.788
+      ap-northeast-3:
         Shared: 1.788
       ap-south-1:
         Dedicated: 1.928
@@ -16528,6 +16679,9 @@ d2.2xlarge:
       ap-northeast-2:
         Dedicated: 1.8568
         Shared: 1.688
+      ap-northeast-3:
+        Dedicated: 1.857
+        Shared: 1.688
       ap-south-1:
         Dedicated: 1.818
         Shared: 2.021
@@ -16539,7 +16693,7 @@ d2.2xlarge:
         Shared: 1.961
       Asia Pacific (Osaka):
         Dedicated: 1.857
-        Shared: 1.688
+        Shared: 2.056
       AWS GovCloud (US-West):
         Dedicated: 2.19
         Shared: 1.656
@@ -16602,6 +16756,7 @@ d2.2xlarge:
     - ca-central-1
     - EU (Milan)
     - eu-west-2
+    - ap-northeast-3
     - ap-southeast-1
     - ap-northeast-2
     - eu-north-1
@@ -16632,6 +16787,8 @@ d2.4xlarge:
       ap-northeast-2:
         Dedicated: 3.7136
         Shared: 3.376
+      ap-northeast-3:
+        Dedicated: 3.714
       ap-south-1:
         Dedicated: 3.637
         Shared: 3.306
@@ -16766,6 +16923,8 @@ d2.4xlarge:
       ap-northeast-2:
         Dedicated: 3.8136
         Shared: 3.476
+      ap-northeast-3:
+        Dedicated: 3.814
       ap-south-1:
         Dedicated: 3.747
         Shared: 3.406
@@ -16776,7 +16935,6 @@ d2.4xlarge:
         Dedicated: 3.938
         Shared: 3.58
       Asia Pacific (Osaka):
-        Dedicated: 3.814
         Shared: 3.476
       AWS GovCloud (US-West):
         Dedicated: 3.743
@@ -16833,6 +16991,9 @@ d2.4xlarge:
       ap-northeast-2:
         Dedicated: 4.4496
         Shared: 4.112
+      ap-northeast-3:
+        Dedicated: 4.45
+        Shared: 3.376
       ap-south-1:
         Dedicated: 4.446
         Shared: 3.306
@@ -16843,7 +17004,7 @@ d2.4xlarge:
         Dedicated: 3.828
         Shared: 3.782
       Asia Pacific (Osaka):
-        Dedicated: 4.45
+        Dedicated: 3.714
         Shared: 3.376
       AWS GovCloud (US-West):
         Dedicated: 4.379
@@ -16909,6 +17070,7 @@ d2.4xlarge:
     - ap-southeast-1
     - eu-north-1
     - sa-east-1
+    - ap-northeast-3
     - AWS GovCloud (US-West)
     - eu-central-1
   storage: 12 x 2000 HDD
@@ -16935,6 +17097,9 @@ d2.8xlarge:
         Dedicated: 6.752
         Shared: 6.752
       ap-northeast-2:
+        Dedicated: 6.752
+        Shared: 6.752
+      ap-northeast-3:
         Dedicated: 6.752
         Shared: 6.752
       ap-south-1:
@@ -17071,6 +17236,9 @@ d2.8xlarge:
       ap-northeast-2:
         Dedicated: 6.852
         Shared: 6.852
+      ap-northeast-3:
+        Dedicated: 6.852
+        Shared: 6.852
       ap-south-1:
         Dedicated: 6.712
         Shared: 6.712
@@ -17138,6 +17306,8 @@ d2.8xlarge:
       ap-northeast-2:
         Dedicated: 8.408
         Shared: 6.752
+      ap-northeast-3:
+        Shared: 8.408
       ap-south-1:
         Dedicated: 8.268
         Shared: 6.612
@@ -17193,7 +17363,7 @@ d2.8xlarge:
         Dedicated: 6.198
         Shared: 6.198
   regions:
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - us-east-2
     - us-west-2
     - us-east-1
@@ -17203,6 +17373,7 @@ d2.8xlarge:
     - ap-south-1
     - ap-northeast-2
     - eu-central-1
+    - Asia Pacific (Osaka)
     - EU (Milan)
     - ap-southeast-2
     - ap-northeast-1
@@ -17241,6 +17412,9 @@ d2.xlarge:
         Shared: 0.844
       ap-northeast-2:
         Dedicated: 0.9284
+        Shared: 0.844
+      ap-northeast-3:
+        Dedicated: 0.928
         Shared: 0.844
       ap-south-1:
         Dedicated: 0.91
@@ -17309,6 +17483,8 @@ d2.xlarge:
       ap-northeast-2:
         Dedicated: 0.9884
         Shared: 0.904
+      ap-northeast-3:
+        Shared: 0.904
       ap-south-1:
         Dedicated: 0.976
         Shared: 0.887
@@ -17375,6 +17551,8 @@ d2.xlarge:
         Shared: 0.944
       ap-northeast-2:
         Dedicated: 1.0284
+        Shared: 0.944
+      ap-northeast-3:
         Shared: 0.944
       ap-south-1:
         Dedicated: 1.02
@@ -17443,6 +17621,9 @@ d2.xlarge:
       ap-northeast-2:
         Dedicated: 1.1124
         Shared: 1.028
+      ap-northeast-3:
+        Dedicated: 0.928
+        Shared: 1.028
       ap-south-1:
         Dedicated: 1.112
         Shared: 1.011
@@ -17453,7 +17634,7 @@ d2.xlarge:
         Dedicated: 1.101
         Shared: 1.001
       Asia Pacific (Osaka):
-        Dedicated: 0.928
+        Dedicated: 1.112
         Shared: 0.844
       AWS GovCloud (US-West):
         Dedicated: 1.095
@@ -17521,6 +17702,7 @@ d2.xlarge:
     - eu-west-1
     - us-gov-east-1
     - sa-east-1
+    - ap-northeast-3
   storage: 3 x 2000 HDD
   vcpu: 4
 d3.2xlarge:
@@ -23012,6 +23194,9 @@ i3.16xlarge:
       ap-northeast-2:
         Dedicated: 5.856
         Shared: 5.856
+      ap-northeast-3:
+        Dedicated: 5.856
+        Shared: 5.856
       ap-south-1:
         Dedicated: 5.664
         Shared: 5.664
@@ -23022,7 +23207,6 @@ i3.16xlarge:
         Dedicated: 5.984
         Shared: 5.984
       Asia Pacific (Osaka):
-        Dedicated: 5.856
         Shared: 5.856
       AWS GovCloud (US-West):
         Dedicated: 6.016
@@ -23080,6 +23264,9 @@ i3.16xlarge:
         Dedicated: 5.986
         Shared: 5.986
       ap-northeast-2:
+        Dedicated: 5.986
+        Shared: 5.986
+      ap-northeast-3:
         Dedicated: 5.986
         Shared: 5.986
       ap-south-1:
@@ -23152,6 +23339,9 @@ i3.16xlarge:
       ap-northeast-2:
         Dedicated: 5.956
         Shared: 5.956
+      ap-northeast-3:
+        Dedicated: 5.956
+        Shared: 5.956
       ap-south-1:
         Dedicated: 5.764
         Shared: 5.764
@@ -23161,9 +23351,6 @@ i3.16xlarge:
       ap-southeast-2:
         Dedicated: 6.084
         Shared: 6.084
-      Asia Pacific (Osaka):
-        Dedicated: 5.956
-        Shared: 5.956
       AWS GovCloud (US-West):
         Dedicated: 6.116
         Shared: 6.116
@@ -23282,7 +23469,7 @@ i3.16xlarge:
   regions:
     - ap-southeast-1
     - eu-west-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - me-south-1
     - ap-southeast-2
     - eu-west-3
@@ -23303,6 +23490,7 @@ i3.16xlarge:
     - AWS GovCloud (US-West)
     - us-gov-east-1
     - eu-north-1
+    - Asia Pacific (Osaka)
   storage: 8 x 1900 NVMe SSD
   vcpu: 64
 i3.2xlarge:
@@ -23329,6 +23517,8 @@ i3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.805
         Shared: 0.732
+      ap-northeast-3:
+        Dedicated: 0.805
       ap-south-1:
         Dedicated: 0.779
         Shared: 0.708
@@ -23339,7 +23529,6 @@ i3.2xlarge:
         Dedicated: 0.823
         Shared: 0.748
       Asia Pacific (Osaka):
-        Dedicated: 0.805
         Shared: 0.732
       AWS GovCloud (US-West):
         Dedicated: 0.827
@@ -23399,6 +23588,8 @@ i3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.935
         Shared: 0.862
+      ap-northeast-3:
+        Dedicated: 0.935
       ap-south-1:
         Dedicated: 0.909
         Shared: 0.838
@@ -23409,7 +23600,6 @@ i3.2xlarge:
         Dedicated: 0.953
         Shared: 0.878
       Asia Pacific (Osaka):
-        Dedicated: 0.935
         Shared: 0.862
       AWS GovCloud (US-West):
         Dedicated: 0.957
@@ -23469,6 +23659,8 @@ i3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.905
         Shared: 0.832
+      ap-northeast-3:
+        Shared: 0.832
       ap-south-1:
         Dedicated: 0.879
         Shared: 0.808
@@ -23480,7 +23672,6 @@ i3.2xlarge:
         Shared: 0.848
       Asia Pacific (Osaka):
         Dedicated: 0.905
-        Shared: 0.832
       AWS GovCloud (US-West):
         Dedicated: 0.927
         Shared: 0.852
@@ -23616,8 +23807,9 @@ i3.2xlarge:
     - eu-west-1
     - us-gov-east-1
     - ca-central-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-southeast-1
+    - Asia Pacific (Osaka)
     - me-south-1
     - EU (Milan)
   storage: 1 x 1900 NVMe SSD
@@ -23715,6 +23907,8 @@ i3.4xlarge:
         Shared: 1.594
       ap-northeast-2:
         Dedicated: 1.74
+        Shared: 1.594
+      ap-northeast-3:
         Shared: 1.594
       ap-south-1:
         Dedicated: 1.688
@@ -23856,6 +24050,8 @@ i3.4xlarge:
       ap-northeast-2:
         Dedicated: 2.346
         Shared: 2.2
+      ap-northeast-3:
+        Dedicated: 2.346
       ap-south-1:
         Dedicated: 2.294
         Shared: 1.416
@@ -23935,6 +24131,7 @@ i3.4xlarge:
     - eu-west-3
     - eu-central-1
     - eu-west-2
+    - ap-northeast-3
     - us-gov-east-1
     - me-south-1
   storage: 2 x 1900 NVMe SSD
@@ -23961,6 +24158,9 @@ i3.8xlarge:
         Dedicated: 3.221
         Shared: 2.928
       ap-northeast-2:
+        Dedicated: 3.221
+        Shared: 2.928
+      ap-northeast-3:
         Dedicated: 3.221
         Shared: 2.928
       ap-south-1:
@@ -24033,6 +24233,8 @@ i3.8xlarge:
       ap-northeast-2:
         Dedicated: 3.351
         Shared: 3.058
+      ap-northeast-3:
+        Shared: 3.058
       ap-south-1:
         Dedicated: 3.245
         Shared: 2.962
@@ -24044,7 +24246,6 @@ i3.8xlarge:
         Shared: 3.122
       Asia Pacific (Osaka):
         Dedicated: 3.351
-        Shared: 3.058
       AWS GovCloud (US-West):
         Dedicated: 3.439
         Shared: 3.138
@@ -24103,6 +24304,8 @@ i3.8xlarge:
       ap-northeast-2:
         Dedicated: 3.321
         Shared: 3.028
+      ap-northeast-3:
+        Dedicated: 3.321
       ap-south-1:
         Dedicated: 3.215
         Shared: 2.932
@@ -24173,6 +24376,8 @@ i3.8xlarge:
       ap-northeast-2:
         Dedicated: 3.221
         Shared: 4.4
+      ap-northeast-3:
+        Shared: 2.928
       ap-south-1:
         Dedicated: 3.115
         Shared: 4.304
@@ -24246,10 +24451,11 @@ i3.8xlarge:
     - us-west-1
     - me-south-1
     - ap-northeast-2
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - sa-east-1
     - us-east-2
     - ca-central-1
+    - Asia Pacific (Osaka)
     - eu-central-1
     - af-south-1
     - ap-east-1
@@ -24350,6 +24556,8 @@ i3.large:
       ap-northeast-2:
         Dedicated: 0.261
         Shared: 0.243
+      ap-northeast-3:
+        Dedicated: 0.261
       ap-south-1:
         Dedicated: 0.255
         Shared: 0.237
@@ -24420,6 +24628,8 @@ i3.large:
       ap-northeast-2:
         Dedicated: 0.301
         Shared: 0.283
+      ap-northeast-3:
+        Dedicated: 0.301
       ap-south-1:
         Dedicated: 0.295
         Shared: 0.277
@@ -24490,6 +24700,9 @@ i3.large:
       ap-northeast-2:
         Dedicated: 0.293
         Shared: 0.183
+      ap-northeast-3:
+        Dedicated: 0.201
+        Shared: 0.275
       ap-south-1:
         Dedicated: 0.287
         Shared: 0.177
@@ -24557,6 +24770,7 @@ i3.large:
     - Asia Pacific (Osaka)
     - ap-south-1
     - us-east-1
+    - ap-northeast-3
     - me-south-1
     - eu-north-1
     - us-west-1
@@ -24733,9 +24947,10 @@ i3.metal:
     - us-east-2
     - ap-southeast-2
     - us-east-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - eu-north-1
     - us-gov-east-1
+    - Asia Pacific (Osaka)
   storage: 8 x 1900 NVMe SSD
   vcpu: 64
 i3.xlarge:
@@ -24832,6 +25047,8 @@ i3.xlarge:
       ap-northeast-2:
         Dedicated: 0.463
         Shared: 0.426
+      ap-northeast-3:
+        Shared: 0.426
       ap-south-1:
         Dedicated: 0.449
         Shared: 0.414
@@ -24902,6 +25119,8 @@ i3.xlarge:
       ap-northeast-2:
         Dedicated: 0.503
         Shared: 0.466
+      ap-northeast-3:
+        Dedicated: 0.503
       ap-south-1:
         Dedicated: 0.489
         Shared: 0.454
@@ -24972,6 +25191,8 @@ i3.xlarge:
       ap-northeast-2:
         Dedicated: 0.587
         Shared: 0.55
+      ap-northeast-3:
+        Shared: 0.366
       ap-south-1:
         Dedicated: 0.573
         Shared: 0.354
@@ -25052,6 +25273,7 @@ i3.xlarge:
     - me-south-1
     - Asia Pacific (Osaka)
     - eu-west-2
+    - ap-northeast-3
     - eu-central-1
   storage: 1 x 950 NVMe SSD
   vcpu: 4
@@ -25268,6 +25490,8 @@ i3en.12xlarge:
       ap-northeast-2:
         Dedicated: 9.007
         Shared: 8.592
+      ap-northeast-3:
+        Dedicated: 6.796
       ap-south-1:
         Dedicated: 8.777
         Shared: 8.376
@@ -25278,7 +25502,7 @@ i3en.12xlarge:
         Dedicated: 9.136
         Shared: 8.712
       Asia Pacific (Osaka):
-        Dedicated: 6.796
+        Dedicated: 9.004
         Shared: 6.384
       AWS GovCloud (US-West):
         Dedicated: 6.977
@@ -25337,6 +25561,7 @@ i3en.12xlarge:
     - eu-west-2
     - AWS GovCloud (US-West)
     - ap-south-1
+    - ap-northeast-3
     - us-west-1
     - us-west-2-lax-1a
     - eu-central-1
@@ -25367,6 +25592,9 @@ i3en.24xlarge:
       ap-northeast-2:
         Dedicated: 12.768
         Shared: 12.768
+      ap-northeast-3:
+        Dedicated: 12.768
+        Shared: 12.768
       ap-south-1:
         Dedicated: 12.336
         Shared: 12.336
@@ -25376,9 +25604,6 @@ i3en.24xlarge:
       ap-southeast-2:
         Dedicated: 13.008
         Shared: 13.008
-      Asia Pacific (Osaka):
-        Dedicated: 12.768
-        Shared: 12.768
       AWS GovCloud (US-West):
         Dedicated: 13.104
         Shared: 13.104
@@ -25431,6 +25656,8 @@ i3en.24xlarge:
       ap-northeast-2:
         Dedicated: 12.898
         Shared: 12.898
+      ap-northeast-3:
+        Dedicated: 12.898
       ap-south-1:
         Dedicated: 12.466
         Shared: 12.466
@@ -25441,7 +25668,6 @@ i3en.24xlarge:
         Dedicated: 13.138
         Shared: 13.138
       Asia Pacific (Osaka):
-        Dedicated: 12.898
         Shared: 12.898
       AWS GovCloud (US-West):
         Dedicated: 13.234
@@ -25559,6 +25785,8 @@ i3en.24xlarge:
       ap-northeast-2:
         Dedicated: 17.184
         Shared: 17.184
+      ap-northeast-3:
+        Dedicated: 17.184
       ap-south-1:
         Dedicated: 16.752
         Shared: 16.752
@@ -25569,7 +25797,7 @@ i3en.24xlarge:
         Dedicated: 17.424
         Shared: 17.424
       Asia Pacific (Osaka):
-        Dedicated: 17.184
+        Dedicated: 12.768
         Shared: 17.184
       AWS GovCloud (US-West):
         Dedicated: 17.52
@@ -25635,6 +25863,7 @@ i3en.24xlarge:
     - eu-north-1
     - ap-southeast-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: 8 x 7500 NVMe SSD
   vcpu: 96
 i3en.2xlarge:
@@ -25658,6 +25887,8 @@ i3en.2xlarge:
       ap-northeast-2:
         Dedicated: 1.133
         Shared: 1.064
+      ap-northeast-3:
+        Dedicated: 1.133
       ap-south-1:
         Dedicated: 1.095
         Shared: 1.028
@@ -25668,7 +25899,6 @@ i3en.2xlarge:
         Dedicated: 1.155
         Shared: 1.084
       Asia Pacific (Osaka):
-        Dedicated: 1.133
         Shared: 1.064
       AWS GovCloud (US-West):
         Dedicated: 1.163
@@ -25926,6 +26156,7 @@ i3en.2xlarge:
     - eu-west-2
     - Asia Pacific (Osaka)
     - us-west-2-lax-1a
+    - ap-northeast-3
   storage: 2 x 2500 NVMe SSD
   vcpu: 8
 i3en.3xlarge:
@@ -26213,6 +26444,7 @@ i3en.3xlarge:
     - us-east-1
     - eu-west-1
     - us-west-2
+    - ap-northeast-3
     - eu-central-1
     - ap-northeast-2
     - eu-west-2
@@ -26366,6 +26598,8 @@ i3en.6xlarge:
       ap-northeast-2:
         Dedicated: 3.55
         Shared: 3.342
+      ap-northeast-3:
+        Shared: 3.342
       ap-south-1:
         Dedicated: 3.434
         Shared: 3.234
@@ -26377,7 +26611,6 @@ i3en.6xlarge:
         Shared: 3.402
       Asia Pacific (Osaka):
         Dedicated: 3.548
-        Shared: 3.342
       AWS GovCloud (US-West):
         Dedicated: 3.639
         Shared: 3.426
@@ -26505,6 +26738,7 @@ i3en.6xlarge:
     - ap-northeast-1
     - us-east-1
     - eu-west-3
+    - ap-northeast-3
     - Asia Pacific (Osaka)
   storage: 2 x 7500 NVMe SSD
   vcpu: 24
@@ -26657,6 +26891,8 @@ i3en.large:
       ap-northeast-2:
         Dedicated: 0.346
         Shared: 0.329
+      ap-northeast-3:
+        Shared: 0.329
       ap-south-1:
         Dedicated: 0.337
         Shared: 0.32
@@ -26668,7 +26904,6 @@ i3en.large:
         Shared: 0.334
       Asia Pacific (Osaka):
         Dedicated: 0.346
-        Shared: 0.329
       AWS GovCloud (US-West):
         Dedicated: 0.354
         Shared: 0.336
@@ -26721,6 +26956,8 @@ i3en.large:
       ap-northeast-2:
         Dedicated: 0.375
         Shared: 0.358
+      ap-northeast-3:
+        Dedicated: 0.283
       ap-south-1:
         Dedicated: 0.366
         Shared: 0.349
@@ -26797,6 +27034,7 @@ i3en.large:
     - us-east-1
     - AWS GovCloud (US-West)
     - eu-central-1
+    - ap-northeast-3
   storage: 1 x 1250 NVMe SSD
   vcpu: 2
 i3en.metal:
@@ -27075,6 +27313,7 @@ i3en.metal:
     - eu-west-1
     - sa-east-1
     - ap-southeast-1
+    - ap-northeast-3
   storage: 8 x 7500 NVMe SSD
   vcpu: 96
 i3en.metal-2tb:
@@ -27090,6 +27329,7 @@ i3en.metal-2tb:
   regions:
     - Asia Pacific (Osaka)
     - us-west-2-lax-1a
+    - ap-northeast-3
   storage: 32 x 2000 NVMe SSD
   vcpu: 96
 i3en.xlarge:
@@ -27176,6 +27416,8 @@ i3en.xlarge:
       ap-northeast-2:
         Dedicated: 0.627
         Shared: 0.592
+      ap-northeast-3:
+        Dedicated: 0.626
       ap-south-1:
         Dedicated: 0.607
         Shared: 0.574
@@ -27186,7 +27428,6 @@ i3en.xlarge:
         Dedicated: 0.637
         Shared: 0.602
       Asia Pacific (Osaka):
-        Dedicated: 0.626
         Shared: 0.592
       AWS GovCloud (US-West):
         Dedicated: 0.641
@@ -27240,6 +27481,8 @@ i3en.xlarge:
       ap-northeast-2:
         Dedicated: 0.692
         Shared: 0.657
+      ap-northeast-3:
+        Shared: 0.657
       ap-south-1:
         Dedicated: 0.672
         Shared: 0.639
@@ -27251,7 +27494,6 @@ i3en.xlarge:
         Shared: 0.667
       Asia Pacific (Osaka):
         Dedicated: 0.691
-        Shared: 0.657
       AWS GovCloud (US-West):
         Dedicated: 0.706
         Shared: 0.671
@@ -27304,6 +27546,9 @@ i3en.xlarge:
       ap-northeast-2:
         Dedicated: 0.751
         Shared: 0.716
+      ap-northeast-3:
+        Dedicated: 0.75
+        Shared: 0.716
       ap-south-1:
         Dedicated: 0.731
         Shared: 0.698
@@ -27315,7 +27560,6 @@ i3en.xlarge:
         Shared: 0.726
       Asia Pacific (Osaka):
         Dedicated: 0.566
-        Shared: 0.716
       AWS GovCloud (US-West):
         Dedicated: 0.581
         Shared: 0.73
@@ -27379,6 +27623,7 @@ i3en.xlarge:
     - us-east-2
     - us-west-1
     - ap-northeast-2
+    - ap-northeast-3
     - ca-central-1
   storage: 1 x 2500 NVMe SSD
   vcpu: 4
@@ -29098,6 +29343,8 @@ m3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.80465
         Shared: 0.732
+      ap-northeast-3:
+        Shared: 0.768
       ap-southeast-1:
         Dedicated: 0.862
         Shared: 0.784
@@ -29172,6 +29419,8 @@ m3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.90465
         Shared: 0.832
+      ap-northeast-3:
+        Dedicated: 0.945
       ap-southeast-1:
         Dedicated: 0.962
         Shared: 0.884
@@ -29209,6 +29458,9 @@ m3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.80465
         Shared: 1.1
+      ap-northeast-3:
+        Dedicated: 1.213
+        Shared: 0.768
       ap-southeast-1:
         Dedicated: 1.417
         Shared: 1.288
@@ -29252,6 +29504,7 @@ m3.2xlarge:
     - Asia Pacific (Osaka)
     - eu-west-1
     - AWS GovCloud (US-West)
+    - ap-northeast-3
   storage: 2 x 80 SSD
   vcpu: 8
 m3.large:
@@ -29345,6 +29598,8 @@ m3.large:
       ap-northeast-2:
         Dedicated: 0.301685
         Shared: 0.283
+      ap-northeast-3:
+        Dedicated: 0.311
       ap-southeast-1:
         Dedicated: 0.316
         Shared: 0.296
@@ -29382,6 +29637,9 @@ m3.large:
       ap-northeast-2:
         Dedicated: 0.293685
         Shared: 0.275
+      ap-northeast-3:
+        Dedicated: 0.211
+        Shared: 0.192
       ap-southeast-1:
         Dedicated: 0.354
         Shared: 0.322
@@ -29389,7 +29647,7 @@ m3.large:
         Dedicated: 0.205
         Shared: 0.312
       Asia Pacific (Osaka):
-        Dedicated: 0.211
+        Dedicated: 0.303
         Shared: 0.284
       AWS GovCloud (US-West):
         Dedicated: 0.185
@@ -29425,6 +29683,7 @@ m3.large:
     - eu-west-1
     - Asia Pacific (Osaka)
     - ap-southeast-2
+    - ap-northeast-3
   storage: 1 x 32 SSD
   vcpu: 2
 m3.medium:
@@ -29481,6 +29740,8 @@ m3.medium:
       ap-northeast-2:
         Dedicated: 0.16032
         Shared: 0.151
+      ap-northeast-3:
+        Dedicated: 0.166
       ap-southeast-1:
         Dedicated: 0.168
         Shared: 0.158
@@ -29488,7 +29749,6 @@ m3.medium:
         Dedicated: 0.168
         Shared: 0.153
       Asia Pacific (Osaka):
-        Dedicated: 0.166
         Shared: 0.156
       AWS GovCloud (US-West):
         Dedicated: 0.152
@@ -29518,6 +29778,8 @@ m3.medium:
       ap-northeast-2:
         Dedicated: 0.20032
         Shared: 0.191
+      ap-northeast-3:
+        Dedicated: 0.206
       ap-southeast-1:
         Dedicated: 0.208
         Shared: 0.198
@@ -29555,6 +29817,8 @@ m3.medium:
       ap-northeast-2:
         Dedicated: 0.10032
         Shared: 0.137
+      ap-northeast-3:
+        Shared: 0.096
       ap-southeast-1:
         Dedicated: 0.108
         Shared: 0.098
@@ -29598,6 +29862,7 @@ m3.medium:
     - us-east-1
     - Asia Pacific (Osaka)
     - sa-east-1
+    - ap-northeast-3
   storage: 1 x 4 SSD
   vcpu: 1
 m3.xlarge:
@@ -29618,6 +29883,8 @@ m3.xlarge:
       ap-northeast-2:
         Dedicated: 0.402325
         Shared: 0.366
+      ap-northeast-3:
+        Dedicated: 0.422
       ap-southeast-1:
         Dedicated: 0.431
         Shared: 0.392
@@ -29625,7 +29892,6 @@ m3.xlarge:
         Dedicated: 0.409
         Shared: 0.372
       Asia Pacific (Osaka):
-        Dedicated: 0.422
         Shared: 0.384
       AWS GovCloud (US-West):
         Dedicated: 0.37
@@ -29655,6 +29921,8 @@ m3.xlarge:
       ap-northeast-2:
         Dedicated: 0.462325
         Shared: 0.426
+      ap-northeast-3:
+        Dedicated: 0.482
       ap-southeast-1:
         Dedicated: 0.491
         Shared: 0.452
@@ -29692,6 +29960,9 @@ m3.xlarge:
       ap-northeast-2:
         Dedicated: 0.502325
         Shared: 0.466
+      ap-northeast-3:
+        Dedicated: 0.522
+        Shared: 0.484
       ap-southeast-1:
         Dedicated: 0.531
         Shared: 0.492
@@ -29729,6 +30000,9 @@ m3.xlarge:
       ap-northeast-2:
         Dedicated: 0.402325
         Shared: 0.366
+      ap-northeast-3:
+        Dedicated: 0.606
+        Shared: 0.568
       ap-southeast-1:
         Dedicated: 0.431
         Shared: 0.644
@@ -29736,7 +30010,7 @@ m3.xlarge:
         Dedicated: 0.686
         Shared: 0.624
       Asia Pacific (Osaka):
-        Dedicated: 0.606
+        Dedicated: 0.422
         Shared: 0.568
       AWS GovCloud (US-West):
         Dedicated: 0.647
@@ -29772,6 +30046,7 @@ m3.xlarge:
     - us-east-1
     - us-west-1
     - ap-southeast-2
+    - ap-northeast-3
   storage: 2 x 40 SSD
   vcpu: 4
 m4.10xlarge:
@@ -29841,6 +30116,8 @@ m4.10xlarge:
       ap-northeast-2:
         Dedicated: 2.59
         Shared: 2.59
+      ap-northeast-3:
+        Dedicated: 2.71
       ap-south-1:
         Dedicated: 2.23
         Shared: 2.23
@@ -29851,7 +30128,6 @@ m4.10xlarge:
         Dedicated: 2.63
         Shared: 2.63
       Asia Pacific (Osaka):
-        Dedicated: 2.71
         Shared: 2.71
       AWS GovCloud (US-West):
         Dedicated: 2.65
@@ -29998,6 +30274,7 @@ m4.10xlarge:
     - us-east-1
     - eu-west-1
     - ap-northeast-2
+    - ap-northeast-3
     - eu-west-3
   storage: EBS only
   vcpu: 40
@@ -30019,6 +30296,8 @@ m4.16xlarge:
       ap-northeast-2:
         Dedicated: 3.936
         Shared: 3.936
+      ap-northeast-3:
+        Shared: 4.128
       ap-south-1:
         Dedicated: 3.36
         Shared: 3.36
@@ -30068,6 +30347,8 @@ m4.16xlarge:
       ap-northeast-2:
         Dedicated: 4.066
         Shared: 4.066
+      ap-northeast-3:
+        Dedicated: 4.258
       ap-south-1:
         Dedicated: 3.49
         Shared: 3.49
@@ -30117,6 +30398,8 @@ m4.16xlarge:
       ap-northeast-2:
         Dedicated: 4.036
         Shared: 4.036
+      ap-northeast-3:
+        Dedicated: 4.228
       ap-south-1:
         Dedicated: 3.46
         Shared: 3.46
@@ -30127,7 +30410,6 @@ m4.16xlarge:
         Dedicated: 4.1
         Shared: 4.1
       Asia Pacific (Osaka):
-        Dedicated: 4.228
         Shared: 4.228
       AWS GovCloud (US-West):
         Dedicated: 4.132
@@ -30166,6 +30448,8 @@ m4.16xlarge:
       ap-northeast-2:
         Dedicated: 3.936
         Shared: 6.88
+      ap-northeast-3:
+        Shared: 4.128
       ap-south-1:
         Dedicated: 6.304
         Shared: 3.36
@@ -30222,6 +30506,7 @@ m4.16xlarge:
     - us-east-1
     - eu-west-1
     - ap-southeast-2
+    - ap-northeast-3
     - eu-west-2
     - us-east-2
     - us-west-2
@@ -30246,6 +30531,8 @@ m4.2xlarge:
       ap-northeast-2:
         Dedicated: 0.5412
         Shared: 0.492
+      ap-northeast-3:
+        Dedicated: 0.5676
       ap-south-1:
         Dedicated: 0.462
         Shared: 0.42
@@ -30393,6 +30680,8 @@ m4.2xlarge:
       ap-northeast-2:
         Dedicated: 0.9092
         Shared: 0.492
+      ap-northeast-3:
+        Dedicated: 0.5676
       ap-south-1:
         Dedicated: 0.83
         Shared: 0.42
@@ -30403,7 +30692,7 @@ m4.2xlarge:
         Dedicated: 0.918
         Shared: 0.868
       Asia Pacific (Osaka):
-        Dedicated: 0.5676
+        Dedicated: 0.9356
         Shared: 0.516
       AWS GovCloud (US-West):
         Dedicated: 0.5544
@@ -30452,6 +30741,7 @@ m4.2xlarge:
     - ca-central-1
     - ap-south-1
     - sa-east-1
+    - ap-northeast-3
     - eu-west-3
   storage: EBS only
   vcpu: 8
@@ -30473,6 +30763,8 @@ m4.4xlarge:
       ap-northeast-2:
         Dedicated: 1.0824
         Shared: 0.984
+      ap-northeast-3:
+        Dedicated: 1.1352
       ap-south-1:
         Dedicated: 0.924
         Shared: 0.84
@@ -30522,6 +30814,9 @@ m4.4xlarge:
       ap-northeast-2:
         Dedicated: 1.2124
         Shared: 1.114
+      ap-northeast-3:
+        Dedicated: 1.2652
+        Shared: 1.162
       ap-south-1:
         Dedicated: 1.054
         Shared: 0.97
@@ -30532,7 +30827,6 @@ m4.4xlarge:
         Dedicated: 1.23
         Shared: 1.13
       Asia Pacific (Osaka):
-        Dedicated: 1.2652
         Shared: 1.162
       AWS GovCloud (US-West):
         Dedicated: 1.2388
@@ -30571,6 +30865,8 @@ m4.4xlarge:
       ap-northeast-2:
         Dedicated: 1.1824
         Shared: 1.084
+      ap-northeast-3:
+        Dedicated: 1.2352
       ap-south-1:
         Dedicated: 1.024
         Shared: 0.94
@@ -30581,7 +30877,6 @@ m4.4xlarge:
         Dedicated: 1.2
         Shared: 1.1
       Asia Pacific (Osaka):
-        Dedicated: 1.2352
         Shared: 1.132
       AWS GovCloud (US-West):
         Dedicated: 1.2088
@@ -30620,6 +30915,8 @@ m4.4xlarge:
       ap-northeast-2:
         Dedicated: 1.8184
         Shared: 1.72
+      ap-northeast-3:
+        Dedicated: 1.8712
       ap-south-1:
         Dedicated: 1.66
         Shared: 0.84
@@ -30630,7 +30927,7 @@ m4.4xlarge:
         Dedicated: 1.1
         Shared: 1.736
       Asia Pacific (Osaka):
-        Dedicated: 1.8712
+        Dedicated: 1.1352
         Shared: 1.032
       AWS GovCloud (US-West):
         Dedicated: 1.8448
@@ -30679,6 +30976,7 @@ m4.4xlarge:
     - us-west-1
     - eu-west-2
     - AWS GovCloud (US-West)
+    - ap-northeast-3
     - eu-west-3
   storage: EBS only
   vcpu: 16
@@ -30700,6 +30998,8 @@ m4.large:
       ap-northeast-2:
         Dedicated: 0.1353
         Shared: 0.123
+      ap-northeast-3:
+        Dedicated: 0.1419
       ap-south-1:
         Dedicated: 0.1155
         Shared: 0.105
@@ -30749,6 +31049,8 @@ m4.large:
       ap-northeast-2:
         Dedicated: 0.1953
         Shared: 0.183
+      ap-northeast-3:
+        Dedicated: 0.2019
       ap-south-1:
         Dedicated: 0.1755
         Shared: 0.165
@@ -30798,6 +31100,8 @@ m4.large:
       ap-northeast-2:
         Dedicated: 0.2353
         Shared: 0.223
+      ap-northeast-3:
+        Shared: 0.229
       ap-south-1:
         Dedicated: 0.2155
         Shared: 0.205
@@ -30847,6 +31151,9 @@ m4.large:
       ap-northeast-2:
         Dedicated: 0.2273
         Shared: 0.215
+      ap-northeast-3:
+        Dedicated: 0.1419
+        Shared: 0.221
       ap-south-1:
         Dedicated: 0.2075
         Shared: 0.105
@@ -30901,9 +31208,10 @@ m4.large:
     - ca-central-1
     - us-east-2
     - ap-southeast-2
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - us-east-1
     - ap-southeast-1
+    - Asia Pacific (Osaka)
     - ap-northeast-2
     - AWS GovCloud (US-West)
     - eu-west-3
@@ -30927,6 +31235,8 @@ m4.xlarge:
       ap-northeast-2:
         Dedicated: 0.2706
         Shared: 0.246
+      ap-northeast-3:
+        Shared: 0.258
       ap-south-1:
         Dedicated: 0.231
         Shared: 0.21
@@ -30938,7 +31248,6 @@ m4.xlarge:
         Shared: 0.25
       Asia Pacific (Osaka):
         Dedicated: 0.2838
-        Shared: 0.258
       AWS GovCloud (US-West):
         Dedicated: 0.2772
         Shared: 0.252
@@ -30976,6 +31285,9 @@ m4.xlarge:
       ap-northeast-2:
         Dedicated: 0.3306
         Shared: 0.306
+      ap-northeast-3:
+        Dedicated: 0.3438
+        Shared: 0.318
       ap-south-1:
         Dedicated: 0.291
         Shared: 0.27
@@ -31025,6 +31337,8 @@ m4.xlarge:
       ap-northeast-2:
         Dedicated: 0.3706
         Shared: 0.346
+      ap-northeast-3:
+        Dedicated: 0.3838
       ap-south-1:
         Dedicated: 0.331
         Shared: 0.31
@@ -31074,6 +31388,8 @@ m4.xlarge:
       ap-northeast-2:
         Dedicated: 0.4546
         Shared: 0.246
+      ap-northeast-3:
+        Shared: 0.258
       ap-south-1:
         Dedicated: 0.231
         Shared: 0.21
@@ -31131,6 +31447,7 @@ m4.xlarge:
     - ap-southeast-1
     - AWS GovCloud (US-West)
     - us-west-1
+    - ap-northeast-3
     - eu-west-1
     - ap-northeast-2
     - eu-west-3
@@ -31160,6 +31477,9 @@ m5.12xlarge:
       ap-northeast-2:
         Dedicated: 3
         Shared: 2.832
+      ap-northeast-3:
+        Dedicated: 3.173
+        Shared: 2.976
       ap-south-1:
         Dedicated: 2.572
         Shared: 2.424
@@ -31169,9 +31489,6 @@ m5.12xlarge:
       ap-southeast-2:
         Dedicated: 3.07
         Shared: 2.88
-      Asia Pacific (Osaka):
-        Dedicated: 3.173
-        Shared: 2.976
       AWS GovCloud (US-West):
         Dedicated: 3.094
         Shared: 2.904
@@ -31233,6 +31550,8 @@ m5.12xlarge:
       ap-northeast-2:
         Dedicated: 3.13
         Shared: 2.962
+      ap-northeast-3:
+        Shared: 3.106
       ap-south-1:
         Dedicated: 2.702
         Shared: 2.554
@@ -31244,7 +31563,6 @@ m5.12xlarge:
         Shared: 3.01
       Asia Pacific (Osaka):
         Dedicated: 3.303
-        Shared: 3.106
       AWS GovCloud (US-West):
         Dedicated: 3.224
         Shared: 3.034
@@ -31306,6 +31624,8 @@ m5.12xlarge:
       ap-northeast-2:
         Dedicated: 3.1
         Shared: 2.932
+      ap-northeast-3:
+        Shared: 3.076
       ap-south-1:
         Dedicated: 2.672
         Shared: 2.524
@@ -31317,7 +31637,6 @@ m5.12xlarge:
         Shared: 2.98
       Asia Pacific (Osaka):
         Dedicated: 3.273
-        Shared: 3.076
       AWS GovCloud (US-West):
         Dedicated: 3.194
         Shared: 3.004
@@ -31379,6 +31698,9 @@ m5.12xlarge:
       ap-northeast-2:
         Dedicated: 5.208
         Shared: 2.832
+      ap-northeast-3:
+        Dedicated: 5.381
+        Shared: 2.976
       ap-south-1:
         Dedicated: 2.572
         Shared: 4.632
@@ -31389,8 +31711,8 @@ m5.12xlarge:
         Dedicated: 3.07
         Shared: 2.88
       Asia Pacific (Osaka):
-        Dedicated: 5.381
-        Shared: 2.976
+        Dedicated: 3.173
+        Shared: 5.184
       AWS GovCloud (US-West):
         Dedicated: 3.094
         Shared: 5.112
@@ -31464,6 +31786,7 @@ m5.12xlarge:
     - us-east-2
     - ca-central-1
     - EU (Milan)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 48
 m5.16xlarge:
@@ -31490,6 +31813,8 @@ m5.16xlarge:
       ap-northeast-2:
         Dedicated: 4
         Shared: 3.776
+      ap-northeast-3:
+        Dedicated: 4.231
       ap-south-1:
         Dedicated: 3.43
         Shared: 3.232
@@ -31500,7 +31825,6 @@ m5.16xlarge:
         Dedicated: 4.093
         Shared: 3.84
       Asia Pacific (Osaka):
-        Dedicated: 4.231
         Shared: 3.968
       AWS GovCloud (US-West):
         Dedicated: 4.126
@@ -31563,6 +31887,8 @@ m5.16xlarge:
       ap-northeast-2:
         Dedicated: 4.13
         Shared: 3.906
+      ap-northeast-3:
+        Shared: 4.098
       ap-south-1:
         Dedicated: 3.56
         Shared: 3.362
@@ -31574,7 +31900,6 @@ m5.16xlarge:
         Shared: 3.97
       Asia Pacific (Osaka):
         Dedicated: 4.361
-        Shared: 4.098
       AWS GovCloud (US-West):
         Dedicated: 4.256
         Shared: 4.002
@@ -31636,6 +31961,8 @@ m5.16xlarge:
       ap-northeast-2:
         Dedicated: 4.1
         Shared: 3.876
+      ap-northeast-3:
+        Dedicated: 4.331
       ap-south-1:
         Dedicated: 3.53
         Shared: 3.332
@@ -31646,7 +31973,6 @@ m5.16xlarge:
         Dedicated: 4.193
         Shared: 3.94
       Asia Pacific (Osaka):
-        Dedicated: 4.331
         Shared: 4.068
       AWS GovCloud (US-West):
         Dedicated: 4.226
@@ -31709,6 +32035,9 @@ m5.16xlarge:
       ap-northeast-2:
         Dedicated: 6.944
         Shared: 6.72
+      ap-northeast-3:
+        Dedicated: 7.175
+        Shared: 6.912
       ap-south-1:
         Dedicated: 6.374
         Shared: 6.176
@@ -31719,7 +32048,6 @@ m5.16xlarge:
         Dedicated: 7.037
         Shared: 6.784
       Asia Pacific (Osaka):
-        Dedicated: 7.175
         Shared: 3.968
       AWS GovCloud (US-West):
         Dedicated: 7.07
@@ -31775,7 +32103,7 @@ m5.16xlarge:
     - ca-central-1
     - eu-north-1
     - ap-southeast-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-southeast-2
     - us-east-1
     - ap-south-1
@@ -31794,6 +32122,7 @@ m5.16xlarge:
     - af-south-1
     - eu-west-3
     - eu-west-2
+    - Asia Pacific (Osaka)
   storage: EBS only
   vcpu: 64
 m5.24xlarge:
@@ -31820,6 +32149,8 @@ m5.24xlarge:
       ap-northeast-2:
         Dedicated: 5.664
         Shared: 5.664
+      ap-northeast-3:
+        Dedicated: 5.952
       ap-south-1:
         Dedicated: 4.848
         Shared: 4.848
@@ -31830,7 +32161,6 @@ m5.24xlarge:
         Dedicated: 5.76
         Shared: 5.76
       Asia Pacific (Osaka):
-        Dedicated: 5.952
         Shared: 5.952
       AWS GovCloud (US-West):
         Dedicated: 5.808
@@ -31966,6 +32296,9 @@ m5.24xlarge:
       ap-northeast-2:
         Dedicated: 5.764
         Shared: 5.764
+      ap-northeast-3:
+        Dedicated: 6.052
+        Shared: 6.052
       ap-south-1:
         Dedicated: 4.948
         Shared: 4.948
@@ -31975,9 +32308,6 @@ m5.24xlarge:
       ap-southeast-2:
         Dedicated: 5.86
         Shared: 5.86
-      Asia Pacific (Osaka):
-        Dedicated: 6.052
-        Shared: 6.052
       AWS GovCloud (US-West):
         Dedicated: 5.908
         Shared: 5.908
@@ -32039,6 +32369,8 @@ m5.24xlarge:
       ap-northeast-2:
         Dedicated: 10.08
         Shared: 5.664
+      ap-northeast-3:
+        Dedicated: 5.952
       ap-south-1:
         Dedicated: 9.264
         Shared: 9.264
@@ -32049,7 +32381,7 @@ m5.24xlarge:
         Dedicated: 10.176
         Shared: 5.76
       Asia Pacific (Osaka):
-        Dedicated: 5.952
+        Dedicated: 10.368
         Shared: 5.952
       AWS GovCloud (US-West):
         Dedicated: 5.808
@@ -32124,6 +32456,7 @@ m5.24xlarge:
     - Asia Pacific (Osaka)
     - us-west-1
     - eu-north-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 96
 m5.2xlarge:
@@ -32150,6 +32483,9 @@ m5.2xlarge:
       ap-northeast-2:
         Dedicated: 0.5
         Shared: 0.472
+      ap-northeast-3:
+        Dedicated: 0.529
+        Shared: 0.496
       ap-south-1:
         Dedicated: 0.429
         Shared: 0.404
@@ -32159,9 +32495,6 @@ m5.2xlarge:
       ap-southeast-2:
         Dedicated: 0.512
         Shared: 0.48
-      Asia Pacific (Osaka):
-        Dedicated: 0.529
-        Shared: 0.496
       AWS GovCloud (US-West):
         Dedicated: 0.516
         Shared: 0.484
@@ -32369,6 +32702,8 @@ m5.2xlarge:
       ap-northeast-2:
         Dedicated: 0.868
         Shared: 0.84
+      ap-northeast-3:
+        Dedicated: 0.529
       ap-south-1:
         Dedicated: 0.797
         Shared: 0.772
@@ -32454,6 +32789,7 @@ m5.2xlarge:
     - us-west-2
     - ca-central-1
     - us-west-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 8
 m5.4xlarge:
@@ -32553,6 +32889,8 @@ m5.4xlarge:
       ap-northeast-2:
         Dedicated: 1.13
         Shared: 1.074
+      ap-northeast-3:
+        Shared: 1.122
       ap-south-1:
         Dedicated: 0.987
         Shared: 0.938
@@ -32564,7 +32902,6 @@ m5.4xlarge:
         Shared: 1.09
       Asia Pacific (Osaka):
         Dedicated: 1.188
-        Shared: 1.122
       AWS GovCloud (US-West):
         Dedicated: 1.161
         Shared: 1.098
@@ -32626,6 +32963,8 @@ m5.4xlarge:
       ap-northeast-2:
         Dedicated: 1.1
         Shared: 1.044
+      ap-northeast-3:
+        Dedicated: 1.158
       ap-south-1:
         Dedicated: 0.957
         Shared: 0.908
@@ -32636,7 +32975,6 @@ m5.4xlarge:
         Dedicated: 1.123
         Shared: 1.06
       Asia Pacific (Osaka):
-        Dedicated: 1.158
         Shared: 1.092
       AWS GovCloud (US-West):
         Dedicated: 1.131
@@ -32699,6 +33037,9 @@ m5.4xlarge:
       ap-northeast-2:
         Dedicated: 1.736
         Shared: 1.68
+      ap-northeast-3:
+        Dedicated: 1.058
+        Shared: 1.728
       ap-south-1:
         Dedicated: 1.593
         Shared: 1.544
@@ -32709,7 +33050,6 @@ m5.4xlarge:
         Dedicated: 1.759
         Shared: 1.696
       Asia Pacific (Osaka):
-        Dedicated: 1.058
         Shared: 0.992
       AWS GovCloud (US-West):
         Dedicated: 1.767
@@ -32776,6 +33116,7 @@ m5.4xlarge:
     - ca-central-1
     - EU (Milan)
     - af-south-1
+    - ap-northeast-3
     - eu-west-3
     - ap-south-1
     - AWS GovCloud (US-West)
@@ -32810,6 +33151,8 @@ m5.8xlarge:
       ap-northeast-2:
         Dedicated: 2
         Shared: 1.888
+      ap-northeast-3:
+        Shared: 1.984
       ap-south-1:
         Dedicated: 1.715
         Shared: 1.616
@@ -32821,7 +33164,6 @@ m5.8xlarge:
         Shared: 1.92
       Asia Pacific (Osaka):
         Dedicated: 2.116
-        Shared: 1.984
       AWS GovCloud (US-West):
         Dedicated: 2.063
         Shared: 1.936
@@ -32883,6 +33225,8 @@ m5.8xlarge:
       ap-northeast-2:
         Dedicated: 2.13
         Shared: 2.018
+      ap-northeast-3:
+        Shared: 2.114
       ap-south-1:
         Dedicated: 1.845
         Shared: 1.746
@@ -32894,7 +33238,6 @@ m5.8xlarge:
         Shared: 2.05
       Asia Pacific (Osaka):
         Dedicated: 2.246
-        Shared: 2.114
       AWS GovCloud (US-West):
         Dedicated: 2.193
         Shared: 2.066
@@ -32956,6 +33299,8 @@ m5.8xlarge:
       ap-northeast-2:
         Dedicated: 2.1
         Shared: 1.988
+      ap-northeast-3:
+        Shared: 2.084
       ap-south-1:
         Dedicated: 1.815
         Shared: 1.716
@@ -32967,7 +33312,6 @@ m5.8xlarge:
         Shared: 2.02
       Asia Pacific (Osaka):
         Dedicated: 2.216
-        Shared: 2.084
       AWS GovCloud (US-West):
         Dedicated: 2.163
         Shared: 2.036
@@ -33029,6 +33373,8 @@ m5.8xlarge:
       ap-northeast-2:
         Dedicated: 3.472
         Shared: 3.36
+      ap-northeast-3:
+        Dedicated: 3.588
       ap-south-1:
         Dedicated: 3.187
         Shared: 3.088
@@ -33039,7 +33385,7 @@ m5.8xlarge:
         Dedicated: 3.519
         Shared: 3.392
       Asia Pacific (Osaka):
-        Dedicated: 3.588
+        Dedicated: 2.116
         Shared: 3.456
       AWS GovCloud (US-West):
         Dedicated: 2.063
@@ -33114,6 +33460,7 @@ m5.8xlarge:
     - ap-south-1
     - us-west-2
     - us-gov-east-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 32
 m5.large:
@@ -33286,6 +33633,8 @@ m5.large:
       ap-northeast-2:
         Dedicated: 0.225
         Shared: 0.218
+      ap-northeast-3:
+        Shared: 0.224
       ap-south-1:
         Dedicated: 0.207
         Shared: 0.201
@@ -33297,7 +33646,6 @@ m5.large:
         Shared: 0.22
       Asia Pacific (Osaka):
         Dedicated: 0.232
-        Shared: 0.224
       AWS GovCloud (US-West):
         Dedicated: 0.229
         Shared: 0.221
@@ -33359,6 +33707,8 @@ m5.large:
       ap-northeast-2:
         Dedicated: 0.217
         Shared: 0.21
+      ap-northeast-3:
+        Shared: 0.124
       ap-south-1:
         Dedicated: 0.199
         Shared: 0.193
@@ -33370,7 +33720,7 @@ m5.large:
         Shared: 0.212
       Asia Pacific (Osaka):
         Dedicated: 0.224
-        Shared: 0.124
+        Shared: 0.216
       AWS GovCloud (US-West):
         Dedicated: 0.221
         Shared: 0.121
@@ -33444,6 +33794,7 @@ m5.large:
     - ca-central-1
     - us-east-1
     - us-east-2
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 m5.metal:
@@ -33470,6 +33821,8 @@ m5.metal:
       ap-northeast-2:
         Dedicated: 5.664
         Shared: 5.664
+      ap-northeast-3:
+        Dedicated: 5.952
       ap-south-1:
         Dedicated: 4.848
         Shared: 4.848
@@ -33480,7 +33833,6 @@ m5.metal:
         Dedicated: 5.76
         Shared: 5.76
       Asia Pacific (Osaka):
-        Dedicated: 5.952
         Shared: 5.952
       AWS GovCloud (US-West):
         Dedicated: 5.808
@@ -33616,6 +33968,9 @@ m5.metal:
       ap-northeast-2:
         Dedicated: 5.764
         Shared: 5.764
+      ap-northeast-3:
+        Dedicated: 6.052
+        Shared: 6.052
       ap-south-1:
         Dedicated: 4.948
         Shared: 4.948
@@ -33625,9 +33980,6 @@ m5.metal:
       ap-southeast-2:
         Dedicated: 5.86
         Shared: 5.86
-      Asia Pacific (Osaka):
-        Dedicated: 6.052
-        Shared: 6.052
       AWS GovCloud (US-West):
         Dedicated: 5.908
         Shared: 5.908
@@ -33771,8 +34123,9 @@ m5.metal:
     - EU (Milan)
     - us-gov-east-1
     - ap-south-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - us-west-1
+    - Asia Pacific (Osaka)
     - me-south-1
   storage: EBS only
   vcpu: 96
@@ -33800,6 +34153,8 @@ m5.xlarge:
       ap-northeast-2:
         Dedicated: 0.25
         Shared: 0.236
+      ap-northeast-3:
+        Shared: 0.248
       ap-south-1:
         Dedicated: 0.214
         Shared: 0.202
@@ -33811,7 +34166,6 @@ m5.xlarge:
         Shared: 0.24
       Asia Pacific (Osaka):
         Dedicated: 0.264
-        Shared: 0.248
       AWS GovCloud (US-West):
         Dedicated: 0.258
         Shared: 0.242
@@ -33873,6 +34227,8 @@ m5.xlarge:
       ap-northeast-2:
         Dedicated: 0.31
         Shared: 0.296
+      ap-northeast-3:
+        Shared: 0.308
       ap-south-1:
         Dedicated: 0.274
         Shared: 0.262
@@ -33884,7 +34240,6 @@ m5.xlarge:
         Shared: 0.3
       Asia Pacific (Osaka):
         Dedicated: 0.324
-        Shared: 0.308
       AWS GovCloud (US-West):
         Dedicated: 0.318
         Shared: 0.302
@@ -33946,6 +34301,8 @@ m5.xlarge:
       ap-northeast-2:
         Dedicated: 0.35
         Shared: 0.336
+      ap-northeast-3:
+        Shared: 0.348
       ap-south-1:
         Dedicated: 0.314
         Shared: 0.302
@@ -33957,7 +34314,6 @@ m5.xlarge:
         Shared: 0.34
       Asia Pacific (Osaka):
         Dedicated: 0.364
-        Shared: 0.348
       AWS GovCloud (US-West):
         Dedicated: 0.358
         Shared: 0.342
@@ -34104,6 +34460,7 @@ m5.xlarge:
     - us-west-2
     - me-south-1
     - us-west-2-lax-1a
+    - ap-northeast-3
   storage: EBS only
   vcpu: 4
 m5a.12xlarge:
@@ -34123,6 +34480,8 @@ m5a.12xlarge:
       ap-northeast-2:
         Dedicated: 2.695
         Shared: 2.544
+      ap-northeast-3:
+        Shared: 2.688
       ap-south-1:
         Dedicated: 1.415
         Shared: 1.333
@@ -34134,7 +34493,6 @@ m5a.12xlarge:
         Shared: 2.592
       Asia Pacific (Osaka):
         Dedicated: 2.866
-        Shared: 2.688
       AWS GovCloud (US-West):
         Dedicated: 2.787
         Shared: 2.616
@@ -34178,6 +34536,8 @@ m5a.12xlarge:
       ap-northeast-2:
         Dedicated: 2.825
         Shared: 2.674
+      ap-northeast-3:
+        Dedicated: 2.996
       ap-south-1:
         Dedicated: 1.545
         Shared: 1.463
@@ -34188,7 +34548,6 @@ m5a.12xlarge:
         Dedicated: 2.893
         Shared: 2.722
       Asia Pacific (Osaka):
-        Dedicated: 2.996
         Shared: 2.818
       AWS GovCloud (US-West):
         Dedicated: 2.917
@@ -34288,6 +34647,9 @@ m5a.12xlarge:
       ap-northeast-2:
         Dedicated: 4.903
         Shared: 4.752
+      ap-northeast-3:
+        Dedicated: 5.074
+        Shared: 4.896
       ap-south-1:
         Dedicated: 3.623
         Shared: 3.541
@@ -34299,7 +34661,7 @@ m5a.12xlarge:
         Shared: 4.8
       Asia Pacific (Osaka):
         Dedicated: 2.866
-        Shared: 4.896
+        Shared: 2.688
       AWS GovCloud (US-West):
         Dedicated: 2.787
         Shared: 2.616
@@ -34354,6 +34716,7 @@ m5a.12xlarge:
     - ca-central-1
     - ap-southeast-2
     - eu-west-1
+    - ap-northeast-3
     - Asia Pacific (Osaka)
   storage: EBS only
   vcpu: 48
@@ -34429,6 +34792,8 @@ m5a.16xlarge:
       ap-northeast-2:
         Dedicated: 3.723
         Shared: 3.522
+      ap-northeast-3:
+        Shared: 3.714
       ap-south-1:
         Dedicated: 2.016
         Shared: 1.908
@@ -34440,7 +34805,6 @@ m5a.16xlarge:
         Shared: 3.586
       Asia Pacific (Osaka):
         Dedicated: 3.951
-        Shared: 3.714
       AWS GovCloud (US-West):
         Dedicated: 3.846
         Shared: 3.618
@@ -34484,6 +34848,8 @@ m5a.16xlarge:
       ap-northeast-2:
         Dedicated: 3.743
         Shared: 3.542
+      ap-northeast-3:
+        Shared: 3.734
       ap-south-1:
         Dedicated: 2.036
         Shared: 1.928
@@ -34495,7 +34861,6 @@ m5a.16xlarge:
         Shared: 3.606
       Asia Pacific (Osaka):
         Dedicated: 3.971
-        Shared: 3.734
       AWS GovCloud (US-West):
         Dedicated: 3.866
         Shared: 3.638
@@ -34539,6 +34904,8 @@ m5a.16xlarge:
       ap-northeast-2:
         Dedicated: 6.537
         Shared: 6.336
+      ap-northeast-3:
+        Shared: 6.528
       ap-south-1:
         Dedicated: 4.83
         Shared: 4.722
@@ -34550,7 +34917,6 @@ m5a.16xlarge:
         Shared: 6.4
       Asia Pacific (Osaka):
         Dedicated: 6.765
-        Shared: 6.528
       AWS GovCloud (US-West):
         Dedicated: 6.66
         Shared: 6.432
@@ -34605,6 +34971,7 @@ m5a.16xlarge:
     - AWS GovCloud (US-West)
     - us-west-2
     - ca-central-1
+    - ap-northeast-3
     - eu-west-1
   storage: EBS only
   vcpu: 64
@@ -34625,6 +34992,8 @@ m5a.24xlarge:
       ap-northeast-2:
         Dedicated: 5.39
         Shared: 5.088
+      ap-northeast-3:
+        Shared: 5.376
       ap-south-1:
         Dedicated: 2.83
         Shared: 2.666
@@ -34636,7 +35005,6 @@ m5a.24xlarge:
         Shared: 5.184
       Asia Pacific (Osaka):
         Dedicated: 5.732
-        Shared: 5.376
       AWS GovCloud (US-West):
         Dedicated: 5.574
         Shared: 5.232
@@ -34790,6 +35158,8 @@ m5a.24xlarge:
       ap-northeast-2:
         Dedicated: 9.806
         Shared: 9.504
+      ap-northeast-3:
+        Shared: 9.792
       ap-south-1:
         Dedicated: 7.246
         Shared: 7.082
@@ -34801,7 +35171,7 @@ m5a.24xlarge:
         Shared: 9.6
       Asia Pacific (Osaka):
         Dedicated: 10.148
-        Shared: 9.792
+        Shared: 5.376
       AWS GovCloud (US-West):
         Dedicated: 5.574
         Shared: 5.232
@@ -34857,6 +35227,7 @@ m5a.24xlarge:
     - ap-southeast-1
     - us-east-2
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 96
 m5a.2xlarge:
@@ -35041,6 +35412,8 @@ m5a.2xlarge:
       ap-northeast-2:
         Dedicated: 0.817
         Shared: 0.792
+      ap-northeast-3:
+        Dedicated: 0.478
       ap-south-1:
         Dedicated: 0.604
         Shared: 0.59
@@ -35051,7 +35424,7 @@ m5a.2xlarge:
         Dedicated: 0.828
         Shared: 0.8
       Asia Pacific (Osaka):
-        Dedicated: 0.478
+        Dedicated: 0.846
         Shared: 0.448
       AWS GovCloud (US-West):
         Dedicated: 0.833
@@ -35108,6 +35481,7 @@ m5a.2xlarge:
     - ap-southeast-2
     - us-gov-east-1
     - ap-northeast-2
+    - ap-northeast-3
   storage: EBS only
   vcpu: 8
 m5a.4xlarge:
@@ -35182,6 +35556,8 @@ m5a.4xlarge:
       ap-northeast-2:
         Dedicated: 1.028
         Shared: 0.978
+      ap-northeast-3:
+        Dedicated: 1.085
       ap-south-1:
         Dedicated: 0.602
         Shared: 0.574
@@ -35192,7 +35568,6 @@ m5a.4xlarge:
         Dedicated: 1.051
         Shared: 0.994
       Asia Pacific (Osaka):
-        Dedicated: 1.085
         Shared: 1.026
       AWS GovCloud (US-West):
         Dedicated: 1.059
@@ -35237,6 +35612,9 @@ m5a.4xlarge:
       ap-northeast-2:
         Dedicated: 1.048
         Shared: 0.998
+      ap-northeast-3:
+        Dedicated: 1.105
+        Shared: 1.046
       ap-south-1:
         Dedicated: 0.622
         Shared: 0.594
@@ -35246,9 +35624,6 @@ m5a.4xlarge:
       ap-southeast-2:
         Dedicated: 1.071
         Shared: 1.014
-      Asia Pacific (Osaka):
-        Dedicated: 1.105
-        Shared: 1.046
       AWS GovCloud (US-West):
         Dedicated: 1.079
         Shared: 1.022
@@ -35292,6 +35667,8 @@ m5a.4xlarge:
       ap-northeast-2:
         Dedicated: 1.634
         Shared: 1.584
+      ap-northeast-3:
+        Shared: 0.896
       ap-south-1:
         Dedicated: 1.208
         Shared: 1.18
@@ -35359,6 +35736,7 @@ m5a.4xlarge:
     - us-gov-east-1
     - us-east-2
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 16
 m5a.8xlarge:
@@ -35543,6 +35921,8 @@ m5a.8xlarge:
       ap-northeast-2:
         Dedicated: 3.269
         Shared: 3.168
+      ap-northeast-3:
+        Shared: 1.792
       ap-south-1:
         Dedicated: 2.415
         Shared: 2.361
@@ -35610,6 +35990,7 @@ m5a.8xlarge:
     - us-east-1
     - eu-west-2
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 32
 m5a.large:
@@ -35861,6 +36242,7 @@ m5a.large:
     - eu-central-1
     - AWS GovCloud (US-West)
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 m5a.xlarge:
@@ -35990,6 +36372,8 @@ m5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.35
         Shared: 0.337
+      ap-northeast-3:
+        Dedicated: 0.364
       ap-south-1:
         Dedicated: 0.243
         Shared: 0.236
@@ -36000,7 +36384,6 @@ m5a.xlarge:
         Dedicated: 0.355
         Shared: 0.341
       Asia Pacific (Osaka):
-        Dedicated: 0.364
         Shared: 0.349
       AWS GovCloud (US-West):
         Dedicated: 0.357
@@ -36045,6 +36428,8 @@ m5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.409
         Shared: 0.396
+      ap-northeast-3:
+        Dedicated: 0.239
       ap-south-1:
         Dedicated: 0.302
         Shared: 0.295
@@ -36112,6 +36497,7 @@ m5a.xlarge:
     - eu-central-1
     - us-gov-east-1
     - ca-central-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 4
 m5ad.12xlarge:
@@ -36131,6 +36517,8 @@ m5ad.12xlarge:
       ap-northeast-2:
         Dedicated: 3.229
         Shared: 3.048
+      ap-northeast-3:
+        Dedicated: 3.404
       ap-south-1:
         Dedicated: 1.709
         Shared: 1.61
@@ -36141,7 +36529,6 @@ m5ad.12xlarge:
         Dedicated: 3.324
         Shared: 3.12
       Asia Pacific (Osaka):
-        Dedicated: 3.404
         Shared: 3.192
       AWS GovCloud (US-West):
         Dedicated: 3.349
@@ -36287,6 +36674,9 @@ m5ad.12xlarge:
       ap-northeast-2:
         Dedicated: 5.437
         Shared: 5.256
+      ap-northeast-3:
+        Dedicated: 3.404
+        Shared: 3.192
       ap-south-1:
         Dedicated: 3.917
         Shared: 3.818
@@ -36350,6 +36740,7 @@ m5ad.12xlarge:
     - us-west-2
     - us-east-1
     - us-west-1
+    - ap-northeast-3
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 m5ad.16xlarge:
@@ -36418,6 +36809,8 @@ m5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 4.435
         Shared: 4.194
+      ap-northeast-3:
+        Shared: 4.386
       ap-south-1:
         Dedicated: 2.409
         Shared: 2.277
@@ -36429,7 +36822,6 @@ m5ad.16xlarge:
         Shared: 4.29
       Asia Pacific (Osaka):
         Dedicated: 4.668
-        Shared: 4.386
       AWS GovCloud (US-West):
         Dedicated: 4.595
         Shared: 4.322
@@ -36467,6 +36859,8 @@ m5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 4.455
         Shared: 4.214
+      ap-northeast-3:
+        Dedicated: 4.688
       ap-south-1:
         Dedicated: 2.429
         Shared: 2.297
@@ -36477,7 +36871,6 @@ m5ad.16xlarge:
         Dedicated: 4.583
         Shared: 4.31
       Asia Pacific (Osaka):
-        Dedicated: 4.688
         Shared: 4.406
       AWS GovCloud (US-West):
         Dedicated: 4.615
@@ -36516,6 +36909,8 @@ m5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 7.249
         Shared: 7.008
+      ap-northeast-3:
+        Shared: 4.256
       ap-south-1:
         Dedicated: 5.223
         Shared: 5.091
@@ -36527,7 +36922,7 @@ m5ad.16xlarge:
         Shared: 7.104
       Asia Pacific (Osaka):
         Dedicated: 4.538
-        Shared: 4.256
+        Shared: 7.2
       AWS GovCloud (US-West):
         Dedicated: 7.409
         Shared: 7.136
@@ -36575,6 +36970,7 @@ m5ad.16xlarge:
     - us-west-1
     - Asia Pacific (Osaka)
     - ap-southeast-2
+    - ap-northeast-3
   storage: 4 x 600 NVMe SSD
   vcpu: 64
 m5ad.24xlarge:
@@ -36594,6 +36990,8 @@ m5ad.24xlarge:
       ap-northeast-2:
         Dedicated: 6.458
         Shared: 6.096
+      ap-northeast-3:
+        Shared: 6.384
       ap-south-1:
         Dedicated: 3.418
         Shared: 3.221
@@ -36605,7 +37003,6 @@ m5ad.24xlarge:
         Shared: 6.24
       Asia Pacific (Osaka):
         Dedicated: 6.808
-        Shared: 6.384
       AWS GovCloud (US-West):
         Dedicated: 6.697
         Shared: 6.288
@@ -36646,6 +37043,9 @@ m5ad.24xlarge:
       ap-northeast-2:
         Dedicated: 6.588
         Shared: 6.226
+      ap-northeast-3:
+        Dedicated: 6.938
+        Shared: 6.514
       ap-south-1:
         Dedicated: 3.548
         Shared: 3.351
@@ -36655,9 +37055,6 @@ m5ad.24xlarge:
       ap-southeast-2:
         Dedicated: 6.779
         Shared: 6.37
-      Asia Pacific (Osaka):
-        Dedicated: 6.938
-        Shared: 6.514
       AWS GovCloud (US-West):
         Dedicated: 6.827
         Shared: 6.418
@@ -36750,6 +37147,8 @@ m5ad.24xlarge:
       ap-northeast-2:
         Dedicated: 10.874
         Shared: 10.512
+      ap-northeast-3:
+        Shared: 6.384
       ap-south-1:
         Dedicated: 7.834
         Shared: 7.637
@@ -36761,7 +37160,6 @@ m5ad.24xlarge:
         Shared: 10.656
       Asia Pacific (Osaka):
         Dedicated: 11.224
-        Shared: 6.384
       AWS GovCloud (US-West):
         Dedicated: 6.697
         Shared: 6.288
@@ -36813,6 +37211,7 @@ m5ad.24xlarge:
     - eu-west-1
     - ap-southeast-1
     - ap-south-1
+    - ap-northeast-3
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5ad.2xlarge:
@@ -36936,6 +37335,8 @@ m5ad.2xlarge:
       ap-northeast-2:
         Dedicated: 0.688
         Shared: 0.658
+      ap-northeast-3:
+        Dedicated: 0.717
       ap-south-1:
         Dedicated: 0.435
         Shared: 0.418
@@ -36946,7 +37347,6 @@ m5ad.2xlarge:
         Dedicated: 0.704
         Shared: 0.67
       Asia Pacific (Osaka):
-        Dedicated: 0.717
         Shared: 0.682
       AWS GovCloud (US-West):
         Dedicated: 0.708
@@ -37050,6 +37450,7 @@ m5ad.2xlarge:
     - ap-northeast-2
     - eu-west-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
     - us-west-1
   storage: 1 x 300 NVMe SSD
   vcpu: 8
@@ -37070,6 +37471,8 @@ m5ad.4xlarge:
       ap-northeast-2:
         Dedicated: 1.076
         Shared: 1.016
+      ap-northeast-3:
+        Dedicated: 1.135
       ap-south-1:
         Dedicated: 0.57
         Shared: 0.537
@@ -37080,7 +37483,6 @@ m5ad.4xlarge:
         Dedicated: 1.108
         Shared: 1.04
       Asia Pacific (Osaka):
-        Dedicated: 1.135
         Shared: 1.064
       AWS GovCloud (US-West):
         Dedicated: 1.116
@@ -37226,6 +37628,9 @@ m5ad.4xlarge:
       ap-northeast-2:
         Dedicated: 1.812
         Shared: 1.752
+      ap-northeast-3:
+        Dedicated: 1.135
+        Shared: 1.064
       ap-south-1:
         Dedicated: 1.306
         Shared: 1.273
@@ -37236,8 +37641,7 @@ m5ad.4xlarge:
         Dedicated: 1.844
         Shared: 1.776
       Asia Pacific (Osaka):
-        Dedicated: 1.135
-        Shared: 1.064
+        Dedicated: 1.871
       AWS GovCloud (US-West):
         Dedicated: 1.116
         Shared: 1.048
@@ -37283,12 +37687,13 @@ m5ad.4xlarge:
     - ap-southeast-2
     - AWS GovCloud (US-West)
     - us-west-2
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-southeast-1
     - ap-south-1
     - eu-west-2
     - eu-west-3
     - eu-central-1
+    - Asia Pacific (Osaka)
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 m5ad.8xlarge:
@@ -37308,6 +37713,8 @@ m5ad.8xlarge:
       ap-northeast-2:
         Dedicated: 2.153
         Shared: 2.032
+      ap-northeast-3:
+        Dedicated: 2.269
       ap-south-1:
         Dedicated: 1.139
         Shared: 1.074
@@ -37318,7 +37725,6 @@ m5ad.8xlarge:
         Dedicated: 2.216
         Shared: 2.08
       Asia Pacific (Osaka):
-        Dedicated: 2.269
         Shared: 2.128
       AWS GovCloud (US-West):
         Dedicated: 2.232
@@ -37514,6 +37920,7 @@ m5ad.8xlarge:
     - eu-west-1
     - ap-south-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 m5ad.large:
@@ -37533,6 +37940,8 @@ m5ad.large:
       ap-northeast-2:
         Dedicated: 0.135
         Shared: 0.127
+      ap-northeast-3:
+        Dedicated: 0.142
       ap-south-1:
         Dedicated: 0.071
         Shared: 0.067
@@ -37543,7 +37952,6 @@ m5ad.large:
         Dedicated: 0.139
         Shared: 0.13
       Asia Pacific (Osaka):
-        Dedicated: 0.142
         Shared: 0.133
       AWS GovCloud (US-West):
         Dedicated: 0.14
@@ -37585,6 +37993,9 @@ m5ad.large:
       ap-northeast-2:
         Dedicated: 0.195
         Shared: 0.187
+      ap-northeast-3:
+        Dedicated: 0.202
+        Shared: 0.193
       ap-south-1:
         Dedicated: 0.131
         Shared: 0.127
@@ -37594,9 +38005,6 @@ m5ad.large:
       ap-southeast-2:
         Dedicated: 0.199
         Shared: 0.19
-      Asia Pacific (Osaka):
-        Dedicated: 0.202
-        Shared: 0.193
       AWS GovCloud (US-West):
         Dedicated: 0.2
         Shared: 0.191
@@ -37637,6 +38045,8 @@ m5ad.large:
       ap-northeast-2:
         Dedicated: 0.198
         Shared: 0.19
+      ap-northeast-3:
+        Shared: 0.196
       ap-south-1:
         Dedicated: 0.134
         Shared: 0.13
@@ -37648,7 +38058,6 @@ m5ad.large:
         Shared: 0.193
       Asia Pacific (Osaka):
         Dedicated: 0.205
-        Shared: 0.196
       AWS GovCloud (US-West):
         Dedicated: 0.203
         Shared: 0.194
@@ -37689,6 +38098,8 @@ m5ad.large:
       ap-northeast-2:
         Dedicated: 0.227
         Shared: 0.219
+      ap-northeast-3:
+        Dedicated: 0.234
       ap-south-1:
         Dedicated: 0.163
         Shared: 0.159
@@ -37742,6 +38153,7 @@ m5ad.large:
     - ap-southeast-2
     - AWS GovCloud (US-West)
     - ap-northeast-1
+    - ap-northeast-3
     - Asia Pacific (Osaka)
     - eu-west-3
     - us-east-1
@@ -37771,6 +38183,8 @@ m5ad.xlarge:
       ap-northeast-2:
         Dedicated: 0.269
         Shared: 0.254
+      ap-northeast-3:
+        Dedicated: 0.284
       ap-south-1:
         Dedicated: 0.142
         Shared: 0.134
@@ -37781,7 +38195,6 @@ m5ad.xlarge:
         Dedicated: 0.277
         Shared: 0.26
       Asia Pacific (Osaka):
-        Dedicated: 0.284
         Shared: 0.266
       AWS GovCloud (US-West):
         Dedicated: 0.279
@@ -37875,6 +38288,8 @@ m5ad.xlarge:
       ap-northeast-2:
         Dedicated: 0.394
         Shared: 0.379
+      ap-northeast-3:
+        Dedicated: 0.409
       ap-south-1:
         Dedicated: 0.267
         Shared: 0.259
@@ -37885,7 +38300,6 @@ m5ad.xlarge:
         Dedicated: 0.402
         Shared: 0.385
       Asia Pacific (Osaka):
-        Dedicated: 0.409
         Shared: 0.391
       AWS GovCloud (US-West):
         Dedicated: 0.404
@@ -37988,6 +38402,7 @@ m5ad.xlarge:
     - ap-southeast-1
     - us-east-2
     - us-east-1
+    - ap-northeast-3
     - Asia Pacific (Osaka)
     - ap-southeast-2
   storage: 1 x 150 NVMe SSD
@@ -38086,6 +38501,9 @@ m5d.12xlarge:
       ap-northeast-2:
         Dedicated: 3.664
         Shared: 3.466
+      ap-northeast-3:
+        Dedicated: 3.866
+        Shared: 3.634
       ap-south-1:
         Dedicated: 3.237
         Shared: 3.058
@@ -38095,9 +38513,6 @@ m5d.12xlarge:
       ap-southeast-2:
         Dedicated: 3.761
         Shared: 3.538
-      Asia Pacific (Osaka):
-        Dedicated: 3.866
-        Shared: 3.634
       AWS GovCloud (US-West):
         Dedicated: 3.787
         Shared: 3.562
@@ -38226,6 +38641,8 @@ m5d.12xlarge:
       ap-northeast-2:
         Dedicated: 5.742
         Shared: 5.544
+      ap-northeast-3:
+        Shared: 3.504
       ap-south-1:
         Dedicated: 5.315
         Shared: 5.136
@@ -38237,7 +38654,7 @@ m5d.12xlarge:
         Shared: 5.616
       Asia Pacific (Osaka):
         Dedicated: 5.944
-        Shared: 3.504
+        Shared: 5.712
       AWS GovCloud (US-West):
         Dedicated: 5.865
         Shared: 3.432
@@ -38306,6 +38723,7 @@ m5d.12xlarge:
     - eu-west-1
     - ap-northeast-2
     - us-gov-east-1
+    - ap-northeast-3
     - Asia Pacific (Osaka)
   storage: 2 x 900 NVMe SSD
   vcpu: 48
@@ -38543,6 +38961,8 @@ m5d.16xlarge:
       ap-northeast-2:
         Dedicated: 7.656
         Shared: 7.392
+      ap-northeast-3:
+        Shared: 4.672
       ap-south-1:
         Dedicated: 7.087
         Shared: 6.848
@@ -38554,7 +38974,6 @@ m5d.16xlarge:
         Shared: 7.488
       Asia Pacific (Osaka):
         Dedicated: 4.982
-        Shared: 4.672
       AWS GovCloud (US-West):
         Dedicated: 7.82
         Shared: 7.52
@@ -38606,7 +39025,7 @@ m5d.16xlarge:
     - eu-central-1
     - AWS GovCloud (US-West)
     - us-east-2
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - eu-west-3
     - us-east-1
     - us-gov-east-1
@@ -38623,6 +39042,7 @@ m5d.16xlarge:
     - us-west-1
     - ap-northeast-1
     - eu-north-1
+    - Asia Pacific (Osaka)
     - ap-east-1
   storage: 4 x 600 NVMe SSD
   vcpu: 64
@@ -38790,6 +39210,8 @@ m5d.24xlarge:
       ap-northeast-2:
         Dedicated: 6.772
         Shared: 6.772
+      ap-northeast-3:
+        Dedicated: 7.108
       ap-south-1:
         Dedicated: 5.956
         Shared: 5.956
@@ -38800,7 +39222,6 @@ m5d.24xlarge:
         Dedicated: 6.916
         Shared: 6.916
       Asia Pacific (Osaka):
-        Dedicated: 7.108
         Shared: 7.108
       AWS GovCloud (US-West):
         Dedicated: 6.964
@@ -38860,6 +39281,8 @@ m5d.24xlarge:
       ap-northeast-2:
         Dedicated: 11.088
         Shared: 11.088
+      ap-northeast-3:
+        Dedicated: 7.008
       ap-south-1:
         Dedicated: 10.272
         Shared: 10.272
@@ -38870,7 +39293,7 @@ m5d.24xlarge:
         Dedicated: 11.232
         Shared: 11.232
       Asia Pacific (Osaka):
-        Dedicated: 7.008
+        Dedicated: 11.424
         Shared: 11.424
       AWS GovCloud (US-West):
         Dedicated: 11.28
@@ -38941,6 +39364,7 @@ m5d.24xlarge:
     - us-east-1
     - Asia Pacific (Osaka)
     - eu-north-1
+    - ap-northeast-3
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5d.2xlarge:
@@ -39037,6 +39461,9 @@ m5d.2xlarge:
       ap-northeast-2:
         Dedicated: 0.719
         Shared: 0.686
+      ap-northeast-3:
+        Dedicated: 0.753
+        Shared: 0.714
       ap-south-1:
         Dedicated: 0.648
         Shared: 0.618
@@ -39046,9 +39473,6 @@ m5d.2xlarge:
       ap-southeast-2:
         Dedicated: 0.735
         Shared: 0.698
-      Asia Pacific (Osaka):
-        Dedicated: 0.753
-        Shared: 0.714
       AWS GovCloud (US-West):
         Dedicated: 0.739
         Shared: 0.702
@@ -39107,6 +39531,8 @@ m5d.2xlarge:
       ap-northeast-2:
         Dedicated: 0.689
         Shared: 0.656
+      ap-northeast-3:
+        Dedicated: 0.723
       ap-south-1:
         Dedicated: 0.618
         Shared: 0.588
@@ -39117,7 +39543,6 @@ m5d.2xlarge:
         Dedicated: 0.705
         Shared: 0.668
       Asia Pacific (Osaka):
-        Dedicated: 0.723
         Shared: 0.684
       AWS GovCloud (US-West):
         Dedicated: 0.709
@@ -39177,6 +39602,9 @@ m5d.2xlarge:
       ap-northeast-2:
         Dedicated: 0.957
         Shared: 0.924
+      ap-northeast-3:
+        Dedicated: 0.991
+        Shared: 0.584
       ap-south-1:
         Dedicated: 0.886
         Shared: 0.856
@@ -39187,7 +39615,7 @@ m5d.2xlarge:
         Dedicated: 0.973
         Shared: 0.936
       Asia Pacific (Osaka):
-        Dedicated: 0.991
+        Dedicated: 0.623
         Shared: 0.952
       AWS GovCloud (US-West):
         Dedicated: 0.609
@@ -39257,6 +39685,7 @@ m5d.2xlarge:
     - EU (Milan)
     - ap-northeast-1
     - ap-east-1
+    - ap-northeast-3
     - ap-southeast-1
   storage: 1 x 300 NVMe SSD
   vcpu: 8
@@ -39284,6 +39713,8 @@ m5d.4xlarge:
       ap-northeast-2:
         Dedicated: 1.178
         Shared: 1.112
+      ap-northeast-3:
+        Shared: 1.168
       ap-south-1:
         Dedicated: 1.036
         Shared: 0.976
@@ -39295,7 +39726,6 @@ m5d.4xlarge:
         Shared: 1.136
       Asia Pacific (Osaka):
         Dedicated: 1.245
-        Shared: 1.168
       AWS GovCloud (US-West):
         Dedicated: 1.219
         Shared: 1.144
@@ -39354,6 +39784,8 @@ m5d.4xlarge:
       ap-northeast-2:
         Dedicated: 1.308
         Shared: 1.242
+      ap-northeast-3:
+        Dedicated: 1.375
       ap-south-1:
         Dedicated: 1.166
         Shared: 1.106
@@ -39364,7 +39796,6 @@ m5d.4xlarge:
         Dedicated: 1.34
         Shared: 1.266
       Asia Pacific (Osaka):
-        Dedicated: 1.375
         Shared: 1.298
       AWS GovCloud (US-West):
         Dedicated: 1.349
@@ -39424,6 +39855,8 @@ m5d.4xlarge:
       ap-northeast-2:
         Dedicated: 1.278
         Shared: 1.212
+      ap-northeast-3:
+        Dedicated: 1.345
       ap-south-1:
         Dedicated: 1.136
         Shared: 1.076
@@ -39434,7 +39867,6 @@ m5d.4xlarge:
         Dedicated: 1.31
         Shared: 1.236
       Asia Pacific (Osaka):
-        Dedicated: 1.345
         Shared: 1.268
       AWS GovCloud (US-West):
         Dedicated: 1.319
@@ -39575,6 +40007,7 @@ m5d.4xlarge:
     - eu-west-2
     - ap-northeast-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 m5d.8xlarge:
@@ -39601,6 +40034,8 @@ m5d.8xlarge:
       ap-northeast-2:
         Dedicated: 2.356
         Shared: 2.224
+      ap-northeast-3:
+        Dedicated: 2.491
       ap-south-1:
         Dedicated: 2.072
         Shared: 1.952
@@ -39611,7 +40046,6 @@ m5d.8xlarge:
         Dedicated: 2.421
         Shared: 2.272
       Asia Pacific (Osaka):
-        Dedicated: 2.491
         Shared: 2.336
       AWS GovCloud (US-West):
         Dedicated: 2.438
@@ -39671,6 +40105,8 @@ m5d.8xlarge:
       ap-northeast-2:
         Dedicated: 2.486
         Shared: 2.354
+      ap-northeast-3:
+        Dedicated: 2.621
       ap-south-1:
         Dedicated: 2.202
         Shared: 2.082
@@ -39681,7 +40117,6 @@ m5d.8xlarge:
         Dedicated: 2.551
         Shared: 2.402
       Asia Pacific (Osaka):
-        Dedicated: 2.621
         Shared: 2.466
       AWS GovCloud (US-West):
         Dedicated: 2.568
@@ -39811,6 +40246,8 @@ m5d.8xlarge:
       ap-northeast-2:
         Dedicated: 3.828
         Shared: 3.696
+      ap-northeast-3:
+        Shared: 3.808
       ap-south-1:
         Dedicated: 3.544
         Shared: 3.424
@@ -39822,7 +40259,6 @@ m5d.8xlarge:
         Shared: 3.744
       Asia Pacific (Osaka):
         Dedicated: 3.963
-        Shared: 3.808
       AWS GovCloud (US-West):
         Dedicated: 2.438
         Shared: 3.76
@@ -39892,6 +40328,7 @@ m5d.8xlarge:
     - ap-northeast-2
     - ap-east-1
     - us-east-1
+    - ap-northeast-3
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 m5d.large:
@@ -39918,6 +40355,8 @@ m5d.large:
       ap-northeast-2:
         Dedicated: 0.147
         Shared: 0.139
+      ap-northeast-3:
+        Dedicated: 0.156
       ap-south-1:
         Dedicated: 0.129
         Shared: 0.122
@@ -39928,7 +40367,6 @@ m5d.large:
         Dedicated: 0.151
         Shared: 0.142
       Asia Pacific (Osaka):
-        Dedicated: 0.156
         Shared: 0.146
       AWS GovCloud (US-West):
         Dedicated: 0.152
@@ -39988,6 +40426,8 @@ m5d.large:
       ap-northeast-2:
         Dedicated: 0.207
         Shared: 0.199
+      ap-northeast-3:
+        Shared: 0.206
       ap-south-1:
         Dedicated: 0.189
         Shared: 0.182
@@ -39999,7 +40439,6 @@ m5d.large:
         Shared: 0.202
       Asia Pacific (Osaka):
         Dedicated: 0.216
-        Shared: 0.206
       AWS GovCloud (US-West):
         Dedicated: 0.212
         Shared: 0.203
@@ -40058,6 +40497,8 @@ m5d.large:
       ap-northeast-2:
         Dedicated: 0.247
         Shared: 0.239
+      ap-northeast-3:
+        Dedicated: 0.256
       ap-south-1:
         Dedicated: 0.229
         Shared: 0.222
@@ -40068,7 +40509,6 @@ m5d.large:
         Dedicated: 0.251
         Shared: 0.242
       Asia Pacific (Osaka):
-        Dedicated: 0.256
         Shared: 0.246
       AWS GovCloud (US-West):
         Dedicated: 0.252
@@ -40128,6 +40568,9 @@ m5d.large:
       ap-northeast-2:
         Dedicated: 0.239
         Shared: 0.231
+      ap-northeast-3:
+        Dedicated: 0.156
+        Shared: 0.146
       ap-south-1:
         Dedicated: 0.221
         Shared: 0.214
@@ -40139,7 +40582,7 @@ m5d.large:
         Shared: 0.234
       Asia Pacific (Osaka):
         Dedicated: 0.248
-        Shared: 0.146
+        Shared: 0.238
       AWS GovCloud (US-West):
         Dedicated: 0.152
         Shared: 0.143
@@ -40186,7 +40629,7 @@ m5d.large:
         Dedicated: 0.12
         Shared: 0.205
   regions:
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - AWS GovCloud (US-West)
     - sa-east-1
     - af-south-1
@@ -40200,6 +40643,7 @@ m5d.large:
     - us-east-2
     - eu-west-1
     - us-west-1
+    - Asia Pacific (Osaka)
     - EU (Milan)
     - ap-south-1
     - ap-southeast-1
@@ -40235,6 +40679,9 @@ m5d.metal:
       ap-northeast-2:
         Dedicated: 6.672
         Shared: 6.672
+      ap-northeast-3:
+        Dedicated: 7.008
+        Shared: 7.008
       ap-south-1:
         Dedicated: 5.856
         Shared: 5.856
@@ -40244,9 +40691,6 @@ m5d.metal:
       ap-southeast-2:
         Dedicated: 6.816
         Shared: 6.816
-      Asia Pacific (Osaka):
-        Dedicated: 7.008
-        Shared: 7.008
       AWS GovCloud (US-West):
         Dedicated: 6.864
         Shared: 6.864
@@ -40305,6 +40749,8 @@ m5d.metal:
       ap-northeast-2:
         Dedicated: 6.802
         Shared: 6.802
+      ap-northeast-3:
+        Shared: 7.138
       ap-south-1:
         Dedicated: 5.986
         Shared: 5.986
@@ -40316,7 +40762,6 @@ m5d.metal:
         Shared: 6.946
       Asia Pacific (Osaka):
         Dedicated: 7.138
-        Shared: 7.138
       AWS GovCloud (US-West):
         Dedicated: 6.994
         Shared: 6.994
@@ -40445,6 +40890,8 @@ m5d.metal:
       ap-northeast-2:
         Dedicated: 11.088
         Shared: 11.088
+      ap-northeast-3:
+        Dedicated: 7.008
       ap-south-1:
         Dedicated: 10.272
         Shared: 10.272
@@ -40524,8 +40971,9 @@ m5d.metal:
     - us-west-1
     - ap-east-1
     - ap-northeast-2
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-southeast-2
+    - Asia Pacific (Osaka)
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 m5d.xlarge:
@@ -40622,6 +41070,8 @@ m5d.xlarge:
       ap-northeast-2:
         Dedicated: 0.355
         Shared: 0.338
+      ap-northeast-3:
+        Dedicated: 0.371
       ap-south-1:
         Dedicated: 0.319
         Shared: 0.304
@@ -40632,7 +41082,6 @@ m5d.xlarge:
         Dedicated: 0.363
         Shared: 0.344
       Asia Pacific (Osaka):
-        Dedicated: 0.371
         Shared: 0.352
       AWS GovCloud (US-West):
         Dedicated: 0.365
@@ -40692,6 +41141,8 @@ m5d.xlarge:
       ap-northeast-2:
         Dedicated: 0.395
         Shared: 0.378
+      ap-northeast-3:
+        Shared: 0.392
       ap-south-1:
         Dedicated: 0.359
         Shared: 0.344
@@ -40703,7 +41154,6 @@ m5d.xlarge:
         Shared: 0.384
       Asia Pacific (Osaka):
         Dedicated: 0.411
-        Shared: 0.392
       AWS GovCloud (US-West):
         Dedicated: 0.405
         Shared: 0.386
@@ -40762,6 +41212,8 @@ m5d.xlarge:
       ap-northeast-2:
         Dedicated: 0.479
         Shared: 0.462
+      ap-northeast-3:
+        Dedicated: 0.311
       ap-south-1:
         Dedicated: 0.443
         Shared: 0.428
@@ -40772,7 +41224,7 @@ m5d.xlarge:
         Dedicated: 0.487
         Shared: 0.468
       Asia Pacific (Osaka):
-        Dedicated: 0.311
+        Dedicated: 0.495
         Shared: 0.292
       AWS GovCloud (US-West):
         Dedicated: 0.305
@@ -40843,6 +41295,7 @@ m5d.xlarge:
     - eu-west-3
     - us-west-2
     - ap-east-1
+    - ap-northeast-3
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 m5dn.12xlarge:
@@ -47504,7 +47957,7 @@ p3dn.24xlarge:
     Linux:
       ap-northeast-1:
         Shared: 42.783
-      Asia Pacific (Osaka):
+      ap-northeast-3:
         Shared: 42.783
       AWS GovCloud (US-West):
         Shared: 37.454
@@ -47519,7 +47972,7 @@ p3dn.24xlarge:
     RHEL:
       ap-northeast-1:
         Shared: 42.913
-      Asia Pacific (Osaka):
+      ap-northeast-3:
         Shared: 42.913
       AWS GovCloud (US-West):
         Shared: 37.584
@@ -47569,6 +48022,7 @@ p3dn.24xlarge:
     - ap-northeast-1
     - AWS GovCloud (US-West)
     - eu-west-1
+    - ap-northeast-3
   storage: 2 x 900 NVMe SSD
   vcpu: 96
 p4d.24xlarge:
@@ -47627,6 +48081,8 @@ r3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.878
         Shared: 0.798
+      ap-northeast-3:
+        Shared: 0.8
       ap-south-1:
         Dedicated: 0.834
         Shared: 0.758
@@ -47670,6 +48126,8 @@ r3.2xlarge:
       ap-northeast-2:
         Dedicated: 1.008
         Shared: 0.928
+      ap-northeast-3:
+        Shared: 0.93
       ap-south-1:
         Dedicated: 0.977
         Shared: 0.888
@@ -47713,6 +48171,9 @@ r3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.978
         Shared: 0.898
+      ap-northeast-3:
+        Dedicated: 0.98
+        Shared: 0.9
       ap-south-1:
         Dedicated: 0.944
         Shared: 0.858
@@ -47756,6 +48217,9 @@ r3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.878
         Shared: 0.798
+      ap-northeast-3:
+        Dedicated: 1.248
+        Shared: 1.168
       ap-south-1:
         Dedicated: 1.239
         Shared: 0.758
@@ -47766,7 +48230,7 @@ r3.2xlarge:
         Dedicated: 1.375
         Shared: 1.25
       Asia Pacific (Osaka):
-        Dedicated: 1.248
+        Dedicated: 0.88
         Shared: 0.8
       AWS GovCloud (US-West):
         Dedicated: 1.296
@@ -47806,6 +48270,7 @@ r3.2xlarge:
     - ap-southeast-1
     - us-east-2
     - eu-central-1
+    - ap-northeast-3
     - sa-east-1
   storage: 1 x 160 SSD
   vcpu: 8
@@ -47826,6 +48291,8 @@ r3.4xlarge:
       ap-northeast-2:
         Dedicated: 1.756
         Shared: 1.596
+      ap-northeast-3:
+        Shared: 1.6
       ap-south-1:
         Dedicated: 1.668
         Shared: 1.516
@@ -47955,6 +48422,9 @@ r3.4xlarge:
       ap-northeast-2:
         Dedicated: 2.492
         Shared: 2.332
+      ap-northeast-3:
+        Dedicated: 1.76
+        Shared: 1.6
       ap-south-1:
         Dedicated: 1.668
         Shared: 2.252
@@ -48003,6 +48473,7 @@ r3.4xlarge:
     - ap-northeast-1
     - ap-southeast-2
     - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-south-1
     - ap-southeast-1
     - eu-west-1
@@ -48068,6 +48539,8 @@ r3.8xlarge:
       ap-northeast-2:
         Dedicated: 3.322
         Shared: 3.322
+      ap-northeast-3:
+        Dedicated: 3.33
       ap-south-1:
         Dedicated: 3.162
         Shared: 3.162
@@ -48111,6 +48584,8 @@ r3.8xlarge:
       ap-northeast-2:
         Dedicated: 3.292
         Shared: 3.292
+      ap-northeast-3:
+        Dedicated: 3.3
       ap-south-1:
         Dedicated: 3.132
         Shared: 3.132
@@ -48154,6 +48629,9 @@ r3.8xlarge:
       ap-northeast-2:
         Dedicated: 4.664
         Shared: 3.192
+      ap-northeast-3:
+        Dedicated: 4.672
+        Shared: 3.2
       ap-south-1:
         Dedicated: 4.504
         Shared: 4.504
@@ -48164,7 +48642,7 @@ r3.8xlarge:
         Dedicated: 3.192
         Shared: 4.6
       Asia Pacific (Osaka):
-        Dedicated: 4.672
+        Dedicated: 3.2
         Shared: 3.2
       AWS GovCloud (US-West):
         Dedicated: 4.06
@@ -48204,6 +48682,7 @@ r3.8xlarge:
     - ap-northeast-2
     - us-west-2
     - eu-west-1
+    - ap-northeast-3
     - ap-northeast-1
   storage: 2 x 320 SSD
   vcpu: 32
@@ -48222,6 +48701,9 @@ r3.large:
         Dedicated: 0.219
         Shared: 0.2
       ap-northeast-2:
+        Dedicated: 0.22
+        Shared: 0.2
+      ap-northeast-3:
         Dedicated: 0.22
         Shared: 0.2
       ap-south-1:
@@ -48267,6 +48749,8 @@ r3.large:
       ap-northeast-2:
         Dedicated: 0.28
         Shared: 0.26
+      ap-northeast-3:
+        Shared: 0.26
       ap-south-1:
         Dedicated: 0.275
         Shared: 0.25
@@ -48309,6 +48793,8 @@ r3.large:
         Shared: 0.3
       ap-northeast-2:
         Dedicated: 0.32
+        Shared: 0.3
+      ap-northeast-3:
         Shared: 0.3
       ap-south-1:
         Dedicated: 0.319
@@ -48403,6 +48889,7 @@ r3.large:
     - eu-central-1
     - eu-west-1
     - us-west-2
+    - ap-northeast-3
     - us-east-1
   storage: 1 x 32 SSD
   vcpu: 2
@@ -48423,6 +48910,9 @@ r3.xlarge:
       ap-northeast-2:
         Dedicated: 0.439
         Shared: 0.399
+      ap-northeast-3:
+        Dedicated: 0.44
+        Shared: 0.4
       ap-south-1:
         Dedicated: 0.417
         Shared: 0.379
@@ -48466,6 +48956,9 @@ r3.xlarge:
       ap-northeast-2:
         Dedicated: 0.499
         Shared: 0.459
+      ap-northeast-3:
+        Dedicated: 0.5
+        Shared: 0.46
       ap-south-1:
         Dedicated: 0.483
         Shared: 0.439
@@ -48477,7 +48970,6 @@ r3.xlarge:
         Shared: 0.459
       Asia Pacific (Osaka):
         Dedicated: 0.5
-        Shared: 0.46
       AWS GovCloud (US-West):
         Dedicated: 0.505
         Shared: 0.459
@@ -48509,6 +49001,8 @@ r3.xlarge:
       ap-northeast-2:
         Dedicated: 0.539
         Shared: 0.499
+      ap-northeast-3:
+        Dedicated: 0.54
       ap-south-1:
         Dedicated: 0.527
         Shared: 0.479
@@ -48519,7 +49013,6 @@ r3.xlarge:
         Dedicated: 0.539
         Shared: 0.499
       Asia Pacific (Osaka):
-        Dedicated: 0.54
         Shared: 0.5
       AWS GovCloud (US-West):
         Dedicated: 0.549
@@ -48552,6 +49045,9 @@ r3.xlarge:
       ap-northeast-2:
         Dedicated: 0.439
         Shared: 0.583
+      ap-northeast-3:
+        Dedicated: 0.624
+        Shared: 0.584
       ap-south-1:
         Dedicated: 0.619
         Shared: 0.379
@@ -48599,8 +49095,9 @@ r3.xlarge:
     - eu-central-1
     - ap-northeast-1
     - ap-south-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - AWS GovCloud (US-West)
+    - Asia Pacific (Osaka)
     - sa-east-1
     - us-west-2
   storage: 1 x 80 SSD
@@ -48622,6 +49119,8 @@ r4.16xlarge:
         Shared: 5.12
       ap-northeast-2:
         Dedicated: 5.12
+        Shared: 5.12
+      ap-northeast-3:
         Shared: 5.12
       ap-south-1:
         Dedicated: 4.384
@@ -48779,6 +49278,9 @@ r4.16xlarge:
       ap-northeast-2:
         Dedicated: 8.064
         Shared: 5.12
+      ap-northeast-3:
+        Dedicated: 5.12
+        Shared: 8.064
       ap-south-1:
         Dedicated: 7.328
         Shared: 7.328
@@ -48789,8 +49291,8 @@ r4.16xlarge:
         Dedicated: 8.051
         Shared: 8.0512
       Asia Pacific (Osaka):
-        Dedicated: 5.12
-        Shared: 8.064
+        Dedicated: 8.064
+        Shared: 5.12
       AWS GovCloud (US-West):
         Dedicated: 5.107
         Shared: 8.0512
@@ -48842,6 +49344,7 @@ r4.16xlarge:
     - ca-central-1
     - us-east-2
     - us-west-2
+    - ap-northeast-3
   storage: EBS only
   vcpu: 64
 r4.2xlarge:
@@ -48862,6 +49365,8 @@ r4.2xlarge:
       ap-northeast-2:
         Dedicated: 0.704
         Shared: 0.64
+      ap-northeast-3:
+        Shared: 0.64
       ap-south-1:
         Dedicated: 0.6028
         Shared: 0.548
@@ -48873,7 +49378,6 @@ r4.2xlarge:
         Shared: 0.6384
       Asia Pacific (Osaka):
         Dedicated: 0.704
-        Shared: 0.64
       AWS GovCloud (US-West):
         Dedicated: 0.702
         Shared: 0.6384
@@ -48913,6 +49417,8 @@ r4.2xlarge:
         Shared: 0.77
       ap-northeast-2:
         Dedicated: 0.834
+        Shared: 0.77
+      ap-northeast-3:
         Shared: 0.77
       ap-south-1:
         Dedicated: 0.7328
@@ -48964,6 +49470,9 @@ r4.2xlarge:
         Dedicated: 0.804
         Shared: 0.74
       ap-northeast-2:
+        Dedicated: 0.804
+        Shared: 0.74
+      ap-northeast-3:
         Dedicated: 0.804
         Shared: 0.74
       ap-south-1:
@@ -49080,6 +49589,7 @@ r4.2xlarge:
     - us-west-2
     - Asia Pacific (Osaka)
     - us-east-2
+    - ap-northeast-3
     - eu-west-3
   storage: EBS only
   vcpu: 8
@@ -49101,6 +49611,8 @@ r4.4xlarge:
       ap-northeast-2:
         Dedicated: 1.408
         Shared: 1.28
+      ap-northeast-3:
+        Shared: 1.28
       ap-south-1:
         Dedicated: 1.2056
         Shared: 1.096
@@ -49112,7 +49624,6 @@ r4.4xlarge:
         Shared: 1.2768
       Asia Pacific (Osaka):
         Dedicated: 1.408
-        Shared: 1.28
       AWS GovCloud (US-West):
         Dedicated: 1.404
         Shared: 1.2768
@@ -49152,6 +49663,8 @@ r4.4xlarge:
         Shared: 1.41
       ap-northeast-2:
         Dedicated: 1.538
+        Shared: 1.41
+      ap-northeast-3:
         Shared: 1.41
       ap-south-1:
         Dedicated: 1.3356
@@ -49257,6 +49770,9 @@ r4.4xlarge:
       ap-northeast-2:
         Dedicated: 2.144
         Shared: 2.016
+      ap-northeast-3:
+        Dedicated: 1.408
+        Shared: 2.016
       ap-south-1:
         Dedicated: 1.9416
         Shared: 1.096
@@ -49320,6 +49836,7 @@ r4.4xlarge:
     - ap-south-1
     - eu-west-3
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 16
 r4.8xlarge:
@@ -49444,6 +49961,9 @@ r4.8xlarge:
       ap-northeast-2:
         Dedicated: 2.916
         Shared: 2.66
+      ap-northeast-3:
+        Dedicated: 2.916
+        Shared: 2.66
       ap-south-1:
         Dedicated: 2.5112
         Shared: 2.292
@@ -49496,6 +50016,8 @@ r4.8xlarge:
       ap-northeast-2:
         Dedicated: 4.288
         Shared: 4.032
+      ap-northeast-3:
+        Shared: 2.56
       ap-south-1:
         Dedicated: 3.8832
         Shared: 2.192
@@ -49548,8 +50070,9 @@ r4.8xlarge:
     - eu-west-3
     - ap-northeast-2
     - ap-southeast-2
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-south-1
+    - Asia Pacific (Osaka)
     - us-west-1
     - sa-east-1
     - eu-central-1
@@ -49578,6 +50101,8 @@ r4.large:
         Shared: 0.16
       ap-northeast-2:
         Dedicated: 0.176
+        Shared: 0.16
+      ap-northeast-3:
         Shared: 0.16
       ap-south-1:
         Dedicated: 0.1507
@@ -49683,6 +50208,8 @@ r4.large:
       ap-northeast-2:
         Dedicated: 0.276
         Shared: 0.26
+      ap-northeast-3:
+        Dedicated: 0.276
       ap-south-1:
         Dedicated: 0.2507
         Shared: 0.237
@@ -49733,6 +50260,9 @@ r4.large:
         Dedicated: 0.268
         Shared: 0.252
       ap-northeast-2:
+        Dedicated: 0.176
+        Shared: 0.252
+      ap-northeast-3:
         Dedicated: 0.176
         Shared: 0.252
       ap-south-1:
@@ -49798,6 +50328,7 @@ r4.large:
     - eu-west-1
     - us-west-1
     - eu-west-3
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 r4.xlarge:
@@ -49922,6 +50453,8 @@ r4.xlarge:
       ap-northeast-2:
         Dedicated: 0.452
         Shared: 0.42
+      ap-northeast-3:
+        Shared: 0.42
       ap-south-1:
         Dedicated: 0.4014
         Shared: 0.374
@@ -49974,6 +50507,9 @@ r4.xlarge:
       ap-northeast-2:
         Dedicated: 0.536
         Shared: 0.504
+      ap-northeast-3:
+        Dedicated: 0.352
+        Shared: 0.32
       ap-south-1:
         Dedicated: 0.4854
         Shared: 0.458
@@ -50037,6 +50573,7 @@ r4.xlarge:
     - ap-northeast-2
     - eu-west-1
     - us-east-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 4
 r5.12xlarge:
@@ -50063,6 +50600,8 @@ r5.12xlarge:
       ap-northeast-2:
         Dedicated: 3.867
         Shared: 3.648
+      ap-northeast-3:
+        Shared: 3.648
       ap-south-1:
         Dedicated: 3.306
         Shared: 3.12
@@ -50074,7 +50613,6 @@ r5.12xlarge:
         Shared: 3.624
       Asia Pacific (Osaka):
         Dedicated: 3.867
-        Shared: 3.648
       AWS GovCloud (US-West):
         Dedicated: 3.841
         Shared: 3.624
@@ -50136,6 +50674,8 @@ r5.12xlarge:
       ap-northeast-2:
         Dedicated: 3.997
         Shared: 3.778
+      ap-northeast-3:
+        Shared: 3.778
       ap-south-1:
         Dedicated: 3.436
         Shared: 3.25
@@ -50147,7 +50687,6 @@ r5.12xlarge:
         Shared: 3.754
       Asia Pacific (Osaka):
         Dedicated: 3.997
-        Shared: 3.778
       AWS GovCloud (US-West):
         Dedicated: 3.971
         Shared: 3.754
@@ -50367,6 +50906,7 @@ r5.12xlarge:
     - eu-central-1
     - us-west-2-lax-1a
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 48
 r5.16xlarge:
@@ -50466,6 +51006,9 @@ r5.16xlarge:
       ap-northeast-2:
         Dedicated: 5.286
         Shared: 4.994
+      ap-northeast-3:
+        Dedicated: 5.286
+        Shared: 4.994
       ap-south-1:
         Dedicated: 4.538
         Shared: 4.29
@@ -50475,9 +51018,6 @@ r5.16xlarge:
       ap-southeast-2:
         Dedicated: 5.252
         Shared: 4.962
-      Asia Pacific (Osaka):
-        Dedicated: 5.286
-        Shared: 4.994
       AWS GovCloud (US-West):
         Dedicated: 5.252
         Shared: 4.962
@@ -50539,6 +51079,9 @@ r5.16xlarge:
       ap-northeast-2:
         Dedicated: 5.306
         Shared: 5.014
+      ap-northeast-3:
+        Dedicated: 5.306
+        Shared: 5.014
       ap-south-1:
         Dedicated: 4.558
         Shared: 4.31
@@ -50548,9 +51091,6 @@ r5.16xlarge:
       ap-southeast-2:
         Dedicated: 5.272
         Shared: 4.982
-      Asia Pacific (Osaka):
-        Dedicated: 5.306
-        Shared: 5.014
       AWS GovCloud (US-West):
         Dedicated: 5.272
         Shared: 4.982
@@ -50612,6 +51152,8 @@ r5.16xlarge:
       ap-northeast-2:
         Dedicated: 8.1
         Shared: 7.808
+      ap-northeast-3:
+        Dedicated: 5.156
       ap-south-1:
         Dedicated: 7.352
         Shared: 7.104
@@ -50697,6 +51239,7 @@ r5.16xlarge:
     - ap-southeast-1
     - ap-east-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 64
 r5.24xlarge:
@@ -50723,6 +51266,8 @@ r5.24xlarge:
       ap-northeast-2:
         Dedicated: 7.296
         Shared: 7.296
+      ap-northeast-3:
+        Shared: 7.296
       ap-south-1:
         Dedicated: 6.24
         Shared: 6.24
@@ -50734,7 +51279,6 @@ r5.24xlarge:
         Shared: 7.248
       Asia Pacific (Osaka):
         Dedicated: 7.296
-        Shared: 7.296
       AWS GovCloud (US-West):
         Dedicated: 7.248
         Shared: 7.248
@@ -50796,6 +51340,8 @@ r5.24xlarge:
       ap-northeast-2:
         Dedicated: 7.426
         Shared: 7.426
+      ap-northeast-3:
+        Shared: 7.426
       ap-south-1:
         Dedicated: 6.37
         Shared: 6.37
@@ -50807,7 +51353,6 @@ r5.24xlarge:
         Shared: 7.378
       Asia Pacific (Osaka):
         Dedicated: 7.426
-        Shared: 7.426
       AWS GovCloud (US-West):
         Dedicated: 7.378
         Shared: 7.378
@@ -50942,6 +51487,8 @@ r5.24xlarge:
       ap-northeast-2:
         Dedicated: 11.712
         Shared: 11.712
+      ap-northeast-3:
+        Dedicated: 7.296
       ap-south-1:
         Dedicated: 10.656
         Shared: 10.656
@@ -51027,6 +51574,7 @@ r5.24xlarge:
     - us-east-2
     - sa-east-1
     - af-south-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 96
 r5.2xlarge:
@@ -51152,6 +51700,8 @@ r5.2xlarge:
       ap-northeast-2:
         Dedicated: 0.774
         Shared: 0.738
+      ap-northeast-3:
+        Dedicated: 0.774
       ap-south-1:
         Dedicated: 0.681
         Shared: 0.65
@@ -51166,7 +51716,6 @@ r5.2xlarge:
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.951
       Asia Pacific (Osaka):
-        Dedicated: 0.774
         Shared: 0.738
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.89
@@ -51350,6 +51899,8 @@ r5.2xlarge:
       ap-northeast-2:
         Dedicated: 1.012
         Shared: 0.976
+      ap-northeast-3:
+        Dedicated: 1.012
       ap-south-1:
         Dedicated: 0.919
         Shared: 0.888
@@ -51364,7 +51915,7 @@ r5.2xlarge:
       Asia Pacific (KDDI) - Tokyo:
         Shared: 1.189
       Asia Pacific (Osaka):
-        Dedicated: 1.012
+        Dedicated: 0.644
         Shared: 0.976
       Asia Pacific (SKT) - Daejeon:
         Shared: 1.128
@@ -51459,6 +52010,7 @@ r5.2xlarge:
     - ap-northeast-1
     - us-east-2
     - Asia Pacific (Osaka)
+    - ap-northeast-3
     - eu-west-3
     - sa-east-1
     - us-west-1
@@ -51500,6 +52052,8 @@ r5.4xlarge:
       ap-northeast-2:
         Dedicated: 1.289
         Shared: 1.216
+      ap-northeast-3:
+        Shared: 1.216
       ap-south-1:
         Dedicated: 1.102
         Shared: 1.04
@@ -51511,7 +52065,6 @@ r5.4xlarge:
         Shared: 1.208
       Asia Pacific (Osaka):
         Dedicated: 1.289
-        Shared: 1.216
       AWS GovCloud (US-West):
         Dedicated: 1.28
         Shared: 1.208
@@ -51573,6 +52126,9 @@ r5.4xlarge:
       ap-northeast-2:
         Dedicated: 1.419
         Shared: 1.346
+      ap-northeast-3:
+        Dedicated: 1.419
+        Shared: 1.346
       ap-south-1:
         Dedicated: 1.232
         Shared: 1.17
@@ -51582,9 +52138,6 @@ r5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.41
         Shared: 1.338
-      Asia Pacific (Osaka):
-        Dedicated: 1.419
-        Shared: 1.346
       AWS GovCloud (US-West):
         Dedicated: 1.41
         Shared: 1.338
@@ -51646,6 +52199,9 @@ r5.4xlarge:
       ap-northeast-2:
         Dedicated: 1.439
         Shared: 1.366
+      ap-northeast-3:
+        Dedicated: 1.439
+        Shared: 1.366
       ap-south-1:
         Dedicated: 1.252
         Shared: 1.19
@@ -51655,9 +52211,6 @@ r5.4xlarge:
       ap-southeast-2:
         Dedicated: 1.43
         Shared: 1.358
-      Asia Pacific (Osaka):
-        Dedicated: 1.439
-        Shared: 1.366
       AWS GovCloud (US-West):
         Dedicated: 1.43
         Shared: 1.358
@@ -51803,6 +52356,7 @@ r5.4xlarge:
     - EU (Milan)
     - us-gov-east-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-northeast-1
   storage: EBS only
   vcpu: 16
@@ -51830,6 +52384,8 @@ r5.8xlarge:
       ap-northeast-2:
         Dedicated: 2.578
         Shared: 2.432
+      ap-northeast-3:
+        Shared: 2.432
       ap-south-1:
         Dedicated: 2.204
         Shared: 2.08
@@ -51841,7 +52397,6 @@ r5.8xlarge:
         Shared: 2.416
       Asia Pacific (Osaka):
         Dedicated: 2.578
-        Shared: 2.432
       AWS GovCloud (US-West):
         Dedicated: 2.561
         Shared: 2.416
@@ -52049,6 +52604,8 @@ r5.8xlarge:
       ap-northeast-2:
         Dedicated: 4.05
         Shared: 3.904
+      ap-northeast-3:
+        Dedicated: 4.05
       ap-south-1:
         Dedicated: 3.676
         Shared: 3.552
@@ -52059,7 +52616,7 @@ r5.8xlarge:
         Dedicated: 4.033
         Shared: 3.888
       Asia Pacific (Osaka):
-        Dedicated: 4.05
+        Dedicated: 2.578
         Shared: 3.904
       AWS GovCloud (US-West):
         Dedicated: 4.033
@@ -52134,6 +52691,7 @@ r5.8xlarge:
     - us-gov-east-1
     - ap-northeast-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 32
 r5.large:
@@ -52306,6 +52864,8 @@ r5.large:
       ap-northeast-2:
         Dedicated: 0.224
         Shared: 0.215
+      ap-northeast-3:
+        Dedicated: 0.224
       ap-south-1:
         Dedicated: 0.201
         Shared: 0.193
@@ -52316,7 +52876,6 @@ r5.large:
         Dedicated: 0.223
         Shared: 0.214
       Asia Pacific (Osaka):
-        Dedicated: 0.224
         Shared: 0.215
       AWS GovCloud (US-West):
         Dedicated: 0.223
@@ -52464,6 +53023,7 @@ r5.large:
     - ap-southeast-1
     - af-south-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 r5.metal:
@@ -52709,6 +53269,8 @@ r5.metal:
       ap-northeast-2:
         Dedicated: 11.712
         Shared: 11.712
+      ap-northeast-3:
+        Dedicated: 7.296
       ap-south-1:
         Dedicated: 10.656
         Shared: 10.656
@@ -52719,7 +53281,7 @@ r5.metal:
         Dedicated: 11.664
         Shared: 11.664
       Asia Pacific (Osaka):
-        Dedicated: 7.296
+        Dedicated: 11.712
         Shared: 7.296
       AWS GovCloud (US-West):
         Dedicated: 7.248
@@ -52794,6 +53356,7 @@ r5.metal:
     - ap-northeast-2
     - us-gov-east-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 96
 r5.xlarge:
@@ -52820,6 +53383,8 @@ r5.xlarge:
       ap-northeast-2:
         Dedicated: 0.322
         Shared: 0.304
+      ap-northeast-3:
+        Dedicated: 0.322
       ap-south-1:
         Dedicated: 0.276
         Shared: 0.26
@@ -52830,7 +53395,6 @@ r5.xlarge:
         Dedicated: 0.32
         Shared: 0.302
       Asia Pacific (Osaka):
-        Dedicated: 0.322
         Shared: 0.304
       AWS GovCloud (US-West):
         Dedicated: 0.32
@@ -52893,6 +53457,8 @@ r5.xlarge:
       ap-northeast-2:
         Dedicated: 0.382
         Shared: 0.364
+      ap-northeast-3:
+        Shared: 0.364
       ap-south-1:
         Dedicated: 0.336
         Shared: 0.32
@@ -52904,7 +53470,6 @@ r5.xlarge:
         Shared: 0.362
       Asia Pacific (Osaka):
         Dedicated: 0.382
-        Shared: 0.364
       AWS GovCloud (US-West):
         Dedicated: 0.38
         Shared: 0.362
@@ -53039,6 +53604,8 @@ r5.xlarge:
       ap-northeast-2:
         Dedicated: 0.506
         Shared: 0.488
+      ap-northeast-3:
+        Shared: 0.488
       ap-south-1:
         Dedicated: 0.46
         Shared: 0.444
@@ -53112,9 +53679,10 @@ r5.xlarge:
     - AWS GovCloud (US-West)
     - us-gov-east-1
     - EU (Milan)
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-northeast-2
     - eu-west-2
+    - Asia Pacific (Osaka)
     - us-west-2-lax-1a
     - eu-north-1
     - eu-west-3
@@ -53198,6 +53766,8 @@ r5a.12xlarge:
       ap-northeast-2:
         Dedicated: 3.59
         Shared: 3.394
+      ap-northeast-3:
+        Shared: 3.394
       ap-south-1:
         Dedicated: 1.948
         Shared: 1.846
@@ -53209,7 +53779,6 @@ r5a.12xlarge:
         Shared: 3.394
       Asia Pacific (Osaka):
         Dedicated: 3.59
-        Shared: 3.394
       AWS GovCloud (US-West):
         Dedicated: 3.59
         Shared: 3.394
@@ -53253,6 +53822,8 @@ r5a.12xlarge:
       ap-northeast-2:
         Dedicated: 3.61
         Shared: 3.414
+      ap-northeast-3:
+        Shared: 3.414
       ap-south-1:
         Dedicated: 1.968
         Shared: 1.866
@@ -53264,7 +53835,6 @@ r5a.12xlarge:
         Shared: 3.414
       Asia Pacific (Osaka):
         Dedicated: 3.61
-        Shared: 3.414
       AWS GovCloud (US-West):
         Dedicated: 3.61
         Shared: 3.414
@@ -53375,6 +53945,7 @@ r5a.12xlarge:
     - Asia Pacific (Osaka)
     - eu-west-3
     - us-west-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 48
 r5a.16xlarge:
@@ -53449,6 +54020,8 @@ r5a.16xlarge:
       ap-northeast-2:
         Dedicated: 4.743
         Shared: 4.482
+      ap-northeast-3:
+        Dedicated: 4.743
       ap-south-1:
         Dedicated: 2.555
         Shared: 2.418
@@ -53459,7 +54032,6 @@ r5a.16xlarge:
         Dedicated: 4.744
         Shared: 4.482
       Asia Pacific (Osaka):
-        Dedicated: 4.743
         Shared: 4.482
       AWS GovCloud (US-West):
         Dedicated: 4.744
@@ -53504,6 +54076,9 @@ r5a.16xlarge:
       ap-northeast-2:
         Dedicated: 4.763
         Shared: 4.502
+      ap-northeast-3:
+        Dedicated: 4.763
+        Shared: 4.502
       ap-south-1:
         Dedicated: 2.575
         Shared: 2.438
@@ -53512,9 +54087,6 @@ r5a.16xlarge:
         Shared: 4.502
       ap-southeast-2:
         Dedicated: 4.764
-        Shared: 4.502
-      Asia Pacific (Osaka):
-        Dedicated: 4.763
         Shared: 4.502
       AWS GovCloud (US-West):
         Dedicated: 4.764
@@ -53559,6 +54131,9 @@ r5a.16xlarge:
       ap-northeast-2:
         Dedicated: 7.557
         Shared: 7.296
+      ap-northeast-3:
+        Dedicated: 4.613
+        Shared: 4.352
       ap-south-1:
         Dedicated: 5.369
         Shared: 5.232
@@ -53569,8 +54144,8 @@ r5a.16xlarge:
         Dedicated: 7.558
         Shared: 7.296
       Asia Pacific (Osaka):
-        Dedicated: 4.613
-        Shared: 4.352
+        Dedicated: 7.557
+        Shared: 7.296
       AWS GovCloud (US-West):
         Dedicated: 4.614
         Shared: 7.296
@@ -53626,6 +54201,7 @@ r5a.16xlarge:
     - ap-southeast-1
     - us-gov-east-1
     - ap-south-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 64
 r5a.24xlarge:
@@ -53645,6 +54221,8 @@ r5a.24xlarge:
       ap-northeast-2:
         Dedicated: 6.92
         Shared: 6.528
+      ap-northeast-3:
+        Shared: 6.528
       ap-south-1:
         Dedicated: 3.637
         Shared: 3.432
@@ -53656,7 +54234,6 @@ r5a.24xlarge:
         Shared: 6.528
       Asia Pacific (Osaka):
         Dedicated: 6.92
-        Shared: 6.528
       AWS GovCloud (US-West):
         Dedicated: 6.921
         Shared: 6.528
@@ -53700,6 +54277,8 @@ r5a.24xlarge:
       ap-northeast-2:
         Dedicated: 7.05
         Shared: 6.658
+      ap-northeast-3:
+        Shared: 6.658
       ap-south-1:
         Dedicated: 3.767
         Shared: 3.562
@@ -53711,7 +54290,6 @@ r5a.24xlarge:
         Shared: 6.658
       Asia Pacific (Osaka):
         Dedicated: 7.05
-        Shared: 6.658
       AWS GovCloud (US-West):
         Dedicated: 7.051
         Shared: 6.658
@@ -53810,6 +54388,8 @@ r5a.24xlarge:
       ap-northeast-2:
         Dedicated: 11.336
         Shared: 10.944
+      ap-northeast-3:
+        Shared: 10.944
       ap-south-1:
         Dedicated: 8.053
         Shared: 7.848
@@ -53821,7 +54401,7 @@ r5a.24xlarge:
         Shared: 10.944
       Asia Pacific (Osaka):
         Dedicated: 11.336
-        Shared: 10.944
+        Shared: 6.528
       AWS GovCloud (US-West):
         Dedicated: 6.921
         Shared: 6.528
@@ -53877,6 +54457,7 @@ r5a.24xlarge:
     - eu-west-2
     - Asia Pacific (Osaka)
     - us-west-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 96
 r5a.2xlarge:
@@ -53896,6 +54477,9 @@ r5a.2xlarge:
       ap-northeast-2:
         Dedicated: 0.577
         Shared: 0.544
+      ap-northeast-3:
+        Dedicated: 0.577
+        Shared: 0.544
       ap-south-1:
         Dedicated: 0.303
         Shared: 0.286
@@ -53903,9 +54487,6 @@ r5a.2xlarge:
         Dedicated: 0.577
         Shared: 0.544
       ap-southeast-2:
-        Dedicated: 0.577
-        Shared: 0.544
-      Asia Pacific (Osaka):
         Dedicated: 0.577
         Shared: 0.544
       AWS GovCloud (US-West):
@@ -54006,6 +54587,8 @@ r5a.2xlarge:
       ap-northeast-2:
         Dedicated: 0.727
         Shared: 0.694
+      ap-northeast-3:
+        Shared: 0.694
       ap-south-1:
         Dedicated: 0.453
         Shared: 0.436
@@ -54017,7 +54600,6 @@ r5a.2xlarge:
         Shared: 0.694
       Asia Pacific (Osaka):
         Dedicated: 0.727
-        Shared: 0.694
       AWS GovCloud (US-West):
         Dedicated: 0.727
         Shared: 0.694
@@ -54061,6 +54643,8 @@ r5a.2xlarge:
       ap-northeast-2:
         Dedicated: 0.945
         Shared: 0.912
+      ap-northeast-3:
+        Shared: 0.544
       ap-south-1:
         Dedicated: 0.671
         Shared: 0.654
@@ -54128,6 +54712,7 @@ r5a.2xlarge:
     - eu-west-3
     - ap-northeast-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 8
 r5a.4xlarge:
@@ -54312,6 +54897,8 @@ r5a.4xlarge:
       ap-northeast-2:
         Dedicated: 1.889
         Shared: 1.824
+      ap-northeast-3:
+        Dedicated: 1.889
       ap-south-1:
         Dedicated: 1.342
         Shared: 1.308
@@ -54379,6 +54966,7 @@ r5a.4xlarge:
     - us-west-2
     - us-east-2
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 16
 r5a.8xlarge:
@@ -54508,6 +55096,8 @@ r5a.8xlarge:
       ap-northeast-2:
         Dedicated: 2.457
         Shared: 2.326
+      ap-northeast-3:
+        Dedicated: 2.457
       ap-south-1:
         Dedicated: 1.362
         Shared: 1.294
@@ -54518,7 +55108,6 @@ r5a.8xlarge:
         Dedicated: 2.457
         Shared: 2.326
       Asia Pacific (Osaka):
-        Dedicated: 2.457
         Shared: 2.326
       AWS GovCloud (US-West):
         Dedicated: 2.457
@@ -54563,6 +55152,8 @@ r5a.8xlarge:
       ap-northeast-2:
         Dedicated: 3.779
         Shared: 3.648
+      ap-northeast-3:
+        Shared: 2.176
       ap-south-1:
         Dedicated: 2.684
         Shared: 2.616
@@ -54626,10 +55217,11 @@ r5a.8xlarge:
     - us-east-2
     - us-west-2
     - ap-southeast-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - eu-west-3
     - ap-south-1
     - AWS GovCloud (US-West)
+    - Asia Pacific (Osaka)
   storage: EBS only
   vcpu: 32
 r5a.large:
@@ -54649,6 +55241,8 @@ r5a.large:
       ap-northeast-2:
         Dedicated: 0.144
         Shared: 0.136
+      ap-northeast-3:
+        Shared: 0.136
       ap-south-1:
         Dedicated: 0.076
         Shared: 0.072
@@ -54660,7 +55254,6 @@ r5a.large:
         Shared: 0.136
       Asia Pacific (Osaka):
         Dedicated: 0.144
-        Shared: 0.136
       AWS GovCloud (US-West):
         Dedicated: 0.144
         Shared: 0.136
@@ -54704,6 +55297,9 @@ r5a.large:
       ap-northeast-2:
         Dedicated: 0.204
         Shared: 0.196
+      ap-northeast-3:
+        Dedicated: 0.204
+        Shared: 0.196
       ap-south-1:
         Dedicated: 0.136
         Shared: 0.132
@@ -54711,9 +55307,6 @@ r5a.large:
         Dedicated: 0.204
         Shared: 0.196
       ap-southeast-2:
-        Dedicated: 0.204
-        Shared: 0.196
-      Asia Pacific (Osaka):
         Dedicated: 0.204
         Shared: 0.196
       AWS GovCloud (US-West):
@@ -54873,6 +55466,7 @@ r5a.large:
     - ca-central-1
     - eu-west-1
     - sa-east-1
+    - ap-northeast-3
     - ap-northeast-2
     - ap-southeast-1
     - us-west-2
@@ -54900,6 +55494,8 @@ r5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.288
         Shared: 0.272
+      ap-northeast-3:
+        Dedicated: 0.288
       ap-south-1:
         Dedicated: 0.152
         Shared: 0.143
@@ -54910,7 +55506,6 @@ r5a.xlarge:
         Dedicated: 0.288
         Shared: 0.272
       Asia Pacific (Osaka):
-        Dedicated: 0.288
         Shared: 0.272
       AWS GovCloud (US-West):
         Dedicated: 0.288
@@ -54955,6 +55550,8 @@ r5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.348
         Shared: 0.332
+      ap-northeast-3:
+        Shared: 0.332
       ap-south-1:
         Dedicated: 0.212
         Shared: 0.203
@@ -54966,7 +55563,6 @@ r5a.xlarge:
         Shared: 0.332
       Asia Pacific (Osaka):
         Dedicated: 0.348
-        Shared: 0.332
       AWS GovCloud (US-West):
         Dedicated: 0.348
         Shared: 0.332
@@ -55010,6 +55606,8 @@ r5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.413
         Shared: 0.397
+      ap-northeast-3:
+        Shared: 0.397
       ap-south-1:
         Dedicated: 0.277
         Shared: 0.268
@@ -55021,7 +55619,6 @@ r5a.xlarge:
         Shared: 0.397
       Asia Pacific (Osaka):
         Dedicated: 0.413
-        Shared: 0.397
       AWS GovCloud (US-West):
         Dedicated: 0.413
         Shared: 0.397
@@ -55065,6 +55662,8 @@ r5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.472
         Shared: 0.456
+      ap-northeast-3:
+        Dedicated: 0.472
       ap-south-1:
         Dedicated: 0.336
         Shared: 0.327
@@ -55075,7 +55674,6 @@ r5a.xlarge:
         Dedicated: 0.472
         Shared: 0.456
       Asia Pacific (Osaka):
-        Dedicated: 0.472
         Shared: 0.456
       AWS GovCloud (US-West):
         Dedicated: 0.472
@@ -55132,6 +55730,7 @@ r5a.xlarge:
     - us-gov-east-1
     - us-east-2
     - eu-west-2
+    - ap-northeast-3
   storage: EBS only
   vcpu: 4
 r5ad.12xlarge:
@@ -55307,6 +55906,8 @@ r5ad.12xlarge:
       ap-northeast-2:
         Dedicated: 6.227
         Shared: 6
+      ap-northeast-3:
+        Dedicated: 6.231
       ap-south-1:
         Dedicated: 4.321
         Shared: 4.201
@@ -55317,7 +55918,7 @@ r5ad.12xlarge:
         Dedicated: 6.254
         Shared: 6.024
       Asia Pacific (Osaka):
-        Dedicated: 6.231
+        Dedicated: 4.023
         Shared: 3.792
       AWS GovCloud (US-West):
         Dedicated: 6.23
@@ -55370,6 +55971,7 @@ r5ad.12xlarge:
     - sa-east-1
     - ca-central-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 r5ad.16xlarge:
@@ -55389,6 +55991,8 @@ r5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 5.359
         Shared: 5.056
+      ap-northeast-3:
+        Shared: 5.056
       ap-south-1:
         Dedicated: 2.817
         Shared: 2.658
@@ -55400,7 +56004,6 @@ r5ad.16xlarge:
         Shared: 5.088
       Asia Pacific (Osaka):
         Dedicated: 5.364
-        Shared: 5.056
       AWS GovCloud (US-West):
         Dedicated: 5.363
         Shared: 5.056
@@ -55438,6 +56041,8 @@ r5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 5.489
         Shared: 5.186
+      ap-northeast-3:
+        Dedicated: 5.494
       ap-south-1:
         Dedicated: 2.947
         Shared: 2.788
@@ -55448,7 +56053,6 @@ r5ad.16xlarge:
         Dedicated: 5.525
         Shared: 5.218
       Asia Pacific (Osaka):
-        Dedicated: 5.494
         Shared: 5.186
       AWS GovCloud (US-West):
         Dedicated: 5.493
@@ -55487,6 +56091,9 @@ r5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 5.509
         Shared: 5.206
+      ap-northeast-3:
+        Dedicated: 5.514
+        Shared: 5.206
       ap-south-1:
         Dedicated: 2.967
         Shared: 2.808
@@ -55496,9 +56103,6 @@ r5ad.16xlarge:
       ap-southeast-2:
         Dedicated: 5.545
         Shared: 5.238
-      Asia Pacific (Osaka):
-        Dedicated: 5.514
-        Shared: 5.206
       AWS GovCloud (US-West):
         Dedicated: 5.513
         Shared: 5.206
@@ -55536,6 +56140,8 @@ r5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 8.303
         Shared: 8
+      ap-northeast-3:
+        Shared: 5.056
       ap-south-1:
         Dedicated: 5.761
         Shared: 5.602
@@ -55590,6 +56196,7 @@ r5ad.16xlarge:
     - sa-east-1
     - ap-northeast-1
     - ap-northeast-2
+    - ap-northeast-3
     - eu-west-1
     - us-west-1
     - ap-southeast-2
@@ -55718,6 +56325,8 @@ r5ad.24xlarge:
       ap-northeast-2:
         Dedicated: 8.188
         Shared: 7.734
+      ap-northeast-3:
+        Shared: 7.734
       ap-south-1:
         Dedicated: 4.376
         Shared: 4.136
@@ -55729,7 +56338,6 @@ r5ad.24xlarge:
         Shared: 7.782
       Asia Pacific (Osaka):
         Dedicated: 8.197
-        Shared: 7.734
       AWS GovCloud (US-West):
         Dedicated: 8.194
         Shared: 7.734
@@ -55769,6 +56377,9 @@ r5ad.24xlarge:
         Shared: 12.048
       ap-northeast-2:
         Dedicated: 12.454
+        Shared: 12
+      ap-northeast-3:
+        Dedicated: 8.047
         Shared: 12
       ap-south-1:
         Dedicated: 8.642
@@ -55831,6 +56442,7 @@ r5ad.24xlarge:
     - AWS GovCloud (US-West)
     - eu-west-1
     - ap-northeast-2
+    - ap-northeast-3
     - ap-southeast-1
     - eu-west-2
   storage: 4 x 900 NVMe SSD
@@ -55956,6 +56568,8 @@ r5ad.2xlarge:
       ap-northeast-2:
         Dedicated: 0.82
         Shared: 0.782
+      ap-northeast-3:
+        Dedicated: 0.821
       ap-south-1:
         Dedicated: 0.502
         Shared: 0.482
@@ -55966,7 +56580,6 @@ r5ad.2xlarge:
         Dedicated: 0.824
         Shared: 0.786
       Asia Pacific (Osaka):
-        Dedicated: 0.821
         Shared: 0.782
       AWS GovCloud (US-West):
         Dedicated: 0.82
@@ -56071,6 +56684,7 @@ r5ad.2xlarge:
     - ap-northeast-1
     - us-east-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 r5ad.4xlarge:
@@ -56194,6 +56808,8 @@ r5ad.4xlarge:
       ap-northeast-2:
         Dedicated: 1.49
         Shared: 1.414
+      ap-northeast-3:
+        Shared: 1.414
       ap-south-1:
         Dedicated: 0.854
         Shared: 0.814
@@ -56205,7 +56821,6 @@ r5ad.4xlarge:
         Shared: 1.422
       Asia Pacific (Osaka):
         Dedicated: 1.491
-        Shared: 1.414
       AWS GovCloud (US-West):
         Dedicated: 1.491
         Shared: 1.414
@@ -56309,6 +56924,7 @@ r5ad.4xlarge:
     - ap-northeast-1
     - ap-south-1
     - sa-east-1
+    - ap-northeast-3
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 r5ad.8xlarge:
@@ -56328,6 +56944,8 @@ r5ad.8xlarge:
       ap-northeast-2:
         Dedicated: 2.679
         Shared: 2.528
+      ap-northeast-3:
+        Shared: 2.528
       ap-south-1:
         Dedicated: 1.409
         Shared: 1.329
@@ -56339,7 +56957,6 @@ r5ad.8xlarge:
         Shared: 2.544
       Asia Pacific (Osaka):
         Dedicated: 2.682
-        Shared: 2.528
       AWS GovCloud (US-West):
         Dedicated: 2.681
         Shared: 2.528
@@ -56377,6 +56994,8 @@ r5ad.8xlarge:
       ap-northeast-2:
         Dedicated: 2.809
         Shared: 2.658
+      ap-northeast-3:
+        Dedicated: 2.812
       ap-south-1:
         Dedicated: 1.539
         Shared: 1.459
@@ -56387,7 +57006,6 @@ r5ad.8xlarge:
         Dedicated: 2.827
         Shared: 2.674
       Asia Pacific (Osaka):
-        Dedicated: 2.812
         Shared: 2.658
       AWS GovCloud (US-West):
         Dedicated: 2.811
@@ -56426,6 +57044,8 @@ r5ad.8xlarge:
       ap-northeast-2:
         Dedicated: 2.829
         Shared: 2.678
+      ap-northeast-3:
+        Shared: 2.678
       ap-south-1:
         Dedicated: 1.559
         Shared: 1.479
@@ -56437,7 +57057,6 @@ r5ad.8xlarge:
         Shared: 2.694
       Asia Pacific (Osaka):
         Dedicated: 2.832
-        Shared: 2.678
       AWS GovCloud (US-West):
         Dedicated: 2.831
         Shared: 2.678
@@ -56475,6 +57094,8 @@ r5ad.8xlarge:
       ap-northeast-2:
         Dedicated: 4.151
         Shared: 4
+      ap-northeast-3:
+        Dedicated: 2.682
       ap-south-1:
         Dedicated: 2.881
         Shared: 2.801
@@ -56485,7 +57106,6 @@ r5ad.8xlarge:
         Dedicated: 4.169
         Shared: 4.016
       Asia Pacific (Osaka):
-        Dedicated: 2.682
         Shared: 4
       AWS GovCloud (US-West):
         Dedicated: 2.681
@@ -56534,6 +57154,7 @@ r5ad.8xlarge:
     - ap-northeast-2
     - sa-east-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 r5ad.large:
@@ -56772,6 +57393,7 @@ r5ad.large:
     - Asia Pacific (Osaka)
     - ap-northeast-1
     - eu-west-2
+    - ap-northeast-3
   storage: 1 x 75 NVMe SSD
   vcpu: 2
 r5ad.xlarge:
@@ -56895,6 +57517,8 @@ r5ad.xlarge:
       ap-northeast-2:
         Dedicated: 0.46
         Shared: 0.441
+      ap-northeast-3:
+        Shared: 0.441
       ap-south-1:
         Dedicated: 0.301
         Shared: 0.291
@@ -56906,7 +57530,6 @@ r5ad.xlarge:
         Shared: 0.443
       Asia Pacific (Osaka):
         Dedicated: 0.46
-        Shared: 0.441
       AWS GovCloud (US-West):
         Dedicated: 0.46
         Shared: 0.441
@@ -56947,6 +57570,9 @@ r5ad.xlarge:
       ap-northeast-2:
         Dedicated: 0.519
         Shared: 0.5
+      ap-northeast-3:
+        Dedicated: 0.519
+        Shared: 0.316
       ap-south-1:
         Dedicated: 0.36
         Shared: 0.35
@@ -57010,6 +57636,7 @@ r5ad.xlarge:
     - Asia Pacific (Osaka)
     - ap-northeast-2
     - eu-west-2
+    - ap-northeast-3
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 r5b.12xlarge:
@@ -57964,6 +58591,8 @@ r5d.12xlarge:
       ap-northeast-2:
         Dedicated: 4.531
         Shared: 4.282
+      ap-northeast-3:
+        Shared: 4.306
       ap-south-1:
         Dedicated: 3.971
         Shared: 3.754
@@ -57975,7 +58604,6 @@ r5d.12xlarge:
         Shared: 4.306
       Asia Pacific (Osaka):
         Dedicated: 4.56
-        Shared: 4.306
       AWS GovCloud (US-West):
         Dedicated: 4.534
         Shared: 4.282
@@ -58110,6 +58738,8 @@ r5d.12xlarge:
       ap-northeast-2:
         Dedicated: 6.609
         Shared: 6.36
+      ap-northeast-3:
+        Shared: 4.176
       ap-south-1:
         Dedicated: 6.049
         Shared: 5.832
@@ -58195,6 +58825,7 @@ r5d.12xlarge:
     - ap-south-1
     - eu-west-3
     - ap-southeast-2
+    - ap-northeast-3
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 r5d.16xlarge:
@@ -58440,6 +59071,9 @@ r5d.16xlarge:
       ap-northeast-2:
         Dedicated: 8.812
         Shared: 8.48
+      ap-northeast-3:
+        Dedicated: 8.851
+        Shared: 8.512
       ap-south-1:
         Dedicated: 8.066
         Shared: 7.776
@@ -58450,8 +59084,7 @@ r5d.16xlarge:
         Dedicated: 8.849
         Shared: 8.512
       Asia Pacific (Osaka):
-        Dedicated: 8.851
-        Shared: 8.512
+        Dedicated: 5.907
       AWS GovCloud (US-West):
         Dedicated: 8.816
         Shared: 5.536
@@ -58519,12 +59152,13 @@ r5d.16xlarge:
     - ap-northeast-2
     - ca-central-1
     - af-south-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-southeast-2
     - us-west-1
     - sa-east-1
     - eu-north-1
     - EU (Milan)
+    - Asia Pacific (Osaka)
   storage: 4 x 600 NVMe SSD
   vcpu: 64
 r5d.24xlarge:
@@ -58697,6 +59331,8 @@ r5d.24xlarge:
       ap-northeast-2:
         Dedicated: 8.454
         Shared: 8.454
+      ap-northeast-3:
+        Shared: 8.502
       ap-south-1:
         Dedicated: 7.398
         Shared: 7.398
@@ -58708,7 +59344,6 @@ r5d.24xlarge:
         Shared: 8.502
       Asia Pacific (Osaka):
         Dedicated: 8.502
-        Shared: 8.502
       AWS GovCloud (US-West):
         Dedicated: 8.454
         Shared: 8.454
@@ -58853,6 +59488,7 @@ r5d.24xlarge:
     - eu-west-3
     - ap-northeast-2
     - ap-southeast-2
+    - ap-northeast-3
     - Asia Pacific (Osaka)
     - ap-northeast-1
   storage: 4 x 900 NVMe SSD
@@ -58960,6 +59596,9 @@ r5d.2xlarge:
       ap-northeast-2:
         Dedicated: 0.863
         Shared: 0.822
+      ap-northeast-3:
+        Dedicated: 0.868
+        Shared: 0.826
       ap-south-1:
         Dedicated: 0.77
         Shared: 0.734
@@ -58967,9 +59606,6 @@ r5d.2xlarge:
         Dedicated: 0.868
         Shared: 0.826
       ap-southeast-2:
-        Dedicated: 0.868
-        Shared: 0.826
-      Asia Pacific (Osaka):
         Dedicated: 0.868
         Shared: 0.826
       AWS GovCloud (US-West):
@@ -59118,6 +59754,9 @@ r5d.2xlarge:
       ap-northeast-2:
         Dedicated: 1.101
         Shared: 1.06
+      ap-northeast-3:
+        Dedicated: 0.738
+        Shared: 1.064
       ap-south-1:
         Dedicated: 1.008
         Shared: 0.972
@@ -59128,7 +59767,7 @@ r5d.2xlarge:
         Dedicated: 1.106
         Shared: 1.064
       Asia Pacific (Osaka):
-        Dedicated: 0.738
+        Dedicated: 1.106
         Shared: 0.696
       AWS GovCloud (US-West):
         Dedicated: 1.102
@@ -59212,6 +59851,7 @@ r5d.2xlarge:
     - us-west-1
     - ap-northeast-1
     - af-south-1
+    - ap-northeast-3
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 r5d.4xlarge:
@@ -59238,6 +59878,8 @@ r5d.4xlarge:
       ap-northeast-2:
         Dedicated: 1.467
         Shared: 1.384
+      ap-northeast-3:
+        Shared: 1.392
       ap-south-1:
         Dedicated: 1.28
         Shared: 1.208
@@ -59249,7 +59891,6 @@ r5d.4xlarge:
         Shared: 1.392
       Asia Pacific (Osaka):
         Dedicated: 1.477
-        Shared: 1.392
       AWS GovCloud (US-West):
         Dedicated: 1.468
         Shared: 1.384
@@ -59384,6 +60025,8 @@ r5d.4xlarge:
       ap-northeast-2:
         Dedicated: 1.617
         Shared: 1.534
+      ap-northeast-3:
+        Shared: 1.542
       ap-south-1:
         Dedicated: 1.43
         Shared: 1.358
@@ -59395,7 +60038,6 @@ r5d.4xlarge:
         Shared: 1.542
       Asia Pacific (Osaka):
         Dedicated: 1.627
-        Shared: 1.542
       AWS GovCloud (US-West):
         Dedicated: 1.618
         Shared: 1.534
@@ -59535,8 +60177,9 @@ r5d.4xlarge:
     - eu-west-3
     - us-east-1
     - us-west-2
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - eu-west-2
+    - Asia Pacific (Osaka)
     - us-west-1
     - EU (Milan)
     - me-south-1
@@ -59714,6 +60357,8 @@ r5d.8xlarge:
       ap-northeast-2:
         Dedicated: 3.084
         Shared: 2.918
+      ap-northeast-3:
+        Dedicated: 3.103
       ap-south-1:
         Dedicated: 2.711
         Shared: 2.566
@@ -59724,7 +60369,6 @@ r5d.8xlarge:
         Dedicated: 3.102
         Shared: 2.934
       Asia Pacific (Osaka):
-        Dedicated: 3.103
         Shared: 2.934
       AWS GovCloud (US-West):
         Dedicated: 3.086
@@ -59872,6 +60516,7 @@ r5d.8xlarge:
     - AWS GovCloud (US-West)
     - Asia Pacific (Osaka)
     - eu-north-1
+    - ap-northeast-3
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 r5d.large:
@@ -60201,6 +60846,7 @@ r5d.large:
     - us-west-2
     - ca-central-1
     - eu-west-3
+    - ap-northeast-3
     - Asia Pacific (Osaka)
   storage: 1 x 75 NVMe SSD
   vcpu: 2
@@ -60228,6 +60874,8 @@ r5d.metal:
       ap-northeast-2:
         Dedicated: 8.304
         Shared: 8.304
+      ap-northeast-3:
+        Shared: 8.352
       ap-south-1:
         Dedicated: 7.248
         Shared: 7.248
@@ -60239,7 +60887,6 @@ r5d.metal:
         Shared: 8.352
       Asia Pacific (Osaka):
         Dedicated: 8.352
-        Shared: 8.352
       AWS GovCloud (US-West):
         Dedicated: 8.304
         Shared: 8.304
@@ -60374,6 +61021,8 @@ r5d.metal:
       ap-northeast-2:
         Dedicated: 8.454
         Shared: 8.454
+      ap-northeast-3:
+        Shared: 8.502
       ap-south-1:
         Dedicated: 7.398
         Shared: 7.398
@@ -60385,7 +61034,6 @@ r5d.metal:
         Shared: 8.502
       Asia Pacific (Osaka):
         Dedicated: 8.502
-        Shared: 8.502
       AWS GovCloud (US-West):
         Dedicated: 8.454
         Shared: 8.454
@@ -60522,12 +61170,13 @@ r5d.metal:
     - AWS GovCloud (US-West)
     - eu-west-1
     - ap-southeast-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - sa-east-1
     - me-south-1
     - eu-west-2
     - ca-central-1
     - us-west-2-lax-1a
+    - Asia Pacific (Osaka)
     - us-gov-east-1
     - ap-south-1
     - ap-southeast-2
@@ -60558,6 +61207,8 @@ r5d.xlarge:
       ap-northeast-2:
         Dedicated: 0.367
         Shared: 0.346
+      ap-northeast-3:
+        Dedicated: 0.369
       ap-south-1:
         Dedicated: 0.32
         Shared: 0.302
@@ -60568,7 +61219,6 @@ r5d.xlarge:
         Dedicated: 0.369
         Shared: 0.348
       Asia Pacific (Osaka):
-        Dedicated: 0.369
         Shared: 0.348
       AWS GovCloud (US-West):
         Dedicated: 0.367
@@ -60631,6 +61281,8 @@ r5d.xlarge:
       ap-northeast-2:
         Dedicated: 0.427
         Shared: 0.406
+      ap-northeast-3:
+        Shared: 0.408
       ap-south-1:
         Dedicated: 0.38
         Shared: 0.362
@@ -60642,7 +61294,6 @@ r5d.xlarge:
         Shared: 0.408
       Asia Pacific (Osaka):
         Dedicated: 0.429
-        Shared: 0.408
       AWS GovCloud (US-West):
         Dedicated: 0.427
         Shared: 0.406
@@ -60704,6 +61355,8 @@ r5d.xlarge:
       ap-northeast-2:
         Dedicated: 0.492
         Shared: 0.471
+      ap-northeast-3:
+        Dedicated: 0.494
       ap-south-1:
         Dedicated: 0.445
         Shared: 0.427
@@ -60714,7 +61367,6 @@ r5d.xlarge:
         Dedicated: 0.494
         Shared: 0.473
       Asia Pacific (Osaka):
-        Dedicated: 0.494
         Shared: 0.473
       AWS GovCloud (US-West):
         Dedicated: 0.492
@@ -60777,6 +61429,8 @@ r5d.xlarge:
       ap-northeast-2:
         Dedicated: 0.551
         Shared: 0.53
+      ap-northeast-3:
+        Shared: 0.348
       ap-south-1:
         Dedicated: 0.504
         Shared: 0.486
@@ -60788,7 +61442,7 @@ r5d.xlarge:
         Shared: 0.532
       Asia Pacific (Osaka):
         Dedicated: 0.553
-        Shared: 0.348
+        Shared: 0.532
       AWS GovCloud (US-West):
         Dedicated: 0.367
         Shared: 0.346
@@ -60862,6 +61516,7 @@ r5d.xlarge:
     - eu-west-3
     - AWS GovCloud (US-West)
     - eu-west-2
+    - ap-northeast-3
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 r5dn.12xlarge:
@@ -65728,6 +66383,8 @@ t2.2xlarge:
         Shared: 0.4864
       ap-northeast-2:
         Shared: 0.4608
+      ap-northeast-3:
+        Shared: 0.4864
       ap-south-1:
         Shared: 0.3968
       ap-southeast-1:
@@ -65798,6 +66455,8 @@ t2.2xlarge:
         Shared: 0.5864
       ap-northeast-2:
         Shared: 0.5608
+      ap-northeast-3:
+        Shared: 0.5864
       ap-south-1:
         Shared: 0.4968
       ap-southeast-1:
@@ -65833,6 +66492,8 @@ t2.2xlarge:
         Shared: 0.4864
       ap-northeast-2:
         Shared: 0.5228
+      ap-northeast-3:
+        Shared: 0.4864
       ap-south-1:
         Shared: 0.3968
       ap-southeast-1:
@@ -65840,7 +66501,7 @@ t2.2xlarge:
       ap-southeast-2:
         Shared: 0.4672
       Asia Pacific (Osaka):
-        Shared: 0.4864
+        Shared: 0.5484
       AWS GovCloud (US-West):
         Shared: 0.4352
       ca-central-1:
@@ -65871,7 +66532,7 @@ t2.2xlarge:
     - eu-central-1
     - eu-west-2
     - us-east-2
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ca-central-1
     - us-west-1
     - sa-east-1
@@ -65880,6 +66541,7 @@ t2.2xlarge:
     - AWS GovCloud (US-West)
     - ap-northeast-2
     - eu-west-3
+    - Asia Pacific (Osaka)
     - ap-northeast-1
   storage: EBS only
   vcpu: 8
@@ -66003,6 +66665,8 @@ t2.large:
         Shared: 0.1496
       ap-northeast-2:
         Shared: 0.1432
+      ap-northeast-3:
+        Shared: 0.1496
       ap-south-1:
         Shared: 0.0992
       ap-southeast-1:
@@ -66051,6 +66715,7 @@ t2.large:
     - us-east-1
     - eu-central-1
     - ap-southeast-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t2.medium:
@@ -66221,6 +66886,7 @@ t2.medium:
     - ap-northeast-1
     - Asia Pacific (Osaka)
     - ca-central-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t2.micro:
@@ -66343,6 +67009,8 @@ t2.micro:
         Shared: 0.0152
       ap-northeast-2:
         Shared: 0.019
+      ap-northeast-3:
+        Shared: 0.0198
       ap-south-1:
         Shared: 0.017
       ap-southeast-1:
@@ -66391,6 +67059,7 @@ t2.micro:
     - Asia Pacific (Osaka)
     - ap-northeast-2
     - ap-northeast-1
+    - ap-northeast-3
   storage: EBS only
   vcpu: 1
 t2.nano:
@@ -66408,6 +67077,8 @@ t2.nano:
         Shared: 0.0076
       ap-northeast-2:
         Shared: 0.0072
+      ap-northeast-3:
+        Shared: 0.0076
       ap-south-1:
         Shared: 0.0062
       ap-southeast-1:
@@ -66478,6 +67149,8 @@ t2.nano:
         Shared: 0.0099
       ap-northeast-2:
         Shared: 0.0072
+      ap-northeast-3:
+        Shared: 0.0099
       ap-south-1:
         Shared: 0.0062
       ap-southeast-1:
@@ -66514,6 +67187,7 @@ t2.nano:
     - eu-west-2
     - sa-east-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-northeast-2
     - us-west-1
     - ap-southeast-2
@@ -66543,6 +67217,8 @@ t2.small:
         Shared: 0.0304
       ap-northeast-2:
         Shared: 0.0288
+      ap-northeast-3:
+        Shared: 0.0304
       ap-south-1:
         Shared: 0.0248
       ap-southeast-1:
@@ -66578,6 +67254,8 @@ t2.small:
         Shared: 0.0904
       ap-northeast-2:
         Shared: 0.0888
+      ap-northeast-3:
+        Shared: 0.0904
       ap-south-1:
         Shared: 0.0848
       ap-southeast-1:
@@ -66648,6 +67326,8 @@ t2.small:
         Shared: 0.0396
       ap-northeast-2:
         Shared: 0.0288
+      ap-northeast-3:
+        Shared: 0.0396
       ap-south-1:
         Shared: 0.034
       ap-southeast-1:
@@ -66683,9 +67363,10 @@ t2.small:
     - eu-west-3
     - us-east-2
     - us-east-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ap-southeast-2
     - eu-west-1
+    - Asia Pacific (Osaka)
     - sa-east-1
     - eu-central-1
     - AWS GovCloud (US-West)
@@ -66713,6 +67394,8 @@ t2.xlarge:
         Shared: 0.2432
       ap-northeast-2:
         Shared: 0.2304
+      ap-northeast-3:
+        Shared: 0.2432
       ap-south-1:
         Shared: 0.1984
       ap-southeast-1:
@@ -66783,6 +67466,8 @@ t2.xlarge:
         Shared: 0.3432
       ap-northeast-2:
         Shared: 0.3304
+      ap-northeast-3:
+        Shared: 0.3432
       ap-south-1:
         Shared: 0.2984
       ap-southeast-1:
@@ -66866,6 +67551,7 @@ t2.xlarge:
     - us-west-2
     - AWS GovCloud (US-West)
     - us-east-2
+    - ap-northeast-3
   storage: EBS only
   vcpu: 4
 t3.2xlarge:
@@ -67089,6 +67775,8 @@ t3.2xlarge:
       ap-northeast-2:
         Dedicated: 0.5871
         Shared: 0.5632
+      ap-northeast-3:
+        Shared: 0.4352
       ap-south-1:
         Dedicated: 0.5271
         Shared: 0.5056
@@ -67099,7 +67787,7 @@ t3.2xlarge:
         Dedicated: 0.5969
         Shared: 0.5696
       Asia Pacific (Osaka):
-        Shared: 0.4352
+        Shared: 0.5824
       AWS GovCloud (US-West):
         Shared: 0.3904
       ca-central-1:
@@ -67167,6 +67855,7 @@ t3.2xlarge:
     - me-south-1
     - ap-southeast-2
     - eu-north-1
+    - ap-northeast-3
     - Asia Pacific (Osaka)
   storage: EBS only
   vcpu: 8
@@ -67470,6 +68159,7 @@ t3.large:
     - us-east-2
     - us-gov-east-1
     - EU (Milan)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t3.medium:
@@ -67679,6 +68369,8 @@ t3.medium:
       ap-northeast-2:
         Dedicated: 0.118
         Shared: 0.115
+      ap-northeast-3:
+        Shared: 0.1174
       ap-south-1:
         Dedicated: 0.1105
         Shared: 0.1078
@@ -67692,8 +68384,6 @@ t3.medium:
         Shared: 0.1364
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.1364
-      Asia Pacific (Osaka):
-        Shared: 0.1174
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.128
       AWS GovCloud (US-West):
@@ -67771,6 +68461,8 @@ t3.medium:
       ap-northeast-2:
         Dedicated: 0.0734
         Shared: 0.0704
+      ap-northeast-3:
+        Shared: 0.0544
       ap-south-1:
         Dedicated: 0.0659
         Shared: 0.0632
@@ -67889,6 +68581,7 @@ t3.medium:
     - US West (Verizon) - Seattle
     - ap-east-1
     - US East (Verizon) - Atlanta
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t3.micro:
@@ -67914,6 +68607,8 @@ t3.micro:
       ap-northeast-2:
         Dedicated: 0.0137
         Shared: 0.013
+      ap-northeast-3:
+        Shared: 0.0136
       ap-south-1:
         Dedicated: 0.0119
         Shared: 0.0112
@@ -67923,8 +68618,6 @@ t3.micro:
       ap-southeast-2:
         Dedicated: 0.0141
         Shared: 0.0132
-      Asia Pacific (Osaka):
-        Shared: 0.0136
       AWS GovCloud (US-West):
         Shared: 0.0122
       ca-central-1:
@@ -68046,6 +68739,8 @@ t3.micro:
       ap-northeast-2:
         Dedicated: 0.0137
         Shared: 0.013
+      ap-northeast-3:
+        Shared: 0.0136
       ap-south-1:
         Dedicated: 0.0119
         Shared: 0.0112
@@ -68055,8 +68750,6 @@ t3.micro:
       ap-southeast-2:
         Dedicated: 0.0141
         Shared: 0.0132
-      Asia Pacific (Osaka):
-        Shared: 0.0136
       AWS GovCloud (US-West):
         Shared: 0.0122
       ca-central-1:
@@ -68112,6 +68805,8 @@ t3.micro:
       ap-northeast-2:
         Dedicated: 0.0229
         Shared: 0.0222
+      ap-northeast-3:
+        Shared: 0.0136
       ap-south-1:
         Dedicated: 0.0211
         Shared: 0.0204
@@ -68186,11 +68881,12 @@ t3.micro:
     - ap-southeast-2
     - ca-central-1
     - eu-north-1
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - af-south-1
     - me-south-1
     - ap-northeast-1
     - us-east-1
+    - Asia Pacific (Osaka)
   storage: EBS only
   vcpu: 2
 t3.nano:
@@ -68650,6 +69346,8 @@ t3.small:
       ap-northeast-2:
         Dedicated: 0.0459
         Shared: 0.0444
+      ap-northeast-3:
+        Shared: 0.0272
       ap-south-1:
         Dedicated: 0.0421
         Shared: 0.0408
@@ -68660,7 +69358,7 @@ t3.small:
         Dedicated: 0.0465
         Shared: 0.0448
       Asia Pacific (Osaka):
-        Shared: 0.0272
+        Shared: 0.0456
       AWS GovCloud (US-West):
         Shared: 0.0244
       ca-central-1:
@@ -68728,6 +69426,7 @@ t3.small:
     - us-gov-east-1
     - us-east-1
     - me-south-1
+    - ap-northeast-3
     - eu-north-1
   storage: EBS only
   vcpu: 2
@@ -68754,6 +69453,8 @@ t3.xlarge:
       ap-northeast-2:
         Dedicated: 0.22
         Shared: 0.208
+      ap-northeast-3:
+        Shared: 0.2176
       ap-south-1:
         Dedicated: 0.1899
         Shared: 0.1792
@@ -68767,8 +69468,6 @@ t3.xlarge:
         Shared: 0.2938
       Asia Pacific (KDDI) - Tokyo:
         Shared: 0.2938
-      Asia Pacific (Osaka):
-        Shared: 0.2176
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.26
       AWS GovCloud (US-West):
@@ -69175,6 +69874,7 @@ t3.xlarge:
     - US East (Verizon) - Dallas
     - US East (Verizon) - New York
     - US East (Verizon) - Atlanta
+    - ap-northeast-3
   storage: EBS only
   vcpu: 4
 t3a.2xlarge:
@@ -69267,14 +69967,14 @@ t3a.2xlarge:
         Shared: 0.5417
       ap-northeast-2:
         Shared: 0.5244
+      ap-northeast-3:
+        Shared: 0.5417
       ap-south-1:
         Shared: 0.3471
       ap-southeast-1:
         Shared: 0.5276
       ap-southeast-2:
         Shared: 0.5302
-      Asia Pacific (Osaka):
-        Shared: 0.5417
       AWS GovCloud (US-West):
         Shared: 0.5014
       ca-central-1:
@@ -69304,6 +70004,8 @@ t3a.2xlarge:
         Shared: 0.5389
       ap-northeast-2:
         Shared: 0.5216
+      ap-northeast-3:
+        Shared: 0.3917
       ap-south-1:
         Shared: 0.3443
       ap-southeast-1:
@@ -69341,7 +70043,7 @@ t3a.2xlarge:
     - ap-south-1
     - us-west-1
     - eu-west-3
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - us-east-2
     - us-east-1
     - sa-east-1
@@ -69355,6 +70057,7 @@ t3a.2xlarge:
     - eu-west-1
     - ca-central-1
     - ap-southeast-1
+    - Asia Pacific (Osaka)
   storage: EBS only
   vcpu: 8
 t3a.large:
@@ -69373,14 +70076,14 @@ t3a.large:
         Shared: 0.0979
       ap-northeast-2:
         Shared: 0.0936
+      ap-northeast-3:
+        Shared: 0.0979
       ap-south-1:
         Shared: 0.0493
       ap-southeast-1:
         Shared: 0.0944
       ap-southeast-2:
         Shared: 0.095
-      Asia Pacific (Osaka):
-        Shared: 0.0979
       AWS GovCloud (US-West):
         Shared: 0.0878
       ca-central-1:
@@ -69447,14 +70150,14 @@ t3a.large:
         Shared: 0.1609
       ap-northeast-2:
         Shared: 0.1566
+      ap-northeast-3:
+        Shared: 0.1609
       ap-south-1:
         Shared: 0.1123
       ap-southeast-1:
         Shared: 0.1574
       ap-southeast-2:
         Shared: 0.158
-      Asia Pacific (Osaka):
-        Shared: 0.1609
       AWS GovCloud (US-West):
         Shared: 0.1508
       ca-central-1:
@@ -69484,6 +70187,8 @@ t3a.large:
         Shared: 0.1255
       ap-northeast-2:
         Shared: 0.1212
+      ap-northeast-3:
+        Shared: 0.0979
       ap-south-1:
         Shared: 0.0769
       ap-southeast-1:
@@ -69491,7 +70196,7 @@ t3a.large:
       ap-southeast-2:
         Shared: 0.1226
       Asia Pacific (Osaka):
-        Shared: 0.0979
+        Shared: 0.1255
       AWS GovCloud (US-West):
         Shared: 0.0878
       ca-central-1:
@@ -69535,6 +70240,7 @@ t3a.large:
     - ap-southeast-2
     - us-east-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t3a.medium:
@@ -69715,6 +70421,7 @@ t3a.medium:
     - us-west-2
     - ap-northeast-2
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t3a.micro:
@@ -69733,14 +70440,14 @@ t3a.micro:
         Shared: 0.0122
       ap-northeast-2:
         Shared: 0.0117
+      ap-northeast-3:
+        Shared: 0.0122
       ap-south-1:
         Shared: 0.0062
       ap-southeast-1:
         Shared: 0.0118
       ap-southeast-2:
         Shared: 0.0119
-      Asia Pacific (Osaka):
-        Shared: 0.0122
       AWS GovCloud (US-West):
         Shared: 0.011
       ca-central-1:
@@ -69807,14 +70514,14 @@ t3a.micro:
         Shared: 0.0122
       ap-northeast-2:
         Shared: 0.0117
+      ap-northeast-3:
+        Shared: 0.0122
       ap-south-1:
         Shared: 0.0062
       ap-southeast-1:
         Shared: 0.0118
       ap-southeast-2:
         Shared: 0.0119
-      Asia Pacific (Osaka):
-        Shared: 0.0122
       AWS GovCloud (US-West):
         Shared: 0.011
       ca-central-1:
@@ -69894,6 +70601,7 @@ t3a.micro:
     - ca-central-1
     - eu-west-3
     - us-west-1
+    - ap-northeast-3
     - Asia Pacific (Osaka)
   storage: EBS only
   vcpu: 2
@@ -69950,14 +70658,14 @@ t3a.nano:
         Shared: 0.0061
       ap-northeast-2:
         Shared: 0.0059
+      ap-northeast-3:
+        Shared: 0.0061
       ap-south-1:
         Shared: 0.0031
       ap-southeast-1:
         Shared: 0.0059
       ap-southeast-2:
         Shared: 0.0059
-      Asia Pacific (Osaka):
-        Shared: 0.0061
       AWS GovCloud (US-West):
         Shared: 0.0055
       ca-central-1:
@@ -69987,6 +70695,8 @@ t3a.nano:
         Shared: 0.0107
       ap-northeast-2:
         Shared: 0.0105
+      ap-northeast-3:
+        Shared: 0.0061
       ap-south-1:
         Shared: 0.0077
       ap-southeast-1:
@@ -69994,7 +70704,7 @@ t3a.nano:
       ap-southeast-2:
         Shared: 0.0105
       Asia Pacific (Osaka):
-        Shared: 0.0061
+        Shared: 0.0107
       AWS GovCloud (US-West):
         Shared: 0.0055
       ca-central-1:
@@ -70038,6 +70748,7 @@ t3a.nano:
     - eu-central-1
     - ap-northeast-1
     - ap-northeast-2
+    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t3a.small:
@@ -70167,14 +70878,14 @@ t3a.small:
         Shared: 0.0429
       ap-northeast-2:
         Shared: 0.0418
+      ap-northeast-3:
+        Shared: 0.0429
       ap-south-1:
         Shared: 0.0307
       ap-southeast-1:
         Shared: 0.042
       ap-southeast-2:
         Shared: 0.0422
-      Asia Pacific (Osaka):
-        Shared: 0.0429
       AWS GovCloud (US-West):
         Shared: 0.022
       ca-central-1:
@@ -70217,6 +70928,7 @@ t3a.small:
     - us-gov-east-1
     - us-east-1
     - AWS GovCloud (US-West)
+    - ap-northeast-3
     - Asia Pacific (Osaka)
   storage: EBS only
   vcpu: 2
@@ -70273,14 +70985,14 @@ t3a.xlarge:
         Shared: 0.2558
       ap-northeast-2:
         Shared: 0.2472
+      ap-northeast-3:
+        Shared: 0.2558
       ap-south-1:
         Shared: 0.1586
       ap-southeast-1:
         Shared: 0.2488
       ap-southeast-2:
         Shared: 0.2501
-      Asia Pacific (Osaka):
-        Shared: 0.2558
       AWS GovCloud (US-West):
         Shared: 0.2357
       ca-central-1:
@@ -70310,14 +71022,14 @@ t3a.xlarge:
         Shared: 0.3208
       ap-northeast-2:
         Shared: 0.3122
+      ap-northeast-3:
+        Shared: 0.3208
       ap-south-1:
         Shared: 0.2236
       ap-southeast-1:
         Shared: 0.3138
       ap-southeast-2:
         Shared: 0.3151
-      Asia Pacific (Osaka):
-        Shared: 0.3208
       AWS GovCloud (US-West):
         Shared: 0.3007
       ca-central-1:
@@ -70347,6 +71059,8 @@ t3a.xlarge:
         Shared: 0.2694
       ap-northeast-2:
         Shared: 0.2608
+      ap-northeast-3:
+        Shared: 0.2694
       ap-south-1:
         Shared: 0.1722
       ap-southeast-1:
@@ -70354,7 +71068,7 @@ t3a.xlarge:
       ap-southeast-2:
         Shared: 0.2637
       Asia Pacific (Osaka):
-        Shared: 0.2694
+        Shared: 0.1958
       AWS GovCloud (US-West):
         Shared: 0.1757
       ca-central-1:
@@ -70398,6 +71112,7 @@ t3a.xlarge:
     - eu-central-1
     - us-east-2
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: EBS only
   vcpu: 4
 t4g.2xlarge:
@@ -71389,6 +72104,8 @@ x1.16xlarge:
       ap-northeast-2:
         Dedicated: 10.638
         Shared: 9.671
+      ap-northeast-3:
+        Dedicated: 10.638
       ap-south-1:
         Dedicated: 7.569
         Shared: 6.881
@@ -71399,7 +72116,6 @@ x1.16xlarge:
         Dedicated: 10.638
         Shared: 9.671
       Asia Pacific (Osaka):
-        Dedicated: 10.638
         Shared: 9.671
       AWS GovCloud (US-West):
         Dedicated: 8.803
@@ -71628,6 +72344,7 @@ x1.16xlarge:
     - af-south-1
     - ap-east-1
     - eu-west-2
+    - ap-northeast-3
   storage: 1 x 1920 SSD
   vcpu: 64
 x1.32xlarge:
@@ -71654,6 +72371,9 @@ x1.32xlarge:
       ap-northeast-2:
         Dedicated: 19.341
         Shared: 19.341
+      ap-northeast-3:
+        Dedicated: 19.342
+        Shared: 19.342
       ap-south-1:
         Dedicated: 13.762
         Shared: 13.762
@@ -71663,9 +72383,6 @@ x1.32xlarge:
       ap-southeast-2:
         Dedicated: 19.341
         Shared: 19.341
-      Asia Pacific (Osaka):
-        Dedicated: 19.342
-        Shared: 19.342
       AWS GovCloud (US-West):
         Dedicated: 16.006
         Shared: 16.006
@@ -71828,6 +72545,8 @@ x1.32xlarge:
       ap-northeast-2:
         Dedicated: 19.341
         Shared: 19.341
+      ap-northeast-3:
+        Shared: 19.342
       ap-south-1:
         Dedicated: 19.65
         Shared: 13.762
@@ -71893,6 +72612,7 @@ x1.32xlarge:
     - ap-northeast-2
     - ap-east-1
     - ap-southeast-2
+    - ap-northeast-3
   storage: 2 x 1920 SSD
   vcpu: 128
 x1e.16xlarge:
@@ -71916,6 +72636,8 @@ x1e.16xlarge:
       ap-northeast-2:
         Dedicated: 21.278
         Shared: 19.344
+      ap-northeast-3:
+        Shared: 19.344
       ap-south-1:
         Dedicated: 15.136
         Shared: 13.76
@@ -71927,7 +72649,6 @@ x1e.16xlarge:
         Shared: 19.344
       Asia Pacific (Osaka):
         Dedicated: 21.278
-        Shared: 19.344
       AWS GovCloud (US-West):
         Dedicated: 17.6
         Shared: 16
@@ -72119,6 +72840,7 @@ x1e.16xlarge:
     - us-gov-east-1
     - ap-southeast-1
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: 1 x 1920 SSD
   vcpu: 64
 x1e.2xlarge:
@@ -72289,6 +73011,8 @@ x1e.2xlarge:
       ap-northeast-2:
         Dedicated: 3.028
         Shared: 2.786
+      ap-northeast-3:
+        Dedicated: 3.028
       ap-south-1:
         Dedicated: 2.26
         Shared: 2.088
@@ -72345,6 +73069,7 @@ x1e.2xlarge:
     - ap-south-1
     - ap-northeast-2
     - us-east-1
+    - ap-northeast-3
   storage: 1 x 240 SSD
   vcpu: 8
 x1e.32xlarge:
@@ -72515,6 +73240,9 @@ x1e.32xlarge:
       ap-northeast-2:
         Dedicated: 38.688
         Shared: 44.576
+      ap-northeast-3:
+        Dedicated: 38.688
+        Shared: 44.576
       ap-south-1:
         Dedicated: 33.408
         Shared: 33.408
@@ -72525,8 +73253,7 @@ x1e.32xlarge:
         Dedicated: 44.576
         Shared: 44.576
       Asia Pacific (Osaka):
-        Dedicated: 38.688
-        Shared: 44.576
+        Shared: 38.688
       AWS GovCloud (US-West):
         Dedicated: 32
         Shared: 37.888
@@ -72564,6 +73291,7 @@ x1e.32xlarge:
     - us-gov-east-1
     - sa-east-1
     - ap-south-1
+    - ap-northeast-3
     - us-west-2
     - ap-northeast-1
     - ap-southeast-2
@@ -72594,6 +73322,8 @@ x1e.4xlarge:
       ap-northeast-2:
         Dedicated: 5.32
         Shared: 4.836
+      ap-northeast-3:
+        Shared: 4.836
       ap-south-1:
         Dedicated: 3.784
         Shared: 3.44
@@ -72605,7 +73335,6 @@ x1e.4xlarge:
         Shared: 4.836
       Asia Pacific (Osaka):
         Dedicated: 5.32
-        Shared: 4.836
       AWS GovCloud (US-West):
         Dedicated: 4.4
         Shared: 4
@@ -72692,6 +73421,8 @@ x1e.4xlarge:
       ap-northeast-2:
         Dedicated: 5.42
         Shared: 4.936
+      ap-northeast-3:
+        Shared: 4.936
       ap-south-1:
         Dedicated: 3.884
         Shared: 3.54
@@ -72703,7 +73434,6 @@ x1e.4xlarge:
         Shared: 4.936
       Asia Pacific (Osaka):
         Dedicated: 5.42
-        Shared: 4.936
       AWS GovCloud (US-West):
         Dedicated: 4.5
         Shared: 4.1
@@ -72741,6 +73471,8 @@ x1e.4xlarge:
       ap-northeast-2:
         Dedicated: 5.32
         Shared: 5.572
+      ap-northeast-3:
+        Dedicated: 6.056
       ap-south-1:
         Dedicated: 4.52
         Shared: 4.176
@@ -72751,7 +73483,7 @@ x1e.4xlarge:
         Dedicated: 6.056
         Shared: 5.572
       Asia Pacific (Osaka):
-        Dedicated: 6.056
+        Dedicated: 5.32
         Shared: 4.836
       AWS GovCloud (US-West):
         Dedicated: 5.136
@@ -72794,8 +73526,9 @@ x1e.4xlarge:
     - ap-south-1
     - us-west-2
     - ap-southeast-2
-    - Asia Pacific (Osaka)
+    - ap-northeast-3
     - ca-central-1
+    - Asia Pacific (Osaka)
     - sa-east-1
   storage: 1 x 480 SSD
   vcpu: 16
@@ -73023,6 +73756,7 @@ x1e.8xlarge:
     - eu-west-1
     - sa-east-1
     - ap-southeast-2
+    - ap-northeast-3
   storage: 1 x 960 SSD
   vcpu: 32
 x1e.xlarge:
@@ -73046,6 +73780,8 @@ x1e.xlarge:
       ap-northeast-2:
         Dedicated: 1.33
         Shared: 1.209
+      ap-northeast-3:
+        Dedicated: 1.33
       ap-south-1:
         Dedicated: 0.946
         Shared: 0.86
@@ -73056,7 +73792,6 @@ x1e.xlarge:
         Dedicated: 1.33
         Shared: 1.209
       Asia Pacific (Osaka):
-        Dedicated: 1.33
         Shared: 1.209
       AWS GovCloud (US-West):
         Dedicated: 1.1
@@ -73144,6 +73879,8 @@ x1e.xlarge:
       ap-northeast-2:
         Dedicated: 1.43
         Shared: 1.309
+      ap-northeast-3:
+        Shared: 1.309
       ap-south-1:
         Dedicated: 1.046
         Shared: 0.96
@@ -73155,7 +73892,6 @@ x1e.xlarge:
         Shared: 1.309
       Asia Pacific (Osaka):
         Dedicated: 1.43
-        Shared: 1.309
       AWS GovCloud (US-West):
         Dedicated: 1.2
         Shared: 1.1
@@ -73192,6 +73928,8 @@ x1e.xlarge:
         Shared: 1.209
       ap-northeast-2:
         Dedicated: 1.33
+        Shared: 1.393
+      ap-northeast-3:
         Shared: 1.393
       ap-south-1:
         Dedicated: 1.13
@@ -73249,6 +73987,7 @@ x1e.xlarge:
     - af-south-1
     - us-east-2
     - Asia Pacific (Osaka)
+    - ap-northeast-3
   storage: 1 x 120 SSD
   vcpu: 4
 z1d.12xlarge:
