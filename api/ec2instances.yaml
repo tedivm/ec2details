@@ -1,109 +1,3 @@
-a1.2xlarge:
-  clockSpeed: 2.3 GHz
-  currentGeneration: true
-  dedicatedEbsThroughput: Up to 3500 Mbps
-  enhancedNetworkingSupported: true
-  memory: 16 GiB
-  networkPerformance: Up to 10 Gigabit
-  normalizationSizeFactor: 16
-  physicalProcessor: AWS Graviton Processor
-  prices:
-    Linux:
-      ap-northeast-1:
-        Dedicated: 0.2743
-        Shared: 0.2568
-      ap-south-1:
-        Dedicated: 0.217
-        Shared: 0.204
-      ap-southeast-1:
-        Dedicated: 0.2501
-        Shared: 0.2352
-      ap-southeast-2:
-        Dedicated: 0.2825
-        Shared: 0.2664
-      eu-central-1:
-        Dedicated: 0.248
-        Shared: 0.2328
-      eu-west-1:
-        Dedicated: 0.2454
-        Shared: 0.2304
-      us-east-1:
-        Dedicated: 0.2162
-        Shared: 0.204
-      us-east-2:
-        Dedicated: 0.2162
-        Shared: 0.204
-      us-west-2:
-        Dedicated: 0.2162
-        Shared: 0.204
-    RHEL:
-      ap-northeast-1:
-        Dedicated: 0.4043
-        Shared: 0.3868
-      ap-south-1:
-        Dedicated: 0.347
-        Shared: 0.334
-      ap-southeast-1:
-        Dedicated: 0.3801
-        Shared: 0.3652
-      ap-southeast-2:
-        Dedicated: 0.4125
-        Shared: 0.3964
-      eu-central-1:
-        Dedicated: 0.378
-        Shared: 0.3628
-      eu-west-1:
-        Dedicated: 0.3754
-        Shared: 0.3604
-      us-east-1:
-        Dedicated: 0.3462
-        Shared: 0.334
-      us-east-2:
-        Dedicated: 0.3462
-        Shared: 0.334
-      us-west-2:
-        Dedicated: 0.3462
-        Shared: 0.334
-    SUSE:
-      ap-northeast-1:
-        Dedicated: 0.4243
-        Shared: 0.4068
-      ap-south-1:
-        Dedicated: 0.367
-        Shared: 0.354
-      ap-southeast-1:
-        Dedicated: 0.4001
-        Shared: 0.3852
-      ap-southeast-2:
-        Dedicated: 0.4325
-        Shared: 0.4164
-      eu-central-1:
-        Dedicated: 0.398
-        Shared: 0.3828
-      eu-west-1:
-        Dedicated: 0.3954
-        Shared: 0.3804
-      us-east-1:
-        Dedicated: 0.3662
-        Shared: 0.354
-      us-east-2:
-        Dedicated: 0.3662
-        Shared: 0.354
-      us-west-2:
-        Dedicated: 0.3662
-        Shared: 0.354
-  regions:
-    - ap-southeast-2
-    - ap-northeast-1
-    - us-west-2
-    - eu-west-1
-    - us-east-2
-    - us-east-1
-    - eu-central-1
-    - ap-south-1
-    - ap-southeast-1
-  storage: EBS only
-  vcpu: 8
 a1.4xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
@@ -2892,8 +2786,8 @@ c4.xlarge:
     - ca-central-1
     - sa-east-1
     - eu-west-2
-    - AWS GovCloud (US-West)
     - ap-northeast-1
+    - AWS GovCloud (US-West)
     - ap-southeast-2
     - us-east-1
     - eu-west-3
@@ -3474,7 +3368,7 @@ c5.18xlarge:
         Shared: 6.768
       ap-northeast-3:
         Dedicated: 7.164
-        Shared: 3.852
+        Shared: 7.164
       ap-south-1:
         Dedicated: 6.372
         Shared: 3.06
@@ -3804,7 +3698,7 @@ c5.24xlarge:
         Shared: 9.024
       ap-northeast-3:
         Dedicated: 9.552
-        Shared: 5.136
+        Shared: 9.552
       ap-south-1:
         Dedicated: 8.759
         Shared: 8.496
@@ -3914,7 +3808,7 @@ c5.2xlarge:
         Dedicated: 0.409
         Shared: 0.384
       ap-northeast-3:
-        Dedicated: 0.457
+        Dedicated: 0.454
         Shared: 0.428
       ap-south-1:
         Dedicated: 0.362
@@ -3987,7 +3881,7 @@ c5.2xlarge:
         Dedicated: 0.539
         Shared: 0.514
       ap-northeast-3:
-        Dedicated: 0.587
+        Dedicated: 0.584
         Shared: 0.558
       ap-south-1:
         Dedicated: 0.492
@@ -4060,7 +3954,7 @@ c5.2xlarge:
         Dedicated: 0.509
         Shared: 0.484
       ap-northeast-3:
-        Dedicated: 0.557
+        Dedicated: 0.554
         Shared: 0.528
       ap-south-1:
         Dedicated: 0.462
@@ -4133,8 +4027,8 @@ c5.2xlarge:
         Dedicated: 0.777
         Shared: 0.384
       ap-northeast-3:
-        Dedicated: 0.457
-        Shared: 0.428
+        Dedicated: 0.822
+        Shared: 0.796
       ap-south-1:
         Dedicated: 0.362
         Shared: 0.708
@@ -4215,8 +4109,8 @@ c5.2xlarge:
     - eu-west-1
     - us-west-2-lax-1a
     - EU (Milan)
-    - af-south-1
     - ap-northeast-3
+    - af-south-1
   storage: EBS only
   vcpu: 8
 c5.4xlarge:
@@ -4244,7 +4138,7 @@ c5.4xlarge:
         Dedicated: 0.818
         Shared: 0.768
       ap-northeast-3:
-        Dedicated: 0.915
+        Dedicated: 0.907
         Shared: 0.856
       ap-south-1:
         Dedicated: 0.724
@@ -4317,7 +4211,7 @@ c5.4xlarge:
         Dedicated: 0.948
         Shared: 0.898
       ap-northeast-3:
-        Dedicated: 1.045
+        Dedicated: 1.037
         Shared: 0.986
       ap-south-1:
         Dedicated: 0.854
@@ -4390,7 +4284,7 @@ c5.4xlarge:
         Dedicated: 0.918
         Shared: 0.868
       ap-northeast-3:
-        Dedicated: 1.015
+        Dedicated: 1.007
         Shared: 0.956
       ap-south-1:
         Dedicated: 0.824
@@ -4463,8 +4357,8 @@ c5.4xlarge:
         Dedicated: 1.554
         Shared: 0.768
       ap-northeast-3:
-        Dedicated: 1.651
-        Shared: 0.856
+        Dedicated: 1.643
+        Shared: 1.592
       ap-south-1:
         Dedicated: 0.724
         Shared: 1.416
@@ -4526,19 +4420,19 @@ c5.4xlarge:
     - ap-southeast-2
     - af-south-1
     - EU (Milan)
+    - ap-northeast-3
     - eu-west-3
     - ap-northeast-2
     - eu-west-1
     - ap-northeast-1
     - us-west-2
-    - ap-northeast-3
     - us-east-2
     - us-gov-east-1
     - ap-south-1
     - me-south-1
-    - AWS GovCloud (US-West)
     - eu-north-1
     - us-west-1
+    - AWS GovCloud (US-West)
     - eu-west-2
     - ap-southeast-1
     - us-east-1
@@ -4574,7 +4468,7 @@ c5.9xlarge:
         Dedicated: 1.84
         Shared: 1.728
       ap-northeast-3:
-        Dedicated: 2.058
+        Dedicated: 2.042
         Shared: 1.926
       ap-south-1:
         Dedicated: 1.629
@@ -4647,7 +4541,7 @@ c5.9xlarge:
         Dedicated: 1.97
         Shared: 1.858
       ap-northeast-3:
-        Dedicated: 2.188
+        Dedicated: 2.172
         Shared: 2.056
       ap-south-1:
         Dedicated: 1.759
@@ -4720,7 +4614,7 @@ c5.9xlarge:
         Dedicated: 1.94
         Shared: 1.828
       ap-northeast-3:
-        Dedicated: 2.158
+        Dedicated: 2.142
         Shared: 2.026
       ap-south-1:
         Dedicated: 1.729
@@ -4793,7 +4687,7 @@ c5.9xlarge:
         Dedicated: 3.496
         Shared: 1.728
       ap-northeast-3:
-        Dedicated: 2.058
+        Dedicated: 3.698
         Shared: 3.582
       ap-south-1:
         Dedicated: 3.285
@@ -4856,7 +4750,6 @@ c5.9xlarge:
     - ap-south-1
     - ap-southeast-2
     - us-west-2-lax-1a
-    - AWS GovCloud (US-West)
     - us-east-2
     - ap-southeast-1
     - eu-west-1
@@ -4865,17 +4758,18 @@ c5.9xlarge:
     - eu-west-2
     - ap-northeast-2
     - eu-west-3
+    - AWS GovCloud (US-West)
     - ap-east-1
     - af-south-1
     - ap-northeast-1
     - sa-east-1
     - EU (Milan)
     - us-gov-east-1
+    - ap-northeast-3
     - ca-central-1
     - us-west-1
     - me-south-1
     - us-east-1
-    - ap-northeast-3
     - eu-central-1
   storage: EBS only
   vcpu: 36
@@ -4904,7 +4798,7 @@ c5.large:
         Dedicated: 0.102
         Shared: 0.096
       ap-northeast-3:
-        Dedicated: 0.114
+        Dedicated: 0.113
         Shared: 0.107
       ap-south-1:
         Dedicated: 0.09
@@ -4977,7 +4871,7 @@ c5.large:
         Dedicated: 0.162
         Shared: 0.156
       ap-northeast-3:
-        Dedicated: 0.174
+        Dedicated: 0.173
         Shared: 0.167
       ap-south-1:
         Dedicated: 0.15
@@ -5050,7 +4944,7 @@ c5.large:
         Dedicated: 0.202
         Shared: 0.196
       ap-northeast-3:
-        Dedicated: 0.214
+        Dedicated: 0.213
         Shared: 0.207
       ap-south-1:
         Dedicated: 0.19
@@ -5123,7 +5017,7 @@ c5.large:
         Dedicated: 0.194
         Shared: 0.188
       ap-northeast-3:
-        Dedicated: 0.114
+        Dedicated: 0.205
         Shared: 0.199
       ap-south-1:
         Dedicated: 0.09
@@ -5190,12 +5084,12 @@ c5.large:
     - eu-west-1
     - af-south-1
     - eu-north-1
-    - ap-northeast-3
     - sa-east-1
     - AWS GovCloud (US-West)
     - us-gov-east-1
     - us-east-1
     - ap-southeast-2
+    - ap-northeast-3
     - ca-central-1
     - us-west-2-lax-1a
     - me-south-1
@@ -5453,8 +5347,8 @@ c5.metal:
         Dedicated: 9.024
         Shared: 9.024
       ap-northeast-3:
-        Dedicated: 5.136
-        Shared: 5.136
+        Dedicated: 9.552
+        Shared: 9.552
       ap-south-1:
         Dedicated: 8.496
         Shared: 8.496
@@ -5564,7 +5458,7 @@ c5.xlarge:
         Dedicated: 0.204
         Shared: 0.192
       ap-northeast-3:
-        Dedicated: 0.229
+        Dedicated: 0.227
         Shared: 0.214
       ap-south-1:
         Dedicated: 0.181
@@ -5637,7 +5531,7 @@ c5.xlarge:
         Dedicated: 0.264
         Shared: 0.252
       ap-northeast-3:
-        Dedicated: 0.289
+        Dedicated: 0.287
         Shared: 0.274
       ap-south-1:
         Dedicated: 0.241
@@ -5710,7 +5604,7 @@ c5.xlarge:
         Dedicated: 0.304
         Shared: 0.292
       ap-northeast-3:
-        Dedicated: 0.329
+        Dedicated: 0.327
         Shared: 0.314
       ap-south-1:
         Dedicated: 0.281
@@ -5783,8 +5677,8 @@ c5.xlarge:
         Dedicated: 0.204
         Shared: 0.376
       ap-northeast-3:
-        Dedicated: 0.413
-        Shared: 0.214
+        Dedicated: 0.411
+        Shared: 0.398
       ap-south-1:
         Dedicated: 0.181
         Shared: 0.354
@@ -5847,6 +5741,7 @@ c5.xlarge:
     - EU (Milan)
     - ap-southeast-1
     - af-south-1
+    - ap-northeast-3
     - eu-west-2
     - us-west-2
     - AWS GovCloud (US-West)
@@ -5860,7 +5755,6 @@ c5.xlarge:
     - us-east-1
     - ap-northeast-2
     - me-south-1
-    - ap-northeast-3
     - us-west-1
     - sa-east-1
     - ap-northeast-1
@@ -8467,7 +8361,7 @@ c5d.12xlarge:
         Dedicated: 2.809
         Shared: 2.64
       ap-northeast-3:
-        Dedicated: 3.126
+        Dedicated: 3.104
         Shared: 2.928
       ap-south-1:
         Dedicated: 2.519
@@ -8528,7 +8422,7 @@ c5d.12xlarge:
         Dedicated: 2.939
         Shared: 2.77
       ap-northeast-3:
-        Dedicated: 3.256
+        Dedicated: 3.234
         Shared: 3.058
       ap-south-1:
         Dedicated: 2.649
@@ -8589,7 +8483,7 @@ c5d.12xlarge:
         Dedicated: 2.909
         Shared: 2.74
       ap-northeast-3:
-        Dedicated: 3.226
+        Dedicated: 3.204
         Shared: 3.028
       ap-south-1:
         Dedicated: 2.619
@@ -8650,8 +8544,8 @@ c5d.12xlarge:
         Dedicated: 5.017
         Shared: 4.848
       ap-northeast-3:
-        Dedicated: 3.126
-        Shared: 2.928
+        Dedicated: 5.312
+        Shared: 5.136
       ap-south-1:
         Dedicated: 4.727
         Shared: 4.584
@@ -8711,6 +8605,7 @@ c5d.12xlarge:
     - us-west-2
     - ap-south-1
     - ap-northeast-1
+    - ap-northeast-3
     - ap-southeast-1
     - ca-central-1
     - eu-west-1
@@ -8719,7 +8614,6 @@ c5d.12xlarge:
     - eu-west-2
     - sa-east-1
     - AWS GovCloud (US-West)
-    - ap-northeast-3
     - us-west-1
   storage: 2 x 900 NVMe SSD
   vcpu: 48
@@ -8958,8 +8852,8 @@ c5d.18xlarge:
         Dedicated: 7.272
         Shared: 7.272
       ap-northeast-3:
-        Dedicated: 4.392
-        Shared: 4.392
+        Dedicated: 7.704
+        Shared: 7.704
       ap-south-1:
         Dedicated: 6.876
         Shared: 6.876
@@ -9032,8 +8926,8 @@ c5d.18xlarge:
     - us-west-2
     - eu-west-3
     - af-south-1
-    - eu-west-1
     - ap-northeast-3
+    - eu-west-1
     - us-east-1
     - us-gov-east-1
     - ap-southeast-1
@@ -9062,7 +8956,7 @@ c5d.24xlarge:
         Dedicated: 5.619
         Shared: 5.28
       ap-northeast-3:
-        Dedicated: 6.253
+        Dedicated: 6.207
         Shared: 5.856
       ap-south-1:
         Dedicated: 5.037
@@ -9123,7 +9017,7 @@ c5d.24xlarge:
         Dedicated: 5.749
         Shared: 5.41
       ap-northeast-3:
-        Dedicated: 6.383
+        Dedicated: 6.337
         Shared: 5.986
       ap-south-1:
         Dedicated: 5.167
@@ -9184,7 +9078,7 @@ c5d.24xlarge:
         Dedicated: 5.719
         Shared: 5.38
       ap-northeast-3:
-        Dedicated: 6.353
+        Dedicated: 6.307
         Shared: 5.956
       ap-south-1:
         Dedicated: 5.137
@@ -9245,7 +9139,7 @@ c5d.24xlarge:
         Dedicated: 10.035
         Shared: 9.696
       ap-northeast-3:
-        Dedicated: 10.669
+        Dedicated: 10.623
         Shared: 10.272
       ap-south-1:
         Dedicated: 9.453
@@ -9304,8 +9198,8 @@ c5d.24xlarge:
     - ca-central-1
     - ap-northeast-1
     - AWS GovCloud (US-West)
-    - ap-southeast-2
     - ap-northeast-3
+    - ap-southeast-2
     - eu-north-1
     - us-east-1
     - ap-southeast-1
@@ -9343,7 +9237,7 @@ c5d.2xlarge:
         Dedicated: 0.468
         Shared: 0.44
       ap-northeast-3:
-        Dedicated: 0.521
+        Dedicated: 0.517
         Shared: 0.488
       ap-south-1:
         Dedicated: 0.421
@@ -9419,7 +9313,7 @@ c5d.2xlarge:
         Dedicated: 0.598
         Shared: 0.57
       ap-northeast-3:
-        Dedicated: 0.651
+        Dedicated: 0.647
         Shared: 0.618
       ap-south-1:
         Dedicated: 0.551
@@ -9495,7 +9389,7 @@ c5d.2xlarge:
         Dedicated: 0.568
         Shared: 0.54
       ap-northeast-3:
-        Dedicated: 0.621
+        Dedicated: 0.617
         Shared: 0.588
       ap-south-1:
         Dedicated: 0.521
@@ -9571,7 +9465,7 @@ c5d.2xlarge:
         Dedicated: 0.468
         Shared: 0.808
       ap-northeast-3:
-        Dedicated: 0.889
+        Dedicated: 0.885
         Shared: 0.856
       ap-south-1:
         Dedicated: 0.789
@@ -9648,10 +9542,10 @@ c5d.2xlarge:
     - ap-northeast-2
     - us-gov-east-1
     - ap-southeast-1
+    - ap-northeast-3
     - us-west-1
     - ca-central-1
     - AWS GovCloud (US-West)
-    - ap-northeast-3
     - eu-north-1
     - eu-west-3
     - ap-east-1
@@ -9687,7 +9581,7 @@ c5d.4xlarge:
         Dedicated: 0.936
         Shared: 0.88
       ap-northeast-3:
-        Dedicated: 1.042
+        Dedicated: 1.035
         Shared: 0.976
       ap-south-1:
         Dedicated: 0.843
@@ -9757,7 +9651,7 @@ c5d.4xlarge:
         Dedicated: 1.066
         Shared: 1.01
       ap-northeast-3:
-        Dedicated: 1.172
+        Dedicated: 1.165
         Shared: 1.106
       ap-south-1:
         Dedicated: 0.973
@@ -9827,7 +9721,7 @@ c5d.4xlarge:
         Dedicated: 1.036
         Shared: 0.98
       ap-northeast-3:
-        Dedicated: 1.142
+        Dedicated: 1.135
         Shared: 1.076
       ap-south-1:
         Dedicated: 0.943
@@ -9897,7 +9791,7 @@ c5d.4xlarge:
         Dedicated: 1.672
         Shared: 0.88
       ap-northeast-3:
-        Dedicated: 1.042
+        Dedicated: 1.771
         Shared: 1.712
       ap-south-1:
         Dedicated: 1.579
@@ -10004,7 +9898,7 @@ c5d.9xlarge:
         Dedicated: 2.107
         Shared: 1.98
       ap-northeast-3:
-        Dedicated: 2.345
+        Dedicated: 2.328
         Shared: 2.196
       ap-south-1:
         Dedicated: 1.896
@@ -10074,7 +9968,7 @@ c5d.9xlarge:
         Dedicated: 2.237
         Shared: 2.11
       ap-northeast-3:
-        Dedicated: 2.475
+        Dedicated: 2.458
         Shared: 2.326
       ap-south-1:
         Dedicated: 2.026
@@ -10144,7 +10038,7 @@ c5d.9xlarge:
         Dedicated: 2.207
         Shared: 2.08
       ap-northeast-3:
-        Dedicated: 2.445
+        Dedicated: 2.428
         Shared: 2.296
       ap-south-1:
         Dedicated: 1.996
@@ -10214,8 +10108,8 @@ c5d.9xlarge:
         Dedicated: 3.763
         Shared: 1.98
       ap-northeast-3:
-        Dedicated: 2.345
-        Shared: 2.196
+        Dedicated: 3.984
+        Shared: 3.852
       ap-south-1:
         Dedicated: 3.552
         Shared: 3.438
@@ -10280,8 +10174,8 @@ c5d.9xlarge:
     - us-gov-east-1
     - ap-east-1
     - eu-central-1
-    - AWS GovCloud (US-West)
     - ap-southeast-2
+    - ap-northeast-3
     - me-south-1
     - EU (Milan)
     - eu-west-1
@@ -10291,8 +10185,8 @@ c5d.9xlarge:
     - us-west-2
     - eu-north-1
     - ap-northeast-1
+    - AWS GovCloud (US-West)
     - ca-central-1
-    - ap-northeast-3
     - sa-east-1
   storage: 1 x 900 NVMe SSD
   vcpu: 36
@@ -10321,7 +10215,7 @@ c5d.large:
         Dedicated: 0.117
         Shared: 0.11
       ap-northeast-3:
-        Dedicated: 0.13
+        Dedicated: 0.129
         Shared: 0.122
       ap-south-1:
         Dedicated: 0.105
@@ -10391,7 +10285,7 @@ c5d.large:
         Dedicated: 0.177
         Shared: 0.17
       ap-northeast-3:
-        Dedicated: 0.19
+        Dedicated: 0.189
         Shared: 0.182
       ap-south-1:
         Dedicated: 0.165
@@ -10461,7 +10355,7 @@ c5d.large:
         Dedicated: 0.217
         Shared: 0.21
       ap-northeast-3:
-        Dedicated: 0.23
+        Dedicated: 0.229
         Shared: 0.222
       ap-south-1:
         Dedicated: 0.205
@@ -10531,8 +10425,8 @@ c5d.large:
         Dedicated: 0.209
         Shared: 0.11
       ap-northeast-3:
-        Dedicated: 0.13
-        Shared: 0.122
+        Dedicated: 0.221
+        Shared: 0.214
       ap-south-1:
         Dedicated: 0.197
         Shared: 0.191
@@ -10589,6 +10483,7 @@ c5d.large:
         Shared: 0.188
   regions:
     - ap-southeast-1
+    - ap-northeast-3
     - eu-west-2
     - AWS GovCloud (US-West)
     - eu-west-1
@@ -10609,7 +10504,6 @@ c5d.large:
     - af-south-1
     - ca-central-1
     - ap-southeast-2
-    - ap-northeast-3
     - sa-east-1
   storage: 1 x 50 NVMe SSD
   vcpu: 2
@@ -10819,7 +10713,7 @@ c5d.metal:
         Shared: 9.696
       ap-northeast-3:
         Dedicated: 10.272
-        Shared: 5.856
+        Shared: 10.272
       ap-south-1:
         Dedicated: 9.168
         Shared: 9.168
@@ -10916,7 +10810,7 @@ c5d.xlarge:
         Dedicated: 0.234
         Shared: 0.22
       ap-northeast-3:
-        Dedicated: 0.261
+        Dedicated: 0.259
         Shared: 0.244
       ap-south-1:
         Dedicated: 0.211
@@ -10986,7 +10880,7 @@ c5d.xlarge:
         Dedicated: 0.294
         Shared: 0.28
       ap-northeast-3:
-        Dedicated: 0.321
+        Dedicated: 0.319
         Shared: 0.304
       ap-south-1:
         Dedicated: 0.271
@@ -11056,7 +10950,7 @@ c5d.xlarge:
         Dedicated: 0.334
         Shared: 0.32
       ap-northeast-3:
-        Dedicated: 0.361
+        Dedicated: 0.359
         Shared: 0.344
       ap-south-1:
         Dedicated: 0.311
@@ -11126,7 +11020,7 @@ c5d.xlarge:
         Dedicated: 0.234
         Shared: 0.404
       ap-northeast-3:
-        Dedicated: 0.445
+        Dedicated: 0.443
         Shared: 0.428
       ap-south-1:
         Dedicated: 0.395
@@ -23223,8 +23117,8 @@ i3.16xlarge:
         Dedicated: 5.856
         Shared: 5.856
       ap-northeast-3:
-        Dedicated: 5.856
-        Shared: 5.856
+        Dedicated: 8.8
+        Shared: 8.8
       ap-south-1:
         Dedicated: 8.608
         Shared: 5.664
@@ -23857,7 +23751,7 @@ i3.4xlarge:
         Dedicated: 2.346
         Shared: 2.2
       ap-northeast-3:
-        Dedicated: 1.61
+        Dedicated: 2.346
         Shared: 2.2
       ap-south-1:
         Dedicated: 2.294
@@ -24491,7 +24385,7 @@ i3.large:
         Dedicated: 0.293
         Shared: 0.183
       ap-northeast-3:
-        Dedicated: 0.201
+        Dedicated: 0.293
         Shared: 0.275
       ap-south-1:
         Dedicated: 0.287
@@ -24733,7 +24627,6 @@ i3.metal:
     - us-east-2
     - ap-southeast-2
     - us-east-1
-    - ap-northeast-3
     - eu-north-1
     - us-gov-east-1
   storage: 8 x 1900 NVMe SSD
@@ -24974,7 +24867,7 @@ i3.xlarge:
         Shared: 0.55
       ap-northeast-3:
         Dedicated: 0.587
-        Shared: 0.366
+        Shared: 0.55
       ap-south-1:
         Dedicated: 0.573
         Shared: 0.354
@@ -25270,7 +25163,7 @@ i3en.12xlarge:
         Shared: 8.592
       ap-northeast-3:
         Dedicated: 6.796
-        Shared: 6.384
+        Shared: 8.592
       ap-south-1:
         Dedicated: 8.777
         Shared: 8.376
@@ -25620,6 +25513,7 @@ i3en.24xlarge:
     - ap-northeast-1
     - us-gov-east-1
     - us-west-2
+    - ap-northeast-3
     - AWS GovCloud (US-West)
     - eu-west-2
     - sa-east-1
@@ -25634,7 +25528,6 @@ i3en.24xlarge:
     - ca-central-1
     - eu-north-1
     - ap-southeast-1
-    - ap-northeast-3
   storage: 8 x 7500 NVMe SSD
   vcpu: 96
 i3en.2xlarge:
@@ -25852,7 +25745,7 @@ i3en.2xlarge:
         Shared: 1.432
       ap-northeast-3:
         Dedicated: 1.501
-        Shared: 1.064
+        Shared: 1.432
       ap-south-1:
         Dedicated: 1.463
         Shared: 1.396
@@ -25917,6 +25810,7 @@ i3en.2xlarge:
     - us-west-1
     - AWS GovCloud (US-West)
     - eu-central-1
+    - ap-northeast-3
     - us-east-2
     - ap-south-1
     - us-east-1
@@ -25924,7 +25818,6 @@ i3en.2xlarge:
     - ap-east-1
     - us-gov-east-1
     - eu-west-2
-    - ap-northeast-3
     - us-west-2-lax-1a
   storage: 2 x 2500 NVMe SSD
   vcpu: 8
@@ -26141,8 +26034,8 @@ i3en.3xlarge:
         Dedicated: 2.252
         Shared: 2.148
       ap-northeast-3:
-        Dedicated: 1.699
-        Shared: 1.596
+        Dedicated: 2.251
+        Shared: 2.148
       ap-south-1:
         Dedicated: 2.194
         Shared: 2.094
@@ -26208,8 +26101,8 @@ i3en.3xlarge:
     - us-west-1
     - AWS GovCloud (US-West)
     - ca-central-1
-    - eu-west-3
     - ap-northeast-3
+    - eu-west-3
     - us-east-1
     - eu-west-1
     - us-west-2
@@ -26486,6 +26379,7 @@ i3en.6xlarge:
         Shared: 4.358
   regions:
     - us-west-1
+    - ap-northeast-3
     - sa-east-1
     - AWS GovCloud (US-West)
     - us-east-2
@@ -26505,7 +26399,6 @@ i3en.6xlarge:
     - ap-northeast-1
     - us-east-1
     - eu-west-3
-    - ap-northeast-3
   storage: 2 x 7500 NVMe SSD
   vcpu: 24
 i3en.large:
@@ -26723,7 +26616,7 @@ i3en.large:
         Shared: 0.358
       ap-northeast-3:
         Dedicated: 0.375
-        Shared: 0.266
+        Shared: 0.358
       ap-south-1:
         Dedicated: 0.366
         Shared: 0.349
@@ -27088,7 +26981,6 @@ i3en.metal-2tb:
   physicalProcessor: Intel Xeon Platinum 8175 (Skylake)
   prices: {}
   regions:
-    - ap-northeast-3
     - us-west-2-lax-1a
   storage: 32 x 2000 NVMe SSD
   vcpu: 96
@@ -27305,7 +27197,7 @@ i3en.xlarge:
         Dedicated: 0.751
         Shared: 0.716
       ap-northeast-3:
-        Dedicated: 0.566
+        Dedicated: 0.75
         Shared: 0.716
       ap-south-1:
         Dedicated: 0.731
@@ -29761,7 +29653,6 @@ m3.xlarge:
         Shared: 0.518
   regions:
     - ap-northeast-2
-    - AWS GovCloud (US-West)
     - sa-east-1
     - eu-central-1
     - ap-southeast-1
@@ -29770,6 +29661,7 @@ m3.xlarge:
     - us-west-2
     - eu-west-1
     - us-east-1
+    - AWS GovCloud (US-West)
     - us-west-1
     - ap-southeast-2
   storage: 2 x 40 SSD
@@ -31161,7 +31053,7 @@ m5.12xlarge:
         Dedicated: 3
         Shared: 2.832
       ap-northeast-3:
-        Dedicated: 3.173
+        Dedicated: 3.155
         Shared: 2.976
       ap-south-1:
         Dedicated: 2.572
@@ -31234,7 +31126,7 @@ m5.12xlarge:
         Dedicated: 3.13
         Shared: 2.962
       ap-northeast-3:
-        Dedicated: 3.303
+        Dedicated: 3.285
         Shared: 3.106
       ap-south-1:
         Dedicated: 2.702
@@ -31307,7 +31199,7 @@ m5.12xlarge:
         Dedicated: 3.1
         Shared: 2.932
       ap-northeast-3:
-        Dedicated: 3.273
+        Dedicated: 3.255
         Shared: 3.076
       ap-south-1:
         Dedicated: 2.672
@@ -31380,8 +31272,8 @@ m5.12xlarge:
         Dedicated: 5.208
         Shared: 2.832
       ap-northeast-3:
-        Dedicated: 5.381
-        Shared: 2.976
+        Dedicated: 5.363
+        Shared: 5.184
       ap-south-1:
         Dedicated: 2.572
         Shared: 4.632
@@ -31491,7 +31383,7 @@ m5.16xlarge:
         Dedicated: 4
         Shared: 3.776
       ap-northeast-3:
-        Dedicated: 4.231
+        Dedicated: 4.206
         Shared: 3.968
       ap-south-1:
         Dedicated: 3.43
@@ -31564,7 +31456,7 @@ m5.16xlarge:
         Dedicated: 4.13
         Shared: 3.906
       ap-northeast-3:
-        Dedicated: 4.361
+        Dedicated: 4.336
         Shared: 4.098
       ap-south-1:
         Dedicated: 3.56
@@ -31637,7 +31529,7 @@ m5.16xlarge:
         Dedicated: 4.1
         Shared: 3.876
       ap-northeast-3:
-        Dedicated: 4.331
+        Dedicated: 4.306
         Shared: 4.068
       ap-south-1:
         Dedicated: 3.53
@@ -31710,8 +31602,8 @@ m5.16xlarge:
         Dedicated: 6.944
         Shared: 6.72
       ap-northeast-3:
-        Dedicated: 7.175
-        Shared: 3.968
+        Dedicated: 7.15
+        Shared: 6.912
       ap-south-1:
         Dedicated: 6.374
         Shared: 6.176
@@ -32040,8 +31932,8 @@ m5.24xlarge:
         Dedicated: 10.08
         Shared: 5.664
       ap-northeast-3:
-        Dedicated: 5.952
-        Shared: 5.952
+        Dedicated: 10.368
+        Shared: 10.368
       ap-south-1:
         Dedicated: 9.264
         Shared: 9.264
@@ -32104,6 +31996,7 @@ m5.24xlarge:
     - eu-central-1
     - ap-south-1
     - ap-southeast-2
+    - ap-northeast-3
     - af-south-1
     - sa-east-1
     - ap-northeast-2
@@ -32121,7 +32014,6 @@ m5.24xlarge:
     - eu-west-1
     - us-east-1
     - EU (Milan)
-    - ap-northeast-3
     - us-west-1
     - eu-north-1
   storage: EBS only
@@ -32151,7 +32043,7 @@ m5.2xlarge:
         Dedicated: 0.5
         Shared: 0.472
       ap-northeast-3:
-        Dedicated: 0.529
+        Dedicated: 0.526
         Shared: 0.496
       ap-south-1:
         Dedicated: 0.429
@@ -32224,7 +32116,7 @@ m5.2xlarge:
         Dedicated: 0.63
         Shared: 0.602
       ap-northeast-3:
-        Dedicated: 0.659
+        Dedicated: 0.656
         Shared: 0.626
       ap-south-1:
         Dedicated: 0.559
@@ -32297,7 +32189,7 @@ m5.2xlarge:
         Dedicated: 0.6
         Shared: 0.572
       ap-northeast-3:
-        Dedicated: 0.629
+        Dedicated: 0.626
         Shared: 0.596
       ap-south-1:
         Dedicated: 0.529
@@ -32370,7 +32262,7 @@ m5.2xlarge:
         Dedicated: 0.868
         Shared: 0.84
       ap-northeast-3:
-        Dedicated: 0.897
+        Dedicated: 0.894
         Shared: 0.864
       ap-south-1:
         Dedicated: 0.797
@@ -32438,17 +32330,17 @@ m5.2xlarge:
     - eu-west-1
     - eu-west-3
     - eu-west-2
+    - ap-northeast-3
     - us-gov-east-1
-    - AWS GovCloud (US-West)
     - af-south-1
     - ap-northeast-1
     - sa-east-1
+    - AWS GovCloud (US-West)
     - eu-central-1
     - EU (Milan)
     - ap-south-1
     - us-east-2
     - us-west-2-lax-1a
-    - ap-northeast-3
     - ap-east-1
     - ap-southeast-1
     - us-west-2
@@ -32481,7 +32373,7 @@ m5.4xlarge:
         Dedicated: 1
         Shared: 0.944
       ap-northeast-3:
-        Dedicated: 1.058
+        Dedicated: 1.052
         Shared: 0.992
       ap-south-1:
         Dedicated: 0.857
@@ -32554,7 +32446,7 @@ m5.4xlarge:
         Dedicated: 1.13
         Shared: 1.074
       ap-northeast-3:
-        Dedicated: 1.188
+        Dedicated: 1.182
         Shared: 1.122
       ap-south-1:
         Dedicated: 0.987
@@ -32627,7 +32519,7 @@ m5.4xlarge:
         Dedicated: 1.1
         Shared: 1.044
       ap-northeast-3:
-        Dedicated: 1.158
+        Dedicated: 1.152
         Shared: 1.092
       ap-south-1:
         Dedicated: 0.957
@@ -32700,8 +32592,8 @@ m5.4xlarge:
         Dedicated: 1.736
         Shared: 1.68
       ap-northeast-3:
-        Dedicated: 1.058
-        Shared: 0.992
+        Dedicated: 1.788
+        Shared: 1.728
       ap-south-1:
         Dedicated: 1.593
         Shared: 1.544
@@ -32811,7 +32703,7 @@ m5.8xlarge:
         Dedicated: 2
         Shared: 1.888
       ap-northeast-3:
-        Dedicated: 2.116
+        Dedicated: 2.103
         Shared: 1.984
       ap-south-1:
         Dedicated: 1.715
@@ -32884,7 +32776,7 @@ m5.8xlarge:
         Dedicated: 2.13
         Shared: 2.018
       ap-northeast-3:
-        Dedicated: 2.246
+        Dedicated: 2.233
         Shared: 2.114
       ap-south-1:
         Dedicated: 1.845
@@ -32957,7 +32849,7 @@ m5.8xlarge:
         Dedicated: 2.1
         Shared: 1.988
       ap-northeast-3:
-        Dedicated: 2.216
+        Dedicated: 2.203
         Shared: 2.084
       ap-south-1:
         Dedicated: 1.815
@@ -33030,7 +32922,7 @@ m5.8xlarge:
         Dedicated: 3.472
         Shared: 3.36
       ap-northeast-3:
-        Dedicated: 3.588
+        Dedicated: 3.575
         Shared: 3.456
       ap-south-1:
         Dedicated: 3.187
@@ -33141,7 +33033,7 @@ m5.large:
         Dedicated: 0.125
         Shared: 0.118
       ap-northeast-3:
-        Dedicated: 0.132
+        Dedicated: 0.131
         Shared: 0.124
       ap-south-1:
         Dedicated: 0.107
@@ -33214,7 +33106,7 @@ m5.large:
         Dedicated: 0.185
         Shared: 0.178
       ap-northeast-3:
-        Dedicated: 0.192
+        Dedicated: 0.191
         Shared: 0.184
       ap-south-1:
         Dedicated: 0.167
@@ -33287,7 +33179,7 @@ m5.large:
         Dedicated: 0.225
         Shared: 0.218
       ap-northeast-3:
-        Dedicated: 0.232
+        Dedicated: 0.231
         Shared: 0.224
       ap-south-1:
         Dedicated: 0.207
@@ -33360,8 +33252,8 @@ m5.large:
         Dedicated: 0.217
         Shared: 0.21
       ap-northeast-3:
-        Dedicated: 0.224
-        Shared: 0.124
+        Dedicated: 0.223
+        Shared: 0.216
       ap-south-1:
         Dedicated: 0.199
         Shared: 0.193
@@ -33427,12 +33319,12 @@ m5.large:
     - eu-north-1
     - us-west-2
     - sa-east-1
+    - ap-northeast-3
     - us-west-2-lax-1a
     - ap-east-1
     - eu-west-2
     - ap-south-1
     - ap-northeast-2
-    - ap-northeast-3
     - ap-southeast-2
     - AWS GovCloud (US-West)
     - eu-west-3
@@ -33751,6 +33643,7 @@ m5.metal:
         Shared: 9.946
   regions:
     - eu-west-2
+    - ap-northeast-3
     - eu-north-1
     - af-south-1
     - us-west-2-lax-1a
@@ -33771,7 +33664,6 @@ m5.metal:
     - EU (Milan)
     - us-gov-east-1
     - ap-south-1
-    - ap-northeast-3
     - us-west-1
     - me-south-1
   storage: EBS only
@@ -33801,7 +33693,7 @@ m5.xlarge:
         Dedicated: 0.25
         Shared: 0.236
       ap-northeast-3:
-        Dedicated: 0.264
+        Dedicated: 0.263
         Shared: 0.248
       ap-south-1:
         Dedicated: 0.214
@@ -33874,7 +33766,7 @@ m5.xlarge:
         Dedicated: 0.31
         Shared: 0.296
       ap-northeast-3:
-        Dedicated: 0.324
+        Dedicated: 0.323
         Shared: 0.308
       ap-south-1:
         Dedicated: 0.274
@@ -33947,7 +33839,7 @@ m5.xlarge:
         Dedicated: 0.35
         Shared: 0.336
       ap-northeast-3:
-        Dedicated: 0.364
+        Dedicated: 0.363
         Shared: 0.348
       ap-south-1:
         Dedicated: 0.314
@@ -34020,8 +33912,8 @@ m5.xlarge:
         Dedicated: 0.25
         Shared: 0.236
       ap-northeast-3:
-        Dedicated: 0.448
-        Shared: 0.248
+        Dedicated: 0.447
+        Shared: 0.432
       ap-south-1:
         Dedicated: 0.398
         Shared: 0.386
@@ -34123,9 +34015,6 @@ m5a.12xlarge:
       ap-northeast-2:
         Dedicated: 2.695
         Shared: 2.544
-      ap-northeast-3:
-        Dedicated: 2.866
-        Shared: 2.688
       ap-south-1:
         Dedicated: 1.415
         Shared: 1.333
@@ -34178,9 +34067,6 @@ m5a.12xlarge:
       ap-northeast-2:
         Dedicated: 2.825
         Shared: 2.674
-      ap-northeast-3:
-        Dedicated: 2.996
-        Shared: 2.818
       ap-south-1:
         Dedicated: 1.545
         Shared: 1.463
@@ -34233,9 +34119,6 @@ m5a.12xlarge:
       ap-northeast-2:
         Dedicated: 2.845
         Shared: 2.694
-      ap-northeast-3:
-        Dedicated: 3.016
-        Shared: 2.838
       ap-south-1:
         Dedicated: 1.565
         Shared: 1.483
@@ -34288,9 +34171,6 @@ m5a.12xlarge:
       ap-northeast-2:
         Dedicated: 4.903
         Shared: 4.752
-      ap-northeast-3:
-        Dedicated: 2.866
-        Shared: 4.896
       ap-south-1:
         Dedicated: 3.623
         Shared: 3.541
@@ -34354,7 +34234,6 @@ m5a.12xlarge:
     - ca-central-1
     - ap-southeast-2
     - eu-west-1
-    - ap-northeast-3
   storage: EBS only
   vcpu: 48
 m5a.16xlarge:
@@ -34374,9 +34253,6 @@ m5a.16xlarge:
       ap-northeast-2:
         Dedicated: 3.593
         Shared: 3.392
-      ap-northeast-3:
-        Dedicated: 3.821
-        Shared: 3.584
       ap-south-1:
         Dedicated: 1.886
         Shared: 1.778
@@ -34429,9 +34305,6 @@ m5a.16xlarge:
       ap-northeast-2:
         Dedicated: 3.723
         Shared: 3.522
-      ap-northeast-3:
-        Dedicated: 3.951
-        Shared: 3.714
       ap-south-1:
         Dedicated: 2.016
         Shared: 1.908
@@ -34484,9 +34357,6 @@ m5a.16xlarge:
       ap-northeast-2:
         Dedicated: 3.743
         Shared: 3.542
-      ap-northeast-3:
-        Dedicated: 3.971
-        Shared: 3.734
       ap-south-1:
         Dedicated: 2.036
         Shared: 1.928
@@ -34539,9 +34409,6 @@ m5a.16xlarge:
       ap-northeast-2:
         Dedicated: 6.537
         Shared: 6.336
-      ap-northeast-3:
-        Dedicated: 6.765
-        Shared: 6.528
       ap-south-1:
         Dedicated: 4.83
         Shared: 4.722
@@ -34589,7 +34456,6 @@ m5a.16xlarge:
         Shared: 5.696
   regions:
     - ap-southeast-1
-    - ap-northeast-3
     - us-east-2
     - eu-west-3
     - eu-west-2
@@ -34625,9 +34491,6 @@ m5a.24xlarge:
       ap-northeast-2:
         Dedicated: 5.39
         Shared: 5.088
-      ap-northeast-3:
-        Dedicated: 5.732
-        Shared: 5.376
       ap-south-1:
         Dedicated: 2.83
         Shared: 2.666
@@ -34680,9 +34543,6 @@ m5a.24xlarge:
       ap-northeast-2:
         Dedicated: 5.52
         Shared: 5.218
-      ap-northeast-3:
-        Dedicated: 5.862
-        Shared: 5.506
       ap-south-1:
         Dedicated: 2.96
         Shared: 2.796
@@ -34735,9 +34595,6 @@ m5a.24xlarge:
       ap-northeast-2:
         Dedicated: 5.54
         Shared: 5.238
-      ap-northeast-3:
-        Dedicated: 5.882
-        Shared: 5.526
       ap-south-1:
         Dedicated: 2.98
         Shared: 2.816
@@ -34790,9 +34647,6 @@ m5a.24xlarge:
       ap-northeast-2:
         Dedicated: 9.806
         Shared: 9.504
-      ap-northeast-3:
-        Dedicated: 10.148
-        Shared: 9.792
       ap-south-1:
         Dedicated: 7.246
         Shared: 7.082
@@ -34856,7 +34710,6 @@ m5a.24xlarge:
     - ap-northeast-2
     - ap-southeast-1
     - us-east-2
-    - ap-northeast-3
   storage: EBS only
   vcpu: 96
 m5a.2xlarge:
@@ -34876,9 +34729,6 @@ m5a.2xlarge:
       ap-northeast-2:
         Dedicated: 0.449
         Shared: 0.424
-      ap-northeast-3:
-        Dedicated: 0.478
-        Shared: 0.448
       ap-south-1:
         Dedicated: 0.236
         Shared: 0.222
@@ -34931,9 +34781,6 @@ m5a.2xlarge:
       ap-northeast-2:
         Dedicated: 0.579
         Shared: 0.554
-      ap-northeast-3:
-        Dedicated: 0.608
-        Shared: 0.578
       ap-south-1:
         Dedicated: 0.366
         Shared: 0.352
@@ -34986,9 +34833,6 @@ m5a.2xlarge:
       ap-northeast-2:
         Dedicated: 0.599
         Shared: 0.574
-      ap-northeast-3:
-        Dedicated: 0.628
-        Shared: 0.598
       ap-south-1:
         Dedicated: 0.386
         Shared: 0.372
@@ -35041,9 +34885,6 @@ m5a.2xlarge:
       ap-northeast-2:
         Dedicated: 0.817
         Shared: 0.792
-      ap-northeast-3:
-        Dedicated: 0.478
-        Shared: 0.448
       ap-south-1:
         Dedicated: 0.604
         Shared: 0.59
@@ -35090,7 +34931,6 @@ m5a.2xlarge:
         Dedicated: 0.365
         Shared: 0.712
   regions:
-    - ap-northeast-3
     - us-east-1
     - ap-southeast-1
     - ca-central-1
@@ -35127,9 +34967,6 @@ m5a.4xlarge:
       ap-northeast-2:
         Dedicated: 0.898
         Shared: 0.848
-      ap-northeast-3:
-        Dedicated: 0.955
-        Shared: 0.896
       ap-south-1:
         Dedicated: 0.472
         Shared: 0.444
@@ -35182,9 +35019,6 @@ m5a.4xlarge:
       ap-northeast-2:
         Dedicated: 1.028
         Shared: 0.978
-      ap-northeast-3:
-        Dedicated: 1.085
-        Shared: 1.026
       ap-south-1:
         Dedicated: 0.602
         Shared: 0.574
@@ -35237,9 +35071,6 @@ m5a.4xlarge:
       ap-northeast-2:
         Dedicated: 1.048
         Shared: 0.998
-      ap-northeast-3:
-        Dedicated: 1.105
-        Shared: 1.046
       ap-south-1:
         Dedicated: 0.622
         Shared: 0.594
@@ -35292,9 +35123,6 @@ m5a.4xlarge:
       ap-northeast-2:
         Dedicated: 1.634
         Shared: 1.584
-      ap-northeast-3:
-        Dedicated: 0.955
-        Shared: 1.632
       ap-south-1:
         Dedicated: 1.208
         Shared: 1.18
@@ -35358,7 +35186,6 @@ m5a.4xlarge:
     - eu-west-3
     - us-gov-east-1
     - us-east-2
-    - ap-northeast-3
   storage: EBS only
   vcpu: 16
 m5a.8xlarge:
@@ -35378,9 +35205,6 @@ m5a.8xlarge:
       ap-northeast-2:
         Dedicated: 1.797
         Shared: 1.696
-      ap-northeast-3:
-        Dedicated: 1.911
-        Shared: 1.792
       ap-south-1:
         Dedicated: 0.943
         Shared: 0.889
@@ -35433,9 +35257,6 @@ m5a.8xlarge:
       ap-northeast-2:
         Dedicated: 1.927
         Shared: 1.826
-      ap-northeast-3:
-        Dedicated: 2.041
-        Shared: 1.922
       ap-south-1:
         Dedicated: 1.073
         Shared: 1.019
@@ -35488,9 +35309,6 @@ m5a.8xlarge:
       ap-northeast-2:
         Dedicated: 1.947
         Shared: 1.846
-      ap-northeast-3:
-        Dedicated: 2.061
-        Shared: 1.942
       ap-south-1:
         Dedicated: 1.093
         Shared: 1.039
@@ -35543,9 +35361,6 @@ m5a.8xlarge:
       ap-northeast-2:
         Dedicated: 3.269
         Shared: 3.168
-      ap-northeast-3:
-        Dedicated: 3.383
-        Shared: 3.264
       ap-south-1:
         Dedicated: 2.415
         Shared: 2.361
@@ -35609,7 +35424,6 @@ m5a.8xlarge:
     - eu-central-1
     - us-east-1
     - eu-west-2
-    - ap-northeast-3
   storage: EBS only
   vcpu: 32
 m5a.large:
@@ -35629,9 +35443,6 @@ m5a.large:
       ap-northeast-2:
         Dedicated: 0.112
         Shared: 0.106
-      ap-northeast-3:
-        Dedicated: 0.119
-        Shared: 0.112
       ap-south-1:
         Dedicated: 0.059
         Shared: 0.056
@@ -35684,9 +35495,6 @@ m5a.large:
       ap-northeast-2:
         Dedicated: 0.172
         Shared: 0.166
-      ap-northeast-3:
-        Dedicated: 0.179
-        Shared: 0.172
       ap-south-1:
         Dedicated: 0.119
         Shared: 0.116
@@ -35739,9 +35547,6 @@ m5a.large:
       ap-northeast-2:
         Dedicated: 0.175
         Shared: 0.169
-      ap-northeast-3:
-        Dedicated: 0.182
-        Shared: 0.175
       ap-south-1:
         Dedicated: 0.122
         Shared: 0.119
@@ -35794,9 +35599,6 @@ m5a.large:
       ap-northeast-2:
         Dedicated: 0.204
         Shared: 0.198
-      ap-northeast-3:
-        Dedicated: 0.211
-        Shared: 0.204
       ap-south-1:
         Dedicated: 0.151
         Shared: 0.148
@@ -35860,7 +35662,6 @@ m5a.large:
     - eu-west-1
     - eu-central-1
     - AWS GovCloud (US-West)
-    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 m5a.xlarge:
@@ -35880,9 +35681,6 @@ m5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.225
         Shared: 0.212
-      ap-northeast-3:
-        Dedicated: 0.239
-        Shared: 0.224
       ap-south-1:
         Dedicated: 0.118
         Shared: 0.111
@@ -35935,9 +35733,6 @@ m5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.285
         Shared: 0.272
-      ap-northeast-3:
-        Dedicated: 0.299
-        Shared: 0.284
       ap-south-1:
         Dedicated: 0.178
         Shared: 0.171
@@ -35990,9 +35785,6 @@ m5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.35
         Shared: 0.337
-      ap-northeast-3:
-        Dedicated: 0.364
-        Shared: 0.349
       ap-south-1:
         Dedicated: 0.243
         Shared: 0.236
@@ -36045,9 +35837,6 @@ m5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.409
         Shared: 0.396
-      ap-northeast-3:
-        Dedicated: 0.423
-        Shared: 0.408
       ap-south-1:
         Dedicated: 0.302
         Shared: 0.295
@@ -36104,7 +35893,6 @@ m5a.xlarge:
     - sa-east-1
     - ap-southeast-1
     - ap-southeast-2
-    - ap-northeast-3
     - ap-northeast-2
     - us-west-2
     - us-west-1
@@ -36131,9 +35919,6 @@ m5ad.12xlarge:
       ap-northeast-2:
         Dedicated: 3.229
         Shared: 3.048
-      ap-northeast-3:
-        Dedicated: 3.404
-        Shared: 3.192
       ap-south-1:
         Dedicated: 1.709
         Shared: 1.61
@@ -36183,9 +35968,6 @@ m5ad.12xlarge:
       ap-northeast-2:
         Dedicated: 3.359
         Shared: 3.178
-      ap-northeast-3:
-        Dedicated: 3.534
-        Shared: 3.322
       ap-south-1:
         Dedicated: 1.839
         Shared: 1.74
@@ -36235,9 +36017,6 @@ m5ad.12xlarge:
       ap-northeast-2:
         Dedicated: 3.379
         Shared: 3.198
-      ap-northeast-3:
-        Dedicated: 3.554
-        Shared: 3.342
       ap-south-1:
         Dedicated: 1.859
         Shared: 1.76
@@ -36287,9 +36066,6 @@ m5ad.12xlarge:
       ap-northeast-2:
         Dedicated: 5.437
         Shared: 5.256
-      ap-northeast-3:
-        Dedicated: 5.612
-        Shared: 5.4
       ap-south-1:
         Dedicated: 3.917
         Shared: 3.818
@@ -36346,7 +36122,6 @@ m5ad.12xlarge:
     - ap-south-1
     - ap-northeast-2
     - ca-central-1
-    - ap-northeast-3
     - us-west-2
     - us-east-1
     - us-west-1
@@ -36369,9 +36144,6 @@ m5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 4.305
         Shared: 4.064
-      ap-northeast-3:
-        Dedicated: 4.538
-        Shared: 4.256
       ap-south-1:
         Dedicated: 2.279
         Shared: 2.147
@@ -36418,9 +36190,6 @@ m5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 4.435
         Shared: 4.194
-      ap-northeast-3:
-        Dedicated: 4.668
-        Shared: 4.386
       ap-south-1:
         Dedicated: 2.409
         Shared: 2.277
@@ -36467,9 +36236,6 @@ m5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 4.455
         Shared: 4.214
-      ap-northeast-3:
-        Dedicated: 4.688
-        Shared: 4.406
       ap-south-1:
         Dedicated: 2.429
         Shared: 2.297
@@ -36516,9 +36282,6 @@ m5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 7.249
         Shared: 7.008
-      ap-northeast-3:
-        Dedicated: 4.538
-        Shared: 4.256
       ap-south-1:
         Dedicated: 5.223
         Shared: 5.091
@@ -36573,7 +36336,6 @@ m5ad.16xlarge:
     - sa-east-1
     - eu-west-1
     - us-west-1
-    - ap-northeast-3
     - ap-southeast-2
   storage: 4 x 600 NVMe SSD
   vcpu: 64
@@ -36594,9 +36356,6 @@ m5ad.24xlarge:
       ap-northeast-2:
         Dedicated: 6.458
         Shared: 6.096
-      ap-northeast-3:
-        Dedicated: 6.808
-        Shared: 6.384
       ap-south-1:
         Dedicated: 3.418
         Shared: 3.221
@@ -36646,9 +36405,6 @@ m5ad.24xlarge:
       ap-northeast-2:
         Dedicated: 6.588
         Shared: 6.226
-      ap-northeast-3:
-        Dedicated: 6.938
-        Shared: 6.514
       ap-south-1:
         Dedicated: 3.548
         Shared: 3.351
@@ -36698,9 +36454,6 @@ m5ad.24xlarge:
       ap-northeast-2:
         Dedicated: 6.608
         Shared: 6.246
-      ap-northeast-3:
-        Dedicated: 6.958
-        Shared: 6.534
       ap-south-1:
         Dedicated: 3.568
         Shared: 3.371
@@ -36750,9 +36503,6 @@ m5ad.24xlarge:
       ap-northeast-2:
         Dedicated: 10.874
         Shared: 10.512
-      ap-northeast-3:
-        Dedicated: 11.224
-        Shared: 6.384
       ap-south-1:
         Dedicated: 7.834
         Shared: 7.637
@@ -36796,7 +36546,6 @@ m5ad.24xlarge:
         Dedicated: 9.661
         Shared: 9.36
   regions:
-    - ap-northeast-3
     - sa-east-1
     - eu-west-2
     - us-west-2
@@ -36832,9 +36581,6 @@ m5ad.2xlarge:
       ap-northeast-2:
         Dedicated: 0.538
         Shared: 0.508
-      ap-northeast-3:
-        Dedicated: 0.567
-        Shared: 0.532
       ap-south-1:
         Dedicated: 0.285
         Shared: 0.268
@@ -36884,9 +36630,6 @@ m5ad.2xlarge:
       ap-northeast-2:
         Dedicated: 0.668
         Shared: 0.638
-      ap-northeast-3:
-        Dedicated: 0.697
-        Shared: 0.662
       ap-south-1:
         Dedicated: 0.415
         Shared: 0.398
@@ -36936,9 +36679,6 @@ m5ad.2xlarge:
       ap-northeast-2:
         Dedicated: 0.688
         Shared: 0.658
-      ap-northeast-3:
-        Dedicated: 0.717
-        Shared: 0.682
       ap-south-1:
         Dedicated: 0.435
         Shared: 0.418
@@ -36988,9 +36728,6 @@ m5ad.2xlarge:
       ap-northeast-2:
         Dedicated: 0.906
         Shared: 0.876
-      ap-northeast-3:
-        Dedicated: 0.935
-        Shared: 0.9
       ap-south-1:
         Dedicated: 0.653
         Shared: 0.636
@@ -37049,7 +36786,6 @@ m5ad.2xlarge:
     - us-west-2
     - ap-northeast-2
     - eu-west-1
-    - ap-northeast-3
     - us-west-1
   storage: 1 x 300 NVMe SSD
   vcpu: 8
@@ -37070,9 +36806,6 @@ m5ad.4xlarge:
       ap-northeast-2:
         Dedicated: 1.076
         Shared: 1.016
-      ap-northeast-3:
-        Dedicated: 1.135
-        Shared: 1.064
       ap-south-1:
         Dedicated: 0.57
         Shared: 0.537
@@ -37122,9 +36855,6 @@ m5ad.4xlarge:
       ap-northeast-2:
         Dedicated: 1.206
         Shared: 1.146
-      ap-northeast-3:
-        Dedicated: 1.265
-        Shared: 1.194
       ap-south-1:
         Dedicated: 0.7
         Shared: 0.667
@@ -37174,9 +36904,6 @@ m5ad.4xlarge:
       ap-northeast-2:
         Dedicated: 1.226
         Shared: 1.166
-      ap-northeast-3:
-        Dedicated: 1.285
-        Shared: 1.214
       ap-south-1:
         Dedicated: 0.72
         Shared: 0.687
@@ -37226,9 +36953,6 @@ m5ad.4xlarge:
       ap-northeast-2:
         Dedicated: 1.812
         Shared: 1.752
-      ap-northeast-3:
-        Dedicated: 1.135
-        Shared: 1.064
       ap-south-1:
         Dedicated: 1.306
         Shared: 1.273
@@ -37283,7 +37007,6 @@ m5ad.4xlarge:
     - ap-southeast-2
     - AWS GovCloud (US-West)
     - us-west-2
-    - ap-northeast-3
     - ap-southeast-1
     - ap-south-1
     - eu-west-2
@@ -37308,9 +37031,6 @@ m5ad.8xlarge:
       ap-northeast-2:
         Dedicated: 2.153
         Shared: 2.032
-      ap-northeast-3:
-        Dedicated: 2.269
-        Shared: 2.128
       ap-south-1:
         Dedicated: 1.139
         Shared: 1.074
@@ -37357,9 +37077,6 @@ m5ad.8xlarge:
       ap-northeast-2:
         Dedicated: 2.283
         Shared: 2.162
-      ap-northeast-3:
-        Dedicated: 2.399
-        Shared: 2.258
       ap-south-1:
         Dedicated: 1.269
         Shared: 1.204
@@ -37406,9 +37123,6 @@ m5ad.8xlarge:
       ap-northeast-2:
         Dedicated: 2.303
         Shared: 2.182
-      ap-northeast-3:
-        Dedicated: 2.419
-        Shared: 2.278
       ap-south-1:
         Dedicated: 1.289
         Shared: 1.224
@@ -37455,9 +37169,6 @@ m5ad.8xlarge:
       ap-northeast-2:
         Dedicated: 3.625
         Shared: 3.504
-      ap-northeast-3:
-        Dedicated: 2.269
-        Shared: 3.6
       ap-south-1:
         Dedicated: 2.611
         Shared: 2.546
@@ -37513,7 +37224,6 @@ m5ad.8xlarge:
     - ap-northeast-1
     - eu-west-1
     - ap-south-1
-    - ap-northeast-3
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 m5ad.large:
@@ -37533,9 +37243,6 @@ m5ad.large:
       ap-northeast-2:
         Dedicated: 0.135
         Shared: 0.127
-      ap-northeast-3:
-        Dedicated: 0.142
-        Shared: 0.133
       ap-south-1:
         Dedicated: 0.071
         Shared: 0.067
@@ -37585,9 +37292,6 @@ m5ad.large:
       ap-northeast-2:
         Dedicated: 0.195
         Shared: 0.187
-      ap-northeast-3:
-        Dedicated: 0.202
-        Shared: 0.193
       ap-south-1:
         Dedicated: 0.131
         Shared: 0.127
@@ -37637,9 +37341,6 @@ m5ad.large:
       ap-northeast-2:
         Dedicated: 0.198
         Shared: 0.19
-      ap-northeast-3:
-        Dedicated: 0.205
-        Shared: 0.196
       ap-south-1:
         Dedicated: 0.134
         Shared: 0.13
@@ -37689,9 +37390,6 @@ m5ad.large:
       ap-northeast-2:
         Dedicated: 0.227
         Shared: 0.219
-      ap-northeast-3:
-        Dedicated: 0.142
-        Shared: 0.133
       ap-south-1:
         Dedicated: 0.163
         Shared: 0.159
@@ -37742,7 +37440,6 @@ m5ad.large:
     - ap-southeast-2
     - AWS GovCloud (US-West)
     - ap-northeast-1
-    - ap-northeast-3
     - eu-west-3
     - us-east-1
     - us-west-2
@@ -37771,9 +37468,6 @@ m5ad.xlarge:
       ap-northeast-2:
         Dedicated: 0.269
         Shared: 0.254
-      ap-northeast-3:
-        Dedicated: 0.284
-        Shared: 0.266
       ap-south-1:
         Dedicated: 0.142
         Shared: 0.134
@@ -37823,9 +37517,6 @@ m5ad.xlarge:
       ap-northeast-2:
         Dedicated: 0.329
         Shared: 0.314
-      ap-northeast-3:
-        Dedicated: 0.344
-        Shared: 0.326
       ap-south-1:
         Dedicated: 0.202
         Shared: 0.194
@@ -37875,9 +37566,6 @@ m5ad.xlarge:
       ap-northeast-2:
         Dedicated: 0.394
         Shared: 0.379
-      ap-northeast-3:
-        Dedicated: 0.409
-        Shared: 0.391
       ap-south-1:
         Dedicated: 0.267
         Shared: 0.259
@@ -37927,9 +37615,6 @@ m5ad.xlarge:
       ap-northeast-2:
         Dedicated: 0.453
         Shared: 0.438
-      ap-northeast-3:
-        Dedicated: 0.468
-        Shared: 0.45
       ap-south-1:
         Dedicated: 0.326
         Shared: 0.318
@@ -37988,7 +37673,6 @@ m5ad.xlarge:
     - ap-southeast-1
     - us-east-2
     - us-east-1
-    - ap-northeast-3
     - ap-southeast-2
   storage: 1 x 150 NVMe SSD
   vcpu: 4
@@ -38017,7 +37701,7 @@ m5d.12xlarge:
         Dedicated: 3.534
         Shared: 3.336
       ap-northeast-3:
-        Dedicated: 3.736
+        Dedicated: 3.714
         Shared: 3.504
       ap-south-1:
         Dedicated: 3.107
@@ -38087,7 +37771,7 @@ m5d.12xlarge:
         Dedicated: 3.664
         Shared: 3.466
       ap-northeast-3:
-        Dedicated: 3.866
+        Dedicated: 3.844
         Shared: 3.634
       ap-south-1:
         Dedicated: 3.237
@@ -38157,7 +37841,7 @@ m5d.12xlarge:
         Dedicated: 3.634
         Shared: 3.436
       ap-northeast-3:
-        Dedicated: 3.836
+        Dedicated: 3.814
         Shared: 3.604
       ap-south-1:
         Dedicated: 3.207
@@ -38227,8 +37911,8 @@ m5d.12xlarge:
         Dedicated: 5.742
         Shared: 5.544
       ap-northeast-3:
-        Dedicated: 5.944
-        Shared: 3.504
+        Dedicated: 5.922
+        Shared: 5.712
       ap-south-1:
         Dedicated: 5.315
         Shared: 5.136
@@ -38290,6 +37974,7 @@ m5d.12xlarge:
     - us-west-2
     - us-west-1
     - us-east-2
+    - ap-northeast-3
     - af-south-1
     - eu-west-2
     - sa-east-1
@@ -38306,7 +37991,6 @@ m5d.12xlarge:
     - eu-west-1
     - ap-northeast-2
     - us-gov-east-1
-    - ap-northeast-3
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 m5d.16xlarge:
@@ -38334,7 +38018,7 @@ m5d.16xlarge:
         Dedicated: 4.712
         Shared: 4.448
       ap-northeast-3:
-        Dedicated: 4.982
+        Dedicated: 4.952
         Shared: 4.672
       ap-south-1:
         Dedicated: 4.143
@@ -38404,7 +38088,7 @@ m5d.16xlarge:
         Dedicated: 4.842
         Shared: 4.578
       ap-northeast-3:
-        Dedicated: 5.112
+        Dedicated: 5.082
         Shared: 4.802
       ap-south-1:
         Dedicated: 4.273
@@ -38474,7 +38158,7 @@ m5d.16xlarge:
         Dedicated: 4.812
         Shared: 4.548
       ap-northeast-3:
-        Dedicated: 5.082
+        Dedicated: 5.052
         Shared: 4.772
       ap-south-1:
         Dedicated: 4.243
@@ -38544,8 +38228,8 @@ m5d.16xlarge:
         Dedicated: 7.656
         Shared: 7.392
       ap-northeast-3:
-        Dedicated: 4.982
-        Shared: 4.672
+        Dedicated: 7.896
+        Shared: 7.616
       ap-south-1:
         Dedicated: 7.087
         Shared: 6.848
@@ -38861,7 +38545,7 @@ m5d.24xlarge:
         Dedicated: 11.088
         Shared: 11.088
       ap-northeast-3:
-        Dedicated: 7.008
+        Dedicated: 11.424
         Shared: 11.424
       ap-south-1:
         Dedicated: 10.272
@@ -38968,7 +38652,7 @@ m5d.2xlarge:
         Dedicated: 0.589
         Shared: 0.556
       ap-northeast-3:
-        Dedicated: 0.623
+        Dedicated: 0.619
         Shared: 0.584
       ap-south-1:
         Dedicated: 0.518
@@ -39038,7 +38722,7 @@ m5d.2xlarge:
         Dedicated: 0.719
         Shared: 0.686
       ap-northeast-3:
-        Dedicated: 0.753
+        Dedicated: 0.749
         Shared: 0.714
       ap-south-1:
         Dedicated: 0.648
@@ -39108,7 +38792,7 @@ m5d.2xlarge:
         Dedicated: 0.689
         Shared: 0.656
       ap-northeast-3:
-        Dedicated: 0.723
+        Dedicated: 0.719
         Shared: 0.684
       ap-south-1:
         Dedicated: 0.618
@@ -39178,7 +38862,7 @@ m5d.2xlarge:
         Dedicated: 0.957
         Shared: 0.924
       ap-northeast-3:
-        Dedicated: 0.991
+        Dedicated: 0.987
         Shared: 0.952
       ap-south-1:
         Dedicated: 0.886
@@ -39251,9 +38935,9 @@ m5d.2xlarge:
     - sa-east-1
     - us-west-1
     - us-gov-east-1
+    - ap-northeast-3
     - ap-southeast-2
     - ca-central-1
-    - ap-northeast-3
     - EU (Milan)
     - ap-northeast-1
     - ap-east-1
@@ -39285,7 +38969,7 @@ m5d.4xlarge:
         Dedicated: 1.178
         Shared: 1.112
       ap-northeast-3:
-        Dedicated: 1.245
+        Dedicated: 1.238
         Shared: 1.168
       ap-south-1:
         Dedicated: 1.036
@@ -39355,7 +39039,7 @@ m5d.4xlarge:
         Dedicated: 1.308
         Shared: 1.242
       ap-northeast-3:
-        Dedicated: 1.375
+        Dedicated: 1.368
         Shared: 1.298
       ap-south-1:
         Dedicated: 1.166
@@ -39425,7 +39109,7 @@ m5d.4xlarge:
         Dedicated: 1.278
         Shared: 1.212
       ap-northeast-3:
-        Dedicated: 1.345
+        Dedicated: 1.338
         Shared: 1.268
       ap-south-1:
         Dedicated: 1.136
@@ -39495,7 +39179,7 @@ m5d.4xlarge:
         Dedicated: 1.914
         Shared: 1.848
       ap-northeast-3:
-        Dedicated: 1.981
+        Dedicated: 1.974
         Shared: 1.904
       ap-south-1:
         Dedicated: 1.772
@@ -39561,6 +39245,7 @@ m5d.4xlarge:
     - ap-northeast-2
     - EU (Milan)
     - us-east-2
+    - ap-northeast-3
     - af-south-1
     - eu-west-3
     - me-south-1
@@ -39574,7 +39259,6 @@ m5d.4xlarge:
     - us-gov-east-1
     - eu-west-2
     - ap-northeast-1
-    - ap-northeast-3
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 m5d.8xlarge:
@@ -39602,7 +39286,7 @@ m5d.8xlarge:
         Dedicated: 2.356
         Shared: 2.224
       ap-northeast-3:
-        Dedicated: 2.491
+        Dedicated: 2.476
         Shared: 2.336
       ap-south-1:
         Dedicated: 2.072
@@ -39672,7 +39356,7 @@ m5d.8xlarge:
         Dedicated: 2.486
         Shared: 2.354
       ap-northeast-3:
-        Dedicated: 2.621
+        Dedicated: 2.606
         Shared: 2.466
       ap-south-1:
         Dedicated: 2.202
@@ -39742,7 +39426,7 @@ m5d.8xlarge:
         Dedicated: 2.456
         Shared: 2.324
       ap-northeast-3:
-        Dedicated: 2.591
+        Dedicated: 2.576
         Shared: 2.436
       ap-south-1:
         Dedicated: 2.172
@@ -39812,7 +39496,7 @@ m5d.8xlarge:
         Dedicated: 3.828
         Shared: 3.696
       ap-northeast-3:
-        Dedicated: 3.963
+        Dedicated: 3.948
         Shared: 3.808
       ap-south-1:
         Dedicated: 3.544
@@ -39871,7 +39555,6 @@ m5d.8xlarge:
   regions:
     - eu-west-2
     - ap-southeast-2
-    - ap-northeast-3
     - us-west-1
     - ap-northeast-1
     - me-south-1
@@ -39882,6 +39565,7 @@ m5d.8xlarge:
     - AWS GovCloud (US-West)
     - sa-east-1
     - ca-central-1
+    - ap-northeast-3
     - us-west-2
     - eu-north-1
     - us-gov-east-1
@@ -39919,7 +39603,7 @@ m5d.large:
         Dedicated: 0.147
         Shared: 0.139
       ap-northeast-3:
-        Dedicated: 0.156
+        Dedicated: 0.155
         Shared: 0.146
       ap-south-1:
         Dedicated: 0.129
@@ -39989,7 +39673,7 @@ m5d.large:
         Dedicated: 0.207
         Shared: 0.199
       ap-northeast-3:
-        Dedicated: 0.216
+        Dedicated: 0.215
         Shared: 0.206
       ap-south-1:
         Dedicated: 0.189
@@ -40059,7 +39743,7 @@ m5d.large:
         Dedicated: 0.247
         Shared: 0.239
       ap-northeast-3:
-        Dedicated: 0.256
+        Dedicated: 0.255
         Shared: 0.246
       ap-south-1:
         Dedicated: 0.229
@@ -40129,8 +39813,8 @@ m5d.large:
         Dedicated: 0.239
         Shared: 0.231
       ap-northeast-3:
-        Dedicated: 0.248
-        Shared: 0.146
+        Dedicated: 0.247
+        Shared: 0.238
       ap-south-1:
         Dedicated: 0.221
         Shared: 0.214
@@ -40447,7 +40131,7 @@ m5d.metal:
         Shared: 11.088
       ap-northeast-3:
         Dedicated: 11.424
-        Shared: 7.008
+        Shared: 11.424
       ap-south-1:
         Dedicated: 10.272
         Shared: 10.272
@@ -40505,6 +40189,7 @@ m5d.metal:
   regions:
     - eu-west-1
     - eu-central-1
+    - ap-northeast-3
     - eu-west-2
     - AWS GovCloud (US-West)
     - eu-north-1
@@ -40524,7 +40209,6 @@ m5d.metal:
     - us-west-1
     - ap-east-1
     - ap-northeast-2
-    - ap-northeast-3
     - ap-southeast-2
   storage: 4 x 900 NVMe SSD
   vcpu: 96
@@ -40553,7 +40237,7 @@ m5d.xlarge:
         Dedicated: 0.295
         Shared: 0.278
       ap-northeast-3:
-        Dedicated: 0.311
+        Dedicated: 0.31
         Shared: 0.292
       ap-south-1:
         Dedicated: 0.259
@@ -40623,7 +40307,7 @@ m5d.xlarge:
         Dedicated: 0.355
         Shared: 0.338
       ap-northeast-3:
-        Dedicated: 0.371
+        Dedicated: 0.37
         Shared: 0.352
       ap-south-1:
         Dedicated: 0.319
@@ -40693,7 +40377,7 @@ m5d.xlarge:
         Dedicated: 0.395
         Shared: 0.378
       ap-northeast-3:
-        Dedicated: 0.411
+        Dedicated: 0.41
         Shared: 0.392
       ap-south-1:
         Dedicated: 0.359
@@ -40763,8 +40447,8 @@ m5d.xlarge:
         Dedicated: 0.479
         Shared: 0.462
       ap-northeast-3:
-        Dedicated: 0.311
-        Shared: 0.292
+        Dedicated: 0.494
+        Shared: 0.476
       ap-south-1:
         Dedicated: 0.443
         Shared: 0.428
@@ -47504,8 +47188,6 @@ p3dn.24xlarge:
     Linux:
       ap-northeast-1:
         Shared: 42.783
-      ap-northeast-3:
-        Shared: 42.783
       AWS GovCloud (US-West):
         Shared: 37.454
       eu-west-1:
@@ -47518,8 +47200,6 @@ p3dn.24xlarge:
         Shared: 31.212
     RHEL:
       ap-northeast-1:
-        Shared: 42.913
-      ap-northeast-3:
         Shared: 42.913
       AWS GovCloud (US-West):
         Shared: 37.584
@@ -47534,8 +47214,6 @@ p3dn.24xlarge:
     SUSE:
       ap-northeast-1:
         Shared: 42.933
-      ap-northeast-3:
-        Shared: 42.933
       AWS GovCloud (US-West):
         Shared: 37.604
       eu-west-1:
@@ -47549,8 +47227,6 @@ p3dn.24xlarge:
     Windows:
       ap-northeast-1:
         Shared: 47.199
-      ap-northeast-3:
-        Shared: 47.199
       AWS GovCloud (US-West):
         Shared: 41.87
       eu-west-1:
@@ -47563,7 +47239,6 @@ p3dn.24xlarge:
         Shared: 35.628
   regions:
     - us-east-1
-    - ap-northeast-3
     - us-west-2
     - us-gov-east-1
     - ap-northeast-1
@@ -48390,7 +48065,6 @@ r3.large:
         Dedicated: 0.32
         Shared: 0.291
   regions:
-    - AWS GovCloud (US-West)
     - ap-southeast-2
     - ap-northeast-1
     - ap-southeast-1
@@ -48400,6 +48074,7 @@ r3.large:
     - sa-east-1
     - ap-northeast-3
     - us-west-1
+    - AWS GovCloud (US-West)
     - eu-central-1
     - eu-west-1
     - us-west-2
@@ -49309,7 +48984,6 @@ r4.4xlarge:
     - us-east-1
     - us-west-2
     - eu-west-2
-    - AWS GovCloud (US-West)
     - us-east-2
     - us-west-1
     - ap-northeast-1
@@ -49320,6 +48994,7 @@ r4.4xlarge:
     - ap-south-1
     - eu-west-3
     - ap-northeast-3
+    - AWS GovCloud (US-West)
   storage: EBS only
   vcpu: 16
 r4.8xlarge:
@@ -50355,6 +50030,7 @@ r5.12xlarge:
     - ap-northeast-1
     - ap-east-1
     - eu-west-1
+    - ap-northeast-3
     - us-west-1
     - ap-northeast-2
     - ap-southeast-1
@@ -50366,7 +50042,6 @@ r5.12xlarge:
     - ap-southeast-2
     - eu-central-1
     - us-west-2-lax-1a
-    - ap-northeast-3
   storage: EBS only
   vcpu: 48
 r5.16xlarge:
@@ -50614,7 +50289,7 @@ r5.16xlarge:
         Shared: 7.808
       ap-northeast-3:
         Dedicated: 8.1
-        Shared: 4.864
+        Shared: 7.808
       ap-south-1:
         Dedicated: 7.352
         Shared: 7.104
@@ -50687,6 +50362,7 @@ r5.16xlarge:
     - AWS GovCloud (US-West)
     - us-west-2
     - af-south-1
+    - ap-northeast-3
     - eu-west-2
     - EU (Milan)
     - me-south-1
@@ -50696,7 +50372,6 @@ r5.16xlarge:
     - ap-northeast-1
     - ap-southeast-1
     - ap-east-1
-    - ap-northeast-3
   storage: EBS only
   vcpu: 64
 r5.24xlarge:
@@ -51720,7 +51395,7 @@ r5.4xlarge:
         Dedicated: 2.025
         Shared: 1.952
       ap-northeast-3:
-        Dedicated: 1.289
+        Dedicated: 2.025
         Shared: 1.952
       ap-south-1:
         Dedicated: 1.838
@@ -51787,6 +51462,7 @@ r5.4xlarge:
     - us-west-1
     - AWS GovCloud (US-West)
     - ca-central-1
+    - ap-northeast-3
     - us-west-2
     - ap-southeast-2
     - eu-central-1
@@ -51802,7 +51478,6 @@ r5.4xlarge:
     - us-east-1
     - EU (Milan)
     - us-gov-east-1
-    - ap-northeast-3
     - ap-northeast-1
   storage: EBS only
   vcpu: 16
@@ -52124,6 +51799,7 @@ r5.8xlarge:
     - eu-north-1
     - me-south-1
     - ca-central-1
+    - ap-northeast-3
     - eu-west-1
     - us-west-1
     - ap-east-1
@@ -52133,7 +51809,6 @@ r5.8xlarge:
     - sa-east-1
     - us-gov-east-1
     - ap-northeast-1
-    - ap-northeast-3
   storage: EBS only
   vcpu: 32
 r5.large:
@@ -52381,7 +52056,7 @@ r5.large:
         Shared: 0.244
       ap-northeast-3:
         Dedicated: 0.253
-        Shared: 0.152
+        Shared: 0.244
       ap-south-1:
         Dedicated: 0.23
         Shared: 0.222
@@ -52460,10 +52135,10 @@ r5.large:
     - eu-west-1
     - ap-northeast-1
     - eu-west-3
+    - ap-northeast-3
     - eu-central-1
     - ap-southeast-1
     - af-south-1
-    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 r5.metal:
@@ -52710,8 +52385,8 @@ r5.metal:
         Dedicated: 11.712
         Shared: 11.712
       ap-northeast-3:
-        Dedicated: 7.296
-        Shared: 7.296
+        Dedicated: 11.712
+        Shared: 11.712
       ap-south-1:
         Dedicated: 10.656
         Shared: 10.656
@@ -52783,6 +52458,7 @@ r5.metal:
     - us-east-2
     - eu-north-1
     - ap-east-1
+    - ap-northeast-3
     - me-south-1
     - eu-west-1
     - ca-central-1
@@ -52793,7 +52469,6 @@ r5.metal:
     - ap-south-1
     - ap-northeast-2
     - us-gov-east-1
-    - ap-northeast-3
   storage: EBS only
   vcpu: 96
 r5.xlarge:
@@ -53040,8 +52715,8 @@ r5.xlarge:
         Dedicated: 0.506
         Shared: 0.488
       ap-northeast-3:
-        Dedicated: 0.322
-        Shared: 0.304
+        Dedicated: 0.506
+        Shared: 0.488
       ap-south-1:
         Dedicated: 0.46
         Shared: 0.444
@@ -53143,9 +52818,6 @@ r5a.12xlarge:
       ap-northeast-2:
         Dedicated: 3.46
         Shared: 3.264
-      ap-northeast-3:
-        Dedicated: 3.46
-        Shared: 3.264
       ap-south-1:
         Dedicated: 1.818
         Shared: 1.716
@@ -53196,9 +52868,6 @@ r5a.12xlarge:
         Dedicated: 3.615
         Shared: 3.418
       ap-northeast-2:
-        Dedicated: 3.59
-        Shared: 3.394
-      ap-northeast-3:
         Dedicated: 3.59
         Shared: 3.394
       ap-south-1:
@@ -53253,9 +52922,6 @@ r5a.12xlarge:
       ap-northeast-2:
         Dedicated: 3.61
         Shared: 3.414
-      ap-northeast-3:
-        Dedicated: 3.61
-        Shared: 3.414
       ap-south-1:
         Dedicated: 1.968
         Shared: 1.866
@@ -53306,9 +52972,6 @@ r5a.12xlarge:
         Dedicated: 5.693
         Shared: 5.496
       ap-northeast-2:
-        Dedicated: 5.668
-        Shared: 5.472
-      ap-northeast-3:
         Dedicated: 5.668
         Shared: 5.472
       ap-south-1:
@@ -53372,7 +53035,6 @@ r5a.12xlarge:
     - sa-east-1
     - AWS GovCloud (US-West)
     - ap-southeast-1
-    - ap-northeast-3
     - eu-west-3
     - us-west-1
   storage: EBS only
@@ -53392,9 +53054,6 @@ r5a.16xlarge:
         Dedicated: 4.647
         Shared: 4.384
       ap-northeast-2:
-        Dedicated: 4.613
-        Shared: 4.352
-      ap-northeast-3:
         Dedicated: 4.613
         Shared: 4.352
       ap-south-1:
@@ -53449,9 +53108,6 @@ r5a.16xlarge:
       ap-northeast-2:
         Dedicated: 4.743
         Shared: 4.482
-      ap-northeast-3:
-        Dedicated: 4.743
-        Shared: 4.482
       ap-south-1:
         Dedicated: 2.555
         Shared: 2.418
@@ -53502,9 +53158,6 @@ r5a.16xlarge:
         Dedicated: 4.797
         Shared: 4.534
       ap-northeast-2:
-        Dedicated: 4.763
-        Shared: 4.502
-      ap-northeast-3:
         Dedicated: 4.763
         Shared: 4.502
       ap-south-1:
@@ -53559,9 +53212,6 @@ r5a.16xlarge:
       ap-northeast-2:
         Dedicated: 7.557
         Shared: 7.296
-      ap-northeast-3:
-        Dedicated: 4.613
-        Shared: 4.352
       ap-south-1:
         Dedicated: 5.369
         Shared: 5.232
@@ -53620,7 +53270,6 @@ r5a.16xlarge:
     - eu-central-1
     - us-east-1
     - ap-southeast-2
-    - ap-northeast-3
     - ap-northeast-1
     - eu-west-2
     - ap-southeast-1
@@ -53643,9 +53292,6 @@ r5a.24xlarge:
         Dedicated: 6.97
         Shared: 6.576
       ap-northeast-2:
-        Dedicated: 6.92
-        Shared: 6.528
-      ap-northeast-3:
         Dedicated: 6.92
         Shared: 6.528
       ap-south-1:
@@ -53700,9 +53346,6 @@ r5a.24xlarge:
       ap-northeast-2:
         Dedicated: 7.05
         Shared: 6.658
-      ap-northeast-3:
-        Dedicated: 7.05
-        Shared: 6.658
       ap-south-1:
         Dedicated: 3.767
         Shared: 3.562
@@ -53755,9 +53398,6 @@ r5a.24xlarge:
       ap-northeast-2:
         Dedicated: 7.07
         Shared: 6.678
-      ap-northeast-3:
-        Dedicated: 7.07
-        Shared: 6.678
       ap-south-1:
         Dedicated: 3.787
         Shared: 3.582
@@ -53808,9 +53448,6 @@ r5a.24xlarge:
         Dedicated: 11.386
         Shared: 10.992
       ap-northeast-2:
-        Dedicated: 11.336
-        Shared: 10.944
-      ap-northeast-3:
         Dedicated: 11.336
         Shared: 10.944
       ap-south-1:
@@ -53875,7 +53512,6 @@ r5a.24xlarge:
     - eu-west-1
     - us-east-1
     - eu-west-2
-    - ap-northeast-3
     - us-west-1
   storage: EBS only
   vcpu: 96
@@ -53894,9 +53530,6 @@ r5a.2xlarge:
         Dedicated: 0.581
         Shared: 0.548
       ap-northeast-2:
-        Dedicated: 0.577
-        Shared: 0.544
-      ap-northeast-3:
         Dedicated: 0.577
         Shared: 0.544
       ap-south-1:
@@ -53951,9 +53584,6 @@ r5a.2xlarge:
       ap-northeast-2:
         Dedicated: 0.707
         Shared: 0.674
-      ap-northeast-3:
-        Dedicated: 0.707
-        Shared: 0.674
       ap-south-1:
         Dedicated: 0.433
         Shared: 0.416
@@ -54006,9 +53636,6 @@ r5a.2xlarge:
       ap-northeast-2:
         Dedicated: 0.727
         Shared: 0.694
-      ap-northeast-3:
-        Dedicated: 0.727
-        Shared: 0.694
       ap-south-1:
         Dedicated: 0.453
         Shared: 0.436
@@ -54059,9 +53686,6 @@ r5a.2xlarge:
         Dedicated: 0.949
         Shared: 0.916
       ap-northeast-2:
-        Dedicated: 0.945
-        Shared: 0.912
-      ap-northeast-3:
         Dedicated: 0.945
         Shared: 0.912
       ap-south-1:
@@ -54127,7 +53751,6 @@ r5a.2xlarge:
     - eu-west-2
     - eu-west-3
     - ap-northeast-1
-    - ap-northeast-3
   storage: EBS only
   vcpu: 8
 r5a.4xlarge:
@@ -54145,9 +53768,6 @@ r5a.4xlarge:
         Dedicated: 1.162
         Shared: 1.096
       ap-northeast-2:
-        Dedicated: 1.153
-        Shared: 1.088
-      ap-northeast-3:
         Dedicated: 1.153
         Shared: 1.088
       ap-south-1:
@@ -54202,9 +53822,6 @@ r5a.4xlarge:
       ap-northeast-2:
         Dedicated: 1.283
         Shared: 1.218
-      ap-northeast-3:
-        Dedicated: 1.283
-        Shared: 1.218
       ap-south-1:
         Dedicated: 0.736
         Shared: 0.702
@@ -54255,9 +53872,6 @@ r5a.4xlarge:
         Dedicated: 1.312
         Shared: 1.246
       ap-northeast-2:
-        Dedicated: 1.303
-        Shared: 1.238
-      ap-northeast-3:
         Dedicated: 1.303
         Shared: 1.238
       ap-south-1:
@@ -54312,9 +53926,6 @@ r5a.4xlarge:
       ap-northeast-2:
         Dedicated: 1.889
         Shared: 1.824
-      ap-northeast-3:
-        Dedicated: 1.153
-        Shared: 1.088
       ap-south-1:
         Dedicated: 1.342
         Shared: 1.308
@@ -54378,7 +53989,6 @@ r5a.4xlarge:
     - ap-south-1
     - us-west-2
     - us-east-2
-    - ap-northeast-3
   storage: EBS only
   vcpu: 16
 r5a.8xlarge:
@@ -54396,9 +54006,6 @@ r5a.8xlarge:
         Dedicated: 2.323
         Shared: 2.192
       ap-northeast-2:
-        Dedicated: 2.307
-        Shared: 2.176
-      ap-northeast-3:
         Dedicated: 2.307
         Shared: 2.176
       ap-south-1:
@@ -54453,9 +54060,6 @@ r5a.8xlarge:
       ap-northeast-2:
         Dedicated: 2.437
         Shared: 2.306
-      ap-northeast-3:
-        Dedicated: 2.437
-        Shared: 2.306
       ap-south-1:
         Dedicated: 1.342
         Shared: 1.274
@@ -54508,9 +54112,6 @@ r5a.8xlarge:
       ap-northeast-2:
         Dedicated: 2.457
         Shared: 2.326
-      ap-northeast-3:
-        Dedicated: 2.457
-        Shared: 2.326
       ap-south-1:
         Dedicated: 1.362
         Shared: 1.294
@@ -54561,9 +54162,6 @@ r5a.8xlarge:
         Dedicated: 3.795
         Shared: 3.664
       ap-northeast-2:
-        Dedicated: 3.779
-        Shared: 3.648
-      ap-northeast-3:
         Dedicated: 3.779
         Shared: 3.648
       ap-south-1:
@@ -54626,7 +54224,6 @@ r5a.8xlarge:
     - us-east-2
     - us-west-2
     - ap-southeast-1
-    - ap-northeast-3
     - eu-west-3
     - ap-south-1
     - AWS GovCloud (US-West)
@@ -54647,9 +54244,6 @@ r5a.large:
         Dedicated: 0.145
         Shared: 0.137
       ap-northeast-2:
-        Dedicated: 0.144
-        Shared: 0.136
-      ap-northeast-3:
         Dedicated: 0.144
         Shared: 0.136
       ap-south-1:
@@ -54704,9 +54298,6 @@ r5a.large:
       ap-northeast-2:
         Dedicated: 0.204
         Shared: 0.196
-      ap-northeast-3:
-        Dedicated: 0.204
-        Shared: 0.196
       ap-south-1:
         Dedicated: 0.136
         Shared: 0.132
@@ -54757,9 +54348,6 @@ r5a.large:
         Dedicated: 0.208
         Shared: 0.2
       ap-northeast-2:
-        Dedicated: 0.207
-        Shared: 0.199
-      ap-northeast-3:
         Dedicated: 0.207
         Shared: 0.199
       ap-south-1:
@@ -54814,9 +54402,6 @@ r5a.large:
       ap-northeast-2:
         Dedicated: 0.236
         Shared: 0.228
-      ap-northeast-3:
-        Dedicated: 0.144
-        Shared: 0.228
       ap-south-1:
         Dedicated: 0.168
         Shared: 0.164
@@ -54865,7 +54450,6 @@ r5a.large:
   regions:
     - us-east-1
     - eu-central-1
-    - ap-northeast-3
     - eu-west-3
     - us-gov-east-1
     - ap-south-1
@@ -54898,9 +54482,6 @@ r5a.xlarge:
         Dedicated: 0.29
         Shared: 0.274
       ap-northeast-2:
-        Dedicated: 0.288
-        Shared: 0.272
-      ap-northeast-3:
         Dedicated: 0.288
         Shared: 0.272
       ap-south-1:
@@ -54955,9 +54536,6 @@ r5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.348
         Shared: 0.332
-      ap-northeast-3:
-        Dedicated: 0.348
-        Shared: 0.332
       ap-south-1:
         Dedicated: 0.212
         Shared: 0.203
@@ -55010,9 +54588,6 @@ r5a.xlarge:
       ap-northeast-2:
         Dedicated: 0.413
         Shared: 0.397
-      ap-northeast-3:
-        Dedicated: 0.413
-        Shared: 0.397
       ap-south-1:
         Dedicated: 0.277
         Shared: 0.268
@@ -55063,9 +54638,6 @@ r5a.xlarge:
         Dedicated: 0.474
         Shared: 0.458
       ap-northeast-2:
-        Dedicated: 0.472
-        Shared: 0.456
-      ap-northeast-3:
         Dedicated: 0.472
         Shared: 0.456
       ap-south-1:
@@ -55128,7 +54700,6 @@ r5a.xlarge:
     - us-west-1
     - us-east-1
     - ap-northeast-1
-    - ap-northeast-3
     - us-gov-east-1
     - us-east-2
     - eu-west-2
@@ -55150,9 +54721,6 @@ r5ad.12xlarge:
         Shared: 3.816
       ap-northeast-2:
         Dedicated: 4.019
-        Shared: 3.792
-      ap-northeast-3:
-        Dedicated: 4.023
         Shared: 3.792
       ap-south-1:
         Dedicated: 2.113
@@ -55203,9 +54771,6 @@ r5ad.12xlarge:
       ap-northeast-2:
         Dedicated: 4.149
         Shared: 3.922
-      ap-northeast-3:
-        Dedicated: 4.153
-        Shared: 3.922
       ap-south-1:
         Dedicated: 2.243
         Shared: 2.123
@@ -55254,9 +54819,6 @@ r5ad.12xlarge:
         Shared: 3.966
       ap-northeast-2:
         Dedicated: 4.169
-        Shared: 3.942
-      ap-northeast-3:
-        Dedicated: 4.173
         Shared: 3.942
       ap-south-1:
         Dedicated: 2.263
@@ -55307,9 +54869,6 @@ r5ad.12xlarge:
       ap-northeast-2:
         Dedicated: 6.227
         Shared: 6
-      ap-northeast-3:
-        Dedicated: 6.231
-        Shared: 3.792
       ap-south-1:
         Dedicated: 4.321
         Shared: 4.201
@@ -55369,7 +54928,6 @@ r5ad.12xlarge:
     - us-west-1
     - sa-east-1
     - ca-central-1
-    - ap-northeast-3
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 r5ad.16xlarge:
@@ -55388,9 +54946,6 @@ r5ad.16xlarge:
         Shared: 5.088
       ap-northeast-2:
         Dedicated: 5.359
-        Shared: 5.056
-      ap-northeast-3:
-        Dedicated: 5.364
         Shared: 5.056
       ap-south-1:
         Dedicated: 2.817
@@ -55438,9 +54993,6 @@ r5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 5.489
         Shared: 5.186
-      ap-northeast-3:
-        Dedicated: 5.494
-        Shared: 5.186
       ap-south-1:
         Dedicated: 2.947
         Shared: 2.788
@@ -55486,9 +55038,6 @@ r5ad.16xlarge:
         Shared: 5.238
       ap-northeast-2:
         Dedicated: 5.509
-        Shared: 5.206
-      ap-northeast-3:
-        Dedicated: 5.514
         Shared: 5.206
       ap-south-1:
         Dedicated: 2.967
@@ -55536,9 +55085,6 @@ r5ad.16xlarge:
       ap-northeast-2:
         Dedicated: 8.303
         Shared: 8
-      ap-northeast-3:
-        Dedicated: 5.364
-        Shared: 8
       ap-south-1:
         Dedicated: 5.761
         Shared: 5.602
@@ -55583,7 +55129,6 @@ r5ad.16xlarge:
     - ap-south-1
     - AWS GovCloud (US-West)
     - ca-central-1
-    - ap-northeast-3
     - ap-southeast-1
     - eu-west-2
     - us-west-2
@@ -55613,9 +55158,6 @@ r5ad.24xlarge:
         Shared: 7.632
       ap-northeast-2:
         Dedicated: 8.038
-        Shared: 7.584
-      ap-northeast-3:
-        Dedicated: 8.047
         Shared: 7.584
       ap-south-1:
         Dedicated: 4.226
@@ -55666,9 +55208,6 @@ r5ad.24xlarge:
       ap-northeast-2:
         Dedicated: 8.168
         Shared: 7.714
-      ap-northeast-3:
-        Dedicated: 8.177
-        Shared: 7.714
       ap-south-1:
         Dedicated: 4.356
         Shared: 4.116
@@ -55717,9 +55256,6 @@ r5ad.24xlarge:
         Shared: 7.782
       ap-northeast-2:
         Dedicated: 8.188
-        Shared: 7.734
-      ap-northeast-3:
-        Dedicated: 8.197
         Shared: 7.734
       ap-south-1:
         Dedicated: 4.376
@@ -55770,9 +55306,6 @@ r5ad.24xlarge:
       ap-northeast-2:
         Dedicated: 12.454
         Shared: 12
-      ap-northeast-3:
-        Dedicated: 12.463
-        Shared: 7.584
       ap-south-1:
         Dedicated: 8.642
         Shared: 8.402
@@ -55824,7 +55357,6 @@ r5ad.24xlarge:
     - eu-central-1
     - ca-central-1
     - sa-east-1
-    - ap-northeast-3
     - us-east-2
     - eu-west-3
     - us-west-1
@@ -55851,9 +55383,6 @@ r5ad.2xlarge:
         Shared: 0.636
       ap-northeast-2:
         Dedicated: 0.67
-        Shared: 0.632
-      ap-northeast-3:
-        Dedicated: 0.671
         Shared: 0.632
       ap-south-1:
         Dedicated: 0.352
@@ -55904,9 +55433,6 @@ r5ad.2xlarge:
       ap-northeast-2:
         Dedicated: 0.8
         Shared: 0.762
-      ap-northeast-3:
-        Dedicated: 0.801
-        Shared: 0.762
       ap-south-1:
         Dedicated: 0.482
         Shared: 0.462
@@ -55956,9 +55482,6 @@ r5ad.2xlarge:
       ap-northeast-2:
         Dedicated: 0.82
         Shared: 0.782
-      ap-northeast-3:
-        Dedicated: 0.821
-        Shared: 0.782
       ap-south-1:
         Dedicated: 0.502
         Shared: 0.482
@@ -56007,9 +55530,6 @@ r5ad.2xlarge:
         Shared: 1.004
       ap-northeast-2:
         Dedicated: 1.038
-        Shared: 1
-      ap-northeast-3:
-        Dedicated: 0.671
         Shared: 1
       ap-south-1:
         Dedicated: 0.72
@@ -56070,7 +55590,6 @@ r5ad.2xlarge:
     - eu-west-2
     - ap-northeast-1
     - us-east-1
-    - ap-northeast-3
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 r5ad.4xlarge:
@@ -56089,9 +55608,6 @@ r5ad.4xlarge:
         Shared: 1.272
       ap-northeast-2:
         Dedicated: 1.34
-        Shared: 1.264
-      ap-northeast-3:
-        Dedicated: 1.341
         Shared: 1.264
       ap-south-1:
         Dedicated: 0.704
@@ -56142,9 +55658,6 @@ r5ad.4xlarge:
       ap-northeast-2:
         Dedicated: 1.47
         Shared: 1.394
-      ap-northeast-3:
-        Dedicated: 1.471
-        Shared: 1.394
       ap-south-1:
         Dedicated: 0.834
         Shared: 0.794
@@ -56194,9 +55707,6 @@ r5ad.4xlarge:
       ap-northeast-2:
         Dedicated: 1.49
         Shared: 1.414
-      ap-northeast-3:
-        Dedicated: 1.491
-        Shared: 1.414
       ap-south-1:
         Dedicated: 0.854
         Shared: 0.814
@@ -56245,9 +55755,6 @@ r5ad.4xlarge:
         Shared: 2.008
       ap-northeast-2:
         Dedicated: 2.076
-        Shared: 2
-      ap-northeast-3:
-        Dedicated: 1.341
         Shared: 2
       ap-south-1:
         Dedicated: 1.44
@@ -56302,7 +55809,6 @@ r5ad.4xlarge:
     - AWS GovCloud (US-West)
     - ap-southeast-2
     - eu-central-1
-    - ap-northeast-3
     - ap-northeast-2
     - us-west-1
     - ca-central-1
@@ -56327,9 +55833,6 @@ r5ad.8xlarge:
         Shared: 2.544
       ap-northeast-2:
         Dedicated: 2.679
-        Shared: 2.528
-      ap-northeast-3:
-        Dedicated: 2.682
         Shared: 2.528
       ap-south-1:
         Dedicated: 1.409
@@ -56377,9 +55880,6 @@ r5ad.8xlarge:
       ap-northeast-2:
         Dedicated: 2.809
         Shared: 2.658
-      ap-northeast-3:
-        Dedicated: 2.812
-        Shared: 2.658
       ap-south-1:
         Dedicated: 1.539
         Shared: 1.459
@@ -56426,9 +55926,6 @@ r5ad.8xlarge:
       ap-northeast-2:
         Dedicated: 2.829
         Shared: 2.678
-      ap-northeast-3:
-        Dedicated: 2.832
-        Shared: 2.678
       ap-south-1:
         Dedicated: 1.559
         Shared: 1.479
@@ -56474,9 +55971,6 @@ r5ad.8xlarge:
         Shared: 4.016
       ap-northeast-2:
         Dedicated: 4.151
-        Shared: 4
-      ap-northeast-3:
-        Dedicated: 2.682
         Shared: 4
       ap-south-1:
         Dedicated: 2.881
@@ -56533,7 +56027,6 @@ r5ad.8xlarge:
     - ap-southeast-1
     - ap-northeast-2
     - sa-east-1
-    - ap-northeast-3
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 r5ad.large:
@@ -56552,9 +56045,6 @@ r5ad.large:
         Shared: 0.159
       ap-northeast-2:
         Dedicated: 0.167
-        Shared: 0.158
-      ap-northeast-3:
-        Dedicated: 0.168
         Shared: 0.158
       ap-south-1:
         Dedicated: 0.088
@@ -56605,9 +56095,6 @@ r5ad.large:
       ap-northeast-2:
         Dedicated: 0.227
         Shared: 0.218
-      ap-northeast-3:
-        Dedicated: 0.228
-        Shared: 0.218
       ap-south-1:
         Dedicated: 0.148
         Shared: 0.143
@@ -56657,9 +56144,6 @@ r5ad.large:
       ap-northeast-2:
         Dedicated: 0.23
         Shared: 0.221
-      ap-northeast-3:
-        Dedicated: 0.231
-        Shared: 0.221
       ap-south-1:
         Dedicated: 0.151
         Shared: 0.146
@@ -56708,9 +56192,6 @@ r5ad.large:
         Shared: 0.251
       ap-northeast-2:
         Dedicated: 0.259
-        Shared: 0.25
-      ap-northeast-3:
-        Dedicated: 0.26
         Shared: 0.25
       ap-south-1:
         Dedicated: 0.18
@@ -56769,7 +56250,6 @@ r5ad.large:
     - us-west-1
     - sa-east-1
     - eu-west-1
-    - ap-northeast-3
     - ap-northeast-1
     - eu-west-2
   storage: 1 x 75 NVMe SSD
@@ -56789,9 +56269,6 @@ r5ad.xlarge:
         Dedicated: 0.337
         Shared: 0.318
       ap-northeast-2:
-        Dedicated: 0.335
-        Shared: 0.316
-      ap-northeast-3:
         Dedicated: 0.335
         Shared: 0.316
       ap-south-1:
@@ -56843,9 +56320,6 @@ r5ad.xlarge:
       ap-northeast-2:
         Dedicated: 0.395
         Shared: 0.376
-      ap-northeast-3:
-        Dedicated: 0.395
-        Shared: 0.376
       ap-south-1:
         Dedicated: 0.236
         Shared: 0.226
@@ -56893,9 +56367,6 @@ r5ad.xlarge:
         Dedicated: 0.462
         Shared: 0.443
       ap-northeast-2:
-        Dedicated: 0.46
-        Shared: 0.441
-      ap-northeast-3:
         Dedicated: 0.46
         Shared: 0.441
       ap-south-1:
@@ -56946,9 +56417,6 @@ r5ad.xlarge:
         Shared: 0.502
       ap-northeast-2:
         Dedicated: 0.519
-        Shared: 0.5
-      ap-northeast-3:
-        Dedicated: 0.335
         Shared: 0.5
       ap-south-1:
         Dedicated: 0.36
@@ -57007,7 +56475,6 @@ r5ad.xlarge:
     - ca-central-1
     - ap-southeast-2
     - AWS GovCloud (US-West)
-    - ap-northeast-3
     - ap-northeast-2
     - eu-west-2
   storage: 1 x 150 NVMe SSD
@@ -57892,7 +57359,7 @@ r5d.12xlarge:
         Dedicated: 4.401
         Shared: 4.152
       ap-northeast-3:
-        Dedicated: 4.43
+        Dedicated: 4.427
         Shared: 4.176
       ap-south-1:
         Dedicated: 3.841
@@ -57965,7 +57432,7 @@ r5d.12xlarge:
         Dedicated: 4.531
         Shared: 4.282
       ap-northeast-3:
-        Dedicated: 4.56
+        Dedicated: 4.557
         Shared: 4.306
       ap-south-1:
         Dedicated: 3.971
@@ -58038,7 +57505,7 @@ r5d.12xlarge:
         Dedicated: 4.551
         Shared: 4.302
       ap-northeast-3:
-        Dedicated: 4.58
+        Dedicated: 4.577
         Shared: 4.326
       ap-south-1:
         Dedicated: 3.991
@@ -58111,7 +57578,7 @@ r5d.12xlarge:
         Dedicated: 6.609
         Shared: 6.36
       ap-northeast-3:
-        Dedicated: 4.43
+        Dedicated: 6.635
         Shared: 6.384
       ap-south-1:
         Dedicated: 6.049
@@ -58222,7 +57689,7 @@ r5d.16xlarge:
         Dedicated: 5.868
         Shared: 5.536
       ap-northeast-3:
-        Dedicated: 5.907
+        Dedicated: 5.902
         Shared: 5.568
       ap-south-1:
         Dedicated: 5.122
@@ -58295,7 +57762,7 @@ r5d.16xlarge:
         Dedicated: 5.998
         Shared: 5.666
       ap-northeast-3:
-        Dedicated: 6.037
+        Dedicated: 6.032
         Shared: 5.698
       ap-south-1:
         Dedicated: 5.252
@@ -58368,7 +57835,7 @@ r5d.16xlarge:
         Dedicated: 6.018
         Shared: 5.686
       ap-northeast-3:
-        Dedicated: 6.057
+        Dedicated: 6.052
         Shared: 5.718
       ap-south-1:
         Dedicated: 5.272
@@ -58441,7 +57908,7 @@ r5d.16xlarge:
         Dedicated: 8.812
         Shared: 8.48
       ap-northeast-3:
-        Dedicated: 8.851
+        Dedicated: 8.846
         Shared: 8.512
       ap-south-1:
         Dedicated: 8.066
@@ -58507,6 +57974,7 @@ r5d.16xlarge:
     - me-south-1
     - ap-southeast-1
     - eu-west-2
+    - ap-northeast-3
     - ap-south-1
     - ap-east-1
     - eu-west-1
@@ -58519,7 +57987,6 @@ r5d.16xlarge:
     - ap-northeast-2
     - ca-central-1
     - af-south-1
-    - ap-northeast-3
     - ap-southeast-2
     - us-west-1
     - sa-east-1
@@ -58852,8 +58319,8 @@ r5d.24xlarge:
     - us-west-2
     - eu-west-3
     - ap-northeast-2
-    - ap-southeast-2
     - ap-northeast-3
+    - ap-southeast-2
     - ap-northeast-1
   storage: 4 x 900 NVMe SSD
   vcpu: 96
@@ -59119,8 +58586,8 @@ r5d.2xlarge:
         Dedicated: 1.101
         Shared: 1.06
       ap-northeast-3:
-        Dedicated: 0.738
-        Shared: 0.696
+        Dedicated: 1.106
+        Shared: 1.064
       ap-south-1:
         Dedicated: 1.008
         Shared: 0.972
@@ -59190,6 +58657,7 @@ r5d.2xlarge:
     - eu-north-1
     - us-west-2-lax-1a
     - ap-northeast-2
+    - ap-northeast-3
     - eu-west-2
     - us-east-2
     - US East (Houston)
@@ -59205,7 +58673,6 @@ r5d.2xlarge:
     - us-east-1
     - me-south-1
     - eu-central-1
-    - ap-northeast-3
     - US East (Boston)
     - ap-east-1
     - US East (Miami)
@@ -59239,7 +58706,7 @@ r5d.4xlarge:
         Dedicated: 1.467
         Shared: 1.384
       ap-northeast-3:
-        Dedicated: 1.477
+        Dedicated: 1.476
         Shared: 1.392
       ap-south-1:
         Dedicated: 1.28
@@ -59312,7 +58779,7 @@ r5d.4xlarge:
         Dedicated: 1.597
         Shared: 1.514
       ap-northeast-3:
-        Dedicated: 1.607
+        Dedicated: 1.606
         Shared: 1.522
       ap-south-1:
         Dedicated: 1.41
@@ -59385,7 +58852,7 @@ r5d.4xlarge:
         Dedicated: 1.617
         Shared: 1.534
       ap-northeast-3:
-        Dedicated: 1.627
+        Dedicated: 1.626
         Shared: 1.542
       ap-south-1:
         Dedicated: 1.43
@@ -59458,8 +58925,8 @@ r5d.4xlarge:
         Dedicated: 2.203
         Shared: 2.12
       ap-northeast-3:
-        Dedicated: 1.477
-        Shared: 1.392
+        Dedicated: 2.212
+        Shared: 2.128
       ap-south-1:
         Dedicated: 2.016
         Shared: 1.944
@@ -59519,6 +58986,7 @@ r5d.4xlarge:
         Shared: 2.118
   regions:
     - ap-southeast-1
+    - ap-northeast-3
     - ap-northeast-2
     - ca-central-1
     - af-south-1
@@ -59535,7 +59003,6 @@ r5d.4xlarge:
     - eu-west-3
     - us-east-1
     - us-west-2
-    - ap-northeast-3
     - eu-west-2
     - us-west-1
     - EU (Milan)
@@ -59569,7 +59036,7 @@ r5d.8xlarge:
         Dedicated: 2.934
         Shared: 2.768
       ap-northeast-3:
-        Dedicated: 2.953
+        Dedicated: 2.951
         Shared: 2.784
       ap-south-1:
         Dedicated: 2.561
@@ -59642,7 +59109,7 @@ r5d.8xlarge:
         Dedicated: 3.064
         Shared: 2.898
       ap-northeast-3:
-        Dedicated: 3.083
+        Dedicated: 3.081
         Shared: 2.914
       ap-south-1:
         Dedicated: 2.691
@@ -59715,7 +59182,7 @@ r5d.8xlarge:
         Dedicated: 3.084
         Shared: 2.918
       ap-northeast-3:
-        Dedicated: 3.103
+        Dedicated: 3.101
         Shared: 2.934
       ap-south-1:
         Dedicated: 2.711
@@ -59788,8 +59255,8 @@ r5d.8xlarge:
         Dedicated: 4.406
         Shared: 4.24
       ap-northeast-3:
-        Dedicated: 4.425
-        Shared: 2.784
+        Dedicated: 4.423
+        Shared: 4.256
       ap-south-1:
         Dedicated: 4.033
         Shared: 3.888
@@ -59862,6 +59329,7 @@ r5d.8xlarge:
     - ap-northeast-1
     - ap-south-1
     - us-gov-east-1
+    - ap-northeast-3
     - eu-central-1
     - us-west-1
     - ap-northeast-2
@@ -59870,7 +59338,6 @@ r5d.8xlarge:
     - eu-west-2
     - us-west-2-lax-1a
     - AWS GovCloud (US-West)
-    - ap-northeast-3
     - eu-north-1
   storage: 2 x 600 NVMe SSD
   vcpu: 32
@@ -59899,7 +59366,7 @@ r5d.large:
         Dedicated: 0.183
         Shared: 0.173
       ap-northeast-3:
-        Dedicated: 0.185
+        Dedicated: 0.184
         Shared: 0.174
       ap-south-1:
         Dedicated: 0.16
@@ -59972,7 +59439,7 @@ r5d.large:
         Dedicated: 0.243
         Shared: 0.233
       ap-northeast-3:
-        Dedicated: 0.245
+        Dedicated: 0.244
         Shared: 0.234
       ap-south-1:
         Dedicated: 0.22
@@ -60045,7 +59512,7 @@ r5d.large:
         Dedicated: 0.246
         Shared: 0.236
       ap-northeast-3:
-        Dedicated: 0.248
+        Dedicated: 0.247
         Shared: 0.237
       ap-south-1:
         Dedicated: 0.223
@@ -60118,8 +59585,8 @@ r5d.large:
         Dedicated: 0.275
         Shared: 0.265
       ap-northeast-3:
-        Dedicated: 0.185
-        Shared: 0.174
+        Dedicated: 0.276
+        Shared: 0.266
       ap-south-1:
         Dedicated: 0.252
         Shared: 0.243
@@ -60200,8 +59667,8 @@ r5d.large:
     - ap-southeast-2
     - us-west-2
     - ca-central-1
-    - eu-west-3
     - ap-northeast-3
+    - eu-west-3
   storage: 1 x 75 NVMe SSD
   vcpu: 2
 r5d.metal:
@@ -60449,7 +59916,7 @@ r5d.metal:
         Shared: 12.72
       ap-northeast-3:
         Dedicated: 12.768
-        Shared: 8.352
+        Shared: 12.768
       ap-south-1:
         Dedicated: 11.664
         Shared: 11.664
@@ -60779,7 +60246,7 @@ r5d.xlarge:
         Shared: 0.53
       ap-northeast-3:
         Dedicated: 0.553
-        Shared: 0.348
+        Shared: 0.532
       ap-south-1:
         Dedicated: 0.504
         Shared: 0.486
@@ -60842,6 +60309,7 @@ r5d.xlarge:
     - EU (Milan)
     - ap-east-1
     - us-west-2
+    - ap-northeast-3
     - ap-south-1
     - eu-west-1
     - ap-northeast-1
@@ -60856,7 +60324,6 @@ r5d.xlarge:
     - us-west-1
     - ap-southeast-2
     - eu-central-1
-    - ap-northeast-3
     - af-south-1
     - ca-central-1
     - eu-west-3
@@ -66215,8 +65682,8 @@ t2.medium:
     - us-east-1
     - ap-south-1
     - eu-west-2
-    - AWS GovCloud (US-West)
     - sa-east-1
+    - AWS GovCloud (US-West)
     - us-west-2
     - ap-northeast-1
     - ap-northeast-3
@@ -66309,7 +65776,7 @@ t2.micro:
       ap-northeast-2:
         Shared: 0.0244
       ap-northeast-3:
-        Shared: 0.1152
+        Shared: 0.0252
       ap-south-1:
         Shared: 0.0244
       ap-southeast-1:
@@ -66444,7 +65911,7 @@ t2.nano:
       ap-northeast-2:
         Shared: 0.0172
       ap-northeast-3:
-        Shared: 0.1076
+        Shared: 0.0176
       ap-south-1:
         Shared: 0.0172
       ap-southeast-1:
@@ -66614,7 +66081,7 @@ t2.small:
       ap-northeast-2:
         Shared: 0.0588
       ap-northeast-3:
-        Shared: 0.1304
+        Shared: 0.0604
       ap-south-1:
         Shared: 0.0588
       ap-southeast-1:
@@ -66902,8 +66369,6 @@ t3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.4497
         Shared: 0.4224
-      AWS GovCloud (US-West):
-        Shared: 0.3904
       ca-central-1:
         Dedicated: 0.3935
         Shared: 0.3712
@@ -67090,7 +66555,7 @@ t3.2xlarge:
         Dedicated: 0.5871
         Shared: 0.5632
       ap-northeast-3:
-        Shared: 0.4352
+        Shared: 0.5824
       ap-south-1:
         Dedicated: 0.5271
         Shared: 0.5056
@@ -67150,6 +66615,7 @@ t3.2xlarge:
     - ap-southeast-1
     - af-south-1
     - us-east-2
+    - ap-northeast-3
     - us-gov-east-1
     - EU (Milan)
     - ap-south-1
@@ -67161,13 +66627,12 @@ t3.2xlarge:
     - eu-west-1
     - ap-northeast-2
     - us-east-1
-    - AWS GovCloud (US-West)
     - us-west-2-lax-1a
+    - AWS GovCloud (US-West)
     - eu-west-2
     - me-south-1
     - ap-southeast-2
     - eu-north-1
-    - ap-northeast-3
   storage: EBS only
   vcpu: 8
 t3.large:
@@ -67879,10 +67344,10 @@ t3.medium:
     - eu-central-1
     - US East (Verizon) - Dallas
     - us-gov-east-1
+    - ap-northeast-3
     - ap-northeast-1
     - ap-southeast-1
     - US West (Verizon) - Las Vegas
-    - ap-northeast-3
     - eu-west-3
     - EU (Milan)
     - US East (Verizon) - Boston
@@ -68183,10 +67648,10 @@ t3.micro:
     - ap-northeast-2
     - us-east-2
     - eu-west-2
+    - ap-northeast-3
     - ap-southeast-2
     - ca-central-1
     - eu-north-1
-    - ap-northeast-3
     - af-south-1
     - me-south-1
     - ap-northeast-1
@@ -68349,7 +67814,7 @@ t3.nano:
         Dedicated: 0.0111
         Shared: 0.0111
       ap-northeast-3:
-        Shared: 0.0068
+        Shared: 0.0114
       ap-south-1:
         Dedicated: 0.0102
         Shared: 0.0102
@@ -68417,6 +67882,7 @@ t3.nano:
     - ap-northeast-1
     - EU (Milan)
     - eu-west-3
+    - ap-northeast-3
     - ap-east-1
     - ap-south-1
     - eu-central-1
@@ -68424,7 +67890,6 @@ t3.nano:
     - me-south-1
     - us-west-2
     - us-east-1
-    - ap-northeast-3
     - eu-north-1
     - us-gov-east-1
   storage: EBS only
@@ -68651,7 +68116,7 @@ t3.small:
         Dedicated: 0.0459
         Shared: 0.0444
       ap-northeast-3:
-        Shared: 0.0272
+        Shared: 0.0456
       ap-south-1:
         Dedicated: 0.0421
         Shared: 0.0408
@@ -69049,7 +68514,7 @@ t3.xlarge:
         Dedicated: 0.2936
         Shared: 0.2816
       ap-northeast-3:
-        Shared: 0.2176
+        Shared: 0.2912
       ap-south-1:
         Dedicated: 0.2635
         Shared: 0.2528
@@ -69193,8 +68658,6 @@ t3a.2xlarge:
         Shared: 0.3917
       ap-northeast-2:
         Shared: 0.3744
-      ap-northeast-3:
-        Shared: 0.3917
       ap-south-1:
         Shared: 0.1971
       ap-southeast-1:
@@ -69230,8 +68693,6 @@ t3a.2xlarge:
         Shared: 0.5217
       ap-northeast-2:
         Shared: 0.5044
-      ap-northeast-3:
-        Shared: 0.5217
       ap-south-1:
         Shared: 0.3271
       ap-southeast-1:
@@ -69267,8 +68728,6 @@ t3a.2xlarge:
         Shared: 0.5417
       ap-northeast-2:
         Shared: 0.5244
-      ap-northeast-3:
-        Shared: 0.5417
       ap-south-1:
         Shared: 0.3471
       ap-southeast-1:
@@ -69304,8 +68763,6 @@ t3a.2xlarge:
         Shared: 0.5389
       ap-northeast-2:
         Shared: 0.5216
-      ap-northeast-3:
-        Shared: 0.5389
       ap-south-1:
         Shared: 0.3443
       ap-southeast-1:
@@ -69341,7 +68798,6 @@ t3a.2xlarge:
     - ap-south-1
     - us-west-1
     - eu-west-3
-    - ap-northeast-3
     - us-east-2
     - us-east-1
     - sa-east-1
@@ -69373,8 +68829,6 @@ t3a.large:
         Shared: 0.0979
       ap-northeast-2:
         Shared: 0.0936
-      ap-northeast-3:
-        Shared: 0.0979
       ap-south-1:
         Shared: 0.0493
       ap-southeast-1:
@@ -69410,8 +68864,6 @@ t3a.large:
         Shared: 0.1579
       ap-northeast-2:
         Shared: 0.1536
-      ap-northeast-3:
-        Shared: 0.1579
       ap-south-1:
         Shared: 0.1093
       ap-southeast-1:
@@ -69447,8 +68899,6 @@ t3a.large:
         Shared: 0.1609
       ap-northeast-2:
         Shared: 0.1566
-      ap-northeast-3:
-        Shared: 0.1609
       ap-south-1:
         Shared: 0.1123
       ap-southeast-1:
@@ -69484,8 +68934,6 @@ t3a.large:
         Shared: 0.1255
       ap-northeast-2:
         Shared: 0.1212
-      ap-northeast-3:
-        Shared: 0.0979
       ap-south-1:
         Shared: 0.0769
       ap-southeast-1:
@@ -69534,7 +68982,6 @@ t3a.large:
     - us-west-1
     - ap-southeast-2
     - us-east-1
-    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t3a.medium:
@@ -69553,8 +69000,6 @@ t3a.medium:
         Shared: 0.049
       ap-northeast-2:
         Shared: 0.0468
-      ap-northeast-3:
-        Shared: 0.049
       ap-south-1:
         Shared: 0.0246
       ap-southeast-1:
@@ -69590,8 +69035,6 @@ t3a.medium:
         Shared: 0.109
       ap-northeast-2:
         Shared: 0.1068
-      ap-northeast-3:
-        Shared: 0.109
       ap-south-1:
         Shared: 0.0846
       ap-southeast-1:
@@ -69627,8 +69070,6 @@ t3a.medium:
         Shared: 0.112
       ap-northeast-2:
         Shared: 0.1098
-      ap-northeast-3:
-        Shared: 0.112
       ap-south-1:
         Shared: 0.0876
       ap-southeast-1:
@@ -69664,8 +69105,6 @@ t3a.medium:
         Shared: 0.0674
       ap-northeast-2:
         Shared: 0.0652
-      ap-northeast-3:
-        Shared: 0.049
       ap-south-1:
         Shared: 0.043
       ap-southeast-1:
@@ -69714,7 +69153,6 @@ t3a.medium:
     - AWS GovCloud (US-West)
     - us-west-2
     - ap-northeast-2
-    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t3a.micro:
@@ -69733,8 +69171,6 @@ t3a.micro:
         Shared: 0.0122
       ap-northeast-2:
         Shared: 0.0117
-      ap-northeast-3:
-        Shared: 0.0122
       ap-south-1:
         Shared: 0.0062
       ap-southeast-1:
@@ -69770,8 +69206,6 @@ t3a.micro:
         Shared: 0.0722
       ap-northeast-2:
         Shared: 0.0717
-      ap-northeast-3:
-        Shared: 0.0722
       ap-south-1:
         Shared: 0.0662
       ap-southeast-1:
@@ -69807,8 +69241,6 @@ t3a.micro:
         Shared: 0.0122
       ap-northeast-2:
         Shared: 0.0117
-      ap-northeast-3:
-        Shared: 0.0122
       ap-south-1:
         Shared: 0.0062
       ap-southeast-1:
@@ -69844,8 +69276,6 @@ t3a.micro:
         Shared: 0.0214
       ap-northeast-2:
         Shared: 0.0209
-      ap-northeast-3:
-        Shared: 0.0122
       ap-south-1:
         Shared: 0.0154
       ap-southeast-1:
@@ -69894,7 +69324,6 @@ t3a.micro:
     - ca-central-1
     - eu-west-3
     - us-west-1
-    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t3a.nano:
@@ -69909,38 +69338,12 @@ t3a.nano:
   physicalProcessor: AMD EPYC 7571
   prices:
     Linux:
-      ap-northeast-1:
-        Shared: 0.0061
-      ap-northeast-2:
-        Shared: 0.0059
-      ap-northeast-3:
-        Shared: 0.0061
-      ap-south-1:
-        Shared: 0.0031
-      ap-southeast-1:
-        Shared: 0.0059
-      ap-southeast-2:
-        Shared: 0.0059
       AWS GovCloud (US-West):
         Shared: 0.0055
-      ca-central-1:
-        Shared: 0.0052
-      eu-central-1:
-        Shared: 0.0054
-      eu-west-1:
-        Shared: 0.0051
-      eu-west-2:
-        Shared: 0.0053
-      eu-west-3:
-        Shared: 0.0053
-      sa-east-1:
-        Shared: 0.0076
       us-east-1:
         Shared: 0.0047
       us-east-2:
         Shared: 0.0047
-      us-gov-east-1:
-        Shared: 0.0055
       us-west-1:
         Shared: 0.0056
       us-west-2:
@@ -69950,45 +69353,23 @@ t3a.nano:
         Shared: 0.0061
       ap-northeast-2:
         Shared: 0.0059
-      ap-northeast-3:
-        Shared: 0.0061
       ap-south-1:
         Shared: 0.0031
       ap-southeast-1:
         Shared: 0.0059
       ap-southeast-2:
         Shared: 0.0059
-      AWS GovCloud (US-West):
-        Shared: 0.0055
       ca-central-1:
         Shared: 0.0052
-      eu-central-1:
-        Shared: 0.0054
       eu-west-1:
         Shared: 0.0051
-      eu-west-2:
-        Shared: 0.0053
-      eu-west-3:
-        Shared: 0.0053
-      sa-east-1:
-        Shared: 0.0076
       us-east-1:
-        Shared: 0.0047
-      us-east-2:
-        Shared: 0.0047
-      us-gov-east-1:
-        Shared: 0.0055
-      us-west-1:
-        Shared: 0.0056
-      us-west-2:
         Shared: 0.0047
     Windows:
       ap-northeast-1:
         Shared: 0.0107
       ap-northeast-2:
         Shared: 0.0105
-      ap-northeast-3:
-        Shared: 0.0061
       ap-south-1:
         Shared: 0.0077
       ap-southeast-1:
@@ -69996,7 +69377,7 @@ t3a.nano:
       ap-southeast-2:
         Shared: 0.0105
       AWS GovCloud (US-West):
-        Shared: 0.0055
+        Shared: 0.0101
       ca-central-1:
         Shared: 0.0098
       eu-central-1:
@@ -70025,17 +69406,16 @@ t3a.nano:
     - ap-south-1
     - eu-west-1
     - AWS GovCloud (US-West)
-    - us-east-2
-    - eu-west-3
-    - ap-northeast-3
     - us-gov-east-1
     - us-west-2
+    - eu-west-3
     - us-west-1
     - ap-southeast-2
     - ca-central-1
-    - us-east-1
+    - us-east-2
     - eu-west-2
     - eu-central-1
+    - us-east-1
     - ap-northeast-1
     - ap-northeast-2
   storage: EBS only
@@ -70056,8 +69436,6 @@ t3a.small:
         Shared: 0.0245
       ap-northeast-2:
         Shared: 0.0234
-      ap-northeast-3:
-        Shared: 0.0245
       ap-south-1:
         Shared: 0.0123
       ap-southeast-1:
@@ -70093,8 +69471,6 @@ t3a.small:
         Shared: 0.0845
       ap-northeast-2:
         Shared: 0.0834
-      ap-northeast-3:
-        Shared: 0.0845
       ap-south-1:
         Shared: 0.0723
       ap-southeast-1:
@@ -70130,8 +69506,6 @@ t3a.small:
         Shared: 0.0555
       ap-northeast-2:
         Shared: 0.0544
-      ap-northeast-3:
-        Shared: 0.0555
       ap-south-1:
         Shared: 0.0433
       ap-southeast-1:
@@ -70167,8 +69541,6 @@ t3a.small:
         Shared: 0.0429
       ap-northeast-2:
         Shared: 0.0418
-      ap-northeast-3:
-        Shared: 0.0429
       ap-south-1:
         Shared: 0.0307
       ap-southeast-1:
@@ -70217,7 +69589,6 @@ t3a.small:
     - us-gov-east-1
     - us-east-1
     - AWS GovCloud (US-West)
-    - ap-northeast-3
   storage: EBS only
   vcpu: 2
 t3a.xlarge:
@@ -70236,8 +69607,6 @@ t3a.xlarge:
         Shared: 0.1958
       ap-northeast-2:
         Shared: 0.1872
-      ap-northeast-3:
-        Shared: 0.1958
       ap-south-1:
         Shared: 0.0986
       ap-southeast-1:
@@ -70273,8 +69642,6 @@ t3a.xlarge:
         Shared: 0.2558
       ap-northeast-2:
         Shared: 0.2472
-      ap-northeast-3:
-        Shared: 0.2558
       ap-south-1:
         Shared: 0.1586
       ap-southeast-1:
@@ -70310,8 +69677,6 @@ t3a.xlarge:
         Shared: 0.3208
       ap-northeast-2:
         Shared: 0.3122
-      ap-northeast-3:
-        Shared: 0.3208
       ap-south-1:
         Shared: 0.2236
       ap-southeast-1:
@@ -70347,8 +69712,6 @@ t3a.xlarge:
         Shared: 0.2694
       ap-northeast-2:
         Shared: 0.2608
-      ap-northeast-3:
-        Shared: 0.2694
       ap-south-1:
         Shared: 0.1722
       ap-southeast-1:
@@ -70397,7 +69760,6 @@ t3a.xlarge:
     - sa-east-1
     - eu-central-1
     - us-east-2
-    - ap-northeast-3
   storage: EBS only
   vcpu: 4
 t4g.2xlarge:
