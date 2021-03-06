@@ -17534,6 +17534,18 @@ d3.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.593
+        Shared: 1.448
+      ap-southeast-1:
+        Dedicated: 1.377
+        Shared: 1.252
+      ap-southeast-2:
+        Dedicated: 1.377
+        Shared: 1.252
+      eu-central-1:
+        Dedicated: 1.448
+        Shared: 1.316
       eu-west-1:
         Dedicated: 1.34
         Shared: 1.219
@@ -17547,6 +17559,18 @@ d3.2xlarge:
         Dedicated: 1.099
         Shared: 0.999
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.723
+        Shared: 1.578
+      ap-southeast-1:
+        Dedicated: 1.507
+        Shared: 1.382
+      ap-southeast-2:
+        Dedicated: 1.507
+        Shared: 1.382
+      eu-central-1:
+        Dedicated: 1.578
+        Shared: 1.446
       eu-west-1:
         Dedicated: 1.47
         Shared: 1.349
@@ -17560,6 +17584,18 @@ d3.2xlarge:
         Dedicated: 1.229
         Shared: 1.129
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.743
+        Shared: 1.598
+      ap-southeast-1:
+        Dedicated: 1.527
+        Shared: 1.402
+      ap-southeast-2:
+        Dedicated: 1.527
+        Shared: 1.402
+      eu-central-1:
+        Dedicated: 1.598
+        Shared: 1.466
       eu-west-1:
         Dedicated: 1.49
         Shared: 1.369
@@ -17573,6 +17609,18 @@ d3.2xlarge:
         Dedicated: 1.249
         Shared: 1.149
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.961
+        Shared: 1.816
+      ap-southeast-1:
+        Dedicated: 1.745
+        Shared: 1.62
+      ap-southeast-2:
+        Dedicated: 1.745
+        Shared: 1.62
+      eu-central-1:
+        Dedicated: 1.816
+        Shared: 1.684
       eu-west-1:
         Dedicated: 1.708
         Shared: 1.587
@@ -17586,10 +17634,14 @@ d3.2xlarge:
         Dedicated: 1.467
         Shared: 1.367
   regions:
+    - ap-northeast-1
     - us-west-2
     - eu-west-1
+    - ap-southeast-2
+    - ap-southeast-1
     - us-east-1
     - us-east-2
+    - eu-central-1
   storage: 6 x 2000 HDD
   vcpu: 8
 d3.4xlarge:
@@ -17603,6 +17655,18 @@ d3.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 3.186
+        Shared: 2.897
+      ap-southeast-1:
+        Dedicated: 2.754
+        Shared: 2.504
+      ap-southeast-2:
+        Dedicated: 2.754
+        Shared: 2.504
+      eu-central-1:
+        Dedicated: 2.895
+        Shared: 2.632
       eu-west-1:
         Dedicated: 2.681
         Shared: 2.437
@@ -17616,6 +17680,18 @@ d3.4xlarge:
         Dedicated: 2.198
         Shared: 1.998
     RHEL:
+      ap-northeast-1:
+        Dedicated: 3.316
+        Shared: 3.027
+      ap-southeast-1:
+        Dedicated: 2.884
+        Shared: 2.634
+      ap-southeast-2:
+        Dedicated: 2.884
+        Shared: 2.634
+      eu-central-1:
+        Dedicated: 3.025
+        Shared: 2.762
       eu-west-1:
         Dedicated: 2.811
         Shared: 2.567
@@ -17629,6 +17705,18 @@ d3.4xlarge:
         Dedicated: 2.328
         Shared: 2.128
     SUSE:
+      ap-northeast-1:
+        Dedicated: 3.336
+        Shared: 3.047
+      ap-southeast-1:
+        Dedicated: 2.904
+        Shared: 2.654
+      ap-southeast-2:
+        Dedicated: 2.904
+        Shared: 2.654
+      eu-central-1:
+        Dedicated: 3.045
+        Shared: 2.782
       eu-west-1:
         Dedicated: 2.831
         Shared: 2.587
@@ -17642,6 +17730,18 @@ d3.4xlarge:
         Dedicated: 2.348
         Shared: 2.148
     Windows:
+      ap-northeast-1:
+        Dedicated: 3.922
+        Shared: 3.633
+      ap-southeast-1:
+        Dedicated: 3.49
+        Shared: 3.24
+      ap-southeast-2:
+        Dedicated: 3.49
+        Shared: 3.24
+      eu-central-1:
+        Dedicated: 3.631
+        Shared: 3.368
       eu-west-1:
         Dedicated: 3.417
         Shared: 3.173
@@ -17655,10 +17755,14 @@ d3.4xlarge:
         Dedicated: 2.934
         Shared: 2.734
   regions:
+    - ap-northeast-1
+    - ap-southeast-2
     - us-east-2
     - us-east-1
     - us-west-2
     - eu-west-1
+    - ap-southeast-1
+    - eu-central-1
   storage: 12 x 2000 HDD
   vcpu: 16
 d3.8xlarge:
@@ -17672,6 +17776,18 @@ d3.8xlarge:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 6.37278
+        Shared: 5.79344
+      ap-southeast-1:
+        Dedicated: 5.50889
+        Shared: 5.00808
+      ap-southeast-2:
+        Dedicated: 5.50889
+        Shared: 5.00808
+      eu-central-1:
+        Dedicated: 5.79093
+        Shared: 5.26448
       eu-west-1:
         Dedicated: 5.36193
         Shared: 4.87448
@@ -17685,6 +17801,18 @@ d3.8xlarge:
         Dedicated: 4.39507
         Shared: 3.99552
     RHEL:
+      ap-northeast-1:
+        Dedicated: 6.50278
+        Shared: 5.92344
+      ap-southeast-1:
+        Dedicated: 5.63889
+        Shared: 5.13808
+      ap-southeast-2:
+        Dedicated: 5.63889
+        Shared: 5.13808
+      eu-central-1:
+        Dedicated: 5.92093
+        Shared: 5.39448
       eu-west-1:
         Dedicated: 5.49193
         Shared: 5.00448
@@ -17698,6 +17826,18 @@ d3.8xlarge:
         Dedicated: 4.52507
         Shared: 4.12552
     SUSE:
+      ap-northeast-1:
+        Dedicated: 6.52278
+        Shared: 5.94344
+      ap-southeast-1:
+        Dedicated: 5.65889
+        Shared: 5.15808
+      ap-southeast-2:
+        Dedicated: 5.65889
+        Shared: 5.15808
+      eu-central-1:
+        Dedicated: 5.94093
+        Shared: 5.41448
       eu-west-1:
         Dedicated: 5.51193
         Shared: 5.02448
@@ -17711,6 +17851,18 @@ d3.8xlarge:
         Dedicated: 4.54507
         Shared: 4.14552
     Windows:
+      ap-northeast-1:
+        Dedicated: 7.84478
+        Shared: 7.26544
+      ap-southeast-1:
+        Dedicated: 6.98089
+        Shared: 6.48008
+      ap-southeast-2:
+        Dedicated: 6.98089
+        Shared: 6.48008
+      eu-central-1:
+        Dedicated: 7.26293
+        Shared: 6.73648
       eu-west-1:
         Dedicated: 6.83393
         Shared: 6.34648
@@ -17724,9 +17876,13 @@ d3.8xlarge:
         Dedicated: 5.86707
         Shared: 5.46752
   regions:
+    - ap-southeast-2
     - us-east-2
     - eu-west-1
+    - ap-southeast-1
+    - ap-northeast-1
     - us-west-2
+    - eu-central-1
     - us-east-1
   storage: 24 x 2000 HDD
   vcpu: 32
@@ -17741,6 +17897,18 @@ d3.xlarge:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.797
+        Shared: 0.724
+      ap-southeast-1:
+        Dedicated: 0.689
+        Shared: 0.626
+      ap-southeast-2:
+        Dedicated: 0.689
+        Shared: 0.626
+      eu-central-1:
+        Dedicated: 0.724
+        Shared: 0.658
       eu-west-1:
         Dedicated: 0.67
         Shared: 0.609
@@ -17754,6 +17922,18 @@ d3.xlarge:
         Dedicated: 0.549
         Shared: 0.499
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.857
+        Shared: 0.784
+      ap-southeast-1:
+        Dedicated: 0.749
+        Shared: 0.686
+      ap-southeast-2:
+        Dedicated: 0.749
+        Shared: 0.686
+      eu-central-1:
+        Dedicated: 0.784
+        Shared: 0.718
       eu-west-1:
         Dedicated: 0.73
         Shared: 0.669
@@ -17767,6 +17947,18 @@ d3.xlarge:
         Dedicated: 0.609
         Shared: 0.559
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.922
+        Shared: 0.849
+      ap-southeast-1:
+        Dedicated: 0.814
+        Shared: 0.751
+      ap-southeast-2:
+        Dedicated: 0.814
+        Shared: 0.751
+      eu-central-1:
+        Dedicated: 0.849
+        Shared: 0.783
       eu-west-1:
         Dedicated: 0.795
         Shared: 0.734
@@ -17780,6 +17972,18 @@ d3.xlarge:
         Dedicated: 0.674
         Shared: 0.624
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.981
+        Shared: 0.908
+      ap-southeast-1:
+        Dedicated: 0.873
+        Shared: 0.81
+      ap-southeast-2:
+        Dedicated: 0.873
+        Shared: 0.81
+      eu-central-1:
+        Dedicated: 0.908
+        Shared: 0.842
       eu-west-1:
         Dedicated: 0.854
         Shared: 0.793
@@ -17793,10 +17997,14 @@ d3.xlarge:
         Dedicated: 0.733
         Shared: 0.683
   regions:
+    - ap-southeast-2
     - us-east-2
     - us-west-2
     - eu-west-1
+    - eu-central-1
     - us-east-1
+    - ap-northeast-1
+    - ap-southeast-1
   storage: 3 x 2000 HDD
   vcpu: 4
 d3en.12xlarge:
@@ -69611,8 +69819,14 @@ t3a.nano:
         Shared: 0.0076
       us-east-1:
         Shared: 0.0047
+      us-east-2:
+        Shared: 0.0047
       us-gov-east-1:
         Shared: 0.0055
+      us-west-1:
+        Shared: 0.0056
+      us-west-2:
+        Shared: 0.0047
     Windows:
       ap-northeast-1:
         Shared: 0.0107
@@ -69654,13 +69868,13 @@ t3a.nano:
     - ap-south-1
     - eu-west-1
     - AWS GovCloud (US-West)
+    - us-east-2
     - eu-west-3
     - us-gov-east-1
     - us-west-2
     - us-west-1
     - ap-southeast-2
     - ca-central-1
-    - us-east-2
     - us-east-1
     - eu-west-2
     - eu-central-1
