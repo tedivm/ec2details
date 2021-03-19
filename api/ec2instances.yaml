@@ -47664,36 +47664,51 @@ p4d.24xlarge:
   prices:
     Linux:
       ap-northeast-1:
+        Dedicated: 49.414365
         Shared: 44.92215
       eu-west-1:
+        Dedicated: 38.936205
         Shared: 35.39655
       us-east-1:
+        Dedicated: 36.04986
         Shared: 32.7726
       us-east-2:
+        Dedicated: 36.04986
         Shared: 32.7726
       us-west-2:
+        Dedicated: 36.04986
         Shared: 32.7726
     RHEL:
       ap-northeast-1:
+        Dedicated: 49.544365
         Shared: 45.05215
       eu-west-1:
+        Dedicated: 39.066205
         Shared: 35.52655
       us-east-1:
+        Dedicated: 36.17986
         Shared: 32.9026
       us-east-2:
+        Dedicated: 36.17986
         Shared: 32.9026
       us-west-2:
+        Dedicated: 36.17986
         Shared: 32.9026
     SUSE:
       ap-northeast-1:
+        Dedicated: 49.564365
         Shared: 45.07215
       eu-west-1:
+        Dedicated: 39.086205
         Shared: 35.54655
       us-east-1:
+        Dedicated: 36.19986
         Shared: 32.9226
       us-east-2:
+        Dedicated: 36.19986
         Shared: 32.9226
       us-west-2:
+        Dedicated: 36.19986
         Shared: 32.9226
   regions:
     - ap-northeast-1
