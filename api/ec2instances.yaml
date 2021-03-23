@@ -40965,6 +40965,9 @@ m5dn.12xlarge:
       us-east-2:
         Dedicated: 3.462
         Shared: 3.264
+      us-gov-east-1:
+        Dedicated: 4.35
+        Shared: 4.104
       us-west-2:
         Dedicated: 3.462
         Shared: 3.264
@@ -40990,6 +40993,9 @@ m5dn.12xlarge:
       us-east-2:
         Dedicated: 3.592
         Shared: 3.394
+      us-gov-east-1:
+        Dedicated: 4.48
+        Shared: 4.234
       us-west-2:
         Dedicated: 3.592
         Shared: 3.394
@@ -40998,6 +41004,9 @@ m5dn.12xlarge:
         Dedicated: 4.631
         Shared: 4.35
       AWS GovCloud (US-West):
+        Dedicated: 4.5
+        Shared: 4.254
+      us-gov-east-1:
         Dedicated: 4.5
         Shared: 4.254
     Windows:
@@ -41022,6 +41031,9 @@ m5dn.12xlarge:
       us-east-2:
         Dedicated: 5.67
         Shared: 5.472
+      us-gov-east-1:
+        Dedicated: 6.558
+        Shared: 6.312
       us-west-2:
         Dedicated: 5.67
         Shared: 5.472
@@ -41034,6 +41046,7 @@ m5dn.12xlarge:
     - us-east-2
     - eu-west-1
     - AWS GovCloud (US-West)
+    - us-gov-east-1
   storage: 2 x 900 GB NVMe SSD
   vcpu: 48
 m5dn.16xlarge:
@@ -41068,6 +41081,9 @@ m5dn.16xlarge:
       us-east-2:
         Dedicated: 4.616
         Shared: 4.352
+      us-gov-east-1:
+        Dedicated: 5.8
+        Shared: 5.472
       us-west-2:
         Dedicated: 4.616
         Shared: 4.352
@@ -41093,6 +41109,9 @@ m5dn.16xlarge:
       us-east-2:
         Dedicated: 4.746
         Shared: 4.482
+      us-gov-east-1:
+        Dedicated: 5.93
+        Shared: 5.602
       us-west-2:
         Dedicated: 4.746
         Shared: 4.482
@@ -41101,6 +41120,9 @@ m5dn.16xlarge:
         Dedicated: 6.124
         Shared: 5.75
       AWS GovCloud (US-West):
+        Dedicated: 5.95
+        Shared: 5.622
+      us-gov-east-1:
         Dedicated: 5.95
         Shared: 5.622
     Windows:
@@ -41125,10 +41147,14 @@ m5dn.16xlarge:
       us-east-2:
         Dedicated: 7.56
         Shared: 7.296
+      us-gov-east-1:
+        Dedicated: 8.744
+        Shared: 8.416
       us-west-2:
         Dedicated: 7.56
         Shared: 7.296
   regions:
+    - us-gov-east-1
     - us-east-2
     - ap-southeast-1
     - us-east-1
@@ -41171,6 +41197,9 @@ m5dn.24xlarge:
       us-east-2:
         Dedicated: 6.528
         Shared: 6.528
+      us-gov-east-1:
+        Dedicated: 8.208
+        Shared: 8.208
       us-west-2:
         Dedicated: 6.528
         Shared: 6.528
@@ -41196,6 +41225,9 @@ m5dn.24xlarge:
       us-east-2:
         Dedicated: 6.658
         Shared: 6.658
+      us-gov-east-1:
+        Dedicated: 8.338
+        Shared: 8.338
       us-west-2:
         Dedicated: 6.658
         Shared: 6.658
@@ -41204,6 +41236,9 @@ m5dn.24xlarge:
         Dedicated: 8.55
         Shared: 8.55
       AWS GovCloud (US-West):
+        Dedicated: 8.358
+        Shared: 8.358
+      us-gov-east-1:
         Dedicated: 8.358
         Shared: 8.358
     Windows:
@@ -41228,12 +41263,16 @@ m5dn.24xlarge:
       us-east-2:
         Dedicated: 10.944
         Shared: 10.944
+      us-gov-east-1:
+        Dedicated: 12.624
+        Shared: 12.624
       us-west-2:
         Dedicated: 10.944
         Shared: 10.944
   regions:
     - ap-northeast-1
     - us-east-1
+    - us-gov-east-1
     - eu-central-1
     - AWS GovCloud (US-West)
     - eu-west-1
@@ -41274,6 +41313,9 @@ m5dn.2xlarge:
       us-east-2:
         Dedicated: 0.577
         Shared: 0.544
+      us-gov-east-1:
+        Dedicated: 0.725
+        Shared: 0.684
       us-west-2:
         Dedicated: 0.577
         Shared: 0.544
@@ -41299,6 +41341,9 @@ m5dn.2xlarge:
       us-east-2:
         Dedicated: 0.707
         Shared: 0.674
+      us-gov-east-1:
+        Dedicated: 0.855
+        Shared: 0.814
       us-west-2:
         Dedicated: 0.707
         Shared: 0.674
@@ -41307,6 +41352,9 @@ m5dn.2xlarge:
         Dedicated: 0.897
         Shared: 0.85
       AWS GovCloud (US-West):
+        Dedicated: 0.875
+        Shared: 0.834
+      us-gov-east-1:
         Dedicated: 0.875
         Shared: 0.834
     Windows:
@@ -41331,6 +41379,9 @@ m5dn.2xlarge:
       us-east-2:
         Dedicated: 0.945
         Shared: 0.912
+      us-gov-east-1:
+        Dedicated: 1.093
+        Shared: 1.052
       us-west-2:
         Dedicated: 0.945
         Shared: 0.912
@@ -41340,6 +41391,7 @@ m5dn.2xlarge:
     - us-east-1
     - eu-west-1
     - eu-central-1
+    - us-gov-east-1
     - ap-southeast-1
     - ap-northeast-1
     - us-east-2
@@ -41377,6 +41429,9 @@ m5dn.4xlarge:
       us-east-2:
         Dedicated: 1.154
         Shared: 1.088
+      us-gov-east-1:
+        Dedicated: 1.45
+        Shared: 1.368
       us-west-2:
         Dedicated: 1.154
         Shared: 1.088
@@ -41402,6 +41457,9 @@ m5dn.4xlarge:
       us-east-2:
         Dedicated: 1.284
         Shared: 1.218
+      us-gov-east-1:
+        Dedicated: 1.58
+        Shared: 1.498
       us-west-2:
         Dedicated: 1.284
         Shared: 1.218
@@ -41410,6 +41468,9 @@ m5dn.4xlarge:
         Dedicated: 1.644
         Shared: 1.55
       AWS GovCloud (US-West):
+        Dedicated: 1.6
+        Shared: 1.518
+      us-gov-east-1:
         Dedicated: 1.6
         Shared: 1.518
     Windows:
@@ -41434,6 +41495,9 @@ m5dn.4xlarge:
       us-east-2:
         Dedicated: 1.89
         Shared: 1.824
+      us-gov-east-1:
+        Dedicated: 2.186
+        Shared: 2.104
       us-west-2:
         Dedicated: 1.89
         Shared: 1.824
@@ -41443,6 +41507,7 @@ m5dn.4xlarge:
     - ap-northeast-1
     - ap-southeast-1
     - eu-west-1
+    - us-gov-east-1
     - eu-central-1
     - us-east-1
     - AWS GovCloud (US-West)
@@ -41480,6 +41545,9 @@ m5dn.8xlarge:
       us-east-2:
         Dedicated: 2.308
         Shared: 2.176
+      us-gov-east-1:
+        Dedicated: 2.9
+        Shared: 2.736
       us-west-2:
         Dedicated: 2.308
         Shared: 2.176
@@ -41505,6 +41573,9 @@ m5dn.8xlarge:
       us-east-2:
         Dedicated: 2.438
         Shared: 2.306
+      us-gov-east-1:
+        Dedicated: 3.03
+        Shared: 2.866
       us-west-2:
         Dedicated: 2.438
         Shared: 2.306
@@ -41513,6 +41584,9 @@ m5dn.8xlarge:
         Dedicated: 3.137
         Shared: 2.95
       AWS GovCloud (US-West):
+        Dedicated: 3.05
+        Shared: 2.886
+      us-gov-east-1:
         Dedicated: 3.05
         Shared: 2.886
     Windows:
@@ -41537,6 +41611,9 @@ m5dn.8xlarge:
       us-east-2:
         Dedicated: 3.78
         Shared: 3.648
+      us-gov-east-1:
+        Dedicated: 4.372
+        Shared: 4.208
       us-west-2:
         Dedicated: 3.78
         Shared: 3.648
@@ -41545,6 +41622,7 @@ m5dn.8xlarge:
     - ap-northeast-1
     - us-east-2
     - us-west-2
+    - us-gov-east-1
     - eu-west-1
     - us-east-1
     - eu-central-1
@@ -41583,6 +41661,9 @@ m5dn.large:
       us-east-2:
         Dedicated: 0.144
         Shared: 0.136
+      us-gov-east-1:
+        Dedicated: 0.181
+        Shared: 0.171
       us-west-2:
         Dedicated: 0.144
         Shared: 0.136
@@ -41608,6 +41689,9 @@ m5dn.large:
       us-east-2:
         Dedicated: 0.204
         Shared: 0.196
+      us-gov-east-1:
+        Dedicated: 0.241
+        Shared: 0.231
       us-west-2:
         Dedicated: 0.204
         Shared: 0.196
@@ -41616,6 +41700,9 @@ m5dn.large:
         Dedicated: 0.25
         Shared: 0.238
       AWS GovCloud (US-West):
+        Dedicated: 0.244
+        Shared: 0.234
+      us-gov-east-1:
         Dedicated: 0.244
         Shared: 0.234
     Windows:
@@ -41640,10 +41727,14 @@ m5dn.large:
       us-east-2:
         Dedicated: 0.236
         Shared: 0.228
+      us-gov-east-1:
+        Dedicated: 0.273
+        Shared: 0.263
       us-west-2:
         Dedicated: 0.236
         Shared: 0.228
   regions:
+    - us-gov-east-1
     - ap-northeast-1
     - us-west-2
     - AWS GovCloud (US-West)
@@ -41686,6 +41777,9 @@ m5dn.metal:
       us-east-2:
         Dedicated: 6.528
         Shared: 6.528
+      us-gov-east-1:
+        Dedicated: 8.208
+        Shared: 8.208
       us-west-2:
         Dedicated: 6.528
         Shared: 6.528
@@ -41711,6 +41805,9 @@ m5dn.metal:
       us-east-2:
         Dedicated: 6.658
         Shared: 6.658
+      us-gov-east-1:
+        Dedicated: 8.338
+        Shared: 8.338
       us-west-2:
         Dedicated: 6.658
         Shared: 6.658
@@ -41736,6 +41833,9 @@ m5dn.metal:
       us-east-2:
         Dedicated: 6.678
         Shared: 6.678
+      us-gov-east-1:
+        Dedicated: 8.358
+        Shared: 8.358
       us-west-2:
         Dedicated: 6.678
         Shared: 6.678
@@ -41761,12 +41861,16 @@ m5dn.metal:
       us-east-2:
         Dedicated: 10.944
         Shared: 10.944
+      us-gov-east-1:
+        Dedicated: 12.624
+        Shared: 12.624
       us-west-2:
         Dedicated: 10.944
         Shared: 10.944
   regions:
     - ap-northeast-1
     - AWS GovCloud (US-West)
+    - us-gov-east-1
     - eu-central-1
     - eu-west-1
     - us-east-1
@@ -41807,6 +41911,9 @@ m5dn.xlarge:
       us-east-2:
         Dedicated: 0.288
         Shared: 0.272
+      us-gov-east-1:
+        Dedicated: 0.363
+        Shared: 0.342
       us-west-2:
         Dedicated: 0.288
         Shared: 0.272
@@ -41832,6 +41939,9 @@ m5dn.xlarge:
       us-east-2:
         Dedicated: 0.348
         Shared: 0.332
+      us-gov-east-1:
+        Dedicated: 0.423
+        Shared: 0.402
       us-west-2:
         Dedicated: 0.348
         Shared: 0.332
@@ -41840,6 +41950,9 @@ m5dn.xlarge:
         Dedicated: 0.498
         Shared: 0.475
       AWS GovCloud (US-West):
+        Dedicated: 0.488
+        Shared: 0.467
+      us-gov-east-1:
         Dedicated: 0.488
         Shared: 0.467
     Windows:
@@ -41864,10 +41977,14 @@ m5dn.xlarge:
       us-east-2:
         Dedicated: 0.472
         Shared: 0.456
+      us-gov-east-1:
+        Dedicated: 0.547
+        Shared: 0.526
       us-west-2:
         Dedicated: 0.472
         Shared: 0.456
   regions:
+    - us-gov-east-1
     - AWS GovCloud (US-West)
     - ap-southeast-1
     - ap-northeast-1
@@ -41910,6 +42027,9 @@ m5n.12xlarge:
       us-east-2:
         Dedicated: 3.029
         Shared: 2.856
+      us-gov-east-1:
+        Dedicated: 3.791
+        Shared: 3.576
       us-west-2:
         Dedicated: 3.029
         Shared: 2.856
@@ -41935,6 +42055,9 @@ m5n.12xlarge:
       us-east-2:
         Dedicated: 3.159
         Shared: 2.986
+      us-gov-east-1:
+        Dedicated: 3.921
+        Shared: 3.706
       us-west-2:
         Dedicated: 3.159
         Shared: 2.986
@@ -41943,6 +42066,9 @@ m5n.12xlarge:
         Dedicated: 4.067
         Shared: 3.822
       AWS GovCloud (US-West):
+        Dedicated: 3.941
+        Shared: 3.726
+      us-gov-east-1:
         Dedicated: 3.941
         Shared: 3.726
     Windows:
@@ -41967,6 +42093,9 @@ m5n.12xlarge:
       us-east-2:
         Dedicated: 5.237
         Shared: 5.064
+      us-gov-east-1:
+        Dedicated: 5.999
+        Shared: 5.784
       us-west-2:
         Dedicated: 5.237
         Shared: 5.064
@@ -41976,6 +42105,7 @@ m5n.12xlarge:
     - AWS GovCloud (US-West)
     - us-west-2
     - us-east-1
+    - us-gov-east-1
     - us-east-2
     - eu-west-1
     - eu-central-1
@@ -42013,6 +42143,9 @@ m5n.16xlarge:
       us-east-2:
         Dedicated: 4.038
         Shared: 3.808
+      us-gov-east-1:
+        Dedicated: 5.054
+        Shared: 4.768
       us-west-2:
         Dedicated: 4.038
         Shared: 3.808
@@ -42038,6 +42171,9 @@ m5n.16xlarge:
       us-east-2:
         Dedicated: 4.168
         Shared: 3.938
+      us-gov-east-1:
+        Dedicated: 5.184
+        Shared: 4.898
       us-west-2:
         Dedicated: 4.168
         Shared: 3.938
@@ -42046,6 +42182,9 @@ m5n.16xlarge:
         Dedicated: 5.372
         Shared: 5.046
       AWS GovCloud (US-West):
+        Dedicated: 5.204
+        Shared: 4.918
+      us-gov-east-1:
         Dedicated: 5.204
         Shared: 4.918
     Windows:
@@ -42070,6 +42209,9 @@ m5n.16xlarge:
       us-east-2:
         Dedicated: 6.982
         Shared: 6.752
+      us-gov-east-1:
+        Dedicated: 7.998
+        Shared: 7.712
       us-west-2:
         Dedicated: 6.982
         Shared: 6.752
@@ -42077,6 +42219,7 @@ m5n.16xlarge:
     - eu-west-1
     - us-east-1
     - ap-southeast-1
+    - us-gov-east-1
     - ap-northeast-1
     - AWS GovCloud (US-West)
     - us-east-2
@@ -42116,6 +42259,9 @@ m5n.24xlarge:
       us-east-2:
         Dedicated: 5.712
         Shared: 5.712
+      us-gov-east-1:
+        Dedicated: 7.152
+        Shared: 7.152
       us-west-2:
         Dedicated: 5.712
         Shared: 5.712
@@ -42141,6 +42287,9 @@ m5n.24xlarge:
       us-east-2:
         Dedicated: 5.842
         Shared: 5.842
+      us-gov-east-1:
+        Dedicated: 7.282
+        Shared: 7.282
       us-west-2:
         Dedicated: 5.842
         Shared: 5.842
@@ -42149,6 +42298,9 @@ m5n.24xlarge:
         Dedicated: 7.494
         Shared: 7.494
       AWS GovCloud (US-West):
+        Dedicated: 7.302
+        Shared: 7.302
+      us-gov-east-1:
         Dedicated: 7.302
         Shared: 7.302
     Windows:
@@ -42173,6 +42325,9 @@ m5n.24xlarge:
       us-east-2:
         Dedicated: 10.128
         Shared: 10.128
+      us-gov-east-1:
+        Dedicated: 11.568
+        Shared: 11.568
       us-west-2:
         Dedicated: 10.128
         Shared: 10.128
@@ -42183,6 +42338,7 @@ m5n.24xlarge:
     - eu-central-1
     - eu-west-1
     - us-east-1
+    - us-gov-east-1
     - us-west-2
     - ap-northeast-1
   storage: EBS only
@@ -42219,6 +42375,9 @@ m5n.2xlarge:
       us-east-2:
         Dedicated: 0.505
         Shared: 0.476
+      us-gov-east-1:
+        Dedicated: 0.632
+        Shared: 0.596
       us-west-2:
         Dedicated: 0.505
         Shared: 0.476
@@ -42244,6 +42403,9 @@ m5n.2xlarge:
       us-east-2:
         Dedicated: 0.635
         Shared: 0.606
+      us-gov-east-1:
+        Dedicated: 0.762
+        Shared: 0.726
       us-west-2:
         Dedicated: 0.635
         Shared: 0.606
@@ -42252,6 +42414,9 @@ m5n.2xlarge:
         Dedicated: 0.803
         Shared: 0.762
       AWS GovCloud (US-West):
+        Dedicated: 0.782
+        Shared: 0.746
+      us-gov-east-1:
         Dedicated: 0.782
         Shared: 0.746
     Windows:
@@ -42276,10 +42441,14 @@ m5n.2xlarge:
       us-east-2:
         Dedicated: 0.873
         Shared: 0.844
+      us-gov-east-1:
+        Dedicated: 1
+        Shared: 0.964
       us-west-2:
         Dedicated: 0.873
         Shared: 0.844
   regions:
+    - us-gov-east-1
     - eu-central-1
     - eu-west-1
     - us-east-2
@@ -42322,6 +42491,9 @@ m5n.4xlarge:
       us-east-2:
         Dedicated: 1.01
         Shared: 0.952
+      us-gov-east-1:
+        Dedicated: 1.264
+        Shared: 1.192
       us-west-2:
         Dedicated: 1.01
         Shared: 0.952
@@ -42347,6 +42519,9 @@ m5n.4xlarge:
       us-east-2:
         Dedicated: 1.14
         Shared: 1.082
+      us-gov-east-1:
+        Dedicated: 1.394
+        Shared: 1.322
       us-west-2:
         Dedicated: 1.14
         Shared: 1.082
@@ -42355,6 +42530,9 @@ m5n.4xlarge:
         Dedicated: 1.456
         Shared: 1.374
       AWS GovCloud (US-West):
+        Dedicated: 1.414
+        Shared: 1.342
+      us-gov-east-1:
         Dedicated: 1.414
         Shared: 1.342
     Windows:
@@ -42379,11 +42557,15 @@ m5n.4xlarge:
       us-east-2:
         Dedicated: 1.746
         Shared: 1.688
+      us-gov-east-1:
+        Dedicated: 2
+        Shared: 1.928
       us-west-2:
         Dedicated: 1.746
         Shared: 1.688
   regions:
     - ap-northeast-1
+    - us-gov-east-1
     - eu-central-1
     - eu-west-1
     - us-east-1
@@ -42425,6 +42607,9 @@ m5n.8xlarge:
       us-east-2:
         Dedicated: 2.019
         Shared: 1.904
+      us-gov-east-1:
+        Dedicated: 2.527
+        Shared: 2.384
       us-west-2:
         Dedicated: 2.019
         Shared: 1.904
@@ -42450,6 +42635,9 @@ m5n.8xlarge:
       us-east-2:
         Dedicated: 2.149
         Shared: 2.034
+      us-gov-east-1:
+        Dedicated: 2.657
+        Shared: 2.514
       us-west-2:
         Dedicated: 2.149
         Shared: 2.034
@@ -42458,6 +42646,9 @@ m5n.8xlarge:
         Dedicated: 2.761
         Shared: 2.598
       AWS GovCloud (US-West):
+        Dedicated: 2.677
+        Shared: 2.534
+      us-gov-east-1:
         Dedicated: 2.677
         Shared: 2.534
     Windows:
@@ -42482,6 +42673,9 @@ m5n.8xlarge:
       us-east-2:
         Dedicated: 3.491
         Shared: 3.376
+      us-gov-east-1:
+        Dedicated: 3.999
+        Shared: 3.856
       us-west-2:
         Dedicated: 3.491
         Shared: 3.376
@@ -42489,6 +42683,7 @@ m5n.8xlarge:
     - eu-west-1
     - us-east-2
     - us-east-1
+    - us-gov-east-1
     - eu-central-1
     - us-west-2
     - AWS GovCloud (US-West)
@@ -42528,6 +42723,9 @@ m5n.large:
       us-east-2:
         Dedicated: 0.126
         Shared: 0.119
+      us-gov-east-1:
+        Dedicated: 0.158
+        Shared: 0.149
       us-west-2:
         Dedicated: 0.126
         Shared: 0.119
@@ -42553,6 +42751,9 @@ m5n.large:
       us-east-2:
         Dedicated: 0.186
         Shared: 0.179
+      us-gov-east-1:
+        Dedicated: 0.218
+        Shared: 0.209
       us-west-2:
         Dedicated: 0.186
         Shared: 0.179
@@ -42561,6 +42762,9 @@ m5n.large:
         Dedicated: 0.226
         Shared: 0.216
       AWS GovCloud (US-West):
+        Dedicated: 0.221
+        Shared: 0.212
+      us-gov-east-1:
         Dedicated: 0.221
         Shared: 0.212
     Windows:
@@ -42585,6 +42789,9 @@ m5n.large:
       us-east-2:
         Dedicated: 0.218
         Shared: 0.211
+      us-gov-east-1:
+        Dedicated: 0.25
+        Shared: 0.241
       us-west-2:
         Dedicated: 0.218
         Shared: 0.211
@@ -42594,6 +42801,7 @@ m5n.large:
     - ap-southeast-1
     - us-west-2
     - AWS GovCloud (US-West)
+    - us-gov-east-1
     - ap-northeast-1
     - eu-west-1
     - eu-central-1
@@ -42631,6 +42839,9 @@ m5n.metal:
       us-east-2:
         Dedicated: 5.712
         Shared: 5.712
+      us-gov-east-1:
+        Dedicated: 7.152
+        Shared: 7.152
       us-west-2:
         Dedicated: 5.712
         Shared: 5.712
@@ -42656,6 +42867,9 @@ m5n.metal:
       us-east-2:
         Dedicated: 5.842
         Shared: 5.842
+      us-gov-east-1:
+        Dedicated: 7.282
+        Shared: 7.282
       us-west-2:
         Dedicated: 5.842
         Shared: 5.842
@@ -42681,6 +42895,9 @@ m5n.metal:
       us-east-2:
         Dedicated: 5.862
         Shared: 5.862
+      us-gov-east-1:
+        Dedicated: 7.302
+        Shared: 7.302
       us-west-2:
         Dedicated: 5.862
         Shared: 5.862
@@ -42706,6 +42923,9 @@ m5n.metal:
       us-east-2:
         Dedicated: 10.128
         Shared: 10.128
+      us-gov-east-1:
+        Dedicated: 11.568
+        Shared: 11.568
       us-west-2:
         Dedicated: 10.128
         Shared: 10.128
@@ -42716,6 +42936,7 @@ m5n.metal:
     - ap-northeast-1
     - us-east-1
     - AWS GovCloud (US-West)
+    - us-gov-east-1
     - us-east-2
     - ap-southeast-1
   storage: EBS only
@@ -42752,6 +42973,9 @@ m5n.xlarge:
       us-east-2:
         Dedicated: 0.252
         Shared: 0.238
+      us-gov-east-1:
+        Dedicated: 0.316
+        Shared: 0.298
       us-west-2:
         Dedicated: 0.252
         Shared: 0.238
@@ -42777,6 +43001,9 @@ m5n.xlarge:
       us-east-2:
         Dedicated: 0.312
         Shared: 0.298
+      us-gov-east-1:
+        Dedicated: 0.376
+        Shared: 0.358
       us-west-2:
         Dedicated: 0.312
         Shared: 0.298
@@ -42785,6 +43012,9 @@ m5n.xlarge:
         Dedicated: 0.451
         Shared: 0.431
       AWS GovCloud (US-West):
+        Dedicated: 0.441
+        Shared: 0.423
+      us-gov-east-1:
         Dedicated: 0.441
         Shared: 0.423
     Windows:
@@ -42809,6 +43039,9 @@ m5n.xlarge:
       us-east-2:
         Dedicated: 0.436
         Shared: 0.422
+      us-gov-east-1:
+        Dedicated: 0.5
+        Shared: 0.482
       us-west-2:
         Dedicated: 0.436
         Shared: 0.422
@@ -42818,6 +43051,7 @@ m5n.xlarge:
     - us-east-2
     - AWS GovCloud (US-West)
     - eu-west-1
+    - us-gov-east-1
     - us-east-1
     - ap-northeast-1
     - eu-central-1
@@ -60796,6 +61030,9 @@ r5dn.12xlarge:
       us-east-2:
         Dedicated: 4.249
         Shared: 4.008
+      us-gov-east-1:
+        Dedicated: 5.11344
+        Shared: 4.824
       us-west-2:
         Dedicated: 4.249
         Shared: 4.008
@@ -60821,6 +61058,9 @@ r5dn.12xlarge:
       us-east-2:
         Dedicated: 4.379
         Shared: 4.138
+      us-gov-east-1:
+        Dedicated: 5.24344
+        Shared: 4.954
       us-west-2:
         Dedicated: 4.379
         Shared: 4.138
@@ -60830,6 +61070,9 @@ r5dn.12xlarge:
         Shared: 5.022
       AWS GovCloud (US-West):
         Dedicated: 5.263
+        Shared: 4.974
+      us-gov-east-1:
+        Dedicated: 5.26344
         Shared: 4.974
     Windows:
       ap-northeast-1:
@@ -60853,12 +61096,16 @@ r5dn.12xlarge:
       us-east-2:
         Dedicated: 6.457
         Shared: 6.216
+      us-gov-east-1:
+        Dedicated: 7.32144
+        Shared: 7.032
       us-west-2:
         Dedicated: 6.457
         Shared: 6.216
   regions:
     - us-west-2
     - us-east-2
+    - us-gov-east-1
     - ap-southeast-1
     - eu-central-1
     - ap-northeast-1
@@ -60899,6 +61146,9 @@ r5dn.16xlarge:
       us-east-2:
         Dedicated: 5.665
         Shared: 5.344
+      us-gov-east-1:
+        Dedicated: 6.81792
+        Shared: 6.432
       us-west-2:
         Dedicated: 5.665
         Shared: 5.344
@@ -60924,6 +61174,9 @@ r5dn.16xlarge:
       us-east-2:
         Dedicated: 5.795
         Shared: 5.474
+      us-gov-east-1:
+        Dedicated: 6.94792
+        Shared: 6.562
       us-west-2:
         Dedicated: 5.795
         Shared: 5.474
@@ -60933,6 +61186,9 @@ r5dn.16xlarge:
         Shared: 6.646
       AWS GovCloud (US-West):
         Dedicated: 6.968
+        Shared: 6.582
+      us-gov-east-1:
+        Dedicated: 6.96792
         Shared: 6.582
     Windows:
       ap-northeast-1:
@@ -60956,6 +61212,9 @@ r5dn.16xlarge:
       us-east-2:
         Dedicated: 8.609
         Shared: 8.288
+      us-gov-east-1:
+        Dedicated: 9.76192
+        Shared: 9.376
       us-west-2:
         Dedicated: 8.609
         Shared: 8.288
@@ -60965,6 +61224,7 @@ r5dn.16xlarge:
     - us-east-1
     - AWS GovCloud (US-West)
     - us-east-2
+    - us-gov-east-1
     - ap-southeast-1
     - eu-central-1
     - eu-west-1
@@ -61002,6 +61262,9 @@ r5dn.24xlarge:
       us-east-2:
         Dedicated: 8.016
         Shared: 8.016
+      us-gov-east-1:
+        Dedicated: 9.648
+        Shared: 9.648
       us-west-2:
         Dedicated: 8.016
         Shared: 8.016
@@ -61027,6 +61290,9 @@ r5dn.24xlarge:
       us-east-2:
         Dedicated: 8.146
         Shared: 8.146
+      us-gov-east-1:
+        Dedicated: 9.778
+        Shared: 9.778
       us-west-2:
         Dedicated: 8.146
         Shared: 8.146
@@ -61035,6 +61301,9 @@ r5dn.24xlarge:
         Dedicated: 9.894
         Shared: 9.894
       AWS GovCloud (US-West):
+        Dedicated: 9.798
+        Shared: 9.798
+      us-gov-east-1:
         Dedicated: 9.798
         Shared: 9.798
     Windows:
@@ -61059,6 +61328,9 @@ r5dn.24xlarge:
       us-east-2:
         Dedicated: 12.432
         Shared: 12.432
+      us-gov-east-1:
+        Dedicated: 14.064
+        Shared: 14.064
       us-west-2:
         Dedicated: 12.432
         Shared: 12.432
@@ -61068,6 +61340,7 @@ r5dn.24xlarge:
     - ap-northeast-1
     - AWS GovCloud (US-West)
     - us-west-2
+    - us-gov-east-1
     - ap-southeast-1
     - us-east-1
     - eu-central-1
@@ -61105,6 +61378,9 @@ r5dn.2xlarge:
       us-east-2:
         Dedicated: 0.708
         Shared: 0.668
+      us-gov-east-1:
+        Dedicated: 0.85224
+        Shared: 0.804
       us-west-2:
         Dedicated: 0.708
         Shared: 0.668
@@ -61130,6 +61406,9 @@ r5dn.2xlarge:
       us-east-2:
         Dedicated: 0.838
         Shared: 0.798
+      us-gov-east-1:
+        Dedicated: 0.98224
+        Shared: 0.934
       us-west-2:
         Dedicated: 0.838
         Shared: 0.798
@@ -61139,6 +61418,9 @@ r5dn.2xlarge:
         Shared: 0.962
       AWS GovCloud (US-West):
         Dedicated: 1.002
+        Shared: 0.954
+      us-gov-east-1:
+        Dedicated: 1.00224
         Shared: 0.954
     Windows:
       ap-northeast-1:
@@ -61162,6 +61444,9 @@ r5dn.2xlarge:
       us-east-2:
         Dedicated: 1.076
         Shared: 1.036
+      us-gov-east-1:
+        Dedicated: 1.22024
+        Shared: 1.172
       us-west-2:
         Dedicated: 1.076
         Shared: 1.036
@@ -61171,6 +61456,7 @@ r5dn.2xlarge:
     - AWS GovCloud (US-West)
     - ap-southeast-1
     - ap-northeast-1
+    - us-gov-east-1
     - us-west-2
     - us-east-1
     - eu-west-1
@@ -61208,6 +61494,9 @@ r5dn.4xlarge:
       us-east-2:
         Dedicated: 1.416
         Shared: 1.336
+      us-gov-east-1:
+        Dedicated: 1.70448
+        Shared: 1.608
       us-west-2:
         Dedicated: 1.416
         Shared: 1.336
@@ -61233,6 +61522,9 @@ r5dn.4xlarge:
       us-east-2:
         Dedicated: 1.546
         Shared: 1.466
+      us-gov-east-1:
+        Dedicated: 1.83448
+        Shared: 1.738
       us-west-2:
         Dedicated: 1.546
         Shared: 1.466
@@ -61242,6 +61534,9 @@ r5dn.4xlarge:
         Shared: 1.774
       AWS GovCloud (US-West):
         Dedicated: 1.854
+        Shared: 1.758
+      us-gov-east-1:
+        Dedicated: 1.85448
         Shared: 1.758
     Windows:
       ap-northeast-1:
@@ -61265,11 +61560,15 @@ r5dn.4xlarge:
       us-east-2:
         Dedicated: 2.152
         Shared: 2.072
+      us-gov-east-1:
+        Dedicated: 2.44048
+        Shared: 2.344
       us-west-2:
         Dedicated: 2.152
         Shared: 2.072
   regions:
     - us-east-2
+    - us-gov-east-1
     - ap-northeast-1
     - ap-southeast-1
     - us-east-1
@@ -61311,6 +61610,9 @@ r5dn.8xlarge:
       us-east-2:
         Dedicated: 2.833
         Shared: 2.672
+      us-gov-east-1:
+        Dedicated: 3.40896
+        Shared: 3.216
       us-west-2:
         Dedicated: 2.833
         Shared: 2.672
@@ -61336,6 +61638,9 @@ r5dn.8xlarge:
       us-east-2:
         Dedicated: 2.963
         Shared: 2.802
+      us-gov-east-1:
+        Dedicated: 3.53896
+        Shared: 3.346
       us-west-2:
         Dedicated: 2.963
         Shared: 2.802
@@ -61345,6 +61650,9 @@ r5dn.8xlarge:
         Shared: 3.398
       AWS GovCloud (US-West):
         Dedicated: 3.559
+        Shared: 3.366
+      us-gov-east-1:
+        Dedicated: 3.55896
         Shared: 3.366
     Windows:
       ap-northeast-1:
@@ -61368,6 +61676,9 @@ r5dn.8xlarge:
       us-east-2:
         Dedicated: 4.305
         Shared: 4.144
+      us-gov-east-1:
+        Dedicated: 4.88096
+        Shared: 4.688
       us-west-2:
         Dedicated: 4.305
         Shared: 4.144
@@ -61380,6 +61691,7 @@ r5dn.8xlarge:
     - ap-southeast-1
     - eu-central-1
     - eu-west-1
+    - us-gov-east-1
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 r5dn.large:
@@ -61414,6 +61726,9 @@ r5dn.large:
       us-east-2:
         Dedicated: 0.177
         Shared: 0.167
+      us-gov-east-1:
+        Dedicated: 0.21306
+        Shared: 0.201
       us-west-2:
         Dedicated: 0.177
         Shared: 0.167
@@ -61439,6 +61754,9 @@ r5dn.large:
       us-east-2:
         Dedicated: 0.237
         Shared: 0.227
+      us-gov-east-1:
+        Dedicated: 0.27306
+        Shared: 0.261
       us-west-2:
         Dedicated: 0.237
         Shared: 0.227
@@ -61448,6 +61766,9 @@ r5dn.large:
         Shared: 0.266
       AWS GovCloud (US-West):
         Dedicated: 0.276
+        Shared: 0.264
+      us-gov-east-1:
+        Dedicated: 0.27606
         Shared: 0.264
     Windows:
       ap-northeast-1:
@@ -61471,12 +61792,16 @@ r5dn.large:
       us-east-2:
         Dedicated: 0.269
         Shared: 0.259
+      us-gov-east-1:
+        Dedicated: 0.30506
+        Shared: 0.293
       us-west-2:
         Dedicated: 0.269
         Shared: 0.259
   regions:
     - us-west-2
     - us-east-2
+    - us-gov-east-1
     - ap-southeast-1
     - eu-central-1
     - AWS GovCloud (US-West)
@@ -61517,6 +61842,9 @@ r5dn.metal:
       us-east-2:
         Dedicated: 8.016
         Shared: 8.016
+      us-gov-east-1:
+        Dedicated: 9.648
+        Shared: 9.648
       us-west-2:
         Dedicated: 8.016
         Shared: 8.016
@@ -61542,6 +61870,9 @@ r5dn.metal:
       us-east-2:
         Dedicated: 8.146
         Shared: 8.146
+      us-gov-east-1:
+        Dedicated: 9.778
+        Shared: 9.778
       us-west-2:
         Dedicated: 8.146
         Shared: 8.146
@@ -61567,6 +61898,9 @@ r5dn.metal:
       us-east-2:
         Dedicated: 8.166
         Shared: 8.166
+      us-gov-east-1:
+        Dedicated: 9.798
+        Shared: 9.798
       us-west-2:
         Dedicated: 8.166
         Shared: 8.166
@@ -61592,11 +61926,15 @@ r5dn.metal:
       us-east-2:
         Dedicated: 12.432
         Shared: 12.432
+      us-gov-east-1:
+        Dedicated: 14.064
+        Shared: 14.064
       us-west-2:
         Dedicated: 12.432
         Shared: 12.432
   regions:
     - us-east-1
+    - us-gov-east-1
     - AWS GovCloud (US-West)
     - ap-southeast-1
     - eu-west-1
@@ -61638,6 +61976,9 @@ r5dn.xlarge:
       us-east-2:
         Dedicated: 0.354
         Shared: 0.334
+      us-gov-east-1:
+        Dedicated: 0.42612
+        Shared: 0.402
       us-west-2:
         Dedicated: 0.354
         Shared: 0.334
@@ -61663,6 +62004,9 @@ r5dn.xlarge:
       us-east-2:
         Dedicated: 0.414
         Shared: 0.394
+      us-gov-east-1:
+        Dedicated: 0.48612
+        Shared: 0.462
       us-west-2:
         Dedicated: 0.414
         Shared: 0.394
@@ -61672,6 +62016,9 @@ r5dn.xlarge:
         Shared: 0.531
       AWS GovCloud (US-West):
         Dedicated: 0.551
+        Shared: 0.527
+      us-gov-east-1:
+        Dedicated: 0.55112
         Shared: 0.527
     Windows:
       ap-northeast-1:
@@ -61695,12 +62042,16 @@ r5dn.xlarge:
       us-east-2:
         Dedicated: 0.538
         Shared: 0.518
+      us-gov-east-1:
+        Dedicated: 0.61012
+        Shared: 0.586
       us-west-2:
         Dedicated: 0.538
         Shared: 0.518
   regions:
     - us-east-1
     - eu-west-1
+    - us-gov-east-1
     - AWS GovCloud (US-West)
     - ap-northeast-1
     - ap-southeast-1
@@ -61741,6 +62092,9 @@ r5n.12xlarge:
       us-east-2:
         Dedicated: 3.791
         Shared: 3.576
+      us-gov-east-1:
+        Dedicated: 4.554
+        Shared: 4.296
       us-west-2:
         Dedicated: 3.791
         Shared: 3.576
@@ -61766,6 +62120,9 @@ r5n.12xlarge:
       us-east-2:
         Dedicated: 3.921
         Shared: 3.706
+      us-gov-east-1:
+        Dedicated: 4.684
+        Shared: 4.426
       us-west-2:
         Dedicated: 3.921
         Shared: 3.706
@@ -61791,6 +62148,9 @@ r5n.12xlarge:
       us-east-2:
         Dedicated: 3.941
         Shared: 3.726
+      us-gov-east-1:
+        Dedicated: 4.704
+        Shared: 4.446
       us-west-2:
         Dedicated: 3.941
         Shared: 3.726
@@ -61816,6 +62176,9 @@ r5n.12xlarge:
       us-east-2:
         Dedicated: 5.999
         Shared: 5.784
+      us-gov-east-1:
+        Dedicated: 6.762
+        Shared: 6.504
       us-west-2:
         Dedicated: 5.999
         Shared: 5.784
@@ -61827,6 +62190,7 @@ r5n.12xlarge:
     - eu-central-1
     - us-east-1
     - ap-southeast-1
+    - us-gov-east-1
     - ap-northeast-1
   storage: EBS only
   vcpu: 48
@@ -61862,6 +62226,9 @@ r5n.16xlarge:
       us-east-2:
         Dedicated: 5.054
         Shared: 4.768
+      us-gov-east-1:
+        Dedicated: 6.072
+        Shared: 5.728
       us-west-2:
         Dedicated: 5.054
         Shared: 4.768
@@ -61887,6 +62254,9 @@ r5n.16xlarge:
       us-east-2:
         Dedicated: 5.184
         Shared: 4.898
+      us-gov-east-1:
+        Dedicated: 6.202
+        Shared: 5.858
       us-west-2:
         Dedicated: 5.184
         Shared: 4.898
@@ -61912,6 +62282,9 @@ r5n.16xlarge:
       us-east-2:
         Dedicated: 5.204
         Shared: 4.918
+      us-gov-east-1:
+        Dedicated: 6.222
+        Shared: 5.878
       us-west-2:
         Dedicated: 5.204
         Shared: 4.918
@@ -61937,6 +62310,9 @@ r5n.16xlarge:
       us-east-2:
         Dedicated: 7.998
         Shared: 7.712
+      us-gov-east-1:
+        Dedicated: 9.016
+        Shared: 8.672
       us-west-2:
         Dedicated: 7.998
         Shared: 7.712
@@ -61948,6 +62324,7 @@ r5n.16xlarge:
     - eu-west-1
     - eu-central-1
     - AWS GovCloud (US-West)
+    - us-gov-east-1
     - ap-northeast-1
   storage: EBS only
   vcpu: 64
@@ -61983,6 +62360,9 @@ r5n.24xlarge:
       us-east-2:
         Dedicated: 7.152
         Shared: 7.152
+      us-gov-east-1:
+        Dedicated: 8.592
+        Shared: 8.592
       us-west-2:
         Dedicated: 7.152
         Shared: 7.152
@@ -62008,6 +62388,9 @@ r5n.24xlarge:
       us-east-2:
         Dedicated: 7.282
         Shared: 7.282
+      us-gov-east-1:
+        Dedicated: 8.722
+        Shared: 8.722
       us-west-2:
         Dedicated: 7.282
         Shared: 7.282
@@ -62033,6 +62416,9 @@ r5n.24xlarge:
       us-east-2:
         Dedicated: 7.302
         Shared: 7.302
+      us-gov-east-1:
+        Dedicated: 8.742
+        Shared: 8.742
       us-west-2:
         Dedicated: 7.302
         Shared: 7.302
@@ -62058,6 +62444,9 @@ r5n.24xlarge:
       us-east-2:
         Dedicated: 11.568
         Shared: 11.568
+      us-gov-east-1:
+        Dedicated: 13.008
+        Shared: 13.008
       us-west-2:
         Dedicated: 11.568
         Shared: 11.568
@@ -62070,6 +62459,7 @@ r5n.24xlarge:
     - ap-southeast-1
     - AWS GovCloud (US-West)
     - us-west-2
+    - us-gov-east-1
   storage: EBS only
   vcpu: 96
 r5n.2xlarge:
@@ -62104,6 +62494,9 @@ r5n.2xlarge:
       us-east-2:
         Dedicated: 0.632
         Shared: 0.596
+      us-gov-east-1:
+        Dedicated: 0.759
+        Shared: 0.716
       us-west-2:
         Dedicated: 0.632
         Shared: 0.596
@@ -62129,6 +62522,9 @@ r5n.2xlarge:
       us-east-2:
         Dedicated: 0.762
         Shared: 0.726
+      us-gov-east-1:
+        Dedicated: 0.889
+        Shared: 0.846
       us-west-2:
         Dedicated: 0.762
         Shared: 0.726
@@ -62154,6 +62550,9 @@ r5n.2xlarge:
       us-east-2:
         Dedicated: 0.782
         Shared: 0.746
+      us-gov-east-1:
+        Dedicated: 0.909
+        Shared: 0.866
       us-west-2:
         Dedicated: 0.782
         Shared: 0.746
@@ -62179,6 +62578,9 @@ r5n.2xlarge:
       us-east-2:
         Dedicated: 1
         Shared: 0.964
+      us-gov-east-1:
+        Dedicated: 1.127
+        Shared: 1.084
       us-west-2:
         Dedicated: 1
         Shared: 0.964
@@ -62190,6 +62592,7 @@ r5n.2xlarge:
     - ap-northeast-1
     - us-east-2
     - us-west-2
+    - us-gov-east-1
     - ap-southeast-1
   storage: EBS only
   vcpu: 8
@@ -62225,6 +62628,9 @@ r5n.4xlarge:
       us-east-2:
         Dedicated: 1.264
         Shared: 1.192
+      us-gov-east-1:
+        Dedicated: 1.518
+        Shared: 1.432
       us-west-2:
         Dedicated: 1.264
         Shared: 1.192
@@ -62250,6 +62656,9 @@ r5n.4xlarge:
       us-east-2:
         Dedicated: 1.394
         Shared: 1.322
+      us-gov-east-1:
+        Dedicated: 1.648
+        Shared: 1.562
       us-west-2:
         Dedicated: 1.394
         Shared: 1.322
@@ -62275,6 +62684,9 @@ r5n.4xlarge:
       us-east-2:
         Dedicated: 1.414
         Shared: 1.342
+      us-gov-east-1:
+        Dedicated: 1.668
+        Shared: 1.582
       us-west-2:
         Dedicated: 1.414
         Shared: 1.342
@@ -62300,12 +62712,16 @@ r5n.4xlarge:
       us-east-2:
         Dedicated: 2
         Shared: 1.928
+      us-gov-east-1:
+        Dedicated: 2.254
+        Shared: 2.168
       us-west-2:
         Dedicated: 2
         Shared: 1.928
   regions:
     - AWS GovCloud (US-West)
     - eu-west-1
+    - us-gov-east-1
     - us-west-2
     - us-east-1
     - ap-southeast-1
@@ -62346,6 +62762,9 @@ r5n.8xlarge:
       us-east-2:
         Dedicated: 2.527
         Shared: 2.384
+      us-gov-east-1:
+        Dedicated: 3.036
+        Shared: 2.864
       us-west-2:
         Dedicated: 2.527
         Shared: 2.384
@@ -62371,6 +62790,9 @@ r5n.8xlarge:
       us-east-2:
         Dedicated: 2.657
         Shared: 2.514
+      us-gov-east-1:
+        Dedicated: 3.166
+        Shared: 2.994
       us-west-2:
         Dedicated: 2.657
         Shared: 2.514
@@ -62396,6 +62818,9 @@ r5n.8xlarge:
       us-east-2:
         Dedicated: 2.677
         Shared: 2.534
+      us-gov-east-1:
+        Dedicated: 3.186
+        Shared: 3.014
       us-west-2:
         Dedicated: 2.677
         Shared: 2.534
@@ -62421,6 +62846,9 @@ r5n.8xlarge:
       us-east-2:
         Dedicated: 3.999
         Shared: 3.856
+      us-gov-east-1:
+        Dedicated: 4.508
+        Shared: 4.336
       us-west-2:
         Dedicated: 3.999
         Shared: 3.856
@@ -62430,6 +62858,7 @@ r5n.8xlarge:
     - us-west-2
     - us-east-1
     - eu-central-1
+    - us-gov-east-1
     - AWS GovCloud (US-West)
     - us-east-2
     - ap-northeast-1
@@ -62467,6 +62896,9 @@ r5n.large:
       us-east-2:
         Dedicated: 0.158
         Shared: 0.149
+      us-gov-east-1:
+        Dedicated: 0.19
+        Shared: 0.179
       us-west-2:
         Dedicated: 0.158
         Shared: 0.149
@@ -62492,6 +62924,9 @@ r5n.large:
       us-east-2:
         Dedicated: 0.218
         Shared: 0.209
+      us-gov-east-1:
+        Dedicated: 0.25
+        Shared: 0.239
       us-west-2:
         Dedicated: 0.218
         Shared: 0.209
@@ -62517,6 +62952,9 @@ r5n.large:
       us-east-2:
         Dedicated: 0.221
         Shared: 0.212
+      us-gov-east-1:
+        Dedicated: 0.253
+        Shared: 0.242
       us-west-2:
         Dedicated: 0.221
         Shared: 0.212
@@ -62542,12 +62980,16 @@ r5n.large:
       us-east-2:
         Dedicated: 0.25
         Shared: 0.241
+      us-gov-east-1:
+        Dedicated: 0.282
+        Shared: 0.271
       us-west-2:
         Dedicated: 0.25
         Shared: 0.241
   regions:
     - AWS GovCloud (US-West)
     - us-west-2
+    - us-gov-east-1
     - us-east-2
     - ap-southeast-1
     - eu-west-1
@@ -62588,6 +63030,9 @@ r5n.metal:
       us-east-2:
         Dedicated: 7.152
         Shared: 7.152
+      us-gov-east-1:
+        Dedicated: 8.592
+        Shared: 8.592
       us-west-2:
         Dedicated: 7.152
         Shared: 7.152
@@ -62613,6 +63058,9 @@ r5n.metal:
       us-east-2:
         Dedicated: 7.282
         Shared: 7.282
+      us-gov-east-1:
+        Dedicated: 8.722
+        Shared: 8.722
       us-west-2:
         Dedicated: 7.282
         Shared: 7.282
@@ -62638,6 +63086,9 @@ r5n.metal:
       us-east-2:
         Dedicated: 7.302
         Shared: 7.302
+      us-gov-east-1:
+        Dedicated: 8.742
+        Shared: 8.742
       us-west-2:
         Dedicated: 7.302
         Shared: 7.302
@@ -62663,12 +63114,16 @@ r5n.metal:
       us-east-2:
         Dedicated: 11.568
         Shared: 11.568
+      us-gov-east-1:
+        Dedicated: 13.008
+        Shared: 13.008
       us-west-2:
         Dedicated: 11.568
         Shared: 11.568
   regions:
     - eu-west-1
     - AWS GovCloud (US-West)
+    - us-gov-east-1
     - eu-central-1
     - ap-northeast-1
     - us-east-2
@@ -62709,6 +63164,9 @@ r5n.xlarge:
       us-east-2:
         Dedicated: 0.316
         Shared: 0.298
+      us-gov-east-1:
+        Dedicated: 0.379
+        Shared: 0.358
       us-west-2:
         Dedicated: 0.316
         Shared: 0.298
@@ -62734,6 +63192,9 @@ r5n.xlarge:
       us-east-2:
         Dedicated: 0.376
         Shared: 0.358
+      us-gov-east-1:
+        Dedicated: 0.439
+        Shared: 0.418
       us-west-2:
         Dedicated: 0.376
         Shared: 0.358
@@ -62759,6 +63220,9 @@ r5n.xlarge:
       us-east-2:
         Dedicated: 0.441
         Shared: 0.423
+      us-gov-east-1:
+        Dedicated: 0.504
+        Shared: 0.483
       us-west-2:
         Dedicated: 0.441
         Shared: 0.423
@@ -62784,6 +63248,9 @@ r5n.xlarge:
       us-east-2:
         Dedicated: 0.5
         Shared: 0.482
+      us-gov-east-1:
+        Dedicated: 0.563
+        Shared: 0.542
       us-west-2:
         Dedicated: 0.5
         Shared: 0.482
@@ -62791,6 +63258,7 @@ r5n.xlarge:
     - ap-northeast-1
     - us-east-1
     - AWS GovCloud (US-West)
+    - us-gov-east-1
     - eu-west-1
     - eu-central-1
     - us-east-2
