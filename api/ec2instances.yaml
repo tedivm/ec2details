@@ -22339,7 +22339,7 @@ h1.8xlarge:
   storage: 4 x 2000 HDD
   vcpu: 32
 hs1.8xlarge:
-  clockSpeed: 2.0 GHz
+  clockSpeed: 2 GHz
   currentGeneration: false
   ecu: 35
   enhancedNetworkingSupported: false
@@ -73937,9 +73937,9 @@ x2gd.4xlarge:
         Shared: 1.486
   regions:
     - us-east-2
+    - us-west-2
     - us-east-1
     - eu-west-1
-    - us-west-2
   storage: 1 x 950 SSD
   vcpu: 16
 x2gd.8xlarge:
@@ -74049,9 +74049,9 @@ x2gd.large:
         Shared: 0.23
   regions:
     - us-east-2
+    - us-east-1
     - eu-west-1
     - us-west-2
-    - us-east-1
   storage: 1 x 118 SSD
   vcpu: 2
 x2gd.medium:
@@ -74216,10 +74216,10 @@ x2gd.xlarge:
         Dedicated: 0.4924
         Shared: 0.459
   regions:
+    - us-west-2
     - us-east-1
     - us-east-2
     - eu-west-1
-    - us-west-2
   storage: 1 x 237 SSD
   vcpu: 4
 z1d.12xlarge:
