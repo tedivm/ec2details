@@ -5880,6 +5880,9 @@ c5a.12xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 2.719
+        Shared: 2.472
       ap-east-1:
         Dedicated: 2.561
         Shared: 2.328
@@ -5904,6 +5907,9 @@ c5a.12xlarge:
       ca-central-1:
         Dedicated: 2.218
         Shared: 2.016
+      EU (Milan):
+        Dedicated: 2.402
+        Shared: 2.184
       eu-central-1:
         Dedicated: 2.297
         Shared: 2.088
@@ -5916,6 +5922,12 @@ c5a.12xlarge:
       eu-west-2:
         Dedicated: 2.402
         Shared: 2.184
+      eu-west-3:
+        Dedicated: 2.402
+        Shared: 2.184
+      me-south-1:
+        Dedicated: 2.508
+        Shared: 2.28
       sa-east-1:
         Dedicated: 3.115
         Shared: 2.832
@@ -5935,6 +5947,9 @@ c5a.12xlarge:
         Dedicated: 2.033
         Shared: 1.848
     RHEL:
+      af-south-1:
+        Dedicated: 2.849
+        Shared: 2.602
       ap-east-1:
         Dedicated: 2.691
         Shared: 2.458
@@ -5959,6 +5974,9 @@ c5a.12xlarge:
       ca-central-1:
         Dedicated: 2.348
         Shared: 2.146
+      EU (Milan):
+        Dedicated: 2.532
+        Shared: 2.314
       eu-central-1:
         Dedicated: 2.427
         Shared: 2.218
@@ -5971,6 +5989,12 @@ c5a.12xlarge:
       eu-west-2:
         Dedicated: 2.532
         Shared: 2.314
+      eu-west-3:
+        Dedicated: 2.532
+        Shared: 2.314
+      me-south-1:
+        Dedicated: 2.638
+        Shared: 2.41
       sa-east-1:
         Dedicated: 3.245
         Shared: 2.962
@@ -5990,6 +6014,9 @@ c5a.12xlarge:
         Dedicated: 2.163
         Shared: 1.978
     SUSE:
+      af-south-1:
+        Dedicated: 2.869
+        Shared: 2.622
       ap-east-1:
         Dedicated: 2.711
         Shared: 2.478
@@ -6014,6 +6041,9 @@ c5a.12xlarge:
       ca-central-1:
         Dedicated: 2.368
         Shared: 2.166
+      EU (Milan):
+        Dedicated: 2.552
+        Shared: 2.334
       eu-central-1:
         Dedicated: 2.447
         Shared: 2.238
@@ -6026,6 +6056,12 @@ c5a.12xlarge:
       eu-west-2:
         Dedicated: 2.552
         Shared: 2.334
+      eu-west-3:
+        Dedicated: 2.552
+        Shared: 2.334
+      me-south-1:
+        Dedicated: 2.658
+        Shared: 2.43
       sa-east-1:
         Dedicated: 3.265
         Shared: 2.982
@@ -6045,6 +6081,9 @@ c5a.12xlarge:
         Dedicated: 2.183
         Shared: 1.998
     Windows:
+      af-south-1:
+        Dedicated: 4.927
+        Shared: 4.68
       ap-east-1:
         Dedicated: 4.769
         Shared: 4.536
@@ -6069,6 +6108,9 @@ c5a.12xlarge:
       ca-central-1:
         Dedicated: 4.426
         Shared: 4.224
+      EU (Milan):
+        Dedicated: 4.61
+        Shared: 4.392
       eu-central-1:
         Dedicated: 4.505
         Shared: 4.296
@@ -6081,6 +6123,12 @@ c5a.12xlarge:
       eu-west-2:
         Dedicated: 4.61
         Shared: 4.392
+      eu-west-3:
+        Dedicated: 4.61
+        Shared: 4.392
+      me-south-1:
+        Dedicated: 4.716
+        Shared: 4.488
       sa-east-1:
         Dedicated: 5.323
         Shared: 5.04
@@ -6101,6 +6149,9 @@ c5a.12xlarge:
         Shared: 4.056
   regions:
     - ap-south-1
+    - me-south-1
+    - EU (Milan)
+    - eu-west-3
     - us-east-1
     - ca-central-1
     - us-gov-east-1
@@ -6110,6 +6161,7 @@ c5a.12xlarge:
     - ap-east-1
     - eu-west-2
     - ap-northeast-2
+    - af-south-1
     - sa-east-1
     - ap-southeast-2
     - ap-northeast-1
@@ -6131,6 +6183,9 @@ c5a.16xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 3.626
+        Shared: 3.296
       ap-east-1:
         Dedicated: 3.414
         Shared: 3.104
@@ -6155,6 +6210,9 @@ c5a.16xlarge:
       ca-central-1:
         Dedicated: 2.957
         Shared: 2.688
+      EU (Milan):
+        Dedicated: 3.203
+        Shared: 2.912
       eu-central-1:
         Dedicated: 3.062
         Shared: 2.784
@@ -6167,6 +6225,12 @@ c5a.16xlarge:
       eu-west-2:
         Dedicated: 3.203
         Shared: 2.912
+      eu-west-3:
+        Dedicated: 3.203
+        Shared: 2.912
+      me-south-1:
+        Dedicated: 3.344
+        Shared: 3.04
       sa-east-1:
         Dedicated: 4.154
         Shared: 3.776
@@ -6186,6 +6250,9 @@ c5a.16xlarge:
         Dedicated: 2.71
         Shared: 2.464
     RHEL:
+      af-south-1:
+        Dedicated: 3.756
+        Shared: 3.426
       ap-east-1:
         Dedicated: 3.544
         Shared: 3.234
@@ -6210,6 +6277,9 @@ c5a.16xlarge:
       ca-central-1:
         Dedicated: 3.087
         Shared: 2.818
+      EU (Milan):
+        Dedicated: 3.333
+        Shared: 3.042
       eu-central-1:
         Dedicated: 3.192
         Shared: 2.914
@@ -6222,6 +6292,12 @@ c5a.16xlarge:
       eu-west-2:
         Dedicated: 3.333
         Shared: 3.042
+      eu-west-3:
+        Dedicated: 3.333
+        Shared: 3.042
+      me-south-1:
+        Dedicated: 3.474
+        Shared: 3.17
       sa-east-1:
         Dedicated: 4.284
         Shared: 3.906
@@ -6241,6 +6317,9 @@ c5a.16xlarge:
         Dedicated: 2.84
         Shared: 2.594
     SUSE:
+      af-south-1:
+        Dedicated: 3.776
+        Shared: 3.446
       ap-east-1:
         Dedicated: 3.564
         Shared: 3.254
@@ -6265,6 +6344,9 @@ c5a.16xlarge:
       ca-central-1:
         Dedicated: 3.107
         Shared: 2.838
+      EU (Milan):
+        Dedicated: 3.353
+        Shared: 3.062
       eu-central-1:
         Dedicated: 3.212
         Shared: 2.934
@@ -6277,6 +6359,12 @@ c5a.16xlarge:
       eu-west-2:
         Dedicated: 3.353
         Shared: 3.062
+      eu-west-3:
+        Dedicated: 3.353
+        Shared: 3.062
+      me-south-1:
+        Dedicated: 3.494
+        Shared: 3.19
       sa-east-1:
         Dedicated: 4.304
         Shared: 3.926
@@ -6296,6 +6384,9 @@ c5a.16xlarge:
         Dedicated: 2.86
         Shared: 2.614
     Windows:
+      af-south-1:
+        Dedicated: 6.57
+        Shared: 6.24
       ap-east-1:
         Dedicated: 6.358
         Shared: 6.048
@@ -6320,6 +6411,9 @@ c5a.16xlarge:
       ca-central-1:
         Dedicated: 5.901
         Shared: 5.632
+      EU (Milan):
+        Dedicated: 6.147
+        Shared: 5.856
       eu-central-1:
         Dedicated: 6.006
         Shared: 5.728
@@ -6332,6 +6426,12 @@ c5a.16xlarge:
       eu-west-2:
         Dedicated: 6.147
         Shared: 5.856
+      eu-west-3:
+        Dedicated: 6.147
+        Shared: 5.856
+      me-south-1:
+        Dedicated: 6.288
+        Shared: 5.984
       sa-east-1:
         Dedicated: 7.098
         Shared: 6.72
@@ -6352,12 +6452,16 @@ c5a.16xlarge:
         Shared: 5.408
   regions:
     - ca-central-1
+    - eu-west-3
     - ap-northeast-1
     - sa-east-1
     - us-east-1
+    - me-south-1
     - eu-west-2
+    - EU (Milan)
     - AWS GovCloud (US-West)
     - ap-northeast-2
+    - af-south-1
     - ap-southeast-1
     - eu-north-1
     - us-west-2
@@ -6382,6 +6486,9 @@ c5a.24xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 5.438
+        Shared: 4.944
       ap-east-1:
         Dedicated: 5.122
         Shared: 4.656
@@ -6406,6 +6513,9 @@ c5a.24xlarge:
       ca-central-1:
         Dedicated: 4.435
         Shared: 4.032
+      EU (Milan):
+        Dedicated: 4.805
+        Shared: 4.368
       eu-central-1:
         Dedicated: 4.594
         Shared: 4.176
@@ -6418,6 +6528,12 @@ c5a.24xlarge:
       eu-west-2:
         Dedicated: 4.805
         Shared: 4.368
+      eu-west-3:
+        Dedicated: 4.805
+        Shared: 4.368
+      me-south-1:
+        Dedicated: 5.016
+        Shared: 4.56
       sa-east-1:
         Dedicated: 6.23
         Shared: 5.664
@@ -6437,6 +6553,9 @@ c5a.24xlarge:
         Dedicated: 4.066
         Shared: 3.696
     RHEL:
+      af-south-1:
+        Dedicated: 5.568
+        Shared: 5.074
       ap-east-1:
         Dedicated: 5.252
         Shared: 4.786
@@ -6461,6 +6580,9 @@ c5a.24xlarge:
       ca-central-1:
         Dedicated: 4.565
         Shared: 4.162
+      EU (Milan):
+        Dedicated: 4.935
+        Shared: 4.498
       eu-central-1:
         Dedicated: 4.724
         Shared: 4.306
@@ -6473,6 +6595,12 @@ c5a.24xlarge:
       eu-west-2:
         Dedicated: 4.935
         Shared: 4.498
+      eu-west-3:
+        Dedicated: 4.935
+        Shared: 4.498
+      me-south-1:
+        Dedicated: 5.146
+        Shared: 4.69
       sa-east-1:
         Dedicated: 6.36
         Shared: 5.794
@@ -6492,6 +6620,9 @@ c5a.24xlarge:
         Dedicated: 4.196
         Shared: 3.826
     SUSE:
+      af-south-1:
+        Dedicated: 5.588
+        Shared: 5.094
       ap-east-1:
         Dedicated: 5.272
         Shared: 4.806
@@ -6516,6 +6647,9 @@ c5a.24xlarge:
       ca-central-1:
         Dedicated: 4.585
         Shared: 4.182
+      EU (Milan):
+        Dedicated: 4.955
+        Shared: 4.518
       eu-central-1:
         Dedicated: 4.744
         Shared: 4.326
@@ -6528,6 +6662,12 @@ c5a.24xlarge:
       eu-west-2:
         Dedicated: 4.955
         Shared: 4.518
+      eu-west-3:
+        Dedicated: 4.955
+        Shared: 4.518
+      me-south-1:
+        Dedicated: 5.166
+        Shared: 4.71
       sa-east-1:
         Dedicated: 6.38
         Shared: 5.814
@@ -6547,6 +6687,9 @@ c5a.24xlarge:
         Dedicated: 4.216
         Shared: 3.846
     Windows:
+      af-south-1:
+        Dedicated: 9.854
+        Shared: 9.36
       ap-east-1:
         Dedicated: 9.538
         Shared: 9.072
@@ -6571,6 +6714,9 @@ c5a.24xlarge:
       ca-central-1:
         Dedicated: 8.851
         Shared: 8.448
+      EU (Milan):
+        Dedicated: 9.221
+        Shared: 8.784
       eu-central-1:
         Dedicated: 9.01
         Shared: 8.592
@@ -6583,6 +6729,12 @@ c5a.24xlarge:
       eu-west-2:
         Dedicated: 9.221
         Shared: 8.784
+      eu-west-3:
+        Dedicated: 9.221
+        Shared: 8.784
+      me-south-1:
+        Dedicated: 9.432
+        Shared: 8.976
       sa-east-1:
         Dedicated: 10.646
         Shared: 10.08
@@ -6604,9 +6756,12 @@ c5a.24xlarge:
   regions:
     - eu-west-2
     - ca-central-1
+    - EU (Milan)
+    - af-south-1
     - us-west-2
     - us-east-1
     - eu-central-1
+    - eu-west-3
     - eu-north-1
     - ap-south-1
     - sa-east-1
@@ -6616,6 +6771,7 @@ c5a.24xlarge:
     - us-east-2
     - ap-east-1
     - ap-southeast-2
+    - me-south-1
     - us-west-1
     - us-gov-east-1
     - ap-northeast-2
@@ -6633,6 +6789,9 @@ c5a.2xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.453
+        Shared: 0.412
       ap-east-1:
         Dedicated: 0.427
         Shared: 0.388
@@ -6657,6 +6816,9 @@ c5a.2xlarge:
       ca-central-1:
         Dedicated: 0.37
         Shared: 0.336
+      EU (Milan):
+        Dedicated: 0.4
+        Shared: 0.364
       eu-central-1:
         Dedicated: 0.383
         Shared: 0.348
@@ -6669,6 +6831,12 @@ c5a.2xlarge:
       eu-west-2:
         Dedicated: 0.4
         Shared: 0.364
+      eu-west-3:
+        Dedicated: 0.4
+        Shared: 0.364
+      me-south-1:
+        Dedicated: 0.418
+        Shared: 0.38
       sa-east-1:
         Dedicated: 0.519
         Shared: 0.472
@@ -6688,6 +6856,9 @@ c5a.2xlarge:
         Dedicated: 0.339
         Shared: 0.308
     RHEL:
+      af-south-1:
+        Dedicated: 0.583
+        Shared: 0.542
       ap-east-1:
         Dedicated: 0.557
         Shared: 0.518
@@ -6712,6 +6883,9 @@ c5a.2xlarge:
       ca-central-1:
         Dedicated: 0.5
         Shared: 0.466
+      EU (Milan):
+        Dedicated: 0.53
+        Shared: 0.494
       eu-central-1:
         Dedicated: 0.513
         Shared: 0.478
@@ -6724,6 +6898,12 @@ c5a.2xlarge:
       eu-west-2:
         Dedicated: 0.53
         Shared: 0.494
+      eu-west-3:
+        Dedicated: 0.53
+        Shared: 0.494
+      me-south-1:
+        Dedicated: 0.548
+        Shared: 0.51
       sa-east-1:
         Dedicated: 0.649
         Shared: 0.602
@@ -6743,6 +6923,9 @@ c5a.2xlarge:
         Dedicated: 0.469
         Shared: 0.438
     SUSE:
+      af-south-1:
+        Dedicated: 0.603
+        Shared: 0.562
       ap-east-1:
         Dedicated: 0.577
         Shared: 0.538
@@ -6767,6 +6950,9 @@ c5a.2xlarge:
       ca-central-1:
         Dedicated: 0.52
         Shared: 0.486
+      EU (Milan):
+        Dedicated: 0.55
+        Shared: 0.514
       eu-central-1:
         Dedicated: 0.533
         Shared: 0.498
@@ -6779,6 +6965,12 @@ c5a.2xlarge:
       eu-west-2:
         Dedicated: 0.55
         Shared: 0.514
+      eu-west-3:
+        Dedicated: 0.55
+        Shared: 0.514
+      me-south-1:
+        Dedicated: 0.568
+        Shared: 0.53
       sa-east-1:
         Dedicated: 0.669
         Shared: 0.622
@@ -6798,6 +6990,9 @@ c5a.2xlarge:
         Dedicated: 0.489
         Shared: 0.458
     Windows:
+      af-south-1:
+        Dedicated: 0.821
+        Shared: 0.78
       ap-east-1:
         Dedicated: 0.795
         Shared: 0.756
@@ -6822,6 +7017,9 @@ c5a.2xlarge:
       ca-central-1:
         Dedicated: 0.738
         Shared: 0.704
+      EU (Milan):
+        Dedicated: 0.768
+        Shared: 0.732
       eu-central-1:
         Dedicated: 0.751
         Shared: 0.716
@@ -6834,6 +7032,12 @@ c5a.2xlarge:
       eu-west-2:
         Dedicated: 0.768
         Shared: 0.732
+      eu-west-3:
+        Dedicated: 0.768
+        Shared: 0.732
+      me-south-1:
+        Dedicated: 0.786
+        Shared: 0.748
       sa-east-1:
         Dedicated: 0.887
         Shared: 0.84
@@ -6863,14 +7067,18 @@ c5a.2xlarge:
     - ap-east-1
     - us-west-1
     - ca-central-1
+    - eu-west-3
     - AWS GovCloud (US-West)
+    - EU (Milan)
     - us-gov-east-1
     - eu-central-1
     - ap-northeast-1
     - eu-west-2
     - ap-south-1
+    - me-south-1
     - eu-north-1
     - ap-southeast-2
+    - af-south-1
   storage: EBS only
   vcpu: 8
 c5a.4xlarge:
@@ -6884,6 +7092,9 @@ c5a.4xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.906
+        Shared: 0.824
       ap-east-1:
         Dedicated: 0.854
         Shared: 0.776
@@ -6908,6 +7119,9 @@ c5a.4xlarge:
       ca-central-1:
         Dedicated: 0.739
         Shared: 0.672
+      EU (Milan):
+        Dedicated: 0.801
+        Shared: 0.728
       eu-central-1:
         Dedicated: 0.766
         Shared: 0.696
@@ -6920,6 +7134,12 @@ c5a.4xlarge:
       eu-west-2:
         Dedicated: 0.801
         Shared: 0.728
+      eu-west-3:
+        Dedicated: 0.801
+        Shared: 0.728
+      me-south-1:
+        Dedicated: 0.836
+        Shared: 0.76
       sa-east-1:
         Dedicated: 1.038
         Shared: 0.944
@@ -6939,6 +7159,9 @@ c5a.4xlarge:
         Dedicated: 0.678
         Shared: 0.616
     RHEL:
+      af-south-1:
+        Dedicated: 1.036
+        Shared: 0.954
       ap-east-1:
         Dedicated: 0.984
         Shared: 0.906
@@ -6963,6 +7186,9 @@ c5a.4xlarge:
       ca-central-1:
         Dedicated: 0.869
         Shared: 0.802
+      EU (Milan):
+        Dedicated: 0.931
+        Shared: 0.858
       eu-central-1:
         Dedicated: 0.896
         Shared: 0.826
@@ -6975,6 +7201,12 @@ c5a.4xlarge:
       eu-west-2:
         Dedicated: 0.931
         Shared: 0.858
+      eu-west-3:
+        Dedicated: 0.931
+        Shared: 0.858
+      me-south-1:
+        Dedicated: 0.966
+        Shared: 0.89
       sa-east-1:
         Dedicated: 1.168
         Shared: 1.074
@@ -6994,6 +7226,9 @@ c5a.4xlarge:
         Dedicated: 0.808
         Shared: 0.746
     SUSE:
+      af-south-1:
+        Dedicated: 1.056
+        Shared: 0.974
       ap-east-1:
         Dedicated: 1.004
         Shared: 0.926
@@ -7018,6 +7253,9 @@ c5a.4xlarge:
       ca-central-1:
         Dedicated: 0.889
         Shared: 0.822
+      EU (Milan):
+        Dedicated: 0.951
+        Shared: 0.878
       eu-central-1:
         Dedicated: 0.916
         Shared: 0.846
@@ -7030,6 +7268,12 @@ c5a.4xlarge:
       eu-west-2:
         Dedicated: 0.951
         Shared: 0.878
+      eu-west-3:
+        Dedicated: 0.951
+        Shared: 0.878
+      me-south-1:
+        Dedicated: 0.986
+        Shared: 0.91
       sa-east-1:
         Dedicated: 1.188
         Shared: 1.094
@@ -7049,6 +7293,9 @@ c5a.4xlarge:
         Dedicated: 0.828
         Shared: 0.766
     Windows:
+      af-south-1:
+        Dedicated: 1.642
+        Shared: 1.56
       ap-east-1:
         Dedicated: 1.59
         Shared: 1.512
@@ -7073,6 +7320,9 @@ c5a.4xlarge:
       ca-central-1:
         Dedicated: 1.475
         Shared: 1.408
+      EU (Milan):
+        Dedicated: 1.537
+        Shared: 1.464
       eu-central-1:
         Dedicated: 1.502
         Shared: 1.432
@@ -7085,6 +7335,12 @@ c5a.4xlarge:
       eu-west-2:
         Dedicated: 1.537
         Shared: 1.464
+      eu-west-3:
+        Dedicated: 1.537
+        Shared: 1.464
+      me-south-1:
+        Dedicated: 1.572
+        Shared: 1.496
       sa-east-1:
         Dedicated: 1.774
         Shared: 1.68
@@ -7112,10 +7368,14 @@ c5a.4xlarge:
     - us-east-1
     - ap-southeast-1
     - us-east-2
+    - EU (Milan)
     - ap-east-1
     - ap-south-1
     - eu-central-1
     - AWS GovCloud (US-West)
+    - eu-west-3
+    - af-south-1
+    - me-south-1
     - ap-southeast-2
     - us-west-1
     - ca-central-1
@@ -7135,6 +7395,9 @@ c5a.8xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 1.813
+        Shared: 1.648
       ap-east-1:
         Dedicated: 1.707
         Shared: 1.552
@@ -7159,6 +7422,9 @@ c5a.8xlarge:
       ca-central-1:
         Dedicated: 1.478
         Shared: 1.344
+      EU (Milan):
+        Dedicated: 1.602
+        Shared: 1.456
       eu-central-1:
         Dedicated: 1.531
         Shared: 1.392
@@ -7171,6 +7437,12 @@ c5a.8xlarge:
       eu-west-2:
         Dedicated: 1.602
         Shared: 1.456
+      eu-west-3:
+        Dedicated: 1.602
+        Shared: 1.456
+      me-south-1:
+        Dedicated: 1.672
+        Shared: 1.52
       sa-east-1:
         Dedicated: 2.077
         Shared: 1.888
@@ -7190,6 +7462,9 @@ c5a.8xlarge:
         Dedicated: 1.355
         Shared: 1.232
     RHEL:
+      af-south-1:
+        Dedicated: 1.943
+        Shared: 1.778
       ap-east-1:
         Dedicated: 1.837
         Shared: 1.682
@@ -7214,6 +7489,9 @@ c5a.8xlarge:
       ca-central-1:
         Dedicated: 1.608
         Shared: 1.474
+      EU (Milan):
+        Dedicated: 1.732
+        Shared: 1.586
       eu-central-1:
         Dedicated: 1.661
         Shared: 1.522
@@ -7226,6 +7504,12 @@ c5a.8xlarge:
       eu-west-2:
         Dedicated: 1.732
         Shared: 1.586
+      eu-west-3:
+        Dedicated: 1.732
+        Shared: 1.586
+      me-south-1:
+        Dedicated: 1.802
+        Shared: 1.65
       sa-east-1:
         Dedicated: 2.207
         Shared: 2.018
@@ -7245,6 +7529,9 @@ c5a.8xlarge:
         Dedicated: 1.485
         Shared: 1.362
     SUSE:
+      af-south-1:
+        Dedicated: 1.963
+        Shared: 1.798
       ap-east-1:
         Dedicated: 1.857
         Shared: 1.702
@@ -7269,6 +7556,9 @@ c5a.8xlarge:
       ca-central-1:
         Dedicated: 1.628
         Shared: 1.494
+      EU (Milan):
+        Dedicated: 1.752
+        Shared: 1.606
       eu-central-1:
         Dedicated: 1.681
         Shared: 1.542
@@ -7281,6 +7571,12 @@ c5a.8xlarge:
       eu-west-2:
         Dedicated: 1.752
         Shared: 1.606
+      eu-west-3:
+        Dedicated: 1.752
+        Shared: 1.606
+      me-south-1:
+        Dedicated: 1.822
+        Shared: 1.67
       sa-east-1:
         Dedicated: 2.227
         Shared: 2.038
@@ -7300,6 +7596,9 @@ c5a.8xlarge:
         Dedicated: 1.505
         Shared: 1.382
     Windows:
+      af-south-1:
+        Dedicated: 3.285
+        Shared: 3.12
       ap-east-1:
         Dedicated: 3.179
         Shared: 3.024
@@ -7324,6 +7623,9 @@ c5a.8xlarge:
       ca-central-1:
         Dedicated: 2.95
         Shared: 2.816
+      EU (Milan):
+        Dedicated: 3.074
+        Shared: 2.928
       eu-central-1:
         Dedicated: 3.003
         Shared: 2.864
@@ -7336,6 +7638,12 @@ c5a.8xlarge:
       eu-west-2:
         Dedicated: 3.074
         Shared: 2.928
+      eu-west-3:
+        Dedicated: 3.074
+        Shared: 2.928
+      me-south-1:
+        Dedicated: 3.144
+        Shared: 2.992
       sa-east-1:
         Dedicated: 3.549
         Shared: 3.36
@@ -7355,6 +7663,8 @@ c5a.8xlarge:
         Dedicated: 2.827
         Shared: 2.704
   regions:
+    - eu-west-3
+    - EU (Milan)
     - ap-southeast-1
     - us-west-1
     - eu-west-1
@@ -7362,10 +7672,12 @@ c5a.8xlarge:
     - ap-south-1
     - us-west-2
     - sa-east-1
+    - me-south-1
     - AWS GovCloud (US-West)
     - ap-southeast-2
     - ap-east-1
     - eu-north-1
+    - af-south-1
     - ap-northeast-1
     - eu-west-2
     - ap-northeast-2
@@ -7386,6 +7698,9 @@ c5a.large:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.113
+        Shared: 0.103
       ap-east-1:
         Dedicated: 0.107
         Shared: 0.097
@@ -7410,6 +7725,9 @@ c5a.large:
       ca-central-1:
         Dedicated: 0.092
         Shared: 0.084
+      EU (Milan):
+        Dedicated: 0.1
+        Shared: 0.091
       eu-central-1:
         Dedicated: 0.096
         Shared: 0.087
@@ -7422,6 +7740,12 @@ c5a.large:
       eu-west-2:
         Dedicated: 0.1
         Shared: 0.091
+      eu-west-3:
+        Dedicated: 0.1
+        Shared: 0.091
+      me-south-1:
+        Dedicated: 0.105
+        Shared: 0.095
       sa-east-1:
         Dedicated: 0.13
         Shared: 0.118
@@ -7441,6 +7765,9 @@ c5a.large:
         Dedicated: 0.085
         Shared: 0.077
     RHEL:
+      af-south-1:
+        Dedicated: 0.173
+        Shared: 0.163
       ap-east-1:
         Dedicated: 0.167
         Shared: 0.157
@@ -7465,6 +7792,9 @@ c5a.large:
       ca-central-1:
         Dedicated: 0.152
         Shared: 0.144
+      EU (Milan):
+        Dedicated: 0.16
+        Shared: 0.151
       eu-central-1:
         Dedicated: 0.156
         Shared: 0.147
@@ -7477,6 +7807,12 @@ c5a.large:
       eu-west-2:
         Dedicated: 0.16
         Shared: 0.151
+      eu-west-3:
+        Dedicated: 0.16
+        Shared: 0.151
+      me-south-1:
+        Dedicated: 0.165
+        Shared: 0.155
       sa-east-1:
         Dedicated: 0.19
         Shared: 0.178
@@ -7496,6 +7832,9 @@ c5a.large:
         Dedicated: 0.145
         Shared: 0.137
     SUSE:
+      af-south-1:
+        Dedicated: 0.176
+        Shared: 0.166
       ap-east-1:
         Dedicated: 0.17
         Shared: 0.16
@@ -7520,6 +7859,9 @@ c5a.large:
       ca-central-1:
         Dedicated: 0.155
         Shared: 0.147
+      EU (Milan):
+        Dedicated: 0.163
+        Shared: 0.154
       eu-central-1:
         Dedicated: 0.159
         Shared: 0.15
@@ -7532,6 +7874,12 @@ c5a.large:
       eu-west-2:
         Dedicated: 0.163
         Shared: 0.154
+      eu-west-3:
+        Dedicated: 0.163
+        Shared: 0.154
+      me-south-1:
+        Dedicated: 0.168
+        Shared: 0.158
       sa-east-1:
         Dedicated: 0.193
         Shared: 0.181
@@ -7551,6 +7899,9 @@ c5a.large:
         Dedicated: 0.148
         Shared: 0.14
     Windows:
+      af-south-1:
+        Dedicated: 0.205
+        Shared: 0.195
       ap-east-1:
         Dedicated: 0.199
         Shared: 0.189
@@ -7575,6 +7926,9 @@ c5a.large:
       ca-central-1:
         Dedicated: 0.184
         Shared: 0.176
+      EU (Milan):
+        Dedicated: 0.192
+        Shared: 0.183
       eu-central-1:
         Dedicated: 0.188
         Shared: 0.179
@@ -7587,6 +7941,12 @@ c5a.large:
       eu-west-2:
         Dedicated: 0.192
         Shared: 0.183
+      eu-west-3:
+        Dedicated: 0.192
+        Shared: 0.183
+      me-south-1:
+        Dedicated: 0.197
+        Shared: 0.187
       sa-east-1:
         Dedicated: 0.222
         Shared: 0.21
@@ -7614,12 +7974,16 @@ c5a.large:
     - ap-east-1
     - ap-south-1
     - ap-southeast-2
+    - EU (Milan)
     - AWS GovCloud (US-West)
     - eu-west-1
     - ca-central-1
+    - me-south-1
+    - eu-west-3
     - us-west-1
     - sa-east-1
     - eu-central-1
+    - af-south-1
     - ap-northeast-2
     - ap-southeast-1
     - us-east-1
@@ -7637,6 +8001,9 @@ c5a.xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.227
+        Shared: 0.206
       ap-east-1:
         Dedicated: 0.213
         Shared: 0.194
@@ -7661,6 +8028,9 @@ c5a.xlarge:
       ca-central-1:
         Dedicated: 0.185
         Shared: 0.168
+      EU (Milan):
+        Dedicated: 0.2
+        Shared: 0.182
       eu-central-1:
         Dedicated: 0.191
         Shared: 0.174
@@ -7673,6 +8043,12 @@ c5a.xlarge:
       eu-west-2:
         Dedicated: 0.2
         Shared: 0.182
+      eu-west-3:
+        Dedicated: 0.2
+        Shared: 0.182
+      me-south-1:
+        Dedicated: 0.209
+        Shared: 0.19
       sa-east-1:
         Dedicated: 0.26
         Shared: 0.236
@@ -7692,6 +8068,9 @@ c5a.xlarge:
         Dedicated: 0.169
         Shared: 0.154
     RHEL:
+      af-south-1:
+        Dedicated: 0.287
+        Shared: 0.266
       ap-east-1:
         Dedicated: 0.273
         Shared: 0.254
@@ -7716,6 +8095,9 @@ c5a.xlarge:
       ca-central-1:
         Dedicated: 0.245
         Shared: 0.228
+      EU (Milan):
+        Dedicated: 0.26
+        Shared: 0.242
       eu-central-1:
         Dedicated: 0.251
         Shared: 0.234
@@ -7728,6 +8110,12 @@ c5a.xlarge:
       eu-west-2:
         Dedicated: 0.26
         Shared: 0.242
+      eu-west-3:
+        Dedicated: 0.26
+        Shared: 0.242
+      me-south-1:
+        Dedicated: 0.269
+        Shared: 0.25
       sa-east-1:
         Dedicated: 0.32
         Shared: 0.296
@@ -7747,6 +8135,9 @@ c5a.xlarge:
         Dedicated: 0.229
         Shared: 0.214
     SUSE:
+      af-south-1:
+        Dedicated: 0.352
+        Shared: 0.331
       ap-east-1:
         Dedicated: 0.338
         Shared: 0.319
@@ -7771,6 +8162,9 @@ c5a.xlarge:
       ca-central-1:
         Dedicated: 0.31
         Shared: 0.293
+      EU (Milan):
+        Dedicated: 0.325
+        Shared: 0.307
       eu-central-1:
         Dedicated: 0.316
         Shared: 0.299
@@ -7783,6 +8177,12 @@ c5a.xlarge:
       eu-west-2:
         Dedicated: 0.325
         Shared: 0.307
+      eu-west-3:
+        Dedicated: 0.325
+        Shared: 0.307
+      me-south-1:
+        Dedicated: 0.334
+        Shared: 0.315
       sa-east-1:
         Dedicated: 0.385
         Shared: 0.361
@@ -7802,6 +8202,9 @@ c5a.xlarge:
         Dedicated: 0.294
         Shared: 0.279
     Windows:
+      af-south-1:
+        Dedicated: 0.411
+        Shared: 0.39
       ap-east-1:
         Dedicated: 0.397
         Shared: 0.378
@@ -7826,6 +8229,9 @@ c5a.xlarge:
       ca-central-1:
         Dedicated: 0.369
         Shared: 0.352
+      EU (Milan):
+        Dedicated: 0.384
+        Shared: 0.366
       eu-central-1:
         Dedicated: 0.375
         Shared: 0.358
@@ -7838,6 +8244,12 @@ c5a.xlarge:
       eu-west-2:
         Dedicated: 0.384
         Shared: 0.366
+      eu-west-3:
+        Dedicated: 0.384
+        Shared: 0.366
+      me-south-1:
+        Dedicated: 0.393
+        Shared: 0.374
       sa-east-1:
         Dedicated: 0.444
         Shared: 0.42
@@ -7864,7 +8276,11 @@ c5a.xlarge:
     - us-west-2
     - us-west-1
     - eu-central-1
+    - EU (Milan)
+    - me-south-1
+    - eu-west-3
     - ap-southeast-1
+    - af-south-1
     - us-gov-east-1
     - ap-south-1
     - ap-northeast-2
@@ -7888,63 +8304,108 @@ c5ad.12xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Shared: 2.808
       ap-southeast-1:
         Shared: 2.424
       ap-southeast-2:
         Shared: 2.712
+      EU (Milan):
+        Shared: 2.472
       eu-central-1:
         Shared: 2.4
       eu-west-1:
         Shared: 2.352
+      me-south-1:
+        Shared: 2.592
+      sa-east-1:
+        Shared: 3.216
       us-east-1:
+        Shared: 2.064
+      us-east-2:
         Shared: 2.064
       us-west-2:
         Shared: 2.064
     RHEL:
+      af-south-1:
+        Shared: 2.938
       ap-southeast-1:
         Shared: 2.554
       ap-southeast-2:
         Shared: 2.842
+      EU (Milan):
+        Shared: 2.602
       eu-central-1:
         Shared: 2.53
       eu-west-1:
         Shared: 2.482
+      me-south-1:
+        Shared: 2.722
+      sa-east-1:
+        Shared: 3.346
       us-east-1:
+        Shared: 2.194
+      us-east-2:
         Shared: 2.194
       us-west-2:
         Shared: 2.194
     SUSE:
+      af-south-1:
+        Shared: 2.958
       ap-southeast-1:
         Shared: 2.574
       ap-southeast-2:
         Shared: 2.862
+      EU (Milan):
+        Shared: 2.622
       eu-central-1:
         Shared: 2.55
       eu-west-1:
         Shared: 2.502
+      me-south-1:
+        Shared: 2.742
+      sa-east-1:
+        Shared: 3.366
       us-east-1:
+        Shared: 2.214
+      us-east-2:
         Shared: 2.214
       us-west-2:
         Shared: 2.214
     Windows:
+      af-south-1:
+        Shared: 5.016
       ap-southeast-1:
         Shared: 4.632
       ap-southeast-2:
         Shared: 4.92
+      EU (Milan):
+        Shared: 4.68
       eu-central-1:
         Shared: 4.608
       eu-west-1:
         Shared: 4.56
+      me-south-1:
+        Shared: 4.8
+      sa-east-1:
+        Shared: 5.424
       us-east-1:
+        Shared: 4.272
+      us-east-2:
         Shared: 4.272
       us-west-2:
         Shared: 4.272
   regions:
     - us-east-1
     - eu-central-1
+    - af-south-1
+    - us-east-2
     - us-west-2
+    - sa-east-1
     - ap-southeast-2
     - ap-southeast-1
+    - EU (Milan)
+    - me-south-1
     - eu-west-1
   storage: 2 x 900 NVMe SSD
   vcpu: 48
@@ -7959,63 +8420,108 @@ c5ad.16xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Shared: 3.744
       ap-southeast-1:
         Shared: 3.232
       ap-southeast-2:
         Shared: 3.616
+      EU (Milan):
+        Shared: 3.296
       eu-central-1:
         Shared: 3.2
       eu-west-1:
         Shared: 3.136
+      me-south-1:
+        Shared: 3.456
+      sa-east-1:
+        Shared: 4.288
       us-east-1:
+        Shared: 2.752
+      us-east-2:
         Shared: 2.752
       us-west-2:
         Shared: 2.752
     RHEL:
+      af-south-1:
+        Shared: 3.874
       ap-southeast-1:
         Shared: 3.362
       ap-southeast-2:
         Shared: 3.746
+      EU (Milan):
+        Shared: 3.426
       eu-central-1:
         Shared: 3.33
       eu-west-1:
         Shared: 3.266
+      me-south-1:
+        Shared: 3.586
+      sa-east-1:
+        Shared: 4.418
       us-east-1:
+        Shared: 2.882
+      us-east-2:
         Shared: 2.882
       us-west-2:
         Shared: 2.882
     SUSE:
+      af-south-1:
+        Shared: 3.894
       ap-southeast-1:
         Shared: 3.382
       ap-southeast-2:
         Shared: 3.766
+      EU (Milan):
+        Shared: 3.446
       eu-central-1:
         Shared: 3.35
       eu-west-1:
         Shared: 3.286
+      me-south-1:
+        Shared: 3.606
+      sa-east-1:
+        Shared: 4.438
       us-east-1:
+        Shared: 2.902
+      us-east-2:
         Shared: 2.902
       us-west-2:
         Shared: 2.902
     Windows:
+      af-south-1:
+        Shared: 6.688
       ap-southeast-1:
         Shared: 6.176
       ap-southeast-2:
         Shared: 6.56
+      EU (Milan):
+        Shared: 6.24
       eu-central-1:
         Shared: 6.144
       eu-west-1:
         Shared: 6.08
+      me-south-1:
+        Shared: 6.4
+      sa-east-1:
+        Shared: 7.232
       us-east-1:
+        Shared: 5.696
+      us-east-2:
         Shared: 5.696
       us-west-2:
         Shared: 5.696
   regions:
+    - me-south-1
     - eu-west-1
     - us-east-1
+    - EU (Milan)
     - us-west-2
     - eu-central-1
     - ap-southeast-1
+    - us-east-2
+    - sa-east-1
+    - af-south-1
     - ap-southeast-2
   storage: 2 x 1200 NVMe SSD
   vcpu: 64
@@ -8030,63 +8536,108 @@ c5ad.24xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Shared: 5.616
       ap-southeast-1:
         Shared: 4.848
       ap-southeast-2:
         Shared: 5.424
+      EU (Milan):
+        Shared: 4.944
       eu-central-1:
         Shared: 4.8
       eu-west-1:
         Shared: 4.704
+      me-south-1:
+        Shared: 5.184
+      sa-east-1:
+        Shared: 6.432
       us-east-1:
+        Shared: 4.128
+      us-east-2:
         Shared: 4.128
       us-west-2:
         Shared: 4.128
     RHEL:
+      af-south-1:
+        Shared: 5.746
       ap-southeast-1:
         Shared: 4.978
       ap-southeast-2:
         Shared: 5.554
+      EU (Milan):
+        Shared: 5.074
       eu-central-1:
         Shared: 4.93
       eu-west-1:
         Shared: 4.834
+      me-south-1:
+        Shared: 5.314
+      sa-east-1:
+        Shared: 6.562
       us-east-1:
+        Shared: 4.258
+      us-east-2:
         Shared: 4.258
       us-west-2:
         Shared: 4.258
     SUSE:
+      af-south-1:
+        Shared: 5.766
       ap-southeast-1:
         Shared: 4.998
       ap-southeast-2:
         Shared: 5.574
+      EU (Milan):
+        Shared: 5.094
       eu-central-1:
         Shared: 4.95
       eu-west-1:
         Shared: 4.854
+      me-south-1:
+        Shared: 5.334
+      sa-east-1:
+        Shared: 6.582
       us-east-1:
+        Shared: 4.278
+      us-east-2:
         Shared: 4.278
       us-west-2:
         Shared: 4.278
     Windows:
+      af-south-1:
+        Shared: 10.032
       ap-southeast-1:
         Shared: 9.264
       ap-southeast-2:
         Shared: 9.84
+      EU (Milan):
+        Shared: 9.36
       eu-central-1:
         Shared: 9.216
       eu-west-1:
         Shared: 9.12
+      me-south-1:
+        Shared: 9.6
+      sa-east-1:
+        Shared: 10.848
       us-east-1:
+        Shared: 8.544
+      us-east-2:
         Shared: 8.544
       us-west-2:
         Shared: 8.544
   regions:
     - ap-southeast-1
+    - us-east-2
+    - af-south-1
     - eu-central-1
     - us-west-2
     - eu-west-1
+    - EU (Milan)
     - us-east-1
+    - me-south-1
+    - sa-east-1
     - ap-southeast-2
   storage: 2 x 1900 NVMe SSD
   vcpu: 96
@@ -8101,63 +8652,108 @@ c5ad.2xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Shared: 0.468
       ap-southeast-1:
         Shared: 0.404
       ap-southeast-2:
         Shared: 0.452
+      EU (Milan):
+        Shared: 0.412
       eu-central-1:
         Shared: 0.4
       eu-west-1:
         Shared: 0.392
+      me-south-1:
+        Shared: 0.432
+      sa-east-1:
+        Shared: 0.536
       us-east-1:
+        Shared: 0.344
+      us-east-2:
         Shared: 0.344
       us-west-2:
         Shared: 0.344
     RHEL:
+      af-south-1:
+        Shared: 0.598
       ap-southeast-1:
         Shared: 0.534
       ap-southeast-2:
         Shared: 0.582
+      EU (Milan):
+        Shared: 0.542
       eu-central-1:
         Shared: 0.53
       eu-west-1:
         Shared: 0.522
+      me-south-1:
+        Shared: 0.562
+      sa-east-1:
+        Shared: 0.666
       us-east-1:
+        Shared: 0.474
+      us-east-2:
         Shared: 0.474
       us-west-2:
         Shared: 0.474
     SUSE:
+      af-south-1:
+        Shared: 0.618
       ap-southeast-1:
         Shared: 0.554
       ap-southeast-2:
         Shared: 0.602
+      EU (Milan):
+        Shared: 0.562
       eu-central-1:
         Shared: 0.55
       eu-west-1:
         Shared: 0.542
+      me-south-1:
+        Shared: 0.582
+      sa-east-1:
+        Shared: 0.686
       us-east-1:
+        Shared: 0.494
+      us-east-2:
         Shared: 0.494
       us-west-2:
         Shared: 0.494
     Windows:
+      af-south-1:
+        Shared: 0.836
       ap-southeast-1:
         Shared: 0.772
       ap-southeast-2:
         Shared: 0.82
+      EU (Milan):
+        Shared: 0.78
       eu-central-1:
         Shared: 0.768
       eu-west-1:
         Shared: 0.76
+      me-south-1:
+        Shared: 0.8
+      sa-east-1:
+        Shared: 0.904
       us-east-1:
+        Shared: 0.712
+      us-east-2:
         Shared: 0.712
       us-west-2:
         Shared: 0.712
   regions:
     - ap-southeast-1
+    - us-east-2
     - eu-west-1
     - us-west-2
     - us-east-1
+    - af-south-1
     - eu-central-1
+    - me-south-1
+    - EU (Milan)
+    - sa-east-1
     - ap-southeast-2
   storage: 1 x 300 NVMe SSD
   vcpu: 8
@@ -8172,61 +8768,106 @@ c5ad.4xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Shared: 0.936
       ap-southeast-1:
         Shared: 0.808
       ap-southeast-2:
         Shared: 0.904
+      EU (Milan):
+        Shared: 0.824
       eu-central-1:
         Shared: 0.8
       eu-west-1:
         Shared: 0.784
+      me-south-1:
+        Shared: 0.864
+      sa-east-1:
+        Shared: 1.072
       us-east-1:
+        Shared: 0.688
+      us-east-2:
         Shared: 0.688
       us-west-2:
         Shared: 0.688
     RHEL:
+      af-south-1:
+        Shared: 1.066
       ap-southeast-1:
         Shared: 0.938
       ap-southeast-2:
         Shared: 1.034
+      EU (Milan):
+        Shared: 0.954
       eu-central-1:
         Shared: 0.93
       eu-west-1:
         Shared: 0.914
+      me-south-1:
+        Shared: 0.994
+      sa-east-1:
+        Shared: 1.202
       us-east-1:
+        Shared: 0.818
+      us-east-2:
         Shared: 0.818
       us-west-2:
         Shared: 0.818
     SUSE:
+      af-south-1:
+        Shared: 1.086
       ap-southeast-1:
         Shared: 0.958
       ap-southeast-2:
         Shared: 1.054
+      EU (Milan):
+        Shared: 0.974
       eu-central-1:
         Shared: 0.95
       eu-west-1:
         Shared: 0.934
+      me-south-1:
+        Shared: 1.014
+      sa-east-1:
+        Shared: 1.222
       us-east-1:
+        Shared: 0.838
+      us-east-2:
         Shared: 0.838
       us-west-2:
         Shared: 0.838
     Windows:
+      af-south-1:
+        Shared: 1.672
       ap-southeast-1:
         Shared: 1.544
       ap-southeast-2:
         Shared: 1.64
+      EU (Milan):
+        Shared: 1.56
       eu-central-1:
         Shared: 1.536
       eu-west-1:
         Shared: 1.52
+      me-south-1:
+        Shared: 1.6
+      sa-east-1:
+        Shared: 1.808
       us-east-1:
+        Shared: 1.424
+      us-east-2:
         Shared: 1.424
       us-west-2:
         Shared: 1.424
   regions:
     - us-east-1
+    - af-south-1
     - ap-southeast-2
+    - EU (Milan)
+    - me-south-1
     - eu-central-1
+    - us-east-2
+    - sa-east-1
     - us-west-2
     - ap-southeast-1
     - eu-west-1
@@ -8243,64 +8884,109 @@ c5ad.8xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Shared: 1.872
       ap-southeast-1:
         Shared: 1.616
       ap-southeast-2:
         Shared: 1.808
+      EU (Milan):
+        Shared: 1.648
       eu-central-1:
         Shared: 1.6
       eu-west-1:
         Shared: 1.568
+      me-south-1:
+        Shared: 1.728
+      sa-east-1:
+        Shared: 2.144
       us-east-1:
+        Shared: 1.376
+      us-east-2:
         Shared: 1.376
       us-west-2:
         Shared: 1.376
     RHEL:
+      af-south-1:
+        Shared: 2.002
       ap-southeast-1:
         Shared: 1.746
       ap-southeast-2:
         Shared: 1.938
+      EU (Milan):
+        Shared: 1.778
       eu-central-1:
         Shared: 1.73
       eu-west-1:
         Shared: 1.698
+      me-south-1:
+        Shared: 1.858
+      sa-east-1:
+        Shared: 2.274
       us-east-1:
+        Shared: 1.506
+      us-east-2:
         Shared: 1.506
       us-west-2:
         Shared: 1.506
     SUSE:
+      af-south-1:
+        Shared: 2.022
       ap-southeast-1:
         Shared: 1.766
       ap-southeast-2:
         Shared: 1.958
+      EU (Milan):
+        Shared: 1.798
       eu-central-1:
         Shared: 1.75
       eu-west-1:
         Shared: 1.718
+      me-south-1:
+        Shared: 1.878
+      sa-east-1:
+        Shared: 2.294
       us-east-1:
+        Shared: 1.526
+      us-east-2:
         Shared: 1.526
       us-west-2:
         Shared: 1.526
     Windows:
+      af-south-1:
+        Shared: 3.344
       ap-southeast-1:
         Shared: 3.088
       ap-southeast-2:
         Shared: 3.28
+      EU (Milan):
+        Shared: 3.12
       eu-central-1:
         Shared: 3.072
       eu-west-1:
         Shared: 3.04
+      me-south-1:
+        Shared: 3.2
+      sa-east-1:
+        Shared: 3.616
       us-east-1:
+        Shared: 2.848
+      us-east-2:
         Shared: 2.848
       us-west-2:
         Shared: 2.848
   regions:
     - ap-southeast-1
+    - af-south-1
     - eu-central-1
     - us-east-1
+    - us-east-2
     - us-west-2
+    - EU (Milan)
     - ap-southeast-2
     - eu-west-1
+    - me-south-1
+    - sa-east-1
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 c5ad.large:
@@ -8314,54 +9000,94 @@ c5ad.large:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Shared: 0.117
       ap-southeast-1:
         Shared: 0.101
       ap-southeast-2:
         Shared: 0.113
+      EU (Milan):
+        Shared: 0.103
       eu-central-1:
         Shared: 0.1
       eu-west-1:
         Shared: 0.098
+      me-south-1:
+        Shared: 0.108
+      sa-east-1:
+        Shared: 0.134
       us-east-1:
+        Shared: 0.086
+      us-east-2:
         Shared: 0.086
       us-west-2:
         Shared: 0.086
     RHEL:
+      af-south-1:
+        Shared: 0.177
       ap-southeast-1:
         Shared: 0.161
       ap-southeast-2:
         Shared: 0.173
+      EU (Milan):
+        Shared: 0.163
       eu-central-1:
         Shared: 0.16
       eu-west-1:
         Shared: 0.158
+      me-south-1:
+        Shared: 0.168
+      sa-east-1:
+        Shared: 0.194
       us-east-1:
+        Shared: 0.146
+      us-east-2:
         Shared: 0.146
       us-west-2:
         Shared: 0.146
     SUSE:
+      af-south-1:
+        Shared: 0.18
       ap-southeast-1:
         Shared: 0.164
       ap-southeast-2:
         Shared: 0.176
+      EU (Milan):
+        Shared: 0.166
       eu-central-1:
         Shared: 0.163
       eu-west-1:
         Shared: 0.161
+      me-south-1:
+        Shared: 0.171
+      sa-east-1:
+        Shared: 0.197
       us-east-1:
+        Shared: 0.149
+      us-east-2:
         Shared: 0.149
       us-west-2:
         Shared: 0.149
     Windows:
+      af-south-1:
+        Shared: 0.209
       ap-southeast-1:
         Shared: 0.193
       ap-southeast-2:
         Shared: 0.205
+      EU (Milan):
+        Shared: 0.195
       eu-central-1:
         Shared: 0.192
       eu-west-1:
         Shared: 0.19
+      me-south-1:
+        Shared: 0.2
+      sa-east-1:
+        Shared: 0.226
       us-east-1:
+        Shared: 0.178
+      us-east-2:
         Shared: 0.178
       us-west-2:
         Shared: 0.178
@@ -8370,8 +9096,13 @@ c5ad.large:
     - eu-central-1
     - ap-southeast-1
     - us-east-1
+    - sa-east-1
+    - me-south-1
+    - EU (Milan)
     - eu-west-1
     - ap-southeast-2
+    - us-east-2
+    - af-south-1
   storage: 1 x 75 NVMe SSD
   vcpu: 2
 c5ad.xlarge:
@@ -8385,61 +9116,106 @@ c5ad.xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      af-south-1:
+        Shared: 0.234
       ap-southeast-1:
         Shared: 0.202
       ap-southeast-2:
         Shared: 0.226
+      EU (Milan):
+        Shared: 0.206
       eu-central-1:
         Shared: 0.2
       eu-west-1:
         Shared: 0.196
+      me-south-1:
+        Shared: 0.216
+      sa-east-1:
+        Shared: 0.268
       us-east-1:
+        Shared: 0.172
+      us-east-2:
         Shared: 0.172
       us-west-2:
         Shared: 0.172
     RHEL:
+      af-south-1:
+        Shared: 0.294
       ap-southeast-1:
         Shared: 0.262
       ap-southeast-2:
         Shared: 0.286
+      EU (Milan):
+        Shared: 0.266
       eu-central-1:
         Shared: 0.26
       eu-west-1:
         Shared: 0.256
+      me-south-1:
+        Shared: 0.276
+      sa-east-1:
+        Shared: 0.328
       us-east-1:
+        Shared: 0.232
+      us-east-2:
         Shared: 0.232
       us-west-2:
         Shared: 0.232
     SUSE:
+      af-south-1:
+        Shared: 0.359
       ap-southeast-1:
         Shared: 0.327
       ap-southeast-2:
         Shared: 0.351
+      EU (Milan):
+        Shared: 0.331
       eu-central-1:
         Shared: 0.325
       eu-west-1:
         Shared: 0.321
+      me-south-1:
+        Shared: 0.341
+      sa-east-1:
+        Shared: 0.393
       us-east-1:
+        Shared: 0.297
+      us-east-2:
         Shared: 0.297
       us-west-2:
         Shared: 0.297
     Windows:
+      af-south-1:
+        Shared: 0.418
       ap-southeast-1:
         Shared: 0.386
       ap-southeast-2:
         Shared: 0.41
+      EU (Milan):
+        Shared: 0.39
       eu-central-1:
         Shared: 0.384
       eu-west-1:
         Shared: 0.38
+      me-south-1:
+        Shared: 0.4
+      sa-east-1:
+        Shared: 0.452
       us-east-1:
+        Shared: 0.356
+      us-east-2:
         Shared: 0.356
       us-west-2:
         Shared: 0.356
   regions:
+    - me-south-1
     - us-east-1
+    - af-south-1
     - eu-west-1
     - ap-southeast-1
+    - us-east-2
+    - sa-east-1
+    - EU (Milan)
     - ap-southeast-2
     - us-west-2
     - eu-central-1
@@ -19556,48 +20332,113 @@ g4ad.16xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 5.148
+        Shared: 4.68
+      ca-central-1:
+        Dedicated: 4.2592
+        Shared: 3.872
+      eu-central-1:
+        Dedicated: 4.7696
+        Shared: 4.336
       eu-west-1:
         Dedicated: 4.2592
         Shared: 3.872
+      eu-west-2:
+        Dedicated: 4.4616
+        Shared: 4.056
       us-east-1:
+        Dedicated: 3.8148
+        Shared: 3.468
+      us-east-2:
         Dedicated: 3.8148
         Shared: 3.468
       us-west-2:
         Dedicated: 3.8148
         Shared: 3.468
     RHEL:
+      ap-northeast-1:
+        Dedicated: 5.278
+        Shared: 4.81
+      ca-central-1:
+        Dedicated: 4.3892
+        Shared: 4.002
+      eu-central-1:
+        Dedicated: 4.8996
+        Shared: 4.466
       eu-west-1:
         Dedicated: 4.3892
         Shared: 4.002
+      eu-west-2:
+        Dedicated: 4.5916
+        Shared: 4.186
       us-east-1:
+        Dedicated: 3.9448
+        Shared: 3.598
+      us-east-2:
         Dedicated: 3.9448
         Shared: 3.598
       us-west-2:
         Dedicated: 3.9448
         Shared: 3.598
     SUSE:
+      ap-northeast-1:
+        Dedicated: 5.298
+        Shared: 4.83
+      ca-central-1:
+        Dedicated: 4.4092
+        Shared: 4.022
+      eu-central-1:
+        Dedicated: 4.9196
+        Shared: 4.486
       eu-west-1:
         Dedicated: 4.4092
         Shared: 4.022
+      eu-west-2:
+        Dedicated: 4.6116
+        Shared: 4.206
       us-east-1:
+        Dedicated: 3.9648
+        Shared: 3.618
+      us-east-2:
         Dedicated: 3.9648
         Shared: 3.618
       us-west-2:
         Dedicated: 3.9648
         Shared: 3.618
     Windows:
+      ap-northeast-1:
+        Dedicated: 8.092
+        Shared: 7.624
+      ca-central-1:
+        Dedicated: 7.2032
+        Shared: 6.816
+      eu-central-1:
+        Dedicated: 7.7136
+        Shared: 7.28
       eu-west-1:
         Dedicated: 7.2032
         Shared: 6.816
+      eu-west-2:
+        Dedicated: 7.4056
+        Shared: 7
       us-east-1:
+        Dedicated: 6.7588
+        Shared: 6.412
+      us-east-2:
         Dedicated: 6.7588
         Shared: 6.412
       us-west-2:
         Dedicated: 6.7588
         Shared: 6.412
   regions:
+    - us-east-2
     - us-west-2
+    - eu-west-2
+    - ca-central-1
+    - ap-northeast-1
     - eu-west-1
+    - eu-central-1
     - us-east-1
   storage: 2400 GB NVMe SSD
   vcpu: 64
@@ -19613,40 +20454,100 @@ g4ad.4xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.287
+        Shared: 1.17
+      ca-central-1:
+        Dedicated: 1.0648
+        Shared: 0.968
+      eu-central-1:
+        Dedicated: 1.1924
+        Shared: 1.084
       eu-west-1:
         Dedicated: 1.0648
         Shared: 0.968
+      eu-west-2:
+        Dedicated: 1.1154
+        Shared: 1.014
       us-east-1:
+        Dedicated: 0.9537
+        Shared: 0.867
+      us-east-2:
         Dedicated: 0.9537
         Shared: 0.867
       us-west-2:
         Dedicated: 0.9537
         Shared: 0.867
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.417
+        Shared: 1.3
+      ca-central-1:
+        Dedicated: 1.1948
+        Shared: 1.098
+      eu-central-1:
+        Dedicated: 1.3224
+        Shared: 1.214
       eu-west-1:
         Dedicated: 1.1948
         Shared: 1.098
+      eu-west-2:
+        Dedicated: 1.2454
+        Shared: 1.144
       us-east-1:
+        Dedicated: 1.0837
+        Shared: 0.997
+      us-east-2:
         Dedicated: 1.0837
         Shared: 0.997
       us-west-2:
         Dedicated: 1.0837
         Shared: 0.997
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.437
+        Shared: 1.32
+      ca-central-1:
+        Dedicated: 1.2148
+        Shared: 1.118
+      eu-central-1:
+        Dedicated: 1.3424
+        Shared: 1.234
       eu-west-1:
         Dedicated: 1.2148
         Shared: 1.118
+      eu-west-2:
+        Dedicated: 1.2654
+        Shared: 1.164
       us-east-1:
+        Dedicated: 1.1037
+        Shared: 1.017
+      us-east-2:
         Dedicated: 1.1037
         Shared: 1.017
       us-west-2:
         Dedicated: 1.1037
         Shared: 1.017
     Windows:
+      ap-northeast-1:
+        Dedicated: 2.023
+        Shared: 1.906
+      ca-central-1:
+        Dedicated: 1.8008
+        Shared: 1.704
+      eu-central-1:
+        Dedicated: 1.9284
+        Shared: 1.82
       eu-west-1:
         Dedicated: 1.8008
         Shared: 1.704
+      eu-west-2:
+        Dedicated: 1.8514
+        Shared: 1.75
       us-east-1:
+        Dedicated: 1.6897
+        Shared: 1.603
+      us-east-2:
         Dedicated: 1.6897
         Shared: 1.603
       us-west-2:
@@ -19654,8 +20555,13 @@ g4ad.4xlarge:
         Shared: 1.603
   regions:
     - eu-west-1
+    - us-east-2
     - us-west-2
+    - ca-central-1
+    - ap-northeast-1
     - us-east-1
+    - eu-west-2
+    - eu-central-1
   storage: 600 GB NVMe SSD
   vcpu: 16
 g4ad.8xlarge:
@@ -19670,49 +20576,114 @@ g4ad.8xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 2.574
+        Shared: 2.34
+      ca-central-1:
+        Dedicated: 2.1296
+        Shared: 1.936
+      eu-central-1:
+        Dedicated: 2.3848
+        Shared: 2.168
       eu-west-1:
         Dedicated: 2.1296
         Shared: 1.936
+      eu-west-2:
+        Dedicated: 2.2308
+        Shared: 2.028
       us-east-1:
+        Dedicated: 1.9074
+        Shared: 1.734
+      us-east-2:
         Dedicated: 1.9074
         Shared: 1.734
       us-west-2:
         Dedicated: 1.9074
         Shared: 1.734
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.704
+        Shared: 2.47
+      ca-central-1:
+        Dedicated: 2.2596
+        Shared: 2.066
+      eu-central-1:
+        Dedicated: 2.5148
+        Shared: 2.298
       eu-west-1:
         Dedicated: 2.2596
         Shared: 2.066
+      eu-west-2:
+        Dedicated: 2.3608
+        Shared: 2.158
       us-east-1:
+        Dedicated: 2.0374
+        Shared: 1.864
+      us-east-2:
         Dedicated: 2.0374
         Shared: 1.864
       us-west-2:
         Dedicated: 2.0374
         Shared: 1.864
     SUSE:
+      ap-northeast-1:
+        Dedicated: 2.724
+        Shared: 2.49
+      ca-central-1:
+        Dedicated: 2.2796
+        Shared: 2.086
+      eu-central-1:
+        Dedicated: 2.5348
+        Shared: 2.318
       eu-west-1:
         Dedicated: 2.2796
         Shared: 2.086
+      eu-west-2:
+        Dedicated: 2.3808
+        Shared: 2.178
       us-east-1:
+        Dedicated: 2.0574
+        Shared: 1.884
+      us-east-2:
         Dedicated: 2.0574
         Shared: 1.884
       us-west-2:
         Dedicated: 2.0574
         Shared: 1.884
     Windows:
+      ap-northeast-1:
+        Dedicated: 4.046
+        Shared: 3.812
+      ca-central-1:
+        Dedicated: 3.6016
+        Shared: 3.408
+      eu-central-1:
+        Dedicated: 3.8568
+        Shared: 3.64
       eu-west-1:
         Dedicated: 3.6016
         Shared: 3.408
+      eu-west-2:
+        Dedicated: 3.7028
+        Shared: 3.5
       us-east-1:
+        Dedicated: 3.3794
+        Shared: 3.206
+      us-east-2:
         Dedicated: 3.3794
         Shared: 3.206
       us-west-2:
         Dedicated: 3.3794
         Shared: 3.206
   regions:
+    - ap-northeast-1
     - us-east-1
+    - ca-central-1
     - us-west-2
     - eu-west-1
+    - eu-central-1
+    - eu-west-2
+    - us-east-2
   storage: 1200 GB NVMe SSD
   vcpu: 32
 g4dn.12xlarge:
@@ -34594,6 +35565,9 @@ m5a.12xlarge:
       ca-central-1:
         Dedicated: 2.444
         Shared: 2.304
+      EU (Milan):
+        Dedicated: 2.569
+        Shared: 2.424
       eu-central-1:
         Dedicated: 2.665
         Shared: 2.496
@@ -34646,6 +35620,9 @@ m5a.12xlarge:
       ca-central-1:
         Dedicated: 2.574
         Shared: 2.434
+      EU (Milan):
+        Dedicated: 2.699
+        Shared: 2.554
       eu-central-1:
         Dedicated: 2.795
         Shared: 2.626
@@ -34698,6 +35675,9 @@ m5a.12xlarge:
       ca-central-1:
         Dedicated: 2.594
         Shared: 2.454
+      EU (Milan):
+        Dedicated: 2.719
+        Shared: 2.574
       eu-central-1:
         Dedicated: 2.815
         Shared: 2.646
@@ -34750,6 +35730,9 @@ m5a.12xlarge:
       ca-central-1:
         Dedicated: 4.652
         Shared: 4.512
+      EU (Milan):
+        Dedicated: 4.777
+        Shared: 4.632
       eu-central-1:
         Dedicated: 4.873
         Shared: 4.704
@@ -34791,6 +35774,7 @@ m5a.12xlarge:
     - us-west-1
     - eu-west-2
     - ap-south-1
+    - EU (Milan)
     - ap-northeast-2
     - us-gov-east-1
     - ap-northeast-1
@@ -34832,6 +35816,9 @@ m5a.16xlarge:
       ca-central-1:
         Dedicated: 3.258
         Shared: 3.072
+      EU (Milan):
+        Dedicated: 3.426
+        Shared: 3.232
       eu-central-1:
         Dedicated: 3.554
         Shared: 3.328
@@ -34884,6 +35871,9 @@ m5a.16xlarge:
       ca-central-1:
         Dedicated: 3.388
         Shared: 3.202
+      EU (Milan):
+        Dedicated: 3.556
+        Shared: 3.362
       eu-central-1:
         Dedicated: 3.684
         Shared: 3.458
@@ -34936,6 +35926,9 @@ m5a.16xlarge:
       ca-central-1:
         Dedicated: 3.408
         Shared: 3.222
+      EU (Milan):
+        Dedicated: 3.576
+        Shared: 3.382
       eu-central-1:
         Dedicated: 3.704
         Shared: 3.478
@@ -34988,6 +35981,9 @@ m5a.16xlarge:
       ca-central-1:
         Dedicated: 6.202
         Shared: 6.016
+      EU (Milan):
+        Dedicated: 6.37
+        Shared: 6.176
       eu-central-1:
         Dedicated: 6.498
         Shared: 6.272
@@ -35031,6 +36027,7 @@ m5a.16xlarge:
     - us-gov-east-1
     - us-east-1
     - ap-southeast-2
+    - EU (Milan)
     - ap-northeast-2
     - AWS GovCloud (US-West)
     - us-west-2
@@ -35070,6 +36067,9 @@ m5a.24xlarge:
       ca-central-1:
         Dedicated: 4.887
         Shared: 4.608
+      EU (Milan):
+        Dedicated: 5.139
+        Shared: 4.848
       eu-central-1:
         Dedicated: 5.33
         Shared: 4.992
@@ -35122,6 +36122,9 @@ m5a.24xlarge:
       ca-central-1:
         Dedicated: 5.017
         Shared: 4.738
+      EU (Milan):
+        Dedicated: 5.269
+        Shared: 4.978
       eu-central-1:
         Dedicated: 5.46
         Shared: 5.122
@@ -35174,6 +36177,9 @@ m5a.24xlarge:
       ca-central-1:
         Dedicated: 5.037
         Shared: 4.758
+      EU (Milan):
+        Dedicated: 5.289
+        Shared: 4.998
       eu-central-1:
         Dedicated: 5.48
         Shared: 5.142
@@ -35226,6 +36232,9 @@ m5a.24xlarge:
       ca-central-1:
         Dedicated: 9.303
         Shared: 9.024
+      EU (Milan):
+        Dedicated: 9.555
+        Shared: 9.264
       eu-central-1:
         Dedicated: 9.746
         Shared: 9.408
@@ -35271,6 +36280,7 @@ m5a.24xlarge:
     - ap-northeast-1
     - sa-east-1
     - eu-west-2
+    - EU (Milan)
     - ap-northeast-2
     - ap-southeast-1
     - us-east-2
@@ -35308,6 +36318,9 @@ m5a.2xlarge:
       ca-central-1:
         Dedicated: 0.407
         Shared: 0.384
+      EU (Milan):
+        Dedicated: 0.428
+        Shared: 0.404
       eu-central-1:
         Dedicated: 0.444
         Shared: 0.416
@@ -35360,6 +36373,9 @@ m5a.2xlarge:
       ca-central-1:
         Dedicated: 0.537
         Shared: 0.514
+      EU (Milan):
+        Dedicated: 0.558
+        Shared: 0.534
       eu-central-1:
         Dedicated: 0.574
         Shared: 0.546
@@ -35412,6 +36428,9 @@ m5a.2xlarge:
       ca-central-1:
         Dedicated: 0.557
         Shared: 0.534
+      EU (Milan):
+        Dedicated: 0.578
+        Shared: 0.554
       eu-central-1:
         Dedicated: 0.594
         Shared: 0.566
@@ -35464,6 +36483,9 @@ m5a.2xlarge:
       ca-central-1:
         Dedicated: 0.775
         Shared: 0.752
+      EU (Milan):
+        Dedicated: 0.796
+        Shared: 0.772
       eu-central-1:
         Dedicated: 0.812
         Shared: 0.784
@@ -35506,6 +36528,7 @@ m5a.2xlarge:
     - AWS GovCloud (US-West)
     - eu-west-1
     - ap-south-1
+    - EU (Milan)
     - eu-central-1
     - us-west-1
     - eu-west-3
@@ -35546,6 +36569,9 @@ m5a.4xlarge:
       ca-central-1:
         Dedicated: 0.815
         Shared: 0.768
+      EU (Milan):
+        Dedicated: 0.856
+        Shared: 0.808
       eu-central-1:
         Dedicated: 0.888
         Shared: 0.832
@@ -35598,6 +36624,9 @@ m5a.4xlarge:
       ca-central-1:
         Dedicated: 0.945
         Shared: 0.898
+      EU (Milan):
+        Dedicated: 0.986
+        Shared: 0.938
       eu-central-1:
         Dedicated: 1.018
         Shared: 0.962
@@ -35650,6 +36679,9 @@ m5a.4xlarge:
       ca-central-1:
         Dedicated: 0.965
         Shared: 0.918
+      EU (Milan):
+        Dedicated: 1.006
+        Shared: 0.958
       eu-central-1:
         Dedicated: 1.038
         Shared: 0.982
@@ -35702,6 +36734,9 @@ m5a.4xlarge:
       ca-central-1:
         Dedicated: 1.551
         Shared: 1.504
+      EU (Milan):
+        Dedicated: 1.592
+        Shared: 1.544
       eu-central-1:
         Dedicated: 1.624
         Shared: 1.568
@@ -35734,6 +36769,7 @@ m5a.4xlarge:
         Shared: 1.424
   regions:
     - eu-central-1
+    - EU (Milan)
     - ca-central-1
     - AWS GovCloud (US-West)
     - eu-west-2
@@ -35784,6 +36820,9 @@ m5a.8xlarge:
       ca-central-1:
         Dedicated: 1.629
         Shared: 1.536
+      EU (Milan):
+        Dedicated: 1.713
+        Shared: 1.616
       eu-central-1:
         Dedicated: 1.777
         Shared: 1.664
@@ -35836,6 +36875,9 @@ m5a.8xlarge:
       ca-central-1:
         Dedicated: 1.759
         Shared: 1.666
+      EU (Milan):
+        Dedicated: 1.843
+        Shared: 1.746
       eu-central-1:
         Dedicated: 1.907
         Shared: 1.794
@@ -35888,6 +36930,9 @@ m5a.8xlarge:
       ca-central-1:
         Dedicated: 1.779
         Shared: 1.686
+      EU (Milan):
+        Dedicated: 1.863
+        Shared: 1.766
       eu-central-1:
         Dedicated: 1.927
         Shared: 1.814
@@ -35940,6 +36985,9 @@ m5a.8xlarge:
       ca-central-1:
         Dedicated: 3.101
         Shared: 3.008
+      EU (Milan):
+        Dedicated: 3.185
+        Shared: 3.088
       eu-central-1:
         Dedicated: 3.249
         Shared: 3.136
@@ -35975,6 +37023,7 @@ m5a.8xlarge:
     - ca-central-1
     - ap-northeast-1
     - ap-southeast-1
+    - EU (Milan)
     - AWS GovCloud (US-West)
     - ap-southeast-2
     - us-west-2
@@ -36022,6 +37071,9 @@ m5a.large:
       ca-central-1:
         Dedicated: 0.102
         Shared: 0.096
+      EU (Milan):
+        Dedicated: 0.107
+        Shared: 0.101
       eu-central-1:
         Dedicated: 0.111
         Shared: 0.104
@@ -36074,6 +37126,9 @@ m5a.large:
       ca-central-1:
         Dedicated: 0.162
         Shared: 0.156
+      EU (Milan):
+        Dedicated: 0.167
+        Shared: 0.161
       eu-central-1:
         Dedicated: 0.171
         Shared: 0.164
@@ -36126,6 +37181,9 @@ m5a.large:
       ca-central-1:
         Dedicated: 0.165
         Shared: 0.159
+      EU (Milan):
+        Dedicated: 0.17
+        Shared: 0.164
       eu-central-1:
         Dedicated: 0.174
         Shared: 0.167
@@ -36178,6 +37236,9 @@ m5a.large:
       ca-central-1:
         Dedicated: 0.194
         Shared: 0.188
+      EU (Milan):
+        Dedicated: 0.199
+        Shared: 0.193
       eu-central-1:
         Dedicated: 0.203
         Shared: 0.196
@@ -36209,6 +37270,7 @@ m5a.large:
         Dedicated: 0.183
         Shared: 0.178
   regions:
+    - EU (Milan)
     - ap-northeast-2
     - ca-central-1
     - ap-southeast-1
@@ -36260,6 +37322,9 @@ m5a.xlarge:
       ca-central-1:
         Dedicated: 0.204
         Shared: 0.192
+      EU (Milan):
+        Dedicated: 0.214
+        Shared: 0.202
       eu-central-1:
         Dedicated: 0.222
         Shared: 0.208
@@ -36312,6 +37377,9 @@ m5a.xlarge:
       ca-central-1:
         Dedicated: 0.264
         Shared: 0.252
+      EU (Milan):
+        Dedicated: 0.274
+        Shared: 0.262
       eu-central-1:
         Dedicated: 0.282
         Shared: 0.268
@@ -36364,6 +37432,9 @@ m5a.xlarge:
       ca-central-1:
         Dedicated: 0.329
         Shared: 0.317
+      EU (Milan):
+        Dedicated: 0.339
+        Shared: 0.327
       eu-central-1:
         Dedicated: 0.347
         Shared: 0.333
@@ -36416,6 +37487,9 @@ m5a.xlarge:
       ca-central-1:
         Dedicated: 0.388
         Shared: 0.376
+      EU (Milan):
+        Dedicated: 0.398
+        Shared: 0.386
       eu-central-1:
         Dedicated: 0.406
         Shared: 0.392
@@ -36447,6 +37521,7 @@ m5a.xlarge:
         Dedicated: 0.366
         Shared: 0.356
   regions:
+    - EU (Milan)
     - ap-northeast-1
     - us-east-2
     - us-east-1
@@ -36499,7 +37574,7 @@ m5ad.12xlarge:
         Dedicated: 2.929
         Shared: 2.76
       eu-central-1:
-        Dedicated: 3.203
+        Dedicated: 3.18
         Shared: 3
       eu-west-1:
         Dedicated: 2.944
@@ -36508,7 +37583,7 @@ m5ad.12xlarge:
         Dedicated: 3.072
         Shared: 2.88
       eu-west-3:
-        Dedicated: 3.098
+        Dedicated: 3.078
         Shared: 2.904
       sa-east-1:
         Dedicated: 4.189
@@ -36548,7 +37623,7 @@ m5ad.12xlarge:
         Dedicated: 3.059
         Shared: 2.89
       eu-central-1:
-        Dedicated: 3.333
+        Dedicated: 3.31
         Shared: 3.13
       eu-west-1:
         Dedicated: 3.074
@@ -36557,7 +37632,7 @@ m5ad.12xlarge:
         Dedicated: 3.202
         Shared: 3.01
       eu-west-3:
-        Dedicated: 3.228
+        Dedicated: 3.208
         Shared: 3.034
       sa-east-1:
         Dedicated: 4.319
@@ -36597,7 +37672,7 @@ m5ad.12xlarge:
         Dedicated: 3.079
         Shared: 2.91
       eu-central-1:
-        Dedicated: 3.353
+        Dedicated: 3.33
         Shared: 3.15
       eu-west-1:
         Dedicated: 3.094
@@ -36606,7 +37681,7 @@ m5ad.12xlarge:
         Dedicated: 3.222
         Shared: 3.03
       eu-west-3:
-        Dedicated: 3.248
+        Dedicated: 3.228
         Shared: 3.054
       sa-east-1:
         Dedicated: 4.339
@@ -36646,7 +37721,7 @@ m5ad.12xlarge:
         Dedicated: 5.137
         Shared: 4.968
       eu-central-1:
-        Dedicated: 5.411
+        Dedicated: 5.388
         Shared: 5.208
       eu-west-1:
         Dedicated: 5.152
@@ -36655,7 +37730,7 @@ m5ad.12xlarge:
         Dedicated: 5.28
         Shared: 5.088
       eu-west-3:
-        Dedicated: 5.306
+        Dedicated: 5.286
         Shared: 5.112
       sa-east-1:
         Dedicated: 6.397
@@ -36724,7 +37799,7 @@ m5ad.16xlarge:
         Dedicated: 3.905
         Shared: 3.68
       eu-central-1:
-        Dedicated: 4.271
+        Dedicated: 4.24
         Shared: 4
       eu-west-1:
         Dedicated: 3.926
@@ -36733,7 +37808,7 @@ m5ad.16xlarge:
         Dedicated: 4.096
         Shared: 3.84
       eu-west-3:
-        Dedicated: 4.13
+        Dedicated: 4.104
         Shared: 3.872
       sa-east-1:
         Dedicated: 5.585
@@ -36741,11 +37816,14 @@ m5ad.16xlarge:
       us-east-1:
         Dedicated: 3.494
         Shared: 3.296
+      us-east-2:
+        Dedicated: 3.494
+        Shared: 3.296
       us-west-1:
         Dedicated: 4.18
         Shared: 3.904
       us-west-2:
-        Dedicated: 3.497
+        Dedicated: 3.494
         Shared: 3.296
     RHEL:
       ap-northeast-1:
@@ -36770,7 +37848,7 @@ m5ad.16xlarge:
         Dedicated: 4.035
         Shared: 3.81
       eu-central-1:
-        Dedicated: 4.401
+        Dedicated: 4.37
         Shared: 4.13
       eu-west-1:
         Dedicated: 4.056
@@ -36779,7 +37857,7 @@ m5ad.16xlarge:
         Dedicated: 4.226
         Shared: 3.97
       eu-west-3:
-        Dedicated: 4.26
+        Dedicated: 4.234
         Shared: 4.002
       sa-east-1:
         Dedicated: 5.715
@@ -36787,11 +37865,14 @@ m5ad.16xlarge:
       us-east-1:
         Dedicated: 3.624
         Shared: 3.426
+      us-east-2:
+        Dedicated: 3.624
+        Shared: 3.426
       us-west-1:
         Dedicated: 4.31
         Shared: 4.034
       us-west-2:
-        Dedicated: 3.627
+        Dedicated: 3.624
         Shared: 3.426
     SUSE:
       ap-northeast-1:
@@ -36816,7 +37897,7 @@ m5ad.16xlarge:
         Dedicated: 4.055
         Shared: 3.83
       eu-central-1:
-        Dedicated: 4.421
+        Dedicated: 4.39
         Shared: 4.15
       eu-west-1:
         Dedicated: 4.076
@@ -36825,7 +37906,7 @@ m5ad.16xlarge:
         Dedicated: 4.246
         Shared: 3.99
       eu-west-3:
-        Dedicated: 4.28
+        Dedicated: 4.254
         Shared: 4.022
       sa-east-1:
         Dedicated: 5.735
@@ -36833,11 +37914,14 @@ m5ad.16xlarge:
       us-east-1:
         Dedicated: 3.644
         Shared: 3.446
+      us-east-2:
+        Dedicated: 3.644
+        Shared: 3.446
       us-west-1:
         Dedicated: 4.33
         Shared: 4.054
       us-west-2:
-        Dedicated: 3.647
+        Dedicated: 3.644
         Shared: 3.446
     Windows:
       ap-northeast-1:
@@ -36862,7 +37946,7 @@ m5ad.16xlarge:
         Dedicated: 6.849
         Shared: 6.624
       eu-central-1:
-        Dedicated: 7.215
+        Dedicated: 7.184
         Shared: 6.944
       eu-west-1:
         Dedicated: 6.87
@@ -36871,7 +37955,7 @@ m5ad.16xlarge:
         Dedicated: 7.04
         Shared: 6.784
       eu-west-3:
-        Dedicated: 7.074
+        Dedicated: 7.048
         Shared: 6.816
       sa-east-1:
         Dedicated: 8.529
@@ -36879,11 +37963,14 @@ m5ad.16xlarge:
       us-east-1:
         Dedicated: 6.438
         Shared: 6.24
+      us-east-2:
+        Dedicated: 6.438
+        Shared: 6.24
       us-west-1:
         Dedicated: 7.124
         Shared: 6.848
       us-west-2:
-        Dedicated: 6.441
+        Dedicated: 6.438
         Shared: 6.24
   regions:
     - us-west-2
@@ -36899,6 +37986,7 @@ m5ad.16xlarge:
     - eu-west-2
     - sa-east-1
     - eu-west-1
+    - us-east-2
     - us-west-1
     - ap-southeast-2
   storage: 4 x 600 NVMe SSD
@@ -36936,7 +38024,7 @@ m5ad.24xlarge:
         Dedicated: 5.857
         Shared: 5.52
       eu-central-1:
-        Dedicated: 6.406
+        Dedicated: 6.36
         Shared: 6
       eu-west-1:
         Dedicated: 5.889
@@ -36945,7 +38033,7 @@ m5ad.24xlarge:
         Dedicated: 6.144
         Shared: 5.76
       eu-west-3:
-        Dedicated: 6.196
+        Dedicated: 6.156
         Shared: 5.808
       sa-east-1:
         Dedicated: 8.378
@@ -36985,7 +38073,7 @@ m5ad.24xlarge:
         Dedicated: 5.987
         Shared: 5.65
       eu-central-1:
-        Dedicated: 6.536
+        Dedicated: 6.49
         Shared: 6.13
       eu-west-1:
         Dedicated: 6.019
@@ -36994,7 +38082,7 @@ m5ad.24xlarge:
         Dedicated: 6.274
         Shared: 5.89
       eu-west-3:
-        Dedicated: 6.326
+        Dedicated: 6.286
         Shared: 5.938
       sa-east-1:
         Dedicated: 8.508
@@ -37034,7 +38122,7 @@ m5ad.24xlarge:
         Dedicated: 6.007
         Shared: 5.67
       eu-central-1:
-        Dedicated: 6.556
+        Dedicated: 6.51
         Shared: 6.15
       eu-west-1:
         Dedicated: 6.039
@@ -37043,7 +38131,7 @@ m5ad.24xlarge:
         Dedicated: 6.294
         Shared: 5.91
       eu-west-3:
-        Dedicated: 6.346
+        Dedicated: 6.306
         Shared: 5.958
       sa-east-1:
         Dedicated: 8.528
@@ -37083,7 +38171,7 @@ m5ad.24xlarge:
         Dedicated: 10.273
         Shared: 9.936
       eu-central-1:
-        Dedicated: 10.822
+        Dedicated: 10.776
         Shared: 10.416
       eu-west-1:
         Dedicated: 10.305
@@ -37092,7 +38180,7 @@ m5ad.24xlarge:
         Dedicated: 10.56
         Shared: 10.176
       eu-west-3:
-        Dedicated: 10.612
+        Dedicated: 10.572
         Shared: 10.224
       sa-east-1:
         Dedicated: 12.794
@@ -37161,7 +38249,7 @@ m5ad.2xlarge:
         Dedicated: 0.488
         Shared: 0.46
       eu-central-1:
-        Dedicated: 0.534
+        Dedicated: 0.53
         Shared: 0.5
       eu-west-1:
         Dedicated: 0.491
@@ -37170,7 +38258,7 @@ m5ad.2xlarge:
         Dedicated: 0.512
         Shared: 0.48
       eu-west-3:
-        Dedicated: 0.516
+        Dedicated: 0.513
         Shared: 0.484
       sa-east-1:
         Dedicated: 0.698
@@ -37210,7 +38298,7 @@ m5ad.2xlarge:
         Dedicated: 0.618
         Shared: 0.59
       eu-central-1:
-        Dedicated: 0.664
+        Dedicated: 0.66
         Shared: 0.63
       eu-west-1:
         Dedicated: 0.621
@@ -37219,7 +38307,7 @@ m5ad.2xlarge:
         Dedicated: 0.642
         Shared: 0.61
       eu-west-3:
-        Dedicated: 0.646
+        Dedicated: 0.643
         Shared: 0.614
       sa-east-1:
         Dedicated: 0.828
@@ -37259,7 +38347,7 @@ m5ad.2xlarge:
         Dedicated: 0.638
         Shared: 0.61
       eu-central-1:
-        Dedicated: 0.684
+        Dedicated: 0.68
         Shared: 0.65
       eu-west-1:
         Dedicated: 0.641
@@ -37268,7 +38356,7 @@ m5ad.2xlarge:
         Dedicated: 0.662
         Shared: 0.63
       eu-west-3:
-        Dedicated: 0.666
+        Dedicated: 0.663
         Shared: 0.634
       sa-east-1:
         Dedicated: 0.848
@@ -37308,7 +38396,7 @@ m5ad.2xlarge:
         Dedicated: 0.856
         Shared: 0.828
       eu-central-1:
-        Dedicated: 0.902
+        Dedicated: 0.898
         Shared: 0.868
       eu-west-1:
         Dedicated: 0.859
@@ -37317,7 +38405,7 @@ m5ad.2xlarge:
         Dedicated: 0.88
         Shared: 0.848
       eu-west-3:
-        Dedicated: 0.884
+        Dedicated: 0.881
         Shared: 0.852
       sa-east-1:
         Dedicated: 1.066
@@ -37386,7 +38474,7 @@ m5ad.4xlarge:
         Dedicated: 0.976
         Shared: 0.92
       eu-central-1:
-        Dedicated: 1.068
+        Dedicated: 1.06
         Shared: 1
       eu-west-1:
         Dedicated: 0.981
@@ -37395,7 +38483,7 @@ m5ad.4xlarge:
         Dedicated: 1.024
         Shared: 0.96
       eu-west-3:
-        Dedicated: 1.033
+        Dedicated: 1.026
         Shared: 0.968
       sa-east-1:
         Dedicated: 1.396
@@ -37435,7 +38523,7 @@ m5ad.4xlarge:
         Dedicated: 1.106
         Shared: 1.05
       eu-central-1:
-        Dedicated: 1.198
+        Dedicated: 1.19
         Shared: 1.13
       eu-west-1:
         Dedicated: 1.111
@@ -37444,7 +38532,7 @@ m5ad.4xlarge:
         Dedicated: 1.154
         Shared: 1.09
       eu-west-3:
-        Dedicated: 1.163
+        Dedicated: 1.156
         Shared: 1.098
       sa-east-1:
         Dedicated: 1.526
@@ -37484,7 +38572,7 @@ m5ad.4xlarge:
         Dedicated: 1.126
         Shared: 1.07
       eu-central-1:
-        Dedicated: 1.218
+        Dedicated: 1.21
         Shared: 1.15
       eu-west-1:
         Dedicated: 1.131
@@ -37493,7 +38581,7 @@ m5ad.4xlarge:
         Dedicated: 1.174
         Shared: 1.11
       eu-west-3:
-        Dedicated: 1.183
+        Dedicated: 1.176
         Shared: 1.118
       sa-east-1:
         Dedicated: 1.546
@@ -37533,7 +38621,7 @@ m5ad.4xlarge:
         Dedicated: 1.712
         Shared: 1.656
       eu-central-1:
-        Dedicated: 1.804
+        Dedicated: 1.796
         Shared: 1.736
       eu-west-1:
         Dedicated: 1.717
@@ -37542,7 +38630,7 @@ m5ad.4xlarge:
         Dedicated: 1.76
         Shared: 1.696
       eu-west-3:
-        Dedicated: 1.769
+        Dedicated: 1.762
         Shared: 1.704
       sa-east-1:
         Dedicated: 2.132
@@ -37611,7 +38699,7 @@ m5ad.8xlarge:
         Dedicated: 1.952
         Shared: 1.84
       eu-central-1:
-        Dedicated: 2.135
+        Dedicated: 2.12
         Shared: 2
       eu-west-1:
         Dedicated: 1.963
@@ -37620,7 +38708,7 @@ m5ad.8xlarge:
         Dedicated: 2.048
         Shared: 1.92
       eu-west-3:
-        Dedicated: 2.065
+        Dedicated: 2.052
         Shared: 1.936
       sa-east-1:
         Dedicated: 2.793
@@ -37628,11 +38716,14 @@ m5ad.8xlarge:
       us-east-1:
         Dedicated: 1.747
         Shared: 1.648
+      us-east-2:
+        Dedicated: 1.747
+        Shared: 1.648
       us-west-1:
         Dedicated: 2.09
         Shared: 1.952
       us-west-2:
-        Dedicated: 1.748
+        Dedicated: 1.747
         Shared: 1.648
     RHEL:
       ap-northeast-1:
@@ -37657,7 +38748,7 @@ m5ad.8xlarge:
         Dedicated: 2.082
         Shared: 1.97
       eu-central-1:
-        Dedicated: 2.265
+        Dedicated: 2.25
         Shared: 2.13
       eu-west-1:
         Dedicated: 2.093
@@ -37666,7 +38757,7 @@ m5ad.8xlarge:
         Dedicated: 2.178
         Shared: 2.05
       eu-west-3:
-        Dedicated: 2.195
+        Dedicated: 2.182
         Shared: 2.066
       sa-east-1:
         Dedicated: 2.923
@@ -37674,11 +38765,14 @@ m5ad.8xlarge:
       us-east-1:
         Dedicated: 1.877
         Shared: 1.778
+      us-east-2:
+        Dedicated: 1.877
+        Shared: 1.778
       us-west-1:
         Dedicated: 2.22
         Shared: 2.082
       us-west-2:
-        Dedicated: 1.878
+        Dedicated: 1.877
         Shared: 1.778
     SUSE:
       ap-northeast-1:
@@ -37703,7 +38797,7 @@ m5ad.8xlarge:
         Dedicated: 2.102
         Shared: 1.99
       eu-central-1:
-        Dedicated: 2.285
+        Dedicated: 2.27
         Shared: 2.15
       eu-west-1:
         Dedicated: 2.113
@@ -37712,7 +38806,7 @@ m5ad.8xlarge:
         Dedicated: 2.198
         Shared: 2.07
       eu-west-3:
-        Dedicated: 2.215
+        Dedicated: 2.202
         Shared: 2.086
       sa-east-1:
         Dedicated: 2.943
@@ -37720,11 +38814,14 @@ m5ad.8xlarge:
       us-east-1:
         Dedicated: 1.897
         Shared: 1.798
+      us-east-2:
+        Dedicated: 1.897
+        Shared: 1.798
       us-west-1:
         Dedicated: 2.24
         Shared: 2.102
       us-west-2:
-        Dedicated: 1.898
+        Dedicated: 1.897
         Shared: 1.798
     Windows:
       ap-northeast-1:
@@ -37749,7 +38846,7 @@ m5ad.8xlarge:
         Dedicated: 3.424
         Shared: 3.312
       eu-central-1:
-        Dedicated: 3.607
+        Dedicated: 3.592
         Shared: 3.472
       eu-west-1:
         Dedicated: 3.435
@@ -37758,7 +38855,7 @@ m5ad.8xlarge:
         Dedicated: 3.52
         Shared: 3.392
       eu-west-3:
-        Dedicated: 3.537
+        Dedicated: 3.524
         Shared: 3.408
       sa-east-1:
         Dedicated: 4.265
@@ -37766,11 +38863,14 @@ m5ad.8xlarge:
       us-east-1:
         Dedicated: 3.219
         Shared: 3.12
+      us-east-2:
+        Dedicated: 3.219
+        Shared: 3.12
       us-west-1:
         Dedicated: 3.562
         Shared: 3.424
       us-west-2:
-        Dedicated: 3.22
+        Dedicated: 3.219
         Shared: 3.12
   regions:
     - ap-northeast-2
@@ -37783,6 +38883,7 @@ m5ad.8xlarge:
     - ap-southeast-2
     - eu-west-3
     - ap-southeast-1
+    - us-east-2
     - eu-west-2
     - AWS GovCloud (US-West)
     - ap-northeast-1
@@ -37832,7 +38933,7 @@ m5ad.large:
         Dedicated: 0.128
         Shared: 0.12
       eu-west-3:
-        Dedicated: 0.129
+        Dedicated: 0.128
         Shared: 0.121
       sa-east-1:
         Dedicated: 0.175
@@ -37881,7 +38982,7 @@ m5ad.large:
         Dedicated: 0.188
         Shared: 0.18
       eu-west-3:
-        Dedicated: 0.189
+        Dedicated: 0.188
         Shared: 0.181
       sa-east-1:
         Dedicated: 0.235
@@ -37930,7 +39031,7 @@ m5ad.large:
         Dedicated: 0.191
         Shared: 0.183
       eu-west-3:
-        Dedicated: 0.192
+        Dedicated: 0.191
         Shared: 0.184
       sa-east-1:
         Dedicated: 0.238
@@ -37979,7 +39080,7 @@ m5ad.large:
         Dedicated: 0.22
         Shared: 0.212
       eu-west-3:
-        Dedicated: 0.221
+        Dedicated: 0.22
         Shared: 0.213
       sa-east-1:
         Dedicated: 0.267
@@ -38048,7 +39149,7 @@ m5ad.xlarge:
         Dedicated: 0.244
         Shared: 0.23
       eu-central-1:
-        Dedicated: 0.267
+        Dedicated: 0.265
         Shared: 0.25
       eu-west-1:
         Dedicated: 0.245
@@ -38057,7 +39158,7 @@ m5ad.xlarge:
         Dedicated: 0.256
         Shared: 0.24
       eu-west-3:
-        Dedicated: 0.258
+        Dedicated: 0.257
         Shared: 0.242
       sa-east-1:
         Dedicated: 0.349
@@ -38097,7 +39198,7 @@ m5ad.xlarge:
         Dedicated: 0.304
         Shared: 0.29
       eu-central-1:
-        Dedicated: 0.327
+        Dedicated: 0.325
         Shared: 0.31
       eu-west-1:
         Dedicated: 0.305
@@ -38106,7 +39207,7 @@ m5ad.xlarge:
         Dedicated: 0.316
         Shared: 0.3
       eu-west-3:
-        Dedicated: 0.318
+        Dedicated: 0.317
         Shared: 0.302
       sa-east-1:
         Dedicated: 0.409
@@ -38146,7 +39247,7 @@ m5ad.xlarge:
         Dedicated: 0.369
         Shared: 0.355
       eu-central-1:
-        Dedicated: 0.392
+        Dedicated: 0.39
         Shared: 0.375
       eu-west-1:
         Dedicated: 0.37
@@ -38155,7 +39256,7 @@ m5ad.xlarge:
         Dedicated: 0.381
         Shared: 0.365
       eu-west-3:
-        Dedicated: 0.383
+        Dedicated: 0.382
         Shared: 0.367
       sa-east-1:
         Dedicated: 0.474
@@ -38195,7 +39296,7 @@ m5ad.xlarge:
         Dedicated: 0.428
         Shared: 0.414
       eu-central-1:
-        Dedicated: 0.451
+        Dedicated: 0.449
         Shared: 0.434
       eu-west-1:
         Dedicated: 0.429
@@ -38204,7 +39305,7 @@ m5ad.xlarge:
         Dedicated: 0.44
         Shared: 0.424
       eu-west-3:
-        Dedicated: 0.442
+        Dedicated: 0.441
         Shared: 0.426
       sa-east-1:
         Dedicated: 0.533
@@ -53660,6 +54761,9 @@ r5a.12xlarge:
       ca-central-1:
         Dedicated: 3.155
         Shared: 2.976
+      EU (Milan):
+        Dedicated: 3.384
+        Shared: 3.192
       eu-central-1:
         Dedicated: 3.485
         Shared: 3.288
@@ -53712,6 +54816,9 @@ r5a.12xlarge:
       ca-central-1:
         Dedicated: 3.285
         Shared: 3.106
+      EU (Milan):
+        Dedicated: 3.514
+        Shared: 3.322
       eu-central-1:
         Dedicated: 3.615
         Shared: 3.418
@@ -53764,6 +54871,9 @@ r5a.12xlarge:
       ca-central-1:
         Dedicated: 3.305
         Shared: 3.126
+      EU (Milan):
+        Dedicated: 3.534
+        Shared: 3.342
       eu-central-1:
         Dedicated: 3.635
         Shared: 3.438
@@ -53816,6 +54926,9 @@ r5a.12xlarge:
       ca-central-1:
         Dedicated: 5.363
         Shared: 5.184
+      EU (Milan):
+        Dedicated: 5.592
+        Shared: 5.4
       eu-central-1:
         Dedicated: 5.693
         Shared: 5.496
@@ -53863,6 +54976,7 @@ r5a.12xlarge:
     - AWS GovCloud (US-West)
     - ap-southeast-1
     - eu-west-3
+    - EU (Milan)
     - us-west-1
   storage: EBS only
   vcpu: 48
@@ -53898,6 +55012,9 @@ r5a.16xlarge:
       ca-central-1:
         Dedicated: 4.207
         Shared: 3.968
+      EU (Milan):
+        Dedicated: 4.511
+        Shared: 4.256
       eu-central-1:
         Dedicated: 4.647
         Shared: 4.384
@@ -53950,6 +55067,9 @@ r5a.16xlarge:
       ca-central-1:
         Dedicated: 4.337
         Shared: 4.098
+      EU (Milan):
+        Dedicated: 4.641
+        Shared: 4.386
       eu-central-1:
         Dedicated: 4.777
         Shared: 4.514
@@ -54002,6 +55122,9 @@ r5a.16xlarge:
       ca-central-1:
         Dedicated: 4.357
         Shared: 4.118
+      EU (Milan):
+        Dedicated: 4.661
+        Shared: 4.406
       eu-central-1:
         Dedicated: 4.797
         Shared: 4.534
@@ -54054,6 +55177,9 @@ r5a.16xlarge:
       ca-central-1:
         Dedicated: 7.151
         Shared: 6.912
+      EU (Milan):
+        Dedicated: 7.455
+        Shared: 7.2
       eu-central-1:
         Dedicated: 7.591
         Shared: 7.328
@@ -54098,6 +55224,7 @@ r5a.16xlarge:
     - us-east-1
     - ap-southeast-2
     - ap-northeast-1
+    - EU (Milan)
     - eu-west-2
     - ap-southeast-1
     - us-gov-east-1
@@ -54136,6 +55263,9 @@ r5a.24xlarge:
       ca-central-1:
         Dedicated: 6.31
         Shared: 5.952
+      EU (Milan):
+        Dedicated: 6.767
+        Shared: 6.384
       eu-central-1:
         Dedicated: 6.97
         Shared: 6.576
@@ -54188,6 +55318,9 @@ r5a.24xlarge:
       ca-central-1:
         Dedicated: 6.44
         Shared: 6.082
+      EU (Milan):
+        Dedicated: 6.897
+        Shared: 6.514
       eu-central-1:
         Dedicated: 7.1
         Shared: 6.706
@@ -54240,6 +55373,9 @@ r5a.24xlarge:
       ca-central-1:
         Dedicated: 6.46
         Shared: 6.102
+      EU (Milan):
+        Dedicated: 6.917
+        Shared: 6.534
       eu-central-1:
         Dedicated: 7.12
         Shared: 6.726
@@ -54292,6 +55428,9 @@ r5a.24xlarge:
       ca-central-1:
         Dedicated: 10.726
         Shared: 10.368
+      EU (Milan):
+        Dedicated: 11.183
+        Shared: 10.8
       eu-central-1:
         Dedicated: 11.386
         Shared: 10.992
@@ -54329,6 +55468,7 @@ r5a.24xlarge:
     - ca-central-1
     - ap-southeast-2
     - us-east-2
+    - EU (Milan)
     - eu-central-1
     - eu-west-3
     - ap-southeast-1
@@ -54374,6 +55514,9 @@ r5a.2xlarge:
       ca-central-1:
         Dedicated: 0.526
         Shared: 0.496
+      EU (Milan):
+        Dedicated: 0.564
+        Shared: 0.532
       eu-central-1:
         Dedicated: 0.581
         Shared: 0.548
@@ -54426,6 +55569,9 @@ r5a.2xlarge:
       ca-central-1:
         Dedicated: 0.656
         Shared: 0.626
+      EU (Milan):
+        Dedicated: 0.694
+        Shared: 0.662
       eu-central-1:
         Dedicated: 0.711
         Shared: 0.678
@@ -54478,6 +55624,9 @@ r5a.2xlarge:
       ca-central-1:
         Dedicated: 0.676
         Shared: 0.646
+      EU (Milan):
+        Dedicated: 0.714
+        Shared: 0.682
       eu-central-1:
         Dedicated: 0.731
         Shared: 0.698
@@ -54530,6 +55679,9 @@ r5a.2xlarge:
       ca-central-1:
         Dedicated: 0.894
         Shared: 0.864
+      EU (Milan):
+        Dedicated: 0.932
+        Shared: 0.9
       eu-central-1:
         Dedicated: 0.949
         Shared: 0.916
@@ -54572,6 +55724,7 @@ r5a.2xlarge:
     - eu-central-1
     - us-gov-east-1
     - ap-south-1
+    - EU (Milan)
     - ap-southeast-2
     - AWS GovCloud (US-West)
     - us-west-1
@@ -54612,6 +55765,9 @@ r5a.4xlarge:
       ca-central-1:
         Dedicated: 1.052
         Shared: 0.992
+      EU (Milan):
+        Dedicated: 1.128
+        Shared: 1.064
       eu-central-1:
         Dedicated: 1.162
         Shared: 1.096
@@ -54664,6 +55820,9 @@ r5a.4xlarge:
       ca-central-1:
         Dedicated: 1.182
         Shared: 1.122
+      EU (Milan):
+        Dedicated: 1.258
+        Shared: 1.194
       eu-central-1:
         Dedicated: 1.292
         Shared: 1.226
@@ -54716,6 +55875,9 @@ r5a.4xlarge:
       ca-central-1:
         Dedicated: 1.202
         Shared: 1.142
+      EU (Milan):
+        Dedicated: 1.278
+        Shared: 1.214
       eu-central-1:
         Dedicated: 1.312
         Shared: 1.246
@@ -54768,6 +55930,9 @@ r5a.4xlarge:
       ca-central-1:
         Dedicated: 1.788
         Shared: 1.728
+      EU (Milan):
+        Dedicated: 1.864
+        Shared: 1.8
       eu-central-1:
         Dedicated: 1.898
         Shared: 1.832
@@ -54803,6 +55968,7 @@ r5a.4xlarge:
     - eu-central-1
     - AWS GovCloud (US-West)
     - ap-southeast-2
+    - EU (Milan)
     - us-west-1
     - ap-southeast-1
     - us-gov-east-1
@@ -54850,6 +56016,9 @@ r5a.8xlarge:
       ca-central-1:
         Dedicated: 2.103
         Shared: 1.984
+      EU (Milan):
+        Dedicated: 2.256
+        Shared: 2.128
       eu-central-1:
         Dedicated: 2.323
         Shared: 2.192
@@ -54902,6 +56071,9 @@ r5a.8xlarge:
       ca-central-1:
         Dedicated: 2.233
         Shared: 2.114
+      EU (Milan):
+        Dedicated: 2.386
+        Shared: 2.258
       eu-central-1:
         Dedicated: 2.453
         Shared: 2.322
@@ -54954,6 +56126,9 @@ r5a.8xlarge:
       ca-central-1:
         Dedicated: 2.253
         Shared: 2.134
+      EU (Milan):
+        Dedicated: 2.406
+        Shared: 2.278
       eu-central-1:
         Dedicated: 2.473
         Shared: 2.342
@@ -55006,6 +56181,9 @@ r5a.8xlarge:
       ca-central-1:
         Dedicated: 3.575
         Shared: 3.456
+      EU (Milan):
+        Dedicated: 3.728
+        Shared: 3.6
       eu-central-1:
         Dedicated: 3.795
         Shared: 3.664
@@ -55041,6 +56219,7 @@ r5a.8xlarge:
     - us-west-1
     - us-gov-east-1
     - ap-northeast-1
+    - EU (Milan)
     - eu-central-1
     - us-east-1
     - ap-southeast-2
@@ -55088,6 +56267,9 @@ r5a.large:
       ca-central-1:
         Dedicated: 0.131
         Shared: 0.124
+      EU (Milan):
+        Dedicated: 0.141
+        Shared: 0.133
       eu-central-1:
         Dedicated: 0.145
         Shared: 0.137
@@ -55140,6 +56322,9 @@ r5a.large:
       ca-central-1:
         Dedicated: 0.191
         Shared: 0.184
+      EU (Milan):
+        Dedicated: 0.201
+        Shared: 0.193
       eu-central-1:
         Dedicated: 0.205
         Shared: 0.197
@@ -55192,6 +56377,9 @@ r5a.large:
       ca-central-1:
         Dedicated: 0.194
         Shared: 0.187
+      EU (Milan):
+        Dedicated: 0.204
+        Shared: 0.196
       eu-central-1:
         Dedicated: 0.208
         Shared: 0.2
@@ -55244,6 +56432,9 @@ r5a.large:
       ca-central-1:
         Dedicated: 0.223
         Shared: 0.216
+      EU (Milan):
+        Dedicated: 0.233
+        Shared: 0.225
       eu-central-1:
         Dedicated: 0.237
         Shared: 0.229
@@ -55282,6 +56473,7 @@ r5a.large:
     - ap-south-1
     - us-east-2
     - ca-central-1
+    - EU (Milan)
     - eu-west-1
     - sa-east-1
     - ap-northeast-2
@@ -55326,6 +56518,9 @@ r5a.xlarge:
       ca-central-1:
         Dedicated: 0.263
         Shared: 0.248
+      EU (Milan):
+        Dedicated: 0.282
+        Shared: 0.266
       eu-central-1:
         Dedicated: 0.29
         Shared: 0.274
@@ -55378,6 +56573,9 @@ r5a.xlarge:
       ca-central-1:
         Dedicated: 0.323
         Shared: 0.308
+      EU (Milan):
+        Dedicated: 0.342
+        Shared: 0.326
       eu-central-1:
         Dedicated: 0.35
         Shared: 0.334
@@ -55430,6 +56628,9 @@ r5a.xlarge:
       ca-central-1:
         Dedicated: 0.388
         Shared: 0.373
+      EU (Milan):
+        Dedicated: 0.407
+        Shared: 0.391
       eu-central-1:
         Dedicated: 0.415
         Shared: 0.399
@@ -55482,6 +56683,9 @@ r5a.xlarge:
       ca-central-1:
         Dedicated: 0.447
         Shared: 0.432
+      EU (Milan):
+        Dedicated: 0.466
+        Shared: 0.45
       eu-central-1:
         Dedicated: 0.474
         Shared: 0.458
@@ -55514,6 +56718,7 @@ r5a.xlarge:
         Shared: 0.226
   regions:
     - eu-west-3
+    - EU (Milan)
     - sa-east-1
     - AWS GovCloud (US-West)
     - ap-southeast-2
@@ -55574,7 +56779,7 @@ r5ad.12xlarge:
         Dedicated: 3.92
         Shared: 3.696
       eu-west-3:
-        Dedicated: 3.896
+        Dedicated: 3.892
         Shared: 3.672
       sa-east-1:
         Dedicated: 5.294
@@ -55623,7 +56828,7 @@ r5ad.12xlarge:
         Dedicated: 4.05
         Shared: 3.826
       eu-west-3:
-        Dedicated: 4.026
+        Dedicated: 4.022
         Shared: 3.802
       sa-east-1:
         Dedicated: 5.424
@@ -55672,7 +56877,7 @@ r5ad.12xlarge:
         Dedicated: 4.07
         Shared: 3.846
       eu-west-3:
-        Dedicated: 4.046
+        Dedicated: 4.042
         Shared: 3.822
       sa-east-1:
         Dedicated: 5.444
@@ -55721,7 +56926,7 @@ r5ad.12xlarge:
         Dedicated: 6.128
         Shared: 5.904
       eu-west-3:
-        Dedicated: 6.104
+        Dedicated: 6.1
         Shared: 5.88
       sa-east-1:
         Dedicated: 7.502
@@ -55799,7 +57004,7 @@ r5ad.16xlarge:
         Dedicated: 5.226
         Shared: 4.928
       eu-west-3:
-        Dedicated: 5.195
+        Dedicated: 5.19
         Shared: 4.896
       sa-east-1:
         Dedicated: 7.059
@@ -55807,11 +57012,14 @@ r5ad.16xlarge:
       us-east-1:
         Dedicated: 4.444
         Shared: 4.192
+      us-east-2:
+        Dedicated: 4.444
+        Shared: 4.192
       us-west-1:
         Dedicated: 5.024
         Shared: 4.736
       us-west-2:
-        Dedicated: 4.445
+        Dedicated: 4.444
         Shared: 4.192
     RHEL:
       ap-northeast-1:
@@ -55845,7 +57053,7 @@ r5ad.16xlarge:
         Dedicated: 5.356
         Shared: 5.058
       eu-west-3:
-        Dedicated: 5.325
+        Dedicated: 5.32
         Shared: 5.026
       sa-east-1:
         Dedicated: 7.189
@@ -55853,11 +57061,14 @@ r5ad.16xlarge:
       us-east-1:
         Dedicated: 4.574
         Shared: 4.322
+      us-east-2:
+        Dedicated: 4.574
+        Shared: 4.322
       us-west-1:
         Dedicated: 5.154
         Shared: 4.866
       us-west-2:
-        Dedicated: 4.575
+        Dedicated: 4.574
         Shared: 4.322
     SUSE:
       ap-northeast-1:
@@ -55891,7 +57102,7 @@ r5ad.16xlarge:
         Dedicated: 5.376
         Shared: 5.078
       eu-west-3:
-        Dedicated: 5.345
+        Dedicated: 5.34
         Shared: 5.046
       sa-east-1:
         Dedicated: 7.209
@@ -55899,11 +57110,14 @@ r5ad.16xlarge:
       us-east-1:
         Dedicated: 4.594
         Shared: 4.342
+      us-east-2:
+        Dedicated: 4.594
+        Shared: 4.342
       us-west-1:
         Dedicated: 5.174
         Shared: 4.886
       us-west-2:
-        Dedicated: 4.595
+        Dedicated: 4.594
         Shared: 4.342
     Windows:
       ap-northeast-1:
@@ -55937,7 +57151,7 @@ r5ad.16xlarge:
         Dedicated: 8.17
         Shared: 7.872
       eu-west-3:
-        Dedicated: 8.139
+        Dedicated: 8.134
         Shared: 7.84
       sa-east-1:
         Dedicated: 10.003
@@ -55945,11 +57159,14 @@ r5ad.16xlarge:
       us-east-1:
         Dedicated: 7.388
         Shared: 7.136
+      us-east-2:
+        Dedicated: 7.388
+        Shared: 7.136
       us-west-1:
         Dedicated: 7.968
         Shared: 7.68
       us-west-2:
-        Dedicated: 7.389
+        Dedicated: 7.388
         Shared: 7.136
   regions:
     - us-east-1
@@ -55960,6 +57177,7 @@ r5ad.16xlarge:
     - eu-west-2
     - us-west-2
     - sa-east-1
+    - us-east-2
     - ap-northeast-1
     - ap-northeast-2
     - eu-west-1
@@ -56011,7 +57229,7 @@ r5ad.24xlarge:
         Dedicated: 7.84
         Shared: 7.392
       eu-west-3:
-        Dedicated: 7.792
+        Dedicated: 7.785
         Shared: 7.344
       sa-east-1:
         Dedicated: 10.588
@@ -56060,7 +57278,7 @@ r5ad.24xlarge:
         Dedicated: 7.97
         Shared: 7.522
       eu-west-3:
-        Dedicated: 7.922
+        Dedicated: 7.915
         Shared: 7.474
       sa-east-1:
         Dedicated: 10.718
@@ -56109,7 +57327,7 @@ r5ad.24xlarge:
         Dedicated: 7.99
         Shared: 7.542
       eu-west-3:
-        Dedicated: 7.942
+        Dedicated: 7.935
         Shared: 7.494
       sa-east-1:
         Dedicated: 10.738
@@ -56158,7 +57376,7 @@ r5ad.24xlarge:
         Dedicated: 12.256
         Shared: 11.808
       eu-west-3:
-        Dedicated: 12.208
+        Dedicated: 12.201
         Shared: 11.76
       sa-east-1:
         Dedicated: 15.004
@@ -56461,7 +57679,7 @@ r5ad.4xlarge:
         Dedicated: 1.307
         Shared: 1.232
       eu-west-3:
-        Dedicated: 1.299
+        Dedicated: 1.297
         Shared: 1.224
       sa-east-1:
         Dedicated: 1.765
@@ -56510,7 +57728,7 @@ r5ad.4xlarge:
         Dedicated: 1.437
         Shared: 1.362
       eu-west-3:
-        Dedicated: 1.429
+        Dedicated: 1.427
         Shared: 1.354
       sa-east-1:
         Dedicated: 1.895
@@ -56559,7 +57777,7 @@ r5ad.4xlarge:
         Dedicated: 1.457
         Shared: 1.382
       eu-west-3:
-        Dedicated: 1.449
+        Dedicated: 1.447
         Shared: 1.374
       sa-east-1:
         Dedicated: 1.915
@@ -56608,7 +57826,7 @@ r5ad.4xlarge:
         Dedicated: 2.043
         Shared: 1.968
       eu-west-3:
-        Dedicated: 2.035
+        Dedicated: 2.033
         Shared: 1.96
       sa-east-1:
         Dedicated: 2.501
@@ -56686,12 +57904,15 @@ r5ad.8xlarge:
         Dedicated: 2.613
         Shared: 2.464
       eu-west-3:
-        Dedicated: 2.597
+        Dedicated: 2.595
         Shared: 2.448
       sa-east-1:
         Dedicated: 3.529
         Shared: 3.328
       us-east-1:
+        Dedicated: 2.222
+        Shared: 2.096
+      us-east-2:
         Dedicated: 2.222
         Shared: 2.096
       us-west-1:
@@ -56732,12 +57953,15 @@ r5ad.8xlarge:
         Dedicated: 2.743
         Shared: 2.594
       eu-west-3:
-        Dedicated: 2.727
+        Dedicated: 2.725
         Shared: 2.578
       sa-east-1:
         Dedicated: 3.659
         Shared: 3.458
       us-east-1:
+        Dedicated: 2.352
+        Shared: 2.226
+      us-east-2:
         Dedicated: 2.352
         Shared: 2.226
       us-west-1:
@@ -56778,12 +58002,15 @@ r5ad.8xlarge:
         Dedicated: 2.763
         Shared: 2.614
       eu-west-3:
-        Dedicated: 2.747
+        Dedicated: 2.745
         Shared: 2.598
       sa-east-1:
         Dedicated: 3.679
         Shared: 3.478
       us-east-1:
+        Dedicated: 2.372
+        Shared: 2.246
+      us-east-2:
         Dedicated: 2.372
         Shared: 2.246
       us-west-1:
@@ -56824,12 +58051,15 @@ r5ad.8xlarge:
         Dedicated: 4.085
         Shared: 3.936
       eu-west-3:
-        Dedicated: 4.069
+        Dedicated: 4.067
         Shared: 3.92
       sa-east-1:
         Dedicated: 5.001
         Shared: 4.8
       us-east-1:
+        Dedicated: 3.694
+        Shared: 3.568
+      us-east-2:
         Dedicated: 3.694
         Shared: 3.568
       us-west-1:
@@ -56852,6 +58082,7 @@ r5ad.8xlarge:
     - eu-west-2
     - eu-west-3
     - ap-southeast-1
+    - us-east-2
     - ap-northeast-2
     - sa-east-1
   storage: 2 x 600 NVMe SSD
@@ -57123,7 +58354,7 @@ r5ad.xlarge:
         Dedicated: 0.327
         Shared: 0.308
       eu-west-3:
-        Dedicated: 0.325
+        Dedicated: 0.324
         Shared: 0.306
       sa-east-1:
         Dedicated: 0.441
@@ -57172,7 +58403,7 @@ r5ad.xlarge:
         Dedicated: 0.387
         Shared: 0.368
       eu-west-3:
-        Dedicated: 0.385
+        Dedicated: 0.384
         Shared: 0.366
       sa-east-1:
         Dedicated: 0.501
@@ -57221,7 +58452,7 @@ r5ad.xlarge:
         Dedicated: 0.452
         Shared: 0.433
       eu-west-3:
-        Dedicated: 0.45
+        Dedicated: 0.449
         Shared: 0.431
       sa-east-1:
         Dedicated: 0.566
@@ -57270,7 +58501,7 @@ r5ad.xlarge:
         Dedicated: 0.511
         Shared: 0.492
       eu-west-3:
-        Dedicated: 0.509
+        Dedicated: 0.508
         Shared: 0.49
       sa-east-1:
         Dedicated: 0.625
@@ -69731,6 +70962,8 @@ t3a.2xlarge:
         Shared: 0.3514
       ca-central-1:
         Shared: 0.3341
+      EU (Milan):
+        Shared: 0.345
       eu-central-1:
         Shared: 0.3456
       eu-west-1:
@@ -69766,6 +70999,8 @@ t3a.2xlarge:
         Shared: 0.4814
       ca-central-1:
         Shared: 0.4641
+      EU (Milan):
+        Shared: 0.475
       eu-central-1:
         Shared: 0.4756
       eu-west-1:
@@ -69801,6 +71036,8 @@ t3a.2xlarge:
         Shared: 0.5014
       ca-central-1:
         Shared: 0.4841
+      EU (Milan):
+        Shared: 0.495
       eu-central-1:
         Shared: 0.4956
       eu-west-1:
@@ -69836,6 +71073,8 @@ t3a.2xlarge:
         Shared: 0.3514
       ca-central-1:
         Shared: 0.4813
+      EU (Milan):
+        Shared: 0.4922
       eu-central-1:
         Shared: 0.4928
       eu-west-1:
@@ -69870,6 +71109,7 @@ t3a.2xlarge:
     - ap-southeast-2
     - us-west-2
     - eu-central-1
+    - EU (Milan)
     - AWS GovCloud (US-West)
     - eu-west-1
     - ca-central-1
@@ -69902,6 +71142,8 @@ t3a.large:
         Shared: 0.0878
       ca-central-1:
         Shared: 0.0835
+      EU (Milan):
+        Shared: 0.0862
       eu-central-1:
         Shared: 0.0864
       eu-west-1:
@@ -69937,6 +71179,8 @@ t3a.large:
         Shared: 0.1478
       ca-central-1:
         Shared: 0.1435
+      EU (Milan):
+        Shared: 0.1462
       eu-central-1:
         Shared: 0.1464
       eu-west-1:
@@ -69972,6 +71216,8 @@ t3a.large:
         Shared: 0.1508
       ca-central-1:
         Shared: 0.1465
+      EU (Milan):
+        Shared: 0.1492
       eu-central-1:
         Shared: 0.1494
       eu-west-1:
@@ -70007,6 +71253,8 @@ t3a.large:
         Shared: 0.0878
       ca-central-1:
         Shared: 0.1111
+      EU (Milan):
+        Shared: 0.1138
       eu-central-1:
         Shared: 0.114
       eu-west-1:
@@ -70028,6 +71276,7 @@ t3a.large:
       us-west-2:
         Shared: 0.1028
   regions:
+    - EU (Milan)
     - AWS GovCloud (US-West)
     - us-east-2
     - ap-northeast-2
@@ -70073,6 +71322,8 @@ t3a.medium:
         Shared: 0.0439
       ca-central-1:
         Shared: 0.0418
+      EU (Milan):
+        Shared: 0.0431
       eu-central-1:
         Shared: 0.0432
       eu-west-1:
@@ -70108,6 +71359,8 @@ t3a.medium:
         Shared: 0.1039
       ca-central-1:
         Shared: 0.1018
+      EU (Milan):
+        Shared: 0.1031
       eu-central-1:
         Shared: 0.1032
       eu-west-1:
@@ -70143,6 +71396,8 @@ t3a.medium:
         Shared: 0.1069
       ca-central-1:
         Shared: 0.1048
+      EU (Milan):
+        Shared: 0.1061
       eu-central-1:
         Shared: 0.1062
       eu-west-1:
@@ -70178,6 +71433,8 @@ t3a.medium:
         Shared: 0.0439
       ca-central-1:
         Shared: 0.0602
+      EU (Milan):
+        Shared: 0.0615
       eu-central-1:
         Shared: 0.0616
       eu-west-1:
@@ -70208,6 +71465,7 @@ t3a.medium:
     - sa-east-1
     - ap-south-1
     - ca-central-1
+    - EU (Milan)
     - us-east-2
     - eu-west-2
     - eu-central-1
@@ -70244,6 +71502,8 @@ t3a.micro:
         Shared: 0.011
       ca-central-1:
         Shared: 0.0104
+      EU (Milan):
+        Shared: 0.0108
       eu-central-1:
         Shared: 0.0108
       eu-west-1:
@@ -70279,6 +71539,8 @@ t3a.micro:
         Shared: 0.071
       ca-central-1:
         Shared: 0.0704
+      EU (Milan):
+        Shared: 0.0708
       eu-central-1:
         Shared: 0.0708
       eu-west-1:
@@ -70314,6 +71576,8 @@ t3a.micro:
         Shared: 0.011
       ca-central-1:
         Shared: 0.0104
+      EU (Milan):
+        Shared: 0.0108
       eu-central-1:
         Shared: 0.0108
       eu-west-1:
@@ -70349,6 +71613,8 @@ t3a.micro:
         Shared: 0.0202
       ca-central-1:
         Shared: 0.0196
+      EU (Milan):
+        Shared: 0.02
       eu-central-1:
         Shared: 0.02
       eu-west-1:
@@ -70375,6 +71641,7 @@ t3a.micro:
     - us-east-2
     - ap-southeast-1
     - ap-northeast-1
+    - EU (Milan)
     - sa-east-1
     - us-east-1
     - eu-central-1
@@ -70415,6 +71682,8 @@ t3a.nano:
         Shared: 0.0055
       ca-central-1:
         Shared: 0.0052
+      EU (Milan):
+        Shared: 0.0054
       eu-central-1:
         Shared: 0.0054
       eu-west-1:
@@ -70450,6 +71719,8 @@ t3a.nano:
         Shared: 0.0055
       ca-central-1:
         Shared: 0.0052
+      EU (Milan):
+        Shared: 0.0054
       eu-central-1:
         Shared: 0.0054
       eu-west-1:
@@ -70485,6 +71756,8 @@ t3a.nano:
         Shared: 0.0101
       ca-central-1:
         Shared: 0.0098
+      EU (Milan):
+        Shared: 0.01
       eu-central-1:
         Shared: 0.01
       eu-west-1:
@@ -70513,6 +71786,7 @@ t3a.nano:
     - AWS GovCloud (US-West)
     - us-east-2
     - eu-west-3
+    - EU (Milan)
     - us-gov-east-1
     - us-west-2
     - us-west-1
@@ -70551,6 +71825,8 @@ t3a.small:
         Shared: 0.022
       ca-central-1:
         Shared: 0.0209
+      EU (Milan):
+        Shared: 0.0216
       eu-central-1:
         Shared: 0.0216
       eu-west-1:
@@ -70586,6 +71862,8 @@ t3a.small:
         Shared: 0.082
       ca-central-1:
         Shared: 0.0809
+      EU (Milan):
+        Shared: 0.0816
       eu-central-1:
         Shared: 0.0816
       eu-west-1:
@@ -70621,6 +71899,8 @@ t3a.small:
         Shared: 0.053
       ca-central-1:
         Shared: 0.0519
+      EU (Milan):
+        Shared: 0.0526
       eu-central-1:
         Shared: 0.0526
       eu-west-1:
@@ -70656,6 +71936,8 @@ t3a.small:
         Shared: 0.022
       ca-central-1:
         Shared: 0.0393
+      EU (Milan):
+        Shared: 0.04
       eu-central-1:
         Shared: 0.04
       eu-west-1:
@@ -70686,6 +71968,7 @@ t3a.small:
     - eu-west-1
     - ap-northeast-2
     - eu-west-3
+    - EU (Milan)
     - ca-central-1
     - eu-west-2
     - us-west-1
@@ -70722,6 +72005,8 @@ t3a.xlarge:
         Shared: 0.1757
       ca-central-1:
         Shared: 0.167
+      EU (Milan):
+        Shared: 0.1725
       eu-central-1:
         Shared: 0.1728
       eu-west-1:
@@ -70757,6 +72042,8 @@ t3a.xlarge:
         Shared: 0.2357
       ca-central-1:
         Shared: 0.227
+      EU (Milan):
+        Shared: 0.2325
       eu-central-1:
         Shared: 0.2328
       eu-west-1:
@@ -70792,6 +72079,8 @@ t3a.xlarge:
         Shared: 0.3007
       ca-central-1:
         Shared: 0.292
+      EU (Milan):
+        Shared: 0.2975
       eu-central-1:
         Shared: 0.2978
       eu-west-1:
@@ -70827,6 +72116,8 @@ t3a.xlarge:
         Shared: 0.1757
       ca-central-1:
         Shared: 0.2406
+      EU (Milan):
+        Shared: 0.2461
       eu-central-1:
         Shared: 0.2464
       eu-west-1:
@@ -70850,6 +72141,7 @@ t3a.xlarge:
   regions:
     - us-west-1
     - ca-central-1
+    - EU (Milan)
     - ap-northeast-2
     - AWS GovCloud (US-West)
     - ap-southeast-2
