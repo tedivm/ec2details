@@ -103,7 +103,7 @@ x1e.xlarge:
 
 ## How it's Generated
 
-The data is generated from the EC2 services published in the [AWS Bulk API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/using-ppslong.html), which is a giant (>2.8G) json file AWS that gets updated anytime there's a change in the ec2 service (new instances, price reductions, additional regions, etc).
+The data is generated from the EC2 services published in the [AWS Bulk API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/using-ppslong.html), which is a giant (>2.8G) json file that gets updated anytime there's a change in the EC2 service (new instances, price reductions, additional regions, etc).
 
 Besides being huge, this file is that it is horribly obtuse (requiring [custom tools](http://blog.tedivm.com/open-source/2017/05/introducing-jsonsmash-work-with-large-json-files-easily/) simply to read it). This service uses takes the data in that file and converts it into a simpler data structure.
 
