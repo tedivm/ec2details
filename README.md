@@ -15,89 +15,140 @@ In both cases the instance type is the key, with attributes existing under that.
 Pricing is in USD and is broken down by region, operating system (Linux, RHEL, SUSE, or Windows), and tenancy (Dedicated or Shared).
 
 ```yaml
-x1e.xlarge:
+a1.2xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
-  dedicatedEbsThroughput: 500 Mbps
-  ecu: 12
+  dedicatedEbsThroughput: Up to 3500 Mbps
   enhancedNetworkingSupported: true
-  memory: 122 GiB
+  memory: 16 GiB
   networkPerformance: Up to 10 Gigabit
-  normalizationSizeFactor: 8
-  physicalProcessor: High Frequency Intel Xeon E7-8880 v3 (Haswell)
+  normalizationSizeFactor: 16
+  physicalProcessor: AWS Graviton Processor
   prices:
     Linux:
       ap-northeast-1:
-        Dedicated: 1.33
-        Shared: 1.209
+        Dedicated: 0.2743
+        Shared: 0.2568
+      ap-south-1:
+        Dedicated: 0.217
+        Shared: 0.204
+      ap-southeast-1:
+        Dedicated: 0.2501
+        Shared: 0.2352
       ap-southeast-2:
-        Dedicated: 1.33
-        Shared: 1.209
+        Dedicated: 0.2825
+        Shared: 0.2664
+      eu-central-1:
+        Dedicated: 0.248
+        Shared: 0.2328
       eu-west-1:
-        Dedicated: 1.1
-        Shared: 1
+        Dedicated: 0.2454
+        Shared: 0.2304
       us-east-1:
-        Dedicated: 0.917
-        Shared: 0.834
+        Dedicated: 0.2162
+        Shared: 0.204
+      us-east-2:
+        Dedicated: 0.2162
+        Shared: 0.204
       us-west-2:
-        Dedicated: 0.917
-        Shared: 0.834
+        Dedicated: 0.2162
+        Shared: 0.204
     RHEL:
       ap-northeast-1:
-        Dedicated: 1.39
-        Shared: 1.269
+        Dedicated: 0.4043
+        Shared: 0.3868
+      ap-south-1:
+        Dedicated: 0.347
+        Shared: 0.334
+      ap-southeast-1:
+        Dedicated: 0.3801
+        Shared: 0.3652
       ap-southeast-2:
-        Dedicated: 1.39
-        Shared: 1.269
+        Dedicated: 0.4125
+        Shared: 0.3964
+      eu-central-1:
+        Dedicated: 0.378
+        Shared: 0.3628
       eu-west-1:
-        Dedicated: 1.16
-        Shared: 1.06
+        Dedicated: 0.3754
+        Shared: 0.3604
       us-east-1:
-        Dedicated: 0.977
-        Shared: 0.894
+        Dedicated: 0.3462
+        Shared: 0.334
+      us-east-2:
+        Dedicated: 0.3462
+        Shared: 0.334
       us-west-2:
-        Dedicated: 0.977
-        Shared: 0.894
+        Dedicated: 0.3462
+        Shared: 0.334
+    RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.4372
+        Shared: 0.4218
+      ap-south-1:
+        Dedicated: 0.3812
+        Shared: 0.369
+      ap-southeast-1:
+        Dedicated: 0.4143
+        Shared: 0.4002
+      ap-southeast-2:
+        Dedicated: 0.4474
+        Shared: 0.4314
+      eu-central-1:
+        Dedicated: 0.4118
+        Shared: 0.3978
+      eu-west-1:
+        Dedicated: 0.4092
+        Shared: 0.3954
+      us-east-1:
+        Dedicated: 0.3812
+        Shared: 0.369
+      us-east-2:
+        Dedicated: 0.3812
+        Shared: 0.369
+      us-west-2:
+        Dedicated: 0.3812
+        Shared: 0.369
     SUSE:
       ap-northeast-1:
-        Dedicated: 1.43
-        Shared: 1.309
+        Dedicated: 0.4243
+        Shared: 0.4068
+      ap-south-1:
+        Dedicated: 0.367
+        Shared: 0.354
+      ap-southeast-1:
+        Dedicated: 0.4001
+        Shared: 0.3852
       ap-southeast-2:
-        Dedicated: 1.43
-        Shared: 1.309
+        Dedicated: 0.4325
+        Shared: 0.4164
+      eu-central-1:
+        Dedicated: 0.398
+        Shared: 0.3828
       eu-west-1:
-        Dedicated: 1.2
-        Shared: 1.1
+        Dedicated: 0.3954
+        Shared: 0.3804
       us-east-1:
-        Dedicated: 1.017
-        Shared: 0.934
+        Dedicated: 0.3662
+        Shared: 0.354
+      us-east-2:
+        Dedicated: 0.3662
+        Shared: 0.354
       us-west-2:
-        Dedicated: 1.017
-        Shared: 0.934
-    Windows:
-      ap-northeast-1:
-        Dedicated: 1.582
-        Shared: 1.461
-      ap-southeast-2:
-        Dedicated: 3.014
-        Shared: 1.393
-      eu-west-1:
-        Dedicated: 1.764
-        Shared: 1.184
-      us-east-1:
-        Dedicated: 1.101
-        Shared: 0.834
-      us-west-2:
-        Dedicated: 1.101
-        Shared: 1.086
+        Dedicated: 0.3662
+        Shared: 0.354
   regions:
-    - us-east-1
-    - eu-west-1
     - ap-southeast-2
-    - us-west-2
     - ap-northeast-1
-  storage: 1 x 120
-  vcpu: 4
+    - ap-southeast-1
+    - us-west-2
+    - us-east-2
+    - us-east-1
+    - ap-south-1
+    - eu-central-1
+    - eu-west-1
+  storage: EBS only
+  vcpu: 8
 ```
 
 
