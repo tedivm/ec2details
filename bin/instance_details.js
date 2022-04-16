@@ -160,7 +160,10 @@ async function getInstanceDetails () {
     const region = regionMap[serviceDetails['location']]
       ? regionMap[serviceDetails['location']]
       : serviceDetails['location']
-    const operatingSystem = serviceDetails['operatingSystem']
+    const operatingSystem =
+      serviceDetails['operatingSystem'] != 'Red Hat Enterprise Linux with HA'
+        ? serviceDetails['operatingSystem']
+        : 'RHEL_HA'
     const tenancy = serviceDetails['tenancy']
     const preInstalledSw = serviceDetails['preInstalledSw']
 
