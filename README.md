@@ -117,3 +117,6 @@ The resulting files are less than 0.1% of the size of the original, and are much
 This project is [hosted on Github](https://github.com/tedivm/ec2details) under the [MIT License](https://github.com/tedivm/ec2details/blob/master/LICENSE).
 
 It was created by [Robert Hafner](https://blog.tedivm.com/), who you can find on [Github](https://github.com/tedivm) and [Twitter](https://twitter.com/tedivm).
+
+
+<script defer data-domain="tedivm.github.io/ec2details" src="https://plausible.io/js/plausible.js"></script>
