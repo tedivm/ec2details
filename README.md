@@ -1,11 +1,6 @@
 # ec2details
 
-This service provides details about AWS EC2 Instance Types available in a variety of formats.
-
-The data is generated from the EC2 services published in the [AWS Bulk API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/using-ppslong.html), which is a giant (>535M) json file AWS that gets updated anytime there's a change in the ec2 service (new instances, price reductions, additional regions, etc). The problem with this file is that it is horribly obtuse (requiring [custom tools](http://blog.tedivm.com/open-source/2017/05/introducing-jsonsmash-work-with-large-json-files-easily/) simply to read it) and takes a lot of memory to parse (over 2gb using python, although significantly less when using node). This service uses that file to create a simplified version to make accessing EC2 instance type data far easier.
-
-The data is regenerated at least once a day using a scheduled [CircleCI job](https://circleci.com/gh/tedivm/ec2details) and published using [Github pages](https://tedivm.github.io/ec2details/). During each run the scheduled CircleCI job regenerates the static API files and, if there is a change, pushes those files back up to the master branch of the git repository to update the Github Pages site.
-
+This service is the easiest way to get a list of AWS EC2 Instance Types with metadata and prices.
 
 ## The API
 
@@ -15,7 +10,7 @@ The API currently serves the data in two formats, with each using the same data 
 
 - yaml: [https://tedivm.github.io/ec2details/api/ec2instances.yaml](https://tedivm.github.io/ec2details/api/ec2instances.yaml)
 
-In both cases the instance type is the key, with attributes existing under that. Not every instance will have every attribute (as an example, only the `p2`, `p3`, `g2` and `g3` instances have a `gpu` field), so it is important to check for both the existence of the field as well as the value.
+In both cases the instance type is the key, with attributes existing under that. Not every instance will have every attribute (as an example, only the `p` and `g` families have a `gpu` field), so it is important to check for both the existence of the field as well as the value.
 
 Pricing is in USD and is broken down by region, operating system (Linux, RHEL, SUSE, or Windows), and tenancy (Dedicated or Shared).
 
@@ -104,6 +99,18 @@ x1e.xlarge:
   storage: 1 x 120
   vcpu: 4
 ```
+
+
+## How it's Generated
+
+The data is generated from the EC2 services published in the [AWS Bulk API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/using-ppslong.html), which is a giant (>2.8G) json file AWS that gets updated anytime there's a change in the ec2 service (new instances, price reductions, additional regions, etc).
+
+Besides being huge, this file is that it is horribly obtuse (requiring [custom tools](http://blog.tedivm.com/open-source/2017/05/introducing-jsonsmash-work-with-large-json-files-easily/) simply to read it). This service uses takes the data in that file and converts it into a simpler data structure.
+
+The data is regenerated four times a day using a scheduled [CircleCI job](https://circleci.com/gh/tedivm/ec2details) and published using [Github pages](https://tedivm.github.io/ec2details/). During each run the scheduled CircleCI job regenerates the static API files and, if there is a change, pushes those files back up to the master branch of the git repository to update the Github Pages site.
+
+The resulting files are less than 0.1% of the size of the original, and are much easier to parse. Since the files are static and served over the Github CDN they are also quick to download.
+
 
 ## About
 
