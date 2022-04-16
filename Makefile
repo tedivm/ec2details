@@ -19,7 +19,7 @@ download: /tmp/aws_ec2_services.json /tmp/aws_ec2_products.json /tmp/aws_ec2_ter
 #
 
 /tmp/aws_ec2_services.json:
-	echo Downloading AWS Offers file.
+	@echo Downloading AWS Offers file.
 	curl -Ls https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/index.json > /tmp/aws_ec2_services.json
 
 #
@@ -27,10 +27,11 @@ download: /tmp/aws_ec2_services.json /tmp/aws_ec2_products.json /tmp/aws_ec2_ter
 #
 
 /tmp/aws_ec2_products.json: /tmp/aws_ec2_services.json
-	echo Generating Products File
+	@echo Generating Products File
 	cat /tmp/aws_ec2_services.json | npx JSONStream 'products.*' > /tmp/aws_ec2_products.json
 
 /tmp/aws_ec2_products.jsonl: /tmp/aws_ec2_products.json
+	@echo Converting products.json to jsonl
 	cat /tmp/aws_ec2_products.json | jq -cn --stream 'fromstream(1|truncate_stream(inputs))' > /tmp/aws_ec2_products.jsonl
 
 
@@ -39,7 +40,7 @@ download: /tmp/aws_ec2_services.json /tmp/aws_ec2_products.json /tmp/aws_ec2_ter
 #
 
 /tmp/aws_ec2_terms.json: /tmp/aws_ec2_services.json
-	echo Generating Terms File
+	@echo Generating Terms File
 	cat /tmp/aws_ec2_services.json | npx JSONStream 'terms.OnDemand.*' > /tmp/aws_ec2_terms.json
 
 
