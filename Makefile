@@ -12,7 +12,7 @@ clean:
 
 fresh: clean dependencies
 
-download: /tmp/aws_ec2_services.json /tmp/aws_ec2_products.json /tmp/aws_ec2_terms.json
+download: /tmp/aws_ec2_services.json /tmp/aws_ec2_products.jsonl /tmp/aws_ec2_terms.json
 
 #
 # Services
