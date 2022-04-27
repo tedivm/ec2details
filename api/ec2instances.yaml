@@ -44213,6 +44213,580 @@ i3p.16xlarge:
     - us-gov-west-1
   storage: EBS only
   vcpu: 64
+i4i.16xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 20000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 512 GiB
+  networkPerformance: 37500 Megabit
+  normalizationSizeFactor: 128
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 6.66
+        Shared: 6.054
+      us-east-1:
+        Dedicated: 6.04
+        Shared: 5.491
+      us-east-2:
+        Dedicated: 6.04
+        Shared: 5.491
+      us-west-2:
+        Dedicated: 6.04
+        Shared: 5.491
+    RHEL:
+      eu-west-1:
+        Dedicated: 6.79
+        Shared: 6.184
+      us-east-1:
+        Dedicated: 6.17
+        Shared: 5.621
+      us-east-2:
+        Dedicated: 6.17
+        Shared: 5.621
+      us-west-2:
+        Dedicated: 6.17
+        Shared: 5.621
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 6.825
+        Shared: 6.219
+      us-east-1:
+        Dedicated: 6.205
+        Shared: 5.656
+      us-east-2:
+        Dedicated: 6.205
+        Shared: 5.656
+      us-west-2:
+        Dedicated: 6.205
+        Shared: 5.656
+    SUSE:
+      eu-west-1:
+        Dedicated: 6.81
+        Shared: 6.204
+      us-east-1:
+        Dedicated: 6.19
+        Shared: 5.641
+      us-east-2:
+        Dedicated: 6.19
+        Shared: 5.641
+      us-west-2:
+        Dedicated: 6.19
+        Shared: 5.641
+    Windows:
+      eu-west-1:
+        Dedicated: 9.604
+        Shared: 6.054
+      us-east-1:
+        Dedicated: 6.04
+        Shared: 8.435
+      us-east-2:
+        Dedicated: 6.04
+        Shared: 8.435
+      us-west-2:
+        Dedicated: 6.04
+        Shared: 8.435
+  regions:
+    - us-west-2
+    - us-east-1
+    - eu-west-1
+    - us-east-2
+  storage: 4 x 3750 NVMe SSD
+  vcpu: 64
+i4i.2xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 64 GiB
+  networkPerformance: Up to 12 Gigabit
+  normalizationSizeFactor: 16
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 0.832
+        Shared: 0.757
+      us-east-1:
+        Dedicated: 0.755
+        Shared: 0.686
+      us-east-2:
+        Dedicated: 0.755
+        Shared: 0.686
+      us-west-2:
+        Dedicated: 0.755
+        Shared: 0.686
+    RHEL:
+      eu-west-1:
+        Dedicated: 0.962
+        Shared: 0.887
+      us-east-1:
+        Dedicated: 0.885
+        Shared: 0.816
+      us-east-2:
+        Dedicated: 0.885
+        Shared: 0.816
+      us-west-2:
+        Dedicated: 0.885
+        Shared: 0.816
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 0.997
+        Shared: 0.922
+      us-east-1:
+        Dedicated: 0.92
+        Shared: 0.851
+      us-east-2:
+        Dedicated: 0.92
+        Shared: 0.851
+      us-west-2:
+        Dedicated: 0.92
+        Shared: 0.851
+    SUSE:
+      eu-west-1:
+        Dedicated: 0.982
+        Shared: 0.907
+      us-east-1:
+        Dedicated: 0.905
+        Shared: 0.836
+      us-east-2:
+        Dedicated: 0.905
+        Shared: 0.836
+      us-west-2:
+        Dedicated: 0.905
+        Shared: 0.836
+    Windows:
+      eu-west-1:
+        Dedicated: 0.832
+        Shared: 0.757
+      us-east-1:
+        Dedicated: 1.123
+        Shared: 1.054
+      us-east-2:
+        Dedicated: 1.123
+        Shared: 1.054
+      us-west-2:
+        Dedicated: 1.123
+        Shared: 0.686
+  regions:
+    - us-east-2
+    - us-west-2
+    - us-east-1
+    - eu-west-1
+  storage: 1 x 1875 NVMe SSD
+  vcpu: 8
+i4i.32xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 40000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 1024 GiB
+  networkPerformance: 75000 Megabit
+  normalizationSizeFactor: 256
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 12.1088
+        Shared: 12.1088
+      us-east-1:
+        Dedicated: 10.9824
+        Shared: 10.9824
+      us-east-2:
+        Dedicated: 10.9824
+        Shared: 10.9824
+      us-west-2:
+        Dedicated: 10.9824
+        Shared: 10.9824
+    RHEL:
+      eu-west-1:
+        Dedicated: 12.2388
+        Shared: 12.2388
+      us-east-1:
+        Dedicated: 11.1124
+        Shared: 11.1124
+      us-east-2:
+        Dedicated: 11.1124
+        Shared: 11.1124
+      us-west-2:
+        Dedicated: 11.1124
+        Shared: 11.1124
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 12.2738
+        Shared: 12.2738
+      us-east-1:
+        Dedicated: 11.1474
+        Shared: 11.1474
+      us-east-2:
+        Dedicated: 11.1474
+        Shared: 11.1474
+      us-west-2:
+        Dedicated: 11.1474
+        Shared: 11.1474
+    SUSE:
+      eu-west-1:
+        Dedicated: 12.2588
+        Shared: 12.2588
+      us-east-1:
+        Dedicated: 11.1324
+        Shared: 11.1324
+      us-east-2:
+        Dedicated: 11.1324
+        Shared: 11.1324
+      us-west-2:
+        Dedicated: 11.1324
+        Shared: 11.1324
+    Windows:
+      eu-west-1:
+        Dedicated: 17.9968
+        Shared: 17.9968
+      us-east-1:
+        Dedicated: 16.8704
+        Shared: 10.9824
+      us-east-2:
+        Dedicated: 16.8704
+        Shared: 10.9824
+      us-west-2:
+        Dedicated: 10.9824
+        Shared: 10.9824
+  regions:
+    - us-east-1
+    - us-west-2
+    - us-east-2
+    - eu-west-1
+  storage: 8 x 3750 SSD
+  vcpu: 128
+i4i.4xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 128 GiB
+  networkPerformance: Up to 25 Gigabit
+  normalizationSizeFactor: 32
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 1.665
+        Shared: 1.514
+      us-east-1:
+        Dedicated: 1.51
+        Shared: 1.373
+      us-east-2:
+        Dedicated: 1.51
+        Shared: 1.373
+      us-west-2:
+        Dedicated: 1.51
+        Shared: 1.373
+    RHEL:
+      eu-west-1:
+        Dedicated: 1.795
+        Shared: 1.644
+      us-east-1:
+        Dedicated: 1.64
+        Shared: 1.503
+      us-east-2:
+        Dedicated: 1.64
+        Shared: 1.503
+      us-west-2:
+        Dedicated: 1.64
+        Shared: 1.503
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 1.83
+        Shared: 1.679
+      us-east-1:
+        Dedicated: 1.675
+        Shared: 1.538
+      us-east-2:
+        Dedicated: 1.675
+        Shared: 1.538
+      us-west-2:
+        Dedicated: 1.675
+        Shared: 1.538
+    SUSE:
+      eu-west-1:
+        Dedicated: 1.815
+        Shared: 1.664
+      us-east-1:
+        Dedicated: 1.66
+        Shared: 1.523
+      us-east-2:
+        Dedicated: 1.66
+        Shared: 1.523
+      us-west-2:
+        Dedicated: 1.66
+        Shared: 1.523
+    Windows:
+      eu-west-1:
+        Dedicated: 2.401
+        Shared: 2.25
+      us-east-1:
+        Dedicated: 2.246
+        Shared: 2.109
+      us-east-2:
+        Dedicated: 1.51
+        Shared: 2.109
+      us-west-2:
+        Dedicated: 1.51
+        Shared: 2.109
+  regions:
+    - us-east-2
+    - us-west-2
+    - eu-west-1
+    - us-east-1
+  storage: 1 x 3750 NVMe SSD
+  vcpu: 16
+i4i.8xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 256 GiB
+  networkPerformance: 18750 Megabit
+  normalizationSizeFactor: 64
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 3.33
+        Shared: 3.027
+      us-east-1:
+        Dedicated: 3.02
+        Shared: 2.746
+      us-east-2:
+        Dedicated: 3.02
+        Shared: 2.746
+      us-west-2:
+        Dedicated: 3.02
+        Shared: 2.746
+    RHEL:
+      eu-west-1:
+        Dedicated: 3.46
+        Shared: 3.157
+      us-east-1:
+        Dedicated: 3.15
+        Shared: 2.876
+      us-east-2:
+        Dedicated: 3.15
+        Shared: 2.876
+      us-west-2:
+        Dedicated: 3.15
+        Shared: 2.876
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 3.495
+        Shared: 3.192
+      us-east-1:
+        Dedicated: 3.185
+        Shared: 2.911
+      us-east-2:
+        Dedicated: 3.185
+        Shared: 2.911
+      us-west-2:
+        Dedicated: 3.185
+        Shared: 2.911
+    SUSE:
+      eu-west-1:
+        Dedicated: 3.48
+        Shared: 3.177
+      us-east-1:
+        Dedicated: 3.17
+        Shared: 2.896
+      us-east-2:
+        Dedicated: 3.17
+        Shared: 2.896
+      us-west-2:
+        Dedicated: 3.17
+        Shared: 2.896
+    Windows:
+      eu-west-1:
+        Dedicated: 3.33
+        Shared: 3.027
+      us-east-1:
+        Dedicated: 4.492
+        Shared: 4.218
+      us-east-2:
+        Dedicated: 3.02
+        Shared: 2.746
+      us-west-2:
+        Dedicated: 3.02
+        Shared: 4.218
+  regions:
+    - us-east-2
+    - eu-west-1
+    - us-west-2
+    - us-east-1
+  storage: 2 x 3750 NVMe SSD
+  vcpu: 32
+i4i.large:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 16 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 4
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 0.208
+        Shared: 0.189
+      us-east-1:
+        Dedicated: 0.189
+        Shared: 0.172
+      us-east-2:
+        Dedicated: 0.189
+        Shared: 0.172
+      us-west-2:
+        Dedicated: 0.189
+        Shared: 0.172
+    RHEL:
+      eu-west-1:
+        Dedicated: 0.268
+        Shared: 0.249
+      us-east-1:
+        Dedicated: 0.249
+        Shared: 0.232
+      us-east-2:
+        Dedicated: 0.249
+        Shared: 0.232
+      us-west-2:
+        Dedicated: 0.249
+        Shared: 0.232
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 0.303
+        Shared: 0.284
+      us-east-1:
+        Dedicated: 0.284
+        Shared: 0.267
+      us-east-2:
+        Dedicated: 0.284
+        Shared: 0.267
+      us-west-2:
+        Dedicated: 0.284
+        Shared: 0.267
+    SUSE:
+      eu-west-1:
+        Dedicated: 0.271
+        Shared: 0.252
+      us-east-1:
+        Dedicated: 0.252
+        Shared: 0.235
+      us-east-2:
+        Dedicated: 0.252
+        Shared: 0.235
+      us-west-2:
+        Dedicated: 0.252
+        Shared: 0.235
+    Windows:
+      eu-west-1:
+        Dedicated: 0.208
+        Shared: 0.281
+      us-east-1:
+        Dedicated: 0.281
+        Shared: 0.264
+      us-east-2:
+        Dedicated: 0.189
+        Shared: 0.172
+      us-west-2:
+        Dedicated: 0.189
+        Shared: 0.172
+  regions:
+    - us-west-2
+    - us-east-1
+    - eu-west-1
+    - us-east-2
+  storage: 1 x 468 NVMe SSD
+  vcpu: 2
+i4i.xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: Up to 10 Gigabit
+  normalizationSizeFactor: 8
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 0.416
+        Shared: 0.378
+      us-east-1:
+        Dedicated: 0.378
+        Shared: 0.343
+      us-east-2:
+        Dedicated: 0.378
+        Shared: 0.343
+      us-west-2:
+        Dedicated: 0.378
+        Shared: 0.343
+    RHEL:
+      eu-west-1:
+        Dedicated: 0.476
+        Shared: 0.438
+      us-east-1:
+        Dedicated: 0.438
+        Shared: 0.403
+      us-east-2:
+        Dedicated: 0.438
+        Shared: 0.403
+      us-west-2:
+        Dedicated: 0.438
+        Shared: 0.403
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 0.511
+        Shared: 0.473
+      us-east-1:
+        Dedicated: 0.473
+        Shared: 0.438
+      us-east-2:
+        Dedicated: 0.473
+        Shared: 0.438
+      us-west-2:
+        Dedicated: 0.473
+        Shared: 0.438
+    SUSE:
+      eu-west-1:
+        Dedicated: 0.541
+        Shared: 0.503
+      us-east-1:
+        Dedicated: 0.503
+        Shared: 0.468
+      us-east-2:
+        Dedicated: 0.503
+        Shared: 0.468
+      us-west-2:
+        Dedicated: 0.503
+        Shared: 0.468
+    Windows:
+      eu-west-1:
+        Dedicated: 0.6
+        Shared: 0.562
+      us-east-1:
+        Dedicated: 0.562
+        Shared: 0.527
+      us-east-2:
+        Dedicated: 0.562
+        Shared: 0.527
+      us-west-2:
+        Dedicated: 0.378
+        Shared: 0.343
+  regions:
+    - us-west-2
+    - eu-west-1
+    - us-east-2
+    - us-east-1
+  storage: 1 x 937 NVMe SSD
+  vcpu: 4
 im4gn.16xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
