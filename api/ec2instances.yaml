@@ -37528,43 +37528,75 @@ hpc6a.48xlarge:
   physicalProcessor: AMD EPYC 7R13 Processor
   prices:
     Linux:
+      eu-north-1:
+        Dedicated: 3.093
+        Shared: 3.093
       us-east-2:
         Dedicated: 2.88
         Shared: 2.88
+      us-gov-east-1:
+        Dedicated: 3.467
+        Shared: 3.467
       us-gov-west-1:
         Dedicated: 3.467
         Shared: 3.467
     RHEL:
+      eu-north-1:
+        Dedicated: 3.223
+        Shared: 3.223
       us-east-2:
         Dedicated: 3.01
         Shared: 3.01
+      us-gov-east-1:
+        Dedicated: 3.597
+        Shared: 3.597
       us-gov-west-1:
         Dedicated: 3.597
         Shared: 3.597
     RHEL_HA:
+      eu-north-1:
+        Dedicated: 3.258
+        Shared: 3.258
       us-east-2:
         Dedicated: 3.045
         Shared: 3.045
+      us-gov-east-1:
+        Dedicated: 3.632
+        Shared: 3.632
       us-gov-west-1:
         Dedicated: 3.632
         Shared: 3.632
     SUSE:
+      eu-north-1:
+        Dedicated: 3.243
+        Shared: 3.243
       us-east-2:
         Dedicated: 3.03
         Shared: 3.03
+      us-gov-east-1:
+        Dedicated: 3.617
+        Shared: 3.617
       us-gov-west-1:
         Dedicated: 3.617
         Shared: 3.617
     Windows:
+      eu-north-1:
+        Dedicated: 7.509
+        Shared: 3.093
       us-east-2:
         Dedicated: 7.296
         Shared: 2.88
+      us-gov-east-1:
+        Dedicated: 7.883
+        Shared: 7.883
       us-gov-west-1:
         Dedicated: 3.467
         Shared: 3.467
   regions:
     - us-gov-west-1
+    - eu-north-1
     - us-east-2
+    - us-gov-east-1
   storage: EBS only
   vcpu: 96
 hs1.8xlarge:
