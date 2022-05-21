@@ -51397,11 +51397,11 @@ m5.16xlarge:
         Dedicated: 8.115
         Shared: 7.84
       us-east-1:
-        Dedicated: 6.203
-        Shared: 6.016
+        Dedicated: 3.259
+        Shared: 3.072
       us-east-2:
         Dedicated: 6.203
-        Shared: 6.016
+        Shared: 3.072
       us-gov-east-1:
         Dedicated: 7.07
         Shared: 6.816
@@ -51412,8 +51412,8 @@ m5.16xlarge:
         Dedicated: 6.784
         Shared: 6.528
       us-west-2:
-        Dedicated: 6.203
-        Shared: 6.016
+        Dedicated: 3.256
+        Shared: 3.072
       us-west-2-lax-1a:
         Dedicated: 6.854
         Shared: 6.63
@@ -52250,8 +52250,8 @@ m5.2xlarge:
         Dedicated: 0.48
         Shared: 0.448
       us-west-2:
-        Dedicated: 0.775
-        Shared: 0.752
+        Dedicated: 0.407
+        Shared: 0.384
       us-west-2-lax-1a:
         Dedicated: 0.857
         Shared: 0.829
@@ -53074,10 +53074,10 @@ m5.8xlarge:
         Shared: 3.92
       us-east-1:
         Dedicated: 3.101
-        Shared: 3.008
+        Shared: 1.536
       us-east-2:
-        Dedicated: 3.101
-        Shared: 3.008
+        Dedicated: 1.629
+        Shared: 1.536
       us-gov-east-1:
         Dedicated: 3.535
         Shared: 3.408
@@ -53088,7 +53088,7 @@ m5.8xlarge:
         Dedicated: 3.392
         Shared: 3.264
       us-west-2:
-        Dedicated: 3.101
+        Dedicated: 1.628
         Shared: 3.008
       us-west-2-lax-1a:
         Dedicated: 3.427
@@ -53912,9 +53912,9 @@ m5.metal:
         Shared: 11.76
       us-east-1:
         Dedicated: 9.024
-        Shared: 9.024
+        Shared: 4.608
       us-east-2:
-        Dedicated: 9.024
+        Dedicated: 4.608
         Shared: 9.024
       us-gov-east-1:
         Dedicated: 10.224
@@ -80031,10 +80031,10 @@ r5.16xlarge:
         Dedicated: 9.762
         Shared: 9.376
       us-east-1:
-        Dedicated: 7.218
-        Shared: 6.976
+        Dedicated: 4.274
+        Shared: 4.032
       us-east-2:
-        Dedicated: 7.218
+        Dedicated: 4.274
         Shared: 6.976
       us-gov-east-1:
         Dedicated: 8.066
@@ -81120,7 +81120,7 @@ r5.2xlarge:
         Shared: 1.048
       us-east-1:
         Dedicated: 0.902
-        Shared: 0.872
+        Shared: 0.504
       us-east-2:
         Dedicated: 0.534
         Shared: 0.872
@@ -81982,10 +81982,10 @@ r5.8xlarge:
         Dedicated: 4.881
         Shared: 4.688
       us-east-1:
-        Dedicated: 3.609
-        Shared: 3.488
+        Dedicated: 2.137
+        Shared: 2.016
       us-east-2:
-        Dedicated: 3.609
+        Dedicated: 2.137
         Shared: 3.488
       us-gov-east-1:
         Dedicated: 4.033
@@ -82007,12 +82007,12 @@ r5.8xlarge:
     - ap-southeast-3
     - eu-central-1
     - ca-central-1
+    - us-east-1
     - ap-south-1
     - eu-south-1
     - af-south-1
     - eu-north-1
     - us-west-2-lax-1a
-    - us-east-1
     - ap-southeast-2
     - me-south-1
     - ap-southeast-1
@@ -82820,11 +82820,11 @@ r5.metal:
         Dedicated: 14.064
         Shared: 14.064
       us-east-1:
-        Dedicated: 10.464
-        Shared: 10.464
+        Dedicated: 6.048
+        Shared: 6.048
       us-east-2:
         Dedicated: 10.464
-        Shared: 10.464
+        Shared: 6.048
       us-gov-east-1:
         Dedicated: 11.664
         Shared: 11.664
@@ -89883,6 +89883,9 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 5.803
         Shared: 5.472
+      US East (Miami):
+        Dedicated: 4.579
+        Shared: 4.32
       us-east-1:
         Dedicated: 3.664
         Shared: 3.456
@@ -89959,6 +89962,9 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 5.933
         Shared: 5.602
+      US East (Miami):
+        Dedicated: 4.709
+        Shared: 4.45
       us-east-1:
         Dedicated: 3.794
         Shared: 3.586
@@ -90111,6 +90117,9 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 5.953
         Shared: 5.622
+      US East (Miami):
+        Dedicated: 4.729
+        Shared: 4.47
       us-east-1:
         Dedicated: 3.814
         Shared: 3.606
@@ -90187,6 +90196,9 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 8.011
         Shared: 7.68
+      US East (Miami):
+        Dedicated: 4.579
+        Shared: 6.528
       us-east-1:
         Dedicated: 5.872
         Shared: 3.456
@@ -90232,6 +90244,7 @@ r5d.12xlarge:
     - ap-southeast-1
     - Asia Pacific (Osaka)
     - eu-south-1
+    - US East (Miami)
     - us-east-2
     - us-gov-west-1
   storage: 2 x 900 NVMe SSD
