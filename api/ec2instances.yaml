@@ -27802,6 +27802,350 @@ c6i.xlarge:
     - eu-west-2
   storage: EBS only
   vcpu: 4
+c7g.12xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 15000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 96 GiB
+  networkPerformance: 22500 Megabit
+  normalizationSizeFactor: 96
+  physicalProcessor: AWS Graviton3 Processor
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 1.8492
+        Shared: 1.74
+      us-west-2:
+        Dedicated: 1.8492
+        Shared: 1.74
+    RHEL:
+      us-east-1:
+        Dedicated: 1.9792
+        Shared: 1.87
+      us-west-2:
+        Dedicated: 1.9792
+        Shared: 1.87
+    RHEL_HA:
+      us-east-1:
+        Dedicated: 2.0142
+        Shared: 1.905
+      us-west-2:
+        Dedicated: 2.0142
+        Shared: 1.905
+    SUSE:
+      us-east-1:
+        Dedicated: 1.9992
+        Shared: 1.89
+      us-west-2:
+        Dedicated: 1.9992
+        Shared: 1.89
+  regions:
+    - us-east-1
+    - us-west-2
+  storage: EBS only
+  vcpu: 48
+c7g.16xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 20000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 128 GiB
+  networkPerformance: 30 Gigabit
+  normalizationSizeFactor: 128
+  physicalProcessor: AWS Graviton3 Processor
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 2.32
+        Shared: 2.32
+      us-west-2:
+        Dedicated: 2.32
+        Shared: 2.32
+    RHEL:
+      us-east-1:
+        Dedicated: 2.45
+        Shared: 2.45
+      us-west-2:
+        Dedicated: 2.45
+        Shared: 2.45
+    RHEL_HA:
+      us-east-1:
+        Dedicated: 2.485
+        Shared: 2.485
+      us-west-2:
+        Dedicated: 2.485
+        Shared: 2.485
+    SUSE:
+      us-east-1:
+        Dedicated: 2.47
+        Shared: 2.47
+      us-west-2:
+        Dedicated: 2.47
+        Shared: 2.47
+  regions:
+    - us-east-1
+    - us-west-2
+  storage: EBS only
+  vcpu: 64
+c7g.2xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 16 GiB
+  networkPerformance: Up to 15 Gigabit
+  normalizationSizeFactor: 16
+  physicalProcessor: AWS Graviton3 Processor
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 0.3082
+        Shared: 0.29
+      us-west-2:
+        Dedicated: 0.3082
+        Shared: 0.29
+    RHEL:
+      us-east-1:
+        Dedicated: 0.4382
+        Shared: 0.42
+      us-west-2:
+        Dedicated: 0.4382
+        Shared: 0.42
+    RHEL_HA:
+      us-east-1:
+        Dedicated: 0.4732
+        Shared: 0.455
+      us-west-2:
+        Dedicated: 0.4732
+        Shared: 0.455
+    SUSE:
+      us-east-1:
+        Dedicated: 0.4582
+        Shared: 0.44
+      us-west-2:
+        Dedicated: 0.4582
+        Shared: 0.44
+  regions:
+    - us-west-2
+    - us-east-1
+  storage: EBS only
+  vcpu: 8
+c7g.4xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: Up to 15 Gigabit
+  normalizationSizeFactor: 32
+  physicalProcessor: AWS Graviton3 Processor
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 0.6164
+        Shared: 0.58
+      us-west-2:
+        Dedicated: 0.6164
+        Shared: 0.58
+    RHEL:
+      us-east-1:
+        Dedicated: 0.7464
+        Shared: 0.71
+      us-west-2:
+        Dedicated: 0.7464
+        Shared: 0.71
+    RHEL_HA:
+      us-east-1:
+        Dedicated: 0.7814
+        Shared: 0.745
+      us-west-2:
+        Dedicated: 0.7814
+        Shared: 0.745
+    SUSE:
+      us-east-1:
+        Dedicated: 0.7664
+        Shared: 0.73
+      us-west-2:
+        Dedicated: 0.7664
+        Shared: 0.73
+  regions:
+    - us-west-2
+    - us-east-1
+  storage: EBS only
+  vcpu: 16
+c7g.8xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 64 GiB
+  networkPerformance: 15 Gigabit
+  normalizationSizeFactor: 64
+  physicalProcessor: AWS Graviton3 Processor
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 1.2328
+        Shared: 1.16
+      us-west-2:
+        Dedicated: 1.2328
+        Shared: 1.16
+    RHEL:
+      us-east-1:
+        Dedicated: 1.3628
+        Shared: 1.29
+      us-west-2:
+        Dedicated: 1.3628
+        Shared: 1.29
+    RHEL_HA:
+      us-east-1:
+        Dedicated: 1.3978
+        Shared: 1.325
+      us-west-2:
+        Dedicated: 1.3978
+        Shared: 1.325
+    SUSE:
+      us-east-1:
+        Dedicated: 1.3828
+        Shared: 1.31
+      us-west-2:
+        Dedicated: 1.3828
+        Shared: 1.31
+  regions:
+    - us-east-1
+    - us-west-2
+  storage: EBS only
+  vcpu: 32
+c7g.large:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 4 GiB
+  networkPerformance: Up to 12500 Megabit
+  normalizationSizeFactor: 4
+  physicalProcessor: AWS Graviton3 Processor
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 0.077
+        Shared: 0.0725
+      us-west-2:
+        Dedicated: 0.077
+        Shared: 0.0725
+    RHEL:
+      us-east-1:
+        Dedicated: 0.137
+        Shared: 0.1325
+      us-west-2:
+        Dedicated: 0.137
+        Shared: 0.1325
+    RHEL_HA:
+      us-east-1:
+        Dedicated: 0.172
+        Shared: 0.1675
+      us-west-2:
+        Dedicated: 0.172
+        Shared: 0.1675
+    SUSE:
+      us-east-1:
+        Dedicated: 0.14
+        Shared: 0.1355
+      us-west-2:
+        Dedicated: 0.14
+        Shared: 0.1355
+  regions:
+    - us-east-1
+    - us-west-2
+  storage: EBS only
+  vcpu: 2
+c7g.medium:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 2 GiB
+  networkPerformance: Up to 12500 Megabit
+  normalizationSizeFactor: 2
+  physicalProcessor: AWS Graviton3 Processor
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 0.0385
+        Shared: 0.0363
+      us-west-2:
+        Dedicated: 0.0385
+        Shared: 0.0363
+    RHEL:
+      us-east-1:
+        Dedicated: 0.0985
+        Shared: 0.0963
+      us-west-2:
+        Dedicated: 0.0985
+        Shared: 0.0963
+    RHEL_HA:
+      us-east-1:
+        Dedicated: 0.1335
+        Shared: 0.1313
+      us-west-2:
+        Dedicated: 0.1335
+        Shared: 0.1313
+    SUSE:
+      us-east-1:
+        Dedicated: 0.0695
+        Shared: 0.0673
+      us-west-2:
+        Dedicated: 0.0695
+        Shared: 0.0673
+  regions:
+    - us-east-1
+    - us-west-2
+  storage: EBS only
+  vcpu: 1
+c7g.xlarge:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 8 GiB
+  networkPerformance: Up to 12500 Megabit
+  normalizationSizeFactor: 8
+  physicalProcessor: AWS Graviton3 Processor
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 0.1541
+        Shared: 0.145
+      us-west-2:
+        Dedicated: 0.1541
+        Shared: 0.145
+    RHEL:
+      us-east-1:
+        Dedicated: 0.2141
+        Shared: 0.205
+      us-west-2:
+        Dedicated: 0.2141
+        Shared: 0.205
+    RHEL_HA:
+      us-east-1:
+        Dedicated: 0.2491
+        Shared: 0.24
+      us-west-2:
+        Dedicated: 0.2491
+        Shared: 0.24
+    SUSE:
+      us-east-1:
+        Dedicated: 0.2791
+        Shared: 0.27
+      us-west-2:
+        Dedicated: 0.2791
+        Shared: 0.27
+  regions:
+    - us-west-2
+    - us-east-1
+  storage: EBS only
+  vcpu: 4
 cc2.8xlarge:
   clockSpeed: 2.6 GHz
   currentGeneration: false
