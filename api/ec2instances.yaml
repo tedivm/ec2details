@@ -34014,6 +34014,8 @@ g4dn.2xlarge:
         Shared: 1.015
       Asia Pacific (SKT) - Daejeon:
         Shared: 1.249
+      Asia Pacific (SKT) - Seoul:
+        Shared: 1.249
       ca-central-1:
         Dedicated: 0.885
         Shared: 0.835
@@ -34099,7 +34101,11 @@ g4dn.2xlarge:
         Shared: 1.317
       US East (Verizon) - Minneapolis:
         Shared: 1.317
+      US East (Verizon) - Nashville:
+        Shared: 1.317
       US East (Verizon) - New York:
+        Shared: 1.317
+      US East (Verizon) - Tampa:
         Shared: 1.317
       US East (Verizon) - Washington DC:
         Shared: 1.317
@@ -34181,6 +34187,8 @@ g4dn.2xlarge:
         Dedicated: 1.211
         Shared: 1.145
       Asia Pacific (SKT) - Daejeon:
+        Shared: 1.379
+      Asia Pacific (SKT) - Seoul:
         Shared: 1.379
       ca-central-1:
         Dedicated: 1.015
@@ -34267,7 +34275,11 @@ g4dn.2xlarge:
         Shared: 1.447
       US East (Verizon) - Minneapolis:
         Shared: 1.447
+      US East (Verizon) - Nashville:
+        Shared: 1.447
       US East (Verizon) - New York:
+        Shared: 1.447
+      US East (Verizon) - Tampa:
         Shared: 1.447
       US East (Verizon) - Washington DC:
         Shared: 1.447
@@ -34349,6 +34361,8 @@ g4dn.2xlarge:
         Dedicated: 1.246
         Shared: 1.18
       Asia Pacific (SKT) - Daejeon:
+        Shared: 1.414
+      Asia Pacific (SKT) - Seoul:
         Shared: 1.414
       ca-central-1:
         Dedicated: 1.05
@@ -34435,7 +34449,11 @@ g4dn.2xlarge:
         Shared: 1.482
       US East (Verizon) - Minneapolis:
         Shared: 1.482
+      US East (Verizon) - Nashville:
+        Shared: 1.482
       US East (Verizon) - New York:
+        Shared: 1.482
+      US East (Verizon) - Tampa:
         Shared: 1.482
       US East (Verizon) - Washington DC:
         Shared: 1.482
@@ -34517,6 +34535,8 @@ g4dn.2xlarge:
         Dedicated: 1.231
         Shared: 1.165
       Asia Pacific (SKT) - Daejeon:
+        Shared: 1.399
+      Asia Pacific (SKT) - Seoul:
         Shared: 1.399
       ca-central-1:
         Dedicated: 1.035
@@ -34603,7 +34623,11 @@ g4dn.2xlarge:
         Shared: 1.467
       US East (Verizon) - Minneapolis:
         Shared: 1.467
+      US East (Verizon) - Nashville:
+        Shared: 1.467
       US East (Verizon) - New York:
+        Shared: 1.467
+      US East (Verizon) - Tampa:
         Shared: 1.467
       US East (Verizon) - Washington DC:
         Shared: 1.467
@@ -34686,6 +34710,8 @@ g4dn.2xlarge:
         Shared: 1.015
       Asia Pacific (SKT) - Daejeon:
         Shared: 1.617
+      Asia Pacific (SKT) - Seoul:
+        Shared: 1.249
       ca-central-1:
         Dedicated: 1.253
         Shared: 1.203
@@ -34771,8 +34797,12 @@ g4dn.2xlarge:
         Shared: 1.317
       US East (Verizon) - Minneapolis:
         Shared: 1.317
+      US East (Verizon) - Nashville:
+        Shared: 1.317
       US East (Verizon) - New York:
         Shared: 1.685
+      US East (Verizon) - Tampa:
+        Shared: 1.317
       US East (Verizon) - Washington DC:
         Shared: 1.685
       US West (Denver):
@@ -34833,6 +34863,7 @@ g4dn.2xlarge:
     - US West (Phoenix)
     - us-gov-west-1
     - US West (Portland)
+    - US East (Verizon) - Tampa
     - us-east-1
     - us-west-2-lax-1a
     - Asia Pacific (KDDI) - Osaka
@@ -34849,12 +34880,14 @@ g4dn.2xlarge:
     - US East (Verizon) - New York
     - US West (Denver)
     - eu-west-1
+    - US East (Verizon) - Nashville
     - ap-northeast-1
     - Europe (Vodafone) - Dortmund
     - Canada (BELL) - Toronto
     - ap-northeast-2
     - eu-south-1
     - US East (Verizon) - Minneapolis
+    - Asia Pacific (SKT) - Seoul
     - US East (Verizon) - Miami
     - ap-southeast-2
     - US East (Verizon) - Dallas
@@ -80887,6 +80920,8 @@ r5.2xlarge:
         Shared: 0.608
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.76
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.76
       ca-central-1:
         Dedicated: 0.585
         Shared: 0.552
@@ -80942,7 +80977,11 @@ r5.2xlarge:
         Shared: 0.68
       US East (Verizon) - Minneapolis:
         Shared: 0.68
+      US East (Verizon) - Nashville:
+        Shared: 0.68
       US East (Verizon) - New York:
+        Shared: 0.68
+      US East (Verizon) - Tampa:
         Shared: 0.68
       US East (Verizon) - Washington DC:
         Shared: 0.68
@@ -81013,6 +81052,8 @@ r5.2xlarge:
         Shared: 0.738
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.89
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.89
       ca-central-1:
         Dedicated: 0.715
         Shared: 0.682
@@ -81068,7 +81109,11 @@ r5.2xlarge:
         Shared: 0.81
       US East (Verizon) - Minneapolis:
         Shared: 0.81
+      US East (Verizon) - Nashville:
+        Shared: 0.81
       US East (Verizon) - New York:
+        Shared: 0.81
+      US East (Verizon) - Tampa:
         Shared: 0.81
       US East (Verizon) - Washington DC:
         Shared: 0.81
@@ -81139,6 +81184,8 @@ r5.2xlarge:
         Shared: 0.773
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.925
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.925
       ca-central-1:
         Dedicated: 0.75
         Shared: 0.717
@@ -81194,7 +81241,11 @@ r5.2xlarge:
         Shared: 0.845
       US East (Verizon) - Minneapolis:
         Shared: 0.845
+      US East (Verizon) - Nashville:
+        Shared: 0.845
       US East (Verizon) - New York:
+        Shared: 0.845
+      US East (Verizon) - Tampa:
         Shared: 0.845
       US East (Verizon) - Washington DC:
         Shared: 0.845
@@ -81265,6 +81316,8 @@ r5.2xlarge:
         Shared: 0.758
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.91
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.91
       ca-central-1:
         Dedicated: 0.735
         Shared: 0.702
@@ -81320,7 +81373,11 @@ r5.2xlarge:
         Shared: 0.83
       US East (Verizon) - Minneapolis:
         Shared: 0.83
+      US East (Verizon) - Nashville:
+        Shared: 0.83
       US East (Verizon) - New York:
+        Shared: 0.83
+      US East (Verizon) - Tampa:
         Shared: 0.83
       US East (Verizon) - Washington DC:
         Shared: 0.83
@@ -81391,6 +81448,8 @@ r5.2xlarge:
         Shared: 0.976
       Asia Pacific (SKT) - Daejeon:
         Shared: 1.128
+      Asia Pacific (SKT) - Seoul:
+        Shared: 1.128
       ca-central-1:
         Dedicated: 0.953
         Shared: 0.92
@@ -81446,8 +81505,12 @@ r5.2xlarge:
         Shared: 1.048
       US East (Verizon) - Minneapolis:
         Shared: 1.048
+      US East (Verizon) - Nashville:
+        Shared: 0.68
       US East (Verizon) - New York:
         Shared: 1.048
+      US East (Verizon) - Tampa:
+        Shared: 0.68
       US East (Verizon) - Washington DC:
         Shared: 1.048
       US West (Verizon) - Denver:
@@ -81521,6 +81584,7 @@ r5.2xlarge:
     - ap-east-1
     - af-south-1
     - ap-southeast-2
+    - Asia Pacific (SKT) - Seoul
     - US West (Verizon) - San Francisco Bay Area
     - Europe (Vodafone) - Berlin
     - US East (Verizon) - Houston
@@ -81528,10 +81592,12 @@ r5.2xlarge:
     - US East (Verizon) - New York
     - US West (Verizon) - Las Vegas
     - US West (Verizon) - Seattle
+    - US East (Verizon) - Nashville
     - US East (Verizon) - Charlotte
     - Asia Pacific (KDDI) - Tokyo
     - Asia Pacific (SKT) - Daejeon
     - Asia Pacific (KDDI) - Osaka
+    - US East (Verizon) - Tampa
     - US East (Verizon) - Atlanta
     - US East (Verizon) - Boston
   storage: EBS only
@@ -108411,6 +108477,8 @@ t3.medium:
         Shared: 0.0544
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.065
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.065
       ca-central-1:
         Dedicated: 0.0492
         Shared: 0.0464
@@ -108483,7 +108551,11 @@ t3.medium:
         Shared: 0.056
       US East (Verizon) - Minneapolis:
         Shared: 0.056
+      US East (Verizon) - Nashville:
+        Shared: 0.056
       US East (Verizon) - New York:
+        Shared: 0.056
+      US East (Verizon) - Tampa:
         Shared: 0.056
       US East (Verizon) - Washington DC:
         Shared: 0.056
@@ -108559,6 +108631,8 @@ t3.medium:
         Shared: 0.1144
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.125
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.125
       ca-central-1:
         Dedicated: 0.1092
         Shared: 0.1064
@@ -108631,7 +108705,11 @@ t3.medium:
         Shared: 0.116
       US East (Verizon) - Minneapolis:
         Shared: 0.116
+      US East (Verizon) - Nashville:
+        Shared: 0.116
       US East (Verizon) - New York:
+        Shared: 0.116
+      US East (Verizon) - Tampa:
         Shared: 0.116
       US East (Verizon) - Washington DC:
         Shared: 0.116
@@ -108701,6 +108779,8 @@ t3.medium:
         Shared: 0.1494
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.16
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.16
       ca-central-1:
         Shared: 0.1414
       Canada (BELL) - Toronto:
@@ -108767,7 +108847,11 @@ t3.medium:
         Shared: 0.151
       US East (Verizon) - Minneapolis:
         Shared: 0.151
+      US East (Verizon) - Nashville:
+        Shared: 0.151
       US East (Verizon) - New York:
+        Shared: 0.151
+      US East (Verizon) - Tampa:
         Shared: 0.151
       US East (Verizon) - Washington DC:
         Shared: 0.151
@@ -108837,6 +108921,8 @@ t3.medium:
       Asia Pacific (Osaka):
         Shared: 0.1174
       Asia Pacific (SKT) - Daejeon:
+        Shared: 0.128
+      Asia Pacific (SKT) - Seoul:
         Shared: 0.128
       ca-central-1:
         Dedicated: 0.1122
@@ -108910,7 +108996,11 @@ t3.medium:
         Shared: 0.119
       US East (Verizon) - Minneapolis:
         Shared: 0.119
+      US East (Verizon) - Nashville:
+        Shared: 0.119
       US East (Verizon) - New York:
+        Shared: 0.119
+      US East (Verizon) - Tampa:
         Shared: 0.119
       US East (Verizon) - Washington DC:
         Shared: 0.119
@@ -108986,6 +109076,8 @@ t3.medium:
         Shared: 0.0728
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.0834
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.065
       ca-central-1:
         Dedicated: 0.0676
         Shared: 0.0464
@@ -109058,7 +109150,11 @@ t3.medium:
         Shared: 0.0744
       US East (Verizon) - Minneapolis:
         Shared: 0.0744
+      US East (Verizon) - Nashville:
+        Shared: 0.0744
       US East (Verizon) - New York:
+        Shared: 0.0744
+      US East (Verizon) - Tampa:
         Shared: 0.0744
       US East (Verizon) - Washington DC:
         Shared: 0.0744
@@ -109132,6 +109228,7 @@ t3.medium:
     - me-south-1
     - US West (Verizon) - San Francisco Bay Area
     - Europe (Vodafone) - Munich
+    - Asia Pacific (SKT) - Seoul
     - US West (Las Vegas)
     - US East (Verizon) - Chicago
     - US East (Verizon) - Minneapolis
@@ -109151,12 +109248,14 @@ t3.medium:
     - US West (Portland)
     - ap-southeast-1
     - US West (Verizon) - Denver
+    - US East (Verizon) - Tampa
     - US West (Verizon) - Las Vegas
     - ap-east-1
     - ca-central-1
     - ap-northeast-1
     - Canada (BELL) - Toronto
     - us-east-2
+    - US East (Verizon) - Nashville
     - eu-south-1
     - US East (Dallas)
     - US East (Verizon) - Charlotte
@@ -110180,6 +110279,8 @@ t3.xlarge:
         Shared: 0.2176
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.26
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.26
       ca-central-1:
         Dedicated: 0.1967
         Shared: 0.1856
@@ -110252,7 +110353,11 @@ t3.xlarge:
         Shared: 0.224
       US East (Verizon) - Minneapolis:
         Shared: 0.224
+      US East (Verizon) - Nashville:
+        Shared: 0.224
       US East (Verizon) - New York:
+        Shared: 0.224
+      US East (Verizon) - Tampa:
         Shared: 0.224
       US East (Verizon) - Washington DC:
         Shared: 0.224
@@ -110328,6 +110433,8 @@ t3.xlarge:
         Shared: 0.2776
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.32
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.32
       ca-central-1:
         Dedicated: 0.2567
         Shared: 0.2456
@@ -110400,7 +110507,11 @@ t3.xlarge:
         Shared: 0.284
       US East (Verizon) - Minneapolis:
         Shared: 0.284
+      US East (Verizon) - Nashville:
+        Shared: 0.284
       US East (Verizon) - New York:
+        Shared: 0.284
+      US East (Verizon) - Tampa:
         Shared: 0.284
       US East (Verizon) - Washington DC:
         Shared: 0.284
@@ -110470,6 +110581,8 @@ t3.xlarge:
         Shared: 0.3126
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.355
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.355
       ca-central-1:
         Shared: 0.2806
       Canada (BELL) - Toronto:
@@ -110536,7 +110649,11 @@ t3.xlarge:
         Shared: 0.319
       US East (Verizon) - Minneapolis:
         Shared: 0.319
+      US East (Verizon) - Nashville:
+        Shared: 0.319
       US East (Verizon) - New York:
+        Shared: 0.319
+      US East (Verizon) - Tampa:
         Shared: 0.319
       US East (Verizon) - Washington DC:
         Shared: 0.319
@@ -110606,6 +110723,8 @@ t3.xlarge:
       Asia Pacific (Osaka):
         Shared: 0.3426
       Asia Pacific (SKT) - Daejeon:
+        Shared: 0.385
+      Asia Pacific (SKT) - Seoul:
         Shared: 0.385
       ca-central-1:
         Dedicated: 0.3217
@@ -110679,7 +110798,11 @@ t3.xlarge:
         Shared: 0.349
       US East (Verizon) - Minneapolis:
         Shared: 0.349
+      US East (Verizon) - Nashville:
+        Shared: 0.349
       US East (Verizon) - New York:
+        Shared: 0.349
+      US East (Verizon) - Tampa:
         Shared: 0.349
       US East (Verizon) - Washington DC:
         Shared: 0.349
@@ -110755,6 +110878,8 @@ t3.xlarge:
         Shared: 0.2912
       Asia Pacific (SKT) - Daejeon:
         Shared: 0.3336
+      Asia Pacific (SKT) - Seoul:
+        Shared: 0.26
       ca-central-1:
         Dedicated: 0.2703
         Shared: 0.2592
@@ -110827,7 +110952,11 @@ t3.xlarge:
         Shared: 0.224
       US East (Verizon) - Minneapolis:
         Shared: 0.224
+      US East (Verizon) - Nashville:
+        Shared: 0.224
       US East (Verizon) - New York:
+        Shared: 0.2976
+      US East (Verizon) - Tampa:
         Shared: 0.2976
       US East (Verizon) - Washington DC:
         Shared: 0.2976
@@ -110911,7 +111040,9 @@ t3.xlarge:
     - me-south-1
     - US West (Verizon) - Seattle
     - eu-south-1
+    - US East (Verizon) - Nashville
     - Asia Pacific (Osaka)
+    - Asia Pacific (SKT) - Seoul
     - US East (Dallas)
     - US West (Verizon) - Las Vegas
     - US East (Verizon) - Houston
@@ -110937,6 +111068,7 @@ t3.xlarge:
     - US East (Verizon) - Charlotte
     - US East (Minneapolis)
     - Europe (Vodafone) - London
+    - US East (Verizon) - Tampa
     - US West (Verizon) - San Francisco Bay Area
   storage: EBS only
   vcpu: 4
