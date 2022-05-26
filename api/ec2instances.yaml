@@ -76662,6 +76662,51 @@ p4d.24xlarge:
     - us-east-2
   storage: 8 x 1000 SSD
   vcpu: 96
+p4de.24xlarge:
+  clockSpeed: 3 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 19000 Mbps
+  ecu: 345
+  enhancedNetworkingSupported: false
+  gpu: 8
+  memory: 1152 GiB
+  networkPerformance: 400 Gigabit
+  normalizationSizeFactor: 192
+  physicalProcessor: Intel Xeon Platinum 8275L
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 45.062325
+        Shared: 40.96575
+      us-west-2:
+        Dedicated: 45.062325
+        Shared: 40.96575
+    RHEL:
+      us-east-1:
+        Dedicated: 45.192325
+        Shared: 41.09575
+      us-west-2:
+        Dedicated: 45.192325
+        Shared: 41.09575
+    RHEL_HA:
+      us-east-1:
+        Dedicated: 45.227325
+        Shared: 41.13075
+      us-west-2:
+        Dedicated: 45.227325
+        Shared: 41.13075
+    SUSE:
+      us-east-1:
+        Dedicated: 45.212325
+        Shared: 41.11575
+      us-west-2:
+        Dedicated: 45.212325
+        Shared: 41.11575
+  regions:
+    - us-west-2
+    - us-east-1
+  storage: 8 x 1000 SSD
+  vcpu: 96
 r3.2xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: false
