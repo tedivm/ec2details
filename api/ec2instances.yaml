@@ -35805,6 +35805,15 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.179
         Shared: 2.046
+      US East (Boston):
+        Dedicated: 1.723
+        Shared: 1.625
+      US East (Houston):
+        Dedicated: 1.723
+        Shared: 1.625
+      US East (Miami):
+        Dedicated: 1.723
+        Shared: 1.625
       us-east-1:
         Dedicated: 1.276
         Shared: 1.204
@@ -35878,6 +35887,15 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.309
         Shared: 2.176
+      US East (Boston):
+        Dedicated: 1.853
+        Shared: 1.755
+      US East (Houston):
+        Dedicated: 1.853
+        Shared: 1.755
+      US East (Miami):
+        Dedicated: 1.853
+        Shared: 1.755
       us-east-1:
         Dedicated: 1.406
         Shared: 1.334
@@ -36024,6 +36042,15 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.304
         Shared: 2.171
+      US East (Boston):
+        Dedicated: 1.848
+        Shared: 1.75
+      US East (Houston):
+        Dedicated: 1.848
+        Shared: 1.75
+      US East (Miami):
+        Dedicated: 1.848
+        Shared: 1.75
       us-east-1:
         Dedicated: 1.401
         Shared: 1.329
@@ -36097,6 +36124,15 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.915
         Shared: 2.782
+      US East (Boston):
+        Dedicated: 1.723
+        Shared: 1.625
+      US East (Houston):
+        Dedicated: 1.723
+        Shared: 2.361
+      US East (Miami):
+        Dedicated: 2.459
+        Shared: 1.625
       us-east-1:
         Dedicated: 2.012
         Shared: 1.94
@@ -36119,12 +36155,15 @@ g4dn.4xlarge:
         Dedicated: 2.278
         Shared: 2.181
   regions:
+    - US East (Miami)
     - ca-central-1
     - eu-west-3
     - us-east-2
+    - US East (Boston)
     - Asia Pacific (Osaka)
     - ap-east-1
     - us-east-1
+    - US East (Houston)
     - us-gov-west-1
     - eu-central-1
     - ap-south-1
@@ -36207,7 +36246,13 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 3.939
         Shared: 3.698
+      US East (Boston):
+        Dedicated: 3.114
+        Shared: 2.938
       US East (Houston):
+        Dedicated: 3.114
+        Shared: 2.938
+      US East (Miami):
         Dedicated: 3.114
         Shared: 2.938
       us-east-1:
@@ -36283,7 +36328,13 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 4.069
         Shared: 3.828
+      US East (Boston):
+        Dedicated: 3.244
+        Shared: 3.068
       US East (Houston):
+        Dedicated: 3.244
+        Shared: 3.068
+      US East (Miami):
         Dedicated: 3.244
         Shared: 3.068
       us-east-1:
@@ -36432,7 +36483,13 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 4.064
         Shared: 3.823
+      US East (Boston):
+        Dedicated: 3.239
+        Shared: 3.063
       US East (Houston):
+        Dedicated: 3.239
+        Shared: 3.063
+      US East (Miami):
         Dedicated: 3.239
         Shared: 3.063
       us-east-1:
@@ -36508,9 +36565,15 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 5.411
         Shared: 5.17
+      US East (Boston):
+        Dedicated: 4.586
+        Shared: 2.938
       US East (Houston):
         Dedicated: 4.586
         Shared: 4.41
+      US East (Miami):
+        Dedicated: 3.114
+        Shared: 2.938
       us-east-1:
         Dedicated: 3.779
         Shared: 3.648
@@ -36542,6 +36605,7 @@ g4dn.8xlarge:
     - ca-central-1
     - us-west-2
     - ap-northeast-2
+    - US East (Miami)
     - us-gov-west-1
     - eu-west-2
     - US East (Houston)
@@ -36550,6 +36614,7 @@ g4dn.8xlarge:
     - eu-south-1
     - sa-east-1
     - af-south-1
+    - US East (Boston)
     - us-east-1
     - ap-southeast-1
     - eu-west-1
@@ -92410,6 +92475,9 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 7.738
         Shared: 7.296
+      US East (Miami):
+        Dedicated: 6.106
+        Shared: 5.76
       us-east-1:
         Dedicated: 4.885
         Shared: 4.608
@@ -92486,6 +92554,9 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 7.868
         Shared: 7.426
+      US East (Miami):
+        Dedicated: 6.236
+        Shared: 5.89
       us-east-1:
         Dedicated: 5.015
         Shared: 4.738
@@ -92638,6 +92709,9 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 7.859
         Shared: 7.421
+      US East (Miami):
+        Dedicated: 6.231
+        Shared: 5.885
       us-east-1:
         Dedicated: 5.009
         Shared: 4.733
@@ -92714,6 +92788,9 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 10.682
         Shared: 10.24
+      US East (Miami):
+        Dedicated: 9.05
+        Shared: 8.704
       us-east-1:
         Dedicated: 7.829
         Shared: 7.552
@@ -92738,6 +92815,7 @@ r5d.16xlarge:
   regions:
     - eu-central-1
     - ap-southeast-3
+    - US East (Miami)
     - me-south-1
     - us-gov-west-1
     - ap-southeast-1
@@ -92829,6 +92907,9 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 10.944
         Shared: 10.944
+      US East (Miami):
+        Dedicated: 8.64
+        Shared: 8.64
       us-east-1:
         Dedicated: 6.912
         Shared: 6.912
@@ -92905,6 +92986,9 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 11.074
         Shared: 11.074
+      US East (Miami):
+        Dedicated: 8.77
+        Shared: 8.77
       us-east-1:
         Dedicated: 7.042
         Shared: 7.042
@@ -93057,6 +93141,9 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 11.069
         Shared: 11.069
+      US East (Miami):
+        Dedicated: 8.765
+        Shared: 8.765
       us-east-1:
         Dedicated: 7.037
         Shared: 7.037
@@ -93133,6 +93220,9 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 15.36
         Shared: 15.36
+      US East (Miami):
+        Dedicated: 13.056
+        Shared: 13.056
       us-east-1:
         Dedicated: 11.328
         Shared: 6.912
@@ -93170,6 +93260,7 @@ r5d.24xlarge:
     - ap-south-1
     - ap-northeast-2
     - us-gov-east-1
+    - US East (Miami)
     - sa-east-1
     - ap-southeast-2
     - eu-west-3
@@ -98140,6 +98231,9 @@ r5n.12xlarge:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 5.054
+        Shared: 4.768
       ap-east-1:
         Dedicated: 5.138
         Shared: 4.848
@@ -98167,6 +98261,9 @@ r5n.12xlarge:
       eu-north-1:
         Dedicated: 4.044
         Shared: 3.816
+      eu-south-1:
+        Dedicated: 4.453
+        Shared: 4.2
       eu-west-1:
         Dedicated: 4.248
         Shared: 4.008
@@ -98198,6 +98295,9 @@ r5n.12xlarge:
         Dedicated: 3.791
         Shared: 3.576
     RHEL:
+      af-south-1:
+        Dedicated: 5.184
+        Shared: 4.898
       ap-east-1:
         Dedicated: 5.268
         Shared: 4.978
@@ -98225,6 +98325,9 @@ r5n.12xlarge:
       eu-north-1:
         Dedicated: 4.174
         Shared: 3.946
+      eu-south-1:
+        Dedicated: 4.583
+        Shared: 4.33
       eu-west-1:
         Dedicated: 4.378
         Shared: 4.138
@@ -98256,6 +98359,9 @@ r5n.12xlarge:
         Dedicated: 3.921
         Shared: 3.706
     RHEL_HA:
+      af-south-1:
+        Dedicated: 5.219
+        Shared: 4.933
       ap-east-1:
         Dedicated: 5.303
         Shared: 5.013
@@ -98283,6 +98389,9 @@ r5n.12xlarge:
       eu-north-1:
         Dedicated: 4.209
         Shared: 3.981
+      eu-south-1:
+        Dedicated: 4.618
+        Shared: 4.365
       eu-west-1:
         Dedicated: 4.413
         Shared: 4.173
@@ -98314,6 +98423,9 @@ r5n.12xlarge:
         Dedicated: 3.956
         Shared: 3.741
     SUSE:
+      af-south-1:
+        Dedicated: 5.179
+        Shared: 4.893
       ap-east-1:
         Dedicated: 5.263
         Shared: 4.973
@@ -98341,6 +98453,9 @@ r5n.12xlarge:
       eu-north-1:
         Dedicated: 4.169
         Shared: 3.941
+      eu-south-1:
+        Dedicated: 4.578
+        Shared: 4.325
       eu-west-1:
         Dedicated: 4.373
         Shared: 4.133
@@ -98372,6 +98487,9 @@ r5n.12xlarge:
         Dedicated: 3.916
         Shared: 3.701
     Windows:
+      af-south-1:
+        Dedicated: 7.262
+        Shared: 6.976
       ap-east-1:
         Dedicated: 7.346
         Shared: 7.056
@@ -98399,6 +98517,9 @@ r5n.12xlarge:
       eu-north-1:
         Dedicated: 4.044
         Shared: 3.816
+      eu-south-1:
+        Dedicated: 6.661
+        Shared: 4.2
       eu-west-1:
         Dedicated: 4.248
         Shared: 4.008
@@ -98431,6 +98552,7 @@ r5n.12xlarge:
         Shared: 5.784
   regions:
     - eu-west-2
+    - af-south-1
     - us-east-2
     - eu-north-1
     - ap-southeast-2
@@ -98440,6 +98562,7 @@ r5n.12xlarge:
     - eu-central-1
     - us-east-1
     - ap-southeast-1
+    - eu-south-1
     - us-gov-west-1
     - us-gov-east-1
     - ap-south-1
@@ -98462,6 +98585,9 @@ r5n.16xlarge:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 6.739
+        Shared: 6.357
       ap-east-1:
         Dedicated: 6.851
         Shared: 6.464
@@ -98489,6 +98615,9 @@ r5n.16xlarge:
       eu-north-1:
         Dedicated: 5.392
         Shared: 5.088
+      eu-south-1:
+        Dedicated: 5.937
+        Shared: 5.601
       eu-west-1:
         Dedicated: 5.665
         Shared: 5.344
@@ -98520,6 +98649,9 @@ r5n.16xlarge:
         Dedicated: 5.054
         Shared: 4.768
     RHEL:
+      af-south-1:
+        Dedicated: 6.869
+        Shared: 6.487
       ap-east-1:
         Dedicated: 6.981
         Shared: 6.594
@@ -98547,6 +98679,9 @@ r5n.16xlarge:
       eu-north-1:
         Dedicated: 5.522
         Shared: 5.218
+      eu-south-1:
+        Dedicated: 6.067
+        Shared: 5.731
       eu-west-1:
         Dedicated: 5.795
         Shared: 5.474
@@ -98578,6 +98713,9 @@ r5n.16xlarge:
         Dedicated: 5.184
         Shared: 4.898
     RHEL_HA:
+      af-south-1:
+        Dedicated: 6.904
+        Shared: 6.522
       ap-east-1:
         Dedicated: 7.016
         Shared: 6.629
@@ -98605,6 +98743,9 @@ r5n.16xlarge:
       eu-north-1:
         Dedicated: 5.557
         Shared: 5.253
+      eu-south-1:
+        Dedicated: 6.102
+        Shared: 5.766
       eu-west-1:
         Dedicated: 5.83
         Shared: 5.509
@@ -98636,6 +98777,9 @@ r5n.16xlarge:
         Dedicated: 5.219
         Shared: 4.933
     SUSE:
+      af-south-1:
+        Dedicated: 6.864
+        Shared: 6.482
       ap-east-1:
         Dedicated: 6.976
         Shared: 6.589
@@ -98663,6 +98807,9 @@ r5n.16xlarge:
       eu-north-1:
         Dedicated: 5.517
         Shared: 5.213
+      eu-south-1:
+        Dedicated: 6.062
+        Shared: 5.726
       eu-west-1:
         Dedicated: 5.79
         Shared: 5.469
@@ -98694,6 +98841,9 @@ r5n.16xlarge:
         Dedicated: 5.179
         Shared: 4.893
     Windows:
+      af-south-1:
+        Dedicated: 9.683
+        Shared: 9.301
       ap-east-1:
         Dedicated: 9.795
         Shared: 9.408
@@ -98721,6 +98871,9 @@ r5n.16xlarge:
       eu-north-1:
         Dedicated: 5.392
         Shared: 8.032
+      eu-south-1:
+        Dedicated: 5.937
+        Shared: 5.601
       eu-west-1:
         Dedicated: 5.665
         Shared: 8.288
@@ -98752,7 +98905,9 @@ r5n.16xlarge:
         Dedicated: 7.998
         Shared: 7.712
   regions:
+    - af-south-1
     - us-west-2
+    - eu-south-1
     - ap-northeast-1
     - us-gov-west-1
     - eu-west-3
@@ -98784,6 +98939,9 @@ r5n.24xlarge:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 9.536
+        Shared: 9.536
       ap-east-1:
         Dedicated: 9.696
         Shared: 9.696
@@ -98811,6 +98969,9 @@ r5n.24xlarge:
       eu-north-1:
         Dedicated: 7.632
         Shared: 7.632
+      eu-south-1:
+        Dedicated: 8.401
+        Shared: 8.401
       eu-west-1:
         Dedicated: 8.016
         Shared: 8.016
@@ -98842,6 +99003,9 @@ r5n.24xlarge:
         Dedicated: 7.152
         Shared: 7.152
     RHEL:
+      af-south-1:
+        Dedicated: 9.666
+        Shared: 9.666
       ap-east-1:
         Dedicated: 9.826
         Shared: 9.826
@@ -98869,6 +99033,9 @@ r5n.24xlarge:
       eu-north-1:
         Dedicated: 7.762
         Shared: 7.762
+      eu-south-1:
+        Dedicated: 8.531
+        Shared: 8.531
       eu-west-1:
         Dedicated: 8.146
         Shared: 8.146
@@ -98900,6 +99067,9 @@ r5n.24xlarge:
         Dedicated: 7.282
         Shared: 7.282
     RHEL_HA:
+      af-south-1:
+        Dedicated: 9.701
+        Shared: 9.701
       ap-east-1:
         Dedicated: 9.861
         Shared: 9.861
@@ -98927,6 +99097,9 @@ r5n.24xlarge:
       eu-north-1:
         Dedicated: 7.797
         Shared: 7.797
+      eu-south-1:
+        Dedicated: 8.566
+        Shared: 8.566
       eu-west-1:
         Dedicated: 8.181
         Shared: 8.181
@@ -98958,6 +99131,9 @@ r5n.24xlarge:
         Dedicated: 7.317
         Shared: 7.317
     SUSE:
+      af-south-1:
+        Dedicated: 9.661
+        Shared: 9.661
       ap-east-1:
         Dedicated: 9.821
         Shared: 9.821
@@ -98985,6 +99161,9 @@ r5n.24xlarge:
       eu-north-1:
         Dedicated: 7.757
         Shared: 7.757
+      eu-south-1:
+        Dedicated: 8.526
+        Shared: 8.526
       eu-west-1:
         Dedicated: 8.141
         Shared: 8.141
@@ -99016,6 +99195,9 @@ r5n.24xlarge:
         Dedicated: 7.277
         Shared: 7.277
     Windows:
+      af-south-1:
+        Dedicated: 13.952
+        Shared: 13.952
       ap-east-1:
         Dedicated: 14.112
         Shared: 14.112
@@ -99043,6 +99225,9 @@ r5n.24xlarge:
       eu-north-1:
         Dedicated: 12.048
         Shared: 12.048
+      eu-south-1:
+        Dedicated: 8.401
+        Shared: 12.817
       eu-west-1:
         Dedicated: 8.016
         Shared: 12.432
@@ -99076,6 +99261,7 @@ r5n.24xlarge:
   regions:
     - ap-south-1
     - ca-central-1
+    - af-south-1
     - eu-west-3
     - ap-northeast-2
     - ap-northeast-1
@@ -99089,6 +99275,7 @@ r5n.24xlarge:
     - ap-east-1
     - ap-southeast-1
     - us-gov-west-1
+    - eu-south-1
     - eu-west-2
     - us-gov-east-1
     - us-west-1
@@ -99106,6 +99293,9 @@ r5n.2xlarge:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.842
+        Shared: 0.795
       ap-east-1:
         Dedicated: 0.856
         Shared: 0.808
@@ -99133,6 +99323,9 @@ r5n.2xlarge:
       eu-north-1:
         Dedicated: 0.674
         Shared: 0.636
+      eu-south-1:
+        Dedicated: 0.742
+        Shared: 0.7
       eu-west-1:
         Dedicated: 0.708
         Shared: 0.668
@@ -99164,6 +99357,9 @@ r5n.2xlarge:
         Dedicated: 0.632
         Shared: 0.596
     RHEL:
+      af-south-1:
+        Dedicated: 0.972
+        Shared: 0.925
       ap-east-1:
         Dedicated: 0.986
         Shared: 0.938
@@ -99191,6 +99387,9 @@ r5n.2xlarge:
       eu-north-1:
         Dedicated: 0.804
         Shared: 0.766
+      eu-south-1:
+        Dedicated: 0.872
+        Shared: 0.83
       eu-west-1:
         Dedicated: 0.838
         Shared: 0.798
@@ -99222,6 +99421,9 @@ r5n.2xlarge:
         Dedicated: 0.762
         Shared: 0.726
     RHEL_HA:
+      af-south-1:
+        Dedicated: 1.007
+        Shared: 0.96
       ap-east-1:
         Dedicated: 1.021
         Shared: 0.973
@@ -99249,6 +99451,9 @@ r5n.2xlarge:
       eu-north-1:
         Dedicated: 0.839
         Shared: 0.801
+      eu-south-1:
+        Dedicated: 0.907
+        Shared: 0.865
       eu-west-1:
         Dedicated: 0.873
         Shared: 0.833
@@ -99280,6 +99485,9 @@ r5n.2xlarge:
         Dedicated: 0.797
         Shared: 0.761
     SUSE:
+      af-south-1:
+        Dedicated: 0.967
+        Shared: 0.92
       ap-east-1:
         Dedicated: 0.981
         Shared: 0.933
@@ -99307,6 +99515,9 @@ r5n.2xlarge:
       eu-north-1:
         Dedicated: 0.799
         Shared: 0.761
+      eu-south-1:
+        Dedicated: 0.867
+        Shared: 0.825
       eu-west-1:
         Dedicated: 0.833
         Shared: 0.793
@@ -99338,6 +99549,9 @@ r5n.2xlarge:
         Dedicated: 0.757
         Shared: 0.721
     Windows:
+      af-south-1:
+        Dedicated: 0.842
+        Shared: 0.795
       ap-east-1:
         Dedicated: 0.856
         Shared: 0.808
@@ -99365,6 +99579,9 @@ r5n.2xlarge:
       eu-north-1:
         Dedicated: 0.674
         Shared: 0.636
+      eu-south-1:
+        Dedicated: 1.11
+        Shared: 1.068
       eu-west-1:
         Dedicated: 1.076
         Shared: 0.668
@@ -99397,6 +99614,8 @@ r5n.2xlarge:
         Shared: 0.964
   regions:
     - us-gov-east-1
+    - eu-south-1
+    - af-south-1
     - us-gov-west-1
     - ap-southeast-1
     - eu-west-1
@@ -99428,6 +99647,9 @@ r5n.4xlarge:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 1.685
+        Shared: 1.589
       ap-east-1:
         Dedicated: 1.713
         Shared: 1.616
@@ -99455,6 +99677,9 @@ r5n.4xlarge:
       eu-north-1:
         Dedicated: 1.348
         Shared: 1.272
+      eu-south-1:
+        Dedicated: 1.484
+        Shared: 1.4
       eu-west-1:
         Dedicated: 1.416
         Shared: 1.336
@@ -99486,6 +99711,9 @@ r5n.4xlarge:
         Dedicated: 1.264
         Shared: 1.192
     RHEL:
+      af-south-1:
+        Dedicated: 1.815
+        Shared: 1.719
       ap-east-1:
         Dedicated: 1.843
         Shared: 1.746
@@ -99513,6 +99741,9 @@ r5n.4xlarge:
       eu-north-1:
         Dedicated: 1.478
         Shared: 1.402
+      eu-south-1:
+        Dedicated: 1.614
+        Shared: 1.53
       eu-west-1:
         Dedicated: 1.546
         Shared: 1.466
@@ -99544,6 +99775,9 @@ r5n.4xlarge:
         Dedicated: 1.394
         Shared: 1.322
     RHEL_HA:
+      af-south-1:
+        Dedicated: 1.85
+        Shared: 1.754
       ap-east-1:
         Dedicated: 1.878
         Shared: 1.781
@@ -99571,6 +99805,9 @@ r5n.4xlarge:
       eu-north-1:
         Dedicated: 1.513
         Shared: 1.437
+      eu-south-1:
+        Dedicated: 1.649
+        Shared: 1.565
       eu-west-1:
         Dedicated: 1.581
         Shared: 1.501
@@ -99602,6 +99839,9 @@ r5n.4xlarge:
         Dedicated: 1.429
         Shared: 1.357
     SUSE:
+      af-south-1:
+        Dedicated: 1.81
+        Shared: 1.714
       ap-east-1:
         Dedicated: 1.838
         Shared: 1.741
@@ -99629,6 +99869,9 @@ r5n.4xlarge:
       eu-north-1:
         Dedicated: 1.473
         Shared: 1.397
+      eu-south-1:
+        Dedicated: 1.609
+        Shared: 1.525
       eu-west-1:
         Dedicated: 1.541
         Shared: 1.461
@@ -99660,6 +99903,9 @@ r5n.4xlarge:
         Dedicated: 1.389
         Shared: 1.317
     Windows:
+      af-south-1:
+        Dedicated: 1.685
+        Shared: 1.589
       ap-east-1:
         Dedicated: 1.713
         Shared: 2.352
@@ -99687,6 +99933,9 @@ r5n.4xlarge:
       eu-north-1:
         Dedicated: 1.348
         Shared: 1.272
+      eu-south-1:
+        Dedicated: 1.484
+        Shared: 1.4
       eu-west-1:
         Dedicated: 2.152
         Shared: 2.072
@@ -99722,12 +99971,14 @@ r5n.4xlarge:
     - us-west-1
     - eu-north-1
     - us-gov-west-1
+    - eu-south-1
     - sa-east-1
     - ap-south-1
     - us-east-1
     - us-east-2
     - us-gov-east-1
     - eu-west-3
+    - af-south-1
     - us-west-2
     - eu-central-1
     - ap-east-1
@@ -99750,6 +100001,9 @@ r5n.8xlarge:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 3.369
+        Shared: 3.179
       ap-east-1:
         Dedicated: 3.426
         Shared: 3.232
@@ -99777,6 +100031,9 @@ r5n.8xlarge:
       eu-north-1:
         Dedicated: 2.696
         Shared: 2.544
+      eu-south-1:
+        Dedicated: 2.968
+        Shared: 2.8
       eu-west-1:
         Dedicated: 2.832
         Shared: 2.672
@@ -99808,6 +100065,9 @@ r5n.8xlarge:
         Dedicated: 2.527
         Shared: 2.384
     RHEL:
+      af-south-1:
+        Dedicated: 3.499
+        Shared: 3.309
       ap-east-1:
         Dedicated: 3.556
         Shared: 3.362
@@ -99835,6 +100095,9 @@ r5n.8xlarge:
       eu-north-1:
         Dedicated: 2.826
         Shared: 2.674
+      eu-south-1:
+        Dedicated: 3.098
+        Shared: 2.93
       eu-west-1:
         Dedicated: 2.962
         Shared: 2.802
@@ -99866,6 +100129,9 @@ r5n.8xlarge:
         Dedicated: 2.657
         Shared: 2.514
     RHEL_HA:
+      af-south-1:
+        Dedicated: 3.534
+        Shared: 3.344
       ap-east-1:
         Dedicated: 3.591
         Shared: 3.397
@@ -99893,6 +100159,9 @@ r5n.8xlarge:
       eu-north-1:
         Dedicated: 2.861
         Shared: 2.709
+      eu-south-1:
+        Dedicated: 3.133
+        Shared: 2.965
       eu-west-1:
         Dedicated: 2.997
         Shared: 2.837
@@ -99924,6 +100193,9 @@ r5n.8xlarge:
         Dedicated: 2.692
         Shared: 2.549
     SUSE:
+      af-south-1:
+        Dedicated: 3.494
+        Shared: 3.304
       ap-east-1:
         Dedicated: 3.551
         Shared: 3.357
@@ -99951,6 +100223,9 @@ r5n.8xlarge:
       eu-north-1:
         Dedicated: 2.821
         Shared: 2.669
+      eu-south-1:
+        Dedicated: 3.093
+        Shared: 2.925
       eu-west-1:
         Dedicated: 2.957
         Shared: 2.797
@@ -99982,6 +100257,9 @@ r5n.8xlarge:
         Dedicated: 2.652
         Shared: 2.509
     Windows:
+      af-south-1:
+        Dedicated: 4.841
+        Shared: 3.179
       ap-east-1:
         Dedicated: 3.426
         Shared: 4.704
@@ -100009,6 +100287,9 @@ r5n.8xlarge:
       eu-north-1:
         Dedicated: 4.168
         Shared: 2.544
+      eu-south-1:
+        Dedicated: 2.968
+        Shared: 4.272
       eu-west-1:
         Dedicated: 4.304
         Shared: 2.672
@@ -100045,6 +100326,7 @@ r5n.8xlarge:
     - ap-south-1
     - ap-northeast-1
     - ca-central-1
+    - eu-south-1
     - ap-southeast-1
     - us-gov-west-1
     - eu-central-1
@@ -100055,6 +100337,7 @@ r5n.8xlarge:
     - ap-southeast-2
     - us-gov-east-1
     - sa-east-1
+    - af-south-1
     - eu-west-3
     - eu-west-1
     - ap-east-1
@@ -100072,6 +100355,9 @@ r5n.large:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.211
+        Shared: 0.199
       ap-east-1:
         Dedicated: 0.214
         Shared: 0.202
@@ -100099,6 +100385,9 @@ r5n.large:
       eu-north-1:
         Dedicated: 0.169
         Shared: 0.159
+      eu-south-1:
+        Dedicated: 0.186
+        Shared: 0.175
       eu-west-1:
         Dedicated: 0.177
         Shared: 0.167
@@ -100130,6 +100419,9 @@ r5n.large:
         Dedicated: 0.158
         Shared: 0.149
     RHEL:
+      af-south-1:
+        Dedicated: 0.271
+        Shared: 0.259
       ap-east-1:
         Dedicated: 0.274
         Shared: 0.262
@@ -100157,6 +100449,9 @@ r5n.large:
       eu-north-1:
         Dedicated: 0.229
         Shared: 0.219
+      eu-south-1:
+        Dedicated: 0.246
+        Shared: 0.235
       eu-west-1:
         Dedicated: 0.237
         Shared: 0.227
@@ -100188,6 +100483,9 @@ r5n.large:
         Dedicated: 0.218
         Shared: 0.209
     RHEL_HA:
+      af-south-1:
+        Dedicated: 0.306
+        Shared: 0.294
       ap-east-1:
         Dedicated: 0.309
         Shared: 0.297
@@ -100215,6 +100513,9 @@ r5n.large:
       eu-north-1:
         Dedicated: 0.264
         Shared: 0.254
+      eu-south-1:
+        Dedicated: 0.281
+        Shared: 0.27
       eu-west-1:
         Dedicated: 0.272
         Shared: 0.262
@@ -100246,6 +100547,9 @@ r5n.large:
         Dedicated: 0.253
         Shared: 0.244
     SUSE:
+      af-south-1:
+        Dedicated: 0.267
+        Shared: 0.255
       ap-east-1:
         Dedicated: 0.27
         Shared: 0.258
@@ -100273,6 +100577,9 @@ r5n.large:
       eu-north-1:
         Dedicated: 0.225
         Shared: 0.215
+      eu-south-1:
+        Dedicated: 0.242
+        Shared: 0.231
       eu-west-1:
         Dedicated: 0.233
         Shared: 0.223
@@ -100304,6 +100611,9 @@ r5n.large:
         Dedicated: 0.214
         Shared: 0.205
     Windows:
+      af-south-1:
+        Dedicated: 0.303
+        Shared: 0.199
       ap-east-1:
         Dedicated: 0.306
         Shared: 0.202
@@ -100331,6 +100641,9 @@ r5n.large:
       eu-north-1:
         Dedicated: 0.261
         Shared: 0.159
+      eu-south-1:
+        Dedicated: 0.278
+        Shared: 0.175
       eu-west-1:
         Dedicated: 0.177
         Shared: 0.167
@@ -100367,7 +100680,9 @@ r5n.large:
     - us-west-2
     - ap-southeast-2
     - us-gov-east-1
+    - eu-south-1
     - us-west-1
+    - af-south-1
     - eu-central-1
     - us-east-2
     - ap-southeast-1
@@ -100394,6 +100709,9 @@ r5n.metal:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 9.536
+        Shared: 9.536
       ap-east-1:
         Dedicated: 9.696
         Shared: 9.696
@@ -100421,6 +100739,9 @@ r5n.metal:
       eu-north-1:
         Dedicated: 7.632
         Shared: 7.632
+      eu-south-1:
+        Dedicated: 8.401
+        Shared: 8.401
       eu-west-1:
         Dedicated: 8.016
         Shared: 8.016
@@ -100452,6 +100773,9 @@ r5n.metal:
         Dedicated: 7.152
         Shared: 7.152
     RHEL:
+      af-south-1:
+        Dedicated: 9.666
+        Shared: 9.666
       ap-east-1:
         Dedicated: 9.826
         Shared: 9.826
@@ -100479,6 +100803,9 @@ r5n.metal:
       eu-north-1:
         Dedicated: 7.762
         Shared: 7.762
+      eu-south-1:
+        Dedicated: 8.531
+        Shared: 8.531
       eu-west-1:
         Dedicated: 8.146
         Shared: 8.146
@@ -100510,6 +100837,9 @@ r5n.metal:
         Dedicated: 7.282
         Shared: 7.282
     RHEL_HA:
+      af-south-1:
+        Dedicated: 9.701
+        Shared: 9.701
       ap-east-1:
         Dedicated: 9.861
         Shared: 9.861
@@ -100537,6 +100867,9 @@ r5n.metal:
       eu-north-1:
         Dedicated: 7.797
         Shared: 7.797
+      eu-south-1:
+        Dedicated: 8.566
+        Shared: 8.566
       eu-west-1:
         Dedicated: 8.181
         Shared: 8.181
@@ -100568,6 +100901,9 @@ r5n.metal:
         Dedicated: 7.317
         Shared: 7.317
     SUSE:
+      af-south-1:
+        Dedicated: 9.661
+        Shared: 9.661
       ap-east-1:
         Dedicated: 9.821
         Shared: 9.821
@@ -100595,6 +100931,9 @@ r5n.metal:
       eu-north-1:
         Dedicated: 7.757
         Shared: 7.757
+      eu-south-1:
+        Dedicated: 8.526
+        Shared: 8.526
       eu-west-1:
         Dedicated: 8.141
         Shared: 8.141
@@ -100626,6 +100965,9 @@ r5n.metal:
         Dedicated: 7.277
         Shared: 7.277
     Windows:
+      af-south-1:
+        Dedicated: 13.952
+        Shared: 13.952
       ap-east-1:
         Dedicated: 9.696
         Shared: 9.696
@@ -100653,6 +100995,9 @@ r5n.metal:
       eu-north-1:
         Dedicated: 7.632
         Shared: 12.048
+      eu-south-1:
+        Dedicated: 12.817
+        Shared: 12.817
       eu-west-1:
         Dedicated: 12.432
         Shared: 8.016
@@ -100695,9 +101040,11 @@ r5n.metal:
     - us-east-2
     - ap-southeast-2
     - ap-east-1
+    - eu-south-1
     - ap-northeast-2
     - us-west-1
     - ap-southeast-1
+    - af-south-1
     - us-gov-east-1
     - ap-south-1
     - us-east-1
@@ -100716,6 +101063,9 @@ r5n.xlarge:
   physicalProcessor: Intel Xeon Platinum 8259 (Cascade Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.421
+        Shared: 0.397
       ap-east-1:
         Dedicated: 0.428
         Shared: 0.404
@@ -100743,6 +101093,9 @@ r5n.xlarge:
       eu-north-1:
         Dedicated: 0.337
         Shared: 0.318
+      eu-south-1:
+        Dedicated: 0.371
+        Shared: 0.35
       eu-west-1:
         Dedicated: 0.354
         Shared: 0.334
@@ -100774,6 +101127,9 @@ r5n.xlarge:
         Dedicated: 0.316
         Shared: 0.298
     RHEL:
+      af-south-1:
+        Dedicated: 0.481
+        Shared: 0.457
       ap-east-1:
         Dedicated: 0.488
         Shared: 0.464
@@ -100801,6 +101157,9 @@ r5n.xlarge:
       eu-north-1:
         Dedicated: 0.397
         Shared: 0.378
+      eu-south-1:
+        Dedicated: 0.431
+        Shared: 0.41
       eu-west-1:
         Dedicated: 0.414
         Shared: 0.394
@@ -100832,6 +101191,9 @@ r5n.xlarge:
         Dedicated: 0.376
         Shared: 0.358
     RHEL_HA:
+      af-south-1:
+        Dedicated: 0.516
+        Shared: 0.492
       ap-east-1:
         Dedicated: 0.523
         Shared: 0.499
@@ -100859,6 +101221,9 @@ r5n.xlarge:
       eu-north-1:
         Dedicated: 0.432
         Shared: 0.413
+      eu-south-1:
+        Dedicated: 0.466
+        Shared: 0.445
       eu-west-1:
         Dedicated: 0.449
         Shared: 0.429
@@ -100890,6 +101255,9 @@ r5n.xlarge:
         Dedicated: 0.411
         Shared: 0.393
     SUSE:
+      af-south-1:
+        Dedicated: 0.477
+        Shared: 0.454
       ap-east-1:
         Dedicated: 0.484
         Shared: 0.46
@@ -100917,6 +101285,9 @@ r5n.xlarge:
       eu-north-1:
         Dedicated: 0.393
         Shared: 0.374
+      eu-south-1:
+        Dedicated: 0.427
+        Shared: 0.406
       eu-west-1:
         Dedicated: 0.41
         Shared: 0.39
@@ -100948,6 +101319,9 @@ r5n.xlarge:
         Dedicated: 0.372
         Shared: 0.354
     Windows:
+      af-south-1:
+        Dedicated: 0.605
+        Shared: 0.397
       ap-east-1:
         Dedicated: 0.612
         Shared: 0.404
@@ -100975,6 +101349,9 @@ r5n.xlarge:
       eu-north-1:
         Dedicated: 0.337
         Shared: 0.318
+      eu-south-1:
+        Dedicated: 0.555
+        Shared: 0.534
       eu-west-1:
         Dedicated: 0.354
         Shared: 0.518
@@ -101017,6 +101394,8 @@ r5n.xlarge:
     - us-west-2
     - ap-northeast-2
     - us-gov-east-1
+    - af-south-1
+    - eu-south-1
     - sa-east-1
     - ap-southeast-2
     - eu-central-1
