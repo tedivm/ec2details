@@ -23349,6 +23349,9 @@ c6gn.12xlarge:
       ap-northeast-1:
         Dedicated: 2.8776
         Shared: 2.616
+      ap-northeast-2:
+        Dedicated: 2.574
+        Shared: 2.34
       ap-south-1:
         Dedicated: 2.2836
         Shared: 2.076
@@ -23367,12 +23370,21 @@ c6gn.12xlarge:
       eu-north-1:
         Dedicated: 2.4552
         Shared: 2.232
+      eu-south-1:
+        Dedicated: 2.72448
+        Shared: 2.4768
       eu-west-1:
         Dedicated: 2.57664
         Shared: 2.3424
       eu-west-2:
         Dedicated: 2.706
         Shared: 2.46
+      eu-west-3:
+        Dedicated: 2.706
+        Shared: 2.46
+      me-south-1:
+        Dedicated: 2.83008
+        Shared: 2.5728
       sa-east-1:
         Dedicated: 3.5112
         Shared: 3.192
@@ -23395,6 +23407,9 @@ c6gn.12xlarge:
       ap-northeast-1:
         Dedicated: 3.0076
         Shared: 2.746
+      ap-northeast-2:
+        Dedicated: 2.704
+        Shared: 2.47
       ap-south-1:
         Dedicated: 2.4136
         Shared: 2.206
@@ -23413,12 +23428,21 @@ c6gn.12xlarge:
       eu-north-1:
         Dedicated: 2.5852
         Shared: 2.362
+      eu-south-1:
+        Dedicated: 2.85448
+        Shared: 2.6068
       eu-west-1:
         Dedicated: 2.70664
         Shared: 2.4724
       eu-west-2:
         Dedicated: 2.836
         Shared: 2.59
+      eu-west-3:
+        Dedicated: 2.836
+        Shared: 2.59
+      me-south-1:
+        Dedicated: 2.96008
+        Shared: 2.7028
       sa-east-1:
         Dedicated: 3.6412
         Shared: 3.322
@@ -23441,6 +23465,9 @@ c6gn.12xlarge:
       ap-northeast-1:
         Dedicated: 3.0426
         Shared: 2.781
+      ap-northeast-2:
+        Dedicated: 2.739
+        Shared: 2.505
       ap-south-1:
         Dedicated: 2.4486
         Shared: 2.241
@@ -23459,12 +23486,21 @@ c6gn.12xlarge:
       eu-north-1:
         Dedicated: 2.6202
         Shared: 2.397
+      eu-south-1:
+        Dedicated: 2.88948
+        Shared: 2.6418
       eu-west-1:
         Dedicated: 2.74164
         Shared: 2.5074
       eu-west-2:
         Dedicated: 2.871
         Shared: 2.625
+      eu-west-3:
+        Dedicated: 2.871
+        Shared: 2.625
+      me-south-1:
+        Dedicated: 2.99508
+        Shared: 2.7378
       sa-east-1:
         Dedicated: 3.6762
         Shared: 3.357
@@ -23487,6 +23523,9 @@ c6gn.12xlarge:
       ap-northeast-1:
         Dedicated: 3.0026
         Shared: 2.741
+      ap-northeast-2:
+        Dedicated: 2.699
+        Shared: 2.465
       ap-south-1:
         Dedicated: 2.4086
         Shared: 2.201
@@ -23505,12 +23544,21 @@ c6gn.12xlarge:
       eu-north-1:
         Dedicated: 2.5802
         Shared: 2.357
+      eu-south-1:
+        Dedicated: 2.84948
+        Shared: 2.6018
       eu-west-1:
         Dedicated: 2.70164
         Shared: 2.4674
       eu-west-2:
         Dedicated: 2.831
         Shared: 2.585
+      eu-west-3:
+        Dedicated: 2.831
+        Shared: 2.585
+      me-south-1:
+        Dedicated: 2.95508
+        Shared: 2.6978
       sa-east-1:
         Dedicated: 3.6362
         Shared: 3.317
@@ -23527,8 +23575,10 @@ c6gn.12xlarge:
         Dedicated: 2.40596
         Shared: 2.1986
   regions:
+    - eu-west-3
     - eu-west-1
     - us-east-2
+    - eu-south-1
     - ap-east-1
     - ap-southeast-2
     - us-west-1
@@ -23536,10 +23586,12 @@ c6gn.12xlarge:
     - eu-central-1
     - sa-east-1
     - us-east-1
+    - me-south-1
     - eu-west-2
     - eu-north-1
     - ap-south-1
     - ca-central-1
+    - ap-northeast-2
     - ap-southeast-1
     - ap-northeast-1
   storage: EBS only
@@ -23561,6 +23613,9 @@ c6gn.16xlarge:
       ap-northeast-1:
         Dedicated: 3.8368
         Shared: 3.488
+      ap-northeast-2:
+        Dedicated: 3.432
+        Shared: 3.12
       ap-south-1:
         Dedicated: 3.0448
         Shared: 2.768
@@ -23579,12 +23634,21 @@ c6gn.16xlarge:
       eu-north-1:
         Dedicated: 3.2736
         Shared: 2.976
+      eu-south-1:
+        Dedicated: 3.63264
+        Shared: 3.3024
       eu-west-1:
         Dedicated: 3.43552
         Shared: 3.1232
       eu-west-2:
         Dedicated: 3.608
         Shared: 3.28
+      eu-west-3:
+        Dedicated: 3.608
+        Shared: 3.28
+      me-south-1:
+        Dedicated: 3.77344
+        Shared: 3.4304
       sa-east-1:
         Dedicated: 4.6816
         Shared: 4.256
@@ -23607,6 +23671,9 @@ c6gn.16xlarge:
       ap-northeast-1:
         Dedicated: 3.9668
         Shared: 3.618
+      ap-northeast-2:
+        Dedicated: 3.562
+        Shared: 3.25
       ap-south-1:
         Dedicated: 3.1748
         Shared: 2.898
@@ -23625,12 +23692,21 @@ c6gn.16xlarge:
       eu-north-1:
         Dedicated: 3.4036
         Shared: 3.106
+      eu-south-1:
+        Dedicated: 3.76264
+        Shared: 3.4324
       eu-west-1:
         Dedicated: 3.56552
         Shared: 3.2532
       eu-west-2:
         Dedicated: 3.738
         Shared: 3.41
+      eu-west-3:
+        Dedicated: 3.738
+        Shared: 3.41
+      me-south-1:
+        Dedicated: 3.90344
+        Shared: 3.5604
       sa-east-1:
         Dedicated: 4.8116
         Shared: 4.386
@@ -23653,6 +23729,9 @@ c6gn.16xlarge:
       ap-northeast-1:
         Dedicated: 4.0018
         Shared: 3.653
+      ap-northeast-2:
+        Dedicated: 3.597
+        Shared: 3.285
       ap-south-1:
         Dedicated: 3.2098
         Shared: 2.933
@@ -23671,12 +23750,21 @@ c6gn.16xlarge:
       eu-north-1:
         Dedicated: 3.4386
         Shared: 3.141
+      eu-south-1:
+        Dedicated: 3.79764
+        Shared: 3.4674
       eu-west-1:
         Dedicated: 3.60052
         Shared: 3.2882
       eu-west-2:
         Dedicated: 3.773
         Shared: 3.445
+      eu-west-3:
+        Dedicated: 3.773
+        Shared: 3.445
+      me-south-1:
+        Dedicated: 3.93844
+        Shared: 3.5954
       sa-east-1:
         Dedicated: 4.8466
         Shared: 4.421
@@ -23699,6 +23787,9 @@ c6gn.16xlarge:
       ap-northeast-1:
         Dedicated: 3.9618
         Shared: 3.613
+      ap-northeast-2:
+        Dedicated: 3.557
+        Shared: 3.245
       ap-south-1:
         Dedicated: 3.1698
         Shared: 2.893
@@ -23717,12 +23808,21 @@ c6gn.16xlarge:
       eu-north-1:
         Dedicated: 3.3986
         Shared: 3.101
+      eu-south-1:
+        Dedicated: 3.75764
+        Shared: 3.4274
       eu-west-1:
         Dedicated: 3.56052
         Shared: 3.2482
       eu-west-2:
         Dedicated: 3.733
         Shared: 3.405
+      eu-west-3:
+        Dedicated: 3.733
+        Shared: 3.405
+      me-south-1:
+        Dedicated: 3.89844
+        Shared: 3.5554
       sa-east-1:
         Dedicated: 4.8066
         Shared: 4.381
@@ -23743,6 +23843,7 @@ c6gn.16xlarge:
     - sa-east-1
     - eu-west-2
     - us-west-2
+    - eu-west-3
     - us-east-2
     - ap-southeast-2
     - eu-west-1
@@ -23754,6 +23855,9 @@ c6gn.16xlarge:
     - ap-east-1
     - us-west-1
     - eu-central-1
+    - eu-south-1
+    - me-south-1
+    - ap-northeast-2
   storage: EBS only
   vcpu: 64
 c6gn.2xlarge:
@@ -23773,6 +23877,9 @@ c6gn.2xlarge:
       ap-northeast-1:
         Dedicated: 0.4796
         Shared: 0.436
+      ap-northeast-2:
+        Dedicated: 0.429
+        Shared: 0.39
       ap-south-1:
         Dedicated: 0.3806
         Shared: 0.346
@@ -23791,12 +23898,21 @@ c6gn.2xlarge:
       eu-north-1:
         Dedicated: 0.4092
         Shared: 0.372
+      eu-south-1:
+        Dedicated: 0.45408
+        Shared: 0.4128
       eu-west-1:
         Dedicated: 0.42944
         Shared: 0.3904
       eu-west-2:
         Dedicated: 0.451
         Shared: 0.41
+      eu-west-3:
+        Dedicated: 0.451
+        Shared: 0.41
+      me-south-1:
+        Dedicated: 0.47168
+        Shared: 0.4288
       sa-east-1:
         Dedicated: 0.5852
         Shared: 0.532
@@ -23819,6 +23935,9 @@ c6gn.2xlarge:
       ap-northeast-1:
         Dedicated: 0.6096
         Shared: 0.566
+      ap-northeast-2:
+        Dedicated: 0.559
+        Shared: 0.52
       ap-south-1:
         Dedicated: 0.5106
         Shared: 0.476
@@ -23837,12 +23956,21 @@ c6gn.2xlarge:
       eu-north-1:
         Dedicated: 0.5392
         Shared: 0.502
+      eu-south-1:
+        Dedicated: 0.58408
+        Shared: 0.5428
       eu-west-1:
         Dedicated: 0.55944
         Shared: 0.5204
       eu-west-2:
         Dedicated: 0.581
         Shared: 0.54
+      eu-west-3:
+        Dedicated: 0.581
+        Shared: 0.54
+      me-south-1:
+        Dedicated: 0.60168
+        Shared: 0.5588
       sa-east-1:
         Dedicated: 0.7152
         Shared: 0.662
@@ -23865,6 +23993,9 @@ c6gn.2xlarge:
       ap-northeast-1:
         Dedicated: 0.6446
         Shared: 0.601
+      ap-northeast-2:
+        Dedicated: 0.594
+        Shared: 0.555
       ap-south-1:
         Dedicated: 0.5456
         Shared: 0.511
@@ -23883,12 +24014,21 @@ c6gn.2xlarge:
       eu-north-1:
         Dedicated: 0.5742
         Shared: 0.537
+      eu-south-1:
+        Dedicated: 0.61908
+        Shared: 0.5778
       eu-west-1:
         Dedicated: 0.59444
         Shared: 0.5554
       eu-west-2:
         Dedicated: 0.616
         Shared: 0.575
+      eu-west-3:
+        Dedicated: 0.616
+        Shared: 0.575
+      me-south-1:
+        Dedicated: 0.63668
+        Shared: 0.5938
       sa-east-1:
         Dedicated: 0.7502
         Shared: 0.697
@@ -23911,6 +24051,9 @@ c6gn.2xlarge:
       ap-northeast-1:
         Dedicated: 0.6046
         Shared: 0.561
+      ap-northeast-2:
+        Dedicated: 0.554
+        Shared: 0.515
       ap-south-1:
         Dedicated: 0.5056
         Shared: 0.471
@@ -23929,12 +24072,21 @@ c6gn.2xlarge:
       eu-north-1:
         Dedicated: 0.5342
         Shared: 0.497
+      eu-south-1:
+        Dedicated: 0.57908
+        Shared: 0.5378
       eu-west-1:
         Dedicated: 0.55444
         Shared: 0.5154
       eu-west-2:
         Dedicated: 0.576
         Shared: 0.535
+      eu-west-3:
+        Dedicated: 0.576
+        Shared: 0.535
+      me-south-1:
+        Dedicated: 0.59668
+        Shared: 0.5538
       sa-east-1:
         Dedicated: 0.7102
         Shared: 0.657
@@ -23955,10 +24107,14 @@ c6gn.2xlarge:
     - ap-southeast-2
     - us-east-1
     - eu-west-2
+    - ap-northeast-2
     - ap-northeast-1
     - eu-west-1
+    - eu-south-1
     - sa-east-1
+    - me-south-1
     - eu-central-1
+    - eu-west-3
     - ap-southeast-1
     - us-west-1
     - us-west-2
@@ -23985,6 +24141,9 @@ c6gn.4xlarge:
       ap-northeast-1:
         Dedicated: 0.9592
         Shared: 0.872
+      ap-northeast-2:
+        Dedicated: 0.858
+        Shared: 0.78
       ap-south-1:
         Dedicated: 0.7612
         Shared: 0.692
@@ -24003,12 +24162,21 @@ c6gn.4xlarge:
       eu-north-1:
         Dedicated: 0.8184
         Shared: 0.744
+      eu-south-1:
+        Dedicated: 0.90816
+        Shared: 0.8256
       eu-west-1:
         Dedicated: 0.85888
         Shared: 0.7808
       eu-west-2:
         Dedicated: 0.902
         Shared: 0.82
+      eu-west-3:
+        Dedicated: 0.902
+        Shared: 0.82
+      me-south-1:
+        Dedicated: 0.94336
+        Shared: 0.8576
       sa-east-1:
         Dedicated: 1.1704
         Shared: 1.064
@@ -24031,6 +24199,9 @@ c6gn.4xlarge:
       ap-northeast-1:
         Dedicated: 1.0892
         Shared: 1.002
+      ap-northeast-2:
+        Dedicated: 0.988
+        Shared: 0.91
       ap-south-1:
         Dedicated: 0.8912
         Shared: 0.822
@@ -24049,12 +24220,21 @@ c6gn.4xlarge:
       eu-north-1:
         Dedicated: 0.9484
         Shared: 0.874
+      eu-south-1:
+        Dedicated: 1.03816
+        Shared: 0.9556
       eu-west-1:
         Dedicated: 0.98888
         Shared: 0.9108
       eu-west-2:
         Dedicated: 1.032
         Shared: 0.95
+      eu-west-3:
+        Dedicated: 1.032
+        Shared: 0.95
+      me-south-1:
+        Dedicated: 1.07336
+        Shared: 0.9876
       sa-east-1:
         Dedicated: 1.3004
         Shared: 1.194
@@ -24077,6 +24257,9 @@ c6gn.4xlarge:
       ap-northeast-1:
         Dedicated: 1.1242
         Shared: 1.037
+      ap-northeast-2:
+        Dedicated: 1.023
+        Shared: 0.945
       ap-south-1:
         Dedicated: 0.9262
         Shared: 0.857
@@ -24095,12 +24278,21 @@ c6gn.4xlarge:
       eu-north-1:
         Dedicated: 0.9834
         Shared: 0.909
+      eu-south-1:
+        Dedicated: 1.07316
+        Shared: 0.9906
       eu-west-1:
         Dedicated: 1.02388
         Shared: 0.9458
       eu-west-2:
         Dedicated: 1.067
         Shared: 0.985
+      eu-west-3:
+        Dedicated: 1.067
+        Shared: 0.985
+      me-south-1:
+        Dedicated: 1.10836
+        Shared: 1.0226
       sa-east-1:
         Dedicated: 1.3354
         Shared: 1.229
@@ -24123,6 +24315,9 @@ c6gn.4xlarge:
       ap-northeast-1:
         Dedicated: 1.0842
         Shared: 0.997
+      ap-northeast-2:
+        Dedicated: 0.983
+        Shared: 0.905
       ap-south-1:
         Dedicated: 0.8862
         Shared: 0.817
@@ -24141,12 +24336,21 @@ c6gn.4xlarge:
       eu-north-1:
         Dedicated: 0.9434
         Shared: 0.869
+      eu-south-1:
+        Dedicated: 1.03316
+        Shared: 0.9506
       eu-west-1:
         Dedicated: 0.98388
         Shared: 0.9058
       eu-west-2:
         Dedicated: 1.027
         Shared: 0.945
+      eu-west-3:
+        Dedicated: 1.027
+        Shared: 0.945
+      me-south-1:
+        Dedicated: 1.06836
+        Shared: 0.9826
       sa-east-1:
         Dedicated: 1.2954
         Shared: 1.189
@@ -24163,7 +24367,10 @@ c6gn.4xlarge:
         Dedicated: 0.88532
         Shared: 0.8162
   regions:
+    - eu-west-3
+    - ap-northeast-2
     - us-east-1
+    - eu-south-1
     - eu-north-1
     - eu-west-1
     - sa-east-1
@@ -24176,6 +24383,7 @@ c6gn.4xlarge:
     - eu-central-1
     - us-east-2
     - ca-central-1
+    - me-south-1
     - ap-southeast-1
     - us-west-1
   storage: EBS only
@@ -24197,6 +24405,9 @@ c6gn.8xlarge:
       ap-northeast-1:
         Dedicated: 1.9184
         Shared: 1.744
+      ap-northeast-2:
+        Dedicated: 1.716
+        Shared: 1.56
       ap-south-1:
         Dedicated: 1.5224
         Shared: 1.384
@@ -24215,12 +24426,21 @@ c6gn.8xlarge:
       eu-north-1:
         Dedicated: 1.6368
         Shared: 1.488
+      eu-south-1:
+        Dedicated: 1.81632
+        Shared: 1.6512
       eu-west-1:
         Dedicated: 1.71776
         Shared: 1.5616
       eu-west-2:
         Dedicated: 1.804
         Shared: 1.64
+      eu-west-3:
+        Dedicated: 1.804
+        Shared: 1.64
+      me-south-1:
+        Dedicated: 1.88672
+        Shared: 1.7152
       sa-east-1:
         Dedicated: 2.3408
         Shared: 2.128
@@ -24243,6 +24463,9 @@ c6gn.8xlarge:
       ap-northeast-1:
         Dedicated: 2.0484
         Shared: 1.874
+      ap-northeast-2:
+        Dedicated: 1.846
+        Shared: 1.69
       ap-south-1:
         Dedicated: 1.6524
         Shared: 1.514
@@ -24261,12 +24484,21 @@ c6gn.8xlarge:
       eu-north-1:
         Dedicated: 1.7668
         Shared: 1.618
+      eu-south-1:
+        Dedicated: 1.94632
+        Shared: 1.7812
       eu-west-1:
         Dedicated: 1.84776
         Shared: 1.6916
       eu-west-2:
         Dedicated: 1.934
         Shared: 1.77
+      eu-west-3:
+        Dedicated: 1.934
+        Shared: 1.77
+      me-south-1:
+        Dedicated: 2.01672
+        Shared: 1.8452
       sa-east-1:
         Dedicated: 2.4708
         Shared: 2.258
@@ -24289,6 +24521,9 @@ c6gn.8xlarge:
       ap-northeast-1:
         Dedicated: 2.0834
         Shared: 1.909
+      ap-northeast-2:
+        Dedicated: 1.881
+        Shared: 1.725
       ap-south-1:
         Dedicated: 1.6874
         Shared: 1.549
@@ -24307,12 +24542,21 @@ c6gn.8xlarge:
       eu-north-1:
         Dedicated: 1.8018
         Shared: 1.653
+      eu-south-1:
+        Dedicated: 1.98132
+        Shared: 1.8162
       eu-west-1:
         Dedicated: 1.88276
         Shared: 1.7266
       eu-west-2:
         Dedicated: 1.969
         Shared: 1.805
+      eu-west-3:
+        Dedicated: 1.969
+        Shared: 1.805
+      me-south-1:
+        Dedicated: 2.05172
+        Shared: 1.8802
       sa-east-1:
         Dedicated: 2.5058
         Shared: 2.293
@@ -24335,6 +24579,9 @@ c6gn.8xlarge:
       ap-northeast-1:
         Dedicated: 2.0434
         Shared: 1.869
+      ap-northeast-2:
+        Dedicated: 1.841
+        Shared: 1.685
       ap-south-1:
         Dedicated: 1.6474
         Shared: 1.509
@@ -24353,12 +24600,21 @@ c6gn.8xlarge:
       eu-north-1:
         Dedicated: 1.7618
         Shared: 1.613
+      eu-south-1:
+        Dedicated: 1.94132
+        Shared: 1.7762
       eu-west-1:
         Dedicated: 1.84276
         Shared: 1.6866
       eu-west-2:
         Dedicated: 1.929
         Shared: 1.765
+      eu-west-3:
+        Dedicated: 1.929
+        Shared: 1.765
+      me-south-1:
+        Dedicated: 2.01172
+        Shared: 1.8402
       sa-east-1:
         Dedicated: 2.4658
         Shared: 2.253
@@ -24377,11 +24633,15 @@ c6gn.8xlarge:
   regions:
     - ap-northeast-1
     - ap-southeast-1
+    - eu-south-1
     - ap-southeast-2
     - eu-central-1
     - sa-east-1
     - us-west-2
+    - ap-northeast-2
     - us-west-1
+    - me-south-1
+    - eu-west-3
     - ca-central-1
     - ap-east-1
     - eu-west-2
@@ -24409,6 +24669,9 @@ c6gn.large:
       ap-northeast-1:
         Dedicated: 0.1199
         Shared: 0.109
+      ap-northeast-2:
+        Dedicated: 0.10725
+        Shared: 0.0975
       ap-south-1:
         Dedicated: 0.09515
         Shared: 0.0865
@@ -24427,12 +24690,21 @@ c6gn.large:
       eu-north-1:
         Dedicated: 0.1023
         Shared: 0.093
+      eu-south-1:
+        Dedicated: 0.11352
+        Shared: 0.1032
       eu-west-1:
         Dedicated: 0.10736
         Shared: 0.0976
       eu-west-2:
         Dedicated: 0.11275
         Shared: 0.1025
+      eu-west-3:
+        Dedicated: 0.11275
+        Shared: 0.1025
+      me-south-1:
+        Dedicated: 0.11792
+        Shared: 0.1072
       sa-east-1:
         Dedicated: 0.1463
         Shared: 0.133
@@ -24455,6 +24727,9 @@ c6gn.large:
       ap-northeast-1:
         Dedicated: 0.1799
         Shared: 0.169
+      ap-northeast-2:
+        Dedicated: 0.16725
+        Shared: 0.1575
       ap-south-1:
         Dedicated: 0.15515
         Shared: 0.1465
@@ -24473,12 +24748,21 @@ c6gn.large:
       eu-north-1:
         Dedicated: 0.1623
         Shared: 0.153
+      eu-south-1:
+        Dedicated: 0.17352
+        Shared: 0.1632
       eu-west-1:
         Dedicated: 0.16736
         Shared: 0.1576
       eu-west-2:
         Dedicated: 0.17275
         Shared: 0.1625
+      eu-west-3:
+        Dedicated: 0.17275
+        Shared: 0.1625
+      me-south-1:
+        Dedicated: 0.17792
+        Shared: 0.1672
       sa-east-1:
         Dedicated: 0.2063
         Shared: 0.193
@@ -24501,6 +24785,9 @@ c6gn.large:
       ap-northeast-1:
         Dedicated: 0.2149
         Shared: 0.204
+      ap-northeast-2:
+        Dedicated: 0.20225
+        Shared: 0.1925
       ap-south-1:
         Dedicated: 0.19015
         Shared: 0.1815
@@ -24519,12 +24806,21 @@ c6gn.large:
       eu-north-1:
         Dedicated: 0.1973
         Shared: 0.188
+      eu-south-1:
+        Dedicated: 0.20852
+        Shared: 0.1982
       eu-west-1:
         Dedicated: 0.20236
         Shared: 0.1926
       eu-west-2:
         Dedicated: 0.20775
         Shared: 0.1975
+      eu-west-3:
+        Dedicated: 0.20775
+        Shared: 0.1975
+      me-south-1:
+        Dedicated: 0.21292
+        Shared: 0.2022
       sa-east-1:
         Dedicated: 0.2413
         Shared: 0.228
@@ -24547,6 +24843,9 @@ c6gn.large:
       ap-northeast-1:
         Dedicated: 0.1762
         Shared: 0.1653
+      ap-northeast-2:
+        Dedicated: 0.16355
+        Shared: 0.1538
       ap-south-1:
         Dedicated: 0.15145
         Shared: 0.1428
@@ -24565,12 +24864,21 @@ c6gn.large:
       eu-north-1:
         Dedicated: 0.1586
         Shared: 0.1493
+      eu-south-1:
+        Dedicated: 0.16982
+        Shared: 0.1595
       eu-west-1:
         Dedicated: 0.16366
         Shared: 0.1539
       eu-west-2:
         Dedicated: 0.16905
         Shared: 0.1588
+      eu-west-3:
+        Dedicated: 0.16905
+        Shared: 0.1588
+      me-south-1:
+        Dedicated: 0.17422
+        Shared: 0.1635
       sa-east-1:
         Dedicated: 0.2026
         Shared: 0.1893
@@ -24593,12 +24901,16 @@ c6gn.large:
     - ap-east-1
     - us-east-2
     - eu-west-1
+    - ap-northeast-2
     - eu-west-2
     - eu-north-1
+    - me-south-1
     - eu-central-1
+    - eu-west-3
     - us-east-1
     - sa-east-1
     - ap-southeast-1
+    - eu-south-1
     - ap-south-1
     - us-west-1
     - ca-central-1
@@ -24621,6 +24933,9 @@ c6gn.medium:
       ap-northeast-1:
         Dedicated: 0.05995
         Shared: 0.0545
+      ap-northeast-2:
+        Dedicated: 0.05363
+        Shared: 0.04875
       ap-south-1:
         Dedicated: 0.04758
         Shared: 0.04325
@@ -24639,12 +24954,21 @@ c6gn.medium:
       eu-north-1:
         Dedicated: 0.05115
         Shared: 0.0465
+      eu-south-1:
+        Dedicated: 0.05676
+        Shared: 0.0516
       eu-west-1:
         Dedicated: 0.05368
         Shared: 0.0488
       eu-west-2:
         Dedicated: 0.05638
         Shared: 0.05125
+      eu-west-3:
+        Dedicated: 0.05638
+        Shared: 0.05125
+      me-south-1:
+        Dedicated: 0.05896
+        Shared: 0.0536
       sa-east-1:
         Dedicated: 0.07315
         Shared: 0.0665
@@ -24667,6 +24991,9 @@ c6gn.medium:
       ap-northeast-1:
         Dedicated: 0.11995
         Shared: 0.1145
+      ap-northeast-2:
+        Dedicated: 0.11363
+        Shared: 0.10875
       ap-south-1:
         Dedicated: 0.10758
         Shared: 0.10325
@@ -24685,12 +25012,21 @@ c6gn.medium:
       eu-north-1:
         Dedicated: 0.11115
         Shared: 0.1065
+      eu-south-1:
+        Dedicated: 0.11676
+        Shared: 0.1116
       eu-west-1:
         Dedicated: 0.11368
         Shared: 0.1088
       eu-west-2:
         Dedicated: 0.11638
         Shared: 0.11125
+      eu-west-3:
+        Dedicated: 0.11638
+        Shared: 0.11125
+      me-south-1:
+        Dedicated: 0.11896
+        Shared: 0.1136
       sa-east-1:
         Dedicated: 0.13315
         Shared: 0.1265
@@ -24713,6 +25049,9 @@ c6gn.medium:
       ap-northeast-1:
         Dedicated: 0.15495
         Shared: 0.1495
+      ap-northeast-2:
+        Dedicated: 0.14863
+        Shared: 0.14375
       ap-south-1:
         Dedicated: 0.14258
         Shared: 0.13825
@@ -24731,12 +25070,21 @@ c6gn.medium:
       eu-north-1:
         Dedicated: 0.14615
         Shared: 0.1415
+      eu-south-1:
+        Dedicated: 0.15176
+        Shared: 0.1466
       eu-west-1:
         Dedicated: 0.14868
         Shared: 0.1438
       eu-west-2:
         Dedicated: 0.15138
         Shared: 0.14625
+      eu-west-3:
+        Dedicated: 0.15138
+        Shared: 0.14625
+      me-south-1:
+        Dedicated: 0.15396
+        Shared: 0.1486
       sa-east-1:
         Dedicated: 0.16815
         Shared: 0.1615
@@ -24759,6 +25107,9 @@ c6gn.medium:
       ap-northeast-1:
         Dedicated: 0.09095
         Shared: 0.0855
+      ap-northeast-2:
+        Dedicated: 0.10993
+        Shared: 0.10505
       ap-south-1:
         Dedicated: 0.07858
         Shared: 0.07425
@@ -24777,12 +25128,21 @@ c6gn.medium:
       eu-north-1:
         Dedicated: 0.08215
         Shared: 0.0775
+      eu-south-1:
+        Dedicated: 0.11306
+        Shared: 0.1079
       eu-west-1:
         Dedicated: 0.08468
         Shared: 0.0798
       eu-west-2:
         Dedicated: 0.08738
         Shared: 0.08225
+      eu-west-3:
+        Dedicated: 0.11268
+        Shared: 0.10755
+      me-south-1:
+        Dedicated: 0.11526
+        Shared: 0.1099
       sa-east-1:
         Dedicated: 0.10415
         Shared: 0.0975
@@ -24800,16 +25160,20 @@ c6gn.medium:
         Shared: 0.0742
   regions:
     - us-east-2
+    - eu-south-1
     - eu-north-1
+    - ap-northeast-2
     - ap-northeast-1
     - ap-southeast-1
     - us-east-1
     - eu-west-2
     - sa-east-1
     - ap-east-1
+    - eu-west-3
     - ap-southeast-2
     - eu-central-1
     - us-west-2
+    - me-south-1
     - ap-south-1
     - us-west-1
     - eu-west-1
@@ -24867,6 +25231,9 @@ c6gn.xlarge:
       ap-northeast-1:
         Dedicated: 0.2398
         Shared: 0.218
+      ap-northeast-2:
+        Dedicated: 0.2145
+        Shared: 0.195
       ap-south-1:
         Dedicated: 0.1903
         Shared: 0.173
@@ -24885,12 +25252,21 @@ c6gn.xlarge:
       eu-north-1:
         Dedicated: 0.2046
         Shared: 0.186
+      eu-south-1:
+        Dedicated: 0.22704
+        Shared: 0.2064
       eu-west-1:
         Dedicated: 0.21472
         Shared: 0.1952
       eu-west-2:
         Dedicated: 0.2255
         Shared: 0.205
+      eu-west-3:
+        Dedicated: 0.2255
+        Shared: 0.205
+      me-south-1:
+        Dedicated: 0.23584
+        Shared: 0.2144
       sa-east-1:
         Dedicated: 0.2926
         Shared: 0.266
@@ -24913,6 +25289,9 @@ c6gn.xlarge:
       ap-northeast-1:
         Dedicated: 0.2998
         Shared: 0.278
+      ap-northeast-2:
+        Dedicated: 0.2745
+        Shared: 0.255
       ap-south-1:
         Dedicated: 0.2503
         Shared: 0.233
@@ -24931,12 +25310,21 @@ c6gn.xlarge:
       eu-north-1:
         Dedicated: 0.2646
         Shared: 0.246
+      eu-south-1:
+        Dedicated: 0.28704
+        Shared: 0.2664
       eu-west-1:
         Dedicated: 0.27472
         Shared: 0.2552
       eu-west-2:
         Dedicated: 0.2855
         Shared: 0.265
+      eu-west-3:
+        Dedicated: 0.2855
+        Shared: 0.265
+      me-south-1:
+        Dedicated: 0.29584
+        Shared: 0.2744
       sa-east-1:
         Dedicated: 0.3526
         Shared: 0.326
@@ -24959,6 +25347,9 @@ c6gn.xlarge:
       ap-northeast-1:
         Dedicated: 0.3348
         Shared: 0.313
+      ap-northeast-2:
+        Dedicated: 0.3095
+        Shared: 0.29
       ap-south-1:
         Dedicated: 0.2853
         Shared: 0.268
@@ -24977,12 +25368,21 @@ c6gn.xlarge:
       eu-north-1:
         Dedicated: 0.2996
         Shared: 0.281
+      eu-south-1:
+        Dedicated: 0.32204
+        Shared: 0.3014
       eu-west-1:
         Dedicated: 0.30972
         Shared: 0.2902
       eu-west-2:
         Dedicated: 0.3205
         Shared: 0.3
+      eu-west-3:
+        Dedicated: 0.3205
+        Shared: 0.3
+      me-south-1:
+        Dedicated: 0.33084
+        Shared: 0.3094
       sa-east-1:
         Dedicated: 0.3876
         Shared: 0.361
@@ -25005,6 +25405,9 @@ c6gn.xlarge:
       ap-northeast-1:
         Dedicated: 0.2961
         Shared: 0.2743
+      ap-northeast-2:
+        Dedicated: 0.2708
+        Shared: 0.2513
       ap-south-1:
         Dedicated: 0.2466
         Shared: 0.2293
@@ -25023,12 +25426,21 @@ c6gn.xlarge:
       eu-north-1:
         Dedicated: 0.2609
         Shared: 0.2423
+      eu-south-1:
+        Dedicated: 0.28334
+        Shared: 0.2627
       eu-west-1:
         Dedicated: 0.27102
         Shared: 0.2515
       eu-west-2:
         Dedicated: 0.2818
         Shared: 0.2613
+      eu-west-3:
+        Dedicated: 0.2818
+        Shared: 0.2613
+      me-south-1:
+        Dedicated: 0.29214
+        Shared: 0.2707
       sa-east-1:
         Dedicated: 0.3489
         Shared: 0.3223
@@ -25046,18 +25458,22 @@ c6gn.xlarge:
         Shared: 0.2291
   regions:
     - eu-north-1
+    - eu-west-3
     - ap-southeast-2
     - eu-west-2
     - ca-central-1
     - us-east-1
     - ap-south-1
     - us-west-2
+    - ap-northeast-2
     - ap-southeast-1
     - us-east-2
+    - eu-south-1
     - ap-east-1
     - ap-northeast-1
     - sa-east-1
     - us-west-1
+    - me-south-1
     - eu-west-1
     - eu-central-1
   storage: EBS only
@@ -108312,6 +108728,826 @@ r6i.xlarge:
     - us-east-1
     - ap-southeast-2
   storage: EBS only
+  vcpu: 4
+r6id.12xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 15000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 384 GiB
+  networkPerformance: 18750 Megabit
+  normalizationSizeFactor: 96
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 4.4352
+        Shared: 4.032
+      us-east-1:
+        Dedicated: 3.99168
+        Shared: 3.6288
+      us-east-2:
+        Dedicated: 3.99168
+        Shared: 3.6288
+      us-west-2:
+        Dedicated: 3.99168
+        Shared: 3.6288
+    RHEL:
+      eu-west-1:
+        Dedicated: 4.5652
+        Shared: 4.162
+      us-east-1:
+        Dedicated: 4.12168
+        Shared: 3.7588
+      us-east-2:
+        Dedicated: 4.12168
+        Shared: 3.7588
+      us-west-2:
+        Dedicated: 4.12168
+        Shared: 3.7588
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 4.6002
+        Shared: 4.197
+      us-east-1:
+        Dedicated: 4.15668
+        Shared: 3.7938
+      us-east-2:
+        Dedicated: 4.15668
+        Shared: 3.7938
+      us-west-2:
+        Dedicated: 4.15668
+        Shared: 3.7938
+    SUSE:
+      eu-west-1:
+        Dedicated: 4.5602
+        Shared: 4.157
+      us-east-1:
+        Dedicated: 4.11668
+        Shared: 3.7538
+      us-east-2:
+        Dedicated: 4.11668
+        Shared: 3.7538
+      us-west-2:
+        Dedicated: 4.11668
+        Shared: 3.7538
+    Windows:
+      eu-west-1:
+        Dedicated: 4.4352
+        Shared: 6.24
+      us-east-1:
+        Dedicated: 6.19968
+        Shared: 3.6288
+      us-east-2:
+        Dedicated: 6.19968
+        Shared: 5.8368
+      us-west-2:
+        Dedicated: 3.99168
+        Shared: 5.8368
+  regions:
+    - eu-west-1
+    - us-west-2
+    - us-east-1
+    - us-east-2
+  storage: 2 x 1425 SSD
+  vcpu: 48
+r6id.16xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 20000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 512 GiB
+  networkPerformance: 25000 Megabit
+  normalizationSizeFactor: 128
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 5.9136
+        Shared: 5.376
+      us-east-1:
+        Dedicated: 5.32224
+        Shared: 4.8384
+      us-east-2:
+        Dedicated: 5.32224
+        Shared: 4.8384
+      us-west-2:
+        Dedicated: 5.32224
+        Shared: 4.8384
+    RHEL:
+      eu-west-1:
+        Dedicated: 6.0436
+        Shared: 5.506
+      us-east-1:
+        Dedicated: 5.45224
+        Shared: 4.9684
+      us-east-2:
+        Dedicated: 5.45224
+        Shared: 4.9684
+      us-west-2:
+        Dedicated: 5.45224
+        Shared: 4.9684
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 6.0786
+        Shared: 5.541
+      us-east-1:
+        Dedicated: 5.48724
+        Shared: 5.0034
+      us-east-2:
+        Dedicated: 5.48724
+        Shared: 5.0034
+      us-west-2:
+        Dedicated: 5.48724
+        Shared: 5.0034
+    SUSE:
+      eu-west-1:
+        Dedicated: 6.0386
+        Shared: 5.501
+      us-east-1:
+        Dedicated: 5.44724
+        Shared: 4.9634
+      us-east-2:
+        Dedicated: 5.44724
+        Shared: 4.9634
+      us-west-2:
+        Dedicated: 5.44724
+        Shared: 4.9634
+    Windows:
+      eu-west-1:
+        Dedicated: 5.9136
+        Shared: 8.32
+      us-east-1:
+        Dedicated: 5.32224
+        Shared: 4.8384
+      us-east-2:
+        Dedicated: 5.32224
+        Shared: 4.8384
+      us-west-2:
+        Dedicated: 8.26624
+        Shared: 7.7824
+  regions:
+    - us-west-2
+    - us-east-1
+    - us-east-2
+    - eu-west-1
+  storage: 2 x 1900 SSD
+  vcpu: 64
+r6id.24xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 30000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 768 GiB
+  networkPerformance: 37500 Megabit
+  normalizationSizeFactor: 192
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 8.8704
+        Shared: 8.064
+      us-east-1:
+        Dedicated: 7.98336
+        Shared: 7.2576
+      us-east-2:
+        Dedicated: 7.98336
+        Shared: 7.2576
+      us-west-2:
+        Dedicated: 7.98336
+        Shared: 7.2576
+    RHEL:
+      eu-west-1:
+        Dedicated: 9.0004
+        Shared: 8.194
+      us-east-1:
+        Dedicated: 8.11336
+        Shared: 7.3876
+      us-east-2:
+        Dedicated: 8.11336
+        Shared: 7.3876
+      us-west-2:
+        Dedicated: 8.11336
+        Shared: 7.3876
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 9.0354
+        Shared: 8.229
+      us-east-1:
+        Dedicated: 8.14836
+        Shared: 7.4226
+      us-east-2:
+        Dedicated: 8.14836
+        Shared: 7.4226
+      us-west-2:
+        Dedicated: 8.14836
+        Shared: 7.4226
+    SUSE:
+      eu-west-1:
+        Dedicated: 8.9954
+        Shared: 8.189
+      us-east-1:
+        Dedicated: 8.10836
+        Shared: 7.3826
+      us-east-2:
+        Dedicated: 8.10836
+        Shared: 7.3826
+      us-west-2:
+        Dedicated: 8.10836
+        Shared: 7.3826
+    Windows:
+      eu-west-1:
+        Dedicated: 8.8704
+        Shared: 8.064
+      us-east-1:
+        Dedicated: 12.39936
+        Shared: 7.2576
+      us-east-2:
+        Dedicated: 12.39936
+        Shared: 7.2576
+      us-west-2:
+        Dedicated: 7.98336
+        Shared: 7.2576
+  regions:
+    - us-east-2
+    - us-west-2
+    - eu-west-1
+    - us-east-1
+  storage: 4 x 1425 SSD
+  vcpu: 96
+r6id.2xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 64 GiB
+  networkPerformance: Up to 12500 Megabit
+  normalizationSizeFactor: 16
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 0.7392
+        Shared: 0.672
+      us-east-1:
+        Dedicated: 0.66528
+        Shared: 0.6048
+      us-east-2:
+        Dedicated: 0.66528
+        Shared: 0.6048
+      us-west-2:
+        Dedicated: 0.66528
+        Shared: 0.6048
+    RHEL:
+      eu-west-1:
+        Dedicated: 0.8692
+        Shared: 0.802
+      us-east-1:
+        Dedicated: 0.79528
+        Shared: 0.7348
+      us-east-2:
+        Dedicated: 0.79528
+        Shared: 0.7348
+      us-west-2:
+        Dedicated: 0.79528
+        Shared: 0.7348
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 0.9042
+        Shared: 0.837
+      us-east-1:
+        Dedicated: 0.83028
+        Shared: 0.7698
+      us-east-2:
+        Dedicated: 0.83028
+        Shared: 0.7698
+      us-west-2:
+        Dedicated: 0.83028
+        Shared: 0.7698
+    SUSE:
+      eu-west-1:
+        Dedicated: 0.8642
+        Shared: 0.797
+      us-east-1:
+        Dedicated: 0.79028
+        Shared: 0.7298
+      us-east-2:
+        Dedicated: 0.79028
+        Shared: 0.7298
+      us-west-2:
+        Dedicated: 0.79028
+        Shared: 0.7298
+    Windows:
+      eu-west-1:
+        Dedicated: 0.7392
+        Shared: 0.672
+      us-east-1:
+        Dedicated: 0.66528
+        Shared: 0.9728
+      us-east-2:
+        Dedicated: 0.66528
+        Shared: 0.6048
+      us-west-2:
+        Dedicated: 0.66528
+        Shared: 0.6048
+  regions:
+    - eu-west-1
+    - us-east-1
+    - us-west-2
+    - us-east-2
+  storage: 1 x 474 SSD
+  vcpu: 8
+r6id.32xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 40000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 1024 GiB
+  networkPerformance: 50000 Megabit
+  normalizationSizeFactor: 256
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 10.752
+        Shared: 10.752
+      us-east-1:
+        Dedicated: 9.6768
+        Shared: 9.6768
+      us-east-2:
+        Dedicated: 9.6768
+        Shared: 9.6768
+      us-west-2:
+        Dedicated: 9.6768
+        Shared: 9.6768
+    RHEL:
+      eu-west-1:
+        Dedicated: 10.882
+        Shared: 10.882
+      us-east-1:
+        Dedicated: 9.8068
+        Shared: 9.8068
+      us-east-2:
+        Dedicated: 9.8068
+        Shared: 9.8068
+      us-west-2:
+        Dedicated: 9.8068
+        Shared: 9.8068
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 10.917
+        Shared: 10.917
+      us-east-1:
+        Dedicated: 9.8418
+        Shared: 9.8418
+      us-east-2:
+        Dedicated: 9.8418
+        Shared: 9.8418
+      us-west-2:
+        Dedicated: 9.8418
+        Shared: 9.8418
+    SUSE:
+      eu-west-1:
+        Dedicated: 10.877
+        Shared: 10.877
+      us-east-1:
+        Dedicated: 9.8018
+        Shared: 9.8018
+      us-east-2:
+        Dedicated: 9.8018
+        Shared: 9.8018
+      us-west-2:
+        Dedicated: 9.8018
+        Shared: 9.8018
+    Windows:
+      eu-west-1:
+        Dedicated: 16.64
+        Shared: 16.64
+      us-east-1:
+        Dedicated: 15.5648
+        Shared: 9.6768
+      us-east-2:
+        Dedicated: 15.5648
+        Shared: 9.6768
+      us-west-2:
+        Dedicated: 15.5648
+        Shared: 15.5648
+  regions:
+    - us-west-2
+    - us-east-1
+    - us-east-2
+    - eu-west-1
+  storage: 4 x 1900 SSD
+  vcpu: 128
+r6id.4xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 128 GiB
+  networkPerformance: Up to 12500 Megabit
+  normalizationSizeFactor: 32
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 1.4784
+        Shared: 1.344
+      us-east-1:
+        Dedicated: 1.33056
+        Shared: 1.2096
+      us-east-2:
+        Dedicated: 1.33056
+        Shared: 1.2096
+      us-west-2:
+        Dedicated: 1.33056
+        Shared: 1.2096
+    RHEL:
+      eu-west-1:
+        Dedicated: 1.6084
+        Shared: 1.474
+      us-east-1:
+        Dedicated: 1.46056
+        Shared: 1.3396
+      us-east-2:
+        Dedicated: 1.46056
+        Shared: 1.3396
+      us-west-2:
+        Dedicated: 1.46056
+        Shared: 1.3396
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 1.6434
+        Shared: 1.509
+      us-east-1:
+        Dedicated: 1.49556
+        Shared: 1.3746
+      us-east-2:
+        Dedicated: 1.49556
+        Shared: 1.3746
+      us-west-2:
+        Dedicated: 1.49556
+        Shared: 1.3746
+    SUSE:
+      eu-west-1:
+        Dedicated: 1.6034
+        Shared: 1.469
+      us-east-1:
+        Dedicated: 1.45556
+        Shared: 1.3346
+      us-east-2:
+        Dedicated: 1.45556
+        Shared: 1.3346
+      us-west-2:
+        Dedicated: 1.45556
+        Shared: 1.3346
+    Windows:
+      eu-west-1:
+        Dedicated: 1.4784
+        Shared: 2.08
+      us-east-1:
+        Dedicated: 2.06656
+        Shared: 1.2096
+      us-east-2:
+        Dedicated: 2.06656
+        Shared: 1.2096
+      us-west-2:
+        Dedicated: 1.33056
+        Shared: 1.9456
+  regions:
+    - eu-west-1
+    - us-east-2
+    - us-west-2
+    - us-east-1
+  storage: 1 x 950 SSD
+  vcpu: 16
+r6id.8xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 256 GiB
+  networkPerformance: 12500 Megabit
+  normalizationSizeFactor: 64
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 2.9568
+        Shared: 2.688
+      us-east-1:
+        Dedicated: 2.66112
+        Shared: 2.4192
+      us-east-2:
+        Dedicated: 2.66112
+        Shared: 2.4192
+      us-west-2:
+        Dedicated: 2.66112
+        Shared: 2.4192
+    RHEL:
+      eu-west-1:
+        Dedicated: 3.0868
+        Shared: 2.818
+      us-east-1:
+        Dedicated: 2.79112
+        Shared: 2.5492
+      us-east-2:
+        Dedicated: 2.79112
+        Shared: 2.5492
+      us-west-2:
+        Dedicated: 2.79112
+        Shared: 2.5492
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 3.1218
+        Shared: 2.853
+      us-east-1:
+        Dedicated: 2.82612
+        Shared: 2.5842
+      us-east-2:
+        Dedicated: 2.82612
+        Shared: 2.5842
+      us-west-2:
+        Dedicated: 2.82612
+        Shared: 2.5842
+    SUSE:
+      eu-west-1:
+        Dedicated: 3.0818
+        Shared: 2.813
+      us-east-1:
+        Dedicated: 2.78612
+        Shared: 2.5442
+      us-east-2:
+        Dedicated: 2.78612
+        Shared: 2.5442
+      us-west-2:
+        Dedicated: 2.78612
+        Shared: 2.5442
+    Windows:
+      eu-west-1:
+        Dedicated: 2.9568
+        Shared: 2.688
+      us-east-1:
+        Dedicated: 2.66112
+        Shared: 3.8912
+      us-east-2:
+        Dedicated: 2.66112
+        Shared: 3.8912
+      us-west-2:
+        Dedicated: 4.13312
+        Shared: 2.4192
+  regions:
+    - us-west-2
+    - eu-west-1
+    - us-east-2
+    - us-east-1
+  storage: 1 x 1900 SSD
+  vcpu: 32
+r6id.large:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 16 GiB
+  networkPerformance: Up to 12500 Megabit
+  normalizationSizeFactor: 4
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 0.1848
+        Shared: 0.168
+      us-east-1:
+        Dedicated: 0.16632
+        Shared: 0.1512
+      us-east-2:
+        Dedicated: 0.16632
+        Shared: 0.1512
+      us-west-2:
+        Dedicated: 0.16632
+        Shared: 0.1512
+    RHEL:
+      eu-west-1:
+        Dedicated: 0.2448
+        Shared: 0.228
+      us-east-1:
+        Dedicated: 0.22632
+        Shared: 0.2112
+      us-east-2:
+        Dedicated: 0.22632
+        Shared: 0.2112
+      us-west-2:
+        Dedicated: 0.22632
+        Shared: 0.2112
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 0.2798
+        Shared: 0.263
+      us-east-1:
+        Dedicated: 0.26132
+        Shared: 0.2462
+      us-east-2:
+        Dedicated: 0.26132
+        Shared: 0.2462
+      us-west-2:
+        Dedicated: 0.26132
+        Shared: 0.2462
+    SUSE:
+      eu-west-1:
+        Dedicated: 0.2411
+        Shared: 0.2243
+      us-east-1:
+        Dedicated: 0.22262
+        Shared: 0.2075
+      us-east-2:
+        Dedicated: 0.22262
+        Shared: 0.2075
+      us-west-2:
+        Dedicated: 0.22262
+        Shared: 0.2075
+    Windows:
+      eu-west-1:
+        Dedicated: 0.1848
+        Shared: 0.168
+      us-east-1:
+        Dedicated: 0.25832
+        Shared: 0.2432
+      us-east-2:
+        Dedicated: 0.25832
+        Shared: 0.2432
+      us-west-2:
+        Dedicated: 0.16632
+        Shared: 0.2432
+  regions:
+    - eu-west-1
+    - us-west-2
+    - us-east-1
+    - us-east-2
+  storage: 1 x 118 SSD
+  vcpu: 2
+r6id.metal:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 40000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 1024 GiB
+  networkPerformance: 50000 Megabit
+  normalizationSizeFactor: 256
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 10.752
+        Shared: 10.752
+      us-east-1:
+        Dedicated: 9.6768
+        Shared: 9.6768
+      us-east-2:
+        Dedicated: 9.6768
+        Shared: 9.6768
+      us-west-2:
+        Dedicated: 9.6768
+        Shared: 9.6768
+    RHEL:
+      eu-west-1:
+        Dedicated: 10.882
+        Shared: 10.882
+      us-east-1:
+        Dedicated: 9.8068
+        Shared: 9.8068
+      us-east-2:
+        Dedicated: 9.8068
+        Shared: 9.8068
+      us-west-2:
+        Dedicated: 9.8068
+        Shared: 9.8068
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 10.917
+        Shared: 10.917
+      us-east-1:
+        Dedicated: 9.8418
+        Shared: 9.8418
+      us-east-2:
+        Dedicated: 9.8418
+        Shared: 9.8418
+      us-west-2:
+        Dedicated: 9.8418
+        Shared: 9.8418
+    SUSE:
+      eu-west-1:
+        Dedicated: 10.877
+        Shared: 10.877
+      us-east-1:
+        Dedicated: 9.8018
+        Shared: 9.8018
+      us-east-2:
+        Dedicated: 9.8018
+        Shared: 9.8018
+      us-west-2:
+        Dedicated: 9.8018
+        Shared: 9.8018
+    Windows:
+      eu-west-1:
+        Dedicated: 16.64
+        Shared: 16.64
+      us-east-1:
+        Dedicated: 9.6768
+        Shared: 9.6768
+      us-east-2:
+        Dedicated: 15.5648
+        Shared: 15.5648
+      us-west-2:
+        Dedicated: 15.5648
+        Shared: 9.6768
+  regions:
+    - us-east-2
+    - eu-west-1
+    - us-west-2
+    - us-east-1
+  storage: 4 x 1900 SSD
+  vcpu: 128
+r6id.xlarge:
+  clockSpeed: 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: Up to 12500 Megabit
+  normalizationSizeFactor: 8
+  physicalProcessor: Intel Xeon 8375C (Ice Lake)
+  prices:
+    Linux:
+      eu-west-1:
+        Dedicated: 0.3696
+        Shared: 0.336
+      us-east-1:
+        Dedicated: 0.33264
+        Shared: 0.3024
+      us-east-2:
+        Dedicated: 0.33264
+        Shared: 0.3024
+      us-west-2:
+        Dedicated: 0.33264
+        Shared: 0.3024
+    RHEL:
+      eu-west-1:
+        Dedicated: 0.4296
+        Shared: 0.396
+      us-east-1:
+        Dedicated: 0.39264
+        Shared: 0.3624
+      us-east-2:
+        Dedicated: 0.39264
+        Shared: 0.3624
+      us-west-2:
+        Dedicated: 0.39264
+        Shared: 0.3624
+    RHEL_HA:
+      eu-west-1:
+        Dedicated: 0.4646
+        Shared: 0.431
+      us-east-1:
+        Dedicated: 0.42764
+        Shared: 0.3974
+      us-east-2:
+        Dedicated: 0.42764
+        Shared: 0.3974
+      us-west-2:
+        Dedicated: 0.42764
+        Shared: 0.3974
+    SUSE:
+      eu-west-1:
+        Dedicated: 0.4259
+        Shared: 0.3923
+      us-east-1:
+        Dedicated: 0.38894
+        Shared: 0.3587
+      us-east-2:
+        Dedicated: 0.38894
+        Shared: 0.3587
+      us-west-2:
+        Dedicated: 0.38894
+        Shared: 0.3587
+    Windows:
+      eu-west-1:
+        Dedicated: 0.5536
+        Shared: 0.336
+      us-east-1:
+        Dedicated: 0.33264
+        Shared: 0.4864
+      us-east-2:
+        Dedicated: 0.51664
+        Shared: 0.3024
+      us-west-2:
+        Dedicated: 0.51664
+        Shared: 0.4864
+  regions:
+    - us-west-2
+    - us-east-1
+    - us-east-2
+    - eu-west-1
+  storage: 1 x 237 SSD
   vcpu: 4
 t1.micro:
   currentGeneration: false
