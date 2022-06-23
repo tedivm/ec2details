@@ -21789,6 +21789,9 @@ c6gd.12xlarge:
       ap-northeast-1:
         Dedicated: 2.4936
         Shared: 2.352
+      ap-northeast-2:
+        Dedicated: 2.2387
+        Shared: 2.112
       ap-south-1:
         Dedicated: 1.2466
         Shared: 1.176
@@ -21826,6 +21829,9 @@ c6gd.12xlarge:
       ap-northeast-1:
         Dedicated: 2.6236
         Shared: 2.482
+      ap-northeast-2:
+        Dedicated: 2.3687
+        Shared: 2.242
       ap-south-1:
         Dedicated: 1.3766
         Shared: 1.306
@@ -21863,6 +21869,9 @@ c6gd.12xlarge:
       ap-northeast-1:
         Dedicated: 2.6586
         Shared: 2.517
+      ap-northeast-2:
+        Dedicated: 2.4037
+        Shared: 2.277
       ap-south-1:
         Dedicated: 1.4116
         Shared: 1.341
@@ -21900,6 +21909,9 @@ c6gd.12xlarge:
       ap-northeast-1:
         Dedicated: 2.6186
         Shared: 2.477
+      ap-northeast-2:
+        Dedicated: 2.3637
+        Shared: 2.237
       ap-south-1:
         Dedicated: 1.3716
         Shared: 1.301
@@ -21944,6 +21956,7 @@ c6gd.12xlarge:
     - ap-south-1
     - ap-northeast-1
     - eu-central-1
+    - ap-northeast-2
     - eu-west-1
     - us-east-1
   storage: 2 x 1425 NVMe SSD
@@ -21962,6 +21975,9 @@ c6gd.16xlarge:
       ap-northeast-1:
         Dedicated: 3.3248
         Shared: 3.136
+      ap-northeast-2:
+        Dedicated: 2.816
+        Shared: 2.816
       ap-south-1:
         Dedicated: 1.6621
         Shared: 1.568
@@ -21999,6 +22015,9 @@ c6gd.16xlarge:
       ap-northeast-1:
         Dedicated: 3.4548
         Shared: 3.266
+      ap-northeast-2:
+        Dedicated: 2.946
+        Shared: 2.946
       ap-south-1:
         Dedicated: 1.7921
         Shared: 1.698
@@ -22036,6 +22055,9 @@ c6gd.16xlarge:
       ap-northeast-1:
         Dedicated: 3.4898
         Shared: 3.301
+      ap-northeast-2:
+        Dedicated: 2.981
+        Shared: 2.981
       ap-south-1:
         Dedicated: 1.8271
         Shared: 1.733
@@ -22073,6 +22095,9 @@ c6gd.16xlarge:
       ap-northeast-1:
         Dedicated: 3.261
         Shared: 3.261
+      ap-northeast-2:
+        Dedicated: 2.941
+        Shared: 2.941
       ap-south-1:
         Dedicated: 1.693
         Shared: 1.693
@@ -22109,6 +22134,7 @@ c6gd.16xlarge:
   regions:
     - ap-south-1
     - eu-west-1
+    - ap-northeast-2
     - eu-central-1
     - us-east-2
     - ap-northeast-1
@@ -22135,6 +22161,9 @@ c6gd.2xlarge:
       ap-northeast-1:
         Dedicated: 0.4156
         Shared: 0.392
+      ap-northeast-2:
+        Dedicated: 0.3731
+        Shared: 0.352
       ap-south-1:
         Dedicated: 0.2078
         Shared: 0.196
@@ -22172,6 +22201,9 @@ c6gd.2xlarge:
       ap-northeast-1:
         Dedicated: 0.5456
         Shared: 0.522
+      ap-northeast-2:
+        Dedicated: 0.5031
+        Shared: 0.482
       ap-south-1:
         Dedicated: 0.3378
         Shared: 0.326
@@ -22209,6 +22241,9 @@ c6gd.2xlarge:
       ap-northeast-1:
         Dedicated: 0.5806
         Shared: 0.557
+      ap-northeast-2:
+        Dedicated: 0.5381
+        Shared: 0.517
       ap-south-1:
         Dedicated: 0.3728
         Shared: 0.361
@@ -22246,6 +22281,9 @@ c6gd.2xlarge:
       ap-northeast-1:
         Dedicated: 0.5406
         Shared: 0.517
+      ap-northeast-2:
+        Dedicated: 0.4981
+        Shared: 0.477
       ap-south-1:
         Dedicated: 0.3328
         Shared: 0.321
@@ -22282,6 +22320,7 @@ c6gd.2xlarge:
   regions:
     - us-west-2
     - eu-west-1
+    - ap-northeast-2
     - ap-south-1
     - eu-central-1
     - eu-west-2
@@ -22308,6 +22347,9 @@ c6gd.4xlarge:
       ap-northeast-1:
         Dedicated: 0.8312
         Shared: 0.784
+      ap-northeast-2:
+        Dedicated: 0.7462
+        Shared: 0.704
       ap-south-1:
         Dedicated: 0.4155
         Shared: 0.392
@@ -22345,6 +22387,9 @@ c6gd.4xlarge:
       ap-northeast-1:
         Dedicated: 0.9612
         Shared: 0.914
+      ap-northeast-2:
+        Dedicated: 0.8762
+        Shared: 0.834
       ap-south-1:
         Dedicated: 0.5455
         Shared: 0.522
@@ -22382,6 +22427,9 @@ c6gd.4xlarge:
       ap-northeast-1:
         Dedicated: 0.9962
         Shared: 0.949
+      ap-northeast-2:
+        Dedicated: 0.9112
+        Shared: 0.869
       ap-south-1:
         Dedicated: 0.5805
         Shared: 0.557
@@ -22419,6 +22467,9 @@ c6gd.4xlarge:
       ap-northeast-1:
         Dedicated: 0.9562
         Shared: 0.909
+      ap-northeast-2:
+        Dedicated: 0.8712
+        Shared: 0.829
       ap-south-1:
         Dedicated: 0.5405
         Shared: 0.517
@@ -22457,6 +22508,7 @@ c6gd.4xlarge:
     - eu-west-1
     - eu-west-2
     - us-east-1
+    - ap-northeast-2
     - us-west-2
     - ap-northeast-1
     - ap-south-1
@@ -22481,6 +22533,9 @@ c6gd.8xlarge:
       ap-northeast-1:
         Dedicated: 1.6624
         Shared: 1.568
+      ap-northeast-2:
+        Dedicated: 1.4925
+        Shared: 1.408
       ap-south-1:
         Dedicated: 0.831
         Shared: 0.784
@@ -22518,6 +22573,9 @@ c6gd.8xlarge:
       ap-northeast-1:
         Dedicated: 1.7924
         Shared: 1.698
+      ap-northeast-2:
+        Dedicated: 1.6225
+        Shared: 1.538
       ap-south-1:
         Dedicated: 0.961
         Shared: 0.914
@@ -22555,6 +22613,9 @@ c6gd.8xlarge:
       ap-northeast-1:
         Dedicated: 1.8274
         Shared: 1.733
+      ap-northeast-2:
+        Dedicated: 1.6575
+        Shared: 1.573
       ap-south-1:
         Dedicated: 0.996
         Shared: 0.949
@@ -22592,6 +22653,9 @@ c6gd.8xlarge:
       ap-northeast-1:
         Dedicated: 1.7874
         Shared: 1.693
+      ap-northeast-2:
+        Dedicated: 1.6175
+        Shared: 1.533
       ap-south-1:
         Dedicated: 0.956
         Shared: 0.909
@@ -22630,6 +22694,7 @@ c6gd.8xlarge:
     - ca-central-1
     - us-east-2
     - eu-central-1
+    - ap-northeast-2
     - us-west-1
     - ap-southeast-1
     - us-west-2
@@ -22654,6 +22719,9 @@ c6gd.large:
       ap-northeast-1:
         Dedicated: 0.1039
         Shared: 0.098
+      ap-northeast-2:
+        Dedicated: 0.0933
+        Shared: 0.088
       ap-south-1:
         Dedicated: 0.0519
         Shared: 0.049
@@ -22691,6 +22759,9 @@ c6gd.large:
       ap-northeast-1:
         Dedicated: 0.1639
         Shared: 0.158
+      ap-northeast-2:
+        Dedicated: 0.1533
+        Shared: 0.148
       ap-south-1:
         Dedicated: 0.1119
         Shared: 0.109
@@ -22728,6 +22799,9 @@ c6gd.large:
       ap-northeast-1:
         Dedicated: 0.1989
         Shared: 0.193
+      ap-northeast-2:
+        Dedicated: 0.1883
+        Shared: 0.183
       ap-south-1:
         Dedicated: 0.1469
         Shared: 0.144
@@ -22765,6 +22839,9 @@ c6gd.large:
       ap-northeast-1:
         Dedicated: 0.1602
         Shared: 0.1543
+      ap-northeast-2:
+        Dedicated: 0.1496
+        Shared: 0.1443
       ap-south-1:
         Dedicated: 0.1082
         Shared: 0.1053
@@ -22811,6 +22888,7 @@ c6gd.large:
     - ap-southeast-2
     - ca-central-1
     - ap-northeast-1
+    - ap-northeast-2
   storage: 1 x 118 NVMe SSD
   vcpu: 2
 c6gd.medium:
@@ -22827,6 +22905,9 @@ c6gd.medium:
       ap-northeast-1:
         Dedicated: 0.0519
         Shared: 0.049
+      ap-northeast-2:
+        Dedicated: 0.0466
+        Shared: 0.044
       ap-south-1:
         Dedicated: 0.026
         Shared: 0.0245
@@ -22864,6 +22945,9 @@ c6gd.medium:
       ap-northeast-1:
         Dedicated: 0.1119
         Shared: 0.109
+      ap-northeast-2:
+        Dedicated: 0.1066
+        Shared: 0.104
       ap-south-1:
         Dedicated: 0.086
         Shared: 0.0845
@@ -22901,6 +22985,9 @@ c6gd.medium:
       ap-northeast-1:
         Dedicated: 0.1469
         Shared: 0.144
+      ap-northeast-2:
+        Dedicated: 0.1416
+        Shared: 0.139
       ap-south-1:
         Dedicated: 0.121
         Shared: 0.1195
@@ -22938,6 +23025,9 @@ c6gd.medium:
       ap-northeast-1:
         Dedicated: 0.0829
         Shared: 0.08
+      ap-northeast-2:
+        Dedicated: 0.1029
+        Shared: 0.1003
       ap-south-1:
         Dedicated: 0.057
         Shared: 0.0555
@@ -22977,6 +23067,7 @@ c6gd.medium:
     - ap-south-1
     - ap-southeast-1
     - ap-northeast-1
+    - ap-northeast-2
     - us-west-2
     - us-west-1
     - eu-central-1
@@ -23000,6 +23091,9 @@ c6gd.metal:
       ap-northeast-1:
         Dedicated: 3.3248
         Shared: 3.136
+      ap-northeast-2:
+        Dedicated: 2.816
+        Shared: 2.816
       ap-south-1:
         Dedicated: 1.6621
         Shared: 1.568
@@ -23037,6 +23131,9 @@ c6gd.metal:
       ap-northeast-1:
         Dedicated: 3.4548
         Shared: 3.266
+      ap-northeast-2:
+        Dedicated: 2.946
+        Shared: 2.946
       ap-south-1:
         Dedicated: 1.7921
         Shared: 1.698
@@ -23074,6 +23171,9 @@ c6gd.metal:
       ap-northeast-1:
         Dedicated: 3.4898
         Shared: 3.301
+      ap-northeast-2:
+        Dedicated: 2.981
+        Shared: 2.981
       ap-south-1:
         Dedicated: 1.8271
         Shared: 1.733
@@ -23111,6 +23211,9 @@ c6gd.metal:
       ap-northeast-1:
         Dedicated: 3.261
         Shared: 3.261
+      ap-northeast-2:
+        Dedicated: 2.941
+        Shared: 2.941
       ap-south-1:
         Dedicated: 1.693
         Shared: 1.693
@@ -23149,6 +23252,7 @@ c6gd.metal:
     - us-east-2
     - ap-northeast-1
     - ap-south-1
+    - ap-northeast-2
     - us-west-2
     - us-west-1
     - ap-southeast-2
@@ -23173,6 +23277,9 @@ c6gd.xlarge:
       ap-northeast-1:
         Dedicated: 0.2078
         Shared: 0.196
+      ap-northeast-2:
+        Dedicated: 0.1866
+        Shared: 0.176
       ap-south-1:
         Dedicated: 0.1039
         Shared: 0.098
@@ -23210,6 +23317,9 @@ c6gd.xlarge:
       ap-northeast-1:
         Dedicated: 0.2678
         Shared: 0.256
+      ap-northeast-2:
+        Dedicated: 0.2466
+        Shared: 0.236
       ap-south-1:
         Dedicated: 0.1639
         Shared: 0.158
@@ -23247,6 +23357,9 @@ c6gd.xlarge:
       ap-northeast-1:
         Dedicated: 0.3028
         Shared: 0.291
+      ap-northeast-2:
+        Dedicated: 0.2816
+        Shared: 0.271
       ap-south-1:
         Dedicated: 0.1989
         Shared: 0.193
@@ -23284,6 +23397,9 @@ c6gd.xlarge:
       ap-northeast-1:
         Dedicated: 0.2641
         Shared: 0.2523
+      ap-northeast-2:
+        Dedicated: 0.2429
+        Shared: 0.2323
       ap-south-1:
         Dedicated: 0.1602
         Shared: 0.1543
@@ -23318,6 +23434,7 @@ c6gd.xlarge:
         Dedicated: 0.2191
         Shared: 0.2099
   regions:
+    - ap-northeast-2
     - eu-west-1
     - ap-southeast-1
     - ap-southeast-2
@@ -29209,35 +29326,61 @@ c7g.12xlarge:
   physicalProcessor: AWS Graviton3 Processor
   prices:
     Linux:
+      eu-west-1:
+        Dedicated: 1.9778
+        Shared: 1.8605
       us-east-1:
         Dedicated: 1.8492
         Shared: 1.74
+      us-east-2:
+        Dedicated: 1.8435
+        Shared: 1.7342
       us-west-2:
         Dedicated: 1.8492
         Shared: 1.74
     RHEL:
+      eu-west-1:
+        Dedicated: 2.1078
+        Shared: 1.9905
       us-east-1:
         Dedicated: 1.9792
         Shared: 1.87
+      us-east-2:
+        Dedicated: 1.9735
+        Shared: 1.8642
       us-west-2:
         Dedicated: 1.9792
         Shared: 1.87
     RHEL_HA:
+      eu-west-1:
+        Dedicated: 2.1428
+        Shared: 2.0255
       us-east-1:
         Dedicated: 2.0142
         Shared: 1.905
+      us-east-2:
+        Dedicated: 2.0085
+        Shared: 1.8992
       us-west-2:
         Dedicated: 2.0142
         Shared: 1.905
     SUSE:
+      eu-west-1:
+        Dedicated: 2.1028
+        Shared: 1.9855
       us-east-1:
         Dedicated: 1.9742
         Shared: 1.865
+      us-east-2:
+        Dedicated: 1.9685
+        Shared: 1.8592
       us-west-2:
         Dedicated: 1.9742
         Shared: 1.865
   regions:
     - us-east-1
+    - us-east-2
+    - eu-west-1
     - us-west-2
   storage: EBS only
   vcpu: 48
@@ -29252,35 +29395,61 @@ c7g.16xlarge:
   physicalProcessor: AWS Graviton3 Processor
   prices:
     Linux:
+      eu-west-1:
+        Dedicated: 2.4806
+        Shared: 2.4806
       us-east-1:
         Dedicated: 2.32
         Shared: 2.32
+      us-east-2:
+        Dedicated: 2.3123
+        Shared: 2.3123
       us-west-2:
         Dedicated: 2.32
         Shared: 2.32
     RHEL:
+      eu-west-1:
+        Dedicated: 2.6106
+        Shared: 2.6106
       us-east-1:
         Dedicated: 2.45
         Shared: 2.45
+      us-east-2:
+        Dedicated: 2.4423
+        Shared: 2.4423
       us-west-2:
         Dedicated: 2.45
         Shared: 2.45
     RHEL_HA:
+      eu-west-1:
+        Dedicated: 2.6456
+        Shared: 2.6456
       us-east-1:
         Dedicated: 2.485
         Shared: 2.485
+      us-east-2:
+        Dedicated: 2.4773
+        Shared: 2.4773
       us-west-2:
         Dedicated: 2.485
         Shared: 2.485
     SUSE:
+      eu-west-1:
+        Dedicated: 2.6056
+        Shared: 2.6056
       us-east-1:
         Dedicated: 2.445
         Shared: 2.445
+      us-east-2:
+        Dedicated: 2.4373
+        Shared: 2.4373
       us-west-2:
         Dedicated: 2.445
         Shared: 2.445
   regions:
+    - eu-west-1
     - us-east-1
+    - us-east-2
     - us-west-2
   storage: EBS only
   vcpu: 64
@@ -29295,35 +29464,61 @@ c7g.2xlarge:
   physicalProcessor: AWS Graviton3 Processor
   prices:
     Linux:
+      eu-west-1:
+        Dedicated: 0.3296
+        Shared: 0.3101
       us-east-1:
         Dedicated: 0.3082
         Shared: 0.29
+      us-east-2:
+        Dedicated: 0.3072
+        Shared: 0.289
       us-west-2:
         Dedicated: 0.3082
         Shared: 0.29
     RHEL:
+      eu-west-1:
+        Dedicated: 0.4596
+        Shared: 0.4401
       us-east-1:
         Dedicated: 0.4382
         Shared: 0.42
+      us-east-2:
+        Dedicated: 0.4372
+        Shared: 0.419
       us-west-2:
         Dedicated: 0.4382
         Shared: 0.42
     RHEL_HA:
+      eu-west-1:
+        Dedicated: 0.4946
+        Shared: 0.4751
       us-east-1:
         Dedicated: 0.4732
         Shared: 0.455
+      us-east-2:
+        Dedicated: 0.4722
+        Shared: 0.454
       us-west-2:
         Dedicated: 0.4732
         Shared: 0.455
     SUSE:
+      eu-west-1:
+        Dedicated: 0.4546
+        Shared: 0.4351
       us-east-1:
         Dedicated: 0.4332
         Shared: 0.415
+      us-east-2:
+        Dedicated: 0.4322
+        Shared: 0.414
       us-west-2:
         Dedicated: 0.4332
         Shared: 0.415
   regions:
+    - us-east-2
     - us-west-2
+    - eu-west-1
     - us-east-1
   storage: EBS only
   vcpu: 8
@@ -29338,36 +29533,62 @@ c7g.4xlarge:
   physicalProcessor: AWS Graviton3 Processor
   prices:
     Linux:
+      eu-west-1:
+        Dedicated: 0.6593
+        Shared: 0.6202
       us-east-1:
         Dedicated: 0.6164
         Shared: 0.58
+      us-east-2:
+        Dedicated: 0.6145
+        Shared: 0.5781
       us-west-2:
         Dedicated: 0.6164
         Shared: 0.58
     RHEL:
+      eu-west-1:
+        Dedicated: 0.7893
+        Shared: 0.7502
       us-east-1:
         Dedicated: 0.7464
         Shared: 0.71
+      us-east-2:
+        Dedicated: 0.7445
+        Shared: 0.7081
       us-west-2:
         Dedicated: 0.7464
         Shared: 0.71
     RHEL_HA:
+      eu-west-1:
+        Dedicated: 0.8243
+        Shared: 0.7852
       us-east-1:
         Dedicated: 0.7814
         Shared: 0.745
+      us-east-2:
+        Dedicated: 0.7795
+        Shared: 0.7431
       us-west-2:
         Dedicated: 0.7814
         Shared: 0.745
     SUSE:
+      eu-west-1:
+        Dedicated: 0.7843
+        Shared: 0.7452
       us-east-1:
         Dedicated: 0.7414
         Shared: 0.705
+      us-east-2:
+        Dedicated: 0.7395
+        Shared: 0.7031
       us-west-2:
         Dedicated: 0.7414
         Shared: 0.705
   regions:
     - us-west-2
     - us-east-1
+    - us-east-2
+    - eu-west-1
   storage: EBS only
   vcpu: 16
 c7g.8xlarge:
@@ -29381,34 +29602,60 @@ c7g.8xlarge:
   physicalProcessor: AWS Graviton3 Processor
   prices:
     Linux:
+      eu-west-1:
+        Dedicated: 1.3185
+        Shared: 1.2403
       us-east-1:
         Dedicated: 1.2328
         Shared: 1.16
+      us-east-2:
+        Dedicated: 1.229
+        Shared: 1.1562
       us-west-2:
         Dedicated: 1.2328
         Shared: 1.16
     RHEL:
+      eu-west-1:
+        Dedicated: 1.4485
+        Shared: 1.3703
       us-east-1:
         Dedicated: 1.3628
         Shared: 1.29
+      us-east-2:
+        Dedicated: 1.359
+        Shared: 1.2862
       us-west-2:
         Dedicated: 1.3628
         Shared: 1.29
     RHEL_HA:
+      eu-west-1:
+        Dedicated: 1.4835
+        Shared: 1.4053
       us-east-1:
         Dedicated: 1.3978
         Shared: 1.325
+      us-east-2:
+        Dedicated: 1.394
+        Shared: 1.3212
       us-west-2:
         Dedicated: 1.3978
         Shared: 1.325
     SUSE:
+      eu-west-1:
+        Dedicated: 1.4435
+        Shared: 1.3653
       us-east-1:
         Dedicated: 1.3578
         Shared: 1.285
+      us-east-2:
+        Dedicated: 1.354
+        Shared: 1.2812
       us-west-2:
         Dedicated: 1.3578
         Shared: 1.285
   regions:
+    - eu-west-1
+    - us-east-2
     - us-east-1
     - us-west-2
   storage: EBS only
@@ -29424,35 +29671,61 @@ c7g.large:
   physicalProcessor: AWS Graviton3 Processor
   prices:
     Linux:
+      eu-west-1:
+        Dedicated: 0.0824
+        Shared: 0.0775
       us-east-1:
         Dedicated: 0.077
         Shared: 0.0725
+      us-east-2:
+        Dedicated: 0.0768
+        Shared: 0.0723
       us-west-2:
         Dedicated: 0.077
         Shared: 0.0725
     RHEL:
+      eu-west-1:
+        Dedicated: 0.1424
+        Shared: 0.1375
       us-east-1:
         Dedicated: 0.137
         Shared: 0.1325
+      us-east-2:
+        Dedicated: 0.1368
+        Shared: 0.1323
       us-west-2:
         Dedicated: 0.137
         Shared: 0.1325
     RHEL_HA:
+      eu-west-1:
+        Dedicated: 0.1774
+        Shared: 0.1725
       us-east-1:
         Dedicated: 0.172
         Shared: 0.1675
+      us-east-2:
+        Dedicated: 0.1718
+        Shared: 0.1673
       us-west-2:
         Dedicated: 0.172
         Shared: 0.1675
     SUSE:
+      eu-west-1:
+        Dedicated: 0.1387
+        Shared: 0.1338
       us-east-1:
         Dedicated: 0.1333
         Shared: 0.1288
+      us-east-2:
+        Dedicated: 0.1331
+        Shared: 0.1286
       us-west-2:
         Dedicated: 0.1333
         Shared: 0.1288
   regions:
+    - us-east-2
     - us-east-1
+    - eu-west-1
     - us-west-2
   storage: EBS only
   vcpu: 2
@@ -29467,36 +29740,62 @@ c7g.medium:
   physicalProcessor: AWS Graviton3 Processor
   prices:
     Linux:
+      eu-west-1:
+        Dedicated: 0.0412
+        Shared: 0.0388
       us-east-1:
         Dedicated: 0.0385
         Shared: 0.0363
+      us-east-2:
+        Dedicated: 0.0384
+        Shared: 0.0361
       us-west-2:
         Dedicated: 0.0385
         Shared: 0.0363
     RHEL:
+      eu-west-1:
+        Dedicated: 0.1012
+        Shared: 0.0988
       us-east-1:
         Dedicated: 0.0985
         Shared: 0.0963
+      us-east-2:
+        Dedicated: 0.0984
+        Shared: 0.0961
       us-west-2:
         Dedicated: 0.0985
         Shared: 0.0963
     RHEL_HA:
+      eu-west-1:
+        Dedicated: 0.1362
+        Shared: 0.1338
       us-east-1:
         Dedicated: 0.1335
         Shared: 0.1313
+      us-east-2:
+        Dedicated: 0.1334
+        Shared: 0.1311
       us-west-2:
         Dedicated: 0.1335
         Shared: 0.1313
     SUSE:
+      eu-west-1:
+        Dedicated: 0.0975
+        Shared: 0.0951
       us-east-1:
         Dedicated: 0.0695
         Shared: 0.0673
+      us-east-2:
+        Dedicated: 0.0947
+        Shared: 0.0924
       us-west-2:
         Dedicated: 0.0695
         Shared: 0.0673
   regions:
     - us-east-1
+    - us-east-2
     - us-west-2
+    - eu-west-1
   storage: EBS only
   vcpu: 1
 c7g.xlarge:
@@ -29510,36 +29809,62 @@ c7g.xlarge:
   physicalProcessor: AWS Graviton3 Processor
   prices:
     Linux:
+      eu-west-1:
+        Dedicated: 0.1648
+        Shared: 0.155
       us-east-1:
         Dedicated: 0.1541
         Shared: 0.145
+      us-east-2:
+        Dedicated: 0.1536
+        Shared: 0.1445
       us-west-2:
         Dedicated: 0.1541
         Shared: 0.145
     RHEL:
+      eu-west-1:
+        Dedicated: 0.2248
+        Shared: 0.215
       us-east-1:
         Dedicated: 0.2141
         Shared: 0.205
+      us-east-2:
+        Dedicated: 0.2136
+        Shared: 0.2045
       us-west-2:
         Dedicated: 0.2141
         Shared: 0.205
     RHEL_HA:
+      eu-west-1:
+        Dedicated: 0.2598
+        Shared: 0.25
       us-east-1:
         Dedicated: 0.2491
         Shared: 0.24
+      us-east-2:
+        Dedicated: 0.2486
+        Shared: 0.2395
       us-west-2:
         Dedicated: 0.2491
         Shared: 0.24
     SUSE:
+      eu-west-1:
+        Dedicated: 0.2211
+        Shared: 0.2113
       us-east-1:
         Dedicated: 0.2104
         Shared: 0.2013
+      us-east-2:
+        Dedicated: 0.2099
+        Shared: 0.2008
       us-west-2:
         Dedicated: 0.2104
         Shared: 0.2013
   regions:
     - us-west-2
     - us-east-1
+    - us-east-2
+    - eu-west-1
   storage: EBS only
   vcpu: 4
 cc2.8xlarge:
@@ -37865,9 +38190,24 @@ g5.12xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 9.0487
+        Shared: 8.22609
+      ap-south-1:
+        Dedicated: 7.492
+        Shared: 6.81091
+      ca-central-1:
+        Dedicated: 6.92762
+        Shared: 6.29784
+      eu-central-1:
+        Dedicated: 7.8021
+        Shared: 7.09282
       eu-west-1:
         Dedicated: 6.96483
         Shared: 6.33167
+      eu-west-2:
+        Dedicated: 7.91994
+        Shared: 7.19994
       us-east-1:
         Dedicated: 6.2392
         Shared: 5.672
@@ -37875,9 +38215,24 @@ g5.12xlarge:
         Dedicated: 6.2392
         Shared: 5.672
     RHEL:
+      ap-northeast-1:
+        Dedicated: 9.1787
+        Shared: 8.35609
+      ap-south-1:
+        Dedicated: 7.622
+        Shared: 6.94091
+      ca-central-1:
+        Dedicated: 7.05762
+        Shared: 6.42784
+      eu-central-1:
+        Dedicated: 7.9321
+        Shared: 7.22282
       eu-west-1:
         Dedicated: 7.09483
         Shared: 6.46167
+      eu-west-2:
+        Dedicated: 8.04994
+        Shared: 7.32994
       us-east-1:
         Dedicated: 6.3692
         Shared: 5.802
@@ -37885,9 +38240,24 @@ g5.12xlarge:
         Dedicated: 6.3692
         Shared: 5.802
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 9.2137
+        Shared: 8.39109
+      ap-south-1:
+        Dedicated: 7.657
+        Shared: 6.97591
+      ca-central-1:
+        Dedicated: 7.09262
+        Shared: 6.46284
+      eu-central-1:
+        Dedicated: 7.9671
+        Shared: 7.25782
       eu-west-1:
         Dedicated: 7.12983
         Shared: 6.49667
+      eu-west-2:
+        Dedicated: 8.08494
+        Shared: 7.36494
       us-east-1:
         Dedicated: 6.4042
         Shared: 5.837
@@ -37895,9 +38265,24 @@ g5.12xlarge:
         Dedicated: 6.4042
         Shared: 5.837
     SUSE:
+      ap-northeast-1:
+        Dedicated: 9.1737
+        Shared: 8.35109
+      ap-south-1:
+        Dedicated: 7.617
+        Shared: 6.93591
+      ca-central-1:
+        Dedicated: 7.05262
+        Shared: 6.42284
+      eu-central-1:
+        Dedicated: 7.9271
+        Shared: 7.21782
       eu-west-1:
         Dedicated: 7.08983
         Shared: 6.45667
+      eu-west-2:
+        Dedicated: 8.04494
+        Shared: 7.32494
       us-east-1:
         Dedicated: 6.3642
         Shared: 5.797
@@ -37905,9 +38290,24 @@ g5.12xlarge:
         Dedicated: 6.3642
         Shared: 5.797
     Windows:
+      ap-northeast-1:
+        Dedicated: 9.0487
+        Shared: 8.22609
+      ap-south-1:
+        Dedicated: 7.492
+        Shared: 9.01891
+      ca-central-1:
+        Dedicated: 9.13562
+        Shared: 8.50584
+      eu-central-1:
+        Dedicated: 7.8021
+        Shared: 9.30082
       eu-west-1:
         Dedicated: 9.17283
         Shared: 8.53967
+      eu-west-2:
+        Dedicated: 10.12794
+        Shared: 7.19994
       us-east-1:
         Dedicated: 6.2392
         Shared: 5.672
@@ -37915,8 +38315,13 @@ g5.12xlarge:
         Dedicated: 6.2392
         Shared: 7.88
   regions:
+    - ap-northeast-1
     - us-east-1
+    - ap-south-1
     - us-west-2
+    - eu-west-2
+    - ca-central-1
+    - eu-central-1
     - eu-west-1
   storage: 1 x 3800 GB NVMe SSD
   vcpu: 48
@@ -37932,9 +38337,24 @@ g5.16xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 6.53446
+        Shared: 5.94042
+      ap-south-1:
+        Dedicated: 5.4103
+        Shared: 4.91846
+      ca-central-1:
+        Dedicated: 5.00274
+        Shared: 4.54794
+      eu-central-1:
+        Dedicated: 5.63424
+        Shared: 5.12204
       eu-west-1:
         Dedicated: 5.02961
         Shared: 4.57237
+      eu-west-2:
+        Dedicated: 5.71934
+        Shared: 5.1994
       us-east-1:
         Dedicated: 4.5056
         Shared: 4.096
@@ -37942,9 +38362,24 @@ g5.16xlarge:
         Dedicated: 4.5056
         Shared: 4.096
     RHEL:
+      ap-northeast-1:
+        Dedicated: 6.66446
+        Shared: 6.07042
+      ap-south-1:
+        Dedicated: 5.5403
+        Shared: 5.04846
+      ca-central-1:
+        Dedicated: 5.13274
+        Shared: 4.67794
+      eu-central-1:
+        Dedicated: 5.76424
+        Shared: 5.25204
       eu-west-1:
         Dedicated: 5.15961
         Shared: 4.70237
+      eu-west-2:
+        Dedicated: 5.84934
+        Shared: 5.3294
       us-east-1:
         Dedicated: 4.6356
         Shared: 4.226
@@ -37952,9 +38387,24 @@ g5.16xlarge:
         Dedicated: 4.6356
         Shared: 4.226
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 6.69946
+        Shared: 6.10542
+      ap-south-1:
+        Dedicated: 5.5753
+        Shared: 5.08346
+      ca-central-1:
+        Dedicated: 5.16774
+        Shared: 4.71294
+      eu-central-1:
+        Dedicated: 5.79924
+        Shared: 5.28704
       eu-west-1:
         Dedicated: 5.19461
         Shared: 4.73737
+      eu-west-2:
+        Dedicated: 5.88434
+        Shared: 5.3644
       us-east-1:
         Dedicated: 4.6706
         Shared: 4.261
@@ -37962,9 +38412,24 @@ g5.16xlarge:
         Dedicated: 4.6706
         Shared: 4.261
     SUSE:
+      ap-northeast-1:
+        Dedicated: 6.65946
+        Shared: 6.06542
+      ap-south-1:
+        Dedicated: 5.5353
+        Shared: 5.04346
+      ca-central-1:
+        Dedicated: 5.12774
+        Shared: 4.67294
+      eu-central-1:
+        Dedicated: 5.75924
+        Shared: 5.24704
       eu-west-1:
         Dedicated: 5.15461
         Shared: 4.69737
+      eu-west-2:
+        Dedicated: 5.84434
+        Shared: 5.3244
       us-east-1:
         Dedicated: 4.6306
         Shared: 4.221
@@ -37972,9 +38437,24 @@ g5.16xlarge:
         Dedicated: 4.6306
         Shared: 4.221
     Windows:
+      ap-northeast-1:
+        Dedicated: 9.47846
+        Shared: 5.94042
+      ap-south-1:
+        Dedicated: 5.4103
+        Shared: 4.91846
+      ca-central-1:
+        Dedicated: 5.00274
+        Shared: 4.54794
+      eu-central-1:
+        Dedicated: 8.57824
+        Shared: 5.12204
       eu-west-1:
         Dedicated: 7.97361
         Shared: 7.51637
+      eu-west-2:
+        Dedicated: 8.66334
+        Shared: 5.1994
       us-east-1:
         Dedicated: 7.4496
         Shared: 4.096
@@ -37982,9 +38462,14 @@ g5.16xlarge:
         Dedicated: 7.4496
         Shared: 4.096
   regions:
+    - eu-west-2
     - us-west-2
+    - eu-central-1
+    - ap-south-1
     - eu-west-1
     - us-east-1
+    - ap-northeast-1
+    - ca-central-1
   storage: 1 x 1900 GB NVMe SSD
   vcpu: 64
 g5.24xlarge:
@@ -37999,9 +38484,24 @@ g5.24xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 12.99235
+        Shared: 11.81123
+      ap-south-1:
+        Dedicated: 10.7572
+        Shared: 9.77928
+      ca-central-1:
+        Dedicated: 9.94685
+        Shared: 9.04259
+      eu-central-1:
+        Dedicated: 11.20245
+        Shared: 10.18405
       eu-west-1:
         Dedicated: 10.00028
         Shared: 9.09117
+      eu-west-2:
+        Dedicated: 11.37165
+        Shared: 10.33786
       us-east-1:
         Dedicated: 8.9584
         Shared: 8.144
@@ -38009,9 +38509,24 @@ g5.24xlarge:
         Dedicated: 8.9584
         Shared: 8.144
     RHEL:
+      ap-northeast-1:
+        Dedicated: 13.12235
+        Shared: 11.94123
+      ap-south-1:
+        Dedicated: 10.8872
+        Shared: 9.90928
+      ca-central-1:
+        Dedicated: 10.07685
+        Shared: 9.17259
+      eu-central-1:
+        Dedicated: 11.33245
+        Shared: 10.31405
       eu-west-1:
         Dedicated: 10.13028
         Shared: 9.22117
+      eu-west-2:
+        Dedicated: 11.50165
+        Shared: 10.46786
       us-east-1:
         Dedicated: 9.0884
         Shared: 8.274
@@ -38019,9 +38534,24 @@ g5.24xlarge:
         Dedicated: 9.0884
         Shared: 8.274
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 13.15735
+        Shared: 11.97623
+      ap-south-1:
+        Dedicated: 10.9222
+        Shared: 9.94428
+      ca-central-1:
+        Dedicated: 10.11185
+        Shared: 9.20759
+      eu-central-1:
+        Dedicated: 11.36745
+        Shared: 10.34905
       eu-west-1:
         Dedicated: 10.16528
         Shared: 9.25617
+      eu-west-2:
+        Dedicated: 11.53665
+        Shared: 10.50286
       us-east-1:
         Dedicated: 9.1234
         Shared: 8.309
@@ -38029,9 +38559,24 @@ g5.24xlarge:
         Dedicated: 9.1234
         Shared: 8.309
     SUSE:
+      ap-northeast-1:
+        Dedicated: 13.11735
+        Shared: 11.93623
+      ap-south-1:
+        Dedicated: 10.8822
+        Shared: 9.90428
+      ca-central-1:
+        Dedicated: 10.07185
+        Shared: 9.16759
+      eu-central-1:
+        Dedicated: 11.32745
+        Shared: 10.30905
       eu-west-1:
         Dedicated: 10.12528
         Shared: 9.21617
+      eu-west-2:
+        Dedicated: 11.49665
+        Shared: 10.46286
       us-east-1:
         Dedicated: 9.0834
         Shared: 8.269
@@ -38039,9 +38584,24 @@ g5.24xlarge:
         Dedicated: 9.0834
         Shared: 8.269
     Windows:
+      ap-northeast-1:
+        Dedicated: 17.40835
+        Shared: 16.22723
+      ap-south-1:
+        Dedicated: 15.1732
+        Shared: 14.19528
+      ca-central-1:
+        Dedicated: 14.36285
+        Shared: 9.04259
+      eu-central-1:
+        Dedicated: 15.61845
+        Shared: 10.18405
       eu-west-1:
         Dedicated: 10.00028
         Shared: 9.09117
+      eu-west-2:
+        Dedicated: 11.37165
+        Shared: 14.75386
       us-east-1:
         Dedicated: 13.3744
         Shared: 12.56
@@ -38049,9 +38609,14 @@ g5.24xlarge:
         Dedicated: 13.3744
         Shared: 8.144
   regions:
+    - ap-northeast-1
+    - ca-central-1
     - us-west-2
+    - ap-south-1
+    - eu-central-1
     - us-east-1
     - eu-west-1
+    - eu-west-2
   storage: 1 x 3800 GB NVMe SSD
   vcpu: 96
 g5.2xlarge:
@@ -38066,9 +38631,24 @@ g5.2xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.93354
+        Shared: 1.75776
+      ap-south-1:
+        Dedicated: 1.6009
+        Shared: 1.45536
+      ca-central-1:
+        Dedicated: 1.4803
+        Shared: 1.34573
+      eu-central-1:
+        Dedicated: 1.66716
+        Shared: 1.5156
       eu-west-1:
         Dedicated: 1.48825
         Shared: 1.35296
+      eu-west-2:
+        Dedicated: 1.69234
+        Shared: 1.53849
       us-east-1:
         Dedicated: 1.3332
         Shared: 1.212
@@ -38076,9 +38656,24 @@ g5.2xlarge:
         Dedicated: 1.3332
         Shared: 1.212
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.06354
+        Shared: 1.88776
+      ap-south-1:
+        Dedicated: 1.7309
+        Shared: 1.58536
+      ca-central-1:
+        Dedicated: 1.6103
+        Shared: 1.47573
+      eu-central-1:
+        Dedicated: 1.79716
+        Shared: 1.6456
       eu-west-1:
         Dedicated: 1.61825
         Shared: 1.48296
+      eu-west-2:
+        Dedicated: 1.82234
+        Shared: 1.66849
       us-east-1:
         Dedicated: 1.4632
         Shared: 1.342
@@ -38086,9 +38681,24 @@ g5.2xlarge:
         Dedicated: 1.4632
         Shared: 1.342
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 2.09854
+        Shared: 1.92276
+      ap-south-1:
+        Dedicated: 1.7659
+        Shared: 1.62036
+      ca-central-1:
+        Dedicated: 1.6453
+        Shared: 1.51073
+      eu-central-1:
+        Dedicated: 1.83216
+        Shared: 1.6806
       eu-west-1:
         Dedicated: 1.65325
         Shared: 1.51796
+      eu-west-2:
+        Dedicated: 1.85734
+        Shared: 1.70349
       us-east-1:
         Dedicated: 1.4982
         Shared: 1.377
@@ -38096,9 +38706,24 @@ g5.2xlarge:
         Dedicated: 1.4982
         Shared: 1.377
     SUSE:
+      ap-northeast-1:
+        Dedicated: 2.05854
+        Shared: 1.88276
+      ap-south-1:
+        Dedicated: 1.7259
+        Shared: 1.58036
+      ca-central-1:
+        Dedicated: 1.6053
+        Shared: 1.47073
+      eu-central-1:
+        Dedicated: 1.79216
+        Shared: 1.6406
       eu-west-1:
         Dedicated: 1.61325
         Shared: 1.47796
+      eu-west-2:
+        Dedicated: 1.81734
+        Shared: 1.66349
       us-east-1:
         Dedicated: 1.4582
         Shared: 1.337
@@ -38106,9 +38731,24 @@ g5.2xlarge:
         Dedicated: 1.4582
         Shared: 1.337
     Windows:
+      ap-northeast-1:
+        Dedicated: 2.30154
+        Shared: 2.12576
+      ap-south-1:
+        Dedicated: 1.9689
+        Shared: 1.82336
+      ca-central-1:
+        Dedicated: 1.8483
+        Shared: 1.71373
+      eu-central-1:
+        Dedicated: 1.66716
+        Shared: 1.5156
       eu-west-1:
         Dedicated: 1.85625
         Shared: 1.35296
+      eu-west-2:
+        Dedicated: 2.06034
+        Shared: 1.53849
       us-east-1:
         Dedicated: 1.3332
         Shared: 1.58
@@ -38116,9 +38756,14 @@ g5.2xlarge:
         Dedicated: 1.3332
         Shared: 1.58
   regions:
+    - ap-south-1
     - us-west-2
+    - eu-west-2
+    - eu-central-1
+    - ca-central-1
     - us-east-1
     - eu-west-1
+    - ap-northeast-1
   storage: 1 x 450 GB NVMe SSD
   vcpu: 8
 g5.48xlarge:
@@ -38133,9 +38778,24 @@ g5.48xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 23.62246
+        Shared: 23.62246
+      ap-south-1:
+        Dedicated: 19.55855
+        Shared: 19.55855
+      ca-central-1:
+        Dedicated: 18.08518
+        Shared: 18.08518
+      eu-central-1:
+        Dedicated: 20.3681
+        Shared: 20.3681
       eu-west-1:
         Dedicated: 20.00056
         Shared: 18.18233
+      eu-west-2:
+        Dedicated: 20.67572
+        Shared: 20.67572
       us-east-1:
         Dedicated: 17.9168
         Shared: 16.288
@@ -38143,9 +38803,24 @@ g5.48xlarge:
         Dedicated: 17.9168
         Shared: 16.288
     RHEL:
+      ap-northeast-1:
+        Dedicated: 23.75246
+        Shared: 23.75246
+      ap-south-1:
+        Dedicated: 19.68855
+        Shared: 19.68855
+      ca-central-1:
+        Dedicated: 18.21518
+        Shared: 18.21518
+      eu-central-1:
+        Dedicated: 20.4981
+        Shared: 20.4981
       eu-west-1:
         Dedicated: 20.13056
         Shared: 18.31233
+      eu-west-2:
+        Dedicated: 20.80572
+        Shared: 20.80572
       us-east-1:
         Dedicated: 18.0468
         Shared: 16.418
@@ -38153,9 +38828,24 @@ g5.48xlarge:
         Dedicated: 18.0468
         Shared: 16.418
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 23.78746
+        Shared: 23.78746
+      ap-south-1:
+        Dedicated: 19.72355
+        Shared: 19.72355
+      ca-central-1:
+        Dedicated: 18.25018
+        Shared: 18.25018
+      eu-central-1:
+        Dedicated: 20.5331
+        Shared: 20.5331
       eu-west-1:
         Dedicated: 20.16556
         Shared: 18.34733
+      eu-west-2:
+        Dedicated: 20.84072
+        Shared: 20.84072
       us-east-1:
         Dedicated: 18.0818
         Shared: 16.453
@@ -38163,9 +38853,24 @@ g5.48xlarge:
         Dedicated: 18.0818
         Shared: 16.453
     SUSE:
+      ap-northeast-1:
+        Dedicated: 23.74746
+        Shared: 23.74746
+      ap-south-1:
+        Dedicated: 19.68355
+        Shared: 19.68355
+      ca-central-1:
+        Dedicated: 18.21018
+        Shared: 18.21018
+      eu-central-1:
+        Dedicated: 20.4931
+        Shared: 20.4931
       eu-west-1:
         Dedicated: 18.30733
         Shared: 18.30733
+      eu-west-2:
+        Dedicated: 20.80072
+        Shared: 20.80072
       us-east-1:
         Dedicated: 16.413
         Shared: 16.413
@@ -38173,9 +38878,24 @@ g5.48xlarge:
         Dedicated: 16.413
         Shared: 16.413
     Windows:
+      ap-northeast-1:
+        Dedicated: 32.45446
+        Shared: 32.45446
+      ap-south-1:
+        Dedicated: 19.55855
+        Shared: 28.39055
+      ca-central-1:
+        Dedicated: 26.91718
+        Shared: 18.08518
+      eu-central-1:
+        Dedicated: 29.2001
+        Shared: 20.3681
       eu-west-1:
         Dedicated: 28.83256
         Shared: 18.18233
+      eu-west-2:
+        Dedicated: 29.50772
+        Shared: 20.67572
       us-east-1:
         Dedicated: 17.9168
         Shared: 25.12
@@ -38183,6 +38903,11 @@ g5.48xlarge:
         Dedicated: 17.9168
         Shared: 25.12
   regions:
+    - eu-central-1
+    - eu-west-2
+    - ap-south-1
+    - ap-northeast-1
+    - ca-central-1
     - us-east-1
     - eu-west-1
     - us-west-2
@@ -38200,9 +38925,24 @@ g5.4xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 2.59081
+        Shared: 2.35528
+      ap-south-1:
+        Dedicated: 2.1451
+        Shared: 1.95009
+      ca-central-1:
+        Dedicated: 1.98351
+        Shared: 1.80319
+      eu-central-1:
+        Dedicated: 2.23389
+        Shared: 2.03081
       eu-west-1:
         Dedicated: 1.99416
         Shared: 1.81287
+      eu-west-2:
+        Dedicated: 2.26763
+        Shared: 2.06148
       us-east-1:
         Dedicated: 1.7864
         Shared: 1.624
@@ -38210,9 +38950,24 @@ g5.4xlarge:
         Dedicated: 1.7864
         Shared: 1.624
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.72081
+        Shared: 2.48528
+      ap-south-1:
+        Dedicated: 2.2751
+        Shared: 2.08009
+      ca-central-1:
+        Dedicated: 2.11351
+        Shared: 1.93319
+      eu-central-1:
+        Dedicated: 2.36389
+        Shared: 2.16081
       eu-west-1:
         Dedicated: 2.12416
         Shared: 1.94287
+      eu-west-2:
+        Dedicated: 2.39763
+        Shared: 2.19148
       us-east-1:
         Dedicated: 1.9164
         Shared: 1.754
@@ -38220,9 +38975,24 @@ g5.4xlarge:
         Dedicated: 1.9164
         Shared: 1.754
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 2.75581
+        Shared: 2.52028
+      ap-south-1:
+        Dedicated: 2.3101
+        Shared: 2.11509
+      ca-central-1:
+        Dedicated: 2.14851
+        Shared: 1.96819
+      eu-central-1:
+        Dedicated: 2.39889
+        Shared: 2.19581
       eu-west-1:
         Dedicated: 2.15916
         Shared: 1.97787
+      eu-west-2:
+        Dedicated: 2.43263
+        Shared: 2.22648
       us-east-1:
         Dedicated: 1.9514
         Shared: 1.789
@@ -38230,9 +39000,24 @@ g5.4xlarge:
         Dedicated: 1.9514
         Shared: 1.789
     SUSE:
+      ap-northeast-1:
+        Dedicated: 2.71581
+        Shared: 2.48028
+      ap-south-1:
+        Dedicated: 2.2701
+        Shared: 2.07509
+      ca-central-1:
+        Dedicated: 2.10851
+        Shared: 1.92819
+      eu-central-1:
+        Dedicated: 2.35889
+        Shared: 2.15581
       eu-west-1:
         Dedicated: 2.11916
         Shared: 1.93787
+      eu-west-2:
+        Dedicated: 2.39263
+        Shared: 2.18648
       us-east-1:
         Dedicated: 1.9114
         Shared: 1.749
@@ -38240,9 +39025,24 @@ g5.4xlarge:
         Dedicated: 1.9114
         Shared: 1.749
     Windows:
+      ap-northeast-1:
+        Dedicated: 2.59081
+        Shared: 3.09128
+      ap-south-1:
+        Dedicated: 2.8811
+        Shared: 1.95009
+      ca-central-1:
+        Dedicated: 1.98351
+        Shared: 1.80319
+      eu-central-1:
+        Dedicated: 2.96989
+        Shared: 2.03081
       eu-west-1:
         Dedicated: 2.73016
         Shared: 1.81287
+      eu-west-2:
+        Dedicated: 2.26763
+        Shared: 2.79748
       us-east-1:
         Dedicated: 2.5224
         Shared: 1.624
@@ -38250,8 +39050,13 @@ g5.4xlarge:
         Dedicated: 2.5224
         Shared: 2.36
   regions:
+    - ap-northeast-1
+    - ap-south-1
+    - eu-central-1
     - eu-west-1
+    - eu-west-2
     - us-east-1
+    - ca-central-1
     - us-west-2
   storage: 1 x 600 GB NVMe SSD
   vcpu: 16
@@ -38267,9 +39072,24 @@ g5.8xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 3.90536
+        Shared: 3.55033
+      ap-south-1:
+        Dedicated: 3.2335
+        Shared: 2.93955
+      ca-central-1:
+        Dedicated: 2.98992
+        Shared: 2.71811
+      eu-central-1:
+        Dedicated: 3.36734
+        Shared: 3.06122
       eu-west-1:
         Dedicated: 3.00598
         Shared: 2.73271
+      eu-west-2:
+        Dedicated: 3.4182
+        Shared: 3.10745
       us-east-1:
         Dedicated: 2.6928
         Shared: 2.448
@@ -38277,9 +39097,24 @@ g5.8xlarge:
         Dedicated: 2.6928
         Shared: 2.448
     RHEL:
+      ap-northeast-1:
+        Dedicated: 4.03536
+        Shared: 3.68033
+      ap-south-1:
+        Dedicated: 3.3635
+        Shared: 3.06955
+      ca-central-1:
+        Dedicated: 3.11992
+        Shared: 2.84811
+      eu-central-1:
+        Dedicated: 3.49734
+        Shared: 3.19122
       eu-west-1:
         Dedicated: 3.13598
         Shared: 2.86271
+      eu-west-2:
+        Dedicated: 3.5482
+        Shared: 3.23745
       us-east-1:
         Dedicated: 2.8228
         Shared: 2.578
@@ -38287,9 +39122,24 @@ g5.8xlarge:
         Dedicated: 2.8228
         Shared: 2.578
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 4.07036
+        Shared: 3.71533
+      ap-south-1:
+        Dedicated: 3.3985
+        Shared: 3.10455
+      ca-central-1:
+        Dedicated: 3.15492
+        Shared: 2.88311
+      eu-central-1:
+        Dedicated: 3.53234
+        Shared: 3.22622
       eu-west-1:
         Dedicated: 3.17098
         Shared: 2.89771
+      eu-west-2:
+        Dedicated: 3.5832
+        Shared: 3.27245
       us-east-1:
         Dedicated: 2.8578
         Shared: 2.613
@@ -38297,9 +39147,24 @@ g5.8xlarge:
         Dedicated: 2.8578
         Shared: 2.613
     SUSE:
+      ap-northeast-1:
+        Dedicated: 4.03036
+        Shared: 3.67533
+      ap-south-1:
+        Dedicated: 3.3585
+        Shared: 3.06455
+      ca-central-1:
+        Dedicated: 3.11492
+        Shared: 2.84311
+      eu-central-1:
+        Dedicated: 3.49234
+        Shared: 3.18622
       eu-west-1:
         Dedicated: 3.13098
         Shared: 2.85771
+      eu-west-2:
+        Dedicated: 3.5432
+        Shared: 3.23245
       us-east-1:
         Dedicated: 2.8178
         Shared: 2.573
@@ -38307,9 +39172,24 @@ g5.8xlarge:
         Dedicated: 2.8178
         Shared: 2.573
     Windows:
+      ap-northeast-1:
+        Dedicated: 3.90536
+        Shared: 3.55033
+      ap-south-1:
+        Dedicated: 3.2335
+        Shared: 4.41155
+      ca-central-1:
+        Dedicated: 2.98992
+        Shared: 2.71811
+      eu-central-1:
+        Dedicated: 3.36734
+        Shared: 3.06122
       eu-west-1:
         Dedicated: 3.00598
         Shared: 4.20471
+      eu-west-2:
+        Dedicated: 3.4182
+        Shared: 4.57945
       us-east-1:
         Dedicated: 2.6928
         Shared: 3.92
@@ -38317,7 +39197,12 @@ g5.8xlarge:
         Dedicated: 4.1648
         Shared: 3.92
   regions:
+    - ap-northeast-1
     - us-west-2
+    - eu-west-2
+    - ap-south-1
+    - eu-central-1
+    - ca-central-1
     - us-east-1
     - eu-west-1
   storage: 1 x 900 GB NVMe SSD
@@ -38334,9 +39219,24 @@ g5.xlarge:
   physicalProcessor: AMD EPYC 7R32
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.6049
+        Shared: 1.459
+      ap-south-1:
+        Dedicated: 1.3288
+        Shared: 1.208
+      ca-central-1:
+        Dedicated: 1.2287
+        Shared: 1.117
+      eu-central-1:
+        Dedicated: 1.3838
+        Shared: 1.258
       eu-west-1:
         Dedicated: 1.2353
         Shared: 1.123
+      eu-west-2:
+        Dedicated: 1.4047
+        Shared: 1.277
       us-east-1:
         Dedicated: 1.1066
         Shared: 1.006
@@ -38344,9 +39244,24 @@ g5.xlarge:
         Dedicated: 1.1066
         Shared: 1.006
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.6649
+        Shared: 1.519
+      ap-south-1:
+        Dedicated: 1.3888
+        Shared: 1.268
+      ca-central-1:
+        Dedicated: 1.2887
+        Shared: 1.177
+      eu-central-1:
+        Dedicated: 1.4438
+        Shared: 1.318
       eu-west-1:
         Dedicated: 1.2953
         Shared: 1.183
+      eu-west-2:
+        Dedicated: 1.4647
+        Shared: 1.337
       us-east-1:
         Dedicated: 1.1666
         Shared: 1.066
@@ -38354,9 +39269,24 @@ g5.xlarge:
         Dedicated: 1.1666
         Shared: 1.066
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 1.6999
+        Shared: 1.554
+      ap-south-1:
+        Dedicated: 1.4238
+        Shared: 1.303
+      ca-central-1:
+        Dedicated: 1.3237
+        Shared: 1.212
+      eu-central-1:
+        Dedicated: 1.4788
+        Shared: 1.353
       eu-west-1:
         Dedicated: 1.3303
         Shared: 1.218
+      eu-west-2:
+        Dedicated: 1.4997
+        Shared: 1.372
       us-east-1:
         Dedicated: 1.2016
         Shared: 1.101
@@ -38364,9 +39294,24 @@ g5.xlarge:
         Dedicated: 1.2016
         Shared: 1.101
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.6612
+        Shared: 1.5153
+      ap-south-1:
+        Dedicated: 1.3851
+        Shared: 1.2643
+      ca-central-1:
+        Dedicated: 1.285
+        Shared: 1.1733
+      eu-central-1:
+        Dedicated: 1.4401
+        Shared: 1.3143
       eu-west-1:
         Dedicated: 1.2916
         Shared: 1.1793
+      eu-west-2:
+        Dedicated: 1.461
+        Shared: 1.3333
       us-east-1:
         Dedicated: 1.1629
         Shared: 1.0623
@@ -38374,9 +39319,24 @@ g5.xlarge:
         Dedicated: 1.1629
         Shared: 1.0623
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.6049
+        Shared: 1.643
+      ap-south-1:
+        Dedicated: 1.3288
+        Shared: 1.208
+      ca-central-1:
+        Dedicated: 1.2287
+        Shared: 1.301
+      eu-central-1:
+        Dedicated: 1.3838
+        Shared: 1.442
       eu-west-1:
         Dedicated: 1.4193
         Shared: 1.307
+      eu-west-2:
+        Dedicated: 1.5887
+        Shared: 1.277
       us-east-1:
         Dedicated: 1.1066
         Shared: 1.19
@@ -38384,8 +39344,13 @@ g5.xlarge:
         Dedicated: 1.2906
         Shared: 1.19
   regions:
+    - ca-central-1
+    - ap-northeast-1
     - eu-west-1
     - us-west-2
+    - eu-west-2
+    - ap-south-1
+    - eu-central-1
     - us-east-1
   storage: 1 x 250 GB NVMe SSD
   vcpu: 4
