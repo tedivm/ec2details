@@ -11625,12 +11625,6 @@ c5d.12xlarge:
       sa-east-1:
         Dedicated: 3.818
         Shared: 3.576
-      US East (Boston):
-        Dedicated: 3.053
-        Shared: 2.88
-      US East (Houston):
-        Dedicated: 3.053
-        Shared: 2.88
       us-east-1:
         Dedicated: 2.442
         Shared: 2.304
@@ -11695,12 +11689,6 @@ c5d.12xlarge:
       sa-east-1:
         Dedicated: 3.948
         Shared: 3.706
-      US East (Boston):
-        Dedicated: 3.183
-        Shared: 3.01
-      US East (Houston):
-        Dedicated: 3.183
-        Shared: 3.01
       us-east-1:
         Dedicated: 2.572
         Shared: 2.434
@@ -11829,12 +11817,6 @@ c5d.12xlarge:
       sa-east-1:
         Dedicated: 3.916
         Shared: 3.676
-      US East (Boston):
-        Dedicated: 3.153
-        Shared: 2.98
-      US East (Houston):
-        Dedicated: 3.153
-        Shared: 2.98
       us-east-1:
         Dedicated: 2.542
         Shared: 2.404
@@ -11899,12 +11881,6 @@ c5d.12xlarge:
       sa-east-1:
         Dedicated: 6.026
         Shared: 5.784
-      US East (Boston):
-        Dedicated: 5.261
-        Shared: 5.088
-      US East (Houston):
-        Dedicated: 5.261
-        Shared: 5.088
       us-east-1:
         Dedicated: 4.65
         Shared: 4.512
@@ -11941,10 +11917,10 @@ c5d.12xlarge:
     - us-west-2
     - Asia Pacific (Osaka)
     - ap-southeast-3
-    - US East (Houston)
     - us-west-1
     - eu-central-1
     - US East (Miami)
+    - US East (Houston)
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 c5d.18xlarge:
@@ -34803,9 +34779,6 @@ g4dn.12xlarge:
       sa-east-1:
         Dedicated: 7.081
         Shared: 6.649
-      US East (Houston):
-        Dedicated: 5.598
-        Shared: 5.281
       us-east-1:
         Dedicated: 4.147
         Shared: 3.912
@@ -34879,9 +34852,6 @@ g4dn.12xlarge:
       sa-east-1:
         Dedicated: 7.211
         Shared: 6.779
-      US East (Houston):
-        Dedicated: 5.728
-        Shared: 5.411
       us-east-1:
         Dedicated: 4.277
         Shared: 4.042
@@ -35028,9 +34998,6 @@ g4dn.12xlarge:
       sa-east-1:
         Dedicated: 7.206
         Shared: 6.774
-      US East (Houston):
-        Dedicated: 5.723
-        Shared: 5.406
       us-east-1:
         Dedicated: 4.272
         Shared: 4.037
@@ -35104,9 +35071,6 @@ g4dn.12xlarge:
       sa-east-1:
         Dedicated: 9.289
         Shared: 8.857
-      US East (Houston):
-        Dedicated: 7.806
-        Shared: 7.489
       us-east-1:
         Dedicated: 6.355
         Shared: 6.12
@@ -35147,13 +35111,13 @@ g4dn.12xlarge:
     - eu-north-1
     - eu-west-2
     - us-east-2
-    - US East (Houston)
     - us-east-1
     - us-west-2
     - us-gov-east-1
     - ap-northeast-1
     - ap-east-1
     - ap-south-1
+    - US East (Houston)
   storage: 900 GB NVMe SSD
   vcpu: 48
 g4dn.16xlarge:
@@ -36570,15 +36534,6 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.179
         Shared: 2.046
-      US East (Boston):
-        Dedicated: 1.723
-        Shared: 1.625
-      US East (Houston):
-        Dedicated: 1.723
-        Shared: 1.625
-      US East (Miami):
-        Dedicated: 1.723
-        Shared: 1.625
       us-east-1:
         Dedicated: 1.276
         Shared: 1.204
@@ -36652,15 +36607,6 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.309
         Shared: 2.176
-      US East (Boston):
-        Dedicated: 1.853
-        Shared: 1.755
-      US East (Houston):
-        Dedicated: 1.853
-        Shared: 1.755
-      US East (Miami):
-        Dedicated: 1.853
-        Shared: 1.755
       us-east-1:
         Dedicated: 1.406
         Shared: 1.334
@@ -36807,15 +36753,6 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.304
         Shared: 2.171
-      US East (Boston):
-        Dedicated: 1.848
-        Shared: 1.75
-      US East (Houston):
-        Dedicated: 1.848
-        Shared: 1.75
-      US East (Miami):
-        Dedicated: 1.848
-        Shared: 1.75
       us-east-1:
         Dedicated: 1.401
         Shared: 1.329
@@ -36889,15 +36826,6 @@ g4dn.4xlarge:
       sa-east-1:
         Dedicated: 2.915
         Shared: 2.782
-      US East (Boston):
-        Dedicated: 1.723
-        Shared: 1.625
-      US East (Houston):
-        Dedicated: 1.723
-        Shared: 2.361
-      US East (Miami):
-        Dedicated: 2.459
-        Shared: 1.625
       us-east-1:
         Dedicated: 2.012
         Shared: 1.94
@@ -36920,15 +36848,12 @@ g4dn.4xlarge:
         Dedicated: 2.278
         Shared: 2.181
   regions:
-    - US East (Miami)
     - ca-central-1
     - eu-west-3
     - us-east-2
-    - US East (Boston)
     - Asia Pacific (Osaka)
     - ap-east-1
     - us-east-1
-    - US East (Houston)
     - us-gov-west-1
     - eu-central-1
     - ap-south-1
@@ -36947,6 +36872,9 @@ g4dn.4xlarge:
     - af-south-1
     - sa-east-1
     - ap-northeast-2
+    - US East (Houston)
+    - US East (Miami)
+    - US East (Boston)
   storage: 225 GB NVMe SSD
   vcpu: 16
 g4dn.8xlarge:
@@ -37011,15 +36939,6 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 3.939
         Shared: 3.698
-      US East (Boston):
-        Dedicated: 3.114
-        Shared: 2.938
-      US East (Houston):
-        Dedicated: 3.114
-        Shared: 2.938
-      US East (Miami):
-        Dedicated: 3.114
-        Shared: 2.938
       us-east-1:
         Dedicated: 2.307
         Shared: 2.176
@@ -37093,15 +37012,6 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 4.069
         Shared: 3.828
-      US East (Boston):
-        Dedicated: 3.244
-        Shared: 3.068
-      US East (Houston):
-        Dedicated: 3.244
-        Shared: 3.068
-      US East (Miami):
-        Dedicated: 3.244
-        Shared: 3.068
       us-east-1:
         Dedicated: 2.437
         Shared: 2.306
@@ -37248,15 +37158,6 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 4.064
         Shared: 3.823
-      US East (Boston):
-        Dedicated: 3.239
-        Shared: 3.063
-      US East (Houston):
-        Dedicated: 3.239
-        Shared: 3.063
-      US East (Miami):
-        Dedicated: 3.239
-        Shared: 3.063
       us-east-1:
         Dedicated: 2.432
         Shared: 2.301
@@ -37330,15 +37231,6 @@ g4dn.8xlarge:
       sa-east-1:
         Dedicated: 5.411
         Shared: 5.17
-      US East (Boston):
-        Dedicated: 4.586
-        Shared: 2.938
-      US East (Houston):
-        Dedicated: 4.586
-        Shared: 4.41
-      US East (Miami):
-        Dedicated: 3.114
-        Shared: 2.938
       us-east-1:
         Dedicated: 3.779
         Shared: 3.648
@@ -37370,7 +37262,6 @@ g4dn.8xlarge:
     - ca-central-1
     - us-west-2
     - ap-northeast-2
-    - US East (Miami)
     - us-gov-west-1
     - eu-west-2
     - US East (Houston)
@@ -37379,7 +37270,6 @@ g4dn.8xlarge:
     - eu-south-1
     - sa-east-1
     - af-south-1
-    - US East (Boston)
     - us-east-1
     - ap-southeast-1
     - eu-west-1
@@ -37388,6 +37278,8 @@ g4dn.8xlarge:
     - ap-southeast-2
     - us-east-2
     - eu-west-3
+    - US East (Miami)
+    - US East (Boston)
   storage: 900 GB NVMe SSD
   vcpu: 32
 g4dn.metal:
@@ -43657,7 +43549,7 @@ i3.metal:
     - us-east-2
     - ap-northeast-1
   storage: 8 x 1900 NVMe SSD
-  vcpu: 64
+  vcpu: 72
 i3.xlarge:
   clockSpeed: 2.3 GHz
   currentGeneration: true
@@ -94603,9 +94495,6 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 5.803
         Shared: 5.472
-      US East (Miami):
-        Dedicated: 4.579
-        Shared: 4.32
       us-east-1:
         Dedicated: 3.664
         Shared: 3.456
@@ -94682,9 +94571,6 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 5.933
         Shared: 5.602
-      US East (Miami):
-        Dedicated: 4.709
-        Shared: 4.45
       us-east-1:
         Dedicated: 3.794
         Shared: 3.586
@@ -94837,9 +94723,6 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 5.925
         Shared: 5.597
-      US East (Miami):
-        Dedicated: 4.704
-        Shared: 4.445
       us-east-1:
         Dedicated: 3.788
         Shared: 3.581
@@ -94916,9 +94799,6 @@ r5d.12xlarge:
       sa-east-1:
         Dedicated: 8.011
         Shared: 7.68
-      US East (Miami):
-        Dedicated: 4.579
-        Shared: 6.528
       us-east-1:
         Dedicated: 5.872
         Shared: 3.456
@@ -94964,9 +94844,9 @@ r5d.12xlarge:
     - ap-southeast-1
     - Asia Pacific (Osaka)
     - eu-south-1
-    - US East (Miami)
     - us-east-2
     - us-gov-west-1
+    - US East (Miami)
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 r5d.16xlarge:
@@ -95035,9 +94915,6 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 7.738
         Shared: 7.296
-      US East (Miami):
-        Dedicated: 6.106
-        Shared: 5.76
       us-east-1:
         Dedicated: 4.885
         Shared: 4.608
@@ -95114,9 +94991,6 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 7.868
         Shared: 7.426
-      US East (Miami):
-        Dedicated: 6.236
-        Shared: 5.89
       us-east-1:
         Dedicated: 5.015
         Shared: 4.738
@@ -95269,9 +95143,6 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 7.859
         Shared: 7.421
-      US East (Miami):
-        Dedicated: 6.231
-        Shared: 5.885
       us-east-1:
         Dedicated: 5.009
         Shared: 4.733
@@ -95348,9 +95219,6 @@ r5d.16xlarge:
       sa-east-1:
         Dedicated: 10.682
         Shared: 10.24
-      US East (Miami):
-        Dedicated: 9.05
-        Shared: 8.704
       us-east-1:
         Dedicated: 7.829
         Shared: 7.552
@@ -95375,7 +95243,6 @@ r5d.16xlarge:
   regions:
     - eu-central-1
     - ap-southeast-3
-    - US East (Miami)
     - me-south-1
     - us-gov-west-1
     - ap-southeast-1
@@ -95399,6 +95266,7 @@ r5d.16xlarge:
     - us-east-2
     - eu-west-3
     - ca-central-1
+    - US East (Miami)
   storage: 4 x 600 NVMe SSD
   vcpu: 64
 r5d.24xlarge:
@@ -95467,9 +95335,6 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 10.944
         Shared: 10.944
-      US East (Miami):
-        Dedicated: 8.64
-        Shared: 8.64
       us-east-1:
         Dedicated: 6.912
         Shared: 6.912
@@ -95546,9 +95411,6 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 11.074
         Shared: 11.074
-      US East (Miami):
-        Dedicated: 8.77
-        Shared: 8.77
       us-east-1:
         Dedicated: 7.042
         Shared: 7.042
@@ -95701,9 +95563,6 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 11.069
         Shared: 11.069
-      US East (Miami):
-        Dedicated: 8.765
-        Shared: 8.765
       us-east-1:
         Dedicated: 7.037
         Shared: 7.037
@@ -95780,9 +95639,6 @@ r5d.24xlarge:
       sa-east-1:
         Dedicated: 15.36
         Shared: 15.36
-      US East (Miami):
-        Dedicated: 13.056
-        Shared: 13.056
       us-east-1:
         Dedicated: 11.328
         Shared: 6.912
@@ -95820,7 +95676,6 @@ r5d.24xlarge:
     - ap-south-1
     - ap-northeast-2
     - us-gov-east-1
-    - US East (Miami)
     - sa-east-1
     - ap-southeast-2
     - eu-west-3
@@ -95831,6 +95686,7 @@ r5d.24xlarge:
     - eu-west-2
     - ca-central-1
     - Asia Pacific (Osaka)
+    - US East (Miami)
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5d.2xlarge:
@@ -96558,9 +96414,6 @@ r5d.4xlarge:
       sa-east-1:
         Dedicated: 1.934
         Shared: 1.824
-      US East (Miami):
-        Dedicated: 1.526
-        Shared: 1.44
       us-east-1:
         Dedicated: 1.221
         Shared: 1.152
@@ -96637,9 +96490,6 @@ r5d.4xlarge:
       sa-east-1:
         Dedicated: 2.064
         Shared: 1.954
-      US East (Miami):
-        Dedicated: 1.656
-        Shared: 1.57
       us-east-1:
         Dedicated: 1.351
         Shared: 1.282
@@ -96792,9 +96642,6 @@ r5d.4xlarge:
       sa-east-1:
         Dedicated: 2.058
         Shared: 1.949
-      US East (Miami):
-        Dedicated: 1.651
-        Shared: 1.565
       us-east-1:
         Dedicated: 1.346
         Shared: 1.277
@@ -96871,9 +96718,6 @@ r5d.4xlarge:
       sa-east-1:
         Dedicated: 2.67
         Shared: 2.56
-      US East (Miami):
-        Dedicated: 1.526
-        Shared: 1.44
       us-east-1:
         Dedicated: 1.221
         Shared: 1.888
@@ -96903,7 +96747,6 @@ r5d.4xlarge:
     - ap-northeast-2
     - us-gov-east-1
     - ca-central-1
-    - US East (Miami)
     - us-west-1
     - eu-west-1
     - ap-northeast-1
@@ -96922,6 +96765,7 @@ r5d.4xlarge:
     - ap-southeast-1
     - eu-west-2
     - ap-south-1
+    - US East (Miami)
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 r5d.8xlarge:
@@ -103964,6 +103808,1260 @@ r5n.xlarge:
     - ap-southeast-1
     - eu-north-1
     - us-west-1
+  storage: EBS only
+  vcpu: 4
+r6a.12xlarge:
+  clockSpeed: 2.95 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 10000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 384 GiB
+  networkPerformance: 18750 Megabit
+  normalizationSizeFactor: 96
+  physicalProcessor: AMD EPYC 7R13 Processor
+  prices:
+    Linux:
+      ap-south-1:
+        Dedicated: 1.8876
+        Shared: 1.716
+      eu-central-1:
+        Dedicated: 3.61152
+        Shared: 3.2832
+      eu-west-1:
+        Dedicated: 3.35016
+        Shared: 3.0456
+      us-east-1:
+        Dedicated: 2.99376
+        Shared: 2.7216
+      us-east-2:
+        Dedicated: 2.99376
+        Shared: 2.7216
+      us-west-2:
+        Dedicated: 2.99376
+        Shared: 2.7216
+    RHEL:
+      ap-south-1:
+        Dedicated: 2.0176
+        Shared: 1.846
+      eu-central-1:
+        Dedicated: 3.74152
+        Shared: 3.4132
+      eu-west-1:
+        Dedicated: 3.48016
+        Shared: 3.1756
+      us-east-1:
+        Dedicated: 3.12376
+        Shared: 2.8516
+      us-east-2:
+        Dedicated: 3.12376
+        Shared: 2.8516
+      us-west-2:
+        Dedicated: 3.12376
+        Shared: 2.8516
+    RHEL_HA:
+      ap-south-1:
+        Dedicated: 2.0526
+        Shared: 1.881
+      eu-central-1:
+        Dedicated: 3.77652
+        Shared: 3.4482
+      eu-west-1:
+        Dedicated: 3.51516
+        Shared: 3.2106
+      us-east-1:
+        Dedicated: 3.15876
+        Shared: 2.8866
+      us-east-2:
+        Dedicated: 3.15876
+        Shared: 2.8866
+      us-west-2:
+        Dedicated: 3.15876
+        Shared: 2.8866
+    SUSE:
+      ap-south-1:
+        Dedicated: 2.0126
+        Shared: 1.841
+      eu-central-1:
+        Dedicated: 3.73652
+        Shared: 3.4082
+      eu-west-1:
+        Dedicated: 3.47516
+        Shared: 3.1706
+      us-east-1:
+        Dedicated: 3.11876
+        Shared: 2.8466
+      us-east-2:
+        Dedicated: 3.11876
+        Shared: 2.8466
+      us-west-2:
+        Dedicated: 3.11876
+        Shared: 2.8466
+    Windows:
+      ap-south-1:
+        Dedicated: 1.8876
+        Shared: 3.924
+      eu-central-1:
+        Dedicated: 3.61152
+        Shared: 3.2832
+      eu-west-1:
+        Dedicated: 5.55816
+        Shared: 3.0456
+      us-east-1:
+        Dedicated: 2.99376
+        Shared: 4.9296
+      us-east-2:
+        Dedicated: 5.20176
+        Shared: 4.9296
+      us-west-2:
+        Dedicated: 2.99376
+        Shared: 4.9296
+  regions:
+    - us-east-2
+    - eu-west-1
+    - us-west-2
+    - ap-south-1
+    - eu-central-1
+    - us-east-1
+  storage: EBS only
+  vcpu: 48
+r6a.16xlarge:
+  clockSpeed: 2.95 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 13333 Mbps
+  enhancedNetworkingSupported: true
+  memory: 512 GiB
+  networkPerformance: 25000 Megabit
+  normalizationSizeFactor: 128
+  physicalProcessor: AMD EPYC 7R13 Processor
+  prices:
+    Linux:
+      ap-south-1:
+        Dedicated: 2.5168
+        Shared: 2.288
+      eu-central-1:
+        Dedicated: 4.81536
+        Shared: 4.3776
+      eu-west-1:
+        Dedicated: 4.46688
+        Shared: 4.0608
+      us-east-1:
+        Dedicated: 3.99168
+        Shared: 3.6288
+      us-east-2:
+        Dedicated: 3.99168
+        Shared: 3.6288
+      us-west-2:
+        Dedicated: 3.99168
+        Shared: 3.6288
+    RHEL:
+      ap-south-1:
+        Dedicated: 2.6468
+        Shared: 2.418
+      eu-central-1:
+        Dedicated: 4.94536
+        Shared: 4.5076
+      eu-west-1:
+        Dedicated: 4.59688
+        Shared: 4.1908
+      us-east-1:
+        Dedicated: 4.12168
+        Shared: 3.7588
+      us-east-2:
+        Dedicated: 4.12168
+        Shared: 3.7588
+      us-west-2:
+        Dedicated: 4.12168
+        Shared: 3.7588
+    RHEL_HA:
+      ap-south-1:
+        Dedicated: 2.6818
+        Shared: 2.453
+      eu-central-1:
+        Dedicated: 4.98036
+        Shared: 4.5426
+      eu-west-1:
+        Dedicated: 4.63188
+        Shared: 4.2258
+      us-east-1:
+        Dedicated: 4.15668
+        Shared: 3.7938
+      us-east-2:
+        Dedicated: 4.15668
+        Shared: 3.7938
+      us-west-2:
+        Dedicated: 4.15668
+        Shared: 3.7938
+    SUSE:
+      ap-south-1:
+        Dedicated: 2.6418
+        Shared: 2.413
+      eu-central-1:
+        Dedicated: 4.94036
+        Shared: 4.5026
+      eu-west-1:
+        Dedicated: 4.59188
+        Shared: 4.1858
+      us-east-1:
+        Dedicated: 4.11668
+        Shared: 3.7538
+      us-east-2:
+        Dedicated: 4.11668
+        Shared: 3.7538
+      us-west-2:
+        Dedicated: 4.11668
+        Shared: 3.7538
+    Windows:
+      ap-south-1:
+        Dedicated: 5.4608
+        Shared: 5.232
+      eu-central-1:
+        Dedicated: 4.81536
+        Shared: 4.3776
+      eu-west-1:
+        Dedicated: 4.46688
+        Shared: 4.0608
+      us-east-1:
+        Dedicated: 3.99168
+        Shared: 6.5728
+      us-east-2:
+        Dedicated: 3.99168
+        Shared: 6.5728
+      us-west-2:
+        Dedicated: 6.93568
+        Shared: 6.5728
+  regions:
+    - eu-central-1
+    - us-east-1
+    - us-east-2
+    - us-west-2
+    - ap-south-1
+    - eu-west-1
+  storage: EBS only
+  vcpu: 64
+r6a.24xlarge:
+  clockSpeed: 2.95 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 20000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 768 GiB
+  networkPerformance: 37500 Megabit
+  normalizationSizeFactor: 192
+  physicalProcessor: AMD EPYC 7R13 Processor
+  prices:
+    Linux:
+      ap-south-1:
+        Dedicated: 3.7752
+        Shared: 3.432
+      eu-central-1:
+        Dedicated: 7.22304
+        Shared: 6.5664
+      eu-west-1:
+        Dedicated: 6.70032
+        Shared: 6.0912
+      us-east-1:
+        Dedicated: 5.98752
+        Shared: 5.4432
+      us-east-2:
+        Dedicated: 5.98752
+        Shared: 5.4432
+      us-west-2:
+        Dedicated: 5.98752
+        Shared: 5.4432
+    RHEL:
+      ap-south-1:
+        Dedicated: 3.9052
+        Shared: 3.562
+      eu-central-1:
+        Dedicated: 7.35304
+        Shared: 6.6964
+      eu-west-1:
+        Dedicated: 6.83032
+        Shared: 6.2212
+      us-east-1:
+        Dedicated: 6.11752
+        Shared: 5.5732
+      us-east-2:
+        Dedicated: 6.11752
+        Shared: 5.5732
+      us-west-2:
+        Dedicated: 6.11752
+        Shared: 5.5732
+    RHEL_HA:
+      ap-south-1:
+        Dedicated: 3.9402
+        Shared: 3.597
+      eu-central-1:
+        Dedicated: 7.38804
+        Shared: 6.7314
+      eu-west-1:
+        Dedicated: 6.86532
+        Shared: 6.2562
+      us-east-1:
+        Dedicated: 6.15252
+        Shared: 5.6082
+      us-east-2:
+        Dedicated: 6.15252
+        Shared: 5.6082
+      us-west-2:
+        Dedicated: 6.15252
+        Shared: 5.6082
+    SUSE:
+      ap-south-1:
+        Dedicated: 3.9002
+        Shared: 3.557
+      eu-central-1:
+        Dedicated: 7.34804
+        Shared: 6.6914
+      eu-west-1:
+        Dedicated: 6.82532
+        Shared: 6.2162
+      us-east-1:
+        Dedicated: 6.11252
+        Shared: 5.5682
+      us-east-2:
+        Dedicated: 6.11252
+        Shared: 5.5682
+      us-west-2:
+        Dedicated: 6.11252
+        Shared: 5.5682
+    Windows:
+      ap-south-1:
+        Dedicated: 8.1912
+        Shared: 7.848
+      eu-central-1:
+        Dedicated: 7.22304
+        Shared: 10.9824
+      eu-west-1:
+        Dedicated: 11.11632
+        Shared: 10.5072
+      us-east-1:
+        Dedicated: 10.40352
+        Shared: 5.4432
+      us-east-2:
+        Dedicated: 10.40352
+        Shared: 5.4432
+      us-west-2:
+        Dedicated: 5.98752
+        Shared: 9.8592
+  regions:
+    - eu-west-1
+    - us-east-1
+    - us-west-2
+    - ap-south-1
+    - us-east-2
+    - eu-central-1
+  storage: EBS only
+  vcpu: 96
+r6a.2xlarge:
+  clockSpeed: 2.95 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 6667 Mbps
+  enhancedNetworkingSupported: true
+  memory: 64 GiB
+  networkPerformance: Up to 12500 Megabit
+  normalizationSizeFactor: 16
+  physicalProcessor: AMD EPYC 7R13 Processor
+  prices:
+    Linux:
+      ap-south-1:
+        Dedicated: 0.3146
+        Shared: 0.286
+      eu-central-1:
+        Dedicated: 0.60192
+        Shared: 0.5472
+      eu-west-1:
+        Dedicated: 0.55836
+        Shared: 0.5076
+      us-east-1:
+        Dedicated: 0.49896
+        Shared: 0.4536
+      us-east-2:
+        Dedicated: 0.49896
+        Shared: 0.4536
+      us-west-2:
+        Dedicated: 0.49896
+        Shared: 0.4536
+    RHEL:
+      ap-south-1:
+        Dedicated: 0.4446
+        Shared: 0.416
+      eu-central-1:
+        Dedicated: 0.73192
+        Shared: 0.6772
+      eu-west-1:
+        Dedicated: 0.68836
+        Shared: 0.6376
+      us-east-1:
+        Dedicated: 0.62896
+        Shared: 0.5836
+      us-east-2:
+        Dedicated: 0.62896
+        Shared: 0.5836
+      us-west-2:
+        Dedicated: 0.62896
+        Shared: 0.5836
+    RHEL_HA:
+      ap-south-1:
+        Dedicated: 0.4796
+        Shared: 0.451
+      eu-central-1:
+        Dedicated: 0.76692
+        Shared: 0.7122
+      eu-west-1:
+        Dedicated: 0.72336
+        Shared: 0.6726
+      us-east-1:
+        Dedicated: 0.66396
+        Shared: 0.6186
+      us-east-2:
+        Dedicated: 0.66396
+        Shared: 0.6186
+      us-west-2:
+        Dedicated: 0.66396
+        Shared: 0.6186
+    SUSE:
+      ap-south-1:
+        Dedicated: 0.4396
+        Shared: 0.411
+      eu-central-1:
+        Dedicated: 0.72692
+        Shared: 0.6722
+      eu-west-1:
+        Dedicated: 0.68336
+        Shared: 0.6326
+      us-east-1:
+        Dedicated: 0.62396
+        Shared: 0.5786
+      us-east-2:
+        Dedicated: 0.62396
+        Shared: 0.5786
+      us-west-2:
+        Dedicated: 0.62396
+        Shared: 0.5786
+    Windows:
+      ap-south-1:
+        Dedicated: 0.6826
+        Shared: 0.286
+      eu-central-1:
+        Dedicated: 0.60192
+        Shared: 0.9152
+      eu-west-1:
+        Dedicated: 0.55836
+        Shared: 0.5076
+      us-east-1:
+        Dedicated: 0.86696
+        Shared: 0.4536
+      us-east-2:
+        Dedicated: 0.49896
+        Shared: 0.4536
+      us-west-2:
+        Dedicated: 0.86696
+        Shared: 0.8216
+  regions:
+    - us-west-2
+    - eu-west-1
+    - us-east-1
+    - ap-south-1
+    - eu-central-1
+    - us-east-2
+  storage: EBS only
+  vcpu: 8
+r6a.32xlarge:
+  clockSpeed: 2.95 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 26667 Mbps
+  enhancedNetworkingSupported: true
+  memory: 1024 GiB
+  networkPerformance: 50000 Megabit
+  normalizationSizeFactor: 256
+  physicalProcessor: AMD EPYC 7R13 Processor
+  prices:
+    Linux:
+      ap-south-1:
+        Dedicated: 5.0336
+        Shared: 4.576
+      eu-central-1:
+        Dedicated: 9.63072
+        Shared: 8.7552
+      eu-west-1:
+        Dedicated: 8.93376
+        Shared: 8.1216
+      us-east-1:
+        Dedicated: 7.98336
+        Shared: 7.2576
+      us-east-2:
+        Dedicated: 7.98336
+        Shared: 7.2576
+      us-west-2:
+        Dedicated: 7.98336
+        Shared: 7.2576
+    RHEL:
+      ap-south-1:
+        Dedicated: 5.1636
+        Shared: 4.706
+      eu-central-1:
+        Dedicated: 9.76072
+        Shared: 8.8852
+      eu-west-1:
+        Dedicated: 9.06376
+        Shared: 8.2516
+      us-east-1:
+        Dedicated: 8.11336
+        Shared: 7.3876
+      us-east-2:
+        Dedicated: 8.11336
+        Shared: 7.3876
+      us-west-2:
+        Dedicated: 8.11336
+        Shared: 7.3876
+    RHEL_HA:
+      ap-south-1:
+        Dedicated: 5.1986
+        Shared: 4.741
+      eu-central-1:
+        Dedicated: 9.79572
+        Shared: 8.9202
+      eu-west-1:
+        Dedicated: 9.09876
+        Shared: 8.2866
+      us-east-1:
+        Dedicated: 8.14836
+        Shared: 7.4226
+      us-east-2:
+        Dedicated: 8.14836
+        Shared: 7.4226
+      us-west-2:
+        Dedicated: 8.14836
+        Shared: 7.4226
+    SUSE:
+      ap-south-1:
+        Dedicated: 5.1586
+        Shared: 4.701
+      eu-central-1:
+        Dedicated: 9.75572
+        Shared: 8.8802
+      eu-west-1:
+        Dedicated: 9.05876
+        Shared: 8.2466
+      us-east-1:
+        Dedicated: 8.10836
+        Shared: 7.3826
+      us-east-2:
+        Dedicated: 8.10836
+        Shared: 7.3826
+      us-west-2:
+        Dedicated: 8.10836
+        Shared: 7.3826
+    Windows:
+      ap-south-1:
+        Dedicated: 10.9216
+        Shared: 4.576
+      eu-central-1:
+        Dedicated: 15.51872
+        Shared: 8.7552
+      eu-west-1:
+        Dedicated: 8.93376
+        Shared: 14.0096
+      us-east-1:
+        Dedicated: 7.98336
+        Shared: 7.2576
+      us-east-2:
+        Dedicated: 13.87136
+        Shared: 13.1456
+      us-west-2:
+        Dedicated: 7.98336
+        Shared: 13.1456
+  regions:
+    - eu-central-1
+    - eu-west-1
+    - ap-south-1
+    - us-east-1
+    - us-east-2
+    - us-west-2
+  storage: EBS only
+  vcpu: 128
+r6a.48xlarge:
+  clockSpeed: 2.95 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 40000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 1536 GiB
+  networkPerformance: 50000 Megabit
+  normalizationSizeFactor: 384
+  physicalProcessor: AMD EPYC 7R13 Processor
+  prices:
+    Linux:
+      ap-south-1:
+        Dedicated: 6.864
+        Shared: 6.864
+      eu-central-1:
+        Dedicated: 13.1328
+        Shared: 13.1328
+      eu-west-1:
+        Dedicated: 12.1824
+        Shared: 12.1824
+      us-east-1:
+        Dedicated: 10.8864
+        Shared: 10.8864
+      us-east-2:
+        Dedicated: 10.8864
+        Shared: 10.8864
+      us-west-2:
+        Dedicated: 10.8864
+        Shared: 10.8864
+    RHEL:
+      ap-south-1:
+        Dedicated: 6.994
+        Shared: 6.994
+      eu-central-1:
+        Dedicated: 13.2628
+        Shared: 13.2628
+      eu-west-1:
+        Dedicated: 12.3124
+        Shared: 12.3124
+      us-east-1:
+        Dedicated: 11.0164
+        Shared: 11.0164
+      us-east-2:
+        Dedicated: 11.0164
+        Shared: 11.0164
+      us-west-2:
+        Dedicated: 11.0164
+        Shared: 11.0164
+    RHEL_HA:
+      ap-south-1:
+        Dedicated: 7.029
+        Shared: 7.029
+      eu-central-1:
+        Dedicated: 13.2978
+        Shared: 13.2978
+      eu-west-1:
+        Dedicated: 12.3474
+        Shared: 12.3474
+      us-east-1:
+        Dedicated: 11.0514
+        Shared: 11.0514
+      us-east-2:
+        Dedicated: 11.0514
+        Shared: 11.0514
+      us-west-2:
+        Dedicated: 11.0514
+        Shared: 11.0514
+    SUSE:
+      ap-south-1:
+        Dedicated: 6.989
+        Shared: 6.989
+      eu-central-1:
+        Dedicated: 13.2578
+        Shared: 13.2578
+      eu-west-1:
+        Dedicated: 12.3074
+        Shared: 12.3074
+      us-east-1:
+        Dedicated: 11.0114
+        Shared: 11.0114
+      us-east-2:
+        Dedicated: 11.0114
+        Shared: 11.0114
+      us-west-2:
+        Dedicated: 11.0114
+        Shared: 11.0114
+    Windows:
+      ap-south-1:
+        Dedicated: 6.864
+        Shared: 6.864
+      eu-central-1:
+        Dedicated: 13.1328
+        Shared: 13.1328
+      eu-west-1:
+        Dedicated: 12.1824
+        Shared: 21.0144
+      us-east-1:
+        Dedicated: 10.8864
+        Shared: 10.8864
+      us-east-2:
+        Dedicated: 10.8864
+        Shared: 19.7184
+      us-west-2:
+        Dedicated: 19.7184
+        Shared: 10.8864
+  regions:
+    - eu-west-1
+    - eu-central-1
+    - us-east-2
+    - ap-south-1
+    - us-east-1
+    - us-west-2
+  storage: EBS only
+  vcpu: 192
+r6a.4xlarge:
+  clockSpeed: 2.95 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 6667 Mbps
+  enhancedNetworkingSupported: true
+  memory: 128 GiB
+  networkPerformance: Up to 12500 Megabit
+  normalizationSizeFactor: 32
+  physicalProcessor: AMD EPYC 7R13 Processor
+  prices:
+    Linux:
+      ap-south-1:
+        Dedicated: 0.6292
+        Shared: 0.572
+      eu-central-1:
+        Dedicated: 1.20384
+        Shared: 1.0944
+      eu-west-1:
+        Dedicated: 1.11672
+        Shared: 1.0152
+      us-east-1:
+        Dedicated: 0.99792
+        Shared: 0.9072
+      us-east-2:
+        Dedicated: 0.99792
+        Shared: 0.9072
+      us-west-2:
+        Dedicated: 0.99792
+        Shared: 0.9072
+    RHEL:
+      ap-south-1:
+        Dedicated: 0.7592
+        Shared: 0.702
+      eu-central-1:
+        Dedicated: 1.33384
+        Shared: 1.2244
+      eu-west-1:
+        Dedicated: 1.24672
+        Shared: 1.1452
+      us-east-1:
+        Dedicated: 1.12792
+        Shared: 1.0372
+      us-east-2:
+        Dedicated: 1.12792
+        Shared: 1.0372
+      us-west-2:
+        Dedicated: 1.12792
+        Shared: 1.0372
+    RHEL_HA:
+      ap-south-1:
+        Dedicated: 0.7942
+        Shared: 0.737
+      eu-central-1:
+        Dedicated: 1.36884
+        Shared: 1.2594
+      eu-west-1:
+        Dedicated: 1.28172
+        Shared: 1.1802
+      us-east-1:
+        Dedicated: 1.16292
+        Shared: 1.0722
+      us-east-2:
+        Dedicated: 1.16292
+        Shared: 1.0722
+      us-west-2:
+        Dedicated: 1.16292
+        Shared: 1.0722
+    SUSE:
+      ap-south-1:
+        Dedicated: 0.7542
+        Shared: 0.697
+      eu-central-1:
+        Dedicated: 1.32884
+        Shared: 1.2194
+      eu-west-1:
+        Dedicated: 1.24172
+        Shared: 1.1402
+      us-east-1:
+        Dedicated: 1.12292
+        Shared: 1.0322
+      us-east-2:
+        Dedicated: 1.12292
+        Shared: 1.0322
+      us-west-2:
+        Dedicated: 1.12292
+        Shared: 1.0322
+    Windows:
+      ap-south-1:
+        Dedicated: 0.6292
+        Shared: 1.308
+      eu-central-1:
+        Dedicated: 1.93984
+        Shared: 1.8304
+      eu-west-1:
+        Dedicated: 1.85272
+        Shared: 1.7512
+      us-east-1:
+        Dedicated: 0.99792
+        Shared: 1.6432
+      us-east-2:
+        Dedicated: 0.99792
+        Shared: 1.6432
+      us-west-2:
+        Dedicated: 1.73392
+        Shared: 0.9072
+  regions:
+    - ap-south-1
+    - eu-central-1
+    - eu-west-1
+    - us-east-1
+    - us-west-2
+    - us-east-2
+  storage: EBS only
+  vcpu: 16
+r6a.8xlarge:
+  clockSpeed: 2.95 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 6667 Mbps
+  enhancedNetworkingSupported: true
+  memory: 256 GiB
+  networkPerformance: 12500 Megabit
+  normalizationSizeFactor: 64
+  physicalProcessor: AMD EPYC 7R13 Processor
+  prices:
+    Linux:
+      ap-south-1:
+        Dedicated: 1.2584
+        Shared: 1.144
+      eu-central-1:
+        Dedicated: 2.40768
+        Shared: 2.1888
+      eu-west-1:
+        Dedicated: 2.23344
+        Shared: 2.0304
+      us-east-1:
+        Dedicated: 1.99584
+        Shared: 1.8144
+      us-east-2:
+        Dedicated: 1.99584
+        Shared: 1.8144
+      us-west-2:
+        Dedicated: 1.99584
+        Shared: 1.8144
+    RHEL:
+      ap-south-1:
+        Dedicated: 1.3884
+        Shared: 1.274
+      eu-central-1:
+        Dedicated: 2.53768
+        Shared: 2.3188
+      eu-west-1:
+        Dedicated: 2.36344
+        Shared: 2.1604
+      us-east-1:
+        Dedicated: 2.12584
+        Shared: 1.9444
+      us-east-2:
+        Dedicated: 2.12584
+        Shared: 1.9444
+      us-west-2:
+        Dedicated: 2.12584
+        Shared: 1.9444
+    RHEL_HA:
+      ap-south-1:
+        Dedicated: 1.4234
+        Shared: 1.309
+      eu-central-1:
+        Dedicated: 2.57268
+        Shared: 2.3538
+      eu-west-1:
+        Dedicated: 2.39844
+        Shared: 2.1954
+      us-east-1:
+        Dedicated: 2.16084
+        Shared: 1.9794
+      us-east-2:
+        Dedicated: 2.16084
+        Shared: 1.9794
+      us-west-2:
+        Dedicated: 2.16084
+        Shared: 1.9794
+    SUSE:
+      ap-south-1:
+        Dedicated: 1.3834
+        Shared: 1.269
+      eu-central-1:
+        Dedicated: 2.53268
+        Shared: 2.3138
+      eu-west-1:
+        Dedicated: 2.35844
+        Shared: 2.1554
+      us-east-1:
+        Dedicated: 2.12084
+        Shared: 1.9394
+      us-east-2:
+        Dedicated: 2.12084
+        Shared: 1.9394
+      us-west-2:
+        Dedicated: 2.12084
+        Shared: 1.9394
+    Windows:
+      ap-south-1:
+        Dedicated: 1.2584
+        Shared: 1.144
+      eu-central-1:
+        Dedicated: 3.87968
+        Shared: 3.6608
+      eu-west-1:
+        Dedicated: 3.70544
+        Shared: 3.5024
+      us-east-1:
+        Dedicated: 1.99584
+        Shared: 1.8144
+      us-east-2:
+        Dedicated: 3.46784
+        Shared: 3.2864
+      us-west-2:
+        Dedicated: 3.46784
+        Shared: 3.2864
+  regions:
+    - eu-west-1
+    - ap-south-1
+    - us-west-2
+    - eu-central-1
+    - us-east-2
+    - us-east-1
+  storage: EBS only
+  vcpu: 32
+r6a.large:
+  clockSpeed: 2.95 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 6667 Mbps
+  enhancedNetworkingSupported: true
+  memory: 16 GiB
+  networkPerformance: Up to 12500 Megabit
+  normalizationSizeFactor: 4
+  physicalProcessor: AMD EPYC 7R13 Processor
+  prices:
+    Linux:
+      ap-south-1:
+        Dedicated: 0.07865
+        Shared: 0.0715
+      eu-central-1:
+        Dedicated: 0.15048
+        Shared: 0.1368
+      eu-west-1:
+        Dedicated: 0.13959
+        Shared: 0.1269
+      us-east-1:
+        Dedicated: 0.12474
+        Shared: 0.1134
+      us-east-2:
+        Dedicated: 0.12474
+        Shared: 0.1134
+      us-west-2:
+        Dedicated: 0.12474
+        Shared: 0.1134
+    RHEL:
+      ap-south-1:
+        Dedicated: 0.13865
+        Shared: 0.1315
+      eu-central-1:
+        Dedicated: 0.21048
+        Shared: 0.1968
+      eu-west-1:
+        Dedicated: 0.19959
+        Shared: 0.1869
+      us-east-1:
+        Dedicated: 0.18474
+        Shared: 0.1734
+      us-east-2:
+        Dedicated: 0.18474
+        Shared: 0.1734
+      us-west-2:
+        Dedicated: 0.18474
+        Shared: 0.1734
+    RHEL_HA:
+      ap-south-1:
+        Dedicated: 0.17365
+        Shared: 0.1665
+      eu-central-1:
+        Dedicated: 0.24548
+        Shared: 0.2318
+      eu-west-1:
+        Dedicated: 0.23459
+        Shared: 0.2219
+      us-east-1:
+        Dedicated: 0.21974
+        Shared: 0.2084
+      us-east-2:
+        Dedicated: 0.21974
+        Shared: 0.2084
+      us-west-2:
+        Dedicated: 0.21974
+        Shared: 0.2084
+    SUSE:
+      ap-south-1:
+        Dedicated: 0.13495
+        Shared: 0.1278
+      eu-central-1:
+        Dedicated: 0.20678
+        Shared: 0.1931
+      eu-west-1:
+        Dedicated: 0.19589
+        Shared: 0.1832
+      us-east-1:
+        Dedicated: 0.18104
+        Shared: 0.1697
+      us-east-2:
+        Dedicated: 0.18104
+        Shared: 0.1697
+      us-west-2:
+        Dedicated: 0.18104
+        Shared: 0.1697
+    Windows:
+      ap-south-1:
+        Dedicated: 0.17065
+        Shared: 0.1635
+      eu-central-1:
+        Dedicated: 0.15048
+        Shared: 0.1368
+      eu-west-1:
+        Dedicated: 0.13959
+        Shared: 0.2189
+      us-east-1:
+        Dedicated: 0.12474
+        Shared: 0.2054
+      us-east-2:
+        Dedicated: 0.21674
+        Shared: 0.1134
+      us-west-2:
+        Dedicated: 0.12474
+        Shared: 0.1134
+  regions:
+    - us-west-2
+    - eu-central-1
+    - us-east-1
+    - us-east-2
+    - ap-south-1
+    - eu-west-1
+  storage: EBS only
+  vcpu: 2
+r6a.metal:
+  clockSpeed: 2.95 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 40000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 1536 GiB
+  networkPerformance: 50000 Megabit
+  normalizationSizeFactor: 384
+  physicalProcessor: AMD EPYC 7R13 Processor
+  prices:
+    Linux:
+      ap-south-1:
+        Dedicated: 6.864
+        Shared: 6.864
+      eu-central-1:
+        Dedicated: 13.1328
+        Shared: 13.1328
+      eu-west-1:
+        Dedicated: 12.1824
+        Shared: 12.1824
+      us-east-1:
+        Dedicated: 10.8864
+        Shared: 10.8864
+      us-east-2:
+        Dedicated: 10.8864
+        Shared: 10.8864
+      us-west-2:
+        Dedicated: 10.8864
+        Shared: 10.8864
+    RHEL:
+      ap-south-1:
+        Dedicated: 6.994
+        Shared: 6.994
+      eu-central-1:
+        Dedicated: 13.2628
+        Shared: 13.2628
+      eu-west-1:
+        Dedicated: 12.3124
+        Shared: 12.3124
+      us-east-1:
+        Dedicated: 11.0164
+        Shared: 11.0164
+      us-east-2:
+        Dedicated: 11.0164
+        Shared: 11.0164
+      us-west-2:
+        Dedicated: 11.0164
+        Shared: 11.0164
+    RHEL_HA:
+      ap-south-1:
+        Dedicated: 7.029
+        Shared: 7.029
+      eu-central-1:
+        Dedicated: 13.2978
+        Shared: 13.2978
+      eu-west-1:
+        Dedicated: 12.3474
+        Shared: 12.3474
+      us-east-1:
+        Dedicated: 11.0514
+        Shared: 11.0514
+      us-east-2:
+        Dedicated: 11.0514
+        Shared: 11.0514
+      us-west-2:
+        Dedicated: 11.0514
+        Shared: 11.0514
+    SUSE:
+      ap-south-1:
+        Dedicated: 6.989
+        Shared: 6.989
+      eu-central-1:
+        Dedicated: 13.2578
+        Shared: 13.2578
+      eu-west-1:
+        Dedicated: 12.3074
+        Shared: 12.3074
+      us-east-1:
+        Dedicated: 11.0114
+        Shared: 11.0114
+      us-east-2:
+        Dedicated: 11.0114
+        Shared: 11.0114
+      us-west-2:
+        Dedicated: 11.0114
+        Shared: 11.0114
+    Windows:
+      ap-south-1:
+        Dedicated: 6.864
+        Shared: 15.696
+      eu-central-1:
+        Dedicated: 13.1328
+        Shared: 21.9648
+      eu-west-1:
+        Dedicated: 21.0144
+        Shared: 12.1824
+      us-east-1:
+        Dedicated: 10.8864
+        Shared: 10.8864
+      us-east-2:
+        Dedicated: 19.7184
+        Shared: 19.7184
+      us-west-2:
+        Dedicated: 19.7184
+        Shared: 10.8864
+  regions:
+    - us-west-2
+    - us-east-2
+    - ap-south-1
+    - us-east-1
+    - eu-west-1
+    - eu-central-1
+  storage: EBS only
+  vcpu: 192
+r6a.xlarge:
+  clockSpeed: 2.95 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 6667 Mbps
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: Up to 12500 Megabit
+  normalizationSizeFactor: 8
+  physicalProcessor: AMD EPYC 7R13 Processor
+  prices:
+    Linux:
+      ap-south-1:
+        Dedicated: 0.1573
+        Shared: 0.143
+      eu-central-1:
+        Dedicated: 0.30096
+        Shared: 0.2736
+      eu-west-1:
+        Dedicated: 0.27918
+        Shared: 0.2538
+      us-east-1:
+        Dedicated: 0.24948
+        Shared: 0.2268
+      us-east-2:
+        Dedicated: 0.24948
+        Shared: 0.2268
+      us-west-2:
+        Dedicated: 0.24948
+        Shared: 0.2268
+    RHEL:
+      ap-south-1:
+        Dedicated: 0.2173
+        Shared: 0.203
+      eu-central-1:
+        Dedicated: 0.36096
+        Shared: 0.3336
+      eu-west-1:
+        Dedicated: 0.33918
+        Shared: 0.3138
+      us-east-1:
+        Dedicated: 0.30948
+        Shared: 0.2868
+      us-east-2:
+        Dedicated: 0.30948
+        Shared: 0.2868
+      us-west-2:
+        Dedicated: 0.30948
+        Shared: 0.2868
+    RHEL_HA:
+      ap-south-1:
+        Dedicated: 0.2523
+        Shared: 0.238
+      eu-central-1:
+        Dedicated: 0.39596
+        Shared: 0.3686
+      eu-west-1:
+        Dedicated: 0.37418
+        Shared: 0.3488
+      us-east-1:
+        Dedicated: 0.34448
+        Shared: 0.3218
+      us-east-2:
+        Dedicated: 0.34448
+        Shared: 0.3218
+      us-west-2:
+        Dedicated: 0.34448
+        Shared: 0.3218
+    SUSE:
+      ap-south-1:
+        Dedicated: 0.2136
+        Shared: 0.1993
+      eu-central-1:
+        Dedicated: 0.35726
+        Shared: 0.3299
+      eu-west-1:
+        Dedicated: 0.33548
+        Shared: 0.3101
+      us-east-1:
+        Dedicated: 0.30578
+        Shared: 0.2831
+      us-east-2:
+        Dedicated: 0.30578
+        Shared: 0.2831
+      us-west-2:
+        Dedicated: 0.30578
+        Shared: 0.2831
+    Windows:
+      ap-south-1:
+        Dedicated: 0.3413
+        Shared: 0.327
+      eu-central-1:
+        Dedicated: 0.30096
+        Shared: 0.4576
+      eu-west-1:
+        Dedicated: 0.27918
+        Shared: 0.2538
+      us-east-1:
+        Dedicated: 0.24948
+        Shared: 0.4108
+      us-east-2:
+        Dedicated: 0.24948
+        Shared: 0.2268
+      us-west-2:
+        Dedicated: 0.24948
+        Shared: 0.2268
+  regions:
+    - eu-central-1
+    - us-west-2
+    - ap-south-1
+    - us-east-1
+    - us-east-2
+    - eu-west-1
   storage: EBS only
   vcpu: 4
 r6g.12xlarge:
