@@ -17,6 +17,7 @@ const termsFile = '/tmp/aws_ec2_terms.json'
 const regionMap = {
   'US East (Ohio)': 'us-east-2',
   'US East (N. Virginia)': 'us-east-1',
+  'US East (Miami)': 'us-east-1-mia-1a ',
   'US West (N. California)': 'us-west-1',
   'US West (Oregon)': 'us-west-2',
   'US West (Los Angeles)': 'us-west-2-lax-1a',
