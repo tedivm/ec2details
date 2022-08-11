@@ -12386,6 +12386,9 @@ c5d.24xlarge:
       sa-east-1:
         Dedicated: 7.636
         Shared: 7.152
+      US East (Miami):
+        Dedicated: 6.106
+        Shared: 5.76
       us-east-1:
         Dedicated: 4.885
         Shared: 4.608
@@ -12450,6 +12453,9 @@ c5d.24xlarge:
       sa-east-1:
         Dedicated: 7.766
         Shared: 7.282
+      US East (Miami):
+        Dedicated: 6.236
+        Shared: 5.89
       us-east-1:
         Dedicated: 5.015
         Shared: 4.738
@@ -12578,6 +12584,9 @@ c5d.24xlarge:
       sa-east-1:
         Dedicated: 7.706
         Shared: 7.252
+      US East (Miami):
+        Dedicated: 6.231
+        Shared: 5.885
       us-east-1:
         Dedicated: 4.985
         Shared: 4.708
@@ -12642,6 +12651,9 @@ c5d.24xlarge:
       sa-east-1:
         Dedicated: 12.052
         Shared: 11.568
+      US East (Miami):
+        Dedicated: 10.522
+        Shared: 5.76
       us-east-1:
         Dedicated: 9.301
         Shared: 9.024
@@ -12677,6 +12689,7 @@ c5d.24xlarge:
     - us-east-1
     - sa-east-1
     - eu-south-1
+    - US East (Miami)
     - eu-west-2
     - us-west-1
   storage: 4 x 900 NVMe SSD
@@ -13390,6 +13403,9 @@ c5d.4xlarge:
       sa-east-1:
         Dedicated: 1.273
         Shared: 1.192
+      US East (Miami):
+        Dedicated: 1.018
+        Shared: 0.96
       us-east-1:
         Dedicated: 0.814
         Shared: 0.768
@@ -13463,6 +13479,9 @@ c5d.4xlarge:
       sa-east-1:
         Dedicated: 1.403
         Shared: 1.322
+      US East (Miami):
+        Dedicated: 1.148
+        Shared: 1.09
       us-east-1:
         Dedicated: 0.944
         Shared: 0.898
@@ -13609,6 +13628,9 @@ c5d.4xlarge:
       sa-east-1:
         Dedicated: 1.373
         Shared: 1.292
+      US East (Miami):
+        Dedicated: 1.143
+        Shared: 1.085
       us-east-1:
         Dedicated: 0.914
         Shared: 0.868
@@ -13682,6 +13704,9 @@ c5d.4xlarge:
       sa-east-1:
         Dedicated: 2.009
         Shared: 1.928
+      US East (Miami):
+        Dedicated: 1.018
+        Shared: 0.96
       us-east-1:
         Dedicated: 1.55
         Shared: 1.504
@@ -13723,6 +13748,7 @@ c5d.4xlarge:
     - af-south-1
     - me-south-1
     - ap-south-1
+    - US East (Miami)
     - sa-east-1
     - eu-west-2
   storage: 1 x 400 NVMe SSD
@@ -25507,40 +25533,6 @@ c6gn.medium:
     - ca-central-1
   storage: EBS only
   vcpu: 1
-c6gn.metal:
-  clockSpeed: 2.5 GHz
-  currentGeneration: true
-  dedicatedEbsThroughput: 38000 Mbps
-  enhancedNetworkingSupported: true
-  memory: 128 GiB
-  networkPerformance: 100 Gigabit
-  normalizationSizeFactor: 128
-  physicalProcessor: AWS Graviton2 Processor
-  prices:
-    Linux:
-      ap-northeast-1:
-        Dedicated: 3.8368
-        Shared: 3.488
-    RHEL:
-      ap-northeast-1:
-        Dedicated: 3.9668
-        Shared: 3.618
-    RHEL_HA:
-      ap-northeast-1:
-        Dedicated: 4.0018
-        Shared: 3.653
-    SUSE:
-      ap-northeast-1:
-        Dedicated: 3.9618
-        Shared: 3.613
-  regions:
-    - ap-northeast-1
-    - us-west-2
-    - us-east-2
-    - us-east-1
-    - eu-west-1
-  storage: EBS only
-  vcpu: 64
 c6gn.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
