@@ -1091,9 +1091,6 @@ c3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.582
         Shared: 0.529
-      Asia Pacific (Osaka):
-        Dedicated: 0.563
-        Shared: 0.512
       eu-central-1:
         Dedicated: 0.567
         Shared: 0.516
@@ -1128,9 +1125,6 @@ c3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.712
         Shared: 0.659
-      Asia Pacific (Osaka):
-        Dedicated: 0.693
-        Shared: 0.642
       eu-central-1:
         Dedicated: 0.71
         Shared: 0.646
@@ -1162,9 +1156,6 @@ c3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.746
         Shared: 0.693
-      Asia Pacific (Osaka):
-        Dedicated: 0.728
-        Shared: 0.677
       eu-central-1:
         Dedicated: 0.733
         Shared: 0.681
@@ -1199,9 +1190,6 @@ c3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.682
         Shared: 0.629
-      Asia Pacific (Osaka):
-        Dedicated: 0.663
-        Shared: 0.612
       eu-central-1:
         Dedicated: 0.677
         Shared: 0.616
@@ -1236,9 +1224,6 @@ c3.2xlarge:
       ap-southeast-2:
         Dedicated: 1.048
         Shared: 0.953
-      Asia Pacific (Osaka):
-        Dedicated: 0.931
-        Shared: 0.88
       eu-central-1:
         Dedicated: 0.932
         Shared: 0.516
@@ -1268,11 +1253,11 @@ c3.2xlarge:
     - us-west-2
     - us-west-1
     - ap-southeast-2
-    - Asia Pacific (Osaka)
     - ap-southeast-1
     - us-gov-west-1
     - eu-central-1
     - ap-northeast-2
+    - Asia Pacific (Osaka)
   storage: 2 x 80 SSD
   vcpu: 8
 c3.4xlarge:
@@ -1298,9 +1283,6 @@ c3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.164
         Shared: 1.058
-      Asia Pacific (Osaka):
-        Dedicated: 1.126
-        Shared: 1.024
       eu-central-1:
         Dedicated: 1.135
         Shared: 1.032
@@ -1335,9 +1317,6 @@ c3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.294
         Shared: 1.188
-      Asia Pacific (Osaka):
-        Dedicated: 1.256
-        Shared: 1.154
       eu-central-1:
         Dedicated: 1.278
         Shared: 1.162
@@ -1369,9 +1348,6 @@ c3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.327
         Shared: 1.221
-      Asia Pacific (Osaka):
-        Dedicated: 1.291
-        Shared: 1.189
       eu-central-1:
         Dedicated: 1.3
         Shared: 1.197
@@ -1405,9 +1381,6 @@ c3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.264
         Shared: 1.158
-      Asia Pacific (Osaka):
-        Dedicated: 1.226
-        Shared: 1.124
       eu-central-1:
         Dedicated: 1.245
         Shared: 1.132
@@ -1442,9 +1415,6 @@ c3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.164
         Shared: 1.058
-      Asia Pacific (Osaka):
-        Dedicated: 1.862
-        Shared: 1.024
       eu-central-1:
         Dedicated: 1.865
         Shared: 1.696
@@ -1468,7 +1438,6 @@ c3.4xlarge:
         Shared: 1.504
   regions:
     - eu-west-1
-    - Asia Pacific (Osaka)
     - ap-southeast-1
     - us-west-1
     - sa-east-1
@@ -1479,6 +1448,7 @@ c3.4xlarge:
     - us-east-1
     - ap-southeast-2
     - ap-northeast-2
+    - Asia Pacific (Osaka)
   storage: 2 x 160 SSD
   vcpu: 16
 c3.8xlarge:
@@ -1504,9 +1474,6 @@ c3.8xlarge:
       ap-southeast-2:
         Dedicated: 2.117
         Shared: 2.117
-      Asia Pacific (Osaka):
-        Dedicated: 2.048
-        Shared: 2.048
       eu-central-1:
         Dedicated: 2.064
         Shared: 2.064
@@ -1541,9 +1508,6 @@ c3.8xlarge:
       ap-southeast-2:
         Dedicated: 2.247
         Shared: 2.247
-      Asia Pacific (Osaka):
-        Dedicated: 2.178
-        Shared: 2.178
       eu-central-1:
         Dedicated: 2.194
         Shared: 2.194
@@ -1575,9 +1539,6 @@ c3.8xlarge:
       ap-southeast-2:
         Dedicated: 2.277
         Shared: 2.277
-      Asia Pacific (Osaka):
-        Dedicated: 2.213
-        Shared: 2.213
       eu-central-1:
         Dedicated: 2.229
         Shared: 2.229
@@ -1612,9 +1573,6 @@ c3.8xlarge:
       ap-southeast-2:
         Dedicated: 2.217
         Shared: 2.217
-      Asia Pacific (Osaka):
-        Dedicated: 2.148
-        Shared: 2.148
       eu-central-1:
         Dedicated: 2.164
         Shared: 2.164
@@ -1649,9 +1607,6 @@ c3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.813
         Shared: 3.813
-      Asia Pacific (Osaka):
-        Dedicated: 2.048
-        Shared: 2.048
       eu-central-1:
         Dedicated: 3.392
         Shared: 3.392
@@ -1681,11 +1636,11 @@ c3.8xlarge:
     - ap-southeast-1
     - us-west-1
     - eu-central-1
-    - Asia Pacific (Osaka)
     - ap-northeast-2
     - eu-west-1
     - us-east-1
     - ap-northeast-1
+    - Asia Pacific (Osaka)
   storage: 2 x 320 SSD
   vcpu: 32
 c3.large:
@@ -1711,9 +1666,6 @@ c3.large:
       ap-southeast-2:
         Dedicated: 0.145
         Shared: 0.132
-      Asia Pacific (Osaka):
-        Dedicated: 0.141
-        Shared: 0.128
       eu-central-1:
         Dedicated: 0.141
         Shared: 0.129
@@ -1748,9 +1700,6 @@ c3.large:
       ap-southeast-2:
         Dedicated: 0.205
         Shared: 0.192
-      Asia Pacific (Osaka):
-        Dedicated: 0.201
-        Shared: 0.188
       eu-central-1:
         Dedicated: 0.207
         Shared: 0.189
@@ -1782,9 +1731,6 @@ c3.large:
       ap-southeast-2:
         Dedicated: 0.24
         Shared: 0.227
-      Asia Pacific (Osaka):
-        Dedicated: 0.236
-        Shared: 0.223
       eu-central-1:
         Dedicated: 0.237
         Shared: 0.224
@@ -1819,9 +1765,6 @@ c3.large:
       ap-southeast-2:
         Dedicated: 0.245
         Shared: 0.232
-      Asia Pacific (Osaka):
-        Dedicated: 0.241
-        Shared: 0.228
       eu-central-1:
         Dedicated: 0.251
         Shared: 0.229
@@ -1856,9 +1799,6 @@ c3.large:
       ap-southeast-2:
         Dedicated: 0.262
         Shared: 0.132
-      Asia Pacific (Osaka):
-        Dedicated: 0.233
-        Shared: 0.128
       eu-central-1:
         Dedicated: 0.233
         Shared: 0.129
@@ -1887,12 +1827,12 @@ c3.large:
     - us-gov-west-1
     - us-west-2
     - ap-northeast-1
-    - Asia Pacific (Osaka)
     - ap-northeast-2
     - sa-east-1
     - ap-southeast-1
     - us-west-1
     - eu-west-1
+    - Asia Pacific (Osaka)
   storage: 2 x 16 SSD
   vcpu: 2
 c3.xlarge:
@@ -1918,9 +1858,6 @@ c3.xlarge:
       ap-southeast-2:
         Dedicated: 0.292
         Shared: 0.265
-      Asia Pacific (Osaka):
-        Dedicated: 0.282
-        Shared: 0.256
       eu-central-1:
         Dedicated: 0.283
         Shared: 0.258
@@ -1955,9 +1892,6 @@ c3.xlarge:
       ap-southeast-2:
         Dedicated: 0.352
         Shared: 0.325
-      Asia Pacific (Osaka):
-        Dedicated: 0.342
-        Shared: 0.316
       eu-central-1:
         Dedicated: 0.349
         Shared: 0.318
@@ -1989,9 +1923,6 @@ c3.xlarge:
       ap-southeast-2:
         Dedicated: 0.385
         Shared: 0.359
-      Asia Pacific (Osaka):
-        Dedicated: 0.377
-        Shared: 0.351
       eu-central-1:
         Dedicated: 0.379
         Shared: 0.353
@@ -2026,9 +1957,6 @@ c3.xlarge:
       ap-southeast-2:
         Dedicated: 0.392
         Shared: 0.365
-      Asia Pacific (Osaka):
-        Dedicated: 0.382
-        Shared: 0.356
       eu-central-1:
         Dedicated: 0.393
         Shared: 0.358
@@ -2063,9 +1991,6 @@ c3.xlarge:
       ap-southeast-2:
         Dedicated: 0.292
         Shared: 0.265
-      Asia Pacific (Osaka):
-        Dedicated: 0.466
-        Shared: 0.256
       eu-central-1:
         Dedicated: 0.466
         Shared: 0.424
@@ -2090,7 +2015,6 @@ c3.xlarge:
   regions:
     - us-west-2
     - ap-southeast-2
-    - Asia Pacific (Osaka)
     - ap-northeast-1
     - us-east-1
     - sa-east-1
@@ -2100,6 +2024,7 @@ c3.xlarge:
     - eu-central-1
     - eu-west-1
     - ap-northeast-2
+    - Asia Pacific (Osaka)
   storage: 2 x 40 SSD
   vcpu: 4
 c4.2xlarge:
@@ -11619,9 +11544,6 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 2.941
         Shared: 2.76
-      me-south-1:
-        Dedicated: 3.067
-        Shared: 2.878
       sa-east-1:
         Dedicated: 3.818
         Shared: 3.576
@@ -11683,9 +11605,6 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.071
         Shared: 2.89
-      me-south-1:
-        Dedicated: 3.197
-        Shared: 3.008
       sa-east-1:
         Dedicated: 3.948
         Shared: 3.706
@@ -11747,9 +11666,6 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.091
         Shared: 2.925
-      me-south-1:
-        Dedicated: 3.215
-        Shared: 3.043
       sa-east-1:
         Dedicated: 3.956
         Shared: 3.741
@@ -11811,9 +11727,6 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.041
         Shared: 2.86
-      me-south-1:
-        Dedicated: 3.167
-        Shared: 2.978
       sa-east-1:
         Dedicated: 3.916
         Shared: 3.676
@@ -11875,9 +11788,6 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 5.149
         Shared: 4.968
-      me-south-1:
-        Dedicated: 5.275
-        Shared: 5.086
       sa-east-1:
         Dedicated: 6.026
         Shared: 5.784
@@ -11909,7 +11819,6 @@ c5d.12xlarge:
     - ca-central-1
     - eu-north-1
     - eu-west-1
-    - me-south-1
     - eu-west-2
     - us-east-1
     - sa-east-1
@@ -11919,7 +11828,7 @@ c5d.12xlarge:
     - ap-southeast-3
     - us-west-1
     - eu-central-1
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
     - US East (Houston)
   storage: 2 x 900 NVMe SSD
   vcpu: 48
@@ -12380,18 +12289,15 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 5.882
         Shared: 5.52
-      me-south-1:
-        Dedicated: 6.133
-        Shared: 5.755
       sa-east-1:
         Dedicated: 7.636
         Shared: 7.152
-      US East (Miami):
-        Dedicated: 6.106
-        Shared: 5.76
       us-east-1:
         Dedicated: 4.885
         Shared: 4.608
+      'us-east-1-mia-1a ':
+        Dedicated: 6.106
+        Shared: 5.76
       us-east-2:
         Dedicated: 4.885
         Shared: 4.608
@@ -12447,18 +12353,15 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 6.012
         Shared: 5.65
-      me-south-1:
-        Dedicated: 6.263
-        Shared: 5.885
       sa-east-1:
         Dedicated: 7.766
         Shared: 7.282
-      US East (Miami):
-        Dedicated: 6.236
-        Shared: 5.89
       us-east-1:
         Dedicated: 5.015
         Shared: 4.738
+      'us-east-1-mia-1a ':
+        Dedicated: 6.236
+        Shared: 5.89
       us-east-2:
         Dedicated: 5.015
         Shared: 4.738
@@ -12514,9 +12417,6 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 6.016
         Shared: 5.685
-      me-south-1:
-        Dedicated: 6.266
-        Shared: 5.92
       sa-east-1:
         Dedicated: 7.746
         Shared: 7.317
@@ -12578,18 +12478,15 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 5.976
         Shared: 5.62
-      me-south-1:
-        Dedicated: 6.226
-        Shared: 5.855
       sa-east-1:
         Dedicated: 7.706
         Shared: 7.252
-      US East (Miami):
-        Dedicated: 6.231
-        Shared: 5.885
       us-east-1:
         Dedicated: 4.985
         Shared: 4.708
+      'us-east-1-mia-1a ':
+        Dedicated: 6.231
+        Shared: 5.885
       us-east-2:
         Dedicated: 4.985
         Shared: 4.708
@@ -12645,18 +12542,15 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 10.298
         Shared: 9.936
-      me-south-1:
-        Dedicated: 10.549
-        Shared: 10.171
       sa-east-1:
         Dedicated: 12.052
         Shared: 11.568
-      US East (Miami):
-        Dedicated: 10.522
-        Shared: 5.76
       us-east-1:
         Dedicated: 9.301
         Shared: 9.024
+      'us-east-1-mia-1a ':
+        Dedicated: 10.522
+        Shared: 5.76
       us-east-2:
         Dedicated: 9.301
         Shared: 9.024
@@ -12670,7 +12564,6 @@ c5d.24xlarge:
         Dedicated: 9.301
         Shared: 9.024
   regions:
-    - me-south-1
     - us-east-2
     - ap-southeast-3
     - eu-central-1
@@ -12689,7 +12582,7 @@ c5d.24xlarge:
     - us-east-1
     - sa-east-1
     - eu-south-1
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
     - eu-west-2
     - us-west-1
   storage: 4 x 900 NVMe SSD
@@ -12778,9 +12671,6 @@ c5d.2xlarge:
       US East (Kansas City 2):
         Dedicated: 0.509
         Shared: 0.48
-      US East (Miami):
-        Dedicated: 0.509
-        Shared: 0.48
       US East (Minneapolis):
         Dedicated: 0.509
         Shared: 0.48
@@ -12808,6 +12698,9 @@ c5d.2xlarge:
       us-east-1:
         Dedicated: 0.407
         Shared: 0.384
+      'us-east-1-mia-1a ':
+        Dedicated: 0.509
+        Shared: 0.48
       us-east-2:
         Dedicated: 0.407
         Shared: 0.384
@@ -12896,9 +12789,6 @@ c5d.2xlarge:
       US East (Kansas City 2):
         Dedicated: 0.639
         Shared: 0.61
-      US East (Miami):
-        Dedicated: 0.639
-        Shared: 0.61
       US East (Minneapolis):
         Dedicated: 0.639
         Shared: 0.61
@@ -12926,6 +12816,9 @@ c5d.2xlarge:
       us-east-1:
         Dedicated: 0.537
         Shared: 0.514
+      'us-east-1-mia-1a ':
+        Dedicated: 0.639
+        Shared: 0.61
       us-east-2:
         Dedicated: 0.537
         Shared: 0.514
@@ -13014,9 +12907,6 @@ c5d.2xlarge:
       US East (Kansas City 2):
         Dedicated: 0.674
         Shared: 0.645
-      US East (Miami):
-        Dedicated: 0.674
-        Shared: 0.645
       US East (Minneapolis):
         Dedicated: 0.674
         Shared: 0.645
@@ -13044,6 +12934,9 @@ c5d.2xlarge:
       us-east-1:
         Dedicated: 0.572
         Shared: 0.549
+      'us-east-1-mia-1a ':
+        Dedicated: 0.674
+        Shared: 0.645
       us-east-2:
         Dedicated: 0.572
         Shared: 0.549
@@ -13132,9 +13025,6 @@ c5d.2xlarge:
       US East (Kansas City 2):
         Dedicated: 0.609
         Shared: 0.58
-      US East (Miami):
-        Dedicated: 0.609
-        Shared: 0.58
       US East (Minneapolis):
         Dedicated: 0.609
         Shared: 0.58
@@ -13162,6 +13052,9 @@ c5d.2xlarge:
       us-east-1:
         Dedicated: 0.507
         Shared: 0.484
+      'us-east-1-mia-1a ':
+        Dedicated: 0.609
+        Shared: 0.58
       us-east-2:
         Dedicated: 0.507
         Shared: 0.484
@@ -13250,9 +13143,6 @@ c5d.2xlarge:
       US East (Kansas City 2):
         Dedicated: 0.509
         Shared: 0.48
-      US East (Miami):
-        Dedicated: 0.877
-        Shared: 0.848
       US East (Minneapolis):
         Dedicated: 0.509
         Shared: 0.848
@@ -13280,6 +13170,9 @@ c5d.2xlarge:
       us-east-1:
         Dedicated: 0.407
         Shared: 0.384
+      'us-east-1-mia-1a ':
+        Dedicated: 0.877
+        Shared: 0.848
       us-east-2:
         Dedicated: 0.775
         Shared: 0.384
@@ -13301,7 +13194,7 @@ c5d.2xlarge:
     - US West (Portland)
     - af-south-1
     - sa-east-1
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
     - ap-southeast-3
     - US East (Boston)
     - me-south-1
@@ -13403,12 +13296,12 @@ c5d.4xlarge:
       sa-east-1:
         Dedicated: 1.273
         Shared: 1.192
-      US East (Miami):
-        Dedicated: 1.018
-        Shared: 0.96
       us-east-1:
         Dedicated: 0.814
         Shared: 0.768
+      'us-east-1-mia-1a ':
+        Dedicated: 1.018
+        Shared: 0.96
       us-east-2:
         Dedicated: 0.814
         Shared: 0.768
@@ -13479,12 +13372,12 @@ c5d.4xlarge:
       sa-east-1:
         Dedicated: 1.403
         Shared: 1.322
-      US East (Miami):
-        Dedicated: 1.148
-        Shared: 1.09
       us-east-1:
         Dedicated: 0.944
         Shared: 0.898
+      'us-east-1-mia-1a ':
+        Dedicated: 1.148
+        Shared: 1.09
       us-east-2:
         Dedicated: 0.944
         Shared: 0.898
@@ -13628,12 +13521,12 @@ c5d.4xlarge:
       sa-east-1:
         Dedicated: 1.373
         Shared: 1.292
-      US East (Miami):
-        Dedicated: 1.143
-        Shared: 1.085
       us-east-1:
         Dedicated: 0.914
         Shared: 0.868
+      'us-east-1-mia-1a ':
+        Dedicated: 1.143
+        Shared: 1.085
       us-east-2:
         Dedicated: 0.914
         Shared: 0.868
@@ -13704,12 +13597,12 @@ c5d.4xlarge:
       sa-east-1:
         Dedicated: 2.009
         Shared: 1.928
-      US East (Miami):
-        Dedicated: 1.018
-        Shared: 0.96
       us-east-1:
         Dedicated: 1.55
         Shared: 1.504
+      'us-east-1-mia-1a ':
+        Dedicated: 1.018
+        Shared: 0.96
       us-east-2:
         Dedicated: 1.55
         Shared: 1.504
@@ -13748,7 +13641,7 @@ c5d.4xlarge:
     - af-south-1
     - me-south-1
     - ap-south-1
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
     - sa-east-1
     - eu-west-2
   storage: 1 x 400 NVMe SSD
@@ -14613,9 +14506,6 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.52
         Shared: 5.52
-      me-south-1:
-        Dedicated: 5.755
-        Shared: 5.755
       sa-east-1:
         Dedicated: 7.152
         Shared: 7.152
@@ -14677,9 +14567,6 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.65
         Shared: 5.65
-      me-south-1:
-        Dedicated: 5.885
-        Shared: 5.885
       sa-east-1:
         Dedicated: 7.282
         Shared: 7.282
@@ -14741,9 +14628,6 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.685
         Shared: 5.685
-      me-south-1:
-        Dedicated: 5.92
-        Shared: 5.92
       sa-east-1:
         Dedicated: 7.317
         Shared: 7.317
@@ -14805,9 +14689,6 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.62
         Shared: 5.62
-      me-south-1:
-        Dedicated: 5.855
-        Shared: 5.855
       sa-east-1:
         Dedicated: 7.252
         Shared: 7.252
@@ -14869,9 +14750,6 @@ c5d.metal:
       eu-west-2:
         Dedicated: 9.936
         Shared: 9.936
-      me-south-1:
-        Dedicated: 10.171
-        Shared: 10.171
       sa-east-1:
         Dedicated: 11.568
         Shared: 11.568
@@ -14894,7 +14772,6 @@ c5d.metal:
     - eu-central-1
     - us-west-2
     - us-east-1
-    - me-south-1
     - ap-northeast-1
     - us-east-2
     - us-west-1
@@ -19196,6 +19073,9 @@ c6g.12xlarge:
       ap-southeast-2:
         Dedicated: 2.2591
         Shared: 2.1312
+      ap-southeast-3:
+        Dedicated: 1.9945
+        Shared: 1.8816
       Asia Pacific (Osaka):
         Dedicated: 2.1864
         Shared: 2.064
@@ -19263,6 +19143,9 @@ c6g.12xlarge:
       ap-southeast-2:
         Dedicated: 2.3891
         Shared: 2.2612
+      ap-southeast-3:
+        Dedicated: 2.1245
+        Shared: 2.0116
       Asia Pacific (Osaka):
         Dedicated: 2.3164
         Shared: 2.194
@@ -19330,6 +19213,9 @@ c6g.12xlarge:
       ap-southeast-2:
         Dedicated: 2.4241
         Shared: 2.2962
+      ap-southeast-3:
+        Dedicated: 2.1595
+        Shared: 2.0466
       Asia Pacific (Osaka):
         Dedicated: 2.3514
         Shared: 2.229
@@ -19397,6 +19283,9 @@ c6g.12xlarge:
       ap-southeast-2:
         Dedicated: 2.3841
         Shared: 2.2562
+      ap-southeast-3:
+        Dedicated: 2.1195
+        Shared: 2.0066
       Asia Pacific (Osaka):
         Dedicated: 2.3114
         Shared: 2.189
@@ -19468,6 +19357,7 @@ c6g.12xlarge:
     - eu-west-1
     - ap-southeast-1
     - us-gov-west-1
+    - ap-southeast-3
   storage: EBS only
   vcpu: 48
 c6g.16xlarge:
@@ -19499,6 +19389,9 @@ c6g.16xlarge:
       ap-southeast-2:
         Dedicated: 3.0121
         Shared: 2.8416
+      ap-southeast-3:
+        Dedicated: 2.5088
+        Shared: 2.5088
       Asia Pacific (Osaka):
         Dedicated: 2.752
         Shared: 2.752
@@ -19566,6 +19459,9 @@ c6g.16xlarge:
       ap-southeast-2:
         Dedicated: 3.1421
         Shared: 2.9716
+      ap-southeast-3:
+        Dedicated: 2.6388
+        Shared: 2.6388
       Asia Pacific (Osaka):
         Dedicated: 2.882
         Shared: 2.882
@@ -19633,6 +19529,9 @@ c6g.16xlarge:
       ap-southeast-2:
         Dedicated: 3.1771
         Shared: 3.0066
+      ap-southeast-3:
+        Dedicated: 2.6738
+        Shared: 2.6738
       Asia Pacific (Osaka):
         Dedicated: 2.917
         Shared: 2.917
@@ -19700,6 +19599,9 @@ c6g.16xlarge:
       ap-southeast-2:
         Dedicated: 2.9666
         Shared: 2.9666
+      ap-southeast-3:
+        Dedicated: 2.6338
+        Shared: 2.6338
       Asia Pacific (Osaka):
         Dedicated: 2.877
         Shared: 2.877
@@ -19764,6 +19666,7 @@ c6g.16xlarge:
     - sa-east-1
     - eu-north-1
     - ca-central-1
+    - ap-southeast-3
     - me-south-1
     - ap-southeast-1
     - ap-south-1
@@ -19802,6 +19705,9 @@ c6g.2xlarge:
       ap-southeast-2:
         Dedicated: 0.3765
         Shared: 0.3552
+      ap-southeast-3:
+        Dedicated: 0.3324
+        Shared: 0.3136
       Asia Pacific (Osaka):
         Dedicated: 0.3644
         Shared: 0.344
@@ -19869,6 +19775,9 @@ c6g.2xlarge:
       ap-southeast-2:
         Dedicated: 0.5065
         Shared: 0.4852
+      ap-southeast-3:
+        Dedicated: 0.4624
+        Shared: 0.4436
       Asia Pacific (Osaka):
         Dedicated: 0.4944
         Shared: 0.474
@@ -19936,6 +19845,9 @@ c6g.2xlarge:
       ap-southeast-2:
         Dedicated: 0.5415
         Shared: 0.5202
+      ap-southeast-3:
+        Dedicated: 0.4974
+        Shared: 0.4786
       Asia Pacific (Osaka):
         Dedicated: 0.5294
         Shared: 0.509
@@ -20003,6 +19915,9 @@ c6g.2xlarge:
       ap-southeast-2:
         Dedicated: 0.5015
         Shared: 0.4802
+      ap-southeast-3:
+        Dedicated: 0.4574
+        Shared: 0.4386
       Asia Pacific (Osaka):
         Dedicated: 0.4894
         Shared: 0.469
@@ -20068,6 +19983,7 @@ c6g.2xlarge:
     - ap-southeast-1
     - us-west-1
     - ap-southeast-2
+    - ap-southeast-3
     - ap-northeast-2
     - eu-central-1
     - sa-east-1
@@ -20105,6 +20021,9 @@ c6g.4xlarge:
       ap-southeast-2:
         Dedicated: 0.753
         Shared: 0.7104
+      ap-southeast-3:
+        Dedicated: 0.6648
+        Shared: 0.6272
       Asia Pacific (Osaka):
         Dedicated: 0.7288
         Shared: 0.688
@@ -20172,6 +20091,9 @@ c6g.4xlarge:
       ap-southeast-2:
         Dedicated: 0.883
         Shared: 0.8404
+      ap-southeast-3:
+        Dedicated: 0.7948
+        Shared: 0.7572
       Asia Pacific (Osaka):
         Dedicated: 0.8588
         Shared: 0.818
@@ -20239,6 +20161,9 @@ c6g.4xlarge:
       ap-southeast-2:
         Dedicated: 0.918
         Shared: 0.8754
+      ap-southeast-3:
+        Dedicated: 0.8298
+        Shared: 0.7922
       Asia Pacific (Osaka):
         Dedicated: 0.8938
         Shared: 0.853
@@ -20306,6 +20231,9 @@ c6g.4xlarge:
       ap-southeast-2:
         Dedicated: 0.878
         Shared: 0.8354
+      ap-southeast-3:
+        Dedicated: 0.7898
+        Shared: 0.7522
       Asia Pacific (Osaka):
         Dedicated: 0.8538
         Shared: 0.813
@@ -20355,6 +20283,7 @@ c6g.4xlarge:
         Dedicated: 0.7016
         Shared: 0.669
   regions:
+    - ap-southeast-3
     - ca-central-1
     - eu-west-3
     - Asia Pacific (Osaka)
@@ -20408,6 +20337,9 @@ c6g.8xlarge:
       ap-southeast-2:
         Dedicated: 1.506
         Shared: 1.4208
+      ap-southeast-3:
+        Dedicated: 1.3297
+        Shared: 1.2544
       Asia Pacific (Osaka):
         Dedicated: 1.4576
         Shared: 1.376
@@ -20475,6 +20407,9 @@ c6g.8xlarge:
       ap-southeast-2:
         Dedicated: 1.636
         Shared: 1.5508
+      ap-southeast-3:
+        Dedicated: 1.4597
+        Shared: 1.3844
       Asia Pacific (Osaka):
         Dedicated: 1.5876
         Shared: 1.506
@@ -20542,6 +20477,9 @@ c6g.8xlarge:
       ap-southeast-2:
         Dedicated: 1.671
         Shared: 1.5858
+      ap-southeast-3:
+        Dedicated: 1.4947
+        Shared: 1.4194
       Asia Pacific (Osaka):
         Dedicated: 1.6226
         Shared: 1.541
@@ -20609,6 +20547,9 @@ c6g.8xlarge:
       ap-southeast-2:
         Dedicated: 1.631
         Shared: 1.5458
+      ap-southeast-3:
+        Dedicated: 1.4547
+        Shared: 1.3794
       Asia Pacific (Osaka):
         Dedicated: 1.5826
         Shared: 1.501
@@ -20663,6 +20604,7 @@ c6g.8xlarge:
     - eu-south-1
     - ap-south-1
     - us-east-1
+    - ap-southeast-3
     - ca-central-1
     - us-east-2
     - us-west-2
@@ -20711,6 +20653,9 @@ c6g.large:
       ap-southeast-2:
         Dedicated: 0.0941
         Shared: 0.0888
+      ap-southeast-3:
+        Dedicated: 0.0831
+        Shared: 0.0784
       Asia Pacific (Osaka):
         Dedicated: 0.0911
         Shared: 0.086
@@ -20778,6 +20723,9 @@ c6g.large:
       ap-southeast-2:
         Dedicated: 0.1541
         Shared: 0.1488
+      ap-southeast-3:
+        Dedicated: 0.1431
+        Shared: 0.1384
       Asia Pacific (Osaka):
         Dedicated: 0.1511
         Shared: 0.146
@@ -20845,6 +20793,9 @@ c6g.large:
       ap-southeast-2:
         Dedicated: 0.1891
         Shared: 0.1838
+      ap-southeast-3:
+        Dedicated: 0.1781
+        Shared: 0.1734
       Asia Pacific (Osaka):
         Dedicated: 0.1861
         Shared: 0.181
@@ -20912,6 +20863,9 @@ c6g.large:
       ap-southeast-2:
         Dedicated: 0.1504
         Shared: 0.1451
+      ap-southeast-3:
+        Dedicated: 0.1394
+        Shared: 0.1347
       Asia Pacific (Osaka):
         Dedicated: 0.1474
         Shared: 0.1423
@@ -20961,6 +20915,7 @@ c6g.large:
         Dedicated: 0.1284
         Shared: 0.1243
   regions:
+    - ap-southeast-3
     - eu-west-1
     - us-east-2
     - eu-west-2
@@ -21014,6 +20969,9 @@ c6g.medium:
       ap-southeast-2:
         Dedicated: 0.0471
         Shared: 0.0444
+      ap-southeast-3:
+        Dedicated: 0.0416
+        Shared: 0.0392
       Asia Pacific (Osaka):
         Dedicated: 0.0455
         Shared: 0.043
@@ -21081,6 +21039,9 @@ c6g.medium:
       ap-southeast-2:
         Dedicated: 0.1071
         Shared: 0.1044
+      ap-southeast-3:
+        Dedicated: 0.1016
+        Shared: 0.0992
       Asia Pacific (Osaka):
         Dedicated: 0.1055
         Shared: 0.103
@@ -21148,6 +21109,9 @@ c6g.medium:
       ap-southeast-2:
         Dedicated: 0.1421
         Shared: 0.1394
+      ap-southeast-3:
+        Dedicated: 0.1366
+        Shared: 0.1342
       Asia Pacific (Osaka):
         Dedicated: 0.1405
         Shared: 0.138
@@ -21215,6 +21179,9 @@ c6g.medium:
       ap-southeast-2:
         Dedicated: 0.0781
         Shared: 0.0754
+      ap-southeast-3:
+        Dedicated: 0.0979
+        Shared: 0.0955
       Asia Pacific (Osaka):
         Dedicated: 0.1018
         Shared: 0.0993
@@ -21284,6 +21251,7 @@ c6g.medium:
     - ap-northeast-2
     - ap-east-1
     - eu-west-1
+    - ap-southeast-3
     - Asia Pacific (Osaka)
     - ap-southeast-2
   storage: EBS only
@@ -21317,6 +21285,9 @@ c6g.metal:
       ap-southeast-2:
         Dedicated: 3.0121
         Shared: 2.8416
+      ap-southeast-3:
+        Dedicated: 2.5088
+        Shared: 2.5088
       Asia Pacific (Osaka):
         Dedicated: 2.752
         Shared: 2.752
@@ -21384,6 +21355,9 @@ c6g.metal:
       ap-southeast-2:
         Dedicated: 3.1421
         Shared: 2.9716
+      ap-southeast-3:
+        Dedicated: 2.6388
+        Shared: 2.6388
       Asia Pacific (Osaka):
         Dedicated: 2.882
         Shared: 2.882
@@ -21451,6 +21425,9 @@ c6g.metal:
       ap-southeast-2:
         Dedicated: 3.1771
         Shared: 3.0066
+      ap-southeast-3:
+        Dedicated: 2.6738
+        Shared: 2.6738
       Asia Pacific (Osaka):
         Dedicated: 2.917
         Shared: 2.917
@@ -21518,6 +21495,9 @@ c6g.metal:
       ap-southeast-2:
         Dedicated: 2.9666
         Shared: 2.9666
+      ap-southeast-3:
+        Dedicated: 2.6338
+        Shared: 2.6338
       Asia Pacific (Osaka):
         Dedicated: 2.877
         Shared: 2.877
@@ -21580,6 +21560,7 @@ c6g.metal:
     - ap-south-1
     - ap-southeast-2
     - us-west-1
+    - ap-southeast-3
     - me-south-1
     - eu-central-1
     - ap-northeast-1
@@ -21620,6 +21601,9 @@ c6g.xlarge:
       ap-southeast-2:
         Dedicated: 0.1883
         Shared: 0.1776
+      ap-southeast-3:
+        Dedicated: 0.1662
+        Shared: 0.1568
       Asia Pacific (Osaka):
         Dedicated: 0.1822
         Shared: 0.172
@@ -21687,6 +21671,9 @@ c6g.xlarge:
       ap-southeast-2:
         Dedicated: 0.2483
         Shared: 0.2376
+      ap-southeast-3:
+        Dedicated: 0.2262
+        Shared: 0.2168
       Asia Pacific (Osaka):
         Dedicated: 0.2422
         Shared: 0.232
@@ -21754,6 +21741,9 @@ c6g.xlarge:
       ap-southeast-2:
         Dedicated: 0.2833
         Shared: 0.2726
+      ap-southeast-3:
+        Dedicated: 0.2612
+        Shared: 0.2518
       Asia Pacific (Osaka):
         Dedicated: 0.2772
         Shared: 0.267
@@ -21821,6 +21811,9 @@ c6g.xlarge:
       ap-southeast-2:
         Dedicated: 0.2446
         Shared: 0.2339
+      ap-southeast-3:
+        Dedicated: 0.2225
+        Shared: 0.2131
       Asia Pacific (Osaka):
         Dedicated: 0.2385
         Shared: 0.2283
@@ -21881,6 +21874,7 @@ c6g.xlarge:
     - Asia Pacific (Osaka)
     - eu-south-1
     - ap-southeast-2
+    - ap-southeast-3
     - us-west-2
     - me-south-1
     - us-gov-east-1
@@ -33626,9 +33620,6 @@ f1.16xlarge:
       ap-southeast-2:
         Dedicated: 15.848
         Shared: 15.848
-      eu-central-1:
-        Dedicated: 13.872
-        Shared: 13.872
       eu-west-1:
         Dedicated: 14.52
         Shared: 14.52
@@ -33642,9 +33633,6 @@ f1.16xlarge:
         Dedicated: 13.2
         Shared: 13.2
     RHEL:
-      eu-central-1:
-        Dedicated: 14.002
-        Shared: 14.002
       eu-west-1:
         Dedicated: 14.65
         Shared: 14.65
@@ -33658,9 +33646,6 @@ f1.16xlarge:
         Dedicated: 13.33
         Shared: 13.33
     RHEL_HA:
-      eu-central-1:
-        Dedicated: 14.037
-        Shared: 14.037
       eu-west-1:
         Dedicated: 14.685
         Shared: 14.685
@@ -33674,9 +33659,6 @@ f1.16xlarge:
         Dedicated: 13.365
         Shared: 13.365
     SUSE:
-      eu-central-1:
-        Dedicated: 13.972
-        Shared: 13.972
       eu-west-1:
         Dedicated: 14.62
         Shared: 14.62
@@ -33705,7 +33687,6 @@ f1.16xlarge:
     - ap-southeast-2
     - us-gov-west-1
     - eu-west-1
-    - eu-central-1
   storage: 4 x 940 NVMe SSD
   vcpu: 64
 f1.2xlarge:
@@ -36486,9 +36467,6 @@ g4dn.2xlarge:
       US East (Kansas City 2):
         Dedicated: 1.076
         Shared: 1.015
-      US East (Miami):
-        Dedicated: 1.076
-        Shared: 1.015
       US East (Minneapolis):
         Dedicated: 1.076
         Shared: 1.015
@@ -36554,6 +36532,9 @@ g4dn.2xlarge:
       us-east-1:
         Dedicated: 0.797
         Shared: 0.752
+      'us-east-1-mia-1a ':
+        Dedicated: 1.076
+        Shared: 1.015
       us-east-2:
         Dedicated: 0.797
         Shared: 0.752
@@ -36660,9 +36641,6 @@ g4dn.2xlarge:
       US East (Kansas City 2):
         Dedicated: 1.206
         Shared: 1.145
-      US East (Miami):
-        Dedicated: 1.206
-        Shared: 1.145
       US East (Minneapolis):
         Dedicated: 1.206
         Shared: 1.145
@@ -36728,6 +36706,9 @@ g4dn.2xlarge:
       us-east-1:
         Dedicated: 0.927
         Shared: 0.882
+      'us-east-1-mia-1a ':
+        Dedicated: 1.206
+        Shared: 1.145
       us-east-2:
         Dedicated: 0.927
         Shared: 0.882
@@ -36834,9 +36815,6 @@ g4dn.2xlarge:
       US East (Kansas City 2):
         Dedicated: 1.241
         Shared: 1.18
-      US East (Miami):
-        Dedicated: 1.241
-        Shared: 1.18
       US East (Minneapolis):
         Dedicated: 1.241
         Shared: 1.18
@@ -36902,6 +36880,9 @@ g4dn.2xlarge:
       us-east-1:
         Dedicated: 0.962
         Shared: 0.917
+      'us-east-1-mia-1a ':
+        Dedicated: 1.241
+        Shared: 1.18
       us-east-2:
         Dedicated: 0.962
         Shared: 0.917
@@ -37008,9 +36989,6 @@ g4dn.2xlarge:
       US East (Kansas City 2):
         Dedicated: 1.201
         Shared: 1.14
-      US East (Miami):
-        Dedicated: 1.201
-        Shared: 1.14
       US East (Minneapolis):
         Dedicated: 1.201
         Shared: 1.14
@@ -37076,6 +37054,9 @@ g4dn.2xlarge:
       us-east-1:
         Dedicated: 0.922
         Shared: 0.877
+      'us-east-1-mia-1a ':
+        Dedicated: 1.201
+        Shared: 1.14
       us-east-2:
         Dedicated: 0.922
         Shared: 0.877
@@ -37182,9 +37163,6 @@ g4dn.2xlarge:
       US East (Kansas City 2):
         Dedicated: 1.444
         Shared: 1.383
-      US East (Miami):
-        Dedicated: 1.444
-        Shared: 1.383
       US East (Minneapolis):
         Dedicated: 1.444
         Shared: 1.015
@@ -37250,6 +37228,9 @@ g4dn.2xlarge:
       us-east-1:
         Dedicated: 1.165
         Shared: 1.12
+      'us-east-1-mia-1a ':
+        Dedicated: 1.444
+        Shared: 1.383
       us-east-2:
         Dedicated: 1.165
         Shared: 1.12
@@ -37285,7 +37266,7 @@ g4dn.2xlarge:
     - US West (Verizon) - Phoenix
     - us-west-1
     - US West (Verizon) - Denver
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
     - eu-north-1
     - US East (Chicago)
     - US East (Minneapolis)
@@ -37739,7 +37720,7 @@ g4dn.4xlarge:
     - sa-east-1
     - ap-northeast-2
     - US East (Houston)
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
     - US East (Boston)
   storage: 225 GB NVMe SSD
   vcpu: 16
@@ -38144,7 +38125,7 @@ g4dn.8xlarge:
     - ap-southeast-2
     - us-east-2
     - eu-west-3
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
     - US East (Boston)
   storage: 900 GB NVMe SSD
   vcpu: 32
@@ -44075,9 +44056,6 @@ i3.metal:
       ap-southeast-1:
         Dedicated: 5.984
         Shared: 5.984
-      ap-southeast-2:
-        Dedicated: 5.984
-        Shared: 5.984
       Asia Pacific (Osaka):
         Dedicated: 5.856
         Shared: 5.856
@@ -44140,9 +44118,6 @@ i3.metal:
         Dedicated: 5.794
         Shared: 5.794
       ap-southeast-1:
-        Dedicated: 6.114
-        Shared: 6.114
-      ap-southeast-2:
         Dedicated: 6.114
         Shared: 6.114
       Asia Pacific (Osaka):
@@ -44209,9 +44184,6 @@ i3.metal:
       ap-southeast-1:
         Dedicated: 6.149
         Shared: 6.149
-      ap-southeast-2:
-        Dedicated: 6.149
-        Shared: 6.149
       Asia Pacific (Osaka):
         Dedicated: 6.021
         Shared: 6.021
@@ -44274,9 +44246,6 @@ i3.metal:
         Dedicated: 5.764
         Shared: 5.764
       ap-southeast-1:
-        Dedicated: 6.084
-        Shared: 6.084
-      ap-southeast-2:
         Dedicated: 6.084
         Shared: 6.084
       Asia Pacific (Osaka):
@@ -44342,9 +44311,6 @@ i3.metal:
         Shared: 8.608
       ap-southeast-1:
         Dedicated: 8.928
-        Shared: 8.928
-      ap-southeast-2:
-        Dedicated: 5.984
         Shared: 8.928
       Asia Pacific (Osaka):
         Dedicated: 8.8
@@ -53386,9 +53352,6 @@ m3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.82
         Shared: 0.745
-      Asia Pacific (Osaka):
-        Dedicated: 0.845
-        Shared: 0.768
       eu-central-1:
         Dedicated: 0.695
         Shared: 0.632
@@ -53423,9 +53386,6 @@ m3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.963
         Shared: 0.875
-      Asia Pacific (Osaka):
-        Dedicated: 0.975
-        Shared: 0.898
       eu-central-1:
         Dedicated: 0.838
         Shared: 0.762
@@ -53460,9 +53420,6 @@ m3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.93
         Shared: 0.845
-      Asia Pacific (Osaka):
-        Dedicated: 0.945
-        Shared: 0.868
       eu-central-1:
         Dedicated: 0.805
         Shared: 0.732
@@ -53497,9 +53454,6 @@ m3.2xlarge:
       ap-southeast-2:
         Dedicated: 1.374
         Shared: 1.249
-      Asia Pacific (Osaka):
-        Dedicated: 1.213
-        Shared: 0.768
       eu-central-1:
         Dedicated: 1.25
         Shared: 0.632
@@ -53530,10 +53484,10 @@ m3.2xlarge:
     - ap-southeast-1
     - eu-central-1
     - ap-northeast-2
-    - Asia Pacific (Osaka)
     - us-gov-west-1
     - eu-west-1
     - us-west-1
+    - Asia Pacific (Osaka)
   storage: 2 x 80 SSD
   vcpu: 8
 m3.large:
@@ -53559,9 +53513,6 @@ m3.large:
       ap-southeast-2:
         Dedicated: 0.205
         Shared: 0.186
-      Asia Pacific (Osaka):
-        Dedicated: 0.211
-        Shared: 0.192
       eu-central-1:
         Dedicated: 0.174
         Shared: 0.158
@@ -53596,9 +53547,6 @@ m3.large:
       ap-southeast-2:
         Dedicated: 0.271
         Shared: 0.246
-      Asia Pacific (Osaka):
-        Dedicated: 0.271
-        Shared: 0.252
       eu-central-1:
         Dedicated: 0.24
         Shared: 0.218
@@ -53633,9 +53581,6 @@ m3.large:
       ap-southeast-2:
         Dedicated: 0.315
         Shared: 0.286
-      Asia Pacific (Osaka):
-        Dedicated: 0.311
-        Shared: 0.292
       eu-central-1:
         Dedicated: 0.284
         Shared: 0.258
@@ -53670,9 +53615,6 @@ m3.large:
       ap-southeast-2:
         Dedicated: 0.205
         Shared: 0.312
-      Asia Pacific (Osaka):
-        Dedicated: 0.303
-        Shared: 0.284
       eu-central-1:
         Dedicated: 0.312
         Shared: 0.284
@@ -53732,9 +53674,6 @@ m3.medium:
       ap-southeast-2:
         Dedicated: 0.102
         Shared: 0.093
-      Asia Pacific (Osaka):
-        Dedicated: 0.106
-        Shared: 0.096
       eu-central-1:
         Dedicated: 0.087
         Shared: 0.079
@@ -53769,9 +53708,6 @@ m3.medium:
       ap-southeast-2:
         Dedicated: 0.168
         Shared: 0.153
-      Asia Pacific (Osaka):
-        Dedicated: 0.166
-        Shared: 0.156
       eu-central-1:
         Dedicated: 0.153
         Shared: 0.139
@@ -53806,9 +53742,6 @@ m3.medium:
       ap-southeast-2:
         Dedicated: 0.212
         Shared: 0.193
-      Asia Pacific (Osaka):
-        Dedicated: 0.206
-        Shared: 0.196
       eu-central-1:
         Dedicated: 0.197
         Shared: 0.179
@@ -53843,9 +53776,6 @@ m3.medium:
       ap-southeast-2:
         Dedicated: 0.102
         Shared: 0.093
-      Asia Pacific (Osaka):
-        Dedicated: 0.106
-        Shared: 0.142
       eu-central-1:
         Dedicated: 0.087
         Shared: 0.142
@@ -53877,9 +53807,9 @@ m3.medium:
     - us-east-1
     - sa-east-1
     - us-west-2
-    - Asia Pacific (Osaka)
     - ap-southeast-2
     - ap-northeast-2
+    - Asia Pacific (Osaka)
   storage: 1 x 4 SSD
   vcpu: 1
 m3.xlarge:
@@ -53906,9 +53836,6 @@ m3.xlarge:
       ap-southeast-2:
         Dedicated: 0.409
         Shared: 0.372
-      Asia Pacific (Osaka):
-        Dedicated: 0.422
-        Shared: 0.384
       eu-central-1:
         Dedicated: 0.347
         Shared: 0.315
@@ -53943,9 +53870,6 @@ m3.xlarge:
       ap-southeast-2:
         Dedicated: 0.475
         Shared: 0.432
-      Asia Pacific (Osaka):
-        Dedicated: 0.482
-        Shared: 0.444
       eu-central-1:
         Dedicated: 0.413
         Shared: 0.375
@@ -53980,9 +53904,6 @@ m3.xlarge:
       ap-southeast-2:
         Dedicated: 0.519
         Shared: 0.472
-      Asia Pacific (Osaka):
-        Dedicated: 0.522
-        Shared: 0.484
       eu-central-1:
         Dedicated: 0.456
         Shared: 0.415
@@ -54017,9 +53938,6 @@ m3.xlarge:
       ap-southeast-2:
         Dedicated: 0.686
         Shared: 0.624
-      Asia Pacific (Osaka):
-        Dedicated: 0.606
-        Shared: 0.568
       eu-central-1:
         Dedicated: 0.347
         Shared: 0.567
@@ -54048,12 +53966,12 @@ m3.xlarge:
     - eu-central-1
     - us-west-1
     - ap-northeast-1
-    - Asia Pacific (Osaka)
     - eu-west-1
     - us-east-1
     - us-gov-west-1
     - us-west-2
     - ap-southeast-2
+    - Asia Pacific (Osaka)
   storage: 2 x 40 SSD
   vcpu: 4
 m4.10xlarge:
@@ -54083,9 +54001,6 @@ m4.10xlarge:
       ap-southeast-2:
         Dedicated: 2.5
         Shared: 2.5
-      Asia Pacific (Osaka):
-        Dedicated: 2.58
-        Shared: 2.58
       ca-central-1:
         Dedicated: 2.22
         Shared: 2.22
@@ -54132,9 +54047,6 @@ m4.10xlarge:
       ap-southeast-2:
         Dedicated: 2.63
         Shared: 2.63
-      Asia Pacific (Osaka):
-        Dedicated: 2.71
-        Shared: 2.71
       ca-central-1:
         Dedicated: 2.35
         Shared: 2.35
@@ -54181,9 +54093,6 @@ m4.10xlarge:
       ap-southeast-2:
         Dedicated: 2.665
         Shared: 2.665
-      Asia Pacific (Osaka):
-        Dedicated: 2.745
-        Shared: 2.745
       ca-central-1:
         Dedicated: 2.385
         Shared: 2.385
@@ -54230,9 +54139,6 @@ m4.10xlarge:
       ap-southeast-2:
         Dedicated: 2.6
         Shared: 2.6
-      Asia Pacific (Osaka):
-        Dedicated: 2.68
-        Shared: 2.68
       ca-central-1:
         Dedicated: 2.32
         Shared: 2.32
@@ -54279,9 +54185,6 @@ m4.10xlarge:
       ap-southeast-2:
         Dedicated: 4.34
         Shared: 4.34
-      Asia Pacific (Osaka):
-        Dedicated: 4.42
-        Shared: 4.42
       ca-central-1:
         Dedicated: 2.22
         Shared: 4.06
@@ -54325,10 +54228,10 @@ m4.10xlarge:
     - us-west-2
     - us-east-1
     - sa-east-1
-    - Asia Pacific (Osaka)
     - eu-west-2
     - ap-northeast-2
     - eu-west-1
+    - Asia Pacific (Osaka)
     - eu-west-3
   storage: EBS only
   vcpu: 40
@@ -59130,12 +59033,12 @@ m5.xlarge:
       sa-east-1:
         Dedicated: 0.323
         Shared: 0.306
-      US East (Miami):
-        Dedicated: 0.254
-        Shared: 0.24
       us-east-1:
         Dedicated: 0.204
         Shared: 0.192
+      'us-east-1-mia-1a ':
+        Dedicated: 0.254
+        Shared: 0.24
       us-east-2:
         Dedicated: 0.204
         Shared: 0.192
@@ -59209,12 +59112,12 @@ m5.xlarge:
       sa-east-1:
         Dedicated: 0.383
         Shared: 0.366
-      US East (Miami):
-        Dedicated: 0.314
-        Shared: 0.3
       us-east-1:
         Dedicated: 0.264
         Shared: 0.252
+      'us-east-1-mia-1a ':
+        Dedicated: 0.314
+        Shared: 0.3
       us-east-2:
         Dedicated: 0.264
         Shared: 0.252
@@ -59288,12 +59191,12 @@ m5.xlarge:
       sa-east-1:
         Dedicated: 0.418
         Shared: 0.401
-      US East (Miami):
-        Dedicated: 0.349
-        Shared: 0.335
       us-east-1:
         Dedicated: 0.299
         Shared: 0.287
+      'us-east-1-mia-1a ':
+        Dedicated: 0.349
+        Shared: 0.335
       us-east-2:
         Dedicated: 0.299
         Shared: 0.287
@@ -59367,12 +59270,12 @@ m5.xlarge:
       sa-east-1:
         Dedicated: 0.38
         Shared: 0.362
-      US East (Miami):
-        Dedicated: 0.311
-        Shared: 0.296
       us-east-1:
         Dedicated: 0.26
         Shared: 0.248
+      'us-east-1-mia-1a ':
+        Dedicated: 0.311
+        Shared: 0.296
       us-east-2:
         Dedicated: 0.26
         Shared: 0.248
@@ -59446,12 +59349,12 @@ m5.xlarge:
       sa-east-1:
         Dedicated: 0.507
         Shared: 0.49
-      US East (Miami):
-        Dedicated: 0.254
-        Shared: 0.424
       us-east-1:
         Dedicated: 0.204
         Shared: 0.192
+      'us-east-1-mia-1a ':
+        Dedicated: 0.254
+        Shared: 0.424
       us-east-2:
         Dedicated: 0.388
         Shared: 0.376
@@ -59480,7 +59383,7 @@ m5.xlarge:
     - us-east-2
     - ap-south-1
     - eu-south-1
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
     - ca-central-1
     - us-gov-west-1
     - us-west-1
@@ -70108,9 +70011,6 @@ m5n.metal:
       eu-central-1:
         Dedicated: 6.768
         Shared: 6.768
-      eu-west-1:
-        Dedicated: 6.384
-        Shared: 6.384
       us-east-1:
         Dedicated: 5.712
         Shared: 5.712
@@ -70136,9 +70036,6 @@ m5n.metal:
       eu-central-1:
         Dedicated: 6.898
         Shared: 6.898
-      eu-west-1:
-        Dedicated: 6.514
-        Shared: 6.514
       us-east-1:
         Dedicated: 5.842
         Shared: 5.842
@@ -70164,9 +70061,6 @@ m5n.metal:
       eu-central-1:
         Dedicated: 6.933
         Shared: 6.933
-      eu-west-1:
-        Dedicated: 6.549
-        Shared: 6.549
       us-east-1:
         Dedicated: 5.877
         Shared: 5.877
@@ -70192,9 +70086,6 @@ m5n.metal:
       eu-central-1:
         Dedicated: 6.893
         Shared: 6.893
-      eu-west-1:
-        Dedicated: 6.509
-        Shared: 6.509
       us-east-1:
         Dedicated: 5.837
         Shared: 5.837
@@ -70220,9 +70111,6 @@ m5n.metal:
       eu-central-1:
         Dedicated: 11.184
         Shared: 11.184
-      eu-west-1:
-        Dedicated: 10.8
-        Shared: 10.8
       us-east-1:
         Dedicated: 10.128
         Shared: 10.128
@@ -70247,7 +70135,6 @@ m5n.metal:
     - us-east-1
     - ap-southeast-1
     - us-east-2
-    - eu-west-1
   storage: EBS only
   vcpu: 96
 m5n.xlarge:
@@ -73034,6 +72921,9 @@ m6g.12xlarge:
       ap-southeast-2:
         Dedicated: 2.4422
         Shared: 2.304
+      ap-southeast-3:
+        Dedicated: 2.4422
+        Shared: 2.304
       ca-central-1:
         Dedicated: 2.1777
         Shared: 2.0544
@@ -73096,6 +72986,9 @@ m6g.12xlarge:
         Dedicated: 2.5722
         Shared: 2.434
       ap-southeast-2:
+        Dedicated: 2.5722
+        Shared: 2.434
+      ap-southeast-3:
         Dedicated: 2.5722
         Shared: 2.434
       ca-central-1:
@@ -73162,6 +73055,9 @@ m6g.12xlarge:
       ap-southeast-2:
         Dedicated: 2.6072
         Shared: 2.469
+      ap-southeast-3:
+        Dedicated: 2.6072
+        Shared: 2.469
       ca-central-1:
         Dedicated: 2.3427
         Shared: 2.2194
@@ -73226,6 +73122,9 @@ m6g.12xlarge:
       ap-southeast-2:
         Dedicated: 2.5672
         Shared: 2.429
+      ap-southeast-3:
+        Dedicated: 2.5672
+        Shared: 2.429
       ca-central-1:
         Dedicated: 2.3027
         Shared: 2.1794
@@ -73281,6 +73180,7 @@ m6g.12xlarge:
     - eu-west-1
     - ap-south-1
     - us-east-2
+    - ap-southeast-3
     - us-gov-east-1
     - eu-south-1
     - eu-central-1
@@ -73321,6 +73221,9 @@ m6g.16xlarge:
         Dedicated: 3.2563
         Shared: 3.072
       ap-southeast-2:
+        Dedicated: 3.2563
+        Shared: 3.072
+      ap-southeast-3:
         Dedicated: 3.2563
         Shared: 3.072
       ca-central-1:
@@ -73387,6 +73290,9 @@ m6g.16xlarge:
       ap-southeast-2:
         Dedicated: 3.3863
         Shared: 3.202
+      ap-southeast-3:
+        Dedicated: 3.3863
+        Shared: 3.202
       ca-central-1:
         Dedicated: 3.0336
         Shared: 2.8692
@@ -73449,6 +73355,9 @@ m6g.16xlarge:
         Dedicated: 3.4213
         Shared: 3.237
       ap-southeast-2:
+        Dedicated: 3.4213
+        Shared: 3.237
+      ap-southeast-3:
         Dedicated: 3.4213
         Shared: 3.237
       ca-central-1:
@@ -73515,6 +73424,9 @@ m6g.16xlarge:
       ap-southeast-2:
         Dedicated: 3.3813
         Shared: 3.197
+      ap-southeast-3:
+        Dedicated: 3.3813
+        Shared: 3.197
       ca-central-1:
         Dedicated: 3.0286
         Shared: 2.8642
@@ -73569,6 +73481,7 @@ m6g.16xlarge:
     - ca-central-1
     - eu-south-1
     - ap-northeast-2
+    - ap-southeast-3
     - ap-southeast-2
     - eu-west-1
     - eu-west-3
@@ -73610,6 +73523,9 @@ m6g.2xlarge:
         Dedicated: 0.407
         Shared: 0.384
       ap-southeast-2:
+        Dedicated: 0.407
+        Shared: 0.384
+      ap-southeast-3:
         Dedicated: 0.407
         Shared: 0.384
       ca-central-1:
@@ -73676,6 +73592,9 @@ m6g.2xlarge:
       ap-southeast-2:
         Dedicated: 0.537
         Shared: 0.514
+      ap-southeast-3:
+        Dedicated: 0.537
+        Shared: 0.514
       ca-central-1:
         Dedicated: 0.4929
         Shared: 0.4724
@@ -73738,6 +73657,9 @@ m6g.2xlarge:
         Dedicated: 0.572
         Shared: 0.549
       ap-southeast-2:
+        Dedicated: 0.572
+        Shared: 0.549
+      ap-southeast-3:
         Dedicated: 0.572
         Shared: 0.549
       ca-central-1:
@@ -73804,6 +73726,9 @@ m6g.2xlarge:
       ap-southeast-2:
         Dedicated: 0.532
         Shared: 0.509
+      ap-southeast-3:
+        Dedicated: 0.532
+        Shared: 0.509
       ca-central-1:
         Dedicated: 0.4879
         Shared: 0.4674
@@ -73858,6 +73783,7 @@ m6g.2xlarge:
     - eu-north-1
     - us-gov-east-1
     - ap-east-1
+    - ap-southeast-3
     - us-west-2
     - ap-northeast-1
     - ca-central-1
@@ -73899,6 +73825,9 @@ m6g.4xlarge:
         Dedicated: 0.8141
         Shared: 0.768
       ap-southeast-2:
+        Dedicated: 0.8141
+        Shared: 0.768
+      ap-southeast-3:
         Dedicated: 0.8141
         Shared: 0.768
       ca-central-1:
@@ -73965,6 +73894,9 @@ m6g.4xlarge:
       ap-southeast-2:
         Dedicated: 0.9441
         Shared: 0.898
+      ap-southeast-3:
+        Dedicated: 0.9441
+        Shared: 0.898
       ca-central-1:
         Dedicated: 0.8559
         Shared: 0.8148
@@ -74027,6 +73959,9 @@ m6g.4xlarge:
         Dedicated: 0.9791
         Shared: 0.933
       ap-southeast-2:
+        Dedicated: 0.9791
+        Shared: 0.933
+      ap-southeast-3:
         Dedicated: 0.9791
         Shared: 0.933
       ca-central-1:
@@ -74093,6 +74028,9 @@ m6g.4xlarge:
       ap-southeast-2:
         Dedicated: 0.9391
         Shared: 0.893
+      ap-southeast-3:
+        Dedicated: 0.9391
+        Shared: 0.893
       ca-central-1:
         Dedicated: 0.8509
         Shared: 0.8098
@@ -74153,6 +74091,7 @@ m6g.4xlarge:
     - us-gov-east-1
     - eu-central-1
     - eu-south-1
+    - ap-southeast-3
     - us-east-2
     - us-east-1
     - ap-northeast-2
@@ -74188,6 +74127,9 @@ m6g.8xlarge:
         Dedicated: 1.6282
         Shared: 1.536
       ap-southeast-2:
+        Dedicated: 1.6282
+        Shared: 1.536
+      ap-southeast-3:
         Dedicated: 1.6282
         Shared: 1.536
       ca-central-1:
@@ -74254,6 +74196,9 @@ m6g.8xlarge:
       ap-southeast-2:
         Dedicated: 1.7582
         Shared: 1.666
+      ap-southeast-3:
+        Dedicated: 1.7582
+        Shared: 1.666
       ca-central-1:
         Dedicated: 1.5818
         Shared: 1.4996
@@ -74316,6 +74261,9 @@ m6g.8xlarge:
         Dedicated: 1.7932
         Shared: 1.701
       ap-southeast-2:
+        Dedicated: 1.7932
+        Shared: 1.701
+      ap-southeast-3:
         Dedicated: 1.7932
         Shared: 1.701
       ca-central-1:
@@ -74382,6 +74330,9 @@ m6g.8xlarge:
       ap-southeast-2:
         Dedicated: 1.7532
         Shared: 1.661
+      ap-southeast-3:
+        Dedicated: 1.7532
+        Shared: 1.661
       ca-central-1:
         Dedicated: 1.5768
         Shared: 1.4946
@@ -74444,6 +74395,7 @@ m6g.8xlarge:
     - eu-central-1
     - ap-south-1
     - eu-west-2
+    - ap-southeast-3
     - eu-north-1
     - us-east-1
     - us-west-1
@@ -74477,6 +74429,9 @@ m6g.large:
         Dedicated: 0.1018
         Shared: 0.096
       ap-southeast-2:
+        Dedicated: 0.1018
+        Shared: 0.096
+      ap-southeast-3:
         Dedicated: 0.1018
         Shared: 0.096
       ca-central-1:
@@ -74543,6 +74498,9 @@ m6g.large:
       ap-southeast-2:
         Dedicated: 0.1618
         Shared: 0.156
+      ap-southeast-3:
+        Dedicated: 0.1618
+        Shared: 0.156
       ca-central-1:
         Dedicated: 0.1507
         Shared: 0.1456
@@ -74605,6 +74563,9 @@ m6g.large:
         Dedicated: 0.1968
         Shared: 0.191
       ap-southeast-2:
+        Dedicated: 0.1968
+        Shared: 0.191
+      ap-southeast-3:
         Dedicated: 0.1968
         Shared: 0.191
       ca-central-1:
@@ -74671,6 +74632,9 @@ m6g.large:
       ap-southeast-2:
         Dedicated: 0.1581
         Shared: 0.1523
+      ap-southeast-3:
+        Dedicated: 0.1581
+        Shared: 0.1523
       ca-central-1:
         Dedicated: 0.147
         Shared: 0.1419
@@ -74730,6 +74694,7 @@ m6g.large:
     - us-gov-east-1
     - us-gov-west-1
     - me-south-1
+    - ap-southeast-3
     - eu-south-1
     - ap-south-1
     - eu-central-1
@@ -74766,6 +74731,9 @@ m6g.medium:
         Dedicated: 0.0509
         Shared: 0.048
       ap-southeast-2:
+        Dedicated: 0.0509
+        Shared: 0.048
+      ap-southeast-3:
         Dedicated: 0.0509
         Shared: 0.048
       ca-central-1:
@@ -74832,6 +74800,9 @@ m6g.medium:
       ap-southeast-2:
         Dedicated: 0.1109
         Shared: 0.108
+      ap-southeast-3:
+        Dedicated: 0.1109
+        Shared: 0.108
       ca-central-1:
         Dedicated: 0.1054
         Shared: 0.1028
@@ -74894,6 +74865,9 @@ m6g.medium:
         Dedicated: 0.1459
         Shared: 0.143
       ap-southeast-2:
+        Dedicated: 0.1459
+        Shared: 0.143
+      ap-southeast-3:
         Dedicated: 0.1459
         Shared: 0.143
       ca-central-1:
@@ -74960,6 +74934,9 @@ m6g.medium:
       ap-southeast-2:
         Dedicated: 0.0819
         Shared: 0.079
+      ap-southeast-3:
+        Dedicated: 0.1072
+        Shared: 0.1043
       ca-central-1:
         Dedicated: 0.0764
         Shared: 0.0738
@@ -75009,6 +74986,7 @@ m6g.medium:
     - eu-north-1
     - sa-east-1
     - us-gov-west-1
+    - ap-southeast-3
     - eu-central-1
     - ap-southeast-2
     - eu-west-2
@@ -75055,6 +75033,9 @@ m6g.metal:
         Dedicated: 3.2563
         Shared: 3.072
       ap-southeast-2:
+        Dedicated: 3.2563
+        Shared: 3.072
+      ap-southeast-3:
         Dedicated: 3.2563
         Shared: 3.072
       ca-central-1:
@@ -75121,6 +75102,9 @@ m6g.metal:
       ap-southeast-2:
         Dedicated: 3.3863
         Shared: 3.202
+      ap-southeast-3:
+        Dedicated: 3.3863
+        Shared: 3.202
       ca-central-1:
         Dedicated: 3.0336
         Shared: 2.8692
@@ -75183,6 +75167,9 @@ m6g.metal:
         Dedicated: 3.4213
         Shared: 3.237
       ap-southeast-2:
+        Dedicated: 3.4213
+        Shared: 3.237
+      ap-southeast-3:
         Dedicated: 3.4213
         Shared: 3.237
       ca-central-1:
@@ -75249,6 +75236,9 @@ m6g.metal:
       ap-southeast-2:
         Dedicated: 3.3813
         Shared: 3.197
+      ap-southeast-3:
+        Dedicated: 3.3813
+        Shared: 3.197
       ca-central-1:
         Dedicated: 3.0286
         Shared: 2.8642
@@ -75306,6 +75296,7 @@ m6g.metal:
     - ap-northeast-1
     - ap-southeast-2
     - us-west-2
+    - ap-southeast-3
     - eu-west-3
     - ap-southeast-1
     - us-east-1
@@ -75344,6 +75335,9 @@ m6g.xlarge:
         Dedicated: 0.2035
         Shared: 0.192
       ap-southeast-2:
+        Dedicated: 0.2035
+        Shared: 0.192
+      ap-southeast-3:
         Dedicated: 0.2035
         Shared: 0.192
       ca-central-1:
@@ -75410,6 +75404,9 @@ m6g.xlarge:
       ap-southeast-2:
         Dedicated: 0.2635
         Shared: 0.252
+      ap-southeast-3:
+        Dedicated: 0.2635
+        Shared: 0.252
       ca-central-1:
         Dedicated: 0.2415
         Shared: 0.2312
@@ -75472,6 +75469,9 @@ m6g.xlarge:
         Dedicated: 0.2985
         Shared: 0.287
       ap-southeast-2:
+        Dedicated: 0.2985
+        Shared: 0.287
+      ap-southeast-3:
         Dedicated: 0.2985
         Shared: 0.287
       ca-central-1:
@@ -75538,6 +75538,9 @@ m6g.xlarge:
       ap-southeast-2:
         Dedicated: 0.2598
         Shared: 0.2483
+      ap-southeast-3:
+        Dedicated: 0.2598
+        Shared: 0.2483
       ca-central-1:
         Dedicated: 0.2378
         Shared: 0.2275
@@ -75591,6 +75594,7 @@ m6g.xlarge:
     - ap-southeast-1
     - eu-west-2
     - ca-central-1
+    - ap-southeast-3
     - ap-south-1
     - us-east-2
     - ap-southeast-2
@@ -75630,6 +75634,9 @@ m6gd.12xlarge:
       ap-southeast-2:
         Dedicated: 2.8992
         Shared: 2.736
+      ap-southeast-3:
+        Dedicated: 2.8752
+        Shared: 2.712
       eu-central-1:
         Dedicated: 2.772
         Shared: 2.616
@@ -75667,6 +75674,9 @@ m6gd.12xlarge:
       ap-southeast-2:
         Dedicated: 3.0292
         Shared: 2.866
+      ap-southeast-3:
+        Dedicated: 3.0052
+        Shared: 2.842
       eu-central-1:
         Dedicated: 2.902
         Shared: 2.746
@@ -75704,6 +75714,9 @@ m6gd.12xlarge:
       ap-southeast-2:
         Dedicated: 3.0642
         Shared: 2.901
+      ap-southeast-3:
+        Dedicated: 3.0402
+        Shared: 2.877
       eu-central-1:
         Dedicated: 2.937
         Shared: 2.781
@@ -75741,6 +75754,9 @@ m6gd.12xlarge:
       ap-southeast-2:
         Dedicated: 3.0242
         Shared: 2.861
+      ap-southeast-3:
+        Dedicated: 3.0002
+        Shared: 2.837
       eu-central-1:
         Dedicated: 2.897
         Shared: 2.741
@@ -75774,6 +75790,7 @@ m6gd.12xlarge:
     - ap-south-1
     - eu-north-1
     - us-west-2
+    - ap-southeast-3
     - us-east-1
     - eu-central-1
     - ap-southeast-2
@@ -75803,6 +75820,9 @@ m6gd.16xlarge:
       ap-southeast-2:
         Dedicated: 3.8656
         Shared: 3.648
+      ap-southeast-3:
+        Dedicated: 3.616
+        Shared: 3.616
       eu-central-1:
         Dedicated: 3.696
         Shared: 3.488
@@ -75840,6 +75860,9 @@ m6gd.16xlarge:
       ap-southeast-2:
         Dedicated: 3.9956
         Shared: 3.778
+      ap-southeast-3:
+        Dedicated: 3.746
+        Shared: 3.746
       eu-central-1:
         Dedicated: 3.826
         Shared: 3.618
@@ -75877,6 +75900,9 @@ m6gd.16xlarge:
       ap-southeast-2:
         Dedicated: 4.0306
         Shared: 3.813
+      ap-southeast-3:
+        Dedicated: 3.781
+        Shared: 3.781
       eu-central-1:
         Dedicated: 3.861
         Shared: 3.653
@@ -75914,6 +75940,9 @@ m6gd.16xlarge:
       ap-southeast-2:
         Dedicated: 3.773
         Shared: 3.773
+      ap-southeast-3:
+        Dedicated: 3.741
+        Shared: 3.741
       eu-central-1:
         Dedicated: 3.613
         Shared: 3.613
@@ -75941,6 +75970,7 @@ m6gd.16xlarge:
   regions:
     - ap-southeast-1
     - us-east-1
+    - ap-southeast-3
     - eu-west-1
     - ap-southeast-2
     - eu-north-1
@@ -75976,6 +76006,9 @@ m6gd.2xlarge:
       ap-southeast-2:
         Dedicated: 0.4832
         Shared: 0.456
+      ap-southeast-3:
+        Dedicated: 0.4792
+        Shared: 0.452
       eu-central-1:
         Dedicated: 0.462
         Shared: 0.436
@@ -76013,6 +76046,9 @@ m6gd.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6132
         Shared: 0.586
+      ap-southeast-3:
+        Dedicated: 0.6092
+        Shared: 0.582
       eu-central-1:
         Dedicated: 0.592
         Shared: 0.566
@@ -76050,6 +76086,9 @@ m6gd.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6482
         Shared: 0.621
+      ap-southeast-3:
+        Dedicated: 0.6442
+        Shared: 0.617
       eu-central-1:
         Dedicated: 0.627
         Shared: 0.601
@@ -76087,6 +76126,9 @@ m6gd.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6082
         Shared: 0.581
+      ap-southeast-3:
+        Dedicated: 0.6042
+        Shared: 0.577
       eu-central-1:
         Dedicated: 0.587
         Shared: 0.561
@@ -76119,6 +76161,7 @@ m6gd.2xlarge:
     - eu-central-1
     - eu-north-1
     - ap-southeast-2
+    - ap-southeast-3
     - ap-northeast-1
     - us-west-2
     - ap-southeast-1
@@ -76149,6 +76192,9 @@ m6gd.4xlarge:
       ap-southeast-2:
         Dedicated: 0.9664
         Shared: 0.912
+      ap-southeast-3:
+        Dedicated: 0.9584
+        Shared: 0.904
       eu-central-1:
         Dedicated: 0.924
         Shared: 0.872
@@ -76186,6 +76232,9 @@ m6gd.4xlarge:
       ap-southeast-2:
         Dedicated: 1.0964
         Shared: 1.042
+      ap-southeast-3:
+        Dedicated: 1.0884
+        Shared: 1.034
       eu-central-1:
         Dedicated: 1.054
         Shared: 1.002
@@ -76223,6 +76272,9 @@ m6gd.4xlarge:
       ap-southeast-2:
         Dedicated: 1.1314
         Shared: 1.077
+      ap-southeast-3:
+        Dedicated: 1.1234
+        Shared: 1.069
       eu-central-1:
         Dedicated: 1.089
         Shared: 1.037
@@ -76260,6 +76312,9 @@ m6gd.4xlarge:
       ap-southeast-2:
         Dedicated: 1.0914
         Shared: 1.037
+      ap-southeast-3:
+        Dedicated: 1.0834
+        Shared: 1.029
       eu-central-1:
         Dedicated: 1.049
         Shared: 0.997
@@ -76290,6 +76345,7 @@ m6gd.4xlarge:
     - us-west-2
     - eu-north-1
     - ap-southeast-2
+    - ap-southeast-3
     - ap-southeast-1
     - ap-south-1
     - eu-west-1
@@ -76322,6 +76378,9 @@ m6gd.8xlarge:
       ap-southeast-2:
         Dedicated: 1.9328
         Shared: 1.824
+      ap-southeast-3:
+        Dedicated: 1.9168
+        Shared: 1.808
       eu-central-1:
         Dedicated: 1.848
         Shared: 1.744
@@ -76359,6 +76418,9 @@ m6gd.8xlarge:
       ap-southeast-2:
         Dedicated: 2.0628
         Shared: 1.954
+      ap-southeast-3:
+        Dedicated: 2.0468
+        Shared: 1.938
       eu-central-1:
         Dedicated: 1.978
         Shared: 1.874
@@ -76396,6 +76458,9 @@ m6gd.8xlarge:
       ap-southeast-2:
         Dedicated: 2.0978
         Shared: 1.989
+      ap-southeast-3:
+        Dedicated: 2.0818
+        Shared: 1.973
       eu-central-1:
         Dedicated: 2.013
         Shared: 1.909
@@ -76433,6 +76498,9 @@ m6gd.8xlarge:
       ap-southeast-2:
         Dedicated: 2.0578
         Shared: 1.949
+      ap-southeast-3:
+        Dedicated: 2.0418
+        Shared: 1.933
       eu-central-1:
         Dedicated: 1.973
         Shared: 1.869
@@ -76462,6 +76530,7 @@ m6gd.8xlarge:
     - eu-west-1
     - eu-north-1
     - us-east-2
+    - ap-southeast-3
     - ap-southeast-1
     - eu-west-2
     - ap-south-1
@@ -76495,6 +76564,9 @@ m6gd.large:
       ap-southeast-2:
         Dedicated: 0.1208
         Shared: 0.114
+      ap-southeast-3:
+        Dedicated: 0.1198
+        Shared: 0.113
       eu-central-1:
         Dedicated: 0.1155
         Shared: 0.109
@@ -76532,6 +76604,9 @@ m6gd.large:
       ap-southeast-2:
         Dedicated: 0.1808
         Shared: 0.174
+      ap-southeast-3:
+        Dedicated: 0.1798
+        Shared: 0.173
       eu-central-1:
         Dedicated: 0.1755
         Shared: 0.169
@@ -76569,6 +76644,9 @@ m6gd.large:
       ap-southeast-2:
         Dedicated: 0.2158
         Shared: 0.209
+      ap-southeast-3:
+        Dedicated: 0.2148
+        Shared: 0.208
       eu-central-1:
         Dedicated: 0.2105
         Shared: 0.204
@@ -76606,6 +76684,9 @@ m6gd.large:
       ap-southeast-2:
         Dedicated: 0.1771
         Shared: 0.1703
+      ap-southeast-3:
+        Dedicated: 0.1761
+        Shared: 0.1693
       eu-central-1:
         Dedicated: 0.1718
         Shared: 0.1653
@@ -76635,6 +76716,7 @@ m6gd.large:
     - eu-west-2
     - us-east-1
     - ap-northeast-1
+    - ap-southeast-3
     - ap-southeast-2
     - ap-southeast-1
     - us-west-2
@@ -76668,6 +76750,9 @@ m6gd.medium:
       ap-southeast-2:
         Dedicated: 0.0604
         Shared: 0.057
+      ap-southeast-3:
+        Dedicated: 0.0599
+        Shared: 0.0565
       eu-central-1:
         Dedicated: 0.0577
         Shared: 0.0545
@@ -76705,6 +76790,9 @@ m6gd.medium:
       ap-southeast-2:
         Dedicated: 0.1204
         Shared: 0.117
+      ap-southeast-3:
+        Dedicated: 0.1199
+        Shared: 0.1165
       eu-central-1:
         Dedicated: 0.1177
         Shared: 0.1145
@@ -76742,6 +76830,9 @@ m6gd.medium:
       ap-southeast-2:
         Dedicated: 0.1554
         Shared: 0.152
+      ap-southeast-3:
+        Dedicated: 0.1549
+        Shared: 0.1515
       eu-central-1:
         Dedicated: 0.1527
         Shared: 0.1495
@@ -76779,6 +76870,9 @@ m6gd.medium:
       ap-southeast-2:
         Dedicated: 0.0914
         Shared: 0.088
+      ap-southeast-3:
+        Dedicated: 0.1162
+        Shared: 0.1128
       eu-central-1:
         Dedicated: 0.0887
         Shared: 0.0855
@@ -76809,6 +76903,7 @@ m6gd.medium:
     - eu-west-1
     - ap-northeast-1
     - us-east-2
+    - ap-southeast-3
     - ap-southeast-2
     - eu-north-1
     - us-west-2
@@ -76841,6 +76936,9 @@ m6gd.metal:
       ap-southeast-2:
         Dedicated: 3.8656
         Shared: 3.648
+      ap-southeast-3:
+        Dedicated: 3.616
+        Shared: 3.616
       eu-central-1:
         Dedicated: 3.696
         Shared: 3.488
@@ -76878,6 +76976,9 @@ m6gd.metal:
       ap-southeast-2:
         Dedicated: 3.9956
         Shared: 3.778
+      ap-southeast-3:
+        Dedicated: 3.746
+        Shared: 3.746
       eu-central-1:
         Dedicated: 3.826
         Shared: 3.618
@@ -76915,6 +77016,9 @@ m6gd.metal:
       ap-southeast-2:
         Dedicated: 4.0306
         Shared: 3.813
+      ap-southeast-3:
+        Dedicated: 3.781
+        Shared: 3.781
       eu-central-1:
         Dedicated: 3.861
         Shared: 3.653
@@ -76952,6 +77056,9 @@ m6gd.metal:
       ap-southeast-2:
         Dedicated: 3.773
         Shared: 3.773
+      ap-southeast-3:
+        Dedicated: 3.741
+        Shared: 3.741
       eu-central-1:
         Dedicated: 3.613
         Shared: 3.613
@@ -76978,6 +77085,7 @@ m6gd.metal:
         Shared: 3.0178
   regions:
     - us-west-2
+    - ap-southeast-3
     - eu-north-1
     - eu-west-1
     - us-east-2
@@ -77014,6 +77122,9 @@ m6gd.xlarge:
       ap-southeast-2:
         Dedicated: 0.2416
         Shared: 0.228
+      ap-southeast-3:
+        Dedicated: 0.2396
+        Shared: 0.226
       eu-central-1:
         Dedicated: 0.231
         Shared: 0.218
@@ -77051,6 +77162,9 @@ m6gd.xlarge:
       ap-southeast-2:
         Dedicated: 0.3016
         Shared: 0.288
+      ap-southeast-3:
+        Dedicated: 0.2996
+        Shared: 0.286
       eu-central-1:
         Dedicated: 0.291
         Shared: 0.278
@@ -77088,6 +77202,9 @@ m6gd.xlarge:
       ap-southeast-2:
         Dedicated: 0.3366
         Shared: 0.323
+      ap-southeast-3:
+        Dedicated: 0.3346
+        Shared: 0.321
       eu-central-1:
         Dedicated: 0.326
         Shared: 0.313
@@ -77125,6 +77242,9 @@ m6gd.xlarge:
       ap-southeast-2:
         Dedicated: 0.2979
         Shared: 0.2843
+      ap-southeast-3:
+        Dedicated: 0.2959
+        Shared: 0.2823
       eu-central-1:
         Dedicated: 0.2873
         Shared: 0.2743
@@ -77159,6 +77279,7 @@ m6gd.xlarge:
     - eu-central-1
     - us-west-2
     - us-east-2
+    - ap-southeast-3
     - eu-north-1
     - ap-southeast-2
     - ap-south-1
@@ -83041,9 +83162,6 @@ r3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.878
         Shared: 0.798
-      Asia Pacific (Osaka):
-        Dedicated: 0.88
-        Shared: 0.8
       eu-central-1:
         Dedicated: 0.88
         Shared: 0.8
@@ -83084,9 +83202,6 @@ r3.2xlarge:
       ap-southeast-2:
         Dedicated: 1.008
         Shared: 0.928
-      Asia Pacific (Osaka):
-        Dedicated: 1.01
-        Shared: 0.93
       eu-central-1:
         Dedicated: 1.023
         Shared: 0.93
@@ -83125,9 +83240,6 @@ r3.2xlarge:
         Dedicated: 1.045
         Shared: 0.965
       ap-southeast-2:
-        Dedicated: 1.045
-        Shared: 0.965
-      Asia Pacific (Osaka):
         Dedicated: 1.045
         Shared: 0.965
       eu-central-1:
@@ -83170,9 +83282,6 @@ r3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.978
         Shared: 0.898
-      Asia Pacific (Osaka):
-        Dedicated: 0.98
-        Shared: 0.9
       eu-central-1:
         Dedicated: 0.99
         Shared: 0.9
@@ -83213,9 +83322,6 @@ r3.2xlarge:
       ap-southeast-2:
         Dedicated: 0.878
         Shared: 1.25
-      Asia Pacific (Osaka):
-        Dedicated: 0.88
-        Shared: 1.168
       eu-central-1:
         Dedicated: 1.298
         Shared: 1.18
@@ -83283,9 +83389,6 @@ r3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.756
         Shared: 1.596
-      Asia Pacific (Osaka):
-        Dedicated: 1.76
-        Shared: 1.6
       eu-central-1:
         Dedicated: 1.759
         Shared: 1.6
@@ -83326,9 +83429,6 @@ r3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.886
         Shared: 1.726
-      Asia Pacific (Osaka):
-        Dedicated: 1.89
-        Shared: 1.73
       eu-central-1:
         Dedicated: 1.902
         Shared: 1.73
@@ -83367,9 +83467,6 @@ r3.4xlarge:
         Dedicated: 1.925
         Shared: 1.765
       ap-southeast-2:
-        Dedicated: 1.925
-        Shared: 1.765
-      Asia Pacific (Osaka):
         Dedicated: 1.925
         Shared: 1.765
       eu-central-1:
@@ -83412,9 +83509,6 @@ r3.4xlarge:
       ap-southeast-2:
         Dedicated: 1.856
         Shared: 1.696
-      Asia Pacific (Osaka):
-        Dedicated: 1.86
-        Shared: 1.7
       eu-central-1:
         Dedicated: 1.869
         Shared: 1.7
@@ -83455,9 +83549,6 @@ r3.4xlarge:
       ap-southeast-2:
         Dedicated: 2.6
         Shared: 2.363
-      Asia Pacific (Osaka):
-        Dedicated: 1.76
-        Shared: 2.336
       eu-central-1:
         Dedicated: 1.759
         Shared: 2.228
@@ -83485,7 +83576,6 @@ r3.4xlarge:
   regions:
     - sa-east-1
     - eu-central-1
-    - Asia Pacific (Osaka)
     - us-east-2
     - us-west-2
     - us-east-1
@@ -83497,6 +83587,7 @@ r3.4xlarge:
     - eu-west-1
     - ap-southeast-1
     - us-west-1
+    - Asia Pacific (Osaka)
   storage: 1 x 320 SSD
   vcpu: 16
 r3.8xlarge:
@@ -83525,9 +83616,6 @@ r3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.192
         Shared: 3.192
-      Asia Pacific (Osaka):
-        Dedicated: 3.2
-        Shared: 3.2
       eu-central-1:
         Dedicated: 3.201
         Shared: 3.201
@@ -83568,9 +83656,6 @@ r3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.322
         Shared: 3.322
-      Asia Pacific (Osaka):
-        Dedicated: 3.33
-        Shared: 3.33
       eu-central-1:
         Dedicated: 3.331
         Shared: 3.331
@@ -83609,9 +83694,6 @@ r3.8xlarge:
         Dedicated: 3.365
         Shared: 3.365
       ap-southeast-2:
-        Dedicated: 3.365
-        Shared: 3.365
-      Asia Pacific (Osaka):
         Dedicated: 3.365
         Shared: 3.365
       eu-central-1:
@@ -83654,9 +83736,6 @@ r3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.292
         Shared: 3.292
-      Asia Pacific (Osaka):
-        Dedicated: 3.3
-        Shared: 3.3
       eu-central-1:
         Dedicated: 3.301
         Shared: 3.301
@@ -83697,9 +83776,6 @@ r3.8xlarge:
       ap-southeast-2:
         Dedicated: 3.192
         Shared: 3.192
-      Asia Pacific (Osaka):
-        Dedicated: 4.672
-        Shared: 3.2
       eu-central-1:
         Dedicated: 4.069
         Shared: 4.069
@@ -83725,7 +83801,6 @@ r3.8xlarge:
         Dedicated: 3.5
         Shared: 2.66
   regions:
-    - Asia Pacific (Osaka)
     - us-east-2
     - us-gov-west-1
     - ap-southeast-1
@@ -83739,6 +83814,7 @@ r3.8xlarge:
     - eu-central-1
     - us-west-2
     - eu-west-1
+    - Asia Pacific (Osaka)
   storage: 2 x 320 SSD
   vcpu: 32
 r3.large:
@@ -83766,9 +83842,6 @@ r3.large:
         Shared: 0.2
       ap-southeast-2:
         Dedicated: 0.219
-        Shared: 0.2
-      Asia Pacific (Osaka):
-        Dedicated: 0.22
         Shared: 0.2
       eu-central-1:
         Dedicated: 0.219
@@ -83810,9 +83883,6 @@ r3.large:
       ap-southeast-2:
         Dedicated: 0.279
         Shared: 0.26
-      Asia Pacific (Osaka):
-        Dedicated: 0.28
-        Shared: 0.26
       eu-central-1:
         Dedicated: 0.285
         Shared: 0.26
@@ -83851,9 +83921,6 @@ r3.large:
         Dedicated: 0.315
         Shared: 0.295
       ap-southeast-2:
-        Dedicated: 0.315
-        Shared: 0.295
-      Asia Pacific (Osaka):
         Dedicated: 0.315
         Shared: 0.295
       eu-central-1:
@@ -83896,9 +83963,6 @@ r3.large:
       ap-southeast-2:
         Dedicated: 0.319
         Shared: 0.3
-      Asia Pacific (Osaka):
-        Dedicated: 0.32
-        Shared: 0.3
       eu-central-1:
         Dedicated: 0.329
         Shared: 0.3
@@ -83939,9 +84003,6 @@ r3.large:
       ap-southeast-2:
         Dedicated: 0.343
         Shared: 0.313
-      Asia Pacific (Osaka):
-        Dedicated: 0.22
-        Shared: 0.2
       eu-central-1:
         Dedicated: 0.219
         Shared: 0.325
@@ -84009,9 +84070,6 @@ r3.xlarge:
       ap-southeast-2:
         Dedicated: 0.439
         Shared: 0.399
-      Asia Pacific (Osaka):
-        Dedicated: 0.44
-        Shared: 0.4
       eu-central-1:
         Dedicated: 0.44
         Shared: 0.4
@@ -84052,9 +84110,6 @@ r3.xlarge:
       ap-southeast-2:
         Dedicated: 0.499
         Shared: 0.459
-      Asia Pacific (Osaka):
-        Dedicated: 0.5
-        Shared: 0.46
       eu-central-1:
         Dedicated: 0.506
         Shared: 0.46
@@ -84093,9 +84148,6 @@ r3.xlarge:
         Dedicated: 0.535
         Shared: 0.495
       ap-southeast-2:
-        Dedicated: 0.535
-        Shared: 0.495
-      Asia Pacific (Osaka):
         Dedicated: 0.535
         Shared: 0.495
       eu-central-1:
@@ -84138,9 +84190,6 @@ r3.xlarge:
       ap-southeast-2:
         Dedicated: 0.539
         Shared: 0.499
-      Asia Pacific (Osaka):
-        Dedicated: 0.54
-        Shared: 0.5
       eu-central-1:
         Dedicated: 0.55
         Shared: 0.5
@@ -84181,9 +84230,6 @@ r3.xlarge:
       ap-southeast-2:
         Dedicated: 0.688
         Shared: 0.399
-      Asia Pacific (Osaka):
-        Dedicated: 0.44
-        Shared: 0.584
       eu-central-1:
         Dedicated: 0.715
         Shared: 0.4
@@ -84218,11 +84264,11 @@ r3.xlarge:
     - eu-central-1
     - us-gov-west-1
     - ap-southeast-2
-    - Asia Pacific (Osaka)
     - eu-west-1
     - ap-south-1
     - ap-northeast-2
     - us-west-2
+    - Asia Pacific (Osaka)
   storage: 1 x 80 SSD
   vcpu: 4
 r4.16xlarge:
@@ -96997,7 +97043,7 @@ r5d.12xlarge:
     - eu-south-1
     - us-east-2
     - us-gov-west-1
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
   storage: 2 x 900 NVMe SSD
   vcpu: 48
 r5d.16xlarge:
@@ -97417,7 +97463,7 @@ r5d.16xlarge:
     - us-east-2
     - eu-west-3
     - ca-central-1
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
   storage: 4 x 600 NVMe SSD
   vcpu: 64
 r5d.24xlarge:
@@ -97837,7 +97883,7 @@ r5d.24xlarge:
     - eu-west-2
     - ca-central-1
     - Asia Pacific (Osaka)
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5d.2xlarge:
@@ -97924,9 +97970,6 @@ r5d.2xlarge:
       US East (Kansas City 2):
         Dedicated: 0.763
         Shared: 0.72
-      US East (Miami):
-        Dedicated: 0.763
-        Shared: 0.72
       US East (Minneapolis):
         Dedicated: 0.763
         Shared: 0.72
@@ -97954,6 +97997,9 @@ r5d.2xlarge:
       us-east-1:
         Dedicated: 0.611
         Shared: 0.576
+      'us-east-1-mia-1a ':
+        Dedicated: 0.763
+        Shared: 0.72
       us-east-2:
         Dedicated: 0.611
         Shared: 0.576
@@ -98045,9 +98091,6 @@ r5d.2xlarge:
       US East (Kansas City 2):
         Dedicated: 0.893
         Shared: 0.85
-      US East (Miami):
-        Dedicated: 0.893
-        Shared: 0.85
       US East (Minneapolis):
         Dedicated: 0.893
         Shared: 0.85
@@ -98075,6 +98118,9 @@ r5d.2xlarge:
       us-east-1:
         Dedicated: 0.741
         Shared: 0.706
+      'us-east-1-mia-1a ':
+        Dedicated: 0.893
+        Shared: 0.85
       us-east-2:
         Dedicated: 0.741
         Shared: 0.706
@@ -98166,9 +98212,6 @@ r5d.2xlarge:
       US East (Kansas City 2):
         Dedicated: 0.928
         Shared: 0.885
-      US East (Miami):
-        Dedicated: 0.928
-        Shared: 0.885
       US East (Minneapolis):
         Dedicated: 0.928
         Shared: 0.885
@@ -98196,6 +98239,9 @@ r5d.2xlarge:
       us-east-1:
         Dedicated: 0.776
         Shared: 0.741
+      'us-east-1-mia-1a ':
+        Dedicated: 0.928
+        Shared: 0.885
       us-east-2:
         Dedicated: 0.776
         Shared: 0.741
@@ -98287,9 +98333,6 @@ r5d.2xlarge:
       US East (Kansas City 2):
         Dedicated: 0.888
         Shared: 0.845
-      US East (Miami):
-        Dedicated: 0.888
-        Shared: 0.845
       US East (Minneapolis):
         Dedicated: 0.888
         Shared: 0.845
@@ -98317,6 +98360,9 @@ r5d.2xlarge:
       us-east-1:
         Dedicated: 0.736
         Shared: 0.701
+      'us-east-1-mia-1a ':
+        Dedicated: 0.888
+        Shared: 0.845
       us-east-2:
         Dedicated: 0.736
         Shared: 0.701
@@ -98408,9 +98454,6 @@ r5d.2xlarge:
       US East (Kansas City 2):
         Dedicated: 1.131
         Shared: 0.72
-      US East (Miami):
-        Dedicated: 1.131
-        Shared: 1.088
       US East (Minneapolis):
         Dedicated: 1.131
         Shared: 1.088
@@ -98438,6 +98481,9 @@ r5d.2xlarge:
       us-east-1:
         Dedicated: 0.979
         Shared: 0.944
+      'us-east-1-mia-1a ':
+        Dedicated: 1.131
+        Shared: 1.088
       us-east-2:
         Dedicated: 0.979
         Shared: 0.944
@@ -98479,7 +98525,7 @@ r5d.2xlarge:
     - US East (Atlanta)
     - me-south-1
     - ap-southeast-1
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
     - eu-west-3
     - eu-south-1
     - us-gov-west-1
@@ -98916,7 +98962,7 @@ r5d.4xlarge:
     - ap-southeast-1
     - eu-west-2
     - ap-south-1
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
   storage: 2 x 300 NVMe SSD
   vcpu: 16
 r5d.8xlarge:
@@ -99337,7 +99383,7 @@ r5d.8xlarge:
     - us-east-2
     - eu-north-1
     - US East (Houston)
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
   storage: 2 x 600 NVMe SSD
   vcpu: 32
 r5d.large:
@@ -107244,6 +107290,9 @@ r6g.12xlarge:
       ap-southeast-2:
         Dedicated: 3.0732
         Shared: 2.8992
+      ap-southeast-3:
+        Dedicated: 3.0935
+        Shared: 2.9184
       ca-central-1:
         Dedicated: 2.8086
         Shared: 2.6496
@@ -107305,6 +107354,9 @@ r6g.12xlarge:
       ap-southeast-2:
         Dedicated: 3.2032
         Shared: 3.0292
+      ap-southeast-3:
+        Dedicated: 3.2235
+        Shared: 3.0484
       ca-central-1:
         Dedicated: 2.9386
         Shared: 2.7796
@@ -107366,6 +107418,9 @@ r6g.12xlarge:
       ap-southeast-2:
         Dedicated: 3.2382
         Shared: 3.0642
+      ap-southeast-3:
+        Dedicated: 3.2585
+        Shared: 3.0834
       ca-central-1:
         Dedicated: 2.9736
         Shared: 2.8146
@@ -107427,6 +107482,9 @@ r6g.12xlarge:
       ap-southeast-2:
         Dedicated: 3.1982
         Shared: 3.0242
+      ap-southeast-3:
+        Dedicated: 3.2185
+        Shared: 3.0434
       ca-central-1:
         Dedicated: 2.9336
         Shared: 2.7746
@@ -107474,6 +107532,7 @@ r6g.12xlarge:
     - us-west-1
     - ap-northeast-1
     - sa-east-1
+    - ap-southeast-3
     - eu-south-1
     - eu-central-1
     - ap-southeast-1
@@ -107521,6 +107580,9 @@ r6g.16xlarge:
       ap-southeast-2:
         Dedicated: 4.0975
         Shared: 3.8656
+      ap-southeast-3:
+        Dedicated: 3.8912
+        Shared: 3.8912
       ca-central-1:
         Dedicated: 3.7448
         Shared: 3.5328
@@ -107582,6 +107644,9 @@ r6g.16xlarge:
       ap-southeast-2:
         Dedicated: 4.2275
         Shared: 3.9956
+      ap-southeast-3:
+        Dedicated: 4.0212
+        Shared: 4.0212
       ca-central-1:
         Dedicated: 3.8748
         Shared: 3.6628
@@ -107643,6 +107708,9 @@ r6g.16xlarge:
       ap-southeast-2:
         Dedicated: 4.2625
         Shared: 4.0306
+      ap-southeast-3:
+        Dedicated: 4.0562
+        Shared: 4.0562
       ca-central-1:
         Dedicated: 3.9098
         Shared: 3.6978
@@ -107704,6 +107772,9 @@ r6g.16xlarge:
       ap-southeast-2:
         Dedicated: 3.9906
         Shared: 3.9906
+      ap-southeast-3:
+        Dedicated: 4.0162
+        Shared: 4.0162
       ca-central-1:
         Dedicated: 3.6578
         Shared: 3.6578
@@ -107759,6 +107830,7 @@ r6g.16xlarge:
     - ap-east-1
     - eu-west-2
     - ap-southeast-2
+    - ap-southeast-3
     - eu-west-1
     - eu-west-3
     - ap-southeast-1
@@ -107798,6 +107870,9 @@ r6g.2xlarge:
       ap-southeast-2:
         Dedicated: 0.5122
         Shared: 0.4832
+      ap-southeast-3:
+        Dedicated: 0.5156
+        Shared: 0.4864
       ca-central-1:
         Dedicated: 0.4681
         Shared: 0.4416
@@ -107859,6 +107934,9 @@ r6g.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6422
         Shared: 0.6132
+      ap-southeast-3:
+        Dedicated: 0.6456
+        Shared: 0.6164
       ca-central-1:
         Dedicated: 0.5981
         Shared: 0.5716
@@ -107920,6 +107998,9 @@ r6g.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6772
         Shared: 0.6482
+      ap-southeast-3:
+        Dedicated: 0.6806
+        Shared: 0.6514
       ca-central-1:
         Dedicated: 0.6331
         Shared: 0.6066
@@ -107981,6 +108062,9 @@ r6g.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6372
         Shared: 0.6082
+      ap-southeast-3:
+        Dedicated: 0.6406
+        Shared: 0.6114
       ca-central-1:
         Dedicated: 0.5931
         Shared: 0.5666
@@ -108028,6 +108112,7 @@ r6g.2xlarge:
     - ap-northeast-2
     - us-west-1
     - eu-central-1
+    - ap-southeast-3
     - ca-central-1
     - eu-west-1
     - sa-east-1
@@ -108075,6 +108160,9 @@ r6g.4xlarge:
       ap-southeast-2:
         Dedicated: 1.0244
         Shared: 0.9664
+      ap-southeast-3:
+        Dedicated: 1.0312
+        Shared: 0.9728
       ca-central-1:
         Dedicated: 0.9362
         Shared: 0.8832
@@ -108136,6 +108224,9 @@ r6g.4xlarge:
       ap-southeast-2:
         Dedicated: 1.1544
         Shared: 1.0964
+      ap-southeast-3:
+        Dedicated: 1.1612
+        Shared: 1.1028
       ca-central-1:
         Dedicated: 1.0662
         Shared: 1.0132
@@ -108197,6 +108288,9 @@ r6g.4xlarge:
       ap-southeast-2:
         Dedicated: 1.1894
         Shared: 1.1314
+      ap-southeast-3:
+        Dedicated: 1.1962
+        Shared: 1.1378
       ca-central-1:
         Dedicated: 1.1012
         Shared: 1.0482
@@ -108258,6 +108352,9 @@ r6g.4xlarge:
       ap-southeast-2:
         Dedicated: 1.1494
         Shared: 1.0914
+      ap-southeast-3:
+        Dedicated: 1.1562
+        Shared: 1.0978
       ca-central-1:
         Dedicated: 1.0612
         Shared: 1.0082
@@ -108307,6 +108404,7 @@ r6g.4xlarge:
     - us-gov-east-1
     - eu-west-3
     - ap-east-1
+    - ap-southeast-3
     - ap-northeast-1
     - eu-central-1
     - eu-west-2
@@ -108352,6 +108450,9 @@ r6g.8xlarge:
       ap-southeast-2:
         Dedicated: 2.0488
         Shared: 1.9328
+      ap-southeast-3:
+        Dedicated: 2.0623
+        Shared: 1.9456
       ca-central-1:
         Dedicated: 1.8724
         Shared: 1.7664
@@ -108413,6 +108514,9 @@ r6g.8xlarge:
       ap-southeast-2:
         Dedicated: 2.1788
         Shared: 2.0628
+      ap-southeast-3:
+        Dedicated: 2.1923
+        Shared: 2.0756
       ca-central-1:
         Dedicated: 2.0024
         Shared: 1.8964
@@ -108474,6 +108578,9 @@ r6g.8xlarge:
       ap-southeast-2:
         Dedicated: 2.2138
         Shared: 2.0978
+      ap-southeast-3:
+        Dedicated: 2.2273
+        Shared: 2.1106
       ca-central-1:
         Dedicated: 2.0374
         Shared: 1.9314
@@ -108535,6 +108642,9 @@ r6g.8xlarge:
       ap-southeast-2:
         Dedicated: 2.1738
         Shared: 2.0578
+      ap-southeast-3:
+        Dedicated: 2.1873
+        Shared: 2.0706
       ca-central-1:
         Dedicated: 1.9974
         Shared: 1.8914
@@ -108580,6 +108690,7 @@ r6g.8xlarge:
   regions:
     - eu-west-1
     - eu-north-1
+    - ap-southeast-3
     - us-gov-east-1
     - us-west-1
     - sa-east-1
@@ -108629,6 +108740,9 @@ r6g.large:
       ap-southeast-2:
         Dedicated: 0.128
         Shared: 0.1208
+      ap-southeast-3:
+        Dedicated: 0.1289
+        Shared: 0.1216
       ca-central-1:
         Dedicated: 0.117
         Shared: 0.1104
@@ -108690,6 +108804,9 @@ r6g.large:
       ap-southeast-2:
         Dedicated: 0.188
         Shared: 0.1808
+      ap-southeast-3:
+        Dedicated: 0.1889
+        Shared: 0.1816
       ca-central-1:
         Dedicated: 0.177
         Shared: 0.1704
@@ -108751,6 +108868,9 @@ r6g.large:
       ap-southeast-2:
         Dedicated: 0.223
         Shared: 0.2158
+      ap-southeast-3:
+        Dedicated: 0.2239
+        Shared: 0.2166
       ca-central-1:
         Dedicated: 0.212
         Shared: 0.2054
@@ -108812,6 +108932,9 @@ r6g.large:
       ap-southeast-2:
         Dedicated: 0.1843
         Shared: 0.1771
+      ap-southeast-3:
+        Dedicated: 0.1852
+        Shared: 0.1779
       ca-central-1:
         Dedicated: 0.1733
         Shared: 0.1667
@@ -108874,6 +108997,7 @@ r6g.large:
     - ap-northeast-1
     - eu-south-1
     - ca-central-1
+    - ap-southeast-3
     - us-west-2
   storage: EBS only
   vcpu: 2
@@ -108906,6 +109030,9 @@ r6g.medium:
       ap-southeast-2:
         Dedicated: 0.064
         Shared: 0.0604
+      ap-southeast-3:
+        Dedicated: 0.0644
+        Shared: 0.0608
       ca-central-1:
         Dedicated: 0.0585
         Shared: 0.0552
@@ -108967,6 +109094,9 @@ r6g.medium:
       ap-southeast-2:
         Dedicated: 0.124
         Shared: 0.1204
+      ap-southeast-3:
+        Dedicated: 0.1244
+        Shared: 0.1208
       ca-central-1:
         Dedicated: 0.1185
         Shared: 0.1152
@@ -109028,6 +109158,9 @@ r6g.medium:
       ap-southeast-2:
         Dedicated: 0.159
         Shared: 0.1554
+      ap-southeast-3:
+        Dedicated: 0.1594
+        Shared: 0.1558
       ca-central-1:
         Dedicated: 0.1535
         Shared: 0.1502
@@ -109089,6 +109222,9 @@ r6g.medium:
       ap-southeast-2:
         Dedicated: 0.095
         Shared: 0.0914
+      ap-southeast-3:
+        Dedicated: 0.1207
+        Shared: 0.1171
       ca-central-1:
         Dedicated: 0.0895
         Shared: 0.0862
@@ -109138,6 +109274,7 @@ r6g.medium:
     - eu-central-1
     - us-gov-west-1
     - us-west-1
+    - ap-southeast-3
     - ap-northeast-1
     - ap-east-1
     - eu-west-2
@@ -109183,6 +109320,9 @@ r6g.metal:
       ap-southeast-2:
         Dedicated: 4.0975
         Shared: 3.8656
+      ap-southeast-3:
+        Dedicated: 3.8912
+        Shared: 3.8912
       ca-central-1:
         Dedicated: 3.7448
         Shared: 3.5328
@@ -109244,6 +109384,9 @@ r6g.metal:
       ap-southeast-2:
         Dedicated: 4.2275
         Shared: 3.9956
+      ap-southeast-3:
+        Dedicated: 4.0212
+        Shared: 4.0212
       ca-central-1:
         Dedicated: 3.8748
         Shared: 3.6628
@@ -109305,6 +109448,9 @@ r6g.metal:
       ap-southeast-2:
         Dedicated: 4.2625
         Shared: 4.0306
+      ap-southeast-3:
+        Dedicated: 4.0562
+        Shared: 4.0562
       ca-central-1:
         Dedicated: 3.9098
         Shared: 3.6978
@@ -109366,6 +109512,9 @@ r6g.metal:
       ap-southeast-2:
         Dedicated: 3.9906
         Shared: 3.9906
+      ap-southeast-3:
+        Dedicated: 4.0162
+        Shared: 4.0162
       ca-central-1:
         Dedicated: 3.6578
         Shared: 3.6578
@@ -109429,6 +109578,7 @@ r6g.metal:
     - ap-northeast-2
     - us-gov-east-1
     - us-west-2
+    - ap-southeast-3
   storage: EBS only
   vcpu: 64
 r6g.xlarge:
@@ -109460,6 +109610,9 @@ r6g.xlarge:
       ap-southeast-2:
         Dedicated: 0.2561
         Shared: 0.2416
+      ap-southeast-3:
+        Dedicated: 0.2578
+        Shared: 0.2432
       ca-central-1:
         Dedicated: 0.234
         Shared: 0.2208
@@ -109521,6 +109674,9 @@ r6g.xlarge:
       ap-southeast-2:
         Dedicated: 0.3161
         Shared: 0.3016
+      ap-southeast-3:
+        Dedicated: 0.3178
+        Shared: 0.3032
       ca-central-1:
         Dedicated: 0.294
         Shared: 0.2808
@@ -109582,6 +109738,9 @@ r6g.xlarge:
       ap-southeast-2:
         Dedicated: 0.3511
         Shared: 0.3366
+      ap-southeast-3:
+        Dedicated: 0.3528
+        Shared: 0.3382
       ca-central-1:
         Dedicated: 0.329
         Shared: 0.3158
@@ -109643,6 +109802,9 @@ r6g.xlarge:
       ap-southeast-2:
         Dedicated: 0.3124
         Shared: 0.2979
+      ap-southeast-3:
+        Dedicated: 0.3141
+        Shared: 0.2995
       ca-central-1:
         Dedicated: 0.2903
         Shared: 0.2771
@@ -109694,6 +109856,7 @@ r6g.xlarge:
     - sa-east-1
     - ap-east-1
     - ap-southeast-1
+    - ap-southeast-3
     - ap-northeast-1
     - eu-west-1
     - us-gov-east-1
@@ -117858,8 +118021,6 @@ t3.medium:
         Shared: 0.052
       US East (Kansas City 2):
         Shared: 0.052
-      US East (Miami):
-        Shared: 0.052
       US East (Minneapolis):
         Shared: 0.052
       US East (New York City):
@@ -117917,6 +118078,8 @@ t3.medium:
       us-east-1:
         Dedicated: 0.0441
         Shared: 0.0416
+      'us-east-1-mia-1a ':
+        Shared: 0.052
       us-east-2:
         Dedicated: 0.0441
         Shared: 0.0416
@@ -118012,8 +118175,6 @@ t3.medium:
         Shared: 0.112
       US East (Kansas City 2):
         Shared: 0.112
-      US East (Miami):
-        Shared: 0.112
       US East (Minneapolis):
         Shared: 0.112
       US East (New York City):
@@ -118071,6 +118232,8 @@ t3.medium:
       us-east-1:
         Dedicated: 0.1041
         Shared: 0.1016
+      'us-east-1-mia-1a ':
+        Shared: 0.112
       us-east-2:
         Dedicated: 0.1041
         Shared: 0.1016
@@ -118154,8 +118317,6 @@ t3.medium:
         Shared: 0.147
       US East (Kansas City 2):
         Shared: 0.147
-      US East (Miami):
-        Shared: 0.147
       US East (Minneapolis):
         Shared: 0.147
       US East (New York City):
@@ -118212,6 +118373,8 @@ t3.medium:
         Shared: 0.151
       us-east-1:
         Shared: 0.1366
+      'us-east-1-mia-1a ':
+        Shared: 0.147
       us-east-2:
         Shared: 0.1366
       us-gov-east-1:
@@ -118303,8 +118466,6 @@ t3.medium:
         Shared: 0.1083
       US East (Kansas City 2):
         Shared: 0.1083
-      US East (Miami):
-        Shared: 0.1083
       US East (Minneapolis):
         Shared: 0.1083
       US East (New York City):
@@ -118362,6 +118523,8 @@ t3.medium:
       us-east-1:
         Dedicated: 0.1071
         Shared: 0.0979
+      'us-east-1-mia-1a ':
+        Shared: 0.1083
       us-east-2:
         Dedicated: 0.1071
         Shared: 0.0979
@@ -118457,8 +118620,6 @@ t3.medium:
         Shared: 0.0704
       US East (Kansas City 2):
         Shared: 0.052
-      US East (Miami):
-        Shared: 0.0704
       US East (Minneapolis):
         Shared: 0.052
       US East (New York City):
@@ -118516,6 +118677,8 @@ t3.medium:
       us-east-1:
         Dedicated: 0.0625
         Shared: 0.06
+      'us-east-1-mia-1a ':
+        Shared: 0.0704
       us-east-2:
         Dedicated: 0.0625
         Shared: 0.06
@@ -118600,7 +118763,7 @@ t3.medium:
     - US West (Seattle)
     - US West (Denver)
     - US East (Verizon) - Washington DC
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
   storage: EBS only
   vcpu: 2
 t3.micro:
@@ -119660,8 +119823,6 @@ t3.xlarge:
         Shared: 0.208
       US East (Kansas City 2):
         Shared: 0.208
-      US East (Miami):
-        Shared: 0.208
       US East (Minneapolis):
         Shared: 0.208
       US East (New York City):
@@ -119719,6 +119880,8 @@ t3.xlarge:
       us-east-1:
         Dedicated: 0.1763
         Shared: 0.1664
+      'us-east-1-mia-1a ':
+        Shared: 0.208
       us-east-2:
         Dedicated: 0.1763
         Shared: 0.1664
@@ -119814,8 +119977,6 @@ t3.xlarge:
         Shared: 0.268
       US East (Kansas City 2):
         Shared: 0.268
-      US East (Miami):
-        Shared: 0.268
       US East (Minneapolis):
         Shared: 0.268
       US East (New York City):
@@ -119873,6 +120034,8 @@ t3.xlarge:
       us-east-1:
         Dedicated: 0.2363
         Shared: 0.2264
+      'us-east-1-mia-1a ':
+        Shared: 0.268
       us-east-2:
         Dedicated: 0.2363
         Shared: 0.2264
@@ -119956,8 +120119,6 @@ t3.xlarge:
         Shared: 0.303
       US East (Kansas City 2):
         Shared: 0.303
-      US East (Miami):
-        Shared: 0.303
       US East (Minneapolis):
         Shared: 0.303
       US East (New York City):
@@ -120014,6 +120175,8 @@ t3.xlarge:
         Shared: 0.319
       us-east-1:
         Shared: 0.2614
+      'us-east-1-mia-1a ':
+        Shared: 0.303
       us-east-2:
         Shared: 0.2614
       us-gov-east-1:
@@ -120105,8 +120268,6 @@ t3.xlarge:
         Shared: 0.2643
       US East (Kansas City 2):
         Shared: 0.2643
-      US East (Miami):
-        Shared: 0.2643
       US East (Minneapolis):
         Shared: 0.2643
       US East (New York City):
@@ -120164,6 +120325,8 @@ t3.xlarge:
       us-east-1:
         Dedicated: 0.3013
         Shared: 0.2227
+      'us-east-1-mia-1a ':
+        Shared: 0.2643
       us-east-2:
         Dedicated: 0.3013
         Shared: 0.2227
@@ -120259,8 +120422,6 @@ t3.xlarge:
         Shared: 0.2816
       US East (Kansas City 2):
         Shared: 0.208
-      US East (Miami):
-        Shared: 0.208
       US East (Minneapolis):
         Shared: 0.2816
       US East (New York City):
@@ -120318,6 +120479,8 @@ t3.xlarge:
       us-east-1:
         Dedicated: 0.2499
         Shared: 0.24
+      'us-east-1-mia-1a ':
+        Shared: 0.208
       us-east-2:
         Dedicated: 0.2499
         Shared: 0.24
@@ -120381,7 +120544,7 @@ t3.xlarge:
     - US East (Verizon) - Houston
     - US West (Verizon) - Denver
     - US West (Verizon) - Los Angeles
-    - US East (Miami)
+    - 'us-east-1-mia-1a '
     - ap-southeast-3
     - eu-central-1
     - US East (Atlanta)
@@ -123439,9 +123602,6 @@ u-6tb1.112xlarge:
       eu-north-1:
         Dedicated: 58.045
         Shared: 58.045
-      eu-south-1:
-        Dedicated: 64.155
-        Shared: 64.155
       eu-west-1:
         Dedicated: 61.1
         Shared: 61.1
@@ -123482,9 +123642,6 @@ u-6tb1.112xlarge:
       eu-north-1:
         Dedicated: 58.175
         Shared: 58.175
-      eu-south-1:
-        Dedicated: 64.285
-        Shared: 64.285
       eu-west-1:
         Dedicated: 61.23
         Shared: 61.23
@@ -123525,9 +123682,6 @@ u-6tb1.112xlarge:
       eu-north-1:
         Dedicated: 58.21
         Shared: 58.21
-      eu-south-1:
-        Dedicated: 64.32
-        Shared: 64.32
       eu-west-1:
         Dedicated: 61.265
         Shared: 61.265
@@ -123568,9 +123722,6 @@ u-6tb1.112xlarge:
       eu-north-1:
         Dedicated: 58.17
         Shared: 58.17
-      eu-south-1:
-        Dedicated: 64.28
-        Shared: 64.28
       eu-west-1:
         Dedicated: 61.225
         Shared: 61.225
@@ -123611,9 +123762,6 @@ u-6tb1.112xlarge:
       eu-north-1:
         Dedicated: 78.653
         Shared: 58.045
-      eu-south-1:
-        Dedicated: 64.155
-        Shared: 84.763
       eu-west-1:
         Dedicated: 61.1
         Shared: 61.1
@@ -123639,7 +123787,6 @@ u-6tb1.112xlarge:
     - us-gov-east-1
     - us-gov-west-1
     - us-east-2
-    - eu-south-1
     - us-east-1
     - ap-south-1
     - eu-central-1
@@ -123679,9 +123826,6 @@ u-6tb1.56xlarge:
       eu-north-1:
         Dedicated: 49.33177
         Shared: 49.33177
-      eu-south-1:
-        Dedicated: 54.52459
-        Shared: 54.52459
       eu-west-1:
         Dedicated: 51.92818
         Shared: 51.92818
@@ -123722,9 +123866,6 @@ u-6tb1.56xlarge:
       eu-north-1:
         Dedicated: 49.46177
         Shared: 49.46177
-      eu-south-1:
-        Dedicated: 54.65459
-        Shared: 54.65459
       eu-west-1:
         Dedicated: 52.05818
         Shared: 52.05818
@@ -123765,9 +123906,6 @@ u-6tb1.56xlarge:
       eu-north-1:
         Dedicated: 49.49677
         Shared: 49.49677
-      eu-south-1:
-        Dedicated: 54.68959
-        Shared: 54.68959
       eu-west-1:
         Dedicated: 52.09318
         Shared: 52.09318
@@ -123808,9 +123946,6 @@ u-6tb1.56xlarge:
       eu-north-1:
         Dedicated: 49.45677
         Shared: 49.45677
-      eu-south-1:
-        Dedicated: 54.64959
-        Shared: 54.64959
       eu-west-1:
         Dedicated: 52.05318
         Shared: 52.05318
@@ -123851,9 +123986,6 @@ u-6tb1.56xlarge:
       eu-north-1:
         Dedicated: 49.33177
         Shared: 49.33177
-      eu-south-1:
-        Dedicated: 64.82859
-        Shared: 64.82859
       eu-west-1:
         Dedicated: 51.92818
         Shared: 62.23218
@@ -123876,7 +124008,6 @@ u-6tb1.56xlarge:
         Dedicated: 46.40391
         Shared: 46.40391
   regions:
-    - eu-south-1
     - eu-north-1
     - ap-southeast-1
     - us-gov-east-1
