@@ -83012,6 +83012,9 @@ p4d.24xlarge:
       us-east-2:
         Dedicated: 36.04986
         Shared: 32.7726
+      us-gov-west-1:
+        Dedicated: 43.263
+        Shared: 39.33
       us-west-2:
         Dedicated: 36.04986
         Shared: 32.7726
@@ -83034,6 +83037,9 @@ p4d.24xlarge:
       us-east-2:
         Dedicated: 36.17986
         Shared: 32.9026
+      us-gov-west-1:
+        Dedicated: 43.393
+        Shared: 39.46
       us-west-2:
         Dedicated: 36.17986
         Shared: 32.9026
@@ -83056,6 +83062,9 @@ p4d.24xlarge:
       us-east-2:
         Dedicated: 36.21486
         Shared: 32.9376
+      us-gov-west-1:
+        Dedicated: 43.428
+        Shared: 39.495
       us-west-2:
         Dedicated: 36.21486
         Shared: 32.9376
@@ -83078,11 +83087,15 @@ p4d.24xlarge:
       us-east-2:
         Dedicated: 36.17486
         Shared: 32.8976
+      us-gov-west-1:
+        Dedicated: 43.388
+        Shared: 39.455
       us-west-2:
         Dedicated: 36.17486
         Shared: 32.8976
   regions:
     - ap-northeast-1
+    - us-gov-west-1
     - us-west-2
     - eu-west-1
     - eu-central-1
@@ -123331,6 +123344,9 @@ u-12tb1.112xlarge:
       us-east-1:
         Dedicated: 109.2
         Shared: 109.2
+      us-east-2:
+        Dedicated: 109.2
+        Shared: 109.2
       us-gov-west-1:
         Dedicated: 130.867
         Shared: 130.867
@@ -123348,6 +123364,9 @@ u-12tb1.112xlarge:
         Dedicated: 122.33
         Shared: 122.33
       us-east-1:
+        Dedicated: 109.33
+        Shared: 109.33
+      us-east-2:
         Dedicated: 109.33
         Shared: 109.33
       us-gov-west-1:
@@ -123369,6 +123388,9 @@ u-12tb1.112xlarge:
       us-east-1:
         Dedicated: 109.365
         Shared: 109.365
+      us-east-2:
+        Dedicated: 109.365
+        Shared: 109.365
       us-gov-west-1:
         Dedicated: 131.032
         Shared: 131.032
@@ -123386,6 +123408,9 @@ u-12tb1.112xlarge:
         Dedicated: 122.325
         Shared: 122.325
       us-east-1:
+        Dedicated: 109.325
+        Shared: 109.325
+      us-east-2:
         Dedicated: 109.325
         Shared: 109.325
       us-gov-west-1:
@@ -123407,6 +123432,9 @@ u-12tb1.112xlarge:
       us-east-1:
         Dedicated: 129.808
         Shared: 129.808
+      us-east-2:
+        Dedicated: 129.808
+        Shared: 129.808
       us-gov-west-1:
         Dedicated: 130.867
         Shared: 130.867
@@ -123417,6 +123445,7 @@ u-12tb1.112xlarge:
     - eu-central-1
     - us-west-2
     - us-east-1
+    - us-east-2
     - us-gov-west-1
     - eu-west-1
     - ap-southeast-1
@@ -123488,6 +123517,9 @@ u-3tb1.56xlarge:
   physicalProcessor: Intel Xeon Scalable (Skylake)
   prices:
     Linux:
+      ap-southeast-2:
+        Dedicated: 35.9865
+        Shared: 32.715
       eu-central-1:
         Dedicated: 36.22685
         Shared: 32.9335
@@ -123497,6 +123529,9 @@ u-3tb1.56xlarge:
       eu-west-1:
         Dedicated: 33.605
         Shared: 30.55
+      sa-east-1:
+        Dedicated: 47.905
+        Shared: 43.55
       us-east-1:
         Dedicated: 30.03
         Shared: 27.3
@@ -123504,6 +123539,9 @@ u-3tb1.56xlarge:
         Dedicated: 30.03
         Shared: 27.3
     RHEL:
+      ap-southeast-2:
+        Dedicated: 36.1165
+        Shared: 32.845
       eu-central-1:
         Dedicated: 36.35685
         Shared: 33.0635
@@ -123513,6 +123551,9 @@ u-3tb1.56xlarge:
       eu-west-1:
         Dedicated: 33.735
         Shared: 30.68
+      sa-east-1:
+        Dedicated: 48.035
+        Shared: 43.68
       us-east-1:
         Dedicated: 30.16
         Shared: 27.43
@@ -123520,6 +123561,9 @@ u-3tb1.56xlarge:
         Dedicated: 30.16
         Shared: 27.43
     RHEL_HA:
+      ap-southeast-2:
+        Dedicated: 36.1515
+        Shared: 32.88
       eu-central-1:
         Dedicated: 36.39185
         Shared: 33.0985
@@ -123529,6 +123573,9 @@ u-3tb1.56xlarge:
       eu-west-1:
         Dedicated: 33.77
         Shared: 30.715
+      sa-east-1:
+        Dedicated: 48.07
+        Shared: 43.715
       us-east-1:
         Dedicated: 30.195
         Shared: 27.465
@@ -123536,6 +123583,9 @@ u-3tb1.56xlarge:
         Dedicated: 30.195
         Shared: 27.465
     SUSE:
+      ap-southeast-2:
+        Dedicated: 36.1115
+        Shared: 32.84
       eu-central-1:
         Dedicated: 36.35185
         Shared: 33.0585
@@ -123545,6 +123595,9 @@ u-3tb1.56xlarge:
       eu-west-1:
         Dedicated: 33.73
         Shared: 30.675
+      sa-east-1:
+        Dedicated: 48.03
+        Shared: 43.675
       us-east-1:
         Dedicated: 30.155
         Shared: 27.425
@@ -123552,6 +123605,9 @@ u-3tb1.56xlarge:
         Dedicated: 30.155
         Shared: 27.425
     Windows:
+      ap-southeast-2:
+        Dedicated: 46.2905
+        Shared: 32.715
       eu-central-1:
         Dedicated: 46.53085
         Shared: 32.9335
@@ -123561,6 +123617,9 @@ u-3tb1.56xlarge:
       eu-west-1:
         Dedicated: 43.909
         Shared: 30.55
+      sa-east-1:
+        Dedicated: 47.905
+        Shared: 43.55
       us-east-1:
         Dedicated: 40.334
         Shared: 37.604
@@ -123570,8 +123629,10 @@ u-3tb1.56xlarge:
   regions:
     - us-west-2
     - eu-central-1
+    - ap-southeast-2
     - eu-west-1
     - eu-south-1
+    - sa-east-1
     - us-east-1
   storage: EBS only
   vcpu: 224
@@ -123608,6 +123669,9 @@ u-6tb1.112xlarge:
       eu-west-3:
         Dedicated: 64.133
         Shared: 64.133
+      sa-east-1:
+        Dedicated: 87.1
+        Shared: 87.1
       us-east-1:
         Dedicated: 54.6
         Shared: 54.6
@@ -123648,6 +123712,9 @@ u-6tb1.112xlarge:
       eu-west-3:
         Dedicated: 64.263
         Shared: 64.263
+      sa-east-1:
+        Dedicated: 87.23
+        Shared: 87.23
       us-east-1:
         Dedicated: 54.73
         Shared: 54.73
@@ -123688,6 +123755,9 @@ u-6tb1.112xlarge:
       eu-west-3:
         Dedicated: 64.298
         Shared: 64.298
+      sa-east-1:
+        Dedicated: 87.265
+        Shared: 87.265
       us-east-1:
         Dedicated: 54.765
         Shared: 54.765
@@ -123728,6 +123798,9 @@ u-6tb1.112xlarge:
       eu-west-3:
         Dedicated: 64.258
         Shared: 64.258
+      sa-east-1:
+        Dedicated: 87.225
+        Shared: 87.225
       us-east-1:
         Dedicated: 54.725
         Shared: 54.725
@@ -123768,6 +123841,9 @@ u-6tb1.112xlarge:
       eu-west-3:
         Dedicated: 64.133
         Shared: 64.133
+      sa-east-1:
+        Dedicated: 107.708
+        Shared: 107.708
       us-east-1:
         Dedicated: 75.208
         Shared: 75.208
@@ -123796,6 +123872,7 @@ u-6tb1.112xlarge:
     - us-west-2
     - eu-west-1
     - eu-north-1
+    - sa-east-1
     - ap-northeast-2
   storage: EBS only
   vcpu: 448
@@ -123832,6 +123909,9 @@ u-6tb1.56xlarge:
       eu-west-3:
         Dedicated: 54.50589
         Shared: 54.50589
+      sa-east-1:
+        Dedicated: 74.02528
+        Shared: 74.02528
       us-east-1:
         Dedicated: 46.40391
         Shared: 46.40391
@@ -123872,6 +123952,9 @@ u-6tb1.56xlarge:
       eu-west-3:
         Dedicated: 54.63589
         Shared: 54.63589
+      sa-east-1:
+        Dedicated: 74.15528
+        Shared: 74.15528
       us-east-1:
         Dedicated: 46.53391
         Shared: 46.53391
@@ -123912,6 +123995,9 @@ u-6tb1.56xlarge:
       eu-west-3:
         Dedicated: 54.67089
         Shared: 54.67089
+      sa-east-1:
+        Dedicated: 74.19028
+        Shared: 74.19028
       us-east-1:
         Dedicated: 46.56891
         Shared: 46.56891
@@ -123952,6 +124038,9 @@ u-6tb1.56xlarge:
       eu-west-3:
         Dedicated: 54.63089
         Shared: 54.63089
+      sa-east-1:
+        Dedicated: 74.15028
+        Shared: 74.15028
       us-east-1:
         Dedicated: 46.52891
         Shared: 46.52891
@@ -123992,6 +124081,9 @@ u-6tb1.56xlarge:
       eu-west-3:
         Dedicated: 64.80989
         Shared: 64.80989
+      sa-east-1:
+        Dedicated: 84.32928
+        Shared: 84.32928
       us-east-1:
         Dedicated: 46.40391
         Shared: 56.70791
@@ -124021,6 +124113,7 @@ u-6tb1.56xlarge:
     - ap-northeast-2
     - ap-south-1
     - ap-southeast-2
+    - sa-east-1
   storage: EBS only
   vcpu: 224
 u-6tb1.metal:
