@@ -3470,6 +3470,9 @@ c5.12xlarge:
       me-south-1:
         Dedicated: 2.686
         Shared: 2.534
+      Middle East (UAE):
+        Dedicated: 2.686
+        Shared: 2.534
       sa-east-1:
         Dedicated: 3.357
         Shared: 3.144
@@ -3544,6 +3547,9 @@ c5.12xlarge:
         Dedicated: 2.712
         Shared: 2.554
       me-south-1:
+        Dedicated: 2.816
+        Shared: 2.664
+      Middle East (UAE):
         Dedicated: 2.816
         Shared: 2.664
       sa-east-1:
@@ -3622,6 +3628,9 @@ c5.12xlarge:
       me-south-1:
         Dedicated: 2.851
         Shared: 2.699
+      Middle East (UAE):
+        Dedicated: 2.851
+        Shared: 2.699
       sa-east-1:
         Dedicated: 3.498
         Shared: 3.309
@@ -3698,6 +3707,9 @@ c5.12xlarge:
       me-south-1:
         Dedicated: 2.786
         Shared: 2.634
+      Middle East (UAE):
+        Dedicated: 2.811
+        Shared: 2.659
       sa-east-1:
         Dedicated: 3.457
         Shared: 3.244
@@ -3774,6 +3786,9 @@ c5.12xlarge:
       me-south-1:
         Dedicated: 2.686
         Shared: 2.534
+      Middle East (UAE):
+        Dedicated: 4.894
+        Shared: 4.742
       sa-east-1:
         Dedicated: 3.357
         Shared: 5.352
@@ -3819,6 +3834,7 @@ c5.12xlarge:
     - eu-west-1
     - ap-southeast-3
     - ca-central-1
+    - Middle East (UAE)
     - ap-southeast-1
     - eu-central-1
     - us-gov-west-1
@@ -3887,6 +3903,9 @@ c5.18xlarge:
         Dedicated: 3.636
         Shared: 3.636
       me-south-1:
+        Dedicated: 3.802
+        Shared: 3.802
+      Middle East (UAE):
         Dedicated: 3.802
         Shared: 3.802
       sa-east-1:
@@ -3965,6 +3984,9 @@ c5.18xlarge:
       me-south-1:
         Dedicated: 3.932
         Shared: 3.932
+      Middle East (UAE):
+        Dedicated: 3.932
+        Shared: 3.932
       sa-east-1:
         Dedicated: 4.846
         Shared: 4.846
@@ -4039,6 +4061,9 @@ c5.18xlarge:
         Dedicated: 3.801
         Shared: 3.801
       me-south-1:
+        Dedicated: 3.967
+        Shared: 3.967
+      Middle East (UAE):
         Dedicated: 3.967
         Shared: 3.967
       sa-east-1:
@@ -4117,6 +4142,9 @@ c5.18xlarge:
       me-south-1:
         Dedicated: 3.902
         Shared: 3.902
+      Middle East (UAE):
+        Dedicated: 3.927
+        Shared: 3.927
       sa-east-1:
         Dedicated: 4.816
         Shared: 4.816
@@ -4193,6 +4221,9 @@ c5.18xlarge:
       me-south-1:
         Dedicated: 3.802
         Shared: 3.802
+      Middle East (UAE):
+        Dedicated: 3.802
+        Shared: 3.802
       sa-east-1:
         Dedicated: 4.716
         Shared: 4.716
@@ -4236,6 +4267,7 @@ c5.18xlarge:
     - us-west-2-lax-1a
     - ap-northeast-1
     - us-west-2
+    - Middle East (UAE)
     - ap-south-1
     - eu-south-1
     - af-south-1
@@ -4306,6 +4338,9 @@ c5.24xlarge:
         Dedicated: 5.164
         Shared: 4.848
       me-south-1:
+        Dedicated: 5.069
+        Shared: 5.069
+      Middle East (UAE):
         Dedicated: 5.069
         Shared: 5.069
       sa-east-1:
@@ -4384,6 +4419,9 @@ c5.24xlarge:
       me-south-1:
         Dedicated: 5.199
         Shared: 5.199
+      Middle East (UAE):
+        Dedicated: 5.199
+        Shared: 5.199
       sa-east-1:
         Dedicated: 6.845
         Shared: 6.418
@@ -4458,6 +4496,9 @@ c5.24xlarge:
         Dedicated: 5.013
         Shared: 5.013
       me-south-1:
+        Dedicated: 5.234
+        Shared: 5.234
+      Middle East (UAE):
         Dedicated: 5.234
         Shared: 5.234
       sa-east-1:
@@ -4536,6 +4577,9 @@ c5.24xlarge:
       me-south-1:
         Dedicated: 5.169
         Shared: 5.169
+      Middle East (UAE):
+        Dedicated: 5.194
+        Shared: 5.194
       sa-east-1:
         Dedicated: 6.413
         Shared: 6.388
@@ -4612,6 +4656,9 @@ c5.24xlarge:
       me-south-1:
         Dedicated: 9.485
         Shared: 9.485
+      Middle East (UAE):
+        Dedicated: 9.485
+        Shared: 5.069
       sa-east-1:
         Dedicated: 11.131
         Shared: 10.704
@@ -4637,6 +4684,7 @@ c5.24xlarge:
         Dedicated: 9.608
         Shared: 9.312
   regions:
+    - Middle East (UAE)
     - us-east-1
     - us-gov-east-1
     - us-gov-west-1
@@ -4727,6 +4775,9 @@ c5.2xlarge:
       me-south-1:
         Dedicated: 0.45
         Shared: 0.422
+      Middle East (UAE):
+        Dedicated: 0.448
+        Shared: 0.422
       sa-east-1:
         Dedicated: 0.56
         Shared: 0.524
@@ -4803,6 +4854,9 @@ c5.2xlarge:
       me-south-1:
         Dedicated: 0.58
         Shared: 0.552
+      Middle East (UAE):
+        Dedicated: 0.578
+        Shared: 0.552
       sa-east-1:
         Dedicated: 0.69
         Shared: 0.654
@@ -4877,6 +4931,9 @@ c5.2xlarge:
         Dedicated: 0.593
         Shared: 0.569
       me-south-1:
+        Dedicated: 0.613
+        Shared: 0.587
+      Middle East (UAE):
         Dedicated: 0.613
         Shared: 0.587
       sa-east-1:
@@ -4955,6 +5012,9 @@ c5.2xlarge:
       me-south-1:
         Dedicated: 0.55
         Shared: 0.522
+      Middle East (UAE):
+        Dedicated: 0.573
+        Shared: 0.547
       sa-east-1:
         Dedicated: 0.66
         Shared: 0.624
@@ -5031,6 +5091,9 @@ c5.2xlarge:
       me-south-1:
         Dedicated: 0.45
         Shared: 0.422
+      Middle East (UAE):
+        Dedicated: 0.448
+        Shared: 0.422
       sa-east-1:
         Dedicated: 0.928
         Shared: 0.892
@@ -5076,6 +5139,7 @@ c5.2xlarge:
     - us-west-2-lax-1a
     - af-south-1
     - us-east-2
+    - Middle East (UAE)
     - ap-northeast-2
     - me-south-1
     - ap-southeast-2
@@ -5145,6 +5209,9 @@ c5.4xlarge:
         Shared: 0.808
       me-south-1:
         Dedicated: 0.9
+        Shared: 0.845
+      Middle East (UAE):
+        Dedicated: 0.895
         Shared: 0.845
       sa-east-1:
         Dedicated: 1.119
@@ -5222,6 +5289,9 @@ c5.4xlarge:
       me-south-1:
         Dedicated: 1.03
         Shared: 0.975
+      Middle East (UAE):
+        Dedicated: 1.025
+        Shared: 0.975
       sa-east-1:
         Dedicated: 1.249
         Shared: 1.178
@@ -5296,6 +5366,9 @@ c5.4xlarge:
         Dedicated: 1.021
         Shared: 0.973
       me-south-1:
+        Dedicated: 1.06
+        Shared: 1.01
+      Middle East (UAE):
         Dedicated: 1.06
         Shared: 1.01
       sa-east-1:
@@ -5374,6 +5447,9 @@ c5.4xlarge:
       me-south-1:
         Dedicated: 1
         Shared: 0.945
+      Middle East (UAE):
+        Dedicated: 1.02
+        Shared: 0.97
       sa-east-1:
         Dedicated: 1.219
         Shared: 1.148
@@ -5450,6 +5526,9 @@ c5.4xlarge:
       me-south-1:
         Dedicated: 0.9
         Shared: 1.581
+      Middle East (UAE):
+        Dedicated: 1.631
+        Shared: 0.845
       sa-east-1:
         Dedicated: 1.855
         Shared: 1.784
@@ -5486,6 +5565,7 @@ c5.4xlarge:
     - ap-northeast-1
     - ap-south-1
     - me-south-1
+    - Middle East (UAE)
     - eu-south-1
     - us-gov-west-1
     - ap-east-1
@@ -5565,6 +5645,9 @@ c5.9xlarge:
       me-south-1:
         Dedicated: 2.025
         Shared: 1.901
+      Middle East (UAE):
+        Dedicated: 2.015
+        Shared: 1.901
       sa-east-1:
         Dedicated: 2.518
         Shared: 2.358
@@ -5641,6 +5724,9 @@ c5.9xlarge:
       me-south-1:
         Dedicated: 2.155
         Shared: 2.031
+      Middle East (UAE):
+        Dedicated: 2.145
+        Shared: 2.031
       sa-east-1:
         Dedicated: 2.648
         Shared: 2.488
@@ -5715,6 +5801,9 @@ c5.9xlarge:
         Dedicated: 2.092
         Shared: 1.983
       me-south-1:
+        Dedicated: 2.18
+        Shared: 2.066
+      Middle East (UAE):
         Dedicated: 2.18
         Shared: 2.066
       sa-east-1:
@@ -5793,6 +5882,9 @@ c5.9xlarge:
       me-south-1:
         Dedicated: 2.125
         Shared: 2.001
+      Middle East (UAE):
+        Dedicated: 2.14
+        Shared: 2.026
       sa-east-1:
         Dedicated: 2.618
         Shared: 2.458
@@ -5869,6 +5961,9 @@ c5.9xlarge:
       me-south-1:
         Dedicated: 2.025
         Shared: 3.557
+      Middle East (UAE):
+        Dedicated: 2.015
+        Shared: 3.557
       sa-east-1:
         Dedicated: 4.174
         Shared: 4.014
@@ -5907,6 +6002,7 @@ c5.9xlarge:
     - us-gov-west-1
     - ap-northeast-1
     - eu-west-2
+    - Middle East (UAE)
     - eu-south-1
     - us-east-2
     - Asia Pacific (Osaka)
@@ -5984,6 +6080,9 @@ c5.large:
       me-south-1:
         Dedicated: 0.113
         Shared: 0.106
+      Middle East (UAE):
+        Dedicated: 0.112
+        Shared: 0.106
       sa-east-1:
         Dedicated: 0.14
         Shared: 0.131
@@ -6060,6 +6159,9 @@ c5.large:
       me-south-1:
         Dedicated: 0.173
         Shared: 0.166
+      Middle East (UAE):
+        Dedicated: 0.172
+        Shared: 0.166
       sa-east-1:
         Dedicated: 0.2
         Shared: 0.191
@@ -6134,6 +6236,9 @@ c5.large:
         Dedicated: 0.202
         Shared: 0.196
       me-south-1:
+        Dedicated: 0.207
+        Shared: 0.201
+      Middle East (UAE):
         Dedicated: 0.207
         Shared: 0.201
       sa-east-1:
@@ -6212,6 +6317,9 @@ c5.large:
       me-south-1:
         Dedicated: 0.168
         Shared: 0.162
+      Middle East (UAE):
+        Dedicated: 0.168
+        Shared: 0.162
       sa-east-1:
         Dedicated: 0.195
         Shared: 0.187
@@ -6288,6 +6396,9 @@ c5.large:
       me-south-1:
         Dedicated: 0.205
         Shared: 0.106
+      Middle East (UAE):
+        Dedicated: 0.204
+        Shared: 0.198
       sa-east-1:
         Dedicated: 0.14
         Shared: 0.223
@@ -6338,6 +6449,7 @@ c5.large:
     - eu-south-1
     - ap-east-1
     - ap-southeast-2
+    - Middle East (UAE)
   storage: EBS only
   vcpu: 2
 c5.metal:
@@ -6401,6 +6513,9 @@ c5.metal:
         Dedicated: 4.848
         Shared: 4.848
       me-south-1:
+        Dedicated: 5.069
+        Shared: 5.069
+      Middle East (UAE):
         Dedicated: 5.069
         Shared: 5.069
       sa-east-1:
@@ -6479,6 +6594,9 @@ c5.metal:
       me-south-1:
         Dedicated: 5.199
         Shared: 5.199
+      Middle East (UAE):
+        Dedicated: 5.199
+        Shared: 5.199
       sa-east-1:
         Dedicated: 6.418
         Shared: 6.418
@@ -6553,6 +6671,9 @@ c5.metal:
         Dedicated: 5.013
         Shared: 5.013
       me-south-1:
+        Dedicated: 5.234
+        Shared: 5.234
+      Middle East (UAE):
         Dedicated: 5.234
         Shared: 5.234
       sa-east-1:
@@ -6631,6 +6752,9 @@ c5.metal:
       me-south-1:
         Dedicated: 5.169
         Shared: 5.169
+      Middle East (UAE):
+        Dedicated: 5.194
+        Shared: 5.194
       sa-east-1:
         Dedicated: 6.388
         Shared: 6.388
@@ -6707,6 +6831,9 @@ c5.metal:
       me-south-1:
         Dedicated: 9.485
         Shared: 5.069
+      Middle East (UAE):
+        Dedicated: 5.069
+        Shared: 9.485
       sa-east-1:
         Dedicated: 10.704
         Shared: 10.704
@@ -6749,6 +6876,7 @@ c5.metal:
     - us-west-2-lax-1a
     - us-west-1
     - eu-north-1
+    - Middle East (UAE)
     - us-gov-west-1
     - ap-east-1
     - ap-south-1
@@ -6821,6 +6949,9 @@ c5.xlarge:
         Shared: 0.202
       me-south-1:
         Dedicated: 0.225
+        Shared: 0.211
+      Middle East (UAE):
+        Dedicated: 0.224
         Shared: 0.211
       sa-east-1:
         Dedicated: 0.28
@@ -6898,6 +7029,9 @@ c5.xlarge:
       me-south-1:
         Dedicated: 0.285
         Shared: 0.271
+      Middle East (UAE):
+        Dedicated: 0.284
+        Shared: 0.271
       sa-east-1:
         Dedicated: 0.34
         Shared: 0.322
@@ -6972,6 +7106,9 @@ c5.xlarge:
         Dedicated: 0.309
         Shared: 0.297
       me-south-1:
+        Dedicated: 0.319
+        Shared: 0.306
+      Middle East (UAE):
         Dedicated: 0.319
         Shared: 0.306
       sa-east-1:
@@ -7050,6 +7187,9 @@ c5.xlarge:
       me-south-1:
         Dedicated: 0.28
         Shared: 0.268
+      Middle East (UAE):
+        Dedicated: 0.28
+        Shared: 0.268
       sa-east-1:
         Dedicated: 0.334
         Shared: 0.318
@@ -7126,6 +7266,9 @@ c5.xlarge:
       me-south-1:
         Dedicated: 0.409
         Shared: 0.211
+      Middle East (UAE):
+        Dedicated: 0.408
+        Shared: 0.395
       sa-east-1:
         Dedicated: 0.464
         Shared: 0.446
@@ -7167,6 +7310,7 @@ c5.xlarge:
     - ap-south-1
     - us-east-1
     - us-west-2-lax-1a
+    - Middle East (UAE)
     - eu-west-3
     - me-south-1
     - us-west-1
@@ -11544,6 +11688,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 2.941
         Shared: 2.76
+      Middle East (UAE):
+        Dedicated: 3.05
+        Shared: 2.878
       sa-east-1:
         Dedicated: 3.818
         Shared: 3.576
@@ -11605,6 +11752,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.071
         Shared: 2.89
+      Middle East (UAE):
+        Dedicated: 3.18
+        Shared: 3.008
       sa-east-1:
         Dedicated: 3.948
         Shared: 3.706
@@ -11666,6 +11816,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.091
         Shared: 2.925
+      Middle East (UAE):
+        Dedicated: 3.215
+        Shared: 3.043
       sa-east-1:
         Dedicated: 3.956
         Shared: 3.741
@@ -11727,6 +11880,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.041
         Shared: 2.86
+      Middle East (UAE):
+        Dedicated: 3.175
+        Shared: 3.003
       sa-east-1:
         Dedicated: 3.916
         Shared: 3.676
@@ -11788,6 +11944,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 5.149
         Shared: 4.968
+      Middle East (UAE):
+        Dedicated: 5.258
+        Shared: 2.878
       sa-east-1:
         Dedicated: 6.026
         Shared: 5.784
@@ -11814,6 +11973,7 @@ c5d.12xlarge:
     - us-east-2
     - US East (Boston)
     - ap-northeast-1
+    - Middle East (UAE)
     - ap-southeast-1
     - af-south-1
     - ca-central-1
@@ -11895,6 +12055,9 @@ c5d.18xlarge:
       me-south-1:
         Dedicated: 4.316
         Shared: 4.316
+      Middle East (UAE):
+        Dedicated: 4.316
+        Shared: 4.316
       sa-east-1:
         Dedicated: 5.364
         Shared: 5.364
@@ -11966,6 +12129,9 @@ c5d.18xlarge:
         Dedicated: 4.27
         Shared: 4.27
       me-south-1:
+        Dedicated: 4.446
+        Shared: 4.446
+      Middle East (UAE):
         Dedicated: 4.446
         Shared: 4.446
       sa-east-1:
@@ -12041,6 +12207,9 @@ c5d.18xlarge:
       me-south-1:
         Dedicated: 4.481
         Shared: 4.481
+      Middle East (UAE):
+        Dedicated: 4.481
+        Shared: 4.481
       sa-east-1:
         Dedicated: 5.529
         Shared: 5.529
@@ -12114,6 +12283,9 @@ c5d.18xlarge:
       me-south-1:
         Dedicated: 4.416
         Shared: 4.416
+      Middle East (UAE):
+        Dedicated: 4.441
+        Shared: 4.441
       sa-east-1:
         Dedicated: 5.464
         Shared: 5.464
@@ -12187,6 +12359,9 @@ c5d.18xlarge:
       me-south-1:
         Dedicated: 7.628
         Shared: 7.628
+      Middle East (UAE):
+        Dedicated: 7.628
+        Shared: 4.316
       sa-east-1:
         Dedicated: 8.676
         Shared: 8.676
@@ -12222,6 +12397,7 @@ c5d.18xlarge:
     - af-south-1
     - us-east-2
     - ap-northeast-1
+    - Middle East (UAE)
     - ap-east-1
     - me-south-1
     - us-west-1
@@ -12289,15 +12465,15 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 5.882
         Shared: 5.52
+      Middle East (UAE):
+        Dedicated: 6.101
+        Shared: 5.755
       sa-east-1:
         Dedicated: 7.636
         Shared: 7.152
       us-east-1:
         Dedicated: 4.885
         Shared: 4.608
-      'us-east-1-mia-1a ':
-        Dedicated: 6.106
-        Shared: 5.76
       us-east-2:
         Dedicated: 4.885
         Shared: 4.608
@@ -12353,15 +12529,15 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 6.012
         Shared: 5.65
+      Middle East (UAE):
+        Dedicated: 6.231
+        Shared: 5.885
       sa-east-1:
         Dedicated: 7.766
         Shared: 7.282
       us-east-1:
         Dedicated: 5.015
         Shared: 4.738
-      'us-east-1-mia-1a ':
-        Dedicated: 6.236
-        Shared: 5.89
       us-east-2:
         Dedicated: 5.015
         Shared: 4.738
@@ -12417,6 +12593,9 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 6.016
         Shared: 5.685
+      Middle East (UAE):
+        Dedicated: 6.266
+        Shared: 5.92
       sa-east-1:
         Dedicated: 7.746
         Shared: 7.317
@@ -12478,15 +12657,15 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 5.976
         Shared: 5.62
+      Middle East (UAE):
+        Dedicated: 6.226
+        Shared: 5.88
       sa-east-1:
         Dedicated: 7.706
         Shared: 7.252
       us-east-1:
         Dedicated: 4.985
         Shared: 4.708
-      'us-east-1-mia-1a ':
-        Dedicated: 6.231
-        Shared: 5.885
       us-east-2:
         Dedicated: 4.985
         Shared: 4.708
@@ -12542,15 +12721,15 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 10.298
         Shared: 9.936
+      Middle East (UAE):
+        Dedicated: 6.101
+        Shared: 5.755
       sa-east-1:
         Dedicated: 12.052
         Shared: 11.568
       us-east-1:
         Dedicated: 9.301
         Shared: 9.024
-      'us-east-1-mia-1a ':
-        Dedicated: 10.522
-        Shared: 5.76
       us-east-2:
         Dedicated: 9.301
         Shared: 9.024
@@ -12564,6 +12743,7 @@ c5d.24xlarge:
         Dedicated: 9.301
         Shared: 9.024
   regions:
+    - Middle East (UAE)
     - us-east-2
     - ap-southeast-3
     - eu-central-1
@@ -12582,9 +12762,9 @@ c5d.24xlarge:
     - us-east-1
     - sa-east-1
     - eu-south-1
-    - 'us-east-1-mia-1a '
     - eu-west-2
     - us-west-1
+    - 'us-east-1-mia-1a '
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 c5d.2xlarge:
@@ -12649,6 +12829,9 @@ c5d.2xlarge:
         Shared: 0.46
       me-south-1:
         Dedicated: 0.511
+        Shared: 0.48
+      Middle East (UAE):
+        Dedicated: 0.508
         Shared: 0.48
       sa-east-1:
         Dedicated: 0.636
@@ -12768,6 +12951,9 @@ c5d.2xlarge:
       me-south-1:
         Dedicated: 0.641
         Shared: 0.61
+      Middle East (UAE):
+        Dedicated: 0.638
+        Shared: 0.61
       sa-east-1:
         Dedicated: 0.766
         Shared: 0.726
@@ -12884,6 +13070,9 @@ c5d.2xlarge:
         Dedicated: 0.653
         Shared: 0.625
       me-south-1:
+        Dedicated: 0.673
+        Shared: 0.645
+      Middle East (UAE):
         Dedicated: 0.673
         Shared: 0.645
       sa-east-1:
@@ -13004,6 +13193,9 @@ c5d.2xlarge:
       me-south-1:
         Dedicated: 0.611
         Shared: 0.58
+      Middle East (UAE):
+        Dedicated: 0.633
+        Shared: 0.605
       sa-east-1:
         Dedicated: 0.736
         Shared: 0.696
@@ -13122,6 +13314,9 @@ c5d.2xlarge:
       me-south-1:
         Dedicated: 0.879
         Shared: 0.848
+      Middle East (UAE):
+        Dedicated: 0.508
+        Shared: 0.848
       sa-east-1:
         Dedicated: 1.004
         Shared: 0.964
@@ -13204,6 +13399,7 @@ c5d.2xlarge:
     - eu-west-2
     - us-gov-east-1
     - us-east-1
+    - Middle East (UAE)
     - eu-west-3
     - US East (Kansas City 2)
     - Asia Pacific (Osaka)
@@ -13293,6 +13489,9 @@ c5d.4xlarge:
       me-south-1:
         Dedicated: 1.022
         Shared: 0.959
+      Middle East (UAE):
+        Dedicated: 1.017
+        Shared: 0.959
       sa-east-1:
         Dedicated: 1.273
         Shared: 1.192
@@ -13368,6 +13567,9 @@ c5d.4xlarge:
         Shared: 1.05
       me-south-1:
         Dedicated: 1.152
+        Shared: 1.089
+      Middle East (UAE):
+        Dedicated: 1.147
         Shared: 1.089
       sa-east-1:
         Dedicated: 1.403
@@ -13445,6 +13647,9 @@ c5d.4xlarge:
       me-south-1:
         Dedicated: 1.182
         Shared: 1.124
+      Middle East (UAE):
+        Dedicated: 1.182
+        Shared: 1.124
       sa-east-1:
         Dedicated: 1.429
         Shared: 1.357
@@ -13518,6 +13723,9 @@ c5d.4xlarge:
       me-south-1:
         Dedicated: 1.122
         Shared: 1.059
+      Middle East (UAE):
+        Dedicated: 1.142
+        Shared: 1.084
       sa-east-1:
         Dedicated: 1.373
         Shared: 1.292
@@ -13594,6 +13802,9 @@ c5d.4xlarge:
       me-south-1:
         Dedicated: 1.758
         Shared: 1.695
+      Middle East (UAE):
+        Dedicated: 1.017
+        Shared: 1.695
       sa-east-1:
         Dedicated: 2.009
         Shared: 1.928
@@ -13626,6 +13837,7 @@ c5d.4xlarge:
     - ca-central-1
     - ap-southeast-1
     - eu-central-1
+    - Middle East (UAE)
     - eu-north-1
     - us-west-1
     - ap-northeast-2
@@ -13709,6 +13921,9 @@ c5d.9xlarge:
       me-south-1:
         Dedicated: 2.3
         Shared: 2.158
+      Middle East (UAE):
+        Dedicated: 2.288
+        Shared: 2.158
       sa-east-1:
         Dedicated: 2.864
         Shared: 2.682
@@ -13782,6 +13997,9 @@ c5d.9xlarge:
       me-south-1:
         Dedicated: 2.43
         Shared: 2.288
+      Middle East (UAE):
+        Dedicated: 2.418
+        Shared: 2.288
       sa-east-1:
         Dedicated: 2.994
         Shared: 2.812
@@ -13853,6 +14071,9 @@ c5d.9xlarge:
         Dedicated: 2.359
         Shared: 2.235
       me-south-1:
+        Dedicated: 2.453
+        Shared: 2.323
+      Middle East (UAE):
         Dedicated: 2.453
         Shared: 2.323
       sa-east-1:
@@ -13928,6 +14149,9 @@ c5d.9xlarge:
       me-south-1:
         Dedicated: 2.4
         Shared: 2.258
+      Middle East (UAE):
+        Dedicated: 2.413
+        Shared: 2.283
       sa-east-1:
         Dedicated: 2.964
         Shared: 2.782
@@ -14001,6 +14225,9 @@ c5d.9xlarge:
       me-south-1:
         Dedicated: 3.956
         Shared: 3.814
+      Middle East (UAE):
+        Dedicated: 2.288
+        Shared: 3.814
       sa-east-1:
         Dedicated: 4.52
         Shared: 4.338
@@ -14037,6 +14264,7 @@ c5d.9xlarge:
     - ap-southeast-2
     - Asia Pacific (Osaka)
     - me-south-1
+    - Middle East (UAE)
     - eu-central-1
     - ap-northeast-2
     - eu-west-1
@@ -14112,6 +14340,9 @@ c5d.large:
       me-south-1:
         Dedicated: 0.128
         Shared: 0.12
+      Middle East (UAE):
+        Dedicated: 0.127
+        Shared: 0.12
       sa-east-1:
         Dedicated: 0.159
         Shared: 0.149
@@ -14185,6 +14416,9 @@ c5d.large:
       me-south-1:
         Dedicated: 0.188
         Shared: 0.18
+      Middle East (UAE):
+        Dedicated: 0.187
+        Shared: 0.18
       sa-east-1:
         Dedicated: 0.219
         Shared: 0.209
@@ -14256,6 +14490,9 @@ c5d.large:
         Dedicated: 0.217
         Shared: 0.21
       me-south-1:
+        Dedicated: 0.222
+        Shared: 0.215
+      Middle East (UAE):
         Dedicated: 0.222
         Shared: 0.215
       sa-east-1:
@@ -14331,6 +14568,9 @@ c5d.large:
       me-south-1:
         Dedicated: 0.183
         Shared: 0.176
+      Middle East (UAE):
+        Dedicated: 0.183
+        Shared: 0.176
       sa-east-1:
         Dedicated: 0.214
         Shared: 0.205
@@ -14404,6 +14644,9 @@ c5d.large:
       me-south-1:
         Dedicated: 0.22
         Shared: 0.212
+      Middle East (UAE):
+        Dedicated: 0.219
+        Shared: 0.212
       sa-east-1:
         Dedicated: 0.251
         Shared: 0.241
@@ -14431,6 +14674,7 @@ c5d.large:
     - sa-east-1
     - eu-west-2
     - us-east-2
+    - Middle East (UAE)
     - us-gov-west-1
     - ap-northeast-1
     - ap-east-1
@@ -14506,6 +14750,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.52
         Shared: 5.52
+      Middle East (UAE):
+        Dedicated: 5.755
+        Shared: 5.755
       sa-east-1:
         Dedicated: 7.152
         Shared: 7.152
@@ -14567,6 +14814,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.65
         Shared: 5.65
+      Middle East (UAE):
+        Dedicated: 5.885
+        Shared: 5.885
       sa-east-1:
         Dedicated: 7.282
         Shared: 7.282
@@ -14628,6 +14878,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.685
         Shared: 5.685
+      Middle East (UAE):
+        Dedicated: 5.92
+        Shared: 5.92
       sa-east-1:
         Dedicated: 7.317
         Shared: 7.317
@@ -14689,6 +14942,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.62
         Shared: 5.62
+      Middle East (UAE):
+        Dedicated: 5.88
+        Shared: 5.88
       sa-east-1:
         Dedicated: 7.252
         Shared: 7.252
@@ -14750,6 +15006,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 9.936
         Shared: 9.936
+      Middle East (UAE):
+        Dedicated: 5.755
+        Shared: 10.171
       sa-east-1:
         Dedicated: 11.568
         Shared: 11.568
@@ -14786,6 +15045,7 @@ c5d.metal:
     - af-south-1
     - ca-central-1
     - ap-northeast-2
+    - Middle East (UAE)
     - eu-north-1
     - sa-east-1
     - eu-south-1
@@ -14853,6 +15113,9 @@ c5d.xlarge:
         Shared: 0.23
       me-south-1:
         Dedicated: 0.256
+        Shared: 0.24
+      Middle East (UAE):
+        Dedicated: 0.254
         Shared: 0.24
       sa-east-1:
         Dedicated: 0.318
@@ -14927,6 +15190,9 @@ c5d.xlarge:
       me-south-1:
         Dedicated: 0.316
         Shared: 0.3
+      Middle East (UAE):
+        Dedicated: 0.314
+        Shared: 0.3
       sa-east-1:
         Dedicated: 0.378
         Shared: 0.358
@@ -14998,6 +15264,9 @@ c5d.xlarge:
         Dedicated: 0.339
         Shared: 0.325
       me-south-1:
+        Dedicated: 0.349
+        Shared: 0.335
+      Middle East (UAE):
         Dedicated: 0.349
         Shared: 0.335
       sa-east-1:
@@ -15073,6 +15342,9 @@ c5d.xlarge:
       me-south-1:
         Dedicated: 0.31
         Shared: 0.296
+      Middle East (UAE):
+        Dedicated: 0.31
+        Shared: 0.296
       sa-east-1:
         Dedicated: 0.372
         Shared: 0.354
@@ -15146,6 +15418,9 @@ c5d.xlarge:
       me-south-1:
         Dedicated: 0.44
         Shared: 0.424
+      Middle East (UAE):
+        Dedicated: 0.438
+        Shared: 0.424
       sa-east-1:
         Dedicated: 0.502
         Shared: 0.482
@@ -15188,6 +15463,7 @@ c5d.xlarge:
     - af-south-1
     - ap-southeast-3
     - us-east-1
+    - Middle East (UAE)
     - Asia Pacific (Osaka)
     - eu-west-3
     - ap-east-1
@@ -19103,6 +19379,9 @@ c6g.12xlarge:
       me-south-1:
         Dedicated: 2.1624
         Shared: 2.04
+      Middle East (UAE):
+        Dedicated: 2.0477
+        Shared: 1.9262
       sa-east-1:
         Dedicated: 2.6661
         Shared: 2.5152
@@ -19173,6 +19452,9 @@ c6g.12xlarge:
       me-south-1:
         Dedicated: 2.2924
         Shared: 2.17
+      Middle East (UAE):
+        Dedicated: 2.1777
+        Shared: 2.0562
       sa-east-1:
         Dedicated: 2.7961
         Shared: 2.6452
@@ -19243,6 +19525,9 @@ c6g.12xlarge:
       me-south-1:
         Dedicated: 2.3274
         Shared: 2.205
+      Middle East (UAE):
+        Dedicated: 2.2127
+        Shared: 2.0912
       sa-east-1:
         Dedicated: 2.8311
         Shared: 2.6802
@@ -19313,6 +19598,9 @@ c6g.12xlarge:
       me-south-1:
         Dedicated: 2.2874
         Shared: 2.165
+      Middle East (UAE):
+        Dedicated: 2.1727
+        Shared: 2.0512
       sa-east-1:
         Dedicated: 2.7911
         Shared: 2.6402
@@ -19354,6 +19642,7 @@ c6g.12xlarge:
     - me-south-1
     - eu-north-1
     - us-east-1
+    - Middle East (UAE)
     - eu-west-1
     - ap-southeast-1
     - us-gov-west-1
@@ -19419,6 +19708,9 @@ c6g.16xlarge:
       me-south-1:
         Dedicated: 2.72
         Shared: 2.72
+      Middle East (UAE):
+        Dedicated: 2.5683
+        Shared: 2.5683
       sa-east-1:
         Dedicated: 3.5548
         Shared: 3.3536
@@ -19489,6 +19781,9 @@ c6g.16xlarge:
       me-south-1:
         Dedicated: 2.85
         Shared: 2.85
+      Middle East (UAE):
+        Dedicated: 2.6983
+        Shared: 2.6983
       sa-east-1:
         Dedicated: 3.6848
         Shared: 3.4836
@@ -19559,6 +19854,9 @@ c6g.16xlarge:
       me-south-1:
         Dedicated: 2.885
         Shared: 2.885
+      Middle East (UAE):
+        Dedicated: 2.7333
+        Shared: 2.7333
       sa-east-1:
         Dedicated: 3.7198
         Shared: 3.5186
@@ -19629,6 +19927,9 @@ c6g.16xlarge:
       me-south-1:
         Dedicated: 2.845
         Shared: 2.845
+      Middle East (UAE):
+        Dedicated: 2.6933
+        Shared: 2.6933
       sa-east-1:
         Dedicated: 3.4786
         Shared: 3.4786
@@ -19658,6 +19959,7 @@ c6g.16xlarge:
     - us-east-1
     - us-gov-east-1
     - Asia Pacific (Osaka)
+    - Middle East (UAE)
     - us-west-2
     - ap-northeast-1
     - eu-south-1
@@ -19735,6 +20037,9 @@ c6g.2xlarge:
       me-south-1:
         Dedicated: 0.3604
         Shared: 0.34
+      Middle East (UAE):
+        Dedicated: 0.3413
+        Shared: 0.321
       sa-east-1:
         Dedicated: 0.4444
         Shared: 0.4192
@@ -19805,6 +20110,9 @@ c6g.2xlarge:
       me-south-1:
         Dedicated: 0.4904
         Shared: 0.47
+      Middle East (UAE):
+        Dedicated: 0.4713
+        Shared: 0.451
       sa-east-1:
         Dedicated: 0.5744
         Shared: 0.5492
@@ -19875,6 +20183,9 @@ c6g.2xlarge:
       me-south-1:
         Dedicated: 0.5254
         Shared: 0.505
+      Middle East (UAE):
+        Dedicated: 0.5063
+        Shared: 0.486
       sa-east-1:
         Dedicated: 0.6094
         Shared: 0.5842
@@ -19945,6 +20256,9 @@ c6g.2xlarge:
       me-south-1:
         Dedicated: 0.4854
         Shared: 0.465
+      Middle East (UAE):
+        Dedicated: 0.4663
+        Shared: 0.446
       sa-east-1:
         Dedicated: 0.5694
         Shared: 0.5442
@@ -19989,6 +20303,7 @@ c6g.2xlarge:
     - sa-east-1
     - Asia Pacific (Osaka)
     - us-east-2
+    - Middle East (UAE)
     - ap-east-1
   storage: EBS only
   vcpu: 8
@@ -20051,6 +20366,9 @@ c6g.4xlarge:
       me-south-1:
         Dedicated: 0.7208
         Shared: 0.68
+      Middle East (UAE):
+        Dedicated: 0.6826
+        Shared: 0.6421
       sa-east-1:
         Dedicated: 0.8887
         Shared: 0.8384
@@ -20121,6 +20439,9 @@ c6g.4xlarge:
       me-south-1:
         Dedicated: 0.8508
         Shared: 0.81
+      Middle East (UAE):
+        Dedicated: 0.8126
+        Shared: 0.7721
       sa-east-1:
         Dedicated: 1.0187
         Shared: 0.9684
@@ -20191,6 +20512,9 @@ c6g.4xlarge:
       me-south-1:
         Dedicated: 0.8858
         Shared: 0.845
+      Middle East (UAE):
+        Dedicated: 0.8476
+        Shared: 0.8071
       sa-east-1:
         Dedicated: 1.0537
         Shared: 1.0034
@@ -20261,6 +20585,9 @@ c6g.4xlarge:
       me-south-1:
         Dedicated: 0.8458
         Shared: 0.805
+      Middle East (UAE):
+        Dedicated: 0.8076
+        Shared: 0.7671
       sa-east-1:
         Dedicated: 1.0137
         Shared: 0.9634
@@ -20296,6 +20623,7 @@ c6g.4xlarge:
     - eu-west-2
     - us-east-1
     - ap-south-1
+    - Middle East (UAE)
     - ap-southeast-2
     - sa-east-1
     - eu-south-1
@@ -20367,6 +20695,9 @@ c6g.8xlarge:
       me-south-1:
         Dedicated: 1.4416
         Shared: 1.36
+      Middle East (UAE):
+        Dedicated: 1.3651
+        Shared: 1.2842
       sa-east-1:
         Dedicated: 1.7774
         Shared: 1.6768
@@ -20437,6 +20768,9 @@ c6g.8xlarge:
       me-south-1:
         Dedicated: 1.5716
         Shared: 1.49
+      Middle East (UAE):
+        Dedicated: 1.4951
+        Shared: 1.4142
       sa-east-1:
         Dedicated: 1.9074
         Shared: 1.8068
@@ -20507,6 +20841,9 @@ c6g.8xlarge:
       me-south-1:
         Dedicated: 1.6066
         Shared: 1.525
+      Middle East (UAE):
+        Dedicated: 1.5301
+        Shared: 1.4492
       sa-east-1:
         Dedicated: 1.9424
         Shared: 1.8418
@@ -20577,6 +20914,9 @@ c6g.8xlarge:
       me-south-1:
         Dedicated: 1.5666
         Shared: 1.485
+      Middle East (UAE):
+        Dedicated: 1.4901
+        Shared: 1.4092
       sa-east-1:
         Dedicated: 1.9024
         Shared: 1.8018
@@ -20603,6 +20943,7 @@ c6g.8xlarge:
     - us-gov-east-1
     - eu-south-1
     - ap-south-1
+    - Middle East (UAE)
     - us-east-1
     - ap-southeast-3
     - ca-central-1
@@ -20683,6 +21024,9 @@ c6g.large:
       me-south-1:
         Dedicated: 0.0901
         Shared: 0.085
+      Middle East (UAE):
+        Dedicated: 0.0853
+        Shared: 0.0803
       sa-east-1:
         Dedicated: 0.1111
         Shared: 0.1048
@@ -20753,6 +21097,9 @@ c6g.large:
       me-south-1:
         Dedicated: 0.1501
         Shared: 0.145
+      Middle East (UAE):
+        Dedicated: 0.1453
+        Shared: 0.1403
       sa-east-1:
         Dedicated: 0.1711
         Shared: 0.1648
@@ -20823,6 +21170,9 @@ c6g.large:
       me-south-1:
         Dedicated: 0.1851
         Shared: 0.18
+      Middle East (UAE):
+        Dedicated: 0.1803
+        Shared: 0.1753
       sa-east-1:
         Dedicated: 0.2061
         Shared: 0.1998
@@ -20893,6 +21243,9 @@ c6g.large:
       me-south-1:
         Dedicated: 0.1464
         Shared: 0.1413
+      Middle East (UAE):
+        Dedicated: 0.1416
+        Shared: 0.1366
       sa-east-1:
         Dedicated: 0.1674
         Shared: 0.1611
@@ -20934,6 +21287,7 @@ c6g.large:
     - Asia Pacific (Osaka)
     - me-south-1
     - eu-west-3
+    - Middle East (UAE)
     - ca-central-1
     - sa-east-1
     - us-west-2
@@ -20999,6 +21353,9 @@ c6g.medium:
       me-south-1:
         Dedicated: 0.0451
         Shared: 0.0425
+      Middle East (UAE):
+        Dedicated: 0.0427
+        Shared: 0.0401
       sa-east-1:
         Dedicated: 0.0555
         Shared: 0.0524
@@ -21069,6 +21426,9 @@ c6g.medium:
       me-south-1:
         Dedicated: 0.1051
         Shared: 0.1025
+      Middle East (UAE):
+        Dedicated: 0.1027
+        Shared: 0.1001
       sa-east-1:
         Dedicated: 0.1155
         Shared: 0.1124
@@ -21139,6 +21499,9 @@ c6g.medium:
       me-south-1:
         Dedicated: 0.1401
         Shared: 0.1375
+      Middle East (UAE):
+        Dedicated: 0.1377
+        Shared: 0.1351
       sa-east-1:
         Dedicated: 0.1505
         Shared: 0.1474
@@ -21209,6 +21572,9 @@ c6g.medium:
       me-south-1:
         Dedicated: 0.0761
         Shared: 0.0735
+      Middle East (UAE):
+        Dedicated: 0.099
+        Shared: 0.0964
       sa-east-1:
         Dedicated: 0.0865
         Shared: 0.0834
@@ -21245,6 +21611,7 @@ c6g.medium:
     - ap-southeast-1
     - eu-south-1
     - us-east-2
+    - Middle East (UAE)
     - ap-northeast-1
     - me-south-1
     - us-west-2
@@ -21315,6 +21682,9 @@ c6g.metal:
       me-south-1:
         Dedicated: 2.72
         Shared: 2.72
+      Middle East (UAE):
+        Dedicated: 2.5683
+        Shared: 2.5683
       sa-east-1:
         Dedicated: 3.5548
         Shared: 3.3536
@@ -21385,6 +21755,9 @@ c6g.metal:
       me-south-1:
         Dedicated: 2.85
         Shared: 2.85
+      Middle East (UAE):
+        Dedicated: 2.6983
+        Shared: 2.6983
       sa-east-1:
         Dedicated: 3.6848
         Shared: 3.4836
@@ -21455,6 +21828,9 @@ c6g.metal:
       me-south-1:
         Dedicated: 2.885
         Shared: 2.885
+      Middle East (UAE):
+        Dedicated: 2.7333
+        Shared: 2.7333
       sa-east-1:
         Dedicated: 3.7198
         Shared: 3.5186
@@ -21525,6 +21901,9 @@ c6g.metal:
       me-south-1:
         Dedicated: 2.845
         Shared: 2.845
+      Middle East (UAE):
+        Dedicated: 2.6933
+        Shared: 2.6933
       sa-east-1:
         Dedicated: 3.4786
         Shared: 3.4786
@@ -21560,6 +21939,7 @@ c6g.metal:
     - ap-south-1
     - ap-southeast-2
     - us-west-1
+    - Middle East (UAE)
     - ap-southeast-3
     - me-south-1
     - eu-central-1
@@ -21631,6 +22011,9 @@ c6g.xlarge:
       me-south-1:
         Dedicated: 0.1802
         Shared: 0.17
+      Middle East (UAE):
+        Dedicated: 0.1706
+        Shared: 0.1605
       sa-east-1:
         Dedicated: 0.2222
         Shared: 0.2096
@@ -21701,6 +22084,9 @@ c6g.xlarge:
       me-south-1:
         Dedicated: 0.2402
         Shared: 0.23
+      Middle East (UAE):
+        Dedicated: 0.2306
+        Shared: 0.2205
       sa-east-1:
         Dedicated: 0.2822
         Shared: 0.2696
@@ -21771,6 +22157,9 @@ c6g.xlarge:
       me-south-1:
         Dedicated: 0.2752
         Shared: 0.265
+      Middle East (UAE):
+        Dedicated: 0.2656
+        Shared: 0.2555
       sa-east-1:
         Dedicated: 0.3172
         Shared: 0.3046
@@ -21841,6 +22230,9 @@ c6g.xlarge:
       me-south-1:
         Dedicated: 0.2365
         Shared: 0.2263
+      Middle East (UAE):
+        Dedicated: 0.2269
+        Shared: 0.2168
       sa-east-1:
         Dedicated: 0.2785
         Shared: 0.2659
@@ -21864,6 +22256,7 @@ c6g.xlarge:
         Shared: 0.1923
   regions:
     - eu-central-1
+    - Middle East (UAE)
     - eu-west-1
     - us-west-1
     - ap-northeast-1
@@ -42191,6 +42584,9 @@ i3.16xlarge:
       me-south-1:
         Dedicated: 6.054
         Shared: 6.054
+      Middle East (UAE):
+        Dedicated: 6.054
+        Shared: 6.054
       sa-east-1:
         Dedicated: 7.968
         Shared: 7.968
@@ -42262,6 +42658,9 @@ i3.16xlarge:
         Dedicated: 5.922
         Shared: 5.922
       me-south-1:
+        Dedicated: 6.184
+        Shared: 6.184
+      Middle East (UAE):
         Dedicated: 6.184
         Shared: 6.184
       sa-east-1:
@@ -42337,6 +42736,9 @@ i3.16xlarge:
       me-south-1:
         Dedicated: 6.219
         Shared: 6.219
+      Middle East (UAE):
+        Dedicated: 6.219
+        Shared: 6.219
       sa-east-1:
         Dedicated: 8.133
         Shared: 8.133
@@ -42408,6 +42810,9 @@ i3.16xlarge:
         Dedicated: 5.892
         Shared: 5.892
       me-south-1:
+        Dedicated: 6.154
+        Shared: 6.154
+      Middle East (UAE):
         Dedicated: 6.154
         Shared: 6.154
       sa-east-1:
@@ -42483,6 +42888,9 @@ i3.16xlarge:
       me-south-1:
         Dedicated: 8.998
         Shared: 8.998
+      Middle East (UAE):
+        Dedicated: 6.054
+        Shared: 8.998
       sa-east-1:
         Dedicated: 10.912
         Shared: 10.912
@@ -42520,6 +42928,7 @@ i3.16xlarge:
     - eu-south-1
     - ap-south-1
     - ap-southeast-1
+    - Middle East (UAE)
     - sa-east-1
     - eu-west-3
     - ap-northeast-1
@@ -42592,6 +43001,9 @@ i3.2xlarge:
         Dedicated: 0.796
         Shared: 0.724
       me-south-1:
+        Dedicated: 0.832
+        Shared: 0.757
+      Middle East (UAE):
         Dedicated: 0.832
         Shared: 0.757
       sa-east-1:
@@ -42667,6 +43079,9 @@ i3.2xlarge:
       me-south-1:
         Dedicated: 0.962
         Shared: 0.887
+      Middle East (UAE):
+        Dedicated: 0.962
+        Shared: 0.887
       sa-east-1:
         Dedicated: 1.226
         Shared: 1.126
@@ -42738,6 +43153,9 @@ i3.2xlarge:
         Dedicated: 0.961
         Shared: 0.889
       me-south-1:
+        Dedicated: 0.997
+        Shared: 0.922
+      Middle East (UAE):
         Dedicated: 0.997
         Shared: 0.922
       sa-east-1:
@@ -42813,6 +43231,9 @@ i3.2xlarge:
       me-south-1:
         Dedicated: 0.932
         Shared: 0.857
+      Middle East (UAE):
+        Dedicated: 0.932
+        Shared: 0.857
       sa-east-1:
         Dedicated: 1.196
         Shared: 1.096
@@ -42886,6 +43307,9 @@ i3.2xlarge:
       me-south-1:
         Dedicated: 1.2
         Shared: 1.125
+      Middle East (UAE):
+        Dedicated: 1.2
+        Shared: 0.757
       sa-east-1:
         Dedicated: 1.464
         Shared: 0.996
@@ -42917,6 +43341,7 @@ i3.2xlarge:
     - sa-east-1
     - us-east-2
     - us-gov-west-1
+    - Middle East (UAE)
     - eu-central-1
     - ca-central-1
     - af-south-1
@@ -42997,6 +43422,9 @@ i3.4xlarge:
       me-south-1:
         Dedicated: 1.665
         Shared: 1.514
+      Middle East (UAE):
+        Dedicated: 1.665
+        Shared: 1.514
       sa-east-1:
         Dedicated: 2.191
         Shared: 1.992
@@ -43068,6 +43496,9 @@ i3.4xlarge:
         Dedicated: 1.723
         Shared: 1.578
       me-south-1:
+        Dedicated: 1.795
+        Shared: 1.644
+      Middle East (UAE):
         Dedicated: 1.795
         Shared: 1.644
       sa-east-1:
@@ -43143,6 +43574,9 @@ i3.4xlarge:
       me-south-1:
         Dedicated: 1.83
         Shared: 1.679
+      Middle East (UAE):
+        Dedicated: 1.83
+        Shared: 1.679
       sa-east-1:
         Dedicated: 2.356
         Shared: 2.157
@@ -43214,6 +43648,9 @@ i3.4xlarge:
         Dedicated: 1.693
         Shared: 1.548
       me-south-1:
+        Dedicated: 1.765
+        Shared: 1.614
+      Middle East (UAE):
         Dedicated: 1.765
         Shared: 1.614
       sa-east-1:
@@ -43289,6 +43726,9 @@ i3.4xlarge:
       me-south-1:
         Dedicated: 2.401
         Shared: 2.25
+      Middle East (UAE):
+        Dedicated: 2.401
+        Shared: 2.25
       sa-east-1:
         Dedicated: 2.927
         Shared: 1.992
@@ -43330,6 +43770,7 @@ i3.4xlarge:
     - ap-northeast-2
     - af-south-1
     - us-east-2
+    - Middle East (UAE)
     - ap-southeast-3
     - us-gov-west-1
     - ap-southeast-1
@@ -43398,6 +43839,9 @@ i3.8xlarge:
         Dedicated: 3.186
         Shared: 2.896
       me-south-1:
+        Dedicated: 3.33
+        Shared: 3.027
+      Middle East (UAE):
         Dedicated: 3.33
         Shared: 3.027
       sa-east-1:
@@ -43473,6 +43917,9 @@ i3.8xlarge:
       me-south-1:
         Dedicated: 3.46
         Shared: 3.157
+      Middle East (UAE):
+        Dedicated: 3.46
+        Shared: 3.157
       sa-east-1:
         Dedicated: 4.512
         Shared: 4.114
@@ -43544,6 +43991,9 @@ i3.8xlarge:
         Dedicated: 3.351
         Shared: 3.061
       me-south-1:
+        Dedicated: 3.495
+        Shared: 3.192
+      Middle East (UAE):
         Dedicated: 3.495
         Shared: 3.192
       sa-east-1:
@@ -43619,6 +44069,9 @@ i3.8xlarge:
       me-south-1:
         Dedicated: 3.43
         Shared: 3.127
+      Middle East (UAE):
+        Dedicated: 3.43
+        Shared: 3.127
       sa-east-1:
         Dedicated: 4.482
         Shared: 4.084
@@ -43692,6 +44145,9 @@ i3.8xlarge:
       me-south-1:
         Dedicated: 4.802
         Shared: 4.499
+      Middle East (UAE):
+        Dedicated: 4.802
+        Shared: 4.499
       sa-east-1:
         Dedicated: 5.854
         Shared: 3.984
@@ -43717,6 +44173,7 @@ i3.8xlarge:
     - eu-west-2
     - ap-southeast-3
     - eu-south-1
+    - Middle East (UAE)
     - us-east-1
     - ca-central-1
     - ap-south-1
@@ -43803,6 +44260,9 @@ i3.large:
       me-south-1:
         Dedicated: 0.208
         Shared: 0.189
+      Middle East (UAE):
+        Dedicated: 0.208
+        Shared: 0.189
       sa-east-1:
         Dedicated: 0.274
         Shared: 0.249
@@ -43874,6 +44334,9 @@ i3.large:
         Dedicated: 0.259
         Shared: 0.241
       me-south-1:
+        Dedicated: 0.268
+        Shared: 0.249
+      Middle East (UAE):
         Dedicated: 0.268
         Shared: 0.249
       sa-east-1:
@@ -43949,6 +44412,9 @@ i3.large:
       me-south-1:
         Dedicated: 0.303
         Shared: 0.284
+      Middle East (UAE):
+        Dedicated: 0.303
+        Shared: 0.284
       sa-east-1:
         Dedicated: 0.369
         Shared: 0.344
@@ -44020,6 +44486,9 @@ i3.large:
         Dedicated: 0.299
         Shared: 0.281
       me-south-1:
+        Dedicated: 0.308
+        Shared: 0.289
+      Middle East (UAE):
         Dedicated: 0.308
         Shared: 0.289
       sa-east-1:
@@ -44095,6 +44564,9 @@ i3.large:
       me-south-1:
         Dedicated: 0.3
         Shared: 0.281
+      Middle East (UAE):
+        Dedicated: 0.208
+        Shared: 0.189
       sa-east-1:
         Dedicated: 0.274
         Shared: 0.341
@@ -44130,6 +44602,7 @@ i3.large:
     - eu-west-1
     - eu-west-2
     - us-gov-west-1
+    - Middle East (UAE)
     - af-south-1
     - ap-northeast-1
     - eu-west-3
@@ -44562,6 +45035,9 @@ i3.xlarge:
       me-south-1:
         Dedicated: 0.416
         Shared: 0.378
+      Middle East (UAE):
+        Dedicated: 0.416
+        Shared: 0.378
       sa-east-1:
         Dedicated: 0.548
         Shared: 0.498
@@ -44633,6 +45109,9 @@ i3.xlarge:
         Dedicated: 0.458
         Shared: 0.422
       me-south-1:
+        Dedicated: 0.476
+        Shared: 0.438
+      Middle East (UAE):
         Dedicated: 0.476
         Shared: 0.438
       sa-east-1:
@@ -44708,6 +45187,9 @@ i3.xlarge:
       me-south-1:
         Dedicated: 0.511
         Shared: 0.473
+      Middle East (UAE):
+        Dedicated: 0.511
+        Shared: 0.473
       sa-east-1:
         Dedicated: 0.643
         Shared: 0.593
@@ -44779,6 +45261,9 @@ i3.xlarge:
         Dedicated: 0.498
         Shared: 0.462
       me-south-1:
+        Dedicated: 0.516
+        Shared: 0.478
+      Middle East (UAE):
         Dedicated: 0.516
         Shared: 0.478
       sa-east-1:
@@ -44854,6 +45339,9 @@ i3.xlarge:
       me-south-1:
         Dedicated: 0.6
         Shared: 0.562
+      Middle East (UAE):
+        Dedicated: 0.416
+        Shared: 0.562
       sa-east-1:
         Dedicated: 0.732
         Shared: 0.498
@@ -44900,6 +45388,7 @@ i3.xlarge:
     - me-south-1
     - ca-central-1
     - eu-west-2
+    - Middle East (UAE)
   storage: 1 x 950 NVMe SSD
   vcpu: 4
 i3en.12xlarge:
@@ -44965,6 +45454,9 @@ i3en.12xlarge:
       me-south-1:
         Dedicated: 7
         Shared: 6.571
+      Middle East (UAE):
+        Dedicated: 7.029
+        Shared: 6.6
       sa-east-1:
         Dedicated: 9.202
         Shared: 8.64
@@ -45041,6 +45533,9 @@ i3en.12xlarge:
       me-south-1:
         Dedicated: 7.13
         Shared: 6.701
+      Middle East (UAE):
+        Dedicated: 7.159
+        Shared: 6.73
       sa-east-1:
         Dedicated: 9.332
         Shared: 8.77
@@ -45117,6 +45612,9 @@ i3en.12xlarge:
       me-south-1:
         Dedicated: 7.165
         Shared: 6.736
+      Middle East (UAE):
+        Dedicated: 7.194
+        Shared: 6.765
       sa-east-1:
         Dedicated: 9.367
         Shared: 8.805
@@ -45193,6 +45691,9 @@ i3en.12xlarge:
       me-south-1:
         Dedicated: 7.125
         Shared: 6.696
+      Middle East (UAE):
+        Dedicated: 7.154
+        Shared: 6.725
       sa-east-1:
         Dedicated: 9.327
         Shared: 8.765
@@ -45269,6 +45770,9 @@ i3en.12xlarge:
       me-south-1:
         Dedicated: 9.208
         Shared: 8.779
+      Middle East (UAE):
+        Dedicated: 9.237
+        Shared: 8.808
       sa-east-1:
         Dedicated: 11.41
         Shared: 10.848
@@ -45319,6 +45823,7 @@ i3en.12xlarge:
     - me-south-1
     - us-west-2-lax-1a
     - eu-west-1
+    - Middle East (UAE)
   storage: 4 x 7500 NVMe SSD
   vcpu: 48
 i3en.24xlarge:
@@ -45384,6 +45889,9 @@ i3en.24xlarge:
       me-south-1:
         Dedicated: 13.142
         Shared: 13.142
+      Middle East (UAE):
+        Dedicated: 13.2
+        Shared: 13.2
       sa-east-1:
         Dedicated: 17.28
         Shared: 17.28
@@ -45460,6 +45968,9 @@ i3en.24xlarge:
       me-south-1:
         Dedicated: 13.272
         Shared: 13.272
+      Middle East (UAE):
+        Dedicated: 13.33
+        Shared: 13.33
       sa-east-1:
         Dedicated: 17.41
         Shared: 17.41
@@ -45536,6 +46047,9 @@ i3en.24xlarge:
       me-south-1:
         Dedicated: 13.307
         Shared: 13.307
+      Middle East (UAE):
+        Dedicated: 13.365
+        Shared: 13.365
       sa-east-1:
         Dedicated: 17.445
         Shared: 17.445
@@ -45612,6 +46126,9 @@ i3en.24xlarge:
       me-south-1:
         Dedicated: 13.267
         Shared: 13.267
+      Middle East (UAE):
+        Dedicated: 13.325
+        Shared: 13.325
       sa-east-1:
         Dedicated: 17.405
         Shared: 17.405
@@ -45688,6 +46205,9 @@ i3en.24xlarge:
       me-south-1:
         Dedicated: 13.142
         Shared: 13.142
+      Middle East (UAE):
+        Dedicated: 17.616
+        Shared: 13.2
       sa-east-1:
         Dedicated: 21.696
         Shared: 21.696
@@ -45724,6 +46244,7 @@ i3en.24xlarge:
     - af-south-1
     - sa-east-1
     - ap-east-1
+    - Middle East (UAE)
     - us-west-2-lax-1a
     - me-south-1
     - us-east-1
@@ -45803,6 +46324,9 @@ i3en.2xlarge:
       me-south-1:
         Dedicated: 1.167
         Shared: 1.095
+      Middle East (UAE):
+        Dedicated: 1.172
+        Shared: 1.1
       sa-east-1:
         Dedicated: 1.534
         Shared: 1.44
@@ -45879,6 +46403,9 @@ i3en.2xlarge:
       me-south-1:
         Dedicated: 1.297
         Shared: 1.225
+      Middle East (UAE):
+        Dedicated: 1.302
+        Shared: 1.23
       sa-east-1:
         Dedicated: 1.664
         Shared: 1.57
@@ -45955,6 +46482,9 @@ i3en.2xlarge:
       me-south-1:
         Dedicated: 1.332
         Shared: 1.26
+      Middle East (UAE):
+        Dedicated: 1.337
+        Shared: 1.265
       sa-east-1:
         Dedicated: 1.699
         Shared: 1.605
@@ -46031,6 +46561,9 @@ i3en.2xlarge:
       me-south-1:
         Dedicated: 1.292
         Shared: 1.22
+      Middle East (UAE):
+        Dedicated: 1.297
+        Shared: 1.225
       sa-east-1:
         Dedicated: 1.659
         Shared: 1.565
@@ -46107,6 +46640,9 @@ i3en.2xlarge:
       me-south-1:
         Dedicated: 1.167
         Shared: 1.463
+      Middle East (UAE):
+        Dedicated: 1.172
+        Shared: 1.1
       sa-east-1:
         Dedicated: 1.902
         Shared: 1.808
@@ -46143,6 +46679,7 @@ i3en.2xlarge:
     - af-south-1
     - Asia Pacific (Osaka)
     - us-east-2
+    - Middle East (UAE)
     - us-west-1
     - us-west-2-lax-1a
     - eu-south-1
@@ -46221,6 +46758,9 @@ i3en.3xlarge:
       me-south-1:
         Dedicated: 1.75
         Shared: 1.643
+      Middle East (UAE):
+        Dedicated: 1.757
+        Shared: 1.65
       sa-east-1:
         Dedicated: 2.3
         Shared: 2.16
@@ -46297,6 +46837,9 @@ i3en.3xlarge:
       me-south-1:
         Dedicated: 1.88
         Shared: 1.773
+      Middle East (UAE):
+        Dedicated: 1.887
+        Shared: 1.78
       sa-east-1:
         Dedicated: 2.43
         Shared: 2.29
@@ -46373,6 +46916,9 @@ i3en.3xlarge:
       me-south-1:
         Dedicated: 1.915
         Shared: 1.808
+      Middle East (UAE):
+        Dedicated: 1.922
+        Shared: 1.815
       sa-east-1:
         Dedicated: 2.465
         Shared: 2.325
@@ -46449,6 +46995,9 @@ i3en.3xlarge:
       me-south-1:
         Dedicated: 1.875
         Shared: 1.768
+      Middle East (UAE):
+        Dedicated: 1.882
+        Shared: 1.775
       sa-east-1:
         Dedicated: 2.425
         Shared: 2.285
@@ -46525,6 +47074,9 @@ i3en.3xlarge:
       me-south-1:
         Dedicated: 2.302
         Shared: 1.643
+      Middle East (UAE):
+        Dedicated: 2.309
+        Shared: 1.65
       sa-east-1:
         Dedicated: 2.852
         Shared: 2.712
@@ -46556,6 +47108,7 @@ i3en.3xlarge:
     - us-east-2
     - us-gov-west-1
     - ap-southeast-3
+    - Middle East (UAE)
     - me-south-1
     - ca-central-1
     - ap-east-1
@@ -46639,6 +47192,9 @@ i3en.6xlarge:
       me-south-1:
         Dedicated: 3.5
         Shared: 3.286
+      Middle East (UAE):
+        Dedicated: 3.515
+        Shared: 3.3
       sa-east-1:
         Dedicated: 4.601
         Shared: 4.32
@@ -46715,6 +47271,9 @@ i3en.6xlarge:
       me-south-1:
         Dedicated: 3.63
         Shared: 3.416
+      Middle East (UAE):
+        Dedicated: 3.645
+        Shared: 3.43
       sa-east-1:
         Dedicated: 4.731
         Shared: 4.45
@@ -46791,6 +47350,9 @@ i3en.6xlarge:
       me-south-1:
         Dedicated: 3.665
         Shared: 3.451
+      Middle East (UAE):
+        Dedicated: 3.68
+        Shared: 3.465
       sa-east-1:
         Dedicated: 4.766
         Shared: 4.485
@@ -46867,6 +47429,9 @@ i3en.6xlarge:
       me-south-1:
         Dedicated: 3.625
         Shared: 3.411
+      Middle East (UAE):
+        Dedicated: 3.64
+        Shared: 3.425
       sa-east-1:
         Dedicated: 4.726
         Shared: 4.445
@@ -46943,6 +47508,9 @@ i3en.6xlarge:
       me-south-1:
         Dedicated: 3.5
         Shared: 3.286
+      Middle East (UAE):
+        Dedicated: 4.619
+        Shared: 3.3
       sa-east-1:
         Dedicated: 5.705
         Shared: 5.424
@@ -46975,6 +47543,7 @@ i3en.6xlarge:
     - eu-central-1
     - eu-north-1
     - ca-central-1
+    - Middle East (UAE)
     - ap-east-1
     - us-west-2-lax-1a
     - eu-west-2
@@ -47058,6 +47627,9 @@ i3en.large:
       me-south-1:
         Dedicated: 0.292
         Shared: 0.274
+      Middle East (UAE):
+        Dedicated: 0.293
+        Shared: 0.275
       sa-east-1:
         Dedicated: 0.383
         Shared: 0.36
@@ -47134,6 +47706,9 @@ i3en.large:
       me-south-1:
         Dedicated: 0.352
         Shared: 0.334
+      Middle East (UAE):
+        Dedicated: 0.353
+        Shared: 0.335
       sa-east-1:
         Dedicated: 0.443
         Shared: 0.42
@@ -47210,6 +47785,9 @@ i3en.large:
       me-south-1:
         Dedicated: 0.387
         Shared: 0.369
+      Middle East (UAE):
+        Dedicated: 0.388
+        Shared: 0.37
       sa-east-1:
         Dedicated: 0.478
         Shared: 0.455
@@ -47286,6 +47864,9 @@ i3en.large:
       me-south-1:
         Dedicated: 0.348
         Shared: 0.33
+      Middle East (UAE):
+        Dedicated: 0.349
+        Shared: 0.331
       sa-east-1:
         Dedicated: 0.44
         Shared: 0.416
@@ -47362,6 +47943,9 @@ i3en.large:
       me-south-1:
         Dedicated: 0.292
         Shared: 0.274
+      Middle East (UAE):
+        Dedicated: 0.293
+        Shared: 0.367
       sa-east-1:
         Dedicated: 0.475
         Shared: 0.452
@@ -47397,6 +47981,7 @@ i3en.large:
     - ap-northeast-1
     - eu-west-3
     - eu-west-1
+    - Middle East (UAE)
     - Asia Pacific (Osaka)
     - us-west-2-lax-1a
     - ap-southeast-1
@@ -47476,6 +48061,9 @@ i3en.metal:
       me-south-1:
         Dedicated: 13.142
         Shared: 13.142
+      Middle East (UAE):
+        Dedicated: 13.2
+        Shared: 13.2
       sa-east-1:
         Dedicated: 17.28
         Shared: 17.28
@@ -47552,6 +48140,9 @@ i3en.metal:
       me-south-1:
         Dedicated: 13.272
         Shared: 13.272
+      Middle East (UAE):
+        Dedicated: 13.33
+        Shared: 13.33
       sa-east-1:
         Dedicated: 17.41
         Shared: 17.41
@@ -47628,6 +48219,9 @@ i3en.metal:
       me-south-1:
         Dedicated: 13.307
         Shared: 13.307
+      Middle East (UAE):
+        Dedicated: 13.365
+        Shared: 13.365
       sa-east-1:
         Dedicated: 17.445
         Shared: 17.445
@@ -47704,6 +48298,9 @@ i3en.metal:
       me-south-1:
         Dedicated: 13.267
         Shared: 13.267
+      Middle East (UAE):
+        Dedicated: 13.325
+        Shared: 13.325
       sa-east-1:
         Dedicated: 17.405
         Shared: 17.405
@@ -47780,6 +48377,9 @@ i3en.metal:
       me-south-1:
         Dedicated: 17.558
         Shared: 17.558
+      Middle East (UAE):
+        Dedicated: 17.616
+        Shared: 17.616
       sa-east-1:
         Dedicated: 21.696
         Shared: 21.696
@@ -47809,6 +48409,7 @@ i3en.metal:
     - eu-central-1
     - af-south-1
     - ap-southeast-3
+    - Middle East (UAE)
     - eu-west-3
     - us-west-2
     - eu-south-1
@@ -47894,6 +48495,9 @@ i3en.xlarge:
       me-south-1:
         Dedicated: 0.583
         Shared: 0.548
+      Middle East (UAE):
+        Dedicated: 0.586
+        Shared: 0.55
       sa-east-1:
         Dedicated: 0.767
         Shared: 0.72
@@ -47970,6 +48574,9 @@ i3en.xlarge:
       me-south-1:
         Dedicated: 0.643
         Shared: 0.608
+      Middle East (UAE):
+        Dedicated: 0.646
+        Shared: 0.61
       sa-east-1:
         Dedicated: 0.827
         Shared: 0.78
@@ -48046,6 +48653,9 @@ i3en.xlarge:
       me-south-1:
         Dedicated: 0.678
         Shared: 0.643
+      Middle East (UAE):
+        Dedicated: 0.681
+        Shared: 0.645
       sa-east-1:
         Dedicated: 0.862
         Shared: 0.815
@@ -48122,6 +48732,9 @@ i3en.xlarge:
       me-south-1:
         Dedicated: 0.64
         Shared: 0.604
+      Middle East (UAE):
+        Dedicated: 0.642
+        Shared: 0.606
       sa-east-1:
         Dedicated: 0.823
         Shared: 0.776
@@ -48198,6 +48811,9 @@ i3en.xlarge:
       me-south-1:
         Dedicated: 0.767
         Shared: 0.548
+      Middle East (UAE):
+        Dedicated: 0.586
+        Shared: 0.734
       sa-east-1:
         Dedicated: 0.951
         Shared: 0.904
@@ -48226,6 +48842,7 @@ i3en.xlarge:
     - eu-west-1
     - sa-east-1
     - eu-north-1
+    - Middle East (UAE)
     - Asia Pacific (Osaka)
     - eu-west-3
     - us-gov-west-1
@@ -55795,6 +56412,9 @@ m5.12xlarge:
       me-south-1:
         Dedicated: 3.014
         Shared: 2.825
+      Middle East (UAE):
+        Dedicated: 2.994
+        Shared: 2.825
       sa-east-1:
         Dedicated: 3.878
         Shared: 3.672
@@ -55871,6 +56491,9 @@ m5.12xlarge:
       me-south-1:
         Dedicated: 3.144
         Shared: 2.955
+      Middle East (UAE):
+        Dedicated: 3.124
+        Shared: 2.955
       sa-east-1:
         Dedicated: 4.008
         Shared: 3.802
@@ -55945,6 +56568,9 @@ m5.12xlarge:
         Dedicated: 3.014
         Shared: 2.853
       me-south-1:
+        Dedicated: 3.159
+        Shared: 2.99
+      Middle East (UAE):
         Dedicated: 3.159
         Shared: 2.99
       sa-east-1:
@@ -56023,6 +56649,9 @@ m5.12xlarge:
       me-south-1:
         Dedicated: 3.114
         Shared: 2.925
+      Middle East (UAE):
+        Dedicated: 3.119
+        Shared: 2.95
       sa-east-1:
         Dedicated: 3.978
         Shared: 3.772
@@ -56099,6 +56728,9 @@ m5.12xlarge:
       me-south-1:
         Dedicated: 5.222
         Shared: 5.033
+      Middle East (UAE):
+        Dedicated: 5.202
+        Shared: 5.033
       sa-east-1:
         Dedicated: 3.878
         Shared: 3.672
@@ -56132,6 +56764,7 @@ m5.12xlarge:
     - us-east-2
     - Asia Pacific (Osaka)
     - us-gov-west-1
+    - Middle East (UAE)
     - ap-northeast-1
     - ap-south-1
     - af-south-1
@@ -56214,6 +56847,9 @@ m5.16xlarge:
       me-south-1:
         Dedicated: 4.018
         Shared: 3.766
+      Middle East (UAE):
+        Dedicated: 3.992
+        Shared: 3.766
       sa-east-1:
         Dedicated: 5.171
         Shared: 4.896
@@ -56290,6 +56926,9 @@ m5.16xlarge:
       me-south-1:
         Dedicated: 4.148
         Shared: 3.896
+      Middle East (UAE):
+        Dedicated: 4.122
+        Shared: 3.896
       sa-east-1:
         Dedicated: 5.301
         Shared: 5.026
@@ -56364,6 +57003,9 @@ m5.16xlarge:
         Dedicated: 3.964
         Shared: 3.749
       me-south-1:
+        Dedicated: 4.157
+        Shared: 3.931
+      Middle East (UAE):
         Dedicated: 4.157
         Shared: 3.931
       sa-east-1:
@@ -56442,6 +57084,9 @@ m5.16xlarge:
       me-south-1:
         Dedicated: 4.117
         Shared: 3.866
+      Middle East (UAE):
+        Dedicated: 4.117
+        Shared: 3.891
       sa-east-1:
         Dedicated: 5.271
         Shared: 4.996
@@ -56518,6 +57163,9 @@ m5.16xlarge:
       me-south-1:
         Dedicated: 6.962
         Shared: 3.766
+      Middle East (UAE):
+        Dedicated: 3.992
+        Shared: 3.766
       sa-east-1:
         Dedicated: 5.171
         Shared: 7.84
@@ -56554,6 +57202,7 @@ m5.16xlarge:
     - ap-southeast-1
     - us-west-1
     - ap-northeast-1
+    - Middle East (UAE)
     - us-east-2
     - ap-southeast-3
     - ap-southeast-2
@@ -56633,6 +57282,9 @@ m5.24xlarge:
       me-south-1:
         Dedicated: 5.65
         Shared: 5.65
+      Middle East (UAE):
+        Dedicated: 5.65
+        Shared: 5.65
       sa-east-1:
         Dedicated: 7.344
         Shared: 7.344
@@ -56707,6 +57359,9 @@ m5.24xlarge:
         Dedicated: 5.506
         Shared: 5.506
       me-south-1:
+        Dedicated: 5.78
+        Shared: 5.78
+      Middle East (UAE):
         Dedicated: 5.78
         Shared: 5.78
       sa-east-1:
@@ -56785,6 +57440,9 @@ m5.24xlarge:
       me-south-1:
         Dedicated: 5.815
         Shared: 5.815
+      Middle East (UAE):
+        Dedicated: 5.815
+        Shared: 5.815
       sa-east-1:
         Dedicated: 7.509
         Shared: 7.509
@@ -56861,6 +57519,9 @@ m5.24xlarge:
       me-south-1:
         Dedicated: 5.75
         Shared: 5.75
+      Middle East (UAE):
+        Dedicated: 5.775
+        Shared: 5.775
       sa-east-1:
         Dedicated: 7.444
         Shared: 7.444
@@ -56937,6 +57598,9 @@ m5.24xlarge:
       me-south-1:
         Dedicated: 10.066
         Shared: 10.066
+      Middle East (UAE):
+        Dedicated: 10.066
+        Shared: 5.65
       sa-east-1:
         Dedicated: 11.76
         Shared: 7.344
@@ -56979,6 +57643,7 @@ m5.24xlarge:
     - ap-south-1
     - us-gov-west-1
     - ap-southeast-1
+    - Middle East (UAE)
     - us-west-2
     - us-east-1
     - me-south-1
@@ -57051,6 +57716,9 @@ m5.2xlarge:
         Shared: 0.448
       me-south-1:
         Dedicated: 0.502
+        Shared: 0.471
+      Middle East (UAE):
+        Dedicated: 0.499
         Shared: 0.471
       sa-east-1:
         Dedicated: 0.646
@@ -57128,6 +57796,9 @@ m5.2xlarge:
       me-south-1:
         Dedicated: 0.632
         Shared: 0.601
+      Middle East (UAE):
+        Dedicated: 0.629
+        Shared: 0.601
       sa-east-1:
         Dedicated: 0.776
         Shared: 0.742
@@ -57202,6 +57873,9 @@ m5.2xlarge:
         Dedicated: 0.64
         Shared: 0.613
       me-south-1:
+        Dedicated: 0.664
+        Shared: 0.636
+      Middle East (UAE):
         Dedicated: 0.664
         Shared: 0.636
       sa-east-1:
@@ -57280,6 +57954,9 @@ m5.2xlarge:
       me-south-1:
         Dedicated: 0.602
         Shared: 0.571
+      Middle East (UAE):
+        Dedicated: 0.624
+        Shared: 0.596
       sa-east-1:
         Dedicated: 0.746
         Shared: 0.712
@@ -57356,6 +58033,9 @@ m5.2xlarge:
       me-south-1:
         Dedicated: 0.87
         Shared: 0.471
+      Middle East (UAE):
+        Dedicated: 0.867
+        Shared: 0.471
       sa-east-1:
         Dedicated: 1.014
         Shared: 0.98
@@ -57385,6 +58065,7 @@ m5.2xlarge:
     - ap-southeast-2
     - us-west-1
     - eu-west-1
+    - Middle East (UAE)
     - eu-north-1
     - us-gov-east-1
     - ca-central-1
@@ -57471,6 +58152,9 @@ m5.4xlarge:
       me-south-1:
         Dedicated: 1.005
         Shared: 0.942
+      Middle East (UAE):
+        Dedicated: 0.998
+        Shared: 0.942
       sa-east-1:
         Dedicated: 1.293
         Shared: 1.224
@@ -57547,6 +58231,9 @@ m5.4xlarge:
       me-south-1:
         Dedicated: 1.135
         Shared: 1.072
+      Middle East (UAE):
+        Dedicated: 1.128
+        Shared: 1.072
       sa-east-1:
         Dedicated: 1.423
         Shared: 1.354
@@ -57621,6 +58308,9 @@ m5.4xlarge:
         Dedicated: 1.115
         Shared: 1.061
       me-south-1:
+        Dedicated: 1.163
+        Shared: 1.107
+      Middle East (UAE):
         Dedicated: 1.163
         Shared: 1.107
       sa-east-1:
@@ -57699,6 +58389,9 @@ m5.4xlarge:
       me-south-1:
         Dedicated: 1.105
         Shared: 1.042
+      Middle East (UAE):
+        Dedicated: 1.123
+        Shared: 1.067
       sa-east-1:
         Dedicated: 1.393
         Shared: 1.324
@@ -57775,6 +58468,9 @@ m5.4xlarge:
       me-south-1:
         Dedicated: 1.005
         Shared: 0.942
+      Middle East (UAE):
+        Dedicated: 0.998
+        Shared: 1.678
       sa-east-1:
         Dedicated: 1.293
         Shared: 1.96
@@ -57822,6 +58518,7 @@ m5.4xlarge:
     - eu-west-2
     - ap-south-1
     - us-gov-west-1
+    - Middle East (UAE)
     - us-west-1
     - us-west-2-lax-1a
     - ca-central-1
@@ -57889,6 +58586,9 @@ m5.8xlarge:
         Shared: 1.792
       me-south-1:
         Dedicated: 2.009
+        Shared: 1.883
+      Middle East (UAE):
+        Dedicated: 1.996
         Shared: 1.883
       sa-east-1:
         Dedicated: 2.586
@@ -57966,6 +58666,9 @@ m5.8xlarge:
       me-south-1:
         Dedicated: 2.139
         Shared: 2.013
+      Middle East (UAE):
+        Dedicated: 2.126
+        Shared: 2.013
       sa-east-1:
         Dedicated: 2.716
         Shared: 2.578
@@ -58040,6 +58743,9 @@ m5.8xlarge:
         Dedicated: 2.065
         Shared: 1.957
       me-south-1:
+        Dedicated: 2.161
+        Shared: 2.048
+      Middle East (UAE):
         Dedicated: 2.161
         Shared: 2.048
       sa-east-1:
@@ -58118,6 +58824,9 @@ m5.8xlarge:
       me-south-1:
         Dedicated: 2.109
         Shared: 1.983
+      Middle East (UAE):
+        Dedicated: 2.121
+        Shared: 2.008
       sa-east-1:
         Dedicated: 2.686
         Shared: 2.548
@@ -58194,6 +58903,9 @@ m5.8xlarge:
       me-south-1:
         Dedicated: 3.481
         Shared: 1.883
+      Middle East (UAE):
+        Dedicated: 3.468
+        Shared: 1.883
       sa-east-1:
         Dedicated: 2.586
         Shared: 3.92
@@ -58229,6 +58941,7 @@ m5.8xlarge:
     - ap-southeast-3
     - ap-southeast-1
     - eu-west-3
+    - Middle East (UAE)
     - us-east-1
     - ap-northeast-2
     - eu-central-1
@@ -58309,6 +59022,9 @@ m5.large:
       me-south-1:
         Dedicated: 0.126
         Shared: 0.118
+      Middle East (UAE):
+        Dedicated: 0.125
+        Shared: 0.118
       sa-east-1:
         Dedicated: 0.162
         Shared: 0.153
@@ -58385,6 +59101,9 @@ m5.large:
       me-south-1:
         Dedicated: 0.186
         Shared: 0.178
+      Middle East (UAE):
+        Dedicated: 0.185
+        Shared: 0.178
       sa-east-1:
         Dedicated: 0.222
         Shared: 0.213
@@ -58459,6 +59178,9 @@ m5.large:
         Dedicated: 0.214
         Shared: 0.207
       me-south-1:
+        Dedicated: 0.22
+        Shared: 0.213
+      Middle East (UAE):
         Dedicated: 0.22
         Shared: 0.213
       sa-east-1:
@@ -58537,6 +59259,9 @@ m5.large:
       me-south-1:
         Dedicated: 0.181
         Shared: 0.174
+      Middle East (UAE):
+        Dedicated: 0.181
+        Shared: 0.174
       sa-east-1:
         Dedicated: 0.218
         Shared: 0.209
@@ -58613,6 +59338,9 @@ m5.large:
       me-south-1:
         Dedicated: 0.126
         Shared: 0.118
+      Middle East (UAE):
+        Dedicated: 0.217
+        Shared: 0.21
       sa-east-1:
         Dedicated: 0.162
         Shared: 0.153
@@ -58645,6 +59373,7 @@ m5.large:
     - us-west-2-lax-1a
     - us-west-2
     - ap-east-1
+    - Middle East (UAE)
     - ap-southeast-3
     - ap-south-1
     - eu-west-1
@@ -58728,6 +59457,9 @@ m5.metal:
       me-south-1:
         Dedicated: 5.65
         Shared: 5.65
+      Middle East (UAE):
+        Dedicated: 5.65
+        Shared: 5.65
       sa-east-1:
         Dedicated: 7.344
         Shared: 7.344
@@ -58802,6 +59534,9 @@ m5.metal:
         Dedicated: 5.506
         Shared: 5.506
       me-south-1:
+        Dedicated: 5.78
+        Shared: 5.78
+      Middle East (UAE):
         Dedicated: 5.78
         Shared: 5.78
       sa-east-1:
@@ -58880,6 +59615,9 @@ m5.metal:
       me-south-1:
         Dedicated: 5.815
         Shared: 5.815
+      Middle East (UAE):
+        Dedicated: 5.815
+        Shared: 5.815
       sa-east-1:
         Dedicated: 7.509
         Shared: 7.509
@@ -58956,6 +59694,9 @@ m5.metal:
       me-south-1:
         Dedicated: 5.75
         Shared: 5.75
+      Middle East (UAE):
+        Dedicated: 5.775
+        Shared: 5.775
       sa-east-1:
         Dedicated: 7.444
         Shared: 7.444
@@ -59032,6 +59773,9 @@ m5.metal:
       me-south-1:
         Dedicated: 5.65
         Shared: 10.066
+      Middle East (UAE):
+        Dedicated: 10.066
+        Shared: 10.066
       sa-east-1:
         Dedicated: 11.76
         Shared: 7.344
@@ -59081,6 +59825,7 @@ m5.metal:
     - eu-south-1
     - eu-central-1
     - ap-south-1
+    - Middle East (UAE)
     - us-west-1
   storage: EBS only
   vcpu: 96
@@ -59146,6 +59891,9 @@ m5.xlarge:
         Shared: 0.224
       me-south-1:
         Dedicated: 0.251
+        Shared: 0.235
+      Middle East (UAE):
+        Dedicated: 0.25
         Shared: 0.235
       sa-east-1:
         Dedicated: 0.323
@@ -59226,6 +59974,9 @@ m5.xlarge:
       me-south-1:
         Dedicated: 0.311
         Shared: 0.295
+      Middle East (UAE):
+        Dedicated: 0.31
+        Shared: 0.295
       sa-east-1:
         Dedicated: 0.383
         Shared: 0.366
@@ -59303,6 +60054,9 @@ m5.xlarge:
         Dedicated: 0.332
         Shared: 0.319
       me-south-1:
+        Dedicated: 0.345
+        Shared: 0.33
+      Middle East (UAE):
         Dedicated: 0.345
         Shared: 0.33
       sa-east-1:
@@ -59384,6 +60138,9 @@ m5.xlarge:
       me-south-1:
         Dedicated: 0.306
         Shared: 0.292
+      Middle East (UAE):
+        Dedicated: 0.306
+        Shared: 0.292
       sa-east-1:
         Dedicated: 0.38
         Shared: 0.362
@@ -59463,6 +60220,9 @@ m5.xlarge:
       me-south-1:
         Dedicated: 0.435
         Shared: 0.235
+      Middle East (UAE):
+        Dedicated: 0.434
+        Shared: 0.235
       sa-east-1:
         Dedicated: 0.507
         Shared: 0.49
@@ -59491,6 +60251,7 @@ m5.xlarge:
         Dedicated: 0.428
         Shared: 0.414
   regions:
+    - Middle East (UAE)
     - eu-west-2
     - af-south-1
     - Asia Pacific (Osaka)
@@ -64222,6 +64983,9 @@ m5d.12xlarge:
       me-south-1:
         Dedicated: 3.549
         Shared: 3.326
+      Middle East (UAE):
+        Dedicated: 3.526
+        Shared: 3.326
       sa-east-1:
         Dedicated: 4.569
         Shared: 4.32
@@ -64295,6 +65059,9 @@ m5d.12xlarge:
       me-south-1:
         Dedicated: 3.679
         Shared: 3.456
+      Middle East (UAE):
+        Dedicated: 3.656
+        Shared: 3.456
       sa-east-1:
         Dedicated: 4.699
         Shared: 4.45
@@ -64366,6 +65133,9 @@ m5d.12xlarge:
         Dedicated: 3.523
         Shared: 3.333
       me-south-1:
+        Dedicated: 3.691
+        Shared: 3.491
+      Middle East (UAE):
         Dedicated: 3.691
         Shared: 3.491
       sa-east-1:
@@ -64441,6 +65211,9 @@ m5d.12xlarge:
       me-south-1:
         Dedicated: 3.649
         Shared: 3.426
+      Middle East (UAE):
+        Dedicated: 3.651
+        Shared: 3.451
       sa-east-1:
         Dedicated: 4.669
         Shared: 4.42
@@ -64514,6 +65287,9 @@ m5d.12xlarge:
       me-south-1:
         Dedicated: 5.757
         Shared: 5.534
+      Middle East (UAE):
+        Dedicated: 3.526
+        Shared: 3.326
       sa-east-1:
         Dedicated: 6.777
         Shared: 6.528
@@ -64538,6 +65314,7 @@ m5d.12xlarge:
   regions:
     - eu-central-1
     - me-south-1
+    - Middle East (UAE)
     - af-south-1
     - eu-west-3
     - us-gov-west-1
@@ -64625,6 +65402,9 @@ m5d.16xlarge:
       me-south-1:
         Dedicated: 4.732
         Shared: 4.435
+      Middle East (UAE):
+        Dedicated: 4.701
+        Shared: 4.435
       sa-east-1:
         Dedicated: 6.092
         Shared: 5.76
@@ -64698,6 +65478,9 @@ m5d.16xlarge:
       me-south-1:
         Dedicated: 4.862
         Shared: 4.565
+      Middle East (UAE):
+        Dedicated: 4.831
+        Shared: 4.565
       sa-east-1:
         Dedicated: 6.222
         Shared: 5.89
@@ -64769,6 +65552,9 @@ m5d.16xlarge:
         Dedicated: 4.642
         Shared: 4.389
       me-south-1:
+        Dedicated: 4.866
+        Shared: 4.6
+      Middle East (UAE):
         Dedicated: 4.866
         Shared: 4.6
       sa-east-1:
@@ -64844,6 +65630,9 @@ m5d.16xlarge:
       me-south-1:
         Dedicated: 4.826
         Shared: 4.535
+      Middle East (UAE):
+        Dedicated: 4.826
+        Shared: 4.56
       sa-east-1:
         Dedicated: 6.192
         Shared: 5.86
@@ -64917,6 +65706,9 @@ m5d.16xlarge:
       me-south-1:
         Dedicated: 7.676
         Shared: 7.379
+      Middle East (UAE):
+        Dedicated: 4.701
+        Shared: 4.435
       sa-east-1:
         Dedicated: 9.036
         Shared: 8.704
@@ -64956,6 +65748,7 @@ m5d.16xlarge:
     - ap-northeast-2
     - af-south-1
     - ap-southeast-1
+    - Middle East (UAE)
     - eu-west-2
     - eu-central-1
     - sa-east-1
@@ -65026,6 +65819,9 @@ m5d.24xlarge:
         Dedicated: 6.336
         Shared: 6.336
       me-south-1:
+        Dedicated: 6.653
+        Shared: 6.653
+      Middle East (UAE):
         Dedicated: 6.653
         Shared: 6.653
       sa-east-1:
@@ -65101,6 +65897,9 @@ m5d.24xlarge:
       me-south-1:
         Dedicated: 6.783
         Shared: 6.783
+      Middle East (UAE):
+        Dedicated: 6.783
+        Shared: 6.783
       sa-east-1:
         Dedicated: 8.77
         Shared: 8.77
@@ -65172,6 +65971,9 @@ m5d.24xlarge:
         Dedicated: 6.501
         Shared: 6.501
       me-south-1:
+        Dedicated: 6.818
+        Shared: 6.818
+      Middle East (UAE):
         Dedicated: 6.818
         Shared: 6.818
       sa-east-1:
@@ -65247,6 +66049,9 @@ m5d.24xlarge:
       me-south-1:
         Dedicated: 6.753
         Shared: 6.753
+      Middle East (UAE):
+        Dedicated: 6.778
+        Shared: 6.778
       sa-east-1:
         Dedicated: 8.74
         Shared: 8.74
@@ -65320,6 +66125,9 @@ m5d.24xlarge:
       me-south-1:
         Dedicated: 11.069
         Shared: 11.069
+      Middle East (UAE):
+        Dedicated: 6.653
+        Shared: 11.069
       sa-east-1:
         Dedicated: 13.056
         Shared: 13.056
@@ -65358,6 +66166,7 @@ m5d.24xlarge:
     - ap-southeast-3
     - eu-south-1
     - us-gov-west-1
+    - Middle East (UAE)
     - ap-northeast-2
     - ap-southeast-2
     - ap-southeast-1
@@ -65430,6 +66239,9 @@ m5d.2xlarge:
         Shared: 0.528
       me-south-1:
         Dedicated: 0.592
+        Shared: 0.554
+      Middle East (UAE):
+        Dedicated: 0.588
         Shared: 0.554
       sa-east-1:
         Dedicated: 0.762
@@ -65504,6 +66316,9 @@ m5d.2xlarge:
       me-south-1:
         Dedicated: 0.722
         Shared: 0.684
+      Middle East (UAE):
+        Dedicated: 0.718
+        Shared: 0.684
       sa-east-1:
         Dedicated: 0.892
         Shared: 0.85
@@ -65575,6 +66390,9 @@ m5d.2xlarge:
         Dedicated: 0.725
         Shared: 0.693
       me-south-1:
+        Dedicated: 0.753
+        Shared: 0.719
+      Middle East (UAE):
         Dedicated: 0.753
         Shared: 0.719
       sa-east-1:
@@ -65650,6 +66468,9 @@ m5d.2xlarge:
       me-south-1:
         Dedicated: 0.692
         Shared: 0.654
+      Middle East (UAE):
+        Dedicated: 0.713
+        Shared: 0.679
       sa-east-1:
         Dedicated: 0.862
         Shared: 0.82
@@ -65723,6 +66544,9 @@ m5d.2xlarge:
       me-south-1:
         Dedicated: 0.96
         Shared: 0.922
+      Middle East (UAE):
+        Dedicated: 0.956
+        Shared: 0.554
       sa-east-1:
         Dedicated: 1.13
         Shared: 1.088
@@ -65764,6 +66588,7 @@ m5d.2xlarge:
     - eu-west-2
     - us-west-1
     - eu-south-1
+    - Middle East (UAE)
     - ca-central-1
     - ap-northeast-1
     - ap-southeast-1
@@ -65833,6 +66658,9 @@ m5d.4xlarge:
         Shared: 1.056
       me-south-1:
         Dedicated: 1.183
+        Shared: 1.109
+      Middle East (UAE):
+        Dedicated: 1.175
         Shared: 1.109
       sa-east-1:
         Dedicated: 1.523
@@ -65907,6 +66735,9 @@ m5d.4xlarge:
       me-south-1:
         Dedicated: 1.313
         Shared: 1.239
+      Middle East (UAE):
+        Dedicated: 1.305
+        Shared: 1.239
       sa-east-1:
         Dedicated: 1.653
         Shared: 1.57
@@ -65978,6 +66809,9 @@ m5d.4xlarge:
         Dedicated: 1.284
         Shared: 1.221
       me-south-1:
+        Dedicated: 1.34
+        Shared: 1.274
+      Middle East (UAE):
         Dedicated: 1.34
         Shared: 1.274
       sa-east-1:
@@ -66053,6 +66887,9 @@ m5d.4xlarge:
       me-south-1:
         Dedicated: 1.283
         Shared: 1.209
+      Middle East (UAE):
+        Dedicated: 1.3
+        Shared: 1.234
       sa-east-1:
         Dedicated: 1.623
         Shared: 1.54
@@ -66126,6 +66963,9 @@ m5d.4xlarge:
       me-south-1:
         Dedicated: 1.919
         Shared: 1.845
+      Middle East (UAE):
+        Dedicated: 1.911
+        Shared: 1.845
       sa-east-1:
         Dedicated: 2.259
         Shared: 2.176
@@ -66157,6 +66997,7 @@ m5d.4xlarge:
     - us-east-1
     - us-west-2
     - ap-northeast-2
+    - Middle East (UAE)
     - ap-northeast-1
     - Asia Pacific (Osaka)
     - eu-south-1
@@ -66237,6 +67078,9 @@ m5d.8xlarge:
       me-south-1:
         Dedicated: 2.366
         Shared: 2.218
+      Middle East (UAE):
+        Dedicated: 2.351
+        Shared: 2.218
       sa-east-1:
         Dedicated: 3.046
         Shared: 2.88
@@ -66310,6 +67154,9 @@ m5d.8xlarge:
       me-south-1:
         Dedicated: 2.496
         Shared: 2.348
+      Middle East (UAE):
+        Dedicated: 2.481
+        Shared: 2.348
       sa-east-1:
         Dedicated: 3.176
         Shared: 3.01
@@ -66381,6 +67228,9 @@ m5d.8xlarge:
         Dedicated: 2.404
         Shared: 2.277
       me-south-1:
+        Dedicated: 2.516
+        Shared: 2.383
+      Middle East (UAE):
         Dedicated: 2.516
         Shared: 2.383
       sa-east-1:
@@ -66456,6 +67306,9 @@ m5d.8xlarge:
       me-south-1:
         Dedicated: 2.466
         Shared: 2.318
+      Middle East (UAE):
+        Dedicated: 2.476
+        Shared: 2.343
       sa-east-1:
         Dedicated: 3.146
         Shared: 2.98
@@ -66529,6 +67382,9 @@ m5d.8xlarge:
       me-south-1:
         Dedicated: 3.838
         Shared: 3.69
+      Middle East (UAE):
+        Dedicated: 2.351
+        Shared: 2.218
       sa-east-1:
         Dedicated: 4.518
         Shared: 4.352
@@ -66569,6 +67425,7 @@ m5d.8xlarge:
     - us-east-1
     - us-east-2
     - ap-east-1
+    - Middle East (UAE)
     - ap-northeast-1
     - me-south-1
     - eu-central-1
@@ -66639,6 +67496,9 @@ m5d.large:
         Shared: 0.132
       me-south-1:
         Dedicated: 0.148
+        Shared: 0.139
+      Middle East (UAE):
+        Dedicated: 0.147
         Shared: 0.139
       sa-east-1:
         Dedicated: 0.19
@@ -66713,6 +67573,9 @@ m5d.large:
       me-south-1:
         Dedicated: 0.208
         Shared: 0.199
+      Middle East (UAE):
+        Dedicated: 0.207
+        Shared: 0.199
       sa-east-1:
         Dedicated: 0.25
         Shared: 0.24
@@ -66784,6 +67647,9 @@ m5d.large:
         Dedicated: 0.235
         Shared: 0.227
       me-south-1:
+        Dedicated: 0.242
+        Shared: 0.234
+      Middle East (UAE):
         Dedicated: 0.242
         Shared: 0.234
       sa-east-1:
@@ -66859,6 +67725,9 @@ m5d.large:
       me-south-1:
         Dedicated: 0.203
         Shared: 0.195
+      Middle East (UAE):
+        Dedicated: 0.203
+        Shared: 0.195
       sa-east-1:
         Dedicated: 0.247
         Shared: 0.236
@@ -66932,6 +67801,9 @@ m5d.large:
       me-south-1:
         Dedicated: 0.24
         Shared: 0.231
+      Middle East (UAE):
+        Dedicated: 0.147
+        Shared: 0.139
       sa-east-1:
         Dedicated: 0.282
         Shared: 0.272
@@ -66969,6 +67841,7 @@ m5d.large:
     - eu-south-1
     - ap-northeast-2
     - eu-west-2
+    - Middle East (UAE)
     - Asia Pacific (Osaka)
     - ca-central-1
     - ap-southeast-1
@@ -67041,6 +67914,9 @@ m5d.metal:
         Dedicated: 6.336
         Shared: 6.336
       me-south-1:
+        Dedicated: 6.653
+        Shared: 6.653
+      Middle East (UAE):
         Dedicated: 6.653
         Shared: 6.653
       sa-east-1:
@@ -67116,6 +67992,9 @@ m5d.metal:
       me-south-1:
         Dedicated: 6.783
         Shared: 6.783
+      Middle East (UAE):
+        Dedicated: 6.783
+        Shared: 6.783
       sa-east-1:
         Dedicated: 8.77
         Shared: 8.77
@@ -67187,6 +68066,9 @@ m5d.metal:
         Dedicated: 6.501
         Shared: 6.501
       me-south-1:
+        Dedicated: 6.818
+        Shared: 6.818
+      Middle East (UAE):
         Dedicated: 6.818
         Shared: 6.818
       sa-east-1:
@@ -67262,6 +68144,9 @@ m5d.metal:
       me-south-1:
         Dedicated: 6.753
         Shared: 6.753
+      Middle East (UAE):
+        Dedicated: 6.778
+        Shared: 6.778
       sa-east-1:
         Dedicated: 8.74
         Shared: 8.74
@@ -67335,6 +68220,9 @@ m5d.metal:
       me-south-1:
         Dedicated: 11.069
         Shared: 11.069
+      Middle East (UAE):
+        Dedicated: 6.653
+        Shared: 6.653
       sa-east-1:
         Dedicated: 13.056
         Shared: 13.056
@@ -67375,6 +68263,7 @@ m5d.metal:
     - ap-southeast-3
     - ap-south-1
     - af-south-1
+    - Middle East (UAE)
     - us-west-2
     - us-west-1
     - ap-east-1
@@ -67445,6 +68334,9 @@ m5d.xlarge:
         Shared: 0.264
       me-south-1:
         Dedicated: 0.296
+        Shared: 0.277
+      Middle East (UAE):
+        Dedicated: 0.294
         Shared: 0.277
       sa-east-1:
         Dedicated: 0.381
@@ -67519,6 +68411,9 @@ m5d.xlarge:
       me-south-1:
         Dedicated: 0.356
         Shared: 0.337
+      Middle East (UAE):
+        Dedicated: 0.354
+        Shared: 0.337
       sa-east-1:
         Dedicated: 0.441
         Shared: 0.42
@@ -67590,6 +68485,9 @@ m5d.xlarge:
         Dedicated: 0.375
         Shared: 0.359
       me-south-1:
+        Dedicated: 0.389
+        Shared: 0.372
+      Middle East (UAE):
         Dedicated: 0.389
         Shared: 0.372
       sa-east-1:
@@ -67665,6 +68563,9 @@ m5d.xlarge:
       me-south-1:
         Dedicated: 0.35
         Shared: 0.334
+      Middle East (UAE):
+        Dedicated: 0.35
+        Shared: 0.334
       sa-east-1:
         Dedicated: 0.437
         Shared: 0.416
@@ -67738,6 +68639,9 @@ m5d.xlarge:
       me-south-1:
         Dedicated: 0.48
         Shared: 0.461
+      Middle East (UAE):
+        Dedicated: 0.294
+        Shared: 0.277
       sa-east-1:
         Dedicated: 0.565
         Shared: 0.544
@@ -67770,6 +68674,7 @@ m5d.xlarge:
     - us-west-1
     - us-gov-west-1
     - us-gov-east-1
+    - Middle East (UAE)
     - us-east-1
     - af-south-1
     - ap-northeast-2
@@ -73065,6 +73970,9 @@ m6g.12xlarge:
       me-south-1:
         Dedicated: 2.3928
         Shared: 2.256
+      Middle East (UAE):
+        Dedicated: 2.405
+        Shared: 2.2704
       sa-east-1:
         Dedicated: 3.1139
         Shared: 2.9376
@@ -73132,6 +74040,9 @@ m6g.12xlarge:
       me-south-1:
         Dedicated: 2.5228
         Shared: 2.386
+      Middle East (UAE):
+        Dedicated: 2.535
+        Shared: 2.4004
       sa-east-1:
         Dedicated: 3.2439
         Shared: 3.0676
@@ -73199,6 +74110,9 @@ m6g.12xlarge:
       me-south-1:
         Dedicated: 2.5578
         Shared: 2.421
+      Middle East (UAE):
+        Dedicated: 2.57
+        Shared: 2.4354
       sa-east-1:
         Dedicated: 3.2789
         Shared: 3.1026
@@ -73266,6 +74180,9 @@ m6g.12xlarge:
       me-south-1:
         Dedicated: 2.5178
         Shared: 2.381
+      Middle East (UAE):
+        Dedicated: 2.53
+        Shared: 2.3954
       sa-east-1:
         Dedicated: 3.2389
         Shared: 3.0626
@@ -73296,6 +74213,7 @@ m6g.12xlarge:
     - me-south-1
     - eu-west-1
     - ap-south-1
+    - Middle East (UAE)
     - us-east-2
     - ap-southeast-3
     - us-gov-east-1
@@ -73367,6 +74285,9 @@ m6g.16xlarge:
       me-south-1:
         Dedicated: 3.1904
         Shared: 3.008
+      Middle East (UAE):
+        Dedicated: 3.2067
+        Shared: 3.0272
       sa-east-1:
         Dedicated: 4.1518
         Shared: 3.9168
@@ -73434,6 +74355,9 @@ m6g.16xlarge:
       me-south-1:
         Dedicated: 3.3204
         Shared: 3.138
+      Middle East (UAE):
+        Dedicated: 3.3367
+        Shared: 3.1572
       sa-east-1:
         Dedicated: 4.2818
         Shared: 4.0468
@@ -73501,6 +74425,9 @@ m6g.16xlarge:
       me-south-1:
         Dedicated: 3.3554
         Shared: 3.173
+      Middle East (UAE):
+        Dedicated: 3.3717
+        Shared: 3.1922
       sa-east-1:
         Dedicated: 4.3168
         Shared: 4.0818
@@ -73568,6 +74495,9 @@ m6g.16xlarge:
       me-south-1:
         Dedicated: 3.3154
         Shared: 3.133
+      Middle East (UAE):
+        Dedicated: 3.3317
+        Shared: 3.1522
       sa-east-1:
         Dedicated: 4.2768
         Shared: 4.0418
@@ -73591,6 +74521,7 @@ m6g.16xlarge:
         Shared: 2.589
   regions:
     - eu-central-1
+    - Middle East (UAE)
     - us-gov-west-1
     - us-west-1
     - us-gov-east-1
@@ -73669,6 +74600,9 @@ m6g.2xlarge:
       me-south-1:
         Dedicated: 0.3988
         Shared: 0.376
+      Middle East (UAE):
+        Dedicated: 0.4008
+        Shared: 0.3784
       sa-east-1:
         Dedicated: 0.519
         Shared: 0.4896
@@ -73736,6 +74670,9 @@ m6g.2xlarge:
       me-south-1:
         Dedicated: 0.5288
         Shared: 0.506
+      Middle East (UAE):
+        Dedicated: 0.5308
+        Shared: 0.5084
       sa-east-1:
         Dedicated: 0.649
         Shared: 0.6196
@@ -73803,6 +74740,9 @@ m6g.2xlarge:
       me-south-1:
         Dedicated: 0.5638
         Shared: 0.541
+      Middle East (UAE):
+        Dedicated: 0.5658
+        Shared: 0.5434
       sa-east-1:
         Dedicated: 0.684
         Shared: 0.6546
@@ -73870,6 +74810,9 @@ m6g.2xlarge:
       me-south-1:
         Dedicated: 0.5238
         Shared: 0.501
+      Middle East (UAE):
+        Dedicated: 0.5258
+        Shared: 0.5034
       sa-east-1:
         Dedicated: 0.644
         Shared: 0.6146
@@ -73907,6 +74850,7 @@ m6g.2xlarge:
     - sa-east-1
     - eu-central-1
     - us-east-2
+    - Middle East (UAE)
     - ap-southeast-1
     - us-east-1
     - ap-south-1
@@ -73971,6 +74915,9 @@ m6g.4xlarge:
       me-south-1:
         Dedicated: 0.7976
         Shared: 0.752
+      Middle East (UAE):
+        Dedicated: 0.8017
+        Shared: 0.7568
       sa-east-1:
         Dedicated: 1.038
         Shared: 0.9792
@@ -74038,6 +74985,9 @@ m6g.4xlarge:
       me-south-1:
         Dedicated: 0.9276
         Shared: 0.882
+      Middle East (UAE):
+        Dedicated: 0.9317
+        Shared: 0.8868
       sa-east-1:
         Dedicated: 1.168
         Shared: 1.1092
@@ -74105,6 +75055,9 @@ m6g.4xlarge:
       me-south-1:
         Dedicated: 0.9626
         Shared: 0.917
+      Middle East (UAE):
+        Dedicated: 0.9667
+        Shared: 0.9218
       sa-east-1:
         Dedicated: 1.203
         Shared: 1.1442
@@ -74172,6 +75125,9 @@ m6g.4xlarge:
       me-south-1:
         Dedicated: 0.9226
         Shared: 0.877
+      Middle East (UAE):
+        Dedicated: 0.9267
+        Shared: 0.8818
       sa-east-1:
         Dedicated: 1.163
         Shared: 1.1042
@@ -74197,6 +75153,7 @@ m6g.4xlarge:
     - us-west-2
     - sa-east-1
     - me-south-1
+    - Middle East (UAE)
     - ca-central-1
     - us-gov-west-1
     - ap-east-1
@@ -74273,6 +75230,9 @@ m6g.8xlarge:
       me-south-1:
         Dedicated: 1.5952
         Shared: 1.504
+      Middle East (UAE):
+        Dedicated: 1.6034
+        Shared: 1.5136
       sa-east-1:
         Dedicated: 2.0759
         Shared: 1.9584
@@ -74340,6 +75300,9 @@ m6g.8xlarge:
       me-south-1:
         Dedicated: 1.7252
         Shared: 1.634
+      Middle East (UAE):
+        Dedicated: 1.7334
+        Shared: 1.6436
       sa-east-1:
         Dedicated: 2.2059
         Shared: 2.0884
@@ -74407,6 +75370,9 @@ m6g.8xlarge:
       me-south-1:
         Dedicated: 1.7602
         Shared: 1.669
+      Middle East (UAE):
+        Dedicated: 1.7684
+        Shared: 1.6786
       sa-east-1:
         Dedicated: 2.2409
         Shared: 2.1234
@@ -74474,6 +75440,9 @@ m6g.8xlarge:
       me-south-1:
         Dedicated: 1.7202
         Shared: 1.629
+      Middle East (UAE):
+        Dedicated: 1.7284
+        Shared: 1.6386
       sa-east-1:
         Dedicated: 2.2009
         Shared: 2.0834
@@ -74506,6 +75475,7 @@ m6g.8xlarge:
     - ap-southeast-1
     - sa-east-1
     - eu-west-3
+    - Middle East (UAE)
     - us-east-2
     - eu-south-1
     - us-gov-west-1
@@ -74575,6 +75545,9 @@ m6g.large:
       me-south-1:
         Dedicated: 0.0997
         Shared: 0.094
+      Middle East (UAE):
+        Dedicated: 0.1002
+        Shared: 0.0946
       sa-east-1:
         Dedicated: 0.1297
         Shared: 0.1224
@@ -74642,6 +75615,9 @@ m6g.large:
       me-south-1:
         Dedicated: 0.1597
         Shared: 0.154
+      Middle East (UAE):
+        Dedicated: 0.1602
+        Shared: 0.1546
       sa-east-1:
         Dedicated: 0.1897
         Shared: 0.1824
@@ -74709,6 +75685,9 @@ m6g.large:
       me-south-1:
         Dedicated: 0.1947
         Shared: 0.189
+      Middle East (UAE):
+        Dedicated: 0.1952
+        Shared: 0.1896
       sa-east-1:
         Dedicated: 0.2247
         Shared: 0.2174
@@ -74776,6 +75755,9 @@ m6g.large:
       me-south-1:
         Dedicated: 0.156
         Shared: 0.1503
+      Middle East (UAE):
+        Dedicated: 0.1565
+        Shared: 0.1509
       sa-east-1:
         Dedicated: 0.186
         Shared: 0.1787
@@ -74816,6 +75798,7 @@ m6g.large:
     - ap-south-1
     - eu-central-1
     - ap-northeast-2
+    - Middle East (UAE)
     - eu-west-3
     - eu-west-1
     - us-east-2
@@ -74877,6 +75860,9 @@ m6g.medium:
       me-south-1:
         Dedicated: 0.0498
         Shared: 0.047
+      Middle East (UAE):
+        Dedicated: 0.0501
+        Shared: 0.0473
       sa-east-1:
         Dedicated: 0.0649
         Shared: 0.0612
@@ -74944,6 +75930,9 @@ m6g.medium:
       me-south-1:
         Dedicated: 0.1098
         Shared: 0.107
+      Middle East (UAE):
+        Dedicated: 0.1101
+        Shared: 0.1073
       sa-east-1:
         Dedicated: 0.1249
         Shared: 0.1212
@@ -75011,6 +76000,9 @@ m6g.medium:
       me-south-1:
         Dedicated: 0.1448
         Shared: 0.142
+      Middle East (UAE):
+        Dedicated: 0.1451
+        Shared: 0.1423
       sa-east-1:
         Dedicated: 0.1599
         Shared: 0.1562
@@ -75078,6 +76070,9 @@ m6g.medium:
       me-south-1:
         Dedicated: 0.0808
         Shared: 0.078
+      Middle East (UAE):
+        Dedicated: 0.1064
+        Shared: 0.1036
       sa-east-1:
         Dedicated: 0.0959
         Shared: 0.0922
@@ -75111,6 +76106,7 @@ m6g.medium:
     - us-west-1
     - us-east-1
     - eu-west-3
+    - Middle East (UAE)
     - ap-northeast-2
     - ap-northeast-1
     - ap-east-1
@@ -75179,6 +76175,9 @@ m6g.metal:
       me-south-1:
         Dedicated: 3.1904
         Shared: 3.008
+      Middle East (UAE):
+        Dedicated: 3.2067
+        Shared: 3.0272
       sa-east-1:
         Dedicated: 4.1518
         Shared: 3.9168
@@ -75246,6 +76245,9 @@ m6g.metal:
       me-south-1:
         Dedicated: 3.3204
         Shared: 3.138
+      Middle East (UAE):
+        Dedicated: 3.3367
+        Shared: 3.1572
       sa-east-1:
         Dedicated: 4.2818
         Shared: 4.0468
@@ -75313,6 +76315,9 @@ m6g.metal:
       me-south-1:
         Dedicated: 3.3554
         Shared: 3.173
+      Middle East (UAE):
+        Dedicated: 3.3717
+        Shared: 3.1922
       sa-east-1:
         Dedicated: 4.3168
         Shared: 4.0818
@@ -75380,6 +76385,9 @@ m6g.metal:
       me-south-1:
         Dedicated: 3.3154
         Shared: 3.133
+      Middle East (UAE):
+        Dedicated: 3.3317
+        Shared: 3.1522
       sa-east-1:
         Dedicated: 4.2768
         Shared: 4.0418
@@ -75406,6 +76414,7 @@ m6g.metal:
     - us-east-2
     - us-gov-east-1
     - ap-south-1
+    - Middle East (UAE)
     - us-west-1
     - ap-northeast-2
     - ap-east-1
@@ -75481,6 +76490,9 @@ m6g.xlarge:
       me-south-1:
         Dedicated: 0.1994
         Shared: 0.188
+      Middle East (UAE):
+        Dedicated: 0.2004
+        Shared: 0.1892
       sa-east-1:
         Dedicated: 0.2595
         Shared: 0.2448
@@ -75548,6 +76560,9 @@ m6g.xlarge:
       me-south-1:
         Dedicated: 0.2594
         Shared: 0.248
+      Middle East (UAE):
+        Dedicated: 0.2604
+        Shared: 0.2492
       sa-east-1:
         Dedicated: 0.3195
         Shared: 0.3048
@@ -75615,6 +76630,9 @@ m6g.xlarge:
       me-south-1:
         Dedicated: 0.2944
         Shared: 0.283
+      Middle East (UAE):
+        Dedicated: 0.2954
+        Shared: 0.2842
       sa-east-1:
         Dedicated: 0.3545
         Shared: 0.3398
@@ -75682,6 +76700,9 @@ m6g.xlarge:
       me-south-1:
         Dedicated: 0.2557
         Shared: 0.2443
+      Middle East (UAE):
+        Dedicated: 0.2567
+        Shared: 0.2455
       sa-east-1:
         Dedicated: 0.3158
         Shared: 0.3011
@@ -75705,6 +76726,7 @@ m6g.xlarge:
         Shared: 0.2103
   regions:
     - eu-south-1
+    - Middle East (UAE)
     - me-south-1
     - ap-northeast-2
     - us-east-1
@@ -75766,6 +76788,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.6661
         Shared: 2.5152
+      Middle East (UAE):
+        Dedicated: 2.8188
+        Shared: 2.6592
       us-east-1:
         Dedicated: 2.2998
         Shared: 2.1696
@@ -75806,6 +76831,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.7961
         Shared: 2.6452
+      Middle East (UAE):
+        Dedicated: 2.9488
+        Shared: 2.7892
       us-east-1:
         Dedicated: 2.4298
         Shared: 2.2996
@@ -75846,6 +76874,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.8311
         Shared: 2.6802
+      Middle East (UAE):
+        Dedicated: 2.9838
+        Shared: 2.8242
       us-east-1:
         Dedicated: 2.4648
         Shared: 2.3346
@@ -75886,6 +76917,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.7911
         Shared: 2.6402
+      Middle East (UAE):
+        Dedicated: 2.9438
+        Shared: 2.7842
       us-east-1:
         Dedicated: 2.4248
         Shared: 2.2946
@@ -75900,6 +76934,7 @@ m6gd.12xlarge:
         Shared: 2.2946
   regions:
     - ap-southeast-1
+    - Middle East (UAE)
     - us-west-1
     - eu-west-1
     - eu-west-2
@@ -75952,6 +76987,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.5548
         Shared: 3.3536
+      Middle East (UAE):
+        Dedicated: 3.5456
+        Shared: 3.5456
       us-east-1:
         Dedicated: 3.0664
         Shared: 2.8928
@@ -75992,6 +77030,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.6848
         Shared: 3.4836
+      Middle East (UAE):
+        Dedicated: 3.6756
+        Shared: 3.6756
       us-east-1:
         Dedicated: 3.1964
         Shared: 3.0228
@@ -76032,6 +77073,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.7198
         Shared: 3.5186
+      Middle East (UAE):
+        Dedicated: 3.7106
+        Shared: 3.7106
       us-east-1:
         Dedicated: 3.2314
         Shared: 3.0578
@@ -76072,6 +77116,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.4786
         Shared: 3.4786
+      Middle East (UAE):
+        Dedicated: 3.6706
+        Shared: 3.6706
       us-east-1:
         Dedicated: 3.0178
         Shared: 3.0178
@@ -76096,6 +77143,7 @@ m6gd.16xlarge:
     - us-west-1
     - eu-central-1
     - us-west-2
+    - Middle East (UAE)
     - us-east-2
     - ap-south-1
   storage: 2 x 1900 NVMe SSD
@@ -76138,6 +77186,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.4444
         Shared: 0.4192
+      Middle East (UAE):
+        Dedicated: 0.4698
+        Shared: 0.4432
       us-east-1:
         Dedicated: 0.3833
         Shared: 0.3616
@@ -76178,6 +77229,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.5744
         Shared: 0.5492
+      Middle East (UAE):
+        Dedicated: 0.5998
+        Shared: 0.5732
       us-east-1:
         Dedicated: 0.5133
         Shared: 0.4916
@@ -76218,6 +77272,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.6094
         Shared: 0.5842
+      Middle East (UAE):
+        Dedicated: 0.6348
+        Shared: 0.6082
       us-east-1:
         Dedicated: 0.5483
         Shared: 0.5266
@@ -76258,6 +77315,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.5694
         Shared: 0.5442
+      Middle East (UAE):
+        Dedicated: 0.5948
+        Shared: 0.5682
       us-east-1:
         Dedicated: 0.5083
         Shared: 0.4866
@@ -76275,6 +77335,7 @@ m6gd.2xlarge:
     - ap-south-1
     - us-east-2
     - eu-west-1
+    - Middle East (UAE)
     - eu-central-1
     - eu-north-1
     - ap-southeast-2
@@ -76324,6 +77385,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 0.8887
         Shared: 0.8384
+      Middle East (UAE):
+        Dedicated: 0.9396
+        Shared: 0.8864
       us-east-1:
         Dedicated: 0.7666
         Shared: 0.7232
@@ -76364,6 +77428,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 1.0187
         Shared: 0.9684
+      Middle East (UAE):
+        Dedicated: 1.0696
+        Shared: 1.0164
       us-east-1:
         Dedicated: 0.8966
         Shared: 0.8532
@@ -76404,6 +77471,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 1.0537
         Shared: 1.0034
+      Middle East (UAE):
+        Dedicated: 1.1046
+        Shared: 1.0514
       us-east-1:
         Dedicated: 0.9316
         Shared: 0.8882
@@ -76444,6 +77514,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 1.0137
         Shared: 0.9634
+      Middle East (UAE):
+        Dedicated: 1.0646
+        Shared: 1.0114
       us-east-1:
         Dedicated: 0.8916
         Shared: 0.8482
@@ -76468,6 +77541,7 @@ m6gd.4xlarge:
     - eu-west-1
     - us-east-2
     - eu-west-2
+    - Middle East (UAE)
     - us-west-1
     - eu-central-1
   storage: 1 x 950 NVMe SSD
@@ -76510,6 +77584,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.7774
         Shared: 1.6768
+      Middle East (UAE):
+        Dedicated: 1.8792
+        Shared: 1.7728
       us-east-1:
         Dedicated: 1.5332
         Shared: 1.4464
@@ -76550,6 +77627,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.9074
         Shared: 1.8068
+      Middle East (UAE):
+        Dedicated: 2.0092
+        Shared: 1.9028
       us-east-1:
         Dedicated: 1.6632
         Shared: 1.5764
@@ -76590,6 +77670,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.9424
         Shared: 1.8418
+      Middle East (UAE):
+        Dedicated: 2.0442
+        Shared: 1.9378
       us-east-1:
         Dedicated: 1.6982
         Shared: 1.6114
@@ -76630,6 +77713,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.9024
         Shared: 1.8018
+      Middle East (UAE):
+        Dedicated: 2.0042
+        Shared: 1.8978
       us-east-1:
         Dedicated: 1.6582
         Shared: 1.5714
@@ -76654,6 +77740,7 @@ m6gd.8xlarge:
     - us-west-2
     - ap-northeast-1
     - us-west-1
+    - Middle East (UAE)
     - ap-southeast-2
     - us-east-1
   storage: 1 x 1900 NVMe SSD
@@ -76696,6 +77783,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.1111
         Shared: 0.1048
+      Middle East (UAE):
+        Dedicated: 0.1174
+        Shared: 0.1108
       us-east-1:
         Dedicated: 0.0958
         Shared: 0.0904
@@ -76736,6 +77826,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.1711
         Shared: 0.1648
+      Middle East (UAE):
+        Dedicated: 0.1774
+        Shared: 0.1708
       us-east-1:
         Dedicated: 0.1558
         Shared: 0.1504
@@ -76776,6 +77869,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.2061
         Shared: 0.1998
+      Middle East (UAE):
+        Dedicated: 0.2124
+        Shared: 0.2058
       us-east-1:
         Dedicated: 0.1908
         Shared: 0.1854
@@ -76816,6 +77912,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.1674
         Shared: 0.1611
+      Middle East (UAE):
+        Dedicated: 0.1737
+        Shared: 0.1671
       us-east-1:
         Dedicated: 0.1521
         Shared: 0.1467
@@ -76832,6 +77931,7 @@ m6gd.large:
     - eu-north-1
     - eu-west-2
     - us-east-1
+    - Middle East (UAE)
     - ap-northeast-1
     - ap-southeast-3
     - ap-southeast-2
@@ -76882,6 +77982,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.0555
         Shared: 0.0524
+      Middle East (UAE):
+        Dedicated: 0.0587
+        Shared: 0.0554
       us-east-1:
         Dedicated: 0.0479
         Shared: 0.0452
@@ -76922,6 +78025,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.1155
         Shared: 0.1124
+      Middle East (UAE):
+        Dedicated: 0.1187
+        Shared: 0.1154
       us-east-1:
         Dedicated: 0.1079
         Shared: 0.1052
@@ -76962,6 +78068,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.1505
         Shared: 0.1474
+      Middle East (UAE):
+        Dedicated: 0.1537
+        Shared: 0.1504
       us-east-1:
         Dedicated: 0.1429
         Shared: 0.1402
@@ -77002,6 +78111,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.0865
         Shared: 0.0834
+      Middle East (UAE):
+        Dedicated: 0.115
+        Shared: 0.1117
       us-east-1:
         Dedicated: 0.0789
         Shared: 0.0762
@@ -77020,6 +78132,7 @@ m6gd.medium:
     - eu-west-1
     - ap-northeast-1
     - us-east-2
+    - Middle East (UAE)
     - ap-southeast-3
     - ap-southeast-2
     - eu-north-1
@@ -77068,6 +78181,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.5548
         Shared: 3.3536
+      Middle East (UAE):
+        Dedicated: 3.5456
+        Shared: 3.5456
       us-east-1:
         Dedicated: 3.0664
         Shared: 2.8928
@@ -77108,6 +78224,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.6848
         Shared: 3.4836
+      Middle East (UAE):
+        Dedicated: 3.6756
+        Shared: 3.6756
       us-east-1:
         Dedicated: 3.1964
         Shared: 3.0228
@@ -77148,6 +78267,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.7198
         Shared: 3.5186
+      Middle East (UAE):
+        Dedicated: 3.7106
+        Shared: 3.7106
       us-east-1:
         Dedicated: 3.2314
         Shared: 3.0578
@@ -77188,6 +78310,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.4786
         Shared: 3.4786
+      Middle East (UAE):
+        Dedicated: 3.6706
+        Shared: 3.6706
       us-east-1:
         Dedicated: 3.0178
         Shared: 3.0178
@@ -77205,6 +78330,7 @@ m6gd.metal:
     - ap-southeast-3
     - eu-north-1
     - eu-west-1
+    - Middle East (UAE)
     - us-east-2
     - ap-south-1
     - ap-southeast-2
@@ -77254,6 +78380,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.2222
         Shared: 0.2096
+      Middle East (UAE):
+        Dedicated: 0.2349
+        Shared: 0.2216
       us-east-1:
         Dedicated: 0.1916
         Shared: 0.1808
@@ -77294,6 +78423,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.2822
         Shared: 0.2696
+      Middle East (UAE):
+        Dedicated: 0.2949
+        Shared: 0.2816
       us-east-1:
         Dedicated: 0.2516
         Shared: 0.2408
@@ -77334,6 +78466,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.3172
         Shared: 0.3046
+      Middle East (UAE):
+        Dedicated: 0.3299
+        Shared: 0.3166
       us-east-1:
         Dedicated: 0.2866
         Shared: 0.2758
@@ -77374,6 +78509,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.2785
         Shared: 0.2659
+      Middle East (UAE):
+        Dedicated: 0.2912
+        Shared: 0.2779
       us-east-1:
         Dedicated: 0.2479
         Shared: 0.2371
@@ -77400,6 +78538,7 @@ m6gd.xlarge:
     - eu-north-1
     - ap-southeast-2
     - ap-south-1
+    - Middle East (UAE)
   storage: 1 x 237 NVMe SSD
   vcpu: 4
 m6i.12xlarge:
@@ -86210,6 +87349,9 @@ r5.12xlarge:
       me-south-1:
         Dedicated: 3.946
         Shared: 3.722
+      Middle East (UAE):
+        Dedicated: 3.946
+        Shared: 3.722
       sa-east-1:
         Dedicated: 5.113
         Shared: 4.824
@@ -86284,6 +87426,9 @@ r5.12xlarge:
         Dedicated: 3.895
         Shared: 3.682
       me-south-1:
+        Dedicated: 4.076
+        Shared: 3.852
+      Middle East (UAE):
         Dedicated: 4.076
         Shared: 3.852
       sa-east-1:
@@ -86362,6 +87507,9 @@ r5.12xlarge:
       me-south-1:
         Dedicated: 4.111
         Shared: 3.887
+      Middle East (UAE):
+        Dedicated: 4.111
+        Shared: 3.887
       sa-east-1:
         Dedicated: 5.278
         Shared: 4.989
@@ -86436,6 +87584,9 @@ r5.12xlarge:
         Dedicated: 3.89
         Shared: 3.677
       me-south-1:
+        Dedicated: 4.071
+        Shared: 3.847
+      Middle East (UAE):
         Dedicated: 4.071
         Shared: 3.847
       sa-east-1:
@@ -86514,6 +87665,9 @@ r5.12xlarge:
       me-south-1:
         Dedicated: 3.946
         Shared: 5.93
+      Middle East (UAE):
+        Dedicated: 6.154
+        Shared: 3.722
       sa-east-1:
         Dedicated: 5.113
         Shared: 4.824
@@ -86558,6 +87712,7 @@ r5.12xlarge:
     - ap-south-1
     - us-gov-east-1
     - af-south-1
+    - Middle East (UAE)
     - eu-north-1
     - eu-central-1
     - ap-southeast-2
@@ -86627,6 +87782,9 @@ r5.16xlarge:
         Dedicated: 5.02
         Shared: 4.736
       me-south-1:
+        Dedicated: 5.261
+        Shared: 4.963
+      Middle East (UAE):
         Dedicated: 5.261
         Shared: 4.963
       sa-east-1:
@@ -86705,6 +87863,9 @@ r5.16xlarge:
       me-south-1:
         Dedicated: 5.391
         Shared: 5.093
+      Middle East (UAE):
+        Dedicated: 5.391
+        Shared: 5.093
       sa-east-1:
         Dedicated: 6.948
         Shared: 6.562
@@ -86779,6 +87940,9 @@ r5.16xlarge:
         Dedicated: 5.185
         Shared: 4.901
       me-south-1:
+        Dedicated: 5.426
+        Shared: 5.128
+      Middle East (UAE):
         Dedicated: 5.426
         Shared: 5.128
       sa-east-1:
@@ -86857,6 +88021,9 @@ r5.16xlarge:
       me-south-1:
         Dedicated: 5.386
         Shared: 5.088
+      Middle East (UAE):
+        Dedicated: 5.386
+        Shared: 5.088
       sa-east-1:
         Dedicated: 6.943
         Shared: 6.557
@@ -86933,6 +88100,9 @@ r5.16xlarge:
       me-south-1:
         Dedicated: 5.261
         Shared: 4.963
+      Middle East (UAE):
+        Dedicated: 8.205
+        Shared: 7.907
       sa-east-1:
         Dedicated: 6.818
         Shared: 9.376
@@ -86970,6 +88140,7 @@ r5.16xlarge:
     - ap-northeast-2
     - af-south-1
     - us-east-1
+    - Middle East (UAE)
     - ap-south-1
     - ca-central-1
     - eu-west-2
@@ -87048,6 +88219,9 @@ r5.24xlarge:
       me-south-1:
         Dedicated: 7.445
         Shared: 7.445
+      Middle East (UAE):
+        Dedicated: 7.445
+        Shared: 7.445
       sa-east-1:
         Dedicated: 9.648
         Shared: 9.648
@@ -87122,6 +88296,9 @@ r5.24xlarge:
         Dedicated: 7.234
         Shared: 7.234
       me-south-1:
+        Dedicated: 7.575
+        Shared: 7.575
+      Middle East (UAE):
         Dedicated: 7.575
         Shared: 7.575
       sa-east-1:
@@ -87200,6 +88377,9 @@ r5.24xlarge:
       me-south-1:
         Dedicated: 7.61
         Shared: 7.61
+      Middle East (UAE):
+        Dedicated: 7.61
+        Shared: 7.61
       sa-east-1:
         Dedicated: 9.813
         Shared: 9.813
@@ -87274,6 +88454,9 @@ r5.24xlarge:
         Dedicated: 7.229
         Shared: 7.229
       me-south-1:
+        Dedicated: 7.57
+        Shared: 7.57
+      Middle East (UAE):
         Dedicated: 7.57
         Shared: 7.57
       sa-east-1:
@@ -87352,6 +88535,9 @@ r5.24xlarge:
       me-south-1:
         Dedicated: 7.445
         Shared: 7.445
+      Middle East (UAE):
+        Dedicated: 11.861
+        Shared: 7.445
       sa-east-1:
         Dedicated: 14.064
         Shared: 9.648
@@ -87389,6 +88575,7 @@ r5.24xlarge:
     - us-west-2
     - us-gov-west-1
     - ap-south-1
+    - Middle East (UAE)
     - me-south-1
     - eu-west-1
     - ca-central-1
@@ -87483,6 +88670,9 @@ r5.2xlarge:
       Europe (Vodafone) - Munich:
         Shared: 0.76
       me-south-1:
+        Dedicated: 0.658
+        Shared: 0.62
+      Middle East (UAE):
         Dedicated: 0.658
         Shared: 0.62
       sa-east-1:
@@ -87617,6 +88807,9 @@ r5.2xlarge:
       me-south-1:
         Dedicated: 0.788
         Shared: 0.75
+      Middle East (UAE):
+        Dedicated: 0.788
+        Shared: 0.75
       sa-east-1:
         Dedicated: 0.982
         Shared: 0.934
@@ -87747,6 +88940,9 @@ r5.2xlarge:
       Europe (Vodafone) - Munich:
         Shared: 0.925
       me-south-1:
+        Dedicated: 0.823
+        Shared: 0.785
+      Middle East (UAE):
         Dedicated: 0.823
         Shared: 0.785
       sa-east-1:
@@ -87881,6 +89077,9 @@ r5.2xlarge:
       me-south-1:
         Dedicated: 0.783
         Shared: 0.745
+      Middle East (UAE):
+        Dedicated: 0.783
+        Shared: 0.745
       sa-east-1:
         Dedicated: 0.977
         Shared: 0.929
@@ -88013,6 +89212,9 @@ r5.2xlarge:
       me-south-1:
         Dedicated: 0.658
         Shared: 0.988
+      Middle East (UAE):
+        Dedicated: 1.026
+        Shared: 0.62
       sa-east-1:
         Dedicated: 1.22
         Shared: 0.804
@@ -88092,6 +89294,7 @@ r5.2xlarge:
     - us-west-2
     - US West (Verizon) - Los Angeles
     - US East (Verizon) - Detroit
+    - Middle East (UAE)
     - Europe (Vodafone) - Dortmund
     - US West (Verizon) - Phoenix
     - Europe (Vodafone) - London
@@ -88194,6 +89397,9 @@ r5.4xlarge:
       me-south-1:
         Dedicated: 1.315
         Shared: 1.241
+      Middle East (UAE):
+        Dedicated: 1.315
+        Shared: 1.241
       sa-east-1:
         Dedicated: 1.704
         Shared: 1.608
@@ -88268,6 +89474,9 @@ r5.4xlarge:
         Dedicated: 1.385
         Shared: 1.314
       me-south-1:
+        Dedicated: 1.445
+        Shared: 1.371
+      Middle East (UAE):
         Dedicated: 1.445
         Shared: 1.371
       sa-east-1:
@@ -88346,6 +89555,9 @@ r5.4xlarge:
       me-south-1:
         Dedicated: 1.48
         Shared: 1.406
+      Middle East (UAE):
+        Dedicated: 1.48
+        Shared: 1.406
       sa-east-1:
         Dedicated: 1.869
         Shared: 1.773
@@ -88420,6 +89632,9 @@ r5.4xlarge:
         Dedicated: 1.38
         Shared: 1.309
       me-south-1:
+        Dedicated: 1.44
+        Shared: 1.366
+      Middle East (UAE):
         Dedicated: 1.44
         Shared: 1.366
       sa-east-1:
@@ -88498,6 +89713,9 @@ r5.4xlarge:
       me-south-1:
         Dedicated: 2.051
         Shared: 1.977
+      Middle East (UAE):
+        Dedicated: 1.315
+        Shared: 1.977
       sa-east-1:
         Dedicated: 1.704
         Shared: 1.608
@@ -88537,6 +89755,7 @@ r5.4xlarge:
     - eu-west-1
     - us-east-2
     - ca-central-1
+    - Middle East (UAE)
     - eu-west-3
     - us-west-2
     - us-gov-east-1
@@ -88611,6 +89830,9 @@ r5.8xlarge:
         Dedicated: 2.51
         Shared: 2.368
       me-south-1:
+        Dedicated: 2.63
+        Shared: 2.482
+      Middle East (UAE):
         Dedicated: 2.63
         Shared: 2.482
       sa-east-1:
@@ -88689,6 +89911,9 @@ r5.8xlarge:
       me-south-1:
         Dedicated: 2.76
         Shared: 2.612
+      Middle East (UAE):
+        Dedicated: 2.76
+        Shared: 2.612
       sa-east-1:
         Dedicated: 3.539
         Shared: 3.346
@@ -88763,6 +89988,9 @@ r5.8xlarge:
         Dedicated: 2.675
         Shared: 2.533
       me-south-1:
+        Dedicated: 2.795
+        Shared: 2.647
+      Middle East (UAE):
         Dedicated: 2.795
         Shared: 2.647
       sa-east-1:
@@ -88841,6 +90069,9 @@ r5.8xlarge:
       me-south-1:
         Dedicated: 2.755
         Shared: 2.607
+      Middle East (UAE):
+        Dedicated: 2.755
+        Shared: 2.607
       sa-east-1:
         Dedicated: 3.534
         Shared: 3.341
@@ -88917,6 +90148,9 @@ r5.8xlarge:
       me-south-1:
         Dedicated: 4.102
         Shared: 2.482
+      Middle East (UAE):
+        Dedicated: 2.63
+        Shared: 3.954
       sa-east-1:
         Dedicated: 3.409
         Shared: 3.216
@@ -88959,6 +90193,7 @@ r5.8xlarge:
     - me-south-1
     - ap-southeast-1
     - eu-west-2
+    - Middle East (UAE)
     - ap-northeast-1
     - Asia Pacific (Osaka)
     - ap-east-1
@@ -89030,6 +90265,9 @@ r5.large:
         Dedicated: 0.157
         Shared: 0.148
       me-south-1:
+        Dedicated: 0.164
+        Shared: 0.155
+      Middle East (UAE):
         Dedicated: 0.164
         Shared: 0.155
       sa-east-1:
@@ -89108,6 +90346,9 @@ r5.large:
       me-south-1:
         Dedicated: 0.224
         Shared: 0.215
+      Middle East (UAE):
+        Dedicated: 0.224
+        Shared: 0.215
       sa-east-1:
         Dedicated: 0.273
         Shared: 0.261
@@ -89182,6 +90423,9 @@ r5.large:
         Dedicated: 0.252
         Shared: 0.243
       me-south-1:
+        Dedicated: 0.259
+        Shared: 0.25
+      Middle East (UAE):
         Dedicated: 0.259
         Shared: 0.25
       sa-east-1:
@@ -89260,6 +90504,9 @@ r5.large:
       me-south-1:
         Dedicated: 0.221
         Shared: 0.211
+      Middle East (UAE):
+        Dedicated: 0.221
+        Shared: 0.211
       sa-east-1:
         Dedicated: 0.269
         Shared: 0.257
@@ -89336,6 +90583,9 @@ r5.large:
       me-south-1:
         Dedicated: 0.164
         Shared: 0.155
+      Middle East (UAE):
+        Dedicated: 0.164
+        Shared: 0.155
       sa-east-1:
         Dedicated: 0.305
         Shared: 0.293
@@ -89371,6 +90621,7 @@ r5.large:
     - eu-south-1
     - eu-west-2
     - us-east-2
+    - Middle East (UAE)
     - us-west-2-lax-1a
     - ca-central-1
     - ap-southeast-2
@@ -89451,6 +90702,9 @@ r5.metal:
       me-south-1:
         Dedicated: 7.445
         Shared: 7.445
+      Middle East (UAE):
+        Dedicated: 7.445
+        Shared: 7.445
       sa-east-1:
         Dedicated: 9.648
         Shared: 9.648
@@ -89525,6 +90779,9 @@ r5.metal:
         Dedicated: 7.234
         Shared: 7.234
       me-south-1:
+        Dedicated: 7.575
+        Shared: 7.575
+      Middle East (UAE):
         Dedicated: 7.575
         Shared: 7.575
       sa-east-1:
@@ -89603,6 +90860,9 @@ r5.metal:
       me-south-1:
         Dedicated: 7.61
         Shared: 7.61
+      Middle East (UAE):
+        Dedicated: 7.61
+        Shared: 7.61
       sa-east-1:
         Dedicated: 9.813
         Shared: 9.813
@@ -89677,6 +90937,9 @@ r5.metal:
         Dedicated: 7.229
         Shared: 7.229
       me-south-1:
+        Dedicated: 7.57
+        Shared: 7.57
+      Middle East (UAE):
         Dedicated: 7.57
         Shared: 7.57
       sa-east-1:
@@ -89755,6 +91018,9 @@ r5.metal:
       me-south-1:
         Dedicated: 7.445
         Shared: 7.445
+      Middle East (UAE):
+        Dedicated: 11.861
+        Shared: 11.861
       sa-east-1:
         Dedicated: 9.648
         Shared: 14.064
@@ -89799,6 +91065,7 @@ r5.metal:
     - us-west-1
     - us-gov-east-1
     - eu-west-2
+    - Middle East (UAE)
     - ap-southeast-3
     - ap-south-1
     - sa-east-1
@@ -89868,6 +91135,9 @@ r5.xlarge:
         Dedicated: 0.314
         Shared: 0.296
       me-south-1:
+        Dedicated: 0.329
+        Shared: 0.31
+      Middle East (UAE):
         Dedicated: 0.329
         Shared: 0.31
       sa-east-1:
@@ -89946,6 +91216,9 @@ r5.xlarge:
       me-south-1:
         Dedicated: 0.389
         Shared: 0.37
+      Middle East (UAE):
+        Dedicated: 0.389
+        Shared: 0.37
       sa-east-1:
         Dedicated: 0.486
         Shared: 0.462
@@ -90020,6 +91293,9 @@ r5.xlarge:
         Dedicated: 0.409
         Shared: 0.391
       me-south-1:
+        Dedicated: 0.424
+        Shared: 0.405
+      Middle East (UAE):
         Dedicated: 0.424
         Shared: 0.405
       sa-east-1:
@@ -90098,6 +91374,9 @@ r5.xlarge:
       me-south-1:
         Dedicated: 0.385
         Shared: 0.367
+      Middle East (UAE):
+        Dedicated: 0.385
+        Shared: 0.367
       sa-east-1:
         Dedicated: 0.482
         Shared: 0.458
@@ -90174,6 +91453,9 @@ r5.xlarge:
       me-south-1:
         Dedicated: 0.513
         Shared: 0.494
+      Middle East (UAE):
+        Dedicated: 0.513
+        Shared: 0.31
       sa-east-1:
         Dedicated: 0.426
         Shared: 0.402
@@ -90213,6 +91495,7 @@ r5.xlarge:
     - ap-south-1
     - ap-northeast-2
     - me-south-1
+    - Middle East (UAE)
     - ap-southeast-3
     - us-west-2-lax-1a
     - us-west-2
@@ -96819,6 +98102,9 @@ r5d.12xlarge:
       me-south-1:
         Dedicated: 4.48
         Shared: 4.224
+      Middle East (UAE):
+        Dedicated: 4.477
+        Shared: 4.224
       sa-east-1:
         Dedicated: 5.803
         Shared: 5.472
@@ -96895,6 +98181,9 @@ r5d.12xlarge:
       me-south-1:
         Dedicated: 4.61
         Shared: 4.354
+      Middle East (UAE):
+        Dedicated: 4.607
+        Shared: 4.354
       sa-east-1:
         Dedicated: 5.933
         Shared: 5.602
@@ -96969,6 +98258,9 @@ r5d.12xlarge:
         Dedicated: 4.464
         Shared: 4.221
       me-south-1:
+        Dedicated: 4.642
+        Shared: 4.389
+      Middle East (UAE):
         Dedicated: 4.642
         Shared: 4.389
       sa-east-1:
@@ -97047,6 +98339,9 @@ r5d.12xlarge:
       me-south-1:
         Dedicated: 4.602
         Shared: 4.349
+      Middle East (UAE):
+        Dedicated: 4.602
+        Shared: 4.349
       sa-east-1:
         Dedicated: 5.925
         Shared: 5.597
@@ -97123,6 +98418,9 @@ r5d.12xlarge:
       me-south-1:
         Dedicated: 6.688
         Shared: 6.432
+      Middle East (UAE):
+        Dedicated: 4.477
+        Shared: 6.432
       sa-east-1:
         Dedicated: 8.011
         Shared: 7.68
@@ -97170,6 +98468,7 @@ r5d.12xlarge:
     - ap-northeast-2
     - ap-southeast-1
     - Asia Pacific (Osaka)
+    - Middle East (UAE)
     - eu-south-1
     - us-east-2
     - us-gov-west-1
@@ -97238,6 +98537,9 @@ r5d.16xlarge:
         Shared: 5.408
       me-south-1:
         Dedicated: 5.974
+        Shared: 5.632
+      Middle East (UAE):
+        Dedicated: 5.97
         Shared: 5.632
       sa-east-1:
         Dedicated: 7.738
@@ -97315,6 +98617,9 @@ r5d.16xlarge:
       me-south-1:
         Dedicated: 6.104
         Shared: 5.762
+      Middle East (UAE):
+        Dedicated: 6.1
+        Shared: 5.762
       sa-east-1:
         Dedicated: 7.868
         Shared: 7.426
@@ -97389,6 +98694,9 @@ r5d.16xlarge:
         Dedicated: 5.897
         Shared: 5.573
       me-south-1:
+        Dedicated: 6.135
+        Shared: 5.797
+      Middle East (UAE):
         Dedicated: 6.135
         Shared: 5.797
       sa-east-1:
@@ -97467,6 +98775,9 @@ r5d.16xlarge:
       me-south-1:
         Dedicated: 6.095
         Shared: 5.757
+      Middle East (UAE):
+        Dedicated: 6.095
+        Shared: 5.757
       sa-east-1:
         Dedicated: 7.859
         Shared: 7.421
@@ -97543,6 +98854,9 @@ r5d.16xlarge:
       me-south-1:
         Dedicated: 8.918
         Shared: 8.576
+      Middle East (UAE):
+        Dedicated: 5.97
+        Shared: 5.632
       sa-east-1:
         Dedicated: 10.682
         Shared: 10.24
@@ -97578,6 +98892,7 @@ r5d.16xlarge:
     - us-west-1
     - Asia Pacific (Osaka)
     - ap-south-1
+    - Middle East (UAE)
     - us-west-2-lax-1a
     - us-east-1
     - eu-west-2
@@ -97659,6 +98974,9 @@ r5d.24xlarge:
       me-south-1:
         Dedicated: 8.448
         Shared: 8.448
+      Middle East (UAE):
+        Dedicated: 8.448
+        Shared: 8.448
       sa-east-1:
         Dedicated: 10.944
         Shared: 10.944
@@ -97733,6 +99051,9 @@ r5d.24xlarge:
         Dedicated: 8.242
         Shared: 8.242
       me-south-1:
+        Dedicated: 8.578
+        Shared: 8.578
+      Middle East (UAE):
         Dedicated: 8.578
         Shared: 8.578
       sa-east-1:
@@ -97811,6 +99132,9 @@ r5d.24xlarge:
       me-south-1:
         Dedicated: 8.613
         Shared: 8.613
+      Middle East (UAE):
+        Dedicated: 8.613
+        Shared: 8.613
       sa-east-1:
         Dedicated: 11.109
         Shared: 11.109
@@ -97885,6 +99209,9 @@ r5d.24xlarge:
         Dedicated: 8.237
         Shared: 8.237
       me-south-1:
+        Dedicated: 8.573
+        Shared: 8.573
+      Middle East (UAE):
         Dedicated: 8.573
         Shared: 8.573
       sa-east-1:
@@ -97963,6 +99290,9 @@ r5d.24xlarge:
       me-south-1:
         Dedicated: 12.864
         Shared: 12.864
+      Middle East (UAE):
+        Dedicated: 12.864
+        Shared: 12.864
       sa-east-1:
         Dedicated: 15.36
         Shared: 15.36
@@ -97998,6 +99328,7 @@ r5d.24xlarge:
     - ap-east-1
     - me-south-1
     - us-west-2
+    - Middle East (UAE)
     - eu-north-1
     - af-south-1
     - ap-south-1
@@ -98078,6 +99409,9 @@ r5d.2xlarge:
         Shared: 0.676
       me-south-1:
         Dedicated: 0.747
+        Shared: 0.704
+      Middle East (UAE):
+        Dedicated: 0.746
         Shared: 0.704
       sa-east-1:
         Dedicated: 0.967
@@ -98200,6 +99534,9 @@ r5d.2xlarge:
       me-south-1:
         Dedicated: 0.877
         Shared: 0.834
+      Middle East (UAE):
+        Dedicated: 0.876
+        Shared: 0.834
       sa-east-1:
         Dedicated: 1.097
         Shared: 1.042
@@ -98319,6 +99656,9 @@ r5d.2xlarge:
         Dedicated: 0.882
         Shared: 0.841
       me-south-1:
+        Dedicated: 0.911
+        Shared: 0.869
+      Middle East (UAE):
         Dedicated: 0.911
         Shared: 0.869
       sa-east-1:
@@ -98442,6 +99782,9 @@ r5d.2xlarge:
       me-south-1:
         Dedicated: 0.871
         Shared: 0.829
+      Middle East (UAE):
+        Dedicated: 0.871
+        Shared: 0.829
       sa-east-1:
         Dedicated: 1.092
         Shared: 1.037
@@ -98563,6 +99906,9 @@ r5d.2xlarge:
       me-south-1:
         Dedicated: 1.115
         Shared: 1.072
+      Middle East (UAE):
+        Dedicated: 1.114
+        Shared: 0.704
       sa-east-1:
         Dedicated: 1.335
         Shared: 1.28
@@ -98633,6 +99979,7 @@ r5d.2xlarge:
         Dedicated: 1.101
         Shared: 1.059
   regions:
+    - Middle East (UAE)
     - Asia Pacific (Osaka)
     - sa-east-1
     - eu-west-1
@@ -98738,6 +100085,9 @@ r5d.4xlarge:
       me-south-1:
         Dedicated: 1.493
         Shared: 1.408
+      Middle East (UAE):
+        Dedicated: 1.492
+        Shared: 1.408
       sa-east-1:
         Dedicated: 1.934
         Shared: 1.824
@@ -98814,6 +100164,9 @@ r5d.4xlarge:
       me-south-1:
         Dedicated: 1.623
         Shared: 1.538
+      Middle East (UAE):
+        Dedicated: 1.622
+        Shared: 1.538
       sa-east-1:
         Dedicated: 2.064
         Shared: 1.954
@@ -98888,6 +100241,9 @@ r5d.4xlarge:
         Dedicated: 1.598
         Shared: 1.517
       me-south-1:
+        Dedicated: 1.657
+        Shared: 1.573
+      Middle East (UAE):
         Dedicated: 1.657
         Shared: 1.573
       sa-east-1:
@@ -98966,6 +100322,9 @@ r5d.4xlarge:
       me-south-1:
         Dedicated: 1.617
         Shared: 1.533
+      Middle East (UAE):
+        Dedicated: 1.617
+        Shared: 1.533
       sa-east-1:
         Dedicated: 2.058
         Shared: 1.949
@@ -99042,6 +100401,9 @@ r5d.4xlarge:
       me-south-1:
         Dedicated: 2.229
         Shared: 2.144
+      Middle East (UAE):
+        Dedicated: 1.492
+        Shared: 1.408
       sa-east-1:
         Dedicated: 2.67
         Shared: 2.56
@@ -99088,6 +100450,7 @@ r5d.4xlarge:
     - eu-west-3
     - us-west-2-lax-1a
     - us-west-2
+    - Middle East (UAE)
     - eu-central-1
     - ap-southeast-1
     - eu-west-2
@@ -99157,6 +100520,9 @@ r5d.8xlarge:
         Shared: 2.704
       me-south-1:
         Dedicated: 2.987
+        Shared: 2.816
+      Middle East (UAE):
+        Dedicated: 2.985
         Shared: 2.816
       sa-east-1:
         Dedicated: 3.869
@@ -99234,6 +100600,9 @@ r5d.8xlarge:
       me-south-1:
         Dedicated: 3.117
         Shared: 2.946
+      Middle East (UAE):
+        Dedicated: 3.115
+        Shared: 2.946
       sa-east-1:
         Dedicated: 3.999
         Shared: 3.778
@@ -99308,6 +100677,9 @@ r5d.8xlarge:
         Dedicated: 3.031
         Shared: 2.869
       me-south-1:
+        Dedicated: 3.15
+        Shared: 2.981
+      Middle East (UAE):
         Dedicated: 3.15
         Shared: 2.981
       sa-east-1:
@@ -99386,6 +100758,9 @@ r5d.8xlarge:
       me-south-1:
         Dedicated: 3.11
         Shared: 2.941
+      Middle East (UAE):
+        Dedicated: 3.11
+        Shared: 2.941
       sa-east-1:
         Dedicated: 3.992
         Shared: 3.773
@@ -99462,6 +100837,9 @@ r5d.8xlarge:
       me-south-1:
         Dedicated: 4.459
         Shared: 4.288
+      Middle East (UAE):
+        Dedicated: 2.985
+        Shared: 2.816
       sa-east-1:
         Dedicated: 5.341
         Shared: 5.12
@@ -99499,6 +100877,7 @@ r5d.8xlarge:
     - eu-west-2
     - us-east-1
     - ap-northeast-2
+    - Middle East (UAE)
     - eu-west-3
     - ap-south-1
     - ap-east-1
@@ -99579,6 +100958,9 @@ r5d.large:
       me-south-1:
         Dedicated: 0.187
         Shared: 0.176
+      Middle East (UAE):
+        Dedicated: 0.187
+        Shared: 0.176
       sa-east-1:
         Dedicated: 0.242
         Shared: 0.228
@@ -99653,6 +101035,9 @@ r5d.large:
         Dedicated: 0.239
         Shared: 0.229
       me-south-1:
+        Dedicated: 0.247
+        Shared: 0.236
+      Middle East (UAE):
         Dedicated: 0.247
         Shared: 0.236
       sa-east-1:
@@ -99731,6 +101116,9 @@ r5d.large:
       me-south-1:
         Dedicated: 0.282
         Shared: 0.271
+      Middle East (UAE):
+        Dedicated: 0.282
+        Shared: 0.271
       sa-east-1:
         Dedicated: 0.337
         Shared: 0.323
@@ -99805,6 +101193,9 @@ r5d.large:
         Dedicated: 0.235
         Shared: 0.225
       me-south-1:
+        Dedicated: 0.243
+        Shared: 0.232
+      Middle East (UAE):
         Dedicated: 0.243
         Shared: 0.232
       sa-east-1:
@@ -99883,6 +101274,9 @@ r5d.large:
       me-south-1:
         Dedicated: 0.279
         Shared: 0.268
+      Middle East (UAE):
+        Dedicated: 0.187
+        Shared: 0.176
       sa-east-1:
         Dedicated: 0.334
         Shared: 0.32
@@ -99920,6 +101314,7 @@ r5d.large:
     - us-west-2-lax-1a
     - ap-northeast-2
     - us-west-1
+    - Middle East (UAE)
     - eu-south-1
     - sa-east-1
     - af-south-1
@@ -99998,6 +101393,9 @@ r5d.metal:
       me-south-1:
         Dedicated: 8.448
         Shared: 8.448
+      Middle East (UAE):
+        Dedicated: 8.448
+        Shared: 8.448
       sa-east-1:
         Dedicated: 10.944
         Shared: 10.944
@@ -100072,6 +101470,9 @@ r5d.metal:
         Dedicated: 8.242
         Shared: 8.242
       me-south-1:
+        Dedicated: 8.578
+        Shared: 8.578
+      Middle East (UAE):
         Dedicated: 8.578
         Shared: 8.578
       sa-east-1:
@@ -100150,6 +101551,9 @@ r5d.metal:
       me-south-1:
         Dedicated: 8.613
         Shared: 8.613
+      Middle East (UAE):
+        Dedicated: 8.613
+        Shared: 8.613
       sa-east-1:
         Dedicated: 11.109
         Shared: 11.109
@@ -100224,6 +101628,9 @@ r5d.metal:
         Dedicated: 8.237
         Shared: 8.237
       me-south-1:
+        Dedicated: 8.573
+        Shared: 8.573
+      Middle East (UAE):
         Dedicated: 8.573
         Shared: 8.573
       sa-east-1:
@@ -100302,6 +101709,9 @@ r5d.metal:
       me-south-1:
         Dedicated: 12.864
         Shared: 12.864
+      Middle East (UAE):
+        Dedicated: 12.864
+        Shared: 12.864
       sa-east-1:
         Dedicated: 15.36
         Shared: 15.36
@@ -100334,6 +101744,7 @@ r5d.metal:
     - ap-northeast-1
     - eu-west-3
     - ap-southeast-3
+    - Middle East (UAE)
     - eu-north-1
     - eu-central-1
     - us-west-2
@@ -100417,6 +101828,9 @@ r5d.xlarge:
       me-south-1:
         Dedicated: 0.373
         Shared: 0.352
+      Middle East (UAE):
+        Dedicated: 0.373
+        Shared: 0.352
       sa-east-1:
         Dedicated: 0.484
         Shared: 0.456
@@ -100491,6 +101905,9 @@ r5d.xlarge:
         Dedicated: 0.418
         Shared: 0.398
       me-south-1:
+        Dedicated: 0.433
+        Shared: 0.412
+      Middle East (UAE):
         Dedicated: 0.433
         Shared: 0.412
       sa-east-1:
@@ -100569,6 +101986,9 @@ r5d.xlarge:
       me-south-1:
         Dedicated: 0.468
         Shared: 0.447
+      Middle East (UAE):
+        Dedicated: 0.468
+        Shared: 0.447
       sa-east-1:
         Dedicated: 0.578
         Shared: 0.551
@@ -100643,6 +102063,9 @@ r5d.xlarge:
         Dedicated: 0.415
         Shared: 0.394
       me-south-1:
+        Dedicated: 0.429
+        Shared: 0.408
+      Middle East (UAE):
         Dedicated: 0.429
         Shared: 0.408
       sa-east-1:
@@ -100721,6 +102144,9 @@ r5d.xlarge:
       me-south-1:
         Dedicated: 0.557
         Shared: 0.536
+      Middle East (UAE):
+        Dedicated: 0.373
+        Shared: 0.352
       sa-east-1:
         Dedicated: 0.668
         Shared: 0.64
@@ -100770,6 +102196,7 @@ r5d.xlarge:
     - eu-north-1
     - ca-central-1
     - us-gov-west-1
+    - Middle East (UAE)
     - us-east-1
   storage: 1 x 150 NVMe SSD
   vcpu: 4
@@ -107444,6 +108871,9 @@ r6g.12xlarge:
       eu-west-3:
         Dedicated: 3.0024
         Shared: 2.832
+      Middle East (UAE):
+        Dedicated: 3.1566
+        Shared: 2.9779
       sa-east-1:
         Dedicated: 4.0908
         Shared: 3.8592
@@ -107508,6 +108938,9 @@ r6g.12xlarge:
       eu-west-3:
         Dedicated: 3.1324
         Shared: 2.962
+      Middle East (UAE):
+        Dedicated: 3.2866
+        Shared: 3.1079
       sa-east-1:
         Dedicated: 4.2208
         Shared: 3.9892
@@ -107572,6 +109005,9 @@ r6g.12xlarge:
       eu-west-3:
         Dedicated: 3.1674
         Shared: 2.997
+      Middle East (UAE):
+        Dedicated: 3.3216
+        Shared: 3.1429
       sa-east-1:
         Dedicated: 4.2558
         Shared: 4.0242
@@ -107636,6 +109072,9 @@ r6g.12xlarge:
       eu-west-3:
         Dedicated: 3.1274
         Shared: 2.957
+      Middle East (UAE):
+        Dedicated: 3.2816
+        Shared: 3.1029
       sa-east-1:
         Dedicated: 4.2158
         Shared: 3.9842
@@ -107659,6 +109098,7 @@ r6g.12xlarge:
         Shared: 2.5442
   regions:
     - ap-east-1
+    - Middle East (UAE)
     - us-west-1
     - ap-northeast-1
     - sa-east-1
@@ -107734,6 +109174,9 @@ r6g.16xlarge:
       eu-west-3:
         Dedicated: 4.0032
         Shared: 3.776
+      Middle East (UAE):
+        Dedicated: 3.9706
+        Shared: 3.9706
       sa-east-1:
         Dedicated: 5.4543
         Shared: 5.1456
@@ -107798,6 +109241,9 @@ r6g.16xlarge:
       eu-west-3:
         Dedicated: 4.1332
         Shared: 3.906
+      Middle East (UAE):
+        Dedicated: 4.1006
+        Shared: 4.1006
       sa-east-1:
         Dedicated: 5.5843
         Shared: 5.2756
@@ -107862,6 +109308,9 @@ r6g.16xlarge:
       eu-west-3:
         Dedicated: 4.1682
         Shared: 3.941
+      Middle East (UAE):
+        Dedicated: 4.1356
+        Shared: 4.1356
       sa-east-1:
         Dedicated: 5.6193
         Shared: 5.3106
@@ -107926,6 +109375,9 @@ r6g.16xlarge:
       eu-west-3:
         Dedicated: 3.901
         Shared: 3.901
+      Middle East (UAE):
+        Dedicated: 4.0956
+        Shared: 4.0956
       sa-east-1:
         Dedicated: 5.2706
         Shared: 5.2706
@@ -107962,6 +109414,7 @@ r6g.16xlarge:
     - ap-southeast-2
     - ap-southeast-3
     - eu-west-1
+    - Middle East (UAE)
     - eu-west-3
     - ap-southeast-1
     - eu-south-1
@@ -108024,6 +109477,9 @@ r6g.2xlarge:
       eu-west-3:
         Dedicated: 0.5004
         Shared: 0.472
+      Middle East (UAE):
+        Dedicated: 0.5261
+        Shared: 0.4963
       sa-east-1:
         Dedicated: 0.6818
         Shared: 0.6432
@@ -108088,6 +109544,9 @@ r6g.2xlarge:
       eu-west-3:
         Dedicated: 0.6304
         Shared: 0.602
+      Middle East (UAE):
+        Dedicated: 0.6561
+        Shared: 0.6263
       sa-east-1:
         Dedicated: 0.8118
         Shared: 0.7732
@@ -108152,6 +109611,9 @@ r6g.2xlarge:
       eu-west-3:
         Dedicated: 0.6654
         Shared: 0.637
+      Middle East (UAE):
+        Dedicated: 0.6911
+        Shared: 0.6613
       sa-east-1:
         Dedicated: 0.8468
         Shared: 0.8082
@@ -108216,6 +109678,9 @@ r6g.2xlarge:
       eu-west-3:
         Dedicated: 0.6254
         Shared: 0.597
+      Middle East (UAE):
+        Dedicated: 0.6511
+        Shared: 0.6213
       sa-east-1:
         Dedicated: 0.8068
         Shared: 0.7682
@@ -108251,6 +109716,7 @@ r6g.2xlarge:
     - us-east-2
     - ap-south-1
     - eu-west-3
+    - Middle East (UAE)
     - us-gov-west-1
     - eu-west-2
     - ap-southeast-1
@@ -108314,6 +109780,9 @@ r6g.4xlarge:
       eu-west-3:
         Dedicated: 1.0008
         Shared: 0.944
+      Middle East (UAE):
+        Dedicated: 1.0522
+        Shared: 0.9926
       sa-east-1:
         Dedicated: 1.3636
         Shared: 1.2864
@@ -108378,6 +109847,9 @@ r6g.4xlarge:
       eu-west-3:
         Dedicated: 1.1308
         Shared: 1.074
+      Middle East (UAE):
+        Dedicated: 1.1822
+        Shared: 1.1226
       sa-east-1:
         Dedicated: 1.4936
         Shared: 1.4164
@@ -108442,6 +109914,9 @@ r6g.4xlarge:
       eu-west-3:
         Dedicated: 1.1658
         Shared: 1.109
+      Middle East (UAE):
+        Dedicated: 1.2172
+        Shared: 1.1576
       sa-east-1:
         Dedicated: 1.5286
         Shared: 1.4514
@@ -108506,6 +109981,9 @@ r6g.4xlarge:
       eu-west-3:
         Dedicated: 1.1258
         Shared: 1.069
+      Middle East (UAE):
+        Dedicated: 1.1772
+        Shared: 1.1176
       sa-east-1:
         Dedicated: 1.4886
         Shared: 1.4114
@@ -108540,6 +110018,7 @@ r6g.4xlarge:
     - eu-west-2
     - us-west-1
     - us-east-2
+    - Middle East (UAE)
     - ca-central-1
     - us-gov-west-1
     - eu-south-1
@@ -108604,6 +110083,9 @@ r6g.8xlarge:
       eu-west-3:
         Dedicated: 2.0016
         Shared: 1.888
+      Middle East (UAE):
+        Dedicated: 2.1044
+        Shared: 1.9853
       sa-east-1:
         Dedicated: 2.7272
         Shared: 2.5728
@@ -108668,6 +110150,9 @@ r6g.8xlarge:
       eu-west-3:
         Dedicated: 2.1316
         Shared: 2.018
+      Middle East (UAE):
+        Dedicated: 2.2344
+        Shared: 2.1153
       sa-east-1:
         Dedicated: 2.8572
         Shared: 2.7028
@@ -108732,6 +110217,9 @@ r6g.8xlarge:
       eu-west-3:
         Dedicated: 2.1666
         Shared: 2.053
+      Middle East (UAE):
+        Dedicated: 2.2694
+        Shared: 2.1503
       sa-east-1:
         Dedicated: 2.8922
         Shared: 2.7378
@@ -108796,6 +110284,9 @@ r6g.8xlarge:
       eu-west-3:
         Dedicated: 2.1266
         Shared: 2.013
+      Middle East (UAE):
+        Dedicated: 2.2294
+        Shared: 2.1103
       sa-east-1:
         Dedicated: 2.8522
         Shared: 2.6978
@@ -108821,6 +110312,7 @@ r6g.8xlarge:
     - eu-west-1
     - eu-north-1
     - ap-southeast-3
+    - Middle East (UAE)
     - us-gov-east-1
     - us-west-1
     - sa-east-1
@@ -108894,6 +110386,9 @@ r6g.large:
       eu-west-3:
         Dedicated: 0.1251
         Shared: 0.118
+      Middle East (UAE):
+        Dedicated: 0.1315
+        Shared: 0.1241
       sa-east-1:
         Dedicated: 0.1704
         Shared: 0.1608
@@ -108958,6 +110453,9 @@ r6g.large:
       eu-west-3:
         Dedicated: 0.1851
         Shared: 0.178
+      Middle East (UAE):
+        Dedicated: 0.1915
+        Shared: 0.1841
       sa-east-1:
         Dedicated: 0.2304
         Shared: 0.2208
@@ -109022,6 +110520,9 @@ r6g.large:
       eu-west-3:
         Dedicated: 0.2201
         Shared: 0.213
+      Middle East (UAE):
+        Dedicated: 0.2265
+        Shared: 0.2191
       sa-east-1:
         Dedicated: 0.2654
         Shared: 0.2558
@@ -109086,6 +110587,9 @@ r6g.large:
       eu-west-3:
         Dedicated: 0.1814
         Shared: 0.1743
+      Middle East (UAE):
+        Dedicated: 0.1878
+        Shared: 0.1804
       sa-east-1:
         Dedicated: 0.2267
         Shared: 0.2171
@@ -109125,6 +110629,7 @@ r6g.large:
     - eu-west-2
     - us-east-2
     - ap-northeast-1
+    - Middle East (UAE)
     - eu-south-1
     - ca-central-1
     - ap-southeast-3
@@ -109184,6 +110689,9 @@ r6g.medium:
       eu-west-3:
         Dedicated: 0.0625
         Shared: 0.059
+      Middle East (UAE):
+        Dedicated: 0.0658
+        Shared: 0.062
       sa-east-1:
         Dedicated: 0.0852
         Shared: 0.0804
@@ -109248,6 +110756,9 @@ r6g.medium:
       eu-west-3:
         Dedicated: 0.1225
         Shared: 0.119
+      Middle East (UAE):
+        Dedicated: 0.1258
+        Shared: 0.122
       sa-east-1:
         Dedicated: 0.1452
         Shared: 0.1404
@@ -109312,6 +110823,9 @@ r6g.medium:
       eu-west-3:
         Dedicated: 0.1575
         Shared: 0.154
+      Middle East (UAE):
+        Dedicated: 0.1608
+        Shared: 0.157
       sa-east-1:
         Dedicated: 0.1802
         Shared: 0.1754
@@ -109376,6 +110890,9 @@ r6g.medium:
       eu-west-3:
         Dedicated: 0.0935
         Shared: 0.09
+      Middle East (UAE):
+        Dedicated: 0.1221
+        Shared: 0.1183
       sa-east-1:
         Dedicated: 0.1162
         Shared: 0.1114
@@ -109402,6 +110919,7 @@ r6g.medium:
     - ap-southeast-2
     - sa-east-1
     - eu-central-1
+    - Middle East (UAE)
     - us-gov-west-1
     - us-west-1
     - ap-southeast-3
@@ -109474,6 +110992,9 @@ r6g.metal:
       eu-west-3:
         Dedicated: 4.0032
         Shared: 3.776
+      Middle East (UAE):
+        Dedicated: 3.9706
+        Shared: 3.9706
       sa-east-1:
         Dedicated: 5.4543
         Shared: 5.1456
@@ -109538,6 +111059,9 @@ r6g.metal:
       eu-west-3:
         Dedicated: 4.1332
         Shared: 3.906
+      Middle East (UAE):
+        Dedicated: 4.1006
+        Shared: 4.1006
       sa-east-1:
         Dedicated: 5.5843
         Shared: 5.2756
@@ -109602,6 +111126,9 @@ r6g.metal:
       eu-west-3:
         Dedicated: 4.1682
         Shared: 3.941
+      Middle East (UAE):
+        Dedicated: 4.1356
+        Shared: 4.1356
       sa-east-1:
         Dedicated: 5.6193
         Shared: 5.3106
@@ -109666,6 +111193,9 @@ r6g.metal:
       eu-west-3:
         Dedicated: 3.901
         Shared: 3.901
+      Middle East (UAE):
+        Dedicated: 4.0956
+        Shared: 4.0956
       sa-east-1:
         Dedicated: 5.2706
         Shared: 5.2706
@@ -109706,6 +111236,7 @@ r6g.metal:
     - eu-north-1
     - sa-east-1
     - ap-northeast-2
+    - Middle East (UAE)
     - us-gov-east-1
     - us-west-2
     - ap-southeast-3
@@ -109764,6 +111295,9 @@ r6g.xlarge:
       eu-west-3:
         Dedicated: 0.2502
         Shared: 0.236
+      Middle East (UAE):
+        Dedicated: 0.263
+        Shared: 0.2482
       sa-east-1:
         Dedicated: 0.3409
         Shared: 0.3216
@@ -109828,6 +111362,9 @@ r6g.xlarge:
       eu-west-3:
         Dedicated: 0.3102
         Shared: 0.296
+      Middle East (UAE):
+        Dedicated: 0.323
+        Shared: 0.3082
       sa-east-1:
         Dedicated: 0.4009
         Shared: 0.3816
@@ -109892,6 +111429,9 @@ r6g.xlarge:
       eu-west-3:
         Dedicated: 0.3452
         Shared: 0.331
+      Middle East (UAE):
+        Dedicated: 0.358
+        Shared: 0.3432
       sa-east-1:
         Dedicated: 0.4359
         Shared: 0.4166
@@ -109956,6 +111496,9 @@ r6g.xlarge:
       eu-west-3:
         Dedicated: 0.3065
         Shared: 0.2923
+      Middle East (UAE):
+        Dedicated: 0.3193
+        Shared: 0.3045
       sa-east-1:
         Dedicated: 0.3972
         Shared: 0.3779
@@ -109992,6 +111535,7 @@ r6g.xlarge:
     - us-gov-east-1
     - eu-central-1
     - eu-west-3
+    - Middle East (UAE)
     - us-west-2
     - us-east-2
     - ap-southeast-2
@@ -117394,6 +118938,8 @@ t3.2xlarge:
         Shared: 0.3776
       me-south-1:
         Shared: 0.4013
+      Middle East (UAE):
+        Shared: 0.4013
       sa-east-1:
         Dedicated: 0.567
         Shared: 0.5376
@@ -117462,6 +119008,8 @@ t3.2xlarge:
         Shared: 0.5076
       me-south-1:
         Shared: 0.5313
+      Middle East (UAE):
+        Shared: 0.5313
       sa-east-1:
         Dedicated: 0.697
         Shared: 0.6676
@@ -117518,6 +119066,8 @@ t3.2xlarge:
       eu-west-3:
         Shared: 0.5426
       me-south-1:
+        Shared: 0.5663
+      Middle East (UAE):
         Shared: 0.5663
       sa-east-1:
         Shared: 0.7026
@@ -117580,6 +119130,8 @@ t3.2xlarge:
       eu-west-3:
         Shared: 0.5026
       me-south-1:
+        Shared: 0.5263
+      Middle East (UAE):
         Shared: 0.5263
       sa-east-1:
         Dedicated: 0.717
@@ -117649,6 +119201,8 @@ t3.2xlarge:
         Shared: 0.5248
       me-south-1:
         Shared: 0.5485
+      Middle East (UAE):
+        Shared: 0.4013
       sa-east-1:
         Dedicated: 0.7142
         Shared: 0.5376
@@ -117680,6 +119234,7 @@ t3.2xlarge:
     - us-east-2
     - af-south-1
     - Asia Pacific (Osaka)
+    - Middle East (UAE)
     - us-gov-east-1
     - eu-south-1
     - us-west-2-lax-1a
@@ -117756,6 +119311,8 @@ t3.large:
         Shared: 0.0944
       me-south-1:
         Shared: 0.1003
+      Middle East (UAE):
+        Shared: 0.1003
       sa-east-1:
         Dedicated: 0.1418
         Shared: 0.1344
@@ -117824,6 +119381,8 @@ t3.large:
         Shared: 0.1544
       me-south-1:
         Shared: 0.1603
+      Middle East (UAE):
+        Shared: 0.1603
       sa-east-1:
         Dedicated: 0.2018
         Shared: 0.1944
@@ -117880,6 +119439,8 @@ t3.large:
       eu-west-3:
         Shared: 0.1894
       me-south-1:
+        Shared: 0.1953
+      Middle East (UAE):
         Shared: 0.1953
       sa-east-1:
         Shared: 0.2294
@@ -117942,6 +119503,8 @@ t3.large:
       eu-west-3:
         Shared: 0.1507
       me-south-1:
+        Shared: 0.1566
+      Middle East (UAE):
         Shared: 0.1566
       sa-east-1:
         Dedicated: 0.2048
@@ -118011,6 +119574,8 @@ t3.large:
         Shared: 0.122
       me-south-1:
         Shared: 0.1279
+      Middle East (UAE):
+        Shared: 0.1279
       sa-east-1:
         Dedicated: 0.1694
         Shared: 0.1344
@@ -118048,6 +119613,7 @@ t3.large:
     - Asia Pacific (Osaka)
     - me-south-1
     - sa-east-1
+    - Middle East (UAE)
     - ap-east-1
     - eu-north-1
     - ap-northeast-2
@@ -118135,6 +119701,8 @@ t3.medium:
       Europe (Vodafone) - Munich:
         Shared: 0.06
       me-south-1:
+        Shared: 0.0502
+      Middle East (UAE):
         Shared: 0.0502
       sa-east-1:
         Dedicated: 0.0709
@@ -118290,6 +119858,8 @@ t3.medium:
         Shared: 0.12
       me-south-1:
         Shared: 0.1102
+      Middle East (UAE):
+        Shared: 0.1102
       sa-east-1:
         Dedicated: 0.1309
         Shared: 0.1272
@@ -118432,6 +120002,8 @@ t3.medium:
       Europe (Vodafone) - Munich:
         Shared: 0.155
       me-south-1:
+        Shared: 0.1452
+      Middle East (UAE):
         Shared: 0.1452
       sa-east-1:
         Shared: 0.1622
@@ -118580,6 +120152,8 @@ t3.medium:
       Europe (Vodafone) - Munich:
         Shared: 0.1163
       me-south-1:
+        Shared: 0.1065
+      Middle East (UAE):
         Shared: 0.1065
       sa-east-1:
         Dedicated: 0.1339
@@ -118735,6 +120309,8 @@ t3.medium:
         Shared: 0.0784
       me-south-1:
         Shared: 0.0686
+      Middle East (UAE):
+        Shared: 0.0686
       sa-east-1:
         Dedicated: 0.0893
         Shared: 0.0856
@@ -118881,6 +120457,7 @@ t3.medium:
     - ap-northeast-1
     - Canada (BELL) - Toronto
     - us-east-2
+    - Middle East (UAE)
     - US East (Verizon) - Nashville
     - eu-south-1
     - US East (Dallas)
@@ -118953,6 +120530,8 @@ t3.micro:
         Shared: 0.0118
       me-south-1:
         Shared: 0.0125
+      Middle East (UAE):
+        Shared: 0.0125
       sa-east-1:
         Dedicated: 0.0177
         Shared: 0.0168
@@ -119021,6 +120600,8 @@ t3.micro:
         Shared: 0.0718
       me-south-1:
         Shared: 0.0725
+      Middle East (UAE):
+        Shared: 0.0725
       sa-east-1:
         Dedicated: 0.0777
         Shared: 0.0768
@@ -119077,6 +120658,8 @@ t3.micro:
       eu-west-3:
         Shared: 0.1068
       me-south-1:
+        Shared: 0.1075
+      Middle East (UAE):
         Shared: 0.1075
       sa-east-1:
         Shared: 0.1118
@@ -119139,6 +120722,8 @@ t3.micro:
       eu-west-3:
         Shared: 0.0118
       me-south-1:
+        Shared: 0.0125
+      Middle East (UAE):
         Shared: 0.0125
       sa-east-1:
         Dedicated: 0.0177
@@ -119208,6 +120793,8 @@ t3.micro:
         Shared: 0.021
       me-south-1:
         Shared: 0.0217
+      Middle East (UAE):
+        Shared: 0.0217
       sa-east-1:
         Dedicated: 0.0269
         Shared: 0.0168
@@ -119245,6 +120832,7 @@ t3.micro:
     - ap-east-1
     - eu-west-2
     - Asia Pacific (Osaka)
+    - Middle East (UAE)
     - ap-southeast-2
     - ca-central-1
     - ap-northeast-2
@@ -119315,6 +120903,8 @@ t3.nano:
         Shared: 0.0059
       me-south-1:
         Shared: 0.0063
+      Middle East (UAE):
+        Shared: 0.0063
       sa-east-1:
         Dedicated: 0.0084
         Shared: 0.0084
@@ -119382,6 +120972,8 @@ t3.nano:
       eu-west-3:
         Shared: 0.0059
       me-south-1:
+        Shared: 0.0063
+      Middle East (UAE):
         Shared: 0.0063
       sa-east-1:
         Dedicated: 0.0084
@@ -119451,6 +121043,8 @@ t3.nano:
         Shared: 0.0105
       me-south-1:
         Shared: 0.0109
+      Middle East (UAE):
+        Shared: 0.0063
       sa-east-1:
         Dedicated: 0.013
         Shared: 0.013
@@ -119481,6 +121075,7 @@ t3.nano:
     - sa-east-1
     - ap-southeast-1
     - af-south-1
+    - Middle East (UAE)
     - ap-east-1
     - us-east-2
     - eu-west-2
@@ -119558,6 +121153,8 @@ t3.small:
         Shared: 0.0236
       me-south-1:
         Shared: 0.0251
+      Middle East (UAE):
+        Shared: 0.0251
       sa-east-1:
         Dedicated: 0.0354
         Shared: 0.0336
@@ -119626,6 +121223,8 @@ t3.small:
         Shared: 0.0836
       me-south-1:
         Shared: 0.0851
+      Middle East (UAE):
+        Shared: 0.0851
       sa-east-1:
         Dedicated: 0.0954
         Shared: 0.0936
@@ -119682,6 +121281,8 @@ t3.small:
       eu-west-3:
         Shared: 0.1186
       me-south-1:
+        Shared: 0.1201
+      Middle East (UAE):
         Shared: 0.1201
       sa-east-1:
         Shared: 0.1286
@@ -119745,6 +121346,8 @@ t3.small:
         Shared: 0.0546
       me-south-1:
         Shared: 0.0561
+      Middle East (UAE):
+        Shared: 0.0564
       sa-east-1:
         Dedicated: 0.0664
         Shared: 0.0646
@@ -119813,6 +121416,8 @@ t3.small:
         Shared: 0.042
       me-south-1:
         Shared: 0.0435
+      Middle East (UAE):
+        Shared: 0.0251
       sa-east-1:
         Dedicated: 0.0538
         Shared: 0.0336
@@ -119837,6 +121442,7 @@ t3.small:
         Shared: 0.0434
   regions:
     - ap-northeast-2
+    - Middle East (UAE)
     - eu-west-3
     - us-west-2
     - ap-south-1
@@ -119937,6 +121543,8 @@ t3.xlarge:
       Europe (Vodafone) - Munich:
         Shared: 0.24
       me-south-1:
+        Shared: 0.2006
+      Middle East (UAE):
         Shared: 0.2006
       sa-east-1:
         Dedicated: 0.2835
@@ -120092,6 +121700,8 @@ t3.xlarge:
         Shared: 0.3
       me-south-1:
         Shared: 0.2606
+      Middle East (UAE):
+        Shared: 0.2606
       sa-east-1:
         Dedicated: 0.3435
         Shared: 0.3288
@@ -120234,6 +121844,8 @@ t3.xlarge:
       Europe (Vodafone) - Munich:
         Shared: 0.335
       me-south-1:
+        Shared: 0.2956
+      Middle East (UAE):
         Shared: 0.2956
       sa-east-1:
         Shared: 0.3638
@@ -120382,6 +121994,8 @@ t3.xlarge:
       Europe (Vodafone) - Munich:
         Shared: 0.2963
       me-south-1:
+        Shared: 0.2569
+      Middle East (UAE):
         Shared: 0.2569
       sa-east-1:
         Dedicated: 0.4085
@@ -120537,6 +122151,8 @@ t3.xlarge:
         Shared: 0.3136
       me-south-1:
         Shared: 0.2742
+      Middle East (UAE):
+        Shared: 0.2742
       sa-east-1:
         Dedicated: 0.3571
         Shared: 0.3424
@@ -120643,6 +122259,7 @@ t3.xlarge:
     - ap-east-1
     - US West (Seattle)
     - US East (Verizon) - Boston
+    - Middle East (UAE)
     - eu-west-2
     - us-west-2
     - eu-north-1
@@ -122180,6 +123797,8 @@ t4g.2xlarge:
         Shared: 0.3008
       eu-west-3:
         Shared: 0.3008
+      Middle East (UAE):
+        Shared: 0.3264
       sa-east-1:
         Shared: 0.4288
       us-east-1:
@@ -122221,6 +123840,8 @@ t4g.2xlarge:
         Shared: 0.4308
       eu-west-3:
         Shared: 0.4308
+      Middle East (UAE):
+        Shared: 0.4564
       sa-east-1:
         Shared: 0.5588
       us-east-1:
@@ -122262,6 +123883,8 @@ t4g.2xlarge:
         Shared: 0.4658
       eu-west-3:
         Shared: 0.4658
+      Middle East (UAE):
+        Shared: 0.4914
       sa-east-1:
         Shared: 0.5938
       us-east-1:
@@ -122303,6 +123926,8 @@ t4g.2xlarge:
         Shared: 0.4258
       eu-west-3:
         Shared: 0.4258
+      Middle East (UAE):
+        Shared: 0.4514
       sa-east-1:
         Shared: 0.5538
       us-east-1:
@@ -122331,6 +123956,7 @@ t4g.2xlarge:
     - eu-central-1
     - ap-southeast-1
     - ap-east-1
+    - Middle East (UAE)
     - us-west-2
     - us-west-1
     - eu-south-1
@@ -122377,6 +124003,8 @@ t4g.large:
         Shared: 0.0752
       eu-west-3:
         Shared: 0.0752
+      Middle East (UAE):
+        Shared: 0.0816
       sa-east-1:
         Shared: 0.1072
       us-east-1:
@@ -122418,6 +124046,8 @@ t4g.large:
         Shared: 0.1352
       eu-west-3:
         Shared: 0.1352
+      Middle East (UAE):
+        Shared: 0.1416
       sa-east-1:
         Shared: 0.1672
       us-east-1:
@@ -122459,6 +124089,8 @@ t4g.large:
         Shared: 0.1702
       eu-west-3:
         Shared: 0.1702
+      Middle East (UAE):
+        Shared: 0.1766
       sa-east-1:
         Shared: 0.2022
       us-east-1:
@@ -122500,6 +124132,8 @@ t4g.large:
         Shared: 0.1315
       eu-west-3:
         Shared: 0.1315
+      Middle East (UAE):
+        Shared: 0.1379
       sa-east-1:
         Shared: 0.1635
       us-east-1:
@@ -122522,6 +124156,7 @@ t4g.large:
     - eu-south-1
     - ca-central-1
     - ap-northeast-2
+    - Middle East (UAE)
     - ap-northeast-1
     - eu-west-1
     - us-gov-west-1
@@ -122574,6 +124209,8 @@ t4g.medium:
         Shared: 0.0376
       eu-west-3:
         Shared: 0.0376
+      Middle East (UAE):
+        Shared: 0.0408
       sa-east-1:
         Shared: 0.0536
       us-east-1:
@@ -122615,6 +124252,8 @@ t4g.medium:
         Shared: 0.0976
       eu-west-3:
         Shared: 0.0976
+      Middle East (UAE):
+        Shared: 0.1008
       sa-east-1:
         Shared: 0.1136
       us-east-1:
@@ -122656,6 +124295,8 @@ t4g.medium:
         Shared: 0.1326
       eu-west-3:
         Shared: 0.1326
+      Middle East (UAE):
+        Shared: 0.1358
       sa-east-1:
         Shared: 0.1486
       us-east-1:
@@ -122697,6 +124338,8 @@ t4g.medium:
         Shared: 0.0939
       eu-west-3:
         Shared: 0.0939
+      Middle East (UAE):
+        Shared: 0.0971
       sa-east-1:
         Shared: 0.1099
       us-east-1:
@@ -122729,6 +124372,7 @@ t4g.medium:
     - ap-northeast-1
     - us-gov-west-1
     - eu-south-1
+    - Middle East (UAE)
     - us-east-1
     - ca-central-1
     - ap-south-1
@@ -122771,6 +124415,8 @@ t4g.micro:
         Shared: 0.0094
       eu-west-3:
         Shared: 0.0094
+      Middle East (UAE):
+        Shared: 0.0102
       sa-east-1:
         Shared: 0.0134
       us-east-1:
@@ -122812,6 +124458,8 @@ t4g.micro:
         Shared: 0.0694
       eu-west-3:
         Shared: 0.0694
+      Middle East (UAE):
+        Shared: 0.0702
       sa-east-1:
         Shared: 0.0734
       us-east-1:
@@ -122853,6 +124501,8 @@ t4g.micro:
         Shared: 0.1044
       eu-west-3:
         Shared: 0.1044
+      Middle East (UAE):
+        Shared: 0.1052
       sa-east-1:
         Shared: 0.1084
       us-east-1:
@@ -122894,6 +124544,8 @@ t4g.micro:
         Shared: 0.0094
       eu-west-3:
         Shared: 0.0094
+      Middle East (UAE):
+        Shared: 0.0102
       sa-east-1:
         Shared: 0.0134
       us-east-1:
@@ -122914,6 +124566,7 @@ t4g.micro:
     - eu-north-1
     - ap-east-1
     - eu-central-1
+    - Middle East (UAE)
     - us-east-1
     - eu-south-1
     - us-west-2
@@ -122968,6 +124621,8 @@ t4g.nano:
         Shared: 0.0047
       eu-west-3:
         Shared: 0.0047
+      Middle East (UAE):
+        Shared: 0.0051
       sa-east-1:
         Shared: 0.0067
       us-east-1:
@@ -123009,6 +124664,8 @@ t4g.nano:
         Shared: 0.0047
       eu-west-3:
         Shared: 0.0047
+      Middle East (UAE):
+        Shared: 0.0051
       sa-east-1:
         Shared: 0.0067
       us-east-1:
@@ -123027,6 +124684,7 @@ t4g.nano:
     - ap-northeast-2
     - eu-north-1
     - us-west-1
+    - Middle East (UAE)
     - ap-northeast-1
     - us-west-2
     - ap-southeast-1
@@ -123083,6 +124741,8 @@ t4g.small:
         Shared: 0.0188
       eu-west-3:
         Shared: 0.0188
+      Middle East (UAE):
+        Shared: 0.0204
       sa-east-1:
         Shared: 0.0268
       us-east-1:
@@ -123124,6 +124784,8 @@ t4g.small:
         Shared: 0.0788
       eu-west-3:
         Shared: 0.0788
+      Middle East (UAE):
+        Shared: 0.0804
       sa-east-1:
         Shared: 0.0868
       us-east-1:
@@ -123165,6 +124827,8 @@ t4g.small:
         Shared: 0.1138
       eu-west-3:
         Shared: 0.1138
+      Middle East (UAE):
+        Shared: 0.1154
       sa-east-1:
         Shared: 0.1218
       us-east-1:
@@ -123206,6 +124870,8 @@ t4g.small:
         Shared: 0.0501
       eu-west-3:
         Shared: 0.0501
+      Middle East (UAE):
+        Shared: 0.0517
       sa-east-1:
         Shared: 0.0581
       us-east-1:
@@ -123225,6 +124891,7 @@ t4g.small:
     - us-gov-east-1
     - ca-central-1
     - us-west-1
+    - Middle East (UAE)
     - ap-southeast-1
     - ap-southeast-2
     - eu-north-1
@@ -123280,6 +124947,8 @@ t4g.xlarge:
         Shared: 0.1504
       eu-west-3:
         Shared: 0.1504
+      Middle East (UAE):
+        Shared: 0.1632
       sa-east-1:
         Shared: 0.2144
       us-east-1:
@@ -123321,6 +124990,8 @@ t4g.xlarge:
         Shared: 0.2104
       eu-west-3:
         Shared: 0.2104
+      Middle East (UAE):
+        Shared: 0.2232
       sa-east-1:
         Shared: 0.2744
       us-east-1:
@@ -123362,6 +125033,8 @@ t4g.xlarge:
         Shared: 0.2454
       eu-west-3:
         Shared: 0.2454
+      Middle East (UAE):
+        Shared: 0.2582
       sa-east-1:
         Shared: 0.3094
       us-east-1:
@@ -123403,6 +125076,8 @@ t4g.xlarge:
         Shared: 0.2067
       eu-west-3:
         Shared: 0.2067
+      Middle East (UAE):
+        Shared: 0.2195
       sa-east-1:
         Shared: 0.2707
       us-east-1:
@@ -123418,6 +125093,7 @@ t4g.xlarge:
       us-west-2:
         Shared: 0.1907
   regions:
+    - Middle East (UAE)
     - ap-southeast-2
     - us-gov-west-1
     - ap-southeast-1
