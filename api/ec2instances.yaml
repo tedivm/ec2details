@@ -34415,32 +34415,128 @@ g2.2xlarge:
   physicalProcessor: Intel Xeon E5-2670 (Sandy Bridge)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.988
+        Shared: 0.898
       ap-northeast-2:
         Dedicated: 0.9878
         Shared: 0.898
+      ap-southeast-1:
+        Dedicated: 1.1
+        Shared: 1
+      ap-southeast-2:
+        Dedicated: 0.988
+        Shared: 0.898
+      eu-central-1:
+        Dedicated: 0.849
+        Shared: 0.772
+      eu-west-1:
+        Dedicated: 0.772
+        Shared: 0.702
+      us-east-1:
+        Dedicated: 0.715
+        Shared: 0.65
+      us-west-1:
+        Dedicated: 0.772
+        Shared: 0.702
+      us-west-2:
+        Dedicated: 0.715
+        Shared: 0.65
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.118
+        Shared: 1.028
       ap-northeast-2:
         Dedicated: 1.1178
         Shared: 1.028
+      ap-southeast-1:
+        Dedicated: 1.23
+        Shared: 1.13
+      ap-southeast-2:
+        Dedicated: 1.118
+        Shared: 1.028
+      eu-central-1:
+        Dedicated: 0.992
+        Shared: 0.902
+      eu-west-1:
+        Dedicated: 0.902
+        Shared: 0.832
+      us-east-1:
+        Dedicated: 0.845
+        Shared: 0.78
+      us-west-1:
+        Dedicated: 0.902
+        Shared: 0.832
+      us-west-2:
+        Dedicated: 0.845
+        Shared: 0.78
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.088
+        Shared: 0.998
       ap-northeast-2:
         Dedicated: 1.0878
         Shared: 0.998
+      ap-southeast-1:
+        Dedicated: 1.2
+        Shared: 1.1
+      ap-southeast-2:
+        Dedicated: 1.088
+        Shared: 0.998
+      eu-central-1:
+        Dedicated: 0.959
+        Shared: 0.872
+      eu-west-1:
+        Dedicated: 0.872
+        Shared: 0.802
+      us-east-1:
+        Dedicated: 0.815
+        Shared: 0.75
+      us-west-1:
+        Dedicated: 0.872
+        Shared: 0.802
+      us-west-2:
+        Dedicated: 0.815
+        Shared: 0.75
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.111
+        Shared: 0.898
       ap-northeast-2:
         Dedicated: 1.3558
         Shared: 0.898
+      ap-southeast-1:
+        Dedicated: 1.276
+        Shared: 1
+      ap-southeast-2:
+        Dedicated: 1.164
+        Shared: 1.058
+      eu-central-1:
+        Dedicated: 0.997
+        Shared: 0.906
+      eu-west-1:
+        Dedicated: 0.772
+        Shared: 0.767
+      us-east-1:
+        Dedicated: 0.715
+        Shared: 0.65
+      us-west-1:
+        Dedicated: 0.772
+        Shared: 0.819
+      us-west-2:
+        Dedicated: 0.715
+        Shared: 0.767
   regions:
-    - ap-northeast-2
-    - us-east-1
-    - ap-northeast-1
-    - sa-east-1
-    - us-west-1
-    - eu-west-1
-    - us-west-2
-    - eu-central-1
     - ap-southeast-1
+    - us-east-1
+    - eu-central-1
+    - us-west-1
+    - ap-northeast-2
+    - us-west-2
     - ap-southeast-2
+    - ap-northeast-1
+    - eu-west-1
+    - sa-east-1
   storage: 1 x 60 SSD
   vcpu: 8
 g2.8xlarge:
@@ -34455,24 +34551,128 @@ g2.8xlarge:
   physicalProcessor: Intel Xeon E5-2670 (Sandy Bridge)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 3.592
+        Shared: 3.592
       ap-northeast-2:
         Dedicated: 3.592
         Shared: 3.592
+      ap-southeast-1:
+        Dedicated: 4
+        Shared: 4
+      ap-southeast-2:
+        Dedicated: 3.592
+        Shared: 3.592
+      eu-central-1:
+        Dedicated: 3.088
+        Shared: 3.088
+      eu-west-1:
+        Dedicated: 2.808
+        Shared: 2.808
+      us-east-1:
+        Dedicated: 2.6
+        Shared: 2.6
+      us-west-1:
+        Dedicated: 2.808
+        Shared: 2.808
+      us-west-2:
+        Dedicated: 2.6
+        Shared: 2.6
     RHEL:
+      ap-northeast-1:
+        Dedicated: 3.722
+        Shared: 3.722
       ap-northeast-2:
         Dedicated: 3.722
         Shared: 3.722
+      ap-southeast-1:
+        Dedicated: 4.13
+        Shared: 4.13
+      ap-southeast-2:
+        Dedicated: 3.722
+        Shared: 3.722
+      eu-central-1:
+        Dedicated: 3.218
+        Shared: 3.218
+      eu-west-1:
+        Dedicated: 2.938
+        Shared: 2.938
+      us-east-1:
+        Dedicated: 2.73
+        Shared: 2.73
+      us-west-1:
+        Dedicated: 2.938
+        Shared: 2.938
+      us-west-2:
+        Dedicated: 2.73
+        Shared: 2.73
     SUSE:
+      ap-northeast-1:
+        Dedicated: 3.692
+        Shared: 3.692
       ap-northeast-2:
         Dedicated: 3.692
         Shared: 3.692
+      ap-southeast-1:
+        Dedicated: 4.1
+        Shared: 4.1
+      ap-southeast-2:
+        Dedicated: 3.692
+        Shared: 3.692
+      eu-central-1:
+        Dedicated: 3.188
+        Shared: 3.188
+      eu-west-1:
+        Dedicated: 2.908
+        Shared: 2.908
+      us-east-1:
+        Dedicated: 2.7
+        Shared: 2.7
+      us-west-1:
+        Dedicated: 2.908
+        Shared: 2.908
+      us-west-2:
+        Dedicated: 2.7
+        Shared: 2.7
     Windows:
+      ap-northeast-1:
+        Dedicated: 3.87
+        Shared: 3.592
       ap-northeast-2:
         Dedicated: 3.592
         Shared: 5.064
+      ap-southeast-1:
+        Dedicated: 4
+        Shared: 4
+      ap-southeast-2:
+        Dedicated: 3.87
+        Shared: 3.87
+      eu-central-1:
+        Dedicated: 3.366
+        Shared: 3.366
+      eu-west-1:
+        Dedicated: 2.808
+        Shared: 3.086
+      us-east-1:
+        Dedicated: 2.878
+        Shared: 2.6
+      us-west-1:
+        Dedicated: 2.808
+        Shared: 3.086
+      us-west-2:
+        Dedicated: 2.6
+        Shared: 2.6
   regions:
+    - ap-northeast-1
+    - us-west-1
+    - eu-central-1
+    - ap-southeast-2
+    - ap-southeast-1
+    - eu-west-1
     - ap-northeast-2
+    - us-west-2
     - sa-east-1
+    - us-east-1
   storage: 2 x 120 SSD
   vcpu: 32
 g3.16xlarge:
