@@ -29852,6 +29852,9 @@ c6id.12xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 3.38184
+        Shared: 3.0744
       eu-west-1:
         Dedicated: 3.02148
         Shared: 2.7468
@@ -29865,6 +29868,9 @@ c6id.12xlarge:
         Dedicated: 2.66112
         Shared: 2.4192
     RHEL:
+      ap-northeast-1:
+        Dedicated: 3.51184
+        Shared: 3.2044
       eu-west-1:
         Dedicated: 3.15148
         Shared: 2.8768
@@ -29878,6 +29884,9 @@ c6id.12xlarge:
         Dedicated: 2.79112
         Shared: 2.5492
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 3.54684
+        Shared: 3.2394
       eu-west-1:
         Dedicated: 3.18648
         Shared: 2.9118
@@ -29891,6 +29900,9 @@ c6id.12xlarge:
         Dedicated: 2.82612
         Shared: 2.5842
     SUSE:
+      ap-northeast-1:
+        Dedicated: 3.50684
+        Shared: 3.1994
       eu-west-1:
         Dedicated: 3.14648
         Shared: 2.8718
@@ -29904,6 +29916,9 @@ c6id.12xlarge:
         Dedicated: 2.78612
         Shared: 2.5442
     Windows:
+      ap-northeast-1:
+        Dedicated: 5.58984
+        Shared: 5.2824
       eu-west-1:
         Dedicated: 3.02148
         Shared: 4.9548
@@ -29921,6 +29936,7 @@ c6id.12xlarge:
     - us-east-2
     - us-east-1
     - eu-west-1
+    - ap-northeast-1
   storage: 2 x 1425 SSD
   vcpu: 48
 c6id.16xlarge:
@@ -29934,6 +29950,9 @@ c6id.16xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 4.50912
+        Shared: 4.0992
       eu-west-1:
         Dedicated: 4.02864
         Shared: 3.6624
@@ -29947,6 +29966,9 @@ c6id.16xlarge:
         Dedicated: 3.54816
         Shared: 3.2256
     RHEL:
+      ap-northeast-1:
+        Dedicated: 4.63912
+        Shared: 4.2292
       eu-west-1:
         Dedicated: 4.15864
         Shared: 3.7924
@@ -29960,6 +29982,9 @@ c6id.16xlarge:
         Dedicated: 3.67816
         Shared: 3.3556
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 4.67412
+        Shared: 4.2642
       eu-west-1:
         Dedicated: 4.19364
         Shared: 3.8274
@@ -29973,6 +29998,9 @@ c6id.16xlarge:
         Dedicated: 3.71316
         Shared: 3.3906
     SUSE:
+      ap-northeast-1:
+        Dedicated: 4.63412
+        Shared: 4.2242
       eu-west-1:
         Dedicated: 4.15364
         Shared: 3.7874
@@ -29986,6 +30014,9 @@ c6id.16xlarge:
         Dedicated: 3.67316
         Shared: 3.3506
     Windows:
+      ap-northeast-1:
+        Dedicated: 4.50912
+        Shared: 4.0992
       eu-west-1:
         Dedicated: 4.02864
         Shared: 3.6624
@@ -29999,6 +30030,7 @@ c6id.16xlarge:
         Dedicated: 6.49216
         Shared: 6.1696
   regions:
+    - ap-northeast-1
     - us-east-1
     - eu-west-1
     - us-west-2
@@ -30016,6 +30048,9 @@ c6id.24xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 6.76368
+        Shared: 6.1488
       eu-west-1:
         Dedicated: 6.04296
         Shared: 5.4936
@@ -30029,6 +30064,9 @@ c6id.24xlarge:
         Dedicated: 5.32224
         Shared: 4.8384
     RHEL:
+      ap-northeast-1:
+        Dedicated: 6.89368
+        Shared: 6.2788
       eu-west-1:
         Dedicated: 6.17296
         Shared: 5.6236
@@ -30042,6 +30080,9 @@ c6id.24xlarge:
         Dedicated: 5.45224
         Shared: 4.9684
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 6.92868
+        Shared: 6.3138
       eu-west-1:
         Dedicated: 6.20796
         Shared: 5.6586
@@ -30055,6 +30096,9 @@ c6id.24xlarge:
         Dedicated: 5.48724
         Shared: 5.0034
     SUSE:
+      ap-northeast-1:
+        Dedicated: 6.88868
+        Shared: 6.2738
       eu-west-1:
         Dedicated: 6.16796
         Shared: 5.6186
@@ -30068,6 +30112,9 @@ c6id.24xlarge:
         Dedicated: 5.44724
         Shared: 4.9634
     Windows:
+      ap-northeast-1:
+        Dedicated: 11.17968
+        Shared: 6.1488
       eu-west-1:
         Dedicated: 6.04296
         Shared: 9.9096
@@ -30083,6 +30130,7 @@ c6id.24xlarge:
   regions:
     - us-west-2
     - us-east-1
+    - ap-northeast-1
     - us-east-2
     - eu-west-1
   storage: 4 x 1425 SSD
@@ -30098,6 +30146,9 @@ c6id.2xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.56364
+        Shared: 0.5124
       eu-west-1:
         Dedicated: 0.50358
         Shared: 0.4578
@@ -30111,6 +30162,9 @@ c6id.2xlarge:
         Dedicated: 0.44352
         Shared: 0.4032
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.69364
+        Shared: 0.6424
       eu-west-1:
         Dedicated: 0.63358
         Shared: 0.5878
@@ -30124,6 +30178,9 @@ c6id.2xlarge:
         Dedicated: 0.57352
         Shared: 0.5332
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.72864
+        Shared: 0.6774
       eu-west-1:
         Dedicated: 0.66858
         Shared: 0.6228
@@ -30137,6 +30194,9 @@ c6id.2xlarge:
         Dedicated: 0.60852
         Shared: 0.5682
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.68864
+        Shared: 0.6374
       eu-west-1:
         Dedicated: 0.62858
         Shared: 0.5828
@@ -30150,6 +30210,9 @@ c6id.2xlarge:
         Dedicated: 0.56852
         Shared: 0.5282
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.93164
+        Shared: 0.5124
       eu-west-1:
         Dedicated: 0.50358
         Shared: 0.8258
@@ -30163,6 +30226,7 @@ c6id.2xlarge:
         Dedicated: 0.81152
         Shared: 0.7712
   regions:
+    - ap-northeast-1
     - us-west-2
     - eu-west-1
     - us-east-1
@@ -30180,6 +30244,9 @@ c6id.32xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 8.1984
+        Shared: 8.1984
       eu-west-1:
         Dedicated: 7.3248
         Shared: 7.3248
@@ -30193,6 +30260,9 @@ c6id.32xlarge:
         Dedicated: 6.4512
         Shared: 6.4512
     RHEL:
+      ap-northeast-1:
+        Dedicated: 8.3284
+        Shared: 8.3284
       eu-west-1:
         Dedicated: 7.4548
         Shared: 7.4548
@@ -30206,6 +30276,9 @@ c6id.32xlarge:
         Dedicated: 6.5812
         Shared: 6.5812
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 8.3634
+        Shared: 8.3634
       eu-west-1:
         Dedicated: 7.4898
         Shared: 7.4898
@@ -30219,6 +30292,9 @@ c6id.32xlarge:
         Dedicated: 6.6162
         Shared: 6.6162
     SUSE:
+      ap-northeast-1:
+        Dedicated: 8.3234
+        Shared: 8.3234
       eu-west-1:
         Dedicated: 7.4498
         Shared: 7.4498
@@ -30232,6 +30308,9 @@ c6id.32xlarge:
         Dedicated: 6.5762
         Shared: 6.5762
     Windows:
+      ap-northeast-1:
+        Dedicated: 8.1984
+        Shared: 14.0864
       eu-west-1:
         Dedicated: 7.3248
         Shared: 13.2128
@@ -30246,6 +30325,7 @@ c6id.32xlarge:
         Shared: 6.4512
   regions:
     - us-east-1
+    - ap-northeast-1
     - us-west-2
     - eu-west-1
     - us-east-2
@@ -30262,6 +30342,9 @@ c6id.4xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.12728
+        Shared: 1.0248
       eu-west-1:
         Dedicated: 1.00716
         Shared: 0.9156
@@ -30275,6 +30358,9 @@ c6id.4xlarge:
         Dedicated: 0.88704
         Shared: 0.8064
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.25728
+        Shared: 1.1548
       eu-west-1:
         Dedicated: 1.13716
         Shared: 1.0456
@@ -30288,6 +30374,9 @@ c6id.4xlarge:
         Dedicated: 1.01704
         Shared: 0.9364
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 1.29228
+        Shared: 1.1898
       eu-west-1:
         Dedicated: 1.17216
         Shared: 1.0806
@@ -30301,6 +30390,9 @@ c6id.4xlarge:
         Dedicated: 1.05204
         Shared: 0.9714
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.25228
+        Shared: 1.1498
       eu-west-1:
         Dedicated: 1.13216
         Shared: 1.0406
@@ -30314,6 +30406,9 @@ c6id.4xlarge:
         Dedicated: 1.01204
         Shared: 0.9314
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.12728
+        Shared: 1.0248
       eu-west-1:
         Dedicated: 1.00716
         Shared: 0.9156
@@ -30329,6 +30424,7 @@ c6id.4xlarge:
   regions:
     - us-east-2
     - us-west-2
+    - ap-northeast-1
     - eu-west-1
     - us-east-1
   storage: 1 x 950 SSD
@@ -30344,6 +30440,9 @@ c6id.8xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 2.25456
+        Shared: 2.0496
       eu-west-1:
         Dedicated: 2.01432
         Shared: 1.8312
@@ -30357,6 +30456,9 @@ c6id.8xlarge:
         Dedicated: 1.77408
         Shared: 1.6128
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.38456
+        Shared: 2.1796
       eu-west-1:
         Dedicated: 2.14432
         Shared: 1.9612
@@ -30370,6 +30472,9 @@ c6id.8xlarge:
         Dedicated: 1.90408
         Shared: 1.7428
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 2.41956
+        Shared: 2.2146
       eu-west-1:
         Dedicated: 2.17932
         Shared: 1.9962
@@ -30383,6 +30488,9 @@ c6id.8xlarge:
         Dedicated: 1.93908
         Shared: 1.7778
     SUSE:
+      ap-northeast-1:
+        Dedicated: 2.37956
+        Shared: 2.1746
       eu-west-1:
         Dedicated: 2.13932
         Shared: 1.9562
@@ -30396,6 +30504,9 @@ c6id.8xlarge:
         Dedicated: 1.89908
         Shared: 1.7378
     Windows:
+      ap-northeast-1:
+        Dedicated: 3.72656
+        Shared: 3.5216
       eu-west-1:
         Dedicated: 2.01432
         Shared: 3.3032
@@ -30411,6 +30522,7 @@ c6id.8xlarge:
   regions:
     - us-east-1
     - eu-west-1
+    - ap-northeast-1
     - us-east-2
     - us-west-2
   storage: 1 x 1900 SSD
@@ -30426,6 +30538,9 @@ c6id.large:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.14091
+        Shared: 0.1281
       eu-west-1:
         Dedicated: 0.1259
         Shared: 0.11445
@@ -30439,6 +30554,9 @@ c6id.large:
         Dedicated: 0.11088
         Shared: 0.1008
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.20091
+        Shared: 0.1881
       eu-west-1:
         Dedicated: 0.1859
         Shared: 0.17445
@@ -30452,6 +30570,9 @@ c6id.large:
         Dedicated: 0.17088
         Shared: 0.1608
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.23591
+        Shared: 0.2231
       eu-west-1:
         Dedicated: 0.2209
         Shared: 0.20945
@@ -30465,6 +30586,9 @@ c6id.large:
         Dedicated: 0.20588
         Shared: 0.1958
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.19721
+        Shared: 0.1844
       eu-west-1:
         Dedicated: 0.1822
         Shared: 0.17075
@@ -30478,6 +30602,9 @@ c6id.large:
         Dedicated: 0.16718
         Shared: 0.1571
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.23291
+        Shared: 0.2201
       eu-west-1:
         Dedicated: 0.2179
         Shared: 0.20645
@@ -30494,6 +30621,7 @@ c6id.large:
     - us-east-2
     - eu-west-1
     - us-west-2
+    - ap-northeast-1
     - us-east-1
   storage: 1 x 118 SSD
   vcpu: 2
@@ -30508,6 +30636,9 @@ c6id.metal:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 8.1984
+        Shared: 8.1984
       eu-west-1:
         Dedicated: 7.3248
         Shared: 7.3248
@@ -30521,6 +30652,9 @@ c6id.metal:
         Dedicated: 6.4512
         Shared: 6.4512
     RHEL:
+      ap-northeast-1:
+        Dedicated: 8.3284
+        Shared: 8.3284
       eu-west-1:
         Dedicated: 7.4548
         Shared: 7.4548
@@ -30534,6 +30668,9 @@ c6id.metal:
         Dedicated: 6.5812
         Shared: 6.5812
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 8.3634
+        Shared: 8.3634
       eu-west-1:
         Dedicated: 7.4898
         Shared: 7.4898
@@ -30547,6 +30684,9 @@ c6id.metal:
         Dedicated: 6.6162
         Shared: 6.6162
     SUSE:
+      ap-northeast-1:
+        Dedicated: 8.3234
+        Shared: 8.3234
       eu-west-1:
         Dedicated: 7.4498
         Shared: 7.4498
@@ -30560,6 +30700,9 @@ c6id.metal:
         Dedicated: 6.5762
         Shared: 6.5762
     Windows:
+      ap-northeast-1:
+        Dedicated: 8.1984
+        Shared: 8.1984
       eu-west-1:
         Dedicated: 13.2128
         Shared: 13.2128
@@ -30576,6 +30719,7 @@ c6id.metal:
     - us-west-2
     - us-east-1
     - us-east-2
+    - ap-northeast-1
     - eu-west-1
   storage: 4 x 1900 SSD
   vcpu: 128
@@ -30590,6 +30734,9 @@ c6id.xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.28182
+        Shared: 0.2562
       eu-west-1:
         Dedicated: 0.25179
         Shared: 0.2289
@@ -30603,6 +30750,9 @@ c6id.xlarge:
         Dedicated: 0.22176
         Shared: 0.2016
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.34182
+        Shared: 0.3162
       eu-west-1:
         Dedicated: 0.31179
         Shared: 0.2889
@@ -30616,6 +30766,9 @@ c6id.xlarge:
         Dedicated: 0.28176
         Shared: 0.2616
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.37682
+        Shared: 0.3512
       eu-west-1:
         Dedicated: 0.34679
         Shared: 0.3239
@@ -30629,6 +30782,9 @@ c6id.xlarge:
         Dedicated: 0.31676
         Shared: 0.2966
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.33812
+        Shared: 0.3125
       eu-west-1:
         Dedicated: 0.30809
         Shared: 0.2852
@@ -30642,6 +30798,9 @@ c6id.xlarge:
         Dedicated: 0.27806
         Shared: 0.2579
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.28182
+        Shared: 0.2562
       eu-west-1:
         Dedicated: 0.25179
         Shared: 0.2289
@@ -30655,6 +30814,7 @@ c6id.xlarge:
         Dedicated: 0.22176
         Shared: 0.2016
   regions:
+    - ap-northeast-1
     - eu-west-1
     - us-west-2
     - us-east-1
@@ -82292,6 +82452,9 @@ m6id.12xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 4.04712
+        Shared: 3.6792
       eu-west-1:
         Dedicated: 3.49272
         Shared: 3.1752
@@ -82305,6 +82468,9 @@ m6id.12xlarge:
         Dedicated: 3.13236
         Shared: 2.8476
     RHEL:
+      ap-northeast-1:
+        Dedicated: 4.17712
+        Shared: 3.8092
       eu-west-1:
         Dedicated: 3.62272
         Shared: 3.3052
@@ -82318,6 +82484,9 @@ m6id.12xlarge:
         Dedicated: 3.26236
         Shared: 2.9776
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 4.21212
+        Shared: 3.8442
       eu-west-1:
         Dedicated: 3.65772
         Shared: 3.3402
@@ -82331,6 +82500,9 @@ m6id.12xlarge:
         Dedicated: 3.29736
         Shared: 3.0126
     SUSE:
+      ap-northeast-1:
+        Dedicated: 4.17212
+        Shared: 3.8042
       eu-west-1:
         Dedicated: 3.61772
         Shared: 3.3002
@@ -82344,6 +82516,9 @@ m6id.12xlarge:
         Dedicated: 3.25736
         Shared: 2.9726
     Windows:
+      ap-northeast-1:
+        Dedicated: 6.25512
+        Shared: 5.8872
       eu-west-1:
         Dedicated: 5.70072
         Shared: 3.1752
@@ -82359,6 +82534,7 @@ m6id.12xlarge:
   regions:
     - us-east-2
     - eu-west-1
+    - ap-northeast-1
     - us-west-2
     - us-east-1
   storage: 2 x 1425 SSD
@@ -82374,6 +82550,9 @@ m6id.16xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 5.39616
+        Shared: 4.9056
       eu-west-1:
         Dedicated: 4.65696
         Shared: 4.2336
@@ -82387,6 +82566,9 @@ m6id.16xlarge:
         Dedicated: 4.17648
         Shared: 3.7968
     RHEL:
+      ap-northeast-1:
+        Dedicated: 5.52616
+        Shared: 5.0356
       eu-west-1:
         Dedicated: 4.78696
         Shared: 4.3636
@@ -82400,6 +82582,9 @@ m6id.16xlarge:
         Dedicated: 4.30648
         Shared: 3.9268
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 5.56116
+        Shared: 5.0706
       eu-west-1:
         Dedicated: 4.82196
         Shared: 4.3986
@@ -82413,6 +82598,9 @@ m6id.16xlarge:
         Dedicated: 4.34148
         Shared: 3.9618
     SUSE:
+      ap-northeast-1:
+        Dedicated: 5.52116
+        Shared: 5.0306
       eu-west-1:
         Dedicated: 4.78196
         Shared: 4.3586
@@ -82426,6 +82614,9 @@ m6id.16xlarge:
         Dedicated: 4.30148
         Shared: 3.9218
     Windows:
+      ap-northeast-1:
+        Dedicated: 5.39616
+        Shared: 7.8496
       eu-west-1:
         Dedicated: 4.65696
         Shared: 7.1776
@@ -82442,6 +82633,7 @@ m6id.16xlarge:
     - eu-west-1
     - us-west-2
     - us-east-2
+    - ap-northeast-1
     - us-east-1
   storage: 2 x 1900 SSD
   vcpu: 64
@@ -82456,6 +82648,9 @@ m6id.24xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 8.09424
+        Shared: 7.3584
       eu-west-1:
         Dedicated: 6.98544
         Shared: 6.3504
@@ -82469,6 +82664,9 @@ m6id.24xlarge:
         Dedicated: 6.26472
         Shared: 5.6952
     RHEL:
+      ap-northeast-1:
+        Dedicated: 8.22424
+        Shared: 7.4884
       eu-west-1:
         Dedicated: 7.11544
         Shared: 6.4804
@@ -82482,6 +82680,9 @@ m6id.24xlarge:
         Dedicated: 6.39472
         Shared: 5.8252
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 8.25924
+        Shared: 7.5234
       eu-west-1:
         Dedicated: 7.15044
         Shared: 6.5154
@@ -82495,6 +82696,9 @@ m6id.24xlarge:
         Dedicated: 6.42972
         Shared: 5.8602
     SUSE:
+      ap-northeast-1:
+        Dedicated: 8.21924
+        Shared: 7.4834
       eu-west-1:
         Dedicated: 7.11044
         Shared: 6.4754
@@ -82508,6 +82712,9 @@ m6id.24xlarge:
         Dedicated: 6.38972
         Shared: 5.8202
     Windows:
+      ap-northeast-1:
+        Dedicated: 8.09424
+        Shared: 11.7744
       eu-west-1:
         Dedicated: 11.40144
         Shared: 6.3504
@@ -82524,6 +82731,7 @@ m6id.24xlarge:
     - us-east-2
     - us-west-2
     - eu-west-1
+    - ap-northeast-1
     - us-east-1
   storage: 4 x 1425 SSD
   vcpu: 96
@@ -82538,6 +82746,9 @@ m6id.2xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.67452
+        Shared: 0.6132
       eu-west-1:
         Dedicated: 0.58212
         Shared: 0.5292
@@ -82551,6 +82762,9 @@ m6id.2xlarge:
         Dedicated: 0.52206
         Shared: 0.4746
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.80452
+        Shared: 0.7432
       eu-west-1:
         Dedicated: 0.71212
         Shared: 0.6592
@@ -82564,6 +82778,9 @@ m6id.2xlarge:
         Dedicated: 0.65206
         Shared: 0.6046
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.83952
+        Shared: 0.7782
       eu-west-1:
         Dedicated: 0.74712
         Shared: 0.6942
@@ -82577,6 +82794,9 @@ m6id.2xlarge:
         Dedicated: 0.68706
         Shared: 0.6396
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.79952
+        Shared: 0.7382
       eu-west-1:
         Dedicated: 0.70712
         Shared: 0.6542
@@ -82590,6 +82810,9 @@ m6id.2xlarge:
         Dedicated: 0.64706
         Shared: 0.5996
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.67452
+        Shared: 0.6132
       eu-west-1:
         Dedicated: 0.58212
         Shared: 0.5292
@@ -82607,6 +82830,7 @@ m6id.2xlarge:
     - us-east-1
     - eu-west-1
     - us-west-2
+    - ap-northeast-1
   storage: 1 x 474 SSD
   vcpu: 8
 m6id.32xlarge:
@@ -82620,6 +82844,9 @@ m6id.32xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 9.8112
+        Shared: 9.8112
       eu-west-1:
         Dedicated: 8.4672
         Shared: 8.4672
@@ -82633,6 +82860,9 @@ m6id.32xlarge:
         Dedicated: 7.5936
         Shared: 7.5936
     RHEL:
+      ap-northeast-1:
+        Dedicated: 9.9412
+        Shared: 9.9412
       eu-west-1:
         Dedicated: 8.5972
         Shared: 8.5972
@@ -82646,6 +82876,9 @@ m6id.32xlarge:
         Dedicated: 7.7236
         Shared: 7.7236
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 9.9762
+        Shared: 9.9762
       eu-west-1:
         Dedicated: 8.6322
         Shared: 8.6322
@@ -82659,6 +82892,9 @@ m6id.32xlarge:
         Dedicated: 7.7586
         Shared: 7.7586
     SUSE:
+      ap-northeast-1:
+        Dedicated: 9.9362
+        Shared: 9.9362
       eu-west-1:
         Dedicated: 8.5922
         Shared: 8.5922
@@ -82672,6 +82908,9 @@ m6id.32xlarge:
         Dedicated: 7.7186
         Shared: 7.7186
     Windows:
+      ap-northeast-1:
+        Dedicated: 15.6992
+        Shared: 15.6992
       eu-west-1:
         Dedicated: 8.4672
         Shared: 14.3552
@@ -82689,6 +82928,7 @@ m6id.32xlarge:
     - us-west-2
     - eu-west-1
     - us-east-2
+    - ap-northeast-1
   storage: 4 x 1900 SSD
   vcpu: 128
 m6id.4xlarge:
@@ -82702,6 +82942,9 @@ m6id.4xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.34904
+        Shared: 1.2264
       eu-west-1:
         Dedicated: 1.16424
         Shared: 1.0584
@@ -82715,6 +82958,9 @@ m6id.4xlarge:
         Dedicated: 1.04412
         Shared: 0.9492
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.47904
+        Shared: 1.3564
       eu-west-1:
         Dedicated: 1.29424
         Shared: 1.1884
@@ -82728,6 +82974,9 @@ m6id.4xlarge:
         Dedicated: 1.17412
         Shared: 1.0792
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 1.51404
+        Shared: 1.3914
       eu-west-1:
         Dedicated: 1.32924
         Shared: 1.2234
@@ -82741,6 +82990,9 @@ m6id.4xlarge:
         Dedicated: 1.20912
         Shared: 1.1142
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.47404
+        Shared: 1.3514
       eu-west-1:
         Dedicated: 1.28924
         Shared: 1.1834
@@ -82754,6 +83006,9 @@ m6id.4xlarge:
         Dedicated: 1.16912
         Shared: 1.0742
     Windows:
+      ap-northeast-1:
+        Dedicated: 1.34904
+        Shared: 1.9624
       eu-west-1:
         Dedicated: 1.16424
         Shared: 1.0584
@@ -82767,6 +83022,7 @@ m6id.4xlarge:
         Dedicated: 1.78012
         Shared: 0.9492
   regions:
+    - ap-northeast-1
     - us-east-2
     - eu-west-1
     - us-west-2
@@ -82784,6 +83040,9 @@ m6id.8xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 2.69808
+        Shared: 2.4528
       eu-west-1:
         Dedicated: 2.32848
         Shared: 2.1168
@@ -82797,6 +83056,9 @@ m6id.8xlarge:
         Dedicated: 2.08824
         Shared: 1.8984
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.82808
+        Shared: 2.5828
       eu-west-1:
         Dedicated: 2.45848
         Shared: 2.2468
@@ -82810,6 +83072,9 @@ m6id.8xlarge:
         Dedicated: 2.21824
         Shared: 2.0284
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 2.86308
+        Shared: 2.6178
       eu-west-1:
         Dedicated: 2.49348
         Shared: 2.2818
@@ -82823,6 +83088,9 @@ m6id.8xlarge:
         Dedicated: 2.25324
         Shared: 2.0634
     SUSE:
+      ap-northeast-1:
+        Dedicated: 2.82308
+        Shared: 2.5778
       eu-west-1:
         Dedicated: 2.45348
         Shared: 2.2418
@@ -82836,6 +83104,9 @@ m6id.8xlarge:
         Dedicated: 2.21324
         Shared: 2.0234
     Windows:
+      ap-northeast-1:
+        Dedicated: 2.69808
+        Shared: 2.4528
       eu-west-1:
         Dedicated: 2.32848
         Shared: 2.1168
@@ -82853,6 +83124,7 @@ m6id.8xlarge:
     - us-east-2
     - us-west-2
     - us-east-1
+    - ap-northeast-1
   storage: 1 x 1900 SSD
   vcpu: 32
 m6id.large:
@@ -82866,6 +83138,9 @@ m6id.large:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.16863
+        Shared: 0.1533
       eu-west-1:
         Dedicated: 0.14553
         Shared: 0.1323
@@ -82879,6 +83154,9 @@ m6id.large:
         Dedicated: 0.13052
         Shared: 0.11865
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.22863
+        Shared: 0.2133
       eu-west-1:
         Dedicated: 0.20553
         Shared: 0.1923
@@ -82892,6 +83170,9 @@ m6id.large:
         Dedicated: 0.19052
         Shared: 0.17865
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.26363
+        Shared: 0.2483
       eu-west-1:
         Dedicated: 0.24053
         Shared: 0.2273
@@ -82905,6 +83186,9 @@ m6id.large:
         Dedicated: 0.22552
         Shared: 0.21365
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.22493
+        Shared: 0.2096
       eu-west-1:
         Dedicated: 0.20183
         Shared: 0.1886
@@ -82918,6 +83202,9 @@ m6id.large:
         Dedicated: 0.18682
         Shared: 0.17495
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.26063
+        Shared: 0.2453
       eu-west-1:
         Dedicated: 0.23753
         Shared: 0.2243
@@ -82934,6 +83221,7 @@ m6id.large:
     - us-east-2
     - us-west-2
     - eu-west-1
+    - ap-northeast-1
     - us-east-1
   storage: 1 x 118 SSD
   vcpu: 2
@@ -82948,6 +83236,9 @@ m6id.metal:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 9.8112
+        Shared: 9.8112
       eu-west-1:
         Dedicated: 8.4672
         Shared: 8.4672
@@ -82961,6 +83252,9 @@ m6id.metal:
         Dedicated: 7.5936
         Shared: 7.5936
     RHEL:
+      ap-northeast-1:
+        Dedicated: 9.9412
+        Shared: 9.9412
       eu-west-1:
         Dedicated: 8.5972
         Shared: 8.5972
@@ -82974,6 +83268,9 @@ m6id.metal:
         Dedicated: 7.7236
         Shared: 7.7236
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 9.9762
+        Shared: 9.9762
       eu-west-1:
         Dedicated: 8.6322
         Shared: 8.6322
@@ -82987,6 +83284,9 @@ m6id.metal:
         Dedicated: 7.7586
         Shared: 7.7586
     SUSE:
+      ap-northeast-1:
+        Dedicated: 9.9362
+        Shared: 9.9362
       eu-west-1:
         Dedicated: 8.5922
         Shared: 8.5922
@@ -83000,6 +83300,9 @@ m6id.metal:
         Dedicated: 7.7186
         Shared: 7.7186
     Windows:
+      ap-northeast-1:
+        Dedicated: 15.6992
+        Shared: 9.8112
       eu-west-1:
         Dedicated: 8.4672
         Shared: 8.4672
@@ -83013,6 +83316,7 @@ m6id.metal:
         Dedicated: 7.5936
         Shared: 13.4816
   regions:
+    - ap-northeast-1
     - us-east-1
     - eu-west-1
     - us-east-2
@@ -83030,6 +83334,9 @@ m6id.xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.33726
+        Shared: 0.3066
       eu-west-1:
         Dedicated: 0.29106
         Shared: 0.2646
@@ -83043,6 +83350,9 @@ m6id.xlarge:
         Dedicated: 0.26103
         Shared: 0.2373
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.39726
+        Shared: 0.3666
       eu-west-1:
         Dedicated: 0.35106
         Shared: 0.3246
@@ -83056,6 +83366,9 @@ m6id.xlarge:
         Dedicated: 0.32103
         Shared: 0.2973
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.43226
+        Shared: 0.4016
       eu-west-1:
         Dedicated: 0.38606
         Shared: 0.3596
@@ -83069,6 +83382,9 @@ m6id.xlarge:
         Dedicated: 0.35603
         Shared: 0.3323
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.39356
+        Shared: 0.3629
       eu-west-1:
         Dedicated: 0.34736
         Shared: 0.3209
@@ -83082,6 +83398,9 @@ m6id.xlarge:
         Dedicated: 0.31733
         Shared: 0.2936
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.52126
+        Shared: 0.3066
       eu-west-1:
         Dedicated: 0.47506
         Shared: 0.4486
@@ -83095,6 +83414,7 @@ m6id.xlarge:
         Dedicated: 0.44503
         Shared: 0.2373
   regions:
+    - ap-northeast-1
     - eu-west-1
     - us-east-2
     - us-west-2
@@ -116810,6 +117130,9 @@ r6id.12xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 4.82328
+        Shared: 4.3848
       eu-west-1:
         Dedicated: 4.4352
         Shared: 4.032
@@ -116823,6 +117146,9 @@ r6id.12xlarge:
         Dedicated: 3.99168
         Shared: 3.6288
     RHEL:
+      ap-northeast-1:
+        Dedicated: 4.95328
+        Shared: 4.5148
       eu-west-1:
         Dedicated: 4.5652
         Shared: 4.162
@@ -116836,6 +117162,9 @@ r6id.12xlarge:
         Dedicated: 4.12168
         Shared: 3.7588
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 4.98828
+        Shared: 4.5498
       eu-west-1:
         Dedicated: 4.6002
         Shared: 4.197
@@ -116849,6 +117178,9 @@ r6id.12xlarge:
         Dedicated: 4.15668
         Shared: 3.7938
     SUSE:
+      ap-northeast-1:
+        Dedicated: 4.94828
+        Shared: 4.5098
       eu-west-1:
         Dedicated: 4.5602
         Shared: 4.157
@@ -116862,6 +117194,9 @@ r6id.12xlarge:
         Dedicated: 4.11668
         Shared: 3.7538
     Windows:
+      ap-northeast-1:
+        Dedicated: 7.03128
+        Shared: 4.3848
       eu-west-1:
         Dedicated: 4.4352
         Shared: 6.24
@@ -116877,6 +117212,7 @@ r6id.12xlarge:
   regions:
     - eu-west-1
     - us-west-2
+    - ap-northeast-1
     - us-east-1
     - us-east-2
   storage: 2 x 1425 SSD
@@ -116892,6 +117228,9 @@ r6id.16xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 6.43104
+        Shared: 5.8464
       eu-west-1:
         Dedicated: 5.9136
         Shared: 5.376
@@ -116905,6 +117244,9 @@ r6id.16xlarge:
         Dedicated: 5.32224
         Shared: 4.8384
     RHEL:
+      ap-northeast-1:
+        Dedicated: 6.56104
+        Shared: 5.9764
       eu-west-1:
         Dedicated: 6.0436
         Shared: 5.506
@@ -116918,6 +117260,9 @@ r6id.16xlarge:
         Dedicated: 5.45224
         Shared: 4.9684
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 6.59604
+        Shared: 6.0114
       eu-west-1:
         Dedicated: 6.0786
         Shared: 5.541
@@ -116931,6 +117276,9 @@ r6id.16xlarge:
         Dedicated: 5.48724
         Shared: 5.0034
     SUSE:
+      ap-northeast-1:
+        Dedicated: 6.55604
+        Shared: 5.9714
       eu-west-1:
         Dedicated: 6.0386
         Shared: 5.501
@@ -116944,6 +117292,9 @@ r6id.16xlarge:
         Dedicated: 5.44724
         Shared: 4.9634
     Windows:
+      ap-northeast-1:
+        Dedicated: 6.43104
+        Shared: 5.8464
       eu-west-1:
         Dedicated: 5.9136
         Shared: 8.32
@@ -116960,6 +117311,7 @@ r6id.16xlarge:
     - us-west-2
     - us-east-1
     - us-east-2
+    - ap-northeast-1
     - eu-west-1
   storage: 2 x 1900 SSD
   vcpu: 64
@@ -116974,6 +117326,9 @@ r6id.24xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 9.64656
+        Shared: 8.7696
       eu-west-1:
         Dedicated: 8.8704
         Shared: 8.064
@@ -116987,6 +117342,9 @@ r6id.24xlarge:
         Dedicated: 7.98336
         Shared: 7.2576
     RHEL:
+      ap-northeast-1:
+        Dedicated: 9.77656
+        Shared: 8.8996
       eu-west-1:
         Dedicated: 9.0004
         Shared: 8.194
@@ -117000,6 +117358,9 @@ r6id.24xlarge:
         Dedicated: 8.11336
         Shared: 7.3876
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 9.81156
+        Shared: 8.9346
       eu-west-1:
         Dedicated: 9.0354
         Shared: 8.229
@@ -117013,6 +117374,9 @@ r6id.24xlarge:
         Dedicated: 8.14836
         Shared: 7.4226
     SUSE:
+      ap-northeast-1:
+        Dedicated: 9.77156
+        Shared: 8.8946
       eu-west-1:
         Dedicated: 8.9954
         Shared: 8.189
@@ -117026,6 +117390,9 @@ r6id.24xlarge:
         Dedicated: 8.10836
         Shared: 7.3826
     Windows:
+      ap-northeast-1:
+        Dedicated: 14.06256
+        Shared: 13.1856
       eu-west-1:
         Dedicated: 8.8704
         Shared: 8.064
@@ -117043,6 +117410,7 @@ r6id.24xlarge:
     - us-west-2
     - eu-west-1
     - us-east-1
+    - ap-northeast-1
   storage: 4 x 1425 SSD
   vcpu: 96
 r6id.2xlarge:
@@ -117056,6 +117424,9 @@ r6id.2xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.80388
+        Shared: 0.7308
       eu-west-1:
         Dedicated: 0.7392
         Shared: 0.672
@@ -117069,6 +117440,9 @@ r6id.2xlarge:
         Dedicated: 0.66528
         Shared: 0.6048
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.93388
+        Shared: 0.8608
       eu-west-1:
         Dedicated: 0.8692
         Shared: 0.802
@@ -117082,6 +117456,9 @@ r6id.2xlarge:
         Dedicated: 0.79528
         Shared: 0.7348
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.96888
+        Shared: 0.8958
       eu-west-1:
         Dedicated: 0.9042
         Shared: 0.837
@@ -117095,6 +117472,9 @@ r6id.2xlarge:
         Dedicated: 0.83028
         Shared: 0.7698
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.92888
+        Shared: 0.8558
       eu-west-1:
         Dedicated: 0.8642
         Shared: 0.797
@@ -117108,6 +117488,9 @@ r6id.2xlarge:
         Dedicated: 0.79028
         Shared: 0.7298
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.80388
+        Shared: 0.7308
       eu-west-1:
         Dedicated: 0.7392
         Shared: 0.672
@@ -117125,6 +117508,7 @@ r6id.2xlarge:
     - us-east-1
     - us-west-2
     - us-east-2
+    - ap-northeast-1
   storage: 1 x 474 SSD
   vcpu: 8
 r6id.32xlarge:
@@ -117138,6 +117522,9 @@ r6id.32xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 11.6928
+        Shared: 11.6928
       eu-west-1:
         Dedicated: 10.752
         Shared: 10.752
@@ -117151,6 +117538,9 @@ r6id.32xlarge:
         Dedicated: 9.6768
         Shared: 9.6768
     RHEL:
+      ap-northeast-1:
+        Dedicated: 11.8228
+        Shared: 11.8228
       eu-west-1:
         Dedicated: 10.882
         Shared: 10.882
@@ -117164,6 +117554,9 @@ r6id.32xlarge:
         Dedicated: 9.8068
         Shared: 9.8068
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 11.8578
+        Shared: 11.8578
       eu-west-1:
         Dedicated: 10.917
         Shared: 10.917
@@ -117177,6 +117570,9 @@ r6id.32xlarge:
         Dedicated: 9.8418
         Shared: 9.8418
     SUSE:
+      ap-northeast-1:
+        Dedicated: 11.8178
+        Shared: 11.8178
       eu-west-1:
         Dedicated: 10.877
         Shared: 10.877
@@ -117190,6 +117586,9 @@ r6id.32xlarge:
         Dedicated: 9.8018
         Shared: 9.8018
     Windows:
+      ap-northeast-1:
+        Dedicated: 17.5808
+        Shared: 17.5808
       eu-west-1:
         Dedicated: 16.64
         Shared: 16.64
@@ -117205,6 +117604,7 @@ r6id.32xlarge:
   regions:
     - us-west-2
     - us-east-1
+    - ap-northeast-1
     - us-east-2
     - eu-west-1
   storage: 4 x 1900 SSD
@@ -117220,6 +117620,9 @@ r6id.4xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.60776
+        Shared: 1.4616
       eu-west-1:
         Dedicated: 1.4784
         Shared: 1.344
@@ -117233,6 +117636,9 @@ r6id.4xlarge:
         Dedicated: 1.33056
         Shared: 1.2096
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.73776
+        Shared: 1.5916
       eu-west-1:
         Dedicated: 1.6084
         Shared: 1.474
@@ -117246,6 +117652,9 @@ r6id.4xlarge:
         Dedicated: 1.46056
         Shared: 1.3396
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 1.77276
+        Shared: 1.6266
       eu-west-1:
         Dedicated: 1.6434
         Shared: 1.509
@@ -117259,6 +117668,9 @@ r6id.4xlarge:
         Dedicated: 1.49556
         Shared: 1.3746
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.73276
+        Shared: 1.5866
       eu-west-1:
         Dedicated: 1.6034
         Shared: 1.469
@@ -117272,6 +117684,9 @@ r6id.4xlarge:
         Dedicated: 1.45556
         Shared: 1.3346
     Windows:
+      ap-northeast-1:
+        Dedicated: 2.34376
+        Shared: 2.1976
       eu-west-1:
         Dedicated: 1.4784
         Shared: 2.08
@@ -117285,6 +117700,7 @@ r6id.4xlarge:
         Dedicated: 1.33056
         Shared: 1.9456
   regions:
+    - ap-northeast-1
     - eu-west-1
     - us-east-2
     - us-west-2
@@ -117302,6 +117718,9 @@ r6id.8xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 3.21552
+        Shared: 2.9232
       eu-west-1:
         Dedicated: 2.9568
         Shared: 2.688
@@ -117315,6 +117734,9 @@ r6id.8xlarge:
         Dedicated: 2.66112
         Shared: 2.4192
     RHEL:
+      ap-northeast-1:
+        Dedicated: 3.34552
+        Shared: 3.0532
       eu-west-1:
         Dedicated: 3.0868
         Shared: 2.818
@@ -117328,6 +117750,9 @@ r6id.8xlarge:
         Dedicated: 2.79112
         Shared: 2.5492
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 3.38052
+        Shared: 3.0882
       eu-west-1:
         Dedicated: 3.1218
         Shared: 2.853
@@ -117341,6 +117766,9 @@ r6id.8xlarge:
         Dedicated: 2.82612
         Shared: 2.5842
     SUSE:
+      ap-northeast-1:
+        Dedicated: 3.34052
+        Shared: 3.0482
       eu-west-1:
         Dedicated: 3.0818
         Shared: 2.813
@@ -117354,6 +117782,9 @@ r6id.8xlarge:
         Dedicated: 2.78612
         Shared: 2.5442
     Windows:
+      ap-northeast-1:
+        Dedicated: 4.68752
+        Shared: 2.9232
       eu-west-1:
         Dedicated: 2.9568
         Shared: 2.688
@@ -117371,6 +117802,7 @@ r6id.8xlarge:
     - eu-west-1
     - us-east-2
     - us-east-1
+    - ap-northeast-1
   storage: 1 x 1900 SSD
   vcpu: 32
 r6id.large:
@@ -117384,6 +117816,9 @@ r6id.large:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.20097
+        Shared: 0.1827
       eu-west-1:
         Dedicated: 0.1848
         Shared: 0.168
@@ -117397,6 +117832,9 @@ r6id.large:
         Dedicated: 0.16632
         Shared: 0.1512
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.26097
+        Shared: 0.2427
       eu-west-1:
         Dedicated: 0.2448
         Shared: 0.228
@@ -117410,6 +117848,9 @@ r6id.large:
         Dedicated: 0.22632
         Shared: 0.2112
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.29597
+        Shared: 0.2777
       eu-west-1:
         Dedicated: 0.2798
         Shared: 0.263
@@ -117423,6 +117864,9 @@ r6id.large:
         Dedicated: 0.26132
         Shared: 0.2462
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.25727
+        Shared: 0.239
       eu-west-1:
         Dedicated: 0.2411
         Shared: 0.2243
@@ -117436,6 +117880,9 @@ r6id.large:
         Dedicated: 0.22262
         Shared: 0.2075
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.29297
+        Shared: 0.1827
       eu-west-1:
         Dedicated: 0.1848
         Shared: 0.168
@@ -117453,6 +117900,7 @@ r6id.large:
     - us-west-2
     - us-east-1
     - us-east-2
+    - ap-northeast-1
   storage: 1 x 118 SSD
   vcpu: 2
 r6id.metal:
@@ -117466,6 +117914,9 @@ r6id.metal:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 11.6928
+        Shared: 11.6928
       eu-west-1:
         Dedicated: 10.752
         Shared: 10.752
@@ -117479,6 +117930,9 @@ r6id.metal:
         Dedicated: 9.6768
         Shared: 9.6768
     RHEL:
+      ap-northeast-1:
+        Dedicated: 11.8228
+        Shared: 11.8228
       eu-west-1:
         Dedicated: 10.882
         Shared: 10.882
@@ -117492,6 +117946,9 @@ r6id.metal:
         Dedicated: 9.8068
         Shared: 9.8068
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 11.8578
+        Shared: 11.8578
       eu-west-1:
         Dedicated: 10.917
         Shared: 10.917
@@ -117505,6 +117962,9 @@ r6id.metal:
         Dedicated: 9.8418
         Shared: 9.8418
     SUSE:
+      ap-northeast-1:
+        Dedicated: 11.8178
+        Shared: 11.8178
       eu-west-1:
         Dedicated: 10.877
         Shared: 10.877
@@ -117518,6 +117978,9 @@ r6id.metal:
         Dedicated: 9.8018
         Shared: 9.8018
     Windows:
+      ap-northeast-1:
+        Dedicated: 11.6928
+        Shared: 17.5808
       eu-west-1:
         Dedicated: 16.64
         Shared: 16.64
@@ -117534,6 +117997,7 @@ r6id.metal:
     - us-east-2
     - eu-west-1
     - us-west-2
+    - ap-northeast-1
     - us-east-1
   storage: 4 x 1900 SSD
   vcpu: 128
@@ -117548,6 +118012,9 @@ r6id.xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.40194
+        Shared: 0.3654
       eu-west-1:
         Dedicated: 0.3696
         Shared: 0.336
@@ -117561,6 +118028,9 @@ r6id.xlarge:
         Dedicated: 0.33264
         Shared: 0.3024
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.46194
+        Shared: 0.4254
       eu-west-1:
         Dedicated: 0.4296
         Shared: 0.396
@@ -117574,6 +118044,9 @@ r6id.xlarge:
         Dedicated: 0.39264
         Shared: 0.3624
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.49694
+        Shared: 0.4604
       eu-west-1:
         Dedicated: 0.4646
         Shared: 0.431
@@ -117587,6 +118060,9 @@ r6id.xlarge:
         Dedicated: 0.42764
         Shared: 0.3974
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.45824
+        Shared: 0.4217
       eu-west-1:
         Dedicated: 0.4259
         Shared: 0.3923
@@ -117600,6 +118076,9 @@ r6id.xlarge:
         Dedicated: 0.38894
         Shared: 0.3587
     Windows:
+      ap-northeast-1:
+        Dedicated: 0.40194
+        Shared: 0.3654
       eu-west-1:
         Dedicated: 0.5536
         Shared: 0.336
@@ -117615,6 +118094,7 @@ r6id.xlarge:
   regions:
     - us-west-2
     - us-east-1
+    - ap-northeast-1
     - us-east-2
     - eu-west-1
   storage: 1 x 237 SSD
