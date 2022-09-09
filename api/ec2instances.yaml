@@ -45206,7 +45206,7 @@ i3.metal:
         Shared: 5.604
       eu-central-1:
         Dedicated: 6.052
-        Shared: 6.052
+        Shared: 6.077
       eu-north-1:
         Dedicated: 5.316
         Shared: 5.316
@@ -45246,66 +45246,66 @@ i3.metal:
     Windows:
       af-south-1:
         Dedicated: 9.504
-        Shared: 9.504
+        Shared: 6.56
       ap-east-1:
-        Dedicated: 9.536
-        Shared: 9.536
+        Dedicated: 6.592
+        Shared: 6.592
       ap-northeast-1:
         Dedicated: 8.8
-        Shared: 8.8
+        Shared: 5.856
       ap-northeast-2:
-        Dedicated: 8.8
+        Dedicated: 5.856
         Shared: 8.8
       ap-south-1:
         Dedicated: 8.608
-        Shared: 8.608
+        Shared: 5.664
       ap-southeast-1:
         Dedicated: 8.928
         Shared: 8.928
       Asia Pacific (Osaka):
-        Dedicated: 8.8
-        Shared: 8.8
+        Dedicated: 5.856
+        Shared: 5.856
       ca-central-1:
         Dedicated: 5.504
         Shared: 5.504
       eu-central-1:
         Dedicated: 8.896
-        Shared: 8.896
+        Shared: 5.952
       eu-north-1:
         Dedicated: 8.16
         Shared: 8.16
       eu-south-1:
-        Dedicated: 8.736
+        Dedicated: 5.792
         Shared: 8.736
       eu-west-1:
         Dedicated: 8.448
         Shared: 8.448
       eu-west-2:
-        Dedicated: 8.736
-        Shared: 8.736
+        Dedicated: 5.792
+        Shared: 5.792
       eu-west-3:
         Dedicated: 8.736
-        Shared: 8.736
+        Shared: 5.792
       sa-east-1:
         Dedicated: 10.912
         Shared: 10.912
       us-east-1:
         Dedicated: 7.936
-        Shared: 7.936
+        Shared: 4.992
       us-east-2:
         Dedicated: 7.936
         Shared: 4.992
       us-gov-east-1:
-        Dedicated: 8.96
+        Dedicated: 6.016
         Shared: 8.96
       us-gov-west-1:
         Dedicated: 8.96
         Shared: 6.016
       us-west-1:
-        Dedicated: 8.448
-        Shared: 8.448
+        Dedicated: 5.504
+        Shared: 5.504
       us-west-2:
-        Dedicated: 7.936
+        Dedicated: 4.992
         Shared: 7.936
   regions:
     - us-gov-west-1
@@ -45317,6 +45317,7 @@ i3.metal:
     - eu-north-1
     - Asia Pacific (Osaka)
     - ca-central-1
+    - ap-northeast-1
     - ap-east-1
     - eu-west-3
     - sa-east-1
@@ -45329,7 +45330,6 @@ i3.metal:
     - ap-northeast-2
     - us-east-1
     - us-east-2
-    - ap-northeast-1
   storage: 8 x 1900 NVMe SSD
   vcpu: 72
 i3.xlarge:
