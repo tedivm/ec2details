@@ -22316,6 +22316,9 @@ c6gd.12xlarge:
       eu-central-1:
         Dedicated: 2.2632
         Shared: 2.136
+      eu-north-1:
+        Dedicated: 2.1166
+        Shared: 1.9968
       eu-west-1:
         Dedicated: 2.2184
         Shared: 2.0928
@@ -22362,6 +22365,9 @@ c6gd.12xlarge:
       eu-central-1:
         Dedicated: 2.3932
         Shared: 2.266
+      eu-north-1:
+        Dedicated: 2.2466
+        Shared: 2.1268
       eu-west-1:
         Dedicated: 2.3484
         Shared: 2.2228
@@ -22408,6 +22414,9 @@ c6gd.12xlarge:
       eu-central-1:
         Dedicated: 2.4282
         Shared: 2.301
+      eu-north-1:
+        Dedicated: 2.2816
+        Shared: 2.1618
       eu-west-1:
         Dedicated: 2.3834
         Shared: 2.2578
@@ -22454,6 +22463,9 @@ c6gd.12xlarge:
       eu-central-1:
         Dedicated: 2.3882
         Shared: 2.261
+      eu-north-1:
+        Dedicated: 2.2416
+        Shared: 2.1218
       eu-west-1:
         Dedicated: 2.3434
         Shared: 2.2178
@@ -22479,6 +22491,7 @@ c6gd.12xlarge:
     - ap-southeast-2
     - ap-southeast-1
     - ca-central-1
+    - eu-north-1
     - us-west-1
     - eu-west-2
     - us-west-2
@@ -22490,7 +22503,6 @@ c6gd.12xlarge:
     - eu-west-1
     - Asia Pacific (Osaka)
     - us-east-1
-    - eu-north-1
     - sa-east-1
   storage: 2 x 1425 NVMe SSD
   vcpu: 48
@@ -22529,6 +22541,9 @@ c6gd.16xlarge:
       eu-central-1:
         Dedicated: 3.0176
         Shared: 2.848
+      eu-north-1:
+        Dedicated: 2.6624
+        Shared: 2.6624
       eu-west-1:
         Dedicated: 2.9578
         Shared: 2.7904
@@ -22575,6 +22590,9 @@ c6gd.16xlarge:
       eu-central-1:
         Dedicated: 3.1476
         Shared: 2.978
+      eu-north-1:
+        Dedicated: 2.7924
+        Shared: 2.7924
       eu-west-1:
         Dedicated: 3.0878
         Shared: 2.9204
@@ -22621,6 +22639,9 @@ c6gd.16xlarge:
       eu-central-1:
         Dedicated: 3.1826
         Shared: 3.013
+      eu-north-1:
+        Dedicated: 2.8274
+        Shared: 2.8274
       eu-west-1:
         Dedicated: 3.1228
         Shared: 2.9554
@@ -22667,6 +22688,9 @@ c6gd.16xlarge:
       eu-central-1:
         Dedicated: 2.973
         Shared: 2.973
+      eu-north-1:
+        Dedicated: 2.7874
+        Shared: 2.7874
       eu-west-1:
         Dedicated: 2.9154
         Shared: 2.9154
@@ -22694,6 +22718,7 @@ c6gd.16xlarge:
     - ap-northeast-2
     - eu-central-1
     - us-east-2
+    - eu-north-1
     - ap-northeast-1
     - ca-central-1
     - us-east-1
@@ -22702,7 +22727,6 @@ c6gd.16xlarge:
     - ap-southeast-1
     - us-west-2
     - eu-west-2
-    - eu-north-1
     - sa-east-1
     - us-west-1
   storage: 2 x 1900 NVMe SSD
@@ -22742,6 +22766,9 @@ c6gd.2xlarge:
       eu-central-1:
         Dedicated: 0.3772
         Shared: 0.356
+      eu-north-1:
+        Dedicated: 0.3528
+        Shared: 0.3328
       eu-west-1:
         Dedicated: 0.3697
         Shared: 0.3488
@@ -22788,6 +22815,9 @@ c6gd.2xlarge:
       eu-central-1:
         Dedicated: 0.5072
         Shared: 0.486
+      eu-north-1:
+        Dedicated: 0.4828
+        Shared: 0.4628
       eu-west-1:
         Dedicated: 0.4997
         Shared: 0.4788
@@ -22834,6 +22864,9 @@ c6gd.2xlarge:
       eu-central-1:
         Dedicated: 0.5422
         Shared: 0.521
+      eu-north-1:
+        Dedicated: 0.5178
+        Shared: 0.4978
       eu-west-1:
         Dedicated: 0.5347
         Shared: 0.5138
@@ -22880,6 +22913,9 @@ c6gd.2xlarge:
       eu-central-1:
         Dedicated: 0.5022
         Shared: 0.481
+      eu-north-1:
+        Dedicated: 0.4778
+        Shared: 0.4578
       eu-west-1:
         Dedicated: 0.4947
         Shared: 0.4738
@@ -22905,6 +22941,7 @@ c6gd.2xlarge:
     - us-west-2
     - Asia Pacific (Osaka)
     - eu-west-1
+    - eu-north-1
     - ap-northeast-2
     - ap-south-1
     - eu-central-1
@@ -22917,7 +22954,6 @@ c6gd.2xlarge:
     - ap-northeast-1
     - ap-southeast-2
     - sa-east-1
-    - eu-north-1
   storage: 1 x 475 NVMe SSD
   vcpu: 8
 c6gd.4xlarge:
@@ -22955,6 +22991,9 @@ c6gd.4xlarge:
       eu-central-1:
         Dedicated: 0.7544
         Shared: 0.712
+      eu-north-1:
+        Dedicated: 0.7055
+        Shared: 0.6656
       eu-west-1:
         Dedicated: 0.7395
         Shared: 0.6976
@@ -23001,6 +23040,9 @@ c6gd.4xlarge:
       eu-central-1:
         Dedicated: 0.8844
         Shared: 0.842
+      eu-north-1:
+        Dedicated: 0.8355
+        Shared: 0.7956
       eu-west-1:
         Dedicated: 0.8695
         Shared: 0.8276
@@ -23047,6 +23089,9 @@ c6gd.4xlarge:
       eu-central-1:
         Dedicated: 0.9194
         Shared: 0.877
+      eu-north-1:
+        Dedicated: 0.8705
+        Shared: 0.8306
       eu-west-1:
         Dedicated: 0.9045
         Shared: 0.8626
@@ -23093,6 +23138,9 @@ c6gd.4xlarge:
       eu-central-1:
         Dedicated: 0.8794
         Shared: 0.837
+      eu-north-1:
+        Dedicated: 0.8305
+        Shared: 0.7906
       eu-west-1:
         Dedicated: 0.8645
         Shared: 0.8226
@@ -23168,6 +23216,9 @@ c6gd.8xlarge:
       eu-central-1:
         Dedicated: 1.5088
         Shared: 1.424
+      eu-north-1:
+        Dedicated: 1.4111
+        Shared: 1.3312
       eu-west-1:
         Dedicated: 1.4789
         Shared: 1.3952
@@ -23214,6 +23265,9 @@ c6gd.8xlarge:
       eu-central-1:
         Dedicated: 1.6388
         Shared: 1.554
+      eu-north-1:
+        Dedicated: 1.5411
+        Shared: 1.4612
       eu-west-1:
         Dedicated: 1.6089
         Shared: 1.5252
@@ -23260,6 +23314,9 @@ c6gd.8xlarge:
       eu-central-1:
         Dedicated: 1.6738
         Shared: 1.589
+      eu-north-1:
+        Dedicated: 1.5761
+        Shared: 1.4962
       eu-west-1:
         Dedicated: 1.6439
         Shared: 1.5602
@@ -23306,6 +23363,9 @@ c6gd.8xlarge:
       eu-central-1:
         Dedicated: 1.6338
         Shared: 1.549
+      eu-north-1:
+        Dedicated: 1.5361
+        Shared: 1.4562
       eu-west-1:
         Dedicated: 1.6039
         Shared: 1.5202
@@ -23341,9 +23401,9 @@ c6gd.8xlarge:
     - eu-west-2
     - Asia Pacific (Osaka)
     - eu-west-1
+    - eu-north-1
     - ap-southeast-2
     - ap-south-1
-    - eu-north-1
   storage: 1 x 1900 NVMe SSD
   vcpu: 32
 c6gd.large:
@@ -23381,6 +23441,9 @@ c6gd.large:
       eu-central-1:
         Dedicated: 0.0943
         Shared: 0.089
+      eu-north-1:
+        Dedicated: 0.0882
+        Shared: 0.0832
       eu-west-1:
         Dedicated: 0.0924
         Shared: 0.0872
@@ -23427,6 +23490,9 @@ c6gd.large:
       eu-central-1:
         Dedicated: 0.1543
         Shared: 0.149
+      eu-north-1:
+        Dedicated: 0.1482
+        Shared: 0.1432
       eu-west-1:
         Dedicated: 0.1524
         Shared: 0.1472
@@ -23473,6 +23539,9 @@ c6gd.large:
       eu-central-1:
         Dedicated: 0.1893
         Shared: 0.184
+      eu-north-1:
+        Dedicated: 0.1832
+        Shared: 0.1782
       eu-west-1:
         Dedicated: 0.1874
         Shared: 0.1822
@@ -23519,6 +23588,9 @@ c6gd.large:
       eu-central-1:
         Dedicated: 0.1506
         Shared: 0.1453
+      eu-north-1:
+        Dedicated: 0.1445
+        Shared: 0.1395
       eu-west-1:
         Dedicated: 0.1487
         Shared: 0.1435
@@ -23594,6 +23666,9 @@ c6gd.medium:
       eu-central-1:
         Dedicated: 0.0471
         Shared: 0.0445
+      eu-north-1:
+        Dedicated: 0.0441
+        Shared: 0.0416
       eu-west-1:
         Dedicated: 0.0462
         Shared: 0.0436
@@ -23640,6 +23715,9 @@ c6gd.medium:
       eu-central-1:
         Dedicated: 0.1071
         Shared: 0.1045
+      eu-north-1:
+        Dedicated: 0.1041
+        Shared: 0.1016
       eu-west-1:
         Dedicated: 0.1062
         Shared: 0.1036
@@ -23686,6 +23764,9 @@ c6gd.medium:
       eu-central-1:
         Dedicated: 0.1421
         Shared: 0.1395
+      eu-north-1:
+        Dedicated: 0.1391
+        Shared: 0.1366
       eu-west-1:
         Dedicated: 0.1412
         Shared: 0.1386
@@ -23732,6 +23813,9 @@ c6gd.medium:
       eu-central-1:
         Dedicated: 0.0781
         Shared: 0.0755
+      eu-north-1:
+        Dedicated: 0.1004
+        Shared: 0.0979
       eu-west-1:
         Dedicated: 0.0772
         Shared: 0.0746
@@ -23755,6 +23839,7 @@ c6gd.medium:
         Shared: 0.0694
   regions:
     - sa-east-1
+    - eu-north-1
     - eu-west-2
     - ca-central-1
     - ap-south-1
@@ -23768,7 +23853,6 @@ c6gd.medium:
     - eu-west-1
     - us-east-1
     - ap-southeast-2
-    - eu-north-1
     - us-east-2
   storage: 1 x 59 NVMe SSD
   vcpu: 1
@@ -23807,6 +23891,9 @@ c6gd.metal:
       eu-central-1:
         Dedicated: 3.0176
         Shared: 2.848
+      eu-north-1:
+        Dedicated: 2.6624
+        Shared: 2.6624
       eu-west-1:
         Dedicated: 2.9578
         Shared: 2.7904
@@ -23853,6 +23940,9 @@ c6gd.metal:
       eu-central-1:
         Dedicated: 3.1476
         Shared: 2.978
+      eu-north-1:
+        Dedicated: 2.7924
+        Shared: 2.7924
       eu-west-1:
         Dedicated: 3.0878
         Shared: 2.9204
@@ -23899,6 +23989,9 @@ c6gd.metal:
       eu-central-1:
         Dedicated: 3.1826
         Shared: 3.013
+      eu-north-1:
+        Dedicated: 2.8274
+        Shared: 2.8274
       eu-west-1:
         Dedicated: 3.1228
         Shared: 2.9554
@@ -23945,6 +24038,9 @@ c6gd.metal:
       eu-central-1:
         Dedicated: 2.973
         Shared: 2.973
+      eu-north-1:
+        Dedicated: 2.7874
+        Shared: 2.7874
       eu-west-1:
         Dedicated: 2.9154
         Shared: 2.9154
@@ -24020,6 +24116,9 @@ c6gd.xlarge:
       eu-central-1:
         Dedicated: 0.1886
         Shared: 0.178
+      eu-north-1:
+        Dedicated: 0.1764
+        Shared: 0.1664
       eu-west-1:
         Dedicated: 0.1849
         Shared: 0.1744
@@ -24066,6 +24165,9 @@ c6gd.xlarge:
       eu-central-1:
         Dedicated: 0.2486
         Shared: 0.238
+      eu-north-1:
+        Dedicated: 0.2364
+        Shared: 0.2264
       eu-west-1:
         Dedicated: 0.2449
         Shared: 0.2344
@@ -24112,6 +24214,9 @@ c6gd.xlarge:
       eu-central-1:
         Dedicated: 0.2836
         Shared: 0.273
+      eu-north-1:
+        Dedicated: 0.2714
+        Shared: 0.2614
       eu-west-1:
         Dedicated: 0.2799
         Shared: 0.2694
@@ -24158,6 +24263,9 @@ c6gd.xlarge:
       eu-central-1:
         Dedicated: 0.2449
         Shared: 0.2343
+      eu-north-1:
+        Dedicated: 0.2327
+        Shared: 0.2227
       eu-west-1:
         Dedicated: 0.2412
         Shared: 0.2307
@@ -24192,10 +24300,10 @@ c6gd.xlarge:
     - us-east-1
     - us-west-2
     - eu-west-2
+    - eu-north-1
     - eu-central-1
     - ap-south-1
     - ap-northeast-1
-    - eu-north-1
   storage: 1 x 237 NVMe SSD
   vcpu: 4
 c6gn.12xlarge:
