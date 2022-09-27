@@ -39506,6 +39506,7 @@ g4dn.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
   dedicatedEbsThroughput: 3500 Mbps
+  ecu: .nan
   enhancedNetworkingSupported: true
   gpu: 1
   memory: 16 GiB
