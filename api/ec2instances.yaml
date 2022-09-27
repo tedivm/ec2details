@@ -12064,6 +12064,9 @@ c5d.18xlarge:
       us-east-1:
         Dedicated: 3.456
         Shared: 3.456
+      'us-east-1-mia-1a ':
+        Dedicated: 4.32
+        Shared: 4.32
       us-east-2:
         Dedicated: 3.456
         Shared: 3.456
@@ -12140,6 +12143,9 @@ c5d.18xlarge:
       us-east-1:
         Dedicated: 3.586
         Shared: 3.586
+      'us-east-1-mia-1a ':
+        Dedicated: 4.45
+        Shared: 4.45
       us-east-2:
         Dedicated: 3.586
         Shared: 3.586
@@ -12292,6 +12298,9 @@ c5d.18xlarge:
       us-east-1:
         Dedicated: 3.556
         Shared: 3.556
+      'us-east-1-mia-1a ':
+        Dedicated: 4.445
+        Shared: 4.445
       us-east-2:
         Dedicated: 3.556
         Shared: 3.556
@@ -12368,6 +12377,9 @@ c5d.18xlarge:
       us-east-1:
         Dedicated: 6.768
         Shared: 3.456
+      'us-east-1-mia-1a ':
+        Dedicated: 7.632
+        Shared: 4.32
       us-east-2:
         Dedicated: 6.768
         Shared: 3.456
@@ -12399,6 +12411,7 @@ c5d.18xlarge:
     - ap-northeast-1
     - Middle East (UAE)
     - ap-east-1
+    - 'us-east-1-mia-1a '
     - me-south-1
     - us-west-1
     - eu-west-1
@@ -13930,6 +13943,9 @@ c5d.9xlarge:
       us-east-1:
         Dedicated: 1.832
         Shared: 1.728
+      'us-east-1-mia-1a ':
+        Dedicated: 2.29
+        Shared: 2.16
       us-east-2:
         Dedicated: 1.832
         Shared: 1.728
@@ -14006,6 +14022,9 @@ c5d.9xlarge:
       us-east-1:
         Dedicated: 1.962
         Shared: 1.858
+      'us-east-1-mia-1a ':
+        Dedicated: 2.42
+        Shared: 2.29
       us-east-2:
         Dedicated: 1.962
         Shared: 1.858
@@ -14158,6 +14177,9 @@ c5d.9xlarge:
       us-east-1:
         Dedicated: 1.932
         Shared: 1.828
+      'us-east-1-mia-1a ':
+        Dedicated: 2.415
+        Shared: 2.285
       us-east-2:
         Dedicated: 1.932
         Shared: 1.828
@@ -14234,6 +14256,9 @@ c5d.9xlarge:
       us-east-1:
         Dedicated: 1.832
         Shared: 3.384
+      'us-east-1-mia-1a ':
+        Dedicated: 3.946
+        Shared: 3.816
       us-east-2:
         Dedicated: 1.832
         Shared: 3.384
@@ -14267,6 +14292,7 @@ c5d.9xlarge:
     - Middle East (UAE)
     - eu-central-1
     - ap-northeast-2
+    - 'us-east-1-mia-1a '
     - eu-west-1
     - af-south-1
     - ap-northeast-1
@@ -14349,6 +14375,9 @@ c5d.large:
       us-east-1:
         Dedicated: 0.102
         Shared: 0.096
+      'us-east-1-mia-1a ':
+        Dedicated: 0.127
+        Shared: 0.12
       us-east-2:
         Dedicated: 0.102
         Shared: 0.096
@@ -14425,6 +14454,9 @@ c5d.large:
       us-east-1:
         Dedicated: 0.162
         Shared: 0.156
+      'us-east-1-mia-1a ':
+        Dedicated: 0.187
+        Shared: 0.18
       us-east-2:
         Dedicated: 0.162
         Shared: 0.156
@@ -14577,6 +14609,9 @@ c5d.large:
       us-east-1:
         Dedicated: 0.158
         Shared: 0.152
+      'us-east-1-mia-1a ':
+        Dedicated: 0.184
+        Shared: 0.176
       us-east-2:
         Dedicated: 0.158
         Shared: 0.152
@@ -14653,6 +14688,9 @@ c5d.large:
       us-east-1:
         Dedicated: 0.194
         Shared: 0.188
+      'us-east-1-mia-1a ':
+        Dedicated: 0.219
+        Shared: 0.12
       us-east-2:
         Dedicated: 0.102
         Shared: 0.188
@@ -14676,6 +14714,7 @@ c5d.large:
     - us-east-2
     - Middle East (UAE)
     - us-gov-west-1
+    - 'us-east-1-mia-1a '
     - ap-northeast-1
     - ap-east-1
     - us-west-2
@@ -14759,6 +14798,9 @@ c5d.metal:
       us-east-1:
         Dedicated: 4.608
         Shared: 4.608
+      'us-east-1-mia-1a ':
+        Dedicated: 5.76
+        Shared: 5.76
       us-east-2:
         Dedicated: 4.608
         Shared: 4.608
@@ -14823,6 +14865,9 @@ c5d.metal:
       us-east-1:
         Dedicated: 4.738
         Shared: 4.738
+      'us-east-1-mia-1a ':
+        Dedicated: 5.89
+        Shared: 5.89
       us-east-2:
         Dedicated: 4.738
         Shared: 4.738
@@ -14951,6 +14996,9 @@ c5d.metal:
       us-east-1:
         Dedicated: 4.708
         Shared: 4.708
+      'us-east-1-mia-1a ':
+        Dedicated: 5.885
+        Shared: 5.885
       us-east-2:
         Dedicated: 4.708
         Shared: 4.708
@@ -15015,6 +15063,9 @@ c5d.metal:
       us-east-1:
         Dedicated: 9.024
         Shared: 9.024
+      'us-east-1-mia-1a ':
+        Dedicated: 5.76
+        Shared: 10.176
       us-east-2:
         Dedicated: 9.024
         Shared: 9.024
@@ -15044,6 +15095,7 @@ c5d.metal:
     - eu-west-1
     - af-south-1
     - ca-central-1
+    - 'us-east-1-mia-1a '
     - ap-northeast-2
     - Middle East (UAE)
     - eu-north-1
@@ -15123,6 +15175,9 @@ c5d.xlarge:
       us-east-1:
         Dedicated: 0.204
         Shared: 0.192
+      'us-east-1-mia-1a ':
+        Dedicated: 0.254
+        Shared: 0.24
       us-east-2:
         Dedicated: 0.204
         Shared: 0.192
@@ -15199,6 +15254,9 @@ c5d.xlarge:
       us-east-1:
         Dedicated: 0.264
         Shared: 0.252
+      'us-east-1-mia-1a ':
+        Dedicated: 0.314
+        Shared: 0.3
       us-east-2:
         Dedicated: 0.264
         Shared: 0.252
@@ -15351,6 +15409,9 @@ c5d.xlarge:
       us-east-1:
         Dedicated: 0.26
         Shared: 0.248
+      'us-east-1-mia-1a ':
+        Dedicated: 0.311
+        Shared: 0.296
       us-east-2:
         Dedicated: 0.26
         Shared: 0.248
@@ -15427,6 +15488,9 @@ c5d.xlarge:
       us-east-1:
         Dedicated: 0.388
         Shared: 0.376
+      'us-east-1-mia-1a ':
+        Dedicated: 0.438
+        Shared: 0.24
       us-east-2:
         Dedicated: 0.388
         Shared: 0.376
@@ -15464,6 +15528,7 @@ c5d.xlarge:
     - ap-southeast-3
     - us-east-1
     - Middle East (UAE)
+    - 'us-east-1-mia-1a '
     - Asia Pacific (Osaka)
     - eu-west-3
     - ap-east-1
@@ -36952,6 +37017,7 @@ g4dn.12xlarge:
     - ap-east-1
     - ap-south-1
     - US East (Houston)
+    - 'us-east-1-mia-1a '
   storage: 900 GB NVMe SSD
   vcpu: 48
 g4dn.16xlarge:
@@ -37019,6 +37085,9 @@ g4dn.16xlarge:
       us-east-1:
         Dedicated: 4.613
         Shared: 4.352
+      'us-east-1-mia-1a ':
+        Dedicated: 6.228
+        Shared: 5.875
       us-east-2:
         Dedicated: 4.613
         Shared: 4.352
@@ -37092,6 +37161,9 @@ g4dn.16xlarge:
       us-east-1:
         Dedicated: 4.743
         Shared: 4.482
+      'us-east-1-mia-1a ':
+        Dedicated: 6.358
+        Shared: 6.005
       us-east-2:
         Dedicated: 4.743
         Shared: 4.482
@@ -37238,6 +37310,9 @@ g4dn.16xlarge:
       us-east-1:
         Dedicated: 4.738
         Shared: 4.477
+      'us-east-1-mia-1a ':
+        Dedicated: 6.353
+        Shared: 6
       us-east-2:
         Dedicated: 4.738
         Shared: 4.477
@@ -37311,6 +37386,9 @@ g4dn.16xlarge:
       us-east-1:
         Dedicated: 7.557
         Shared: 7.296
+      'us-east-1-mia-1a ':
+        Dedicated: 6.228
+        Shared: 5.875
       us-east-2:
         Dedicated: 7.557
         Shared: 7.296
@@ -37333,6 +37411,7 @@ g4dn.16xlarge:
     - me-south-1
     - us-east-2
     - af-south-1
+    - 'us-east-1-mia-1a '
     - us-west-2-lax-1a
     - ap-east-1
     - eu-west-1
@@ -39181,6 +39260,9 @@ g4dn.metal:
       us-east-1:
         Dedicated: 7.824
         Shared: 7.824
+      'us-east-1-mia-1a ':
+        Dedicated: 10.562
+        Shared: 10.562
       us-east-2:
         Dedicated: 7.824
         Shared: 7.824
@@ -39251,6 +39333,9 @@ g4dn.metal:
       us-east-1:
         Dedicated: 7.954
         Shared: 7.954
+      'us-east-1-mia-1a ':
+        Dedicated: 10.692
+        Shared: 10.692
       us-east-2:
         Dedicated: 7.954
         Shared: 7.954
@@ -39391,6 +39476,9 @@ g4dn.metal:
       us-east-1:
         Dedicated: 7.949
         Shared: 7.949
+      'us-east-1-mia-1a ':
+        Dedicated: 10.687
+        Shared: 10.687
       us-east-2:
         Dedicated: 7.949
         Shared: 7.949
@@ -39461,6 +39549,9 @@ g4dn.metal:
       us-east-1:
         Dedicated: 12.24
         Shared: 12.24
+      'us-east-1-mia-1a ':
+        Dedicated: 14.978
+        Shared: 14.978
       us-east-2:
         Dedicated: 12.24
         Shared: 12.24
@@ -39498,6 +39589,7 @@ g4dn.metal:
     - eu-west-1
     - eu-west-3
     - me-south-1
+    - 'us-east-1-mia-1a '
     - eu-north-1
     - ap-southeast-1
   storage: 2 x 900 GB NVMe SSD
@@ -39568,6 +39660,9 @@ g4dn.xlarge:
       us-east-1:
         Dedicated: 0.558
         Shared: 0.526
+      'us-east-1-mia-1a ':
+        Dedicated: 0.753
+        Shared: 0.71
       us-east-2:
         Dedicated: 0.558
         Shared: 0.526
@@ -39641,6 +39736,9 @@ g4dn.xlarge:
       us-east-1:
         Dedicated: 0.618
         Shared: 0.586
+      'us-east-1-mia-1a ':
+        Dedicated: 0.813
+        Shared: 0.77
       us-east-2:
         Dedicated: 0.618
         Shared: 0.586
@@ -39787,6 +39885,9 @@ g4dn.xlarge:
       us-east-1:
         Dedicated: 0.614
         Shared: 0.582
+      'us-east-1-mia-1a ':
+        Dedicated: 0.809
+        Shared: 0.766
       us-east-2:
         Dedicated: 0.614
         Shared: 0.582
@@ -39860,6 +39961,9 @@ g4dn.xlarge:
       us-east-1:
         Dedicated: 0.742
         Shared: 0.71
+      'us-east-1-mia-1a ':
+        Dedicated: 0.937
+        Shared: 0.894
       us-east-2:
         Dedicated: 0.742
         Shared: 0.71
@@ -39888,6 +39992,7 @@ g4dn.xlarge:
     - ap-northeast-1
     - eu-central-1
     - eu-north-1
+    - 'us-east-1-mia-1a '
     - eu-west-1
     - ca-central-1
     - Asia Pacific (Osaka)
@@ -51195,6 +51300,9 @@ im4gn.16xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 6.8281
+        Shared: 6.8281
       ap-southeast-2:
         Dedicated: 6.97734
         Shared: 6.97734
@@ -51220,6 +51328,9 @@ im4gn.16xlarge:
         Dedicated: 5.82067
         Shared: 5.82067
     RHEL:
+      ap-northeast-1:
+        Dedicated: 6.9581
+        Shared: 6.9581
       ap-southeast-2:
         Dedicated: 7.10734
         Shared: 7.10734
@@ -51245,6 +51356,9 @@ im4gn.16xlarge:
         Dedicated: 5.95067
         Shared: 5.95067
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 6.9931
+        Shared: 6.9931
       ap-southeast-2:
         Dedicated: 7.14234
         Shared: 7.14234
@@ -51270,6 +51384,9 @@ im4gn.16xlarge:
         Dedicated: 5.98567
         Shared: 5.98567
     SUSE:
+      ap-northeast-1:
+        Dedicated: 6.9531
+        Shared: 6.9531
       ap-southeast-2:
         Dedicated: 7.10234
         Shared: 7.10234
@@ -51298,6 +51415,7 @@ im4gn.16xlarge:
     - ap-southeast-2
     - eu-west-2
     - us-east-1
+    - ap-northeast-1
     - us-east-2
     - eu-central-1
     - ca-central-1
@@ -51316,6 +51434,9 @@ im4gn.2xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.93886
+        Shared: 0.85351
       ap-southeast-2:
         Dedicated: 0.95938
         Shared: 0.87217
@@ -51341,6 +51462,9 @@ im4gn.2xlarge:
         Dedicated: 0.80034
         Shared: 0.72758
     RHEL:
+      ap-northeast-1:
+        Dedicated: 1.06886
+        Shared: 0.98351
       ap-southeast-2:
         Dedicated: 1.08938
         Shared: 1.00217
@@ -51366,6 +51490,9 @@ im4gn.2xlarge:
         Dedicated: 0.93034
         Shared: 0.85758
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 1.10386
+        Shared: 1.01851
       ap-southeast-2:
         Dedicated: 1.12438
         Shared: 1.03717
@@ -51391,6 +51518,9 @@ im4gn.2xlarge:
         Dedicated: 0.96534
         Shared: 0.89258
     SUSE:
+      ap-northeast-1:
+        Dedicated: 1.06386
+        Shared: 0.97851
       ap-southeast-2:
         Dedicated: 1.08438
         Shared: 0.99717
@@ -51420,6 +51550,7 @@ im4gn.2xlarge:
     - eu-west-2
     - us-east-2
     - eu-central-1
+    - ap-northeast-1
     - ap-southeast-2
     - us-east-1
     - us-west-2
@@ -51437,6 +51568,9 @@ im4gn.4xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 1.87773
+        Shared: 1.70702
       ap-southeast-2:
         Dedicated: 1.91877
         Shared: 1.74434
@@ -51462,6 +51596,9 @@ im4gn.4xlarge:
         Dedicated: 1.60068
         Shared: 1.45517
     RHEL:
+      ap-northeast-1:
+        Dedicated: 2.00773
+        Shared: 1.83702
       ap-southeast-2:
         Dedicated: 2.04877
         Shared: 1.87434
@@ -51487,6 +51624,9 @@ im4gn.4xlarge:
         Dedicated: 1.73068
         Shared: 1.58517
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 2.04273
+        Shared: 1.87202
       ap-southeast-2:
         Dedicated: 2.08377
         Shared: 1.90934
@@ -51512,6 +51652,9 @@ im4gn.4xlarge:
         Dedicated: 1.76568
         Shared: 1.62017
     SUSE:
+      ap-northeast-1:
+        Dedicated: 2.00273
+        Shared: 1.83202
       ap-southeast-2:
         Dedicated: 2.04377
         Shared: 1.86934
@@ -51544,6 +51687,7 @@ im4gn.4xlarge:
     - eu-west-2
     - us-east-2
     - eu-central-1
+    - ap-northeast-1
     - us-west-2
   storage: 1 x 7500 SSD
   vcpu: 16
@@ -51558,6 +51702,9 @@ im4gn.8xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 3.75545
+        Shared: 3.41405
       ap-southeast-2:
         Dedicated: 3.83754
         Shared: 3.48867
@@ -51583,6 +51730,9 @@ im4gn.8xlarge:
         Dedicated: 3.20137
         Shared: 2.91034
     RHEL:
+      ap-northeast-1:
+        Dedicated: 3.88545
+        Shared: 3.54405
       ap-southeast-2:
         Dedicated: 3.96754
         Shared: 3.61867
@@ -51608,6 +51758,9 @@ im4gn.8xlarge:
         Dedicated: 3.33137
         Shared: 3.04034
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 3.92045
+        Shared: 3.57905
       ap-southeast-2:
         Dedicated: 4.00254
         Shared: 3.65367
@@ -51633,6 +51786,9 @@ im4gn.8xlarge:
         Dedicated: 3.36637
         Shared: 3.07534
     SUSE:
+      ap-northeast-1:
+        Dedicated: 3.88045
+        Shared: 3.53905
       ap-southeast-2:
         Dedicated: 3.96254
         Shared: 3.61367
@@ -51660,6 +51816,7 @@ im4gn.8xlarge:
   regions:
     - ap-southeast-2
     - eu-west-1
+    - ap-northeast-1
     - us-west-2
     - us-east-1
     - eu-central-1
@@ -51679,6 +51836,9 @@ im4gn.large:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.23472
+        Shared: 0.21338
       ap-southeast-2:
         Dedicated: 0.23985
         Shared: 0.21804
@@ -51704,6 +51864,9 @@ im4gn.large:
         Dedicated: 0.20009
         Shared: 0.1819
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.29472
+        Shared: 0.27338
       ap-southeast-2:
         Dedicated: 0.29985
         Shared: 0.27804
@@ -51729,6 +51892,9 @@ im4gn.large:
         Dedicated: 0.26009
         Shared: 0.2419
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.32972
+        Shared: 0.30838
       ap-southeast-2:
         Dedicated: 0.33485
         Shared: 0.31304
@@ -51754,6 +51920,9 @@ im4gn.large:
         Dedicated: 0.29509
         Shared: 0.2769
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.29102
+        Shared: 0.26968
       ap-southeast-2:
         Dedicated: 0.29615
         Shared: 0.27434
@@ -51787,6 +51956,7 @@ im4gn.large:
     - eu-west-2
     - eu-west-1
     - us-east-2
+    - ap-northeast-1
   storage: 1 x 937 SSD
   vcpu: 2
 im4gn.xlarge:
@@ -51800,6 +51970,9 @@ im4gn.xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 0.46943
+        Shared: 0.42676
       ap-southeast-2:
         Dedicated: 0.47969
         Shared: 0.43608
@@ -51825,6 +51998,9 @@ im4gn.xlarge:
         Dedicated: 0.40017
         Shared: 0.36379
     RHEL:
+      ap-northeast-1:
+        Dedicated: 0.52943
+        Shared: 0.48676
       ap-southeast-2:
         Dedicated: 0.53969
         Shared: 0.49608
@@ -51850,6 +52026,9 @@ im4gn.xlarge:
         Dedicated: 0.46017
         Shared: 0.42379
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 0.56443
+        Shared: 0.52176
       ap-southeast-2:
         Dedicated: 0.57469
         Shared: 0.53108
@@ -51875,6 +52054,9 @@ im4gn.xlarge:
         Dedicated: 0.49517
         Shared: 0.45879
     SUSE:
+      ap-northeast-1:
+        Dedicated: 0.52573
+        Shared: 0.48306
       ap-southeast-2:
         Dedicated: 0.53599
         Shared: 0.49238
@@ -51902,6 +52084,7 @@ im4gn.xlarge:
   regions:
     - us-east-1
     - ca-central-1
+    - ap-northeast-1
     - us-east-2
     - eu-west-1
     - us-west-2
@@ -53086,6 +53269,8 @@ is4gen.2xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Shared: 1.3566
       ap-southeast-2:
         Shared: 1.3821
       ca-central-1:
@@ -53103,6 +53288,8 @@ is4gen.2xlarge:
       us-west-2:
         Shared: 1.1526
     RHEL:
+      ap-northeast-1:
+        Shared: 1.4866
       ap-southeast-2:
         Shared: 1.5121
       ca-central-1:
@@ -53120,6 +53307,8 @@ is4gen.2xlarge:
       us-west-2:
         Shared: 1.2826
     RHEL_HA:
+      ap-northeast-1:
+        Shared: 1.5216
       ap-southeast-2:
         Shared: 1.5471
       ca-central-1:
@@ -53137,6 +53326,8 @@ is4gen.2xlarge:
       us-west-2:
         Shared: 1.3176
     SUSE:
+      ap-northeast-1:
+        Shared: 1.4816
       ap-southeast-2:
         Shared: 1.5071
       ca-central-1:
@@ -53154,6 +53345,7 @@ is4gen.2xlarge:
       us-west-2:
         Shared: 1.2776
   regions:
+    - ap-northeast-1
     - ap-southeast-2
     - eu-west-1
     - us-east-1
@@ -53175,6 +53367,8 @@ is4gen.4xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Shared: 2.7132
       ap-southeast-2:
         Shared: 2.76421
       ca-central-1:
@@ -53192,6 +53386,8 @@ is4gen.4xlarge:
       us-west-2:
         Shared: 2.3052
     RHEL:
+      ap-northeast-1:
+        Shared: 2.8432
       ap-southeast-2:
         Shared: 2.89421
       ca-central-1:
@@ -53209,6 +53405,8 @@ is4gen.4xlarge:
       us-west-2:
         Shared: 2.4352
     RHEL_HA:
+      ap-northeast-1:
+        Shared: 2.8782
       ap-southeast-2:
         Shared: 2.92921
       ca-central-1:
@@ -53226,6 +53424,8 @@ is4gen.4xlarge:
       us-west-2:
         Shared: 2.4702
     SUSE:
+      ap-northeast-1:
+        Shared: 2.8382
       ap-southeast-2:
         Shared: 2.88921
       ca-central-1:
@@ -53246,6 +53446,7 @@ is4gen.4xlarge:
     - eu-west-1
     - eu-west-2
     - us-east-1
+    - ap-northeast-1
     - us-west-2
     - ca-central-1
     - us-east-2
@@ -53264,6 +53465,8 @@ is4gen.8xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Shared: 5.4264
       ap-southeast-2:
         Shared: 5.52842
       ca-central-1:
@@ -53281,6 +53484,8 @@ is4gen.8xlarge:
       us-west-2:
         Shared: 4.6104
     RHEL:
+      ap-northeast-1:
+        Shared: 5.5564
       ap-southeast-2:
         Shared: 5.65842
       ca-central-1:
@@ -53298,6 +53503,8 @@ is4gen.8xlarge:
       us-west-2:
         Shared: 4.7404
     RHEL_HA:
+      ap-northeast-1:
+        Shared: 5.5914
       ap-southeast-2:
         Shared: 5.69342
       ca-central-1:
@@ -53315,6 +53522,8 @@ is4gen.8xlarge:
       us-west-2:
         Shared: 4.7754
     SUSE:
+      ap-northeast-1:
+        Shared: 5.5514
       ap-southeast-2:
         Shared: 5.65342
       ca-central-1:
@@ -53340,6 +53549,7 @@ is4gen.8xlarge:
     - ca-central-1
     - us-east-2
     - us-east-1
+    - ap-northeast-1
   storage: 4 x 7500 SSD
   vcpu: 32
 is4gen.large:
@@ -53353,6 +53563,8 @@ is4gen.large:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Shared: 0.33915
       ap-southeast-2:
         Shared: 0.34553
       ca-central-1:
@@ -53370,6 +53582,8 @@ is4gen.large:
       us-west-2:
         Shared: 0.28815
     RHEL:
+      ap-northeast-1:
+        Shared: 0.39915
       ap-southeast-2:
         Shared: 0.40553
       ca-central-1:
@@ -53387,6 +53601,8 @@ is4gen.large:
       us-west-2:
         Shared: 0.34815
     RHEL_HA:
+      ap-northeast-1:
+        Shared: 0.43415
       ap-southeast-2:
         Shared: 0.44053
       ca-central-1:
@@ -53404,6 +53620,8 @@ is4gen.large:
       us-west-2:
         Shared: 0.38315
     SUSE:
+      ap-northeast-1:
+        Shared: 0.39545
       ap-southeast-2:
         Shared: 0.40183
       ca-central-1:
@@ -53425,6 +53643,7 @@ is4gen.large:
     - eu-west-2
     - us-east-2
     - us-west-2
+    - ap-northeast-1
     - ca-central-1
     - eu-west-1
     - us-east-1
@@ -53442,6 +53661,8 @@ is4gen.medium:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Shared: 0.16958
       ap-southeast-2:
         Shared: 0.17276
       ca-central-1:
@@ -53459,6 +53680,8 @@ is4gen.medium:
       us-west-2:
         Shared: 0.14408
     RHEL:
+      ap-northeast-1:
+        Shared: 0.22958
       ap-southeast-2:
         Shared: 0.23276
       ca-central-1:
@@ -53476,6 +53699,8 @@ is4gen.medium:
       us-west-2:
         Shared: 0.20408
     RHEL_HA:
+      ap-northeast-1:
+        Shared: 0.26458
       ap-southeast-2:
         Shared: 0.26776
       ca-central-1:
@@ -53493,6 +53718,8 @@ is4gen.medium:
       us-west-2:
         Shared: 0.23908
     SUSE:
+      ap-northeast-1:
+        Shared: 0.22588
       ap-southeast-2:
         Shared: 0.22906
       ca-central-1:
@@ -53514,6 +53741,7 @@ is4gen.medium:
     - us-east-1
     - ca-central-1
     - us-east-2
+    - ap-northeast-1
     - ap-southeast-2
     - eu-west-2
     - us-west-2
@@ -53531,6 +53759,8 @@ is4gen.xlarge:
   physicalProcessor: AWS Graviton2 Processor
   prices:
     Linux:
+      ap-northeast-1:
+        Shared: 0.6783
       ap-southeast-2:
         Shared: 0.69105
       ca-central-1:
@@ -53548,6 +53778,8 @@ is4gen.xlarge:
       us-west-2:
         Shared: 0.5763
     RHEL:
+      ap-northeast-1:
+        Shared: 0.7383
       ap-southeast-2:
         Shared: 0.75105
       ca-central-1:
@@ -53565,6 +53797,8 @@ is4gen.xlarge:
       us-west-2:
         Shared: 0.6363
     RHEL_HA:
+      ap-northeast-1:
+        Shared: 0.7733
       ap-southeast-2:
         Shared: 0.78605
       ca-central-1:
@@ -53582,6 +53816,8 @@ is4gen.xlarge:
       us-west-2:
         Shared: 0.6713
     SUSE:
+      ap-northeast-1:
+        Shared: 0.7346
       ap-southeast-2:
         Shared: 0.74735
       ca-central-1:
@@ -53602,6 +53838,7 @@ is4gen.xlarge:
     - eu-west-1
     - us-east-2
     - eu-west-2
+    - ap-northeast-1
     - us-east-1
     - us-west-2
     - eu-central-1
@@ -101966,6 +102203,7 @@ r5d.large:
     - eu-west-3
     - ap-southeast-1
     - ap-southeast-2
+    - 'us-east-1-mia-1a '
   storage: 1 x 75 NVMe SSD
   vcpu: 2
 r5d.metal:
@@ -102401,6 +102639,7 @@ r5d.metal:
     - us-west-2-lax-1a
     - ap-southeast-2
     - ap-northeast-2
+    - 'us-east-1-mia-1a '
   storage: 4 x 900 NVMe SSD
   vcpu: 96
 r5d.xlarge:
@@ -102836,6 +103075,7 @@ r5d.xlarge:
     - us-gov-west-1
     - Middle East (UAE)
     - us-east-1
+    - 'us-east-1-mia-1a '
   storage: 1 x 150 NVMe SSD
   vcpu: 4
 r5dn.12xlarge:
