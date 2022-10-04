@@ -126163,6 +126163,9 @@ u-12tb1.112xlarge:
   physicalProcessor: Intel Xeon Scalable (Skylake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 131.733
+        Shared: 131.733
       ap-southeast-1:
         Dedicated: 131.733
         Shared: 131.733
@@ -126185,6 +126188,9 @@ u-12tb1.112xlarge:
         Dedicated: 109.2
         Shared: 109.2
     RHEL:
+      ap-northeast-1:
+        Dedicated: 131.863
+        Shared: 131.863
       ap-southeast-1:
         Dedicated: 131.863
         Shared: 131.863
@@ -126207,6 +126213,9 @@ u-12tb1.112xlarge:
         Dedicated: 109.33
         Shared: 109.33
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 131.898
+        Shared: 131.898
       ap-southeast-1:
         Dedicated: 131.898
         Shared: 131.898
@@ -126229,6 +126238,9 @@ u-12tb1.112xlarge:
         Dedicated: 109.365
         Shared: 109.365
     SUSE:
+      ap-northeast-1:
+        Dedicated: 131.858
+        Shared: 131.858
       ap-southeast-1:
         Dedicated: 131.858
         Shared: 131.858
@@ -126251,6 +126263,9 @@ u-12tb1.112xlarge:
         Dedicated: 109.325
         Shared: 109.325
     Windows:
+      ap-northeast-1:
+        Dedicated: 131.733
+        Shared: 131.733
       ap-southeast-1:
         Dedicated: 152.341
         Shared: 152.341
@@ -126273,6 +126288,7 @@ u-12tb1.112xlarge:
         Dedicated: 129.808
         Shared: 109.2
   regions:
+    - ap-northeast-1
     - eu-central-1
     - us-west-2
     - us-east-1
@@ -126347,6 +126363,9 @@ u-3tb1.56xlarge:
   physicalProcessor: Intel Xeon Scalable (Skylake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 36.22663
+        Shared: 32.9333
       ap-southeast-2:
         Dedicated: 35.9865
         Shared: 32.715
@@ -126369,6 +126388,9 @@ u-3tb1.56xlarge:
         Dedicated: 30.03
         Shared: 27.3
     RHEL:
+      ap-northeast-1:
+        Dedicated: 36.35663
+        Shared: 33.0633
       ap-southeast-2:
         Dedicated: 36.1165
         Shared: 32.845
@@ -126391,6 +126413,9 @@ u-3tb1.56xlarge:
         Dedicated: 30.16
         Shared: 27.43
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 36.39163
+        Shared: 33.0983
       ap-southeast-2:
         Dedicated: 36.1515
         Shared: 32.88
@@ -126413,6 +126438,9 @@ u-3tb1.56xlarge:
         Dedicated: 30.195
         Shared: 27.465
     SUSE:
+      ap-northeast-1:
+        Dedicated: 36.35163
+        Shared: 33.0583
       ap-southeast-2:
         Dedicated: 36.1115
         Shared: 32.84
@@ -126435,6 +126463,9 @@ u-3tb1.56xlarge:
         Dedicated: 30.155
         Shared: 27.425
     Windows:
+      ap-northeast-1:
+        Dedicated: 46.53063
+        Shared: 43.2373
       ap-southeast-2:
         Dedicated: 46.2905
         Shared: 32.715
@@ -126458,6 +126489,7 @@ u-3tb1.56xlarge:
         Shared: 37.604
   regions:
     - us-west-2
+    - ap-northeast-1
     - eu-central-1
     - ap-southeast-2
     - eu-west-1
@@ -126475,6 +126507,9 @@ u-6tb1.112xlarge:
   physicalProcessor: Intel Xeon Scalable (Skylake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 65.867
+        Shared: 65.867
       ap-northeast-2:
         Dedicated: 65.867
         Shared: 65.867
@@ -126518,6 +126553,9 @@ u-6tb1.112xlarge:
         Dedicated: 54.6
         Shared: 54.6
     RHEL:
+      ap-northeast-1:
+        Dedicated: 65.997
+        Shared: 65.997
       ap-northeast-2:
         Dedicated: 65.997
         Shared: 65.997
@@ -126561,6 +126599,9 @@ u-6tb1.112xlarge:
         Dedicated: 54.73
         Shared: 54.73
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 66.032
+        Shared: 66.032
       ap-northeast-2:
         Dedicated: 66.032
         Shared: 66.032
@@ -126604,6 +126645,9 @@ u-6tb1.112xlarge:
         Dedicated: 54.765
         Shared: 54.765
     SUSE:
+      ap-northeast-1:
+        Dedicated: 65.992
+        Shared: 65.992
       ap-northeast-2:
         Dedicated: 65.992
         Shared: 65.992
@@ -126647,6 +126691,9 @@ u-6tb1.112xlarge:
         Dedicated: 54.725
         Shared: 54.725
     Windows:
+      ap-northeast-1:
+        Dedicated: 86.475
+        Shared: 65.867
       ap-northeast-2:
         Dedicated: 86.475
         Shared: 65.867
@@ -126694,6 +126741,7 @@ u-6tb1.112xlarge:
     - us-gov-west-1
     - us-east-2
     - us-east-1
+    - ap-northeast-1
     - ap-south-1
     - eu-central-1
     - ap-southeast-1
@@ -126715,6 +126763,9 @@ u-6tb1.56xlarge:
   physicalProcessor: Intel Xeon Scalable (Skylake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 55.9796
+        Shared: 55.9796
       ap-northeast-2:
         Dedicated: 55.9796
         Shared: 55.9796
@@ -126758,6 +126809,9 @@ u-6tb1.56xlarge:
         Dedicated: 46.40391
         Shared: 46.40391
     RHEL:
+      ap-northeast-1:
+        Dedicated: 56.1096
+        Shared: 56.1096
       ap-northeast-2:
         Dedicated: 56.1096
         Shared: 56.1096
@@ -126801,6 +126855,9 @@ u-6tb1.56xlarge:
         Dedicated: 46.53391
         Shared: 46.53391
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 56.1446
+        Shared: 56.1446
       ap-northeast-2:
         Dedicated: 56.1446
         Shared: 56.1446
@@ -126844,6 +126901,9 @@ u-6tb1.56xlarge:
         Dedicated: 46.56891
         Shared: 46.56891
     SUSE:
+      ap-northeast-1:
+        Dedicated: 56.1046
+        Shared: 56.1046
       ap-northeast-2:
         Dedicated: 56.1046
         Shared: 56.1046
@@ -126887,6 +126947,9 @@ u-6tb1.56xlarge:
         Dedicated: 46.52891
         Shared: 46.52891
     Windows:
+      ap-northeast-1:
+        Dedicated: 55.9796
+        Shared: 66.2836
       ap-northeast-2:
         Dedicated: 55.9796
         Shared: 55.9796
@@ -126930,6 +126993,7 @@ u-6tb1.56xlarge:
         Dedicated: 46.40391
         Shared: 46.40391
   regions:
+    - ap-northeast-1
     - eu-north-1
     - ap-southeast-1
     - us-gov-east-1
@@ -126981,6 +127045,9 @@ u-9tb1.112xlarge:
   physicalProcessor: Intel Xeon Scalable (Skylake)
   prices:
     Linux:
+      ap-northeast-1:
+        Dedicated: 98.8
+        Shared: 98.8
       ap-southeast-1:
         Dedicated: 98.8
         Shared: 98.8
@@ -127000,6 +127067,9 @@ u-9tb1.112xlarge:
         Dedicated: 81.9
         Shared: 81.9
     RHEL:
+      ap-northeast-1:
+        Dedicated: 98.93
+        Shared: 98.93
       ap-southeast-1:
         Dedicated: 98.93
         Shared: 98.93
@@ -127019,6 +127089,9 @@ u-9tb1.112xlarge:
         Dedicated: 82.03
         Shared: 82.03
     RHEL_HA:
+      ap-northeast-1:
+        Dedicated: 98.965
+        Shared: 98.965
       ap-southeast-1:
         Dedicated: 98.965
         Shared: 98.965
@@ -127038,6 +127111,9 @@ u-9tb1.112xlarge:
         Dedicated: 82.065
         Shared: 82.065
     SUSE:
+      ap-northeast-1:
+        Dedicated: 98.925
+        Shared: 98.925
       ap-southeast-1:
         Dedicated: 98.925
         Shared: 98.925
@@ -127057,6 +127133,9 @@ u-9tb1.112xlarge:
         Dedicated: 82.025
         Shared: 82.025
     Windows:
+      ap-northeast-1:
+        Dedicated: 98.8
+        Shared: 98.8
       ap-southeast-1:
         Dedicated: 98.8
         Shared: 119.408
@@ -127081,6 +127160,7 @@ u-9tb1.112xlarge:
     - us-gov-west-1
     - eu-central-1
     - us-east-1
+    - ap-northeast-1
     - eu-west-1
   storage: EBS only
   vcpu: 448
