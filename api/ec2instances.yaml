@@ -4772,6 +4772,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.43
         Shared: 0.404
+      India (Delhi):
+        Dedicated: 0.487
+        Shared: 0.459
       me-south-1:
         Dedicated: 0.45
         Shared: 0.422
@@ -4781,6 +4784,9 @@ c5.2xlarge:
       sa-east-1:
         Dedicated: 0.56
         Shared: 0.524
+      Taiwan (Taipei):
+        Dedicated: 0.567
+        Shared: 0.535
       us-east-1:
         Dedicated: 0.36
         Shared: 0.34
@@ -4851,6 +4857,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.56
         Shared: 0.534
+      India (Delhi):
+        Dedicated: 0.617
+        Shared: 0.589
       me-south-1:
         Dedicated: 0.58
         Shared: 0.552
@@ -4860,6 +4869,9 @@ c5.2xlarge:
       sa-east-1:
         Dedicated: 0.69
         Shared: 0.654
+      Taiwan (Taipei):
+        Dedicated: 0.697
+        Shared: 0.665
       us-east-1:
         Dedicated: 0.49
         Shared: 0.47
@@ -4930,6 +4942,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.593
         Shared: 0.569
+      India (Delhi):
+        Dedicated: 0.652
+        Shared: 0.624
       me-south-1:
         Dedicated: 0.613
         Shared: 0.587
@@ -4939,6 +4954,9 @@ c5.2xlarge:
       sa-east-1:
         Dedicated: 0.72
         Shared: 0.689
+      Taiwan (Taipei):
+        Dedicated: 0.732
+        Shared: 0.7
       us-east-1:
         Dedicated: 0.525
         Shared: 0.505
@@ -5009,6 +5027,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.53
         Shared: 0.504
+      India (Delhi):
+        Dedicated: 0.612
+        Shared: 0.584
       me-south-1:
         Dedicated: 0.55
         Shared: 0.522
@@ -5018,6 +5039,9 @@ c5.2xlarge:
       sa-east-1:
         Dedicated: 0.66
         Shared: 0.624
+      Taiwan (Taipei):
+        Dedicated: 0.692
+        Shared: 0.66
       us-east-1:
         Dedicated: 0.46
         Shared: 0.44
@@ -5088,6 +5112,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.798
         Shared: 0.772
+      India (Delhi):
+        Dedicated: 0.487
+        Shared: 0.459
       me-south-1:
         Dedicated: 0.45
         Shared: 0.422
@@ -5097,6 +5124,9 @@ c5.2xlarge:
       sa-east-1:
         Dedicated: 0.928
         Shared: 0.892
+      Taiwan (Taipei):
+        Dedicated: 0.935
+        Shared: 0.903
       us-east-1:
         Dedicated: 0.36
         Shared: 0.34
@@ -5127,6 +5157,7 @@ c5.2xlarge:
     - ap-south-1
     - ap-northeast-1
     - ca-central-1
+    - India (Delhi)
     - ap-southeast-3
     - us-west-1
     - eu-west-3
@@ -5144,6 +5175,7 @@ c5.2xlarge:
     - me-south-1
     - ap-southeast-2
     - Asia Pacific (Osaka)
+    - Taiwan (Taipei)
     - eu-west-1
   storage: EBS only
   vcpu: 8
@@ -37509,12 +37541,18 @@ g4dn.2xlarge:
         Shared: 1.144
       Europe (Vodafone) - Munich:
         Shared: 1.222
+      India (Delhi):
+        Dedicated: 1.272
+        Shared: 1.2
       me-south-1:
         Dedicated: 0.982
         Shared: 0.922
       sa-east-1:
         Dedicated: 1.361
         Shared: 1.278
+      Taiwan (Taipei):
+        Dedicated: 1.46
+        Shared: 1.371
       US East (Atlanta):
         Dedicated: 1.076
         Shared: 1.015
@@ -37683,12 +37721,18 @@ g4dn.2xlarge:
         Shared: 1.274
       Europe (Vodafone) - Munich:
         Shared: 1.352
+      India (Delhi):
+        Dedicated: 1.402
+        Shared: 1.33
       me-south-1:
         Dedicated: 1.112
         Shared: 1.052
       sa-east-1:
         Dedicated: 1.491
         Shared: 1.408
+      Taiwan (Taipei):
+        Dedicated: 1.59
+        Shared: 1.501
       US East (Atlanta):
         Dedicated: 1.206
         Shared: 1.145
@@ -37857,12 +37901,18 @@ g4dn.2xlarge:
         Shared: 1.309
       Europe (Vodafone) - Munich:
         Shared: 1.387
+      India (Delhi):
+        Dedicated: 1.437
+        Shared: 1.365
       me-south-1:
         Dedicated: 1.147
         Shared: 1.087
       sa-east-1:
         Dedicated: 1.526
         Shared: 1.443
+      Taiwan (Taipei):
+        Dedicated: 1.625
+        Shared: 1.536
       US East (Atlanta):
         Dedicated: 1.241
         Shared: 1.18
@@ -38031,12 +38081,18 @@ g4dn.2xlarge:
         Shared: 1.269
       Europe (Vodafone) - Munich:
         Shared: 1.347
+      India (Delhi):
+        Dedicated: 1.397
+        Shared: 1.325
       me-south-1:
         Dedicated: 1.107
         Shared: 1.047
       sa-east-1:
         Dedicated: 1.486
         Shared: 1.403
+      Taiwan (Taipei):
+        Dedicated: 1.585
+        Shared: 1.496
       US East (Atlanta):
         Dedicated: 1.201
         Shared: 1.14
@@ -38205,12 +38261,18 @@ g4dn.2xlarge:
         Shared: 1.512
       Europe (Vodafone) - Munich:
         Shared: 1.222
+      India (Delhi):
+        Dedicated: 1.64
+        Shared: 1.2
       me-south-1:
         Dedicated: 1.35
         Shared: 1.29
       sa-east-1:
         Dedicated: 1.729
         Shared: 1.646
+      Taiwan (Taipei):
+        Dedicated: 1.828
+        Shared: 1.739
       US East (Atlanta):
         Dedicated: 1.444
         Shared: 1.383
@@ -38328,6 +38390,7 @@ g4dn.2xlarge:
     - US East (Verizon) - Tampa
     - us-east-1
     - us-west-2-lax-1a
+    - India (Delhi)
     - Asia Pacific (KDDI) - Osaka
     - US West (Verizon) - Phoenix
     - us-west-1
@@ -38378,6 +38441,7 @@ g4dn.2xlarge:
     - ap-east-1
     - US West (Verizon) - San Francisco Bay Area
     - Asia Pacific (SKT) - Daejeon
+    - Taiwan (Taipei)
     - eu-central-1
     - US West (Verizon) - Los Angeles
     - US West (Las Vegas)
@@ -58429,6 +58493,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.478
         Shared: 0.448
+      India (Delhi):
+        Dedicated: 0.578
+        Shared: 0.545
       me-south-1:
         Dedicated: 0.502
         Shared: 0.471
@@ -58438,6 +58505,9 @@ m5.2xlarge:
       sa-east-1:
         Dedicated: 0.646
         Shared: 0.612
+      Taiwan (Taipei):
+        Dedicated: 0.657
+        Shared: 0.62
       us-east-1:
         Dedicated: 0.407
         Shared: 0.384
@@ -58508,6 +58578,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.608
         Shared: 0.578
+      India (Delhi):
+        Dedicated: 0.708
+        Shared: 0.675
       me-south-1:
         Dedicated: 0.632
         Shared: 0.601
@@ -58517,6 +58590,9 @@ m5.2xlarge:
       sa-east-1:
         Dedicated: 0.776
         Shared: 0.742
+      Taiwan (Taipei):
+        Dedicated: 0.787
+        Shared: 0.75
       us-east-1:
         Dedicated: 0.537
         Shared: 0.514
@@ -58587,6 +58663,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.64
         Shared: 0.613
+      India (Delhi):
+        Dedicated: 0.743
+        Shared: 0.71
       me-south-1:
         Dedicated: 0.664
         Shared: 0.636
@@ -58596,6 +58675,9 @@ m5.2xlarge:
       sa-east-1:
         Dedicated: 0.811
         Shared: 0.777
+      Taiwan (Taipei):
+        Dedicated: 0.822
+        Shared: 0.785
       us-east-1:
         Dedicated: 0.572
         Shared: 0.549
@@ -58666,6 +58748,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.578
         Shared: 0.548
+      India (Delhi):
+        Dedicated: 0.703
+        Shared: 0.67
       me-south-1:
         Dedicated: 0.602
         Shared: 0.571
@@ -58675,6 +58760,9 @@ m5.2xlarge:
       sa-east-1:
         Dedicated: 0.746
         Shared: 0.712
+      Taiwan (Taipei):
+        Dedicated: 0.782
+        Shared: 0.745
       us-east-1:
         Dedicated: 0.507
         Shared: 0.484
@@ -58745,6 +58833,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.478
         Shared: 0.816
+      India (Delhi):
+        Dedicated: 0.578
+        Shared: 0.545
       me-south-1:
         Dedicated: 0.87
         Shared: 0.471
@@ -58754,6 +58845,9 @@ m5.2xlarge:
       sa-east-1:
         Dedicated: 1.014
         Shared: 0.98
+      Taiwan (Taipei):
+        Dedicated: 1.025
+        Shared: 0.988
       us-east-1:
         Dedicated: 0.407
         Shared: 0.384
@@ -58780,6 +58874,7 @@ m5.2xlarge:
     - ap-southeast-2
     - us-west-1
     - eu-west-1
+    - India (Delhi)
     - Middle East (UAE)
     - eu-north-1
     - us-gov-east-1
@@ -58789,6 +58884,7 @@ m5.2xlarge:
     - af-south-1
     - sa-east-1
     - ap-southeast-1
+    - Taiwan (Taipei)
     - us-gov-west-1
     - us-east-1
     - us-east-2
@@ -89544,6 +89640,9 @@ r5.2xlarge:
         Shared: 0.74
       Europe (Vodafone) - Munich:
         Shared: 0.76
+      India (Delhi):
+        Dedicated: 0.744
+        Shared: 0.702
       me-south-1:
         Dedicated: 0.658
         Shared: 0.62
@@ -89553,6 +89652,9 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 0.852
         Shared: 0.804
+      Taiwan (Taipei):
+        Dedicated: 0.806
+        Shared: 0.76
       US East (Verizon) - Atlanta:
         Shared: 0.68
       US East (Verizon) - Boston:
@@ -89679,6 +89781,9 @@ r5.2xlarge:
         Shared: 0.87
       Europe (Vodafone) - Munich:
         Shared: 0.89
+      India (Delhi):
+        Dedicated: 0.874
+        Shared: 0.832
       me-south-1:
         Dedicated: 0.788
         Shared: 0.75
@@ -89688,6 +89793,9 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 0.982
         Shared: 0.934
+      Taiwan (Taipei):
+        Dedicated: 0.936
+        Shared: 0.89
       US East (Verizon) - Atlanta:
         Shared: 0.81
       US East (Verizon) - Boston:
@@ -89814,6 +89922,9 @@ r5.2xlarge:
         Shared: 0.905
       Europe (Vodafone) - Munich:
         Shared: 0.925
+      India (Delhi):
+        Dedicated: 0.909
+        Shared: 0.867
       me-south-1:
         Dedicated: 0.823
         Shared: 0.785
@@ -89823,6 +89934,9 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 1.017
         Shared: 0.969
+      Taiwan (Taipei):
+        Dedicated: 0.971
+        Shared: 0.925
       US East (Verizon) - Atlanta:
         Shared: 0.845
       US East (Verizon) - Boston:
@@ -89949,6 +90063,9 @@ r5.2xlarge:
         Shared: 0.865
       Europe (Vodafone) - Munich:
         Shared: 0.885
+      India (Delhi):
+        Dedicated: 0.869
+        Shared: 0.827
       me-south-1:
         Dedicated: 0.783
         Shared: 0.745
@@ -89958,6 +90075,9 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 0.977
         Shared: 0.929
+      Taiwan (Taipei):
+        Dedicated: 0.931
+        Shared: 0.885
       US East (Verizon) - Atlanta:
         Shared: 0.805
       US East (Verizon) - Boston:
@@ -90084,6 +90204,9 @@ r5.2xlarge:
         Shared: 1.108
       Europe (Vodafone) - Munich:
         Shared: 0.76
+      India (Delhi):
+        Dedicated: 0.744
+        Shared: 0.702
       me-south-1:
         Dedicated: 0.658
         Shared: 0.988
@@ -90093,6 +90216,9 @@ r5.2xlarge:
       sa-east-1:
         Dedicated: 1.22
         Shared: 0.804
+      Taiwan (Taipei):
+        Dedicated: 0.806
+        Shared: 1.128
       US East (Verizon) - Atlanta:
         Shared: 1.048
       US East (Verizon) - Boston:
@@ -90174,6 +90300,7 @@ r5.2xlarge:
     - US West (Verizon) - Phoenix
     - Europe (Vodafone) - London
     - US East (Verizon) - Dallas
+    - India (Delhi)
     - sa-east-1
     - eu-south-1
     - US East (Verizon) - Washington DC
@@ -90188,6 +90315,7 @@ r5.2xlarge:
     - ap-northeast-2
     - US East (Verizon) - Chicago
     - ap-southeast-1
+    - Taiwan (Taipei)
     - ap-east-1
     - af-south-1
     - ap-southeast-2
