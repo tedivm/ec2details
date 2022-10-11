@@ -126282,6 +126282,52 @@ t4g.xlarge:
     - eu-west-2
   storage: EBS only
   vcpu: 4
+trn1.2xlarge:
+  clockSpeed: Up to 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 20 Gbps
+  ecu: .nan
+  enhancedNetworkingSupported: true
+  memory: 32 GiB
+  networkPerformance: 12500 Megabit
+  normalizationSizeFactor: 16
+  physicalProcessor: Intel Xeon Scalable (Icelake)
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 1.47813
+        Shared: 1.34375
+      us-west-2:
+        Dedicated: 1.47813
+        Shared: 1.34375
+  regions:
+    - us-west-2
+    - us-east-1
+  storage: 1 x 475 NVMe SSD
+  vcpu: 8
+trn1.32xlarge:
+  clockSpeed: Up to 3.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: Up to 80 Gbps
+  ecu: .nan
+  enhancedNetworkingSupported: true
+  memory: 512 GiB
+  networkPerformance: 800 Gigabit
+  normalizationSizeFactor: 256
+  physicalProcessor: Intel Xeon Scalable (Icelake)
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 23.65
+        Shared: 21.5
+      us-west-2:
+        Dedicated: 23.65
+        Shared: 21.5
+  regions:
+    - us-west-2
+    - us-east-1
+  storage: 4 x 1900 NVMe SSD
+  vcpu: 128
 u-12tb1.112xlarge:
   currentGeneration: true
   dedicatedEbsThroughput: 38000 Mbps
