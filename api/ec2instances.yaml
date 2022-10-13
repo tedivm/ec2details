@@ -36760,6 +36760,7 @@ g4dn.12xlarge:
   gpu: 4
   memory: 192 GiB
   networkPerformance: 50 Gigabit
+  normalizationSizeFactor: 7
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
@@ -37164,6 +37165,7 @@ g4dn.16xlarge:
   gpu: 1
   memory: 256 GiB
   networkPerformance: 50 Gigabit
+  normalizationSizeFactor: 8
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
@@ -37579,6 +37581,7 @@ g4dn.2xlarge:
   gpu: 1
   memory: 32 GiB
   networkPerformance: Up to 25 Gigabit
+  normalizationSizeFactor: 1
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
@@ -38561,6 +38564,7 @@ g4dn.4xlarge:
   gpu: 1
   memory: 64 GiB
   networkPerformance: Up to 25 Gigabit
+  normalizationSizeFactor: 2
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
@@ -38966,6 +38970,7 @@ g4dn.8xlarge:
   gpu: 1
   memory: 128 GiB
   networkPerformance: 50 Gigabit
+  normalizationSizeFactor: 4
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
@@ -39371,6 +39376,7 @@ g4dn.metal:
   gpu: 8
   memory: 384 GiB
   networkPerformance: 100 Gigabit
+  normalizationSizeFactor: 14
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
@@ -39771,6 +39777,7 @@ g4dn.xlarge:
   gpu: 1
   memory: 16 GiB
   networkPerformance: Up to 25 Gigabit
+  normalizationSizeFactor: 1
   physicalProcessor: Intel Xeon Family
   prices:
     Linux:
@@ -126459,6 +126466,9 @@ u-12tb1.112xlarge:
       us-east-2:
         Dedicated: 109.2
         Shared: 109.2
+      us-gov-east-1:
+        Dedicated: 130.867
+        Shared: 130.867
       us-gov-west-1:
         Dedicated: 130.867
         Shared: 130.867
@@ -126484,6 +126494,9 @@ u-12tb1.112xlarge:
       us-east-2:
         Dedicated: 109.33
         Shared: 109.33
+      us-gov-east-1:
+        Dedicated: 130.997
+        Shared: 130.997
       us-gov-west-1:
         Dedicated: 130.997
         Shared: 130.997
@@ -126509,6 +126522,9 @@ u-12tb1.112xlarge:
       us-east-2:
         Dedicated: 109.365
         Shared: 109.365
+      us-gov-east-1:
+        Dedicated: 131.032
+        Shared: 131.032
       us-gov-west-1:
         Dedicated: 131.032
         Shared: 131.032
@@ -126534,6 +126550,9 @@ u-12tb1.112xlarge:
       us-east-2:
         Dedicated: 109.325
         Shared: 109.325
+      us-gov-east-1:
+        Dedicated: 130.992
+        Shared: 130.992
       us-gov-west-1:
         Dedicated: 130.992
         Shared: 130.992
@@ -126559,6 +126578,9 @@ u-12tb1.112xlarge:
       us-east-2:
         Dedicated: 129.808
         Shared: 129.808
+      us-gov-east-1:
+        Dedicated: 151.475
+        Shared: 130.867
       us-gov-west-1:
         Dedicated: 130.867
         Shared: 130.867
@@ -126568,6 +126590,7 @@ u-12tb1.112xlarge:
   regions:
     - ap-northeast-1
     - eu-central-1
+    - us-gov-east-1
     - us-west-2
     - us-east-1
     - us-east-2
@@ -126644,9 +126667,15 @@ u-3tb1.56xlarge:
       ap-northeast-1:
         Dedicated: 36.22663
         Shared: 32.9333
+      ap-southeast-1:
+        Dedicated: 36.223
+        Shared: 32.93
       ap-southeast-2:
         Dedicated: 35.9865
         Shared: 32.715
+      ca-central-1:
+        Dedicated: 32.89
+        Shared: 29.9
       eu-central-1:
         Dedicated: 36.22685
         Shared: 32.9335
@@ -126669,9 +126698,15 @@ u-3tb1.56xlarge:
       ap-northeast-1:
         Dedicated: 36.35663
         Shared: 33.0633
+      ap-southeast-1:
+        Dedicated: 36.353
+        Shared: 33.06
       ap-southeast-2:
         Dedicated: 36.1165
         Shared: 32.845
+      ca-central-1:
+        Dedicated: 33.02
+        Shared: 30.03
       eu-central-1:
         Dedicated: 36.35685
         Shared: 33.0635
@@ -126694,9 +126729,15 @@ u-3tb1.56xlarge:
       ap-northeast-1:
         Dedicated: 36.39163
         Shared: 33.0983
+      ap-southeast-1:
+        Dedicated: 36.388
+        Shared: 33.095
       ap-southeast-2:
         Dedicated: 36.1515
         Shared: 32.88
+      ca-central-1:
+        Dedicated: 33.055
+        Shared: 30.065
       eu-central-1:
         Dedicated: 36.39185
         Shared: 33.0985
@@ -126719,9 +126760,15 @@ u-3tb1.56xlarge:
       ap-northeast-1:
         Dedicated: 36.35163
         Shared: 33.0583
+      ap-southeast-1:
+        Dedicated: 36.348
+        Shared: 33.055
       ap-southeast-2:
         Dedicated: 36.1115
         Shared: 32.84
+      ca-central-1:
+        Dedicated: 33.015
+        Shared: 30.025
       eu-central-1:
         Dedicated: 36.35185
         Shared: 33.0585
@@ -126744,9 +126791,15 @@ u-3tb1.56xlarge:
       ap-northeast-1:
         Dedicated: 46.53063
         Shared: 43.2373
+      ap-southeast-1:
+        Dedicated: 36.223
+        Shared: 43.234
       ap-southeast-2:
         Dedicated: 46.2905
         Shared: 32.715
+      ca-central-1:
+        Dedicated: 43.194
+        Shared: 40.204
       eu-central-1:
         Dedicated: 46.53085
         Shared: 32.9335
@@ -126766,7 +126819,9 @@ u-3tb1.56xlarge:
         Dedicated: 40.334
         Shared: 37.604
   regions:
+    - ap-southeast-1
     - us-west-2
+    - ca-central-1
     - ap-northeast-1
     - eu-central-1
     - ap-southeast-2
@@ -126800,6 +126855,9 @@ u-6tb1.112xlarge:
       ap-southeast-2:
         Dedicated: 65.433
         Shared: 65.433
+      ca-central-1:
+        Dedicated: 59.8
+        Shared: 59.8
       eu-central-1:
         Dedicated: 65.867
         Shared: 65.867
@@ -126846,6 +126904,9 @@ u-6tb1.112xlarge:
       ap-southeast-2:
         Dedicated: 65.563
         Shared: 65.563
+      ca-central-1:
+        Dedicated: 59.93
+        Shared: 59.93
       eu-central-1:
         Dedicated: 65.997
         Shared: 65.997
@@ -126892,6 +126953,9 @@ u-6tb1.112xlarge:
       ap-southeast-2:
         Dedicated: 65.598
         Shared: 65.598
+      ca-central-1:
+        Dedicated: 59.965
+        Shared: 59.965
       eu-central-1:
         Dedicated: 66.032
         Shared: 66.032
@@ -126938,6 +127002,9 @@ u-6tb1.112xlarge:
       ap-southeast-2:
         Dedicated: 65.558
         Shared: 65.558
+      ca-central-1:
+        Dedicated: 59.925
+        Shared: 59.925
       eu-central-1:
         Dedicated: 65.992
         Shared: 65.992
@@ -126984,6 +127051,9 @@ u-6tb1.112xlarge:
       ap-southeast-2:
         Dedicated: 86.041
         Shared: 86.041
+      ca-central-1:
+        Dedicated: 59.8
+        Shared: 80.408
       eu-central-1:
         Dedicated: 65.867
         Shared: 86.475
@@ -127016,6 +127086,7 @@ u-6tb1.112xlarge:
         Shared: 75.208
   regions:
     - us-gov-east-1
+    - ca-central-1
     - us-gov-west-1
     - us-east-2
     - us-east-1
@@ -127056,6 +127127,9 @@ u-6tb1.56xlarge:
       ap-southeast-2:
         Dedicated: 55.61075
         Shared: 55.61075
+      ca-central-1:
+        Dedicated: 50.82333
+        Shared: 50.82333
       eu-central-1:
         Dedicated: 55.9796
         Shared: 55.9796
@@ -127102,6 +127176,9 @@ u-6tb1.56xlarge:
       ap-southeast-2:
         Dedicated: 55.74075
         Shared: 55.74075
+      ca-central-1:
+        Dedicated: 50.95333
+        Shared: 50.95333
       eu-central-1:
         Dedicated: 56.1096
         Shared: 56.1096
@@ -127148,6 +127225,9 @@ u-6tb1.56xlarge:
       ap-southeast-2:
         Dedicated: 55.77575
         Shared: 55.77575
+      ca-central-1:
+        Dedicated: 50.98833
+        Shared: 50.98833
       eu-central-1:
         Dedicated: 56.1446
         Shared: 56.1446
@@ -127194,6 +127274,9 @@ u-6tb1.56xlarge:
       ap-southeast-2:
         Dedicated: 55.73575
         Shared: 55.73575
+      ca-central-1:
+        Dedicated: 50.94833
+        Shared: 50.94833
       eu-central-1:
         Dedicated: 56.1046
         Shared: 56.1046
@@ -127240,6 +127323,9 @@ u-6tb1.56xlarge:
       ap-southeast-2:
         Dedicated: 65.91475
         Shared: 55.61075
+      ca-central-1:
+        Dedicated: 50.82333
+        Shared: 50.82333
       eu-central-1:
         Dedicated: 55.9796
         Shared: 66.2836
@@ -127279,6 +127365,7 @@ u-6tb1.56xlarge:
     - eu-central-1
     - eu-west-3
     - us-gov-west-1
+    - ca-central-1
     - eu-west-1
     - us-east-1
     - us-east-2
@@ -127300,6 +127387,7 @@ u-6tb1.metal:
     - us-east-2
     - ap-southeast-2
     - us-gov-west-1
+    - ca-central-1
     - us-west-2
     - sa-east-1
     - ap-south-1
