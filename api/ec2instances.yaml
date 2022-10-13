@@ -24432,6 +24432,9 @@ c6gn.12xlarge:
       ap-southeast-2:
         Dedicated: 2.9832
         Shared: 2.712
+      Asia Pacific (Osaka):
+        Dedicated: 2.88341
+        Shared: 2.62128
       ca-central-1:
         Dedicated: 2.49744
         Shared: 2.2704
@@ -24490,6 +24493,9 @@ c6gn.12xlarge:
       ap-southeast-2:
         Dedicated: 3.1132
         Shared: 2.842
+      Asia Pacific (Osaka):
+        Dedicated: 3.01341
+        Shared: 2.75128
       ca-central-1:
         Dedicated: 2.62744
         Shared: 2.4004
@@ -24548,6 +24554,9 @@ c6gn.12xlarge:
       ap-southeast-2:
         Dedicated: 3.1482
         Shared: 2.877
+      Asia Pacific (Osaka):
+        Dedicated: 3.04841
+        Shared: 2.78628
       ca-central-1:
         Dedicated: 2.66244
         Shared: 2.4354
@@ -24606,6 +24615,9 @@ c6gn.12xlarge:
       ap-southeast-2:
         Dedicated: 3.1082
         Shared: 2.837
+      Asia Pacific (Osaka):
+        Dedicated: 3.00841
+        Shared: 2.74628
       ca-central-1:
         Dedicated: 2.62244
         Shared: 2.3954
@@ -24665,6 +24677,7 @@ c6gn.12xlarge:
     - ap-northeast-2
     - ap-southeast-1
     - ap-northeast-1
+    - Asia Pacific (Osaka)
   storage: EBS only
   vcpu: 48
 c6gn.16xlarge:
@@ -24696,6 +24709,9 @@ c6gn.16xlarge:
       ap-southeast-2:
         Dedicated: 3.9776
         Shared: 3.616
+      Asia Pacific (Osaka):
+        Dedicated: 3.84454
+        Shared: 3.49504
       ca-central-1:
         Dedicated: 3.32992
         Shared: 3.0272
@@ -24754,6 +24770,9 @@ c6gn.16xlarge:
       ap-southeast-2:
         Dedicated: 4.1076
         Shared: 3.746
+      Asia Pacific (Osaka):
+        Dedicated: 3.97454
+        Shared: 3.62504
       ca-central-1:
         Dedicated: 3.45992
         Shared: 3.1572
@@ -24812,6 +24831,9 @@ c6gn.16xlarge:
       ap-southeast-2:
         Dedicated: 4.1426
         Shared: 3.781
+      Asia Pacific (Osaka):
+        Dedicated: 4.00954
+        Shared: 3.66004
       ca-central-1:
         Dedicated: 3.49492
         Shared: 3.1922
@@ -24870,6 +24892,9 @@ c6gn.16xlarge:
       ap-southeast-2:
         Dedicated: 4.1026
         Shared: 3.741
+      Asia Pacific (Osaka):
+        Dedicated: 3.96954
+        Shared: 3.62004
       ca-central-1:
         Dedicated: 3.45492
         Shared: 3.1522
@@ -24920,6 +24945,7 @@ c6gn.16xlarge:
     - eu-west-1
     - ap-northeast-1
     - ap-southeast-1
+    - Asia Pacific (Osaka)
     - us-east-1
     - eu-north-1
     - ca-central-1
@@ -24960,6 +24986,9 @@ c6gn.2xlarge:
       ap-southeast-2:
         Dedicated: 0.4972
         Shared: 0.452
+      Asia Pacific (Osaka):
+        Dedicated: 0.48057
+        Shared: 0.43688
       ca-central-1:
         Dedicated: 0.41624
         Shared: 0.3784
@@ -25018,6 +25047,9 @@ c6gn.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6272
         Shared: 0.582
+      Asia Pacific (Osaka):
+        Dedicated: 0.61057
+        Shared: 0.56688
       ca-central-1:
         Dedicated: 0.54624
         Shared: 0.5084
@@ -25076,6 +25108,9 @@ c6gn.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6622
         Shared: 0.617
+      Asia Pacific (Osaka):
+        Dedicated: 0.64557
+        Shared: 0.60188
       ca-central-1:
         Dedicated: 0.58124
         Shared: 0.5434
@@ -25134,6 +25169,9 @@ c6gn.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6222
         Shared: 0.577
+      Asia Pacific (Osaka):
+        Dedicated: 0.60557
+        Shared: 0.56188
       ca-central-1:
         Dedicated: 0.54124
         Shared: 0.5034
@@ -25189,6 +25227,7 @@ c6gn.2xlarge:
     - ap-southeast-1
     - us-west-1
     - us-west-2
+    - Asia Pacific (Osaka)
     - ap-south-1
     - us-east-2
     - ca-central-1
@@ -25224,6 +25263,9 @@ c6gn.4xlarge:
       ap-southeast-2:
         Dedicated: 0.9944
         Shared: 0.904
+      Asia Pacific (Osaka):
+        Dedicated: 0.96114
+        Shared: 0.87376
       ca-central-1:
         Dedicated: 0.83248
         Shared: 0.7568
@@ -25282,6 +25324,9 @@ c6gn.4xlarge:
       ap-southeast-2:
         Dedicated: 1.1244
         Shared: 1.034
+      Asia Pacific (Osaka):
+        Dedicated: 1.09114
+        Shared: 1.00376
       ca-central-1:
         Dedicated: 0.96248
         Shared: 0.8868
@@ -25340,6 +25385,9 @@ c6gn.4xlarge:
       ap-southeast-2:
         Dedicated: 1.1594
         Shared: 1.069
+      Asia Pacific (Osaka):
+        Dedicated: 1.12614
+        Shared: 1.03876
       ca-central-1:
         Dedicated: 0.99748
         Shared: 0.9218
@@ -25398,6 +25446,9 @@ c6gn.4xlarge:
       ap-southeast-2:
         Dedicated: 1.1194
         Shared: 1.029
+      Asia Pacific (Osaka):
+        Dedicated: 1.08614
+        Shared: 0.99876
       ca-central-1:
         Dedicated: 0.95748
         Shared: 0.8818
@@ -25443,6 +25494,7 @@ c6gn.4xlarge:
     - us-east-1
     - eu-south-1
     - eu-north-1
+    - Asia Pacific (Osaka)
     - eu-west-1
     - sa-east-1
     - us-west-2
@@ -25488,6 +25540,9 @@ c6gn.8xlarge:
       ap-southeast-2:
         Dedicated: 1.9888
         Shared: 1.808
+      Asia Pacific (Osaka):
+        Dedicated: 1.92227
+        Shared: 1.74752
       ca-central-1:
         Dedicated: 1.66496
         Shared: 1.5136
@@ -25546,6 +25601,9 @@ c6gn.8xlarge:
       ap-southeast-2:
         Dedicated: 2.1188
         Shared: 1.938
+      Asia Pacific (Osaka):
+        Dedicated: 2.05227
+        Shared: 1.87752
       ca-central-1:
         Dedicated: 1.79496
         Shared: 1.6436
@@ -25604,6 +25662,9 @@ c6gn.8xlarge:
       ap-southeast-2:
         Dedicated: 2.1538
         Shared: 1.973
+      Asia Pacific (Osaka):
+        Dedicated: 2.08727
+        Shared: 1.91252
       ca-central-1:
         Dedicated: 1.82996
         Shared: 1.6786
@@ -25662,6 +25723,9 @@ c6gn.8xlarge:
       ap-southeast-2:
         Dedicated: 2.1138
         Shared: 1.933
+      Asia Pacific (Osaka):
+        Dedicated: 2.04727
+        Shared: 1.87252
       ca-central-1:
         Dedicated: 1.78996
         Shared: 1.6386
@@ -25710,6 +25774,7 @@ c6gn.8xlarge:
     - sa-east-1
     - us-west-2
     - ap-northeast-2
+    - Asia Pacific (Osaka)
     - us-west-1
     - me-south-1
     - eu-west-3
@@ -25752,6 +25817,9 @@ c6gn.large:
       ap-southeast-2:
         Dedicated: 0.1243
         Shared: 0.113
+      Asia Pacific (Osaka):
+        Dedicated: 0.12014
+        Shared: 0.10922
       ca-central-1:
         Dedicated: 0.10406
         Shared: 0.0946
@@ -25810,6 +25878,9 @@ c6gn.large:
       ap-southeast-2:
         Dedicated: 0.1843
         Shared: 0.173
+      Asia Pacific (Osaka):
+        Dedicated: 0.18014
+        Shared: 0.16922
       ca-central-1:
         Dedicated: 0.16406
         Shared: 0.1546
@@ -25868,6 +25939,9 @@ c6gn.large:
       ap-southeast-2:
         Dedicated: 0.2193
         Shared: 0.208
+      Asia Pacific (Osaka):
+        Dedicated: 0.21514
+        Shared: 0.20422
       ca-central-1:
         Dedicated: 0.19906
         Shared: 0.1896
@@ -25926,6 +26000,9 @@ c6gn.large:
       ap-southeast-2:
         Dedicated: 0.1806
         Shared: 0.1693
+      Asia Pacific (Osaka):
+        Dedicated: 0.17644
+        Shared: 0.16552
       ca-central-1:
         Dedicated: 0.16036
         Shared: 0.1509
@@ -25984,6 +26061,7 @@ c6gn.large:
     - eu-south-1
     - ap-south-1
     - us-west-1
+    - Asia Pacific (Osaka)
     - ca-central-1
   storage: EBS only
   vcpu: 2
@@ -26016,6 +26094,9 @@ c6gn.medium:
       ap-southeast-2:
         Dedicated: 0.06215
         Shared: 0.0565
+      Asia Pacific (Osaka):
+        Dedicated: 0.06007
+        Shared: 0.05461
       ca-central-1:
         Dedicated: 0.05203
         Shared: 0.0473
@@ -26074,6 +26155,9 @@ c6gn.medium:
       ap-southeast-2:
         Dedicated: 0.12215
         Shared: 0.1165
+      Asia Pacific (Osaka):
+        Dedicated: 0.12007
+        Shared: 0.11461
       ca-central-1:
         Dedicated: 0.11203
         Shared: 0.1073
@@ -26132,6 +26216,9 @@ c6gn.medium:
       ap-southeast-2:
         Dedicated: 0.15715
         Shared: 0.1515
+      Asia Pacific (Osaka):
+        Dedicated: 0.15507
+        Shared: 0.14961
       ca-central-1:
         Dedicated: 0.14703
         Shared: 0.1423
@@ -26190,6 +26277,9 @@ c6gn.medium:
       ap-southeast-2:
         Dedicated: 0.09315
         Shared: 0.0875
+      Asia Pacific (Osaka):
+        Dedicated: 0.11637
+        Shared: 0.11091
       ca-central-1:
         Dedicated: 0.08303
         Shared: 0.0783
@@ -26233,6 +26323,7 @@ c6gn.medium:
     - us-east-2
     - eu-south-1
     - eu-north-1
+    - Asia Pacific (Osaka)
     - ap-northeast-2
     - ap-northeast-1
     - ap-southeast-1
@@ -26280,6 +26371,9 @@ c6gn.xlarge:
       ap-southeast-2:
         Dedicated: 0.2486
         Shared: 0.226
+      Asia Pacific (Osaka):
+        Dedicated: 0.24028
+        Shared: 0.21844
       ca-central-1:
         Dedicated: 0.20812
         Shared: 0.1892
@@ -26338,6 +26432,9 @@ c6gn.xlarge:
       ap-southeast-2:
         Dedicated: 0.3086
         Shared: 0.286
+      Asia Pacific (Osaka):
+        Dedicated: 0.30028
+        Shared: 0.27844
       ca-central-1:
         Dedicated: 0.26812
         Shared: 0.2492
@@ -26396,6 +26493,9 @@ c6gn.xlarge:
       ap-southeast-2:
         Dedicated: 0.3436
         Shared: 0.321
+      Asia Pacific (Osaka):
+        Dedicated: 0.33528
+        Shared: 0.31344
       ca-central-1:
         Dedicated: 0.30312
         Shared: 0.2842
@@ -26454,6 +26554,9 @@ c6gn.xlarge:
       ap-southeast-2:
         Dedicated: 0.3049
         Shared: 0.2823
+      Asia Pacific (Osaka):
+        Dedicated: 0.29658
+        Shared: 0.27474
       ca-central-1:
         Dedicated: 0.26442
         Shared: 0.2455
@@ -26506,6 +26609,7 @@ c6gn.xlarge:
     - ap-southeast-1
     - us-east-2
     - eu-south-1
+    - Asia Pacific (Osaka)
     - ap-east-1
     - ap-northeast-1
     - sa-east-1
@@ -126498,7 +126602,7 @@ u-12tb1.metal:
   vcpu: 448
 u-18tb1.metal:
   currentGeneration: true
-  dedicatedEbsThroughput: 28000 Mbps
+  dedicatedEbsThroughput: 38000 Mbps
   enhancedNetworkingSupported: false
   memory: 18432 GiB
   networkPerformance: 100 Gigabit
@@ -126513,7 +126617,7 @@ u-18tb1.metal:
   vcpu: 448
 u-24tb1.metal:
   currentGeneration: true
-  dedicatedEbsThroughput: 28000 Mbps
+  dedicatedEbsThroughput: 38000 Mbps
   enhancedNetworkingSupported: false
   memory: 24576 GiB
   networkPerformance: 100 Gigabit
