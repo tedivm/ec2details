@@ -126609,7 +126609,6 @@ u-12tb1.metal:
   prices: {}
   regions:
     - us-gov-west-1
-    - ap-northeast-2
     - ap-northeast-1
     - us-west-2
     - us-gov-east-1
@@ -126632,10 +126631,8 @@ u-18tb1.metal:
   physicalProcessor: Intel Xeon Platinum 8280L (Cascade Lake)
   prices: {}
   regions:
-    - us-gov-west-1
     - eu-west-1
     - us-east-1
-    - us-gov-east-1
   storage: EBS only
   vcpu: 448
 u-24tb1.metal:
@@ -126648,9 +126645,9 @@ u-24tb1.metal:
   prices: {}
   regions:
     - us-east-1
-    - eu-west-1
     - us-gov-east-1
     - us-gov-west-1
+    - ap-northeast-2
   storage: EBS only
   vcpu: 448
 u-3tb1.56xlarge:
@@ -127544,10 +127541,7 @@ u-9tb1.metal:
     - ap-southeast-1
     - ap-northeast-2
     - us-east-1
-    - us-east-2
     - us-gov-east-1
-    - ap-south-1
-    - ap-southeast-2
     - sa-east-1
     - us-gov-west-1
     - eu-west-1
