@@ -26630,6 +26630,9 @@ c6i.12xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 3.0096
+        Shared: 2.736
       ap-east-1:
         Dedicated: 2.8512
         Shared: 2.592
@@ -26648,6 +26651,9 @@ c6i.12xlarge:
       ap-southeast-2:
         Dedicated: 2.9304
         Shared: 2.664
+      Asia Pacific (Osaka):
+        Dedicated: 2.8248
+        Shared: 2.568
       ca-central-1:
         Dedicated: 2.4552
         Shared: 2.232
@@ -26694,6 +26700,9 @@ c6i.12xlarge:
         Dedicated: 2.244
         Shared: 2.04
     RHEL:
+      af-south-1:
+        Dedicated: 3.1396
+        Shared: 2.866
       ap-east-1:
         Dedicated: 2.9812
         Shared: 2.722
@@ -26712,6 +26721,9 @@ c6i.12xlarge:
       ap-southeast-2:
         Dedicated: 3.0604
         Shared: 2.794
+      Asia Pacific (Osaka):
+        Dedicated: 2.9548
+        Shared: 2.698
       ca-central-1:
         Dedicated: 2.5852
         Shared: 2.362
@@ -26758,6 +26770,9 @@ c6i.12xlarge:
         Dedicated: 2.374
         Shared: 2.17
     RHEL_HA:
+      af-south-1:
+        Dedicated: 3.1746
+        Shared: 2.901
       ap-east-1:
         Dedicated: 3.0162
         Shared: 2.757
@@ -26776,6 +26791,9 @@ c6i.12xlarge:
       ap-southeast-2:
         Dedicated: 3.0954
         Shared: 2.829
+      Asia Pacific (Osaka):
+        Dedicated: 2.9898
+        Shared: 2.733
       ca-central-1:
         Dedicated: 2.6202
         Shared: 2.397
@@ -26822,6 +26840,9 @@ c6i.12xlarge:
         Dedicated: 2.409
         Shared: 2.205
     SUSE:
+      af-south-1:
+        Dedicated: 3.1346
+        Shared: 2.861
       ap-east-1:
         Dedicated: 2.9762
         Shared: 2.717
@@ -26840,6 +26861,9 @@ c6i.12xlarge:
       ap-southeast-2:
         Dedicated: 3.0554
         Shared: 2.789
+      Asia Pacific (Osaka):
+        Dedicated: 2.9498
+        Shared: 2.693
       ca-central-1:
         Dedicated: 2.5802
         Shared: 2.357
@@ -26886,6 +26910,9 @@ c6i.12xlarge:
         Dedicated: 2.369
         Shared: 2.165
     Windows:
+      af-south-1:
+        Dedicated: 3.0096
+        Shared: 4.944
       ap-east-1:
         Dedicated: 2.8512
         Shared: 4.8
@@ -26904,6 +26931,9 @@ c6i.12xlarge:
       ap-southeast-2:
         Dedicated: 2.9304
         Shared: 4.872
+      Asia Pacific (Osaka):
+        Dedicated: 2.8248
+        Shared: 4.776
       ca-central-1:
         Dedicated: 4.6632
         Shared: 4.44
@@ -26956,9 +26986,11 @@ c6i.12xlarge:
     - us-gov-west-1
     - eu-north-1
     - eu-west-2
+    - af-south-1
     - ap-northeast-2
     - us-west-2
     - eu-west-1
+    - Asia Pacific (Osaka)
     - us-west-1
     - us-east-1
     - ap-northeast-1
@@ -26984,6 +27016,9 @@ c6i.16xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 4.0128
+        Shared: 3.648
       ap-east-1:
         Dedicated: 3.8016
         Shared: 3.456
@@ -27002,6 +27037,9 @@ c6i.16xlarge:
       ap-southeast-2:
         Dedicated: 3.9072
         Shared: 3.552
+      Asia Pacific (Osaka):
+        Dedicated: 3.7664
+        Shared: 3.424
       ca-central-1:
         Dedicated: 3.2736
         Shared: 2.976
@@ -27048,6 +27086,9 @@ c6i.16xlarge:
         Dedicated: 2.992
         Shared: 2.72
     RHEL:
+      af-south-1:
+        Dedicated: 4.1428
+        Shared: 3.778
       ap-east-1:
         Dedicated: 3.9316
         Shared: 3.586
@@ -27066,6 +27107,9 @@ c6i.16xlarge:
       ap-southeast-2:
         Dedicated: 4.0372
         Shared: 3.682
+      Asia Pacific (Osaka):
+        Dedicated: 3.8964
+        Shared: 3.554
       ca-central-1:
         Dedicated: 3.4036
         Shared: 3.106
@@ -27112,6 +27156,9 @@ c6i.16xlarge:
         Dedicated: 3.122
         Shared: 2.85
     RHEL_HA:
+      af-south-1:
+        Dedicated: 4.1778
+        Shared: 3.813
       ap-east-1:
         Dedicated: 3.9666
         Shared: 3.621
@@ -27130,6 +27177,9 @@ c6i.16xlarge:
       ap-southeast-2:
         Dedicated: 4.0722
         Shared: 3.717
+      Asia Pacific (Osaka):
+        Dedicated: 3.9314
+        Shared: 3.589
       ca-central-1:
         Dedicated: 3.4386
         Shared: 3.141
@@ -27176,6 +27226,9 @@ c6i.16xlarge:
         Dedicated: 3.157
         Shared: 2.885
     SUSE:
+      af-south-1:
+        Dedicated: 4.1378
+        Shared: 3.773
       ap-east-1:
         Dedicated: 3.9266
         Shared: 3.581
@@ -27194,6 +27247,9 @@ c6i.16xlarge:
       ap-southeast-2:
         Dedicated: 4.0322
         Shared: 3.677
+      Asia Pacific (Osaka):
+        Dedicated: 3.8914
+        Shared: 3.549
       ca-central-1:
         Dedicated: 3.3986
         Shared: 3.101
@@ -27240,6 +27296,9 @@ c6i.16xlarge:
         Dedicated: 3.117
         Shared: 2.845
     Windows:
+      af-south-1:
+        Dedicated: 6.9568
+        Shared: 3.648
       ap-east-1:
         Dedicated: 6.7456
         Shared: 3.456
@@ -27258,6 +27317,9 @@ c6i.16xlarge:
       ap-southeast-2:
         Dedicated: 6.8512
         Shared: 6.496
+      Asia Pacific (Osaka):
+        Dedicated: 6.7104
+        Shared: 3.424
       ca-central-1:
         Dedicated: 3.2736
         Shared: 5.92
@@ -27304,10 +27366,12 @@ c6i.16xlarge:
         Dedicated: 5.936
         Shared: 5.664
   regions:
+    - af-south-1
     - ap-southeast-2
     - us-gov-west-1
     - eu-central-1
     - sa-east-1
+    - Asia Pacific (Osaka)
     - ca-central-1
     - ap-northeast-1
     - eu-north-1
@@ -27338,6 +27402,9 @@ c6i.24xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 6.0192
+        Shared: 5.472
       ap-east-1:
         Dedicated: 5.7024
         Shared: 5.184
@@ -27356,6 +27423,9 @@ c6i.24xlarge:
       ap-southeast-2:
         Dedicated: 5.8608
         Shared: 5.328
+      Asia Pacific (Osaka):
+        Dedicated: 5.6496
+        Shared: 5.136
       ca-central-1:
         Dedicated: 4.9104
         Shared: 4.464
@@ -27402,6 +27472,9 @@ c6i.24xlarge:
         Dedicated: 4.488
         Shared: 4.08
     RHEL:
+      af-south-1:
+        Dedicated: 6.1492
+        Shared: 5.602
       ap-east-1:
         Dedicated: 5.8324
         Shared: 5.314
@@ -27420,6 +27493,9 @@ c6i.24xlarge:
       ap-southeast-2:
         Dedicated: 5.9908
         Shared: 5.458
+      Asia Pacific (Osaka):
+        Dedicated: 5.7796
+        Shared: 5.266
       ca-central-1:
         Dedicated: 5.0404
         Shared: 4.594
@@ -27466,6 +27542,9 @@ c6i.24xlarge:
         Dedicated: 4.618
         Shared: 4.21
     RHEL_HA:
+      af-south-1:
+        Dedicated: 6.1842
+        Shared: 5.637
       ap-east-1:
         Dedicated: 5.8674
         Shared: 5.349
@@ -27484,6 +27563,9 @@ c6i.24xlarge:
       ap-southeast-2:
         Dedicated: 6.0258
         Shared: 5.493
+      Asia Pacific (Osaka):
+        Dedicated: 5.8146
+        Shared: 5.301
       ca-central-1:
         Dedicated: 5.0754
         Shared: 4.629
@@ -27530,6 +27612,9 @@ c6i.24xlarge:
         Dedicated: 4.653
         Shared: 4.245
     SUSE:
+      af-south-1:
+        Dedicated: 6.1442
+        Shared: 5.597
       ap-east-1:
         Dedicated: 5.8274
         Shared: 5.309
@@ -27548,6 +27633,9 @@ c6i.24xlarge:
       ap-southeast-2:
         Dedicated: 5.9858
         Shared: 5.453
+      Asia Pacific (Osaka):
+        Dedicated: 5.7746
+        Shared: 5.261
       ca-central-1:
         Dedicated: 5.0354
         Shared: 4.589
@@ -27594,6 +27682,9 @@ c6i.24xlarge:
         Dedicated: 4.613
         Shared: 4.205
     Windows:
+      af-south-1:
+        Dedicated: 6.0192
+        Shared: 9.888
       ap-east-1:
         Dedicated: 10.1184
         Shared: 5.184
@@ -27612,6 +27703,9 @@ c6i.24xlarge:
       ap-southeast-2:
         Dedicated: 10.2768
         Shared: 5.328
+      Asia Pacific (Osaka):
+        Dedicated: 5.6496
+        Shared: 9.552
       ca-central-1:
         Dedicated: 9.3264
         Shared: 8.88
@@ -27667,6 +27761,7 @@ c6i.24xlarge:
     - us-west-2
     - ap-northeast-2
     - eu-west-1
+    - af-south-1
     - sa-east-1
     - ca-central-1
     - eu-west-3
@@ -27675,6 +27770,7 @@ c6i.24xlarge:
     - us-east-2
     - eu-south-1
     - us-east-1
+    - Asia Pacific (Osaka)
     - us-west-1
     - ap-east-1
     - ap-northeast-1
@@ -27692,6 +27788,9 @@ c6i.2xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.5016
+        Shared: 0.456
       ap-east-1:
         Dedicated: 0.4752
         Shared: 0.432
@@ -27710,6 +27809,9 @@ c6i.2xlarge:
       ap-southeast-2:
         Dedicated: 0.4884
         Shared: 0.444
+      Asia Pacific (Osaka):
+        Dedicated: 0.4708
+        Shared: 0.428
       ca-central-1:
         Dedicated: 0.4092
         Shared: 0.372
@@ -27756,6 +27858,9 @@ c6i.2xlarge:
         Dedicated: 0.374
         Shared: 0.34
     RHEL:
+      af-south-1:
+        Dedicated: 0.6316
+        Shared: 0.586
       ap-east-1:
         Dedicated: 0.6052
         Shared: 0.562
@@ -27774,6 +27879,9 @@ c6i.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6184
         Shared: 0.574
+      Asia Pacific (Osaka):
+        Dedicated: 0.6008
+        Shared: 0.558
       ca-central-1:
         Dedicated: 0.5392
         Shared: 0.502
@@ -27820,6 +27928,9 @@ c6i.2xlarge:
         Dedicated: 0.504
         Shared: 0.47
     RHEL_HA:
+      af-south-1:
+        Dedicated: 0.6666
+        Shared: 0.621
       ap-east-1:
         Dedicated: 0.6402
         Shared: 0.597
@@ -27838,6 +27949,9 @@ c6i.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6534
         Shared: 0.609
+      Asia Pacific (Osaka):
+        Dedicated: 0.6358
+        Shared: 0.593
       ca-central-1:
         Dedicated: 0.5742
         Shared: 0.537
@@ -27884,6 +27998,9 @@ c6i.2xlarge:
         Dedicated: 0.539
         Shared: 0.505
     SUSE:
+      af-south-1:
+        Dedicated: 0.6266
+        Shared: 0.581
       ap-east-1:
         Dedicated: 0.6002
         Shared: 0.557
@@ -27902,6 +28019,9 @@ c6i.2xlarge:
       ap-southeast-2:
         Dedicated: 0.6134
         Shared: 0.569
+      Asia Pacific (Osaka):
+        Dedicated: 0.5958
+        Shared: 0.553
       ca-central-1:
         Dedicated: 0.5342
         Shared: 0.497
@@ -27948,6 +28068,9 @@ c6i.2xlarge:
         Dedicated: 0.499
         Shared: 0.465
     Windows:
+      af-south-1:
+        Dedicated: 0.8696
+        Shared: 0.824
       ap-east-1:
         Dedicated: 0.4752
         Shared: 0.432
@@ -27966,6 +28089,9 @@ c6i.2xlarge:
       ap-southeast-2:
         Dedicated: 0.8564
         Shared: 0.812
+      Asia Pacific (Osaka):
+        Dedicated: 0.8388
+        Shared: 0.428
       ca-central-1:
         Dedicated: 0.7772
         Shared: 0.74
@@ -28019,6 +28145,7 @@ c6i.2xlarge:
     - ap-northeast-2
     - us-east-1
     - eu-west-2
+    - af-south-1
     - us-east-2
     - ap-northeast-1
     - eu-west-1
@@ -28027,6 +28154,7 @@ c6i.2xlarge:
     - us-gov-east-1
     - eu-south-1
     - eu-north-1
+    - Asia Pacific (Osaka)
     - ap-south-1
     - eu-west-3
     - ap-southeast-2
@@ -28046,6 +28174,9 @@ c6i.32xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 7.296
+        Shared: 7.296
       ap-east-1:
         Dedicated: 6.912
         Shared: 6.912
@@ -28064,6 +28195,9 @@ c6i.32xlarge:
       ap-southeast-2:
         Dedicated: 7.104
         Shared: 7.104
+      Asia Pacific (Osaka):
+        Dedicated: 6.848
+        Shared: 6.848
       ca-central-1:
         Dedicated: 5.952
         Shared: 5.952
@@ -28110,6 +28244,9 @@ c6i.32xlarge:
         Dedicated: 5.984
         Shared: 5.44
     RHEL:
+      af-south-1:
+        Dedicated: 7.426
+        Shared: 7.426
       ap-east-1:
         Dedicated: 7.042
         Shared: 7.042
@@ -28128,6 +28265,9 @@ c6i.32xlarge:
       ap-southeast-2:
         Dedicated: 7.234
         Shared: 7.234
+      Asia Pacific (Osaka):
+        Dedicated: 6.978
+        Shared: 6.978
       ca-central-1:
         Dedicated: 6.082
         Shared: 6.082
@@ -28174,6 +28314,9 @@ c6i.32xlarge:
         Dedicated: 6.114
         Shared: 5.57
     RHEL_HA:
+      af-south-1:
+        Dedicated: 7.461
+        Shared: 7.461
       ap-east-1:
         Dedicated: 7.077
         Shared: 7.077
@@ -28192,6 +28335,9 @@ c6i.32xlarge:
       ap-southeast-2:
         Dedicated: 7.269
         Shared: 7.269
+      Asia Pacific (Osaka):
+        Dedicated: 7.013
+        Shared: 7.013
       ca-central-1:
         Dedicated: 6.117
         Shared: 6.117
@@ -28238,6 +28384,9 @@ c6i.32xlarge:
         Dedicated: 6.149
         Shared: 5.605
     SUSE:
+      af-south-1:
+        Dedicated: 7.421
+        Shared: 7.421
       ap-east-1:
         Dedicated: 7.037
         Shared: 7.037
@@ -28256,6 +28405,9 @@ c6i.32xlarge:
       ap-southeast-2:
         Dedicated: 7.229
         Shared: 7.229
+      Asia Pacific (Osaka):
+        Dedicated: 6.973
+        Shared: 6.973
       ca-central-1:
         Dedicated: 6.077
         Shared: 6.077
@@ -28302,6 +28454,9 @@ c6i.32xlarge:
         Dedicated: 5.565
         Shared: 5.565
     Windows:
+      af-south-1:
+        Dedicated: 13.184
+        Shared: 7.296
       ap-east-1:
         Dedicated: 6.912
         Shared: 12.8
@@ -28320,6 +28475,9 @@ c6i.32xlarge:
       ap-southeast-2:
         Dedicated: 7.104
         Shared: 7.104
+      Asia Pacific (Osaka):
+        Dedicated: 6.848
+        Shared: 12.736
       ca-central-1:
         Dedicated: 11.84
         Shared: 11.84
@@ -28366,6 +28524,7 @@ c6i.32xlarge:
         Dedicated: 5.984
         Shared: 11.328
   regions:
+    - Asia Pacific (Osaka)
     - ap-northeast-2
     - eu-west-3
     - ca-central-1
@@ -28379,6 +28538,7 @@ c6i.32xlarge:
     - us-east-2
     - ap-southeast-1
     - ap-southeast-2
+    - af-south-1
     - ap-east-1
     - us-gov-west-1
     - eu-central-1
@@ -28400,6 +28560,9 @@ c6i.4xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 1.0032
+        Shared: 0.912
       ap-east-1:
         Dedicated: 0.9504
         Shared: 0.864
@@ -28418,6 +28581,9 @@ c6i.4xlarge:
       ap-southeast-2:
         Dedicated: 0.9768
         Shared: 0.888
+      Asia Pacific (Osaka):
+        Dedicated: 0.9416
+        Shared: 0.856
       ca-central-1:
         Dedicated: 0.8184
         Shared: 0.744
@@ -28464,6 +28630,9 @@ c6i.4xlarge:
         Dedicated: 0.748
         Shared: 0.68
     RHEL:
+      af-south-1:
+        Dedicated: 1.1332
+        Shared: 1.042
       ap-east-1:
         Dedicated: 1.0804
         Shared: 0.994
@@ -28482,6 +28651,9 @@ c6i.4xlarge:
       ap-southeast-2:
         Dedicated: 1.1068
         Shared: 1.018
+      Asia Pacific (Osaka):
+        Dedicated: 1.0716
+        Shared: 0.986
       ca-central-1:
         Dedicated: 0.9484
         Shared: 0.874
@@ -28528,6 +28700,9 @@ c6i.4xlarge:
         Dedicated: 0.878
         Shared: 0.81
     RHEL_HA:
+      af-south-1:
+        Dedicated: 1.1682
+        Shared: 1.077
       ap-east-1:
         Dedicated: 1.1154
         Shared: 1.029
@@ -28546,6 +28721,9 @@ c6i.4xlarge:
       ap-southeast-2:
         Dedicated: 1.1418
         Shared: 1.053
+      Asia Pacific (Osaka):
+        Dedicated: 1.1066
+        Shared: 1.021
       ca-central-1:
         Dedicated: 0.9834
         Shared: 0.909
@@ -28592,6 +28770,9 @@ c6i.4xlarge:
         Dedicated: 0.913
         Shared: 0.845
     SUSE:
+      af-south-1:
+        Dedicated: 1.1282
+        Shared: 1.037
       ap-east-1:
         Dedicated: 1.0754
         Shared: 0.989
@@ -28610,6 +28791,9 @@ c6i.4xlarge:
       ap-southeast-2:
         Dedicated: 1.1018
         Shared: 1.013
+      Asia Pacific (Osaka):
+        Dedicated: 1.0666
+        Shared: 0.981
       ca-central-1:
         Dedicated: 0.9434
         Shared: 0.869
@@ -28656,6 +28840,9 @@ c6i.4xlarge:
         Dedicated: 0.873
         Shared: 0.805
     Windows:
+      af-south-1:
+        Dedicated: 1.7392
+        Shared: 1.648
       ap-east-1:
         Dedicated: 0.9504
         Shared: 1.6
@@ -28674,6 +28861,9 @@ c6i.4xlarge:
       ap-southeast-2:
         Dedicated: 1.7128
         Shared: 1.624
+      Asia Pacific (Osaka):
+        Dedicated: 1.6776
+        Shared: 0.856
       ca-central-1:
         Dedicated: 0.8184
         Shared: 0.744
@@ -28720,9 +28910,11 @@ c6i.4xlarge:
         Dedicated: 0.748
         Shared: 0.68
   regions:
+    - af-south-1
     - us-east-1
     - us-gov-west-1
     - ap-east-1
+    - Asia Pacific (Osaka)
     - ap-northeast-2
     - ap-southeast-1
     - eu-west-3
@@ -28754,6 +28946,9 @@ c6i.8xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 2.0064
+        Shared: 1.824
       ap-east-1:
         Dedicated: 1.9008
         Shared: 1.728
@@ -28772,6 +28967,9 @@ c6i.8xlarge:
       ap-southeast-2:
         Dedicated: 1.9536
         Shared: 1.776
+      Asia Pacific (Osaka):
+        Dedicated: 1.8832
+        Shared: 1.712
       ca-central-1:
         Dedicated: 1.6368
         Shared: 1.488
@@ -28818,6 +29016,9 @@ c6i.8xlarge:
         Dedicated: 1.496
         Shared: 1.36
     RHEL:
+      af-south-1:
+        Dedicated: 2.1364
+        Shared: 1.954
       ap-east-1:
         Dedicated: 2.0308
         Shared: 1.858
@@ -28836,6 +29037,9 @@ c6i.8xlarge:
       ap-southeast-2:
         Dedicated: 2.0836
         Shared: 1.906
+      Asia Pacific (Osaka):
+        Dedicated: 2.0132
+        Shared: 1.842
       ca-central-1:
         Dedicated: 1.7668
         Shared: 1.618
@@ -28882,6 +29086,9 @@ c6i.8xlarge:
         Dedicated: 1.626
         Shared: 1.49
     RHEL_HA:
+      af-south-1:
+        Dedicated: 2.1714
+        Shared: 1.989
       ap-east-1:
         Dedicated: 2.0658
         Shared: 1.893
@@ -28900,6 +29107,9 @@ c6i.8xlarge:
       ap-southeast-2:
         Dedicated: 2.1186
         Shared: 1.941
+      Asia Pacific (Osaka):
+        Dedicated: 2.0482
+        Shared: 1.877
       ca-central-1:
         Dedicated: 1.8018
         Shared: 1.653
@@ -28946,6 +29156,9 @@ c6i.8xlarge:
         Dedicated: 1.661
         Shared: 1.525
     SUSE:
+      af-south-1:
+        Dedicated: 2.1314
+        Shared: 1.949
       ap-east-1:
         Dedicated: 2.0258
         Shared: 1.853
@@ -28964,6 +29177,9 @@ c6i.8xlarge:
       ap-southeast-2:
         Dedicated: 2.0786
         Shared: 1.901
+      Asia Pacific (Osaka):
+        Dedicated: 2.0082
+        Shared: 1.837
       ca-central-1:
         Dedicated: 1.7618
         Shared: 1.613
@@ -29010,6 +29226,9 @@ c6i.8xlarge:
         Dedicated: 1.621
         Shared: 1.485
     Windows:
+      af-south-1:
+        Dedicated: 3.4784
+        Shared: 3.296
       ap-east-1:
         Dedicated: 1.9008
         Shared: 3.2
@@ -29028,6 +29247,9 @@ c6i.8xlarge:
       ap-southeast-2:
         Dedicated: 1.9536
         Shared: 1.776
+      Asia Pacific (Osaka):
+        Dedicated: 1.8832
+        Shared: 3.184
       ca-central-1:
         Dedicated: 3.1088
         Shared: 1.488
@@ -29079,12 +29301,14 @@ c6i.8xlarge:
     - us-east-2
     - eu-central-1
     - us-gov-east-1
+    - Asia Pacific (Osaka)
     - ap-south-1
     - me-south-1
     - us-east-1
     - ap-southeast-1
     - ap-east-1
     - us-west-2
+    - af-south-1
     - eu-north-1
     - us-west-1
     - eu-south-1
@@ -29108,6 +29332,9 @@ c6i.large:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.1254
+        Shared: 0.114
       ap-east-1:
         Dedicated: 0.1188
         Shared: 0.108
@@ -29126,6 +29353,9 @@ c6i.large:
       ap-southeast-2:
         Dedicated: 0.1221
         Shared: 0.111
+      Asia Pacific (Osaka):
+        Dedicated: 0.1177
+        Shared: 0.107
       ca-central-1:
         Dedicated: 0.1023
         Shared: 0.093
@@ -29172,6 +29402,9 @@ c6i.large:
         Dedicated: 0.0935
         Shared: 0.085
     RHEL:
+      af-south-1:
+        Dedicated: 0.1854
+        Shared: 0.174
       ap-east-1:
         Dedicated: 0.1788
         Shared: 0.168
@@ -29190,6 +29423,9 @@ c6i.large:
       ap-southeast-2:
         Dedicated: 0.1821
         Shared: 0.171
+      Asia Pacific (Osaka):
+        Dedicated: 0.1777
+        Shared: 0.167
       ca-central-1:
         Dedicated: 0.1623
         Shared: 0.153
@@ -29236,6 +29472,9 @@ c6i.large:
         Dedicated: 0.1535
         Shared: 0.145
     RHEL_HA:
+      af-south-1:
+        Dedicated: 0.2204
+        Shared: 0.209
       ap-east-1:
         Dedicated: 0.2138
         Shared: 0.203
@@ -29254,6 +29493,9 @@ c6i.large:
       ap-southeast-2:
         Dedicated: 0.2171
         Shared: 0.206
+      Asia Pacific (Osaka):
+        Dedicated: 0.2127
+        Shared: 0.202
       ca-central-1:
         Dedicated: 0.1973
         Shared: 0.188
@@ -29300,6 +29542,9 @@ c6i.large:
         Dedicated: 0.1885
         Shared: 0.18
     SUSE:
+      af-south-1:
+        Dedicated: 0.1817
+        Shared: 0.1703
       ap-east-1:
         Dedicated: 0.1751
         Shared: 0.1643
@@ -29318,6 +29563,9 @@ c6i.large:
       ap-southeast-2:
         Dedicated: 0.1784
         Shared: 0.1673
+      Asia Pacific (Osaka):
+        Dedicated: 0.174
+        Shared: 0.1633
       ca-central-1:
         Dedicated: 0.1586
         Shared: 0.1493
@@ -29364,6 +29612,9 @@ c6i.large:
         Dedicated: 0.1498
         Shared: 0.1413
     Windows:
+      af-south-1:
+        Dedicated: 0.1254
+        Shared: 0.114
       ap-east-1:
         Dedicated: 0.2108
         Shared: 0.108
@@ -29382,6 +29633,9 @@ c6i.large:
       ap-southeast-2:
         Dedicated: 0.2141
         Shared: 0.203
+      Asia Pacific (Osaka):
+        Dedicated: 0.2097
+        Shared: 0.199
       ca-central-1:
         Dedicated: 0.1943
         Shared: 0.093
@@ -29439,6 +29693,7 @@ c6i.large:
     - eu-west-3
     - eu-south-1
     - us-east-1
+    - Asia Pacific (Osaka)
     - ap-southeast-1
     - ap-northeast-1
     - eu-west-2
@@ -29446,6 +29701,7 @@ c6i.large:
     - ap-southeast-2
     - us-west-2
     - ap-east-1
+    - af-south-1
     - us-west-1
     - us-gov-west-1
     - us-gov-east-1
@@ -29462,6 +29718,9 @@ c6i.metal:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 7.296
+        Shared: 7.296
       ap-east-1:
         Dedicated: 6.912
         Shared: 6.912
@@ -29480,6 +29739,9 @@ c6i.metal:
       ap-southeast-2:
         Dedicated: 7.104
         Shared: 7.104
+      Asia Pacific (Osaka):
+        Dedicated: 6.848
+        Shared: 6.848
       ca-central-1:
         Dedicated: 5.952
         Shared: 5.952
@@ -29526,6 +29788,9 @@ c6i.metal:
         Dedicated: 5.44
         Shared: 5.44
     RHEL:
+      af-south-1:
+        Dedicated: 7.426
+        Shared: 7.426
       ap-east-1:
         Dedicated: 7.042
         Shared: 7.042
@@ -29544,6 +29809,9 @@ c6i.metal:
       ap-southeast-2:
         Dedicated: 7.234
         Shared: 7.234
+      Asia Pacific (Osaka):
+        Dedicated: 6.978
+        Shared: 6.978
       ca-central-1:
         Dedicated: 6.082
         Shared: 6.082
@@ -29590,6 +29858,9 @@ c6i.metal:
         Dedicated: 5.57
         Shared: 5.57
     RHEL_HA:
+      af-south-1:
+        Dedicated: 7.461
+        Shared: 7.461
       ap-east-1:
         Dedicated: 7.077
         Shared: 7.077
@@ -29608,6 +29879,9 @@ c6i.metal:
       ap-southeast-2:
         Dedicated: 7.269
         Shared: 7.269
+      Asia Pacific (Osaka):
+        Dedicated: 7.013
+        Shared: 7.013
       ca-central-1:
         Dedicated: 6.117
         Shared: 6.117
@@ -29654,6 +29928,9 @@ c6i.metal:
         Dedicated: 5.605
         Shared: 5.605
     SUSE:
+      af-south-1:
+        Dedicated: 7.421
+        Shared: 7.421
       ap-east-1:
         Dedicated: 7.037
         Shared: 7.037
@@ -29672,6 +29949,9 @@ c6i.metal:
       ap-southeast-2:
         Dedicated: 7.229
         Shared: 7.229
+      Asia Pacific (Osaka):
+        Dedicated: 6.973
+        Shared: 6.973
       ca-central-1:
         Dedicated: 6.077
         Shared: 6.077
@@ -29718,6 +29998,9 @@ c6i.metal:
         Dedicated: 5.565
         Shared: 5.565
     Windows:
+      af-south-1:
+        Dedicated: 13.184
+        Shared: 7.296
       ap-east-1:
         Dedicated: 6.912
         Shared: 6.912
@@ -29736,6 +30019,9 @@ c6i.metal:
       ap-southeast-2:
         Dedicated: 12.992
         Shared: 7.104
+      Asia Pacific (Osaka):
+        Dedicated: 6.848
+        Shared: 6.848
       ca-central-1:
         Dedicated: 11.84
         Shared: 11.84
@@ -29790,11 +30076,13 @@ c6i.metal:
     - ap-south-1
     - us-west-2
     - us-gov-east-1
+    - Asia Pacific (Osaka)
     - eu-west-3
     - ca-central-1
     - us-east-1
     - ap-east-1
     - ap-northeast-2
+    - af-south-1
     - us-west-1
     - ap-northeast-1
     - sa-east-1
@@ -29816,6 +30104,9 @@ c6i.xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.2508
+        Shared: 0.228
       ap-east-1:
         Dedicated: 0.2376
         Shared: 0.216
@@ -29834,6 +30125,9 @@ c6i.xlarge:
       ap-southeast-2:
         Dedicated: 0.2442
         Shared: 0.222
+      Asia Pacific (Osaka):
+        Dedicated: 0.2354
+        Shared: 0.214
       ca-central-1:
         Dedicated: 0.2046
         Shared: 0.186
@@ -29880,6 +30174,9 @@ c6i.xlarge:
         Dedicated: 0.187
         Shared: 0.17
     RHEL:
+      af-south-1:
+        Dedicated: 0.3108
+        Shared: 0.288
       ap-east-1:
         Dedicated: 0.2976
         Shared: 0.276
@@ -29898,6 +30195,9 @@ c6i.xlarge:
       ap-southeast-2:
         Dedicated: 0.3042
         Shared: 0.282
+      Asia Pacific (Osaka):
+        Dedicated: 0.2954
+        Shared: 0.274
       ca-central-1:
         Dedicated: 0.2646
         Shared: 0.246
@@ -29944,6 +30244,9 @@ c6i.xlarge:
         Dedicated: 0.247
         Shared: 0.23
     RHEL_HA:
+      af-south-1:
+        Dedicated: 0.3458
+        Shared: 0.323
       ap-east-1:
         Dedicated: 0.3326
         Shared: 0.311
@@ -29962,6 +30265,9 @@ c6i.xlarge:
       ap-southeast-2:
         Dedicated: 0.3392
         Shared: 0.317
+      Asia Pacific (Osaka):
+        Dedicated: 0.3304
+        Shared: 0.309
       ca-central-1:
         Dedicated: 0.2996
         Shared: 0.281
@@ -30008,6 +30314,9 @@ c6i.xlarge:
         Dedicated: 0.282
         Shared: 0.265
     SUSE:
+      af-south-1:
+        Dedicated: 0.3071
+        Shared: 0.2843
       ap-east-1:
         Dedicated: 0.2939
         Shared: 0.2723
@@ -30026,6 +30335,9 @@ c6i.xlarge:
       ap-southeast-2:
         Dedicated: 0.3005
         Shared: 0.2783
+      Asia Pacific (Osaka):
+        Dedicated: 0.2917
+        Shared: 0.2703
       ca-central-1:
         Dedicated: 0.2609
         Shared: 0.2423
@@ -30072,6 +30384,9 @@ c6i.xlarge:
         Dedicated: 0.2433
         Shared: 0.2263
     Windows:
+      af-south-1:
+        Dedicated: 0.4348
+        Shared: 0.228
       ap-east-1:
         Dedicated: 0.2376
         Shared: 0.4
@@ -30090,6 +30405,9 @@ c6i.xlarge:
       ap-southeast-2:
         Dedicated: 0.4282
         Shared: 0.406
+      Asia Pacific (Osaka):
+        Dedicated: 0.2354
+        Shared: 0.214
       ca-central-1:
         Dedicated: 0.2046
         Shared: 0.186
@@ -30142,6 +30460,7 @@ c6i.xlarge:
     - ap-southeast-1
     - sa-east-1
     - us-gov-east-1
+    - Asia Pacific (Osaka)
     - eu-west-1
     - eu-north-1
     - ap-northeast-2
@@ -30155,6 +30474,7 @@ c6i.xlarge:
     - eu-south-1
     - us-gov-west-1
     - eu-west-2
+    - af-south-1
     - me-south-1
     - eu-central-1
   storage: EBS only
@@ -79474,6 +79794,9 @@ m6i.12xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 3.3528
+        Shared: 3.048
       ap-east-1:
         Dedicated: 3.4848
         Shared: 3.168
@@ -79492,6 +79815,9 @@ m6i.12xlarge:
       ap-southeast-2:
         Dedicated: 3.168
         Shared: 2.88
+      Asia Pacific (Osaka):
+        Dedicated: 3.2736
+        Shared: 2.976
       ca-central-1:
         Dedicated: 2.8248
         Shared: 2.568
@@ -79538,6 +79864,9 @@ m6i.12xlarge:
         Dedicated: 2.5344
         Shared: 2.304
     RHEL:
+      af-south-1:
+        Dedicated: 3.4828
+        Shared: 3.178
       ap-east-1:
         Dedicated: 3.6148
         Shared: 3.298
@@ -79556,6 +79885,9 @@ m6i.12xlarge:
       ap-southeast-2:
         Dedicated: 3.298
         Shared: 3.01
+      Asia Pacific (Osaka):
+        Dedicated: 3.4036
+        Shared: 3.106
       ca-central-1:
         Dedicated: 2.9548
         Shared: 2.698
@@ -79602,6 +79934,9 @@ m6i.12xlarge:
         Dedicated: 2.6644
         Shared: 2.434
     RHEL_HA:
+      af-south-1:
+        Dedicated: 3.5178
+        Shared: 3.213
       ap-east-1:
         Dedicated: 3.6498
         Shared: 3.333
@@ -79620,6 +79955,9 @@ m6i.12xlarge:
       ap-southeast-2:
         Dedicated: 3.333
         Shared: 3.045
+      Asia Pacific (Osaka):
+        Dedicated: 3.4386
+        Shared: 3.141
       ca-central-1:
         Dedicated: 2.9898
         Shared: 2.733
@@ -79666,6 +80004,9 @@ m6i.12xlarge:
         Dedicated: 2.6994
         Shared: 2.469
     SUSE:
+      af-south-1:
+        Dedicated: 3.4778
+        Shared: 3.173
       ap-east-1:
         Dedicated: 3.6098
         Shared: 3.293
@@ -79684,6 +80025,9 @@ m6i.12xlarge:
       ap-southeast-2:
         Dedicated: 3.293
         Shared: 3.005
+      Asia Pacific (Osaka):
+        Dedicated: 3.3986
+        Shared: 3.101
       ca-central-1:
         Dedicated: 2.9498
         Shared: 2.693
@@ -79730,6 +80074,9 @@ m6i.12xlarge:
         Dedicated: 2.6594
         Shared: 2.429
     Windows:
+      af-south-1:
+        Dedicated: 3.3528
+        Shared: 3.048
       ap-east-1:
         Dedicated: 5.6928
         Shared: 3.168
@@ -79748,6 +80095,9 @@ m6i.12xlarge:
       ap-southeast-2:
         Dedicated: 3.168
         Shared: 2.88
+      Asia Pacific (Osaka):
+        Dedicated: 5.4816
+        Shared: 2.976
       ca-central-1:
         Dedicated: 2.8248
         Shared: 4.776
@@ -79813,6 +80163,8 @@ m6i.12xlarge:
     - eu-central-1
     - eu-west-3
     - eu-west-1
+    - Asia Pacific (Osaka)
+    - af-south-1
     - ap-southeast-2
     - eu-south-1
   storage: EBS only
@@ -79828,6 +80180,9 @@ m6i.16xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 4.4704
+        Shared: 4.064
       ap-east-1:
         Dedicated: 4.6464
         Shared: 4.224
@@ -79846,6 +80201,9 @@ m6i.16xlarge:
       ap-southeast-2:
         Dedicated: 4.224
         Shared: 3.84
+      Asia Pacific (Osaka):
+        Dedicated: 4.3648
+        Shared: 3.968
       ca-central-1:
         Dedicated: 3.7664
         Shared: 3.424
@@ -79892,6 +80250,9 @@ m6i.16xlarge:
         Dedicated: 3.3792
         Shared: 3.072
     RHEL:
+      af-south-1:
+        Dedicated: 4.6004
+        Shared: 4.194
       ap-east-1:
         Dedicated: 4.7764
         Shared: 4.354
@@ -79910,6 +80271,9 @@ m6i.16xlarge:
       ap-southeast-2:
         Dedicated: 4.354
         Shared: 3.97
+      Asia Pacific (Osaka):
+        Dedicated: 4.4948
+        Shared: 4.098
       ca-central-1:
         Dedicated: 3.8964
         Shared: 3.554
@@ -79956,6 +80320,9 @@ m6i.16xlarge:
         Dedicated: 3.5092
         Shared: 3.202
     RHEL_HA:
+      af-south-1:
+        Dedicated: 4.6354
+        Shared: 4.229
       ap-east-1:
         Dedicated: 4.8114
         Shared: 4.389
@@ -79974,6 +80341,9 @@ m6i.16xlarge:
       ap-southeast-2:
         Dedicated: 4.389
         Shared: 4.005
+      Asia Pacific (Osaka):
+        Dedicated: 4.5298
+        Shared: 4.133
       ca-central-1:
         Dedicated: 3.9314
         Shared: 3.589
@@ -80020,6 +80390,9 @@ m6i.16xlarge:
         Dedicated: 3.5442
         Shared: 3.237
     SUSE:
+      af-south-1:
+        Dedicated: 4.5954
+        Shared: 4.189
       ap-east-1:
         Dedicated: 4.7714
         Shared: 4.349
@@ -80038,6 +80411,9 @@ m6i.16xlarge:
       ap-southeast-2:
         Dedicated: 4.349
         Shared: 3.965
+      Asia Pacific (Osaka):
+        Dedicated: 4.4898
+        Shared: 4.093
       ca-central-1:
         Dedicated: 3.8914
         Shared: 3.549
@@ -80084,6 +80460,9 @@ m6i.16xlarge:
         Dedicated: 3.5042
         Shared: 3.197
     Windows:
+      af-south-1:
+        Dedicated: 4.4704
+        Shared: 4.064
       ap-east-1:
         Dedicated: 7.5904
         Shared: 4.224
@@ -80102,6 +80481,9 @@ m6i.16xlarge:
       ap-southeast-2:
         Dedicated: 7.168
         Shared: 6.784
+      Asia Pacific (Osaka):
+        Dedicated: 4.3648
+        Shared: 3.968
       ca-central-1:
         Dedicated: 3.7664
         Shared: 3.424
@@ -80153,6 +80535,7 @@ m6i.16xlarge:
     - us-west-1
     - eu-central-1
     - ap-southeast-1
+    - af-south-1
     - me-south-1
     - ap-northeast-1
     - eu-south-1
@@ -80169,6 +80552,7 @@ m6i.16xlarge:
     - eu-north-1
     - eu-west-1
     - ap-northeast-2
+    - Asia Pacific (Osaka)
   storage: EBS only
   vcpu: 64
 m6i.24xlarge:
@@ -80182,6 +80566,9 @@ m6i.24xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 6.7056
+        Shared: 6.096
       ap-east-1:
         Dedicated: 6.9696
         Shared: 6.336
@@ -80200,6 +80587,9 @@ m6i.24xlarge:
       ap-southeast-2:
         Dedicated: 6.336
         Shared: 5.76
+      Asia Pacific (Osaka):
+        Dedicated: 6.5472
+        Shared: 5.952
       ca-central-1:
         Dedicated: 5.6496
         Shared: 5.136
@@ -80246,6 +80636,9 @@ m6i.24xlarge:
         Dedicated: 5.0688
         Shared: 4.608
     RHEL:
+      af-south-1:
+        Dedicated: 6.8356
+        Shared: 6.226
       ap-east-1:
         Dedicated: 7.0996
         Shared: 6.466
@@ -80264,6 +80657,9 @@ m6i.24xlarge:
       ap-southeast-2:
         Dedicated: 6.466
         Shared: 5.89
+      Asia Pacific (Osaka):
+        Dedicated: 6.6772
+        Shared: 6.082
       ca-central-1:
         Dedicated: 5.7796
         Shared: 5.266
@@ -80310,6 +80706,9 @@ m6i.24xlarge:
         Dedicated: 5.1988
         Shared: 4.738
     RHEL_HA:
+      af-south-1:
+        Dedicated: 6.8706
+        Shared: 6.261
       ap-east-1:
         Dedicated: 7.1346
         Shared: 6.501
@@ -80328,6 +80727,9 @@ m6i.24xlarge:
       ap-southeast-2:
         Dedicated: 6.501
         Shared: 5.925
+      Asia Pacific (Osaka):
+        Dedicated: 6.7122
+        Shared: 6.117
       ca-central-1:
         Dedicated: 5.8146
         Shared: 5.301
@@ -80374,6 +80776,9 @@ m6i.24xlarge:
         Dedicated: 5.2338
         Shared: 4.773
     SUSE:
+      af-south-1:
+        Dedicated: 6.8306
+        Shared: 6.221
       ap-east-1:
         Dedicated: 7.0946
         Shared: 6.461
@@ -80392,6 +80797,9 @@ m6i.24xlarge:
       ap-southeast-2:
         Dedicated: 6.461
         Shared: 5.885
+      Asia Pacific (Osaka):
+        Dedicated: 6.6722
+        Shared: 6.077
       ca-central-1:
         Dedicated: 5.7746
         Shared: 5.261
@@ -80438,6 +80846,9 @@ m6i.24xlarge:
         Dedicated: 5.1938
         Shared: 4.733
     Windows:
+      af-south-1:
+        Dedicated: 6.7056
+        Shared: 10.512
       ap-east-1:
         Dedicated: 11.3856
         Shared: 10.752
@@ -80456,6 +80867,9 @@ m6i.24xlarge:
       ap-southeast-2:
         Dedicated: 6.336
         Shared: 10.176
+      Asia Pacific (Osaka):
+        Dedicated: 10.9632
+        Shared: 10.368
       ca-central-1:
         Dedicated: 5.6496
         Shared: 5.136
@@ -80508,6 +80922,7 @@ m6i.24xlarge:
     - ap-northeast-2
     - us-east-2
     - us-west-2
+    - Asia Pacific (Osaka)
     - us-west-1
     - eu-south-1
     - us-east-1
@@ -80515,6 +80930,7 @@ m6i.24xlarge:
     - eu-north-1
     - ca-central-1
     - me-south-1
+    - af-south-1
     - eu-west-1
     - us-gov-east-1
     - eu-west-2
@@ -80536,6 +80952,9 @@ m6i.2xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.5588
+        Shared: 0.508
       ap-east-1:
         Dedicated: 0.5808
         Shared: 0.528
@@ -80554,6 +80973,9 @@ m6i.2xlarge:
       ap-southeast-2:
         Dedicated: 0.528
         Shared: 0.48
+      Asia Pacific (Osaka):
+        Dedicated: 0.5456
+        Shared: 0.496
       ca-central-1:
         Dedicated: 0.4708
         Shared: 0.428
@@ -80600,6 +81022,9 @@ m6i.2xlarge:
         Dedicated: 0.4224
         Shared: 0.384
     RHEL:
+      af-south-1:
+        Dedicated: 0.6888
+        Shared: 0.638
       ap-east-1:
         Dedicated: 0.7108
         Shared: 0.658
@@ -80618,6 +81043,9 @@ m6i.2xlarge:
       ap-southeast-2:
         Dedicated: 0.658
         Shared: 0.61
+      Asia Pacific (Osaka):
+        Dedicated: 0.6756
+        Shared: 0.626
       ca-central-1:
         Dedicated: 0.6008
         Shared: 0.558
@@ -80664,6 +81092,9 @@ m6i.2xlarge:
         Dedicated: 0.5524
         Shared: 0.514
     RHEL_HA:
+      af-south-1:
+        Dedicated: 0.7238
+        Shared: 0.673
       ap-east-1:
         Dedicated: 0.7458
         Shared: 0.693
@@ -80682,6 +81113,9 @@ m6i.2xlarge:
       ap-southeast-2:
         Dedicated: 0.693
         Shared: 0.645
+      Asia Pacific (Osaka):
+        Dedicated: 0.7106
+        Shared: 0.661
       ca-central-1:
         Dedicated: 0.6358
         Shared: 0.593
@@ -80728,6 +81162,9 @@ m6i.2xlarge:
         Dedicated: 0.5874
         Shared: 0.549
     SUSE:
+      af-south-1:
+        Dedicated: 0.6838
+        Shared: 0.633
       ap-east-1:
         Dedicated: 0.7058
         Shared: 0.653
@@ -80746,6 +81183,9 @@ m6i.2xlarge:
       ap-southeast-2:
         Dedicated: 0.653
         Shared: 0.605
+      Asia Pacific (Osaka):
+        Dedicated: 0.6706
+        Shared: 0.621
       ca-central-1:
         Dedicated: 0.5958
         Shared: 0.553
@@ -80792,6 +81232,9 @@ m6i.2xlarge:
         Dedicated: 0.5474
         Shared: 0.509
     Windows:
+      af-south-1:
+        Dedicated: 0.5588
+        Shared: 0.508
       ap-east-1:
         Dedicated: 0.9488
         Shared: 0.528
@@ -80810,6 +81253,9 @@ m6i.2xlarge:
       ap-southeast-2:
         Dedicated: 0.896
         Shared: 0.48
+      Asia Pacific (Osaka):
+        Dedicated: 0.9136
+        Shared: 0.496
       ca-central-1:
         Dedicated: 0.4708
         Shared: 0.428
@@ -80860,7 +81306,9 @@ m6i.2xlarge:
     - eu-south-1
     - us-gov-east-1
     - us-east-1
+    - af-south-1
     - ap-northeast-2
+    - Asia Pacific (Osaka)
     - ap-southeast-2
     - eu-west-1
     - us-gov-west-1
@@ -80890,6 +81338,9 @@ m6i.32xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 8.128
+        Shared: 8.128
       ap-east-1:
         Dedicated: 8.448
         Shared: 8.448
@@ -80908,6 +81359,9 @@ m6i.32xlarge:
       ap-southeast-2:
         Dedicated: 8.448
         Shared: 7.68
+      Asia Pacific (Osaka):
+        Dedicated: 7.936
+        Shared: 7.936
       ca-central-1:
         Dedicated: 6.848
         Shared: 6.848
@@ -80954,6 +81408,9 @@ m6i.32xlarge:
         Dedicated: 6.7584
         Shared: 6.144
     RHEL:
+      af-south-1:
+        Dedicated: 8.258
+        Shared: 8.258
       ap-east-1:
         Dedicated: 8.578
         Shared: 8.578
@@ -80972,6 +81429,9 @@ m6i.32xlarge:
       ap-southeast-2:
         Dedicated: 8.578
         Shared: 7.81
+      Asia Pacific (Osaka):
+        Dedicated: 8.066
+        Shared: 8.066
       ca-central-1:
         Dedicated: 6.978
         Shared: 6.978
@@ -81018,6 +81478,9 @@ m6i.32xlarge:
         Dedicated: 6.8884
         Shared: 6.274
     RHEL_HA:
+      af-south-1:
+        Dedicated: 8.293
+        Shared: 8.293
       ap-east-1:
         Dedicated: 8.613
         Shared: 8.613
@@ -81036,6 +81499,9 @@ m6i.32xlarge:
       ap-southeast-2:
         Dedicated: 8.613
         Shared: 7.845
+      Asia Pacific (Osaka):
+        Dedicated: 8.101
+        Shared: 8.101
       ca-central-1:
         Dedicated: 7.013
         Shared: 7.013
@@ -81082,6 +81548,9 @@ m6i.32xlarge:
         Dedicated: 6.9234
         Shared: 6.309
     SUSE:
+      af-south-1:
+        Dedicated: 8.253
+        Shared: 8.253
       ap-east-1:
         Dedicated: 8.573
         Shared: 8.573
@@ -81100,6 +81569,9 @@ m6i.32xlarge:
       ap-southeast-2:
         Dedicated: 7.805
         Shared: 7.805
+      Asia Pacific (Osaka):
+        Dedicated: 8.061
+        Shared: 8.061
       ca-central-1:
         Dedicated: 6.973
         Shared: 6.973
@@ -81146,6 +81618,9 @@ m6i.32xlarge:
         Dedicated: 6.269
         Shared: 6.269
     Windows:
+      af-south-1:
+        Dedicated: 8.128
+        Shared: 14.016
       ap-east-1:
         Dedicated: 14.336
         Shared: 14.336
@@ -81164,6 +81639,9 @@ m6i.32xlarge:
       ap-southeast-2:
         Dedicated: 14.336
         Shared: 13.568
+      Asia Pacific (Osaka):
+        Dedicated: 7.936
+        Shared: 13.824
       ca-central-1:
         Dedicated: 12.736
         Shared: 12.736
@@ -81210,7 +81688,9 @@ m6i.32xlarge:
         Dedicated: 12.6464
         Shared: 12.032
   regions:
+    - Asia Pacific (Osaka)
     - me-south-1
+    - af-south-1
     - ap-southeast-1
     - eu-west-1
     - us-west-1
@@ -81244,6 +81724,9 @@ m6i.4xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 1.1176
+        Shared: 1.016
       ap-east-1:
         Dedicated: 1.1616
         Shared: 1.056
@@ -81262,6 +81745,9 @@ m6i.4xlarge:
       ap-southeast-2:
         Dedicated: 1.056
         Shared: 0.96
+      Asia Pacific (Osaka):
+        Dedicated: 1.0912
+        Shared: 0.992
       ca-central-1:
         Dedicated: 0.9416
         Shared: 0.856
@@ -81308,6 +81794,9 @@ m6i.4xlarge:
         Dedicated: 0.8448
         Shared: 0.768
     RHEL:
+      af-south-1:
+        Dedicated: 1.2476
+        Shared: 1.146
       ap-east-1:
         Dedicated: 1.2916
         Shared: 1.186
@@ -81326,6 +81815,9 @@ m6i.4xlarge:
       ap-southeast-2:
         Dedicated: 1.186
         Shared: 1.09
+      Asia Pacific (Osaka):
+        Dedicated: 1.2212
+        Shared: 1.122
       ca-central-1:
         Dedicated: 1.0716
         Shared: 0.986
@@ -81372,6 +81864,9 @@ m6i.4xlarge:
         Dedicated: 0.9748
         Shared: 0.898
     RHEL_HA:
+      af-south-1:
+        Dedicated: 1.2826
+        Shared: 1.181
       ap-east-1:
         Dedicated: 1.3266
         Shared: 1.221
@@ -81390,6 +81885,9 @@ m6i.4xlarge:
       ap-southeast-2:
         Dedicated: 1.221
         Shared: 1.125
+      Asia Pacific (Osaka):
+        Dedicated: 1.2562
+        Shared: 1.157
       ca-central-1:
         Dedicated: 1.1066
         Shared: 1.021
@@ -81436,6 +81934,9 @@ m6i.4xlarge:
         Dedicated: 1.0098
         Shared: 0.933
     SUSE:
+      af-south-1:
+        Dedicated: 1.2426
+        Shared: 1.141
       ap-east-1:
         Dedicated: 1.2866
         Shared: 1.181
@@ -81454,6 +81955,9 @@ m6i.4xlarge:
       ap-southeast-2:
         Dedicated: 1.181
         Shared: 1.085
+      Asia Pacific (Osaka):
+        Dedicated: 1.2162
+        Shared: 1.117
       ca-central-1:
         Dedicated: 1.0666
         Shared: 0.981
@@ -81500,6 +82004,9 @@ m6i.4xlarge:
         Dedicated: 0.9698
         Shared: 0.893
     Windows:
+      af-south-1:
+        Dedicated: 1.1176
+        Shared: 1.752
       ap-east-1:
         Dedicated: 1.1616
         Shared: 1.056
@@ -81518,6 +82025,9 @@ m6i.4xlarge:
       ap-southeast-2:
         Dedicated: 1.792
         Shared: 1.696
+      Asia Pacific (Osaka):
+        Dedicated: 1.8272
+        Shared: 0.992
       ca-central-1:
         Dedicated: 1.6776
         Shared: 0.856
@@ -81574,6 +82084,7 @@ m6i.4xlarge:
     - ap-northeast-1
     - ap-southeast-1
     - us-gov-east-1
+    - af-south-1
     - eu-south-1
     - us-east-2
     - eu-west-2
@@ -81581,6 +82092,7 @@ m6i.4xlarge:
     - ap-northeast-2
     - eu-west-3
     - ap-southeast-2
+    - Asia Pacific (Osaka)
     - ap-south-1
     - us-west-2
     - sa-east-1
@@ -81598,6 +82110,9 @@ m6i.8xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 2.2352
+        Shared: 2.032
       ap-east-1:
         Dedicated: 2.3232
         Shared: 2.112
@@ -81616,6 +82131,9 @@ m6i.8xlarge:
       ap-southeast-2:
         Dedicated: 2.112
         Shared: 1.92
+      Asia Pacific (Osaka):
+        Dedicated: 2.1824
+        Shared: 1.984
       ca-central-1:
         Dedicated: 1.8832
         Shared: 1.712
@@ -81662,6 +82180,9 @@ m6i.8xlarge:
         Dedicated: 1.6896
         Shared: 1.536
     RHEL:
+      af-south-1:
+        Dedicated: 2.3652
+        Shared: 2.162
       ap-east-1:
         Dedicated: 2.4532
         Shared: 2.242
@@ -81680,6 +82201,9 @@ m6i.8xlarge:
       ap-southeast-2:
         Dedicated: 2.242
         Shared: 2.05
+      Asia Pacific (Osaka):
+        Dedicated: 2.3124
+        Shared: 2.114
       ca-central-1:
         Dedicated: 2.0132
         Shared: 1.842
@@ -81726,6 +82250,9 @@ m6i.8xlarge:
         Dedicated: 1.8196
         Shared: 1.666
     RHEL_HA:
+      af-south-1:
+        Dedicated: 2.4002
+        Shared: 2.197
       ap-east-1:
         Dedicated: 2.4882
         Shared: 2.277
@@ -81744,6 +82271,9 @@ m6i.8xlarge:
       ap-southeast-2:
         Dedicated: 2.277
         Shared: 2.085
+      Asia Pacific (Osaka):
+        Dedicated: 2.3474
+        Shared: 2.149
       ca-central-1:
         Dedicated: 2.0482
         Shared: 1.877
@@ -81790,6 +82320,9 @@ m6i.8xlarge:
         Dedicated: 1.8546
         Shared: 1.701
     SUSE:
+      af-south-1:
+        Dedicated: 2.3602
+        Shared: 2.157
       ap-east-1:
         Dedicated: 2.4482
         Shared: 2.237
@@ -81808,6 +82341,9 @@ m6i.8xlarge:
       ap-southeast-2:
         Dedicated: 2.237
         Shared: 2.045
+      Asia Pacific (Osaka):
+        Dedicated: 2.3074
+        Shared: 2.109
       ca-central-1:
         Dedicated: 2.0082
         Shared: 1.837
@@ -81854,6 +82390,9 @@ m6i.8xlarge:
         Dedicated: 1.8146
         Shared: 1.661
     Windows:
+      af-south-1:
+        Dedicated: 2.2352
+        Shared: 2.032
       ap-east-1:
         Dedicated: 2.3232
         Shared: 2.112
@@ -81872,6 +82411,9 @@ m6i.8xlarge:
       ap-southeast-2:
         Dedicated: 3.584
         Shared: 3.392
+      Asia Pacific (Osaka):
+        Dedicated: 3.6544
+        Shared: 1.984
       ca-central-1:
         Dedicated: 1.8832
         Shared: 3.184
@@ -81930,8 +82472,10 @@ m6i.8xlarge:
     - eu-west-3
     - ap-southeast-2
     - ap-northeast-1
+    - Asia Pacific (Osaka)
     - ap-southeast-1
     - us-east-1
+    - af-south-1
     - ap-south-1
     - us-east-2
     - eu-south-1
@@ -81952,6 +82496,9 @@ m6i.large:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.1397
+        Shared: 0.127
       ap-east-1:
         Dedicated: 0.1452
         Shared: 0.132
@@ -81970,6 +82517,9 @@ m6i.large:
       ap-southeast-2:
         Dedicated: 0.132
         Shared: 0.12
+      Asia Pacific (Osaka):
+        Dedicated: 0.1364
+        Shared: 0.124
       ca-central-1:
         Dedicated: 0.1177
         Shared: 0.107
@@ -82016,6 +82566,9 @@ m6i.large:
         Dedicated: 0.1056
         Shared: 0.096
     RHEL:
+      af-south-1:
+        Dedicated: 0.1997
+        Shared: 0.187
       ap-east-1:
         Dedicated: 0.2052
         Shared: 0.192
@@ -82034,6 +82587,9 @@ m6i.large:
       ap-southeast-2:
         Dedicated: 0.192
         Shared: 0.18
+      Asia Pacific (Osaka):
+        Dedicated: 0.1964
+        Shared: 0.184
       ca-central-1:
         Dedicated: 0.1777
         Shared: 0.167
@@ -82080,6 +82636,9 @@ m6i.large:
         Dedicated: 0.1656
         Shared: 0.156
     RHEL_HA:
+      af-south-1:
+        Dedicated: 0.2347
+        Shared: 0.222
       ap-east-1:
         Dedicated: 0.2402
         Shared: 0.227
@@ -82098,6 +82657,9 @@ m6i.large:
       ap-southeast-2:
         Dedicated: 0.227
         Shared: 0.215
+      Asia Pacific (Osaka):
+        Dedicated: 0.2314
+        Shared: 0.219
       ca-central-1:
         Dedicated: 0.2127
         Shared: 0.202
@@ -82144,6 +82706,9 @@ m6i.large:
         Dedicated: 0.2006
         Shared: 0.191
     SUSE:
+      af-south-1:
+        Dedicated: 0.196
+        Shared: 0.1833
       ap-east-1:
         Dedicated: 0.2015
         Shared: 0.1883
@@ -82162,6 +82727,9 @@ m6i.large:
       ap-southeast-2:
         Dedicated: 0.1883
         Shared: 0.1763
+      Asia Pacific (Osaka):
+        Dedicated: 0.1927
+        Shared: 0.1803
       ca-central-1:
         Dedicated: 0.174
         Shared: 0.1633
@@ -82208,6 +82776,9 @@ m6i.large:
         Dedicated: 0.1619
         Shared: 0.1523
     Windows:
+      af-south-1:
+        Dedicated: 0.1397
+        Shared: 0.127
       ap-east-1:
         Dedicated: 0.2372
         Shared: 0.132
@@ -82226,6 +82797,9 @@ m6i.large:
       ap-southeast-2:
         Dedicated: 0.132
         Shared: 0.12
+      Asia Pacific (Osaka):
+        Dedicated: 0.1364
+        Shared: 0.124
       ca-central-1:
         Dedicated: 0.1177
         Shared: 0.107
@@ -82273,6 +82847,7 @@ m6i.large:
         Shared: 0.096
   regions:
     - us-gov-west-1
+    - Asia Pacific (Osaka)
     - ap-southeast-2
     - eu-south-1
     - eu-west-1
@@ -82281,6 +82856,7 @@ m6i.large:
     - ap-northeast-1
     - ap-southeast-1
     - us-east-1
+    - af-south-1
     - us-west-1
     - ap-south-1
     - me-south-1
@@ -82306,6 +82882,9 @@ m6i.metal:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 8.128
+        Shared: 8.128
       ap-east-1:
         Dedicated: 8.448
         Shared: 8.448
@@ -82324,6 +82903,9 @@ m6i.metal:
       ap-southeast-2:
         Dedicated: 7.68
         Shared: 7.68
+      Asia Pacific (Osaka):
+        Dedicated: 7.936
+        Shared: 7.936
       ca-central-1:
         Dedicated: 6.848
         Shared: 6.848
@@ -82370,6 +82952,9 @@ m6i.metal:
         Dedicated: 6.144
         Shared: 6.144
     RHEL:
+      af-south-1:
+        Dedicated: 8.258
+        Shared: 8.258
       ap-east-1:
         Dedicated: 8.578
         Shared: 8.578
@@ -82388,6 +82973,9 @@ m6i.metal:
       ap-southeast-2:
         Dedicated: 7.81
         Shared: 7.81
+      Asia Pacific (Osaka):
+        Dedicated: 8.066
+        Shared: 8.066
       ca-central-1:
         Dedicated: 6.978
         Shared: 6.978
@@ -82434,6 +83022,9 @@ m6i.metal:
         Dedicated: 6.274
         Shared: 6.274
     RHEL_HA:
+      af-south-1:
+        Dedicated: 8.293
+        Shared: 8.293
       ap-east-1:
         Dedicated: 8.613
         Shared: 8.613
@@ -82452,6 +83043,9 @@ m6i.metal:
       ap-southeast-2:
         Dedicated: 7.845
         Shared: 7.845
+      Asia Pacific (Osaka):
+        Dedicated: 8.101
+        Shared: 8.101
       ca-central-1:
         Dedicated: 7.013
         Shared: 7.013
@@ -82498,6 +83092,9 @@ m6i.metal:
         Dedicated: 6.309
         Shared: 6.309
     SUSE:
+      af-south-1:
+        Dedicated: 8.253
+        Shared: 8.253
       ap-east-1:
         Dedicated: 8.573
         Shared: 8.573
@@ -82516,6 +83113,9 @@ m6i.metal:
       ap-southeast-2:
         Dedicated: 7.805
         Shared: 7.805
+      Asia Pacific (Osaka):
+        Dedicated: 8.061
+        Shared: 8.061
       ca-central-1:
         Dedicated: 6.973
         Shared: 6.973
@@ -82562,6 +83162,9 @@ m6i.metal:
         Dedicated: 6.269
         Shared: 6.269
     Windows:
+      af-south-1:
+        Dedicated: 8.128
+        Shared: 8.128
       ap-east-1:
         Dedicated: 8.448
         Shared: 14.336
@@ -82580,6 +83183,9 @@ m6i.metal:
       ap-southeast-2:
         Dedicated: 13.568
         Shared: 7.68
+      Asia Pacific (Osaka):
+        Dedicated: 13.824
+        Shared: 7.936
       ca-central-1:
         Dedicated: 6.848
         Shared: 12.736
@@ -82630,7 +83236,9 @@ m6i.metal:
     - eu-west-3
     - sa-east-1
     - ap-northeast-2
+    - Asia Pacific (Osaka)
     - eu-south-1
+    - af-south-1
     - us-gov-east-1
     - ap-south-1
     - us-west-2
@@ -82660,6 +83268,9 @@ m6i.xlarge:
   physicalProcessor: Intel Xeon 8375C (Ice Lake)
   prices:
     Linux:
+      af-south-1:
+        Dedicated: 0.2794
+        Shared: 0.254
       ap-east-1:
         Dedicated: 0.2904
         Shared: 0.264
@@ -82678,6 +83289,9 @@ m6i.xlarge:
       ap-southeast-2:
         Dedicated: 0.264
         Shared: 0.24
+      Asia Pacific (Osaka):
+        Dedicated: 0.2728
+        Shared: 0.248
       ca-central-1:
         Dedicated: 0.2354
         Shared: 0.214
@@ -82724,6 +83338,9 @@ m6i.xlarge:
         Dedicated: 0.2112
         Shared: 0.192
     RHEL:
+      af-south-1:
+        Dedicated: 0.3394
+        Shared: 0.314
       ap-east-1:
         Dedicated: 0.3504
         Shared: 0.324
@@ -82742,6 +83359,9 @@ m6i.xlarge:
       ap-southeast-2:
         Dedicated: 0.324
         Shared: 0.3
+      Asia Pacific (Osaka):
+        Dedicated: 0.3328
+        Shared: 0.308
       ca-central-1:
         Dedicated: 0.2954
         Shared: 0.274
@@ -82788,6 +83408,9 @@ m6i.xlarge:
         Dedicated: 0.2712
         Shared: 0.252
     RHEL_HA:
+      af-south-1:
+        Dedicated: 0.3744
+        Shared: 0.349
       ap-east-1:
         Dedicated: 0.3854
         Shared: 0.359
@@ -82806,6 +83429,9 @@ m6i.xlarge:
       ap-southeast-2:
         Dedicated: 0.359
         Shared: 0.335
+      Asia Pacific (Osaka):
+        Dedicated: 0.3678
+        Shared: 0.343
       ca-central-1:
         Dedicated: 0.3304
         Shared: 0.309
@@ -82852,6 +83478,9 @@ m6i.xlarge:
         Dedicated: 0.3062
         Shared: 0.287
     SUSE:
+      af-south-1:
+        Dedicated: 0.3357
+        Shared: 0.3103
       ap-east-1:
         Dedicated: 0.3467
         Shared: 0.3203
@@ -82870,6 +83499,9 @@ m6i.xlarge:
       ap-southeast-2:
         Dedicated: 0.3203
         Shared: 0.2963
+      Asia Pacific (Osaka):
+        Dedicated: 0.3291
+        Shared: 0.3043
       ca-central-1:
         Dedicated: 0.2917
         Shared: 0.2703
@@ -82916,6 +83548,9 @@ m6i.xlarge:
         Dedicated: 0.2675
         Shared: 0.2483
     Windows:
+      af-south-1:
+        Dedicated: 0.4634
+        Shared: 0.254
       ap-east-1:
         Dedicated: 0.4744
         Shared: 0.448
@@ -82934,6 +83569,9 @@ m6i.xlarge:
       ap-southeast-2:
         Dedicated: 0.264
         Shared: 0.24
+      Asia Pacific (Osaka):
+        Dedicated: 0.2728
+        Shared: 0.432
       ca-central-1:
         Dedicated: 0.4194
         Shared: 0.214
@@ -82982,11 +83620,13 @@ m6i.xlarge:
   regions:
     - us-east-2
     - eu-central-1
+    - Asia Pacific (Osaka)
     - eu-south-1
     - eu-west-3
     - ca-central-1
     - eu-west-1
     - ap-southeast-2
+    - af-south-1
     - ap-southeast-1
     - me-south-1
     - us-gov-east-1
@@ -126622,6 +127262,54 @@ u-12tb1.metal:
     - Asia Pacific (Osaka)
   storage: EBS only
   vcpu: 448
+u-18tb1.112xlarge:
+  currentGeneration: true
+  dedicatedEbsThroughput: 38000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 18432 GiB
+  networkPerformance: 100 Gigabit
+  physicalProcessor: Intel Xeon Platinum 8280L (Cascade Lake)
+  prices:
+    Linux:
+      us-east-1:
+        Dedicated: 163.8
+        Shared: 163.8
+      us-west-2:
+        Dedicated: 163.8
+        Shared: 163.8
+    RHEL:
+      us-east-1:
+        Dedicated: 163.93
+        Shared: 163.93
+      us-west-2:
+        Dedicated: 163.93
+        Shared: 163.93
+    RHEL_HA:
+      us-east-1:
+        Dedicated: 163.965
+        Shared: 163.965
+      us-west-2:
+        Dedicated: 163.965
+        Shared: 163.965
+    SUSE:
+      us-east-1:
+        Dedicated: 163.925
+        Shared: 163.925
+      us-west-2:
+        Dedicated: 163.925
+        Shared: 163.925
+    Windows:
+      us-east-1:
+        Dedicated: 184.408
+        Shared: 184.408
+      us-west-2:
+        Dedicated: 163.8
+        Shared: 184.408
+  regions:
+    - us-west-2
+    - us-east-1
+  storage: EBS only
+  vcpu: 448
 u-18tb1.metal:
   currentGeneration: true
   dedicatedEbsThroughput: 38000 Mbps
@@ -126631,8 +127319,41 @@ u-18tb1.metal:
   physicalProcessor: Intel Xeon Platinum 8280L (Cascade Lake)
   prices: {}
   regions:
+    - us-west-2
     - eu-west-1
     - us-east-1
+  storage: EBS only
+  vcpu: 448
+u-24tb1.112xlarge:
+  currentGeneration: true
+  dedicatedEbsThroughput: 38000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 24576 GiB
+  networkPerformance: 100 Gigabit
+  physicalProcessor: Intel Xeon Platinum 8280L (Cascade Lake)
+  prices:
+    Linux:
+      ap-northeast-2:
+        Dedicated: 263.47
+        Shared: 263.47
+    RHEL:
+      ap-northeast-2:
+        Dedicated: 263.6
+        Shared: 263.6
+    RHEL_HA:
+      ap-northeast-2:
+        Dedicated: 263.635
+        Shared: 263.635
+    SUSE:
+      ap-northeast-2:
+        Dedicated: 263.595
+        Shared: 263.595
+    Windows:
+      ap-northeast-2:
+        Dedicated: 263.47
+        Shared: 284.078
+  regions:
+    - ap-northeast-2
   storage: EBS only
   vcpu: 448
 u-24tb1.metal:
@@ -126644,10 +127365,10 @@ u-24tb1.metal:
   physicalProcessor: Intel Xeon Platinum 8280L (Cascade Lake)
   prices: {}
   regions:
+    - ap-northeast-2
     - us-east-1
     - us-gov-east-1
     - us-gov-west-1
-    - ap-northeast-2
   storage: EBS only
   vcpu: 448
 u-3tb1.56xlarge:
