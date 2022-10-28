@@ -40710,6 +40710,9 @@ g5.12xlarge:
       eu-central-1:
         Dedicated: 7.8021
         Shared: 7.09282
+      eu-north-1:
+        Dedicated: 6.61752
+        Shared: 6.01593
       eu-west-1:
         Dedicated: 6.96483
         Shared: 6.33167
@@ -40735,6 +40738,9 @@ g5.12xlarge:
       eu-central-1:
         Dedicated: 7.9321
         Shared: 7.22282
+      eu-north-1:
+        Dedicated: 6.74752
+        Shared: 6.14593
       eu-west-1:
         Dedicated: 7.09483
         Shared: 6.46167
@@ -40760,6 +40766,9 @@ g5.12xlarge:
       eu-central-1:
         Dedicated: 7.9671
         Shared: 7.25782
+      eu-north-1:
+        Dedicated: 6.78252
+        Shared: 6.18093
       eu-west-1:
         Dedicated: 7.12983
         Shared: 6.49667
@@ -40785,6 +40794,9 @@ g5.12xlarge:
       eu-central-1:
         Dedicated: 7.9271
         Shared: 7.21782
+      eu-north-1:
+        Dedicated: 6.74252
+        Shared: 6.14093
       eu-west-1:
         Dedicated: 7.08983
         Shared: 6.45667
@@ -40810,6 +40822,9 @@ g5.12xlarge:
       eu-central-1:
         Dedicated: 7.8021
         Shared: 9.30082
+      eu-north-1:
+        Dedicated: 8.82552
+        Shared: 8.22393
       eu-west-1:
         Dedicated: 9.17283
         Shared: 8.53967
@@ -40823,6 +40838,7 @@ g5.12xlarge:
         Dedicated: 6.2392
         Shared: 7.88
   regions:
+    - eu-north-1
     - ap-northeast-1
     - us-east-1
     - ap-south-1
@@ -40857,6 +40873,9 @@ g5.16xlarge:
       eu-central-1:
         Dedicated: 5.63424
         Shared: 5.12204
+      eu-north-1:
+        Dedicated: 4.7788
+        Shared: 4.34437
       eu-west-1:
         Dedicated: 5.02961
         Shared: 4.57237
@@ -40882,6 +40901,9 @@ g5.16xlarge:
       eu-central-1:
         Dedicated: 5.76424
         Shared: 5.25204
+      eu-north-1:
+        Dedicated: 4.9088
+        Shared: 4.47437
       eu-west-1:
         Dedicated: 5.15961
         Shared: 4.70237
@@ -40907,6 +40929,9 @@ g5.16xlarge:
       eu-central-1:
         Dedicated: 5.79924
         Shared: 5.28704
+      eu-north-1:
+        Dedicated: 4.9438
+        Shared: 4.50937
       eu-west-1:
         Dedicated: 5.19461
         Shared: 4.73737
@@ -40932,6 +40957,9 @@ g5.16xlarge:
       eu-central-1:
         Dedicated: 5.75924
         Shared: 5.24704
+      eu-north-1:
+        Dedicated: 4.9038
+        Shared: 4.46937
       eu-west-1:
         Dedicated: 5.15461
         Shared: 4.69737
@@ -40957,6 +40985,9 @@ g5.16xlarge:
       eu-central-1:
         Dedicated: 8.57824
         Shared: 5.12204
+      eu-north-1:
+        Dedicated: 4.7788
+        Shared: 7.28837
       eu-west-1:
         Dedicated: 7.97361
         Shared: 7.51637
@@ -40970,6 +41001,7 @@ g5.16xlarge:
         Dedicated: 7.4496
         Shared: 4.096
   regions:
+    - eu-north-1
     - eu-west-2
     - us-west-2
     - eu-central-1
@@ -41004,6 +41036,9 @@ g5.24xlarge:
       eu-central-1:
         Dedicated: 11.20245
         Shared: 10.18405
+      eu-north-1:
+        Dedicated: 9.5016
+        Shared: 8.63782
       eu-west-1:
         Dedicated: 10.00028
         Shared: 9.09117
@@ -41029,6 +41064,9 @@ g5.24xlarge:
       eu-central-1:
         Dedicated: 11.33245
         Shared: 10.31405
+      eu-north-1:
+        Dedicated: 9.6316
+        Shared: 8.76782
       eu-west-1:
         Dedicated: 10.13028
         Shared: 9.22117
@@ -41054,6 +41092,9 @@ g5.24xlarge:
       eu-central-1:
         Dedicated: 11.36745
         Shared: 10.34905
+      eu-north-1:
+        Dedicated: 9.6666
+        Shared: 8.80282
       eu-west-1:
         Dedicated: 10.16528
         Shared: 9.25617
@@ -41079,6 +41120,9 @@ g5.24xlarge:
       eu-central-1:
         Dedicated: 11.32745
         Shared: 10.30905
+      eu-north-1:
+        Dedicated: 9.6266
+        Shared: 8.76282
       eu-west-1:
         Dedicated: 10.12528
         Shared: 9.21617
@@ -41104,6 +41148,9 @@ g5.24xlarge:
       eu-central-1:
         Dedicated: 15.61845
         Shared: 10.18405
+      eu-north-1:
+        Dedicated: 9.5016
+        Shared: 13.05382
       eu-west-1:
         Dedicated: 10.00028
         Shared: 9.09117
@@ -41124,6 +41171,7 @@ g5.24xlarge:
     - eu-central-1
     - us-east-1
     - eu-west-1
+    - eu-north-1
     - eu-west-2
   storage: 1 x 3800 GB NVMe SSD
   vcpu: 96
@@ -41151,6 +41199,9 @@ g5.2xlarge:
       eu-central-1:
         Dedicated: 1.66716
         Shared: 1.5156
+      eu-north-1:
+        Dedicated: 1.41404
+        Shared: 1.28549
       eu-west-1:
         Dedicated: 1.48825
         Shared: 1.35296
@@ -41176,6 +41227,9 @@ g5.2xlarge:
       eu-central-1:
         Dedicated: 1.79716
         Shared: 1.6456
+      eu-north-1:
+        Dedicated: 1.54404
+        Shared: 1.41549
       eu-west-1:
         Dedicated: 1.61825
         Shared: 1.48296
@@ -41201,6 +41255,9 @@ g5.2xlarge:
       eu-central-1:
         Dedicated: 1.83216
         Shared: 1.6806
+      eu-north-1:
+        Dedicated: 1.57904
+        Shared: 1.45049
       eu-west-1:
         Dedicated: 1.65325
         Shared: 1.51796
@@ -41226,6 +41283,9 @@ g5.2xlarge:
       eu-central-1:
         Dedicated: 1.79216
         Shared: 1.6406
+      eu-north-1:
+        Dedicated: 1.53904
+        Shared: 1.41049
       eu-west-1:
         Dedicated: 1.61325
         Shared: 1.47796
@@ -41251,6 +41311,9 @@ g5.2xlarge:
       eu-central-1:
         Dedicated: 1.66716
         Shared: 1.5156
+      eu-north-1:
+        Dedicated: 1.41404
+        Shared: 1.28549
       eu-west-1:
         Dedicated: 1.85625
         Shared: 1.35296
@@ -41271,6 +41334,7 @@ g5.2xlarge:
     - ca-central-1
     - us-east-1
     - eu-west-1
+    - eu-north-1
     - ap-northeast-1
   storage: 1 x 450 GB NVMe SSD
   vcpu: 8
@@ -41298,6 +41362,9 @@ g5.48xlarge:
       eu-central-1:
         Dedicated: 20.3681
         Shared: 20.3681
+      eu-north-1:
+        Dedicated: 17.27564
+        Shared: 17.27564
       eu-west-1:
         Dedicated: 20.00056
         Shared: 18.18233
@@ -41323,6 +41390,9 @@ g5.48xlarge:
       eu-central-1:
         Dedicated: 20.4981
         Shared: 20.4981
+      eu-north-1:
+        Dedicated: 17.40564
+        Shared: 17.40564
       eu-west-1:
         Dedicated: 20.13056
         Shared: 18.31233
@@ -41348,6 +41418,9 @@ g5.48xlarge:
       eu-central-1:
         Dedicated: 20.5331
         Shared: 20.5331
+      eu-north-1:
+        Dedicated: 17.44064
+        Shared: 17.44064
       eu-west-1:
         Dedicated: 20.16556
         Shared: 18.34733
@@ -41373,6 +41446,9 @@ g5.48xlarge:
       eu-central-1:
         Dedicated: 20.4931
         Shared: 20.4931
+      eu-north-1:
+        Dedicated: 17.40064
+        Shared: 17.40064
       eu-west-1:
         Dedicated: 18.30733
         Shared: 18.30733
@@ -41398,6 +41474,9 @@ g5.48xlarge:
       eu-central-1:
         Dedicated: 29.2001
         Shared: 20.3681
+      eu-north-1:
+        Dedicated: 17.27564
+        Shared: 17.27564
       eu-west-1:
         Dedicated: 28.83256
         Shared: 18.18233
@@ -41413,6 +41492,7 @@ g5.48xlarge:
   regions:
     - eu-central-1
     - eu-west-2
+    - eu-north-1
     - ap-south-1
     - ap-northeast-1
     - ca-central-1
@@ -41445,6 +41525,9 @@ g5.4xlarge:
       eu-central-1:
         Dedicated: 2.23389
         Shared: 2.03081
+      eu-north-1:
+        Dedicated: 1.89472
+        Shared: 1.72247
       eu-west-1:
         Dedicated: 1.99416
         Shared: 1.81287
@@ -41470,6 +41553,9 @@ g5.4xlarge:
       eu-central-1:
         Dedicated: 2.36389
         Shared: 2.16081
+      eu-north-1:
+        Dedicated: 2.02472
+        Shared: 1.85247
       eu-west-1:
         Dedicated: 2.12416
         Shared: 1.94287
@@ -41495,6 +41581,9 @@ g5.4xlarge:
       eu-central-1:
         Dedicated: 2.39889
         Shared: 2.19581
+      eu-north-1:
+        Dedicated: 2.05972
+        Shared: 1.88747
       eu-west-1:
         Dedicated: 2.15916
         Shared: 1.97787
@@ -41520,6 +41609,9 @@ g5.4xlarge:
       eu-central-1:
         Dedicated: 2.35889
         Shared: 2.15581
+      eu-north-1:
+        Dedicated: 2.01972
+        Shared: 1.84747
       eu-west-1:
         Dedicated: 2.11916
         Shared: 1.93787
@@ -41545,6 +41637,9 @@ g5.4xlarge:
       eu-central-1:
         Dedicated: 2.96989
         Shared: 2.03081
+      eu-north-1:
+        Dedicated: 2.63072
+        Shared: 1.72247
       eu-west-1:
         Dedicated: 2.73016
         Shared: 1.81287
@@ -41560,6 +41655,7 @@ g5.4xlarge:
   regions:
     - ap-northeast-1
     - ap-south-1
+    - eu-north-1
     - eu-central-1
     - eu-west-1
     - eu-west-2
@@ -41592,6 +41688,9 @@ g5.8xlarge:
       eu-central-1:
         Dedicated: 3.36734
         Shared: 3.06122
+      eu-north-1:
+        Dedicated: 2.85608
+        Shared: 2.59644
       eu-west-1:
         Dedicated: 3.00598
         Shared: 2.73271
@@ -41617,6 +41716,9 @@ g5.8xlarge:
       eu-central-1:
         Dedicated: 3.49734
         Shared: 3.19122
+      eu-north-1:
+        Dedicated: 2.98608
+        Shared: 2.72644
       eu-west-1:
         Dedicated: 3.13598
         Shared: 2.86271
@@ -41642,6 +41744,9 @@ g5.8xlarge:
       eu-central-1:
         Dedicated: 3.53234
         Shared: 3.22622
+      eu-north-1:
+        Dedicated: 3.02108
+        Shared: 2.76144
       eu-west-1:
         Dedicated: 3.17098
         Shared: 2.89771
@@ -41667,6 +41772,9 @@ g5.8xlarge:
       eu-central-1:
         Dedicated: 3.49234
         Shared: 3.18622
+      eu-north-1:
+        Dedicated: 2.98108
+        Shared: 2.72144
       eu-west-1:
         Dedicated: 3.13098
         Shared: 2.85771
@@ -41692,6 +41800,9 @@ g5.8xlarge:
       eu-central-1:
         Dedicated: 3.36734
         Shared: 3.06122
+      eu-north-1:
+        Dedicated: 2.85608
+        Shared: 2.59644
       eu-west-1:
         Dedicated: 3.00598
         Shared: 4.20471
@@ -41710,6 +41821,7 @@ g5.8xlarge:
     - eu-west-2
     - ap-south-1
     - eu-central-1
+    - eu-north-1
     - ca-central-1
     - us-east-1
     - eu-west-1
@@ -41739,6 +41851,9 @@ g5.xlarge:
       eu-central-1:
         Dedicated: 1.3838
         Shared: 1.258
+      eu-north-1:
+        Dedicated: 1.1737
+        Shared: 1.067
       eu-west-1:
         Dedicated: 1.2353
         Shared: 1.123
@@ -41764,6 +41879,9 @@ g5.xlarge:
       eu-central-1:
         Dedicated: 1.4438
         Shared: 1.318
+      eu-north-1:
+        Dedicated: 1.2337
+        Shared: 1.127
       eu-west-1:
         Dedicated: 1.2953
         Shared: 1.183
@@ -41789,6 +41907,9 @@ g5.xlarge:
       eu-central-1:
         Dedicated: 1.4788
         Shared: 1.353
+      eu-north-1:
+        Dedicated: 1.2687
+        Shared: 1.162
       eu-west-1:
         Dedicated: 1.3303
         Shared: 1.218
@@ -41814,6 +41935,9 @@ g5.xlarge:
       eu-central-1:
         Dedicated: 1.4401
         Shared: 1.3143
+      eu-north-1:
+        Dedicated: 1.23
+        Shared: 1.1233
       eu-west-1:
         Dedicated: 1.2916
         Shared: 1.1793
@@ -41839,6 +41963,9 @@ g5.xlarge:
       eu-central-1:
         Dedicated: 1.3838
         Shared: 1.442
+      eu-north-1:
+        Dedicated: 1.1737
+        Shared: 1.251
       eu-west-1:
         Dedicated: 1.4193
         Shared: 1.307
@@ -41859,6 +41986,7 @@ g5.xlarge:
     - eu-west-2
     - ap-south-1
     - eu-central-1
+    - eu-north-1
     - us-east-1
   storage: 1 x 250 GB NVMe SSD
   vcpu: 4
@@ -54025,6 +54153,8 @@ is4gen.2xlarge:
     Linux:
       ap-northeast-1:
         Shared: 1.3566
+      ap-southeast-1:
+        Shared: 1.3821
       ap-southeast-2:
         Shared: 1.3821
       ca-central-1:
@@ -54044,6 +54174,8 @@ is4gen.2xlarge:
     RHEL:
       ap-northeast-1:
         Shared: 1.4866
+      ap-southeast-1:
+        Shared: 1.5121
       ap-southeast-2:
         Shared: 1.5121
       ca-central-1:
@@ -54063,6 +54195,8 @@ is4gen.2xlarge:
     RHEL_HA:
       ap-northeast-1:
         Shared: 1.5216
+      ap-southeast-1:
+        Shared: 1.5471
       ap-southeast-2:
         Shared: 1.5471
       ca-central-1:
@@ -54104,13 +54238,13 @@ is4gen.2xlarge:
     - ap-northeast-1
     - ap-southeast-2
     - eu-west-1
+    - ap-southeast-1
     - us-east-1
     - ca-central-1
     - eu-west-2
     - us-east-2
     - eu-central-1
     - us-west-2
-    - ap-southeast-1
   storage: 1 x 7500 SSD
   vcpu: 8
 is4gen.4xlarge:
@@ -54189,6 +54323,8 @@ is4gen.4xlarge:
     SUSE:
       ap-northeast-1:
         Shared: 2.8382
+      ap-southeast-1:
+        Shared: 2.88921
       ap-southeast-2:
         Shared: 2.88921
       ca-central-1:
@@ -54211,11 +54347,11 @@ is4gen.4xlarge:
     - us-east-1
     - ap-northeast-1
     - us-west-2
+    - ap-southeast-1
     - ca-central-1
     - us-east-2
     - eu-central-1
     - ap-southeast-2
-    - ap-southeast-1
   storage: 2 x 7500 SSD
   vcpu: 16
 is4gen.8xlarge:
@@ -54231,6 +54367,8 @@ is4gen.8xlarge:
     Linux:
       ap-northeast-1:
         Shared: 5.4264
+      ap-southeast-1:
+        Shared: 5.52842
       ap-southeast-2:
         Shared: 5.52842
       ca-central-1:
@@ -54250,6 +54388,8 @@ is4gen.8xlarge:
     RHEL:
       ap-northeast-1:
         Shared: 5.5564
+      ap-southeast-1:
+        Shared: 5.65842
       ap-southeast-2:
         Shared: 5.65842
       ca-central-1:
@@ -54269,6 +54409,8 @@ is4gen.8xlarge:
     RHEL_HA:
       ap-northeast-1:
         Shared: 5.5914
+      ap-southeast-1:
+        Shared: 5.69342
       ap-southeast-2:
         Shared: 5.69342
       ca-central-1:
@@ -54353,6 +54495,8 @@ is4gen.large:
     RHEL:
       ap-northeast-1:
         Shared: 0.39915
+      ap-southeast-1:
+        Shared: 0.40553
       ap-southeast-2:
         Shared: 0.40553
       ca-central-1:
@@ -54393,6 +54537,8 @@ is4gen.large:
     SUSE:
       ap-northeast-1:
         Shared: 0.39545
+      ap-southeast-1:
+        Shared: 0.40183
       ap-southeast-2:
         Shared: 0.40183
       ca-central-1:
@@ -54414,9 +54560,9 @@ is4gen.large:
     - eu-west-2
     - us-east-2
     - us-west-2
+    - ap-southeast-1
     - ap-northeast-1
     - ca-central-1
-    - ap-southeast-1
     - eu-west-1
     - us-east-1
     - eu-central-1
@@ -54477,6 +54623,8 @@ is4gen.medium:
     RHEL_HA:
       ap-northeast-1:
         Shared: 0.26458
+      ap-southeast-1:
+        Shared: 0.26776
       ap-southeast-2:
         Shared: 0.26776
       ca-central-1:
@@ -54496,6 +54644,8 @@ is4gen.medium:
     SUSE:
       ap-northeast-1:
         Shared: 0.22588
+      ap-southeast-1:
+        Shared: 0.22906
       ap-southeast-2:
         Shared: 0.22906
       ca-central-1:
@@ -54559,6 +54709,8 @@ is4gen.xlarge:
     RHEL:
       ap-northeast-1:
         Shared: 0.7383
+      ap-southeast-1:
+        Shared: 0.75105
       ap-southeast-2:
         Shared: 0.75105
       ca-central-1:
@@ -131620,6 +131772,9 @@ x2idn.16xlarge:
       ap-southeast-3:
         Dedicated: 10.63755
         Shared: 9.6705
+      Asia Pacific (Osaka):
+        Dedicated: 10.6381
+        Shared: 9.671
       ca-central-1:
         Dedicated: 8.0696
         Shared: 7.336
@@ -131678,6 +131833,9 @@ x2idn.16xlarge:
       ap-southeast-3:
         Dedicated: 10.76755
         Shared: 9.8005
+      Asia Pacific (Osaka):
+        Dedicated: 10.7681
+        Shared: 9.801
       ca-central-1:
         Dedicated: 8.1996
         Shared: 7.466
@@ -131736,6 +131894,9 @@ x2idn.16xlarge:
       ap-southeast-3:
         Dedicated: 10.80255
         Shared: 9.8355
+      Asia Pacific (Osaka):
+        Dedicated: 10.8031
+        Shared: 9.836
       ca-central-1:
         Dedicated: 8.2346
         Shared: 7.501
@@ -131794,6 +131955,9 @@ x2idn.16xlarge:
       ap-southeast-3:
         Dedicated: 10.76255
         Shared: 9.7955
+      Asia Pacific (Osaka):
+        Dedicated: 10.7631
+        Shared: 9.796
       ca-central-1:
         Dedicated: 8.1946
         Shared: 7.461
@@ -131852,6 +132016,9 @@ x2idn.16xlarge:
       ap-southeast-3:
         Dedicated: 10.63755
         Shared: 9.6705
+      Asia Pacific (Osaka):
+        Dedicated: 10.6381
+        Shared: 12.615
       ca-central-1:
         Dedicated: 8.0696
         Shared: 7.336
@@ -131909,6 +132076,7 @@ x2idn.16xlarge:
     - eu-west-1
     - ca-central-1
     - us-gov-west-1
+    - Asia Pacific (Osaka)
     - us-east-1
     - ap-northeast-2
   storage: 1 x 1900 NVMe SSD
@@ -131942,6 +132110,9 @@ x2idn.24xlarge:
       ap-southeast-3:
         Dedicated: 15.95633
         Shared: 14.50575
+      Asia Pacific (Osaka):
+        Dedicated: 15.95715
+        Shared: 14.5065
       ca-central-1:
         Dedicated: 12.1044
         Shared: 11.004
@@ -132000,6 +132171,9 @@ x2idn.24xlarge:
       ap-southeast-3:
         Dedicated: 16.08633
         Shared: 14.63575
+      Asia Pacific (Osaka):
+        Dedicated: 16.08715
+        Shared: 14.6365
       ca-central-1:
         Dedicated: 12.2344
         Shared: 11.134
@@ -132058,6 +132232,9 @@ x2idn.24xlarge:
       ap-southeast-3:
         Dedicated: 16.12133
         Shared: 14.67075
+      Asia Pacific (Osaka):
+        Dedicated: 16.12215
+        Shared: 14.6715
       ca-central-1:
         Dedicated: 12.2694
         Shared: 11.169
@@ -132116,6 +132293,9 @@ x2idn.24xlarge:
       ap-southeast-3:
         Dedicated: 16.08133
         Shared: 14.63075
+      Asia Pacific (Osaka):
+        Dedicated: 16.08215
+        Shared: 14.6315
       ca-central-1:
         Dedicated: 12.2294
         Shared: 11.129
@@ -132174,6 +132354,9 @@ x2idn.24xlarge:
       ap-southeast-3:
         Dedicated: 15.95633
         Shared: 14.50575
+      Asia Pacific (Osaka):
+        Dedicated: 15.95715
+        Shared: 14.5065
       ca-central-1:
         Dedicated: 16.5204
         Shared: 15.42
@@ -132215,6 +132398,7 @@ x2idn.24xlarge:
         Shared: 14.4195
   regions:
     - sa-east-1
+    - Asia Pacific (Osaka)
     - eu-central-1
     - us-east-2
     - eu-north-1
@@ -132264,6 +132448,9 @@ x2idn.32xlarge:
       ap-southeast-3:
         Dedicated: 19.341
         Shared: 19.341
+      Asia Pacific (Osaka):
+        Dedicated: 19.342
+        Shared: 19.342
       ca-central-1:
         Dedicated: 14.672
         Shared: 14.672
@@ -132322,6 +132509,9 @@ x2idn.32xlarge:
       ap-southeast-3:
         Dedicated: 19.471
         Shared: 19.471
+      Asia Pacific (Osaka):
+        Dedicated: 19.472
+        Shared: 19.472
       ca-central-1:
         Dedicated: 14.802
         Shared: 14.802
@@ -132380,6 +132570,9 @@ x2idn.32xlarge:
       ap-southeast-3:
         Dedicated: 19.506
         Shared: 19.506
+      Asia Pacific (Osaka):
+        Dedicated: 19.507
+        Shared: 19.507
       ca-central-1:
         Dedicated: 14.837
         Shared: 14.837
@@ -132438,6 +132631,9 @@ x2idn.32xlarge:
       ap-southeast-3:
         Dedicated: 19.466
         Shared: 19.466
+      Asia Pacific (Osaka):
+        Dedicated: 19.467
+        Shared: 19.467
       ca-central-1:
         Dedicated: 14.797
         Shared: 14.797
@@ -132496,6 +132692,9 @@ x2idn.32xlarge:
       ap-southeast-3:
         Dedicated: 25.229
         Shared: 25.229
+      Asia Pacific (Osaka):
+        Dedicated: 25.23
+        Shared: 19.342
       ca-central-1:
         Dedicated: 20.56
         Shared: 20.56
@@ -132538,6 +132737,7 @@ x2idn.32xlarge:
   regions:
     - us-west-2
     - eu-north-1
+    - Asia Pacific (Osaka)
     - ca-central-1
     - sa-east-1
     - ap-northeast-2
@@ -132586,6 +132786,9 @@ x2idn.metal:
       ap-southeast-3:
         Dedicated: 19.341
         Shared: 19.341
+      Asia Pacific (Osaka):
+        Dedicated: 19.342
+        Shared: 19.342
       ca-central-1:
         Dedicated: 14.672
         Shared: 14.672
@@ -132644,6 +132847,9 @@ x2idn.metal:
       ap-southeast-3:
         Dedicated: 19.471
         Shared: 19.471
+      Asia Pacific (Osaka):
+        Dedicated: 19.472
+        Shared: 19.472
       ca-central-1:
         Dedicated: 14.802
         Shared: 14.802
@@ -132702,6 +132908,9 @@ x2idn.metal:
       ap-southeast-3:
         Dedicated: 19.506
         Shared: 19.506
+      Asia Pacific (Osaka):
+        Dedicated: 19.507
+        Shared: 19.507
       ca-central-1:
         Dedicated: 14.837
         Shared: 14.837
@@ -132760,6 +132969,9 @@ x2idn.metal:
       ap-southeast-3:
         Dedicated: 19.466
         Shared: 19.466
+      Asia Pacific (Osaka):
+        Dedicated: 19.467
+        Shared: 19.467
       ca-central-1:
         Dedicated: 14.797
         Shared: 14.797
@@ -132818,6 +133030,9 @@ x2idn.metal:
       ap-southeast-3:
         Dedicated: 25.229
         Shared: 25.229
+      Asia Pacific (Osaka):
+        Dedicated: 19.342
+        Shared: 25.23
       ca-central-1:
         Dedicated: 20.56
         Shared: 20.56
@@ -132871,6 +133086,7 @@ x2idn.metal:
     - us-east-1
     - sa-east-1
     - eu-north-1
+    - Asia Pacific (Osaka)
     - ca-central-1
     - us-gov-east-1
     - us-gov-west-1
