@@ -3467,6 +3467,9 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 2.582
         Shared: 2.424
+      Europe (Zurich):
+        Dedicated: 2.714
+        Shared: 2.561
       me-south-1:
         Dedicated: 2.686
         Shared: 2.534
@@ -3546,6 +3549,9 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 2.712
         Shared: 2.554
+      Europe (Zurich):
+        Dedicated: 2.844
+        Shared: 2.691
       me-south-1:
         Dedicated: 2.816
         Shared: 2.664
@@ -3625,6 +3631,9 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 2.734
         Shared: 2.589
+      Europe (Zurich):
+        Dedicated: 2.879
+        Shared: 2.726
       me-south-1:
         Dedicated: 2.851
         Shared: 2.699
@@ -3704,6 +3713,9 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 2.682
         Shared: 2.524
+      Europe (Zurich):
+        Dedicated: 2.839
+        Shared: 2.686
       me-south-1:
         Dedicated: 2.786
         Shared: 2.634
@@ -3783,6 +3795,9 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 4.79
         Shared: 2.424
+      Europe (Zurich):
+        Dedicated: 2.714
+        Shared: 2.561
       me-south-1:
         Dedicated: 2.686
         Shared: 2.534
@@ -3817,6 +3832,7 @@ c5.12xlarge:
     - eu-west-2
     - eu-north-1
     - Asia Pacific (Osaka)
+    - Europe (Zurich)
     - us-east-1
     - us-east-2
     - me-south-1
@@ -3902,6 +3918,9 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.636
         Shared: 3.636
+      Europe (Zurich):
+        Dedicated: 3.841
+        Shared: 3.841
       me-south-1:
         Dedicated: 3.802
         Shared: 3.802
@@ -3981,6 +4000,9 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.766
         Shared: 3.766
+      Europe (Zurich):
+        Dedicated: 3.971
+        Shared: 3.971
       me-south-1:
         Dedicated: 3.932
         Shared: 3.932
@@ -4060,6 +4082,9 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.801
         Shared: 3.801
+      Europe (Zurich):
+        Dedicated: 4.006
+        Shared: 4.006
       me-south-1:
         Dedicated: 3.967
         Shared: 3.967
@@ -4139,6 +4164,9 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.736
         Shared: 3.736
+      Europe (Zurich):
+        Dedicated: 3.966
+        Shared: 3.966
       me-south-1:
         Dedicated: 3.902
         Shared: 3.902
@@ -4218,6 +4246,9 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.636
         Shared: 6.948
+      Europe (Zurich):
+        Dedicated: 3.841
+        Shared: 7.153
       me-south-1:
         Dedicated: 3.802
         Shared: 3.802
@@ -4267,6 +4298,7 @@ c5.18xlarge:
     - us-west-2-lax-1a
     - ap-northeast-1
     - us-west-2
+    - Europe (Zurich)
     - Middle East (UAE)
     - ap-south-1
     - eu-south-1
@@ -4337,6 +4369,9 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 5.164
         Shared: 4.848
+      Europe (Zurich):
+        Dedicated: 5.122
+        Shared: 5.122
       me-south-1:
         Dedicated: 5.069
         Shared: 5.069
@@ -4416,6 +4451,9 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 5.294
         Shared: 4.978
+      Europe (Zurich):
+        Dedicated: 5.252
+        Shared: 5.252
       me-south-1:
         Dedicated: 5.199
         Shared: 5.199
@@ -4495,6 +4533,9 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 5.013
         Shared: 5.013
+      Europe (Zurich):
+        Dedicated: 5.287
+        Shared: 5.287
       me-south-1:
         Dedicated: 5.234
         Shared: 5.234
@@ -4574,6 +4615,9 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 4.973
         Shared: 4.948
+      Europe (Zurich):
+        Dedicated: 5.247
+        Shared: 5.247
       me-south-1:
         Dedicated: 5.169
         Shared: 5.169
@@ -4653,6 +4697,9 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 5.164
         Shared: 4.848
+      Europe (Zurich):
+        Dedicated: 9.538
+        Shared: 9.538
       me-south-1:
         Dedicated: 9.485
         Shared: 9.485
@@ -4687,6 +4734,7 @@ c5.24xlarge:
     - Middle East (UAE)
     - us-east-1
     - us-gov-east-1
+    - Europe (Zurich)
     - us-gov-west-1
     - ap-east-1
     - ap-northeast-2
@@ -4772,6 +4820,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.43
         Shared: 0.404
+      Europe (Zurich):
+        Dedicated: 0.452
+        Shared: 0.427
       Germany (Hamburg):
         Dedicated: 0.555
         Shared: 0.524
@@ -4863,6 +4914,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.56
         Shared: 0.534
+      Europe (Zurich):
+        Dedicated: 0.582
+        Shared: 0.557
       Germany (Hamburg):
         Dedicated: 0.685
         Shared: 0.654
@@ -4954,6 +5008,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.593
         Shared: 0.569
+      Europe (Zurich):
+        Dedicated: 0.617
+        Shared: 0.592
       Germany (Hamburg):
         Dedicated: 0.72
         Shared: 0.689
@@ -5045,6 +5102,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.53
         Shared: 0.504
+      Europe (Zurich):
+        Dedicated: 0.577
+        Shared: 0.552
       Germany (Hamburg):
         Dedicated: 0.68
         Shared: 0.649
@@ -5136,6 +5196,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.798
         Shared: 0.772
+      Europe (Zurich):
+        Dedicated: 0.452
+        Shared: 0.427
       Germany (Hamburg):
         Dedicated: 0.923
         Shared: 0.524
@@ -5185,6 +5248,7 @@ c5.2xlarge:
     - eu-west-2
     - ap-east-1
     - ap-south-1
+    - Europe (Zurich)
     - ap-northeast-1
     - ca-central-1
     - India (Delhi)
@@ -5271,6 +5335,9 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 0.861
         Shared: 0.808
+      Europe (Zurich):
+        Dedicated: 0.905
+        Shared: 0.854
       me-south-1:
         Dedicated: 0.9
         Shared: 0.845
@@ -5350,6 +5417,9 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 0.991
         Shared: 0.938
+      Europe (Zurich):
+        Dedicated: 1.035
+        Shared: 0.984
       me-south-1:
         Dedicated: 1.03
         Shared: 0.975
@@ -5429,6 +5499,9 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 1.021
         Shared: 0.973
+      Europe (Zurich):
+        Dedicated: 1.07
+        Shared: 1.019
       me-south-1:
         Dedicated: 1.06
         Shared: 1.01
@@ -5508,6 +5581,9 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 0.961
         Shared: 0.908
+      Europe (Zurich):
+        Dedicated: 1.03
+        Shared: 0.979
       me-south-1:
         Dedicated: 1
         Shared: 0.945
@@ -5587,6 +5663,9 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 0.861
         Shared: 1.544
+      Europe (Zurich):
+        Dedicated: 1.641
+        Shared: 0.854
       me-south-1:
         Dedicated: 0.9
         Shared: 1.581
@@ -5623,6 +5702,7 @@ c5.4xlarge:
     - Asia Pacific (Osaka)
     - ap-northeast-2
     - eu-west-1
+    - Europe (Zurich)
     - us-east-2
     - eu-west-2
     - eu-north-1
@@ -5706,6 +5786,9 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 1.937
         Shared: 1.818
+      Europe (Zurich):
+        Dedicated: 2.036
+        Shared: 1.921
       me-south-1:
         Dedicated: 2.025
         Shared: 1.901
@@ -5785,6 +5868,9 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 2.067
         Shared: 1.948
+      Europe (Zurich):
+        Dedicated: 2.166
+        Shared: 2.051
       me-south-1:
         Dedicated: 2.155
         Shared: 2.031
@@ -5864,6 +5950,9 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 2.092
         Shared: 1.983
+      Europe (Zurich):
+        Dedicated: 2.201
+        Shared: 2.086
       me-south-1:
         Dedicated: 2.18
         Shared: 2.066
@@ -5943,6 +6032,9 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 2.037
         Shared: 1.918
+      Europe (Zurich):
+        Dedicated: 2.161
+        Shared: 2.046
       me-south-1:
         Dedicated: 2.125
         Shared: 2.001
@@ -6022,6 +6114,9 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 3.593
         Shared: 1.818
+      Europe (Zurich):
+        Dedicated: 2.036
+        Shared: 3.577
       me-south-1:
         Dedicated: 2.025
         Shared: 3.557
@@ -6074,6 +6169,7 @@ c5.9xlarge:
     - me-south-1
     - ap-southeast-3
     - us-east-1
+    - Europe (Zurich)
     - af-south-1
     - us-west-1
     - ap-east-1
@@ -6141,6 +6237,9 @@ c5.large:
       eu-west-3:
         Dedicated: 0.108
         Shared: 0.101
+      Europe (Zurich):
+        Dedicated: 0.113
+        Shared: 0.107
       me-south-1:
         Dedicated: 0.113
         Shared: 0.106
@@ -6220,6 +6319,9 @@ c5.large:
       eu-west-3:
         Dedicated: 0.168
         Shared: 0.161
+      Europe (Zurich):
+        Dedicated: 0.173
+        Shared: 0.167
       me-south-1:
         Dedicated: 0.173
         Shared: 0.166
@@ -6299,6 +6401,9 @@ c5.large:
       eu-west-3:
         Dedicated: 0.202
         Shared: 0.196
+      Europe (Zurich):
+        Dedicated: 0.208
+        Shared: 0.202
       me-south-1:
         Dedicated: 0.207
         Shared: 0.201
@@ -6378,6 +6483,9 @@ c5.large:
       eu-west-3:
         Dedicated: 0.163
         Shared: 0.157
+      Europe (Zurich):
+        Dedicated: 0.169
+        Shared: 0.163
       me-south-1:
         Dedicated: 0.168
         Shared: 0.162
@@ -6457,6 +6565,9 @@ c5.large:
       eu-west-3:
         Dedicated: 0.108
         Shared: 0.101
+      Europe (Zurich):
+        Dedicated: 0.113
+        Shared: 0.107
       me-south-1:
         Dedicated: 0.205
         Shared: 0.106
@@ -6499,6 +6610,7 @@ c5.large:
     - us-gov-east-1
     - us-west-1
     - us-east-1
+    - Europe (Zurich)
     - us-east-2
     - me-south-1
     - eu-north-1
@@ -6576,6 +6688,9 @@ c5.metal:
       eu-west-3:
         Dedicated: 4.848
         Shared: 4.848
+      Europe (Zurich):
+        Dedicated: 5.122
+        Shared: 5.122
       me-south-1:
         Dedicated: 5.069
         Shared: 5.069
@@ -6655,6 +6770,9 @@ c5.metal:
       eu-west-3:
         Dedicated: 4.978
         Shared: 4.978
+      Europe (Zurich):
+        Dedicated: 5.252
+        Shared: 5.252
       me-south-1:
         Dedicated: 5.199
         Shared: 5.199
@@ -6734,6 +6852,9 @@ c5.metal:
       eu-west-3:
         Dedicated: 5.013
         Shared: 5.013
+      Europe (Zurich):
+        Dedicated: 5.287
+        Shared: 5.287
       me-south-1:
         Dedicated: 5.234
         Shared: 5.234
@@ -6813,6 +6934,9 @@ c5.metal:
       eu-west-3:
         Dedicated: 4.948
         Shared: 4.948
+      Europe (Zurich):
+        Dedicated: 5.247
+        Shared: 5.247
       me-south-1:
         Dedicated: 5.169
         Shared: 5.169
@@ -6892,6 +7016,9 @@ c5.metal:
       eu-west-3:
         Dedicated: 9.264
         Shared: 4.848
+      Europe (Zurich):
+        Dedicated: 5.122
+        Shared: 9.538
       me-south-1:
         Dedicated: 9.485
         Shared: 5.069
@@ -6934,6 +7061,7 @@ c5.metal:
     - Asia Pacific (Osaka)
     - us-gov-east-1
     - me-south-1
+    - Europe (Zurich)
     - eu-west-2
     - us-west-2
     - eu-west-1
@@ -7011,6 +7139,9 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.215
         Shared: 0.202
+      Europe (Zurich):
+        Dedicated: 0.226
+        Shared: 0.213
       me-south-1:
         Dedicated: 0.225
         Shared: 0.211
@@ -7090,6 +7221,9 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.275
         Shared: 0.262
+      Europe (Zurich):
+        Dedicated: 0.286
+        Shared: 0.273
       me-south-1:
         Dedicated: 0.285
         Shared: 0.271
@@ -7169,6 +7303,9 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.309
         Shared: 0.297
+      Europe (Zurich):
+        Dedicated: 0.321
+        Shared: 0.308
       me-south-1:
         Dedicated: 0.319
         Shared: 0.306
@@ -7248,6 +7385,9 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.27
         Shared: 0.258
+      Europe (Zurich):
+        Dedicated: 0.283
+        Shared: 0.27
       me-south-1:
         Dedicated: 0.28
         Shared: 0.268
@@ -7327,6 +7467,9 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.399
         Shared: 0.202
+      Europe (Zurich):
+        Dedicated: 0.41
+        Shared: 0.397
       me-south-1:
         Dedicated: 0.409
         Shared: 0.211
@@ -7359,6 +7502,7 @@ c5.xlarge:
         Shared: 0.388
   regions:
     - Asia Pacific (Osaka)
+    - Europe (Zurich)
     - ap-east-1
     - eu-south-1
     - ap-southeast-1
@@ -11752,6 +11896,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 2.941
         Shared: 2.76
+      Europe (Zurich):
+        Dedicated: 3.106
+        Shared: 2.93
       Middle East (UAE):
         Dedicated: 3.05
         Shared: 2.878
@@ -11816,6 +11963,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.071
         Shared: 2.89
+      Europe (Zurich):
+        Dedicated: 3.236
+        Shared: 3.06
       Middle East (UAE):
         Dedicated: 3.18
         Shared: 3.008
@@ -11880,6 +12030,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.091
         Shared: 2.925
+      Europe (Zurich):
+        Dedicated: 3.271
+        Shared: 3.095
       Middle East (UAE):
         Dedicated: 3.215
         Shared: 3.043
@@ -11944,6 +12097,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.041
         Shared: 2.86
+      Europe (Zurich):
+        Dedicated: 3.231
+        Shared: 3.055
       Middle East (UAE):
         Dedicated: 3.175
         Shared: 3.003
@@ -12008,6 +12164,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 5.149
         Shared: 4.968
+      Europe (Zurich):
+        Dedicated: 5.314
+        Shared: 5.138
       Middle East (UAE):
         Dedicated: 5.258
         Shared: 2.878
@@ -12038,6 +12197,7 @@ c5d.12xlarge:
     - US East (Boston)
     - ap-northeast-1
     - Middle East (UAE)
+    - Europe (Zurich)
     - ap-southeast-1
     - af-south-1
     - ca-central-1
@@ -12116,6 +12276,9 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 4.14
         Shared: 4.14
+      Europe (Zurich):
+        Dedicated: 4.396
+        Shared: 4.396
       me-south-1:
         Dedicated: 4.316
         Shared: 4.316
@@ -12195,6 +12358,9 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 4.27
         Shared: 4.27
+      Europe (Zurich):
+        Dedicated: 4.526
+        Shared: 4.526
       me-south-1:
         Dedicated: 4.446
         Shared: 4.446
@@ -12274,6 +12440,9 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 4.305
         Shared: 4.305
+      Europe (Zurich):
+        Dedicated: 4.561
+        Shared: 4.561
       me-south-1:
         Dedicated: 4.481
         Shared: 4.481
@@ -12350,6 +12519,9 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 4.24
         Shared: 4.24
+      Europe (Zurich):
+        Dedicated: 4.521
+        Shared: 4.521
       me-south-1:
         Dedicated: 4.416
         Shared: 4.416
@@ -12429,6 +12601,9 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 7.452
         Shared: 7.452
+      Europe (Zurich):
+        Dedicated: 4.396
+        Shared: 4.396
       me-south-1:
         Dedicated: 7.628
         Shared: 7.628
@@ -12465,6 +12640,7 @@ c5d.18xlarge:
     - ap-southeast-2
     - eu-west-2
     - ap-south-1
+    - Europe (Zurich)
     - us-gov-west-1
     - sa-east-1
     - us-west-2
@@ -12542,6 +12718,9 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 5.882
         Shared: 5.52
+      Europe (Zurich):
+        Dedicated: 6.212
+        Shared: 5.861
       Middle East (UAE):
         Dedicated: 6.101
         Shared: 5.755
@@ -12606,6 +12785,9 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 6.012
         Shared: 5.65
+      Europe (Zurich):
+        Dedicated: 6.342
+        Shared: 5.991
       Middle East (UAE):
         Dedicated: 6.231
         Shared: 5.885
@@ -12670,6 +12852,9 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 6.016
         Shared: 5.685
+      Europe (Zurich):
+        Dedicated: 6.377
+        Shared: 6.026
       Middle East (UAE):
         Dedicated: 6.266
         Shared: 5.92
@@ -12734,6 +12919,9 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 5.976
         Shared: 5.62
+      Europe (Zurich):
+        Dedicated: 6.337
+        Shared: 5.986
       Middle East (UAE):
         Dedicated: 6.226
         Shared: 5.88
@@ -12798,6 +12986,9 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 10.298
         Shared: 9.936
+      Europe (Zurich):
+        Dedicated: 6.212
+        Shared: 5.861
       Middle East (UAE):
         Dedicated: 6.101
         Shared: 5.755
@@ -12821,6 +13012,7 @@ c5d.24xlarge:
         Shared: 9.024
   regions:
     - Middle East (UAE)
+    - Europe (Zurich)
     - us-east-2
     - ap-southeast-3
     - eu-central-1
@@ -12904,6 +13096,9 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.49
         Shared: 0.46
+      Europe (Zurich):
+        Dedicated: 0.518
+        Shared: 0.488
       me-south-1:
         Dedicated: 0.511
         Shared: 0.48
@@ -13025,6 +13220,9 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.62
         Shared: 0.59
+      Europe (Zurich):
+        Dedicated: 0.648
+        Shared: 0.618
       me-south-1:
         Dedicated: 0.641
         Shared: 0.61
@@ -13146,6 +13344,9 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.653
         Shared: 0.625
+      Europe (Zurich):
+        Dedicated: 0.683
+        Shared: 0.653
       me-south-1:
         Dedicated: 0.673
         Shared: 0.645
@@ -13267,6 +13468,9 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.59
         Shared: 0.56
+      Europe (Zurich):
+        Dedicated: 0.643
+        Shared: 0.613
       me-south-1:
         Dedicated: 0.611
         Shared: 0.58
@@ -13388,6 +13592,9 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.858
         Shared: 0.828
+      Europe (Zurich):
+        Dedicated: 0.886
+        Shared: 0.856
       me-south-1:
         Dedicated: 0.879
         Shared: 0.848
@@ -13469,6 +13676,7 @@ c5d.2xlarge:
     - 'us-east-1-mia-1a '
     - ap-southeast-3
     - US East (Boston)
+    - Europe (Zurich)
     - me-south-1
     - us-east-2
     - us-west-2
@@ -13563,6 +13771,9 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 0.98
         Shared: 0.92
+      Europe (Zurich):
+        Dedicated: 1.035
+        Shared: 0.977
       me-south-1:
         Dedicated: 1.022
         Shared: 0.959
@@ -13642,6 +13853,9 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 1.11
         Shared: 1.05
+      Europe (Zurich):
+        Dedicated: 1.165
+        Shared: 1.107
       me-south-1:
         Dedicated: 1.152
         Shared: 1.089
@@ -13721,6 +13935,9 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 1.14
         Shared: 1.085
+      Europe (Zurich):
+        Dedicated: 1.2
+        Shared: 1.142
       me-south-1:
         Dedicated: 1.182
         Shared: 1.124
@@ -13797,6 +14014,9 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 1.08
         Shared: 1.02
+      Europe (Zurich):
+        Dedicated: 1.16
+        Shared: 1.102
       me-south-1:
         Dedicated: 1.122
         Shared: 1.059
@@ -13876,6 +14096,9 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 1.716
         Shared: 1.656
+      Europe (Zurich):
+        Dedicated: 1.035
+        Shared: 0.977
       me-south-1:
         Dedicated: 1.758
         Shared: 1.695
@@ -13908,6 +14131,7 @@ c5d.4xlarge:
         Shared: 1.504
   regions:
     - us-gov-east-1
+    - Europe (Zurich)
     - ap-east-1
     - ap-southeast-3
     - eu-south-1
@@ -13995,6 +14219,9 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 2.205
         Shared: 2.07
+      Europe (Zurich):
+        Dedicated: 2.33
+        Shared: 2.198
       me-south-1:
         Dedicated: 2.3
         Shared: 2.158
@@ -14074,6 +14301,9 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 2.335
         Shared: 2.2
+      Europe (Zurich):
+        Dedicated: 2.46
+        Shared: 2.328
       me-south-1:
         Dedicated: 2.43
         Shared: 2.288
@@ -14153,6 +14383,9 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 2.359
         Shared: 2.235
+      Europe (Zurich):
+        Dedicated: 2.495
+        Shared: 2.363
       me-south-1:
         Dedicated: 2.453
         Shared: 2.323
@@ -14229,6 +14462,9 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 2.305
         Shared: 2.17
+      Europe (Zurich):
+        Dedicated: 2.455
+        Shared: 2.323
       me-south-1:
         Dedicated: 2.4
         Shared: 2.258
@@ -14308,6 +14544,9 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 3.861
         Shared: 3.726
+      Europe (Zurich):
+        Dedicated: 2.33
+        Shared: 3.854
       me-south-1:
         Dedicated: 3.956
         Shared: 3.814
@@ -14350,6 +14589,7 @@ c5d.9xlarge:
     - us-gov-east-1
     - ap-east-1
     - ca-central-1
+    - Europe (Zurich)
     - ap-southeast-2
     - Asia Pacific (Osaka)
     - me-south-1
@@ -14427,6 +14667,9 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.123
         Shared: 0.115
+      Europe (Zurich):
+        Dedicated: 0.129
+        Shared: 0.122
       me-south-1:
         Dedicated: 0.128
         Shared: 0.12
@@ -14506,6 +14749,9 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.183
         Shared: 0.175
+      Europe (Zurich):
+        Dedicated: 0.189
+        Shared: 0.182
       me-south-1:
         Dedicated: 0.188
         Shared: 0.18
@@ -14585,6 +14831,9 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.217
         Shared: 0.21
+      Europe (Zurich):
+        Dedicated: 0.224
+        Shared: 0.217
       me-south-1:
         Dedicated: 0.222
         Shared: 0.215
@@ -14661,6 +14910,9 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.178
         Shared: 0.171
+      Europe (Zurich):
+        Dedicated: 0.186
+        Shared: 0.178
       me-south-1:
         Dedicated: 0.183
         Shared: 0.176
@@ -14740,6 +14992,9 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.215
         Shared: 0.207
+      Europe (Zurich):
+        Dedicated: 0.129
+        Shared: 0.122
       me-south-1:
         Dedicated: 0.22
         Shared: 0.212
@@ -14778,6 +15033,7 @@ c5d.large:
     - us-east-2
     - Middle East (UAE)
     - us-gov-west-1
+    - Europe (Zurich)
     - 'us-east-1-mia-1a '
     - ap-northeast-1
     - ap-east-1
@@ -14853,6 +15109,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.52
         Shared: 5.52
+      Europe (Zurich):
+        Dedicated: 5.861
+        Shared: 5.861
       Middle East (UAE):
         Dedicated: 5.755
         Shared: 5.755
@@ -14920,6 +15179,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.65
         Shared: 5.65
+      Europe (Zurich):
+        Dedicated: 5.991
+        Shared: 5.991
       Middle East (UAE):
         Dedicated: 5.885
         Shared: 5.885
@@ -14987,6 +15249,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.685
         Shared: 5.685
+      Europe (Zurich):
+        Dedicated: 6.026
+        Shared: 6.026
       Middle East (UAE):
         Dedicated: 5.92
         Shared: 5.92
@@ -15051,6 +15316,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.62
         Shared: 5.62
+      Europe (Zurich):
+        Dedicated: 5.986
+        Shared: 5.986
       Middle East (UAE):
         Dedicated: 5.88
         Shared: 5.88
@@ -15118,6 +15386,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 9.936
         Shared: 9.936
+      Europe (Zurich):
+        Dedicated: 10.277
+        Shared: 5.861
       Middle East (UAE):
         Dedicated: 5.755
         Shared: 10.171
@@ -15152,6 +15423,7 @@ c5d.metal:
     - eu-west-2
     - us-gov-west-1
     - ap-southeast-1
+    - Europe (Zurich)
     - ap-southeast-2
     - Asia Pacific (Osaka)
     - ap-southeast-3
@@ -15227,6 +15499,9 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.245
         Shared: 0.23
+      Europe (Zurich):
+        Dedicated: 0.259
+        Shared: 0.244
       me-south-1:
         Dedicated: 0.256
         Shared: 0.24
@@ -15306,6 +15581,9 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.305
         Shared: 0.29
+      Europe (Zurich):
+        Dedicated: 0.319
+        Shared: 0.304
       me-south-1:
         Dedicated: 0.316
         Shared: 0.3
@@ -15385,6 +15663,9 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.339
         Shared: 0.325
+      Europe (Zurich):
+        Dedicated: 0.354
+        Shared: 0.339
       me-south-1:
         Dedicated: 0.349
         Shared: 0.335
@@ -15461,6 +15742,9 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.3
         Shared: 0.286
+      Europe (Zurich):
+        Dedicated: 0.315
+        Shared: 0.301
       me-south-1:
         Dedicated: 0.31
         Shared: 0.296
@@ -15540,6 +15824,9 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.429
         Shared: 0.414
+      Europe (Zurich):
+        Dedicated: 0.443
+        Shared: 0.428
       me-south-1:
         Dedicated: 0.44
         Shared: 0.424
@@ -15589,6 +15876,7 @@ c5d.xlarge:
     - eu-west-2
     - me-south-1
     - af-south-1
+    - Europe (Zurich)
     - ap-southeast-3
     - us-east-1
     - Middle East (UAE)
@@ -30642,6 +30930,9 @@ c6id.12xlarge:
       ap-northeast-1:
         Dedicated: 3.38184
         Shared: 3.0744
+      ap-southeast-2:
+        Dedicated: 3.49272
+        Shared: 3.1752
       eu-west-1:
         Dedicated: 3.02148
         Shared: 2.7468
@@ -30658,6 +30949,9 @@ c6id.12xlarge:
       ap-northeast-1:
         Dedicated: 3.51184
         Shared: 3.2044
+      ap-southeast-2:
+        Dedicated: 3.62272
+        Shared: 3.3052
       eu-west-1:
         Dedicated: 3.15148
         Shared: 2.8768
@@ -30674,6 +30968,9 @@ c6id.12xlarge:
       ap-northeast-1:
         Dedicated: 3.54684
         Shared: 3.2394
+      ap-southeast-2:
+        Dedicated: 3.65772
+        Shared: 3.3402
       eu-west-1:
         Dedicated: 3.18648
         Shared: 2.9118
@@ -30690,6 +30987,9 @@ c6id.12xlarge:
       ap-northeast-1:
         Dedicated: 3.50684
         Shared: 3.1994
+      ap-southeast-2:
+        Dedicated: 3.61772
+        Shared: 3.3002
       eu-west-1:
         Dedicated: 3.14648
         Shared: 2.8718
@@ -30706,6 +31006,9 @@ c6id.12xlarge:
       ap-northeast-1:
         Dedicated: 5.58984
         Shared: 5.2824
+      ap-southeast-2:
+        Dedicated: 5.70072
+        Shared: 3.1752
       eu-west-1:
         Dedicated: 3.02148
         Shared: 4.9548
@@ -30719,6 +31022,7 @@ c6id.12xlarge:
         Dedicated: 2.66112
         Shared: 4.6272
   regions:
+    - ap-southeast-2
     - us-west-2
     - us-east-2
     - us-east-1
@@ -30740,6 +31044,9 @@ c6id.16xlarge:
       ap-northeast-1:
         Dedicated: 4.50912
         Shared: 4.0992
+      ap-southeast-2:
+        Dedicated: 4.65696
+        Shared: 4.2336
       eu-west-1:
         Dedicated: 4.02864
         Shared: 3.6624
@@ -30756,6 +31063,9 @@ c6id.16xlarge:
       ap-northeast-1:
         Dedicated: 4.63912
         Shared: 4.2292
+      ap-southeast-2:
+        Dedicated: 4.78696
+        Shared: 4.3636
       eu-west-1:
         Dedicated: 4.15864
         Shared: 3.7924
@@ -30772,6 +31082,9 @@ c6id.16xlarge:
       ap-northeast-1:
         Dedicated: 4.67412
         Shared: 4.2642
+      ap-southeast-2:
+        Dedicated: 4.82196
+        Shared: 4.3986
       eu-west-1:
         Dedicated: 4.19364
         Shared: 3.8274
@@ -30788,6 +31101,9 @@ c6id.16xlarge:
       ap-northeast-1:
         Dedicated: 4.63412
         Shared: 4.2242
+      ap-southeast-2:
+        Dedicated: 4.78196
+        Shared: 4.3586
       eu-west-1:
         Dedicated: 4.15364
         Shared: 3.7874
@@ -30804,6 +31120,9 @@ c6id.16xlarge:
       ap-northeast-1:
         Dedicated: 4.50912
         Shared: 4.0992
+      ap-southeast-2:
+        Dedicated: 7.60096
+        Shared: 4.2336
       eu-west-1:
         Dedicated: 4.02864
         Shared: 3.6624
@@ -30822,6 +31141,7 @@ c6id.16xlarge:
     - eu-west-1
     - us-west-2
     - us-east-2
+    - ap-southeast-2
   storage: 2 x 1900 SSD
   vcpu: 64
 c6id.24xlarge:
@@ -30838,6 +31158,9 @@ c6id.24xlarge:
       ap-northeast-1:
         Dedicated: 6.76368
         Shared: 6.1488
+      ap-southeast-2:
+        Dedicated: 6.98544
+        Shared: 6.3504
       eu-west-1:
         Dedicated: 6.04296
         Shared: 5.4936
@@ -30854,6 +31177,9 @@ c6id.24xlarge:
       ap-northeast-1:
         Dedicated: 6.89368
         Shared: 6.2788
+      ap-southeast-2:
+        Dedicated: 7.11544
+        Shared: 6.4804
       eu-west-1:
         Dedicated: 6.17296
         Shared: 5.6236
@@ -30870,6 +31196,9 @@ c6id.24xlarge:
       ap-northeast-1:
         Dedicated: 6.92868
         Shared: 6.3138
+      ap-southeast-2:
+        Dedicated: 7.15044
+        Shared: 6.5154
       eu-west-1:
         Dedicated: 6.20796
         Shared: 5.6586
@@ -30886,6 +31215,9 @@ c6id.24xlarge:
       ap-northeast-1:
         Dedicated: 6.88868
         Shared: 6.2738
+      ap-southeast-2:
+        Dedicated: 7.11044
+        Shared: 6.4754
       eu-west-1:
         Dedicated: 6.16796
         Shared: 5.6186
@@ -30902,6 +31234,9 @@ c6id.24xlarge:
       ap-northeast-1:
         Dedicated: 11.17968
         Shared: 6.1488
+      ap-southeast-2:
+        Dedicated: 6.98544
+        Shared: 6.3504
       eu-west-1:
         Dedicated: 6.04296
         Shared: 9.9096
@@ -30920,6 +31255,7 @@ c6id.24xlarge:
     - ap-northeast-1
     - us-east-2
     - eu-west-1
+    - ap-southeast-2
   storage: 4 x 1425 SSD
   vcpu: 96
 c6id.2xlarge:
@@ -30936,6 +31272,9 @@ c6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.56364
         Shared: 0.5124
+      ap-southeast-2:
+        Dedicated: 0.58212
+        Shared: 0.5292
       eu-west-1:
         Dedicated: 0.50358
         Shared: 0.4578
@@ -30952,6 +31291,9 @@ c6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.69364
         Shared: 0.6424
+      ap-southeast-2:
+        Dedicated: 0.71212
+        Shared: 0.6592
       eu-west-1:
         Dedicated: 0.63358
         Shared: 0.5878
@@ -30968,6 +31310,9 @@ c6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.72864
         Shared: 0.6774
+      ap-southeast-2:
+        Dedicated: 0.74712
+        Shared: 0.6942
       eu-west-1:
         Dedicated: 0.66858
         Shared: 0.6228
@@ -30984,6 +31329,9 @@ c6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.68864
         Shared: 0.6374
+      ap-southeast-2:
+        Dedicated: 0.70712
+        Shared: 0.6542
       eu-west-1:
         Dedicated: 0.62858
         Shared: 0.5828
@@ -31000,6 +31348,9 @@ c6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.93164
         Shared: 0.5124
+      ap-southeast-2:
+        Dedicated: 0.58212
+        Shared: 0.5292
       eu-west-1:
         Dedicated: 0.50358
         Shared: 0.8258
@@ -31015,6 +31366,7 @@ c6id.2xlarge:
   regions:
     - ap-northeast-1
     - us-west-2
+    - ap-southeast-2
     - eu-west-1
     - us-east-1
     - us-east-2
@@ -31034,6 +31386,9 @@ c6id.32xlarge:
       ap-northeast-1:
         Dedicated: 8.1984
         Shared: 8.1984
+      ap-southeast-2:
+        Dedicated: 8.4672
+        Shared: 8.4672
       eu-west-1:
         Dedicated: 7.3248
         Shared: 7.3248
@@ -31050,6 +31405,9 @@ c6id.32xlarge:
       ap-northeast-1:
         Dedicated: 8.3284
         Shared: 8.3284
+      ap-southeast-2:
+        Dedicated: 8.5972
+        Shared: 8.5972
       eu-west-1:
         Dedicated: 7.4548
         Shared: 7.4548
@@ -31066,6 +31424,9 @@ c6id.32xlarge:
       ap-northeast-1:
         Dedicated: 8.3634
         Shared: 8.3634
+      ap-southeast-2:
+        Dedicated: 8.6322
+        Shared: 8.6322
       eu-west-1:
         Dedicated: 7.4898
         Shared: 7.4898
@@ -31082,6 +31443,9 @@ c6id.32xlarge:
       ap-northeast-1:
         Dedicated: 8.3234
         Shared: 8.3234
+      ap-southeast-2:
+        Dedicated: 8.5922
+        Shared: 8.5922
       eu-west-1:
         Dedicated: 7.4498
         Shared: 7.4498
@@ -31098,6 +31462,9 @@ c6id.32xlarge:
       ap-northeast-1:
         Dedicated: 8.1984
         Shared: 14.0864
+      ap-southeast-2:
+        Dedicated: 14.3552
+        Shared: 14.3552
       eu-west-1:
         Dedicated: 7.3248
         Shared: 13.2128
@@ -31115,6 +31482,7 @@ c6id.32xlarge:
     - ap-northeast-1
     - us-west-2
     - eu-west-1
+    - ap-southeast-2
     - us-east-2
   storage: 4 x 1900 SSD
   vcpu: 128
@@ -31132,6 +31500,9 @@ c6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.12728
         Shared: 1.0248
+      ap-southeast-2:
+        Dedicated: 1.16424
+        Shared: 1.0584
       eu-west-1:
         Dedicated: 1.00716
         Shared: 0.9156
@@ -31148,6 +31519,9 @@ c6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.25728
         Shared: 1.1548
+      ap-southeast-2:
+        Dedicated: 1.29424
+        Shared: 1.1884
       eu-west-1:
         Dedicated: 1.13716
         Shared: 1.0456
@@ -31164,6 +31538,9 @@ c6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.29228
         Shared: 1.1898
+      ap-southeast-2:
+        Dedicated: 1.32924
+        Shared: 1.2234
       eu-west-1:
         Dedicated: 1.17216
         Shared: 1.0806
@@ -31180,6 +31557,9 @@ c6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.25228
         Shared: 1.1498
+      ap-southeast-2:
+        Dedicated: 1.28924
+        Shared: 1.1834
       eu-west-1:
         Dedicated: 1.13216
         Shared: 1.0406
@@ -31196,6 +31576,9 @@ c6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.12728
         Shared: 1.0248
+      ap-southeast-2:
+        Dedicated: 1.16424
+        Shared: 1.0584
       eu-west-1:
         Dedicated: 1.00716
         Shared: 0.9156
@@ -31212,6 +31595,7 @@ c6id.4xlarge:
     - us-east-2
     - us-west-2
     - ap-northeast-1
+    - ap-southeast-2
     - eu-west-1
     - us-east-1
   storage: 1 x 950 SSD
@@ -31230,6 +31614,9 @@ c6id.8xlarge:
       ap-northeast-1:
         Dedicated: 2.25456
         Shared: 2.0496
+      ap-southeast-2:
+        Dedicated: 2.32848
+        Shared: 2.1168
       eu-west-1:
         Dedicated: 2.01432
         Shared: 1.8312
@@ -31246,6 +31633,9 @@ c6id.8xlarge:
       ap-northeast-1:
         Dedicated: 2.38456
         Shared: 2.1796
+      ap-southeast-2:
+        Dedicated: 2.45848
+        Shared: 2.2468
       eu-west-1:
         Dedicated: 2.14432
         Shared: 1.9612
@@ -31262,6 +31652,9 @@ c6id.8xlarge:
       ap-northeast-1:
         Dedicated: 2.41956
         Shared: 2.2146
+      ap-southeast-2:
+        Dedicated: 2.49348
+        Shared: 2.2818
       eu-west-1:
         Dedicated: 2.17932
         Shared: 1.9962
@@ -31278,6 +31671,9 @@ c6id.8xlarge:
       ap-northeast-1:
         Dedicated: 2.37956
         Shared: 2.1746
+      ap-southeast-2:
+        Dedicated: 2.45348
+        Shared: 2.2418
       eu-west-1:
         Dedicated: 2.13932
         Shared: 1.9562
@@ -31294,6 +31690,9 @@ c6id.8xlarge:
       ap-northeast-1:
         Dedicated: 3.72656
         Shared: 3.5216
+      ap-southeast-2:
+        Dedicated: 2.32848
+        Shared: 2.1168
       eu-west-1:
         Dedicated: 2.01432
         Shared: 3.3032
@@ -31310,6 +31709,7 @@ c6id.8xlarge:
     - us-east-1
     - eu-west-1
     - ap-northeast-1
+    - ap-southeast-2
     - us-east-2
     - us-west-2
   storage: 1 x 1900 SSD
@@ -31328,6 +31728,9 @@ c6id.large:
       ap-northeast-1:
         Dedicated: 0.14091
         Shared: 0.1281
+      ap-southeast-2:
+        Dedicated: 0.14553
+        Shared: 0.1323
       eu-west-1:
         Dedicated: 0.1259
         Shared: 0.11445
@@ -31344,6 +31747,9 @@ c6id.large:
       ap-northeast-1:
         Dedicated: 0.20091
         Shared: 0.1881
+      ap-southeast-2:
+        Dedicated: 0.20553
+        Shared: 0.1923
       eu-west-1:
         Dedicated: 0.1859
         Shared: 0.17445
@@ -31360,6 +31766,9 @@ c6id.large:
       ap-northeast-1:
         Dedicated: 0.23591
         Shared: 0.2231
+      ap-southeast-2:
+        Dedicated: 0.24053
+        Shared: 0.2273
       eu-west-1:
         Dedicated: 0.2209
         Shared: 0.20945
@@ -31376,6 +31785,9 @@ c6id.large:
       ap-northeast-1:
         Dedicated: 0.19721
         Shared: 0.1844
+      ap-southeast-2:
+        Dedicated: 0.20183
+        Shared: 0.1886
       eu-west-1:
         Dedicated: 0.1822
         Shared: 0.17075
@@ -31392,6 +31804,9 @@ c6id.large:
       ap-northeast-1:
         Dedicated: 0.23291
         Shared: 0.2201
+      ap-southeast-2:
+        Dedicated: 0.23753
+        Shared: 0.1323
       eu-west-1:
         Dedicated: 0.2179
         Shared: 0.20645
@@ -31406,6 +31821,7 @@ c6id.large:
         Shared: 0.1008
   regions:
     - us-east-2
+    - ap-southeast-2
     - eu-west-1
     - us-west-2
     - ap-northeast-1
@@ -31426,6 +31842,9 @@ c6id.metal:
       ap-northeast-1:
         Dedicated: 8.1984
         Shared: 8.1984
+      ap-southeast-2:
+        Dedicated: 8.4672
+        Shared: 8.4672
       eu-west-1:
         Dedicated: 7.3248
         Shared: 7.3248
@@ -31442,6 +31861,9 @@ c6id.metal:
       ap-northeast-1:
         Dedicated: 8.3284
         Shared: 8.3284
+      ap-southeast-2:
+        Dedicated: 8.5972
+        Shared: 8.5972
       eu-west-1:
         Dedicated: 7.4548
         Shared: 7.4548
@@ -31458,6 +31880,9 @@ c6id.metal:
       ap-northeast-1:
         Dedicated: 8.3634
         Shared: 8.3634
+      ap-southeast-2:
+        Dedicated: 8.6322
+        Shared: 8.6322
       eu-west-1:
         Dedicated: 7.4898
         Shared: 7.4898
@@ -31474,6 +31899,9 @@ c6id.metal:
       ap-northeast-1:
         Dedicated: 8.3234
         Shared: 8.3234
+      ap-southeast-2:
+        Dedicated: 8.5922
+        Shared: 8.5922
       eu-west-1:
         Dedicated: 7.4498
         Shared: 7.4498
@@ -31490,6 +31918,9 @@ c6id.metal:
       ap-northeast-1:
         Dedicated: 8.1984
         Shared: 8.1984
+      ap-southeast-2:
+        Dedicated: 14.3552
+        Shared: 14.3552
       eu-west-1:
         Dedicated: 13.2128
         Shared: 13.2128
@@ -31504,6 +31935,7 @@ c6id.metal:
         Shared: 6.4512
   regions:
     - us-west-2
+    - ap-southeast-2
     - us-east-1
     - us-east-2
     - ap-northeast-1
@@ -31524,6 +31956,9 @@ c6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.28182
         Shared: 0.2562
+      ap-southeast-2:
+        Dedicated: 0.29106
+        Shared: 0.2646
       eu-west-1:
         Dedicated: 0.25179
         Shared: 0.2289
@@ -31540,6 +31975,9 @@ c6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.34182
         Shared: 0.3162
+      ap-southeast-2:
+        Dedicated: 0.35106
+        Shared: 0.3246
       eu-west-1:
         Dedicated: 0.31179
         Shared: 0.2889
@@ -31556,6 +31994,9 @@ c6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.37682
         Shared: 0.3512
+      ap-southeast-2:
+        Dedicated: 0.38606
+        Shared: 0.3596
       eu-west-1:
         Dedicated: 0.34679
         Shared: 0.3239
@@ -31572,6 +32013,9 @@ c6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.33812
         Shared: 0.3125
+      ap-southeast-2:
+        Dedicated: 0.34736
+        Shared: 0.3209
       eu-west-1:
         Dedicated: 0.30809
         Shared: 0.2852
@@ -31588,6 +32032,9 @@ c6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.28182
         Shared: 0.2562
+      ap-southeast-2:
+        Dedicated: 0.47506
+        Shared: 0.2646
       eu-west-1:
         Dedicated: 0.25179
         Shared: 0.2289
@@ -31605,6 +32052,7 @@ c6id.xlarge:
     - eu-west-1
     - us-west-2
     - us-east-1
+    - ap-southeast-2
     - us-east-2
   storage: 1 x 237 SSD
   vcpu: 4
@@ -38115,6 +38563,8 @@ g4dn.2xlarge:
         Shared: 1.222
       Europe (Vodafone) - London:
         Shared: 1.144
+      Europe (Vodafone) - Manchester:
+        Shared: 1.144
       Europe (Vodafone) - Munich:
         Shared: 1.222
       Germany (Hamburg):
@@ -38300,6 +38750,8 @@ g4dn.2xlarge:
       Europe (Vodafone) - Dortmund:
         Shared: 1.352
       Europe (Vodafone) - London:
+        Shared: 1.274
+      Europe (Vodafone) - Manchester:
         Shared: 1.274
       Europe (Vodafone) - Munich:
         Shared: 1.352
@@ -38487,6 +38939,8 @@ g4dn.2xlarge:
         Shared: 1.387
       Europe (Vodafone) - London:
         Shared: 1.309
+      Europe (Vodafone) - Manchester:
+        Shared: 1.309
       Europe (Vodafone) - Munich:
         Shared: 1.387
       Germany (Hamburg):
@@ -38673,6 +39127,8 @@ g4dn.2xlarge:
         Shared: 1.347
       Europe (Vodafone) - London:
         Shared: 1.269
+      Europe (Vodafone) - Manchester:
+        Shared: 1.269
       Europe (Vodafone) - Munich:
         Shared: 1.347
       Germany (Hamburg):
@@ -38858,6 +39314,8 @@ g4dn.2xlarge:
       Europe (Vodafone) - Dortmund:
         Shared: 1.222
       Europe (Vodafone) - London:
+        Shared: 1.512
+      Europe (Vodafone) - Manchester:
         Shared: 1.512
       Europe (Vodafone) - Munich:
         Shared: 1.222
@@ -39051,6 +39509,7 @@ g4dn.2xlarge:
     - Asia Pacific (SKT) - Daejeon
     - Taiwan (Taipei)
     - eu-central-1
+    - Europe (Vodafone) - Manchester
     - US West (Verizon) - Los Angeles
     - US West (Las Vegas)
     - US West (Verizon) - Las Vegas
@@ -43968,6 +44427,9 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 5.792
         Shared: 5.792
+      Europe (Zurich):
+        Dedicated: 6.547
+        Shared: 6.547
       me-south-1:
         Dedicated: 6.054
         Shared: 6.054
@@ -44044,6 +44506,9 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 5.922
         Shared: 5.922
+      Europe (Zurich):
+        Dedicated: 6.677
+        Shared: 6.677
       me-south-1:
         Dedicated: 6.184
         Shared: 6.184
@@ -44120,6 +44585,9 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 5.957
         Shared: 5.957
+      Europe (Zurich):
+        Dedicated: 6.712
+        Shared: 6.712
       me-south-1:
         Dedicated: 6.219
         Shared: 6.219
@@ -44196,6 +44664,9 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 5.892
         Shared: 5.892
+      Europe (Zurich):
+        Dedicated: 6.647
+        Shared: 6.647
       me-south-1:
         Dedicated: 6.154
         Shared: 6.154
@@ -44272,6 +44743,9 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 8.736
         Shared: 5.792
+      Europe (Zurich):
+        Dedicated: 9.491
+        Shared: 9.491
       me-south-1:
         Dedicated: 8.998
         Shared: 8.998
@@ -44314,6 +44788,7 @@ i3.16xlarge:
     - ca-central-1
     - eu-south-1
     - ap-south-1
+    - Europe (Zurich)
     - ap-southeast-1
     - Middle East (UAE)
     - sa-east-1
@@ -44387,6 +44862,9 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.796
         Shared: 0.724
+      Europe (Zurich):
+        Dedicated: 0.9
+        Shared: 0.818
       me-south-1:
         Dedicated: 0.832
         Shared: 0.757
@@ -44463,6 +44941,9 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.926
         Shared: 0.854
+      Europe (Zurich):
+        Dedicated: 1.03
+        Shared: 0.948
       me-south-1:
         Dedicated: 0.962
         Shared: 0.887
@@ -44539,6 +45020,9 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.961
         Shared: 0.889
+      Europe (Zurich):
+        Dedicated: 1.065
+        Shared: 0.983
       me-south-1:
         Dedicated: 0.997
         Shared: 0.922
@@ -44615,6 +45099,9 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.896
         Shared: 0.824
+      Europe (Zurich):
+        Dedicated: 1
+        Shared: 0.918
       me-south-1:
         Dedicated: 0.932
         Shared: 0.857
@@ -44691,6 +45178,9 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.796
         Shared: 0.724
+      Europe (Zurich):
+        Dedicated: 1.268
+        Shared: 1.186
       me-south-1:
         Dedicated: 1.2
         Shared: 1.125
@@ -44732,6 +45222,7 @@ i3.2xlarge:
     - eu-central-1
     - ca-central-1
     - af-south-1
+    - Europe (Zurich)
     - eu-west-2
     - eu-west-1
     - ap-southeast-3
@@ -44806,6 +45297,9 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 1.593
         Shared: 1.448
+      Europe (Zurich):
+        Dedicated: 1.8
+        Shared: 1.637
       me-south-1:
         Dedicated: 1.665
         Shared: 1.514
@@ -44882,6 +45376,9 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 1.723
         Shared: 1.578
+      Europe (Zurich):
+        Dedicated: 1.93
+        Shared: 1.767
       me-south-1:
         Dedicated: 1.795
         Shared: 1.644
@@ -44958,6 +45455,9 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 1.758
         Shared: 1.613
+      Europe (Zurich):
+        Dedicated: 1.965
+        Shared: 1.802
       me-south-1:
         Dedicated: 1.83
         Shared: 1.679
@@ -45034,6 +45534,9 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 1.693
         Shared: 1.548
+      Europe (Zurich):
+        Dedicated: 1.9
+        Shared: 1.737
       me-south-1:
         Dedicated: 1.765
         Shared: 1.614
@@ -45110,6 +45613,9 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 2.329
         Shared: 2.184
+      Europe (Zurich):
+        Dedicated: 2.536
+        Shared: 2.373
       me-south-1:
         Dedicated: 2.401
         Shared: 2.25
@@ -45142,6 +45648,7 @@ i3.4xlarge:
     - us-gov-east-1
     - us-west-1
     - ap-south-1
+    - Europe (Zurich)
     - ap-southeast-2
     - eu-south-1
     - me-south-1
@@ -45225,6 +45732,9 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.186
         Shared: 2.896
+      Europe (Zurich):
+        Dedicated: 3.601
+        Shared: 3.274
       me-south-1:
         Dedicated: 3.33
         Shared: 3.027
@@ -45301,6 +45811,9 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.316
         Shared: 3.026
+      Europe (Zurich):
+        Dedicated: 3.731
+        Shared: 3.404
       me-south-1:
         Dedicated: 3.46
         Shared: 3.157
@@ -45377,6 +45890,9 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.351
         Shared: 3.061
+      Europe (Zurich):
+        Dedicated: 3.766
+        Shared: 3.439
       me-south-1:
         Dedicated: 3.495
         Shared: 3.192
@@ -45453,6 +45969,9 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.286
         Shared: 2.996
+      Europe (Zurich):
+        Dedicated: 3.701
+        Shared: 3.374
       me-south-1:
         Dedicated: 3.43
         Shared: 3.127
@@ -45529,6 +46048,9 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.186
         Shared: 2.896
+      Europe (Zurich):
+        Dedicated: 3.601
+        Shared: 3.274
       me-south-1:
         Dedicated: 4.802
         Shared: 4.499
@@ -45560,6 +46082,7 @@ i3.8xlarge:
     - eu-west-2
     - ap-southeast-3
     - eu-south-1
+    - Europe (Zurich)
     - Middle East (UAE)
     - us-east-1
     - ca-central-1
@@ -45644,6 +46167,9 @@ i3.large:
       eu-west-3:
         Dedicated: 0.199
         Shared: 0.181
+      Europe (Zurich):
+        Dedicated: 0.225
+        Shared: 0.205
       me-south-1:
         Dedicated: 0.208
         Shared: 0.189
@@ -45720,6 +46246,9 @@ i3.large:
       eu-west-3:
         Dedicated: 0.259
         Shared: 0.241
+      Europe (Zurich):
+        Dedicated: 0.285
+        Shared: 0.265
       me-south-1:
         Dedicated: 0.268
         Shared: 0.249
@@ -45796,6 +46325,9 @@ i3.large:
       eu-west-3:
         Dedicated: 0.294
         Shared: 0.276
+      Europe (Zurich):
+        Dedicated: 0.32
+        Shared: 0.3
       me-south-1:
         Dedicated: 0.303
         Shared: 0.284
@@ -45872,6 +46404,9 @@ i3.large:
       eu-west-3:
         Dedicated: 0.299
         Shared: 0.281
+      Europe (Zurich):
+        Dedicated: 0.325
+        Shared: 0.305
       me-south-1:
         Dedicated: 0.308
         Shared: 0.289
@@ -45948,6 +46483,9 @@ i3.large:
       eu-west-3:
         Dedicated: 0.291
         Shared: 0.273
+      Europe (Zurich):
+        Dedicated: 0.317
+        Shared: 0.205
       me-south-1:
         Dedicated: 0.3
         Shared: 0.281
@@ -45993,6 +46531,7 @@ i3.large:
     - af-south-1
     - ap-northeast-1
     - eu-west-3
+    - Europe (Zurich)
     - ca-central-1
     - ap-northeast-2
     - ap-southeast-1
@@ -46419,6 +46958,9 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.398
         Shared: 0.362
+      Europe (Zurich):
+        Dedicated: 0.45
+        Shared: 0.409
       me-south-1:
         Dedicated: 0.416
         Shared: 0.378
@@ -46495,6 +47037,9 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.458
         Shared: 0.422
+      Europe (Zurich):
+        Dedicated: 0.51
+        Shared: 0.469
       me-south-1:
         Dedicated: 0.476
         Shared: 0.438
@@ -46571,6 +47116,9 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.493
         Shared: 0.457
+      Europe (Zurich):
+        Dedicated: 0.545
+        Shared: 0.504
       me-south-1:
         Dedicated: 0.511
         Shared: 0.473
@@ -46647,6 +47195,9 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.498
         Shared: 0.462
+      Europe (Zurich):
+        Dedicated: 0.55
+        Shared: 0.509
       me-south-1:
         Dedicated: 0.516
         Shared: 0.478
@@ -46723,6 +47274,9 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.582
         Shared: 0.546
+      Europe (Zurich):
+        Dedicated: 0.45
+        Shared: 0.409
       me-south-1:
         Dedicated: 0.6
         Shared: 0.562
@@ -46764,6 +47318,7 @@ i3.xlarge:
     - ap-southeast-3
     - ap-northeast-1
     - ap-east-1
+    - Europe (Zurich)
     - us-east-2
     - sa-east-1
     - ap-south-1
@@ -46838,6 +47393,9 @@ i3en.12xlarge:
       eu-west-3:
         Dedicated: 6.723
         Shared: 6.312
+      Europe (Zurich):
+        Dedicated: 7.591
+        Shared: 7.128
       me-south-1:
         Dedicated: 7
         Shared: 6.571
@@ -46917,6 +47475,9 @@ i3en.12xlarge:
       eu-west-3:
         Dedicated: 6.853
         Shared: 6.442
+      Europe (Zurich):
+        Dedicated: 7.721
+        Shared: 7.258
       me-south-1:
         Dedicated: 7.13
         Shared: 6.701
@@ -46996,6 +47557,9 @@ i3en.12xlarge:
       eu-west-3:
         Dedicated: 6.888
         Shared: 6.477
+      Europe (Zurich):
+        Dedicated: 7.756
+        Shared: 7.293
       me-south-1:
         Dedicated: 7.165
         Shared: 6.736
@@ -47075,6 +47639,9 @@ i3en.12xlarge:
       eu-west-3:
         Dedicated: 6.848
         Shared: 6.437
+      Europe (Zurich):
+        Dedicated: 7.716
+        Shared: 7.253
       me-south-1:
         Dedicated: 7.125
         Shared: 6.696
@@ -47154,6 +47721,9 @@ i3en.12xlarge:
       eu-west-3:
         Dedicated: 8.931
         Shared: 8.52
+      Europe (Zurich):
+        Dedicated: 9.799
+        Shared: 9.336
       me-south-1:
         Dedicated: 9.208
         Shared: 8.779
@@ -47206,6 +47776,7 @@ i3en.12xlarge:
     - us-west-1
     - ca-central-1
     - ap-southeast-3
+    - Europe (Zurich)
     - ap-northeast-1
     - me-south-1
     - us-west-2-lax-1a
@@ -47273,6 +47844,9 @@ i3en.24xlarge:
       eu-west-3:
         Dedicated: 12.624
         Shared: 12.624
+      Europe (Zurich):
+        Dedicated: 14.256
+        Shared: 14.256
       me-south-1:
         Dedicated: 13.142
         Shared: 13.142
@@ -47352,6 +47926,9 @@ i3en.24xlarge:
       eu-west-3:
         Dedicated: 12.754
         Shared: 12.754
+      Europe (Zurich):
+        Dedicated: 14.386
+        Shared: 14.386
       me-south-1:
         Dedicated: 13.272
         Shared: 13.272
@@ -47431,6 +48008,9 @@ i3en.24xlarge:
       eu-west-3:
         Dedicated: 12.789
         Shared: 12.789
+      Europe (Zurich):
+        Dedicated: 14.421
+        Shared: 14.421
       me-south-1:
         Dedicated: 13.307
         Shared: 13.307
@@ -47510,6 +48090,9 @@ i3en.24xlarge:
       eu-west-3:
         Dedicated: 12.749
         Shared: 12.749
+      Europe (Zurich):
+        Dedicated: 14.381
+        Shared: 14.381
       me-south-1:
         Dedicated: 13.267
         Shared: 13.267
@@ -47589,6 +48172,9 @@ i3en.24xlarge:
       eu-west-3:
         Dedicated: 17.04
         Shared: 17.04
+      Europe (Zurich):
+        Dedicated: 18.672
+        Shared: 14.256
       me-south-1:
         Dedicated: 13.142
         Shared: 13.142
@@ -47637,6 +48223,7 @@ i3en.24xlarge:
     - us-east-1
     - ap-southeast-1
     - ap-southeast-2
+    - Europe (Zurich)
     - ap-south-1
     - eu-south-1
     - us-east-2
@@ -47708,6 +48295,9 @@ i3en.2xlarge:
       eu-west-3:
         Dedicated: 1.121
         Shared: 1.052
+      Europe (Zurich):
+        Dedicated: 1.265
+        Shared: 1.188
       me-south-1:
         Dedicated: 1.167
         Shared: 1.095
@@ -47787,6 +48377,9 @@ i3en.2xlarge:
       eu-west-3:
         Dedicated: 1.251
         Shared: 1.182
+      Europe (Zurich):
+        Dedicated: 1.395
+        Shared: 1.318
       me-south-1:
         Dedicated: 1.297
         Shared: 1.225
@@ -47866,6 +48459,9 @@ i3en.2xlarge:
       eu-west-3:
         Dedicated: 1.286
         Shared: 1.217
+      Europe (Zurich):
+        Dedicated: 1.43
+        Shared: 1.353
       me-south-1:
         Dedicated: 1.332
         Shared: 1.26
@@ -47945,6 +48541,9 @@ i3en.2xlarge:
       eu-west-3:
         Dedicated: 1.246
         Shared: 1.177
+      Europe (Zurich):
+        Dedicated: 1.39
+        Shared: 1.313
       me-south-1:
         Dedicated: 1.292
         Shared: 1.22
@@ -48024,6 +48623,9 @@ i3en.2xlarge:
       eu-west-3:
         Dedicated: 1.489
         Shared: 1.42
+      Europe (Zurich):
+        Dedicated: 1.265
+        Shared: 1.556
       me-south-1:
         Dedicated: 1.167
         Shared: 1.463
@@ -48061,6 +48663,7 @@ i3en.2xlarge:
     - us-west-2
     - sa-east-1
     - ap-southeast-2
+    - Europe (Zurich)
     - ap-northeast-1
     - ap-northeast-2
     - af-south-1
@@ -48142,6 +48745,9 @@ i3en.3xlarge:
       eu-west-3:
         Dedicated: 1.681
         Shared: 1.578
+      Europe (Zurich):
+        Dedicated: 1.898
+        Shared: 1.782
       me-south-1:
         Dedicated: 1.75
         Shared: 1.643
@@ -48221,6 +48827,9 @@ i3en.3xlarge:
       eu-west-3:
         Dedicated: 1.811
         Shared: 1.708
+      Europe (Zurich):
+        Dedicated: 2.028
+        Shared: 1.912
       me-south-1:
         Dedicated: 1.88
         Shared: 1.773
@@ -48300,6 +48909,9 @@ i3en.3xlarge:
       eu-west-3:
         Dedicated: 1.846
         Shared: 1.743
+      Europe (Zurich):
+        Dedicated: 2.063
+        Shared: 1.947
       me-south-1:
         Dedicated: 1.915
         Shared: 1.808
@@ -48379,6 +48991,9 @@ i3en.3xlarge:
       eu-west-3:
         Dedicated: 1.806
         Shared: 1.703
+      Europe (Zurich):
+        Dedicated: 2.023
+        Shared: 1.907
       me-south-1:
         Dedicated: 1.875
         Shared: 1.768
@@ -48458,6 +49073,9 @@ i3en.3xlarge:
       eu-west-3:
         Dedicated: 2.233
         Shared: 2.13
+      Europe (Zurich):
+        Dedicated: 2.45
+        Shared: 1.782
       me-south-1:
         Dedicated: 2.302
         Shared: 1.643
@@ -48502,6 +49120,7 @@ i3en.3xlarge:
     - eu-west-1
     - ap-south-1
     - Asia Pacific (Osaka)
+    - Europe (Zurich)
     - af-south-1
     - sa-east-1
     - eu-west-3
@@ -48576,6 +49195,9 @@ i3en.6xlarge:
       eu-west-3:
         Dedicated: 3.362
         Shared: 3.156
+      Europe (Zurich):
+        Dedicated: 3.796
+        Shared: 3.564
       me-south-1:
         Dedicated: 3.5
         Shared: 3.286
@@ -48655,6 +49277,9 @@ i3en.6xlarge:
       eu-west-3:
         Dedicated: 3.492
         Shared: 3.286
+      Europe (Zurich):
+        Dedicated: 3.926
+        Shared: 3.694
       me-south-1:
         Dedicated: 3.63
         Shared: 3.416
@@ -48734,6 +49359,9 @@ i3en.6xlarge:
       eu-west-3:
         Dedicated: 3.527
         Shared: 3.321
+      Europe (Zurich):
+        Dedicated: 3.961
+        Shared: 3.729
       me-south-1:
         Dedicated: 3.665
         Shared: 3.451
@@ -48813,6 +49441,9 @@ i3en.6xlarge:
       eu-west-3:
         Dedicated: 3.487
         Shared: 3.281
+      Europe (Zurich):
+        Dedicated: 3.921
+        Shared: 3.689
       me-south-1:
         Dedicated: 3.625
         Shared: 3.411
@@ -48892,6 +49523,9 @@ i3en.6xlarge:
       eu-west-3:
         Dedicated: 4.466
         Shared: 4.26
+      Europe (Zurich):
+        Dedicated: 4.9
+        Shared: 4.668
       me-south-1:
         Dedicated: 3.5
         Shared: 3.286
@@ -48945,6 +49579,7 @@ i3en.6xlarge:
     - eu-west-1
     - us-west-2
     - us-gov-east-1
+    - Europe (Zurich)
     - ap-southeast-1
     - me-south-1
     - ap-northeast-1
@@ -49011,6 +49646,9 @@ i3en.large:
       eu-west-3:
         Dedicated: 0.28
         Shared: 0.263
+      Europe (Zurich):
+        Dedicated: 0.316
+        Shared: 0.297
       me-south-1:
         Dedicated: 0.292
         Shared: 0.274
@@ -49090,6 +49728,9 @@ i3en.large:
       eu-west-3:
         Dedicated: 0.34
         Shared: 0.323
+      Europe (Zurich):
+        Dedicated: 0.376
+        Shared: 0.357
       me-south-1:
         Dedicated: 0.352
         Shared: 0.334
@@ -49169,6 +49810,9 @@ i3en.large:
       eu-west-3:
         Dedicated: 0.375
         Shared: 0.358
+      Europe (Zurich):
+        Dedicated: 0.411
+        Shared: 0.392
       me-south-1:
         Dedicated: 0.387
         Shared: 0.369
@@ -49248,6 +49892,9 @@ i3en.large:
       eu-west-3:
         Dedicated: 0.336
         Shared: 0.319
+      Europe (Zurich):
+        Dedicated: 0.373
+        Shared: 0.353
       me-south-1:
         Dedicated: 0.348
         Shared: 0.33
@@ -49327,6 +49974,9 @@ i3en.large:
       eu-west-3:
         Dedicated: 0.372
         Shared: 0.355
+      Europe (Zurich):
+        Dedicated: 0.408
+        Shared: 0.297
       me-south-1:
         Dedicated: 0.292
         Shared: 0.274
@@ -49361,6 +50011,7 @@ i3en.large:
     - us-west-2
     - ap-east-1
     - ap-northeast-2
+    - Europe (Zurich)
     - ap-southeast-3
     - ap-south-1
     - me-south-1
@@ -49445,6 +50096,9 @@ i3en.metal:
       eu-west-3:
         Dedicated: 12.624
         Shared: 12.624
+      Europe (Zurich):
+        Dedicated: 14.256
+        Shared: 14.256
       me-south-1:
         Dedicated: 13.142
         Shared: 13.142
@@ -49524,6 +50178,9 @@ i3en.metal:
       eu-west-3:
         Dedicated: 12.754
         Shared: 12.754
+      Europe (Zurich):
+        Dedicated: 14.386
+        Shared: 14.386
       me-south-1:
         Dedicated: 13.272
         Shared: 13.272
@@ -49603,6 +50260,9 @@ i3en.metal:
       eu-west-3:
         Dedicated: 12.789
         Shared: 12.789
+      Europe (Zurich):
+        Dedicated: 14.421
+        Shared: 14.421
       me-south-1:
         Dedicated: 13.307
         Shared: 13.307
@@ -49682,6 +50342,9 @@ i3en.metal:
       eu-west-3:
         Dedicated: 12.749
         Shared: 12.749
+      Europe (Zurich):
+        Dedicated: 14.381
+        Shared: 14.381
       me-south-1:
         Dedicated: 13.267
         Shared: 13.267
@@ -49761,6 +50424,9 @@ i3en.metal:
       eu-west-3:
         Dedicated: 17.04
         Shared: 17.04
+      Europe (Zurich):
+        Dedicated: 14.256
+        Shared: 18.672
       me-south-1:
         Dedicated: 17.558
         Shared: 17.558
@@ -49810,6 +50476,7 @@ i3en.metal:
     - ap-southeast-2
     - ca-central-1
     - Asia Pacific (Osaka)
+    - Europe (Zurich)
     - eu-north-1
     - eu-west-2
     - us-east-2
@@ -49879,6 +50546,9 @@ i3en.xlarge:
       eu-west-3:
         Dedicated: 0.56
         Shared: 0.526
+      Europe (Zurich):
+        Dedicated: 0.633
+        Shared: 0.594
       me-south-1:
         Dedicated: 0.583
         Shared: 0.548
@@ -49958,6 +50628,9 @@ i3en.xlarge:
       eu-west-3:
         Dedicated: 0.62
         Shared: 0.586
+      Europe (Zurich):
+        Dedicated: 0.693
+        Shared: 0.654
       me-south-1:
         Dedicated: 0.643
         Shared: 0.608
@@ -50037,6 +50710,9 @@ i3en.xlarge:
       eu-west-3:
         Dedicated: 0.655
         Shared: 0.621
+      Europe (Zurich):
+        Dedicated: 0.728
+        Shared: 0.689
       me-south-1:
         Dedicated: 0.678
         Shared: 0.643
@@ -50116,6 +50792,9 @@ i3en.xlarge:
       eu-west-3:
         Dedicated: 0.617
         Shared: 0.582
+      Europe (Zurich):
+        Dedicated: 0.689
+        Shared: 0.65
       me-south-1:
         Dedicated: 0.64
         Shared: 0.604
@@ -50195,6 +50874,9 @@ i3en.xlarge:
       eu-west-3:
         Dedicated: 0.744
         Shared: 0.71
+      Europe (Zurich):
+        Dedicated: 0.817
+        Shared: 0.594
       me-south-1:
         Dedicated: 0.767
         Shared: 0.548
@@ -50231,6 +50913,7 @@ i3en.xlarge:
     - eu-north-1
     - Middle East (UAE)
     - Asia Pacific (Osaka)
+    - Europe (Zurich)
     - eu-west-3
     - us-gov-west-1
     - us-west-2
@@ -58060,6 +58743,9 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 2.868
         Shared: 2.688
+      Europe (Zurich):
+        Dedicated: 3.218
+        Shared: 3.036
       me-south-1:
         Dedicated: 3.014
         Shared: 2.825
@@ -58139,6 +58825,9 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 2.998
         Shared: 2.818
+      Europe (Zurich):
+        Dedicated: 3.348
+        Shared: 3.166
       me-south-1:
         Dedicated: 3.144
         Shared: 2.955
@@ -58218,6 +58907,9 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 3.014
         Shared: 2.853
+      Europe (Zurich):
+        Dedicated: 3.383
+        Shared: 3.201
       me-south-1:
         Dedicated: 3.159
         Shared: 2.99
@@ -58297,6 +58989,9 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 2.968
         Shared: 2.788
+      Europe (Zurich):
+        Dedicated: 3.343
+        Shared: 3.161
       me-south-1:
         Dedicated: 3.114
         Shared: 2.925
@@ -58376,6 +59071,9 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 5.076
         Shared: 4.896
+      Europe (Zurich):
+        Dedicated: 5.426
+        Shared: 3.036
       me-south-1:
         Dedicated: 5.222
         Shared: 5.033
@@ -58409,6 +59107,7 @@ m5.12xlarge:
   regions:
     - ap-east-1
     - eu-south-1
+    - Europe (Zurich)
     - eu-north-1
     - ap-southeast-1
     - eu-west-1
@@ -58495,6 +59194,9 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.824
         Shared: 3.584
+      Europe (Zurich):
+        Dedicated: 4.291
+        Shared: 4.048
       me-south-1:
         Dedicated: 4.018
         Shared: 3.766
@@ -58574,6 +59276,9 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.954
         Shared: 3.714
+      Europe (Zurich):
+        Dedicated: 4.421
+        Shared: 4.178
       me-south-1:
         Dedicated: 4.148
         Shared: 3.896
@@ -58653,6 +59358,9 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.964
         Shared: 3.749
+      Europe (Zurich):
+        Dedicated: 4.456
+        Shared: 4.213
       me-south-1:
         Dedicated: 4.157
         Shared: 3.931
@@ -58732,6 +59440,9 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.924
         Shared: 3.684
+      Europe (Zurich):
+        Dedicated: 4.416
+        Shared: 4.173
       me-south-1:
         Dedicated: 4.117
         Shared: 3.866
@@ -58811,6 +59522,9 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.824
         Shared: 3.584
+      Europe (Zurich):
+        Dedicated: 7.235
+        Shared: 4.048
       me-south-1:
         Dedicated: 6.962
         Shared: 3.766
@@ -58849,6 +59563,7 @@ m5.16xlarge:
     - ap-south-1
     - ap-east-1
     - ap-northeast-2
+    - Europe (Zurich)
     - us-west-2-lax-1a
     - ap-southeast-1
     - us-west-1
@@ -58930,6 +59645,9 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 5.376
         Shared: 5.376
+      Europe (Zurich):
+        Dedicated: 6.072
+        Shared: 6.072
       me-south-1:
         Dedicated: 5.65
         Shared: 5.65
@@ -59009,6 +59727,9 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 5.506
         Shared: 5.506
+      Europe (Zurich):
+        Dedicated: 6.202
+        Shared: 6.202
       me-south-1:
         Dedicated: 5.78
         Shared: 5.78
@@ -59088,6 +59809,9 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 5.541
         Shared: 5.541
+      Europe (Zurich):
+        Dedicated: 6.237
+        Shared: 6.237
       me-south-1:
         Dedicated: 5.815
         Shared: 5.815
@@ -59167,6 +59891,9 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 5.476
         Shared: 5.476
+      Europe (Zurich):
+        Dedicated: 6.197
+        Shared: 6.197
       me-south-1:
         Dedicated: 5.75
         Shared: 5.75
@@ -59246,6 +59973,9 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 9.792
         Shared: 5.376
+      Europe (Zurich):
+        Dedicated: 6.072
+        Shared: 6.072
       me-south-1:
         Dedicated: 10.066
         Shared: 10.066
@@ -59302,6 +60032,7 @@ m5.24xlarge:
     - eu-west-1
     - ap-southeast-3
     - us-west-1
+    - Europe (Zurich)
     - eu-north-1
   storage: EBS only
   vcpu: 96
@@ -59365,6 +60096,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.478
         Shared: 0.448
+      Europe (Zurich):
+        Dedicated: 0.536
+        Shared: 0.506
       Germany (Hamburg):
         Dedicated: 0.658
         Shared: 0.621
@@ -59456,6 +60190,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.608
         Shared: 0.578
+      Europe (Zurich):
+        Dedicated: 0.666
+        Shared: 0.636
       Germany (Hamburg):
         Dedicated: 0.788
         Shared: 0.751
@@ -59547,6 +60284,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.64
         Shared: 0.613
+      Europe (Zurich):
+        Dedicated: 0.701
+        Shared: 0.671
       Germany (Hamburg):
         Dedicated: 0.823
         Shared: 0.786
@@ -59638,6 +60378,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.578
         Shared: 0.548
+      Europe (Zurich):
+        Dedicated: 0.661
+        Shared: 0.631
       Germany (Hamburg):
         Dedicated: 0.783
         Shared: 0.746
@@ -59729,6 +60472,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.478
         Shared: 0.816
+      Europe (Zurich):
+        Dedicated: 0.904
+        Shared: 0.506
       Germany (Hamburg):
         Dedicated: 0.658
         Shared: 0.621
@@ -59779,6 +60525,7 @@ m5.2xlarge:
     - India (Delhi)
     - Middle East (UAE)
     - Germany (Hamburg)
+    - Europe (Zurich)
     - eu-north-1
     - us-gov-east-1
     - ca-central-1
@@ -59864,6 +60611,9 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 0.956
         Shared: 0.896
+      Europe (Zurich):
+        Dedicated: 1.073
+        Shared: 1.012
       me-south-1:
         Dedicated: 1.005
         Shared: 0.942
@@ -59943,6 +60693,9 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 1.086
         Shared: 1.026
+      Europe (Zurich):
+        Dedicated: 1.203
+        Shared: 1.142
       me-south-1:
         Dedicated: 1.135
         Shared: 1.072
@@ -60022,6 +60775,9 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 1.115
         Shared: 1.061
+      Europe (Zurich):
+        Dedicated: 1.238
+        Shared: 1.177
       me-south-1:
         Dedicated: 1.163
         Shared: 1.107
@@ -60101,6 +60857,9 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 1.056
         Shared: 0.996
+      Europe (Zurich):
+        Dedicated: 1.198
+        Shared: 1.137
       me-south-1:
         Dedicated: 1.105
         Shared: 1.042
@@ -60180,6 +60939,9 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 0.956
         Shared: 1.632
+      Europe (Zurich):
+        Dedicated: 1.809
+        Shared: 1.748
       me-south-1:
         Dedicated: 1.005
         Shared: 0.942
@@ -60212,6 +60974,7 @@ m5.4xlarge:
         Shared: 1.658
   regions:
     - us-east-1
+    - Europe (Zurich)
     - ap-northeast-2
     - us-east-2
     - us-gov-east-1
@@ -60299,6 +61062,9 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 1.912
         Shared: 1.792
+      Europe (Zurich):
+        Dedicated: 2.145
+        Shared: 2.024
       me-south-1:
         Dedicated: 2.009
         Shared: 1.883
@@ -60378,6 +61144,9 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 2.042
         Shared: 1.922
+      Europe (Zurich):
+        Dedicated: 2.275
+        Shared: 2.154
       me-south-1:
         Dedicated: 2.139
         Shared: 2.013
@@ -60457,6 +61226,9 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 2.065
         Shared: 1.957
+      Europe (Zurich):
+        Dedicated: 2.31
+        Shared: 2.189
       me-south-1:
         Dedicated: 2.161
         Shared: 2.048
@@ -60536,6 +61308,9 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 2.012
         Shared: 1.892
+      Europe (Zurich):
+        Dedicated: 2.27
+        Shared: 2.149
       me-south-1:
         Dedicated: 2.109
         Shared: 1.983
@@ -60615,6 +61390,9 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 1.912
         Shared: 1.792
+      Europe (Zurich):
+        Dedicated: 3.617
+        Shared: 2.024
       me-south-1:
         Dedicated: 3.481
         Shared: 1.883
@@ -60649,6 +61427,7 @@ m5.8xlarge:
     - af-south-1
     - Asia Pacific (Osaka)
     - eu-south-1
+    - Europe (Zurich)
     - us-gov-west-1
     - sa-east-1
     - eu-west-1
@@ -60734,6 +61513,9 @@ m5.large:
       eu-west-3:
         Dedicated: 0.119
         Shared: 0.112
+      Europe (Zurich):
+        Dedicated: 0.134
+        Shared: 0.127
       me-south-1:
         Dedicated: 0.126
         Shared: 0.118
@@ -60813,6 +61595,9 @@ m5.large:
       eu-west-3:
         Dedicated: 0.179
         Shared: 0.172
+      Europe (Zurich):
+        Dedicated: 0.194
+        Shared: 0.187
       me-south-1:
         Dedicated: 0.186
         Shared: 0.178
@@ -60892,6 +61677,9 @@ m5.large:
       eu-west-3:
         Dedicated: 0.214
         Shared: 0.207
+      Europe (Zurich):
+        Dedicated: 0.229
+        Shared: 0.222
       me-south-1:
         Dedicated: 0.22
         Shared: 0.213
@@ -60971,6 +61759,9 @@ m5.large:
       eu-west-3:
         Dedicated: 0.175
         Shared: 0.168
+      Europe (Zurich):
+        Dedicated: 0.19
+        Shared: 0.183
       me-south-1:
         Dedicated: 0.181
         Shared: 0.174
@@ -61050,6 +61841,9 @@ m5.large:
       eu-west-3:
         Dedicated: 0.119
         Shared: 0.112
+      Europe (Zurich):
+        Dedicated: 0.226
+        Shared: 0.127
       me-south-1:
         Dedicated: 0.126
         Shared: 0.118
@@ -61090,6 +61884,7 @@ m5.large:
     - ap-east-1
     - Middle East (UAE)
     - ap-southeast-3
+    - Europe (Zurich)
     - ap-south-1
     - eu-west-1
     - me-south-1
@@ -61169,6 +61964,9 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.376
         Shared: 5.376
+      Europe (Zurich):
+        Dedicated: 6.072
+        Shared: 6.072
       me-south-1:
         Dedicated: 5.65
         Shared: 5.65
@@ -61248,6 +62046,9 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.506
         Shared: 5.506
+      Europe (Zurich):
+        Dedicated: 6.202
+        Shared: 6.202
       me-south-1:
         Dedicated: 5.78
         Shared: 5.78
@@ -61327,6 +62128,9 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.541
         Shared: 5.541
+      Europe (Zurich):
+        Dedicated: 6.237
+        Shared: 6.237
       me-south-1:
         Dedicated: 5.815
         Shared: 5.815
@@ -61406,6 +62210,9 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.476
         Shared: 5.476
+      Europe (Zurich):
+        Dedicated: 6.197
+        Shared: 6.197
       me-south-1:
         Dedicated: 5.75
         Shared: 5.75
@@ -61485,6 +62292,9 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.376
         Shared: 5.376
+      Europe (Zurich):
+        Dedicated: 10.488
+        Shared: 6.072
       me-south-1:
         Dedicated: 5.65
         Shared: 10.066
@@ -61541,6 +62351,7 @@ m5.metal:
     - eu-central-1
     - ap-south-1
     - Middle East (UAE)
+    - Europe (Zurich)
     - us-west-1
   storage: EBS only
   vcpu: 96
@@ -61604,6 +62415,9 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.239
         Shared: 0.224
+      Europe (Zurich):
+        Dedicated: 0.268
+        Shared: 0.253
       me-south-1:
         Dedicated: 0.251
         Shared: 0.235
@@ -61686,6 +62500,9 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.299
         Shared: 0.284
+      Europe (Zurich):
+        Dedicated: 0.328
+        Shared: 0.313
       me-south-1:
         Dedicated: 0.311
         Shared: 0.295
@@ -61768,6 +62585,9 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.332
         Shared: 0.319
+      Europe (Zurich):
+        Dedicated: 0.363
+        Shared: 0.348
       me-south-1:
         Dedicated: 0.345
         Shared: 0.33
@@ -61850,6 +62670,9 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.294
         Shared: 0.28
+      Europe (Zurich):
+        Dedicated: 0.324
+        Shared: 0.309
       me-south-1:
         Dedicated: 0.306
         Shared: 0.292
@@ -61932,6 +62755,9 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.239
         Shared: 0.408
+      Europe (Zurich):
+        Dedicated: 0.452
+        Shared: 0.253
       me-south-1:
         Dedicated: 0.435
         Shared: 0.235
@@ -61990,6 +62816,7 @@ m5.xlarge:
     - us-gov-east-1
     - eu-central-1
     - eu-west-3
+    - Europe (Zurich)
     - ap-southeast-3
     - me-south-1
     - ap-east-1
@@ -66695,6 +67522,9 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 3.38
         Shared: 3.168
+      Europe (Zurich):
+        Dedicated: 3.806
+        Shared: 3.59
       me-south-1:
         Dedicated: 3.549
         Shared: 3.326
@@ -66771,6 +67601,9 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 3.51
         Shared: 3.298
+      Europe (Zurich):
+        Dedicated: 3.936
+        Shared: 3.72
       me-south-1:
         Dedicated: 3.679
         Shared: 3.456
@@ -66847,6 +67680,9 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 3.523
         Shared: 3.333
+      Europe (Zurich):
+        Dedicated: 3.971
+        Shared: 3.755
       me-south-1:
         Dedicated: 3.691
         Shared: 3.491
@@ -66923,6 +67759,9 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 3.48
         Shared: 3.268
+      Europe (Zurich):
+        Dedicated: 3.931
+        Shared: 3.715
       me-south-1:
         Dedicated: 3.649
         Shared: 3.426
@@ -66999,6 +67838,9 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 5.588
         Shared: 5.376
+      Europe (Zurich):
+        Dedicated: 6.014
+        Shared: 5.798
       me-south-1:
         Dedicated: 5.757
         Shared: 5.534
@@ -67029,6 +67871,7 @@ m5d.12xlarge:
   regions:
     - eu-central-1
     - me-south-1
+    - Europe (Zurich)
     - Middle East (UAE)
     - af-south-1
     - eu-west-3
@@ -67114,6 +67957,9 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 4.506
         Shared: 4.224
+      Europe (Zurich):
+        Dedicated: 5.074
+        Shared: 4.787
       me-south-1:
         Dedicated: 4.732
         Shared: 4.435
@@ -67190,6 +68036,9 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 4.636
         Shared: 4.354
+      Europe (Zurich):
+        Dedicated: 5.204
+        Shared: 4.917
       me-south-1:
         Dedicated: 4.862
         Shared: 4.565
@@ -67266,6 +68115,9 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 4.642
         Shared: 4.389
+      Europe (Zurich):
+        Dedicated: 5.239
+        Shared: 4.952
       me-south-1:
         Dedicated: 4.866
         Shared: 4.6
@@ -67342,6 +68194,9 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 4.602
         Shared: 4.324
+      Europe (Zurich):
+        Dedicated: 5.199
+        Shared: 4.912
       me-south-1:
         Dedicated: 4.826
         Shared: 4.535
@@ -67418,6 +68273,9 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 7.45
         Shared: 7.168
+      Europe (Zurich):
+        Dedicated: 8.018
+        Shared: 7.731
       me-south-1:
         Dedicated: 7.676
         Shared: 7.379
@@ -67446,6 +68304,7 @@ m5d.16xlarge:
         Dedicated: 6.779
         Shared: 6.56
   regions:
+    - Europe (Zurich)
     - ap-southeast-3
     - eu-west-1
     - ap-southeast-2
@@ -67533,6 +68392,9 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 6.336
         Shared: 6.336
+      Europe (Zurich):
+        Dedicated: 7.181
+        Shared: 7.181
       me-south-1:
         Dedicated: 6.653
         Shared: 6.653
@@ -67609,6 +68471,9 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 6.466
         Shared: 6.466
+      Europe (Zurich):
+        Dedicated: 7.311
+        Shared: 7.311
       me-south-1:
         Dedicated: 6.783
         Shared: 6.783
@@ -67685,6 +68550,9 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 6.501
         Shared: 6.501
+      Europe (Zurich):
+        Dedicated: 7.346
+        Shared: 7.346
       me-south-1:
         Dedicated: 6.818
         Shared: 6.818
@@ -67761,6 +68629,9 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 6.436
         Shared: 6.436
+      Europe (Zurich):
+        Dedicated: 7.306
+        Shared: 7.306
       me-south-1:
         Dedicated: 6.753
         Shared: 6.753
@@ -67837,6 +68708,9 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 10.752
         Shared: 10.752
+      Europe (Zurich):
+        Dedicated: 11.597
+        Shared: 7.181
       me-south-1:
         Dedicated: 11.069
         Shared: 11.069
@@ -67880,6 +68754,7 @@ m5d.24xlarge:
     - us-west-2
     - ap-southeast-3
     - eu-south-1
+    - Europe (Zurich)
     - us-gov-west-1
     - Middle East (UAE)
     - ap-northeast-2
@@ -67952,6 +68827,9 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.563
         Shared: 0.528
+      Europe (Zurich):
+        Dedicated: 0.634
+        Shared: 0.598
       me-south-1:
         Dedicated: 0.592
         Shared: 0.554
@@ -68028,6 +68906,9 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.693
         Shared: 0.658
+      Europe (Zurich):
+        Dedicated: 0.764
+        Shared: 0.728
       me-south-1:
         Dedicated: 0.722
         Shared: 0.684
@@ -68104,6 +68985,9 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.725
         Shared: 0.693
+      Europe (Zurich):
+        Dedicated: 0.799
+        Shared: 0.763
       me-south-1:
         Dedicated: 0.753
         Shared: 0.719
@@ -68180,6 +69064,9 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.663
         Shared: 0.628
+      Europe (Zurich):
+        Dedicated: 0.759
+        Shared: 0.723
       me-south-1:
         Dedicated: 0.692
         Shared: 0.654
@@ -68256,6 +69143,9 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.931
         Shared: 0.896
+      Europe (Zurich):
+        Dedicated: 1.002
+        Shared: 0.966
       me-south-1:
         Dedicated: 0.96
         Shared: 0.922
@@ -68298,6 +69188,7 @@ m5d.2xlarge:
     - eu-central-1
     - us-west-2
     - us-gov-east-1
+    - Europe (Zurich)
     - ap-east-1
     - eu-west-1
     - eu-west-2
@@ -68371,6 +69262,9 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.127
         Shared: 1.056
+      Europe (Zurich):
+        Dedicated: 1.269
+        Shared: 1.197
       me-south-1:
         Dedicated: 1.183
         Shared: 1.109
@@ -68447,6 +69341,9 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.257
         Shared: 1.186
+      Europe (Zurich):
+        Dedicated: 1.399
+        Shared: 1.327
       me-south-1:
         Dedicated: 1.313
         Shared: 1.239
@@ -68523,6 +69420,9 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.284
         Shared: 1.221
+      Europe (Zurich):
+        Dedicated: 1.434
+        Shared: 1.362
       me-south-1:
         Dedicated: 1.34
         Shared: 1.274
@@ -68599,6 +69499,9 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.227
         Shared: 1.156
+      Europe (Zurich):
+        Dedicated: 1.394
+        Shared: 1.322
       me-south-1:
         Dedicated: 1.283
         Shared: 1.209
@@ -68675,6 +69578,9 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.863
         Shared: 1.792
+      Europe (Zurich):
+        Dedicated: 2.005
+        Shared: 1.197
       me-south-1:
         Dedicated: 1.919
         Shared: 1.845
@@ -68724,6 +69630,7 @@ m5d.4xlarge:
     - eu-west-2
     - us-gov-east-1
     - ap-east-1
+    - Europe (Zurich)
     - us-gov-west-1
     - sa-east-1
     - eu-west-1
@@ -68790,6 +69697,9 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 2.253
         Shared: 2.112
+      Europe (Zurich):
+        Dedicated: 2.537
+        Shared: 2.394
       me-south-1:
         Dedicated: 2.366
         Shared: 2.218
@@ -68866,6 +69776,9 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 2.383
         Shared: 2.242
+      Europe (Zurich):
+        Dedicated: 2.667
+        Shared: 2.524
       me-south-1:
         Dedicated: 2.496
         Shared: 2.348
@@ -68942,6 +69855,9 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 2.404
         Shared: 2.277
+      Europe (Zurich):
+        Dedicated: 2.702
+        Shared: 2.559
       me-south-1:
         Dedicated: 2.516
         Shared: 2.383
@@ -69018,6 +69934,9 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 2.353
         Shared: 2.212
+      Europe (Zurich):
+        Dedicated: 2.662
+        Shared: 2.519
       me-south-1:
         Dedicated: 2.466
         Shared: 2.318
@@ -69094,6 +70013,9 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 3.725
         Shared: 3.584
+      Europe (Zurich):
+        Dedicated: 2.537
+        Shared: 2.394
       me-south-1:
         Dedicated: 3.838
         Shared: 3.69
@@ -69126,6 +70048,7 @@ m5d.8xlarge:
     - ap-southeast-3
     - ap-southeast-2
     - us-west-1
+    - Europe (Zurich)
     - ap-south-1
     - af-south-1
     - ca-central-1
@@ -69209,6 +70132,9 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.141
         Shared: 0.132
+      Europe (Zurich):
+        Dedicated: 0.159
+        Shared: 0.15
       me-south-1:
         Dedicated: 0.148
         Shared: 0.139
@@ -69285,6 +70211,9 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.201
         Shared: 0.192
+      Europe (Zurich):
+        Dedicated: 0.219
+        Shared: 0.21
       me-south-1:
         Dedicated: 0.208
         Shared: 0.199
@@ -69361,6 +70290,9 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.235
         Shared: 0.227
+      Europe (Zurich):
+        Dedicated: 0.254
+        Shared: 0.245
       me-south-1:
         Dedicated: 0.242
         Shared: 0.234
@@ -69437,6 +70369,9 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.196
         Shared: 0.188
+      Europe (Zurich):
+        Dedicated: 0.215
+        Shared: 0.206
       me-south-1:
         Dedicated: 0.203
         Shared: 0.195
@@ -69513,6 +70448,9 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.233
         Shared: 0.224
+      Europe (Zurich):
+        Dedicated: 0.251
+        Shared: 0.15
       me-south-1:
         Dedicated: 0.24
         Shared: 0.231
@@ -69541,6 +70479,7 @@ m5d.large:
         Dedicated: 0.12
         Shared: 0.205
   regions:
+    - Europe (Zurich)
     - eu-north-1
     - us-east-1
     - sa-east-1
@@ -69628,6 +70567,9 @@ m5d.metal:
       eu-west-3:
         Dedicated: 6.336
         Shared: 6.336
+      Europe (Zurich):
+        Dedicated: 7.181
+        Shared: 7.181
       me-south-1:
         Dedicated: 6.653
         Shared: 6.653
@@ -69704,6 +70646,9 @@ m5d.metal:
       eu-west-3:
         Dedicated: 6.466
         Shared: 6.466
+      Europe (Zurich):
+        Dedicated: 7.311
+        Shared: 7.311
       me-south-1:
         Dedicated: 6.783
         Shared: 6.783
@@ -69780,6 +70725,9 @@ m5d.metal:
       eu-west-3:
         Dedicated: 6.501
         Shared: 6.501
+      Europe (Zurich):
+        Dedicated: 7.346
+        Shared: 7.346
       me-south-1:
         Dedicated: 6.818
         Shared: 6.818
@@ -69856,6 +70804,9 @@ m5d.metal:
       eu-west-3:
         Dedicated: 6.436
         Shared: 6.436
+      Europe (Zurich):
+        Dedicated: 7.306
+        Shared: 7.306
       me-south-1:
         Dedicated: 6.753
         Shared: 6.753
@@ -69932,6 +70883,9 @@ m5d.metal:
       eu-west-3:
         Dedicated: 10.752
         Shared: 10.752
+      Europe (Zurich):
+        Dedicated: 7.181
+        Shared: 11.597
       me-south-1:
         Dedicated: 11.069
         Shared: 11.069
@@ -69979,6 +70933,7 @@ m5d.metal:
     - ap-south-1
     - af-south-1
     - Middle East (UAE)
+    - Europe (Zurich)
     - us-west-2
     - us-west-1
     - ap-east-1
@@ -70047,6 +71002,9 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.282
         Shared: 0.264
+      Europe (Zurich):
+        Dedicated: 0.317
+        Shared: 0.299
       me-south-1:
         Dedicated: 0.296
         Shared: 0.277
@@ -70123,6 +71081,9 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.342
         Shared: 0.324
+      Europe (Zurich):
+        Dedicated: 0.377
+        Shared: 0.359
       me-south-1:
         Dedicated: 0.356
         Shared: 0.337
@@ -70199,6 +71160,9 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.375
         Shared: 0.359
+      Europe (Zurich):
+        Dedicated: 0.412
+        Shared: 0.394
       me-south-1:
         Dedicated: 0.389
         Shared: 0.372
@@ -70275,6 +71239,9 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.336
         Shared: 0.32
+      Europe (Zurich):
+        Dedicated: 0.373
+        Shared: 0.356
       me-south-1:
         Dedicated: 0.35
         Shared: 0.334
@@ -70351,6 +71318,9 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.466
         Shared: 0.448
+      Europe (Zurich):
+        Dedicated: 0.317
+        Shared: 0.299
       me-south-1:
         Dedicated: 0.48
         Shared: 0.461
@@ -70390,6 +71360,7 @@ m5d.xlarge:
     - us-gov-west-1
     - us-gov-east-1
     - Middle East (UAE)
+    - Europe (Zurich)
     - us-east-1
     - af-south-1
     - ap-northeast-2
@@ -78503,6 +79474,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.6661
         Shared: 2.5152
+      Europe (Zurich):
+        Dedicated: 3.0492
+        Shared: 2.8776
       Middle East (UAE):
         Dedicated: 2.8188
         Shared: 2.6592
@@ -78546,6 +79520,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.7961
         Shared: 2.6452
+      Europe (Zurich):
+        Dedicated: 3.1792
+        Shared: 3.0076
       Middle East (UAE):
         Dedicated: 2.9488
         Shared: 2.7892
@@ -78589,6 +79566,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.8311
         Shared: 2.6802
+      Europe (Zurich):
+        Dedicated: 3.2142
+        Shared: 3.0426
       Middle East (UAE):
         Dedicated: 2.9838
         Shared: 2.8242
@@ -78632,6 +79612,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.7911
         Shared: 2.6402
+      Europe (Zurich):
+        Dedicated: 3.1742
+        Shared: 3.0026
       Middle East (UAE):
         Dedicated: 2.9438
         Shared: 2.7842
@@ -78662,6 +79645,7 @@ m6gd.12xlarge:
     - eu-central-1
     - ap-southeast-2
     - us-east-2
+    - Europe (Zurich)
   storage: 2 x 1425 NVMe SSD
   vcpu: 48
 m6gd.16xlarge:
@@ -78702,6 +79686,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.5548
         Shared: 3.3536
+      Europe (Zurich):
+        Dedicated: 3.8368
+        Shared: 3.8368
       Middle East (UAE):
         Dedicated: 3.5456
         Shared: 3.5456
@@ -78745,6 +79732,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.6848
         Shared: 3.4836
+      Europe (Zurich):
+        Dedicated: 3.9668
+        Shared: 3.9668
       Middle East (UAE):
         Dedicated: 3.6756
         Shared: 3.6756
@@ -78788,6 +79778,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.7198
         Shared: 3.5186
+      Europe (Zurich):
+        Dedicated: 4.0018
+        Shared: 4.0018
       Middle East (UAE):
         Dedicated: 3.7106
         Shared: 3.7106
@@ -78831,6 +79824,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.4786
         Shared: 3.4786
+      Europe (Zurich):
+        Dedicated: 3.9618
+        Shared: 3.9618
       Middle East (UAE):
         Dedicated: 3.6706
         Shared: 3.6706
@@ -78860,6 +79856,7 @@ m6gd.16xlarge:
     - us-west-2
     - Middle East (UAE)
     - us-east-2
+    - Europe (Zurich)
     - ap-south-1
   storage: 2 x 1900 NVMe SSD
   vcpu: 64
@@ -78901,6 +79898,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.4444
         Shared: 0.4192
+      Europe (Zurich):
+        Dedicated: 0.5082
+        Shared: 0.4796
       Middle East (UAE):
         Dedicated: 0.4698
         Shared: 0.4432
@@ -78944,6 +79944,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.5744
         Shared: 0.5492
+      Europe (Zurich):
+        Dedicated: 0.6382
+        Shared: 0.6096
       Middle East (UAE):
         Dedicated: 0.5998
         Shared: 0.5732
@@ -78987,6 +79990,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.6094
         Shared: 0.5842
+      Europe (Zurich):
+        Dedicated: 0.6732
+        Shared: 0.6446
       Middle East (UAE):
         Dedicated: 0.6348
         Shared: 0.6082
@@ -79030,6 +80036,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.5694
         Shared: 0.5442
+      Europe (Zurich):
+        Dedicated: 0.6332
+        Shared: 0.6046
       Middle East (UAE):
         Dedicated: 0.5948
         Shared: 0.5682
@@ -79057,6 +80066,7 @@ m6gd.2xlarge:
     - ap-southeast-3
     - ap-northeast-1
     - us-west-2
+    - Europe (Zurich)
     - ap-southeast-1
     - eu-west-2
     - us-west-1
@@ -79100,6 +80110,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 0.8887
         Shared: 0.8384
+      Europe (Zurich):
+        Dedicated: 1.0164
+        Shared: 0.9592
       Middle East (UAE):
         Dedicated: 0.9396
         Shared: 0.8864
@@ -79143,6 +80156,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 1.0187
         Shared: 0.9684
+      Europe (Zurich):
+        Dedicated: 1.1464
+        Shared: 1.0892
       Middle East (UAE):
         Dedicated: 1.0696
         Shared: 1.0164
@@ -79186,6 +80202,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 1.0537
         Shared: 1.0034
+      Europe (Zurich):
+        Dedicated: 1.1814
+        Shared: 1.1242
       Middle East (UAE):
         Dedicated: 1.1046
         Shared: 1.0514
@@ -79229,6 +80248,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 1.0137
         Shared: 0.9634
+      Europe (Zurich):
+        Dedicated: 1.1414
+        Shared: 1.0842
       Middle East (UAE):
         Dedicated: 1.0646
         Shared: 1.0114
@@ -79254,6 +80276,7 @@ m6gd.4xlarge:
     - ap-southeast-1
     - ap-south-1
     - eu-west-1
+    - Europe (Zurich)
     - us-east-2
     - eu-west-2
     - Middle East (UAE)
@@ -79299,6 +80322,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.7774
         Shared: 1.6768
+      Europe (Zurich):
+        Dedicated: 2.0328
+        Shared: 1.9184
       Middle East (UAE):
         Dedicated: 1.8792
         Shared: 1.7728
@@ -79342,6 +80368,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.9074
         Shared: 1.8068
+      Europe (Zurich):
+        Dedicated: 2.1628
+        Shared: 2.0484
       Middle East (UAE):
         Dedicated: 2.0092
         Shared: 1.9028
@@ -79385,6 +80414,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.9424
         Shared: 1.8418
+      Europe (Zurich):
+        Dedicated: 2.1978
+        Shared: 2.0834
       Middle East (UAE):
         Dedicated: 2.0442
         Shared: 1.9378
@@ -79428,6 +80460,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.9024
         Shared: 1.8018
+      Europe (Zurich):
+        Dedicated: 2.1578
+        Shared: 2.0434
       Middle East (UAE):
         Dedicated: 2.0042
         Shared: 1.8978
@@ -79447,6 +80482,7 @@ m6gd.8xlarge:
     - eu-central-1
     - eu-west-1
     - eu-north-1
+    - Europe (Zurich)
     - us-east-2
     - ap-southeast-3
     - ap-southeast-1
@@ -79498,6 +80534,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.1111
         Shared: 0.1048
+      Europe (Zurich):
+        Dedicated: 0.127
+        Shared: 0.1199
       Middle East (UAE):
         Dedicated: 0.1174
         Shared: 0.1108
@@ -79541,6 +80580,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.1711
         Shared: 0.1648
+      Europe (Zurich):
+        Dedicated: 0.187
+        Shared: 0.1799
       Middle East (UAE):
         Dedicated: 0.1774
         Shared: 0.1708
@@ -79584,6 +80626,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.2061
         Shared: 0.1998
+      Europe (Zurich):
+        Dedicated: 0.222
+        Shared: 0.2149
       Middle East (UAE):
         Dedicated: 0.2124
         Shared: 0.2058
@@ -79627,6 +80672,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.1674
         Shared: 0.1611
+      Europe (Zurich):
+        Dedicated: 0.1833
+        Shared: 0.1762
       Middle East (UAE):
         Dedicated: 0.1737
         Shared: 0.1671
@@ -79646,6 +80694,7 @@ m6gd.large:
     - eu-north-1
     - eu-west-2
     - us-east-1
+    - Europe (Zurich)
     - Middle East (UAE)
     - ap-northeast-1
     - ap-southeast-3
@@ -79697,6 +80746,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.0555
         Shared: 0.0524
+      Europe (Zurich):
+        Dedicated: 0.0635
+        Shared: 0.06
       Middle East (UAE):
         Dedicated: 0.0587
         Shared: 0.0554
@@ -79740,6 +80792,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.1155
         Shared: 0.1124
+      Europe (Zurich):
+        Dedicated: 0.1235
+        Shared: 0.12
       Middle East (UAE):
         Dedicated: 0.1187
         Shared: 0.1154
@@ -79783,6 +80838,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.1505
         Shared: 0.1474
+      Europe (Zurich):
+        Dedicated: 0.1585
+        Shared: 0.155
       Middle East (UAE):
         Dedicated: 0.1537
         Shared: 0.1504
@@ -79826,6 +80884,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.0865
         Shared: 0.0834
+      Europe (Zurich):
+        Dedicated: 0.1198
+        Shared: 0.1163
       Middle East (UAE):
         Dedicated: 0.115
         Shared: 0.1117
@@ -79846,6 +80907,7 @@ m6gd.medium:
     - eu-west-2
     - eu-west-1
     - ap-northeast-1
+    - Europe (Zurich)
     - us-east-2
     - Middle East (UAE)
     - ap-southeast-3
@@ -79896,6 +80958,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.5548
         Shared: 3.3536
+      Europe (Zurich):
+        Dedicated: 3.8368
+        Shared: 3.8368
       Middle East (UAE):
         Dedicated: 3.5456
         Shared: 3.5456
@@ -79939,6 +81004,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.6848
         Shared: 3.4836
+      Europe (Zurich):
+        Dedicated: 3.9668
+        Shared: 3.9668
       Middle East (UAE):
         Dedicated: 3.6756
         Shared: 3.6756
@@ -79982,6 +81050,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.7198
         Shared: 3.5186
+      Europe (Zurich):
+        Dedicated: 4.0018
+        Shared: 4.0018
       Middle East (UAE):
         Dedicated: 3.7106
         Shared: 3.7106
@@ -80025,6 +81096,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.4786
         Shared: 3.4786
+      Europe (Zurich):
+        Dedicated: 3.9618
+        Shared: 3.9618
       Middle East (UAE):
         Dedicated: 3.6706
         Shared: 3.6706
@@ -80041,6 +81115,7 @@ m6gd.metal:
         Dedicated: 3.0178
         Shared: 3.0178
   regions:
+    - Europe (Zurich)
     - us-west-2
     - ap-southeast-3
     - eu-north-1
@@ -80095,6 +81170,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.2222
         Shared: 0.2096
+      Europe (Zurich):
+        Dedicated: 0.2541
+        Shared: 0.2398
       Middle East (UAE):
         Dedicated: 0.2349
         Shared: 0.2216
@@ -80138,6 +81216,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.2822
         Shared: 0.2696
+      Europe (Zurich):
+        Dedicated: 0.3141
+        Shared: 0.2998
       Middle East (UAE):
         Dedicated: 0.2949
         Shared: 0.2816
@@ -80181,6 +81262,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.3172
         Shared: 0.3046
+      Europe (Zurich):
+        Dedicated: 0.3491
+        Shared: 0.3348
       Middle East (UAE):
         Dedicated: 0.3299
         Shared: 0.3166
@@ -80224,6 +81308,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.2785
         Shared: 0.2659
+      Europe (Zurich):
+        Dedicated: 0.3104
+        Shared: 0.2961
       Middle East (UAE):
         Dedicated: 0.2912
         Shared: 0.2779
@@ -80251,6 +81338,7 @@ m6gd.xlarge:
     - us-east-2
     - ap-southeast-3
     - eu-north-1
+    - Europe (Zurich)
     - ap-southeast-2
     - ap-south-1
     - Middle East (UAE)
@@ -84130,6 +85218,9 @@ m6id.12xlarge:
       ap-northeast-1:
         Dedicated: 4.04712
         Shared: 3.6792
+      ap-southeast-2:
+        Dedicated: 3.93624
+        Shared: 3.5784
       eu-west-1:
         Dedicated: 3.49272
         Shared: 3.1752
@@ -84146,6 +85237,9 @@ m6id.12xlarge:
       ap-northeast-1:
         Dedicated: 4.17712
         Shared: 3.8092
+      ap-southeast-2:
+        Dedicated: 4.06624
+        Shared: 3.7084
       eu-west-1:
         Dedicated: 3.62272
         Shared: 3.3052
@@ -84162,6 +85256,9 @@ m6id.12xlarge:
       ap-northeast-1:
         Dedicated: 4.21212
         Shared: 3.8442
+      ap-southeast-2:
+        Dedicated: 4.10124
+        Shared: 3.7434
       eu-west-1:
         Dedicated: 3.65772
         Shared: 3.3402
@@ -84178,6 +85275,9 @@ m6id.12xlarge:
       ap-northeast-1:
         Dedicated: 4.17212
         Shared: 3.8042
+      ap-southeast-2:
+        Dedicated: 4.06124
+        Shared: 3.7034
       eu-west-1:
         Dedicated: 3.61772
         Shared: 3.3002
@@ -84194,6 +85294,9 @@ m6id.12xlarge:
       ap-northeast-1:
         Dedicated: 6.25512
         Shared: 5.8872
+      ap-southeast-2:
+        Dedicated: 6.14424
+        Shared: 3.5784
       eu-west-1:
         Dedicated: 5.70072
         Shared: 3.1752
@@ -84207,6 +85310,7 @@ m6id.12xlarge:
         Dedicated: 3.13236
         Shared: 5.0556
   regions:
+    - ap-southeast-2
     - us-east-2
     - eu-west-1
     - ap-northeast-1
@@ -84228,6 +85332,9 @@ m6id.16xlarge:
       ap-northeast-1:
         Dedicated: 5.39616
         Shared: 4.9056
+      ap-southeast-2:
+        Dedicated: 5.24832
+        Shared: 4.7712
       eu-west-1:
         Dedicated: 4.65696
         Shared: 4.2336
@@ -84244,6 +85351,9 @@ m6id.16xlarge:
       ap-northeast-1:
         Dedicated: 5.52616
         Shared: 5.0356
+      ap-southeast-2:
+        Dedicated: 5.37832
+        Shared: 4.9012
       eu-west-1:
         Dedicated: 4.78696
         Shared: 4.3636
@@ -84260,6 +85370,9 @@ m6id.16xlarge:
       ap-northeast-1:
         Dedicated: 5.56116
         Shared: 5.0706
+      ap-southeast-2:
+        Dedicated: 5.41332
+        Shared: 4.9362
       eu-west-1:
         Dedicated: 4.82196
         Shared: 4.3986
@@ -84276,6 +85389,9 @@ m6id.16xlarge:
       ap-northeast-1:
         Dedicated: 5.52116
         Shared: 5.0306
+      ap-southeast-2:
+        Dedicated: 5.37332
+        Shared: 4.8962
       eu-west-1:
         Dedicated: 4.78196
         Shared: 4.3586
@@ -84292,6 +85408,9 @@ m6id.16xlarge:
       ap-northeast-1:
         Dedicated: 5.39616
         Shared: 7.8496
+      ap-southeast-2:
+        Dedicated: 8.19232
+        Shared: 7.7152
       eu-west-1:
         Dedicated: 4.65696
         Shared: 7.1776
@@ -84306,6 +85425,7 @@ m6id.16xlarge:
         Shared: 3.7968
   regions:
     - eu-west-1
+    - ap-southeast-2
     - us-west-2
     - us-east-2
     - ap-northeast-1
@@ -84326,6 +85446,9 @@ m6id.24xlarge:
       ap-northeast-1:
         Dedicated: 8.09424
         Shared: 7.3584
+      ap-southeast-2:
+        Dedicated: 7.87248
+        Shared: 7.1568
       eu-west-1:
         Dedicated: 6.98544
         Shared: 6.3504
@@ -84342,6 +85465,9 @@ m6id.24xlarge:
       ap-northeast-1:
         Dedicated: 8.22424
         Shared: 7.4884
+      ap-southeast-2:
+        Dedicated: 8.00248
+        Shared: 7.2868
       eu-west-1:
         Dedicated: 7.11544
         Shared: 6.4804
@@ -84358,6 +85484,9 @@ m6id.24xlarge:
       ap-northeast-1:
         Dedicated: 8.25924
         Shared: 7.5234
+      ap-southeast-2:
+        Dedicated: 8.03748
+        Shared: 7.3218
       eu-west-1:
         Dedicated: 7.15044
         Shared: 6.5154
@@ -84374,6 +85503,9 @@ m6id.24xlarge:
       ap-northeast-1:
         Dedicated: 8.21924
         Shared: 7.4834
+      ap-southeast-2:
+        Dedicated: 7.99748
+        Shared: 7.2818
       eu-west-1:
         Dedicated: 7.11044
         Shared: 6.4754
@@ -84390,6 +85522,9 @@ m6id.24xlarge:
       ap-northeast-1:
         Dedicated: 8.09424
         Shared: 11.7744
+      ap-southeast-2:
+        Dedicated: 7.87248
+        Shared: 7.1568
       eu-west-1:
         Dedicated: 11.40144
         Shared: 6.3504
@@ -84406,6 +85541,7 @@ m6id.24xlarge:
     - us-east-2
     - us-west-2
     - eu-west-1
+    - ap-southeast-2
     - ap-northeast-1
     - us-east-1
   storage: 4 x 1425 SSD
@@ -84424,6 +85560,9 @@ m6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.67452
         Shared: 0.6132
+      ap-southeast-2:
+        Dedicated: 0.65604
+        Shared: 0.5964
       eu-west-1:
         Dedicated: 0.58212
         Shared: 0.5292
@@ -84440,6 +85579,9 @@ m6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.80452
         Shared: 0.7432
+      ap-southeast-2:
+        Dedicated: 0.78604
+        Shared: 0.7264
       eu-west-1:
         Dedicated: 0.71212
         Shared: 0.6592
@@ -84456,6 +85598,9 @@ m6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.83952
         Shared: 0.7782
+      ap-southeast-2:
+        Dedicated: 0.82104
+        Shared: 0.7614
       eu-west-1:
         Dedicated: 0.74712
         Shared: 0.6942
@@ -84472,6 +85617,9 @@ m6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.79952
         Shared: 0.7382
+      ap-southeast-2:
+        Dedicated: 0.78104
+        Shared: 0.7214
       eu-west-1:
         Dedicated: 0.70712
         Shared: 0.6542
@@ -84488,6 +85636,9 @@ m6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.67452
         Shared: 0.6132
+      ap-southeast-2:
+        Dedicated: 0.65604
+        Shared: 0.9644
       eu-west-1:
         Dedicated: 0.58212
         Shared: 0.5292
@@ -84505,6 +85656,7 @@ m6id.2xlarge:
     - us-east-1
     - eu-west-1
     - us-west-2
+    - ap-southeast-2
     - ap-northeast-1
   storage: 1 x 474 SSD
   vcpu: 8
@@ -84522,6 +85674,9 @@ m6id.32xlarge:
       ap-northeast-1:
         Dedicated: 9.8112
         Shared: 9.8112
+      ap-southeast-2:
+        Dedicated: 9.5424
+        Shared: 9.5424
       eu-west-1:
         Dedicated: 8.4672
         Shared: 8.4672
@@ -84538,6 +85693,9 @@ m6id.32xlarge:
       ap-northeast-1:
         Dedicated: 9.9412
         Shared: 9.9412
+      ap-southeast-2:
+        Dedicated: 9.6724
+        Shared: 9.6724
       eu-west-1:
         Dedicated: 8.5972
         Shared: 8.5972
@@ -84554,6 +85712,9 @@ m6id.32xlarge:
       ap-northeast-1:
         Dedicated: 9.9762
         Shared: 9.9762
+      ap-southeast-2:
+        Dedicated: 9.7074
+        Shared: 9.7074
       eu-west-1:
         Dedicated: 8.6322
         Shared: 8.6322
@@ -84570,6 +85731,9 @@ m6id.32xlarge:
       ap-northeast-1:
         Dedicated: 9.9362
         Shared: 9.9362
+      ap-southeast-2:
+        Dedicated: 9.6674
+        Shared: 9.6674
       eu-west-1:
         Dedicated: 8.5922
         Shared: 8.5922
@@ -84586,6 +85750,9 @@ m6id.32xlarge:
       ap-northeast-1:
         Dedicated: 15.6992
         Shared: 15.6992
+      ap-southeast-2:
+        Dedicated: 15.4304
+        Shared: 15.4304
       eu-west-1:
         Dedicated: 8.4672
         Shared: 14.3552
@@ -84599,6 +85766,7 @@ m6id.32xlarge:
         Dedicated: 7.5936
         Shared: 7.5936
   regions:
+    - ap-southeast-2
     - us-east-1
     - us-west-2
     - eu-west-1
@@ -84620,6 +85788,9 @@ m6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.34904
         Shared: 1.2264
+      ap-southeast-2:
+        Dedicated: 1.31208
+        Shared: 1.1928
       eu-west-1:
         Dedicated: 1.16424
         Shared: 1.0584
@@ -84636,6 +85807,9 @@ m6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.47904
         Shared: 1.3564
+      ap-southeast-2:
+        Dedicated: 1.44208
+        Shared: 1.3228
       eu-west-1:
         Dedicated: 1.29424
         Shared: 1.1884
@@ -84652,6 +85826,9 @@ m6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.51404
         Shared: 1.3914
+      ap-southeast-2:
+        Dedicated: 1.47708
+        Shared: 1.3578
       eu-west-1:
         Dedicated: 1.32924
         Shared: 1.2234
@@ -84668,6 +85845,9 @@ m6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.47404
         Shared: 1.3514
+      ap-southeast-2:
+        Dedicated: 1.43708
+        Shared: 1.3178
       eu-west-1:
         Dedicated: 1.28924
         Shared: 1.1834
@@ -84684,6 +85864,9 @@ m6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.34904
         Shared: 1.9624
+      ap-southeast-2:
+        Dedicated: 1.31208
+        Shared: 1.1928
       eu-west-1:
         Dedicated: 1.16424
         Shared: 1.0584
@@ -84701,6 +85884,7 @@ m6id.4xlarge:
     - us-east-2
     - eu-west-1
     - us-west-2
+    - ap-southeast-2
     - us-east-1
   storage: 1 x 950 SSD
   vcpu: 16
@@ -84718,6 +85902,9 @@ m6id.8xlarge:
       ap-northeast-1:
         Dedicated: 2.69808
         Shared: 2.4528
+      ap-southeast-2:
+        Dedicated: 2.62416
+        Shared: 2.3856
       eu-west-1:
         Dedicated: 2.32848
         Shared: 2.1168
@@ -84734,6 +85921,9 @@ m6id.8xlarge:
       ap-northeast-1:
         Dedicated: 2.82808
         Shared: 2.5828
+      ap-southeast-2:
+        Dedicated: 2.75416
+        Shared: 2.5156
       eu-west-1:
         Dedicated: 2.45848
         Shared: 2.2468
@@ -84750,6 +85940,9 @@ m6id.8xlarge:
       ap-northeast-1:
         Dedicated: 2.86308
         Shared: 2.6178
+      ap-southeast-2:
+        Dedicated: 2.78916
+        Shared: 2.5506
       eu-west-1:
         Dedicated: 2.49348
         Shared: 2.2818
@@ -84766,6 +85959,9 @@ m6id.8xlarge:
       ap-northeast-1:
         Dedicated: 2.82308
         Shared: 2.5778
+      ap-southeast-2:
+        Dedicated: 2.74916
+        Shared: 2.5106
       eu-west-1:
         Dedicated: 2.45348
         Shared: 2.2418
@@ -84782,6 +85978,9 @@ m6id.8xlarge:
       ap-northeast-1:
         Dedicated: 2.69808
         Shared: 2.4528
+      ap-southeast-2:
+        Dedicated: 4.09616
+        Shared: 2.3856
       eu-west-1:
         Dedicated: 2.32848
         Shared: 2.1168
@@ -84796,6 +85995,7 @@ m6id.8xlarge:
         Shared: 3.3704
   regions:
     - eu-west-1
+    - ap-southeast-2
     - us-east-2
     - us-west-2
     - us-east-1
@@ -84816,6 +86016,9 @@ m6id.large:
       ap-northeast-1:
         Dedicated: 0.16863
         Shared: 0.1533
+      ap-southeast-2:
+        Dedicated: 0.16401
+        Shared: 0.1491
       eu-west-1:
         Dedicated: 0.14553
         Shared: 0.1323
@@ -84832,6 +86035,9 @@ m6id.large:
       ap-northeast-1:
         Dedicated: 0.22863
         Shared: 0.2133
+      ap-southeast-2:
+        Dedicated: 0.22401
+        Shared: 0.2091
       eu-west-1:
         Dedicated: 0.20553
         Shared: 0.1923
@@ -84848,6 +86054,9 @@ m6id.large:
       ap-northeast-1:
         Dedicated: 0.26363
         Shared: 0.2483
+      ap-southeast-2:
+        Dedicated: 0.25901
+        Shared: 0.2441
       eu-west-1:
         Dedicated: 0.24053
         Shared: 0.2273
@@ -84864,6 +86073,9 @@ m6id.large:
       ap-northeast-1:
         Dedicated: 0.22493
         Shared: 0.2096
+      ap-southeast-2:
+        Dedicated: 0.22031
+        Shared: 0.2054
       eu-west-1:
         Dedicated: 0.20183
         Shared: 0.1886
@@ -84880,6 +86092,9 @@ m6id.large:
       ap-northeast-1:
         Dedicated: 0.26063
         Shared: 0.2453
+      ap-southeast-2:
+        Dedicated: 0.25601
+        Shared: 0.1491
       eu-west-1:
         Dedicated: 0.23753
         Shared: 0.2243
@@ -84898,6 +86113,7 @@ m6id.large:
     - eu-west-1
     - ap-northeast-1
     - us-east-1
+    - ap-southeast-2
   storage: 1 x 118 SSD
   vcpu: 2
 m6id.metal:
@@ -84914,6 +86130,9 @@ m6id.metal:
       ap-northeast-1:
         Dedicated: 9.8112
         Shared: 9.8112
+      ap-southeast-2:
+        Dedicated: 9.5424
+        Shared: 9.5424
       eu-west-1:
         Dedicated: 8.4672
         Shared: 8.4672
@@ -84930,6 +86149,9 @@ m6id.metal:
       ap-northeast-1:
         Dedicated: 9.9412
         Shared: 9.9412
+      ap-southeast-2:
+        Dedicated: 9.6724
+        Shared: 9.6724
       eu-west-1:
         Dedicated: 8.5972
         Shared: 8.5972
@@ -84946,6 +86168,9 @@ m6id.metal:
       ap-northeast-1:
         Dedicated: 9.9762
         Shared: 9.9762
+      ap-southeast-2:
+        Dedicated: 9.7074
+        Shared: 9.7074
       eu-west-1:
         Dedicated: 8.6322
         Shared: 8.6322
@@ -84962,6 +86187,9 @@ m6id.metal:
       ap-northeast-1:
         Dedicated: 9.9362
         Shared: 9.9362
+      ap-southeast-2:
+        Dedicated: 9.6674
+        Shared: 9.6674
       eu-west-1:
         Dedicated: 8.5922
         Shared: 8.5922
@@ -84978,6 +86206,9 @@ m6id.metal:
       ap-northeast-1:
         Dedicated: 15.6992
         Shared: 9.8112
+      ap-southeast-2:
+        Dedicated: 15.4304
+        Shared: 9.5424
       eu-west-1:
         Dedicated: 8.4672
         Shared: 8.4672
@@ -84994,6 +86225,7 @@ m6id.metal:
     - ap-northeast-1
     - us-east-1
     - eu-west-1
+    - ap-southeast-2
     - us-east-2
     - us-west-2
   storage: 4 x 1900 SSD
@@ -85012,6 +86244,9 @@ m6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.33726
         Shared: 0.3066
+      ap-southeast-2:
+        Dedicated: 0.32802
+        Shared: 0.2982
       eu-west-1:
         Dedicated: 0.29106
         Shared: 0.2646
@@ -85028,6 +86263,9 @@ m6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.39726
         Shared: 0.3666
+      ap-southeast-2:
+        Dedicated: 0.38802
+        Shared: 0.3582
       eu-west-1:
         Dedicated: 0.35106
         Shared: 0.3246
@@ -85044,6 +86282,9 @@ m6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.43226
         Shared: 0.4016
+      ap-southeast-2:
+        Dedicated: 0.42302
+        Shared: 0.3932
       eu-west-1:
         Dedicated: 0.38606
         Shared: 0.3596
@@ -85060,6 +86301,9 @@ m6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.39356
         Shared: 0.3629
+      ap-southeast-2:
+        Dedicated: 0.38432
+        Shared: 0.3545
       eu-west-1:
         Dedicated: 0.34736
         Shared: 0.3209
@@ -85076,6 +86320,9 @@ m6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.52126
         Shared: 0.3066
+      ap-southeast-2:
+        Dedicated: 0.32802
+        Shared: 0.4822
       eu-west-1:
         Dedicated: 0.47506
         Shared: 0.4486
@@ -85091,6 +86338,7 @@ m6id.xlarge:
   regions:
     - ap-northeast-1
     - eu-west-1
+    - ap-southeast-2
     - us-east-2
     - us-west-2
     - us-east-1
@@ -89541,6 +90789,9 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.765
         Shared: 3.552
+      Europe (Zurich):
+        Dedicated: 4.254
+        Shared: 4.013
       me-south-1:
         Dedicated: 3.946
         Shared: 3.722
@@ -89620,6 +90871,9 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.895
         Shared: 3.682
+      Europe (Zurich):
+        Dedicated: 4.384
+        Shared: 4.143
       me-south-1:
         Dedicated: 4.076
         Shared: 3.852
@@ -89699,6 +90953,9 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.93
         Shared: 3.717
+      Europe (Zurich):
+        Dedicated: 4.419
+        Shared: 4.178
       me-south-1:
         Dedicated: 4.111
         Shared: 3.887
@@ -89778,6 +91035,9 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.89
         Shared: 3.677
+      Europe (Zurich):
+        Dedicated: 4.379
+        Shared: 4.138
       me-south-1:
         Dedicated: 4.071
         Shared: 3.847
@@ -89857,6 +91117,9 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.765
         Shared: 5.76
+      Europe (Zurich):
+        Dedicated: 4.254
+        Shared: 6.221
       me-south-1:
         Dedicated: 3.946
         Shared: 5.93
@@ -89892,6 +91155,7 @@ r5.12xlarge:
     - ca-central-1
     - eu-west-3
     - us-east-2
+    - Europe (Zurich)
     - us-west-1
     - us-east-1
     - ap-southeast-1
@@ -89976,6 +91240,9 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.02
         Shared: 4.736
+      Europe (Zurich):
+        Dedicated: 5.671
+        Shared: 5.35
       me-south-1:
         Dedicated: 5.261
         Shared: 4.963
@@ -90055,6 +91322,9 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.15
         Shared: 4.866
+      Europe (Zurich):
+        Dedicated: 5.801
+        Shared: 5.48
       me-south-1:
         Dedicated: 5.391
         Shared: 5.093
@@ -90134,6 +91404,9 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.185
         Shared: 4.901
+      Europe (Zurich):
+        Dedicated: 5.836
+        Shared: 5.515
       me-south-1:
         Dedicated: 5.426
         Shared: 5.128
@@ -90213,6 +91486,9 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.145
         Shared: 4.861
+      Europe (Zurich):
+        Dedicated: 5.796
+        Shared: 5.475
       me-south-1:
         Dedicated: 5.386
         Shared: 5.088
@@ -90292,6 +91568,9 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.02
         Shared: 4.736
+      Europe (Zurich):
+        Dedicated: 5.671
+        Shared: 8.294
       me-south-1:
         Dedicated: 5.261
         Shared: 4.963
@@ -90348,6 +91627,7 @@ r5.16xlarge:
     - ap-northeast-1
     - ap-east-1
     - eu-central-1
+    - Europe (Zurich)
     - eu-south-1
   storage: EBS only
   vcpu: 64
@@ -90411,6 +91691,9 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.104
         Shared: 7.104
+      Europe (Zurich):
+        Dedicated: 8.026
+        Shared: 8.026
       me-south-1:
         Dedicated: 7.445
         Shared: 7.445
@@ -90490,6 +91773,9 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.234
         Shared: 7.234
+      Europe (Zurich):
+        Dedicated: 8.156
+        Shared: 8.156
       me-south-1:
         Dedicated: 7.575
         Shared: 7.575
@@ -90569,6 +91855,9 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.269
         Shared: 7.269
+      Europe (Zurich):
+        Dedicated: 8.191
+        Shared: 8.191
       me-south-1:
         Dedicated: 7.61
         Shared: 7.61
@@ -90648,6 +91937,9 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.229
         Shared: 7.229
+      Europe (Zurich):
+        Dedicated: 8.151
+        Shared: 8.151
       me-south-1:
         Dedicated: 7.57
         Shared: 7.57
@@ -90727,6 +92019,9 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.104
         Shared: 11.52
+      Europe (Zurich):
+        Dedicated: 8.026
+        Shared: 12.442
       me-south-1:
         Dedicated: 7.445
         Shared: 7.445
@@ -90761,6 +92056,7 @@ r5.24xlarge:
     - ap-southeast-2
     - ap-east-1
     - ap-southeast-3
+    - Europe (Zurich)
     - af-south-1
     - us-gov-east-1
     - eu-west-3
@@ -90862,8 +92158,13 @@ r5.2xlarge:
         Shared: 0.76
       Europe (Vodafone) - London:
         Shared: 0.74
+      Europe (Vodafone) - Manchester:
+        Shared: 0.74
       Europe (Vodafone) - Munich:
         Shared: 0.76
+      Europe (Zurich):
+        Dedicated: 0.709
+        Shared: 0.669
       Germany (Hamburg):
         Dedicated: 0.87
         Shared: 0.821
@@ -91009,8 +92310,13 @@ r5.2xlarge:
         Shared: 0.89
       Europe (Vodafone) - London:
         Shared: 0.87
+      Europe (Vodafone) - Manchester:
+        Shared: 0.87
       Europe (Vodafone) - Munich:
         Shared: 0.89
+      Europe (Zurich):
+        Dedicated: 0.839
+        Shared: 0.799
       Germany (Hamburg):
         Dedicated: 1
         Shared: 0.951
@@ -91156,8 +92462,13 @@ r5.2xlarge:
         Shared: 0.925
       Europe (Vodafone) - London:
         Shared: 0.905
+      Europe (Vodafone) - Manchester:
+        Shared: 0.905
       Europe (Vodafone) - Munich:
         Shared: 0.925
+      Europe (Zurich):
+        Dedicated: 0.874
+        Shared: 0.834
       Germany (Hamburg):
         Dedicated: 1.035
         Shared: 0.986
@@ -91303,8 +92614,13 @@ r5.2xlarge:
         Shared: 0.885
       Europe (Vodafone) - London:
         Shared: 0.865
+      Europe (Vodafone) - Manchester:
+        Shared: 0.865
       Europe (Vodafone) - Munich:
         Shared: 0.885
+      Europe (Zurich):
+        Dedicated: 0.834
+        Shared: 0.794
       Germany (Hamburg):
         Dedicated: 0.995
         Shared: 0.946
@@ -91450,8 +92766,13 @@ r5.2xlarge:
         Shared: 0.76
       Europe (Vodafone) - London:
         Shared: 1.108
+      Europe (Vodafone) - Manchester:
+        Shared: 1.108
       Europe (Vodafone) - Munich:
         Shared: 0.76
+      Europe (Zurich):
+        Dedicated: 1.077
+        Shared: 1.037
       Germany (Hamburg):
         Dedicated: 0.87
         Shared: 0.821
@@ -91549,6 +92870,7 @@ r5.2xlarge:
     - us-west-2
     - US West (Verizon) - Los Angeles
     - US East (Verizon) - Detroit
+    - Europe (Zurich)
     - Middle East (UAE)
     - Europe (Vodafone) - Dortmund
     - US West (Verizon) - Phoenix
@@ -91557,6 +92879,7 @@ r5.2xlarge:
     - India (Delhi)
     - sa-east-1
     - eu-south-1
+    - Europe (Vodafone) - Manchester
     - US East (Verizon) - Washington DC
     - us-west-2-lax-1a
     - eu-north-1
@@ -91653,6 +92976,9 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.255
         Shared: 1.184
+      Europe (Zurich):
+        Dedicated: 1.418
+        Shared: 1.338
       me-south-1:
         Dedicated: 1.315
         Shared: 1.241
@@ -91732,6 +93058,9 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.385
         Shared: 1.314
+      Europe (Zurich):
+        Dedicated: 1.548
+        Shared: 1.468
       me-south-1:
         Dedicated: 1.445
         Shared: 1.371
@@ -91811,6 +93140,9 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.42
         Shared: 1.349
+      Europe (Zurich):
+        Dedicated: 1.583
+        Shared: 1.503
       me-south-1:
         Dedicated: 1.48
         Shared: 1.406
@@ -91890,6 +93222,9 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.38
         Shared: 1.309
+      Europe (Zurich):
+        Dedicated: 1.543
+        Shared: 1.463
       me-south-1:
         Dedicated: 1.44
         Shared: 1.366
@@ -91969,6 +93304,9 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.255
         Shared: 1.184
+      Europe (Zurich):
+        Dedicated: 2.154
+        Shared: 2.074
       me-south-1:
         Dedicated: 2.051
         Shared: 1.977
@@ -92019,6 +93357,7 @@ r5.4xlarge:
     - us-west-2
     - us-gov-east-1
     - us-west-2-lax-1a
+    - Europe (Zurich)
     - sa-east-1
     - eu-south-1
     - ap-southeast-1
@@ -92088,6 +93427,9 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.51
         Shared: 2.368
+      Europe (Zurich):
+        Dedicated: 2.836
+        Shared: 2.675
       me-south-1:
         Dedicated: 2.63
         Shared: 2.482
@@ -92167,6 +93509,9 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.64
         Shared: 2.498
+      Europe (Zurich):
+        Dedicated: 2.966
+        Shared: 2.805
       me-south-1:
         Dedicated: 2.76
         Shared: 2.612
@@ -92246,6 +93591,9 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.675
         Shared: 2.533
+      Europe (Zurich):
+        Dedicated: 3.001
+        Shared: 2.84
       me-south-1:
         Dedicated: 2.795
         Shared: 2.647
@@ -92325,6 +93673,9 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.635
         Shared: 2.493
+      Europe (Zurich):
+        Dedicated: 2.961
+        Shared: 2.8
       me-south-1:
         Dedicated: 2.755
         Shared: 2.607
@@ -92404,6 +93755,9 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.51
         Shared: 3.84
+      Europe (Zurich):
+        Dedicated: 4.308
+        Shared: 4.147
       me-south-1:
         Dedicated: 4.102
         Shared: 2.482
@@ -92451,6 +93805,7 @@ r5.8xlarge:
     - us-west-1
     - me-south-1
     - ap-southeast-1
+    - Europe (Zurich)
     - eu-west-2
     - Middle East (UAE)
     - ap-northeast-1
@@ -92523,6 +93878,9 @@ r5.large:
       eu-west-3:
         Dedicated: 0.157
         Shared: 0.148
+      Europe (Zurich):
+        Dedicated: 0.177
+        Shared: 0.167
       me-south-1:
         Dedicated: 0.164
         Shared: 0.155
@@ -92602,6 +93960,9 @@ r5.large:
       eu-west-3:
         Dedicated: 0.217
         Shared: 0.208
+      Europe (Zurich):
+        Dedicated: 0.237
+        Shared: 0.227
       me-south-1:
         Dedicated: 0.224
         Shared: 0.215
@@ -92681,6 +94042,9 @@ r5.large:
       eu-west-3:
         Dedicated: 0.252
         Shared: 0.243
+      Europe (Zurich):
+        Dedicated: 0.272
+        Shared: 0.262
       me-south-1:
         Dedicated: 0.259
         Shared: 0.25
@@ -92760,6 +94124,9 @@ r5.large:
       eu-west-3:
         Dedicated: 0.213
         Shared: 0.204
+      Europe (Zurich):
+        Dedicated: 0.234
+        Shared: 0.224
       me-south-1:
         Dedicated: 0.221
         Shared: 0.211
@@ -92839,6 +94206,9 @@ r5.large:
       eu-west-3:
         Dedicated: 0.249
         Shared: 0.24
+      Europe (Zurich):
+        Dedicated: 0.177
+        Shared: 0.259
       me-south-1:
         Dedicated: 0.164
         Shared: 0.155
@@ -92877,6 +94247,7 @@ r5.large:
     - ap-east-1
     - us-gov-west-1
     - us-gov-east-1
+    - Europe (Zurich)
     - eu-south-1
     - eu-west-2
     - us-east-2
@@ -92958,6 +94329,9 @@ r5.metal:
       eu-west-3:
         Dedicated: 7.104
         Shared: 7.104
+      Europe (Zurich):
+        Dedicated: 8.026
+        Shared: 8.026
       me-south-1:
         Dedicated: 7.445
         Shared: 7.445
@@ -93037,6 +94411,9 @@ r5.metal:
       eu-west-3:
         Dedicated: 7.234
         Shared: 7.234
+      Europe (Zurich):
+        Dedicated: 8.156
+        Shared: 8.156
       me-south-1:
         Dedicated: 7.575
         Shared: 7.575
@@ -93116,6 +94493,9 @@ r5.metal:
       eu-west-3:
         Dedicated: 7.269
         Shared: 7.269
+      Europe (Zurich):
+        Dedicated: 8.191
+        Shared: 8.191
       me-south-1:
         Dedicated: 7.61
         Shared: 7.61
@@ -93195,6 +94575,9 @@ r5.metal:
       eu-west-3:
         Dedicated: 7.229
         Shared: 7.229
+      Europe (Zurich):
+        Dedicated: 8.151
+        Shared: 8.151
       me-south-1:
         Dedicated: 7.57
         Shared: 7.57
@@ -93274,6 +94657,9 @@ r5.metal:
       eu-west-3:
         Dedicated: 11.52
         Shared: 7.104
+      Europe (Zurich):
+        Dedicated: 12.442
+        Shared: 8.026
       me-south-1:
         Dedicated: 7.445
         Shared: 7.445
@@ -93305,6 +94691,7 @@ r5.metal:
         Dedicated: 11.674
         Shared: 11.674
   regions:
+    - Europe (Zurich)
     - eu-west-3
     - ca-central-1
     - us-gov-west-1
@@ -93393,6 +94780,9 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.314
         Shared: 0.296
+      Europe (Zurich):
+        Dedicated: 0.354
+        Shared: 0.334
       me-south-1:
         Dedicated: 0.329
         Shared: 0.31
@@ -93472,6 +94862,9 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.374
         Shared: 0.356
+      Europe (Zurich):
+        Dedicated: 0.414
+        Shared: 0.394
       me-south-1:
         Dedicated: 0.389
         Shared: 0.37
@@ -93551,6 +94944,9 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.409
         Shared: 0.391
+      Europe (Zurich):
+        Dedicated: 0.449
+        Shared: 0.429
       me-south-1:
         Dedicated: 0.424
         Shared: 0.405
@@ -93630,6 +95026,9 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.37
         Shared: 0.352
+      Europe (Zurich):
+        Dedicated: 0.411
+        Shared: 0.391
       me-south-1:
         Dedicated: 0.385
         Shared: 0.367
@@ -93709,6 +95108,9 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.314
         Shared: 0.48
+      Europe (Zurich):
+        Dedicated: 0.538
+        Shared: 0.518
       me-south-1:
         Dedicated: 0.513
         Shared: 0.494
@@ -93763,6 +95165,7 @@ r5.xlarge:
     - sa-east-1
     - eu-west-1
     - eu-central-1
+    - Europe (Zurich)
     - ap-northeast-1
     - Asia Pacific (Osaka)
     - ap-southeast-1
@@ -100358,6 +101761,9 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 4.3
         Shared: 4.056
+      Europe (Zurich):
+        Dedicated: 4.841
+        Shared: 4.567
       me-south-1:
         Dedicated: 4.48
         Shared: 4.224
@@ -100437,6 +101843,9 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 4.43
         Shared: 4.186
+      Europe (Zurich):
+        Dedicated: 4.971
+        Shared: 4.697
       me-south-1:
         Dedicated: 4.61
         Shared: 4.354
@@ -100516,6 +101925,9 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 4.464
         Shared: 4.221
+      Europe (Zurich):
+        Dedicated: 5.006
+        Shared: 4.732
       me-south-1:
         Dedicated: 4.642
         Shared: 4.389
@@ -100595,6 +102007,9 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 4.424
         Shared: 4.181
+      Europe (Zurich):
+        Dedicated: 4.966
+        Shared: 4.692
       me-south-1:
         Dedicated: 4.602
         Shared: 4.349
@@ -100674,6 +102089,9 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 6.508
         Shared: 6.264
+      Europe (Zurich):
+        Dedicated: 7.049
+        Shared: 4.567
       me-south-1:
         Dedicated: 6.688
         Shared: 6.432
@@ -100715,6 +102133,7 @@ r5d.12xlarge:
     - eu-central-1
     - me-south-1
     - sa-east-1
+    - Europe (Zurich)
     - us-west-2
     - ap-east-1
     - ca-central-1
@@ -100794,6 +102213,9 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 5.733
         Shared: 5.408
+      Europe (Zurich):
+        Dedicated: 6.455
+        Shared: 6.09
       me-south-1:
         Dedicated: 5.974
         Shared: 5.632
@@ -100873,6 +102295,9 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 5.863
         Shared: 5.538
+      Europe (Zurich):
+        Dedicated: 6.585
+        Shared: 6.22
       me-south-1:
         Dedicated: 6.104
         Shared: 5.762
@@ -100952,6 +102377,9 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 5.897
         Shared: 5.573
+      Europe (Zurich):
+        Dedicated: 6.62
+        Shared: 6.255
       me-south-1:
         Dedicated: 6.135
         Shared: 5.797
@@ -101031,6 +102459,9 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 5.857
         Shared: 5.533
+      Europe (Zurich):
+        Dedicated: 6.58
+        Shared: 6.215
       me-south-1:
         Dedicated: 6.095
         Shared: 5.757
@@ -101110,6 +102541,9 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 8.677
         Shared: 8.352
+      Europe (Zurich):
+        Dedicated: 9.399
+        Shared: 9.034
       me-south-1:
         Dedicated: 8.918
         Shared: 8.576
@@ -101145,6 +102579,7 @@ r5d.16xlarge:
     - ap-southeast-3
     - me-south-1
     - us-gov-west-1
+    - Europe (Zurich)
     - ap-southeast-1
     - us-gov-east-1
     - eu-west-1
@@ -101230,6 +102665,9 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 8.112
         Shared: 8.112
+      Europe (Zurich):
+        Dedicated: 9.134
+        Shared: 9.134
       me-south-1:
         Dedicated: 8.448
         Shared: 8.448
@@ -101309,6 +102747,9 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 8.242
         Shared: 8.242
+      Europe (Zurich):
+        Dedicated: 9.264
+        Shared: 9.264
       me-south-1:
         Dedicated: 8.578
         Shared: 8.578
@@ -101388,6 +102829,9 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 8.277
         Shared: 8.277
+      Europe (Zurich):
+        Dedicated: 9.299
+        Shared: 9.299
       me-south-1:
         Dedicated: 8.613
         Shared: 8.613
@@ -101467,6 +102911,9 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 8.237
         Shared: 8.237
+      Europe (Zurich):
+        Dedicated: 9.259
+        Shared: 9.259
       me-south-1:
         Dedicated: 8.573
         Shared: 8.573
@@ -101546,6 +102993,9 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 12.528
         Shared: 12.528
+      Europe (Zurich):
+        Dedicated: 13.55
+        Shared: 13.55
       me-south-1:
         Dedicated: 12.864
         Shared: 12.864
@@ -101593,6 +103043,7 @@ r5d.24xlarge:
     - ap-south-1
     - ap-northeast-2
     - us-gov-east-1
+    - Europe (Zurich)
     - sa-east-1
     - ap-southeast-2
     - eu-west-3
@@ -101666,6 +103117,9 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 0.717
         Shared: 0.676
+      Europe (Zurich):
+        Dedicated: 0.807
+        Shared: 0.761
       me-south-1:
         Dedicated: 0.747
         Shared: 0.704
@@ -101790,6 +103244,9 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 0.847
         Shared: 0.806
+      Europe (Zurich):
+        Dedicated: 0.937
+        Shared: 0.891
       me-south-1:
         Dedicated: 0.877
         Shared: 0.834
@@ -101914,6 +103371,9 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 0.882
         Shared: 0.841
+      Europe (Zurich):
+        Dedicated: 0.972
+        Shared: 0.926
       me-south-1:
         Dedicated: 0.911
         Shared: 0.869
@@ -102038,6 +103498,9 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 0.842
         Shared: 0.801
+      Europe (Zurich):
+        Dedicated: 0.932
+        Shared: 0.886
       me-south-1:
         Dedicated: 0.871
         Shared: 0.829
@@ -102162,6 +103625,9 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 1.085
         Shared: 1.044
+      Europe (Zurich):
+        Dedicated: 1.175
+        Shared: 0.761
       me-south-1:
         Dedicated: 1.115
         Shared: 1.072
@@ -102279,6 +103745,7 @@ r5d.2xlarge:
     - us-gov-east-1
     - US East (Boston)
     - ap-south-1
+    - Europe (Zurich)
   storage: 1 x 300 NVMe SSD
   vcpu: 8
 r5d.4xlarge:
@@ -102341,6 +103808,9 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 1.433
         Shared: 1.352
+      Europe (Zurich):
+        Dedicated: 1.614
+        Shared: 1.522
       me-south-1:
         Dedicated: 1.493
         Shared: 1.408
@@ -102420,6 +103890,9 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 1.563
         Shared: 1.482
+      Europe (Zurich):
+        Dedicated: 1.744
+        Shared: 1.652
       me-south-1:
         Dedicated: 1.623
         Shared: 1.538
@@ -102499,6 +103972,9 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 1.598
         Shared: 1.517
+      Europe (Zurich):
+        Dedicated: 1.779
+        Shared: 1.687
       me-south-1:
         Dedicated: 1.657
         Shared: 1.573
@@ -102578,6 +104054,9 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 1.558
         Shared: 1.477
+      Europe (Zurich):
+        Dedicated: 1.739
+        Shared: 1.647
       me-south-1:
         Dedicated: 1.617
         Shared: 1.533
@@ -102657,6 +104136,9 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 2.169
         Shared: 2.088
+      Europe (Zurich):
+        Dedicated: 1.614
+        Shared: 1.522
       me-south-1:
         Dedicated: 2.229
         Shared: 2.144
@@ -102710,6 +104192,7 @@ r5d.4xlarge:
     - us-west-2-lax-1a
     - us-west-2
     - Middle East (UAE)
+    - Europe (Zurich)
     - eu-central-1
     - ap-southeast-1
     - eu-west-2
@@ -102777,6 +104260,9 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 2.866
         Shared: 2.704
+      Europe (Zurich):
+        Dedicated: 3.227
+        Shared: 3.045
       me-south-1:
         Dedicated: 2.987
         Shared: 2.816
@@ -102856,6 +104342,9 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 2.996
         Shared: 2.834
+      Europe (Zurich):
+        Dedicated: 3.357
+        Shared: 3.175
       me-south-1:
         Dedicated: 3.117
         Shared: 2.946
@@ -102935,6 +104424,9 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 3.031
         Shared: 2.869
+      Europe (Zurich):
+        Dedicated: 3.392
+        Shared: 3.21
       me-south-1:
         Dedicated: 3.15
         Shared: 2.981
@@ -103014,6 +104506,9 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 2.991
         Shared: 2.829
+      Europe (Zurich):
+        Dedicated: 3.352
+        Shared: 3.17
       me-south-1:
         Dedicated: 3.11
         Shared: 2.941
@@ -103093,6 +104588,9 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 4.338
         Shared: 4.176
+      Europe (Zurich):
+        Dedicated: 4.699
+        Shared: 4.517
       me-south-1:
         Dedicated: 4.459
         Shared: 4.288
@@ -103131,6 +104629,7 @@ r5d.8xlarge:
     - ca-central-1
     - us-west-2
     - eu-central-1
+    - Europe (Zurich)
     - ap-southeast-2
     - me-south-1
     - eu-west-2
@@ -103214,6 +104713,9 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.179
         Shared: 0.169
+      Europe (Zurich):
+        Dedicated: 0.202
+        Shared: 0.19
       me-south-1:
         Dedicated: 0.187
         Shared: 0.176
@@ -103293,6 +104795,9 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.239
         Shared: 0.229
+      Europe (Zurich):
+        Dedicated: 0.262
+        Shared: 0.25
       me-south-1:
         Dedicated: 0.247
         Shared: 0.236
@@ -103372,6 +104877,9 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.274
         Shared: 0.264
+      Europe (Zurich):
+        Dedicated: 0.297
+        Shared: 0.285
       me-south-1:
         Dedicated: 0.282
         Shared: 0.271
@@ -103451,6 +104959,9 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.235
         Shared: 0.225
+      Europe (Zurich):
+        Dedicated: 0.258
+        Shared: 0.247
       me-south-1:
         Dedicated: 0.243
         Shared: 0.232
@@ -103530,6 +105041,9 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.271
         Shared: 0.261
+      Europe (Zurich):
+        Dedicated: 0.294
+        Shared: 0.282
       me-south-1:
         Dedicated: 0.279
         Shared: 0.268
@@ -103561,6 +105075,7 @@ r5d.large:
         Dedicated: 0.275
         Shared: 0.265
   regions:
+    - Europe (Zurich)
     - us-gov-west-1
     - us-east-2
     - eu-west-2
@@ -103650,6 +105165,9 @@ r5d.metal:
       eu-west-3:
         Dedicated: 8.112
         Shared: 8.112
+      Europe (Zurich):
+        Dedicated: 9.134
+        Shared: 9.134
       me-south-1:
         Dedicated: 8.448
         Shared: 8.448
@@ -103729,6 +105247,9 @@ r5d.metal:
       eu-west-3:
         Dedicated: 8.242
         Shared: 8.242
+      Europe (Zurich):
+        Dedicated: 9.264
+        Shared: 9.264
       me-south-1:
         Dedicated: 8.578
         Shared: 8.578
@@ -103808,6 +105329,9 @@ r5d.metal:
       eu-west-3:
         Dedicated: 8.277
         Shared: 8.277
+      Europe (Zurich):
+        Dedicated: 9.299
+        Shared: 9.299
       me-south-1:
         Dedicated: 8.613
         Shared: 8.613
@@ -103887,6 +105411,9 @@ r5d.metal:
       eu-west-3:
         Dedicated: 8.237
         Shared: 8.237
+      Europe (Zurich):
+        Dedicated: 9.259
+        Shared: 9.259
       me-south-1:
         Dedicated: 8.573
         Shared: 8.573
@@ -103966,6 +105493,9 @@ r5d.metal:
       eu-west-3:
         Dedicated: 12.528
         Shared: 12.528
+      Europe (Zurich):
+        Dedicated: 9.134
+        Shared: 9.134
       me-south-1:
         Dedicated: 12.864
         Shared: 12.864
@@ -104017,6 +105547,7 @@ r5d.metal:
     - ca-central-1
     - ap-southeast-1
     - us-east-2
+    - Europe (Zurich)
     - eu-west-1
     - ap-south-1
     - us-east-1
@@ -104086,6 +105617,9 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.358
         Shared: 0.338
+      Europe (Zurich):
+        Dedicated: 0.403
+        Shared: 0.381
       me-south-1:
         Dedicated: 0.373
         Shared: 0.352
@@ -104165,6 +105699,9 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.418
         Shared: 0.398
+      Europe (Zurich):
+        Dedicated: 0.463
+        Shared: 0.441
       me-south-1:
         Dedicated: 0.433
         Shared: 0.412
@@ -104244,6 +105781,9 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.453
         Shared: 0.433
+      Europe (Zurich):
+        Dedicated: 0.498
+        Shared: 0.476
       me-south-1:
         Dedicated: 0.468
         Shared: 0.447
@@ -104323,6 +105863,9 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.415
         Shared: 0.394
+      Europe (Zurich):
+        Dedicated: 0.46
+        Shared: 0.437
       me-south-1:
         Dedicated: 0.429
         Shared: 0.408
@@ -104402,6 +105945,9 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.542
         Shared: 0.522
+      Europe (Zurich):
+        Dedicated: 0.403
+        Shared: 0.381
       me-south-1:
         Dedicated: 0.557
         Shared: 0.536
@@ -104434,6 +105980,7 @@ r5d.xlarge:
         Shared: 0.53
   regions:
     - us-gov-east-1
+    - Europe (Zurich)
     - eu-south-1
     - us-west-2
     - eu-west-3
@@ -118875,6 +120422,9 @@ r6id.12xlarge:
       ap-northeast-1:
         Dedicated: 4.82328
         Shared: 4.3848
+      ap-southeast-2:
+        Dedicated: 4.5936
+        Shared: 4.176
       eu-west-1:
         Dedicated: 4.4352
         Shared: 4.032
@@ -118891,6 +120441,9 @@ r6id.12xlarge:
       ap-northeast-1:
         Dedicated: 4.95328
         Shared: 4.5148
+      ap-southeast-2:
+        Dedicated: 4.7236
+        Shared: 4.306
       eu-west-1:
         Dedicated: 4.5652
         Shared: 4.162
@@ -118907,6 +120460,9 @@ r6id.12xlarge:
       ap-northeast-1:
         Dedicated: 4.98828
         Shared: 4.5498
+      ap-southeast-2:
+        Dedicated: 4.7586
+        Shared: 4.341
       eu-west-1:
         Dedicated: 4.6002
         Shared: 4.197
@@ -118923,6 +120479,9 @@ r6id.12xlarge:
       ap-northeast-1:
         Dedicated: 4.94828
         Shared: 4.5098
+      ap-southeast-2:
+        Dedicated: 4.7186
+        Shared: 4.301
       eu-west-1:
         Dedicated: 4.5602
         Shared: 4.157
@@ -118939,6 +120498,9 @@ r6id.12xlarge:
       ap-northeast-1:
         Dedicated: 7.03128
         Shared: 4.3848
+      ap-southeast-2:
+        Dedicated: 6.8016
+        Shared: 6.384
       eu-west-1:
         Dedicated: 4.4352
         Shared: 6.24
@@ -118956,6 +120518,7 @@ r6id.12xlarge:
     - us-west-2
     - ap-northeast-1
     - us-east-1
+    - ap-southeast-2
     - us-east-2
   storage: 2 x 1425 SSD
   vcpu: 48
@@ -118973,6 +120536,9 @@ r6id.16xlarge:
       ap-northeast-1:
         Dedicated: 6.43104
         Shared: 5.8464
+      ap-southeast-2:
+        Dedicated: 6.1248
+        Shared: 5.568
       eu-west-1:
         Dedicated: 5.9136
         Shared: 5.376
@@ -118989,6 +120555,9 @@ r6id.16xlarge:
       ap-northeast-1:
         Dedicated: 6.56104
         Shared: 5.9764
+      ap-southeast-2:
+        Dedicated: 6.2548
+        Shared: 5.698
       eu-west-1:
         Dedicated: 6.0436
         Shared: 5.506
@@ -119005,6 +120574,9 @@ r6id.16xlarge:
       ap-northeast-1:
         Dedicated: 6.59604
         Shared: 6.0114
+      ap-southeast-2:
+        Dedicated: 6.2898
+        Shared: 5.733
       eu-west-1:
         Dedicated: 6.0786
         Shared: 5.541
@@ -119021,6 +120593,9 @@ r6id.16xlarge:
       ap-northeast-1:
         Dedicated: 6.55604
         Shared: 5.9714
+      ap-southeast-2:
+        Dedicated: 6.2498
+        Shared: 5.693
       eu-west-1:
         Dedicated: 6.0386
         Shared: 5.501
@@ -119037,6 +120612,9 @@ r6id.16xlarge:
       ap-northeast-1:
         Dedicated: 6.43104
         Shared: 5.8464
+      ap-southeast-2:
+        Dedicated: 9.0688
+        Shared: 8.512
       eu-west-1:
         Dedicated: 5.9136
         Shared: 8.32
@@ -119055,6 +120633,7 @@ r6id.16xlarge:
     - us-east-2
     - ap-northeast-1
     - eu-west-1
+    - ap-southeast-2
   storage: 2 x 1900 SSD
   vcpu: 64
 r6id.24xlarge:
@@ -119071,6 +120650,9 @@ r6id.24xlarge:
       ap-northeast-1:
         Dedicated: 9.64656
         Shared: 8.7696
+      ap-southeast-2:
+        Dedicated: 9.1872
+        Shared: 8.352
       eu-west-1:
         Dedicated: 8.8704
         Shared: 8.064
@@ -119087,6 +120669,9 @@ r6id.24xlarge:
       ap-northeast-1:
         Dedicated: 9.77656
         Shared: 8.8996
+      ap-southeast-2:
+        Dedicated: 9.3172
+        Shared: 8.482
       eu-west-1:
         Dedicated: 9.0004
         Shared: 8.194
@@ -119103,6 +120688,9 @@ r6id.24xlarge:
       ap-northeast-1:
         Dedicated: 9.81156
         Shared: 8.9346
+      ap-southeast-2:
+        Dedicated: 9.3522
+        Shared: 8.517
       eu-west-1:
         Dedicated: 9.0354
         Shared: 8.229
@@ -119119,6 +120707,9 @@ r6id.24xlarge:
       ap-northeast-1:
         Dedicated: 9.77156
         Shared: 8.8946
+      ap-southeast-2:
+        Dedicated: 9.3122
+        Shared: 8.477
       eu-west-1:
         Dedicated: 8.9954
         Shared: 8.189
@@ -119135,6 +120726,9 @@ r6id.24xlarge:
       ap-northeast-1:
         Dedicated: 14.06256
         Shared: 13.1856
+      ap-southeast-2:
+        Dedicated: 9.1872
+        Shared: 8.352
       eu-west-1:
         Dedicated: 8.8704
         Shared: 8.064
@@ -119153,6 +120747,7 @@ r6id.24xlarge:
     - eu-west-1
     - us-east-1
     - ap-northeast-1
+    - ap-southeast-2
   storage: 4 x 1425 SSD
   vcpu: 96
 r6id.2xlarge:
@@ -119169,6 +120764,9 @@ r6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.80388
         Shared: 0.7308
+      ap-southeast-2:
+        Dedicated: 0.7656
+        Shared: 0.696
       eu-west-1:
         Dedicated: 0.7392
         Shared: 0.672
@@ -119185,6 +120783,9 @@ r6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.93388
         Shared: 0.8608
+      ap-southeast-2:
+        Dedicated: 0.8956
+        Shared: 0.826
       eu-west-1:
         Dedicated: 0.8692
         Shared: 0.802
@@ -119201,6 +120802,9 @@ r6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.96888
         Shared: 0.8958
+      ap-southeast-2:
+        Dedicated: 0.9306
+        Shared: 0.861
       eu-west-1:
         Dedicated: 0.9042
         Shared: 0.837
@@ -119217,6 +120821,9 @@ r6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.92888
         Shared: 0.8558
+      ap-southeast-2:
+        Dedicated: 0.8906
+        Shared: 0.821
       eu-west-1:
         Dedicated: 0.8642
         Shared: 0.797
@@ -119233,6 +120840,9 @@ r6id.2xlarge:
       ap-northeast-1:
         Dedicated: 0.80388
         Shared: 0.7308
+      ap-southeast-2:
+        Dedicated: 0.7656
+        Shared: 0.696
       eu-west-1:
         Dedicated: 0.7392
         Shared: 0.672
@@ -119249,6 +120859,7 @@ r6id.2xlarge:
     - eu-west-1
     - us-east-1
     - us-west-2
+    - ap-southeast-2
     - us-east-2
     - ap-northeast-1
   storage: 1 x 474 SSD
@@ -119267,6 +120878,9 @@ r6id.32xlarge:
       ap-northeast-1:
         Dedicated: 11.6928
         Shared: 11.6928
+      ap-southeast-2:
+        Dedicated: 11.136
+        Shared: 11.136
       eu-west-1:
         Dedicated: 10.752
         Shared: 10.752
@@ -119283,6 +120897,9 @@ r6id.32xlarge:
       ap-northeast-1:
         Dedicated: 11.8228
         Shared: 11.8228
+      ap-southeast-2:
+        Dedicated: 11.266
+        Shared: 11.266
       eu-west-1:
         Dedicated: 10.882
         Shared: 10.882
@@ -119299,6 +120916,9 @@ r6id.32xlarge:
       ap-northeast-1:
         Dedicated: 11.8578
         Shared: 11.8578
+      ap-southeast-2:
+        Dedicated: 11.301
+        Shared: 11.301
       eu-west-1:
         Dedicated: 10.917
         Shared: 10.917
@@ -119315,6 +120935,9 @@ r6id.32xlarge:
       ap-northeast-1:
         Dedicated: 11.8178
         Shared: 11.8178
+      ap-southeast-2:
+        Dedicated: 11.261
+        Shared: 11.261
       eu-west-1:
         Dedicated: 10.877
         Shared: 10.877
@@ -119331,6 +120954,9 @@ r6id.32xlarge:
       ap-northeast-1:
         Dedicated: 17.5808
         Shared: 17.5808
+      ap-southeast-2:
+        Dedicated: 17.024
+        Shared: 11.136
       eu-west-1:
         Dedicated: 16.64
         Shared: 16.64
@@ -119347,6 +120973,7 @@ r6id.32xlarge:
     - us-west-2
     - us-east-1
     - ap-northeast-1
+    - ap-southeast-2
     - us-east-2
     - eu-west-1
   storage: 4 x 1900 SSD
@@ -119365,6 +120992,9 @@ r6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.60776
         Shared: 1.4616
+      ap-southeast-2:
+        Dedicated: 1.5312
+        Shared: 1.392
       eu-west-1:
         Dedicated: 1.4784
         Shared: 1.344
@@ -119381,6 +121011,9 @@ r6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.73776
         Shared: 1.5916
+      ap-southeast-2:
+        Dedicated: 1.6612
+        Shared: 1.522
       eu-west-1:
         Dedicated: 1.6084
         Shared: 1.474
@@ -119397,6 +121030,9 @@ r6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.77276
         Shared: 1.6266
+      ap-southeast-2:
+        Dedicated: 1.6962
+        Shared: 1.557
       eu-west-1:
         Dedicated: 1.6434
         Shared: 1.509
@@ -119413,6 +121049,9 @@ r6id.4xlarge:
       ap-northeast-1:
         Dedicated: 1.73276
         Shared: 1.5866
+      ap-southeast-2:
+        Dedicated: 1.6562
+        Shared: 1.517
       eu-west-1:
         Dedicated: 1.6034
         Shared: 1.469
@@ -119429,6 +121068,9 @@ r6id.4xlarge:
       ap-northeast-1:
         Dedicated: 2.34376
         Shared: 2.1976
+      ap-southeast-2:
+        Dedicated: 1.5312
+        Shared: 2.128
       eu-west-1:
         Dedicated: 1.4784
         Shared: 2.08
@@ -119447,6 +121089,7 @@ r6id.4xlarge:
     - us-east-2
     - us-west-2
     - us-east-1
+    - ap-southeast-2
   storage: 1 x 950 SSD
   vcpu: 16
 r6id.8xlarge:
@@ -119463,6 +121106,9 @@ r6id.8xlarge:
       ap-northeast-1:
         Dedicated: 3.21552
         Shared: 2.9232
+      ap-southeast-2:
+        Dedicated: 3.0624
+        Shared: 2.784
       eu-west-1:
         Dedicated: 2.9568
         Shared: 2.688
@@ -119479,6 +121125,9 @@ r6id.8xlarge:
       ap-northeast-1:
         Dedicated: 3.34552
         Shared: 3.0532
+      ap-southeast-2:
+        Dedicated: 3.1924
+        Shared: 2.914
       eu-west-1:
         Dedicated: 3.0868
         Shared: 2.818
@@ -119495,6 +121144,9 @@ r6id.8xlarge:
       ap-northeast-1:
         Dedicated: 3.38052
         Shared: 3.0882
+      ap-southeast-2:
+        Dedicated: 3.2274
+        Shared: 2.949
       eu-west-1:
         Dedicated: 3.1218
         Shared: 2.853
@@ -119511,6 +121163,9 @@ r6id.8xlarge:
       ap-northeast-1:
         Dedicated: 3.34052
         Shared: 3.0482
+      ap-southeast-2:
+        Dedicated: 3.1874
+        Shared: 2.909
       eu-west-1:
         Dedicated: 3.0818
         Shared: 2.813
@@ -119527,6 +121182,9 @@ r6id.8xlarge:
       ap-northeast-1:
         Dedicated: 4.68752
         Shared: 2.9232
+      ap-southeast-2:
+        Dedicated: 4.5344
+        Shared: 4.256
       eu-west-1:
         Dedicated: 2.9568
         Shared: 2.688
@@ -119545,6 +121203,7 @@ r6id.8xlarge:
     - us-east-2
     - us-east-1
     - ap-northeast-1
+    - ap-southeast-2
   storage: 1 x 1900 SSD
   vcpu: 32
 r6id.large:
@@ -119561,6 +121220,9 @@ r6id.large:
       ap-northeast-1:
         Dedicated: 0.20097
         Shared: 0.1827
+      ap-southeast-2:
+        Dedicated: 0.1914
+        Shared: 0.174
       eu-west-1:
         Dedicated: 0.1848
         Shared: 0.168
@@ -119577,6 +121239,9 @@ r6id.large:
       ap-northeast-1:
         Dedicated: 0.26097
         Shared: 0.2427
+      ap-southeast-2:
+        Dedicated: 0.2514
+        Shared: 0.234
       eu-west-1:
         Dedicated: 0.2448
         Shared: 0.228
@@ -119593,6 +121258,9 @@ r6id.large:
       ap-northeast-1:
         Dedicated: 0.29597
         Shared: 0.2777
+      ap-southeast-2:
+        Dedicated: 0.2864
+        Shared: 0.269
       eu-west-1:
         Dedicated: 0.2798
         Shared: 0.263
@@ -119609,6 +121277,9 @@ r6id.large:
       ap-northeast-1:
         Dedicated: 0.25727
         Shared: 0.239
+      ap-southeast-2:
+        Dedicated: 0.2477
+        Shared: 0.2303
       eu-west-1:
         Dedicated: 0.2411
         Shared: 0.2243
@@ -119625,6 +121296,9 @@ r6id.large:
       ap-northeast-1:
         Dedicated: 0.29297
         Shared: 0.1827
+      ap-southeast-2:
+        Dedicated: 0.2834
+        Shared: 0.174
       eu-west-1:
         Dedicated: 0.1848
         Shared: 0.168
@@ -119642,6 +121316,7 @@ r6id.large:
     - us-west-2
     - us-east-1
     - us-east-2
+    - ap-southeast-2
     - ap-northeast-1
   storage: 1 x 118 SSD
   vcpu: 2
@@ -119659,6 +121334,9 @@ r6id.metal:
       ap-northeast-1:
         Dedicated: 11.6928
         Shared: 11.6928
+      ap-southeast-2:
+        Dedicated: 11.136
+        Shared: 11.136
       eu-west-1:
         Dedicated: 10.752
         Shared: 10.752
@@ -119675,6 +121353,9 @@ r6id.metal:
       ap-northeast-1:
         Dedicated: 11.8228
         Shared: 11.8228
+      ap-southeast-2:
+        Dedicated: 11.266
+        Shared: 11.266
       eu-west-1:
         Dedicated: 10.882
         Shared: 10.882
@@ -119691,6 +121372,9 @@ r6id.metal:
       ap-northeast-1:
         Dedicated: 11.8578
         Shared: 11.8578
+      ap-southeast-2:
+        Dedicated: 11.301
+        Shared: 11.301
       eu-west-1:
         Dedicated: 10.917
         Shared: 10.917
@@ -119707,6 +121391,9 @@ r6id.metal:
       ap-northeast-1:
         Dedicated: 11.8178
         Shared: 11.8178
+      ap-southeast-2:
+        Dedicated: 11.261
+        Shared: 11.261
       eu-west-1:
         Dedicated: 10.877
         Shared: 10.877
@@ -119723,6 +121410,9 @@ r6id.metal:
       ap-northeast-1:
         Dedicated: 11.6928
         Shared: 17.5808
+      ap-southeast-2:
+        Dedicated: 11.136
+        Shared: 17.024
       eu-west-1:
         Dedicated: 16.64
         Shared: 16.64
@@ -119741,6 +121431,7 @@ r6id.metal:
     - us-west-2
     - ap-northeast-1
     - us-east-1
+    - ap-southeast-2
   storage: 4 x 1900 SSD
   vcpu: 128
 r6id.xlarge:
@@ -119757,6 +121448,9 @@ r6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.40194
         Shared: 0.3654
+      ap-southeast-2:
+        Dedicated: 0.3828
+        Shared: 0.348
       eu-west-1:
         Dedicated: 0.3696
         Shared: 0.336
@@ -119773,6 +121467,9 @@ r6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.46194
         Shared: 0.4254
+      ap-southeast-2:
+        Dedicated: 0.4428
+        Shared: 0.408
       eu-west-1:
         Dedicated: 0.4296
         Shared: 0.396
@@ -119789,6 +121486,9 @@ r6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.49694
         Shared: 0.4604
+      ap-southeast-2:
+        Dedicated: 0.4778
+        Shared: 0.443
       eu-west-1:
         Dedicated: 0.4646
         Shared: 0.431
@@ -119805,6 +121505,9 @@ r6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.45824
         Shared: 0.4217
+      ap-southeast-2:
+        Dedicated: 0.4391
+        Shared: 0.4043
       eu-west-1:
         Dedicated: 0.4259
         Shared: 0.3923
@@ -119821,6 +121524,9 @@ r6id.xlarge:
       ap-northeast-1:
         Dedicated: 0.40194
         Shared: 0.3654
+      ap-southeast-2:
+        Dedicated: 0.3828
+        Shared: 0.348
       eu-west-1:
         Dedicated: 0.5536
         Shared: 0.336
@@ -119838,6 +121544,7 @@ r6id.xlarge:
     - us-east-1
     - ap-northeast-1
     - us-east-2
+    - ap-southeast-2
     - eu-west-1
   storage: 1 x 237 SSD
   vcpu: 4
@@ -121358,6 +123065,8 @@ t3.2xlarge:
         Shared: 0.3776
       eu-west-3:
         Shared: 0.3776
+      Europe (Zurich):
+        Shared: 0.4224
       me-south-1:
         Shared: 0.4013
       Middle East (UAE):
@@ -121428,6 +123137,8 @@ t3.2xlarge:
         Shared: 0.5076
       eu-west-3:
         Shared: 0.5076
+      Europe (Zurich):
+        Shared: 0.5524
       me-south-1:
         Shared: 0.5313
       Middle East (UAE):
@@ -121487,6 +123198,8 @@ t3.2xlarge:
         Shared: 0.5426
       eu-west-3:
         Shared: 0.5426
+      Europe (Zurich):
+        Shared: 0.5874
       me-south-1:
         Shared: 0.5663
       Middle East (UAE):
@@ -121551,6 +123264,8 @@ t3.2xlarge:
         Shared: 0.5026
       eu-west-3:
         Shared: 0.5026
+      Europe (Zurich):
+        Shared: 0.5474
       me-south-1:
         Shared: 0.5263
       Middle East (UAE):
@@ -121621,6 +123336,8 @@ t3.2xlarge:
         Shared: 0.5248
       eu-west-3:
         Shared: 0.5248
+      Europe (Zurich):
+        Shared: 0.5696
       me-south-1:
         Shared: 0.5485
       Middle East (UAE):
@@ -121661,6 +123378,7 @@ t3.2xlarge:
     - eu-south-1
     - us-west-2-lax-1a
     - ap-south-1
+    - Europe (Zurich)
     - ca-central-1
     - eu-central-1
     - ap-northeast-1
@@ -121731,6 +123449,8 @@ t3.large:
         Shared: 0.0944
       eu-west-3:
         Shared: 0.0944
+      Europe (Zurich):
+        Shared: 0.1056
       me-south-1:
         Shared: 0.1003
       Middle East (UAE):
@@ -121801,6 +123521,8 @@ t3.large:
         Shared: 0.1544
       eu-west-3:
         Shared: 0.1544
+      Europe (Zurich):
+        Shared: 0.1656
       me-south-1:
         Shared: 0.1603
       Middle East (UAE):
@@ -121860,6 +123582,8 @@ t3.large:
         Shared: 0.1894
       eu-west-3:
         Shared: 0.1894
+      Europe (Zurich):
+        Shared: 0.2006
       me-south-1:
         Shared: 0.1953
       Middle East (UAE):
@@ -121924,6 +123648,8 @@ t3.large:
         Shared: 0.1507
       eu-west-3:
         Shared: 0.1507
+      Europe (Zurich):
+        Shared: 0.1619
       me-south-1:
         Shared: 0.1566
       Middle East (UAE):
@@ -121994,6 +123720,8 @@ t3.large:
         Shared: 0.122
       eu-west-3:
         Shared: 0.122
+      Europe (Zurich):
+        Shared: 0.1056
       me-south-1:
         Shared: 0.1279
       Middle East (UAE):
@@ -122036,6 +123764,7 @@ t3.large:
     - me-south-1
     - sa-east-1
     - Middle East (UAE)
+    - Europe (Zurich)
     - ap-east-1
     - eu-north-1
     - ap-northeast-2
@@ -122120,8 +123849,12 @@ t3.medium:
         Shared: 0.06
       Europe (Vodafone) - London:
         Shared: 0.059
+      Europe (Vodafone) - Manchester:
+        Shared: 0.059
       Europe (Vodafone) - Munich:
         Shared: 0.06
+      Europe (Zurich):
+        Shared: 0.0528
       me-south-1:
         Shared: 0.0502
       Middle East (UAE):
@@ -122276,8 +124009,12 @@ t3.medium:
         Shared: 0.12
       Europe (Vodafone) - London:
         Shared: 0.119
+      Europe (Vodafone) - Manchester:
+        Shared: 0.119
       Europe (Vodafone) - Munich:
         Shared: 0.12
+      Europe (Zurich):
+        Shared: 0.1128
       me-south-1:
         Shared: 0.1102
       Middle East (UAE):
@@ -122421,8 +124158,12 @@ t3.medium:
         Shared: 0.155
       Europe (Vodafone) - London:
         Shared: 0.154
+      Europe (Vodafone) - Manchester:
+        Shared: 0.154
       Europe (Vodafone) - Munich:
         Shared: 0.155
+      Europe (Zurich):
+        Shared: 0.1478
       me-south-1:
         Shared: 0.1452
       Middle East (UAE):
@@ -122571,8 +124312,12 @@ t3.medium:
         Shared: 0.1163
       Europe (Vodafone) - London:
         Shared: 0.1153
+      Europe (Vodafone) - Manchester:
+        Shared: 0.1153
       Europe (Vodafone) - Munich:
         Shared: 0.1163
+      Europe (Zurich):
+        Shared: 0.1091
       me-south-1:
         Shared: 0.1065
       Middle East (UAE):
@@ -122727,8 +124472,12 @@ t3.medium:
         Shared: 0.06
       Europe (Vodafone) - London:
         Shared: 0.0774
+      Europe (Vodafone) - Manchester:
+        Shared: 0.0774
       Europe (Vodafone) - Munich:
         Shared: 0.0784
+      Europe (Zurich):
+        Shared: 0.0712
       me-south-1:
         Shared: 0.0686
       Middle East (UAE):
@@ -122828,6 +124577,7 @@ t3.medium:
     - ap-southeast-2
     - ap-northeast-2
     - sa-east-1
+    - Europe (Vodafone) - Manchester
     - Europe (Vodafone) - Berlin
     - us-gov-west-1
     - ap-south-1
@@ -122877,6 +124627,7 @@ t3.medium:
     - ap-east-1
     - ca-central-1
     - ap-northeast-1
+    - Europe (Zurich)
     - Canada (BELL) - Toronto
     - us-east-2
     - Middle East (UAE)
@@ -122950,6 +124701,8 @@ t3.micro:
         Shared: 0.0118
       eu-west-3:
         Shared: 0.0118
+      Europe (Zurich):
+        Shared: 0.0132
       me-south-1:
         Shared: 0.0125
       Middle East (UAE):
@@ -123020,6 +124773,8 @@ t3.micro:
         Shared: 0.0718
       eu-west-3:
         Shared: 0.0718
+      Europe (Zurich):
+        Shared: 0.0732
       me-south-1:
         Shared: 0.0725
       Middle East (UAE):
@@ -123079,6 +124834,8 @@ t3.micro:
         Shared: 0.1068
       eu-west-3:
         Shared: 0.1068
+      Europe (Zurich):
+        Shared: 0.1082
       me-south-1:
         Shared: 0.1075
       Middle East (UAE):
@@ -123143,6 +124900,8 @@ t3.micro:
         Shared: 0.0118
       eu-west-3:
         Shared: 0.0118
+      Europe (Zurich):
+        Shared: 0.0132
       me-south-1:
         Shared: 0.0125
       Middle East (UAE):
@@ -123213,6 +124972,8 @@ t3.micro:
         Shared: 0.021
       eu-west-3:
         Shared: 0.021
+      Europe (Zurich):
+        Shared: 0.0224
       me-south-1:
         Shared: 0.0217
       Middle East (UAE):
@@ -123260,6 +125021,7 @@ t3.micro:
     - ap-northeast-2
     - eu-north-1
     - af-south-1
+    - Europe (Zurich)
     - eu-west-1
     - us-west-2-lax-1a
     - us-east-1
@@ -123323,6 +125085,8 @@ t3.nano:
         Shared: 0.0059
       eu-west-3:
         Shared: 0.0059
+      Europe (Zurich):
+        Shared: 0.0066
       me-south-1:
         Shared: 0.0063
       Middle East (UAE):
@@ -123393,6 +125157,8 @@ t3.nano:
         Shared: 0.0059
       eu-west-3:
         Shared: 0.0059
+      Europe (Zurich):
+        Shared: 0.0066
       me-south-1:
         Shared: 0.0063
       Middle East (UAE):
@@ -123463,6 +125229,8 @@ t3.nano:
         Shared: 0.0105
       eu-west-3:
         Shared: 0.0105
+      Europe (Zurich):
+        Shared: 0.0066
       me-south-1:
         Shared: 0.0109
       Middle East (UAE):
@@ -123508,6 +125276,7 @@ t3.nano:
     - me-south-1
     - ap-northeast-1
     - us-gov-west-1
+    - Europe (Zurich)
     - eu-west-1
     - us-east-1
     - eu-west-3
@@ -123573,6 +125342,8 @@ t3.small:
         Shared: 0.0236
       eu-west-3:
         Shared: 0.0236
+      Europe (Zurich):
+        Shared: 0.0264
       me-south-1:
         Shared: 0.0251
       Middle East (UAE):
@@ -123643,6 +125414,8 @@ t3.small:
         Shared: 0.0836
       eu-west-3:
         Shared: 0.0836
+      Europe (Zurich):
+        Shared: 0.0864
       me-south-1:
         Shared: 0.0851
       Middle East (UAE):
@@ -123702,6 +125475,8 @@ t3.small:
         Shared: 0.1186
       eu-west-3:
         Shared: 0.1186
+      Europe (Zurich):
+        Shared: 0.1214
       me-south-1:
         Shared: 0.1201
       Middle East (UAE):
@@ -123766,6 +125541,8 @@ t3.small:
         Shared: 0.0546
       eu-west-3:
         Shared: 0.0546
+      Europe (Zurich):
+        Shared: 0.0577
       me-south-1:
         Shared: 0.0561
       Middle East (UAE):
@@ -123836,6 +125613,8 @@ t3.small:
         Shared: 0.0236
       eu-west-3:
         Shared: 0.042
+      Europe (Zurich):
+        Shared: 0.0448
       me-south-1:
         Shared: 0.0435
       Middle East (UAE):
@@ -123872,6 +125651,7 @@ t3.small:
     - af-south-1
     - us-east-1
     - ap-southeast-3
+    - Europe (Zurich)
     - us-gov-west-1
     - us-east-2
     - eu-west-2
@@ -123962,8 +125742,12 @@ t3.xlarge:
         Shared: 0.24
       Europe (Vodafone) - London:
         Shared: 0.236
+      Europe (Vodafone) - Manchester:
+        Shared: 0.236
       Europe (Vodafone) - Munich:
         Shared: 0.24
+      Europe (Zurich):
+        Shared: 0.2112
       me-south-1:
         Shared: 0.2006
       Middle East (UAE):
@@ -124118,8 +125902,12 @@ t3.xlarge:
         Shared: 0.3
       Europe (Vodafone) - London:
         Shared: 0.296
+      Europe (Vodafone) - Manchester:
+        Shared: 0.296
       Europe (Vodafone) - Munich:
         Shared: 0.3
+      Europe (Zurich):
+        Shared: 0.2712
       me-south-1:
         Shared: 0.2606
       Middle East (UAE):
@@ -124263,8 +126051,12 @@ t3.xlarge:
         Shared: 0.335
       Europe (Vodafone) - London:
         Shared: 0.331
+      Europe (Vodafone) - Manchester:
+        Shared: 0.331
       Europe (Vodafone) - Munich:
         Shared: 0.335
+      Europe (Zurich):
+        Shared: 0.3062
       me-south-1:
         Shared: 0.2956
       Middle East (UAE):
@@ -124413,8 +126205,12 @@ t3.xlarge:
         Shared: 0.2963
       Europe (Vodafone) - London:
         Shared: 0.2923
+      Europe (Vodafone) - Manchester:
+        Shared: 0.2923
       Europe (Vodafone) - Munich:
         Shared: 0.2963
+      Europe (Zurich):
+        Shared: 0.2675
       me-south-1:
         Shared: 0.2569
       Middle East (UAE):
@@ -124569,8 +126365,12 @@ t3.xlarge:
         Shared: 0.24
       Europe (Vodafone) - London:
         Shared: 0.3096
+      Europe (Vodafone) - Manchester:
+        Shared: 0.3096
       Europe (Vodafone) - Munich:
         Shared: 0.3136
+      Europe (Zurich):
+        Shared: 0.2848
       me-south-1:
         Shared: 0.2742
       Middle East (UAE):
@@ -124683,6 +126483,7 @@ t3.xlarge:
     - US East (Verizon) - Boston
     - Middle East (UAE)
     - eu-west-2
+    - Europe (Zurich)
     - us-west-2
     - eu-north-1
     - ap-northeast-1
@@ -124726,6 +126527,7 @@ t3.xlarge:
     - US East (Verizon) - Detroit
     - US East (Verizon) - Atlanta
     - Asia Pacific (KDDI) - Osaka
+    - Europe (Vodafone) - Manchester
     - us-east-1
     - US East (Verizon) - Washington DC
     - US East (Verizon) - New York
