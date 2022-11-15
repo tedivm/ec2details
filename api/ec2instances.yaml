@@ -26779,6 +26779,49 @@ c6gn.medium:
     - ca-central-1
   storage: EBS only
   vcpu: 1
+c6gn.metal:
+  clockSpeed: 2.5 GHz
+  currentGeneration: true
+  dedicatedEbsThroughput: 38000 Mbps
+  enhancedNetworkingSupported: true
+  memory: 128 GiB
+  networkPerformance: 100 Gigabit
+  normalizationSizeFactor: 128
+  physicalProcessor: AWS Graviton2 Processor
+  prices:
+    Linux:
+      ca-central-1:
+        Dedicated: 3.32992
+        Shared: 3.0272
+      eu-west-3:
+        Dedicated: 3.608
+        Shared: 3.28
+    RHEL:
+      ca-central-1:
+        Dedicated: 3.45992
+        Shared: 3.1572
+      eu-west-3:
+        Dedicated: 3.738
+        Shared: 3.41
+    RHEL_HA:
+      ca-central-1:
+        Dedicated: 3.49492
+        Shared: 3.1922
+      eu-west-3:
+        Dedicated: 3.773
+        Shared: 3.445
+    SUSE:
+      ca-central-1:
+        Dedicated: 3.45492
+        Shared: 3.1522
+      eu-west-3:
+        Dedicated: 3.733
+        Shared: 3.405
+  regions:
+    - ca-central-1
+    - eu-west-3
+  storage: EBS only
+  vcpu: 64
 c6gn.xlarge:
   clockSpeed: 2.5 GHz
   currentGeneration: true
@@ -129578,6 +129621,9 @@ u-18tb1.112xlarge:
   physicalProcessor: Intel Xeon Platinum 8280L (Cascade Lake)
   prices:
     Linux:
+      eu-west-1:
+        Dedicated: 183.3
+        Shared: 183.3
       us-east-1:
         Dedicated: 163.8
         Shared: 163.8
@@ -129585,6 +129631,9 @@ u-18tb1.112xlarge:
         Dedicated: 163.8
         Shared: 163.8
     RHEL:
+      eu-west-1:
+        Dedicated: 183.43
+        Shared: 183.43
       us-east-1:
         Dedicated: 163.93
         Shared: 163.93
@@ -129592,6 +129641,9 @@ u-18tb1.112xlarge:
         Dedicated: 163.93
         Shared: 163.93
     RHEL_HA:
+      eu-west-1:
+        Dedicated: 183.465
+        Shared: 183.465
       us-east-1:
         Dedicated: 163.965
         Shared: 163.965
@@ -129599,6 +129651,9 @@ u-18tb1.112xlarge:
         Dedicated: 163.965
         Shared: 163.965
     SUSE:
+      eu-west-1:
+        Dedicated: 183.425
+        Shared: 183.425
       us-east-1:
         Dedicated: 163.925
         Shared: 163.925
@@ -129606,6 +129661,9 @@ u-18tb1.112xlarge:
         Dedicated: 163.925
         Shared: 163.925
     Windows:
+      eu-west-1:
+        Dedicated: 183.3
+        Shared: 183.3
       us-east-1:
         Dedicated: 184.408
         Shared: 184.408
@@ -129614,6 +129672,7 @@ u-18tb1.112xlarge:
         Shared: 184.408
   regions:
     - us-west-2
+    - eu-west-1
     - us-east-1
   storage: EBS only
   vcpu: 448
@@ -129626,8 +129685,8 @@ u-18tb1.metal:
   physicalProcessor: Intel Xeon Platinum 8280L (Cascade Lake)
   prices: {}
   regions:
-    - us-west-2
     - eu-west-1
+    - us-west-2
     - us-east-1
   storage: EBS only
   vcpu: 448
@@ -129643,24 +129702,56 @@ u-24tb1.112xlarge:
       ap-northeast-2:
         Dedicated: 263.47
         Shared: 263.47
+      us-east-1:
+        Dedicated: 218.4
+        Shared: 218.4
+      us-gov-west-1:
+        Dedicated: 261.73
+        Shared: 261.73
     RHEL:
       ap-northeast-2:
         Dedicated: 263.6
         Shared: 263.6
+      us-east-1:
+        Dedicated: 218.53
+        Shared: 218.53
+      us-gov-west-1:
+        Dedicated: 261.86
+        Shared: 261.86
     RHEL_HA:
       ap-northeast-2:
         Dedicated: 263.635
         Shared: 263.635
+      us-east-1:
+        Dedicated: 218.565
+        Shared: 218.565
+      us-gov-west-1:
+        Dedicated: 261.895
+        Shared: 261.895
     SUSE:
       ap-northeast-2:
         Dedicated: 263.595
         Shared: 263.595
+      us-east-1:
+        Dedicated: 218.525
+        Shared: 218.525
+      us-gov-west-1:
+        Dedicated: 261.855
+        Shared: 261.855
     Windows:
       ap-northeast-2:
         Dedicated: 263.47
         Shared: 284.078
+      us-east-1:
+        Dedicated: 218.4
+        Shared: 239.008
+      us-gov-west-1:
+        Dedicated: 261.73
+        Shared: 261.73
   regions:
+    - us-east-1
     - ap-northeast-2
+    - us-gov-west-1
   storage: EBS only
   vcpu: 448
 u-24tb1.metal:
@@ -129674,8 +129765,9 @@ u-24tb1.metal:
   regions:
     - ap-northeast-2
     - us-east-1
-    - us-gov-east-1
     - us-gov-west-1
+    - us-west-2
+    - us-gov-east-1
   storage: EBS only
   vcpu: 448
 u-3tb1.56xlarge:
@@ -129716,6 +129808,9 @@ u-3tb1.56xlarge:
       us-east-1:
         Dedicated: 30.03
         Shared: 27.3
+      us-east-2:
+        Dedicated: 30.03
+        Shared: 27.3
       us-west-2:
         Dedicated: 30.03
         Shared: 27.3
@@ -129745,6 +129840,9 @@ u-3tb1.56xlarge:
         Dedicated: 48.035
         Shared: 43.68
       us-east-1:
+        Dedicated: 30.16
+        Shared: 27.43
+      us-east-2:
         Dedicated: 30.16
         Shared: 27.43
       us-west-2:
@@ -129778,6 +129876,9 @@ u-3tb1.56xlarge:
       us-east-1:
         Dedicated: 30.195
         Shared: 27.465
+      us-east-2:
+        Dedicated: 30.195
+        Shared: 27.465
       us-west-2:
         Dedicated: 30.195
         Shared: 27.465
@@ -129807,6 +129908,9 @@ u-3tb1.56xlarge:
         Dedicated: 48.03
         Shared: 43.675
       us-east-1:
+        Dedicated: 30.155
+        Shared: 27.425
+      us-east-2:
         Dedicated: 30.155
         Shared: 27.425
       us-west-2:
@@ -129840,6 +129944,9 @@ u-3tb1.56xlarge:
       us-east-1:
         Dedicated: 40.334
         Shared: 37.604
+      us-east-2:
+        Dedicated: 30.03
+        Shared: 27.3
       us-west-2:
         Dedicated: 40.334
         Shared: 37.604
@@ -129849,6 +129956,7 @@ u-3tb1.56xlarge:
     - ca-central-1
     - ap-northeast-1
     - eu-central-1
+    - us-east-2
     - ap-southeast-2
     - eu-west-1
     - eu-south-1
@@ -129889,6 +129997,9 @@ u-6tb1.112xlarge:
       eu-north-1:
         Dedicated: 58.045
         Shared: 58.045
+      eu-south-1:
+        Dedicated: 64.155
+        Shared: 64.155
       eu-west-1:
         Dedicated: 61.1
         Shared: 61.1
@@ -129938,6 +130049,9 @@ u-6tb1.112xlarge:
       eu-north-1:
         Dedicated: 58.175
         Shared: 58.175
+      eu-south-1:
+        Dedicated: 64.285
+        Shared: 64.285
       eu-west-1:
         Dedicated: 61.23
         Shared: 61.23
@@ -129987,6 +130101,9 @@ u-6tb1.112xlarge:
       eu-north-1:
         Dedicated: 58.21
         Shared: 58.21
+      eu-south-1:
+        Dedicated: 64.32
+        Shared: 64.32
       eu-west-1:
         Dedicated: 61.265
         Shared: 61.265
@@ -130036,6 +130153,9 @@ u-6tb1.112xlarge:
       eu-north-1:
         Dedicated: 58.17
         Shared: 58.17
+      eu-south-1:
+        Dedicated: 64.28
+        Shared: 64.28
       eu-west-1:
         Dedicated: 61.225
         Shared: 61.225
@@ -130085,6 +130205,9 @@ u-6tb1.112xlarge:
       eu-north-1:
         Dedicated: 78.653
         Shared: 58.045
+      eu-south-1:
+        Dedicated: 64.155
+        Shared: 84.763
       eu-west-1:
         Dedicated: 61.1
         Shared: 61.1
@@ -130114,6 +130237,7 @@ u-6tb1.112xlarge:
     - ca-central-1
     - us-gov-west-1
     - us-east-2
+    - eu-south-1
     - us-east-1
     - eu-central-1
     - ap-northeast-1
@@ -130161,6 +130285,9 @@ u-6tb1.56xlarge:
       eu-north-1:
         Dedicated: 49.33177
         Shared: 49.33177
+      eu-south-1:
+        Dedicated: 54.52459
+        Shared: 54.52459
       eu-west-1:
         Dedicated: 51.92818
         Shared: 51.92818
@@ -130210,6 +130337,9 @@ u-6tb1.56xlarge:
       eu-north-1:
         Dedicated: 49.46177
         Shared: 49.46177
+      eu-south-1:
+        Dedicated: 54.65459
+        Shared: 54.65459
       eu-west-1:
         Dedicated: 52.05818
         Shared: 52.05818
@@ -130259,6 +130389,9 @@ u-6tb1.56xlarge:
       eu-north-1:
         Dedicated: 49.49677
         Shared: 49.49677
+      eu-south-1:
+        Dedicated: 54.68959
+        Shared: 54.68959
       eu-west-1:
         Dedicated: 52.09318
         Shared: 52.09318
@@ -130308,6 +130441,9 @@ u-6tb1.56xlarge:
       eu-north-1:
         Dedicated: 49.45677
         Shared: 49.45677
+      eu-south-1:
+        Dedicated: 54.64959
+        Shared: 54.64959
       eu-west-1:
         Dedicated: 52.05318
         Shared: 52.05318
@@ -130357,6 +130493,9 @@ u-6tb1.56xlarge:
       eu-north-1:
         Dedicated: 49.33177
         Shared: 49.33177
+      eu-south-1:
+        Dedicated: 64.82859
+        Shared: 64.82859
       eu-west-1:
         Dedicated: 51.92818
         Shared: 62.23218
@@ -130383,6 +130522,7 @@ u-6tb1.56xlarge:
         Shared: 46.40391
   regions:
     - ap-northeast-1
+    - eu-south-1
     - eu-north-1
     - ap-southeast-1
     - us-gov-east-1
@@ -130418,6 +130558,7 @@ u-6tb1.metal:
     - sa-east-1
     - eu-north-1
     - ap-south-1
+    - eu-south-1
     - us-gov-east-1
     - eu-west-1
     - ap-southeast-1
