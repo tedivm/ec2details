@@ -3467,6 +3467,9 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 2.582
         Shared: 2.424
+      Europe (Spain):
+        Dedicated: 2.442
+        Shared: 2.304
       Europe (Zurich):
         Dedicated: 2.714
         Shared: 2.561
@@ -3549,6 +3552,9 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 2.712
         Shared: 2.554
+      Europe (Spain):
+        Dedicated: 2.572
+        Shared: 2.434
       Europe (Zurich):
         Dedicated: 2.844
         Shared: 2.691
@@ -3631,6 +3637,9 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 2.734
         Shared: 2.589
+      Europe (Spain):
+        Dedicated: 2.607
+        Shared: 2.469
       Europe (Zurich):
         Dedicated: 2.879
         Shared: 2.726
@@ -3713,6 +3722,9 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 2.682
         Shared: 2.524
+      Europe (Spain):
+        Dedicated: 2.567
+        Shared: 2.429
       Europe (Zurich):
         Dedicated: 2.839
         Shared: 2.686
@@ -3795,6 +3807,9 @@ c5.12xlarge:
       eu-west-3:
         Dedicated: 4.79
         Shared: 2.424
+      Europe (Spain):
+        Dedicated: 4.65
+        Shared: 2.304
       Europe (Zurich):
         Dedicated: 2.714
         Shared: 2.561
@@ -3842,6 +3857,7 @@ c5.12xlarge:
     - sa-east-1
     - eu-west-3
     - ap-east-1
+    - Europe (Spain)
     - us-gov-east-1
     - eu-south-1
     - us-west-2
@@ -3918,6 +3934,9 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.636
         Shared: 3.636
+      Europe (Spain):
+        Dedicated: 3.456
+        Shared: 3.456
       Europe (Zurich):
         Dedicated: 3.841
         Shared: 3.841
@@ -4000,6 +4019,9 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.766
         Shared: 3.766
+      Europe (Spain):
+        Dedicated: 3.586
+        Shared: 3.586
       Europe (Zurich):
         Dedicated: 3.971
         Shared: 3.971
@@ -4082,6 +4104,9 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.801
         Shared: 3.801
+      Europe (Spain):
+        Dedicated: 3.621
+        Shared: 3.621
       Europe (Zurich):
         Dedicated: 4.006
         Shared: 4.006
@@ -4164,6 +4189,9 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.736
         Shared: 3.736
+      Europe (Spain):
+        Dedicated: 3.581
+        Shared: 3.581
       Europe (Zurich):
         Dedicated: 3.966
         Shared: 3.966
@@ -4246,6 +4274,9 @@ c5.18xlarge:
       eu-west-3:
         Dedicated: 3.636
         Shared: 6.948
+      Europe (Spain):
+        Dedicated: 6.768
+        Shared: 6.768
       Europe (Zurich):
         Dedicated: 3.841
         Shared: 7.153
@@ -4293,6 +4324,7 @@ c5.18xlarge:
     - us-gov-east-1
     - eu-north-1
     - eu-west-3
+    - Europe (Spain)
     - us-east-2
     - ca-central-1
     - us-west-2-lax-1a
@@ -4369,6 +4401,9 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 5.164
         Shared: 4.848
+      Europe (Spain):
+        Dedicated: 4.608
+        Shared: 4.608
       Europe (Zurich):
         Dedicated: 5.122
         Shared: 5.122
@@ -4451,6 +4486,9 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 5.294
         Shared: 4.978
+      Europe (Spain):
+        Dedicated: 4.738
+        Shared: 4.738
       Europe (Zurich):
         Dedicated: 5.252
         Shared: 5.252
@@ -4533,6 +4571,9 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 5.013
         Shared: 5.013
+      Europe (Spain):
+        Dedicated: 4.773
+        Shared: 4.773
       Europe (Zurich):
         Dedicated: 5.287
         Shared: 5.287
@@ -4615,6 +4656,9 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 4.973
         Shared: 4.948
+      Europe (Spain):
+        Dedicated: 4.733
+        Shared: 4.733
       Europe (Zurich):
         Dedicated: 5.247
         Shared: 5.247
@@ -4697,6 +4741,9 @@ c5.24xlarge:
       eu-west-3:
         Dedicated: 5.164
         Shared: 4.848
+      Europe (Spain):
+        Dedicated: 9.024
+        Shared: 9.024
       Europe (Zurich):
         Dedicated: 9.538
         Shared: 9.538
@@ -4748,6 +4795,7 @@ c5.24xlarge:
     - Asia Pacific (Osaka)
     - us-west-1
     - eu-central-1
+    - Europe (Spain)
     - ap-northeast-1
     - us-west-2
     - af-south-1
@@ -4820,6 +4868,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.43
         Shared: 0.404
+      Europe (Spain):
+        Dedicated: 0.407
+        Shared: 0.384
       Europe (Zurich):
         Dedicated: 0.452
         Shared: 0.427
@@ -4914,6 +4965,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.56
         Shared: 0.534
+      Europe (Spain):
+        Dedicated: 0.537
+        Shared: 0.514
       Europe (Zurich):
         Dedicated: 0.582
         Shared: 0.557
@@ -5008,6 +5062,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.593
         Shared: 0.569
+      Europe (Spain):
+        Dedicated: 0.572
+        Shared: 0.549
       Europe (Zurich):
         Dedicated: 0.617
         Shared: 0.592
@@ -5102,6 +5159,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.53
         Shared: 0.504
+      Europe (Spain):
+        Dedicated: 0.532
+        Shared: 0.509
       Europe (Zurich):
         Dedicated: 0.577
         Shared: 0.552
@@ -5196,6 +5256,9 @@ c5.2xlarge:
       eu-west-3:
         Dedicated: 0.798
         Shared: 0.772
+      Europe (Spain):
+        Dedicated: 0.775
+        Shared: 0.384
       Europe (Zurich):
         Dedicated: 0.452
         Shared: 0.427
@@ -5262,6 +5325,7 @@ c5.2xlarge:
     - ap-southeast-1
     - eu-south-1
     - us-west-2
+    - Europe (Spain)
     - us-west-2-lax-1a
     - af-south-1
     - Poland (Warsaw)
@@ -5335,6 +5399,9 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 0.861
         Shared: 0.808
+      Europe (Spain):
+        Dedicated: 0.814
+        Shared: 0.768
       Europe (Zurich):
         Dedicated: 0.905
         Shared: 0.854
@@ -5417,6 +5484,9 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 0.991
         Shared: 0.938
+      Europe (Spain):
+        Dedicated: 0.944
+        Shared: 0.898
       Europe (Zurich):
         Dedicated: 1.035
         Shared: 0.984
@@ -5499,6 +5569,9 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 1.021
         Shared: 0.973
+      Europe (Spain):
+        Dedicated: 0.979
+        Shared: 0.933
       Europe (Zurich):
         Dedicated: 1.07
         Shared: 1.019
@@ -5581,6 +5654,9 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 0.961
         Shared: 0.908
+      Europe (Spain):
+        Dedicated: 0.939
+        Shared: 0.893
       Europe (Zurich):
         Dedicated: 1.03
         Shared: 0.979
@@ -5663,6 +5739,9 @@ c5.4xlarge:
       eu-west-3:
         Dedicated: 0.861
         Shared: 1.544
+      Europe (Spain):
+        Dedicated: 1.55
+        Shared: 1.504
       Europe (Zurich):
         Dedicated: 1.641
         Shared: 0.854
@@ -5711,6 +5790,7 @@ c5.4xlarge:
     - me-south-1
     - Middle East (UAE)
     - eu-south-1
+    - Europe (Spain)
     - us-gov-west-1
     - ap-east-1
     - ap-southeast-1
@@ -5786,6 +5866,9 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 1.937
         Shared: 1.818
+      Europe (Spain):
+        Dedicated: 1.832
+        Shared: 1.728
       Europe (Zurich):
         Dedicated: 2.036
         Shared: 1.921
@@ -5868,6 +5951,9 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 2.067
         Shared: 1.948
+      Europe (Spain):
+        Dedicated: 1.962
+        Shared: 1.858
       Europe (Zurich):
         Dedicated: 2.166
         Shared: 2.051
@@ -5950,6 +6036,9 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 2.092
         Shared: 1.983
+      Europe (Spain):
+        Dedicated: 1.997
+        Shared: 1.893
       Europe (Zurich):
         Dedicated: 2.201
         Shared: 2.086
@@ -6032,6 +6121,9 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 2.037
         Shared: 1.918
+      Europe (Spain):
+        Dedicated: 1.957
+        Shared: 1.853
       Europe (Zurich):
         Dedicated: 2.161
         Shared: 2.046
@@ -6114,6 +6206,9 @@ c5.9xlarge:
       eu-west-3:
         Dedicated: 3.593
         Shared: 1.818
+      Europe (Spain):
+        Dedicated: 3.488
+        Shared: 3.384
       Europe (Zurich):
         Dedicated: 2.036
         Shared: 3.577
@@ -6166,6 +6261,7 @@ c5.9xlarge:
     - us-east-2
     - Asia Pacific (Osaka)
     - ca-central-1
+    - Europe (Spain)
     - me-south-1
     - ap-southeast-3
     - us-east-1
@@ -6237,6 +6333,9 @@ c5.large:
       eu-west-3:
         Dedicated: 0.108
         Shared: 0.101
+      Europe (Spain):
+        Dedicated: 0.102
+        Shared: 0.096
       Europe (Zurich):
         Dedicated: 0.113
         Shared: 0.107
@@ -6319,6 +6418,9 @@ c5.large:
       eu-west-3:
         Dedicated: 0.168
         Shared: 0.161
+      Europe (Spain):
+        Dedicated: 0.162
+        Shared: 0.156
       Europe (Zurich):
         Dedicated: 0.173
         Shared: 0.167
@@ -6401,6 +6503,9 @@ c5.large:
       eu-west-3:
         Dedicated: 0.202
         Shared: 0.196
+      Europe (Spain):
+        Dedicated: 0.197
+        Shared: 0.191
       Europe (Zurich):
         Dedicated: 0.208
         Shared: 0.202
@@ -6483,6 +6588,9 @@ c5.large:
       eu-west-3:
         Dedicated: 0.163
         Shared: 0.157
+      Europe (Spain):
+        Dedicated: 0.158
+        Shared: 0.152
       Europe (Zurich):
         Dedicated: 0.169
         Shared: 0.163
@@ -6565,6 +6673,9 @@ c5.large:
       eu-west-3:
         Dedicated: 0.108
         Shared: 0.101
+      Europe (Spain):
+        Dedicated: 0.102
+        Shared: 0.188
       Europe (Zurich):
         Dedicated: 0.113
         Shared: 0.107
@@ -6610,6 +6721,7 @@ c5.large:
     - us-gov-east-1
     - us-west-1
     - us-east-1
+    - Europe (Spain)
     - Europe (Zurich)
     - us-east-2
     - me-south-1
@@ -6688,6 +6800,9 @@ c5.metal:
       eu-west-3:
         Dedicated: 4.848
         Shared: 4.848
+      Europe (Spain):
+        Dedicated: 4.608
+        Shared: 4.608
       Europe (Zurich):
         Dedicated: 5.122
         Shared: 5.122
@@ -6770,6 +6885,9 @@ c5.metal:
       eu-west-3:
         Dedicated: 4.978
         Shared: 4.978
+      Europe (Spain):
+        Dedicated: 4.738
+        Shared: 4.738
       Europe (Zurich):
         Dedicated: 5.252
         Shared: 5.252
@@ -6852,6 +6970,9 @@ c5.metal:
       eu-west-3:
         Dedicated: 5.013
         Shared: 5.013
+      Europe (Spain):
+        Dedicated: 4.773
+        Shared: 4.773
       Europe (Zurich):
         Dedicated: 5.287
         Shared: 5.287
@@ -6934,6 +7055,9 @@ c5.metal:
       eu-west-3:
         Dedicated: 4.948
         Shared: 4.948
+      Europe (Spain):
+        Dedicated: 4.733
+        Shared: 4.733
       Europe (Zurich):
         Dedicated: 5.247
         Shared: 5.247
@@ -7016,6 +7140,9 @@ c5.metal:
       eu-west-3:
         Dedicated: 9.264
         Shared: 4.848
+      Europe (Spain):
+        Dedicated: 4.608
+        Shared: 9.024
       Europe (Zurich):
         Dedicated: 5.122
         Shared: 9.538
@@ -7069,6 +7196,7 @@ c5.metal:
     - us-west-1
     - eu-north-1
     - Middle East (UAE)
+    - Europe (Spain)
     - us-gov-west-1
     - ap-east-1
     - ap-south-1
@@ -7139,6 +7267,9 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.215
         Shared: 0.202
+      Europe (Spain):
+        Dedicated: 0.204
+        Shared: 0.192
       Europe (Zurich):
         Dedicated: 0.226
         Shared: 0.213
@@ -7221,6 +7352,9 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.275
         Shared: 0.262
+      Europe (Spain):
+        Dedicated: 0.264
+        Shared: 0.252
       Europe (Zurich):
         Dedicated: 0.286
         Shared: 0.273
@@ -7303,6 +7437,9 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.309
         Shared: 0.297
+      Europe (Spain):
+        Dedicated: 0.299
+        Shared: 0.287
       Europe (Zurich):
         Dedicated: 0.321
         Shared: 0.308
@@ -7385,6 +7522,9 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.27
         Shared: 0.258
+      Europe (Spain):
+        Dedicated: 0.26
+        Shared: 0.248
       Europe (Zurich):
         Dedicated: 0.283
         Shared: 0.27
@@ -7467,6 +7607,9 @@ c5.xlarge:
       eu-west-3:
         Dedicated: 0.399
         Shared: 0.202
+      Europe (Spain):
+        Dedicated: 0.204
+        Shared: 0.192
       Europe (Zurich):
         Dedicated: 0.41
         Shared: 0.397
@@ -7523,6 +7666,7 @@ c5.xlarge:
     - me-south-1
     - us-west-1
     - eu-north-1
+    - Europe (Spain)
     - ap-northeast-1
     - eu-west-1
     - us-gov-east-1
@@ -11896,6 +12040,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 2.941
         Shared: 2.76
+      Europe (Spain):
+        Dedicated: 2.773
+        Shared: 2.616
       Europe (Zurich):
         Dedicated: 3.106
         Shared: 2.93
@@ -11963,6 +12110,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.071
         Shared: 2.89
+      Europe (Spain):
+        Dedicated: 2.903
+        Shared: 2.746
       Europe (Zurich):
         Dedicated: 3.236
         Shared: 3.06
@@ -12030,6 +12180,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.091
         Shared: 2.925
+      Europe (Spain):
+        Dedicated: 2.938
+        Shared: 2.781
       Europe (Zurich):
         Dedicated: 3.271
         Shared: 3.095
@@ -12097,6 +12250,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 3.041
         Shared: 2.86
+      Europe (Spain):
+        Dedicated: 2.898
+        Shared: 2.741
       Europe (Zurich):
         Dedicated: 3.231
         Shared: 3.055
@@ -12164,6 +12320,9 @@ c5d.12xlarge:
       eu-west-2:
         Dedicated: 5.149
         Shared: 4.968
+      Europe (Spain):
+        Dedicated: 2.773
+        Shared: 4.824
       Europe (Zurich):
         Dedicated: 5.314
         Shared: 5.138
@@ -12197,6 +12356,7 @@ c5d.12xlarge:
     - US East (Boston)
     - ap-northeast-1
     - Middle East (UAE)
+    - Europe (Spain)
     - Europe (Zurich)
     - ap-southeast-1
     - af-south-1
@@ -12276,6 +12436,9 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 4.14
         Shared: 4.14
+      Europe (Spain):
+        Dedicated: 3.924
+        Shared: 3.924
       Europe (Zurich):
         Dedicated: 4.396
         Shared: 4.396
@@ -12358,6 +12521,9 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 4.27
         Shared: 4.27
+      Europe (Spain):
+        Dedicated: 4.054
+        Shared: 4.054
       Europe (Zurich):
         Dedicated: 4.526
         Shared: 4.526
@@ -12440,6 +12606,9 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 4.305
         Shared: 4.305
+      Europe (Spain):
+        Dedicated: 4.089
+        Shared: 4.089
       Europe (Zurich):
         Dedicated: 4.561
         Shared: 4.561
@@ -12519,6 +12688,9 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 4.24
         Shared: 4.24
+      Europe (Spain):
+        Dedicated: 4.049
+        Shared: 4.049
       Europe (Zurich):
         Dedicated: 4.521
         Shared: 4.521
@@ -12601,6 +12773,9 @@ c5d.18xlarge:
       eu-west-3:
         Dedicated: 7.452
         Shared: 7.452
+      Europe (Spain):
+        Dedicated: 3.924
+        Shared: 3.924
       Europe (Zurich):
         Dedicated: 4.396
         Shared: 4.396
@@ -12658,6 +12833,7 @@ c5d.18xlarge:
     - ap-southeast-3
     - us-gov-east-1
     - Asia Pacific (Osaka)
+    - Europe (Spain)
     - ap-southeast-1
     - ap-northeast-2
     - eu-central-1
@@ -12718,6 +12894,9 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 5.882
         Shared: 5.52
+      Europe (Spain):
+        Dedicated: 5.546
+        Shared: 5.232
       Europe (Zurich):
         Dedicated: 6.212
         Shared: 5.861
@@ -12785,6 +12964,9 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 6.012
         Shared: 5.65
+      Europe (Spain):
+        Dedicated: 5.676
+        Shared: 5.362
       Europe (Zurich):
         Dedicated: 6.342
         Shared: 5.991
@@ -12852,6 +13034,9 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 6.016
         Shared: 5.685
+      Europe (Spain):
+        Dedicated: 5.711
+        Shared: 5.397
       Europe (Zurich):
         Dedicated: 6.377
         Shared: 6.026
@@ -12919,6 +13104,9 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 5.976
         Shared: 5.62
+      Europe (Spain):
+        Dedicated: 5.671
+        Shared: 5.357
       Europe (Zurich):
         Dedicated: 6.337
         Shared: 5.986
@@ -12986,6 +13174,9 @@ c5d.24xlarge:
       eu-west-2:
         Dedicated: 10.298
         Shared: 9.936
+      Europe (Spain):
+        Dedicated: 9.962
+        Shared: 5.232
       Europe (Zurich):
         Dedicated: 6.212
         Shared: 5.861
@@ -13019,6 +13210,7 @@ c5d.24xlarge:
     - ap-south-1
     - ca-central-1
     - Asia Pacific (Osaka)
+    - Europe (Spain)
     - ap-northeast-1
     - eu-north-1
     - ap-southeast-2
@@ -13096,6 +13288,9 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.49
         Shared: 0.46
+      Europe (Spain):
+        Dedicated: 0.462
+        Shared: 0.436
       Europe (Zurich):
         Dedicated: 0.518
         Shared: 0.488
@@ -13220,6 +13415,9 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.62
         Shared: 0.59
+      Europe (Spain):
+        Dedicated: 0.592
+        Shared: 0.566
       Europe (Zurich):
         Dedicated: 0.648
         Shared: 0.618
@@ -13344,6 +13542,9 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.653
         Shared: 0.625
+      Europe (Spain):
+        Dedicated: 0.627
+        Shared: 0.601
       Europe (Zurich):
         Dedicated: 0.683
         Shared: 0.653
@@ -13468,6 +13669,9 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.59
         Shared: 0.56
+      Europe (Spain):
+        Dedicated: 0.587
+        Shared: 0.561
       Europe (Zurich):
         Dedicated: 0.643
         Shared: 0.613
@@ -13592,6 +13796,9 @@ c5d.2xlarge:
       eu-west-3:
         Dedicated: 0.858
         Shared: 0.828
+      Europe (Spain):
+        Dedicated: 0.83
+        Shared: 0.804
       Europe (Zurich):
         Dedicated: 0.886
         Shared: 0.856
@@ -13709,6 +13916,7 @@ c5d.2xlarge:
     - eu-north-1
     - US West (Seattle)
     - us-west-1
+    - Europe (Spain)
   storage: 1 x 200 NVMe SSD
   vcpu: 8
 c5d.4xlarge:
@@ -13771,6 +13979,9 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 0.98
         Shared: 0.92
+      Europe (Spain):
+        Dedicated: 0.924
+        Shared: 0.872
       Europe (Zurich):
         Dedicated: 1.035
         Shared: 0.977
@@ -13853,6 +14064,9 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 1.11
         Shared: 1.05
+      Europe (Spain):
+        Dedicated: 1.054
+        Shared: 1.002
       Europe (Zurich):
         Dedicated: 1.165
         Shared: 1.107
@@ -13935,6 +14149,9 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 1.14
         Shared: 1.085
+      Europe (Spain):
+        Dedicated: 1.089
+        Shared: 1.037
       Europe (Zurich):
         Dedicated: 1.2
         Shared: 1.142
@@ -14014,6 +14231,9 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 1.08
         Shared: 1.02
+      Europe (Spain):
+        Dedicated: 1.049
+        Shared: 0.997
       Europe (Zurich):
         Dedicated: 1.16
         Shared: 1.102
@@ -14096,6 +14316,9 @@ c5d.4xlarge:
       eu-west-3:
         Dedicated: 1.716
         Shared: 1.656
+      Europe (Spain):
+        Dedicated: 0.924
+        Shared: 0.872
       Europe (Zurich):
         Dedicated: 1.035
         Shared: 0.977
@@ -14143,6 +14366,7 @@ c5d.4xlarge:
     - us-west-1
     - ap-northeast-2
     - us-east-2
+    - Europe (Spain)
     - us-east-1
     - us-west-2
     - ap-northeast-1
@@ -14219,6 +14443,9 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 2.205
         Shared: 2.07
+      Europe (Spain):
+        Dedicated: 2.08
+        Shared: 1.962
       Europe (Zurich):
         Dedicated: 2.33
         Shared: 2.198
@@ -14301,6 +14528,9 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 2.335
         Shared: 2.2
+      Europe (Spain):
+        Dedicated: 2.21
+        Shared: 2.092
       Europe (Zurich):
         Dedicated: 2.46
         Shared: 2.328
@@ -14383,6 +14613,9 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 2.359
         Shared: 2.235
+      Europe (Spain):
+        Dedicated: 2.245
+        Shared: 2.127
       Europe (Zurich):
         Dedicated: 2.495
         Shared: 2.363
@@ -14462,6 +14695,9 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 2.305
         Shared: 2.17
+      Europe (Spain):
+        Dedicated: 2.205
+        Shared: 2.087
       Europe (Zurich):
         Dedicated: 2.455
         Shared: 2.323
@@ -14544,6 +14780,9 @@ c5d.9xlarge:
       eu-west-3:
         Dedicated: 3.861
         Shared: 3.726
+      Europe (Spain):
+        Dedicated: 3.736
+        Shared: 3.618
       Europe (Zurich):
         Dedicated: 2.33
         Shared: 3.854
@@ -14602,6 +14841,7 @@ c5d.9xlarge:
     - ap-northeast-1
     - eu-north-1
     - sa-east-1
+    - Europe (Spain)
     - eu-west-2
     - us-gov-west-1
     - us-west-2
@@ -14667,6 +14907,9 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.123
         Shared: 0.115
+      Europe (Spain):
+        Dedicated: 0.116
+        Shared: 0.109
       Europe (Zurich):
         Dedicated: 0.129
         Shared: 0.122
@@ -14749,6 +14992,9 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.183
         Shared: 0.175
+      Europe (Spain):
+        Dedicated: 0.176
+        Shared: 0.169
       Europe (Zurich):
         Dedicated: 0.189
         Shared: 0.182
@@ -14831,6 +15077,9 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.217
         Shared: 0.21
+      Europe (Spain):
+        Dedicated: 0.211
+        Shared: 0.204
       Europe (Zurich):
         Dedicated: 0.224
         Shared: 0.217
@@ -14910,6 +15159,9 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.178
         Shared: 0.171
+      Europe (Spain):
+        Dedicated: 0.172
+        Shared: 0.165
       Europe (Zurich):
         Dedicated: 0.186
         Shared: 0.178
@@ -14992,6 +15244,9 @@ c5d.large:
       eu-west-3:
         Dedicated: 0.215
         Shared: 0.207
+      Europe (Spain):
+        Dedicated: 0.116
+        Shared: 0.201
       Europe (Zurich):
         Dedicated: 0.129
         Shared: 0.122
@@ -15045,6 +15300,7 @@ c5d.large:
     - us-west-1
     - af-south-1
     - eu-west-3
+    - Europe (Spain)
     - ap-northeast-2
     - me-south-1
     - ca-central-1
@@ -15109,6 +15365,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.52
         Shared: 5.52
+      Europe (Spain):
+        Dedicated: 5.232
+        Shared: 5.232
       Europe (Zurich):
         Dedicated: 5.861
         Shared: 5.861
@@ -15179,6 +15438,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.65
         Shared: 5.65
+      Europe (Spain):
+        Dedicated: 5.362
+        Shared: 5.362
       Europe (Zurich):
         Dedicated: 5.991
         Shared: 5.991
@@ -15249,6 +15511,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.685
         Shared: 5.685
+      Europe (Spain):
+        Dedicated: 5.397
+        Shared: 5.397
       Europe (Zurich):
         Dedicated: 6.026
         Shared: 6.026
@@ -15316,6 +15581,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 5.62
         Shared: 5.62
+      Europe (Spain):
+        Dedicated: 5.357
+        Shared: 5.357
       Europe (Zurich):
         Dedicated: 5.986
         Shared: 5.986
@@ -15386,6 +15654,9 @@ c5d.metal:
       eu-west-2:
         Dedicated: 9.936
         Shared: 9.936
+      Europe (Spain):
+        Dedicated: 5.232
+        Shared: 9.648
       Europe (Zurich):
         Dedicated: 10.277
         Shared: 5.861
@@ -15427,6 +15698,7 @@ c5d.metal:
     - ap-southeast-2
     - Asia Pacific (Osaka)
     - ap-southeast-3
+    - Europe (Spain)
     - ap-south-1
     - eu-west-1
     - af-south-1
@@ -15499,6 +15771,9 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.245
         Shared: 0.23
+      Europe (Spain):
+        Dedicated: 0.231
+        Shared: 0.218
       Europe (Zurich):
         Dedicated: 0.259
         Shared: 0.244
@@ -15581,6 +15856,9 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.305
         Shared: 0.29
+      Europe (Spain):
+        Dedicated: 0.291
+        Shared: 0.278
       Europe (Zurich):
         Dedicated: 0.319
         Shared: 0.304
@@ -15663,6 +15941,9 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.339
         Shared: 0.325
+      Europe (Spain):
+        Dedicated: 0.326
+        Shared: 0.313
       Europe (Zurich):
         Dedicated: 0.354
         Shared: 0.339
@@ -15742,6 +16023,9 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.3
         Shared: 0.286
+      Europe (Spain):
+        Dedicated: 0.287
+        Shared: 0.274
       Europe (Zurich):
         Dedicated: 0.315
         Shared: 0.301
@@ -15824,6 +16108,9 @@ c5d.xlarge:
       eu-west-3:
         Dedicated: 0.429
         Shared: 0.414
+      Europe (Spain):
+        Dedicated: 0.231
+        Shared: 0.402
       Europe (Zurich):
         Dedicated: 0.443
         Shared: 0.428
@@ -15867,6 +16154,7 @@ c5d.xlarge:
     - ap-northeast-2
     - ap-southeast-2
     - ap-southeast-1
+    - Europe (Spain)
     - us-gov-west-1
     - eu-central-1
     - sa-east-1
@@ -19793,6 +20081,9 @@ c6g.12xlarge:
       eu-west-3:
         Dedicated: 2.0592
         Shared: 1.944
+      Europe (Spain):
+        Dedicated: 1.8614
+        Shared: 1.751
       me-south-1:
         Dedicated: 2.1624
         Shared: 2.04
@@ -19866,6 +20157,9 @@ c6g.12xlarge:
       eu-west-3:
         Dedicated: 2.1892
         Shared: 2.074
+      Europe (Spain):
+        Dedicated: 1.9914
+        Shared: 1.881
       me-south-1:
         Dedicated: 2.2924
         Shared: 2.17
@@ -19939,6 +20233,9 @@ c6g.12xlarge:
       eu-west-3:
         Dedicated: 2.2242
         Shared: 2.109
+      Europe (Spain):
+        Dedicated: 2.0264
+        Shared: 1.916
       me-south-1:
         Dedicated: 2.3274
         Shared: 2.205
@@ -20012,6 +20309,9 @@ c6g.12xlarge:
       eu-west-3:
         Dedicated: 2.1842
         Shared: 2.069
+      Europe (Spain):
+        Dedicated: 1.9864
+        Shared: 1.876
       me-south-1:
         Dedicated: 2.2874
         Shared: 2.165
@@ -20056,6 +20356,7 @@ c6g.12xlarge:
     - eu-central-1
     - us-east-2
     - us-west-2
+    - Europe (Spain)
     - me-south-1
     - eu-north-1
     - us-east-1
@@ -20122,6 +20423,9 @@ c6g.16xlarge:
       eu-west-3:
         Dedicated: 2.7456
         Shared: 2.592
+      Europe (Spain):
+        Dedicated: 2.3347
+        Shared: 2.3347
       me-south-1:
         Dedicated: 2.72
         Shared: 2.72
@@ -20195,6 +20499,9 @@ c6g.16xlarge:
       eu-west-3:
         Dedicated: 2.8756
         Shared: 2.722
+      Europe (Spain):
+        Dedicated: 2.4647
+        Shared: 2.4647
       me-south-1:
         Dedicated: 2.85
         Shared: 2.85
@@ -20268,6 +20575,9 @@ c6g.16xlarge:
       eu-west-3:
         Dedicated: 2.9106
         Shared: 2.757
+      Europe (Spain):
+        Dedicated: 2.4997
+        Shared: 2.4997
       me-south-1:
         Dedicated: 2.885
         Shared: 2.885
@@ -20341,6 +20651,9 @@ c6g.16xlarge:
       eu-west-3:
         Dedicated: 2.717
         Shared: 2.717
+      Europe (Spain):
+        Dedicated: 2.4597
+        Shared: 2.4597
       me-south-1:
         Dedicated: 2.845
         Shared: 2.845
@@ -20385,6 +20698,7 @@ c6g.16xlarge:
     - sa-east-1
     - eu-north-1
     - ca-central-1
+    - Europe (Spain)
     - ap-southeast-3
     - me-south-1
     - ap-southeast-1
@@ -20451,6 +20765,9 @@ c6g.2xlarge:
       eu-west-3:
         Dedicated: 0.3432
         Shared: 0.324
+      Europe (Spain):
+        Dedicated: 0.3102
+        Shared: 0.2918
       me-south-1:
         Dedicated: 0.3604
         Shared: 0.34
@@ -20524,6 +20841,9 @@ c6g.2xlarge:
       eu-west-3:
         Dedicated: 0.4732
         Shared: 0.454
+      Europe (Spain):
+        Dedicated: 0.4402
+        Shared: 0.4218
       me-south-1:
         Dedicated: 0.4904
         Shared: 0.47
@@ -20597,6 +20917,9 @@ c6g.2xlarge:
       eu-west-3:
         Dedicated: 0.5082
         Shared: 0.489
+      Europe (Spain):
+        Dedicated: 0.4752
+        Shared: 0.4568
       me-south-1:
         Dedicated: 0.5254
         Shared: 0.505
@@ -20670,6 +20993,9 @@ c6g.2xlarge:
       eu-west-3:
         Dedicated: 0.4682
         Shared: 0.449
+      Europe (Spain):
+        Dedicated: 0.4352
+        Shared: 0.4168
       me-south-1:
         Dedicated: 0.4854
         Shared: 0.465
@@ -20710,6 +21036,7 @@ c6g.2xlarge:
     - eu-south-1
     - ap-northeast-1
     - us-east-1
+    - Europe (Spain)
     - eu-west-1
     - ap-southeast-1
     - us-west-1
@@ -20780,6 +21107,9 @@ c6g.4xlarge:
       eu-west-3:
         Dedicated: 0.6864
         Shared: 0.648
+      Europe (Spain):
+        Dedicated: 0.6205
+        Shared: 0.5837
       me-south-1:
         Dedicated: 0.7208
         Shared: 0.68
@@ -20853,6 +21183,9 @@ c6g.4xlarge:
       eu-west-3:
         Dedicated: 0.8164
         Shared: 0.778
+      Europe (Spain):
+        Dedicated: 0.7505
+        Shared: 0.7137
       me-south-1:
         Dedicated: 0.8508
         Shared: 0.81
@@ -20926,6 +21259,9 @@ c6g.4xlarge:
       eu-west-3:
         Dedicated: 0.8514
         Shared: 0.813
+      Europe (Spain):
+        Dedicated: 0.7855
+        Shared: 0.7487
       me-south-1:
         Dedicated: 0.8858
         Shared: 0.845
@@ -20999,6 +21335,9 @@ c6g.4xlarge:
       eu-west-3:
         Dedicated: 0.8114
         Shared: 0.773
+      Europe (Spain):
+        Dedicated: 0.7455
+        Shared: 0.7087
       me-south-1:
         Dedicated: 0.8458
         Shared: 0.805
@@ -21043,6 +21382,7 @@ c6g.4xlarge:
     - Middle East (UAE)
     - ap-southeast-2
     - sa-east-1
+    - Europe (Spain)
     - eu-south-1
     - eu-west-1
     - ap-southeast-1
@@ -21109,6 +21449,9 @@ c6g.8xlarge:
       eu-west-3:
         Dedicated: 1.3728
         Shared: 1.296
+      Europe (Spain):
+        Dedicated: 1.241
+        Shared: 1.1674
       me-south-1:
         Dedicated: 1.4416
         Shared: 1.36
@@ -21182,6 +21525,9 @@ c6g.8xlarge:
       eu-west-3:
         Dedicated: 1.5028
         Shared: 1.426
+      Europe (Spain):
+        Dedicated: 1.371
+        Shared: 1.2974
       me-south-1:
         Dedicated: 1.5716
         Shared: 1.49
@@ -21255,6 +21601,9 @@ c6g.8xlarge:
       eu-west-3:
         Dedicated: 1.5378
         Shared: 1.461
+      Europe (Spain):
+        Dedicated: 1.406
+        Shared: 1.3324
       me-south-1:
         Dedicated: 1.6066
         Shared: 1.525
@@ -21328,6 +21677,9 @@ c6g.8xlarge:
       eu-west-3:
         Dedicated: 1.4978
         Shared: 1.421
+      Europe (Spain):
+        Dedicated: 1.366
+        Shared: 1.2924
       me-south-1:
         Dedicated: 1.5666
         Shared: 1.485
@@ -21375,6 +21727,7 @@ c6g.8xlarge:
     - ap-east-1
     - ap-southeast-2
     - eu-north-1
+    - Europe (Spain)
     - Asia Pacific (Osaka)
     - eu-west-2
     - us-west-1
@@ -21438,6 +21791,9 @@ c6g.large:
       eu-west-3:
         Dedicated: 0.0858
         Shared: 0.081
+      Europe (Spain):
+        Dedicated: 0.0776
+        Shared: 0.073
       me-south-1:
         Dedicated: 0.0901
         Shared: 0.085
@@ -21511,6 +21867,9 @@ c6g.large:
       eu-west-3:
         Dedicated: 0.1458
         Shared: 0.141
+      Europe (Spain):
+        Dedicated: 0.1376
+        Shared: 0.133
       me-south-1:
         Dedicated: 0.1501
         Shared: 0.145
@@ -21584,6 +21943,9 @@ c6g.large:
       eu-west-3:
         Dedicated: 0.1808
         Shared: 0.176
+      Europe (Spain):
+        Dedicated: 0.1726
+        Shared: 0.168
       me-south-1:
         Dedicated: 0.1851
         Shared: 0.18
@@ -21657,6 +22019,9 @@ c6g.large:
       eu-west-3:
         Dedicated: 0.1421
         Shared: 0.1373
+      Europe (Spain):
+        Dedicated: 0.1339
+        Shared: 0.1293
       me-south-1:
         Dedicated: 0.1464
         Shared: 0.1413
@@ -21685,6 +22050,7 @@ c6g.large:
         Dedicated: 0.1284
         Shared: 0.1243
   regions:
+    - Europe (Spain)
     - ap-southeast-3
     - eu-west-1
     - us-east-2
@@ -21767,6 +22133,9 @@ c6g.medium:
       eu-west-3:
         Dedicated: 0.0429
         Shared: 0.0405
+      Europe (Spain):
+        Dedicated: 0.0388
+        Shared: 0.0365
       me-south-1:
         Dedicated: 0.0451
         Shared: 0.0425
@@ -21840,6 +22209,9 @@ c6g.medium:
       eu-west-3:
         Dedicated: 0.1029
         Shared: 0.1005
+      Europe (Spain):
+        Dedicated: 0.0988
+        Shared: 0.0965
       me-south-1:
         Dedicated: 0.1051
         Shared: 0.1025
@@ -21913,6 +22285,9 @@ c6g.medium:
       eu-west-3:
         Dedicated: 0.1379
         Shared: 0.1355
+      Europe (Spain):
+        Dedicated: 0.1338
+        Shared: 0.1315
       me-south-1:
         Dedicated: 0.1401
         Shared: 0.1375
@@ -21986,6 +22361,9 @@ c6g.medium:
       eu-west-3:
         Dedicated: 0.0739
         Shared: 0.0715
+      Europe (Spain):
+        Dedicated: 0.0951
+        Shared: 0.0928
       me-south-1:
         Dedicated: 0.0761
         Shared: 0.0735
@@ -22016,6 +22394,7 @@ c6g.medium:
   regions:
     - us-east-1
     - sa-east-1
+    - Europe (Spain)
     - ap-south-1
     - eu-west-2
     - ca-central-1
@@ -22096,6 +22475,9 @@ c6g.metal:
       eu-west-3:
         Dedicated: 2.7456
         Shared: 2.592
+      Europe (Spain):
+        Dedicated: 2.3347
+        Shared: 2.3347
       me-south-1:
         Dedicated: 2.72
         Shared: 2.72
@@ -22169,6 +22551,9 @@ c6g.metal:
       eu-west-3:
         Dedicated: 2.8756
         Shared: 2.722
+      Europe (Spain):
+        Dedicated: 2.4647
+        Shared: 2.4647
       me-south-1:
         Dedicated: 2.85
         Shared: 2.85
@@ -22242,6 +22627,9 @@ c6g.metal:
       eu-west-3:
         Dedicated: 2.9106
         Shared: 2.757
+      Europe (Spain):
+        Dedicated: 2.4997
+        Shared: 2.4997
       me-south-1:
         Dedicated: 2.885
         Shared: 2.885
@@ -22315,6 +22703,9 @@ c6g.metal:
       eu-west-3:
         Dedicated: 2.717
         Shared: 2.717
+      Europe (Spain):
+        Dedicated: 2.4597
+        Shared: 2.4597
       me-south-1:
         Dedicated: 2.845
         Shared: 2.845
@@ -22362,6 +22753,7 @@ c6g.metal:
     - eu-central-1
     - ap-northeast-1
     - Asia Pacific (Osaka)
+    - Europe (Spain)
     - eu-west-3
     - eu-west-1
     - ca-central-1
@@ -22425,6 +22817,9 @@ c6g.xlarge:
       eu-west-3:
         Dedicated: 0.1716
         Shared: 0.162
+      Europe (Spain):
+        Dedicated: 0.1551
+        Shared: 0.1459
       me-south-1:
         Dedicated: 0.1802
         Shared: 0.17
@@ -22498,6 +22893,9 @@ c6g.xlarge:
       eu-west-3:
         Dedicated: 0.2316
         Shared: 0.222
+      Europe (Spain):
+        Dedicated: 0.2151
+        Shared: 0.2059
       me-south-1:
         Dedicated: 0.2402
         Shared: 0.23
@@ -22571,6 +22969,9 @@ c6g.xlarge:
       eu-west-3:
         Dedicated: 0.2666
         Shared: 0.257
+      Europe (Spain):
+        Dedicated: 0.2501
+        Shared: 0.2409
       me-south-1:
         Dedicated: 0.2752
         Shared: 0.265
@@ -22644,6 +23045,9 @@ c6g.xlarge:
       eu-west-3:
         Dedicated: 0.2279
         Shared: 0.2183
+      Europe (Spain):
+        Dedicated: 0.2114
+        Shared: 0.2022
       me-south-1:
         Dedicated: 0.2365
         Shared: 0.2263
@@ -22679,6 +23083,7 @@ c6g.xlarge:
     - ap-northeast-1
     - eu-west-3
     - ap-east-1
+    - Europe (Spain)
     - eu-west-2
     - sa-east-1
     - Asia Pacific (Osaka)
@@ -44470,6 +44875,9 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 5.792
         Shared: 5.792
+      Europe (Spain):
+        Dedicated: 5.504
+        Shared: 5.504
       Europe (Zurich):
         Dedicated: 6.547
         Shared: 6.547
@@ -44549,6 +44957,9 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 5.922
         Shared: 5.922
+      Europe (Spain):
+        Dedicated: 5.634
+        Shared: 5.634
       Europe (Zurich):
         Dedicated: 6.677
         Shared: 6.677
@@ -44628,6 +45039,9 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 5.957
         Shared: 5.957
+      Europe (Spain):
+        Dedicated: 5.669
+        Shared: 5.669
       Europe (Zurich):
         Dedicated: 6.712
         Shared: 6.712
@@ -44707,6 +45121,9 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 5.892
         Shared: 5.892
+      Europe (Spain):
+        Dedicated: 5.604
+        Shared: 5.604
       Europe (Zurich):
         Dedicated: 6.647
         Shared: 6.647
@@ -44786,6 +45203,9 @@ i3.16xlarge:
       eu-west-3:
         Dedicated: 8.736
         Shared: 5.792
+      Europe (Spain):
+        Dedicated: 5.504
+        Shared: 5.504
       Europe (Zurich):
         Dedicated: 9.491
         Shared: 9.491
@@ -44831,6 +45251,7 @@ i3.16xlarge:
     - ca-central-1
     - eu-south-1
     - ap-south-1
+    - Europe (Spain)
     - Europe (Zurich)
     - ap-southeast-1
     - Middle East (UAE)
@@ -44905,6 +45326,9 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.796
         Shared: 0.724
+      Europe (Spain):
+        Dedicated: 0.757
+        Shared: 0.688
       Europe (Zurich):
         Dedicated: 0.9
         Shared: 0.818
@@ -44984,6 +45408,9 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.926
         Shared: 0.854
+      Europe (Spain):
+        Dedicated: 0.887
+        Shared: 0.818
       Europe (Zurich):
         Dedicated: 1.03
         Shared: 0.948
@@ -45063,6 +45490,9 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.961
         Shared: 0.889
+      Europe (Spain):
+        Dedicated: 0.922
+        Shared: 0.853
       Europe (Zurich):
         Dedicated: 1.065
         Shared: 0.983
@@ -45142,6 +45572,9 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.896
         Shared: 0.824
+      Europe (Spain):
+        Dedicated: 0.857
+        Shared: 0.788
       Europe (Zurich):
         Dedicated: 1
         Shared: 0.918
@@ -45221,6 +45654,9 @@ i3.2xlarge:
       eu-west-3:
         Dedicated: 0.796
         Shared: 0.724
+      Europe (Spain):
+        Dedicated: 0.757
+        Shared: 1.056
       Europe (Zurich):
         Dedicated: 1.268
         Shared: 1.186
@@ -45269,6 +45705,7 @@ i3.2xlarge:
     - eu-west-2
     - eu-west-1
     - ap-southeast-3
+    - Europe (Spain)
     - ap-southeast-2
     - eu-south-1
     - eu-west-3
@@ -45340,6 +45777,9 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 1.593
         Shared: 1.448
+      Europe (Spain):
+        Dedicated: 1.514
+        Shared: 1.376
       Europe (Zurich):
         Dedicated: 1.8
         Shared: 1.637
@@ -45419,6 +45859,9 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 1.723
         Shared: 1.578
+      Europe (Spain):
+        Dedicated: 1.644
+        Shared: 1.506
       Europe (Zurich):
         Dedicated: 1.93
         Shared: 1.767
@@ -45498,6 +45941,9 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 1.758
         Shared: 1.613
+      Europe (Spain):
+        Dedicated: 1.679
+        Shared: 1.541
       Europe (Zurich):
         Dedicated: 1.965
         Shared: 1.802
@@ -45577,6 +46023,9 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 1.693
         Shared: 1.548
+      Europe (Spain):
+        Dedicated: 1.614
+        Shared: 1.476
       Europe (Zurich):
         Dedicated: 1.9
         Shared: 1.737
@@ -45656,6 +46105,9 @@ i3.4xlarge:
       eu-west-3:
         Dedicated: 2.329
         Shared: 2.184
+      Europe (Spain):
+        Dedicated: 2.25
+        Shared: 2.112
       Europe (Zurich):
         Dedicated: 2.536
         Shared: 2.373
@@ -45695,6 +46147,7 @@ i3.4xlarge:
     - ap-southeast-2
     - eu-south-1
     - me-south-1
+    - Europe (Spain)
     - eu-west-1
     - us-west-2
     - ap-east-1
@@ -45775,6 +46228,9 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.186
         Shared: 2.896
+      Europe (Spain):
+        Dedicated: 3.027
+        Shared: 2.752
       Europe (Zurich):
         Dedicated: 3.601
         Shared: 3.274
@@ -45854,6 +46310,9 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.316
         Shared: 3.026
+      Europe (Spain):
+        Dedicated: 3.157
+        Shared: 2.882
       Europe (Zurich):
         Dedicated: 3.731
         Shared: 3.404
@@ -45933,6 +46392,9 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.351
         Shared: 3.061
+      Europe (Spain):
+        Dedicated: 3.192
+        Shared: 2.917
       Europe (Zurich):
         Dedicated: 3.766
         Shared: 3.439
@@ -46012,6 +46474,9 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.286
         Shared: 2.996
+      Europe (Spain):
+        Dedicated: 3.127
+        Shared: 2.852
       Europe (Zurich):
         Dedicated: 3.701
         Shared: 3.374
@@ -46091,6 +46556,9 @@ i3.8xlarge:
       eu-west-3:
         Dedicated: 3.186
         Shared: 2.896
+      Europe (Spain):
+        Dedicated: 3.027
+        Shared: 2.752
       Europe (Zurich):
         Dedicated: 3.601
         Shared: 3.274
@@ -46140,6 +46608,7 @@ i3.8xlarge:
     - eu-west-1
     - us-east-2
     - ap-southeast-2
+    - Europe (Spain)
     - us-gov-west-1
     - ap-northeast-1
     - ap-northeast-2
@@ -46210,6 +46679,9 @@ i3.large:
       eu-west-3:
         Dedicated: 0.199
         Shared: 0.181
+      Europe (Spain):
+        Dedicated: 0.189
+        Shared: 0.172
       Europe (Zurich):
         Dedicated: 0.225
         Shared: 0.205
@@ -46289,6 +46761,9 @@ i3.large:
       eu-west-3:
         Dedicated: 0.259
         Shared: 0.241
+      Europe (Spain):
+        Dedicated: 0.249
+        Shared: 0.232
       Europe (Zurich):
         Dedicated: 0.285
         Shared: 0.265
@@ -46368,6 +46843,9 @@ i3.large:
       eu-west-3:
         Dedicated: 0.294
         Shared: 0.276
+      Europe (Spain):
+        Dedicated: 0.284
+        Shared: 0.267
       Europe (Zurich):
         Dedicated: 0.32
         Shared: 0.3
@@ -46447,6 +46925,9 @@ i3.large:
       eu-west-3:
         Dedicated: 0.299
         Shared: 0.281
+      Europe (Spain):
+        Dedicated: 0.289
+        Shared: 0.272
       Europe (Zurich):
         Dedicated: 0.325
         Shared: 0.305
@@ -46526,6 +47007,9 @@ i3.large:
       eu-west-3:
         Dedicated: 0.291
         Shared: 0.273
+      Europe (Spain):
+        Dedicated: 0.189
+        Shared: 0.264
       Europe (Zurich):
         Dedicated: 0.317
         Shared: 0.205
@@ -46561,6 +47045,7 @@ i3.large:
     - us-east-2
     - eu-south-1
     - us-west-1
+    - Europe (Spain)
     - us-west-2
     - us-gov-east-1
     - us-east-1
@@ -47001,6 +47486,9 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.398
         Shared: 0.362
+      Europe (Spain):
+        Dedicated: 0.378
+        Shared: 0.344
       Europe (Zurich):
         Dedicated: 0.45
         Shared: 0.409
@@ -47080,6 +47568,9 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.458
         Shared: 0.422
+      Europe (Spain):
+        Dedicated: 0.438
+        Shared: 0.404
       Europe (Zurich):
         Dedicated: 0.51
         Shared: 0.469
@@ -47159,6 +47650,9 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.493
         Shared: 0.457
+      Europe (Spain):
+        Dedicated: 0.473
+        Shared: 0.439
       Europe (Zurich):
         Dedicated: 0.545
         Shared: 0.504
@@ -47238,6 +47732,9 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.498
         Shared: 0.462
+      Europe (Spain):
+        Dedicated: 0.478
+        Shared: 0.444
       Europe (Zurich):
         Dedicated: 0.55
         Shared: 0.509
@@ -47317,6 +47814,9 @@ i3.xlarge:
       eu-west-3:
         Dedicated: 0.582
         Shared: 0.546
+      Europe (Spain):
+        Dedicated: 0.562
+        Shared: 0.344
       Europe (Zurich):
         Dedicated: 0.45
         Shared: 0.409
@@ -47369,6 +47869,7 @@ i3.xlarge:
     - us-west-2
     - us-east-1
     - us-gov-east-1
+    - Europe (Spain)
     - eu-central-1
     - me-south-1
     - ca-central-1
@@ -47436,6 +47937,9 @@ i3en.12xlarge:
       eu-west-3:
         Dedicated: 6.723
         Shared: 6.312
+      Europe (Spain):
+        Dedicated: 6.39
+        Shared: 6
       Europe (Zurich):
         Dedicated: 7.591
         Shared: 7.128
@@ -47518,6 +48022,9 @@ i3en.12xlarge:
       eu-west-3:
         Dedicated: 6.853
         Shared: 6.442
+      Europe (Spain):
+        Dedicated: 6.52
+        Shared: 6.13
       Europe (Zurich):
         Dedicated: 7.721
         Shared: 7.258
@@ -47600,6 +48107,9 @@ i3en.12xlarge:
       eu-west-3:
         Dedicated: 6.888
         Shared: 6.477
+      Europe (Spain):
+        Dedicated: 6.555
+        Shared: 6.165
       Europe (Zurich):
         Dedicated: 7.756
         Shared: 7.293
@@ -47682,6 +48192,9 @@ i3en.12xlarge:
       eu-west-3:
         Dedicated: 6.848
         Shared: 6.437
+      Europe (Spain):
+        Dedicated: 6.515
+        Shared: 6.125
       Europe (Zurich):
         Dedicated: 7.716
         Shared: 7.253
@@ -47764,6 +48277,9 @@ i3en.12xlarge:
       eu-west-3:
         Dedicated: 8.931
         Shared: 8.52
+      Europe (Spain):
+        Dedicated: 8.598
+        Shared: 6
       Europe (Zurich):
         Dedicated: 9.799
         Shared: 9.336
@@ -47814,6 +48330,7 @@ i3en.12xlarge:
     - ap-south-1
     - ap-east-1
     - eu-west-2
+    - Europe (Spain)
     - eu-north-1
     - eu-central-1
     - us-west-1
@@ -47887,6 +48404,9 @@ i3en.24xlarge:
       eu-west-3:
         Dedicated: 12.624
         Shared: 12.624
+      Europe (Spain):
+        Dedicated: 12
+        Shared: 12
       Europe (Zurich):
         Dedicated: 14.256
         Shared: 14.256
@@ -47969,6 +48489,9 @@ i3en.24xlarge:
       eu-west-3:
         Dedicated: 12.754
         Shared: 12.754
+      Europe (Spain):
+        Dedicated: 12.13
+        Shared: 12.13
       Europe (Zurich):
         Dedicated: 14.386
         Shared: 14.386
@@ -48051,6 +48574,9 @@ i3en.24xlarge:
       eu-west-3:
         Dedicated: 12.789
         Shared: 12.789
+      Europe (Spain):
+        Dedicated: 12.165
+        Shared: 12.165
       Europe (Zurich):
         Dedicated: 14.421
         Shared: 14.421
@@ -48133,6 +48659,9 @@ i3en.24xlarge:
       eu-west-3:
         Dedicated: 12.749
         Shared: 12.749
+      Europe (Spain):
+        Dedicated: 12.125
+        Shared: 12.125
       Europe (Zurich):
         Dedicated: 14.381
         Shared: 14.381
@@ -48215,6 +48744,9 @@ i3en.24xlarge:
       eu-west-3:
         Dedicated: 17.04
         Shared: 17.04
+      Europe (Spain):
+        Dedicated: 16.416
+        Shared: 16.416
       Europe (Zurich):
         Dedicated: 18.672
         Shared: 14.256
@@ -48253,6 +48785,7 @@ i3en.24xlarge:
     - us-west-1
     - us-gov-east-1
     - ap-northeast-1
+    - Europe (Spain)
     - us-west-2
     - eu-west-2
     - eu-central-1
@@ -48338,6 +48871,9 @@ i3en.2xlarge:
       eu-west-3:
         Dedicated: 1.121
         Shared: 1.052
+      Europe (Spain):
+        Dedicated: 1.065
+        Shared: 1
       Europe (Zurich):
         Dedicated: 1.265
         Shared: 1.188
@@ -48420,6 +48956,9 @@ i3en.2xlarge:
       eu-west-3:
         Dedicated: 1.251
         Shared: 1.182
+      Europe (Spain):
+        Dedicated: 1.195
+        Shared: 1.13
       Europe (Zurich):
         Dedicated: 1.395
         Shared: 1.318
@@ -48502,6 +49041,9 @@ i3en.2xlarge:
       eu-west-3:
         Dedicated: 1.286
         Shared: 1.217
+      Europe (Spain):
+        Dedicated: 1.23
+        Shared: 1.165
       Europe (Zurich):
         Dedicated: 1.43
         Shared: 1.353
@@ -48584,6 +49126,9 @@ i3en.2xlarge:
       eu-west-3:
         Dedicated: 1.246
         Shared: 1.177
+      Europe (Spain):
+        Dedicated: 1.19
+        Shared: 1.125
       Europe (Zurich):
         Dedicated: 1.39
         Shared: 1.313
@@ -48666,6 +49211,9 @@ i3en.2xlarge:
       eu-west-3:
         Dedicated: 1.489
         Shared: 1.42
+      Europe (Spain):
+        Dedicated: 1.433
+        Shared: 1
       Europe (Zurich):
         Dedicated: 1.265
         Shared: 1.556
@@ -48722,6 +49270,7 @@ i3en.2xlarge:
     - us-gov-east-1
     - ca-central-1
     - ap-southeast-3
+    - Europe (Spain)
     - us-east-1
     - eu-central-1
     - eu-north-1
@@ -48788,6 +49337,9 @@ i3en.3xlarge:
       eu-west-3:
         Dedicated: 1.681
         Shared: 1.578
+      Europe (Spain):
+        Dedicated: 1.598
+        Shared: 1.5
       Europe (Zurich):
         Dedicated: 1.898
         Shared: 1.782
@@ -48870,6 +49422,9 @@ i3en.3xlarge:
       eu-west-3:
         Dedicated: 1.811
         Shared: 1.708
+      Europe (Spain):
+        Dedicated: 1.728
+        Shared: 1.63
       Europe (Zurich):
         Dedicated: 2.028
         Shared: 1.912
@@ -48952,6 +49507,9 @@ i3en.3xlarge:
       eu-west-3:
         Dedicated: 1.846
         Shared: 1.743
+      Europe (Spain):
+        Dedicated: 1.763
+        Shared: 1.665
       Europe (Zurich):
         Dedicated: 2.063
         Shared: 1.947
@@ -49034,6 +49592,9 @@ i3en.3xlarge:
       eu-west-3:
         Dedicated: 1.806
         Shared: 1.703
+      Europe (Spain):
+        Dedicated: 1.723
+        Shared: 1.625
       Europe (Zurich):
         Dedicated: 2.023
         Shared: 1.907
@@ -49116,6 +49677,9 @@ i3en.3xlarge:
       eu-west-3:
         Dedicated: 2.233
         Shared: 2.13
+      Europe (Spain):
+        Dedicated: 1.598
+        Shared: 2.052
       Europe (Zurich):
         Dedicated: 2.45
         Shared: 1.782
@@ -49156,6 +49720,7 @@ i3en.3xlarge:
     - us-east-2
     - us-gov-west-1
     - ap-southeast-3
+    - Europe (Spain)
     - Middle East (UAE)
     - me-south-1
     - ca-central-1
@@ -49238,6 +49803,9 @@ i3en.6xlarge:
       eu-west-3:
         Dedicated: 3.362
         Shared: 3.156
+      Europe (Spain):
+        Dedicated: 3.195
+        Shared: 3
       Europe (Zurich):
         Dedicated: 3.796
         Shared: 3.564
@@ -49320,6 +49888,9 @@ i3en.6xlarge:
       eu-west-3:
         Dedicated: 3.492
         Shared: 3.286
+      Europe (Spain):
+        Dedicated: 3.325
+        Shared: 3.13
       Europe (Zurich):
         Dedicated: 3.926
         Shared: 3.694
@@ -49402,6 +49973,9 @@ i3en.6xlarge:
       eu-west-3:
         Dedicated: 3.527
         Shared: 3.321
+      Europe (Spain):
+        Dedicated: 3.36
+        Shared: 3.165
       Europe (Zurich):
         Dedicated: 3.961
         Shared: 3.729
@@ -49484,6 +50058,9 @@ i3en.6xlarge:
       eu-west-3:
         Dedicated: 3.487
         Shared: 3.281
+      Europe (Spain):
+        Dedicated: 3.32
+        Shared: 3.125
       Europe (Zurich):
         Dedicated: 3.921
         Shared: 3.689
@@ -49566,6 +50143,9 @@ i3en.6xlarge:
       eu-west-3:
         Dedicated: 4.466
         Shared: 4.26
+      Europe (Spain):
+        Dedicated: 3.195
+        Shared: 3
       Europe (Zurich):
         Dedicated: 4.9
         Shared: 4.668
@@ -49626,6 +50206,7 @@ i3en.6xlarge:
     - ap-southeast-1
     - me-south-1
     - ap-northeast-1
+    - Europe (Spain)
     - eu-west-3
   storage: 2 x 7500 NVMe SSD
   vcpu: 24
@@ -49689,6 +50270,9 @@ i3en.large:
       eu-west-3:
         Dedicated: 0.28
         Shared: 0.263
+      Europe (Spain):
+        Dedicated: 0.266
+        Shared: 0.25
       Europe (Zurich):
         Dedicated: 0.316
         Shared: 0.297
@@ -49771,6 +50355,9 @@ i3en.large:
       eu-west-3:
         Dedicated: 0.34
         Shared: 0.323
+      Europe (Spain):
+        Dedicated: 0.326
+        Shared: 0.31
       Europe (Zurich):
         Dedicated: 0.376
         Shared: 0.357
@@ -49853,6 +50440,9 @@ i3en.large:
       eu-west-3:
         Dedicated: 0.375
         Shared: 0.358
+      Europe (Spain):
+        Dedicated: 0.361
+        Shared: 0.345
       Europe (Zurich):
         Dedicated: 0.411
         Shared: 0.392
@@ -49935,6 +50525,9 @@ i3en.large:
       eu-west-3:
         Dedicated: 0.336
         Shared: 0.319
+      Europe (Spain):
+        Dedicated: 0.323
+        Shared: 0.306
       Europe (Zurich):
         Dedicated: 0.373
         Shared: 0.353
@@ -50017,6 +50610,9 @@ i3en.large:
       eu-west-3:
         Dedicated: 0.372
         Shared: 0.355
+      Europe (Spain):
+        Dedicated: 0.266
+        Shared: 0.342
       Europe (Zurich):
         Dedicated: 0.408
         Shared: 0.297
@@ -50071,6 +50667,7 @@ i3en.large:
     - af-south-1
     - eu-west-2
     - us-gov-east-1
+    - Europe (Spain)
     - eu-south-1
     - us-gov-west-1
     - eu-central-1
@@ -50139,6 +50736,9 @@ i3en.metal:
       eu-west-3:
         Dedicated: 12.624
         Shared: 12.624
+      Europe (Spain):
+        Dedicated: 12
+        Shared: 12
       Europe (Zurich):
         Dedicated: 14.256
         Shared: 14.256
@@ -50221,6 +50821,9 @@ i3en.metal:
       eu-west-3:
         Dedicated: 12.754
         Shared: 12.754
+      Europe (Spain):
+        Dedicated: 12.13
+        Shared: 12.13
       Europe (Zurich):
         Dedicated: 14.386
         Shared: 14.386
@@ -50303,6 +50906,9 @@ i3en.metal:
       eu-west-3:
         Dedicated: 12.789
         Shared: 12.789
+      Europe (Spain):
+        Dedicated: 12.165
+        Shared: 12.165
       Europe (Zurich):
         Dedicated: 14.421
         Shared: 14.421
@@ -50385,6 +50991,9 @@ i3en.metal:
       eu-west-3:
         Dedicated: 12.749
         Shared: 12.749
+      Europe (Spain):
+        Dedicated: 12.125
+        Shared: 12.125
       Europe (Zurich):
         Dedicated: 14.381
         Shared: 14.381
@@ -50467,6 +51076,9 @@ i3en.metal:
       eu-west-3:
         Dedicated: 17.04
         Shared: 17.04
+      Europe (Spain):
+        Dedicated: 12
+        Shared: 12
       Europe (Zurich):
         Dedicated: 14.256
         Shared: 18.672
@@ -50516,6 +51128,7 @@ i3en.metal:
     - us-west-2-lax-1a
     - us-east-1
     - ap-southeast-1
+    - Europe (Spain)
     - ap-southeast-2
     - ca-central-1
     - Asia Pacific (Osaka)
@@ -50589,6 +51202,9 @@ i3en.xlarge:
       eu-west-3:
         Dedicated: 0.56
         Shared: 0.526
+      Europe (Spain):
+        Dedicated: 0.533
+        Shared: 0.5
       Europe (Zurich):
         Dedicated: 0.633
         Shared: 0.594
@@ -50671,6 +51287,9 @@ i3en.xlarge:
       eu-west-3:
         Dedicated: 0.62
         Shared: 0.586
+      Europe (Spain):
+        Dedicated: 0.593
+        Shared: 0.56
       Europe (Zurich):
         Dedicated: 0.693
         Shared: 0.654
@@ -50753,6 +51372,9 @@ i3en.xlarge:
       eu-west-3:
         Dedicated: 0.655
         Shared: 0.621
+      Europe (Spain):
+        Dedicated: 0.628
+        Shared: 0.595
       Europe (Zurich):
         Dedicated: 0.728
         Shared: 0.689
@@ -50835,6 +51457,9 @@ i3en.xlarge:
       eu-west-3:
         Dedicated: 0.617
         Shared: 0.582
+      Europe (Spain):
+        Dedicated: 0.589
+        Shared: 0.556
       Europe (Zurich):
         Dedicated: 0.689
         Shared: 0.65
@@ -50917,6 +51542,9 @@ i3en.xlarge:
       eu-west-3:
         Dedicated: 0.744
         Shared: 0.71
+      Europe (Spain):
+        Dedicated: 0.717
+        Shared: 0.684
       Europe (Zurich):
         Dedicated: 0.817
         Shared: 0.594
@@ -50958,6 +51586,7 @@ i3en.xlarge:
     - Asia Pacific (Osaka)
     - Europe (Zurich)
     - eu-west-3
+    - Europe (Spain)
     - us-gov-west-1
     - us-west-2
     - eu-west-2
@@ -58786,6 +59415,9 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 2.868
         Shared: 2.688
+      Europe (Spain):
+        Dedicated: 2.722
+        Shared: 2.568
       Europe (Zurich):
         Dedicated: 3.218
         Shared: 3.036
@@ -58868,6 +59500,9 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 2.998
         Shared: 2.818
+      Europe (Spain):
+        Dedicated: 2.852
+        Shared: 2.698
       Europe (Zurich):
         Dedicated: 3.348
         Shared: 3.166
@@ -58950,6 +59585,9 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 3.014
         Shared: 2.853
+      Europe (Spain):
+        Dedicated: 2.887
+        Shared: 2.733
       Europe (Zurich):
         Dedicated: 3.383
         Shared: 3.201
@@ -59032,6 +59670,9 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 2.968
         Shared: 2.788
+      Europe (Spain):
+        Dedicated: 2.847
+        Shared: 2.693
       Europe (Zurich):
         Dedicated: 3.343
         Shared: 3.161
@@ -59114,6 +59755,9 @@ m5.12xlarge:
       eu-west-3:
         Dedicated: 5.076
         Shared: 4.896
+      Europe (Spain):
+        Dedicated: 2.722
+        Shared: 4.776
       Europe (Zurich):
         Dedicated: 5.426
         Shared: 3.036
@@ -59160,6 +59804,7 @@ m5.12xlarge:
     - Middle East (UAE)
     - ap-northeast-1
     - ap-south-1
+    - Europe (Spain)
     - af-south-1
     - ap-northeast-2
     - eu-west-3
@@ -59237,6 +59882,9 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.824
         Shared: 3.584
+      Europe (Spain):
+        Dedicated: 3.629
+        Shared: 3.424
       Europe (Zurich):
         Dedicated: 4.291
         Shared: 4.048
@@ -59319,6 +59967,9 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.954
         Shared: 3.714
+      Europe (Spain):
+        Dedicated: 3.759
+        Shared: 3.554
       Europe (Zurich):
         Dedicated: 4.421
         Shared: 4.178
@@ -59401,6 +60052,9 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.964
         Shared: 3.749
+      Europe (Spain):
+        Dedicated: 3.794
+        Shared: 3.589
       Europe (Zurich):
         Dedicated: 4.456
         Shared: 4.213
@@ -59483,6 +60137,9 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.924
         Shared: 3.684
+      Europe (Spain):
+        Dedicated: 3.754
+        Shared: 3.549
       Europe (Zurich):
         Dedicated: 4.416
         Shared: 4.173
@@ -59565,6 +60222,9 @@ m5.16xlarge:
       eu-west-3:
         Dedicated: 3.824
         Shared: 3.584
+      Europe (Spain):
+        Dedicated: 6.573
+        Shared: 6.368
       Europe (Zurich):
         Dedicated: 7.235
         Shared: 4.048
@@ -59620,6 +60280,7 @@ m5.16xlarge:
     - eu-west-2
     - eu-west-1
     - us-west-2
+    - Europe (Spain)
     - eu-north-1
     - us-gov-west-1
     - af-south-1
@@ -59688,6 +60349,9 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 5.376
         Shared: 5.376
+      Europe (Spain):
+        Dedicated: 5.136
+        Shared: 5.136
       Europe (Zurich):
         Dedicated: 6.072
         Shared: 6.072
@@ -59770,6 +60434,9 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 5.506
         Shared: 5.506
+      Europe (Spain):
+        Dedicated: 5.266
+        Shared: 5.266
       Europe (Zurich):
         Dedicated: 6.202
         Shared: 6.202
@@ -59852,6 +60519,9 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 5.541
         Shared: 5.541
+      Europe (Spain):
+        Dedicated: 5.301
+        Shared: 5.301
       Europe (Zurich):
         Dedicated: 6.237
         Shared: 6.237
@@ -59934,6 +60604,9 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 5.476
         Shared: 5.476
+      Europe (Spain):
+        Dedicated: 5.261
+        Shared: 5.261
       Europe (Zurich):
         Dedicated: 6.197
         Shared: 6.197
@@ -60016,6 +60689,9 @@ m5.24xlarge:
       eu-west-3:
         Dedicated: 9.792
         Shared: 5.376
+      Europe (Spain):
+        Dedicated: 9.552
+        Shared: 9.552
       Europe (Zurich):
         Dedicated: 6.072
         Shared: 6.072
@@ -60076,6 +60752,7 @@ m5.24xlarge:
     - ap-southeast-3
     - us-west-1
     - Europe (Zurich)
+    - Europe (Spain)
     - eu-north-1
   storage: EBS only
   vcpu: 96
@@ -60139,6 +60816,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.478
         Shared: 0.448
+      Europe (Spain):
+        Dedicated: 0.454
+        Shared: 0.428
       Europe (Zurich):
         Dedicated: 0.536
         Shared: 0.506
@@ -60233,6 +60913,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.608
         Shared: 0.578
+      Europe (Spain):
+        Dedicated: 0.584
+        Shared: 0.558
       Europe (Zurich):
         Dedicated: 0.666
         Shared: 0.636
@@ -60327,6 +61010,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.64
         Shared: 0.613
+      Europe (Spain):
+        Dedicated: 0.619
+        Shared: 0.593
       Europe (Zurich):
         Dedicated: 0.701
         Shared: 0.671
@@ -60421,6 +61107,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.578
         Shared: 0.548
+      Europe (Spain):
+        Dedicated: 0.579
+        Shared: 0.553
       Europe (Zurich):
         Dedicated: 0.661
         Shared: 0.631
@@ -60515,6 +61204,9 @@ m5.2xlarge:
       eu-west-3:
         Dedicated: 0.478
         Shared: 0.816
+      Europe (Spain):
+        Dedicated: 0.454
+        Shared: 0.428
       Europe (Zurich):
         Dedicated: 0.904
         Shared: 0.506
@@ -60561,6 +61253,7 @@ m5.2xlarge:
         Dedicated: 0.857
         Shared: 0.829
   regions:
+    - Europe (Spain)
     - me-south-1
     - ap-southeast-2
     - us-west-1
@@ -60654,6 +61347,9 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 0.956
         Shared: 0.896
+      Europe (Spain):
+        Dedicated: 0.907
+        Shared: 0.856
       Europe (Zurich):
         Dedicated: 1.073
         Shared: 1.012
@@ -60736,6 +61432,9 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 1.086
         Shared: 1.026
+      Europe (Spain):
+        Dedicated: 1.037
+        Shared: 0.986
       Europe (Zurich):
         Dedicated: 1.203
         Shared: 1.142
@@ -60818,6 +61517,9 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 1.115
         Shared: 1.061
+      Europe (Spain):
+        Dedicated: 1.072
+        Shared: 1.021
       Europe (Zurich):
         Dedicated: 1.238
         Shared: 1.177
@@ -60900,6 +61602,9 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 1.056
         Shared: 0.996
+      Europe (Spain):
+        Dedicated: 1.032
+        Shared: 0.981
       Europe (Zurich):
         Dedicated: 1.198
         Shared: 1.137
@@ -60982,6 +61687,9 @@ m5.4xlarge:
       eu-west-3:
         Dedicated: 0.956
         Shared: 1.632
+      Europe (Spain):
+        Dedicated: 0.907
+        Shared: 0.856
       Europe (Zurich):
         Dedicated: 1.809
         Shared: 1.748
@@ -61037,6 +61745,7 @@ m5.4xlarge:
     - us-west-2
     - eu-west-3
     - eu-west-2
+    - Europe (Spain)
     - ap-south-1
     - us-gov-west-1
     - Middle East (UAE)
@@ -61105,6 +61814,9 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 1.912
         Shared: 1.792
+      Europe (Spain):
+        Dedicated: 1.815
+        Shared: 1.712
       Europe (Zurich):
         Dedicated: 2.145
         Shared: 2.024
@@ -61187,6 +61899,9 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 2.042
         Shared: 1.922
+      Europe (Spain):
+        Dedicated: 1.945
+        Shared: 1.842
       Europe (Zurich):
         Dedicated: 2.275
         Shared: 2.154
@@ -61269,6 +61984,9 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 2.065
         Shared: 1.957
+      Europe (Spain):
+        Dedicated: 1.98
+        Shared: 1.877
       Europe (Zurich):
         Dedicated: 2.31
         Shared: 2.189
@@ -61351,6 +62069,9 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 2.012
         Shared: 1.892
+      Europe (Spain):
+        Dedicated: 1.94
+        Shared: 1.837
       Europe (Zurich):
         Dedicated: 2.27
         Shared: 2.149
@@ -61433,6 +62154,9 @@ m5.8xlarge:
       eu-west-3:
         Dedicated: 1.912
         Shared: 1.792
+      Europe (Spain):
+        Dedicated: 3.287
+        Shared: 1.712
       Europe (Zurich):
         Dedicated: 3.617
         Shared: 2.024
@@ -61479,6 +62203,7 @@ m5.8xlarge:
     - ap-southeast-1
     - eu-west-3
     - Middle East (UAE)
+    - Europe (Spain)
     - us-east-1
     - ap-northeast-2
     - eu-central-1
@@ -61556,6 +62281,9 @@ m5.large:
       eu-west-3:
         Dedicated: 0.119
         Shared: 0.112
+      Europe (Spain):
+        Dedicated: 0.113
+        Shared: 0.107
       Europe (Zurich):
         Dedicated: 0.134
         Shared: 0.127
@@ -61638,6 +62366,9 @@ m5.large:
       eu-west-3:
         Dedicated: 0.179
         Shared: 0.172
+      Europe (Spain):
+        Dedicated: 0.173
+        Shared: 0.167
       Europe (Zurich):
         Dedicated: 0.194
         Shared: 0.187
@@ -61720,6 +62451,9 @@ m5.large:
       eu-west-3:
         Dedicated: 0.214
         Shared: 0.207
+      Europe (Spain):
+        Dedicated: 0.208
+        Shared: 0.202
       Europe (Zurich):
         Dedicated: 0.229
         Shared: 0.222
@@ -61802,6 +62536,9 @@ m5.large:
       eu-west-3:
         Dedicated: 0.175
         Shared: 0.168
+      Europe (Spain):
+        Dedicated: 0.17
+        Shared: 0.163
       Europe (Zurich):
         Dedicated: 0.19
         Shared: 0.183
@@ -61884,6 +62621,9 @@ m5.large:
       eu-west-3:
         Dedicated: 0.119
         Shared: 0.112
+      Europe (Spain):
+        Dedicated: 0.205
+        Shared: 0.199
       Europe (Zurich):
         Dedicated: 0.226
         Shared: 0.127
@@ -61924,6 +62664,7 @@ m5.large:
     - eu-north-1
     - us-west-2-lax-1a
     - us-west-2
+    - Europe (Spain)
     - ap-east-1
     - Middle East (UAE)
     - ap-southeast-3
@@ -62007,6 +62748,9 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.376
         Shared: 5.376
+      Europe (Spain):
+        Dedicated: 5.136
+        Shared: 5.136
       Europe (Zurich):
         Dedicated: 6.072
         Shared: 6.072
@@ -62089,6 +62833,9 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.506
         Shared: 5.506
+      Europe (Spain):
+        Dedicated: 5.266
+        Shared: 5.266
       Europe (Zurich):
         Dedicated: 6.202
         Shared: 6.202
@@ -62171,6 +62918,9 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.541
         Shared: 5.541
+      Europe (Spain):
+        Dedicated: 5.301
+        Shared: 5.301
       Europe (Zurich):
         Dedicated: 6.237
         Shared: 6.237
@@ -62253,6 +63003,9 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.476
         Shared: 5.476
+      Europe (Spain):
+        Dedicated: 5.261
+        Shared: 5.261
       Europe (Zurich):
         Dedicated: 6.197
         Shared: 6.197
@@ -62335,6 +63088,9 @@ m5.metal:
       eu-west-3:
         Dedicated: 5.376
         Shared: 5.376
+      Europe (Spain):
+        Dedicated: 5.136
+        Shared: 9.552
       Europe (Zurich):
         Dedicated: 10.488
         Shared: 6.072
@@ -62382,6 +63138,7 @@ m5.metal:
     - ap-east-1
     - eu-west-1
     - sa-east-1
+    - Europe (Spain)
     - ca-central-1
     - us-gov-west-1
     - us-east-1
@@ -62458,6 +63215,9 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.239
         Shared: 0.224
+      Europe (Spain):
+        Dedicated: 0.227
+        Shared: 0.214
       Europe (Zurich):
         Dedicated: 0.268
         Shared: 0.253
@@ -62543,6 +63303,9 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.299
         Shared: 0.284
+      Europe (Spain):
+        Dedicated: 0.287
+        Shared: 0.274
       Europe (Zurich):
         Dedicated: 0.328
         Shared: 0.313
@@ -62628,6 +63391,9 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.332
         Shared: 0.319
+      Europe (Spain):
+        Dedicated: 0.322
+        Shared: 0.309
       Europe (Zurich):
         Dedicated: 0.363
         Shared: 0.348
@@ -62713,6 +63479,9 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.294
         Shared: 0.28
+      Europe (Spain):
+        Dedicated: 0.283
+        Shared: 0.27
       Europe (Zurich):
         Dedicated: 0.324
         Shared: 0.309
@@ -62798,6 +63567,9 @@ m5.xlarge:
       eu-west-3:
         Dedicated: 0.239
         Shared: 0.408
+      Europe (Spain):
+        Dedicated: 0.227
+        Shared: 0.214
       Europe (Zurich):
         Dedicated: 0.452
         Shared: 0.253
@@ -62835,6 +63607,7 @@ m5.xlarge:
         Dedicated: 0.428
         Shared: 0.414
   regions:
+    - Europe (Spain)
     - Middle East (UAE)
     - eu-west-2
     - af-south-1
@@ -67565,6 +68338,9 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 3.38
         Shared: 3.168
+      Europe (Spain):
+        Dedicated: 3.205
+        Shared: 3.024
       Europe (Zurich):
         Dedicated: 3.806
         Shared: 3.59
@@ -67644,6 +68420,9 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 3.51
         Shared: 3.298
+      Europe (Spain):
+        Dedicated: 3.335
+        Shared: 3.154
       Europe (Zurich):
         Dedicated: 3.936
         Shared: 3.72
@@ -67723,6 +68502,9 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 3.523
         Shared: 3.333
+      Europe (Spain):
+        Dedicated: 3.37
+        Shared: 3.189
       Europe (Zurich):
         Dedicated: 3.971
         Shared: 3.755
@@ -67802,6 +68584,9 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 3.48
         Shared: 3.268
+      Europe (Spain):
+        Dedicated: 3.33
+        Shared: 3.149
       Europe (Zurich):
         Dedicated: 3.931
         Shared: 3.715
@@ -67881,6 +68666,9 @@ m5d.12xlarge:
       eu-west-3:
         Dedicated: 5.588
         Shared: 5.376
+      Europe (Spain):
+        Dedicated: 5.413
+        Shared: 5.232
       Europe (Zurich):
         Dedicated: 6.014
         Shared: 5.798
@@ -67932,6 +68720,7 @@ m5d.12xlarge:
     - eu-north-1
     - sa-east-1
     - us-east-2
+    - Europe (Spain)
     - ap-northeast-2
     - eu-south-1
     - us-gov-east-1
@@ -68000,6 +68789,9 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 4.506
         Shared: 4.224
+      Europe (Spain):
+        Dedicated: 4.274
+        Shared: 4.032
       Europe (Zurich):
         Dedicated: 5.074
         Shared: 4.787
@@ -68079,6 +68871,9 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 4.636
         Shared: 4.354
+      Europe (Spain):
+        Dedicated: 4.404
+        Shared: 4.162
       Europe (Zurich):
         Dedicated: 5.204
         Shared: 4.917
@@ -68158,6 +68953,9 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 4.642
         Shared: 4.389
+      Europe (Spain):
+        Dedicated: 4.439
+        Shared: 4.197
       Europe (Zurich):
         Dedicated: 5.239
         Shared: 4.952
@@ -68237,6 +69035,9 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 4.602
         Shared: 4.324
+      Europe (Spain):
+        Dedicated: 4.399
+        Shared: 4.157
       Europe (Zurich):
         Dedicated: 5.199
         Shared: 4.912
@@ -68316,6 +69117,9 @@ m5d.16xlarge:
       eu-west-3:
         Dedicated: 7.45
         Shared: 7.168
+      Europe (Spain):
+        Dedicated: 4.274
+        Shared: 4.032
       Europe (Zurich):
         Dedicated: 8.018
         Shared: 7.731
@@ -68371,6 +69175,7 @@ m5d.16xlarge:
     - sa-east-1
     - ap-northeast-1
     - eu-north-1
+    - Europe (Spain)
     - us-gov-east-1
     - ap-east-1
   storage: 4 x 600 NVMe SSD
@@ -68435,6 +69240,9 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 6.336
         Shared: 6.336
+      Europe (Spain):
+        Dedicated: 6.048
+        Shared: 6.048
       Europe (Zurich):
         Dedicated: 7.181
         Shared: 7.181
@@ -68514,6 +69322,9 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 6.466
         Shared: 6.466
+      Europe (Spain):
+        Dedicated: 6.178
+        Shared: 6.178
       Europe (Zurich):
         Dedicated: 7.311
         Shared: 7.311
@@ -68593,6 +69404,9 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 6.501
         Shared: 6.501
+      Europe (Spain):
+        Dedicated: 6.213
+        Shared: 6.213
       Europe (Zurich):
         Dedicated: 7.346
         Shared: 7.346
@@ -68672,6 +69486,9 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 6.436
         Shared: 6.436
+      Europe (Spain):
+        Dedicated: 6.173
+        Shared: 6.173
       Europe (Zurich):
         Dedicated: 7.306
         Shared: 7.306
@@ -68751,6 +69568,9 @@ m5d.24xlarge:
       eu-west-3:
         Dedicated: 10.752
         Shared: 10.752
+      Europe (Spain):
+        Dedicated: 6.048
+        Shared: 6.048
       Europe (Zurich):
         Dedicated: 11.597
         Shared: 7.181
@@ -68785,6 +69605,7 @@ m5d.24xlarge:
     - us-gov-east-1
     - eu-west-2
     - ap-south-1
+    - Europe (Spain)
     - ap-northeast-1
     - af-south-1
     - eu-west-1
@@ -68870,6 +69691,9 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.563
         Shared: 0.528
+      Europe (Spain):
+        Dedicated: 0.534
+        Shared: 0.504
       Europe (Zurich):
         Dedicated: 0.634
         Shared: 0.598
@@ -68949,6 +69773,9 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.693
         Shared: 0.658
+      Europe (Spain):
+        Dedicated: 0.664
+        Shared: 0.634
       Europe (Zurich):
         Dedicated: 0.764
         Shared: 0.728
@@ -69028,6 +69855,9 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.725
         Shared: 0.693
+      Europe (Spain):
+        Dedicated: 0.699
+        Shared: 0.669
       Europe (Zurich):
         Dedicated: 0.799
         Shared: 0.763
@@ -69107,6 +69937,9 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.663
         Shared: 0.628
+      Europe (Spain):
+        Dedicated: 0.659
+        Shared: 0.629
       Europe (Zurich):
         Dedicated: 0.759
         Shared: 0.723
@@ -69186,6 +70019,9 @@ m5d.2xlarge:
       eu-west-3:
         Dedicated: 0.931
         Shared: 0.896
+      Europe (Spain):
+        Dedicated: 0.534
+        Shared: 0.504
       Europe (Zurich):
         Dedicated: 1.002
         Shared: 0.966
@@ -69238,6 +70074,7 @@ m5d.2xlarge:
     - us-west-1
     - eu-south-1
     - Middle East (UAE)
+    - Europe (Spain)
     - ca-central-1
     - ap-northeast-1
     - ap-southeast-1
@@ -69305,6 +70142,9 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.127
         Shared: 1.056
+      Europe (Spain):
+        Dedicated: 1.068
+        Shared: 1.008
       Europe (Zurich):
         Dedicated: 1.269
         Shared: 1.197
@@ -69384,6 +70224,9 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.257
         Shared: 1.186
+      Europe (Spain):
+        Dedicated: 1.198
+        Shared: 1.138
       Europe (Zurich):
         Dedicated: 1.399
         Shared: 1.327
@@ -69463,6 +70306,9 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.284
         Shared: 1.221
+      Europe (Spain):
+        Dedicated: 1.233
+        Shared: 1.173
       Europe (Zurich):
         Dedicated: 1.434
         Shared: 1.362
@@ -69542,6 +70388,9 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.227
         Shared: 1.156
+      Europe (Spain):
+        Dedicated: 1.193
+        Shared: 1.133
       Europe (Zurich):
         Dedicated: 1.394
         Shared: 1.322
@@ -69621,6 +70470,9 @@ m5d.4xlarge:
       eu-west-3:
         Dedicated: 1.863
         Shared: 1.792
+      Europe (Spain):
+        Dedicated: 1.804
+        Shared: 1.744
       Europe (Zurich):
         Dedicated: 2.005
         Shared: 1.197
@@ -69669,6 +70521,7 @@ m5d.4xlarge:
     - us-east-2
     - ca-central-1
     - eu-west-3
+    - Europe (Spain)
     - ap-southeast-2
     - eu-west-2
     - us-gov-east-1
@@ -69740,6 +70593,9 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 2.253
         Shared: 2.112
+      Europe (Spain):
+        Dedicated: 2.137
+        Shared: 2.016
       Europe (Zurich):
         Dedicated: 2.537
         Shared: 2.394
@@ -69819,6 +70675,9 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 2.383
         Shared: 2.242
+      Europe (Spain):
+        Dedicated: 2.267
+        Shared: 2.146
       Europe (Zurich):
         Dedicated: 2.667
         Shared: 2.524
@@ -69898,6 +70757,9 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 2.404
         Shared: 2.277
+      Europe (Spain):
+        Dedicated: 2.302
+        Shared: 2.181
       Europe (Zurich):
         Dedicated: 2.702
         Shared: 2.559
@@ -69977,6 +70839,9 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 2.353
         Shared: 2.212
+      Europe (Spain):
+        Dedicated: 2.262
+        Shared: 2.141
       Europe (Zurich):
         Dedicated: 2.662
         Shared: 2.519
@@ -70056,6 +70921,9 @@ m5d.8xlarge:
       eu-west-3:
         Dedicated: 3.725
         Shared: 3.584
+      Europe (Spain):
+        Dedicated: 3.609
+        Shared: 3.488
       Europe (Zurich):
         Dedicated: 2.537
         Shared: 2.394
@@ -70087,6 +70955,7 @@ m5d.8xlarge:
         Dedicated: 3.39
         Shared: 3.28
   regions:
+    - Europe (Spain)
     - eu-west-2
     - ap-southeast-3
     - ap-southeast-2
@@ -70175,6 +71044,9 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.141
         Shared: 0.132
+      Europe (Spain):
+        Dedicated: 0.134
+        Shared: 0.126
       Europe (Zurich):
         Dedicated: 0.159
         Shared: 0.15
@@ -70254,6 +71126,9 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.201
         Shared: 0.192
+      Europe (Spain):
+        Dedicated: 0.194
+        Shared: 0.186
       Europe (Zurich):
         Dedicated: 0.219
         Shared: 0.21
@@ -70333,6 +71208,9 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.235
         Shared: 0.227
+      Europe (Spain):
+        Dedicated: 0.229
+        Shared: 0.221
       Europe (Zurich):
         Dedicated: 0.254
         Shared: 0.245
@@ -70412,6 +71290,9 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.196
         Shared: 0.188
+      Europe (Spain):
+        Dedicated: 0.19
+        Shared: 0.182
       Europe (Zurich):
         Dedicated: 0.215
         Shared: 0.206
@@ -70491,6 +71372,9 @@ m5d.large:
       eu-west-3:
         Dedicated: 0.233
         Shared: 0.224
+      Europe (Spain):
+        Dedicated: 0.226
+        Shared: 0.218
       Europe (Zurich):
         Dedicated: 0.251
         Shared: 0.15
@@ -70542,6 +71426,7 @@ m5d.large:
     - Asia Pacific (Osaka)
     - ca-central-1
     - ap-southeast-1
+    - Europe (Spain)
     - eu-west-3
     - ap-southeast-3
     - ap-east-1
@@ -70610,6 +71495,9 @@ m5d.metal:
       eu-west-3:
         Dedicated: 6.336
         Shared: 6.336
+      Europe (Spain):
+        Dedicated: 6.048
+        Shared: 6.048
       Europe (Zurich):
         Dedicated: 7.181
         Shared: 7.181
@@ -70689,6 +71577,9 @@ m5d.metal:
       eu-west-3:
         Dedicated: 6.466
         Shared: 6.466
+      Europe (Spain):
+        Dedicated: 6.178
+        Shared: 6.178
       Europe (Zurich):
         Dedicated: 7.311
         Shared: 7.311
@@ -70768,6 +71659,9 @@ m5d.metal:
       eu-west-3:
         Dedicated: 6.501
         Shared: 6.501
+      Europe (Spain):
+        Dedicated: 6.213
+        Shared: 6.213
       Europe (Zurich):
         Dedicated: 7.346
         Shared: 7.346
@@ -70847,6 +71741,9 @@ m5d.metal:
       eu-west-3:
         Dedicated: 6.436
         Shared: 6.436
+      Europe (Spain):
+        Dedicated: 6.173
+        Shared: 6.173
       Europe (Zurich):
         Dedicated: 7.306
         Shared: 7.306
@@ -70926,6 +71823,9 @@ m5d.metal:
       eu-west-3:
         Dedicated: 10.752
         Shared: 10.752
+      Europe (Spain):
+        Dedicated: 10.464
+        Shared: 10.464
       Europe (Zurich):
         Dedicated: 7.181
         Shared: 11.597
@@ -70959,6 +71859,7 @@ m5d.metal:
   regions:
     - eu-central-1
     - ap-northeast-1
+    - Europe (Spain)
     - eu-west-2
     - eu-west-1
     - us-east-1
@@ -71045,6 +71946,9 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.282
         Shared: 0.264
+      Europe (Spain):
+        Dedicated: 0.267
+        Shared: 0.252
       Europe (Zurich):
         Dedicated: 0.317
         Shared: 0.299
@@ -71124,6 +72028,9 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.342
         Shared: 0.324
+      Europe (Spain):
+        Dedicated: 0.327
+        Shared: 0.312
       Europe (Zurich):
         Dedicated: 0.377
         Shared: 0.359
@@ -71203,6 +72110,9 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.375
         Shared: 0.359
+      Europe (Spain):
+        Dedicated: 0.362
+        Shared: 0.347
       Europe (Zurich):
         Dedicated: 0.412
         Shared: 0.394
@@ -71282,6 +72192,9 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.336
         Shared: 0.32
+      Europe (Spain):
+        Dedicated: 0.323
+        Shared: 0.308
       Europe (Zurich):
         Dedicated: 0.373
         Shared: 0.356
@@ -71361,6 +72274,9 @@ m5d.xlarge:
       eu-west-3:
         Dedicated: 0.466
         Shared: 0.448
+      Europe (Spain):
+        Dedicated: 0.451
+        Shared: 0.252
       Europe (Zurich):
         Dedicated: 0.317
         Shared: 0.299
@@ -71402,6 +72318,7 @@ m5d.xlarge:
     - us-west-1
     - us-gov-west-1
     - us-gov-east-1
+    - Europe (Spain)
     - Middle East (UAE)
     - Europe (Zurich)
     - us-east-1
@@ -76696,6 +77613,9 @@ m6g.12xlarge:
       eu-west-3:
         Dedicated: 2.2896
         Shared: 2.16
+      Europe (Spain):
+        Dedicated: 2.1864
+        Shared: 2.064
       me-south-1:
         Dedicated: 2.3928
         Shared: 2.256
@@ -76766,6 +77686,9 @@ m6g.12xlarge:
       eu-west-3:
         Dedicated: 2.4196
         Shared: 2.29
+      Europe (Spain):
+        Dedicated: 2.3164
+        Shared: 2.194
       me-south-1:
         Dedicated: 2.5228
         Shared: 2.386
@@ -76836,6 +77759,9 @@ m6g.12xlarge:
       eu-west-3:
         Dedicated: 2.4546
         Shared: 2.325
+      Europe (Spain):
+        Dedicated: 2.3514
+        Shared: 2.229
       me-south-1:
         Dedicated: 2.5578
         Shared: 2.421
@@ -76906,6 +77832,9 @@ m6g.12xlarge:
       eu-west-3:
         Dedicated: 2.4146
         Shared: 2.285
+      Europe (Spain):
+        Dedicated: 2.3114
+        Shared: 2.189
       me-south-1:
         Dedicated: 2.5178
         Shared: 2.381
@@ -76941,6 +77870,7 @@ m6g.12xlarge:
     - sa-east-1
     - me-south-1
     - eu-west-1
+    - Europe (Spain)
     - ap-south-1
     - Middle East (UAE)
     - us-east-2
@@ -77011,6 +77941,9 @@ m6g.16xlarge:
       eu-west-3:
         Dedicated: 3.0528
         Shared: 2.88
+      Europe (Spain):
+        Dedicated: 2.9152
+        Shared: 2.752
       me-south-1:
         Dedicated: 3.1904
         Shared: 3.008
@@ -77081,6 +78014,9 @@ m6g.16xlarge:
       eu-west-3:
         Dedicated: 3.1828
         Shared: 3.01
+      Europe (Spain):
+        Dedicated: 3.0452
+        Shared: 2.882
       me-south-1:
         Dedicated: 3.3204
         Shared: 3.138
@@ -77151,6 +78087,9 @@ m6g.16xlarge:
       eu-west-3:
         Dedicated: 3.2178
         Shared: 3.045
+      Europe (Spain):
+        Dedicated: 3.0802
+        Shared: 2.917
       me-south-1:
         Dedicated: 3.3554
         Shared: 3.173
@@ -77221,6 +78160,9 @@ m6g.16xlarge:
       eu-west-3:
         Dedicated: 3.1778
         Shared: 3.005
+      Europe (Spain):
+        Dedicated: 3.0402
+        Shared: 2.877
       me-south-1:
         Dedicated: 3.3154
         Shared: 3.133
@@ -77266,6 +78208,7 @@ m6g.16xlarge:
     - me-south-1
     - us-east-1
     - ap-east-1
+    - Europe (Spain)
     - ap-southeast-1
     - eu-north-1
     - eu-west-2
@@ -77326,6 +78269,9 @@ m6g.2xlarge:
       eu-west-3:
         Dedicated: 0.3816
         Shared: 0.36
+      Europe (Spain):
+        Dedicated: 0.3644
+        Shared: 0.344
       me-south-1:
         Dedicated: 0.3988
         Shared: 0.376
@@ -77396,6 +78342,9 @@ m6g.2xlarge:
       eu-west-3:
         Dedicated: 0.5116
         Shared: 0.49
+      Europe (Spain):
+        Dedicated: 0.4944
+        Shared: 0.474
       me-south-1:
         Dedicated: 0.5288
         Shared: 0.506
@@ -77466,6 +78415,9 @@ m6g.2xlarge:
       eu-west-3:
         Dedicated: 0.5466
         Shared: 0.525
+      Europe (Spain):
+        Dedicated: 0.5294
+        Shared: 0.509
       me-south-1:
         Dedicated: 0.5638
         Shared: 0.541
@@ -77536,6 +78488,9 @@ m6g.2xlarge:
       eu-west-3:
         Dedicated: 0.5066
         Shared: 0.485
+      Europe (Spain):
+        Dedicated: 0.4894
+        Shared: 0.469
       me-south-1:
         Dedicated: 0.5238
         Shared: 0.501
@@ -77583,6 +78538,7 @@ m6g.2xlarge:
     - ap-southeast-1
     - us-east-1
     - ap-south-1
+    - Europe (Spain)
     - eu-west-3
     - us-west-1
     - eu-west-2
@@ -77641,6 +78597,9 @@ m6g.4xlarge:
       eu-west-3:
         Dedicated: 0.7632
         Shared: 0.72
+      Europe (Spain):
+        Dedicated: 0.7288
+        Shared: 0.688
       me-south-1:
         Dedicated: 0.7976
         Shared: 0.752
@@ -77711,6 +78670,9 @@ m6g.4xlarge:
       eu-west-3:
         Dedicated: 0.8932
         Shared: 0.85
+      Europe (Spain):
+        Dedicated: 0.8588
+        Shared: 0.818
       me-south-1:
         Dedicated: 0.9276
         Shared: 0.882
@@ -77781,6 +78743,9 @@ m6g.4xlarge:
       eu-west-3:
         Dedicated: 0.9282
         Shared: 0.885
+      Europe (Spain):
+        Dedicated: 0.8938
+        Shared: 0.853
       me-south-1:
         Dedicated: 0.9626
         Shared: 0.917
@@ -77851,6 +78816,9 @@ m6g.4xlarge:
       eu-west-3:
         Dedicated: 0.8882
         Shared: 0.845
+      Europe (Spain):
+        Dedicated: 0.8538
+        Shared: 0.813
       me-south-1:
         Dedicated: 0.9226
         Shared: 0.877
@@ -77889,6 +78857,7 @@ m6g.4xlarge:
     - eu-west-3
     - eu-west-1
     - ap-northeast-1
+    - Europe (Spain)
     - us-west-1
     - eu-west-2
     - us-gov-east-1
@@ -77956,6 +78925,9 @@ m6g.8xlarge:
       eu-west-3:
         Dedicated: 1.5264
         Shared: 1.44
+      Europe (Spain):
+        Dedicated: 1.4576
+        Shared: 1.376
       me-south-1:
         Dedicated: 1.5952
         Shared: 1.504
@@ -78026,6 +78998,9 @@ m6g.8xlarge:
       eu-west-3:
         Dedicated: 1.6564
         Shared: 1.57
+      Europe (Spain):
+        Dedicated: 1.5876
+        Shared: 1.506
       me-south-1:
         Dedicated: 1.7252
         Shared: 1.634
@@ -78096,6 +79071,9 @@ m6g.8xlarge:
       eu-west-3:
         Dedicated: 1.6914
         Shared: 1.605
+      Europe (Spain):
+        Dedicated: 1.6226
+        Shared: 1.541
       me-south-1:
         Dedicated: 1.7602
         Shared: 1.669
@@ -78166,6 +79144,9 @@ m6g.8xlarge:
       eu-west-3:
         Dedicated: 1.6514
         Shared: 1.565
+      Europe (Spain):
+        Dedicated: 1.5826
+        Shared: 1.501
       me-south-1:
         Dedicated: 1.7202
         Shared: 1.629
@@ -78211,6 +79192,7 @@ m6g.8xlarge:
     - eu-central-1
     - ap-south-1
     - eu-west-2
+    - Europe (Spain)
     - ap-southeast-3
     - eu-north-1
     - us-east-1
@@ -78271,6 +79253,9 @@ m6g.large:
       eu-west-3:
         Dedicated: 0.0954
         Shared: 0.09
+      Europe (Spain):
+        Dedicated: 0.0911
+        Shared: 0.086
       me-south-1:
         Dedicated: 0.0997
         Shared: 0.094
@@ -78341,6 +79326,9 @@ m6g.large:
       eu-west-3:
         Dedicated: 0.1554
         Shared: 0.15
+      Europe (Spain):
+        Dedicated: 0.1511
+        Shared: 0.146
       me-south-1:
         Dedicated: 0.1597
         Shared: 0.154
@@ -78411,6 +79399,9 @@ m6g.large:
       eu-west-3:
         Dedicated: 0.1904
         Shared: 0.185
+      Europe (Spain):
+        Dedicated: 0.1861
+        Shared: 0.181
       me-south-1:
         Dedicated: 0.1947
         Shared: 0.189
@@ -78481,6 +79472,9 @@ m6g.large:
       eu-west-3:
         Dedicated: 0.1517
         Shared: 0.1463
+      Europe (Spain):
+        Dedicated: 0.1474
+        Shared: 0.1423
       me-south-1:
         Dedicated: 0.156
         Shared: 0.1503
@@ -78513,6 +79507,7 @@ m6g.large:
     - us-east-1
     - ca-central-1
     - eu-north-1
+    - Europe (Spain)
     - ap-northeast-1
     - us-west-1
     - ap-southeast-2
@@ -78586,6 +79581,9 @@ m6g.medium:
       eu-west-3:
         Dedicated: 0.0477
         Shared: 0.045
+      Europe (Spain):
+        Dedicated: 0.0455
+        Shared: 0.043
       me-south-1:
         Dedicated: 0.0498
         Shared: 0.047
@@ -78656,6 +79654,9 @@ m6g.medium:
       eu-west-3:
         Dedicated: 0.1077
         Shared: 0.105
+      Europe (Spain):
+        Dedicated: 0.1055
+        Shared: 0.103
       me-south-1:
         Dedicated: 0.1098
         Shared: 0.107
@@ -78726,6 +79727,9 @@ m6g.medium:
       eu-west-3:
         Dedicated: 0.1427
         Shared: 0.14
+      Europe (Spain):
+        Dedicated: 0.1405
+        Shared: 0.138
       me-south-1:
         Dedicated: 0.1448
         Shared: 0.142
@@ -78796,6 +79800,9 @@ m6g.medium:
       eu-west-3:
         Dedicated: 0.0787
         Shared: 0.076
+      Europe (Spain):
+        Dedicated: 0.1018
+        Shared: 0.0993
       me-south-1:
         Dedicated: 0.0808
         Shared: 0.078
@@ -78832,6 +79839,7 @@ m6g.medium:
     - ap-southeast-2
     - eu-west-2
     - eu-west-1
+    - Europe (Spain)
     - us-west-1
     - us-east-1
     - eu-west-3
@@ -78901,6 +79909,9 @@ m6g.metal:
       eu-west-3:
         Dedicated: 3.0528
         Shared: 2.88
+      Europe (Spain):
+        Dedicated: 2.9152
+        Shared: 2.752
       me-south-1:
         Dedicated: 3.1904
         Shared: 3.008
@@ -78971,6 +79982,9 @@ m6g.metal:
       eu-west-3:
         Dedicated: 3.1828
         Shared: 3.01
+      Europe (Spain):
+        Dedicated: 3.0452
+        Shared: 2.882
       me-south-1:
         Dedicated: 3.3204
         Shared: 3.138
@@ -79041,6 +80055,9 @@ m6g.metal:
       eu-west-3:
         Dedicated: 3.2178
         Shared: 3.045
+      Europe (Spain):
+        Dedicated: 3.0802
+        Shared: 2.917
       me-south-1:
         Dedicated: 3.3554
         Shared: 3.173
@@ -79111,6 +80128,9 @@ m6g.metal:
       eu-west-3:
         Dedicated: 3.1778
         Shared: 3.005
+      Europe (Spain):
+        Dedicated: 3.0402
+        Shared: 2.877
       me-south-1:
         Dedicated: 3.3154
         Shared: 3.133
@@ -79148,6 +80168,7 @@ m6g.metal:
     - ap-northeast-2
     - ap-east-1
     - eu-west-1
+    - Europe (Spain)
     - ap-northeast-1
     - ap-southeast-2
     - us-west-2
@@ -79216,6 +80237,9 @@ m6g.xlarge:
       eu-west-3:
         Dedicated: 0.1908
         Shared: 0.18
+      Europe (Spain):
+        Dedicated: 0.1822
+        Shared: 0.172
       me-south-1:
         Dedicated: 0.1994
         Shared: 0.188
@@ -79286,6 +80310,9 @@ m6g.xlarge:
       eu-west-3:
         Dedicated: 0.2508
         Shared: 0.24
+      Europe (Spain):
+        Dedicated: 0.2422
+        Shared: 0.232
       me-south-1:
         Dedicated: 0.2594
         Shared: 0.248
@@ -79356,6 +80383,9 @@ m6g.xlarge:
       eu-west-3:
         Dedicated: 0.2858
         Shared: 0.275
+      Europe (Spain):
+        Dedicated: 0.2772
+        Shared: 0.267
       me-south-1:
         Dedicated: 0.2944
         Shared: 0.283
@@ -79426,6 +80456,9 @@ m6g.xlarge:
       eu-west-3:
         Dedicated: 0.2471
         Shared: 0.2363
+      Europe (Spain):
+        Dedicated: 0.2385
+        Shared: 0.2283
       me-south-1:
         Dedicated: 0.2557
         Shared: 0.2443
@@ -79456,6 +80489,7 @@ m6g.xlarge:
   regions:
     - eu-south-1
     - Middle East (UAE)
+    - Europe (Spain)
     - me-south-1
     - ap-northeast-2
     - us-east-1
@@ -79517,6 +80551,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.6661
         Shared: 2.5152
+      Europe (Spain):
+        Dedicated: 2.5644
+        Shared: 2.4192
       Europe (Zurich):
         Dedicated: 3.0492
         Shared: 2.8776
@@ -79563,6 +80600,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.7961
         Shared: 2.6452
+      Europe (Spain):
+        Dedicated: 2.6944
+        Shared: 2.5492
       Europe (Zurich):
         Dedicated: 3.1792
         Shared: 3.0076
@@ -79609,6 +80649,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.8311
         Shared: 2.6802
+      Europe (Spain):
+        Dedicated: 2.7294
+        Shared: 2.5842
       Europe (Zurich):
         Dedicated: 3.2142
         Shared: 3.0426
@@ -79655,6 +80698,9 @@ m6gd.12xlarge:
       eu-west-2:
         Dedicated: 2.7911
         Shared: 2.6402
+      Europe (Spain):
+        Dedicated: 2.6894
+        Shared: 2.5442
       Europe (Zurich):
         Dedicated: 3.1742
         Shared: 3.0026
@@ -79677,6 +80723,7 @@ m6gd.12xlarge:
     - ap-southeast-1
     - Middle East (UAE)
     - us-west-1
+    - Europe (Spain)
     - eu-west-1
     - eu-west-2
     - ap-northeast-1
@@ -79729,6 +80776,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.5548
         Shared: 3.3536
+      Europe (Spain):
+        Dedicated: 3.2256
+        Shared: 3.2256
       Europe (Zurich):
         Dedicated: 3.8368
         Shared: 3.8368
@@ -79775,6 +80825,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.6848
         Shared: 3.4836
+      Europe (Spain):
+        Dedicated: 3.3556
+        Shared: 3.3556
       Europe (Zurich):
         Dedicated: 3.9668
         Shared: 3.9668
@@ -79821,6 +80874,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.7198
         Shared: 3.5186
+      Europe (Spain):
+        Dedicated: 3.3906
+        Shared: 3.3906
       Europe (Zurich):
         Dedicated: 4.0018
         Shared: 4.0018
@@ -79867,6 +80923,9 @@ m6gd.16xlarge:
       eu-west-2:
         Dedicated: 3.4786
         Shared: 3.4786
+      Europe (Spain):
+        Dedicated: 3.3506
+        Shared: 3.3506
       Europe (Zurich):
         Dedicated: 3.9618
         Shared: 3.9618
@@ -79901,6 +80960,7 @@ m6gd.16xlarge:
     - us-east-2
     - Europe (Zurich)
     - ap-south-1
+    - Europe (Spain)
   storage: 2 x 1900 NVMe SSD
   vcpu: 64
 m6gd.2xlarge:
@@ -79941,6 +81001,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.4444
         Shared: 0.4192
+      Europe (Spain):
+        Dedicated: 0.4274
+        Shared: 0.4032
       Europe (Zurich):
         Dedicated: 0.5082
         Shared: 0.4796
@@ -79987,6 +81050,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.5744
         Shared: 0.5492
+      Europe (Spain):
+        Dedicated: 0.5574
+        Shared: 0.5332
       Europe (Zurich):
         Dedicated: 0.6382
         Shared: 0.6096
@@ -80033,6 +81099,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.6094
         Shared: 0.5842
+      Europe (Spain):
+        Dedicated: 0.5924
+        Shared: 0.5682
       Europe (Zurich):
         Dedicated: 0.6732
         Shared: 0.6446
@@ -80079,6 +81148,9 @@ m6gd.2xlarge:
       eu-west-2:
         Dedicated: 0.5694
         Shared: 0.5442
+      Europe (Spain):
+        Dedicated: 0.5524
+        Shared: 0.5282
       Europe (Zurich):
         Dedicated: 0.6332
         Shared: 0.6046
@@ -80102,6 +81174,7 @@ m6gd.2xlarge:
     - ap-south-1
     - us-east-2
     - eu-west-1
+    - Europe (Spain)
     - Middle East (UAE)
     - eu-central-1
     - eu-north-1
@@ -80153,6 +81226,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 0.8887
         Shared: 0.8384
+      Europe (Spain):
+        Dedicated: 0.8548
+        Shared: 0.8064
       Europe (Zurich):
         Dedicated: 1.0164
         Shared: 0.9592
@@ -80199,6 +81275,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 1.0187
         Shared: 0.9684
+      Europe (Spain):
+        Dedicated: 0.9848
+        Shared: 0.9364
       Europe (Zurich):
         Dedicated: 1.1464
         Shared: 1.0892
@@ -80245,6 +81324,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 1.0537
         Shared: 1.0034
+      Europe (Spain):
+        Dedicated: 1.0198
+        Shared: 0.9714
       Europe (Zurich):
         Dedicated: 1.1814
         Shared: 1.1242
@@ -80291,6 +81373,9 @@ m6gd.4xlarge:
       eu-west-2:
         Dedicated: 1.0137
         Shared: 0.9634
+      Europe (Spain):
+        Dedicated: 0.9798
+        Shared: 0.9314
       Europe (Zurich):
         Dedicated: 1.1414
         Shared: 1.0842
@@ -80318,6 +81403,7 @@ m6gd.4xlarge:
     - ap-southeast-3
     - ap-southeast-1
     - ap-south-1
+    - Europe (Spain)
     - eu-west-1
     - Europe (Zurich)
     - us-east-2
@@ -80365,6 +81451,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.7774
         Shared: 1.6768
+      Europe (Spain):
+        Dedicated: 1.7096
+        Shared: 1.6128
       Europe (Zurich):
         Dedicated: 2.0328
         Shared: 1.9184
@@ -80411,6 +81500,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.9074
         Shared: 1.8068
+      Europe (Spain):
+        Dedicated: 1.8396
+        Shared: 1.7428
       Europe (Zurich):
         Dedicated: 2.1628
         Shared: 2.0484
@@ -80457,6 +81549,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.9424
         Shared: 1.8418
+      Europe (Spain):
+        Dedicated: 1.8746
+        Shared: 1.7778
       Europe (Zurich):
         Dedicated: 2.1978
         Shared: 2.0834
@@ -80503,6 +81598,9 @@ m6gd.8xlarge:
       eu-west-2:
         Dedicated: 1.9024
         Shared: 1.8018
+      Europe (Spain):
+        Dedicated: 1.8346
+        Shared: 1.7378
       Europe (Zurich):
         Dedicated: 2.1578
         Shared: 2.0434
@@ -80523,6 +81621,7 @@ m6gd.8xlarge:
         Shared: 1.5714
   regions:
     - eu-central-1
+    - Europe (Spain)
     - eu-west-1
     - eu-north-1
     - Europe (Zurich)
@@ -80577,6 +81676,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.1111
         Shared: 0.1048
+      Europe (Spain):
+        Dedicated: 0.1068
+        Shared: 0.1008
       Europe (Zurich):
         Dedicated: 0.127
         Shared: 0.1199
@@ -80623,6 +81725,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.1711
         Shared: 0.1648
+      Europe (Spain):
+        Dedicated: 0.1668
+        Shared: 0.1608
       Europe (Zurich):
         Dedicated: 0.187
         Shared: 0.1799
@@ -80669,6 +81774,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.2061
         Shared: 0.1998
+      Europe (Spain):
+        Dedicated: 0.2018
+        Shared: 0.1958
       Europe (Zurich):
         Dedicated: 0.222
         Shared: 0.2149
@@ -80715,6 +81823,9 @@ m6gd.large:
       eu-west-2:
         Dedicated: 0.1674
         Shared: 0.1611
+      Europe (Spain):
+        Dedicated: 0.1631
+        Shared: 0.1571
       Europe (Zurich):
         Dedicated: 0.1833
         Shared: 0.1762
@@ -80737,6 +81848,7 @@ m6gd.large:
     - eu-north-1
     - eu-west-2
     - us-east-1
+    - Europe (Spain)
     - Europe (Zurich)
     - Middle East (UAE)
     - ap-northeast-1
@@ -80789,6 +81901,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.0555
         Shared: 0.0524
+      Europe (Spain):
+        Dedicated: 0.0534
+        Shared: 0.0504
       Europe (Zurich):
         Dedicated: 0.0635
         Shared: 0.06
@@ -80835,6 +81950,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.1155
         Shared: 0.1124
+      Europe (Spain):
+        Dedicated: 0.1134
+        Shared: 0.1104
       Europe (Zurich):
         Dedicated: 0.1235
         Shared: 0.12
@@ -80881,6 +81999,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.1505
         Shared: 0.1474
+      Europe (Spain):
+        Dedicated: 0.1484
+        Shared: 0.1454
       Europe (Zurich):
         Dedicated: 0.1585
         Shared: 0.155
@@ -80927,6 +82048,9 @@ m6gd.medium:
       eu-west-2:
         Dedicated: 0.0865
         Shared: 0.0834
+      Europe (Spain):
+        Dedicated: 0.1097
+        Shared: 0.1067
       Europe (Zurich):
         Dedicated: 0.1198
         Shared: 0.1163
@@ -80950,6 +82074,7 @@ m6gd.medium:
     - eu-west-2
     - eu-west-1
     - ap-northeast-1
+    - Europe (Spain)
     - Europe (Zurich)
     - us-east-2
     - Middle East (UAE)
@@ -81001,6 +82126,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.5548
         Shared: 3.3536
+      Europe (Spain):
+        Dedicated: 3.2256
+        Shared: 3.2256
       Europe (Zurich):
         Dedicated: 3.8368
         Shared: 3.8368
@@ -81047,6 +82175,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.6848
         Shared: 3.4836
+      Europe (Spain):
+        Dedicated: 3.3556
+        Shared: 3.3556
       Europe (Zurich):
         Dedicated: 3.9668
         Shared: 3.9668
@@ -81093,6 +82224,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.7198
         Shared: 3.5186
+      Europe (Spain):
+        Dedicated: 3.3906
+        Shared: 3.3906
       Europe (Zurich):
         Dedicated: 4.0018
         Shared: 4.0018
@@ -81139,6 +82273,9 @@ m6gd.metal:
       eu-west-2:
         Dedicated: 3.4786
         Shared: 3.4786
+      Europe (Spain):
+        Dedicated: 3.3506
+        Shared: 3.3506
       Europe (Zurich):
         Dedicated: 3.9618
         Shared: 3.9618
@@ -81168,6 +82305,7 @@ m6gd.metal:
     - ap-south-1
     - ap-southeast-2
     - us-east-1
+    - Europe (Spain)
     - us-west-1
     - eu-central-1
     - ap-northeast-1
@@ -81213,6 +82351,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.2222
         Shared: 0.2096
+      Europe (Spain):
+        Dedicated: 0.2137
+        Shared: 0.2016
       Europe (Zurich):
         Dedicated: 0.2541
         Shared: 0.2398
@@ -81259,6 +82400,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.2822
         Shared: 0.2696
+      Europe (Spain):
+        Dedicated: 0.2737
+        Shared: 0.2616
       Europe (Zurich):
         Dedicated: 0.3141
         Shared: 0.2998
@@ -81305,6 +82449,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.3172
         Shared: 0.3046
+      Europe (Spain):
+        Dedicated: 0.3087
+        Shared: 0.2966
       Europe (Zurich):
         Dedicated: 0.3491
         Shared: 0.3348
@@ -81351,6 +82498,9 @@ m6gd.xlarge:
       eu-west-2:
         Dedicated: 0.2785
         Shared: 0.2659
+      Europe (Spain):
+        Dedicated: 0.27
+        Shared: 0.2579
       Europe (Zurich):
         Dedicated: 0.3104
         Shared: 0.2961
@@ -81381,6 +82531,7 @@ m6gd.xlarge:
     - us-east-2
     - ap-southeast-3
     - eu-north-1
+    - Europe (Spain)
     - Europe (Zurich)
     - ap-southeast-2
     - ap-south-1
@@ -90832,6 +91983,9 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.765
         Shared: 3.552
+      Europe (Spain):
+        Dedicated: 3.587
+        Shared: 3.384
       Europe (Zurich):
         Dedicated: 4.254
         Shared: 4.013
@@ -90914,6 +92068,9 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.895
         Shared: 3.682
+      Europe (Spain):
+        Dedicated: 3.717
+        Shared: 3.514
       Europe (Zurich):
         Dedicated: 4.384
         Shared: 4.143
@@ -90996,6 +92153,9 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.93
         Shared: 3.717
+      Europe (Spain):
+        Dedicated: 3.752
+        Shared: 3.549
       Europe (Zurich):
         Dedicated: 4.419
         Shared: 4.178
@@ -91078,6 +92238,9 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.89
         Shared: 3.677
+      Europe (Spain):
+        Dedicated: 3.712
+        Shared: 3.509
       Europe (Zurich):
         Dedicated: 4.379
         Shared: 4.138
@@ -91160,6 +92323,9 @@ r5.12xlarge:
       eu-west-3:
         Dedicated: 3.765
         Shared: 5.76
+      Europe (Spain):
+        Dedicated: 5.795
+        Shared: 5.592
       Europe (Zurich):
         Dedicated: 4.254
         Shared: 6.221
@@ -91203,6 +92369,7 @@ r5.12xlarge:
     - us-east-1
     - ap-southeast-1
     - me-south-1
+    - Europe (Spain)
     - eu-south-1
     - eu-west-2
     - ap-east-1
@@ -91283,6 +92450,9 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.02
         Shared: 4.736
+      Europe (Spain):
+        Dedicated: 4.783
+        Shared: 4.512
       Europe (Zurich):
         Dedicated: 5.671
         Shared: 5.35
@@ -91365,6 +92535,9 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.15
         Shared: 4.866
+      Europe (Spain):
+        Dedicated: 4.913
+        Shared: 4.642
       Europe (Zurich):
         Dedicated: 5.801
         Shared: 5.48
@@ -91447,6 +92620,9 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.185
         Shared: 4.901
+      Europe (Spain):
+        Dedicated: 4.948
+        Shared: 4.677
       Europe (Zurich):
         Dedicated: 5.836
         Shared: 5.515
@@ -91529,6 +92705,9 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.145
         Shared: 4.861
+      Europe (Spain):
+        Dedicated: 4.908
+        Shared: 4.637
       Europe (Zurich):
         Dedicated: 5.796
         Shared: 5.475
@@ -91611,6 +92790,9 @@ r5.16xlarge:
       eu-west-3:
         Dedicated: 5.02
         Shared: 4.736
+      Europe (Spain):
+        Dedicated: 7.727
+        Shared: 7.456
       Europe (Zurich):
         Dedicated: 5.671
         Shared: 8.294
@@ -91663,6 +92845,7 @@ r5.16xlarge:
     - eu-west-2
     - ap-southeast-1
     - us-west-2
+    - Europe (Spain)
     - us-gov-west-1
     - ap-southeast-2
     - Asia Pacific (Osaka)
@@ -91734,6 +92917,9 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.104
         Shared: 7.104
+      Europe (Spain):
+        Dedicated: 6.768
+        Shared: 6.768
       Europe (Zurich):
         Dedicated: 8.026
         Shared: 8.026
@@ -91816,6 +93002,9 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.234
         Shared: 7.234
+      Europe (Spain):
+        Dedicated: 6.898
+        Shared: 6.898
       Europe (Zurich):
         Dedicated: 8.156
         Shared: 8.156
@@ -91898,6 +93087,9 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.269
         Shared: 7.269
+      Europe (Spain):
+        Dedicated: 6.933
+        Shared: 6.933
       Europe (Zurich):
         Dedicated: 8.191
         Shared: 8.191
@@ -91980,6 +93172,9 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.229
         Shared: 7.229
+      Europe (Spain):
+        Dedicated: 6.893
+        Shared: 6.893
       Europe (Zurich):
         Dedicated: 8.151
         Shared: 8.151
@@ -92062,6 +93257,9 @@ r5.24xlarge:
       eu-west-3:
         Dedicated: 7.104
         Shared: 11.52
+      Europe (Spain):
+        Dedicated: 6.768
+        Shared: 11.184
       Europe (Zurich):
         Dedicated: 8.026
         Shared: 12.442
@@ -92109,6 +93307,7 @@ r5.24xlarge:
     - us-west-2
     - us-gov-west-1
     - ap-south-1
+    - Europe (Spain)
     - Middle East (UAE)
     - me-south-1
     - eu-west-1
@@ -92195,6 +93394,9 @@ r5.2xlarge:
       eu-west-3:
         Dedicated: 0.628
         Shared: 0.592
+      Europe (Spain):
+        Dedicated: 0.598
+        Shared: 0.564
       Europe (Vodafone) - Berlin:
         Shared: 0.76
       Europe (Vodafone) - Dortmund:
@@ -92347,6 +93549,9 @@ r5.2xlarge:
       eu-west-3:
         Dedicated: 0.758
         Shared: 0.722
+      Europe (Spain):
+        Dedicated: 0.728
+        Shared: 0.694
       Europe (Vodafone) - Berlin:
         Shared: 0.89
       Europe (Vodafone) - Dortmund:
@@ -92499,6 +93704,9 @@ r5.2xlarge:
       eu-west-3:
         Dedicated: 0.793
         Shared: 0.757
+      Europe (Spain):
+        Dedicated: 0.763
+        Shared: 0.729
       Europe (Vodafone) - Berlin:
         Shared: 0.925
       Europe (Vodafone) - Dortmund:
@@ -92651,6 +93859,9 @@ r5.2xlarge:
       eu-west-3:
         Dedicated: 0.753
         Shared: 0.717
+      Europe (Spain):
+        Dedicated: 0.723
+        Shared: 0.689
       Europe (Vodafone) - Berlin:
         Shared: 0.885
       Europe (Vodafone) - Dortmund:
@@ -92803,6 +94014,9 @@ r5.2xlarge:
       eu-west-3:
         Dedicated: 0.996
         Shared: 0.96
+      Europe (Spain):
+        Dedicated: 0.598
+        Shared: 0.932
       Europe (Vodafone) - Berlin:
         Shared: 0.76
       Europe (Vodafone) - Dortmund:
@@ -92901,6 +94115,7 @@ r5.2xlarge:
     - US East (Verizon) - Miami
     - Asia Pacific (Osaka)
     - ap-south-1
+    - Europe (Spain)
     - ap-northeast-1
     - us-west-1
     - us-gov-west-1
@@ -93019,6 +94234,9 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.255
         Shared: 1.184
+      Europe (Spain):
+        Dedicated: 1.196
+        Shared: 1.128
       Europe (Zurich):
         Dedicated: 1.418
         Shared: 1.338
@@ -93101,6 +94319,9 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.385
         Shared: 1.314
+      Europe (Spain):
+        Dedicated: 1.326
+        Shared: 1.258
       Europe (Zurich):
         Dedicated: 1.548
         Shared: 1.468
@@ -93183,6 +94404,9 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.42
         Shared: 1.349
+      Europe (Spain):
+        Dedicated: 1.361
+        Shared: 1.293
       Europe (Zurich):
         Dedicated: 1.583
         Shared: 1.503
@@ -93265,6 +94489,9 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.38
         Shared: 1.309
+      Europe (Spain):
+        Dedicated: 1.321
+        Shared: 1.253
       Europe (Zurich):
         Dedicated: 1.543
         Shared: 1.463
@@ -93347,6 +94574,9 @@ r5.4xlarge:
       eu-west-3:
         Dedicated: 1.255
         Shared: 1.184
+      Europe (Spain):
+        Dedicated: 1.196
+        Shared: 1.864
       Europe (Zurich):
         Dedicated: 2.154
         Shared: 2.074
@@ -93393,6 +94623,7 @@ r5.4xlarge:
     - eu-central-1
     - ap-east-1
     - eu-west-1
+    - Europe (Spain)
     - us-east-2
     - ca-central-1
     - Middle East (UAE)
@@ -93470,6 +94701,9 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.51
         Shared: 2.368
+      Europe (Spain):
+        Dedicated: 2.391
+        Shared: 2.256
       Europe (Zurich):
         Dedicated: 2.836
         Shared: 2.675
@@ -93552,6 +94786,9 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.64
         Shared: 2.498
+      Europe (Spain):
+        Dedicated: 2.521
+        Shared: 2.386
       Europe (Zurich):
         Dedicated: 2.966
         Shared: 2.805
@@ -93634,6 +94871,9 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.675
         Shared: 2.533
+      Europe (Spain):
+        Dedicated: 2.556
+        Shared: 2.421
       Europe (Zurich):
         Dedicated: 3.001
         Shared: 2.84
@@ -93716,6 +94956,9 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.635
         Shared: 2.493
+      Europe (Spain):
+        Dedicated: 2.516
+        Shared: 2.381
       Europe (Zurich):
         Dedicated: 2.961
         Shared: 2.8
@@ -93798,6 +95041,9 @@ r5.8xlarge:
       eu-west-3:
         Dedicated: 2.51
         Shared: 3.84
+      Europe (Spain):
+        Dedicated: 3.863
+        Shared: 2.256
       Europe (Zurich):
         Dedicated: 4.308
         Shared: 4.147
@@ -93852,6 +95098,7 @@ r5.8xlarge:
     - eu-west-2
     - Middle East (UAE)
     - ap-northeast-1
+    - Europe (Spain)
     - Asia Pacific (Osaka)
     - ap-east-1
     - eu-west-1
@@ -93921,6 +95168,9 @@ r5.large:
       eu-west-3:
         Dedicated: 0.157
         Shared: 0.148
+      Europe (Spain):
+        Dedicated: 0.149
+        Shared: 0.141
       Europe (Zurich):
         Dedicated: 0.177
         Shared: 0.167
@@ -94003,6 +95253,9 @@ r5.large:
       eu-west-3:
         Dedicated: 0.217
         Shared: 0.208
+      Europe (Spain):
+        Dedicated: 0.209
+        Shared: 0.201
       Europe (Zurich):
         Dedicated: 0.237
         Shared: 0.227
@@ -94085,6 +95338,9 @@ r5.large:
       eu-west-3:
         Dedicated: 0.252
         Shared: 0.243
+      Europe (Spain):
+        Dedicated: 0.244
+        Shared: 0.236
       Europe (Zurich):
         Dedicated: 0.272
         Shared: 0.262
@@ -94167,6 +95423,9 @@ r5.large:
       eu-west-3:
         Dedicated: 0.213
         Shared: 0.204
+      Europe (Spain):
+        Dedicated: 0.206
+        Shared: 0.197
       Europe (Zurich):
         Dedicated: 0.234
         Shared: 0.224
@@ -94249,6 +95508,9 @@ r5.large:
       eu-west-3:
         Dedicated: 0.249
         Shared: 0.24
+      Europe (Spain):
+        Dedicated: 0.149
+        Shared: 0.141
       Europe (Zurich):
         Dedicated: 0.177
         Shared: 0.259
@@ -94285,6 +95547,7 @@ r5.large:
   regions:
     - ap-northeast-2
     - ap-southeast-1
+    - Europe (Spain)
     - eu-central-1
     - me-south-1
     - ap-east-1
@@ -94372,6 +95635,9 @@ r5.metal:
       eu-west-3:
         Dedicated: 7.104
         Shared: 7.104
+      Europe (Spain):
+        Dedicated: 6.768
+        Shared: 6.768
       Europe (Zurich):
         Dedicated: 8.026
         Shared: 8.026
@@ -94454,6 +95720,9 @@ r5.metal:
       eu-west-3:
         Dedicated: 7.234
         Shared: 7.234
+      Europe (Spain):
+        Dedicated: 6.898
+        Shared: 6.898
       Europe (Zurich):
         Dedicated: 8.156
         Shared: 8.156
@@ -94536,6 +95805,9 @@ r5.metal:
       eu-west-3:
         Dedicated: 7.269
         Shared: 7.269
+      Europe (Spain):
+        Dedicated: 6.933
+        Shared: 6.933
       Europe (Zurich):
         Dedicated: 8.191
         Shared: 8.191
@@ -94618,6 +95890,9 @@ r5.metal:
       eu-west-3:
         Dedicated: 7.229
         Shared: 7.229
+      Europe (Spain):
+        Dedicated: 6.893
+        Shared: 6.893
       Europe (Zurich):
         Dedicated: 8.151
         Shared: 8.151
@@ -94700,6 +95975,9 @@ r5.metal:
       eu-west-3:
         Dedicated: 11.52
         Shared: 7.104
+      Europe (Spain):
+        Dedicated: 11.184
+        Shared: 11.184
       Europe (Zurich):
         Dedicated: 12.442
         Shared: 8.026
@@ -94742,6 +96020,7 @@ r5.metal:
     - us-east-1
     - ap-southeast-1
     - us-west-2
+    - Europe (Spain)
     - eu-north-1
     - us-west-2-lax-1a
     - Asia Pacific (Osaka)
@@ -94823,6 +96102,9 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.314
         Shared: 0.296
+      Europe (Spain):
+        Dedicated: 0.299
+        Shared: 0.282
       Europe (Zurich):
         Dedicated: 0.354
         Shared: 0.334
@@ -94905,6 +96187,9 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.374
         Shared: 0.356
+      Europe (Spain):
+        Dedicated: 0.359
+        Shared: 0.342
       Europe (Zurich):
         Dedicated: 0.414
         Shared: 0.394
@@ -94987,6 +96272,9 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.409
         Shared: 0.391
+      Europe (Spain):
+        Dedicated: 0.394
+        Shared: 0.377
       Europe (Zurich):
         Dedicated: 0.449
         Shared: 0.429
@@ -95069,6 +96357,9 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.37
         Shared: 0.352
+      Europe (Spain):
+        Dedicated: 0.355
+        Shared: 0.338
       Europe (Zurich):
         Dedicated: 0.411
         Shared: 0.391
@@ -95151,6 +96442,9 @@ r5.xlarge:
       eu-west-3:
         Dedicated: 0.314
         Shared: 0.48
+      Europe (Spain):
+        Dedicated: 0.299
+        Shared: 0.282
       Europe (Zurich):
         Dedicated: 0.538
         Shared: 0.518
@@ -95197,6 +96491,7 @@ r5.xlarge:
     - us-gov-east-1
     - eu-south-1
     - ap-south-1
+    - Europe (Spain)
     - ap-northeast-2
     - me-south-1
     - Middle East (UAE)
@@ -101804,6 +103099,9 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 4.3
         Shared: 4.056
+      Europe (Spain):
+        Dedicated: 4.07
+        Shared: 3.84
       Europe (Zurich):
         Dedicated: 4.841
         Shared: 4.567
@@ -101886,6 +103184,9 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 4.43
         Shared: 4.186
+      Europe (Spain):
+        Dedicated: 4.2
+        Shared: 3.97
       Europe (Zurich):
         Dedicated: 4.971
         Shared: 4.697
@@ -101968,6 +103269,9 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 4.464
         Shared: 4.221
+      Europe (Spain):
+        Dedicated: 4.235
+        Shared: 4.005
       Europe (Zurich):
         Dedicated: 5.006
         Shared: 4.732
@@ -102050,6 +103354,9 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 4.424
         Shared: 4.181
+      Europe (Spain):
+        Dedicated: 4.195
+        Shared: 3.965
       Europe (Zurich):
         Dedicated: 4.966
         Shared: 4.692
@@ -102132,6 +103439,9 @@ r5d.12xlarge:
       eu-west-3:
         Dedicated: 6.508
         Shared: 6.264
+      Europe (Spain):
+        Dedicated: 4.07
+        Shared: 3.84
       Europe (Zurich):
         Dedicated: 7.049
         Shared: 4.567
@@ -102186,6 +103496,7 @@ r5d.12xlarge:
     - us-east-1
     - ap-south-1
     - ap-southeast-2
+    - Europe (Spain)
     - ap-northeast-2
     - ap-southeast-1
     - Asia Pacific (Osaka)
@@ -102256,6 +103567,9 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 5.733
         Shared: 5.408
+      Europe (Spain):
+        Dedicated: 5.427
+        Shared: 5.12
       Europe (Zurich):
         Dedicated: 6.455
         Shared: 6.09
@@ -102338,6 +103652,9 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 5.863
         Shared: 5.538
+      Europe (Spain):
+        Dedicated: 5.557
+        Shared: 5.25
       Europe (Zurich):
         Dedicated: 6.585
         Shared: 6.22
@@ -102420,6 +103737,9 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 5.897
         Shared: 5.573
+      Europe (Spain):
+        Dedicated: 5.592
+        Shared: 5.285
       Europe (Zurich):
         Dedicated: 6.62
         Shared: 6.255
@@ -102502,6 +103822,9 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 5.857
         Shared: 5.533
+      Europe (Spain):
+        Dedicated: 5.552
+        Shared: 5.245
       Europe (Zurich):
         Dedicated: 6.58
         Shared: 6.215
@@ -102584,6 +103907,9 @@ r5d.16xlarge:
       eu-west-3:
         Dedicated: 8.677
         Shared: 8.352
+      Europe (Spain):
+        Dedicated: 5.427
+        Shared: 8.064
       Europe (Zurich):
         Dedicated: 9.399
         Shared: 9.034
@@ -102627,6 +103953,7 @@ r5d.16xlarge:
     - us-gov-east-1
     - eu-west-1
     - us-west-1
+    - Europe (Spain)
     - Asia Pacific (Osaka)
     - ap-south-1
     - Middle East (UAE)
@@ -102708,6 +104035,9 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 8.112
         Shared: 8.112
+      Europe (Spain):
+        Dedicated: 7.68
+        Shared: 7.68
       Europe (Zurich):
         Dedicated: 9.134
         Shared: 9.134
@@ -102790,6 +104120,9 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 8.242
         Shared: 8.242
+      Europe (Spain):
+        Dedicated: 7.81
+        Shared: 7.81
       Europe (Zurich):
         Dedicated: 9.264
         Shared: 9.264
@@ -102872,6 +104205,9 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 8.277
         Shared: 8.277
+      Europe (Spain):
+        Dedicated: 7.845
+        Shared: 7.845
       Europe (Zurich):
         Dedicated: 9.299
         Shared: 9.299
@@ -102954,6 +104290,9 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 8.237
         Shared: 8.237
+      Europe (Spain):
+        Dedicated: 7.805
+        Shared: 7.805
       Europe (Zurich):
         Dedicated: 9.259
         Shared: 9.259
@@ -103036,6 +104375,9 @@ r5d.24xlarge:
       eu-west-3:
         Dedicated: 12.528
         Shared: 12.528
+      Europe (Spain):
+        Dedicated: 12.096
+        Shared: 12.096
       Europe (Zurich):
         Dedicated: 13.55
         Shared: 13.55
@@ -103074,6 +104416,7 @@ r5d.24xlarge:
     - eu-central-1
     - us-gov-west-1
     - ap-southeast-1
+    - Europe (Spain)
     - ap-southeast-3
     - us-east-2
     - eu-west-1
@@ -103160,6 +104503,9 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 0.717
         Shared: 0.676
+      Europe (Spain):
+        Dedicated: 0.678
+        Shared: 0.64
       Europe (Zurich):
         Dedicated: 0.807
         Shared: 0.761
@@ -103287,6 +104633,9 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 0.847
         Shared: 0.806
+      Europe (Spain):
+        Dedicated: 0.808
+        Shared: 0.77
       Europe (Zurich):
         Dedicated: 0.937
         Shared: 0.891
@@ -103414,6 +104763,9 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 0.882
         Shared: 0.841
+      Europe (Spain):
+        Dedicated: 0.843
+        Shared: 0.805
       Europe (Zurich):
         Dedicated: 0.972
         Shared: 0.926
@@ -103541,6 +104893,9 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 0.842
         Shared: 0.801
+      Europe (Spain):
+        Dedicated: 0.803
+        Shared: 0.765
       Europe (Zurich):
         Dedicated: 0.932
         Shared: 0.886
@@ -103668,6 +105023,9 @@ r5d.2xlarge:
       eu-west-3:
         Dedicated: 1.085
         Shared: 1.044
+      Europe (Spain):
+        Dedicated: 1.046
+        Shared: 0.64
       Europe (Zurich):
         Dedicated: 1.175
         Shared: 0.761
@@ -103774,6 +105132,7 @@ r5d.2xlarge:
     - eu-west-3
     - eu-south-1
     - us-gov-west-1
+    - Europe (Spain)
     - us-east-1
     - af-south-1
     - us-east-2
@@ -103851,6 +105210,9 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 1.433
         Shared: 1.352
+      Europe (Spain):
+        Dedicated: 1.357
+        Shared: 1.28
       Europe (Zurich):
         Dedicated: 1.614
         Shared: 1.522
@@ -103933,6 +105295,9 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 1.563
         Shared: 1.482
+      Europe (Spain):
+        Dedicated: 1.487
+        Shared: 1.41
       Europe (Zurich):
         Dedicated: 1.744
         Shared: 1.652
@@ -104015,6 +105380,9 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 1.598
         Shared: 1.517
+      Europe (Spain):
+        Dedicated: 1.522
+        Shared: 1.445
       Europe (Zurich):
         Dedicated: 1.779
         Shared: 1.687
@@ -104097,6 +105465,9 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 1.558
         Shared: 1.477
+      Europe (Spain):
+        Dedicated: 1.482
+        Shared: 1.405
       Europe (Zurich):
         Dedicated: 1.739
         Shared: 1.647
@@ -104179,6 +105550,9 @@ r5d.4xlarge:
       eu-west-3:
         Dedicated: 2.169
         Shared: 2.088
+      Europe (Spain):
+        Dedicated: 1.357
+        Shared: 2.016
       Europe (Zurich):
         Dedicated: 1.614
         Shared: 1.522
@@ -104218,6 +105592,7 @@ r5d.4xlarge:
     - ap-southeast-2
     - Asia Pacific (Osaka)
     - ap-northeast-2
+    - Europe (Spain)
     - us-gov-east-1
     - ca-central-1
     - us-west-1
@@ -104303,6 +105678,9 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 2.866
         Shared: 2.704
+      Europe (Spain):
+        Dedicated: 2.714
+        Shared: 2.56
       Europe (Zurich):
         Dedicated: 3.227
         Shared: 3.045
@@ -104385,6 +105763,9 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 2.996
         Shared: 2.834
+      Europe (Spain):
+        Dedicated: 2.844
+        Shared: 2.69
       Europe (Zurich):
         Dedicated: 3.357
         Shared: 3.175
@@ -104467,6 +105848,9 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 3.031
         Shared: 2.869
+      Europe (Spain):
+        Dedicated: 2.879
+        Shared: 2.725
       Europe (Zurich):
         Dedicated: 3.392
         Shared: 3.21
@@ -104549,6 +105933,9 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 2.991
         Shared: 2.829
+      Europe (Spain):
+        Dedicated: 2.839
+        Shared: 2.685
       Europe (Zurich):
         Dedicated: 3.352
         Shared: 3.17
@@ -104631,6 +106018,9 @@ r5d.8xlarge:
       eu-west-3:
         Dedicated: 4.338
         Shared: 4.176
+      Europe (Spain):
+        Dedicated: 4.186
+        Shared: 4.032
       Europe (Zurich):
         Dedicated: 4.699
         Shared: 4.517
@@ -104675,6 +106065,7 @@ r5d.8xlarge:
     - Europe (Zurich)
     - ap-southeast-2
     - me-south-1
+    - Europe (Spain)
     - eu-west-2
     - us-east-1
     - ap-northeast-2
@@ -104756,6 +106147,9 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.179
         Shared: 0.169
+      Europe (Spain):
+        Dedicated: 0.17
+        Shared: 0.16
       Europe (Zurich):
         Dedicated: 0.202
         Shared: 0.19
@@ -104838,6 +106232,9 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.239
         Shared: 0.229
+      Europe (Spain):
+        Dedicated: 0.23
+        Shared: 0.22
       Europe (Zurich):
         Dedicated: 0.262
         Shared: 0.25
@@ -104920,6 +106317,9 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.274
         Shared: 0.264
+      Europe (Spain):
+        Dedicated: 0.265
+        Shared: 0.255
       Europe (Zurich):
         Dedicated: 0.297
         Shared: 0.285
@@ -105002,6 +106402,9 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.235
         Shared: 0.225
+      Europe (Spain):
+        Dedicated: 0.226
+        Shared: 0.216
       Europe (Zurich):
         Dedicated: 0.258
         Shared: 0.247
@@ -105084,6 +106487,9 @@ r5d.large:
       eu-west-3:
         Dedicated: 0.271
         Shared: 0.261
+      Europe (Spain):
+        Dedicated: 0.17
+        Shared: 0.16
       Europe (Zurich):
         Dedicated: 0.294
         Shared: 0.282
@@ -105145,6 +106551,7 @@ r5d.large:
     - eu-west-3
     - ap-southeast-1
     - ap-southeast-2
+    - Europe (Spain)
     - 'us-east-1-mia-1a '
   storage: 1 x 75 NVMe SSD
   vcpu: 2
@@ -105208,6 +106615,9 @@ r5d.metal:
       eu-west-3:
         Dedicated: 8.112
         Shared: 8.112
+      Europe (Spain):
+        Dedicated: 7.68
+        Shared: 7.68
       Europe (Zurich):
         Dedicated: 9.134
         Shared: 9.134
@@ -105290,6 +106700,9 @@ r5d.metal:
       eu-west-3:
         Dedicated: 8.242
         Shared: 8.242
+      Europe (Spain):
+        Dedicated: 7.81
+        Shared: 7.81
       Europe (Zurich):
         Dedicated: 9.264
         Shared: 9.264
@@ -105372,6 +106785,9 @@ r5d.metal:
       eu-west-3:
         Dedicated: 8.277
         Shared: 8.277
+      Europe (Spain):
+        Dedicated: 7.845
+        Shared: 7.845
       Europe (Zurich):
         Dedicated: 9.299
         Shared: 9.299
@@ -105454,6 +106870,9 @@ r5d.metal:
       eu-west-3:
         Dedicated: 8.237
         Shared: 8.237
+      Europe (Spain):
+        Dedicated: 7.805
+        Shared: 7.805
       Europe (Zurich):
         Dedicated: 9.259
         Shared: 9.259
@@ -105536,6 +106955,9 @@ r5d.metal:
       eu-west-3:
         Dedicated: 12.528
         Shared: 12.528
+      Europe (Spain):
+        Dedicated: 7.68
+        Shared: 7.68
       Europe (Zurich):
         Dedicated: 9.134
         Shared: 9.134
@@ -105571,6 +106993,7 @@ r5d.metal:
         Shared: 12.71
   regions:
     - me-south-1
+    - Europe (Spain)
     - af-south-1
     - ap-east-1
     - us-west-1
@@ -105660,6 +107083,9 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.358
         Shared: 0.338
+      Europe (Spain):
+        Dedicated: 0.339
+        Shared: 0.32
       Europe (Zurich):
         Dedicated: 0.403
         Shared: 0.381
@@ -105742,6 +107168,9 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.418
         Shared: 0.398
+      Europe (Spain):
+        Dedicated: 0.399
+        Shared: 0.38
       Europe (Zurich):
         Dedicated: 0.463
         Shared: 0.441
@@ -105824,6 +107253,9 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.453
         Shared: 0.433
+      Europe (Spain):
+        Dedicated: 0.434
+        Shared: 0.415
       Europe (Zurich):
         Dedicated: 0.498
         Shared: 0.476
@@ -105906,6 +107338,9 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.415
         Shared: 0.394
+      Europe (Spain):
+        Dedicated: 0.396
+        Shared: 0.376
       Europe (Zurich):
         Dedicated: 0.46
         Shared: 0.437
@@ -105988,6 +107423,9 @@ r5d.xlarge:
       eu-west-3:
         Dedicated: 0.542
         Shared: 0.522
+      Europe (Spain):
+        Dedicated: 0.523
+        Shared: 0.504
       Europe (Zurich):
         Dedicated: 0.403
         Shared: 0.381
@@ -106043,6 +107481,7 @@ r5d.xlarge:
     - eu-central-1
     - af-south-1
     - Asia Pacific (Osaka)
+    - Europe (Spain)
     - eu-west-2
     - eu-north-1
     - ca-central-1
@@ -112723,6 +114162,9 @@ r6g.12xlarge:
       eu-west-3:
         Dedicated: 3.0024
         Shared: 2.832
+      Europe (Spain):
+        Dedicated: 2.8696
+        Shared: 2.7072
       Middle East (UAE):
         Dedicated: 3.1566
         Shared: 2.9779
@@ -112790,6 +114232,9 @@ r6g.12xlarge:
       eu-west-3:
         Dedicated: 3.1324
         Shared: 2.962
+      Europe (Spain):
+        Dedicated: 2.9996
+        Shared: 2.8372
       Middle East (UAE):
         Dedicated: 3.2866
         Shared: 3.1079
@@ -112857,6 +114302,9 @@ r6g.12xlarge:
       eu-west-3:
         Dedicated: 3.1674
         Shared: 2.997
+      Europe (Spain):
+        Dedicated: 3.0346
+        Shared: 2.8722
       Middle East (UAE):
         Dedicated: 3.3216
         Shared: 3.1429
@@ -112924,6 +114372,9 @@ r6g.12xlarge:
       eu-west-3:
         Dedicated: 3.1274
         Shared: 2.957
+      Europe (Spain):
+        Dedicated: 2.9946
+        Shared: 2.8322
       Middle East (UAE):
         Dedicated: 3.2816
         Shared: 3.1029
@@ -112960,6 +114411,7 @@ r6g.12xlarge:
     - ap-southeast-1
     - eu-north-1
     - us-gov-west-1
+    - Europe (Spain)
     - us-west-2
     - eu-west-2
     - ap-northeast-2
@@ -113026,6 +114478,9 @@ r6g.16xlarge:
       eu-west-3:
         Dedicated: 4.0032
         Shared: 3.776
+      Europe (Spain):
+        Dedicated: 3.6096
+        Shared: 3.6096
       Middle East (UAE):
         Dedicated: 3.9706
         Shared: 3.9706
@@ -113093,6 +114548,9 @@ r6g.16xlarge:
       eu-west-3:
         Dedicated: 4.1332
         Shared: 3.906
+      Europe (Spain):
+        Dedicated: 3.7396
+        Shared: 3.7396
       Middle East (UAE):
         Dedicated: 4.1006
         Shared: 4.1006
@@ -113160,6 +114618,9 @@ r6g.16xlarge:
       eu-west-3:
         Dedicated: 4.1682
         Shared: 3.941
+      Europe (Spain):
+        Dedicated: 3.7746
+        Shared: 3.7746
       Middle East (UAE):
         Dedicated: 4.1356
         Shared: 4.1356
@@ -113227,6 +114688,9 @@ r6g.16xlarge:
       eu-west-3:
         Dedicated: 3.901
         Shared: 3.901
+      Europe (Spain):
+        Dedicated: 3.7346
+        Shared: 3.7346
       Middle East (UAE):
         Dedicated: 4.0956
         Shared: 4.0956
@@ -113265,6 +114729,7 @@ r6g.16xlarge:
     - eu-west-2
     - ap-southeast-2
     - ap-southeast-3
+    - Europe (Spain)
     - eu-west-1
     - Middle East (UAE)
     - eu-west-3
@@ -113329,6 +114794,9 @@ r6g.2xlarge:
       eu-west-3:
         Dedicated: 0.5004
         Shared: 0.472
+      Europe (Spain):
+        Dedicated: 0.4783
+        Shared: 0.4512
       Middle East (UAE):
         Dedicated: 0.5261
         Shared: 0.4963
@@ -113396,6 +114864,9 @@ r6g.2xlarge:
       eu-west-3:
         Dedicated: 0.6304
         Shared: 0.602
+      Europe (Spain):
+        Dedicated: 0.6083
+        Shared: 0.5812
       Middle East (UAE):
         Dedicated: 0.6561
         Shared: 0.6263
@@ -113463,6 +114934,9 @@ r6g.2xlarge:
       eu-west-3:
         Dedicated: 0.6654
         Shared: 0.637
+      Europe (Spain):
+        Dedicated: 0.6433
+        Shared: 0.6162
       Middle East (UAE):
         Dedicated: 0.6911
         Shared: 0.6613
@@ -113530,6 +115004,9 @@ r6g.2xlarge:
       eu-west-3:
         Dedicated: 0.6254
         Shared: 0.597
+      Europe (Spain):
+        Dedicated: 0.6033
+        Shared: 0.5762
       Middle East (UAE):
         Dedicated: 0.6511
         Shared: 0.6213
@@ -113566,6 +115043,7 @@ r6g.2xlarge:
     - ap-southeast-2
     - us-gov-east-1
     - us-east-2
+    - Europe (Spain)
     - ap-south-1
     - eu-west-3
     - Middle East (UAE)
@@ -113632,6 +115110,9 @@ r6g.4xlarge:
       eu-west-3:
         Dedicated: 1.0008
         Shared: 0.944
+      Europe (Spain):
+        Dedicated: 0.9565
+        Shared: 0.9024
       Middle East (UAE):
         Dedicated: 1.0522
         Shared: 0.9926
@@ -113699,6 +115180,9 @@ r6g.4xlarge:
       eu-west-3:
         Dedicated: 1.1308
         Shared: 1.074
+      Europe (Spain):
+        Dedicated: 1.0865
+        Shared: 1.0324
       Middle East (UAE):
         Dedicated: 1.1822
         Shared: 1.1226
@@ -113766,6 +115250,9 @@ r6g.4xlarge:
       eu-west-3:
         Dedicated: 1.1658
         Shared: 1.109
+      Europe (Spain):
+        Dedicated: 1.1215
+        Shared: 1.0674
       Middle East (UAE):
         Dedicated: 1.2172
         Shared: 1.1576
@@ -113833,6 +115320,9 @@ r6g.4xlarge:
       eu-west-3:
         Dedicated: 1.1258
         Shared: 1.069
+      Europe (Spain):
+        Dedicated: 1.0815
+        Shared: 1.0274
       Middle East (UAE):
         Dedicated: 1.1772
         Shared: 1.1176
@@ -113858,6 +115348,7 @@ r6g.4xlarge:
         Dedicated: 0.9798
         Shared: 0.9314
   regions:
+    - Europe (Spain)
     - ap-northeast-2
     - ap-south-1
     - ap-southeast-2
@@ -113935,6 +115426,9 @@ r6g.8xlarge:
       eu-west-3:
         Dedicated: 2.0016
         Shared: 1.888
+      Europe (Spain):
+        Dedicated: 1.9131
+        Shared: 1.8048
       Middle East (UAE):
         Dedicated: 2.1044
         Shared: 1.9853
@@ -114002,6 +115496,9 @@ r6g.8xlarge:
       eu-west-3:
         Dedicated: 2.1316
         Shared: 2.018
+      Europe (Spain):
+        Dedicated: 2.0431
+        Shared: 1.9348
       Middle East (UAE):
         Dedicated: 2.2344
         Shared: 2.1153
@@ -114069,6 +115566,9 @@ r6g.8xlarge:
       eu-west-3:
         Dedicated: 2.1666
         Shared: 2.053
+      Europe (Spain):
+        Dedicated: 2.0781
+        Shared: 1.9698
       Middle East (UAE):
         Dedicated: 2.2694
         Shared: 2.1503
@@ -114136,6 +115636,9 @@ r6g.8xlarge:
       eu-west-3:
         Dedicated: 2.1266
         Shared: 2.013
+      Europe (Spain):
+        Dedicated: 2.0381
+        Shared: 1.9298
       Middle East (UAE):
         Dedicated: 2.2294
         Shared: 2.1103
@@ -114169,6 +115672,7 @@ r6g.8xlarge:
     - us-west-1
     - sa-east-1
     - eu-south-1
+    - Europe (Spain)
     - eu-central-1
     - us-east-2
     - eu-west-3
@@ -114238,6 +115742,9 @@ r6g.large:
       eu-west-3:
         Dedicated: 0.1251
         Shared: 0.118
+      Europe (Spain):
+        Dedicated: 0.1196
+        Shared: 0.1128
       Middle East (UAE):
         Dedicated: 0.1315
         Shared: 0.1241
@@ -114305,6 +115812,9 @@ r6g.large:
       eu-west-3:
         Dedicated: 0.1851
         Shared: 0.178
+      Europe (Spain):
+        Dedicated: 0.1796
+        Shared: 0.1728
       Middle East (UAE):
         Dedicated: 0.1915
         Shared: 0.1841
@@ -114372,6 +115882,9 @@ r6g.large:
       eu-west-3:
         Dedicated: 0.2201
         Shared: 0.213
+      Europe (Spain):
+        Dedicated: 0.2146
+        Shared: 0.2078
       Middle East (UAE):
         Dedicated: 0.2265
         Shared: 0.2191
@@ -114439,6 +115952,9 @@ r6g.large:
       eu-west-3:
         Dedicated: 0.1814
         Shared: 0.1743
+      Europe (Spain):
+        Dedicated: 0.1759
+        Shared: 0.1691
       Middle East (UAE):
         Dedicated: 0.1878
         Shared: 0.1804
@@ -114475,6 +115991,7 @@ r6g.large:
     - us-east-1
     - us-west-1
     - eu-north-1
+    - Europe (Spain)
     - us-gov-east-1
     - ap-southeast-2
     - us-gov-west-1
@@ -114541,6 +116058,9 @@ r6g.medium:
       eu-west-3:
         Dedicated: 0.0625
         Shared: 0.059
+      Europe (Spain):
+        Dedicated: 0.0598
+        Shared: 0.0564
       Middle East (UAE):
         Dedicated: 0.0658
         Shared: 0.062
@@ -114608,6 +116128,9 @@ r6g.medium:
       eu-west-3:
         Dedicated: 0.1225
         Shared: 0.119
+      Europe (Spain):
+        Dedicated: 0.1198
+        Shared: 0.1164
       Middle East (UAE):
         Dedicated: 0.1258
         Shared: 0.122
@@ -114675,6 +116198,9 @@ r6g.medium:
       eu-west-3:
         Dedicated: 0.1575
         Shared: 0.154
+      Europe (Spain):
+        Dedicated: 0.1548
+        Shared: 0.1514
       Middle East (UAE):
         Dedicated: 0.1608
         Shared: 0.157
@@ -114742,6 +116268,9 @@ r6g.medium:
       eu-west-3:
         Dedicated: 0.0935
         Shared: 0.09
+      Europe (Spain):
+        Dedicated: 0.1161
+        Shared: 0.1127
       Middle East (UAE):
         Dedicated: 0.1221
         Shared: 0.1183
@@ -114775,6 +116304,7 @@ r6g.medium:
     - us-gov-west-1
     - us-west-1
     - ap-southeast-3
+    - Europe (Spain)
     - ap-northeast-1
     - ap-east-1
     - eu-west-2
@@ -114844,6 +116374,9 @@ r6g.metal:
       eu-west-3:
         Dedicated: 4.0032
         Shared: 3.776
+      Europe (Spain):
+        Dedicated: 3.6096
+        Shared: 3.6096
       Middle East (UAE):
         Dedicated: 3.9706
         Shared: 3.9706
@@ -114911,6 +116444,9 @@ r6g.metal:
       eu-west-3:
         Dedicated: 4.1332
         Shared: 3.906
+      Europe (Spain):
+        Dedicated: 3.7396
+        Shared: 3.7396
       Middle East (UAE):
         Dedicated: 4.1006
         Shared: 4.1006
@@ -114978,6 +116514,9 @@ r6g.metal:
       eu-west-3:
         Dedicated: 4.1682
         Shared: 3.941
+      Europe (Spain):
+        Dedicated: 3.7746
+        Shared: 3.7746
       Middle East (UAE):
         Dedicated: 4.1356
         Shared: 4.1356
@@ -115045,6 +116584,9 @@ r6g.metal:
       eu-west-3:
         Dedicated: 3.901
         Shared: 3.901
+      Europe (Spain):
+        Dedicated: 3.7346
+        Shared: 3.7346
       Middle East (UAE):
         Dedicated: 4.0956
         Shared: 4.0956
@@ -115071,6 +116613,7 @@ r6g.metal:
         Shared: 3.3506
   regions:
     - eu-central-1
+    - Europe (Spain)
     - us-west-1
     - ap-southeast-1
     - us-gov-west-1
@@ -115147,6 +116690,9 @@ r6g.xlarge:
       eu-west-3:
         Dedicated: 0.2502
         Shared: 0.236
+      Europe (Spain):
+        Dedicated: 0.2391
+        Shared: 0.2256
       Middle East (UAE):
         Dedicated: 0.263
         Shared: 0.2482
@@ -115214,6 +116760,9 @@ r6g.xlarge:
       eu-west-3:
         Dedicated: 0.3102
         Shared: 0.296
+      Europe (Spain):
+        Dedicated: 0.2991
+        Shared: 0.2856
       Middle East (UAE):
         Dedicated: 0.323
         Shared: 0.3082
@@ -115281,6 +116830,9 @@ r6g.xlarge:
       eu-west-3:
         Dedicated: 0.3452
         Shared: 0.331
+      Europe (Spain):
+        Dedicated: 0.3341
+        Shared: 0.3206
       Middle East (UAE):
         Dedicated: 0.358
         Shared: 0.3432
@@ -115348,6 +116900,9 @@ r6g.xlarge:
       eu-west-3:
         Dedicated: 0.3065
         Shared: 0.2923
+      Europe (Spain):
+        Dedicated: 0.2954
+        Shared: 0.2819
       Middle East (UAE):
         Dedicated: 0.3193
         Shared: 0.3045
@@ -115383,6 +116938,7 @@ r6g.xlarge:
     - ap-southeast-1
     - ap-southeast-3
     - ap-northeast-1
+    - Europe (Spain)
     - eu-west-1
     - us-gov-east-1
     - eu-central-1
@@ -123108,6 +124664,8 @@ t3.2xlarge:
         Shared: 0.3776
       eu-west-3:
         Shared: 0.3776
+      Europe (Spain):
+        Shared: 0.3648
       Europe (Zurich):
         Shared: 0.4224
       me-south-1:
@@ -123180,6 +124738,8 @@ t3.2xlarge:
         Shared: 0.5076
       eu-west-3:
         Shared: 0.5076
+      Europe (Spain):
+        Shared: 0.4948
       Europe (Zurich):
         Shared: 0.5524
       me-south-1:
@@ -123241,6 +124801,8 @@ t3.2xlarge:
         Shared: 0.5426
       eu-west-3:
         Shared: 0.5426
+      Europe (Spain):
+        Shared: 0.5298
       Europe (Zurich):
         Shared: 0.5874
       me-south-1:
@@ -123307,6 +124869,8 @@ t3.2xlarge:
         Shared: 0.5026
       eu-west-3:
         Shared: 0.5026
+      Europe (Spain):
+        Shared: 0.4898
       Europe (Zurich):
         Shared: 0.5474
       me-south-1:
@@ -123379,6 +124943,8 @@ t3.2xlarge:
         Shared: 0.5248
       eu-west-3:
         Shared: 0.5248
+      Europe (Spain):
+        Shared: 0.3648
       Europe (Zurich):
         Shared: 0.5696
       me-south-1:
@@ -123409,6 +124975,7 @@ t3.2xlarge:
         Shared: 0.5466
   regions:
     - eu-west-3
+    - Europe (Spain)
     - ap-east-1
     - eu-west-2
     - us-west-2
@@ -123492,6 +125059,8 @@ t3.large:
         Shared: 0.0944
       eu-west-3:
         Shared: 0.0944
+      Europe (Spain):
+        Shared: 0.0912
       Europe (Zurich):
         Shared: 0.1056
       me-south-1:
@@ -123564,6 +125133,8 @@ t3.large:
         Shared: 0.1544
       eu-west-3:
         Shared: 0.1544
+      Europe (Spain):
+        Shared: 0.1512
       Europe (Zurich):
         Shared: 0.1656
       me-south-1:
@@ -123625,6 +125196,8 @@ t3.large:
         Shared: 0.1894
       eu-west-3:
         Shared: 0.1894
+      Europe (Spain):
+        Shared: 0.1862
       Europe (Zurich):
         Shared: 0.2006
       me-south-1:
@@ -123691,6 +125264,8 @@ t3.large:
         Shared: 0.1507
       eu-west-3:
         Shared: 0.1507
+      Europe (Spain):
+        Shared: 0.1475
       Europe (Zurich):
         Shared: 0.1619
       me-south-1:
@@ -123763,6 +125338,8 @@ t3.large:
         Shared: 0.122
       eu-west-3:
         Shared: 0.122
+      Europe (Spain):
+        Shared: 0.1188
       Europe (Zurich):
         Shared: 0.1056
       me-south-1:
@@ -123805,6 +125382,7 @@ t3.large:
     - ca-central-1
     - Asia Pacific (Osaka)
     - me-south-1
+    - Europe (Spain)
     - sa-east-1
     - Middle East (UAE)
     - Europe (Zurich)
@@ -123886,6 +125464,8 @@ t3.medium:
         Shared: 0.0472
       eu-west-3:
         Shared: 0.0472
+      Europe (Spain):
+        Shared: 0.0456
       Europe (Vodafone) - Berlin:
         Shared: 0.06
       Europe (Vodafone) - Dortmund:
@@ -124046,6 +125626,8 @@ t3.medium:
         Shared: 0.1072
       eu-west-3:
         Shared: 0.1072
+      Europe (Spain):
+        Shared: 0.1056
       Europe (Vodafone) - Berlin:
         Shared: 0.12
       Europe (Vodafone) - Dortmund:
@@ -124195,6 +125777,8 @@ t3.medium:
         Shared: 0.1422
       eu-west-3:
         Shared: 0.1422
+      Europe (Spain):
+        Shared: 0.1406
       Europe (Vodafone) - Berlin:
         Shared: 0.155
       Europe (Vodafone) - Dortmund:
@@ -124349,6 +125933,8 @@ t3.medium:
         Shared: 0.1035
       eu-west-3:
         Shared: 0.1035
+      Europe (Spain):
+        Shared: 0.1019
       Europe (Vodafone) - Berlin:
         Shared: 0.1163
       Europe (Vodafone) - Dortmund:
@@ -124509,6 +126095,8 @@ t3.medium:
         Shared: 0.0656
       eu-west-3:
         Shared: 0.0656
+      Europe (Spain):
+        Shared: 0.0456
       Europe (Vodafone) - Berlin:
         Shared: 0.0784
       Europe (Vodafone) - Dortmund:
@@ -124668,6 +126256,7 @@ t3.medium:
     - US East (Verizon) - Tampa
     - US West (Verizon) - Las Vegas
     - ap-east-1
+    - Europe (Spain)
     - ca-central-1
     - ap-northeast-1
     - Europe (Zurich)
@@ -124744,6 +126333,8 @@ t3.micro:
         Shared: 0.0118
       eu-west-3:
         Shared: 0.0118
+      Europe (Spain):
+        Shared: 0.0114
       Europe (Zurich):
         Shared: 0.0132
       me-south-1:
@@ -124816,6 +126407,8 @@ t3.micro:
         Shared: 0.0718
       eu-west-3:
         Shared: 0.0718
+      Europe (Spain):
+        Shared: 0.0714
       Europe (Zurich):
         Shared: 0.0732
       me-south-1:
@@ -124877,6 +126470,8 @@ t3.micro:
         Shared: 0.1068
       eu-west-3:
         Shared: 0.1068
+      Europe (Spain):
+        Shared: 0.1064
       Europe (Zurich):
         Shared: 0.1082
       me-south-1:
@@ -124943,6 +126538,8 @@ t3.micro:
         Shared: 0.0118
       eu-west-3:
         Shared: 0.0118
+      Europe (Spain):
+        Shared: 0.0114
       Europe (Zurich):
         Shared: 0.0132
       me-south-1:
@@ -125015,6 +126612,8 @@ t3.micro:
         Shared: 0.021
       eu-west-3:
         Shared: 0.021
+      Europe (Spain):
+        Shared: 0.0206
       Europe (Zurich):
         Shared: 0.0224
       me-south-1:
@@ -125066,6 +126665,7 @@ t3.micro:
     - af-south-1
     - Europe (Zurich)
     - eu-west-1
+    - Europe (Spain)
     - us-west-2-lax-1a
     - us-east-1
     - us-east-2
@@ -125128,6 +126728,8 @@ t3.nano:
         Shared: 0.0059
       eu-west-3:
         Shared: 0.0059
+      Europe (Spain):
+        Shared: 0.0057
       Europe (Zurich):
         Shared: 0.0066
       me-south-1:
@@ -125200,6 +126802,8 @@ t3.nano:
         Shared: 0.0059
       eu-west-3:
         Shared: 0.0059
+      Europe (Spain):
+        Shared: 0.0057
       Europe (Zurich):
         Shared: 0.0066
       me-south-1:
@@ -125272,6 +126876,8 @@ t3.nano:
         Shared: 0.0105
       eu-west-3:
         Shared: 0.0105
+      Europe (Spain):
+        Shared: 0.0057
       Europe (Zurich):
         Shared: 0.0066
       me-south-1:
@@ -125326,6 +126932,7 @@ t3.nano:
     - us-west-2
     - eu-north-1
     - us-west-1
+    - Europe (Spain)
     - Asia Pacific (Osaka)
     - us-gov-east-1
   storage: EBS only
@@ -125385,6 +126992,8 @@ t3.small:
         Shared: 0.0236
       eu-west-3:
         Shared: 0.0236
+      Europe (Spain):
+        Shared: 0.0228
       Europe (Zurich):
         Shared: 0.0264
       me-south-1:
@@ -125457,6 +127066,8 @@ t3.small:
         Shared: 0.0836
       eu-west-3:
         Shared: 0.0836
+      Europe (Spain):
+        Shared: 0.0828
       Europe (Zurich):
         Shared: 0.0864
       me-south-1:
@@ -125518,6 +127129,8 @@ t3.small:
         Shared: 0.1186
       eu-west-3:
         Shared: 0.1186
+      Europe (Spain):
+        Shared: 0.1178
       Europe (Zurich):
         Shared: 0.1214
       me-south-1:
@@ -125584,6 +127197,8 @@ t3.small:
         Shared: 0.0546
       eu-west-3:
         Shared: 0.0546
+      Europe (Spain):
+        Shared: 0.0541
       Europe (Zurich):
         Shared: 0.0577
       me-south-1:
@@ -125656,6 +127271,8 @@ t3.small:
         Shared: 0.0236
       eu-west-3:
         Shared: 0.042
+      Europe (Spain):
+        Shared: 0.0228
       Europe (Zurich):
         Shared: 0.0448
       me-south-1:
@@ -125705,6 +127322,7 @@ t3.small:
     - us-west-2-lax-1a
     - ap-southeast-1
     - us-west-1
+    - Europe (Spain)
     - eu-south-1
     - eu-north-1
     - me-south-1
@@ -125779,6 +127397,8 @@ t3.xlarge:
         Shared: 0.1888
       eu-west-3:
         Shared: 0.1888
+      Europe (Spain):
+        Shared: 0.1824
       Europe (Vodafone) - Berlin:
         Shared: 0.24
       Europe (Vodafone) - Dortmund:
@@ -125939,6 +127559,8 @@ t3.xlarge:
         Shared: 0.2488
       eu-west-3:
         Shared: 0.2488
+      Europe (Spain):
+        Shared: 0.2424
       Europe (Vodafone) - Berlin:
         Shared: 0.3
       Europe (Vodafone) - Dortmund:
@@ -126088,6 +127710,8 @@ t3.xlarge:
         Shared: 0.2838
       eu-west-3:
         Shared: 0.2838
+      Europe (Spain):
+        Shared: 0.2774
       Europe (Vodafone) - Berlin:
         Shared: 0.335
       Europe (Vodafone) - Dortmund:
@@ -126242,6 +127866,8 @@ t3.xlarge:
         Shared: 0.2451
       eu-west-3:
         Shared: 0.2451
+      Europe (Spain):
+        Shared: 0.2387
       Europe (Vodafone) - Berlin:
         Shared: 0.2963
       Europe (Vodafone) - Dortmund:
@@ -126402,6 +128028,8 @@ t3.xlarge:
         Shared: 0.1888
       eu-west-3:
         Shared: 0.2624
+      Europe (Spain):
+        Shared: 0.1824
       Europe (Vodafone) - Berlin:
         Shared: 0.24
       Europe (Vodafone) - Dortmund:
@@ -126517,6 +128145,7 @@ t3.xlarge:
     - US West (Verizon) - Phoenix
     - Europe (Vodafone) - Berlin
     - us-gov-west-1
+    - Europe (Spain)
     - ap-south-1
     - af-south-1
     - US West (Denver)
@@ -128064,6 +129693,8 @@ t4g.2xlarge:
         Shared: 0.3008
       eu-west-3:
         Shared: 0.3008
+      Europe (Spain):
+        Shared: 0.2944
       Middle East (UAE):
         Shared: 0.3264
       sa-east-1:
@@ -128107,6 +129738,8 @@ t4g.2xlarge:
         Shared: 0.4308
       eu-west-3:
         Shared: 0.4308
+      Europe (Spain):
+        Shared: 0.4244
       Middle East (UAE):
         Shared: 0.4564
       sa-east-1:
@@ -128150,6 +129783,8 @@ t4g.2xlarge:
         Shared: 0.4658
       eu-west-3:
         Shared: 0.4658
+      Europe (Spain):
+        Shared: 0.4594
       Middle East (UAE):
         Shared: 0.4914
       sa-east-1:
@@ -128193,6 +129828,8 @@ t4g.2xlarge:
         Shared: 0.4258
       eu-west-3:
         Shared: 0.4258
+      Europe (Spain):
+        Shared: 0.4194
       Middle East (UAE):
         Shared: 0.4514
       sa-east-1:
@@ -128223,6 +129860,7 @@ t4g.2xlarge:
     - eu-central-1
     - ap-southeast-1
     - ap-east-1
+    - Europe (Spain)
     - Middle East (UAE)
     - us-west-2
     - us-west-1
@@ -128270,6 +129908,8 @@ t4g.large:
         Shared: 0.0752
       eu-west-3:
         Shared: 0.0752
+      Europe (Spain):
+        Shared: 0.0736
       Middle East (UAE):
         Shared: 0.0816
       sa-east-1:
@@ -128313,6 +129953,8 @@ t4g.large:
         Shared: 0.1352
       eu-west-3:
         Shared: 0.1352
+      Europe (Spain):
+        Shared: 0.1336
       Middle East (UAE):
         Shared: 0.1416
       sa-east-1:
@@ -128356,6 +129998,8 @@ t4g.large:
         Shared: 0.1702
       eu-west-3:
         Shared: 0.1702
+      Europe (Spain):
+        Shared: 0.1686
       Middle East (UAE):
         Shared: 0.1766
       sa-east-1:
@@ -128399,6 +130043,8 @@ t4g.large:
         Shared: 0.1315
       eu-west-3:
         Shared: 0.1315
+      Europe (Spain):
+        Shared: 0.1299
       Middle East (UAE):
         Shared: 0.1379
       sa-east-1:
@@ -128418,6 +130064,7 @@ t4g.large:
   regions:
     - us-east-1
     - us-east-2
+    - Europe (Spain)
     - eu-west-3
     - ap-east-1
     - eu-south-1
@@ -128476,6 +130123,8 @@ t4g.medium:
         Shared: 0.0376
       eu-west-3:
         Shared: 0.0376
+      Europe (Spain):
+        Shared: 0.0368
       Middle East (UAE):
         Shared: 0.0408
       sa-east-1:
@@ -128519,6 +130168,8 @@ t4g.medium:
         Shared: 0.0976
       eu-west-3:
         Shared: 0.0976
+      Europe (Spain):
+        Shared: 0.0968
       Middle East (UAE):
         Shared: 0.1008
       sa-east-1:
@@ -128562,6 +130213,8 @@ t4g.medium:
         Shared: 0.1326
       eu-west-3:
         Shared: 0.1326
+      Europe (Spain):
+        Shared: 0.1318
       Middle East (UAE):
         Shared: 0.1358
       sa-east-1:
@@ -128605,6 +130258,8 @@ t4g.medium:
         Shared: 0.0939
       eu-west-3:
         Shared: 0.0939
+      Europe (Spain):
+        Shared: 0.0931
       Middle East (UAE):
         Shared: 0.0971
       sa-east-1:
@@ -128627,6 +130282,7 @@ t4g.medium:
     - us-gov-east-1
     - sa-east-1
     - us-east-2
+    - Europe (Spain)
     - eu-west-1
     - eu-north-1
     - ap-northeast-2
@@ -128682,6 +130338,8 @@ t4g.micro:
         Shared: 0.0094
       eu-west-3:
         Shared: 0.0094
+      Europe (Spain):
+        Shared: 0.0092
       Middle East (UAE):
         Shared: 0.0102
       sa-east-1:
@@ -128725,6 +130383,8 @@ t4g.micro:
         Shared: 0.0694
       eu-west-3:
         Shared: 0.0694
+      Europe (Spain):
+        Shared: 0.0692
       Middle East (UAE):
         Shared: 0.0702
       sa-east-1:
@@ -128768,6 +130428,8 @@ t4g.micro:
         Shared: 0.1044
       eu-west-3:
         Shared: 0.1044
+      Europe (Spain):
+        Shared: 0.1042
       Middle East (UAE):
         Shared: 0.1052
       sa-east-1:
@@ -128811,6 +130473,8 @@ t4g.micro:
         Shared: 0.0094
       eu-west-3:
         Shared: 0.0094
+      Europe (Spain):
+        Shared: 0.0092
       Middle East (UAE):
         Shared: 0.0102
       sa-east-1:
@@ -128837,6 +130501,7 @@ t4g.micro:
     - us-east-1
     - eu-south-1
     - us-west-2
+    - Europe (Spain)
     - eu-west-1
     - us-east-2
     - us-west-1
@@ -128888,6 +130553,8 @@ t4g.nano:
         Shared: 0.0047
       eu-west-3:
         Shared: 0.0047
+      Europe (Spain):
+        Shared: 0.0046
       Middle East (UAE):
         Shared: 0.0051
       sa-east-1:
@@ -128931,6 +130598,8 @@ t4g.nano:
         Shared: 0.0047
       eu-west-3:
         Shared: 0.0047
+      Europe (Spain):
+        Shared: 0.0046
       Middle East (UAE):
         Shared: 0.0051
       sa-east-1:
@@ -128953,6 +130622,7 @@ t4g.nano:
     - us-west-1
     - Middle East (UAE)
     - ap-northeast-1
+    - Europe (Spain)
     - us-west-2
     - ap-southeast-1
     - eu-south-1
@@ -129008,6 +130678,8 @@ t4g.small:
         Shared: 0.0188
       eu-west-3:
         Shared: 0.0188
+      Europe (Spain):
+        Shared: 0.0184
       Middle East (UAE):
         Shared: 0.0204
       sa-east-1:
@@ -129051,6 +130723,8 @@ t4g.small:
         Shared: 0.0788
       eu-west-3:
         Shared: 0.0788
+      Europe (Spain):
+        Shared: 0.0784
       Middle East (UAE):
         Shared: 0.0804
       sa-east-1:
@@ -129094,6 +130768,8 @@ t4g.small:
         Shared: 0.1138
       eu-west-3:
         Shared: 0.1138
+      Europe (Spain):
+        Shared: 0.1134
       Middle East (UAE):
         Shared: 0.1154
       sa-east-1:
@@ -129137,6 +130813,8 @@ t4g.small:
         Shared: 0.0501
       eu-west-3:
         Shared: 0.0501
+      Europe (Spain):
+        Shared: 0.0497
       Middle East (UAE):
         Shared: 0.0517
       sa-east-1:
@@ -129173,6 +130851,7 @@ t4g.small:
     - ap-east-1
     - eu-west-2
     - us-east-2
+    - Europe (Spain)
     - eu-west-3
     - ap-south-1
   storage: EBS only
@@ -129214,6 +130893,8 @@ t4g.xlarge:
         Shared: 0.1504
       eu-west-3:
         Shared: 0.1504
+      Europe (Spain):
+        Shared: 0.1472
       Middle East (UAE):
         Shared: 0.1632
       sa-east-1:
@@ -129257,6 +130938,8 @@ t4g.xlarge:
         Shared: 0.2104
       eu-west-3:
         Shared: 0.2104
+      Europe (Spain):
+        Shared: 0.2072
       Middle East (UAE):
         Shared: 0.2232
       sa-east-1:
@@ -129300,6 +130983,8 @@ t4g.xlarge:
         Shared: 0.2454
       eu-west-3:
         Shared: 0.2454
+      Europe (Spain):
+        Shared: 0.2422
       Middle East (UAE):
         Shared: 0.2582
       sa-east-1:
@@ -129343,6 +131028,8 @@ t4g.xlarge:
         Shared: 0.2067
       eu-west-3:
         Shared: 0.2067
+      Europe (Spain):
+        Shared: 0.2035
       Middle East (UAE):
         Shared: 0.2195
       sa-east-1:
@@ -129380,6 +131067,7 @@ t4g.xlarge:
     - sa-east-1
     - eu-west-1
     - ap-northeast-2
+    - Europe (Spain)
     - eu-west-2
   storage: EBS only
   vcpu: 4
