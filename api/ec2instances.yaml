@@ -3443,6 +3443,9 @@ c5.12xlarge:
       ap-southeast-3:
         Dedicated: 2.493
         Shared: 2.352
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.162
+        Shared: 2.04
       Asia Pacific (Osaka):
         Dedicated: 2.722
         Shared: 2.568
@@ -3528,6 +3531,9 @@ c5.12xlarge:
       ap-southeast-3:
         Dedicated: 2.623
         Shared: 2.482
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.292
+        Shared: 2.17
       Asia Pacific (Osaka):
         Dedicated: 2.852
         Shared: 2.698
@@ -3613,6 +3619,9 @@ c5.12xlarge:
       ap-southeast-3:
         Dedicated: 2.658
         Shared: 2.517
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.327
+        Shared: 2.205
       Asia Pacific (Osaka):
         Dedicated: 2.887
         Shared: 2.733
@@ -3698,6 +3707,9 @@ c5.12xlarge:
       ap-southeast-3:
         Dedicated: 2.593
         Shared: 2.452
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.287
+        Shared: 2.165
       Asia Pacific (Osaka):
         Dedicated: 2.822
         Shared: 2.668
@@ -3783,6 +3795,9 @@ c5.12xlarge:
       ap-southeast-3:
         Dedicated: 2.493
         Shared: 4.56
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.162
+        Shared: 4.248
       Asia Pacific (Osaka):
         Dedicated: 2.722
         Shared: 4.776
@@ -3844,6 +3859,7 @@ c5.12xlarge:
         Dedicated: 4.804
         Shared: 4.656
   regions:
+    - Asia Pacific (Hyderabad)
     - eu-west-2
     - eu-north-1
     - Asia Pacific (Osaka)
@@ -3910,6 +3926,9 @@ c5.18xlarge:
       ap-southeast-3:
         Dedicated: 3.528
         Shared: 3.528
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.06
+        Shared: 3.06
       Asia Pacific (Osaka):
         Dedicated: 3.852
         Shared: 3.852
@@ -3995,6 +4014,9 @@ c5.18xlarge:
       ap-southeast-3:
         Dedicated: 3.658
         Shared: 3.658
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.19
+        Shared: 3.19
       Asia Pacific (Osaka):
         Dedicated: 3.982
         Shared: 3.982
@@ -4080,6 +4102,9 @@ c5.18xlarge:
       ap-southeast-3:
         Dedicated: 3.693
         Shared: 3.693
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.225
+        Shared: 3.225
       Asia Pacific (Osaka):
         Dedicated: 4.017
         Shared: 4.017
@@ -4165,6 +4190,9 @@ c5.18xlarge:
       ap-southeast-3:
         Dedicated: 3.628
         Shared: 3.628
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.185
+        Shared: 3.185
       Asia Pacific (Osaka):
         Dedicated: 3.952
         Shared: 3.952
@@ -4250,6 +4278,9 @@ c5.18xlarge:
       ap-southeast-3:
         Dedicated: 3.528
         Shared: 6.84
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.06
+        Shared: 6.372
       Asia Pacific (Osaka):
         Dedicated: 7.164
         Shared: 3.852
@@ -4336,6 +4367,7 @@ c5.18xlarge:
     - eu-south-1
     - af-south-1
     - ap-southeast-3
+    - Asia Pacific (Hyderabad)
     - ap-east-1
     - us-east-1
     - sa-east-1
@@ -4377,6 +4409,9 @@ c5.24xlarge:
       ap-southeast-3:
         Dedicated: 4.704
         Shared: 4.704
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.08
+        Shared: 4.08
       Asia Pacific (Osaka):
         Dedicated: 5.136
         Shared: 5.136
@@ -4462,6 +4497,9 @@ c5.24xlarge:
       ap-southeast-3:
         Dedicated: 4.834
         Shared: 4.834
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.21
+        Shared: 4.21
       Asia Pacific (Osaka):
         Dedicated: 5.266
         Shared: 5.266
@@ -4547,6 +4585,9 @@ c5.24xlarge:
       ap-southeast-3:
         Dedicated: 4.869
         Shared: 4.869
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.245
+        Shared: 4.245
       Asia Pacific (Osaka):
         Dedicated: 5.301
         Shared: 5.301
@@ -4632,6 +4673,9 @@ c5.24xlarge:
       ap-southeast-3:
         Dedicated: 4.804
         Shared: 4.804
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.205
+        Shared: 4.205
       Asia Pacific (Osaka):
         Dedicated: 5.236
         Shared: 5.236
@@ -4717,6 +4761,9 @@ c5.24xlarge:
       ap-southeast-3:
         Dedicated: 4.704
         Shared: 4.704
+      Asia Pacific (Hyderabad):
+        Dedicated: 8.496
+        Shared: 4.08
       Asia Pacific (Osaka):
         Dedicated: 5.136
         Shared: 5.136
@@ -4797,6 +4844,7 @@ c5.24xlarge:
     - eu-central-1
     - Europe (Spain)
     - ap-northeast-1
+    - Asia Pacific (Hyderabad)
     - us-west-2
     - af-south-1
     - ca-central-1
@@ -4844,6 +4892,9 @@ c5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.416
         Shared: 0.392
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.36
+        Shared: 0.34
       Asia Pacific (Osaka):
         Dedicated: 0.454
         Shared: 0.428
@@ -4941,6 +4992,9 @@ c5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.546
         Shared: 0.522
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.49
+        Shared: 0.47
       Asia Pacific (Osaka):
         Dedicated: 0.584
         Shared: 0.558
@@ -5038,6 +5092,9 @@ c5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.581
         Shared: 0.557
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.525
+        Shared: 0.505
       Asia Pacific (Osaka):
         Dedicated: 0.619
         Shared: 0.593
@@ -5135,6 +5192,9 @@ c5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.516
         Shared: 0.492
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.485
+        Shared: 0.465
       Asia Pacific (Osaka):
         Dedicated: 0.554
         Shared: 0.528
@@ -5232,6 +5292,9 @@ c5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.784
         Shared: 0.76
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.728
+        Shared: 0.34
       Asia Pacific (Osaka):
         Dedicated: 0.822
         Shared: 0.796
@@ -5327,6 +5390,7 @@ c5.2xlarge:
     - us-west-2
     - Europe (Spain)
     - us-west-2-lax-1a
+    - Asia Pacific (Hyderabad)
     - af-south-1
     - Poland (Warsaw)
     - us-east-2
@@ -5375,6 +5439,9 @@ c5.4xlarge:
       ap-southeast-3:
         Dedicated: 0.831
         Shared: 0.784
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.721
+        Shared: 0.68
       Asia Pacific (Osaka):
         Dedicated: 0.907
         Shared: 0.856
@@ -5460,6 +5527,9 @@ c5.4xlarge:
       ap-southeast-3:
         Dedicated: 0.961
         Shared: 0.914
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.851
+        Shared: 0.81
       Asia Pacific (Osaka):
         Dedicated: 1.037
         Shared: 0.986
@@ -5545,6 +5615,9 @@ c5.4xlarge:
       ap-southeast-3:
         Dedicated: 0.996
         Shared: 0.949
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.886
+        Shared: 0.845
       Asia Pacific (Osaka):
         Dedicated: 1.072
         Shared: 1.021
@@ -5630,6 +5703,9 @@ c5.4xlarge:
       ap-southeast-3:
         Dedicated: 0.931
         Shared: 0.884
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.846
+        Shared: 0.805
       Asia Pacific (Osaka):
         Dedicated: 1.007
         Shared: 0.956
@@ -5715,6 +5791,9 @@ c5.4xlarge:
       ap-southeast-3:
         Dedicated: 0.831
         Shared: 0.784
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.457
+        Shared: 1.416
       Asia Pacific (Osaka):
         Dedicated: 1.643
         Shared: 0.856
@@ -5784,6 +5863,7 @@ c5.4xlarge:
     - Europe (Zurich)
     - us-east-2
     - eu-west-2
+    - Asia Pacific (Hyderabad)
     - eu-north-1
     - ap-northeast-1
     - ap-south-1
@@ -5842,6 +5922,9 @@ c5.9xlarge:
       ap-southeast-3:
         Dedicated: 1.87
         Shared: 1.764
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.622
+        Shared: 1.53
       Asia Pacific (Osaka):
         Dedicated: 2.042
         Shared: 1.926
@@ -5927,6 +6010,9 @@ c5.9xlarge:
       ap-southeast-3:
         Dedicated: 2
         Shared: 1.894
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.752
+        Shared: 1.66
       Asia Pacific (Osaka):
         Dedicated: 2.172
         Shared: 2.056
@@ -6012,6 +6098,9 @@ c5.9xlarge:
       ap-southeast-3:
         Dedicated: 2.035
         Shared: 1.929
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.787
+        Shared: 1.695
       Asia Pacific (Osaka):
         Dedicated: 2.207
         Shared: 2.091
@@ -6097,6 +6186,9 @@ c5.9xlarge:
       ap-southeast-3:
         Dedicated: 1.97
         Shared: 1.864
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.747
+        Shared: 1.655
       Asia Pacific (Osaka):
         Dedicated: 2.142
         Shared: 2.026
@@ -6182,6 +6274,9 @@ c5.9xlarge:
       ap-southeast-3:
         Dedicated: 1.87
         Shared: 3.42
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.278
+        Shared: 1.53
       Asia Pacific (Osaka):
         Dedicated: 2.042
         Shared: 3.582
@@ -6245,6 +6340,7 @@ c5.9xlarge:
   regions:
     - ap-south-1
     - ap-southeast-2
+    - Asia Pacific (Hyderabad)
     - us-west-2-lax-1a
     - eu-west-1
     - ap-southeast-1
@@ -6309,6 +6405,9 @@ c5.large:
       ap-southeast-3:
         Dedicated: 0.104
         Shared: 0.098
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.09
+        Shared: 0.085
       Asia Pacific (Osaka):
         Dedicated: 0.113
         Shared: 0.107
@@ -6394,6 +6493,9 @@ c5.large:
       ap-southeast-3:
         Dedicated: 0.164
         Shared: 0.158
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.15
+        Shared: 0.145
       Asia Pacific (Osaka):
         Dedicated: 0.173
         Shared: 0.167
@@ -6479,6 +6581,9 @@ c5.large:
       ap-southeast-3:
         Dedicated: 0.199
         Shared: 0.193
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.185
+        Shared: 0.18
       Asia Pacific (Osaka):
         Dedicated: 0.208
         Shared: 0.202
@@ -6564,6 +6669,9 @@ c5.large:
       ap-southeast-3:
         Dedicated: 0.16
         Shared: 0.154
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.146
+        Shared: 0.141
       Asia Pacific (Osaka):
         Dedicated: 0.17
         Shared: 0.163
@@ -6649,6 +6757,9 @@ c5.large:
       ap-southeast-3:
         Dedicated: 0.104
         Shared: 0.098
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.09
+        Shared: 0.085
       Asia Pacific (Osaka):
         Dedicated: 0.113
         Shared: 0.199
@@ -6724,6 +6835,7 @@ c5.large:
     - Europe (Spain)
     - Europe (Zurich)
     - us-east-2
+    - Asia Pacific (Hyderabad)
     - me-south-1
     - eu-north-1
     - sa-east-1
@@ -6776,6 +6888,9 @@ c5.metal:
       ap-southeast-3:
         Dedicated: 4.704
         Shared: 4.704
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.08
+        Shared: 4.08
       Asia Pacific (Osaka):
         Dedicated: 5.136
         Shared: 5.136
@@ -6861,6 +6976,9 @@ c5.metal:
       ap-southeast-3:
         Dedicated: 4.834
         Shared: 4.834
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.21
+        Shared: 4.21
       Asia Pacific (Osaka):
         Dedicated: 5.266
         Shared: 5.266
@@ -6946,6 +7064,9 @@ c5.metal:
       ap-southeast-3:
         Dedicated: 4.869
         Shared: 4.869
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.245
+        Shared: 4.245
       Asia Pacific (Osaka):
         Dedicated: 5.301
         Shared: 5.301
@@ -7031,6 +7152,9 @@ c5.metal:
       ap-southeast-3:
         Dedicated: 4.804
         Shared: 4.804
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.205
+        Shared: 4.205
       Asia Pacific (Osaka):
         Dedicated: 5.236
         Shared: 5.236
@@ -7116,6 +7240,9 @@ c5.metal:
       ap-southeast-3:
         Dedicated: 4.704
         Shared: 4.704
+      Asia Pacific (Hyderabad):
+        Dedicated: 8.496
+        Shared: 4.08
       Asia Pacific (Osaka):
         Dedicated: 5.136
         Shared: 5.136
@@ -7191,6 +7318,7 @@ c5.metal:
     - Europe (Zurich)
     - eu-west-2
     - us-west-2
+    - Asia Pacific (Hyderabad)
     - eu-west-1
     - us-west-2-lax-1a
     - us-west-1
@@ -7243,6 +7371,9 @@ c5.xlarge:
       ap-southeast-3:
         Dedicated: 0.208
         Shared: 0.196
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.18
+        Shared: 0.17
       Asia Pacific (Osaka):
         Dedicated: 0.227
         Shared: 0.214
@@ -7328,6 +7459,9 @@ c5.xlarge:
       ap-southeast-3:
         Dedicated: 0.268
         Shared: 0.256
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.24
+        Shared: 0.23
       Asia Pacific (Osaka):
         Dedicated: 0.287
         Shared: 0.274
@@ -7413,6 +7547,9 @@ c5.xlarge:
       ap-southeast-3:
         Dedicated: 0.303
         Shared: 0.291
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.275
+        Shared: 0.265
       Asia Pacific (Osaka):
         Dedicated: 0.322
         Shared: 0.309
@@ -7498,6 +7635,9 @@ c5.xlarge:
       ap-southeast-3:
         Dedicated: 0.264
         Shared: 0.252
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.237
+        Shared: 0.226
       Asia Pacific (Osaka):
         Dedicated: 0.283
         Shared: 0.27
@@ -7583,6 +7723,9 @@ c5.xlarge:
       ap-southeast-3:
         Dedicated: 0.392
         Shared: 0.196
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.18
+        Shared: 0.354
       Asia Pacific (Osaka):
         Dedicated: 0.411
         Shared: 0.214
@@ -7647,6 +7790,7 @@ c5.xlarge:
     - Asia Pacific (Osaka)
     - Europe (Zurich)
     - ap-east-1
+    - Asia Pacific (Hyderabad)
     - eu-south-1
     - ap-southeast-1
     - eu-west-2
@@ -12019,6 +12163,9 @@ c5d.12xlarge:
       ap-southeast-3:
         Dedicated: 2.849
         Shared: 2.688
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.519
+        Shared: 2.376
       Asia Pacific (Osaka):
         Dedicated: 3.104
         Shared: 2.928
@@ -12089,6 +12236,9 @@ c5d.12xlarge:
       ap-southeast-3:
         Dedicated: 2.979
         Shared: 2.818
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.649
+        Shared: 2.506
       Asia Pacific (Osaka):
         Dedicated: 3.234
         Shared: 3.058
@@ -12159,6 +12309,9 @@ c5d.12xlarge:
       ap-southeast-3:
         Dedicated: 3.014
         Shared: 2.853
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.684
+        Shared: 2.541
       Asia Pacific (Osaka):
         Dedicated: 3.269
         Shared: 3.093
@@ -12229,6 +12382,9 @@ c5d.12xlarge:
       ap-southeast-3:
         Dedicated: 2.949
         Shared: 2.788
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.644
+        Shared: 2.501
       Asia Pacific (Osaka):
         Dedicated: 3.204
         Shared: 3.028
@@ -12299,6 +12455,9 @@ c5d.12xlarge:
       ap-southeast-3:
         Dedicated: 5.057
         Shared: 4.896
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.727
+        Shared: 4.584
       Asia Pacific (Osaka):
         Dedicated: 5.312
         Shared: 5.136
@@ -12361,6 +12520,7 @@ c5d.12xlarge:
     - ap-southeast-1
     - af-south-1
     - ca-central-1
+    - Asia Pacific (Hyderabad)
     - eu-north-1
     - eu-west-1
     - eu-west-2
@@ -12412,6 +12572,9 @@ c5d.18xlarge:
       ap-southeast-3:
         Dedicated: 4.032
         Shared: 4.032
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.564
+        Shared: 3.564
       Asia Pacific (Osaka):
         Dedicated: 4.392
         Shared: 4.392
@@ -12497,6 +12660,9 @@ c5d.18xlarge:
       ap-southeast-3:
         Dedicated: 4.162
         Shared: 4.162
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.694
+        Shared: 3.694
       Asia Pacific (Osaka):
         Dedicated: 4.522
         Shared: 4.522
@@ -12582,6 +12748,9 @@ c5d.18xlarge:
       ap-southeast-3:
         Dedicated: 4.197
         Shared: 4.197
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.729
+        Shared: 3.729
       Asia Pacific (Osaka):
         Dedicated: 4.557
         Shared: 4.557
@@ -12664,6 +12833,9 @@ c5d.18xlarge:
       ap-southeast-3:
         Dedicated: 4.132
         Shared: 4.132
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.689
+        Shared: 3.689
       Asia Pacific (Osaka):
         Dedicated: 4.492
         Shared: 4.492
@@ -12749,6 +12921,9 @@ c5d.18xlarge:
       ap-southeast-3:
         Dedicated: 7.344
         Shared: 7.344
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.564
+        Shared: 6.876
       Asia Pacific (Osaka):
         Dedicated: 7.704
         Shared: 7.704
@@ -12826,6 +13001,7 @@ c5d.18xlarge:
     - ap-northeast-1
     - Middle East (UAE)
     - ap-east-1
+    - Asia Pacific (Hyderabad)
     - 'us-east-1-mia-1a '
     - me-south-1
     - us-west-1
@@ -12873,6 +13049,9 @@ c5d.24xlarge:
       ap-southeast-3:
         Dedicated: 5.699
         Shared: 5.376
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.037
+        Shared: 4.752
       Asia Pacific (Osaka):
         Dedicated: 6.207
         Shared: 5.856
@@ -12943,6 +13122,9 @@ c5d.24xlarge:
       ap-southeast-3:
         Dedicated: 5.829
         Shared: 5.506
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.167
+        Shared: 4.882
       Asia Pacific (Osaka):
         Dedicated: 6.337
         Shared: 5.986
@@ -13013,6 +13195,9 @@ c5d.24xlarge:
       ap-southeast-3:
         Dedicated: 5.864
         Shared: 5.541
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.202
+        Shared: 4.917
       Asia Pacific (Osaka):
         Dedicated: 6.372
         Shared: 6.021
@@ -13083,6 +13268,9 @@ c5d.24xlarge:
       ap-southeast-3:
         Dedicated: 5.799
         Shared: 5.476
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.162
+        Shared: 4.877
       Asia Pacific (Osaka):
         Dedicated: 6.307
         Shared: 5.956
@@ -13153,6 +13341,9 @@ c5d.24xlarge:
       ap-southeast-3:
         Dedicated: 5.699
         Shared: 5.376
+      Asia Pacific (Hyderabad):
+        Dedicated: 9.453
+        Shared: 9.168
       Asia Pacific (Osaka):
         Dedicated: 10.623
         Shared: 10.272
@@ -13204,6 +13395,7 @@ c5d.24xlarge:
   regions:
     - Middle East (UAE)
     - Europe (Zurich)
+    - Asia Pacific (Hyderabad)
     - us-east-2
     - ap-southeast-3
     - eu-central-1
@@ -13264,6 +13456,9 @@ c5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.475
         Shared: 0.448
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.42
+        Shared: 0.396
       Asia Pacific (Osaka):
         Dedicated: 0.517
         Shared: 0.488
@@ -13391,6 +13586,9 @@ c5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.605
         Shared: 0.578
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.55
+        Shared: 0.526
       Asia Pacific (Osaka):
         Dedicated: 0.647
         Shared: 0.618
@@ -13518,6 +13716,9 @@ c5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.64
         Shared: 0.613
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.585
+        Shared: 0.561
       Asia Pacific (Osaka):
         Dedicated: 0.682
         Shared: 0.653
@@ -13645,6 +13846,9 @@ c5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.575
         Shared: 0.548
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.545
+        Shared: 0.521
       Asia Pacific (Osaka):
         Dedicated: 0.617
         Shared: 0.588
@@ -13772,6 +13976,9 @@ c5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.843
         Shared: 0.816
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.788
+        Shared: 0.396
       Asia Pacific (Osaka):
         Dedicated: 0.885
         Shared: 0.856
@@ -13903,6 +14110,7 @@ c5d.2xlarge:
     - eu-central-1
     - US West (Phoenix)
     - ap-south-1
+    - Asia Pacific (Hyderabad)
     - ca-central-1
     - US East (Philadelphia)
     - US West (Denver)
@@ -13955,6 +14163,9 @@ c5d.4xlarge:
       ap-southeast-3:
         Dedicated: 0.95
         Shared: 0.896
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.84
+        Shared: 0.792
       Asia Pacific (Osaka):
         Dedicated: 1.035
         Shared: 0.976
@@ -14040,6 +14251,9 @@ c5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.08
         Shared: 1.026
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.97
+        Shared: 0.922
       Asia Pacific (Osaka):
         Dedicated: 1.165
         Shared: 1.106
@@ -14125,6 +14339,9 @@ c5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.115
         Shared: 1.061
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.005
+        Shared: 0.957
       Asia Pacific (Osaka):
         Dedicated: 1.2
         Shared: 1.141
@@ -14207,6 +14424,9 @@ c5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.05
         Shared: 0.996
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.965
+        Shared: 0.917
       Asia Pacific (Osaka):
         Dedicated: 1.135
         Shared: 1.076
@@ -14292,6 +14512,9 @@ c5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.686
         Shared: 1.632
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.84
+        Shared: 0.792
       Asia Pacific (Osaka):
         Dedicated: 1.771
         Shared: 1.712
@@ -14363,6 +14586,7 @@ c5d.4xlarge:
     - eu-central-1
     - Middle East (UAE)
     - eu-north-1
+    - Asia Pacific (Hyderabad)
     - us-west-1
     - ap-northeast-2
     - us-east-2
@@ -14419,6 +14643,9 @@ c5d.9xlarge:
       ap-southeast-3:
         Dedicated: 2.137
         Shared: 2.016
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.889
+        Shared: 1.782
       Asia Pacific (Osaka):
         Dedicated: 2.328
         Shared: 2.196
@@ -14504,6 +14731,9 @@ c5d.9xlarge:
       ap-southeast-3:
         Dedicated: 2.267
         Shared: 2.146
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.019
+        Shared: 1.912
       Asia Pacific (Osaka):
         Dedicated: 2.458
         Shared: 2.326
@@ -14589,6 +14819,9 @@ c5d.9xlarge:
       ap-southeast-3:
         Dedicated: 2.302
         Shared: 2.181
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.054
+        Shared: 1.947
       Asia Pacific (Osaka):
         Dedicated: 2.493
         Shared: 2.361
@@ -14671,6 +14904,9 @@ c5d.9xlarge:
       ap-southeast-3:
         Dedicated: 2.237
         Shared: 2.116
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.014
+        Shared: 1.907
       Asia Pacific (Osaka):
         Dedicated: 2.428
         Shared: 2.296
@@ -14756,6 +14992,9 @@ c5d.9xlarge:
       ap-southeast-3:
         Dedicated: 2.137
         Shared: 3.672
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.889
+        Shared: 1.782
       Asia Pacific (Osaka):
         Dedicated: 3.984
         Shared: 3.852
@@ -14843,6 +15082,7 @@ c5d.9xlarge:
     - sa-east-1
     - Europe (Spain)
     - eu-west-2
+    - Asia Pacific (Hyderabad)
     - us-gov-west-1
     - us-west-2
   storage: 1 x 900 NVMe SSD
@@ -14883,6 +15123,9 @@ c5d.large:
       ap-southeast-3:
         Dedicated: 0.119
         Shared: 0.112
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.105
+        Shared: 0.099
       Asia Pacific (Osaka):
         Dedicated: 0.129
         Shared: 0.122
@@ -14968,6 +15211,9 @@ c5d.large:
       ap-southeast-3:
         Dedicated: 0.179
         Shared: 0.172
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.165
+        Shared: 0.159
       Asia Pacific (Osaka):
         Dedicated: 0.189
         Shared: 0.182
@@ -15053,6 +15299,9 @@ c5d.large:
       ap-southeast-3:
         Dedicated: 0.214
         Shared: 0.207
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.2
+        Shared: 0.194
       Asia Pacific (Osaka):
         Dedicated: 0.224
         Shared: 0.217
@@ -15135,6 +15384,9 @@ c5d.large:
       ap-southeast-3:
         Dedicated: 0.175
         Shared: 0.168
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.161
+        Shared: 0.155
       Asia Pacific (Osaka):
         Dedicated: 0.186
         Shared: 0.178
@@ -15220,6 +15472,9 @@ c5d.large:
       ap-southeast-3:
         Dedicated: 0.211
         Shared: 0.204
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.105
+        Shared: 0.099
       Asia Pacific (Osaka):
         Dedicated: 0.221
         Shared: 0.214
@@ -15282,6 +15537,7 @@ c5d.large:
         Shared: 0.096
   regions:
     - ap-southeast-1
+    - Asia Pacific (Hyderabad)
     - Asia Pacific (Osaka)
     - sa-east-1
     - eu-west-2
@@ -15344,6 +15600,9 @@ c5d.metal:
       ap-southeast-3:
         Dedicated: 5.376
         Shared: 5.376
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.752
+        Shared: 4.752
       Asia Pacific (Osaka):
         Dedicated: 5.856
         Shared: 5.856
@@ -15417,6 +15676,9 @@ c5d.metal:
       ap-southeast-3:
         Dedicated: 5.506
         Shared: 5.506
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.882
+        Shared: 4.882
       Asia Pacific (Osaka):
         Dedicated: 5.986
         Shared: 5.986
@@ -15490,6 +15752,9 @@ c5d.metal:
       ap-southeast-3:
         Dedicated: 5.541
         Shared: 5.541
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.917
+        Shared: 4.917
       Asia Pacific (Osaka):
         Dedicated: 6.021
         Shared: 6.021
@@ -15560,6 +15825,9 @@ c5d.metal:
       ap-southeast-3:
         Dedicated: 5.476
         Shared: 5.476
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.877
+        Shared: 4.877
       Asia Pacific (Osaka):
         Dedicated: 5.956
         Shared: 5.956
@@ -15633,6 +15901,9 @@ c5d.metal:
       ap-southeast-3:
         Dedicated: 9.792
         Shared: 9.792
+      Asia Pacific (Hyderabad):
+        Dedicated: 9.168
+        Shared: 4.752
       Asia Pacific (Osaka):
         Dedicated: 10.272
         Shared: 10.272
@@ -15700,6 +15971,7 @@ c5d.metal:
     - ap-southeast-3
     - Europe (Spain)
     - ap-south-1
+    - Asia Pacific (Hyderabad)
     - eu-west-1
     - af-south-1
     - ca-central-1
@@ -15747,6 +16019,9 @@ c5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.237
         Shared: 0.224
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.21
+        Shared: 0.198
       Asia Pacific (Osaka):
         Dedicated: 0.259
         Shared: 0.244
@@ -15832,6 +16107,9 @@ c5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.297
         Shared: 0.284
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.27
+        Shared: 0.258
       Asia Pacific (Osaka):
         Dedicated: 0.319
         Shared: 0.304
@@ -15917,6 +16195,9 @@ c5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.332
         Shared: 0.319
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.305
+        Shared: 0.293
       Asia Pacific (Osaka):
         Dedicated: 0.354
         Shared: 0.339
@@ -15999,6 +16280,9 @@ c5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.294
         Shared: 0.28
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.266
+        Shared: 0.254
       Asia Pacific (Osaka):
         Dedicated: 0.315
         Shared: 0.3
@@ -16084,6 +16368,9 @@ c5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.237
         Shared: 0.224
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.21
+        Shared: 0.382
       Asia Pacific (Osaka):
         Dedicated: 0.443
         Shared: 0.428
@@ -16167,6 +16454,7 @@ c5d.xlarge:
     - Europe (Zurich)
     - ap-southeast-3
     - us-east-1
+    - Asia Pacific (Hyderabad)
     - Middle East (UAE)
     - 'us-east-1-mia-1a '
     - Asia Pacific (Osaka)
@@ -20169,6 +20457,9 @@ c6g.12xlarge:
       ap-southeast-3:
         Dedicated: 1.9945
         Shared: 1.8816
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.0837
+        Shared: 1.0224
       Asia Pacific (Osaka):
         Dedicated: 2.1864
         Shared: 2.064
@@ -20245,6 +20536,9 @@ c6g.12xlarge:
       ap-southeast-3:
         Dedicated: 2.1245
         Shared: 2.0116
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.2137
+        Shared: 1.1524
       Asia Pacific (Osaka):
         Dedicated: 2.3164
         Shared: 2.194
@@ -20321,6 +20615,9 @@ c6g.12xlarge:
       ap-southeast-3:
         Dedicated: 2.1595
         Shared: 2.0466
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.2487
+        Shared: 1.1874
       Asia Pacific (Osaka):
         Dedicated: 2.3514
         Shared: 2.229
@@ -20397,6 +20694,9 @@ c6g.12xlarge:
       ap-southeast-3:
         Dedicated: 2.1195
         Shared: 2.0066
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.2087
+        Shared: 1.1474
       Asia Pacific (Osaka):
         Dedicated: 2.3114
         Shared: 2.189
@@ -20472,6 +20772,7 @@ c6g.12xlarge:
     - me-south-1
     - eu-north-1
     - us-east-1
+    - Asia Pacific (Hyderabad)
     - Middle East (UAE)
     - eu-west-1
     - ap-southeast-1
@@ -20511,6 +20812,9 @@ c6g.16xlarge:
       ap-southeast-3:
         Dedicated: 2.5088
         Shared: 2.5088
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.3632
+        Shared: 1.3632
       Asia Pacific (Osaka):
         Dedicated: 2.752
         Shared: 2.752
@@ -20587,6 +20891,9 @@ c6g.16xlarge:
       ap-southeast-3:
         Dedicated: 2.6388
         Shared: 2.6388
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.4932
+        Shared: 1.4932
       Asia Pacific (Osaka):
         Dedicated: 2.882
         Shared: 2.882
@@ -20663,6 +20970,9 @@ c6g.16xlarge:
       ap-southeast-3:
         Dedicated: 2.6738
         Shared: 2.6738
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.5282
+        Shared: 1.5282
       Asia Pacific (Osaka):
         Dedicated: 2.917
         Shared: 2.917
@@ -20739,6 +21049,9 @@ c6g.16xlarge:
       ap-southeast-3:
         Dedicated: 2.6338
         Shared: 2.6338
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.4882
+        Shared: 1.4882
       Asia Pacific (Osaka):
         Dedicated: 2.877
         Shared: 2.877
@@ -20806,6 +21119,7 @@ c6g.16xlarge:
     - ap-northeast-1
     - eu-south-1
     - eu-west-3
+    - Asia Pacific (Hyderabad)
     - ap-east-1
     - sa-east-1
     - eu-north-1
@@ -20853,6 +21167,9 @@ c6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.3324
         Shared: 0.3136
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1806
+        Shared: 0.1704
       Asia Pacific (Osaka):
         Dedicated: 0.3644
         Shared: 0.344
@@ -20929,6 +21246,9 @@ c6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.4624
         Shared: 0.4436
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.3106
+        Shared: 0.3004
       Asia Pacific (Osaka):
         Dedicated: 0.4944
         Shared: 0.474
@@ -21005,6 +21325,9 @@ c6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.4974
         Shared: 0.4786
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.3456
+        Shared: 0.3354
       Asia Pacific (Osaka):
         Dedicated: 0.5294
         Shared: 0.509
@@ -21081,6 +21404,9 @@ c6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.4574
         Shared: 0.4386
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.3056
+        Shared: 0.2954
       Asia Pacific (Osaka):
         Dedicated: 0.4894
         Shared: 0.469
@@ -21139,6 +21465,7 @@ c6g.2xlarge:
     - us-gov-west-1
     - me-south-1
     - ca-central-1
+    - Asia Pacific (Hyderabad)
     - eu-west-3
     - ap-south-1
     - eu-north-1
@@ -21195,6 +21522,9 @@ c6g.4xlarge:
       ap-southeast-3:
         Dedicated: 0.6648
         Shared: 0.6272
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.3612
+        Shared: 0.3408
       Asia Pacific (Osaka):
         Dedicated: 0.7288
         Shared: 0.688
@@ -21271,6 +21601,9 @@ c6g.4xlarge:
       ap-southeast-3:
         Dedicated: 0.7948
         Shared: 0.7572
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.4912
+        Shared: 0.4708
       Asia Pacific (Osaka):
         Dedicated: 0.8588
         Shared: 0.818
@@ -21347,6 +21680,9 @@ c6g.4xlarge:
       ap-southeast-3:
         Dedicated: 0.8298
         Shared: 0.7922
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.5262
+        Shared: 0.5058
       Asia Pacific (Osaka):
         Dedicated: 0.8938
         Shared: 0.853
@@ -21423,6 +21759,9 @@ c6g.4xlarge:
       ap-southeast-3:
         Dedicated: 0.7898
         Shared: 0.7522
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.4862
+        Shared: 0.4658
       Asia Pacific (Osaka):
         Dedicated: 0.8538
         Shared: 0.813
@@ -21485,6 +21824,7 @@ c6g.4xlarge:
     - ap-northeast-1
     - us-gov-west-1
     - us-gov-east-1
+    - Asia Pacific (Hyderabad)
     - eu-central-1
     - eu-north-1
     - ap-east-1
@@ -21537,6 +21877,9 @@ c6g.8xlarge:
       ap-southeast-3:
         Dedicated: 1.3297
         Shared: 1.2544
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.7225
+        Shared: 0.6816
       Asia Pacific (Osaka):
         Dedicated: 1.4576
         Shared: 1.376
@@ -21613,6 +21956,9 @@ c6g.8xlarge:
       ap-southeast-3:
         Dedicated: 1.4597
         Shared: 1.3844
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.8525
+        Shared: 0.8116
       Asia Pacific (Osaka):
         Dedicated: 1.5876
         Shared: 1.506
@@ -21689,6 +22035,9 @@ c6g.8xlarge:
       ap-southeast-3:
         Dedicated: 1.4947
         Shared: 1.4194
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.8875
+        Shared: 0.8466
       Asia Pacific (Osaka):
         Dedicated: 1.6226
         Shared: 1.541
@@ -21765,6 +22114,9 @@ c6g.8xlarge:
       ap-southeast-3:
         Dedicated: 1.4547
         Shared: 1.3794
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.8475
+        Shared: 0.8066
       Asia Pacific (Osaka):
         Dedicated: 1.5826
         Shared: 1.501
@@ -21822,6 +22174,7 @@ c6g.8xlarge:
   regions:
     - ap-northeast-2
     - us-gov-east-1
+    - Asia Pacific (Hyderabad)
     - eu-south-1
     - ap-south-1
     - Middle East (UAE)
@@ -21879,6 +22232,9 @@ c6g.large:
       ap-southeast-3:
         Dedicated: 0.0831
         Shared: 0.0784
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0452
+        Shared: 0.0426
       Asia Pacific (Osaka):
         Dedicated: 0.0911
         Shared: 0.086
@@ -21955,6 +22311,9 @@ c6g.large:
       ap-southeast-3:
         Dedicated: 0.1431
         Shared: 0.1384
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1052
+        Shared: 0.1026
       Asia Pacific (Osaka):
         Dedicated: 0.1511
         Shared: 0.146
@@ -22031,6 +22390,9 @@ c6g.large:
       ap-southeast-3:
         Dedicated: 0.1781
         Shared: 0.1734
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1402
+        Shared: 0.1376
       Asia Pacific (Osaka):
         Dedicated: 0.1861
         Shared: 0.181
@@ -22107,6 +22469,9 @@ c6g.large:
       ap-southeast-3:
         Dedicated: 0.1394
         Shared: 0.1347
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1015
+        Shared: 0.0989
       Asia Pacific (Osaka):
         Dedicated: 0.1474
         Shared: 0.1423
@@ -22173,6 +22538,7 @@ c6g.large:
     - ap-southeast-1
     - eu-south-1
     - eu-north-1
+    - Asia Pacific (Hyderabad)
     - us-east-1
     - us-west-1
     - ap-southeast-2
@@ -22221,6 +22587,9 @@ c6g.medium:
       ap-southeast-3:
         Dedicated: 0.0416
         Shared: 0.0392
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0226
+        Shared: 0.0213
       Asia Pacific (Osaka):
         Dedicated: 0.0455
         Shared: 0.043
@@ -22297,6 +22666,9 @@ c6g.medium:
       ap-southeast-3:
         Dedicated: 0.1016
         Shared: 0.0992
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0826
+        Shared: 0.0813
       Asia Pacific (Osaka):
         Dedicated: 0.1055
         Shared: 0.103
@@ -22373,6 +22745,9 @@ c6g.medium:
       ap-southeast-3:
         Dedicated: 0.1366
         Shared: 0.1342
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1176
+        Shared: 0.1163
       Asia Pacific (Osaka):
         Dedicated: 0.1405
         Shared: 0.138
@@ -22449,6 +22824,9 @@ c6g.medium:
       ap-southeast-3:
         Dedicated: 0.0979
         Shared: 0.0955
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0789
+        Shared: 0.0776
       Asia Pacific (Osaka):
         Dedicated: 0.1018
         Shared: 0.0993
@@ -22513,6 +22891,7 @@ c6g.medium:
     - us-gov-west-1
     - eu-central-1
     - us-west-1
+    - Asia Pacific (Hyderabad)
     - eu-north-1
     - eu-west-3
     - us-gov-east-1
@@ -22563,6 +22942,9 @@ c6g.metal:
       ap-southeast-3:
         Dedicated: 2.5088
         Shared: 2.5088
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.3632
+        Shared: 1.3632
       Asia Pacific (Osaka):
         Dedicated: 2.752
         Shared: 2.752
@@ -22639,6 +23021,9 @@ c6g.metal:
       ap-southeast-3:
         Dedicated: 2.6388
         Shared: 2.6388
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.4932
+        Shared: 1.4932
       Asia Pacific (Osaka):
         Dedicated: 2.882
         Shared: 2.882
@@ -22715,6 +23100,9 @@ c6g.metal:
       ap-southeast-3:
         Dedicated: 2.6738
         Shared: 2.6738
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.5282
+        Shared: 1.5282
       Asia Pacific (Osaka):
         Dedicated: 2.917
         Shared: 2.917
@@ -22791,6 +23179,9 @@ c6g.metal:
       ap-southeast-3:
         Dedicated: 2.6338
         Shared: 2.6338
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.4882
+        Shared: 1.4882
       Asia Pacific (Osaka):
         Dedicated: 2.877
         Shared: 2.877
@@ -22855,6 +23246,7 @@ c6g.metal:
     - us-east-1
     - ap-northeast-2
     - us-west-2
+    - Asia Pacific (Hyderabad)
     - eu-south-1
     - ap-south-1
     - ap-southeast-2
@@ -22905,6 +23297,9 @@ c6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.1662
         Shared: 0.1568
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0903
+        Shared: 0.0852
       Asia Pacific (Osaka):
         Dedicated: 0.1822
         Shared: 0.172
@@ -22981,6 +23376,9 @@ c6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.2262
         Shared: 0.2168
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1503
+        Shared: 0.1452
       Asia Pacific (Osaka):
         Dedicated: 0.2422
         Shared: 0.232
@@ -23057,6 +23455,9 @@ c6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.2612
         Shared: 0.2518
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1853
+        Shared: 0.1802
       Asia Pacific (Osaka):
         Dedicated: 0.2772
         Shared: 0.267
@@ -23133,6 +23534,9 @@ c6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.2225
         Shared: 0.2131
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1466
+        Shared: 0.1415
       Asia Pacific (Osaka):
         Dedicated: 0.2385
         Shared: 0.2283
@@ -23204,6 +23608,7 @@ c6g.xlarge:
     - ap-southeast-3
     - us-west-2
     - me-south-1
+    - Asia Pacific (Hyderabad)
     - us-gov-east-1
     - us-gov-west-1
     - ap-south-1
@@ -44963,6 +45368,9 @@ i3.16xlarge:
       ap-southeast-3:
         Dedicated: 5.984
         Shared: 5.984
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.664
+        Shared: 5.664
       Asia Pacific (Osaka):
         Dedicated: 5.856
         Shared: 5.856
@@ -45045,6 +45453,9 @@ i3.16xlarge:
       ap-southeast-3:
         Dedicated: 6.114
         Shared: 6.114
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.794
+        Shared: 5.794
       Asia Pacific (Osaka):
         Dedicated: 5.986
         Shared: 5.986
@@ -45127,6 +45538,9 @@ i3.16xlarge:
       ap-southeast-3:
         Dedicated: 6.149
         Shared: 6.149
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.829
+        Shared: 5.829
       Asia Pacific (Osaka):
         Dedicated: 6.021
         Shared: 6.021
@@ -45209,6 +45623,9 @@ i3.16xlarge:
       ap-southeast-3:
         Dedicated: 6.084
         Shared: 6.084
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.764
+        Shared: 5.764
       Asia Pacific (Osaka):
         Dedicated: 5.956
         Shared: 5.956
@@ -45291,6 +45708,9 @@ i3.16xlarge:
       ap-southeast-3:
         Dedicated: 5.984
         Shared: 8.928
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.664
+        Shared: 8.608
       Asia Pacific (Osaka):
         Dedicated: 8.8
         Shared: 8.8
@@ -45351,6 +45771,7 @@ i3.16xlarge:
   regions:
     - us-gov-east-1
     - ap-southeast-3
+    - Asia Pacific (Hyderabad)
     - eu-west-1
     - Asia Pacific (Osaka)
     - me-south-1
@@ -45414,6 +45835,9 @@ i3.2xlarge:
       ap-southeast-3:
         Dedicated: 0.823
         Shared: 0.748
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.779
+        Shared: 0.708
       Asia Pacific (Osaka):
         Dedicated: 0.805
         Shared: 0.732
@@ -45496,6 +45920,9 @@ i3.2xlarge:
       ap-southeast-3:
         Dedicated: 0.953
         Shared: 0.878
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.909
+        Shared: 0.838
       Asia Pacific (Osaka):
         Dedicated: 0.935
         Shared: 0.862
@@ -45578,6 +46005,9 @@ i3.2xlarge:
       ap-southeast-3:
         Dedicated: 0.988
         Shared: 0.913
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.944
+        Shared: 0.873
       Asia Pacific (Osaka):
         Dedicated: 0.97
         Shared: 0.897
@@ -45660,6 +46090,9 @@ i3.2xlarge:
       ap-southeast-3:
         Dedicated: 0.923
         Shared: 0.848
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.879
+        Shared: 0.808
       Asia Pacific (Osaka):
         Dedicated: 0.905
         Shared: 0.832
@@ -45742,6 +46175,9 @@ i3.2xlarge:
       ap-southeast-3:
         Dedicated: 1.191
         Shared: 1.116
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.779
+        Shared: 0.708
       Asia Pacific (Osaka):
         Dedicated: 1.173
         Shared: 1.1
@@ -45805,6 +46241,7 @@ i3.2xlarge:
     - eu-north-1
     - ap-east-1
     - ap-northeast-1
+    - Asia Pacific (Hyderabad)
     - ap-south-1
     - sa-east-1
     - us-east-2
@@ -45865,6 +46302,9 @@ i3.4xlarge:
       ap-southeast-3:
         Dedicated: 1.646
         Shared: 1.496
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.558
+        Shared: 1.416
       Asia Pacific (Osaka):
         Dedicated: 1.61
         Shared: 1.464
@@ -45947,6 +46387,9 @@ i3.4xlarge:
       ap-southeast-3:
         Dedicated: 1.776
         Shared: 1.626
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.688
+        Shared: 1.546
       Asia Pacific (Osaka):
         Dedicated: 1.74
         Shared: 1.594
@@ -46029,6 +46472,9 @@ i3.4xlarge:
       ap-southeast-3:
         Dedicated: 1.811
         Shared: 1.661
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.723
+        Shared: 1.581
       Asia Pacific (Osaka):
         Dedicated: 1.775
         Shared: 1.629
@@ -46111,6 +46557,9 @@ i3.4xlarge:
       ap-southeast-3:
         Dedicated: 1.746
         Shared: 1.596
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.658
+        Shared: 1.516
       Asia Pacific (Osaka):
         Dedicated: 1.71
         Shared: 1.564
@@ -46193,6 +46642,9 @@ i3.4xlarge:
       ap-southeast-3:
         Dedicated: 1.646
         Shared: 2.232
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.558
+        Shared: 2.152
       Asia Pacific (Osaka):
         Dedicated: 2.346
         Shared: 2.2
@@ -46276,6 +46728,7 @@ i3.4xlarge:
     - ap-southeast-3
     - us-gov-west-1
     - ap-southeast-1
+    - Asia Pacific (Hyderabad)
     - eu-west-3
     - eu-west-2
   storage: 2 x 1900 NVMe SSD
@@ -46316,6 +46769,9 @@ i3.8xlarge:
       ap-southeast-3:
         Dedicated: 3.291
         Shared: 2.992
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.115
+        Shared: 2.832
       Asia Pacific (Osaka):
         Dedicated: 3.221
         Shared: 2.928
@@ -46398,6 +46854,9 @@ i3.8xlarge:
       ap-southeast-3:
         Dedicated: 3.421
         Shared: 3.122
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.245
+        Shared: 2.962
       Asia Pacific (Osaka):
         Dedicated: 3.351
         Shared: 3.058
@@ -46480,6 +46939,9 @@ i3.8xlarge:
       ap-southeast-3:
         Dedicated: 3.456
         Shared: 3.157
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.28
+        Shared: 2.997
       Asia Pacific (Osaka):
         Dedicated: 3.386
         Shared: 3.093
@@ -46562,6 +47024,9 @@ i3.8xlarge:
       ap-southeast-3:
         Dedicated: 3.391
         Shared: 3.092
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.215
+        Shared: 2.932
       Asia Pacific (Osaka):
         Dedicated: 3.321
         Shared: 3.028
@@ -46644,6 +47109,9 @@ i3.8xlarge:
       ap-southeast-3:
         Dedicated: 4.763
         Shared: 4.464
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.587
+        Shared: 4.304
       Asia Pacific (Osaka):
         Dedicated: 4.693
         Shared: 4.4
@@ -46712,6 +47180,7 @@ i3.8xlarge:
     - ap-south-1
     - eu-north-1
     - us-west-2
+    - Asia Pacific (Hyderabad)
     - eu-west-3
     - ap-southeast-1
     - us-west-1
@@ -46767,6 +47236,9 @@ i3.large:
       ap-southeast-3:
         Dedicated: 0.206
         Shared: 0.187
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.195
+        Shared: 0.177
       Asia Pacific (Osaka):
         Dedicated: 0.201
         Shared: 0.183
@@ -46849,6 +47321,9 @@ i3.large:
       ap-southeast-3:
         Dedicated: 0.266
         Shared: 0.247
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.255
+        Shared: 0.237
       Asia Pacific (Osaka):
         Dedicated: 0.261
         Shared: 0.243
@@ -46931,6 +47406,9 @@ i3.large:
       ap-southeast-3:
         Dedicated: 0.301
         Shared: 0.282
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.29
+        Shared: 0.272
       Asia Pacific (Osaka):
         Dedicated: 0.296
         Shared: 0.278
@@ -47013,6 +47491,9 @@ i3.large:
       ap-southeast-3:
         Dedicated: 0.306
         Shared: 0.287
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.295
+        Shared: 0.277
       Asia Pacific (Osaka):
         Dedicated: 0.301
         Shared: 0.283
@@ -47095,6 +47576,9 @@ i3.large:
       ap-southeast-3:
         Dedicated: 0.206
         Shared: 0.187
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.195
+        Shared: 0.177
       Asia Pacific (Osaka):
         Dedicated: 0.293
         Shared: 0.275
@@ -47178,6 +47662,7 @@ i3.large:
     - eu-central-1
     - sa-east-1
     - ap-east-1
+    - Asia Pacific (Hyderabad)
     - me-south-1
     - ap-southeast-2
   storage: 1 x 475 NVMe SSD
@@ -47574,6 +48059,9 @@ i3.xlarge:
       ap-southeast-3:
         Dedicated: 0.411
         Shared: 0.374
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.389
+        Shared: 0.354
       Asia Pacific (Osaka):
         Dedicated: 0.403
         Shared: 0.366
@@ -47656,6 +48144,9 @@ i3.xlarge:
       ap-southeast-3:
         Dedicated: 0.471
         Shared: 0.434
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.449
+        Shared: 0.414
       Asia Pacific (Osaka):
         Dedicated: 0.463
         Shared: 0.426
@@ -47738,6 +48229,9 @@ i3.xlarge:
       ap-southeast-3:
         Dedicated: 0.506
         Shared: 0.469
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.484
+        Shared: 0.449
       Asia Pacific (Osaka):
         Dedicated: 0.498
         Shared: 0.461
@@ -47820,6 +48314,9 @@ i3.xlarge:
       ap-southeast-3:
         Dedicated: 0.511
         Shared: 0.474
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.489
+        Shared: 0.454
       Asia Pacific (Osaka):
         Dedicated: 0.503
         Shared: 0.466
@@ -47902,6 +48399,9 @@ i3.xlarge:
       ap-southeast-3:
         Dedicated: 0.595
         Shared: 0.558
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.389
+        Shared: 0.538
       Asia Pacific (Osaka):
         Dedicated: 0.587
         Shared: 0.55
@@ -47960,6 +48460,7 @@ i3.xlarge:
         Dedicated: 0.527
         Shared: 0.312
   regions:
+    - Asia Pacific (Hyderabad)
     - af-south-1
     - ap-northeast-2
     - us-west-1
@@ -48025,6 +48526,9 @@ i3en.12xlarge:
       ap-southeast-3:
         Dedicated: 6.928
         Shared: 6.504
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.569
+        Shared: 6.168
       Asia Pacific (Osaka):
         Dedicated: 6.796
         Shared: 6.384
@@ -48110,6 +48614,9 @@ i3en.12xlarge:
       ap-southeast-3:
         Dedicated: 7.058
         Shared: 6.634
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.699
+        Shared: 6.298
       Asia Pacific (Osaka):
         Dedicated: 6.926
         Shared: 6.514
@@ -48195,6 +48702,9 @@ i3en.12xlarge:
       ap-southeast-3:
         Dedicated: 7.093
         Shared: 6.669
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.734
+        Shared: 6.333
       Asia Pacific (Osaka):
         Dedicated: 6.961
         Shared: 6.549
@@ -48280,6 +48790,9 @@ i3en.12xlarge:
       ap-southeast-3:
         Dedicated: 7.053
         Shared: 6.629
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.694
+        Shared: 6.293
       Asia Pacific (Osaka):
         Dedicated: 6.921
         Shared: 6.509
@@ -48365,6 +48878,9 @@ i3en.12xlarge:
       ap-southeast-3:
         Dedicated: 9.136
         Shared: 8.712
+      Asia Pacific (Hyderabad):
+        Dedicated: 8.777
+        Shared: 8.376
       Asia Pacific (Osaka):
         Dedicated: 6.796
         Shared: 6.384
@@ -48451,6 +48967,7 @@ i3en.12xlarge:
     - Europe (Zurich)
     - ap-northeast-1
     - me-south-1
+    - Asia Pacific (Hyderabad)
     - us-west-2-lax-1a
     - eu-west-1
     - Middle East (UAE)
@@ -48492,6 +49009,9 @@ i3en.24xlarge:
       ap-southeast-3:
         Dedicated: 13.008
         Shared: 13.008
+      Asia Pacific (Hyderabad):
+        Dedicated: 12.336
+        Shared: 12.336
       Asia Pacific (Osaka):
         Dedicated: 12.768
         Shared: 12.768
@@ -48577,6 +49097,9 @@ i3en.24xlarge:
       ap-southeast-3:
         Dedicated: 13.138
         Shared: 13.138
+      Asia Pacific (Hyderabad):
+        Dedicated: 12.466
+        Shared: 12.466
       Asia Pacific (Osaka):
         Dedicated: 12.898
         Shared: 12.898
@@ -48662,6 +49185,9 @@ i3en.24xlarge:
       ap-southeast-3:
         Dedicated: 13.173
         Shared: 13.173
+      Asia Pacific (Hyderabad):
+        Dedicated: 12.501
+        Shared: 12.501
       Asia Pacific (Osaka):
         Dedicated: 12.933
         Shared: 12.933
@@ -48747,6 +49273,9 @@ i3en.24xlarge:
       ap-southeast-3:
         Dedicated: 13.133
         Shared: 13.133
+      Asia Pacific (Hyderabad):
+        Dedicated: 12.461
+        Shared: 12.461
       Asia Pacific (Osaka):
         Dedicated: 12.893
         Shared: 12.893
@@ -48832,6 +49361,9 @@ i3en.24xlarge:
       ap-southeast-3:
         Dedicated: 13.008
         Shared: 17.424
+      Asia Pacific (Hyderabad):
+        Dedicated: 12.336
+        Shared: 12.336
       Asia Pacific (Osaka):
         Dedicated: 17.184
         Shared: 17.184
@@ -48919,6 +49451,7 @@ i3en.24xlarge:
     - ap-southeast-3
     - ca-central-1
     - eu-north-1
+    - Asia Pacific (Hyderabad)
     - ap-northeast-2
     - Asia Pacific (Osaka)
   storage: 8 x 7500 NVMe SSD
@@ -48959,6 +49492,9 @@ i3en.2xlarge:
       ap-southeast-3:
         Dedicated: 1.155
         Shared: 1.084
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.095
+        Shared: 1.028
       Asia Pacific (Osaka):
         Dedicated: 1.133
         Shared: 1.064
@@ -49044,6 +49580,9 @@ i3en.2xlarge:
       ap-southeast-3:
         Dedicated: 1.285
         Shared: 1.214
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.225
+        Shared: 1.158
       Asia Pacific (Osaka):
         Dedicated: 1.263
         Shared: 1.194
@@ -49129,6 +49668,9 @@ i3en.2xlarge:
       ap-southeast-3:
         Dedicated: 1.32
         Shared: 1.249
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.26
+        Shared: 1.193
       Asia Pacific (Osaka):
         Dedicated: 1.298
         Shared: 1.229
@@ -49214,6 +49756,9 @@ i3en.2xlarge:
       ap-southeast-3:
         Dedicated: 1.28
         Shared: 1.209
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.22
+        Shared: 1.153
       Asia Pacific (Osaka):
         Dedicated: 1.258
         Shared: 1.189
@@ -49299,6 +49844,9 @@ i3en.2xlarge:
       ap-southeast-3:
         Dedicated: 1.155
         Shared: 1.452
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.463
+        Shared: 1.028
       Asia Pacific (Osaka):
         Dedicated: 1.501
         Shared: 1.064
@@ -49375,6 +49923,7 @@ i3en.2xlarge:
     - Middle East (UAE)
     - us-west-1
     - us-west-2-lax-1a
+    - Asia Pacific (Hyderabad)
     - eu-south-1
     - ap-east-1
     - eu-west-1
@@ -49425,6 +49974,9 @@ i3en.3xlarge:
       ap-southeast-3:
         Dedicated: 1.732
         Shared: 1.626
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.642
+        Shared: 1.542
       Asia Pacific (Osaka):
         Dedicated: 1.699
         Shared: 1.596
@@ -49510,6 +50062,9 @@ i3en.3xlarge:
       ap-southeast-3:
         Dedicated: 1.862
         Shared: 1.756
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.772
+        Shared: 1.672
       Asia Pacific (Osaka):
         Dedicated: 1.829
         Shared: 1.726
@@ -49595,6 +50150,9 @@ i3en.3xlarge:
       ap-southeast-3:
         Dedicated: 1.897
         Shared: 1.791
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.807
+        Shared: 1.707
       Asia Pacific (Osaka):
         Dedicated: 1.864
         Shared: 1.761
@@ -49680,6 +50238,9 @@ i3en.3xlarge:
       ap-southeast-3:
         Dedicated: 1.857
         Shared: 1.751
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.767
+        Shared: 1.667
       Asia Pacific (Osaka):
         Dedicated: 1.824
         Shared: 1.721
@@ -49765,6 +50326,9 @@ i3en.3xlarge:
       ap-southeast-3:
         Dedicated: 2.284
         Shared: 2.178
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.642
+        Shared: 2.094
       Asia Pacific (Osaka):
         Dedicated: 2.251
         Shared: 2.148
@@ -49834,6 +50398,7 @@ i3en.3xlarge:
     - ap-southeast-3
     - Europe (Spain)
     - Middle East (UAE)
+    - Asia Pacific (Hyderabad)
     - me-south-1
     - ca-central-1
     - ap-east-1
@@ -49891,6 +50456,9 @@ i3en.6xlarge:
       ap-southeast-3:
         Dedicated: 3.464
         Shared: 3.252
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.284
+        Shared: 3.084
       Asia Pacific (Osaka):
         Dedicated: 3.398
         Shared: 3.192
@@ -49976,6 +50544,9 @@ i3en.6xlarge:
       ap-southeast-3:
         Dedicated: 3.594
         Shared: 3.382
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.414
+        Shared: 3.214
       Asia Pacific (Osaka):
         Dedicated: 3.528
         Shared: 3.322
@@ -50061,6 +50632,9 @@ i3en.6xlarge:
       ap-southeast-3:
         Dedicated: 3.629
         Shared: 3.417
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.449
+        Shared: 3.249
       Asia Pacific (Osaka):
         Dedicated: 3.563
         Shared: 3.357
@@ -50146,6 +50720,9 @@ i3en.6xlarge:
       ap-southeast-3:
         Dedicated: 3.589
         Shared: 3.377
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.409
+        Shared: 3.209
       Asia Pacific (Osaka):
         Dedicated: 3.523
         Shared: 3.317
@@ -50231,6 +50808,9 @@ i3en.6xlarge:
       ap-southeast-3:
         Dedicated: 4.568
         Shared: 3.252
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.284
+        Shared: 3.084
       Asia Pacific (Osaka):
         Dedicated: 3.398
         Shared: 4.296
@@ -50294,6 +50874,7 @@ i3en.6xlarge:
   regions:
     - us-west-1
     - sa-east-1
+    - Asia Pacific (Hyderabad)
     - ap-south-1
     - eu-south-1
     - eu-central-1
@@ -50358,6 +50939,9 @@ i3en.large:
       ap-southeast-3:
         Dedicated: 0.289
         Shared: 0.271
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.274
+        Shared: 0.257
       Asia Pacific (Osaka):
         Dedicated: 0.283
         Shared: 0.266
@@ -50443,6 +51027,9 @@ i3en.large:
       ap-southeast-3:
         Dedicated: 0.349
         Shared: 0.331
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.334
+        Shared: 0.317
       Asia Pacific (Osaka):
         Dedicated: 0.343
         Shared: 0.326
@@ -50528,6 +51115,9 @@ i3en.large:
       ap-southeast-3:
         Dedicated: 0.384
         Shared: 0.366
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.369
+        Shared: 0.352
       Asia Pacific (Osaka):
         Dedicated: 0.378
         Shared: 0.361
@@ -50613,6 +51203,9 @@ i3en.large:
       ap-southeast-3:
         Dedicated: 0.345
         Shared: 0.327
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.33
+        Shared: 0.313
       Asia Pacific (Osaka):
         Dedicated: 0.339
         Shared: 0.322
@@ -50698,6 +51291,9 @@ i3en.large:
       ap-southeast-3:
         Dedicated: 0.289
         Shared: 0.363
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.274
+        Shared: 0.257
       Asia Pacific (Osaka):
         Dedicated: 0.375
         Shared: 0.266
@@ -50778,6 +51374,7 @@ i3en.large:
     - us-east-2
     - af-south-1
     - eu-west-2
+    - Asia Pacific (Hyderabad)
     - us-gov-east-1
     - Europe (Spain)
     - eu-south-1
@@ -50824,6 +51421,9 @@ i3en.metal:
       ap-southeast-3:
         Dedicated: 13.008
         Shared: 13.008
+      Asia Pacific (Hyderabad):
+        Dedicated: 12.336
+        Shared: 12.336
       Asia Pacific (Osaka):
         Dedicated: 12.768
         Shared: 12.768
@@ -50909,6 +51509,9 @@ i3en.metal:
       ap-southeast-3:
         Dedicated: 13.138
         Shared: 13.138
+      Asia Pacific (Hyderabad):
+        Dedicated: 12.466
+        Shared: 12.466
       Asia Pacific (Osaka):
         Dedicated: 12.898
         Shared: 12.898
@@ -50994,6 +51597,9 @@ i3en.metal:
       ap-southeast-3:
         Dedicated: 13.173
         Shared: 13.173
+      Asia Pacific (Hyderabad):
+        Dedicated: 12.501
+        Shared: 12.501
       Asia Pacific (Osaka):
         Dedicated: 12.933
         Shared: 12.933
@@ -51079,6 +51685,9 @@ i3en.metal:
       ap-southeast-3:
         Dedicated: 13.133
         Shared: 13.133
+      Asia Pacific (Hyderabad):
+        Dedicated: 12.461
+        Shared: 12.461
       Asia Pacific (Osaka):
         Dedicated: 12.893
         Shared: 12.893
@@ -51164,6 +51773,9 @@ i3en.metal:
       ap-southeast-3:
         Dedicated: 13.008
         Shared: 17.424
+      Asia Pacific (Hyderabad):
+        Dedicated: 12.336
+        Shared: 16.752
       Asia Pacific (Osaka):
         Dedicated: 17.184
         Shared: 17.184
@@ -51225,6 +51837,7 @@ i3en.metal:
         Dedicated: 17.434
         Shared: 17.434
   regions:
+    - Asia Pacific (Hyderabad)
     - us-gov-east-1
     - eu-central-1
     - af-south-1
@@ -51290,6 +51903,9 @@ i3en.xlarge:
       ap-southeast-3:
         Dedicated: 0.577
         Shared: 0.542
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.547
+        Shared: 0.514
       Asia Pacific (Osaka):
         Dedicated: 0.566
         Shared: 0.532
@@ -51375,6 +51991,9 @@ i3en.xlarge:
       ap-southeast-3:
         Dedicated: 0.637
         Shared: 0.602
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.607
+        Shared: 0.574
       Asia Pacific (Osaka):
         Dedicated: 0.626
         Shared: 0.592
@@ -51460,6 +52079,9 @@ i3en.xlarge:
       ap-southeast-3:
         Dedicated: 0.672
         Shared: 0.637
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.642
+        Shared: 0.609
       Asia Pacific (Osaka):
         Dedicated: 0.661
         Shared: 0.627
@@ -51545,6 +52167,9 @@ i3en.xlarge:
       ap-southeast-3:
         Dedicated: 0.634
         Shared: 0.598
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.604
+        Shared: 0.57
       Asia Pacific (Osaka):
         Dedicated: 0.623
         Shared: 0.588
@@ -51630,6 +52255,9 @@ i3en.xlarge:
       ap-southeast-3:
         Dedicated: 0.577
         Shared: 0.542
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.731
+        Shared: 0.698
       Asia Pacific (Osaka):
         Dedicated: 0.566
         Shared: 0.532
@@ -51703,6 +52331,7 @@ i3en.xlarge:
     - us-west-2
     - eu-west-2
     - us-west-1
+    - Asia Pacific (Hyderabad)
     - us-gov-east-1
     - us-east-2
     - ap-northeast-1
@@ -59503,6 +60132,9 @@ m5.12xlarge:
       ap-southeast-3:
         Dedicated: 3.053
         Shared: 2.88
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.569
+        Shared: 2.424
       Asia Pacific (Osaka):
         Dedicated: 3.155
         Shared: 2.976
@@ -59588,6 +60220,9 @@ m5.12xlarge:
       ap-southeast-3:
         Dedicated: 3.183
         Shared: 3.01
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.699
+        Shared: 2.554
       Asia Pacific (Osaka):
         Dedicated: 3.285
         Shared: 3.106
@@ -59673,6 +60308,9 @@ m5.12xlarge:
       ap-southeast-3:
         Dedicated: 3.218
         Shared: 3.045
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.734
+        Shared: 2.589
       Asia Pacific (Osaka):
         Dedicated: 3.32
         Shared: 3.141
@@ -59758,6 +60396,9 @@ m5.12xlarge:
       ap-southeast-3:
         Dedicated: 3.153
         Shared: 2.98
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.694
+        Shared: 2.549
       Asia Pacific (Osaka):
         Dedicated: 3.255
         Shared: 3.076
@@ -59843,6 +60484,9 @@ m5.12xlarge:
       ap-southeast-3:
         Dedicated: 5.261
         Shared: 2.88
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.569
+        Shared: 4.632
       Asia Pacific (Osaka):
         Dedicated: 5.363
         Shared: 5.184
@@ -59909,6 +60553,7 @@ m5.12xlarge:
     - Europe (Zurich)
     - eu-north-1
     - ap-southeast-1
+    - Asia Pacific (Hyderabad)
     - eu-west-1
     - us-east-2
     - Asia Pacific (Osaka)
@@ -59970,6 +60615,9 @@ m5.16xlarge:
       ap-southeast-3:
         Dedicated: 4.07
         Shared: 3.84
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.426
+        Shared: 3.232
       Asia Pacific (Osaka):
         Dedicated: 4.206
         Shared: 3.968
@@ -60055,6 +60703,9 @@ m5.16xlarge:
       ap-southeast-3:
         Dedicated: 4.2
         Shared: 3.97
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.556
+        Shared: 3.362
       Asia Pacific (Osaka):
         Dedicated: 4.336
         Shared: 4.098
@@ -60140,6 +60791,9 @@ m5.16xlarge:
       ap-southeast-3:
         Dedicated: 4.235
         Shared: 4.005
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.591
+        Shared: 3.397
       Asia Pacific (Osaka):
         Dedicated: 4.371
         Shared: 4.133
@@ -60225,6 +60879,9 @@ m5.16xlarge:
       ap-southeast-3:
         Dedicated: 4.17
         Shared: 3.94
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.551
+        Shared: 3.357
       Asia Pacific (Osaka):
         Dedicated: 4.306
         Shared: 4.068
@@ -60310,6 +60967,9 @@ m5.16xlarge:
       ap-southeast-3:
         Dedicated: 4.07
         Shared: 6.784
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.37
+        Shared: 3.232
       Asia Pacific (Osaka):
         Dedicated: 4.206
         Shared: 3.968
@@ -60383,6 +61043,7 @@ m5.16xlarge:
     - ap-southeast-1
     - us-west-1
     - ap-northeast-1
+    - Asia Pacific (Hyderabad)
     - Middle East (UAE)
     - us-east-2
     - ap-southeast-3
@@ -60437,6 +61098,9 @@ m5.24xlarge:
       ap-southeast-3:
         Dedicated: 5.76
         Shared: 5.76
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.848
+        Shared: 4.848
       Asia Pacific (Osaka):
         Dedicated: 5.952
         Shared: 5.952
@@ -60522,6 +61186,9 @@ m5.24xlarge:
       ap-southeast-3:
         Dedicated: 5.89
         Shared: 5.89
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.978
+        Shared: 4.978
       Asia Pacific (Osaka):
         Dedicated: 6.082
         Shared: 6.082
@@ -60607,6 +61274,9 @@ m5.24xlarge:
       ap-southeast-3:
         Dedicated: 5.925
         Shared: 5.925
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.013
+        Shared: 5.013
       Asia Pacific (Osaka):
         Dedicated: 6.117
         Shared: 6.117
@@ -60692,6 +61362,9 @@ m5.24xlarge:
       ap-southeast-3:
         Dedicated: 5.86
         Shared: 5.86
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.973
+        Shared: 4.973
       Asia Pacific (Osaka):
         Dedicated: 6.052
         Shared: 6.052
@@ -60777,6 +61450,9 @@ m5.24xlarge:
       ap-southeast-3:
         Dedicated: 5.76
         Shared: 5.76
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.848
+        Shared: 9.264
       Asia Pacific (Osaka):
         Dedicated: 5.952
         Shared: 5.952
@@ -60863,6 +61539,7 @@ m5.24xlarge:
     - eu-west-1
     - ap-southeast-3
     - us-west-1
+    - Asia Pacific (Hyderabad)
     - Europe (Zurich)
     - Europe (Spain)
     - eu-north-1
@@ -60904,6 +61581,9 @@ m5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.509
         Shared: 0.48
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.428
+        Shared: 0.404
       Asia Pacific (Osaka):
         Dedicated: 0.526
         Shared: 0.496
@@ -61001,6 +61681,9 @@ m5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.639
         Shared: 0.61
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.558
+        Shared: 0.534
       Asia Pacific (Osaka):
         Dedicated: 0.656
         Shared: 0.626
@@ -61098,6 +61781,9 @@ m5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.674
         Shared: 0.645
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.593
+        Shared: 0.569
       Asia Pacific (Osaka):
         Dedicated: 0.691
         Shared: 0.661
@@ -61195,6 +61881,9 @@ m5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.609
         Shared: 0.58
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.553
+        Shared: 0.529
       Asia Pacific (Osaka):
         Dedicated: 0.626
         Shared: 0.596
@@ -61292,6 +61981,9 @@ m5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.509
         Shared: 0.48
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.428
+        Shared: 0.404
       Asia Pacific (Osaka):
         Dedicated: 0.894
         Shared: 0.864
@@ -61390,6 +62082,7 @@ m5.2xlarge:
     - eu-central-1
     - ap-southeast-3
     - Asia Pacific (Osaka)
+    - Asia Pacific (Hyderabad)
     - us-west-2-lax-1a
     - eu-west-3
     - ap-east-1
@@ -61435,6 +62128,9 @@ m5.4xlarge:
       ap-southeast-3:
         Dedicated: 1.018
         Shared: 0.96
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.856
+        Shared: 0.808
       Asia Pacific (Osaka):
         Dedicated: 1.052
         Shared: 0.992
@@ -61520,6 +62216,9 @@ m5.4xlarge:
       ap-southeast-3:
         Dedicated: 1.148
         Shared: 1.09
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.986
+        Shared: 0.938
       Asia Pacific (Osaka):
         Dedicated: 1.182
         Shared: 1.122
@@ -61605,6 +62304,9 @@ m5.4xlarge:
       ap-southeast-3:
         Dedicated: 1.183
         Shared: 1.125
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.021
+        Shared: 0.973
       Asia Pacific (Osaka):
         Dedicated: 1.217
         Shared: 1.157
@@ -61690,6 +62392,9 @@ m5.4xlarge:
       ap-southeast-3:
         Dedicated: 1.118
         Shared: 1.06
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.981
+        Shared: 0.933
       Asia Pacific (Osaka):
         Dedicated: 1.152
         Shared: 1.092
@@ -61775,6 +62480,9 @@ m5.4xlarge:
       ap-southeast-3:
         Dedicated: 1.018
         Shared: 1.696
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.856
+        Shared: 0.808
       Asia Pacific (Osaka):
         Dedicated: 1.052
         Shared: 0.992
@@ -61840,6 +62548,7 @@ m5.4xlarge:
     - Europe (Zurich)
     - ap-northeast-2
     - us-east-2
+    - Asia Pacific (Hyderabad)
     - us-gov-east-1
     - me-south-1
     - ap-southeast-2
@@ -61902,6 +62611,9 @@ m5.8xlarge:
       ap-southeast-3:
         Dedicated: 2.035
         Shared: 1.92
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.713
+        Shared: 1.616
       Asia Pacific (Osaka):
         Dedicated: 2.103
         Shared: 1.984
@@ -61987,6 +62699,9 @@ m5.8xlarge:
       ap-southeast-3:
         Dedicated: 2.165
         Shared: 2.05
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.843
+        Shared: 1.746
       Asia Pacific (Osaka):
         Dedicated: 2.233
         Shared: 2.114
@@ -62072,6 +62787,9 @@ m5.8xlarge:
       ap-southeast-3:
         Dedicated: 2.2
         Shared: 2.085
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.878
+        Shared: 1.781
       Asia Pacific (Osaka):
         Dedicated: 2.268
         Shared: 2.149
@@ -62157,6 +62875,9 @@ m5.8xlarge:
       ap-southeast-3:
         Dedicated: 2.135
         Shared: 2.02
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.838
+        Shared: 1.741
       Asia Pacific (Osaka):
         Dedicated: 2.203
         Shared: 2.084
@@ -62242,6 +62963,9 @@ m5.8xlarge:
       ap-southeast-3:
         Dedicated: 2.035
         Shared: 1.92
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.713
+        Shared: 3.088
       Asia Pacific (Osaka):
         Dedicated: 3.575
         Shared: 1.984
@@ -62310,6 +63034,7 @@ m5.8xlarge:
     - us-gov-west-1
     - sa-east-1
     - eu-west-1
+    - Asia Pacific (Hyderabad)
     - ca-central-1
     - ap-southeast-3
     - ap-southeast-1
@@ -62369,6 +63094,9 @@ m5.large:
       ap-southeast-3:
         Dedicated: 0.127
         Shared: 0.12
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.107
+        Shared: 0.101
       Asia Pacific (Osaka):
         Dedicated: 0.131
         Shared: 0.124
@@ -62454,6 +63182,9 @@ m5.large:
       ap-southeast-3:
         Dedicated: 0.187
         Shared: 0.18
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.167
+        Shared: 0.161
       Asia Pacific (Osaka):
         Dedicated: 0.191
         Shared: 0.184
@@ -62539,6 +63270,9 @@ m5.large:
       ap-southeast-3:
         Dedicated: 0.222
         Shared: 0.215
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.202
+        Shared: 0.196
       Asia Pacific (Osaka):
         Dedicated: 0.226
         Shared: 0.219
@@ -62624,6 +63358,9 @@ m5.large:
       ap-southeast-3:
         Dedicated: 0.184
         Shared: 0.176
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.163
+        Shared: 0.157
       Asia Pacific (Osaka):
         Dedicated: 0.188
         Shared: 0.18
@@ -62709,6 +63446,9 @@ m5.large:
       ap-southeast-3:
         Dedicated: 0.219
         Shared: 0.212
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.199
+        Shared: 0.193
       Asia Pacific (Osaka):
         Dedicated: 0.131
         Shared: 0.124
@@ -62773,6 +63513,7 @@ m5.large:
     - Asia Pacific (Osaka)
     - ap-southeast-1
     - us-gov-east-1
+    - Asia Pacific (Hyderabad)
     - eu-north-1
     - us-west-2-lax-1a
     - us-west-2
@@ -62836,6 +63577,9 @@ m5.metal:
       ap-southeast-3:
         Dedicated: 5.76
         Shared: 5.76
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.848
+        Shared: 4.848
       Asia Pacific (Osaka):
         Dedicated: 5.952
         Shared: 5.952
@@ -62921,6 +63665,9 @@ m5.metal:
       ap-southeast-3:
         Dedicated: 5.89
         Shared: 5.89
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.978
+        Shared: 4.978
       Asia Pacific (Osaka):
         Dedicated: 6.082
         Shared: 6.082
@@ -63006,6 +63753,9 @@ m5.metal:
       ap-southeast-3:
         Dedicated: 5.925
         Shared: 5.925
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.013
+        Shared: 5.013
       Asia Pacific (Osaka):
         Dedicated: 6.117
         Shared: 6.117
@@ -63091,6 +63841,9 @@ m5.metal:
       ap-southeast-3:
         Dedicated: 5.86
         Shared: 5.86
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.973
+        Shared: 4.973
       Asia Pacific (Osaka):
         Dedicated: 6.052
         Shared: 6.052
@@ -63176,6 +63929,9 @@ m5.metal:
       ap-southeast-3:
         Dedicated: 5.76
         Shared: 10.176
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.848
+        Shared: 9.264
       Asia Pacific (Osaka):
         Dedicated: 10.368
         Shared: 5.952
@@ -63265,6 +64021,7 @@ m5.metal:
     - Middle East (UAE)
     - Europe (Zurich)
     - us-west-1
+    - Asia Pacific (Hyderabad)
   storage: EBS only
   vcpu: 96
 m5.xlarge:
@@ -63303,6 +64060,9 @@ m5.xlarge:
       ap-southeast-3:
         Dedicated: 0.254
         Shared: 0.24
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.214
+        Shared: 0.202
       Asia Pacific (Osaka):
         Dedicated: 0.263
         Shared: 0.248
@@ -63391,6 +64151,9 @@ m5.xlarge:
       ap-southeast-3:
         Dedicated: 0.314
         Shared: 0.3
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.274
+        Shared: 0.262
       Asia Pacific (Osaka):
         Dedicated: 0.323
         Shared: 0.308
@@ -63479,6 +64242,9 @@ m5.xlarge:
       ap-southeast-3:
         Dedicated: 0.349
         Shared: 0.335
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.309
+        Shared: 0.297
       Asia Pacific (Osaka):
         Dedicated: 0.358
         Shared: 0.343
@@ -63567,6 +64333,9 @@ m5.xlarge:
       ap-southeast-3:
         Dedicated: 0.311
         Shared: 0.296
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.27
+        Shared: 0.258
       Asia Pacific (Osaka):
         Dedicated: 0.319
         Shared: 0.304
@@ -63655,6 +64424,9 @@ m5.xlarge:
       ap-southeast-3:
         Dedicated: 0.254
         Shared: 0.424
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.398
+        Shared: 0.202
       Asia Pacific (Osaka):
         Dedicated: 0.447
         Shared: 0.432
@@ -63728,6 +64500,7 @@ m5.xlarge:
     - ap-northeast-2
     - us-east-1
     - us-east-2
+    - Asia Pacific (Hyderabad)
     - ap-south-1
     - eu-south-1
     - 'us-east-1-mia-1a '
@@ -68426,6 +69199,9 @@ m5d.12xlarge:
       ap-southeast-3:
         Dedicated: 3.587
         Shared: 3.384
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.104
+        Shared: 2.928
       Asia Pacific (Osaka):
         Dedicated: 3.714
         Shared: 3.504
@@ -68508,6 +69284,9 @@ m5d.12xlarge:
       ap-southeast-3:
         Dedicated: 3.717
         Shared: 3.514
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.234
+        Shared: 3.058
       Asia Pacific (Osaka):
         Dedicated: 3.844
         Shared: 3.634
@@ -68590,6 +69369,9 @@ m5d.12xlarge:
       ap-southeast-3:
         Dedicated: 3.752
         Shared: 3.549
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.269
+        Shared: 3.093
       Asia Pacific (Osaka):
         Dedicated: 3.879
         Shared: 3.669
@@ -68672,6 +69454,9 @@ m5d.12xlarge:
       ap-southeast-3:
         Dedicated: 3.687
         Shared: 3.484
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.229
+        Shared: 3.053
       Asia Pacific (Osaka):
         Dedicated: 3.814
         Shared: 3.604
@@ -68754,6 +69539,9 @@ m5d.12xlarge:
       ap-southeast-3:
         Dedicated: 3.587
         Shared: 5.592
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.104
+        Shared: 2.928
       Asia Pacific (Osaka):
         Dedicated: 5.922
         Shared: 5.712
@@ -68830,6 +69618,7 @@ m5d.12xlarge:
     - Asia Pacific (Osaka)
     - ap-southeast-1
     - eu-north-1
+    - Asia Pacific (Hyderabad)
     - sa-east-1
     - us-east-2
     - Europe (Spain)
@@ -68877,6 +69666,9 @@ m5d.16xlarge:
       ap-southeast-3:
         Dedicated: 4.783
         Shared: 4.512
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.138
+        Shared: 3.904
       Asia Pacific (Osaka):
         Dedicated: 4.952
         Shared: 4.672
@@ -68959,6 +69751,9 @@ m5d.16xlarge:
       ap-southeast-3:
         Dedicated: 4.913
         Shared: 4.642
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.268
+        Shared: 4.034
       Asia Pacific (Osaka):
         Dedicated: 5.082
         Shared: 4.802
@@ -69041,6 +69836,9 @@ m5d.16xlarge:
       ap-southeast-3:
         Dedicated: 4.948
         Shared: 4.677
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.303
+        Shared: 4.069
       Asia Pacific (Osaka):
         Dedicated: 5.117
         Shared: 4.837
@@ -69123,6 +69921,9 @@ m5d.16xlarge:
       ap-southeast-3:
         Dedicated: 4.883
         Shared: 4.612
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.263
+        Shared: 4.029
       Asia Pacific (Osaka):
         Dedicated: 5.052
         Shared: 4.772
@@ -69205,6 +70006,9 @@ m5d.16xlarge:
       ap-southeast-3:
         Dedicated: 4.783
         Shared: 7.456
+      Asia Pacific (Hyderabad):
+        Dedicated: 7.082
+        Shared: 3.904
       Asia Pacific (Osaka):
         Dedicated: 7.896
         Shared: 7.616
@@ -69289,6 +70093,7 @@ m5d.16xlarge:
     - eu-north-1
     - Europe (Spain)
     - us-gov-east-1
+    - Asia Pacific (Hyderabad)
     - ap-east-1
   storage: 4 x 600 NVMe SSD
   vcpu: 64
@@ -69328,6 +70133,9 @@ m5d.24xlarge:
       ap-southeast-3:
         Dedicated: 6.768
         Shared: 6.768
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.856
+        Shared: 5.856
       Asia Pacific (Osaka):
         Dedicated: 7.008
         Shared: 7.008
@@ -69410,6 +70218,9 @@ m5d.24xlarge:
       ap-southeast-3:
         Dedicated: 6.898
         Shared: 6.898
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.986
+        Shared: 5.986
       Asia Pacific (Osaka):
         Dedicated: 7.138
         Shared: 7.138
@@ -69492,6 +70303,9 @@ m5d.24xlarge:
       ap-southeast-3:
         Dedicated: 6.933
         Shared: 6.933
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.021
+        Shared: 6.021
       Asia Pacific (Osaka):
         Dedicated: 7.173
         Shared: 7.173
@@ -69574,6 +70388,9 @@ m5d.24xlarge:
       ap-southeast-3:
         Dedicated: 6.868
         Shared: 6.868
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.981
+        Shared: 5.981
       Asia Pacific (Osaka):
         Dedicated: 7.108
         Shared: 7.108
@@ -69656,6 +70473,9 @@ m5d.24xlarge:
       ap-southeast-3:
         Dedicated: 11.184
         Shared: 6.768
+      Asia Pacific (Hyderabad):
+        Dedicated: 10.272
+        Shared: 10.272
       Asia Pacific (Osaka):
         Dedicated: 11.424
         Shared: 11.424
@@ -69732,6 +70552,7 @@ m5d.24xlarge:
     - eu-south-1
     - Europe (Zurich)
     - us-gov-west-1
+    - Asia Pacific (Hyderabad)
     - Middle East (UAE)
     - ap-northeast-2
     - ap-southeast-2
@@ -69779,6 +70600,9 @@ m5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.598
         Shared: 0.564
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.517
+        Shared: 0.488
       Asia Pacific (Osaka):
         Dedicated: 0.619
         Shared: 0.584
@@ -69861,6 +70685,9 @@ m5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.728
         Shared: 0.694
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.647
+        Shared: 0.618
       Asia Pacific (Osaka):
         Dedicated: 0.749
         Shared: 0.714
@@ -69943,6 +70770,9 @@ m5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.763
         Shared: 0.729
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.682
+        Shared: 0.653
       Asia Pacific (Osaka):
         Dedicated: 0.784
         Shared: 0.749
@@ -70025,6 +70855,9 @@ m5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.698
         Shared: 0.664
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.642
+        Shared: 0.613
       Asia Pacific (Osaka):
         Dedicated: 0.719
         Shared: 0.684
@@ -70107,6 +70940,9 @@ m5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.966
         Shared: 0.564
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.517
+        Shared: 0.856
       Asia Pacific (Osaka):
         Dedicated: 0.987
         Shared: 0.952
@@ -70178,6 +71014,7 @@ m5d.2xlarge:
     - us-east-2
     - eu-central-1
     - us-west-2
+    - Asia Pacific (Hyderabad)
     - us-gov-east-1
     - Europe (Zurich)
     - ap-east-1
@@ -70230,6 +71067,9 @@ m5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.196
         Shared: 1.128
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.035
+        Shared: 0.976
       Asia Pacific (Osaka):
         Dedicated: 1.238
         Shared: 1.168
@@ -70312,6 +71152,9 @@ m5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.326
         Shared: 1.258
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.165
+        Shared: 1.106
       Asia Pacific (Osaka):
         Dedicated: 1.368
         Shared: 1.298
@@ -70394,6 +71237,9 @@ m5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.361
         Shared: 1.293
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.2
+        Shared: 1.141
       Asia Pacific (Osaka):
         Dedicated: 1.403
         Shared: 1.333
@@ -70476,6 +71322,9 @@ m5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.296
         Shared: 1.228
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.16
+        Shared: 1.101
       Asia Pacific (Osaka):
         Dedicated: 1.338
         Shared: 1.268
@@ -70558,6 +71407,9 @@ m5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.932
         Shared: 1.128
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.771
+        Shared: 0.976
       Asia Pacific (Osaka):
         Dedicated: 1.974
         Shared: 1.904
@@ -70637,6 +71489,7 @@ m5d.4xlarge:
     - ap-southeast-2
     - eu-west-2
     - us-gov-east-1
+    - Asia Pacific (Hyderabad)
     - ap-east-1
     - Europe (Zurich)
     - us-gov-west-1
@@ -70681,6 +71534,9 @@ m5d.8xlarge:
       ap-southeast-3:
         Dedicated: 2.391
         Shared: 2.256
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.069
+        Shared: 1.952
       Asia Pacific (Osaka):
         Dedicated: 2.476
         Shared: 2.336
@@ -70763,6 +71619,9 @@ m5d.8xlarge:
       ap-southeast-3:
         Dedicated: 2.521
         Shared: 2.386
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.199
+        Shared: 2.082
       Asia Pacific (Osaka):
         Dedicated: 2.606
         Shared: 2.466
@@ -70845,6 +71704,9 @@ m5d.8xlarge:
       ap-southeast-3:
         Dedicated: 2.556
         Shared: 2.421
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.234
+        Shared: 2.117
       Asia Pacific (Osaka):
         Dedicated: 2.641
         Shared: 2.501
@@ -70927,6 +71789,9 @@ m5d.8xlarge:
       ap-southeast-3:
         Dedicated: 2.491
         Shared: 2.356
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.194
+        Shared: 2.077
       Asia Pacific (Osaka):
         Dedicated: 2.576
         Shared: 2.436
@@ -71009,6 +71874,9 @@ m5d.8xlarge:
       ap-southeast-3:
         Dedicated: 3.863
         Shared: 3.728
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.541
+        Shared: 1.952
       Asia Pacific (Osaka):
         Dedicated: 3.948
         Shared: 3.808
@@ -71087,6 +71955,7 @@ m5d.8xlarge:
     - us-east-1
     - us-east-2
     - ap-east-1
+    - Asia Pacific (Hyderabad)
     - Middle East (UAE)
     - ap-northeast-1
     - me-south-1
@@ -71132,6 +72001,9 @@ m5d.large:
       ap-southeast-3:
         Dedicated: 0.149
         Shared: 0.141
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.129
+        Shared: 0.122
       Asia Pacific (Osaka):
         Dedicated: 0.155
         Shared: 0.146
@@ -71214,6 +72086,9 @@ m5d.large:
       ap-southeast-3:
         Dedicated: 0.209
         Shared: 0.201
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.189
+        Shared: 0.182
       Asia Pacific (Osaka):
         Dedicated: 0.215
         Shared: 0.206
@@ -71296,6 +72171,9 @@ m5d.large:
       ap-southeast-3:
         Dedicated: 0.244
         Shared: 0.236
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.224
+        Shared: 0.217
       Asia Pacific (Osaka):
         Dedicated: 0.25
         Shared: 0.241
@@ -71378,6 +72256,9 @@ m5d.large:
       ap-southeast-3:
         Dedicated: 0.206
         Shared: 0.197
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.186
+        Shared: 0.178
       Asia Pacific (Osaka):
         Dedicated: 0.211
         Shared: 0.202
@@ -71460,6 +72341,9 @@ m5d.large:
       ap-southeast-3:
         Dedicated: 0.241
         Shared: 0.141
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.221
+        Shared: 0.122
       Asia Pacific (Osaka):
         Dedicated: 0.247
         Shared: 0.238
@@ -71533,6 +72417,7 @@ m5d.large:
     - ap-southeast-2
     - eu-south-1
     - ap-northeast-2
+    - Asia Pacific (Hyderabad)
     - eu-west-2
     - Middle East (UAE)
     - Asia Pacific (Osaka)
@@ -71583,6 +72468,9 @@ m5d.metal:
       ap-southeast-3:
         Dedicated: 6.768
         Shared: 6.768
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.856
+        Shared: 5.856
       Asia Pacific (Osaka):
         Dedicated: 7.008
         Shared: 7.008
@@ -71665,6 +72553,9 @@ m5d.metal:
       ap-southeast-3:
         Dedicated: 6.898
         Shared: 6.898
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.986
+        Shared: 5.986
       Asia Pacific (Osaka):
         Dedicated: 7.138
         Shared: 7.138
@@ -71747,6 +72638,9 @@ m5d.metal:
       ap-southeast-3:
         Dedicated: 6.933
         Shared: 6.933
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.021
+        Shared: 6.021
       Asia Pacific (Osaka):
         Dedicated: 7.173
         Shared: 7.173
@@ -71829,6 +72723,9 @@ m5d.metal:
       ap-southeast-3:
         Dedicated: 6.868
         Shared: 6.868
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.981
+        Shared: 5.981
       Asia Pacific (Osaka):
         Dedicated: 7.108
         Shared: 7.108
@@ -71911,6 +72808,9 @@ m5d.metal:
       ap-southeast-3:
         Dedicated: 11.184
         Shared: 11.184
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.856
+        Shared: 10.272
       Asia Pacific (Osaka):
         Dedicated: 11.424
         Shared: 11.424
@@ -71983,6 +72883,7 @@ m5d.metal:
     - sa-east-1
     - ap-southeast-1
     - eu-north-1
+    - Asia Pacific (Hyderabad)
     - ca-central-1
     - ap-southeast-2
     - ap-southeast-3
@@ -72034,6 +72935,9 @@ m5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.299
         Shared: 0.282
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.259
+        Shared: 0.244
       Asia Pacific (Osaka):
         Dedicated: 0.31
         Shared: 0.292
@@ -72116,6 +73020,9 @@ m5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.359
         Shared: 0.342
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.319
+        Shared: 0.304
       Asia Pacific (Osaka):
         Dedicated: 0.37
         Shared: 0.352
@@ -72198,6 +73105,9 @@ m5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.394
         Shared: 0.377
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.354
+        Shared: 0.339
       Asia Pacific (Osaka):
         Dedicated: 0.405
         Shared: 0.387
@@ -72280,6 +73190,9 @@ m5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.355
         Shared: 0.338
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.315
+        Shared: 0.3
       Asia Pacific (Osaka):
         Dedicated: 0.366
         Shared: 0.348
@@ -72362,6 +73275,9 @@ m5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.299
         Shared: 0.466
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.259
+        Shared: 0.428
       Asia Pacific (Osaka):
         Dedicated: 0.494
         Shared: 0.476
@@ -72427,6 +73343,7 @@ m5d.xlarge:
     - eu-west-3
     - ap-southeast-3
     - eu-west-1
+    - Asia Pacific (Hyderabad)
     - us-west-1
     - us-gov-west-1
     - us-gov-east-1
@@ -77704,6 +78621,9 @@ m6g.12xlarge:
       ap-southeast-3:
         Dedicated: 2.4422
         Shared: 2.304
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.2873
+        Shared: 1.2144
       ca-central-1:
         Dedicated: 2.1777
         Shared: 2.0544
@@ -77777,6 +78697,9 @@ m6g.12xlarge:
       ap-southeast-3:
         Dedicated: 2.5722
         Shared: 2.434
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.4173
+        Shared: 1.3444
       ca-central-1:
         Dedicated: 2.3077
         Shared: 2.1844
@@ -77850,6 +78773,9 @@ m6g.12xlarge:
       ap-southeast-3:
         Dedicated: 2.6072
         Shared: 2.469
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.4523
+        Shared: 1.3794
       ca-central-1:
         Dedicated: 2.3427
         Shared: 2.2194
@@ -77923,6 +78849,9 @@ m6g.12xlarge:
       ap-southeast-3:
         Dedicated: 2.5672
         Shared: 2.429
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.4123
+        Shared: 1.3394
       ca-central-1:
         Dedicated: 2.3027
         Shared: 2.1794
@@ -77980,6 +78909,7 @@ m6g.12xlarge:
     - us-east-1
     - us-west-1
     - sa-east-1
+    - Asia Pacific (Hyderabad)
     - me-south-1
     - eu-west-1
     - Europe (Spain)
@@ -78032,6 +78962,9 @@ m6g.16xlarge:
       ap-southeast-3:
         Dedicated: 3.2563
         Shared: 3.072
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.7164
+        Shared: 1.6192
       ca-central-1:
         Dedicated: 2.9036
         Shared: 2.7392
@@ -78105,6 +79038,9 @@ m6g.16xlarge:
       ap-southeast-3:
         Dedicated: 3.3863
         Shared: 3.202
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.8464
+        Shared: 1.7492
       ca-central-1:
         Dedicated: 3.0336
         Shared: 2.8692
@@ -78178,6 +79114,9 @@ m6g.16xlarge:
       ap-southeast-3:
         Dedicated: 3.4213
         Shared: 3.237
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.8814
+        Shared: 1.7842
       ca-central-1:
         Dedicated: 3.0686
         Shared: 2.9042
@@ -78251,6 +79190,9 @@ m6g.16xlarge:
       ap-southeast-3:
         Dedicated: 3.3813
         Shared: 3.197
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.8414
+        Shared: 1.7442
       ca-central-1:
         Dedicated: 3.0286
         Shared: 2.8642
@@ -78313,6 +79255,7 @@ m6g.16xlarge:
     - eu-south-1
     - ap-northeast-2
     - ap-southeast-3
+    - Asia Pacific (Hyderabad)
     - ap-southeast-2
     - eu-west-1
     - eu-west-3
@@ -78360,6 +79303,9 @@ m6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.407
         Shared: 0.384
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.2145
+        Shared: 0.2024
       ca-central-1:
         Dedicated: 0.3629
         Shared: 0.3424
@@ -78433,6 +79379,9 @@ m6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.537
         Shared: 0.514
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.3445
+        Shared: 0.3324
       ca-central-1:
         Dedicated: 0.4929
         Shared: 0.4724
@@ -78506,6 +79455,9 @@ m6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.572
         Shared: 0.549
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.3795
+        Shared: 0.3674
       ca-central-1:
         Dedicated: 0.5279
         Shared: 0.5074
@@ -78579,6 +79531,9 @@ m6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.532
         Shared: 0.509
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.3395
+        Shared: 0.3274
       ca-central-1:
         Dedicated: 0.4879
         Shared: 0.4674
@@ -78645,6 +79600,7 @@ m6g.2xlarge:
     - ca-central-1
     - sa-east-1
     - eu-central-1
+    - Asia Pacific (Hyderabad)
     - us-east-2
     - Middle East (UAE)
     - ap-southeast-1
@@ -78688,6 +79644,9 @@ m6g.4xlarge:
       ap-southeast-3:
         Dedicated: 0.8141
         Shared: 0.768
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.4291
+        Shared: 0.4048
       ca-central-1:
         Dedicated: 0.7259
         Shared: 0.6848
@@ -78761,6 +79720,9 @@ m6g.4xlarge:
       ap-southeast-3:
         Dedicated: 0.9441
         Shared: 0.898
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.5591
+        Shared: 0.5348
       ca-central-1:
         Dedicated: 0.8559
         Shared: 0.8148
@@ -78834,6 +79796,9 @@ m6g.4xlarge:
       ap-southeast-3:
         Dedicated: 0.9791
         Shared: 0.933
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.5941
+        Shared: 0.5698
       ca-central-1:
         Dedicated: 0.8909
         Shared: 0.8498
@@ -78907,6 +79872,9 @@ m6g.4xlarge:
       ap-southeast-3:
         Dedicated: 0.9391
         Shared: 0.893
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.5541
+        Shared: 0.5298
       ca-central-1:
         Dedicated: 0.8509
         Shared: 0.8098
@@ -78969,6 +79937,7 @@ m6g.4xlarge:
     - eu-west-3
     - eu-west-1
     - ap-northeast-1
+    - Asia Pacific (Hyderabad)
     - Europe (Spain)
     - us-west-1
     - eu-west-2
@@ -79016,6 +79985,9 @@ m6g.8xlarge:
       ap-southeast-3:
         Dedicated: 1.6282
         Shared: 1.536
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.8582
+        Shared: 0.8096
       ca-central-1:
         Dedicated: 1.4518
         Shared: 1.3696
@@ -79089,6 +80061,9 @@ m6g.8xlarge:
       ap-southeast-3:
         Dedicated: 1.7582
         Shared: 1.666
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.9882
+        Shared: 0.9396
       ca-central-1:
         Dedicated: 1.5818
         Shared: 1.4996
@@ -79162,6 +80137,9 @@ m6g.8xlarge:
       ap-southeast-3:
         Dedicated: 1.7932
         Shared: 1.701
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.0232
+        Shared: 0.9746
       ca-central-1:
         Dedicated: 1.6168
         Shared: 1.5346
@@ -79235,6 +80213,9 @@ m6g.8xlarge:
       ap-southeast-3:
         Dedicated: 1.7532
         Shared: 1.661
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.9832
+        Shared: 0.9346
       ca-central-1:
         Dedicated: 1.5768
         Shared: 1.4946
@@ -79303,6 +80284,7 @@ m6g.8xlarge:
     - us-gov-west-1
     - eu-central-1
     - ap-south-1
+    - Asia Pacific (Hyderabad)
     - eu-west-2
     - Europe (Spain)
     - ap-southeast-3
@@ -79344,6 +80326,9 @@ m6g.large:
       ap-southeast-3:
         Dedicated: 0.1018
         Shared: 0.096
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0536
+        Shared: 0.0506
       ca-central-1:
         Dedicated: 0.0907
         Shared: 0.0856
@@ -79417,6 +80402,9 @@ m6g.large:
       ap-southeast-3:
         Dedicated: 0.1618
         Shared: 0.156
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1136
+        Shared: 0.1106
       ca-central-1:
         Dedicated: 0.1507
         Shared: 0.1456
@@ -79490,6 +80478,9 @@ m6g.large:
       ap-southeast-3:
         Dedicated: 0.1968
         Shared: 0.191
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1486
+        Shared: 0.1456
       ca-central-1:
         Dedicated: 0.1857
         Shared: 0.1806
@@ -79563,6 +80554,9 @@ m6g.large:
       ap-southeast-3:
         Dedicated: 0.1581
         Shared: 0.1523
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1099
+        Shared: 0.1069
       ca-central-1:
         Dedicated: 0.147
         Shared: 0.1419
@@ -79621,6 +80615,7 @@ m6g.large:
     - eu-north-1
     - Europe (Spain)
     - ap-northeast-1
+    - Asia Pacific (Hyderabad)
     - us-west-1
     - ap-southeast-2
     - eu-west-2
@@ -79672,6 +80667,9 @@ m6g.medium:
       ap-southeast-3:
         Dedicated: 0.0509
         Shared: 0.048
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0268
+        Shared: 0.0253
       ca-central-1:
         Dedicated: 0.0454
         Shared: 0.0428
@@ -79745,6 +80743,9 @@ m6g.medium:
       ap-southeast-3:
         Dedicated: 0.1109
         Shared: 0.108
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0868
+        Shared: 0.0853
       ca-central-1:
         Dedicated: 0.1054
         Shared: 0.1028
@@ -79818,6 +80819,9 @@ m6g.medium:
       ap-southeast-3:
         Dedicated: 0.1459
         Shared: 0.143
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1218
+        Shared: 0.1203
       ca-central-1:
         Dedicated: 0.1404
         Shared: 0.1378
@@ -79891,6 +80895,9 @@ m6g.medium:
       ap-southeast-3:
         Dedicated: 0.1072
         Shared: 0.1043
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0831
+        Shared: 0.0816
       ca-central-1:
         Dedicated: 0.0764
         Shared: 0.0738
@@ -79951,6 +80958,7 @@ m6g.medium:
     - ap-southeast-2
     - eu-west-2
     - eu-west-1
+    - Asia Pacific (Hyderabad)
     - Europe (Spain)
     - us-west-1
     - us-east-1
@@ -80000,6 +81008,9 @@ m6g.metal:
       ap-southeast-3:
         Dedicated: 3.2563
         Shared: 3.072
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.7164
+        Shared: 1.6192
       ca-central-1:
         Dedicated: 2.9036
         Shared: 2.7392
@@ -80073,6 +81084,9 @@ m6g.metal:
       ap-southeast-3:
         Dedicated: 3.3863
         Shared: 3.202
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.8464
+        Shared: 1.7492
       ca-central-1:
         Dedicated: 3.0336
         Shared: 2.8692
@@ -80146,6 +81160,9 @@ m6g.metal:
       ap-southeast-3:
         Dedicated: 3.4213
         Shared: 3.237
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.8814
+        Shared: 1.7842
       ca-central-1:
         Dedicated: 3.0686
         Shared: 2.9042
@@ -80219,6 +81236,9 @@ m6g.metal:
       ap-southeast-3:
         Dedicated: 3.3813
         Shared: 3.197
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.8414
+        Shared: 1.7442
       ca-central-1:
         Dedicated: 3.0286
         Shared: 2.8642
@@ -80279,6 +81299,7 @@ m6g.metal:
     - us-west-1
     - ap-northeast-2
     - ap-east-1
+    - Asia Pacific (Hyderabad)
     - eu-west-1
     - Europe (Spain)
     - ap-northeast-1
@@ -80328,6 +81349,9 @@ m6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.2035
         Shared: 0.192
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1073
+        Shared: 0.1012
       ca-central-1:
         Dedicated: 0.1815
         Shared: 0.1712
@@ -80401,6 +81425,9 @@ m6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.2635
         Shared: 0.252
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1673
+        Shared: 0.1612
       ca-central-1:
         Dedicated: 0.2415
         Shared: 0.2312
@@ -80474,6 +81501,9 @@ m6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.2985
         Shared: 0.287
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.2023
+        Shared: 0.1962
       ca-central-1:
         Dedicated: 0.2765
         Shared: 0.2662
@@ -80547,6 +81577,9 @@ m6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.2598
         Shared: 0.2483
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1636
+        Shared: 0.1575
       ca-central-1:
         Dedicated: 0.2378
         Shared: 0.2275
@@ -80606,6 +81639,7 @@ m6g.xlarge:
     - ap-northeast-2
     - us-east-1
     - ap-southeast-1
+    - Asia Pacific (Hyderabad)
     - eu-west-2
     - ca-central-1
     - ap-southeast-3
@@ -80651,6 +81685,9 @@ m6gd.12xlarge:
       ap-southeast-3:
         Dedicated: 2.8752
         Shared: 2.712
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.5366
+        Shared: 1.4496
       eu-central-1:
         Dedicated: 2.772
         Shared: 2.616
@@ -80700,6 +81737,9 @@ m6gd.12xlarge:
       ap-southeast-3:
         Dedicated: 3.0052
         Shared: 2.842
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.6666
+        Shared: 1.5796
       eu-central-1:
         Dedicated: 2.902
         Shared: 2.746
@@ -80749,6 +81789,9 @@ m6gd.12xlarge:
       ap-southeast-3:
         Dedicated: 3.0402
         Shared: 2.877
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.7016
+        Shared: 1.6146
       eu-central-1:
         Dedicated: 2.937
         Shared: 2.781
@@ -80798,6 +81841,9 @@ m6gd.12xlarge:
       ap-southeast-3:
         Dedicated: 3.0002
         Shared: 2.837
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.6616
+        Shared: 1.5746
       eu-central-1:
         Dedicated: 2.897
         Shared: 2.741
@@ -80839,6 +81885,7 @@ m6gd.12xlarge:
     - eu-west-1
     - eu-west-2
     - ap-northeast-1
+    - Asia Pacific (Hyderabad)
     - ap-south-1
     - eu-north-1
     - us-west-2
@@ -80876,6 +81923,9 @@ m6gd.16xlarge:
       ap-southeast-3:
         Dedicated: 3.616
         Shared: 3.616
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.9328
+        Shared: 1.9328
       eu-central-1:
         Dedicated: 3.696
         Shared: 3.488
@@ -80925,6 +81975,9 @@ m6gd.16xlarge:
       ap-southeast-3:
         Dedicated: 3.746
         Shared: 3.746
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.0628
+        Shared: 2.0628
       eu-central-1:
         Dedicated: 3.826
         Shared: 3.618
@@ -80974,6 +82027,9 @@ m6gd.16xlarge:
       ap-southeast-3:
         Dedicated: 3.781
         Shared: 3.781
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.0978
+        Shared: 2.0978
       eu-central-1:
         Dedicated: 3.861
         Shared: 3.653
@@ -81023,6 +82079,9 @@ m6gd.16xlarge:
       ap-southeast-3:
         Dedicated: 3.741
         Shared: 3.741
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.0578
+        Shared: 2.0578
       eu-central-1:
         Dedicated: 3.613
         Shared: 3.613
@@ -81063,6 +82122,7 @@ m6gd.16xlarge:
     - eu-west-1
     - ap-southeast-2
     - eu-north-1
+    - Asia Pacific (Hyderabad)
     - eu-west-2
     - ap-northeast-1
     - us-west-1
@@ -81101,6 +82161,9 @@ m6gd.2xlarge:
       ap-southeast-3:
         Dedicated: 0.4792
         Shared: 0.452
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.2561
+        Shared: 0.2416
       eu-central-1:
         Dedicated: 0.462
         Shared: 0.436
@@ -81150,6 +82213,9 @@ m6gd.2xlarge:
       ap-southeast-3:
         Dedicated: 0.6092
         Shared: 0.582
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.3861
+        Shared: 0.3716
       eu-central-1:
         Dedicated: 0.592
         Shared: 0.566
@@ -81199,6 +82265,9 @@ m6gd.2xlarge:
       ap-southeast-3:
         Dedicated: 0.6442
         Shared: 0.617
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.4211
+        Shared: 0.4066
       eu-central-1:
         Dedicated: 0.627
         Shared: 0.601
@@ -81248,6 +82317,9 @@ m6gd.2xlarge:
       ap-southeast-3:
         Dedicated: 0.6042
         Shared: 0.577
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.3811
+        Shared: 0.3666
       eu-central-1:
         Dedicated: 0.587
         Shared: 0.561
@@ -81294,6 +82366,7 @@ m6gd.2xlarge:
     - ap-southeast-3
     - ap-northeast-1
     - us-west-2
+    - Asia Pacific (Hyderabad)
     - Europe (Zurich)
     - ap-southeast-1
     - eu-west-2
@@ -81326,6 +82399,9 @@ m6gd.4xlarge:
       ap-southeast-3:
         Dedicated: 0.9584
         Shared: 0.904
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.5122
+        Shared: 0.4832
       eu-central-1:
         Dedicated: 0.924
         Shared: 0.872
@@ -81375,6 +82451,9 @@ m6gd.4xlarge:
       ap-southeast-3:
         Dedicated: 1.0884
         Shared: 1.034
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.6422
+        Shared: 0.6132
       eu-central-1:
         Dedicated: 1.054
         Shared: 1.002
@@ -81424,6 +82503,9 @@ m6gd.4xlarge:
       ap-southeast-3:
         Dedicated: 1.1234
         Shared: 1.069
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.6772
+        Shared: 0.6482
       eu-central-1:
         Dedicated: 1.089
         Shared: 1.037
@@ -81473,6 +82555,9 @@ m6gd.4xlarge:
       ap-southeast-3:
         Dedicated: 1.0834
         Shared: 1.029
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.6372
+        Shared: 0.6082
       eu-central-1:
         Dedicated: 1.049
         Shared: 0.997
@@ -81520,6 +82605,7 @@ m6gd.4xlarge:
     - Europe (Zurich)
     - us-east-2
     - eu-west-2
+    - Asia Pacific (Hyderabad)
     - Middle East (UAE)
     - us-west-1
     - eu-central-1
@@ -81551,6 +82637,9 @@ m6gd.8xlarge:
       ap-southeast-3:
         Dedicated: 1.9168
         Shared: 1.808
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.0244
+        Shared: 0.9664
       eu-central-1:
         Dedicated: 1.848
         Shared: 1.744
@@ -81600,6 +82689,9 @@ m6gd.8xlarge:
       ap-southeast-3:
         Dedicated: 2.0468
         Shared: 1.938
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.1544
+        Shared: 1.0964
       eu-central-1:
         Dedicated: 1.978
         Shared: 1.874
@@ -81649,6 +82741,9 @@ m6gd.8xlarge:
       ap-southeast-3:
         Dedicated: 2.0818
         Shared: 1.973
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.1894
+        Shared: 1.1314
       eu-central-1:
         Dedicated: 2.013
         Shared: 1.909
@@ -81698,6 +82793,9 @@ m6gd.8xlarge:
       ap-southeast-3:
         Dedicated: 2.0418
         Shared: 1.933
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.1494
+        Shared: 1.0914
       eu-central-1:
         Dedicated: 1.973
         Shared: 1.869
@@ -81746,6 +82844,7 @@ m6gd.8xlarge:
     - ap-northeast-1
     - us-west-1
     - Middle East (UAE)
+    - Asia Pacific (Hyderabad)
     - ap-southeast-2
     - us-east-1
   storage: 1 x 1900 NVMe SSD
@@ -81776,6 +82875,9 @@ m6gd.large:
       ap-southeast-3:
         Dedicated: 0.1198
         Shared: 0.113
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.064
+        Shared: 0.0604
       eu-central-1:
         Dedicated: 0.1155
         Shared: 0.109
@@ -81825,6 +82927,9 @@ m6gd.large:
       ap-southeast-3:
         Dedicated: 0.1798
         Shared: 0.173
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.124
+        Shared: 0.1204
       eu-central-1:
         Dedicated: 0.1755
         Shared: 0.169
@@ -81874,6 +82979,9 @@ m6gd.large:
       ap-southeast-3:
         Dedicated: 0.2148
         Shared: 0.208
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.159
+        Shared: 0.1554
       eu-central-1:
         Dedicated: 0.2105
         Shared: 0.204
@@ -81923,6 +83031,9 @@ m6gd.large:
       ap-southeast-3:
         Dedicated: 0.1761
         Shared: 0.1693
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1203
+        Shared: 0.1167
       eu-central-1:
         Dedicated: 0.1718
         Shared: 0.1653
@@ -81959,6 +83070,7 @@ m6gd.large:
   regions:
     - eu-north-1
     - eu-west-2
+    - Asia Pacific (Hyderabad)
     - us-east-1
     - Europe (Spain)
     - Europe (Zurich)
@@ -82001,6 +83113,9 @@ m6gd.medium:
       ap-southeast-3:
         Dedicated: 0.0599
         Shared: 0.0565
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.032
+        Shared: 0.0302
       eu-central-1:
         Dedicated: 0.0577
         Shared: 0.0545
@@ -82050,6 +83165,9 @@ m6gd.medium:
       ap-southeast-3:
         Dedicated: 0.1199
         Shared: 0.1165
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.092
+        Shared: 0.0902
       eu-central-1:
         Dedicated: 0.1177
         Shared: 0.1145
@@ -82099,6 +83217,9 @@ m6gd.medium:
       ap-southeast-3:
         Dedicated: 0.1549
         Shared: 0.1515
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.127
+        Shared: 0.1252
       eu-central-1:
         Dedicated: 0.1527
         Shared: 0.1495
@@ -82148,6 +83269,9 @@ m6gd.medium:
       ap-southeast-3:
         Dedicated: 0.1162
         Shared: 0.1128
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0883
+        Shared: 0.0865
       eu-central-1:
         Dedicated: 0.0887
         Shared: 0.0855
@@ -82187,6 +83311,7 @@ m6gd.medium:
     - eu-west-1
     - ap-northeast-1
     - Europe (Spain)
+    - Asia Pacific (Hyderabad)
     - Europe (Zurich)
     - us-east-2
     - Middle East (UAE)
@@ -82226,6 +83351,9 @@ m6gd.metal:
       ap-southeast-3:
         Dedicated: 3.616
         Shared: 3.616
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.9328
+        Shared: 1.9328
       eu-central-1:
         Dedicated: 3.696
         Shared: 3.488
@@ -82275,6 +83403,9 @@ m6gd.metal:
       ap-southeast-3:
         Dedicated: 3.746
         Shared: 3.746
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.0628
+        Shared: 2.0628
       eu-central-1:
         Dedicated: 3.826
         Shared: 3.618
@@ -82324,6 +83455,9 @@ m6gd.metal:
       ap-southeast-3:
         Dedicated: 3.781
         Shared: 3.781
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.0978
+        Shared: 2.0978
       eu-central-1:
         Dedicated: 3.861
         Shared: 3.653
@@ -82373,6 +83507,9 @@ m6gd.metal:
       ap-southeast-3:
         Dedicated: 3.741
         Shared: 3.741
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.0578
+        Shared: 2.0578
       eu-central-1:
         Dedicated: 3.613
         Shared: 3.613
@@ -82408,6 +83545,7 @@ m6gd.metal:
         Shared: 3.0178
   regions:
     - Europe (Zurich)
+    - Asia Pacific (Hyderabad)
     - us-west-2
     - ap-southeast-3
     - eu-north-1
@@ -82451,6 +83589,9 @@ m6gd.xlarge:
       ap-southeast-3:
         Dedicated: 0.2396
         Shared: 0.226
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.128
+        Shared: 0.1208
       eu-central-1:
         Dedicated: 0.231
         Shared: 0.218
@@ -82500,6 +83641,9 @@ m6gd.xlarge:
       ap-southeast-3:
         Dedicated: 0.2996
         Shared: 0.286
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.188
+        Shared: 0.1808
       eu-central-1:
         Dedicated: 0.291
         Shared: 0.278
@@ -82549,6 +83693,9 @@ m6gd.xlarge:
       ap-southeast-3:
         Dedicated: 0.3346
         Shared: 0.321
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.223
+        Shared: 0.2158
       eu-central-1:
         Dedicated: 0.326
         Shared: 0.313
@@ -82598,6 +83745,9 @@ m6gd.xlarge:
       ap-southeast-3:
         Dedicated: 0.2959
         Shared: 0.2823
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1843
+        Shared: 0.1771
       eu-central-1:
         Dedicated: 0.2873
         Shared: 0.2743
@@ -82633,6 +83783,7 @@ m6gd.xlarge:
         Shared: 0.2371
   regions:
     - eu-west-2
+    - Asia Pacific (Hyderabad)
     - ap-southeast-1
     - eu-west-1
     - ap-northeast-1
@@ -92071,6 +93222,9 @@ r5.12xlarge:
       ap-southeast-3:
         Dedicated: 3.867
         Shared: 3.648
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.306
+        Shared: 3.12
       Asia Pacific (Osaka):
         Dedicated: 3.867
         Shared: 3.648
@@ -92156,6 +93310,9 @@ r5.12xlarge:
       ap-southeast-3:
         Dedicated: 3.997
         Shared: 3.778
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.436
+        Shared: 3.25
       Asia Pacific (Osaka):
         Dedicated: 3.997
         Shared: 3.778
@@ -92241,6 +93398,9 @@ r5.12xlarge:
       ap-southeast-3:
         Dedicated: 4.032
         Shared: 3.813
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.471
+        Shared: 3.285
       Asia Pacific (Osaka):
         Dedicated: 4.032
         Shared: 3.813
@@ -92326,6 +93486,9 @@ r5.12xlarge:
       ap-southeast-3:
         Dedicated: 3.992
         Shared: 3.773
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.431
+        Shared: 3.245
       Asia Pacific (Osaka):
         Dedicated: 3.992
         Shared: 3.773
@@ -92411,6 +93574,9 @@ r5.12xlarge:
       ap-southeast-3:
         Dedicated: 3.867
         Shared: 5.856
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.306
+        Shared: 5.328
       Asia Pacific (Osaka):
         Dedicated: 3.867
         Shared: 5.856
@@ -92494,6 +93660,7 @@ r5.12xlarge:
     - us-gov-east-1
     - af-south-1
     - Middle East (UAE)
+    - Asia Pacific (Hyderabad)
     - eu-north-1
     - eu-central-1
     - ap-southeast-2
@@ -92538,6 +93705,9 @@ r5.16xlarge:
       ap-southeast-3:
         Dedicated: 5.156
         Shared: 4.864
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.408
+        Shared: 4.16
       Asia Pacific (Osaka):
         Dedicated: 5.156
         Shared: 4.864
@@ -92623,6 +93793,9 @@ r5.16xlarge:
       ap-southeast-3:
         Dedicated: 5.286
         Shared: 4.994
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.538
+        Shared: 4.29
       Asia Pacific (Osaka):
         Dedicated: 5.286
         Shared: 4.994
@@ -92708,6 +93881,9 @@ r5.16xlarge:
       ap-southeast-3:
         Dedicated: 5.321
         Shared: 5.029
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.573
+        Shared: 4.325
       Asia Pacific (Osaka):
         Dedicated: 5.321
         Shared: 5.029
@@ -92793,6 +93969,9 @@ r5.16xlarge:
       ap-southeast-3:
         Dedicated: 5.281
         Shared: 4.989
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.533
+        Shared: 4.285
       Asia Pacific (Osaka):
         Dedicated: 5.281
         Shared: 4.989
@@ -92878,6 +94057,9 @@ r5.16xlarge:
       ap-southeast-3:
         Dedicated: 8.1
         Shared: 7.808
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.408
+        Shared: 4.16
       Asia Pacific (Osaka):
         Dedicated: 8.1
         Shared: 7.808
@@ -92945,6 +94127,7 @@ r5.16xlarge:
     - us-gov-east-1
     - me-south-1
     - eu-west-3
+    - Asia Pacific (Hyderabad)
     - us-west-1
     - eu-west-1
     - sa-east-1
@@ -93005,6 +94188,9 @@ r5.24xlarge:
       ap-southeast-3:
         Dedicated: 7.296
         Shared: 7.296
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.24
+        Shared: 6.24
       Asia Pacific (Osaka):
         Dedicated: 7.296
         Shared: 7.296
@@ -93090,6 +94276,9 @@ r5.24xlarge:
       ap-southeast-3:
         Dedicated: 7.426
         Shared: 7.426
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.37
+        Shared: 6.37
       Asia Pacific (Osaka):
         Dedicated: 7.426
         Shared: 7.426
@@ -93175,6 +94364,9 @@ r5.24xlarge:
       ap-southeast-3:
         Dedicated: 7.461
         Shared: 7.461
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.405
+        Shared: 6.405
       Asia Pacific (Osaka):
         Dedicated: 7.461
         Shared: 7.461
@@ -93260,6 +94452,9 @@ r5.24xlarge:
       ap-southeast-3:
         Dedicated: 7.421
         Shared: 7.421
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.365
+        Shared: 6.365
       Asia Pacific (Osaka):
         Dedicated: 7.421
         Shared: 7.421
@@ -93345,6 +94540,9 @@ r5.24xlarge:
       ap-southeast-3:
         Dedicated: 7.296
         Shared: 11.712
+      Asia Pacific (Hyderabad):
+        Dedicated: 10.656
+        Shared: 6.24
       Asia Pacific (Osaka):
         Dedicated: 11.712
         Shared: 7.296
@@ -93412,6 +94610,7 @@ r5.24xlarge:
     - Europe (Zurich)
     - af-south-1
     - us-gov-east-1
+    - Asia Pacific (Hyderabad)
     - eu-west-3
     - eu-central-1
     - eu-west-2
@@ -93472,6 +94671,9 @@ r5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.644
         Shared: 0.608
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.551
+        Shared: 0.52
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.821
       Asia Pacific (KDDI) - Tokyo:
@@ -93627,6 +94829,9 @@ r5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.774
         Shared: 0.738
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.681
+        Shared: 0.65
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.951
       Asia Pacific (KDDI) - Tokyo:
@@ -93782,6 +94987,9 @@ r5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.809
         Shared: 0.773
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.716
+        Shared: 0.685
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.986
       Asia Pacific (KDDI) - Tokyo:
@@ -93937,6 +95145,9 @@ r5.2xlarge:
       ap-southeast-3:
         Dedicated: 0.769
         Shared: 0.733
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.676
+        Shared: 0.645
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.946
       Asia Pacific (KDDI) - Tokyo:
@@ -94092,6 +95303,9 @@ r5.2xlarge:
       ap-southeast-3:
         Dedicated: 1.012
         Shared: 0.976
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.551
+        Shared: 0.52
       Asia Pacific (KDDI) - Osaka:
         Shared: 1.189
       Asia Pacific (KDDI) - Tokyo:
@@ -94257,6 +95471,7 @@ r5.2xlarge:
     - eu-west-1
     - eu-west-2
     - Germany (Hamburg)
+    - Asia Pacific (Hyderabad)
     - eu-central-1
     - Poland (Warsaw)
     - eu-west-3
@@ -94322,6 +95537,9 @@ r5.4xlarge:
       ap-southeast-3:
         Dedicated: 1.289
         Shared: 1.216
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.102
+        Shared: 1.04
       Asia Pacific (Osaka):
         Dedicated: 1.289
         Shared: 1.216
@@ -94407,6 +95625,9 @@ r5.4xlarge:
       ap-southeast-3:
         Dedicated: 1.419
         Shared: 1.346
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.232
+        Shared: 1.17
       Asia Pacific (Osaka):
         Dedicated: 1.419
         Shared: 1.346
@@ -94492,6 +95713,9 @@ r5.4xlarge:
       ap-southeast-3:
         Dedicated: 1.454
         Shared: 1.381
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.267
+        Shared: 1.205
       Asia Pacific (Osaka):
         Dedicated: 1.454
         Shared: 1.381
@@ -94577,6 +95801,9 @@ r5.4xlarge:
       ap-southeast-3:
         Dedicated: 1.414
         Shared: 1.341
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.227
+        Shared: 1.165
       Asia Pacific (Osaka):
         Dedicated: 1.414
         Shared: 1.341
@@ -94662,6 +95889,9 @@ r5.4xlarge:
       ap-southeast-3:
         Dedicated: 1.289
         Shared: 1.952
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.102
+        Shared: 1.04
       Asia Pacific (Osaka):
         Dedicated: 1.289
         Shared: 1.216
@@ -94748,6 +95978,7 @@ r5.4xlarge:
     - eu-south-1
     - ap-southeast-1
     - eu-west-2
+    - Asia Pacific (Hyderabad)
     - us-east-1
     - Asia Pacific (Osaka)
     - ap-northeast-1
@@ -94789,6 +96020,9 @@ r5.8xlarge:
       ap-southeast-3:
         Dedicated: 2.578
         Shared: 2.432
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.204
+        Shared: 2.08
       Asia Pacific (Osaka):
         Dedicated: 2.578
         Shared: 2.432
@@ -94874,6 +96108,9 @@ r5.8xlarge:
       ap-southeast-3:
         Dedicated: 2.708
         Shared: 2.562
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.334
+        Shared: 2.21
       Asia Pacific (Osaka):
         Dedicated: 2.708
         Shared: 2.562
@@ -94959,6 +96196,9 @@ r5.8xlarge:
       ap-southeast-3:
         Dedicated: 2.743
         Shared: 2.597
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.369
+        Shared: 2.245
       Asia Pacific (Osaka):
         Dedicated: 2.743
         Shared: 2.597
@@ -95044,6 +96284,9 @@ r5.8xlarge:
       ap-southeast-3:
         Dedicated: 2.703
         Shared: 2.557
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.329
+        Shared: 2.205
       Asia Pacific (Osaka):
         Dedicated: 2.703
         Shared: 2.557
@@ -95129,6 +96372,9 @@ r5.8xlarge:
       ap-southeast-3:
         Dedicated: 2.578
         Shared: 2.432
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.204
+        Shared: 2.08
       Asia Pacific (Osaka):
         Dedicated: 2.578
         Shared: 2.432
@@ -95192,6 +96438,7 @@ r5.8xlarge:
   regions:
     - us-west-2
     - us-gov-west-1
+    - Asia Pacific (Hyderabad)
     - ap-southeast-3
     - eu-central-1
     - ca-central-1
@@ -95256,6 +96503,9 @@ r5.large:
       ap-southeast-3:
         Dedicated: 0.161
         Shared: 0.152
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.138
+        Shared: 0.13
       Asia Pacific (Osaka):
         Dedicated: 0.161
         Shared: 0.152
@@ -95341,6 +96591,9 @@ r5.large:
       ap-southeast-3:
         Dedicated: 0.221
         Shared: 0.212
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.198
+        Shared: 0.19
       Asia Pacific (Osaka):
         Dedicated: 0.221
         Shared: 0.212
@@ -95426,6 +96679,9 @@ r5.large:
       ap-southeast-3:
         Dedicated: 0.256
         Shared: 0.247
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.233
+        Shared: 0.225
       Asia Pacific (Osaka):
         Dedicated: 0.256
         Shared: 0.247
@@ -95511,6 +96767,9 @@ r5.large:
       ap-southeast-3:
         Dedicated: 0.217
         Shared: 0.208
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.194
+        Shared: 0.186
       Asia Pacific (Osaka):
         Dedicated: 0.217
         Shared: 0.208
@@ -95596,6 +96855,9 @@ r5.large:
       ap-southeast-3:
         Dedicated: 0.253
         Shared: 0.152
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.138
+        Shared: 0.222
       Asia Pacific (Osaka):
         Dedicated: 0.253
         Shared: 0.152
@@ -95665,6 +96927,7 @@ r5.large:
     - ap-east-1
     - us-gov-west-1
     - us-gov-east-1
+    - Asia Pacific (Hyderabad)
     - Europe (Zurich)
     - eu-south-1
     - eu-west-2
@@ -95723,6 +96986,9 @@ r5.metal:
       ap-southeast-3:
         Dedicated: 7.296
         Shared: 7.296
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.24
+        Shared: 6.24
       Asia Pacific (Osaka):
         Dedicated: 7.296
         Shared: 7.296
@@ -95808,6 +97074,9 @@ r5.metal:
       ap-southeast-3:
         Dedicated: 7.426
         Shared: 7.426
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.37
+        Shared: 6.37
       Asia Pacific (Osaka):
         Dedicated: 7.426
         Shared: 7.426
@@ -95893,6 +97162,9 @@ r5.metal:
       ap-southeast-3:
         Dedicated: 7.461
         Shared: 7.461
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.405
+        Shared: 6.405
       Asia Pacific (Osaka):
         Dedicated: 7.461
         Shared: 7.461
@@ -95978,6 +97250,9 @@ r5.metal:
       ap-southeast-3:
         Dedicated: 7.421
         Shared: 7.421
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.365
+        Shared: 6.365
       Asia Pacific (Osaka):
         Dedicated: 7.421
         Shared: 7.421
@@ -96063,6 +97338,9 @@ r5.metal:
       ap-southeast-3:
         Dedicated: 11.712
         Shared: 11.712
+      Asia Pacific (Hyderabad):
+        Dedicated: 10.656
+        Shared: 6.24
       Asia Pacific (Osaka):
         Dedicated: 7.296
         Shared: 7.296
@@ -96140,6 +97418,7 @@ r5.metal:
     - ap-northeast-2
     - me-south-1
     - eu-south-1
+    - Asia Pacific (Hyderabad)
     - ap-northeast-1
     - eu-west-1
     - us-west-1
@@ -96190,6 +97469,9 @@ r5.xlarge:
       ap-southeast-3:
         Dedicated: 0.322
         Shared: 0.304
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.276
+        Shared: 0.26
       Asia Pacific (Osaka):
         Dedicated: 0.322
         Shared: 0.304
@@ -96275,6 +97557,9 @@ r5.xlarge:
       ap-southeast-3:
         Dedicated: 0.382
         Shared: 0.364
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.336
+        Shared: 0.32
       Asia Pacific (Osaka):
         Dedicated: 0.382
         Shared: 0.364
@@ -96360,6 +97645,9 @@ r5.xlarge:
       ap-southeast-3:
         Dedicated: 0.417
         Shared: 0.399
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.371
+        Shared: 0.355
       Asia Pacific (Osaka):
         Dedicated: 0.417
         Shared: 0.399
@@ -96445,6 +97733,9 @@ r5.xlarge:
       ap-southeast-3:
         Dedicated: 0.379
         Shared: 0.36
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.332
+        Shared: 0.316
       Asia Pacific (Osaka):
         Dedicated: 0.379
         Shared: 0.36
@@ -96530,6 +97821,9 @@ r5.xlarge:
       ap-southeast-3:
         Dedicated: 0.506
         Shared: 0.488
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.46
+        Shared: 0.444
       Asia Pacific (Osaka):
         Dedicated: 0.506
         Shared: 0.304
@@ -96615,6 +97909,7 @@ r5.xlarge:
     - sa-east-1
     - eu-west-1
     - eu-central-1
+    - Asia Pacific (Hyderabad)
     - Europe (Zurich)
     - ap-northeast-1
     - Asia Pacific (Osaka)
@@ -103187,6 +104482,9 @@ r5d.12xlarge:
       ap-southeast-3:
         Dedicated: 4.427
         Shared: 4.176
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.841
+        Shared: 3.624
       Asia Pacific (Osaka):
         Dedicated: 4.427
         Shared: 4.176
@@ -103272,6 +104570,9 @@ r5d.12xlarge:
       ap-southeast-3:
         Dedicated: 4.557
         Shared: 4.306
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.971
+        Shared: 3.754
       Asia Pacific (Osaka):
         Dedicated: 4.557
         Shared: 4.306
@@ -103357,6 +104658,9 @@ r5d.12xlarge:
       ap-southeast-3:
         Dedicated: 4.592
         Shared: 4.341
+      Asia Pacific (Hyderabad):
+        Dedicated: 4.006
+        Shared: 3.789
       Asia Pacific (Osaka):
         Dedicated: 4.592
         Shared: 4.341
@@ -103442,6 +104746,9 @@ r5d.12xlarge:
       ap-southeast-3:
         Dedicated: 4.552
         Shared: 4.301
+      Asia Pacific (Hyderabad):
+        Dedicated: 3.966
+        Shared: 3.749
       Asia Pacific (Osaka):
         Dedicated: 4.552
         Shared: 4.301
@@ -103527,6 +104834,9 @@ r5d.12xlarge:
       ap-southeast-3:
         Dedicated: 6.635
         Shared: 4.176
+      Asia Pacific (Hyderabad):
+        Dedicated: 6.049
+        Shared: 3.624
       Asia Pacific (Osaka):
         Dedicated: 6.635
         Shared: 6.384
@@ -103613,6 +104923,7 @@ r5d.12xlarge:
     - ap-southeast-1
     - Asia Pacific (Osaka)
     - Middle East (UAE)
+    - Asia Pacific (Hyderabad)
     - eu-south-1
     - us-east-2
     - us-gov-west-1
@@ -103655,6 +104966,9 @@ r5d.16xlarge:
       ap-southeast-3:
         Dedicated: 5.902
         Shared: 5.568
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.122
+        Shared: 4.832
       Asia Pacific (Osaka):
         Dedicated: 5.902
         Shared: 5.568
@@ -103740,6 +105054,9 @@ r5d.16xlarge:
       ap-southeast-3:
         Dedicated: 6.032
         Shared: 5.698
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.252
+        Shared: 4.962
       Asia Pacific (Osaka):
         Dedicated: 6.032
         Shared: 5.698
@@ -103825,6 +105142,9 @@ r5d.16xlarge:
       ap-southeast-3:
         Dedicated: 6.067
         Shared: 5.733
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.287
+        Shared: 4.997
       Asia Pacific (Osaka):
         Dedicated: 6.067
         Shared: 5.733
@@ -103910,6 +105230,9 @@ r5d.16xlarge:
       ap-southeast-3:
         Dedicated: 6.027
         Shared: 5.693
+      Asia Pacific (Hyderabad):
+        Dedicated: 5.247
+        Shared: 4.957
       Asia Pacific (Osaka):
         Dedicated: 6.027
         Shared: 5.693
@@ -103995,6 +105318,9 @@ r5d.16xlarge:
       ap-southeast-3:
         Dedicated: 5.902
         Shared: 8.512
+      Asia Pacific (Hyderabad):
+        Dedicated: 8.066
+        Shared: 4.832
       Asia Pacific (Osaka):
         Dedicated: 8.846
         Shared: 8.512
@@ -104068,6 +105394,7 @@ r5d.16xlarge:
     - Europe (Spain)
     - Asia Pacific (Osaka)
     - ap-south-1
+    - Asia Pacific (Hyderabad)
     - Middle East (UAE)
     - us-west-2-lax-1a
     - us-east-1
@@ -104123,6 +105450,9 @@ r5d.24xlarge:
       ap-southeast-3:
         Dedicated: 8.352
         Shared: 8.352
+      Asia Pacific (Hyderabad):
+        Dedicated: 7.248
+        Shared: 7.248
       Asia Pacific (Osaka):
         Dedicated: 8.352
         Shared: 8.352
@@ -104208,6 +105538,9 @@ r5d.24xlarge:
       ap-southeast-3:
         Dedicated: 8.482
         Shared: 8.482
+      Asia Pacific (Hyderabad):
+        Dedicated: 7.378
+        Shared: 7.378
       Asia Pacific (Osaka):
         Dedicated: 8.482
         Shared: 8.482
@@ -104293,6 +105626,9 @@ r5d.24xlarge:
       ap-southeast-3:
         Dedicated: 8.517
         Shared: 8.517
+      Asia Pacific (Hyderabad):
+        Dedicated: 7.413
+        Shared: 7.413
       Asia Pacific (Osaka):
         Dedicated: 8.517
         Shared: 8.517
@@ -104378,6 +105714,9 @@ r5d.24xlarge:
       ap-southeast-3:
         Dedicated: 8.477
         Shared: 8.477
+      Asia Pacific (Hyderabad):
+        Dedicated: 7.373
+        Shared: 7.373
       Asia Pacific (Osaka):
         Dedicated: 8.477
         Shared: 8.477
@@ -104463,6 +105802,9 @@ r5d.24xlarge:
       ap-southeast-3:
         Dedicated: 8.352
         Shared: 12.768
+      Asia Pacific (Hyderabad):
+        Dedicated: 11.664
+        Shared: 11.664
       Asia Pacific (Osaka):
         Dedicated: 12.768
         Shared: 12.768
@@ -104548,6 +105890,7 @@ r5d.24xlarge:
     - us-west-2-lax-1a
     - us-west-1
     - ap-northeast-1
+    - Asia Pacific (Hyderabad)
     - eu-south-1
     - eu-west-2
     - ca-central-1
@@ -104591,6 +105934,9 @@ r5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.738
         Shared: 0.696
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.64
+        Shared: 0.604
       Asia Pacific (Osaka):
         Dedicated: 0.738
         Shared: 0.696
@@ -104721,6 +106067,9 @@ r5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.868
         Shared: 0.826
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.77
+        Shared: 0.734
       Asia Pacific (Osaka):
         Dedicated: 0.868
         Shared: 0.826
@@ -104851,6 +106200,9 @@ r5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.903
         Shared: 0.861
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.805
+        Shared: 0.769
       Asia Pacific (Osaka):
         Dedicated: 0.903
         Shared: 0.861
@@ -104981,6 +106333,9 @@ r5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.863
         Shared: 0.821
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.765
+        Shared: 0.729
       Asia Pacific (Osaka):
         Dedicated: 0.863
         Shared: 0.821
@@ -105111,6 +106466,9 @@ r5d.2xlarge:
       ap-southeast-3:
         Dedicated: 0.738
         Shared: 0.696
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.64
+        Shared: 0.972
       Asia Pacific (Osaka):
         Dedicated: 1.106
         Shared: 1.064
@@ -105251,6 +106609,7 @@ r5d.2xlarge:
     - ap-east-1
     - US West (Phoenix)
     - eu-central-1
+    - Asia Pacific (Hyderabad)
     - US West (Portland)
     - eu-west-2
     - US West (Las Vegas)
@@ -105298,6 +106657,9 @@ r5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.476
         Shared: 1.392
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.28
+        Shared: 1.208
       Asia Pacific (Osaka):
         Dedicated: 1.476
         Shared: 1.392
@@ -105383,6 +106745,9 @@ r5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.606
         Shared: 1.522
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.41
+        Shared: 1.338
       Asia Pacific (Osaka):
         Dedicated: 1.606
         Shared: 1.522
@@ -105468,6 +106833,9 @@ r5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.641
         Shared: 1.557
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.445
+        Shared: 1.373
       Asia Pacific (Osaka):
         Dedicated: 1.641
         Shared: 1.557
@@ -105553,6 +106921,9 @@ r5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.601
         Shared: 1.517
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.405
+        Shared: 1.333
       Asia Pacific (Osaka):
         Dedicated: 1.601
         Shared: 1.517
@@ -105638,6 +107009,9 @@ r5d.4xlarge:
       ap-southeast-3:
         Dedicated: 1.476
         Shared: 1.392
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.016
+        Shared: 1.208
       Asia Pacific (Osaka):
         Dedicated: 2.212
         Shared: 2.128
@@ -105713,6 +107087,7 @@ r5d.4xlarge:
     - ap-southeast-3
     - us-east-1
     - eu-south-1
+    - Asia Pacific (Hyderabad)
     - eu-north-1
     - af-south-1
     - us-east-2
@@ -105766,6 +107141,9 @@ r5d.8xlarge:
       ap-southeast-3:
         Dedicated: 2.951
         Shared: 2.784
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.561
+        Shared: 2.416
       Asia Pacific (Osaka):
         Dedicated: 2.951
         Shared: 2.784
@@ -105851,6 +107229,9 @@ r5d.8xlarge:
       ap-southeast-3:
         Dedicated: 3.081
         Shared: 2.914
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.691
+        Shared: 2.546
       Asia Pacific (Osaka):
         Dedicated: 3.081
         Shared: 2.914
@@ -105936,6 +107317,9 @@ r5d.8xlarge:
       ap-southeast-3:
         Dedicated: 3.116
         Shared: 2.949
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.726
+        Shared: 2.581
       Asia Pacific (Osaka):
         Dedicated: 3.116
         Shared: 2.949
@@ -106021,6 +107405,9 @@ r5d.8xlarge:
       ap-southeast-3:
         Dedicated: 3.076
         Shared: 2.909
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.686
+        Shared: 2.541
       Asia Pacific (Osaka):
         Dedicated: 3.076
         Shared: 2.909
@@ -106106,6 +107493,9 @@ r5d.8xlarge:
       ap-southeast-3:
         Dedicated: 4.423
         Shared: 2.784
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.561
+        Shared: 3.888
       Asia Pacific (Osaka):
         Dedicated: 4.423
         Shared: 4.256
@@ -106193,6 +107583,7 @@ r5d.8xlarge:
     - us-gov-east-1
     - sa-east-1
     - ap-northeast-1
+    - Asia Pacific (Hyderabad)
     - us-east-2
     - eu-north-1
     - US East (Houston)
@@ -106235,6 +107626,9 @@ r5d.large:
       ap-southeast-3:
         Dedicated: 0.184
         Shared: 0.174
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.16
+        Shared: 0.151
       Asia Pacific (Osaka):
         Dedicated: 0.184
         Shared: 0.174
@@ -106320,6 +107714,9 @@ r5d.large:
       ap-southeast-3:
         Dedicated: 0.244
         Shared: 0.234
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.22
+        Shared: 0.211
       Asia Pacific (Osaka):
         Dedicated: 0.244
         Shared: 0.234
@@ -106405,6 +107802,9 @@ r5d.large:
       ap-southeast-3:
         Dedicated: 0.279
         Shared: 0.269
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.255
+        Shared: 0.246
       Asia Pacific (Osaka):
         Dedicated: 0.279
         Shared: 0.269
@@ -106490,6 +107890,9 @@ r5d.large:
       ap-southeast-3:
         Dedicated: 0.241
         Shared: 0.23
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.216
+        Shared: 0.207
       Asia Pacific (Osaka):
         Dedicated: 0.241
         Shared: 0.23
@@ -106575,6 +107978,9 @@ r5d.large:
       ap-southeast-3:
         Dedicated: 0.184
         Shared: 0.266
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.16
+        Shared: 0.151
       Asia Pacific (Osaka):
         Dedicated: 0.276
         Shared: 0.266
@@ -106652,6 +108058,7 @@ r5d.large:
     - Middle East (UAE)
     - eu-south-1
     - sa-east-1
+    - Asia Pacific (Hyderabad)
     - af-south-1
     - eu-west-1
     - me-south-1
@@ -106703,6 +108110,9 @@ r5d.metal:
       ap-southeast-3:
         Dedicated: 8.352
         Shared: 8.352
+      Asia Pacific (Hyderabad):
+        Dedicated: 7.248
+        Shared: 7.248
       Asia Pacific (Osaka):
         Dedicated: 8.352
         Shared: 8.352
@@ -106788,6 +108198,9 @@ r5d.metal:
       ap-southeast-3:
         Dedicated: 8.482
         Shared: 8.482
+      Asia Pacific (Hyderabad):
+        Dedicated: 7.378
+        Shared: 7.378
       Asia Pacific (Osaka):
         Dedicated: 8.482
         Shared: 8.482
@@ -106873,6 +108286,9 @@ r5d.metal:
       ap-southeast-3:
         Dedicated: 8.517
         Shared: 8.517
+      Asia Pacific (Hyderabad):
+        Dedicated: 7.413
+        Shared: 7.413
       Asia Pacific (Osaka):
         Dedicated: 8.517
         Shared: 8.517
@@ -106958,6 +108374,9 @@ r5d.metal:
       ap-southeast-3:
         Dedicated: 8.477
         Shared: 8.477
+      Asia Pacific (Hyderabad):
+        Dedicated: 7.373
+        Shared: 7.373
       Asia Pacific (Osaka):
         Dedicated: 8.477
         Shared: 8.477
@@ -107043,6 +108462,9 @@ r5d.metal:
       ap-southeast-3:
         Dedicated: 12.768
         Shared: 12.768
+      Asia Pacific (Hyderabad):
+        Dedicated: 11.664
+        Shared: 7.248
       Asia Pacific (Osaka):
         Dedicated: 12.768
         Shared: 12.768
@@ -107108,6 +108530,7 @@ r5d.metal:
     - Europe (Spain)
     - af-south-1
     - ap-east-1
+    - Asia Pacific (Hyderabad)
     - us-west-1
     - ap-northeast-1
     - eu-west-3
@@ -107171,6 +108594,9 @@ r5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.369
         Shared: 0.348
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.32
+        Shared: 0.302
       Asia Pacific (Osaka):
         Dedicated: 0.369
         Shared: 0.348
@@ -107256,6 +108682,9 @@ r5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.429
         Shared: 0.408
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.38
+        Shared: 0.362
       Asia Pacific (Osaka):
         Dedicated: 0.429
         Shared: 0.408
@@ -107341,6 +108770,9 @@ r5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.464
         Shared: 0.443
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.415
+        Shared: 0.397
       Asia Pacific (Osaka):
         Dedicated: 0.464
         Shared: 0.443
@@ -107426,6 +108858,9 @@ r5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.425
         Shared: 0.404
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.376
+        Shared: 0.358
       Asia Pacific (Osaka):
         Dedicated: 0.425
         Shared: 0.404
@@ -107511,6 +108946,9 @@ r5d.xlarge:
       ap-southeast-3:
         Dedicated: 0.553
         Shared: 0.532
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.504
+        Shared: 0.302
       Asia Pacific (Osaka):
         Dedicated: 0.553
         Shared: 0.532
@@ -107579,6 +109017,7 @@ r5d.xlarge:
     - eu-west-3
     - ap-east-1
     - ap-south-1
+    - Asia Pacific (Hyderabad)
     - ap-northeast-1
     - ap-southeast-1
     - me-south-1
@@ -114253,6 +115692,9 @@ r6g.12xlarge:
       ap-southeast-3:
         Dedicated: 3.0935
         Shared: 2.9184
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.6536
+        Shared: 1.56
       ca-central-1:
         Dedicated: 2.8086
         Shared: 2.6496
@@ -114323,6 +115765,9 @@ r6g.12xlarge:
       ap-southeast-3:
         Dedicated: 3.2235
         Shared: 3.0484
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.7836
+        Shared: 1.69
       ca-central-1:
         Dedicated: 2.9386
         Shared: 2.7796
@@ -114393,6 +115838,9 @@ r6g.12xlarge:
       ap-southeast-3:
         Dedicated: 3.2585
         Shared: 3.0834
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.8186
+        Shared: 1.725
       ca-central-1:
         Dedicated: 2.9736
         Shared: 2.8146
@@ -114463,6 +115911,9 @@ r6g.12xlarge:
       ap-southeast-3:
         Dedicated: 3.2185
         Shared: 3.0434
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.7786
+        Shared: 1.685
       ca-central-1:
         Dedicated: 2.9336
         Shared: 2.7746
@@ -114529,6 +115980,7 @@ r6g.12xlarge:
     - ap-northeast-2
     - us-east-2
     - eu-west-1
+    - Asia Pacific (Hyderabad)
     - ca-central-1
     - us-gov-east-1
     - eu-west-3
@@ -114569,6 +116021,9 @@ r6g.16xlarge:
       ap-southeast-3:
         Dedicated: 3.8912
         Shared: 3.8912
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.08
+        Shared: 2.08
       ca-central-1:
         Dedicated: 3.7448
         Shared: 3.5328
@@ -114639,6 +116094,9 @@ r6g.16xlarge:
       ap-southeast-3:
         Dedicated: 4.0212
         Shared: 4.0212
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.21
+        Shared: 2.21
       ca-central-1:
         Dedicated: 3.8748
         Shared: 3.6628
@@ -114709,6 +116167,9 @@ r6g.16xlarge:
       ap-southeast-3:
         Dedicated: 4.0562
         Shared: 4.0562
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.245
+        Shared: 2.245
       ca-central-1:
         Dedicated: 3.9098
         Shared: 3.6978
@@ -114779,6 +116240,9 @@ r6g.16xlarge:
       ap-southeast-3:
         Dedicated: 4.0162
         Shared: 4.0162
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.205
+        Shared: 2.205
       ca-central-1:
         Dedicated: 3.6578
         Shared: 3.6578
@@ -114850,6 +116314,7 @@ r6g.16xlarge:
     - us-east-2
     - ap-south-1
     - eu-central-1
+    - Asia Pacific (Hyderabad)
     - us-gov-west-1
   storage: EBS only
   vcpu: 64
@@ -114885,6 +116350,9 @@ r6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.5156
         Shared: 0.4864
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.2756
+        Shared: 0.26
       ca-central-1:
         Dedicated: 0.4681
         Shared: 0.4416
@@ -114955,6 +116423,9 @@ r6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.6456
         Shared: 0.6164
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.4056
+        Shared: 0.39
       ca-central-1:
         Dedicated: 0.5981
         Shared: 0.5716
@@ -115025,6 +116496,9 @@ r6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.6806
         Shared: 0.6514
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.4406
+        Shared: 0.425
       ca-central-1:
         Dedicated: 0.6331
         Shared: 0.6066
@@ -115095,6 +116569,9 @@ r6g.2xlarge:
       ap-southeast-3:
         Dedicated: 0.6406
         Shared: 0.6114
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.4006
+        Shared: 0.385
       ca-central-1:
         Dedicated: 0.5931
         Shared: 0.5666
@@ -115163,6 +116640,7 @@ r6g.2xlarge:
     - eu-west-2
     - ap-southeast-1
     - us-west-2
+    - Asia Pacific (Hyderabad)
     - us-east-1
     - ap-east-1
     - eu-north-1
@@ -115201,6 +116679,9 @@ r6g.4xlarge:
       ap-southeast-3:
         Dedicated: 1.0312
         Shared: 0.9728
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.5512
+        Shared: 0.52
       ca-central-1:
         Dedicated: 0.9362
         Shared: 0.8832
@@ -115271,6 +116752,9 @@ r6g.4xlarge:
       ap-southeast-3:
         Dedicated: 1.1612
         Shared: 1.1028
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.6812
+        Shared: 0.65
       ca-central-1:
         Dedicated: 1.0662
         Shared: 1.0132
@@ -115341,6 +116825,9 @@ r6g.4xlarge:
       ap-southeast-3:
         Dedicated: 1.1962
         Shared: 1.1378
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.7162
+        Shared: 0.685
       ca-central-1:
         Dedicated: 1.1012
         Shared: 1.0482
@@ -115411,6 +116898,9 @@ r6g.4xlarge:
       ap-southeast-3:
         Dedicated: 1.1562
         Shared: 1.0978
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.6762
+        Shared: 0.645
       ca-central-1:
         Dedicated: 1.0612
         Shared: 1.0082
@@ -115477,6 +116967,7 @@ r6g.4xlarge:
     - ca-central-1
     - us-gov-west-1
     - eu-south-1
+    - Asia Pacific (Hyderabad)
     - us-west-2
     - eu-north-1
     - eu-west-1
@@ -115517,6 +117008,9 @@ r6g.8xlarge:
       ap-southeast-3:
         Dedicated: 2.0623
         Shared: 1.9456
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.1024
+        Shared: 1.04
       ca-central-1:
         Dedicated: 1.8724
         Shared: 1.7664
@@ -115587,6 +117081,9 @@ r6g.8xlarge:
       ap-southeast-3:
         Dedicated: 2.1923
         Shared: 2.0756
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.2324
+        Shared: 1.17
       ca-central-1:
         Dedicated: 2.0024
         Shared: 1.8964
@@ -115657,6 +117154,9 @@ r6g.8xlarge:
       ap-southeast-3:
         Dedicated: 2.2273
         Shared: 2.1106
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.2674
+        Shared: 1.205
       ca-central-1:
         Dedicated: 2.0374
         Shared: 1.9314
@@ -115727,6 +117227,9 @@ r6g.8xlarge:
       ap-southeast-3:
         Dedicated: 2.1873
         Shared: 2.0706
+      Asia Pacific (Hyderabad):
+        Dedicated: 1.2274
+        Shared: 1.165
       ca-central-1:
         Dedicated: 1.9974
         Shared: 1.8914
@@ -115783,6 +117286,7 @@ r6g.8xlarge:
     - us-gov-east-1
     - us-west-1
     - sa-east-1
+    - Asia Pacific (Hyderabad)
     - eu-south-1
     - Europe (Spain)
     - eu-central-1
@@ -115833,6 +117337,9 @@ r6g.large:
       ap-southeast-3:
         Dedicated: 0.1289
         Shared: 0.1216
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0689
+        Shared: 0.065
       ca-central-1:
         Dedicated: 0.117
         Shared: 0.1104
@@ -115903,6 +117410,9 @@ r6g.large:
       ap-southeast-3:
         Dedicated: 0.1889
         Shared: 0.1816
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1289
+        Shared: 0.125
       ca-central-1:
         Dedicated: 0.177
         Shared: 0.1704
@@ -115973,6 +117483,9 @@ r6g.large:
       ap-southeast-3:
         Dedicated: 0.2239
         Shared: 0.2166
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1639
+        Shared: 0.16
       ca-central-1:
         Dedicated: 0.212
         Shared: 0.2054
@@ -116043,6 +117556,9 @@ r6g.large:
       ap-southeast-3:
         Dedicated: 0.1852
         Shared: 0.1779
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1252
+        Shared: 0.1213
       ca-central-1:
         Dedicated: 0.1733
         Shared: 0.1667
@@ -116098,6 +117614,7 @@ r6g.large:
     - eu-west-1
     - ap-southeast-1
     - sa-east-1
+    - Asia Pacific (Hyderabad)
     - eu-central-1
     - ap-south-1
     - us-east-1
@@ -116149,6 +117666,9 @@ r6g.medium:
       ap-southeast-3:
         Dedicated: 0.0644
         Shared: 0.0608
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0345
+        Shared: 0.0325
       ca-central-1:
         Dedicated: 0.0585
         Shared: 0.0552
@@ -116219,6 +117739,9 @@ r6g.medium:
       ap-southeast-3:
         Dedicated: 0.1244
         Shared: 0.1208
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0945
+        Shared: 0.0925
       ca-central-1:
         Dedicated: 0.1185
         Shared: 0.1152
@@ -116289,6 +117812,9 @@ r6g.medium:
       ap-southeast-3:
         Dedicated: 0.1594
         Shared: 0.1558
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1295
+        Shared: 0.1275
       ca-central-1:
         Dedicated: 0.1535
         Shared: 0.1502
@@ -116359,6 +117885,9 @@ r6g.medium:
       ap-southeast-3:
         Dedicated: 0.1207
         Shared: 0.1171
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.0908
+        Shared: 0.0888
       ca-central-1:
         Dedicated: 0.0895
         Shared: 0.0862
@@ -116418,6 +117947,7 @@ r6g.medium:
     - ap-southeast-3
     - Europe (Spain)
     - ap-northeast-1
+    - Asia Pacific (Hyderabad)
     - ap-east-1
     - eu-west-2
     - ca-central-1
@@ -116465,6 +117995,9 @@ r6g.metal:
       ap-southeast-3:
         Dedicated: 3.8912
         Shared: 3.8912
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.08
+        Shared: 2.08
       ca-central-1:
         Dedicated: 3.7448
         Shared: 3.5328
@@ -116535,6 +118068,9 @@ r6g.metal:
       ap-southeast-3:
         Dedicated: 4.0212
         Shared: 4.0212
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.21
+        Shared: 2.21
       ca-central-1:
         Dedicated: 3.8748
         Shared: 3.6628
@@ -116605,6 +118141,9 @@ r6g.metal:
       ap-southeast-3:
         Dedicated: 4.0562
         Shared: 4.0562
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.245
+        Shared: 2.245
       ca-central-1:
         Dedicated: 3.9098
         Shared: 3.6978
@@ -116675,6 +118214,9 @@ r6g.metal:
       ap-southeast-3:
         Dedicated: 4.0162
         Shared: 4.0162
+      Asia Pacific (Hyderabad):
+        Dedicated: 2.205
+        Shared: 2.205
       ca-central-1:
         Dedicated: 3.6578
         Shared: 3.6578
@@ -116726,6 +118268,7 @@ r6g.metal:
   regions:
     - eu-central-1
     - Europe (Spain)
+    - Asia Pacific (Hyderabad)
     - us-west-1
     - ap-southeast-1
     - us-gov-west-1
@@ -116781,6 +118324,9 @@ r6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.2578
         Shared: 0.2432
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1378
+        Shared: 0.13
       ca-central-1:
         Dedicated: 0.234
         Shared: 0.2208
@@ -116851,6 +118397,9 @@ r6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.3178
         Shared: 0.3032
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1978
+        Shared: 0.19
       ca-central-1:
         Dedicated: 0.294
         Shared: 0.2808
@@ -116921,6 +118470,9 @@ r6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.3528
         Shared: 0.3382
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.2328
+        Shared: 0.225
       ca-central-1:
         Dedicated: 0.329
         Shared: 0.3158
@@ -116991,6 +118543,9 @@ r6g.xlarge:
       ap-southeast-3:
         Dedicated: 0.3141
         Shared: 0.2995
+      Asia Pacific (Hyderabad):
+        Dedicated: 0.1941
+        Shared: 0.1863
       ca-central-1:
         Dedicated: 0.2903
         Shared: 0.2771
@@ -117051,6 +118606,7 @@ r6g.xlarge:
     - ap-southeast-3
     - ap-northeast-1
     - Europe (Spain)
+    - Asia Pacific (Hyderabad)
     - eu-west-1
     - us-gov-east-1
     - eu-central-1
@@ -124755,6 +126311,8 @@ t3.2xlarge:
         Shared: 0.4224
       ap-southeast-3:
         Shared: 0.4224
+      Asia Pacific (Hyderabad):
+        Shared: 0.3584
       Asia Pacific (Osaka):
         Shared: 0.4352
       ca-central-1:
@@ -124829,6 +126387,8 @@ t3.2xlarge:
         Shared: 0.5524
       ap-southeast-3:
         Shared: 0.5524
+      Asia Pacific (Hyderabad):
+        Shared: 0.4884
       Asia Pacific (Osaka):
         Shared: 0.5652
       ca-central-1:
@@ -124897,6 +126457,8 @@ t3.2xlarge:
         Shared: 0.5874
       ap-southeast-3:
         Shared: 0.5874
+      Asia Pacific (Hyderabad):
+        Shared: 0.5234
       Asia Pacific (Osaka):
         Shared: 0.6002
       ca-central-1:
@@ -124960,6 +126522,8 @@ t3.2xlarge:
         Shared: 0.5474
       ap-southeast-3:
         Shared: 0.5474
+      Asia Pacific (Hyderabad):
+        Shared: 0.4834
       Asia Pacific (Osaka):
         Shared: 0.5602
       ca-central-1:
@@ -125034,6 +126598,8 @@ t3.2xlarge:
         Shared: 0.5696
       ap-southeast-3:
         Shared: 0.4224
+      Asia Pacific (Hyderabad):
+        Shared: 0.3584
       Asia Pacific (Osaka):
         Shared: 0.5824
       ca-central-1:
@@ -125100,6 +126666,7 @@ t3.2xlarge:
     - eu-south-1
     - us-west-2-lax-1a
     - ap-south-1
+    - Asia Pacific (Hyderabad)
     - Europe (Zurich)
     - ca-central-1
     - eu-central-1
@@ -125150,6 +126717,8 @@ t3.large:
         Shared: 0.1056
       ap-southeast-3:
         Shared: 0.1056
+      Asia Pacific (Hyderabad):
+        Shared: 0.0896
       Asia Pacific (Osaka):
         Shared: 0.1088
       ca-central-1:
@@ -125224,6 +126793,8 @@ t3.large:
         Shared: 0.1656
       ap-southeast-3:
         Shared: 0.1656
+      Asia Pacific (Hyderabad):
+        Shared: 0.1496
       Asia Pacific (Osaka):
         Shared: 0.1688
       ca-central-1:
@@ -125292,6 +126863,8 @@ t3.large:
         Shared: 0.2006
       ap-southeast-3:
         Shared: 0.2006
+      Asia Pacific (Hyderabad):
+        Shared: 0.1846
       Asia Pacific (Osaka):
         Shared: 0.2038
       ca-central-1:
@@ -125355,6 +126928,8 @@ t3.large:
         Shared: 0.1619
       ap-southeast-3:
         Shared: 0.1619
+      Asia Pacific (Hyderabad):
+        Shared: 0.1459
       Asia Pacific (Osaka):
         Shared: 0.1651
       ca-central-1:
@@ -125429,6 +127004,8 @@ t3.large:
         Shared: 0.1332
       ap-southeast-3:
         Shared: 0.1056
+      Asia Pacific (Hyderabad):
+        Shared: 0.1172
       Asia Pacific (Osaka):
         Shared: 0.1364
       ca-central-1:
@@ -125506,6 +127083,7 @@ t3.large:
     - ap-south-1
     - us-west-2-lax-1a
     - us-gov-east-1
+    - Asia Pacific (Hyderabad)
     - us-west-2
     - eu-south-1
     - eu-central-1
@@ -125545,6 +127123,8 @@ t3.medium:
         Shared: 0.0528
       ap-southeast-3:
         Shared: 0.0528
+      Asia Pacific (Hyderabad):
+        Shared: 0.0448
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.0734
       Asia Pacific (KDDI) - Tokyo:
@@ -125707,6 +127287,8 @@ t3.medium:
         Shared: 0.1128
       ap-southeast-3:
         Shared: 0.1128
+      Asia Pacific (Hyderabad):
+        Shared: 0.1048
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.1334
       Asia Pacific (KDDI) - Tokyo:
@@ -125863,6 +127445,8 @@ t3.medium:
         Shared: 0.1478
       ap-southeast-3:
         Shared: 0.1478
+      Asia Pacific (Hyderabad):
+        Shared: 0.1398
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.1684
       Asia Pacific (KDDI) - Tokyo:
@@ -126014,6 +127598,8 @@ t3.medium:
         Shared: 0.1091
       ap-southeast-3:
         Shared: 0.1091
+      Asia Pacific (Hyderabad):
+        Shared: 0.1011
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.1297
       Asia Pacific (KDDI) - Tokyo:
@@ -126176,6 +127762,8 @@ t3.medium:
         Shared: 0.0712
       ap-southeast-3:
         Shared: 0.0712
+      Asia Pacific (Hyderabad):
+        Shared: 0.0448
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.0918
       Asia Pacific (KDDI) - Tokyo:
@@ -126349,6 +127937,7 @@ t3.medium:
     - US West (Las Vegas)
     - US East (Verizon) - Chicago
     - US East (Verizon) - Minneapolis
+    - Asia Pacific (Hyderabad)
     - Asia Pacific (Osaka)
     - af-south-1
     - Asia Pacific (SKT) - Daejeon
@@ -126424,6 +128013,8 @@ t3.micro:
         Shared: 0.0132
       ap-southeast-3:
         Shared: 0.0132
+      Asia Pacific (Hyderabad):
+        Shared: 0.0112
       Asia Pacific (Osaka):
         Shared: 0.0136
       ca-central-1:
@@ -126498,6 +128089,8 @@ t3.micro:
         Shared: 0.0732
       ap-southeast-3:
         Shared: 0.0732
+      Asia Pacific (Hyderabad):
+        Shared: 0.0712
       Asia Pacific (Osaka):
         Shared: 0.0736
       ca-central-1:
@@ -126566,6 +128159,8 @@ t3.micro:
         Shared: 0.1082
       ap-southeast-3:
         Shared: 0.1082
+      Asia Pacific (Hyderabad):
+        Shared: 0.1062
       Asia Pacific (Osaka):
         Shared: 0.1086
       ca-central-1:
@@ -126629,6 +128224,8 @@ t3.micro:
         Shared: 0.0132
       ap-southeast-3:
         Shared: 0.0132
+      Asia Pacific (Hyderabad):
+        Shared: 0.0112
       Asia Pacific (Osaka):
         Shared: 0.0136
       ca-central-1:
@@ -126703,6 +128300,8 @@ t3.micro:
         Shared: 0.0224
       ap-southeast-3:
         Shared: 0.0224
+      Asia Pacific (Hyderabad):
+        Shared: 0.0204
       Asia Pacific (Osaka):
         Shared: 0.0228
       ca-central-1:
@@ -126773,6 +128372,7 @@ t3.micro:
     - ap-southeast-2
     - ca-central-1
     - ap-northeast-2
+    - Asia Pacific (Hyderabad)
     - eu-north-1
     - af-south-1
     - Europe (Zurich)
@@ -126819,6 +128419,8 @@ t3.nano:
         Shared: 0.0066
       ap-southeast-3:
         Shared: 0.0066
+      Asia Pacific (Hyderabad):
+        Shared: 0.0056
       Asia Pacific (Osaka):
         Shared: 0.0068
       ca-central-1:
@@ -126893,6 +128495,8 @@ t3.nano:
         Shared: 0.0066
       ap-southeast-3:
         Shared: 0.0066
+      Asia Pacific (Hyderabad):
+        Shared: 0.0056
       Asia Pacific (Osaka):
         Shared: 0.0068
       ca-central-1:
@@ -126967,6 +128571,8 @@ t3.nano:
         Shared: 0.0112
       ap-southeast-3:
         Shared: 0.0112
+      Asia Pacific (Hyderabad):
+        Shared: 0.0102
       Asia Pacific (Osaka):
         Shared: 0.0114
       ca-central-1:
@@ -127044,6 +128650,7 @@ t3.nano:
     - us-west-2
     - eu-north-1
     - us-west-1
+    - Asia Pacific (Hyderabad)
     - Europe (Spain)
     - Asia Pacific (Osaka)
     - us-gov-east-1
@@ -127083,6 +128690,8 @@ t3.small:
         Shared: 0.0264
       ap-southeast-3:
         Shared: 0.0264
+      Asia Pacific (Hyderabad):
+        Shared: 0.0224
       Asia Pacific (Osaka):
         Shared: 0.0272
       ca-central-1:
@@ -127157,6 +128766,8 @@ t3.small:
         Shared: 0.0864
       ap-southeast-3:
         Shared: 0.0864
+      Asia Pacific (Hyderabad):
+        Shared: 0.0824
       Asia Pacific (Osaka):
         Shared: 0.0872
       ca-central-1:
@@ -127225,6 +128836,8 @@ t3.small:
         Shared: 0.1214
       ap-southeast-3:
         Shared: 0.1214
+      Asia Pacific (Hyderabad):
+        Shared: 0.1174
       Asia Pacific (Osaka):
         Shared: 0.1222
       ca-central-1:
@@ -127288,6 +128901,8 @@ t3.small:
         Shared: 0.0574
       ap-southeast-3:
         Shared: 0.0574
+      Asia Pacific (Hyderabad):
+        Shared: 0.0537
       Asia Pacific (Osaka):
         Shared: 0.0582
       ca-central-1:
@@ -127362,6 +128977,8 @@ t3.small:
         Shared: 0.0448
       ap-southeast-3:
         Shared: 0.0264
+      Asia Pacific (Hyderabad):
+        Shared: 0.0408
       Asia Pacific (Osaka):
         Shared: 0.0456
       ca-central-1:
@@ -127416,6 +129033,7 @@ t3.small:
   regions:
     - ap-northeast-2
     - Middle East (UAE)
+    - Asia Pacific (Hyderabad)
     - eu-west-3
     - us-west-2
     - ap-south-1
@@ -127478,6 +129096,8 @@ t3.xlarge:
         Shared: 0.2112
       ap-southeast-3:
         Shared: 0.2112
+      Asia Pacific (Hyderabad):
+        Shared: 0.1792
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.2938
       Asia Pacific (KDDI) - Tokyo:
@@ -127640,6 +129260,8 @@ t3.xlarge:
         Shared: 0.2712
       ap-southeast-3:
         Shared: 0.2712
+      Asia Pacific (Hyderabad):
+        Shared: 0.2392
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.3538
       Asia Pacific (KDDI) - Tokyo:
@@ -127796,6 +129418,8 @@ t3.xlarge:
         Shared: 0.3062
       ap-southeast-3:
         Shared: 0.3062
+      Asia Pacific (Hyderabad):
+        Shared: 0.2742
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.3888
       Asia Pacific (KDDI) - Tokyo:
@@ -127947,6 +129571,8 @@ t3.xlarge:
         Shared: 0.2675
       ap-southeast-3:
         Shared: 0.2675
+      Asia Pacific (Hyderabad):
+        Shared: 0.2355
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.3501
       Asia Pacific (KDDI) - Tokyo:
@@ -128109,6 +129735,8 @@ t3.xlarge:
         Shared: 0.2848
       ap-southeast-3:
         Shared: 0.2848
+      Asia Pacific (Hyderabad):
+        Shared: 0.2528
       Asia Pacific (KDDI) - Osaka:
         Shared: 0.3674
       Asia Pacific (KDDI) - Tokyo:
@@ -128260,6 +129888,7 @@ t3.xlarge:
     - Europe (Spain)
     - ap-south-1
     - af-south-1
+    - Asia Pacific (Hyderabad)
     - US West (Denver)
     - eu-west-1
     - ap-east-1
@@ -129791,6 +131420,8 @@ t4g.2xlarge:
         Shared: 0.3392
       ap-southeast-2:
         Shared: 0.3392
+      Asia Pacific (Hyderabad):
+        Shared: 0.1792
       ca-central-1:
         Shared: 0.2944
       eu-central-1:
@@ -129836,6 +131467,8 @@ t4g.2xlarge:
         Shared: 0.4692
       ap-southeast-2:
         Shared: 0.4692
+      Asia Pacific (Hyderabad):
+        Shared: 0.3092
       ca-central-1:
         Shared: 0.4244
       eu-central-1:
@@ -129881,6 +131514,8 @@ t4g.2xlarge:
         Shared: 0.5042
       ap-southeast-2:
         Shared: 0.5042
+      Asia Pacific (Hyderabad):
+        Shared: 0.3442
       ca-central-1:
         Shared: 0.4594
       eu-central-1:
@@ -129926,6 +131561,8 @@ t4g.2xlarge:
         Shared: 0.4642
       ap-southeast-2:
         Shared: 0.4642
+      Asia Pacific (Hyderabad):
+        Shared: 0.3042
       ca-central-1:
         Shared: 0.4194
       eu-central-1:
@@ -129963,6 +131600,7 @@ t4g.2xlarge:
     - eu-west-2
     - us-east-1
     - eu-north-1
+    - Asia Pacific (Hyderabad)
     - ap-northeast-2
     - sa-east-1
     - us-gov-east-1
@@ -130006,6 +131644,8 @@ t4g.large:
         Shared: 0.0848
       ap-southeast-2:
         Shared: 0.0848
+      Asia Pacific (Hyderabad):
+        Shared: 0.0448
       ca-central-1:
         Shared: 0.0736
       eu-central-1:
@@ -130051,6 +131691,8 @@ t4g.large:
         Shared: 0.1448
       ap-southeast-2:
         Shared: 0.1448
+      Asia Pacific (Hyderabad):
+        Shared: 0.1048
       ca-central-1:
         Shared: 0.1336
       eu-central-1:
@@ -130096,6 +131738,8 @@ t4g.large:
         Shared: 0.1798
       ap-southeast-2:
         Shared: 0.1798
+      Asia Pacific (Hyderabad):
+        Shared: 0.1398
       ca-central-1:
         Shared: 0.1686
       eu-central-1:
@@ -130141,6 +131785,8 @@ t4g.large:
         Shared: 0.1411
       ap-southeast-2:
         Shared: 0.1411
+      Asia Pacific (Hyderabad):
+        Shared: 0.1011
       ca-central-1:
         Shared: 0.1299
       eu-central-1:
@@ -130176,6 +131822,7 @@ t4g.large:
   regions:
     - us-east-1
     - us-east-2
+    - Asia Pacific (Hyderabad)
     - Europe (Spain)
     - eu-west-3
     - ap-east-1
@@ -130221,6 +131868,8 @@ t4g.medium:
         Shared: 0.0424
       ap-southeast-2:
         Shared: 0.0424
+      Asia Pacific (Hyderabad):
+        Shared: 0.0224
       ca-central-1:
         Shared: 0.0368
       eu-central-1:
@@ -130266,6 +131915,8 @@ t4g.medium:
         Shared: 0.1024
       ap-southeast-2:
         Shared: 0.1024
+      Asia Pacific (Hyderabad):
+        Shared: 0.0824
       ca-central-1:
         Shared: 0.0968
       eu-central-1:
@@ -130311,6 +131962,8 @@ t4g.medium:
         Shared: 0.1374
       ap-southeast-2:
         Shared: 0.1374
+      Asia Pacific (Hyderabad):
+        Shared: 0.1174
       ca-central-1:
         Shared: 0.1318
       eu-central-1:
@@ -130356,6 +132009,8 @@ t4g.medium:
         Shared: 0.0987
       ap-southeast-2:
         Shared: 0.0987
+      Asia Pacific (Hyderabad):
+        Shared: 0.0787
       ca-central-1:
         Shared: 0.0931
       eu-central-1:
@@ -130390,6 +132045,7 @@ t4g.medium:
         Shared: 0.0899
   regions:
     - ap-southeast-1
+    - Asia Pacific (Hyderabad)
     - eu-central-1
     - us-gov-east-1
     - sa-east-1
@@ -130436,6 +132092,8 @@ t4g.micro:
         Shared: 0.0106
       ap-southeast-2:
         Shared: 0.0106
+      Asia Pacific (Hyderabad):
+        Shared: 0.0056
       ca-central-1:
         Shared: 0.0092
       eu-central-1:
@@ -130481,6 +132139,8 @@ t4g.micro:
         Shared: 0.0706
       ap-southeast-2:
         Shared: 0.0706
+      Asia Pacific (Hyderabad):
+        Shared: 0.0656
       ca-central-1:
         Shared: 0.0692
       eu-central-1:
@@ -130526,6 +132186,8 @@ t4g.micro:
         Shared: 0.1056
       ap-southeast-2:
         Shared: 0.1056
+      Asia Pacific (Hyderabad):
+        Shared: 0.1006
       ca-central-1:
         Shared: 0.1042
       eu-central-1:
@@ -130571,6 +132233,8 @@ t4g.micro:
         Shared: 0.0106
       ap-southeast-2:
         Shared: 0.0106
+      Asia Pacific (Hyderabad):
+        Shared: 0.0056
       ca-central-1:
         Shared: 0.0092
       eu-central-1:
@@ -130609,6 +132273,7 @@ t4g.micro:
     - eu-north-1
     - ap-east-1
     - eu-central-1
+    - Asia Pacific (Hyderabad)
     - Middle East (UAE)
     - us-east-1
     - eu-south-1
@@ -130651,6 +132316,8 @@ t4g.nano:
         Shared: 0.0053
       ap-southeast-2:
         Shared: 0.0053
+      Asia Pacific (Hyderabad):
+        Shared: 0.0028
       ca-central-1:
         Shared: 0.0046
       eu-central-1:
@@ -130696,6 +132363,8 @@ t4g.nano:
         Shared: 0.0053
       ap-southeast-2:
         Shared: 0.0053
+      Asia Pacific (Hyderabad):
+        Shared: 0.0028
       ca-central-1:
         Shared: 0.0046
       eu-central-1:
@@ -130744,6 +132413,7 @@ t4g.nano:
     - us-gov-west-1
     - us-east-1
     - us-gov-east-1
+    - Asia Pacific (Hyderabad)
     - ap-southeast-2
     - eu-west-2
     - ap-south-1
@@ -130776,6 +132446,8 @@ t4g.small:
         Shared: 0.0212
       ap-southeast-2:
         Shared: 0.0212
+      Asia Pacific (Hyderabad):
+        Shared: 0.0112
       ca-central-1:
         Shared: 0.0184
       eu-central-1:
@@ -130821,6 +132493,8 @@ t4g.small:
         Shared: 0.0812
       ap-southeast-2:
         Shared: 0.0812
+      Asia Pacific (Hyderabad):
+        Shared: 0.0712
       ca-central-1:
         Shared: 0.0784
       eu-central-1:
@@ -130866,6 +132540,8 @@ t4g.small:
         Shared: 0.1162
       ap-southeast-2:
         Shared: 0.1162
+      Asia Pacific (Hyderabad):
+        Shared: 0.1062
       ca-central-1:
         Shared: 0.1134
       eu-central-1:
@@ -130911,6 +132587,8 @@ t4g.small:
         Shared: 0.0525
       ap-southeast-2:
         Shared: 0.0525
+      Asia Pacific (Hyderabad):
+        Shared: 0.0425
       ca-central-1:
         Shared: 0.0497
       eu-central-1:
@@ -130960,6 +132638,7 @@ t4g.small:
     - sa-east-1
     - eu-central-1
     - eu-west-1
+    - Asia Pacific (Hyderabad)
     - ap-east-1
     - eu-west-2
     - us-east-2
@@ -130991,6 +132670,8 @@ t4g.xlarge:
         Shared: 0.1696
       ap-southeast-2:
         Shared: 0.1696
+      Asia Pacific (Hyderabad):
+        Shared: 0.0896
       ca-central-1:
         Shared: 0.1472
       eu-central-1:
@@ -131036,6 +132717,8 @@ t4g.xlarge:
         Shared: 0.2296
       ap-southeast-2:
         Shared: 0.2296
+      Asia Pacific (Hyderabad):
+        Shared: 0.1496
       ca-central-1:
         Shared: 0.2072
       eu-central-1:
@@ -131081,6 +132764,8 @@ t4g.xlarge:
         Shared: 0.2646
       ap-southeast-2:
         Shared: 0.2646
+      Asia Pacific (Hyderabad):
+        Shared: 0.1846
       ca-central-1:
         Shared: 0.2422
       eu-central-1:
@@ -131126,6 +132811,8 @@ t4g.xlarge:
         Shared: 0.2259
       ap-southeast-2:
         Shared: 0.2259
+      Asia Pacific (Hyderabad):
+        Shared: 0.1459
       ca-central-1:
         Shared: 0.2035
       eu-central-1:
@@ -131160,6 +132847,7 @@ t4g.xlarge:
         Shared: 0.1907
   regions:
     - Middle East (UAE)
+    - Asia Pacific (Hyderabad)
     - ap-southeast-2
     - us-gov-west-1
     - ap-southeast-1
